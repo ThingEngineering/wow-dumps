@@ -11,6 +11,7 @@ World of Warcraft data dumps. This repository exists mostly to be used by [WoWth
 2. Run it (make sure WoW isn't running!)
 3. Navigate to http://localhost:5000
 4. `Tables` -> `Browse`
-5. Tick `Use hotfixes?`
-6. Hit the down arrow next to the `CSV` button -> `Download ZIP of all DB2s`
-7. Extract the downloaded zip over files in the relevant region folder
+5. Pick a random table to look at
+6. Tick `Use hotfixes?`
+7. Hit the down arrow next to the `CSV` button -> `Download ZIP of all DB2s`
+8. Extract the downloaded zip over files in the relevant region folder
