@@ -1645,9 +1645,9 @@ Dispara 1-2 balas de uranio al objetivo, lo que inflige [StandardDamage(1,1)] p.
 Dispara una vez más si el usuario ataca primero.",133011,9,0,0,0
 790,Paquete de estimulantes,"La probabilidad de golpe crítico aumenta un [abs(abilityStateMod( 40, 790 ))]%.",237032,-1,0,320,2
 791,Paquete de estimulantes,"Aumenta tu probabilidad de golpe crítico un [abs(abilityStateMod(40, 790))]% durante [duration(1,1)] |4ronda:rondas.",237032,5,0,0,2
-792,Flama Oscura,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe|r
+792,Flama Oscura,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Quema al enemigo con una llama oscura, lo que inflige [StandardDamage(1,1)] [School()] p. de daño y provoca que el objetivo reciba un [abs(abilityStateMod(66,793))]% menos de sanación durante [duration(1,2)] |4ronda:roundas.",425951,6,3,0,0
+Quema al enemigo con una llama oscura, lo que inflige [StandardDamage(1,1)] p. de daño [School()] y provoca que el objetivo reciba un [abs(abilityStateMod(66,793))]% menos de sanación durante [duration(1,2)] |4ronda:rondas.",425951,6,3,0,0
 793,Reducción de sanación,"Sanación recibida reducida un [abs(abilityStateMod(66,793))]%.",132355,-1,0,377,3
 794,Renacimiento oscuro,"Si te matan en la siguiente ronda, revivirás con toda la salud, pero perderás un [points(1,1,796)]% de salud por ronda.",237570,6,5,0,2
 795,Renacimiento oscuro,"Si te matan, revivirás con toda la salud, pero perderás un [points(1,1,796)]% de salud por ronda.",237570,6,0,0,0
@@ -3727,3 +3727,11 @@ Al final de la ronda, tu velocidad aumenta un 10% por cada vez que golpea la hab
 2495,Tormenta de garras ferales,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Giras y das zarpazos al enemigo con tus garras, lo que inflige [StandardDamage(1,1)] p. de daño [School()] y le aplica un |cFF970000Sangrado|r que inflige [StandardDamage(1,1,491)] p. de daño [School(491)] por ronda durante [duration(1,2)] |4ronda:rondas;.",4632786,4,0,0,0
+2498,Puñetazo en la cara X,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Das un puñetazo rápido directo a la cara del enemigo con todas tus fuerzas e infliges [StandardDamage(1,1)] p. de daño [School()]. 
+
+El daño aumenta [FormatDamage(10*AttackBonus())] p. cada vez que se usa. Puede infligir un máximo de [FormatDamage(30*AttackBonus())] p. de daño [School()].",135906,0,0,0,0
+2499,Golpe cuántico,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Golpea al enemigo y le inflige [StandardDamage(1,1)] p. de daño de [petTypeName(abilityPetType())].",1392544,5,0,0,0

@@ -579,7 +579,7 @@ A’shran,588,572,0,0,3,0,0,0,0,0,0,0
 Mine d’A’shran,589,588,0,0,5,0,0,0,0,0,0,0
 Mur-de-Givre,590,525,13,0,6,0,0,64896,0,0,0,0
 Auchindoun,593,535,0,0,4,0,0,0,0,0,0,0
-Shattrath,594,535,0,0,6,0,0,0,0,0,0,0
+Shattrath,594,572,4096,0,6,0,0,0,0,0,0,0
 Quais de Fer,595,543,0,0,4,0,0,0,0,0,0,0
 Fonderie des Rochenoires,596,543,0,0,4,0,0,0,0,0,0,0
 Fonderie des Rochenoires,597,543,0,0,4,0,0,0,0,0,0,0
@@ -767,7 +767,7 @@ Le Cauchemar d’émeraude,786,641,64,0,4,0,0,0,0,0,0,0
 Le Cauchemar d’émeraude,787,641,64,0,4,0,0,0,0,0,0,0
 Le Cauchemar d’émeraude,788,641,64,0,4,0,0,0,0,0,0,0
 Le Cauchemar d’émeraude,789,641,64,0,4,0,0,0,0,0,0,0
-L’Oeil d’Azshara,790,619,2,0,3,4,1,0,0,0,0,484
+L’Oeil d’Azshara,790,619,6,0,3,4,1,0,0,0,0,484
 Temple du Serpent de jade,791,371,64,0,4,0,0,0,0,0,0,0
 Temple du Serpent de jade,792,371,64,0,4,0,0,0,0,0,0,0
 Bastion du Freux,793,641,0,0,6,0,0,0,0,0,0,0
@@ -1568,7 +1568,7 @@ Rivages de l’Éveil,2022,1978,6,0,3,119,0,0,0,0,0,0
 Plaines d’Ohn’ahra,2023,1978,6,0,3,119,0,0,0,0,0,0
 Travée d’Azur,2024,1978,6,0,3,119,0,0,0,0,0,0
 Thaldraszus,2025,1978,6,0,3,119,0,0,0,0,0,0
-Confins Interdits,2026,1978,6,0,6,0,0,0,0,0,0,0
+Confins Interdits obsolètes,2026,0,0,0,6,0,0,0,0,0,0,0
 Fonderie de l’Éclosion,2027,1970,0,0,5,0,0,0,0,0,0,0
 Esper locrien,2028,1970,0,0,5,0,0,0,0,0,0,0
 Repos de la fertilité,2029,1970,0,0,5,0,0,0,0,0,0,0
@@ -1614,14 +1614,14 @@ Creux des Fougerobes,2096,2024,0,0,4,0,0,0,0,0,0,0
 Académie d’Algeth’ar,2097,2025,0,0,4,0,0,0,0,0,0,0
 Académie d’Algeth’ar,2098,2025,0,0,4,0,0,0,0,0,0,0
 Académie d’Algeth’ar,2099,2025,0,0,4,0,0,0,0,0,0,0
-Le couvoir du Siège,2100,2026,0,0,5,0,0,0,0,0,0,0
-Le couvoir Auxiliaire,2101,2026,0,0,5,0,0,0,0,0,0,0
-Couvoir Martial,2102,2026,0,0,5,0,0,0,0,0,0,0
+Le couvoir du Siège,2100,2151,0,0,5,0,0,0,0,0,0,0
+Le couvoir Auxiliaire,2101,2151,0,0,5,0,0,0,0,0,0,0
+Couvoir Martial,2102,2151,0,0,5,0,0,0,0,0,0,0
 Creux des Fougerobes,2106,2024,0,0,4,0,0,0,0,0,0,0
-Confins Interdits,2107,1978,32774,0,3,0,0,102255,0,0,8,0
-Couvoir Martial,2109,2107,0,0,5,0,0,0,0,0,0,0
-Le couvoir Auxiliaire,2110,2107,0,0,5,0,0,0,0,0,0,0
-Le couvoir du Siège,2111,2107,0,0,5,0,0,0,0,0,0,0
+Confins Interdits,2107,0,0,0,3,0,0,0,0,0,0,0
+Couvoir Martial,2109,2118,0,0,5,0,0,0,0,0,0,0
+Le couvoir Auxiliaire,2110,2118,0,0,5,0,0,0,0,0,0,0
+Le couvoir du Siège,2111,2118,0,0,5,0,0,0,0,0,0,0
 Valdrakken,2112,2025,4,0,3,119,0,0,0,0,0,0
 Confins Interdits,2118,1978,6,0,3,0,0,102254,0,0,8,0
 Caveau des Incarnations,2119,2025,0,0,4,0,0,0,0,0,0,0
@@ -1641,3 +1641,7 @@ Travée d’Azur,2132,2024,0,0,5,0,0,0,0,0,0,0
 Valdrakken,2134,2130,4,2,3,0,0,0,0,0,0,0
 Valdrakken,2135,1978,0,0,6,0,0,0,0,0,0,0
 Plaines d’Ohn’ahra,2149,0,4,2,2,0,0,0,0,5350,0,0
+Île du Crâne-de-Dragon,2150,2151,0,0,5,0,0,0,0,0,0,0
+Confins Interdits,2151,1978,6,0,3,119,0,102255,0,0,0,0
+Caveau Givre-Pierre,2154,2151,0,0,5,0,0,0,0,0,0,0
+Vallée d’Alterac,2162,25,0,0,6,0,0,0,0,0,0,0

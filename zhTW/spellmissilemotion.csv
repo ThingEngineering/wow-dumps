@@ -24332,3 +24332,24 @@ local variance = 7
 height = height + (rand1 * variance)
 
 transUp = parabola(height)",0,1
+4579,"Fountain (Very High, faster spin)","local angle = 0
+local maxMagnitude = startDistance * 0.6
+local spinRate = 520
+
+modelPitch = time * spinRate
+
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+--transFront = -distanceToFirePos * (1 - progress)
+",0,1
+4580,10.0.7 Baine Questline - Accessory - Trinket - Test - Parabola - ZGS,"local angle = 0
+local maxMagnitude = startDistance * .4
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 275
+--modelRoll = progress * 175",0,1

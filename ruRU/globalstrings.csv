@@ -7314,7 +7314,7 @@ ID,BaseTag,TagText_lang,Flags
 19044,STRING_SCHOOL_SPELLSTRIKE,Удар магии,1
 19045,STRING_SCHOOL_STORMSTRIKE,Удар бури,1
 19046,STRING_SCHOOL_SHADOWSTRIKE,Удар Тьмы,1
-19047,STRING_SCHOOL_HOLYSTRIKE,Удар светлой магии,1
+19047,STRING_SCHOOL_HOLYSTRIKE,Удар Света,1
 19048,STRING_SCHOOL_SPELLFIRE,Чары огня,1
 19049,STRING_SCHOOL_FIRESTORM,Сила вулкана,1
 19050,STRING_SCHOOL_SHADOWFLAME,Пламя Тьмы,1
@@ -12437,7 +12437,7 @@ ID,BaseTag,TagText_lang,Flags
 24648,ERR_IN_BATTLEGROUND_RESPEC,Эта специализация не подходит для выбранной роли.,1
 24649,OPTION_TOOLTIP_ANTIALIASING,"Сглаживание контуров – это технология сглаживания неровных краев, особенно полезная при низком разрешении.",3
 24650,GARRISON_LANDING_PAGE_TITLE,Отчет из гарнизона,1
-24651,TRADESKILL_CHARGES_REMAINING,Доступных использований: %i из %i,1
+24651,TRADESKILL_CHARGES_REMAINING,Можно изготовить: %i / %i.,1
 24652,SPELL_FAILED_CUSTOM_ERROR_216,Цель находится слишком далеко.,1
 24653,GARRISON_LANDING_STATUS_BUILDING,Строительство,1
 24654,GARRISON_LANDING_STATUS_MISSION_TRAVEL,Путешествие,1
@@ -15246,8 +15246,8 @@ ID,BaseTag,TagText_lang,Flags
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,2
 34695,VISITABLE_URL4,http://ruRU.nydus.battle.net/wow/ruRU/client/challenge/%d/%d,2
 34696,VISITABLE_URL5,https://eu.battle.net/support/ru/games/wow?loc,2
-34697,VISITABLE_URL6,https://eu.battle.net/support/ru/ticket/submit?loc,2
-34698,VISITABLE_URL7,https://eu.battle.net/support/ru/ticket/status?loc,2
+34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
+34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
 34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
 34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
 34701,VISITABLE_URL_GENERIC,http://ruRU.nydus.battle.net/WOW/ruRU/client/in_game_mail_link_%d,2
@@ -17013,7 +17013,7 @@ ID,BaseTag,TagText_lang,Flags
 36729,COMMUNITIES_ADD_TO_CHAT_DROP_DOWN_CHAT_SETTINGS,Параметры,1
 36734,EXPANSION_TRIAL,Пробная версия дополнения,1
 36735,EXPANSION_TRIAL_THANKS_TITLE,Благодарим за игру!,1
-36736,EXPANSION_TRIAL_THANKS_TEXT,Приобретите дополнение и продолжите свои приключения!,1
+36736,EXPANSION_TRIAL_THANKS_TEXT,"Вы достигли максимального доступного уровня!|n|nВесь получаемый опыт в дальнейшем будет откладываться. Приобретите Dragonflight, чтобы воспользоваться отложенным опытом и продолжить развитие персонажа до 70-го уровня!",1
 36737,EXPANSION_TRIAL_THANKS_BUTTON,Купить дополнение,1
 36738,EXPANSION_TRIAL_LOCKED_TOOLTIP_TEXT,"Чтобы разблокировать этого персонажа, приобретите Battle for Azeroth и используйте на нем идущее в комплекте мгновенное повышение уровня.",2
 36739,CLICK_TO_OPEN_SHOP,Перейти в магазин,3
@@ -17936,7 +17936,7 @@ ID,BaseTag,TagText_lang,Flags
 41556,ERR_CANT_USE_PROFANITY,Нельзя использовать бранные слова.,1
 41557,RAF_REWARD_TITLE,Новое звание: %s,1
 41558,CLUB_FINDER_COMMUNITY_RECRUITING_NOTE,Сообщение для главы сообщества (необязательно),1
-41559,RAF_MONTHS_EARNED,Вы заработали %d |4месяц:месяца:месяцев;,1
+41559,RAF_MONTHS_EARNED,Друзья подарили вам %d |4месяц:месяца:месяцев; подписки,1
 41560,RAF_YOU_HAVE_EARNED,Вы заработали:,1
 41561,RAF_NEXT_REWARD_AFTER,Следующая награда (%d из %d |4месяца:месяцев:месяцев;),1
 41564,SPELL_FAILED_CUSTOM_ERROR_421,"Выберите предмет из комплекта отъявленного гладиатора, чтобы улучшить его.",1
@@ -19075,8 +19075,8 @@ ID,BaseTag,TagText_lang,Flags
 42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,Верхний ярус,1
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Приключение ковенанта,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Вы не можете покинуть канал чата: %s,1
-42880,VISITABLE_URL50,https://eu.battle.net/support/ru/help/home,2
-42881,VISITABLE_URL51,https://support-qa-eu.stech.blizzard.net/ru/help/home,2
+42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
+42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к специальным возможностям. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42883,MAC_INPUT_MONITORING1015,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к функциям мониторинга ввода. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42884,BINDING_NAME_CENTERCAMERA,Удерживание в центре камеры,1
@@ -19748,7 +19748,7 @@ ID,BaseTag,TagText_lang,Flags
 44170,PVP_RANK_4_NAME,Дуэлянт,1
 44171,PVP_RANK_5_NAME,Ветеран,1
 44172,PVP_RANK_8_NEXT_RANK_DESC,"Достигните рейтинга 1950, чтобы получить:|n- новый ранг улучшения экипировки для PvP",1
-44173,PVP_RANK_4_NEXT_RANK_DESC,"Достигните рейтинга 2100, чтобы получить:|n- звание дуэлянта|n- внешний вид предмета из элитного комплекта экипировки для PvP: престижный плащ",1
+44173,PVP_RANK_4_NEXT_RANK_DESC,"Достигните рейтинга 2100, чтобы получить:|n- звание дуэлянта|n- внешний вид предмета из элитного комплекта экипировки для PvP: престижный плащ|n- элитные чары для оружия для PvP",1
 44174,PVP_RANK_5_NEXT_RANK_DESC,"Достигните рейтинга 2400, чтобы получить:|n- звание ветерана|n- внешний вид предмета из элитного комплекта экипировки для PvP: гербовая накидка",1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%1$s (%2$d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,Транскрипция голосового чата,1
@@ -20531,7 +20531,7 @@ ID,BaseTag,TagText_lang,Flags
 49208,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH_TITLE,"Изучить специализацию ""%1$s""?",1
 49209,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH,"Открыть подспециализацию ""%1$s""? Все сделанные изменения будут сохранены.",1
 49210,PROFESSIONS_SPECIALIZATION_UNLOCK_PATH,Открыть подспециализацию,1
-49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Открыть,1
+49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Разблокировать специализацию,1
 49212,PROFESSIONS_SPECIALIZATION_SUBPATH_UNLOCK_REQUIREMENT,"Чтобы открыть подспециализацию, требуется %1$d |4очко:очка:очков; в специализации ""%2$s"".",1
 49213,PROFESSIONS_SPECIALIZATION_PERK_RANK_SOURCE,"Нужно %d |4очко:очка:очков; в специализации ""%s"".",1
 49214,PROFESSIONS_SPECIALIZATION_PERK_UNLOCK_SOURCE,"Требуется открыть специализацию: ""%1$s"".",1
@@ -20675,7 +20675,7 @@ ID,BaseTag,TagText_lang,Flags
 Это также может повысить навык, но со сниженной вероятностью.",1
 49398,HUD_EDIT_MODE_ERROR_MAX_LAYOUTS,У вас может быть не более %d макетов персонажа и %d макетов учетной записи,1
 49399,PERKS_PROGRAM_PURCHASED_TEXT,У вас есть этот предмет,1
-49400,GOSSIP_QUEST_OPTION_PREPEND,|cnBRIGHTBLUE_FONT_COLOR:Задание! |r%1$s,1
+49400,GOSSIP_QUEST_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(Задание)|r%s,1
 49401,HUD_EDIT_MODE_ERROR_MAX_ACCOUNT_LAYOUTS,"У вас может быть не более %1$d макетов, общих для всей учетной записи. Поставьте галочку, чтобы сохранить макет для текущего персонажа.",1
 49402,HUD_EDIT_MODE_ERROR_MAX_CHAR_LAYOUTS,"У вас может быть не более %1$d макетов персонажа. Уберите галочку, чтобы сохранить макет для всей учетной записи.",1
 49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,|cnNORMAL_FONT_COLOR:Copy Layout|r|nУ вас может быть не более %d макетов персонажа и %d макетов учетной записи,1
@@ -20988,7 +20988,7 @@ ID,BaseTag,TagText_lang,Flags
 49736,VIDEO_OPTIONS_STANDARD,Стандартный,3
 49737,VIDEO_OPTIONS_AGGRESSIVE,Агрессивный,3
 49738,VRS_MODE,Режим VRS,3
-49739,OPTION_TOOLTIP_VRS_MODE,Интенсивность режима оптимизации шейдинга (VRS),3
+49739,OPTION_TOOLTIP_VRS_MODE,"Интенсивность режима оптимизации шейдинга (VRS). VRS – это функция графического процессора, снижающая его нагрузку без значимого ущерба качеству изображения. Активация этой функции на поддерживаемом устройстве может повысить быстродействие.",3
 49740,PROFESSIONS_CRAFT_OUTPUT_TITLE,Изготовлено,1
 49741,PROFESSIONS_OUTPUT_INSPIRATION_TITLE,Вдохновение,1
 49742,PROFESSIONS_OUTPUT_INSPIRATION_DESC,"Вас посетило вдохновение, и вы изготовили предмет с бонусом к мастерству.",1
@@ -21285,7 +21285,7 @@ ID,BaseTag,TagText_lang,Flags
 
 Разместить этот заказ?",1
 50020,ERR_CRAFTING_ORDER_RECEIVED,Вы получили новый частный заказ.,1
-50021,CRAFTING_ORDER_RECRAFT_CANT_CRAFT,"Чтобы разместить заказ на переделку предмета максимального качества, нужно изменить дополнительные реагенты",1
+50021,CRAFTING_ORDER_RECRAFT_CANT_CRAFT,"Чтобы разместить заказ на переделку предмета максимального качества, нужно изменить дополнительные реагенты.",1
 50022,SPELL_FAILED_CUSTOM_ERROR_820,На этой опоре больше негде ухватиться.,1
 50023,SPELL_FAILED_CUSTOM_ERROR_821,"Выполните ежедневное задание, чтобы получить доступ к этому месту.",1
 50025,DRAGONFLIGHT_TOTHESKIES,Dragonflight – в небеса,2
@@ -21355,7 +21355,7 @@ ID,BaseTag,TagText_lang,Flags
 50093,PROFESSIONS_AUTO_EQUIP_JEWELCRAFTING_ONLY,Этот предмет можно вставить только в ячейку снаряжения для ювелирного дела.,1
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,Этот предмет можно вставить только в ячейку снаряжения для начертания.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,Переделка,1
-50096,CRAFTING_ORDER_ILVL_DISPLAY,%1$d и выше,1
+50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
 50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,"Некоторые рецепты позволяют повышать уровень предмета, который в итоге получится. Для этого понадобятся дополнительные реагенты.",1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/макетимя,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/макетимя,1
@@ -21429,9 +21429,7 @@ ID,BaseTag,TagText_lang,Flags
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Прочность снаряжения,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Размер,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Прогресс журнала путешественника,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,"Посетите торговую лавку в городе %s и получите журнал путешественника.
-
-Требуется активное игровое время.",1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Посетите торговую лавку в городе %s и получите журнал путешественника.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Подбор соперников|nЗначение,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Выполняйте задачи путешественника каждый месяц, чтобы получать торговые жетоны и особые награды из сундука коллекционера.
 
@@ -21441,7 +21439,7 @@ ID,BaseTag,TagText_lang,Flags
 
 Прогресс распространяется на всех персонажей учетной записи.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,"Вы пытаетесь переделать предмет с ограничением уникального использующегося предмета. Сначала снимите его, а потом попробуйте переделать.",1
-50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,"Доступных использований: %i из %i, восстановлено до следующего использования: %s",1
+50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Можно изготовить: %i / %i. До следующего изготовления %s.,1
 50208,MOTION_SICKNESS_DRAGONRIDING,Укачивание при полетах на драконе,1
 50209,GAMEPAD_CONNECTED,Контроллер %d подключен: %s,1
 50210,GAMEPAD_DISCONNECTED,Контроллер %d отключен: %s,1
@@ -21459,31 +21457,95 @@ ID,BaseTag,TagText_lang,Flags
 50232,CRAFTING_ORDER_NOT_CLAIMED,Не принято,1
 50233,CHARACTER_SELECT_ACCOUNT_LOCKED,Учетная запись заблокирована,2
 50234,ACCOUNT_SAVE_CONFIRM_STRING,ЗАБЛОКИРОВАТЬ,2
-50235,ACCOUNT_SAVE_IN_PROGRESS,Progression archive download in progress|nPlease do not close your client,2
-50236,ACCOUNT_SAVE_SUCCESS,Progression archive downloaded successfully.,2
+50235,ACCOUNT_SAVE_IN_PROGRESS,Архив прогресса загружается|nНе закрывайте клиент,2
+50236,ACCOUNT_SAVE_SUCCESS,Архив прогресса успешно загружен.,2
 50237,ACCOUNT_SAVE_ERROR_OTHER,"Произошла ошибка. Пожалуйста, повторите попытку позже.",2
-50238,ACCOUNT_SAVE_ERROR_TIMEOUT,Progression archive timed out,2
-50239,ACCOUNT_SAVE_ERROR_INVALID_ACCOUNT,Progression archive download failed: Invalid account,2
-50240,ACCOUNT_SAVE_ERROR_INVALID_CHARACTER,Progression archive download failed: Invalid character,2
-50241,ACCOUNT_SAVE_ERROR_FILE_INVALID,Progression archive download failed: Couldn't open the target output file,2
-50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,Progression archive download failed: Couldn't write to the target output file,2
-50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,Download Progression Archive,2
-50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020World of Warcraft realms will be temporarily unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress (including characters and gear under your World of Warcraft accounts) now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your Game Progress Locally|r</h1><p>|n|cffff2020By downloading your game progress, your account will be immediately locked.|r|n|n|cffffd200You won't be able to use this account until it's restored in the future.|r|n|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200If you're sure, type|r |cffffffffLOCK ACCOUNT:|r",2
-50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020World of Warcraft realms will be unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your game progress locally|r</h1><p>|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200Your account is locked because you successfully downloaded your account data.|r",2
+50238,ACCOUNT_SAVE_ERROR_TIMEOUT,Время на загрузку архива прогресса истекло,2
+50239,ACCOUNT_SAVE_ERROR_INVALID_ACCOUNT,Не удалось загрузить архив прогресса: указана неверная учетная запись,2
+50240,ACCOUNT_SAVE_ERROR_INVALID_CHARACTER,Не удалось загрузить архив прогресса: указан неверный персонаж,2
+50241,ACCOUNT_SAVE_ERROR_FILE_INVALID,Не удалось загрузить архив прогресса: ошибка при открытии целевого файла,2
+50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,Не удалось загрузить архив прогресса: ошибка при записи данных в целевой файл,2
+50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,Загрузить архив прогресса,2
+50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020Начиная с 23 января 2023 года серверы World of Warcraft будут временно недоступны в вашем регионе.|r|n|n|cffffd200Вы сможете загрузить свой игровой прогресс (а именно персонажей и снаряжение вашей учетной записи), чтобы восстановить его в будущем.|r|n|n|cffffd200Когда вы сохраните прогресс, ваша учетная запись потеряет доступ к игре вне зависимости от того, сколько активного игрового времени у вас оставалось. Сохраните архив в надежном месте, чтобы использовать его в будущем.|r|n|n|n</p><h1>|cffffffffСохраните игровой прогресс на своем носителе|r</h1><p>|n|cffff2020Как только закончится загрузка архива, ваша учетная запись будет тут же заблокирована.|r|n|n|cffffd200Вы не сможете ею пользоваться до тех пор, пока не восстановите в будущем.|r|n|n|cffffffffФункция сохранения архива и сам архив попадают под действие лицензионного соглашения с конечным пользователем Battle.net.|r|n|n|cffffd200Если вы готовы приступить к загрузке, наберите|r |cffffffffЗАБЛОКИРОВАТЬ:|r",2
+50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020Начиная с 23 января 2023 года серверы World of Warcraft станут недоступны в вашем регионе.|r|n|n|cffffd200Вы сможете загрузить свой игровой прогресс, чтобы восстановить его в будущем.|r|n|n|cffffd200Когда вы сохраните прогресс, ваша учетная запись потеряет доступ к игре вне зависимости от того, сколько активного игрового времени у вас оставалось. Сохраните архив в надежном месте, чтобы использовать его в будущем.|r|n|n|n</p><h1>|cffffffffСохраните игровой прогресс на своем носителе|r</h1><p>|n|cffffffffФункция сохранения архива и сам архив попадают под действие лицензионного соглашения с конечным пользователем Battle.net.|r|n|n|cffffd200Вы успешно загрузили данные учетной записи, теперь она заблокирована.|r",2
 50247,PROFESSIONS_ORDER_OP_FAILED,Не удалось совершить действие с заказом на изготовление. Попробуйте позже.,1
 50248,PROFESSIONS_ORDER_UNUSABLE_WARNING,В данный момент использовать предмет невозможно. При получении он станет персональным. Разместить этот заказ?,1
 50249,SPELL_FAILED_CUSTOM_ERROR_825,Действует только на тренировочной площадке клана Нокхуд.,1
-50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Progression archive downloading is currently unavailable,2
-50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,A progression archive download is already in progress. Please try again later.,2
+50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Загрузка архива прогресса в данный момент недоступна,2
+50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,Прогресс архива уже загружается. Попробуйте позже.,2
 50252,MAILFRAME_CRAFTING_ORDERS_TOOLTIP_TITLE,Заказы:,1
 50253,PROFESSIONS_ORDER_REJECTED,Заказ отклонен,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Покинув матч сейчас, вы потеряете по меньшей мере |cnORANGE_FONT_COLOR:%d|r рейтинга, а сами вы будете в течение %s испытывать эффект ""%s"".|n|nЕсли вы покинете матч сейчас, то не сможете получить очки чести или завоевания за раунды, в которых приняли участие.|n|nПокинуть матч?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Этот рецепт в данный момент недоступен. Попробуйте позже.,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fСообщение от игрока %s может носить неприемлемый характер.|h|cffffff00|Hcensoredmessage:%d|h |W[Показать сообщение]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Эффекты скорости при передвижении на островных драконах,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,"Отключение графических эффектов, использующихся при передвижении на островных драконах, способно помочь избежать укачивания.",1
-50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
-50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
-50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
-50269,ACCOUNT_SAVE_ERROR_CANCELLED,Progression archive download was interrupted. Please try again later.,2
+50266,ACCOUNT_SAVE_FILE_BUTTON,Открыть папку,2
+50267,ACCOUNT_SAVE_CLOSE_BUTTON,Закрыть,2
+50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Сохраните этот файл в безопасном месте:,2
+50269,ACCOUNT_SAVE_ERROR_CANCELLED,Загрузка архива прервана. Попробуйте позже.,2
+50270,CENSOR_SOURCE_EVERYONE,От всех,1
+50271,CENSOR_SOURCE_NO_ONE,Ни от кого,1
+50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,"От всех, кроме друзей",1
+50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,"От всех, кроме друзей и соратников по гильдии",1
+50274,CENSOR_SOURCE_EXCLUDE,Цензурировать сообщения,1
+50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Чьи сообщения вы хотите подвергать цензуре.,1
 50276,MONTHLY_ACTIVITIES_POINTS,Очки путешествия,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,Сложность рейда сейчас изменить нельзя. Игрок находится на средстве передвижения.,1
+50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,Вы собираетесь разместить заказ со своими реагентами. Продолжить?,1
+50293,CHAT_LANGUAGE_NAME_TAG,[%s] ,1
+50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,В это гнездо можно вставить только изначальный камень.,1
+50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,Изначальные камни можно вставлять только в подходящие гнезда.,1
+50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
+50301,LANGUAGE_PROFICIENCY_FORMAT,%s (владение языком: %d/%d),1
+50302,PROF_SPECIALIZATION_HIGHLIGHTS,Основы специализации:,1
+50303,PROF_VIEW_FULL_TREE,Просмотр всего древа,1
+50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,"Все изменения будут активированы после разблокировки специализации. Выучить специализацию ""%s""?",1
+50305,CRAFTING_ORDERS_ORDER_FULFILLED_SINGLE_FMT,Вы выполнили %s заказ (%s) для клиента %s и получили %s в уплату.,1
+50306,CRAFTING_ORDERS_ORDER_FULFILLED_MULT_FMT,Вы выполнили %s заказ (%s x%d) для клиента %s и получили %s в уплату.,1
+50307,PROF_CRAFTING_ORDER_TYPE_PERSONAL,частный,1
+50308,PROF_CRAFTING_ORDER_TYPE_GUILD,гильдейский,1
+50309,PROF_CRAFTING_ORDER_TYPE_PUBLIC,публичный,1
+50310,EMPTY_SOCKET_PRIMORDIAL,Изначальное гнездо,1
+50311,GEM_TEXT_PRIMORDIAL,Для изначального гнезда.,1
+50312,NEW_SPOKEN_LANGUAGE_HELPTIP,Вы выучили новый язык. Изменить язык общения можно здесь.,1
+50313,SPELL_FAILED_CUSTOM_ERROR_999,Вы не вставили камень вихрей моджо.,1
+50318,PLAYER_CHOICE_ENVOY_EXPLORERS,Помочь сегодня Драконьей экспедиции?,1
+50319,PLAYER_CHOICE_ENVOY_TUSKARR,Помочь сегодня искарским клыкаррам?,1
+50320,PLAYER_CHOICE_ENVOY_CENTAUR,Помочь сегодня кентаврам Маруук?,1
+50321,PLAYER_CHOICE_ENVOY_VALDRAKKEN,Помочь сегодня союзу Вальдраккена?,1
+50324,GXAPI_AUTO,Автоопределение,3
+50325,GXAPI_TOOLTIP_AUTO,Auto-detect best available Graphics API. [DNT],3
+50326,GXAPI_TOOLTIP_AUTO_SELECTED,"Выбранный графический API. 
+Автоматически определяет наилучший графический API.",3
+50327,GXAPI_TOOLTIP_CURRENT_API,Текущий графический API.,3
+50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Выбранный графический API.
+Загрузка не удалась. Следующая попытка после перезапуска.",3
+50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Пожаловаться]|w|h|r,1
+50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,Требуется активное игровое время.,1
+50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,"Ошибка интерфейсной операции, вызванная модификацией: %d",1
+50351,OPTION_TOOLTIP_VRS_STANDARD,Незначительное снижение качества изображения,3
+50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Небольшое снижение детализации,3
+50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,"Нельзя игнорировать этого игрока, пока вы не отмените или не выполните заказ.",1
+50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,Вы уже игнорируете этого игрока.,1
+50364,PROF_ORDER_CANT_WHISPER_OFFLINE,Этот игрок не в сети.,1
+50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,Этот игрок из противоположной фракции.,1
+50367,PROF_VIEW_TREE_OVERVIEW,Обзор,1
+50374,GLUE_TIMEEVENT_TITLE,Идет событие,2
+50379,SPELL_FAILED_CUSTOM_ERROR_830,"Вы уже отметили слишком много сокровищ в Запретном крае. Соберите их перед тем, как открывать новые свитки сокровищ.",1
+50380,RAF_LEGACY_REWARDS_DESC,"Вы больше не можете приглашать новых друзей в рамках старой системы ""Пригласи друга"", но по-прежнему будете получать награды за уже приглашенных.",1
+50382,RAF_NEW_VERSION_PROMPT,"Добавьте друзей, чтобы получить награды в этом сезоне!",1
+50384,PLAIN_STRING_FORMAT,%1$s,1
+50388,XP_TEXT_BANKED_XP_HEADER,Отложенный опыт,1
+50389,RAF_CLAIM_MULTIPLE_REWARDS,Получить %1$d |4награду:награды:наград;,1
+50391,RAF_NEXT_REWARD_HELP_TEXT,"Приводите друзей в Азерот и получайте награды, когда они оплатят подписку.",1
+50392,RAF_LEGACY_REWARDS_HELP_TEXT,Приглашенные друзья из предыдущей программы: |cnHIGHLIGHT_FONT_COLOR:%d|r|nНеполученные награды: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50393,RAF_LATEST_REWARDS_HELP_TEXT,Приглашенные друзья: |cnHIGHLIGHT_FONT_COLOR:%d|r|nНеполученные награды: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50399,RAF_NEXT_EARN_DATE,Следующая награда: %1$s,1
+50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,Вы прошли всю кампанию на Берегах Пробуждения.|n|nВы можете продолжить исследование Драконьих островов или приобрести Dragonflight и продолжить кампанию!,1
+50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,"Купите дополнение, чтобы разблокировать",1
+50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,%d-й уровень,1
+50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"В пробной версии можно развивать персонажей максимум до 60-го уровня, но весь накопленный опыт будет сохраняться.|n|nПриобретите Dragonflight, чтобы воспользоваться отложенным опытом и продолжить развитие персонажа до 70-го уровня!",1
+50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
+50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
+50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2

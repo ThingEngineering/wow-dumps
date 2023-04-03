@@ -643,7 +643,7 @@ Lasts [numTurns()] |4round:rounds;.",0,1,0,0,0
 Кидает в противника липким комком, нанося [StandardDamage(1,1)] ед. |3-9([School()]) и мешая ему спастись бегством в течение [duration(1,2)] |4раунда:раундов:раундов;.",468265,6,0,0,0
 375,Рев,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
-Приводит заклинателя в состояние ярости, заставляя его атаковать. Атака наносит [StandardDamage(1,1)] ед. |3-9([School()]) и повышает наносимый урон на [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]% на [duration(1,2)] |4раунд:раунда:раундов;.",237398,7,0,0,0
+Приходит в ярость и атакует. Атака наносит [StandardDamage(1,1)] ед. |3-9([School()]) и повышает наносимый урон на [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]% на [duration(1,2)] |4раунд:раунда:раундов;.",237398,7,0,0,0
 376,Удар головой,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Наносит [StandardDamage(1,1)] ед. |3-9([School()]) и с вероятностью 25% может оглушить цель.",132248,7,4,0,0
@@ -3719,3 +3719,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2495,Яростный вихрь когтей,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Вертится ураганом и царапает противника когтями, нанося [StandardDamage(1,1)] ед. |3-9([School()]) и вызывая у цели |cFF970000кровотечение|r, дополнительно наносящее [StandardDamage(1,1,491)] ед. |3-9([School(491)]) каждый раунд в течение [duration(1,2)] |4раунда:раундов:раундов;.",4632786,4,0,0,0
+2498,Мощный хук слева,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+
+Быстро бьет противника в лицо со всей силы, нанося [StandardDamage(1,1)] ед. |3-9([School()]). 
+
+Урон увеличивается на [FormatDamage(10*AttackBonus())] ед. с каждым применением. Максимальный урон – [FormatDamage(30*AttackBonus())] ед. |3-9([School()]).",135906,0,0,0,0
+2499,Квантовый удар,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+
+Бьет противника, нанося [StandardDamage(1,1)] ед. урона |3-11([petTypeName(abilityPetType())]).",1392544,5,0,0,0

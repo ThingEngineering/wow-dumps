@@ -3718,3 +3718,11 @@ Am Ende der Runde erhöht sich die Geschwindigkeit Eures Haustiers pro Treffer m
 2495,Wilder Klauensturm,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Wirbelt und schlitzt den Gegner mit Klauen auf, verursacht [StandardDamage(1,1)] [School()]schaden und lässt das Ziel [duration(1,2)] |4Runde:Runden; lang um [StandardDamage(1,1,491)] [School(491)]schaden pro Runde |cFF970000bluten|r.",4632786,4,0,0,0
+2498,Faust ins Gesicht X,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Schlägt dem Gegner schnell so hart wie möglich mitten ins Gesicht und verursacht [StandardDamage(1,1)] [School()]schaden.
+
+Der Schaden wird bei jedem Einsatz um [FormatDamage(10*AttackBonus())] erhöht. Maximal [FormatDamage(30*AttackBonus())] [School()]schaden.",135906,0,0,0,0
+2499,Quantenstoß,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Schlägt den Gegner und fügt ihm [StandardDamage(1,1)] [petTypeName(abilityPetType())]schaden zu.",1392544,5,0,0,0

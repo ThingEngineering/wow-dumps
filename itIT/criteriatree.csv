@@ -73682,7 +73682,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 94277,Vecchi Campi di Weyrn,94275,0,0,52876,1,16
 94278,Le Scaglie d'Ebano,94275,0,0,52877,3,16
 94279,Le Ali Curative,94275,0,0,52878,2,16
-94280,Cripta Gelida,94275,0,0,52879,4,16
+94280,Segrete di Pietragelida,94275,0,0,52879,4,16
 94281,Ira della Mangiatempeste,94275,0,0,54430,5,16
 94282,Attraverso le torri di guardia,94275,0,0,52880,6,16
 94284,Byron Test Achievement - Retroactive 2000 M+ Rating in Season 1,0,0,4,0,0,0
@@ -74910,7 +74910,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 95598,Vecchi Campi di Weyrn,95596,0,0,52876,1,16
 95599,Le Scaglie d'Ebano,95596,0,0,52877,3,16
 95600,Le Ali Curative,95596,0,0,52878,2,16
-95601,Cripta Gelida,95596,0,0,52879,4,16
+95601,Segrete di Pietragelida,95596,0,0,52879,4,16
 95602,Ira della Mangiatempeste,95596,0,0,54430,5,16
 95603,Gli Artigli Oscuri,95596,0,0,53410,6,16
 95604,"10.0 The Forbidden Reach - ""Fire Breathing"" - Use Infuser (ZTO)",0,0,4,0,0,4096
@@ -74951,6 +74951,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133996,,35395,5,0,50191,0,0
 133997,,35395,42,0,50192,1,0
 133998,,35395,9999,0,48468,2,0
+133999,Test Criteria Tree,0,0,4,0,0,0
+134000,Infliggi danni da gelo,133999,1,0,53423,0,0
 134001,"10.0 The Forbidden Reach - ""Mercy First"" - Healing Blossom Used",0,0,4,0,0,4098
 134002,Usa il Bocciolo Curativo sul bersaglio ferito,134001,1,0,53424,0,0
 134003,Ottieni 1.200 mascotte uniche,0,0,4,0,0,0
@@ -75441,6 +75443,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 135694,,135693,30,0,53755,0,0
 135695,Boss delle spedizioni sconfitti,0,0,4,0,0,1
 135696,Boss delle spedizioni sconfitti,135695,50,0,53756,0,1
+135697,Ottieni il Cappello della Festa Finemente Ricamato,0,1,8,0,0,8193
+135698,,135697,0,0,53757,0,0
 135699,5 spedizioni Mitiche+ completate,0,5,4,0,0,1
 135701,Mitica+ completata,135699,5,0,53846,0,1
 135709,Ottieni 500 giocattoli,0,0,4,0,0,0
@@ -75872,6 +75876,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 136208,,136202,0,0,53874,5,0
 136209,,136202,0,0,53875,6,0
 136210,,136202,0,0,53876,7,0
+136211,Boss delle incursioni ucciso,0,1,8,0,0,8193
+136212,Sconfiggi un boss dell'incursione Dragonflight in modalità Mitica.,136211,1,0,53877,7,0
+136213,,136211,0,0,53878,0,0
+136214,,136211,0,0,53879,1,0
+136215,,136211,0,0,53880,2,0
+136216,,136211,0,0,53881,3,0
+136217,,136211,0,0,53882,4,0
+136218,,136211,0,0,53883,5,0
+136219,,136211,0,0,53884,6,0
 136220,Punti Onore guadagnati,0,0,4,0,0,1
 136221,Punti Onore guadagnati,136220,7500,0,53885,0,1
 136222,Campi di Battaglia vinti,0,0,4,0,0,1
@@ -75902,21 +75915,127 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 136247,"[PH] Achieve a Flawless run in Torghast, Tower of the Damned while in a group. [Xpac feature, social]",136246,0,0,53906,0,0
 136248,Boss della spedizione sconfitti,0,0,4,0,0,1
 136249,Boss della spedizione sconfitti,136248,25,0,53907,0,1
+136250,Missioni di Nordania completate,0,15,5,0,0,8193
+136251,,136250,0,0,53908,0,0
+136252,,136250,0,0,53909,1,0
+136253,,136250,0,0,53910,2,0
+136254,,136250,0,0,53911,3,0
+136255,,136250,0,0,53912,4,0
+136256,,136250,0,0,53913,5,0
+136257,,136250,0,0,53914,6,0
+136258,,136250,0,0,53915,7,0
 136259,10.0 Thal - Valdrakken - Dryadic Remedy Treat Acquired (Weekly) (AOC),0,0,4,0,0,4096
 136260,,136259,1,0,53917,0,0
 136261,,135938,3,0,53919,1,0
 136262,,135938,3,0,53920,2,0
 136263,10.0 Thal - Valdrakken - Snow in a Cone Acquired (Weekly) (AOC),0,0,4,0,0,4096
 136264,,136263,1,0,53921,0,0
+136265,Spedizioni completate,0,5,8,0,0,8193
+136266,,136265,0,0,53916,0,0
+136267,,136265,0,0,53922,1,0
+136268,,136265,0,0,53923,2,0
+136269,,136265,0,0,53924,3,0
+136270,,136265,0,0,53925,4,0
+136271,,136265,0,0,53926,5,0
+136272,,136265,0,0,53927,6,0
+136273,,136265,0,0,53928,7,0
+136274,,136265,0,0,53929,8,0
+136275,,136265,0,0,53930,9,0
+136276,,136265,0,0,53931,10,0
+136277,,136265,0,0,53932,11,0
+136278,,136265,0,0,53933,12,0
+136279,,136265,0,0,53934,13,0
+136280,,136265,0,0,53935,14,0
+136281,,136265,0,0,53936,15,0
 136282,10.0 Thal - Valdrakken - Blubbery Muffin Acquired (Weekly) (AOC),0,0,4,0,0,4096
 136283,,136282,1,0,53938,0,0
 136284,,136038,6,0,53939,1,0
 136285,,136038,5,0,53940,2,0
+136286,Rocca della Corona di Ghiaccio completata,0,0,4,0,0,8193
+136287,Rocca della Corona di Ghiaccio completata,136286,1,0,53941,0,0
+136288,Campi di Battaglia della Valle d'Alterac completati ,0,0,4,0,0,1
+136289,Campi di Battaglia della Valle d'Alterac completati ,136288,5,0,53942,0,1
 136290,,136096,15,0,53944,1,0
+136291,Maestri Allenatori di Nordania sconfitti,0,0,4,0,0,1
+136292,Jacob il Quasi-Senzatesta sconfitto,136291,0,0,53945,0,1
+136293,Beegle Bruciamiccia sconfitto,136291,0,0,53946,1,1
+136294,Maggiore Payne sconfitto,136291,0,0,53947,2,1
+136295,Okrut Sfiancadraghi sconfitto,136291,0,0,53948,3,1
+136296,Sboccabudella sconfitto,136291,0,0,53949,4,1
+136297,,135697,0,0,53950,1,0
 136298,Sconfiggi il Cronosignore Deios,0,0,4,0,0,4096
 136299,Sconfiggi il Cronosignore Deios,136298,1,0,53951,0,0
+136300,Pesci di Nordania pescati,0,50,5,0,0,8193
+136301,,136300,0,0,53952,0,0
+136302,,136300,0,0,53953,1,0
+136303,,136300,0,0,53954,2,0
+136304,,136300,0,0,53955,3,0
+136305,,136300,0,0,53956,4,0
+136306,,136300,0,0,53957,5,0
+136307,,136300,0,0,53958,6,0
+136308,,136300,0,0,53959,7,0
+136309,,136300,0,0,53960,8,0
+136310,,136300,0,0,53961,9,0
+136311,,136300,0,0,53962,10,0
+136312,,136300,0,0,53963,11,0
+136313,,136300,0,0,53964,12,0
+136314,,136300,0,0,53965,13,0
+136315,,136300,0,0,53966,14,0
+136316,,136300,0,0,53967,15,0
+136317,,136300,0,0,53968,16,0
+136318,,136300,0,0,53969,17,0
+136319,,136300,0,0,53970,18,0
+136320,,136300,0,0,53971,19,0
 136321,10.0 Thal - Valdrakken - Celebratory Cake Acquired (Weekly) (AOC),0,0,4,0,0,4096
 136322,,136321,1,0,53972,0,0
+136323,Usa l'emote /freddo su Ragnaros,0,0,4,0,0,8193
+136324,,136323,1,0,53973,0,0
+136325,Balla con indosso abiti natalizi ai piedi dell'albero di Babbo Inverno assieme a 5 personaggi,0,0,4,0,0,8193
+136326,,136325,5,0,53974,0,0
+136327,Elementali del Ghiaccio uccisi,0,100,5,0,0,8193
+136328,,136327,0,0,53975,0,0
+136329,,136327,0,0,53976,1,0
+136330,,136327,0,0,53977,2,0
+136331,,136327,0,0,53978,3,0
+136332,,136327,0,0,53979,4,0
+136333,,136327,0,0,53980,5,0
+136334,,136327,0,0,53981,6,0
+136335,,136327,0,0,53982,7,0
+136336,,136327,0,0,53983,8,0
+136337,,136327,0,0,53984,9,0
+136338,,136327,0,0,53985,10,0
+136339,,136327,0,0,53986,11,0
+136340,,136327,0,0,53987,12,0
+136341,,136327,0,0,53988,13,0
+136342,,136327,0,0,53989,14,0
+136343,,136327,0,0,53990,15,0
+136344,,136327,0,0,53991,16,0
+136345,,136327,0,0,53992,17,0
+136346,,136327,0,0,53993,18,0
+136347,,136327,0,0,53994,19,0
+136348,,136327,0,0,53995,20,0
+136349,,136327,0,0,53996,21,0
+136350,,136327,0,0,53997,22,0
+136351,,136327,0,0,53998,23,0
+136352,,136327,0,0,53999,24,0
+136353,,136327,0,0,54000,25,0
+136354,,136327,0,0,54001,26,0
+136355,,136327,0,0,54002,27,0
+136356,,136327,0,0,54003,28,0
+136357,Operazione: Tartaruga completata,0,0,4,0,0,8193
+136358,,136357,1,0,54004,0,0
+136359,Boss delle feste uccisi,0,3,8,0,0,1
+136360,Divoratore Fetido ucciso,136359,1,0,54005,0,1
+136361,Ingegnere d'Assedio Miccianera ucciso,136359,1,0,54006,1,1
+136362,Behemoth Acquanera ucciso,136359,1,0,54007,2,1
+136363,Varimathras ucciso,136359,1,0,54008,3,1
+136364,Partecipato alla Festa del Nomade,0,0,4,0,0,8193
+136365,,136364,1,0,54009,0,0
+136366,Lanterna lanciata e pergamena letta,0,0,4,0,0,1
+136367,Lanterna lanciata,136366,1,0,54010,0,1
+136368,"""L'Attesa della Tartaruga"" letto",136366,1,0,54011,1,1
+136369,UOOO! Salsiccia Impanata mangiata,0,0,4,0,0,8193
+136371,,136369,1,0,54013,0,0
 136372,10.0 Dungeon - Centaur (Mythic),0,0,4,0,0,0
 136373,Sconfiggi Granyth,136372,1,0,53837,0,0
 136374,Sconfiggi la Tempesta Furente,136372,1,0,53838,1,0
@@ -75994,6 +76113,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 136446,Sconfiggi l'Antico Erboso,136444,1,0,54036,1,0
 136447,Crawth sconfitto,136444,1,0,54038,2,0
 136448,Eco di Doragosa sconfitta,136444,1,0,54039,3,0
+136449,"Uccidi il capo della fazione opposta, Rokhan (Alleanza) o Gran Esarca Turalyon (Orda)",0,1,8,0,0,8193
+136450,Rokhan ucciso,136449,0,0,54037,0,512
+136451,Gran Esarca Turalyon ucciso,136449,0,0,54040,1,1024
 136452,10.0 Dungeon - Arcane Vault (Normal),0,0,4,0,0,0
 136453,Sconfiggi Leymor,136452,1,0,54041,0,0
 136454,Sconfiggi Lamazzurra,136452,1,0,54042,1,0
@@ -76063,10 +76185,109 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 136523,,136022,3,0,54109,8,0
 136524,,136022,10,0,54110,9,0
 136526,Allestisci l'accampamento militare,95388,4,0,54113,1,1
+136527,"Rivela le zone coperte sulla mappa per una delle seguenti aree: esplora completamente Dun Morogh, Landa di Fuocogelo, Fontefredda, Dracombra, Cime Tempestose o Corona di Ghiaccio",0,1,8,0,0,8193
+136528,Esplora la Landa di Fuocogelo,136527,0,4,0,0,0
+136529,,136528,1,0,54116,0,0
+136530,,136528,1,0,54117,1,0
+136531,,136528,1,0,54118,2,0
+136532,,136528,1,0,54119,3,0
+136533,,136528,1,0,54120,4,0
+136534,,136528,1,0,54121,5,0
+136535,,136528,1,0,54122,6,0
+136536,,136528,1,0,54123,7,0
+136537,,136528,1,0,54124,8,0
+136538,,136528,1,0,54125,9,0
+136539,,136528,1,0,54126,10,0
+136540,,136528,1,0,54127,11,0
+136541,,136528,1,0,54128,12,0
+136542,,136528,1,0,54129,13,0
+136543,,136528,1,0,54130,14,0
+136544,Esplora Fontefredda,136527,0,4,0,1,0
+136545,,136544,0,0,54131,0,0
+136546,,136544,0,0,54132,1,0
+136547,,136544,0,0,54133,2,0
+136548,,136544,0,0,54134,3,0
+136549,,136544,0,0,54135,4,0
+136550,,136544,0,0,54136,5,0
+136551,,136544,0,0,54137,6,0
+136552,,136544,0,0,54138,7,0
+136553,,136544,0,0,54139,8,0
+136554,,136544,0,0,54140,9,0
+136555,,136544,0,0,54141,10,0
+136556,,136544,0,0,54142,11,0
+136561,Esplora Dracombra,136527,0,4,0,2,0
+136562,,136561,0,0,54144,0,0
+136563,,136561,0,0,54145,1,0
+136564,,136561,0,0,54146,2,0
+136565,,136561,0,0,54147,3,0
+136566,,136561,0,0,54148,4,0
+136567,,136561,0,0,54149,5,0
+136568,,136561,0,0,54150,6,0
+136569,,136561,0,0,54151,7,0
+136570,,136561,0,0,54152,8,0
+136571,,136561,0,0,54153,9,0
+136572,,136561,0,0,54154,10,0
+136573,,136561,0,0,54155,11,0
+136574,,136561,0,0,54157,12,0
+136575,,136561,0,0,54158,13,0
+136576,,136561,0,0,54159,14,0
+136577,,136561,0,0,54160,15,0
+136578,,136561,0,0,54161,16,0
+136583,Esplora le Cime Tempestose,136527,0,4,0,3,0
+136584,,136583,0,0,54162,0,0
+136585,,136583,0,0,54163,1,0
+136586,,136583,0,0,54164,2,0
+136587,,136583,0,0,54165,3,0
+136588,,136583,0,0,54166,4,0
+136589,,136583,0,0,54167,5,0
+136590,,136583,0,0,54169,6,0
+136591,,136583,0,0,54170,7,0
+136592,,136583,0,0,54171,8,0
+136593,,136583,0,0,54172,9,0
+136594,,136583,0,0,54173,10,0
+136595,,136583,0,0,54174,11,0
+136596,,136583,0,0,54175,12,0
+136597,,136583,0,0,54176,13,0
+136598,,136583,0,0,54177,14,0
+136599,,136583,0,0,54178,15,0
+136600,Esplora la Corona di Ghiaccio,136527,0,4,0,4,0
+136601,,136600,0,0,54179,0,0
+136602,,136600,0,0,54180,1,0
+136603,,136600,0,0,54181,2,0
+136604,,136600,0,0,54182,3,0
+136605,,136600,0,0,54184,4,0
+136606,,136600,0,0,54185,5,0
+136607,,136600,0,0,54186,6,0
+136608,,136600,0,0,54187,7,0
+136609,,136600,0,0,54188,8,0
+136610,,136600,0,0,54189,9,0
+136611,,136600,0,0,54190,10,0
+136612,,136600,0,0,54191,11,0
+136613,,136600,0,0,54192,12,0
+136614,,136600,0,0,54193,13,0
+136615,,136600,0,0,54194,14,0
+136616,Esplora Dun Morogh,136527,0,4,0,5,0
+136617,,136616,0,0,54197,0,0
+136618,,136616,0,0,54198,1,0
+136619,,136616,0,0,54199,2,0
+136620,,136616,0,0,54200,3,0
+136621,,136616,0,0,54201,4,0
+136622,,136616,0,0,54202,5,0
+136623,,136616,0,0,54203,6,0
+136624,,136616,0,0,54204,7,0
+136625,,136616,0,0,54205,8,0
+136626,,136616,0,0,54206,9,0
+136627,,136616,0,0,54207,10,0
+136628,,136616,0,0,54208,11,0
+136629,,136616,0,0,54209,12,0
+136630,,136616,0,0,54210,13,0
+136631,,136616,0,0,54211,14,0
 136648,Caccia al Fiume Settentrionale,135872,5,0,54225,1,0
 136649,Caccia al Fiume Settentrionale,135872,5,0,54226,2,0
 136650,Caccia alle Pianure Occidentali,135880,5,0,54228,1,0
 136651,Caccia alle Pianure Occidentali,135880,10,0,54229,2,0
+136652,Campi di Battaglia completati,0,0,4,0,0,1
+136653,Campi di Battaglia completati,136652,5,0,54232,0,1
 136654,Sponde del Risveglio - Bronzo,0,0,4,0,0,0
 136655,,136654,1,0,54235,0,48
 136656,,136654,1,0,54236,1,48
@@ -76268,6 +76489,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 136852,,136846,1,0,54407,5,32
 136853,,136846,1,0,54408,6,32
 136854,,136846,1,0,54409,7,32
+136855,Rinfrescante di Rabbiafredda usato o ottenuto Che brividi,0,1,8,0,0,8193
 136858,,135936,3,0,54415,1,0
 136859,,135936,3,0,54416,2,0
 136860,,135936,5,0,54417,3,0
@@ -76433,6 +76655,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137021,,137020,29,0,54468,0,0
 137022,10.0 Renown - Dragonscale Expedition - Rank 30,0,0,4,0,0,0
 137023,,137022,30,0,54468,0,0
+137024,,136855,1,0,54413,0,0
 137026,,135946,7,0,54471,1,0
 137027,,135946,4,0,54472,2,0
 137028,,135946,6,0,54473,3,0
@@ -76514,6 +76737,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137104,,136106,5,0,54534,7,0
 137105,,136106,7,0,54535,8,0
 137106,,136106,2,0,54536,9,0
+137107,,136855,1,0,54412,1,0
 137147,BATTLE PET TEST,0,0,4,0,0,1
 137148,TEST,137147,1,0,54578,0,1
 137150,10.0 Professions Onboarding Skip Unlock,0,0,4,0,0,0
@@ -76821,8 +77045,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137470,,137469,1,0,54655,0,0
 137471,Resta vicino a Kinook il Grosso e attendi le istruzioni,0,0,4,0,0,0
 137472,Ricevi gli ordini da Kinook il Grosso.,137471,1,0,54615,0,0
-137473,Sconfiggi il Cronosignore Deios dopo aver afferrato tutte i Globi dell'Eternità mentre cadono a terra in Uldaman: Eredità di Tyr in modalità Mitica.,0,0,4,0,0,0
-137474,Cattura ogni Globo dell'Eternità mentre cade a terra,137473,1,0,54657,0,0
+137473,Sconfiggi il Cronosignore Deios dopo aver afferrato 20 Globi dell'Eternità mentre cadono a terra in Uldaman: Eredità di Tyr in modalità Mitica.,0,0,4,0,0,0
+137474,Afferra 20 Globi dell'Eternità mentre cadono a terra,137473,1,0,54657,0,0
 137475,Eroe delle spedizioni di Dragonflight,0,0,4,0,0,0
 137476,,137475,1,0,54658,1,32
 137477,,137475,1,0,54659,2,32
@@ -76866,9 +77090,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137515,,137514,0,0,54671,0,0
 137516,Legami rinnovati,137509,1,8,0,3,8208
 137517,,137516,0,0,54672,0,0
+137522,Missioni completate,0,15,5,0,0,8193
+137523,,137522,0,0,54675,0,0
+137524,,137522,0,0,54676,1,0
+137525,,137522,0,0,54677,2,0
+137526,,137522,0,0,54678,3,0
+137527,,137522,0,0,54679,4,0
+137528,,137522,0,0,54680,5,0
+137529,,137522,0,0,54681,6,0
+137530,Spedizioni dei Viaggi nel Tempo completate,0,5,8,0,0,8193
+137531,,137530,0,0,54682,0,0
+137532,,137530,0,0,54683,1,0
+137533,,137530,0,0,54684,2,0
+137534,,137530,0,0,54685,3,0
+137535,,137530,0,0,54686,4,0
+137536,,137530,0,0,54687,5,0
+137537,,137530,0,0,54688,6,0
+137538,,137530,0,0,54689,7,0
+137539,Cittadella del Fuoco Infernale completata,0,0,4,0,0,8193
+137540,,137539,1,0,54690,0,1
+137541,Giocatori uccisi,0,0,4,0,0,1
+137542,Giocatori uccisi,137541,15,0,54691,0,1
 137543,Maestri Allenatori delle Isole dei Draghi sconfitti,0,2,5,0,0,1
 137550,Tesori unici: Sponde del Risveglio,0,0,4,0,0,0
-137551,Replica di Calice del Drago,137550,1,0,54698,0,0
+137551,Calice del Drago Dorato,137550,1,0,54698,0,0
 137552,Refolo di Bolle,137550,1,0,54699,1,0
 137553,Formazione di Gemme di Rubino,137550,1,0,54713,2,0
 137554,Aquilone di Yennu,137550,1,0,54701,3,0
@@ -76884,6 +77129,28 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137564,Moneta d'Oro dei Drospi,137559,1,0,54710,4,0
 137565,Barca di Yennu,137559,1,0,54711,5,0
 137566,,136114,15,0,53842,1,0
+137567,Pesce pescato,0,50,5,0,0,8193
+137568,,137567,0,0,54705,0,0
+137569,,137567,0,0,54706,1,0
+137570,,137567,0,0,54714,2,0
+137571,,137567,0,0,54715,3,0
+137572,,137567,0,0,54716,4,0
+137573,,137567,0,0,54717,5,0
+137574,,137567,0,0,54718,6,0
+137575,,137567,0,0,54719,7,0
+137576,,137567,0,0,54720,8,0
+137577,,137567,0,0,54721,9,0
+137578,,137567,0,0,54722,10,0
+137579,,137567,0,0,54723,11,0
+137580,,137567,0,0,54724,12,0
+137581,,137567,0,0,54725,13,0
+137582,,137567,0,0,54726,14,0
+137583,,137567,0,0,54727,15,0
+137584,,137567,0,0,54728,16,0
+137585,,137567,0,0,54729,17,0
+137586,,137567,0,0,54730,18,0
+137587,,137567,0,0,54731,19,0
+137588,,137567,0,0,54732,20,0
 137589,Pesceclava,0,0,4,0,0,0
 137590,Lancia un Pesceclava nella pentola,137589,1,0,54733,0,0
 137591,Grogglo,0,0,4,0,0,0
@@ -76944,6 +77211,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137646,,137645,1,0,54770,0,0
 137647,Soldi guadagnati all'asta,0,20,4,0,0,1
 137648,Soldi guadagnati all'asta,137647,50000000,0,54771,0,8
+137649,Usa l'emote /scegli su Garrosh Malogrido,0,0,4,0,0,8193
+137650,,137649,1,0,54772,0,0
 137651,Torte mangiate,0,0,4,0,0,1
 137652,Fetta di Torta al Cioccolato mangiata,137651,1,0,54773,0,1
 137653,Fetta di Torta Deliziosa mangiata,137651,1,0,54774,1,1
@@ -76954,6 +77223,32 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137658,,137657,1,0,54777,0,0
 137659,Grossa Torta ai Mirtilli piazzata,0,0,4,0,0,8193
 137660,,137659,1,0,54778,0,0
+137661,Missioni completate,0,15,5,0,0,8193
+137662,,137661,0,0,54780,0,0
+137663,,137661,0,0,54781,1,0
+137664,,137661,0,0,54782,2,0
+137665,,137661,0,0,54783,3,0
+137666,,137661,0,0,54784,4,0
+137667,,137661,0,0,54785,5,0
+137669,Spedizioni completate ,0,5,8,0,0,8193
+137670,,137669,0,0,54786,0,0
+137671,,137669,0,0,54787,1,0
+137672,,137669,0,0,54788,2,0
+137673,,137669,0,0,54789,3,0
+137674,,137669,0,0,54790,4,0
+137675,,137669,0,0,54791,5,0
+137676,,137669,0,0,54792,6,0
+137677,,137669,0,0,54793,7,0
+137678,,137669,0,0,54794,8,0
+137679,,137669,0,0,54795,9,0
+137680,,137669,0,0,54796,10,0
+137681,,137669,0,0,54797,11,0
+137682,,137669,0,0,54798,12,0
+137683,,137669,0,0,54799,13,0
+137684,"Antorus, il Trono Infuocato completata",0,0,4,0,0,8193
+137685,,137684,1,0,54800,0,0
+137686,Campi di Battaglia di Ashran completati,0,0,4,0,0,1
+137687,Campi di Battaglia di Ashran completati,137686,5,0,54801,0,1
 137688,Emblemi ottenuti,0,0,4,0,0,1
 137689,Emblemi ottenuti,137688,100,0,54802,0,1
 137692,Mescola nella Pentola (5P),0,0,4,0,0,0
@@ -76979,6 +77274,67 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137712,,137557,0,0,54816,1,32
 137713,,137557,0,0,54817,2,32
 137714,,137557,0,0,54818,3,32
+137715,Maestri Allenatori sconfitti,0,5,8,0,0,1
+137716,Guardiano della Notte Merayl sconfitto,137715,1,0,54821,0,1
+137717,Amalia sconfitta,137715,1,0,54823,1,1
+137718,Bodhi Viasolare sconfitto,137715,1,0,54822,2,1
+137719,Aulier sconfitto,137715,1,0,54824,3,1
+137720,Bredda Pelletenera sconfitta,137715,1,0,54825,4,1
+137721,Durian Fruttoforte sconfitto,137715,1,0,54826,5,1
+137722,Flummox sconfitto,137715,1,0,54827,6,1
+137723,Grixis Minibotto sconfitto,137715,1,0,54828,7,1
+137724,Odrogg sconfitto,137715,1,0,54829,8,1
+137725,Robert Craig sconfitto,137715,1,0,54830,9,1
+137726,Ser Galveston sconfitto,137715,1,0,54831,10,1
+137727,Tiffany Nelson sconfitta,137715,1,0,54832,11,1
+137728,Mastro Bracconiere Jarrun sconfitto,137715,1,0,54833,12,1
+137729,Varenne sconfitto,137715,1,0,54834,13,1
+137730,Xorvasc sconfitto,137715,1,0,54835,14,1
+137731,Pesce pescato,0,50,5,0,0,8193
+137732,,137731,0,0,54836,0,0
+137733,,137731,0,0,54837,1,0
+137734,,137731,0,0,54838,2,0
+137735,,137731,0,0,54839,3,0
+137736,,137731,0,0,54840,4,0
+137737,,137731,0,0,54841,5,0
+137738,,137731,0,0,54842,6,0
+137739,,137731,0,0,54843,7,0
+137740,,137731,0,0,54844,8,0
+137741,,137731,0,0,54845,9,0
+137742,,137731,0,0,54846,10,0
+137743,,137731,0,0,54847,11,0
+137744,,137731,0,0,54848,12,0
+137745,,137731,0,0,54849,13,0
+137746,,137731,0,0,54850,14,0
+137747,,137731,0,0,54851,15,0
+137748,,137731,0,0,54852,16,0
+137749,,137731,0,0,54853,17,0
+137750,,137731,0,0,54854,18,0
+137751,,137731,0,0,54855,19,0
+137752,,137731,0,0,54856,20,0
+137753,,137731,0,0,54857,21,0
+137754,,137731,0,0,54858,22,0
+137755,,137731,0,0,54859,23,0
+137756,,137731,0,0,54860,24,0
+137757,,137731,0,0,54861,25,0
+137758,,137731,0,0,54862,26,0
+137759,,137731,0,0,54863,27,0
+137760,,137731,0,0,54864,28,0
+137761,,137731,0,0,54865,29,0
+137762,,137731,0,0,54866,30,0
+137763,,137731,0,0,54867,31,0
+137764,,137731,0,0,54868,32,0
+137765,,137731,0,0,54869,33,0
+137766,,137731,0,0,54870,34,0
+137767,,137731,0,0,54871,35,0
+137768,,137731,0,0,54872,36,0
+137769,,137731,0,0,54873,37,0
+137770,,137731,0,0,54874,38,0
+137771,,137731,0,0,54875,39,0
+137772,,137731,0,0,54876,40,0
+137773,,137731,0,0,54877,41,0
+137774,,137731,0,0,54878,42,0
+137775,,137731,0,0,54879,43,0
 137776,"Ottieni uno dei seguenti giocattoli: Anello con Diamante Nero Eterno, Maschere Festive Fatte in Casa, Parte Anteriore del Costume da Cavallo, Costume da Kovork, Specchio Magico per Mascotte, Parasole Nero Stiloso, Pannello di Sintonizzazione Mnemonica, Manto di Zannastrale, Briglie Inanellate del Perlustratore o Parasole della Contessa",0,1,8,0,0,8193
 137777,Anello con Diamante Nero Eterno,137776,1,0,54880,0,1
 137778,Maschere Festive Fatte in Casa,137776,1,0,54881,1,1
@@ -77010,7 +77366,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137804,,137803,1,0,54899,0,0
 137805,Cambio d'aspetto fatto,0,0,4,0,0,1
 137806,Cambio d'aspetto fatto,137805,10,0,54900,0,1
-137807,Trasmogrificazione Bicorno del Mercante appresa,0,0,4,0,0,8193
+137807,Aspetto Bicorno del Mercante ottenuto,0,0,4,0,0,8193
 137808,Trasmogrificazioni apprese,137807,1,0,54901,0,0
 137809,"Fletti i muscoli verso un altro personaggio mentre sei sotto l'effetto di uno dei seguenti giocattoli: Anello con Diamante Nero Eterno, Maschere Festive Fatte in Casa, Parte Anteriore del Costume da Cavallo, Costume da Kovork, Specchio Magico per Mascotte, Parasole Nero Stiloso, Pannello di Sintonizzazione Mnemonica, Manto di Zannastrale, Briglie Inanellate del Perlustratore o Parasole della Contessa",0,0,4,0,0,1
 137810,Fletti i muscoli verso un personaggio,137809,1,0,54902,0,1
@@ -77036,6 +77392,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137830,,137829,30,0,54604,0,0
 137868,Ottieni l'accesso a tutte le aree di pesca speciali.,0,0,4,0,0,0
 137869,Aree di pesca d'altura,137868,1,0,54944,0,0
+137870,[PH xpac activity] Gold-ranked dragon race time earned,0,0,4,0,0,8193
+137871,,137870,1,0,54945,0,0
 137872,Ottieni reputazione nelle Isole dei Draghi,0,4000,5,0,0,8193
 137873,,137872,1,0,57320,0,0
 137874,"Impresa - Stagione 3 di Shadowlands - Eroe Criptico (miglior 0,1%)",0,0,4,0,0,0
@@ -77171,6 +77529,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 138054,,138053,1,0,55949,0,0
 138055,<DNT> Dragonscale Expedition - Cataloging Unlocked,0,0,4,0,0,0
 138056,,138055,1,0,55080,0,0
+138057,Sire Denathrius ucciso,136359,1,0,55082,4,1
+138058,Krosus ucciso,136359,1,0,55083,5,1
 138059,"Dungeon difficulty is ""Dungeon Mythic"" + World state expression ""10.0 Dungeon - Azure Vault - Achievement - Detected == 0""",0,0,4,0,0,0
 138060,Evita di far scattare le trappole polimorfiche e assicurati che non venga mai lanciato Grido,138059,1,0,55084,0,0
 138061,,135942,3,0,55085,18,0
@@ -77205,16 +77565,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 138113,Uccidi i giocatori dell'Orda,0,25,5,0,0,4096
 138114,,138113,25,0,55112,0,0
 138115,10.0 Raid - Primalist - LFR Wing 1,0,0,4,0,0,0
-138116,Sconfiggi Eranog,138115,1,0,55109,0,0
-138117,Sconfiggi il Concilio Primordiale,138115,1,0,55110,1,0
-138118,"Sconfiggi Dathea, l'Ascesa",138115,1,0,55111,2,0
+138116,Sconfiggi Eranog,138115,1,0,59076,0,0
+138117,Sconfiggi il Concilio Primordiale,138115,1,0,59077,1,0
+138118,"Sconfiggi Dathea, l'Ascesa",138115,1,0,59078,2,0
 138119,10.0 Raid - Primalist - LFR Wing 2,0,0,4,0,0,0
-138120,Sconfiggi Terros,138119,1,0,55113,0,0
-138121,Sconfiggi Sennarth,138119,1,0,55114,1,0
-138122,Sconfiggi Kurog Totem Truce,138119,1,0,55115,2,0
+138120,Sconfiggi Terros,138119,1,0,59079,0,0
+138121,Sconfiggi Sennarth,138119,1,0,59080,1,0
+138122,Sconfiggi Kurog Totem Truce,138119,1,0,59081,2,0
 138123,10.0 Raid - Primalist - LFR Wing 3,0,0,4,0,0,0
-138124,Custode della Progenie Diurna sconfitta,138123,1,0,55116,0,0
-138125,Raszageth sconfitta,138123,1,0,55117,1,0
+138124,Custode della Progenie Diurna sconfitta,138123,1,0,59082,0,0
+138125,Raszageth sconfitta,138123,1,0,59083,1,0
 138126,10.0 Unlock Windborne Velocidrake,0,0,4,0,0,0
 138127,Impara a cavalcare il Velocidraco del Vento,138126,1,0,55118,0,0
 138128,10.0 Learn Highland Drake,0,0,4,0,0,0
@@ -77396,7 +77756,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 138306,Sconfiggi 3 creature della Terra Energizzata.,138305,1,0,55206,0,0
 138308,,138175,0,0,55207,1,32
 138309,Depreda la Cassa dell'Alluvione,0,0,4,0,0,2
-138310,Depreda la Cassa dell'Alluvione,138309,1,0,55208,0,0
+138310,Depreda la Cassa dell'Alluvione,138309,1,0,58017,0,0
 138313,Ottieni un set di livello 29 con almeno 1 classe.,0,0,4,0,0,0
 138314,,138313,1,0,55210,0,2
 138315,Cronosignore Deios sconfitto,0,0,4,0,0,4096
@@ -77670,7 +78030,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 138596,I Vecchi Campi di Weyrn,138595,1,0,55420,0,0
 138597,Caldera dei Guaritori,138595,1,0,55421,1,0
 138598,Cratere Spezzatempesta,138595,1,0,55422,2,0
-138599,Cripta Gelida,138595,1,0,55423,3,0
+138599,Segrete di Pietragelida,138595,1,0,55423,3,0
 138600,10.0 Dungeon - Life Pools - Zonewide Achievement Criteria,0,0,4,0,0,0
 138601,"Raffredda, scotta, tempra e tieni in vita l'Uovo di Rubino Nascente",138600,0,0,55424,0,0
 138602,10.0 Plains - Achievement - Explore,0,0,4,0,0,0
@@ -78016,7 +78376,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 138949,Ottieni la reputazione Amico Fedele con Irathion.,138948,42000,0,55675,0,2
 138950,Ottieni la reputazione Massimo con l'Adunanza di Cobalto.,0,0,4,0,0,2
 138951,Ottieni la reputazione Massimo con l'Adunanza di Cobalto.,138950,10000,0,55295,0,2
-138952,Ottieni la reputazione Stimato con il Consorzio degli Artigiani.,0,0,4,0,0,2
+138952,Reputazione Stimato con il Consorzio degli Artigiani (Grado 4),0,0,4,0,0,2
 138953,Ottieni la reputazione Stimato con il Consorzio degli Artigiani.,138952,12500,0,55655,0,2
 138954,Completa ogni Grande Caccia,0,0,4,0,0,0
 138955,Caccia nelle Pianure di Ohn'ahra Settentrionali,138954,1,0,55677,0,0
@@ -79475,7 +79835,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140640,10.0.7 - Forbidden Reach - Storm - Prototype - Completion Condition (OJF),0,0,4,0,0,0
 140641,[DNT]Boss killed,140640,1,0,56726,0,0
 140642,10.0.7 - Forbidden Reach - Major Storm - Mini Bosses - 001 (OJF),0,0,4,0,0,0
-140643,[DNT]Bosses killed,140642,2,0,56727,0,0
+140643,[DNT]Bosses killed,140642,2,0,56726,0,0
 140644,10.0.7 - Forbidden Reach - Major Storm - Boss - 001 (OJF),0,0,4,0,0,0
 140645,[DNT]Boss killed,140644,1,0,56728,0,0
 140646,,139865,0,0,56729,87,0
@@ -79571,6 +79931,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140744,10.0 Dungeon - Neltharus - Boss 3 - Achievement,0,0,4,0,0,0
 140745,Muta il Magmazanna prima del combattimento,140744,1,0,56803,0,0
 140746,,58604,1,0,56804,59,0
+140747,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 1 (ECV),0,0,4,0,0,0
+140748,Segui Eitrigg alla Sala dei Lupi Bianchi,140747,1,0,56805,0,0
+140749,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 2 (ECV),0,0,4,0,0,0
+140750,Discuti del Kosh'harg con Drek'thar,140749,1,0,56806,0,0
+140751,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 3 (ECV),0,0,4,0,0,0
+140752,Duros sconfitto,140751,1,0,57827,1,0
+140753,Drakan sconfitto,140751,1,0,56808,2,0
 140754,Uccidi le creature infuse,0,0,4,0,0,4130
 140755,asf,140754,10,0,56809,0,2080
 140756,Entra nella Sala dei Campioni,0,0,4,0,0,4096
@@ -79624,6 +79991,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140806,10.0 Intro - Renown Vendor Tutorial - Buy Item (JDA),0,1,8,0,0,4096
 140807,,140806,1,0,56824,0,0
 140808,,137484,1,0,56825,20,32
+140809,10.07 - Forbidden Reach - Treasure Room - Mysterious Cache Looted (MDE),0,0,4,0,0,4096
+140810,Cassa Misteriosa depredata,140809,1,0,56826,0,16
 140811,Shadowlands - Evento bonus fine settimana - Viaggi nel Tempo (Legion),0,5,5,0,0,4096
 140812,,140811,5,0,56827,0,2
 140813,,140811,5,0,56828,1,2
@@ -79659,6 +80028,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140843,,140820,4,0,56856,22,2
 140844,,140820,4,0,56857,23,2
 140845,,140820,4,0,56858,24,2
+140846,10.07 - Forbidden Reach - Treasure Room - Gold Pile Looted (MDE),0,0,4,0,0,4096
+140847,Mucchio d'Oro depredato,140846,1,0,56860,0,16
 140848,Legion - Missione evento bonus - Campi di battaglia,0,4,5,0,0,4096
 140849,,140848,4,0,56861,0,2
 140850,BfA - Evento bonus fine settimana - Viaggi nel Tempo (Warlords of Draenor),0,5,5,0,0,4096
@@ -79778,6 +80149,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140984,,140983,1,0,56952,0,0
 140985,Completa 10 incarichi a un banchetto.,0,0,4,0,0,1
 140986,Incarichi completati,140985,10,0,56954,0,1
+140987,Completa l'Assedio al Forte del Flagello dei Draghi.,0,0,4,0,0,8193
+140988,,140987,1,0,56955,0,0
 140989,Usa il Sistema degli Amici,0,10,5,0,0,8193
 140990,,140989,1,0,56956,0,0
 140991,Creature speciali sconfitte,0,2,8,0,0,8193
@@ -79822,16 +80195,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141030,,140427,1,0,56992,4,0
 141031,,140434,1,0,56993,4,0
 141032,Funzione Xpac - Bassopiani - Missioni secondarie,0,0,4,0,0,0
-141033,Oltre la barriera,141032,0,0,56994,0,1
-141034,Ricercatori Coraggiosi,141032,0,0,56995,1,1
-141035,Protografia professionale,141032,0,0,56996,2,1
-141036,Richiamo Vitale di Rubino,141032,0,4,0,3,8193
+141033,Oltre la barriera,141032,0,0,56994,0,0
+141034,Ricercatori Coraggiosi,141032,0,0,56995,1,0
+141035,Protografia professionale,141032,0,0,56996,2,0
+141036,Richiamo Vitale di Rubino,141032,0,4,0,3,8192
 141037,Giardino,141036,0,0,56997,0,0
 141038,Scheletro,141036,0,0,56998,1,0
 141039,Rapide Traboccanti - 1,141036,0,0,56999,2,0
 141040,Rapide Traboccanti - 2,141036,0,0,57000,3,0
-141041,Al salvataggio degli ippopotami!,141032,0,0,57001,4,1
-141042,All'ombra delle sue ali,141032,0,0,57002,5,1
+141041,Al salvataggio degli ippopotami!,141032,0,0,57001,4,0
+141042,All'ombra delle sue ali,141032,0,0,57002,5,0
 141043,"Slurpo, l'Incredibile Lumaca",139710,1,0,57003,31,0
 141044,Missioni di raccolta settimanali completate,0,2,5,0,0,8193
 141045,,141044,0,0,57005,0,0
@@ -79846,6 +80219,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141054,,141044,0,0,57014,9,0
 141055,,141044,0,0,57015,10,0
 141056,,141044,0,0,57016,11,0
+141057,Missioni di creazione settimanali completate.,0,2,5,0,0,8193
+141058,,141057,0,0,57017,0,0
 141059,Legion - Evento bonus fine settimana - Viaggi nel Tempo (Cataclysm),0,5,5,0,0,4096
 141060,,141059,5,0,57018,0,2
 141061,,141059,5,0,57019,1,2
@@ -80662,10 +81037,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141938,,141937,1,0,57342,0,2
 141939,Impresa: Albo d'oro: Raszageth (Orda),0,0,4,0,0,0
 141940,,141939,1,0,57343,0,2
+141941,"Ottieni uno dei seguenti giocattoli: Borsa del Fiorista Primaverile, Pietra del Ritorno del Vero Gentiluovo, Cestino di Uova, Bocciolo di Antico, Richiamo di Mylune, Bocciolo Perfetto, Camuffamento da Sporoide o Travestimento da Botani",0,1,8,0,0,8193
+141942,,141941,1,0,57344,0,1
+141943,,141941,1,0,57345,1,1
+141944,,141941,1,0,57346,2,1
 141945,Impresa: Tagli Profondi dalle Segrete,0,1,8,0,0,0
 141946,,141945,0,0,55144,0,32
 141947,,141945,0,0,57347,1,32
 141948,,141945,0,0,57348,2,32
+141949,Cioccolatini mangiati,0,10,4,0,0,1
+141950,Cioccolatini mangiati,141949,10,0,57349,0,1
+141951,Fiori creati su un giocatore avversario,0,0,4,0,0,1
+141952,Fiori creati,141951,1,0,57350,0,1
+141953,Uova raccolte,0,0,4,0,0,1
+141954,Uova raccolte,141953,30,0,57351,0,1
 141955,Sacerdote,14371,70,0,57352,8,0
 141956,Mago,15770,70,0,57353,8,0
 141957,Ladro,15770,70,0,57354,9,0
@@ -80694,6 +81079,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141980,Sovraccarico Elementale ottenuto,141979,500,0,57373,0,1
 141981,Corse dei draghi completate,0,15,5,0,0,8193
 141982,,141981,0,0,57374,0,0
+141983,Piazza Uova Dipinte Accuratamente o 1 Uovo Dipinto Magnificamente.,0,1,8,0,0,1
+141984,Uova Intricatamente Dipinte posizionate,141983,12,0,57375,0,1
+141985,Uovo Dipinto Magnificamente posizionato,141983,1,0,57376,1,1
+141986,Un dono dal tuo girino completata,0,0,4,0,0,8193
+141987,,141986,1,0,57377,0,0
 141988,Funzione Xpac - Pianure di Ohn'ahra - Missioni secondarie,0,0,4,0,0,0
 141989,L'intento di Taivan,141988,0,0,57378,0,1
 141990,Giorno di riposo dell'Iniziato,141988,0,0,57379,1,1
@@ -80746,6 +81136,24 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142037,,142036,0,0,57423,0,0
 142038,Podio della Trasformazione usato,0,5,4,0,0,1
 142039,Podio della Trasformazione usato,142038,1,0,57424,0,1
+142040,Invasori della Città uccisi,0,10,5,0,0,8193
+142041,,142040,0,0,57425,0,0
+142042,,142040,0,0,58137,1,0
+142043,,142040,0,0,58138,2,0
+142044,Ballo di Lunacupa completato,0,0,4,0,0,1
+142045,Ballo di Lunacupa completato,142044,1,0,57426,0,1
+142046,Punti Onore guadagnati,0,0,4,0,0,1
+142047,Punti Onore guadagnati,142046,150,0,57427,0,1
+142048,/acclama la tua felicità mentre sei sulla Giostra di Lunacupa o su un Felino a Molla,0,0,4,0,0,1
+142049,/acclama la tua felicità mentre sei sulla Giostra di Lunacupa o su un Felino a Molla,142048,1,0,57428,0,1
+142050,Rete di Teletrasporto usata,0,0,4,0,0,1
+142051,Rete di Teletrasporto usata,142050,10,0,57429,0,1
+142052,Creature uccise,0,0,4,0,0,1
+142053,Creature uccise,142052,30,0,57430,0,1
+142054,Prova dell'Alluvione completata,0,0,4,0,0,1
+142055,Prova dell'Alluvione completata,142054,1,0,57431,0,1
+142056,Rilassamento Forzato completato,0,0,4,0,0,1
+142057,Rilassamento Forzato completato,142056,0,0,57599,0,1
 142058,Mascotte élite delle Isole dei Draghi sconfitte,0,2,8,0,0,1
 142059,Arctanus,142058,1,0,57432,0,1
 142060,Enyobon,142058,1,0,57433,1,1
@@ -80755,6 +81163,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142064,Oggetti pescati,142063,50,0,57436,0,1
 142065,Oggetti creati,0,0,4,0,0,1
 142066,Oggetti creati,142065,50,0,57437,0,1
+142067,Missioni secondarie nella Vastità Azzurra completate,0,0,4,0,0,0
 142080,Aspetto del Compagno cambiato,0,0,4,0,0,1
 142081,Cambio d'aspetto fatto,142080,1,0,57438,0,1
 142082,Tesori unici: Formazioni di Gemme,0,0,4,0,0,1
@@ -80762,10 +81171,56 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142084,Formazione di Gemme di Smeraldo,142082,1,0,57440,1,1
 142085,Formazione di Gemme di Zaffiro,142082,1,0,57441,2,1
 142086,Formazione di Gemme d'Ambra,142082,1,0,57442,3,1
+142087,Riscuoti la taglia su un giocatore ucciso nelle Pianure di Ohn'ahra in modalità Guerra,0,0,4,0,0,1
+142088,Casse di Rifornimenti da Guerra ottenute,142087,1,0,57600,0,1
+142089,Taglia riscossa,142087,1,0,57601,1,1
 142090,Bakhushek sconfitta,137543,1,0,57931,0,1
 142091,Haniko sconfitta,137543,1,0,57932,1,1
 142092,Sethimothes sconfitto,137543,1,0,57933,2,1
 142093,Patchu sconfitta,137543,1,0,57934,3,1
+142094,Missioni mondiali PvP completate,0,1,8,0,0,1
+142095,Carneficina completata,142094,0,0,56979,0,1
+142096,Come Addestrare un Proto-Draco completata,142094,0,0,57447,1,1
+142097, Qua-Quattacco completata,142094,0,0,56981,2,1
+142098,Arcano Selvaggio completata,142094,0,0,56982,3,1
+142099,Missione mondiale di arrampicata completata,0,8,5,0,0,1
+142100,Provviste a volontà completata,142099,1,0,57448,0,1
+142101,Foglie di vite completata,142099,1,0,57449,1,1
+142102,Caccia al manufatto di Brillamolla completata,142099,1,0,57450,2,1
+142103,Mi stai purrrendendo in giro? completata,142099,1,0,57451,3,1
+142104,Con la scienza non si scherza completata,142099,1,0,57452,4,1
+142105,"Osso per osso, piccone per piccone",142099,1,0,57453,5,1
+142106,Minerali meravigliosi completata,142099,1,0,57454,6,1
+142107,Fuori uno! completata,142099,1,0,57455,7,1
+142108,Questo fungo non funge completata,142099,1,0,57456,8,1
+142109,Manufatto o fatto di fantasia? completata,142099,1,0,57457,9,1
+142110,Ossa di Lamafulgida completata,142099,1,0,57458,10,1
+142111,Ladri di bagagli completata,142099,1,0,57459,11,1
+142112,Colpito dai tornado,0,0,4,0,0,1
+142113,Colpito dai tornado,142112,7,0,57460,0,1
+142114,Missioni Carovana del clan nomade completate,0,8,5,0,0,8193
+142115,Lontra-no dagli occhi...completata,142114,0,0,57461,0,1
+142116,Dove dormono i fiumi completata,142114,0,0,57462,1,1
+142117,Denti per Dente completata,142114,0,0,57463,2,1
+142118,La miglior difesa...completata,142114,0,0,57464,3,1
+142119,Un approccio opportunistico completata,142114,0,0,57465,4,1
+142120,Contare le argali completata,142114,0,0,57466,5,1
+142121,Delizia nell'oscurità completata,142114,0,0,57467,6,1
+142122,Dell'aria e dell'acqua completata,142114,0,0,57468,7,1
+142123,Un viaggio incredibile completata,142114,0,0,57469,8,1
+142124,Nubi oscure completata,142114,0,0,57470,9,1
+142125,Piane tonanti completata,142114,0,0,57471,10,1
+142126,Una tradizione non dimenticata completata,142114,0,0,57472,11,1
+142127,Il sangue dei draghi completata,142114,0,0,57473,12,1
+142128,Difesa Draconica completata,142114,0,0,57474,13,1
+142129,Sempre più in alto completata,142114,0,0,57475,14,1
+142130,I bakar sognano di argali perdute completata,142114,0,0,57476,15,1
+142131,Volere è tosare completata,142114,0,0,57477,16,1
+142132,"Qui, Quo, trappola completata",142114,0,0,57478,17,1
+142133,Sfrutta i Venti delle Isole durante il Volo Draconico,0,0,4,0,0,1
+142134,Venti delle Isole sfruttati per il volo,142133,20,0,57479,0,1
+142135,Pesca 20 oggetti da una zona di pesca dei Tuskarr,0,0,4,0,0,0
+142136,Oggetti pescati,142135,20,0,57480,0,1
 142137,Sponde del Risveglio Inverso - Bronzo,0,0,4,0,0,0
 142138,,142137,1,0,57481,0,48
 142139,,142137,1,0,57482,1,48
@@ -80855,6 +81310,41 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142223,,142217,1,0,57555,5,48
 142224,Ottieni 30 Emblemi Insanguinati nelle Isole dei Draghi,0,0,4,0,0,1
 142225,Emblemi Insanguinati ottenuti,142224,3000,0,57556,0,1
+142226,Vallata dei Mantogelido completata,142067,0,0,57558,0,1
+142227,Calalume di Kauriq,142067,0,0,57559,1,1
+142228,Antro degli Spinaruggine completata,142067,0,0,57557,2,1
+142229,Fosso delle Vivolpi completata,142067,0,0,57560,3,1
+142230,Accampamento dei Mantonevoso completata,142067,0,0,57561,4,1
+142231,Valle di Brivitela completata,142067,0,0,57562,5,1
+142232,Tana dei Dentefiotto completata,142067,0,0,57563,6,1
+142233,Nascondiglio di Zannatetra completata,142067,0,0,57564,7,1
+142234,Riva dei Gorloc completata,142067,0,0,57565,8,1
+142235,Pozza d'acqua dei Felcepelle completata,142067,0,0,57566,9,1
+142236,Rovine di Karnthar completata,142067,0,0,57567,10,1
+142237,Rovine Perdute completata,142067,0,0,57568,11,1
+142238,,141941,1,0,57569,3,1
+142239,,141941,1,0,57570,4,1
+142240,,141941,1,0,57571,5,1
+142241,,141941,1,0,57572,6,1
+142242,,141941,1,0,57573,7,1
+142243,Missioni giornaliere di Nobiluova completate,0,6,5,0,0,8193
+142244,,142243,0,0,57574,0,0
+142245,,142243,0,0,57575,1,0
+142246,,142243,0,0,58571,3,0
+142247,,142243,0,0,58566,2,0
+142248,/saltella con gli animaletti delle Isole dei Draghi,0,0,4,0,0,1
+142249,Mordicchiatore D'alghe,142248,1,0,57578,0,1
+142250,Cucciolo di Fenice,142248,1,0,57579,1,1
+142251,Cucciolo Docile,142248,1,0,57580,2,1
+142252,Cucciolo di Salamandra Increspata,142248,1,0,57581,3,1
+142253,Spinatonante Giovane,142248,1,0,57582,4,1
+142254,Planatore del Boschetto,142248,1,0,57583,5,1
+142255,Cucciolo di Dentelegno,142248,1,0,57584,6,1
+142256,Ragnetto Gelido,142248,1,0,57585,7,1
+142257,Picchiettatore Cremisi,142248,1,0,57586,8,1
+142258,Saltapaludi Piccolo,142248,1,0,57588,9,1
+142259,Puledro del Bacino,142248,1,0,57587,10,1
+142260,Scarabeo di Calagrifo,142248,1,0,57587,11,1
 142261,"Mangia Zuppa Tuskarr sotto gli effetti di uno dei seguenti giocattoli: Anello con Diamante Nero Eterno, Maschere Festive Fatte in Casa, Parte Anteriore del Costume da Cavallo, Costume da Kovork, Specchio Magico per Mascotte, Parasole Nero Stiloso, Pannello di Sintonizzazione Mnemonica, Manto di Zannastrale, Briglie Inanellate del Perlustratore o Parasole della Contessa",0,1,8,0,0,8193
 142262,"Mangia Zuppa di Tuskarr mentre si è sotto l'effetto di uno dei seguenti giocattoli: Anello con Diamante Nero Eterno, Maschere Festive Fatte in Casa, Parte Anteriore del Costume da Cavallo, Costume da Kovork, Specchio Magico per Mascotte, Parasole Nero Stiloso, Pannello di Sintonizzazione Mnemonica, Manto di Zannastrale, Briglie Inanellate del Perlustratore o Parasole della Contessa",142261,1,0,57590,0,1
 142263,"Mangia Zuppa di Tuskarr mentre si è sotto l'effetto di uno dei seguenti giocattoli: Anello con Diamante Nero Eterno, Maschere Festive Fatte in Casa, Parte Anteriore del Costume da Cavallo, Costume da Kovork, Specchio Magico per Mascotte, Parasole Nero Stiloso, Pannello di Sintonizzazione Mnemonica, Manto di Zannastrale, Briglie Inanellate del Perlustratore o Parasole della Contessa",142261,1,0,57591,1,1
@@ -80897,8 +81387,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142300,Ordini d'Artigianato pubblici completati,142299,5,0,57623,0,1
 142301,Pesca 100 pesci con il Galleggiante Eccessivo,0,0,4,0,0,0
 142302,Pesca 100 pesci con il Galleggiante Eccessivo attivo.,142301,100,0,57625,0,1
-142303,Ordini d'Artigianato personali completati,0,0,4,0,0,0
-142304,Ordini d'Artigianato personali completati,142303,5,0,57626,0,1
 142305,Sponde del Risveglio - Inverso - Bronzo,0,0,4,0,0,0
 142306,,142305,1,0,57481,0,48
 142307,,142305,1,0,57482,1,48
@@ -80918,6 +81406,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142321,Stagione PvP 34 - Collezione di set,0,0,4,0,0,2
 142322,Colleziona un qualsiasi set d'armatura della Stagione 1 di Dragonflight (Stagione 34 del PvP).,142321,1,0,57632,0,2
 142323,,58604,1,0,57633,60,0
+142324,Spedizione di Dragonflight completata,0,1,8,0,0,8193
+142325,Accademia di Algeth'ar,142324,1,0,57634,0,2
+142326,Sale dell'Infusione,142324,1,0,57641,1,2
+142327,Conca dei Felcepelle,142324,1,0,57640,2,2
+142328,Neltharus,142324,1,0,57639,3,2
+142329,Pozze della Vita di Rubino,142324,1,0,57638,4,2
+142330,Cripta Azzurra,142324,1,0,57637,5,2
+142331,Offensiva dei Nokhud,142324,1,0,57636,6,2
+142332,Uldaman: Eredità di Tyr,142324,1,0,57635,7,2
 142333,$gEvocatore:Evocatrice;,24236,70,0,57643,12,2
 142334,$gEvocatore:Evocatrice;,24248,70,0,57643,12,2
 142335,$gEvocatore:Evocatrice;,24260,70,0,57643,12,2
@@ -80933,14 +81430,111 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142345,$gEvocatore:Evocatrice;,20008,1,0,57653,12,0
 142346,$gEvocatore:Evocatrice;,20352,1,0,57654,12,0
 142347,$gEvocatore:Evocatrice;,18689,1,0,57655,12,0
+142360,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 5 (ECV),0,0,4,0,0,0
+142361,Parla con Thrall,142360,1,0,56807,0,0
+142362,Usa la Pietra del Ritorno di Thrall per tornare a Orgrimmar,142360,1,0,57662,1,0
 142363,$gEvocatore:Evocatrice;,18079,70,0,57663,3,0
 142364,,21083,18,0,57664,21,0
+142370,Isola Proibita - Bronzo,0,0,4,0,0,0
+142371,,142370,1,0,57669,0,48
+142372,,142370,1,0,57670,1,48
+142373,,142370,1,0,57671,2,48
+142374,,142370,1,0,57672,3,48
+142375,,142370,1,0,57673,4,48
+142376,,142370,1,0,57674,5,48
+142377,Isola Proibita - Argento,0,0,4,0,0,0
+142378,,142377,1,0,57675,0,48
+142379,,142377,1,0,57676,1,48
+142380,,142377,1,0,57677,2,48
+142381,,142377,1,0,57678,3,48
+142382,,142377,1,0,57679,4,48
+142383,,142377,1,0,57680,5,48
+142384,Isola Proibita - Oro,0,0,4,0,0,0
+142385,,142384,1,0,57681,0,48
+142386,,142384,1,0,57682,1,48
+142387,,142384,1,0,57683,2,48
+142388,,142384,1,0,57684,3,48
+142389,,142384,1,0,57685,4,48
+142390,,142384,1,0,57686,5,48
+142396,Isola Proibita Avanzato - Bronzo,0,0,4,0,0,0
+142397,,142396,1,0,57691,0,48
+142398,,142396,1,0,57692,1,48
+142399,,142396,1,0,57693,2,48
+142400,,142396,1,0,57694,3,48
+142401,,142396,1,0,57695,4,48
+142402,,142396,1,0,57696,5,48
+142407,Isola Proibita Avanzato - Argento,0,0,4,0,0,0
+142408,,142407,1,0,57700,0,48
+142409,,142407,1,0,57701,1,48
+142410,,142407,1,0,57702,2,48
+142411,,142407,1,0,57703,3,48
+142412,,142407,1,0,57704,4,48
+142413,,142407,1,0,57705,5,48
+142414,Isola Proibita Avanzato - Oro,0,0,4,0,0,0
+142415,,142414,1,0,57706,0,48
+142416,,142414,1,0,57707,1,48
+142417,,142414,1,0,57708,2,48
+142418,,142414,1,0,57709,3,48
+142419,,142414,1,0,57710,4,48
+142420,,142414,1,0,57711,5,48
+142421,Isola Proibita Inverso - Bronzo,0,0,4,0,0,0
+142422,,142421,1,0,57712,0,48
+142423,,142421,1,0,57713,1,48
+142424,,142421,1,0,57714,2,48
+142425,,142421,1,0,57715,3,48
+142426,,142421,1,0,57716,4,48
+142427,,142421,1,0,57717,5,48
+142428,Isola Proibita Inverso - Argento,0,0,4,0,0,0
+142429,,142428,1,0,57718,0,48
+142430,,142428,1,0,57719,1,48
+142431,,142428,1,0,57720,2,48
+142432,,142428,1,0,57721,3,48
+142433,,142428,1,0,57722,4,48
+142434,,142428,1,0,57723,5,48
+142435,Isola Proibita Inverso - oro,0,0,4,0,0,0
+142436,,142435,1,0,57724,0,48
+142437,,142435,1,0,57725,1,48
+142438,,142435,1,0,57726,2,48
+142439,,142435,1,0,57727,3,48
+142440,,142435,1,0,57728,4,48
+142441,,142435,1,0,57729,5,48
+142455,Perfezionista della Corsa dei Draghi all'Isola Proibita,0,0,4,0,0,0
+142456,,142455,1,0,57740,0,32
+142457,,142455,1,0,57741,1,32
+142458,,142455,1,0,57742,2,32
+142465,Perfezionista della Corsa dei Draghi all'Isola Proibita - Argento,0,0,4,0,0,0
+142466,,142465,1,0,57750,0,32
+142467,,142465,1,0,57753,1,32
+142468,,142465,1,0,57754,2,32
+142474,Perfezionista della Corsa dei Draghi all'Isola Proibita - Argento,0,0,4,0,0,0
+142475,,142474,1,0,57750,0,32
+142476,,142474,1,0,57753,1,32
+142477,,142474,1,0,57754,2,32
+142478,Perfezionista della Corsa dei Draghi all'Isola Proibita - Oro,0,0,4,0,0,0
+142479,,142478,1,0,57755,0,32
+142480,,142478,1,0,57757,1,32
+142481,,142478,1,0,57758,2,32
 142517,Accedi mentre possiedi una qualsiasi edizione di Dragonflight,0,1,4,0,0,0
 142518,,142517,1,0,57790,0,0
+142519,<DNT> Winterpelt Furbolg - 1 - Friendly,0,0,4,0,0,0
+142520,,142519,3000,0,57791,0,0
+142521,<DNT> Winterpelt Furbolg - 1 - Honored,0,0,4,0,0,0
+142522,,142521,9000,0,57791,0,0
+142523,<DNT> Winterpelt Furbolg - 1 - Revered,0,0,4,0,0,0
+142524,,142523,21000,0,57791,0,0
+142525,<DNT> Winterpelt Furbolg - 1 - Exalted,0,0,4,0,0,0
+142526,,142525,42000,0,57791,0,0
 142527,Boss Furia dei Cieli sconfitti,0,4,5,0,0,8193
 142529,,142527,0,0,57793,1,0
 142531,,142527,0,0,57795,0,0
 142533,,142527,0,0,57797,2,0
+142534,10.0.7 Orc Heritage - Choose Clan (ECV),0,1,8,0,0,4096
+142535,Vinci una battaglia nella Valle d'Alterac,142534,1,0,57798,0,0
+142536,,142534,1,0,57799,1,0
+142537,,142534,1,0,57800,2,0
+142538,,142534,1,0,57801,3,0
+142539,,142534,1,0,57802,4,0
+142540,,142534,1,0,57803,5,0
 142541,Ha ottenuto Acqua Primeva Offuscata,0,0,4,0,0,0
 142542,,142541,1,0,57804,0,0
 142543,Ha ottenuto Fuoco Primevo Offuscato,0,0,4,0,0,0
@@ -80954,13 +81548,38 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142551,Possessore della cavalcatura Plasmasogni Aggrovigliato di Dragonflight - Heroic Edition.,0,1,8,0,0,0
 142552,,142551,1,0,57809,0,2
 142553,Evocatore,6934,1,0,57810,12,0
+142554,10.0.7 Achievement - While We Were Sleeping,0,0,4,0,0,0
+142555,Annotazione del Diario: Esperimenti,142554,0,0,57811,0,0
+142556,Annotazione del Diario: Reliquie,142554,0,0,57812,1,0
+142557,Annotazione del Diario: Gli Asili,142554,0,0,57813,2,0
+142558,Annotazione del Diario: Silenzio,142554,0,0,57814,3,0
+142559,Pietra della Ricezione: Avviso Finale,142554,0,0,57815,4,0
+142560,Pietra dell'Invio: Protesta,142554,0,0,57816,5,0
+142561,Pietra dell'Invio: Rapporto Iniziale,142554,0,0,57817,6,0
+142562,Pietra dell'Invio: Silenzio,142554,0,0,57818,7,0
 142575,,136224,0,0,57826,17,0
+142581,10.0.7 - Forbidden Reach - Froststone Vault - Storm - Water - Boss (OJF),0,0,4,0,0,0
 142582,Completa 500 Ordini d'Artigianato pubblici dalle Isole dei Draghi,0,500,4,0,0,0
 142583,,142582,500,0,57831,0,1
 142584,Completa 250 Ordini d'Artigianato pubblici dalle Isole dei Draghi,0,500,4,0,0,0
 142585,,142584,250,0,57831,0,1
+142586,Shukoro Domarapide sconfitto,142581,1,0,57838,0,0
+142587,10.0.7 - Forbidden Reach - Froststone Vault - Storm - Fire - Boss (OJF),0,0,4,0,0,0
+142588,Fael'lin sconfitto,142587,1,0,57833,0,0
+142589,10.0.7 - Forbidden Reach - Froststone Vault - Storm - Earth - Boss (OJF),0,0,4,0,0,0
+142590,Khirna Cuordiroccia sconfitta,142589,1,0,57834,0,0
 142591,Completa 100 Ordini d'Artigianato pubblici dalle Isole dei Draghi,0,100,4,0,0,0
 142592,,142591,100,0,57831,0,1
+142593,10.0.7 - Forbidden Reach - Froststone Vault - Storm - Air - Boss (OJF),0,0,4,0,0,0
+142594,Han'thul sconfitta,142593,1,0,57832,0,0
+142595,Elementali sconfitti,0,100,4,0,0,0
+142596,Elementali sconfitti,142595,5,0,57864,0,0
+142599,Elementali sconfitti,0,100,4,0,0,0
+142600,Elementali sconfitti,142599,5,0,57865,0,0
+142603,Elementali sconfitti,0,100,4,0,0,0
+142604,Elementali sconfitti,142603,5,0,57866,0,0
+142607,Elementali sconfitti,0,100,4,0,0,0
+142608,Elementali sconfitti,142607,5,0,57867,0,0
 142611,Fulfill Public Crafting Orders from within the Dragon Isles (DNT),0,100,4,0,0,0
 142612,,142611,0,0,57831,0,0
 142613,Fulfill Crafting Orders from within the Dragon Isles (DNT),0,500,4,0,0,0
@@ -80975,6 +81594,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142622,Anziano di Iskaara Sik'ek a Thaldraszus,142615,1,0,57845,6,0
 142623,Anziano Razlok a Thaldraszus,142615,1,0,57846,7,0
 142624,Evocatore,68043,1,0,57850,3,0
+142647,10.07 - Forbidden Reach - Treasure Room - Mysterious Cache Looted (MDE),0,0,4,0,0,4096
+142648,Cassa Misteriosa depredata,142647,1,0,57869,0,16
+142649,10.07 - Forbidden Reach - Treasure Room - Gold Pile Looted (MDE),0,0,4,0,0,4096
+142650,Mucchio d'Oro depredato,142649,1,0,57870,0,16
 142653,,137636,0,0,57873,8,0
 142658,Corridore inverso: Bronzo,0,0,4,0,0,0
 142659,,142658,1,0,57877,0,48
@@ -81069,12 +81692,29 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142773,,142772,1,0,57968,0,2
 142774,,142772,1,0,57969,1,2
 142775,,142772,1,0,57970,2,2
+142776,10.07 - Forbidden Reach - Treasure Room - Mysterious Cache Looted (MDE),0,0,4,0,0,4096
+142777,Cassa Misteriosa depredata,142776,1,0,57973,0,16
+142778,10.07 - Forbidden Reach - Treasure Room - Gold Pile Looted (MDE),0,0,4,0,0,4096
+142779,Mucchio d'Oro depredato,142778,1,0,57974,0,16
 142788,Disarcionamento aviotrasportato 50,0,0,4,0,0,1
 142789,,142788,50,0,58005,0,1
+142818,Parla con Drek'thar,140747,1,0,57996,1,0
+142819,Totem posizionati,140749,4,0,57997,1,0
+142820,Parla con Drek'thar per iniziare,140751,1,0,57998,0,0
+142821,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 4 (ECV),0,0,4,0,0,0
+142822,Sconfiggi la Proiezione Elementale,142821,1,0,57999,0,0
 142848,"Completa l'evento ""Furia dei Cieli"" nel Futuro dei Primalisti.",0,0,4,0,0,4096
 142849,,142848,0,0,58006,0,0
 142850,"""Una degna caccia"" completato",0,0,4,0,0,0
 142851,Sblocca la raccolta delle Schegge della Conoscenza dei Draghi (vincolato all'account),142850,0,0,54580,0,0
+142856,Gli elementi iniziano a sciamare,0,0,4,0,0,0
+142857,Gli elementi iniziano a sciamare,142856,1,0,58009,0,0
+142858,Carica i condotti elettrici,0,0,4,0,0,0
+142859,Carica i condotti elettrici,142858,1,0,58010,0,0
+142860,Sconfiggi il Draco Caricato,0,0,4,0,0,0
+142861,Sconfiggi il Draco Caricato,142860,1,0,58011,0,0
+142862,Depreda il Forziere delle Tempeste,0,0,4,0,0,0
+142863,Depreda il Forziere delle Tempeste,142862,1,0,58012,0,0
 142875,Costato di Ursius,13185,1,0,55941,498,2
 142876,Costato di Ursius,13185,1,0,55931,499,2
 142877,Costato di Ursius,13185,1,0,58020,500,2
@@ -81195,24 +81835,541 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142993,Panaché dei Nani,12078,1,0,58116,257,2
 142994,Panaché dei Nani,12078,1,0,58117,258,2
 142995,Panaché dei Nani,12078,1,0,58118,259,2
+142996,10.0.7 Professions - Zul'Gurub Restoration - Quest Complete,0,0,4,0,0,0
+142997,,142996,1,0,58119,0,0
 142998,,137872,0,0,58120,5,0
 142999,,137872,0,0,58121,6,0
 143000,,137872,0,0,58122,7,0
 143001,,137872,0,0,58123,8,0
+143002,,141057,0,0,58124,1,0
+143003,Pesca una Cassa dei Gurubashi a Zul'gurub,0,1,8,0,0,0
+143004,,143003,1,0,58126,0,0
+143010,,143003,1,0,58125,1,0
 143013,,137636,0,0,57874,9,0
 143014,,137636,0,0,57875,10,0
 143015,,137636,0,0,58132,11,0
 143016,,137636,0,0,58133,12,0
 143017,,137636,0,0,58134,13,0
-143312,Trial of Tyr Ineligible For Spark Skip,0,0,4,0,0,2
+143163,Sblocca 50 porte nelle Cripte di Zskera usando le Chiavi delle Cripte di Zskera.,0,0,4,0,0,0
+143164,,143163,50,0,58209,0,1
+143165,Impresa - Dragonflight - Missione Mondiale 2 degli Scontri tra Mascotte,0,8,8,0,0,0
+143166,Adinakon,143165,1,0,58212,0,0
+143167,Vivex,143165,1,0,58213,1,0
+143168,Enok il Fetido,143165,1,0,58214,2,0
+143169,L'ora giusta due volte al dì,143165,1,0,58215,3,0
+143170,Ardente ardore,143165,1,0,58216,4,0
+143171,Zampe del tuono,143165,1,0,58217,5,0
+143172,Una nuova vocazione,143165,1,0,58218,6,0
+143173,Sono pieni di stelle!,143165,1,0,58219,7,0
+143211,"Completa la missione ID 74485 ""Prova e riprova?""",0,0,4,0,0,0
+143212,,143211,1,0,58235,0,0
+143213,,143211,1,1,58236,1,0
+143219,Glifi del Volo Draconico - Isola Proibita,0,0,4,0,0,0
+143220,,143219,1,0,58238,0,48
+143221,,143219,1,0,58239,1,48
+143222,,143219,1,0,58240,2,48
+143223,,143219,1,0,58241,3,48
+143224,,143219,1,0,58242,4,48
+143225,,143219,1,0,58243,5,48
+143226,,143219,1,0,58244,6,48
+143227,,143219,1,0,58245,7,48
+143230,Sblocca 150 porte nelle Cripte di Zskera usando le Chiavi delle Cripte di Zskera.,0,0,4,0,0,0
+143231,,143230,150,0,58209,0,1
+143248,"Completa la missione ""Vai con onore, amico""",0,0,4,0,0,0
+143249,,143248,1,0,58260,0,0
+143301,10.0.7 Forbidden Reach Returns - Achievement - A - Echoes from the Reach,0,0,4,0,0,0
+143302,Annotazione del Diario: Esperimenti,143301,0,0,58292,0,0
+143303,Annotazione del Diario: Reliquie,143301,0,0,57812,1,0
+143304,Annotazione del Diario: Gli Asili,143301,0,0,57813,2,0
+143305,Annotazione del Diario: Silenzio,143301,0,0,57814,3,0
+143306,Pietra della Ricezione: Avviso Finale,143301,0,0,57815,4,0
+143307,Pietra della Ricezione: Protesta,143301,0,0,57816,5,0
+143308,Pietra della Ricezione: Rapporto Iniziale,143301,0,0,57817,6,0
+143309,Pietra della Ricezione: Il Prigioniero,143301,0,0,57818,7,0
+143312,Prova di Tyr non idonea per Salto Scintilla,0,0,4,0,0,2
 143313,,143312,0,0,56166,0,0
+143316,Reputazione Apprezzato con il Consorzio degli Artigiani (Grado 3),0,0,4,0,0,2
+143317,La reputazione con il Consorzio degli Artigiani è Apprezzato.,143316,5500,0,55655,0,2
+143318,Reputazione Rispettato con il Consorzio degli Artigiani (Grado 2),0,0,4,0,0,2
+143319,La reputazione con il Consorzio degli Artigiani è Rispettato.,143318,2500,0,55655,0,2
+143320,Reputazione Preferito con il Consorzio degli Artigiani (Grado 1),0,0,4,0,0,2
+143321,La reputazione con il Consorzio degli Artigiani è Preferito.,143320,500,0,55655,0,2
+143322,10.0.7 Achievement - While We Were Sleeping,0,0,4,0,0,0
+143323,,143335,1,0,57811,0,1024
+143324,,143337,1,0,57812,0,512
+143325,,143333,1,0,57813,0,512
+143326,,143339,1,0,57814,0,512
+143327,,143341,1,0,57815,0,512
+143328,,143343,1,0,57816,0,512
+143329,,143345,1,0,57817,0,512
+143330,,143347,1,0,57818,0,512
+143333,Annotazione del Diario: Gli Asili,143322,1,8,0,0,8192
+143334,,143333,1,0,58296,1,1024
+143335,Annotazione del Diario: Esperimenti,143322,1,8,0,1,8192
+143336,,143335,1,0,58292,1,512
+143337,Annotazione del Diario: Reliquie,143322,1,8,0,2,8192
+143338,,143337,1,0,58295,1,1024
+143339,Annotazione del Diario: Silenzio,143322,1,8,0,3,8192
+143340,,143339,1,0,58297,1,1024
+143341,Pietra della Ricezione: Avviso Finale,143322,1,8,0,4,8192
+143342,,143341,1,0,58298,1,1024
+143343,Pietra dell'Invio: Protesta,143322,1,8,0,5,8192
+143344,,143343,1,0,58299,1,1024
+143345,Pietra dell'Invio: Rapporto Iniziale,143322,1,8,0,6,8192
+143346,,143345,1,0,58300,1,1024
+143347,Pietra dell'Invio: Il Prigioniero,143322,1,8,0,7,8192
+143348,,143347,1,0,58301,1,1024
 143351,,134118,0,0,33148,16,2
 143353,,67813,0,0,58302,1,2
 143354,,67815,0,0,58303,1,2
+143363,Ottieni il Collare di Piranha Millemorsi,0,0,4,0,0,0
+143364,Acquista il Collare di Piranha Millemorsi da Junnik,143363,1,0,58305,0,0
+143365,Ottieni i Pezzettini di Colossale,0,0,4,0,0,0
+143366,Acquista i Pezzettini di Colossale da Patchu,143365,1,0,58306,0,0
+143367,Ottieni l'Olio di Fegato di Skrog,0,0,4,0,0,0
+143368,Acquista l'Olio di Fegato di Skrog da Arvik,143367,1,0,58307,0,0
+143369,"Ottieni la Polvere di Pesce ""Multiuso"" di Norukk",0,0,4,0,0,0
+143370,"Acquista la Polvere di Pesce ""Multiuso"" di Norukk da Norukk",143369,1,0,58308,0,0
+143371,Ottieni la Colla di Sgombro Fermentato,0,0,4,0,0,0
+143372,Acquista la Colla di Sgombro Fermentato da Tattukiaka,143371,1,0,58309,0,0
+143373,Ottieni l'Inchiostro di Calamaro delle Profondità,0,0,4,0,0,0
+143374,Acquista l'Inchiostro di Calamaro delle Profondità da Rokkutuk,143373,1,0,58310,0,0
+143375,Ottieni la Carne Secca di Granchio Insulare,0,0,4,0,0,0
+143376,Acquista la Carne Secca di Granchio Insulare da Tikukk,143375,1,0,58311,0,0
+143377,Ottieni l'Occhio di Spigola,0,0,4,0,0,0
+143378,Acquista l'Occhio di Spigola da Hanu,143377,1,0,58312,0,0
+143379,Ottieni il Bruffalo alle Sette Spezie,0,0,4,0,0,0
+143380,Acquista il Bruffalo alle Sette Spezie dal Dotur Qariin,143379,1,0,58313,0,0
+143381,Ottieni l'Argali della Fiamma Draconica,0,0,4,0,0,0
+143382,Acquista l'Argali della Fiamma Draconica dal Dotur Qariin,143381,1,0,58314,0,0
+143383,Ottieni le Costolette di Mammut Triplamente Carbonizzate,0,0,4,0,0,0
+143384,Acquista le Costolette di Mammut Triplamente Carbonizzate dal Dotur Qariin,143383,1,0,58315,0,0
+143385,"Ottieni l'Anatra ""Vulcano""",0,0,4,0,0,0
+143386,"Acquista l'Anatra ""Vulcano"" dal Dotur Qariin",143385,1,0,58316,0,0
+143387,Ottieni la Baccaverde,0,0,4,0,0,0
+143388,Acquista la Baccaverde da Gracus,143387,1,0,58317,0,0
+143389,Ottieni il Frutto del Drago Fresco,0,0,4,0,0,0
+143390,Acquista il Frutto del Drago Fresco da Gracus,143389,1,0,58318,0,0
+143391,Ottieni il Succo di Fruttafronda,0,0,4,0,0,0
+143392,Acquista il Succo di Fruttafronda da Gracus,143391,1,0,58319,0,0
+143393,Ottieni la Sagittata Freddogelo Secca,0,0,4,0,0,0
+143394,Acquista la Sagittata Freddogelo Secca da Gracus,143393,1,0,58320,0,0
+143395,Ottieni la Patata di Ohn'ahra Eccellente,0,0,4,0,0,0
+143396,Acquista la Patata di Ohn'ahra Eccellente da Erugosa,143395,1,0,58321,0,0
+143397,Ottieni l'Impasto per Pasta Sfoglia,0,0,4,0,0,0
+143398,Acquista l'Impasto per Pasta Sfoglia da Erugosa,143397,1,0,58322,0,0
+143399,Ottieni la Polvere di Cacao Thaldrasziana Scura,0,0,4,0,0,0
+143400,Acquista la Polvere di Cacao Thaldrasziana Scura da Erugosa,143399,1,0,58323,0,0
+143401,Ottieni la Miscela di Quattro Formaggi,0,0,4,0,0,0
+143402,Acquista la Miscela di Quattro Formaggi da Erugosa,143401,1,0,58324,0,0
+143403,Ottieni le Razioni: Sformato di Scorpide,0,0,4,0,0,0
+143404,Acquista le Razioni: Sformato di Scorpide dal Capo Chef Stacks,143403,1,0,58325,0,0
+143405,Ottieni le Razioni: Guazzetto di Bivalve Piccante,0,0,4,0,0,0
+143406,Acquista le Razioni: Guazzetto di Bivalve Piccante dal Capo Chef Stacks,143405,1,0,58326,0,0
+143407,Ottieni le Razioni: Stufato delle Marche Occidentali,0,0,4,0,0,0
+143408,Acquista le Razioni: Stufato delle Marche Occidentali dal Capo Chef Stacks,143407,1,0,58327,0,0
+143409,Ottieni le Razioni: Chili alla Ruttafuoco,0,0,4,0,0,0
+143410,Acquista le Razioni: Chili alla Ruttafuoco dal Capo Chef Stacks,143409,1,0,58328,0,0
+143411,Lancia il Collare di Piranha Millemorsi,0,0,4,0,0,0
+143412,Lancia il Lancia il Collare di Piranha Millemorsi nella pentola,143411,1,0,58329,0,0
+143413,Lancia i Pezzettini di Colossale,0,0,4,0,0,0
+143414,Lancia i Pezzettini di Colossale nella pentola,143413,1,0,58330,0,0
+143415,Lancia l'Olio di Fegato di Skrog,0,0,4,0,0,0
+143416,Lancia l'Olio di Fegato di Skrog nella pentola,143415,1,0,58331,0,0
+143417,"Lancia la Polvere di Pesce ""Multiuso"" di Norukk",0,0,4,0,0,0
+143418,"Spargi la Polvere di Pesce ""Multiuso"" di Norukk nella pentola",143417,1,0,58332,0,0
+143419,Lancia la Colla di Sgombro Fermentato,0,0,4,0,0,0
+143420,Spremi la Colla di Sgombro Fermentato nella pentola,143419,1,0,58333,0,0
+143421,Lancia l'Inchiostro di Calamaro delle Profondità,0,0,4,0,0,0
+143422,Versa l'Inchiostro di Calamaro delle Profondità nella pentola,143421,1,0,58334,0,0
+143423,Lancia la Carne Secca di Granchio Insulare,0,0,4,0,0,0
+143424,Lancia la Carne Secca di Granchio Insulare nella pentola,143423,1,0,58335,0,0
+143425,Lancia l'Occhio di Spigola,0,0,4,0,0,0
+143426,Lancia l'Occhio di Spigola nella pentola,143425,1,0,58336,0,0
+143427,Lancia il Bruffalo alle Sette Spezie,0,0,4,0,0,0
+143428,Lancia il Bruffalo alle Sette Spezie nella pentola,143427,1,0,58337,0,0
+143429,Lancia l'Argali della Fiamma Draconica,0,0,4,0,0,0
+143430,Lancia l'Argali della Fiamma Draconica nella pentola,143429,1,0,58338,0,0
+143431,Lancia le Costolette di Mammut Triplamente Carbonizzate,0,0,4,0,0,0
+143432,Lancia le Costolette di Mammut Triplamente Carbonizzate nella pentola,143431,1,0,58339,0,0
+143433,"Lancia l'Anatra ""Vulcano""",0,0,4,0,0,0
+143434,"Lancia l'Anatra ""Vulcano"" nella pentola",143433,1,0,58340,0,0
+143435,Lancia la Baccaverde,0,0,4,0,0,0
+143436,Lancia la Baccaverde nella pentola,143435,1,0,58341,0,0
+143437,Lancia il Frutto del Drago Fresco,0,0,4,0,0,0
+143438,Lancia il Frutto del Drago Fresco nella pentola,143437,1,0,58342,0,0
+143439,Lancia il Succo di Fruttafronda,0,0,4,0,0,0
+143440,Lancia il Succo di Fruttafronda nella pentola,143439,1,0,58343,0,0
+143441,Lancia la Sagittata Freddogelo Secca,0,0,4,0,0,0
+143442,Lancia la Sagittata Freddogelo Secca nella pentola,143441,1,0,58344,0,0
+143443,Lancia la Patata di Ohn'ahra Eccellente,0,0,4,0,0,0
+143444,Lancia la Patata di Ohn'ahra Eccellente nella pentola,143443,1,0,58345,0,0
+143445,Lancia l'Impasto per Pasta Sfoglia,0,0,4,0,0,0
+143446,Lancia l'Impasto per Pasta Sfoglia nella pentola,143445,1,0,58346,0,0
+143447,Lancia la Polvere di Cacao Thaldrasziana Scura,0,0,4,0,0,0
+143448,Spargi la Polvere di Cacao Thaldrasziana Scura nella pentola,143447,1,0,58347,0,0
+143449,Lancia la Miscela di Quattro Formaggi,0,0,4,0,0,0
+143450,Spargi la Miscela di Quattro Formaggi nella pentola,143449,1,0,58348,0,0
+143451,Lancia le Razioni: Sformato di Scorpide,0,0,4,0,0,0
+143452,Lancia le Razioni: Sformato di Scorpide nella pentola,143451,1,0,58349,0,0
+143453,Lancia le Razioni: Guazzetto di Bivalve Piccante,0,0,4,0,0,0
+143454,Lancia le Razioni: Guazzetto di Bivalve Piccante nella pentola,143453,1,0,58350,0,0
+143455,Lancia le Razioni: Stufato delle Marche Occidentali,0,0,4,0,0,0
+143456,Lancia le Razioni: Stufato delle Marche Occidentali nella pentola,143455,1,0,58351,0,0
+143457,Lancia le Razioni: Chili alla Ruttafuoco,0,0,4,0,0,0
+143458,Lancia le Razioni: Chili alla Ruttafuoco nella pentola,143457,1,0,58352,0,0
+143471,Il personaggio ha appreso la Cassetta degli Attrezzi Instabile a Guida Autonoma,0,0,4,0,0,0
+143472,,143471,0,0,58359,0,0
+143496,Pesce Leone Enorme,0,0,4,0,0,0
+143497,Ottieni della carne dal Pesce Leone Enorme,143496,1,0,58368,0,0
+143502,Mantacorno Enorme,0,0,4,0,0,0
+143503,Ottieni la carne dal Mantacorno Enorme,143502,1,0,58370,0,0
+143504,Squalo Enorme,0,0,4,0,0,0
+143505,Ottieni la carne dallo Squalo Enorme,143504,1,0,58371,0,0
+143508,Lingua: Mezzorso (Mantogelido) a 100,0,0,4,0,0,0
+143509,Raggiungi il Grado 100 nella lingua dei Mantogelido.,143508,100,0,58373,0,0
+143510,Linee dei Mantogelido e degli Spinaruggine completate,0,0,4,0,0,0
+143511,,143510,0,0,55346,0,0
+143512,,143510,0,0,55345,1,0
 143588,[DNT] 10.0.5 Hotfix - Revival Catalyst - Account Breadcrumb (MPK),0,1,8,0,0,8194
 143589,,143588,1,0,58438,0,0
 143590,,143588,1,0,58437,1,0
+143604,Sblocca tutte le porte di una singola Cripta di Zskera in una settimana.,0,0,4,0,0,16
+143605,,143604,1,0,58449,0,0
+143672,Viaggio dell'Avventuriero: Isola Proibita,0,10,8,0,0,0
+143673,Vraken il Cacciatore,143672,1,0,58458,0,0
+143674,Gahz'raxes,143672,1,0,58459,1,0
+143675,Ishyra,143672,1,0,58460,2,0
+143676,Reisa l'Annegata,143672,1,0,58461,3,0
+143677,Duzalgor,143672,1,0,58462,4,0
+143678,Vagliaossa Marwak,143672,1,0,58463,5,0
+143679,Galakhad,143672,1,0,58464,6,0
+143680,Grugoth lo Spezzascafi,143672,1,0,58465,7,0
+143681,Dama Shaz'ra,143672,1,0,58466,8,0
+143682,Veltrax,143672,1,0,58467,9,0
+143683,Carrey Occhiopazzo,143672,1,0,58468,10,0
+143684,Ammazzadragoni Angvardi,143672,1,0,58469,11,0
+143685,Custode Entrix,143672,1,0,58470,12,0
+143686,Barbagruggo,143672,1,0,58471,13,0
+143687,Pyrachniss,143672,1,0,58472,14,0
+143688,Volcanakk,143672,1,0,58473,15,0
+143689,Tectonus,143672,1,0,58474,16,0
+143690,Ser Pizzicot,143672,1,0,58475,17,0
+143691,Manatema,143672,1,0,58476,18,0
+143692,Zannaguzza,143672,1,0,58477,19,0
+143693,Gareed,143672,1,0,58478,20,0
+143694,Faunos,143672,1,0,58479,21,0
+143695,Forgiamaree Zarviss,143672,1,0,58480,22,0
+143696,Arcantrix,143672,1,0,58481,23,0
+143697,Kangalo,143672,1,0,58482,24,0
+143698,Fimbol,143672,1,0,58483,25,0
+143699,Agni Zoccolo Ardente,143672,1,0,58484,26,0
+143700,Luttrok,143672,1,0,58485,27,0
+143701,Lapistoico,143672,1,0,58486,28,0
+143702,Viaggio del Campione: Isola Proibita,0,10,4,0,0,0
+143703,Vraken il Cacciatore,143702,1,0,58458,0,0
+143704,Gahz'raxes,143702,1,0,58459,1,0
+143705,Ishyra,143702,1,0,58460,2,0
+143706,Reisa l'Annegata,143702,1,0,58461,3,0
+143707,Duzalgor,143702,1,0,58462,4,0
+143708,Vagliaossa Marwak,143702,1,0,58463,5,0
+143709,Galakhad,143702,1,0,58464,6,0
+143710,Grugoth lo Spezzascafi,143702,1,0,58465,7,0
+143711,Dama Shaz'ra,143702,1,0,58466,8,0
+143712,Veltrax,143702,1,0,58467,9,0
+143713,Carrey Occhiopazzo,143702,1,0,58468,10,0
+143714,Ammazzadragoni Angvardi,143702,1,0,58469,11,0
+143715,Custode Entrix,143702,1,0,58470,12,0
+143716,Barbagruggo,143702,1,0,58471,13,0
+143717,Pyrachniss,143702,1,0,58472,14,0
+143718,Volcanakk,143702,1,0,58473,15,0
+143719,Tectonus,143702,1,0,58474,16,0
+143720,Ser Pizzicot,143702,1,0,58475,17,0
+143721,Manatema,143702,1,0,58476,18,0
+143722,Zannaguzza,143702,1,0,58477,19,0
+143723,Gareed,143702,1,0,58478,20,0
+143724,Faunos,143702,1,0,58479,21,0
+143725,Forgiamaree Zarviss,143702,1,0,58480,22,0
+143726,Arcantrix,143702,1,0,58481,23,0
+143727,Kangalo,143702,1,0,58482,24,0
+143728,Fimbol,143702,1,0,58483,25,0
+143729,Agni Zoccolo Ardente,143702,1,0,58484,26,0
+143730,Luttrok,143702,1,0,58485,27,0
+143731,Lapistoico,143702,1,0,58486,28,0
+143732,Tesori unici: Isola Proibita,0,0,4,0,0,0
+143733,Scorta Proibita,143732,1,0,58487,0,0
+143734,Manufatto Aviano,143732,1,0,58488,1,0
+143735,Scrigno d'Ossidiana,143732,1,0,58489,2,0
+143736,Riserve dei Giuramagie,143732,1,0,58490,3,0
+143737,Cumulo d'Ossa,143732,1,0,58491,4,0
+143738,Scrigno degli Scagliaremota,143732,1,0,58492,5,0
+143739,Scorta dei Marferreo,143732,1,0,58493,6,0
+143740,Cairn Mangiatempeste,143732,1,0,58494,7,0
+143741,Cairn Scagliapietra,143732,1,0,58495,8,0
+143742,Cairn Fiammeggiante,143732,1,0,58496,9,0
+143743,Cairn Cuorfreddo,143732,1,0,58497,10,0
+143744,Provviste di Morqut,143732,1,0,58498,11,0
+143745,Tesori Piccoli: Isola Proibita (20),0,20,4,0,0,0
+143746,,143745,20,0,58499,0,1
+143757,Tesori Piccoli: Isola Proibita (100),0,20,4,0,0,0
+143758,,143757,100,0,58499,0,1
+143759,Tesori Custoditi: Isola Proibita (10),0,20,4,0,0,0
+143760,,143759,10,0,58500,0,1
+143761,Libri della Storia: Isola Proibita,0,0,4,0,0,0
+143762,Il fardello di Lapisagos,143761,1,0,58501,0,16
+143763,Diario di un Soldato,143761,1,0,58502,1,16
+143764,Canto delle Profondità,143761,1,0,58503,2,16
+143765,Ritorno della Burrasca Notturna,143761,1,0,58504,3,16
+143766,Appunti della Spedizione Perduta,143761,1,0,58505,4,16
+143767,Parole dell'Ammazzadragone,143761,1,0,58506,5,16
+143768,Libro Vivente,143761,1,0,58660,6,16
+143769,Tesori della Mappa: Isola Proibita (10),0,20,4,0,0,0
+143770,,143769,10,0,58508,0,1
+143771,Tesori della Mappa: Isola Proibita (50),0,20,4,0,0,0
+143772,,143771,50,0,58508,0,1
+143794,Rete di Collegamento - Nodo sbloccato: Isola Proibita,0,0,4,0,0,0
+143795,,143794,1,0,58509,0,2
+143799,10.0.7 Forbidden Reach - Achievement - Explorer of the Forbidden Reach (ZTO),0,0,4,0,0,0
+143800,Asilo della Guerra,143799,1,0,58510,0,0
+143801,Cratere Spezzatempesta,143799,1,0,58511,1,0
+143802,Villaggio di Morqut,143799,1,0,58512,2,0
+143803,Segrete di Pietragelida,143799,1,0,58513,3,0
+143804,Isola Teschio di Drago,143799,1,0,58514,4,0
+143805,Caldera dei Guaritori,143799,1,0,58515,5,0
+143806,10.0.7 Forbidden Reach Intro Completed (MA),0,0,4,0,0,0
+143807,,143806,1,0,58516,0,0
+143808,,143806,1,0,58517,1,0
+143809,,143806,1,0,58518,2,0
+143810,,143806,1,0,58519,3,0
+143811,,143806,1,0,58520,4,0
+143812,,143806,1,0,58521,5,0
+143813,"Completa la serie di missioni ""Un asilo diviso""",0,0,4,0,0,0
+143814,,143813,1,0,58522,0,0
+143815,,143813,1,0,58523,1,0
+143816,,143813,1,0,58524,2,0
+143817,,143813,1,0,58525,3,0
+143818,,143813,1,0,58526,4,0
+143819,,143813,1,0,58527,5,0
+143820,,143813,1,0,58528,6,0
+143821,,143813,1,0,58529,7,0
+143822,,143813,1,0,58530,8,0
+143859,Monaco,20487,70,0,58562,8,0
+143860,Monaco,13891,70,0,58563,8,0
+143861,Monaco,17869,1,0,58564,8,0
+143862,Monaco,9697,1,0,58565,8,0
+143863,Tempeste completate:,0,0,4,0,0,0
+143864,Aria,143863,1,0,58567,0,0
+143865,Terra,143863,1,0,58568,1,0
+143866,Fuoco,143863,1,0,58569,2,0
+143867,Acqua,143863,1,0,58570,3,0
+143868,Completa le seguenti missioni:,0,0,4,0,0,0
+143869,Vortice,143868,1,0,58572,0,0
+143870,Tremblor,143868,1,0,58573,1,0
+143871,Fuocobrado,143868,1,0,58574,2,0
+143872,Flux,143868,1,0,58575,3,0
+143906,Porte delle Cripte di Zskera aperte,0,10,5,0,0,8193
+143907,,143906,1,0,58613,0,1
+143908,Compi tutte le imprese dell'Isola Proibita elencate qui sotto.,0,0,4,0,0,0
+143909,,143908,0,0,58614,0,32
+143910,,143908,0,0,58615,1,32
+143911,,143908,0,0,58616,2,32
+143912,,143908,0,0,58617,3,32
+143913,,143908,0,0,58618,4,32
+143914,,143908,0,0,58619,5,32
+143915,,143908,0,0,58620,6,32
+143916,,143908,0,0,58621,7,32
+143917,,143908,0,0,58622,8,32
+143918,,143908,0,0,58623,9,32
+143919,Grandi Cacce completate,0,5,5,0,0,8193
+143920,,143919,0,0,56953,0,0
+143921,,143908,0,0,58624,10,32
+143922,"Sì, Chef!",0,0,4,0,0,1
+143923,Detto di sì allo Chef,143922,13,0,58625,0,1
+143924,Mari il Saggio aiutato,0,0,4,0,0,4096
+143925,,143924,1,0,58629,0,0
+143926,Liu Cuor Fiammante aiutata,0,0,4,0,0,4096
+143927,,143926,1,0,58630,0,0
+143928,Ramingo della Sapienza Passo Fermo aiutato,0,0,4,0,0,4096
+143929,,143928,1,0,58631,0,0
+143930,Missioni Mondiali della Spedizione delle Scaglie di Drago completate,0,10,5,0,0,8193
+143931,,143930,0,0,58632,0,0
+143932,,143930,0,0,58633,1,0
+143933,,143930,0,0,58634,2,0
+143934,,143930,0,0,58635,3,0
+143935,,143930,0,0,58636,4,0
+143936,Boss delle Tempeste Primordiali uccisi,0,4,5,0,0,1
+143937,Khirna Cuordiroccia sconfitta,143936,1,0,58637,0,0
+143938,Fael'lin sconfitto,143936,1,0,58638,1,0
+143939,Shukoro Domarapide sconfitto,143936,1,0,58639,2,0
+143940,Han'thul sconfitta,143936,1,0,58640,3,0
+143949,"Missioni ""Scintille di vita"" completate",0,2,5,0,0,8193
+143950,,143949,0,0,58649,0,0
+143951,,143949,0,0,58650,1,0
+143952,,143949,0,0,58651,2,0
+143953,,143949,0,0,58652,3,0
+143954,,143949,0,0,58653,4,0
+143955,Missioni settimanali della Cripte di Zskera completate,0,2,5,0,0,8193
+143956,,143955,0,0,58654,0,0
+143957,Retaggio: Nucleo - Armatura Retaggio Lancio Missione [Login],0,0,4,0,0,8194
+143958,,143957,1,0,58655,0,0
+143959,Allenatori di mascotte delle Isole dei Draghi sconfitti,0,4,5,0,0,1
+143960,Izal Lunabianca sconfitta,143959,1,0,58656,0,1
+143961,Vikshi Zampa Tonante sconfitto,143959,1,0,58657,1,1
+143962,Scrutastelle Zenoth sconfitta,143959,1,0,58658,2,1
+143963,Excavator Morgrum Emberflint defeated,143959,1,0,58659,3,1
+143964,Teatro degli Aspetti,143761,1,0,58661,7,16
+143965,Gli Dei Antichi e l'Ordine di Azeroth (Commentato),143761,1,0,58507,8,16
+143966,Sabbie Trascinanti usate,0,1,8,0,0,8193
+143967,,143966,1,0,58662,0,0
+143968,Serie di missioni della Settimana dei Bambini completata,0,1,8,0,0,8193
+143969,,143968,1,0,58663,0,0
+143970,,143968,1,0,58664,1,0
+143971,,143968,1,0,58665,2,0
+143972,,143968,1,0,58666,3,0
+143973,,143968,1,0,58667,4,0
+143974,,143968,1,0,58668,5,0
+143975,,143968,1,0,58669,6,0
+143976,,143968,1,0,58670,7,0
+143977,Missioni giornaliere completate,0,10,4,0,0,8193
+143978,,143977,10,0,58671,0,1
+143979,Reputazione ottenuta nelle Isole dei Draghi,0,3000,5,0,0,4096
+143980,,143979,1,0,58672,0,0
+143981,,143979,1,0,58673,1,0
+143982,,143979,1,0,58674,2,0
+143983,,143979,1,0,58675,3,0
+143984,,143979,1,0,58676,4,0
+143985,,143979,1,0,58677,5,0
+143986,,143979,1,0,58678,6,0
+143987,,143979,1,0,58679,7,0
+143988,,143979,1,0,58680,8,0
 143989,Primal Invocation [DNT],0,0,4,0,0,0
 143990,,143989,0,0,55404,0,0
-144123,Admirers summoned,137793,1,0,58769,1,1
-144124,Admirers summoned,137793,1,0,58770,2,1
+143992,Impresa - Un nuovo inizio,0,0,4,0,0,2
+143993,,143992,0,0,58681,0,0
+143998,Colossali catturati,0,5,5,0,0,8193
+143999,,143998,0,0,58685,0,0
+144000,Serie di missioni della Settimana dei Bambini completate,0,4,5,0,0,8193
+144001,,144000,1,0,58663,0,0
+144002,,144000,1,0,58664,1,0
+144003,,144000,1,0,58665,2,0
+144004,,144000,1,0,58666,3,0
+144005,,144000,1,0,58667,4,0
+144006,,144000,1,0,58668,5,0
+144007,,144000,1,0,58669,6,0
+144008,,144000,1,0,58670,7,0
+144011,/acclama Paera,0,1,4,0,0,8193
+144012,,144011,0,0,58686,0,0
+144013,2 spedizioni Mitiche+ completate,0,1,4,0,0,1
+144014,Spedizioni Mitiche+ completate,144013,2,0,58687,0,1
+144015,Viaggio sulla Mongolfiera completato,0,1,4,0,0,8193
+144016,,144015,1,0,58688,0,1
+144017,Fongu aiutato,0,0,4,0,0,8193
+144018,,144017,0,0,58689,0,0
+144021,"""Comandante dei Carri Giocattolo"" completata",0,0,4,0,0,1
+144022,"""Comandante dei Carri Giocattolo"" completata",144021,1,0,58690,0,1
+144028,Emporio: Pony e Mongolfiera della Fiera di Lunacupa,0,0,4,0,0,0
+144029,Molo della Fiera di Lunacupa,144028,1,0,58700,0,1
+144030,Sentiero di Lunacupa,144028,1,0,58702,1,1
+144031,Fiera di Lunacupa,144028,1,0,58701,2,1
+144039,Pesca 10 oggetti con il galleggiante Papera di Gomma,0,0,4,0,0,0
+144040,Oggetti pescati,144039,10,0,58703,0,1
+144041,Creature uccise,0,0,4,0,0,1
+144042,Creature uccise,144041,30,0,58704,0,1
+144043,Usa i Murocchiali nelle Isole dei Draghi,0,0,4,0,0,1
+144048,/balla con un personaggio indossando i Murocchiali,0,0,4,0,0,8193
+144049,,144048,1,0,58710,0,0
+144050,Tavolo da Gioco di Hearthstone ribaltato,0,0,4,0,0,8193
+144051,,144050,1,0,58711,0,0
+144056,Slittino di Iskaara usato,0,1,5,0,0,8193
+144057,,144056,1,0,58714,0,0
+144058,,144056,1,0,58715,1,0
+144059,Allenatori di mascotte di Warlords of Draenor sconfitti,0,0,4,0,0,1
+144060,Ashlei sconfitta,144059,1,0,58716,0,1
+144061,Cymre Lamafulgida sconfitta,144059,1,0,58717,1,1
+144062,Gargra sconfitta,144059,1,0,58718,2,1
+144063,Taralune sconfitta,144059,1,0,58719,3,1
+144064,Tarr il Terribile sconfitto,144059,1,0,58720,4,1
+144065,Vesharr sconfitto,144059,1,0,58721,5,1
+144066,Missioni giornaliere della Corsa Cavalcadraghi completate,0,8,5,0,0,8193
+144067,,144066,0,0,58722,0,0
+144068,,144066,0,0,58723,1,0
+144069,,144066,0,0,58724,2,0
+144070,,144066,0,0,58725,3,0
+144071,,144066,0,0,58726,4,0
+144072,,144066,0,0,58727,5,0
+144073,,144066,0,0,58728,6,0
+144074,,144066,0,0,58729,7,0
+144075,,144066,0,0,58627,8,0
+144076,,144066,0,0,58730,9,0
+144077,,144066,0,0,58731,10,0
+144078,,144066,0,0,58732,11,0
+144079,,144066,0,0,58733,12,0
+144080,,144066,0,0,58734,13,0
+144081,,144066,0,0,58735,14,0
+144082,,144066,0,0,58736,15,0
+144083,,144066,0,0,58737,16,0
+144084,,144066,0,0,58738,17,0
+144085,,144066,0,0,58739,18,0
+144086,,144066,0,0,58740,19,0
+144087,,144066,0,0,58741,20,0
+144088,,144066,0,0,58742,21,0
+144089,,144066,0,0,58626,22,0
+144090,,144066,0,0,58743,23,0
+144091,,144066,0,0,58744,24,0
+144092,,144066,0,0,58745,25,0
+144093,,144066,0,0,58746,26,0
+144094,,144066,0,0,58747,27,0
+144095,,144066,0,0,58628,28,0
+144096,,144066,0,0,58748,29,0
+144097,,144066,0,0,58749,30,0
+144098,,144066,0,0,58750,31,0
+144099,,144066,0,0,58751,32,0
+144100,Percorsi Inversi del Volo Draconico completati,0,8,5,0,0,8193
+144101,,144100,0,0,58752,0,0
+144102,,144100,0,0,58753,1,0
+144103,,144100,0,0,58754,2,0
+144104,,144100,0,0,58755,3,0
+144105,,144100,0,0,58756,4,0
+144106,,144100,0,0,58757,5,0
+144123,Ammiratori evocati,137793,1,0,58769,1,1
+144124,Ammiratori evocati,137793,1,0,58770,2,1
+144135,,16857,100,0,58775,9,0
+144136,,16859,100,0,58776,9,0
+144137,,70916,100,0,58777,9,0
+144138,,70925,100,0,58778,9,0
+144139,,70934,100,0,58779,9,0
+144140,,70943,100,0,58780,9,0
+144141,,70952,100,0,58781,9,0
+144142,,70961,100,0,58782,9,0
+144143,,70970,100,0,58783,9,0
+144144,,70979,100,0,58784,9,0
+144145,,70988,100,0,58785,9,0
+144146,,70997,100,0,58786,9,0
+144147,,71006,100,0,58787,9,0
+144148,,21672,100,0,58775,9,0
+144149,,21676,100,0,58776,9,0
+144150,,71019,100,0,58777,9,0
+144151,,71028,100,0,58778,9,0
+144152,,71037,100,0,58779,9,0
+144153,,71046,100,0,58780,9,0
+144154,,71055,100,0,58781,9,0
+144155,,71064,100,0,58782,9,0
+144156,,71073,100,0,58783,9,0
+144157,,71082,100,0,58784,9,0
+144158,,71091,100,0,58785,9,0
+144159,,71100,100,0,58786,9,0
+144160,,71109,100,0,58787,9,0
+144278,Specialista di Bottino,143672,1,0,58830,29,0
+144279,Specialista di Bottino,143702,1,0,58830,29,0
+144555,Login A,0,0,4,0,0,2
+144556,,144555,0,0,59074,0,2
+144557,Login B,0,0,4,0,0,2
+144558,,144557,0,0,59075,0,2
+144843,Valdrakken,144043,1,8,0,0,8193
+144844,,144843,1,0,59178,1,1
+144847,Iskaara,144043,1,8,0,1,8193
+144848,,144847,1,0,59180,0,1
+144849,Maruukai,144043,1,8,0,2,8193
+144850,,144849,1,0,59181,0,1
+144851,Campo delle Scaglie di Drago,144043,1,8,0,3,8193
+144852,,144851,1,0,59182,0,1

@@ -3714,3 +3714,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2495,狂野爪击风暴,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
 
 旋转并用你的爪子斩击敌人，造成 [StandardDamage(1,1)]点[School()]伤害，并使目标|cFF970000流血|r，每轮造成[StandardDamage(1,1,491)]点[School(491)] 伤害，持续[duration(1,2)]轮。",4632786,4,0,0,0
+2498,打脸X,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
+
+尽最大的力量直击敌人的脸，造成[StandardDamage(1,1)]点[School()]伤害。
+
+每使用一次，伤害提高[FormatDamage(10*AttackBonus())]点。最多提高[FormatDamage(30*AttackBonus())]点[School()]伤害。",135906,0,0,0,0
+2499,量子打击,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
+
+打击敌人，造成[StandardDamage(1,1)]点[petTypeName(abilityPetType())]伤害。",1392544,5,0,0,0

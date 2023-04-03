@@ -3726,3 +3726,11 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 2495,야성의 발톱 폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 소용돌이치며 적을 발톱으로 베어 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cFF970000출혈|r을 일으켜 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",4632786,4,0,0,0
+2498,안면 강타 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+빠르게 있는 힘껏 적의 얼굴을 강타하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",135906,0,0,0,0
+2499,양자의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 때려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",1392544,5,0,0,0

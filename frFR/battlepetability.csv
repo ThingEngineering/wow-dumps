@@ -3730,3 +3730,11 @@ Attaque l’adversaire 5 fois et lui inflige [StandardDamage(1,1)] points de d
 2495,Tempête de griffes sauvages,"|cffffffffChances de toucher :|r[StandardAccuracy(1,1)]
 
 Tournoie et attaque l’adversaire avec ses griffes pour lui infliger [StandardDamage(1,1)] points de dégâts [School()] et le faire |cFF970000Saigner|r, ce qui lui fait subir [StandardDamage(1,1,491)] points de dégâts [School(491)] supplémentaires pendant [duration(1,2)] |4tour:tours;.",4632786,4,0,0,0
+2498,Bourre-pif X,"|cffffffffChances de toucher : [StandardAccuracy(1,1)]|r
+
+Frappe rapidement l’adversaire en plein visage de toutes ses forces et lui inflige [StandardDamage(1, 1)] points de dégâts [School()].
+
+Les dégâts augmentent de [FormatDamage(10*AttackBonus())] |4point:points; de dégâts à chaque utilisation, jusqu’à un maximum de [FormatDamage(30*AttackBonus())] |4point:points; de dégâts [School()].",135906,0,0,0,0
+2499,Frappe quantique,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Frappe l’adversaire et lui inflige [StandardDamage(1,1)] points de dégâts [petTypeName(abilityPetType())].",1392544,5,0,0,0

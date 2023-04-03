@@ -3719,3 +3719,11 @@ La tua velocità aumenta del 10% alla fine del turno ogni volta che usi quest'ab
 2495,Tempesta d'Artigli Ferina,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Colpisce la mascotte nemica con un turbine di artigli, infliggendo [StandardDamage(1,1)] danni [School()] e facendo |cFF970000sanguinare|r il bersaglio per [StandardDamage(1,1,491)] danni [School(491)] a ogni turno per [duration(1,2)] |4turno:turni;.",4632786,4,0,0,0
+2498,Pugno in Faccia X,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Colpisce in faccia la mascotte nemica più forte che può, infliggendo [StandardDamage(1,1)] danni [School()].
+
+I danni aumentano di [FormatDamage(10*AttackBonus())] ogni volta che questo attacco viene utilizzato, fino a un massimo di [FormatDamage(30*AttackBonus())] danni [School()].",135906,0,0,0,0
+2499,Assalto Quantico,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Colpisce il nemico, infliggendo [StandardDamage(1,1)] danni [petTypeName(abilityPetType())].",1392544,5,0,0,0

@@ -3724,3 +3724,11 @@ No fim da rodada, sua velocidade aumenta em 10% a cada acerto da habilidade. Ess
 2495,Tempestade de Garras Feral,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Gira e corta o inimigo com suas garras, causando [StandardDamage(1,1)] de dano tipo [School()] e provocando um |cFF970000Sangramento|r que causa [StandardDamage(1,1,491)] de dano tipo [School(491)] por rodada durante [duration(1,2)] |4rodada:rodadas;.",4632786,4,0,0,0
+2498,Soco na Cara X,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Acerta a cara do inimigo rapidamente e com toda a força, causando [StandardDamage(1,1)] de dano tipo [School()]. 
+
+O dano aumenta em [FormatDamage(10*AttackBonus())] a cada uso. Máximo de [FormatDamage(30*AttackBonus())] de dano tipo [School()].",135906,0,0,0,0
+2499,Golpe Quântico,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Golpeia o inimigo, causando [StandardDamage(1,1)] de dano tipo [petTypeName(abilityPetType())].",1392544,5,0,0,0

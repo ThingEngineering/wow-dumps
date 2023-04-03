@@ -3726,3 +3726,11 @@ Al final de la ronda, tu velocidad aumenta un 10% cada vez que esta facultad gol
 2495,Tormenta de garras ferales,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Giras y cortas con tus garras al enemigo, que recibe [StandardDamage(1,1)] p. de daño de [School()] y sufre una |cFF970000hemorragia|r que le hace perder [StandardDamage(1,1,491)] p. de daño de [School(491)] por ronda durante [duration(1,2)] |4ronda:rondas;.",4632786,4,0,0,0
+2498,Puñetazo en la cara X,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Golpea rápidamente a un enemigo en la cara y le inflige [StandardDamage(1,1)] p. de daño de [School()].
+
+El daño aumenta [FormatDamage(10*AttackBonus())] p. cada vez que se utiliza. Puede infligir un máximo de [FormatDamage(30*AttackBonus())] p. de daño de [School()].",135906,0,0,0,0
+2499,Golpe cuántico,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Golpea al enemigo e inflige [StandardDamage(1,1)][petTypeName(abilityPetType())] p. de daño.",1392544,5,0,0,0

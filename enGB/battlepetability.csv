@@ -3722,3 +3722,11 @@ At the end of the round, your speed increases by 10% for each time the ability h
 2495,Feral Clawstorm,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Whirl and slash the enemy with your claws, dealing [StandardDamage(1,1)] [School()] damage and causing the target to |cFF970000Bleed|r for [StandardDamage(1,1,491)] [School(491)] damage per round for [duration(1,2)] |4round:rounds;.",4632786,4,0,0,0
+2498,Face Punch X,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Quickly the enemy directly in the face as hard as you can, dealing [StandardDamage(1,1)] [School()] damage. 
+
+Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [FormatDamage(30*AttackBonus())] [School()] damage.",135906,0,0,0,0
+2499,Quantum Strike,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Strikes at the enemy, dealing [StandardDamage(1,1)] [petTypeName(abilityPetType())] damage.",1392544,5,0,0,0

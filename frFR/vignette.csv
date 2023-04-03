@@ -4453,8 +4453,8 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5019,Drapé éthérien déchiré,0,65643,88,0,50,-50,0,0,0
 5020,Console d’amélioration,93716,0,863,0,0,0,0,0,0
 5021,Fournitures de négociant noyé,95862,65523,613,0,30,-30,1,0,0
-5022,États du coffre,95891,0,865,8,0,0,0,0,0
-5023,États du coffre,95890,0,866,8,0,0,0,0,0
+5022,Coffre verrouillé,0,0,865,8,0,0,0,0,0
+5023,Coffre au trésor,0,0,866,8,0,0,0,0,0
 5024,"L’exil de Firim, 1re partie",0,65739,126,0,0,0,3,0,0
 5025,"L’exil de Firim, 2e partie",0,65741,126,0,0,0,3,0,0
 5026,"L’exil de Firim, 3e partie",0,65742,126,0,0,0,3,0,0
@@ -4853,17 +4853,20 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5449,Transbordeur,104355,0,950,0,0,0,0,0,0
 5450,Transbordeur,104356,0,950,0,0,0,0,0,0
 5451,Arvillo perdu,104368,0,951,9314,0,0,0,0,0
-5452,[DNT]Air Storm,0,0,881,1026,0,0,0,0,0
+5452,Tempête élémentaire instable,0,0,881,1026,0,0,0,0,0
 5453,Caravane aylaag,0,0,952,1090,0,0,0,0,0
-5454,[DNT]Earth Storm,0,0,894,1026,0,0,0,0,0
-5455,[DNT]Fire Storm,0,0,895,1026,0,0,0,0,0
-5456,[DNT]Water Storm,0,0,896,1026,0,0,0,0,0
+5454,Tempête élémentaire instable,0,0,894,1026,0,0,0,0,0
+5455,Tempête élémentaire instable,0,0,895,1026,0,0,0,0,0
+5456,Tempête élémentaire instable,0,0,896,1026,0,0,0,0,0
 5457,Dresseuse Rendra,104435,0,622,1062,0,0,0,0,0
 5458,La Fureur de l’orage,0,0,953,1602,0,0,0,0,708
 5459,La Fureur de l’orage,0,0,954,1602,0,0,0,0,707
 5460,Monstre primaliste,0,0,955,1094,0,0,0,0,709
 5461,Portail élémentaire,0,0,956,1350,0,0,0,0,0
+5462,Vinyéti,0,72520,92,0,100,-100,0,0,0
+5463,Provisions interdites,0,0,975,66630,0,0,0,0,0
 5464,,0,0,126,512,0,0,0,0,0
+5465,Ours rare,0,72531,89,0,100,-100,0,0,0
 5466,Terre retournée,104700,0,918,0,0,0,0,0,0
 5467,Coffre lié par magie,105073,0,918,0,0,0,0,0,0
 5468,Paquetage d’éclaireur de l’expédition,100776,0,918,0,0,0,0,0,0
@@ -4879,13 +4882,54 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5478,Vieux Belfyr,104953,0,951,9314,0,0,0,0,0
 5479,Alpha plaisant,0,72806,903,1060,0,0,0,0,0
 5480,Porte-chaudron Blakor,0,0,89,0,100,-100,0,0,0
+5481,Tempête élémentaire convergente,0,0,965,1026,0,0,0,0,0
 5482,,0,0,934,0,0,0,0,0,0
 5483,Transbordeur,105076,0,950,0,100,-100,0,0,0
 5484,Croc-Pointu,0,67173,903,1060,0,0,0,0,0
 5485,Boîte d’appâts de pêche rohart,105338,0,918,0,0,0,0,0,0
+5488,Gahz’raxes,0,0,977,66658,0,0,0,0,0
+5489,Ishyra,0,0,977,66658,0,0,0,0,0
+5490,Vraken le Chasseur,0,0,977,66658,0,0,0,0,0
+5491,Reisa la Noyée,0,0,977,66658,0,0,0,0,0
+5492,Duzalgor,0,0,977,66658,0,0,0,0,0
+5493,Tectonus,0,73127,89,66594,100,-100,0,0,0
+5494,Sire Pincelot,0,73129,89,66594,100,-100,0,0,0
+5495,Manathéma,0,73136,89,66594,100,-100,0,0,0
+5496,Mangecroc,0,73138,89,66594,100,-100,0,0,0
+5497,Fouillesable Marwak,0,0,977,66658,0,0,0,0,0
+5498,Galakhad,0,0,977,66658,0,0,0,0,0
+5499,Gareed,0,73153,89,66594,100,-100,0,0,0
+5500,Grugoth le Brise-coque,0,0,977,66658,0,0,0,0,0
+5501,Faunos,0,73158,89,66594,100,-100,0,0,0
+5502,Forge-flots Zarviss,0,73161,89,66594,100,-100,0,0,0
+5503,Arcantrix,0,73163,89,66594,100,-100,0,0,0
+5504,Kangalo,0,73164,89,66594,100,-100,0,0,0
+5505,Fimbol,0,73165,89,66594,100,-100,0,0,0
+5506,Agni Foulebraise,0,73166,89,66594,100,-100,0,0,0
+5507,Luttrok,0,73167,89,66594,100,-100,0,0,0
+5508,Arméthyste,0,73168,89,66594,100,-100,0,0,0
 5512,Rasnar le Pacificateur,0,0,89,0,100,-100,0,0,0
 5513,Rohzor Martelforge,0,0,89,0,100,-100,0,0,0
+5514,Dame Shaz’ra,0,0,977,66658,0,0,0,0,0
+5515,Volcanakk,0,0,977,66658,0,0,0,0,0
+5516,Écrits mystérieux,0,0,973,66626,0,0,3,0,0
+5517,Veltrax,0,0,977,66658,0,0,0,0,0
+5518,Poisson merveilleux,0,0,973,66626,0,0,3,0,0
+5519,Barbouk,0,0,977,66658,0,0,0,0,0
+5520,Gardienne Entrix,0,0,977,66658,0,0,0,0,0
+5521,Pyrachniss,0,0,977,66658,0,0,0,0,0
+5524,Pierre runique dracthyr,0,0,973,66626,0,0,3,0,0
+5525,Esprit de bénédiction,0,0,973,66626,0,0,3,0,0
+5526,Tueur de wyrm Angvardi,0,0,977,66658,0,0,0,0,0
+5533,Cime,106009,73696,929,1038,0,0,0,0,0
+5535,Cime,106013,73699,929,1038,0,0,0,0,0
+5536,Cime,106015,73700,929,1038,0,0,0,0,0
+5537,Cime,106019,73702,929,1038,0,0,0,0,0
+5538,Archiviste sorcelige,106293,0,974,0,100,-100,3,0,0
+5544,Carrey Foloeil,0,0,977,66658,0,0,0,0,0
 5545,Feuille d’herbe à chat,100242,70303,918,32,30,-30,0,0,0
+5550,Coffre cerclé de tempête,0,0,978,0,0,0,0,0,0
+5551,Pierre runique dracthyr,106263,0,973,66626,0,0,3,0,0
 5553,Cherchevent Avash,0,0,92,0,0,0,0,0,0
 5554,Griffe-de-Granit,106434,74459,902,1090,0,0,0,0,0
 5555,Carafon,106434,74460,902,1090,0,0,0,0,0
@@ -4912,3 +4956,40 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5580,Portail élémentaire désactivé,0,0,984,1350,0,0,0,0,0
 5581,Portail élémentaire désactivé,0,0,985,1350,0,0,0,0,0
 5582,Portail élémentaire désactivé,0,0,986,1350,0,0,0,0,0
+5595,Proie d’élite des confins Interdits,0,0,989,0,0,0,0,0,0
+5596,Inventoriste Daela – tâche d’émissaire en attente,107501,0,990,0,0,0,0,0,0
+5597,Brasero volatil,107599,0,993,1092,0,0,3,0,0
+5598,Sanctuaire Longuécaille,107602,0,993,1092,0,0,3,0,0
+5599,Ragoût sans épices,107604,0,993,1092,0,0,3,0,0
+5600,Livre des entités arcaniques,107605,0,993,1092,0,0,3,0,0
+5601,Bigodule 505 endommagé,107606,0,993,1092,0,0,3,0,0
+5602,Casier à crabes vide,107607,0,993,1092,0,0,3,0,0
+5603,Sol éveillé,107608,0,993,1092,0,0,3,0,0
+5604,Protection sorcelige,107609,0,993,1092,0,0,3,0,0
+5605,Cristal résonnant,107610,0,993,1092,0,0,3,0,0
+5606,Chevalet de tannage rohart,107611,0,993,1092,0,0,3,0,0
+5607,Gisement grondant,107612,0,993,1092,0,0,3,0,0
+5608,Toisons d’argali brutes,107613,0,993,1092,0,0,3,0,0
+5609,Poteau à cerfs-volants roharts,107614,0,993,1092,0,0,3,0,0
+5614,Provisions interdites,107685,0,994,66630,0,0,0,0,0
+5621,Trésor aviaire,107718,0,878,0,100,-100,0,0,0
+5622,Coffret d’obsidienne,107718,0,878,0,100,-100,0,0,0
+5623,Réserves sorceliges,107718,0,878,0,100,-100,0,0,0
+5624,Tas d’os,107718,0,878,0,100,-100,0,0,0
+5625,Cache longuécaille,107718,0,878,0,100,-100,0,0,0
+5626,Butin des Lamineurs,107718,0,878,0,100,-100,0,0,0
+5627,Cairn de la Mange-tempêtes,107718,0,878,0,100,-100,0,0,0
+5628,Cairn pierre-écaille,107718,0,878,0,100,-100,0,0,0
+5629,Cairn flamboyant,107718,0,878,0,100,-100,0,0,0
+5630,Cairn du Cœur gelé,107718,0,878,0,100,-100,0,0,0
+5631,Provisions de Morqut,107718,0,878,0,100,-100,0,0,0
+5632,Charte des émissaires,107030,0,2,66666,0,0,0,0,0
+5633,« Le plus grand explorateur de tous les temps »,107737,0,90,4,100,-100,0,0,0
+5635,Spécialiste du butin,0,0,89,4,100,-100,0,0,0
+5665,Handhold Highlighted - 90,108066,0,998,512,0,0,0,0,0
+5666,Handhold Highlighted - 91,108065,0,998,512,0,0,0,0,0
+5667,Handhold Highlighted - 92,108067,0,998,512,0,0,0,0,0
+5668,Handhold Highlighted - 93,108068,0,998,512,0,0,0,0,0
+5669,Point de grappin,108069,0,998,0,0,0,0,0,0
+5670,Conteuse Ashekh,0,0,0,0,0,0,0,0,775
+5677,Conteuse Ashekh,0,0,0,0,0,0,0,0,775

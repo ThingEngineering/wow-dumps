@@ -12439,7 +12439,7 @@ ID,BaseTag,TagText_lang,Flags
 24648,ERR_IN_BATTLEGROUND_RESPEC,이 전문화는 선택된 역할과 맞지 않습니다.,1
 24649,OPTION_TOOLTIP_ANTIALIASING,계단 현상 방지 기능은 계단 형태로 삐죽삐죽하게 표시되는 가장자리를 부드럽게 다듬는 기술입니다. 주로 낮은 해상도에서 화면의 품질을 향상시킵니다.,3
 24650,GARRISON_LANDING_PAGE_TITLE,주둔지 보고서,1
-24651,TRADESKILL_CHARGES_REMAINING,사용 가능 횟수: %i/%i,1
+24651,TRADESKILL_CHARGES_REMAINING,사용 가능 제작 횟수: %i/%i,1
 24652,SPELL_FAILED_CUSTOM_ERROR_216,대상이 너무 멀리 있습니다.,1
 24653,GARRISON_LANDING_STATUS_BUILDING,건설,1
 24654,GARRISON_LANDING_STATUS_MISSION_TRAVEL,여행 중,1
@@ -15249,8 +15249,8 @@ ID,BaseTag,TagText_lang,Flags
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,2
 34695,VISITABLE_URL4,http://koKR.nydus.battle.net/wow/koKR/client/challenge/%d/%d,2
 34696,VISITABLE_URL5,https://kr.battle.net/support/ko/games/wow?loc,2
-34697,VISITABLE_URL6,https://kr.battle.net/support/ko/ticket/submit?loc,2
-34698,VISITABLE_URL7,https://kr.battle.net/support/ko/ticket/status?loc,2
+34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
+34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
 34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
 34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
 34701,VISITABLE_URL_GENERIC,http://koKR.nydus.battle.net/WOW/koKR/client/in_game_mail_link_%d,2
@@ -17016,7 +17016,7 @@ ID,BaseTag,TagText_lang,Flags
 36729,COMMUNITIES_ADD_TO_CHAT_DROP_DOWN_CHAT_SETTINGS,설정,1
 36734,EXPANSION_TRIAL,확장팩 체험,1
 36735,EXPANSION_TRIAL_THANKS_TITLE,플레이해 주셔서 감사합니다.,1
-36736,EXPANSION_TRIAL_THANKS_TEXT,확장팩을 구매하고 모험을 계속하세요!,1
+36736,EXPANSION_TRIAL_THANKS_TEXT,현재 도달 가능한 최고 레벨이 되었습니다!|n|n지금부터 획득하시는 모든 경험치는 보관됩니다. 용군단 게임 시간을 구매하여 축적된 경험치를 적용하고 70레벨까지 모험을 계속해 보세요!,1
 36737,EXPANSION_TRIAL_THANKS_BUTTON,확장팩 구매,1
 36738,EXPANSION_TRIAL_LOCKED_TOOLTIP_TEXT,"이 캐릭터를 잠금 해제하려면 격전의 아제로스를 구매하여, 거기에 포함된 캐릭터 업그레이드를 캐릭터에 사용하십시오.",2
 36739,CLICK_TO_OPEN_SHOP,블리자드 샵을 열려면 클릭,3
@@ -17940,7 +17940,7 @@ ID,BaseTag,TagText_lang,Flags
 41556,ERR_CANT_USE_PROFANITY,비속어는 사용할 수 없습니다.,1
 41557,RAF_REWARD_TITLE,신규 칭호: %s,1
 41558,CLUB_FINDER_COMMUNITY_RECRUITING_NOTE,커뮤니티장에게 남길 추가 쪽지,1
-41559,RAF_MONTHS_EARNED,%d개월 획득,1
+41559,RAF_MONTHS_EARNED,초대한 친구 게임 시간 %d개월,1
 41560,RAF_YOU_HAVE_EARNED,보상 획득:,1
 41561,RAF_NEXT_REWARD_AFTER,다음 보상 (%d개월 / %d개월):,1
 41564,SPELL_FAILED_CUSTOM_ERROR_421,악명 높은 검투사 아이템을 대상으로 지정해야 강화할 수 있습니다.,1
@@ -17982,7 +17982,7 @@ ID,BaseTag,TagText_lang,Flags
 41606,AUCTION_HOUSE_ITEM_SOLD_FORMAT,%s - |cff00ff00판매 완료|r,1
 41607,AUCTION_HOUSE_ITEM_WITH_QUANTITY_FORMAT,%s  |cff808080x%s|r,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,플레이어 하나가 이 종목에서 본선 전투 자격을 박탈당했습니다.,1
-41609,RAF_NO_RECRUITS_DESC,|cffffd200친구를 초대하여 친구가 요금제를 갱신한 개월마다 보상을 획득하세요.|n|n함께 플레이하면 더 많은 보상을 잠금 해제할 수 있습니다!|r|n|n더 자세한 정보를 위해서는:|n|HurlIndex:49|h|cff82c5ff친구 초대 홈페이지를 방문하세요|r|h,1
+41609,RAF_NO_RECRUITS_DESC,|cffffd200친구를 초대하여 친구가 요금제를 갱신한 개월마다 보상을 획득하세요.|n|n함께 플레이하면 추가 보상을 잠금 해제할 수 있습니다!|r|n|n더 자세한 정보를 위해서는:|n|HurlIndex:49|h|cff82c5ff친구 초대 홈페이지를 방문하세요|r|h,1
 41611,AUCTION_HOUSE_HIGHEST_BIDDER,최고 입찰자,1
 41612,AUCTION_HOUSE_OUTBID,상회 입찰,1
 41613,AUCTION_HOUSE_HEADER_CURRENT_BID,현재 입찰가,1
@@ -19079,8 +19079,8 @@ ID,BaseTag,TagText_lang,Flags
 42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,상층부,1
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,성약의 단 모험,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,수동으로 대화 채널을 떠날 수 없습니다: %s,1
-42880,VISITABLE_URL50,https://kr.battle.net/support/ko/help/home,2
-42881,VISITABLE_URL51,https://support-qa-kr.stech.blizzard.net/ko/help/home,2
+42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
+42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"월드 오브 워크래프트가 활성화되어 있지 않을 때 눌러서 말하기를 사용하려면 시스템 환경설정에 있는 보안 및 개인 정보 보호에서 %s의 ""손쉬운 사용"" 권한을 허용해야 합니다. 지금 시스템 환경설정을 여시겠습니까?",3
 42883,MAC_INPUT_MONITORING1015,"월드 오브 워크래프트가 활성화되어 있지 않을 때 눌러서 말하기를 사용하려면 시스템 환경설정에 있는 보안 및 개인 정보 보호에서 %s의 ""입력 모니터링"" 권한을 허용해야 합니다. 지금 시스템 환경설정을 여시겠습니까?",3
 42884,BINDING_NAME_CENTERCAMERA,카메라 원위치,1
@@ -19752,8 +19752,8 @@ ID,BaseTag,TagText_lang,Flags
 44170,PVP_RANK_4_NAME,결투사,1
 44171,PVP_RANK_5_NAME,정예병,1
 44172,PVP_RANK_8_NEXT_RANK_DESC,평점 1950점 이상 달성:|n- 플레이어 간 전투 아이템 강화 등급,1
-44173,PVP_RANK_4_NEXT_RANK_DESC,평점 2100점 이상 달성:|n- 결투사 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 영예 망토,1
-44174,PVP_RANK_5_NEXT_RANK_DESC,평점 2400점 이상 달성:|n- 정예 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 휘장,1
+44173,PVP_RANK_4_NEXT_RANK_DESC,평점 2100점 이상 달성:|n- 결투사 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 영예 망토|n- 정예 플레이어 간 전투 무기 마법부여,1
+44174,PVP_RANK_5_NEXT_RANK_DESC,평점 2400점 이상 달성:|n- 정예병 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 휘장,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,음성 대화 받아쓰기,1
 44179,ITEM_UPGRADE_BONUS_STAT_FORMAT,%3$s |cff20ff20%1$d (+%2$d)|r,1
@@ -20320,7 +20320,7 @@ ID,BaseTag,TagText_lang,Flags
 48948,SOCIAL_CONTRACT_TITLE_BAR,소셜 규약,2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,수락,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,게임 종료,2
-48952,SOCIAL_CONTRACT_TEXT1,"|cffff2020스크롤을 아래로 내려 소셜 규약을 모두 살펴본 후 동의하실 수 있습니다.|r|n|n|n|cffffffff, 모험가님, 월드 오브 워크래프트에 오신 것을 환영합니다!|r|n|n|cffffd200아제로스의 세계엔 당신과 같은 모험가로 가득합니다. 각기 다른 배경, 문화, 경험 그리고 역사를 가진 사람들이 함께하는 곳이죠. 모든 플레이어들은 속한 세계에서 안전하게 보호받을 권리가 있습니다. 그러니 잠시 시간을 내시어 저희의 소셜 규약을 읽어주시면 감사하겠습니다.|r|n|n|n|cffffffff아제로스에서, 최선을 다해:|r|n|n",2
+48952,SOCIAL_CONTRACT_TEXT1,"|cffff2020스크롤을 아래로 내려 소셜 규약을 모두 살펴본 후 동의하실 수 있습니다.|r|n|n|n|cffffffff 반갑습니다, 모험가님, 월드 오브 워크래프트에 오신 것을 환영합니다!|r|n|n|cffffd200아제로스의 세계엔 당신과 같은 모험가로 가득합니다. 각기 다른 배경, 문화, 경험 그리고 역사를 가진 사람들이 함께하는 곳이죠. 모든 플레이어들은 속한 세계에서 안전하게 보호받을 권리가 있습니다. 그러니 잠시 시간을 내시어 저희의 소셜 규약을 읽어주시면 감사하겠습니다.|r|n|n|n|cffffffff아제로스에서, 최선을 다해:|r|n|n",2
 48953,SOCIAL_CONTRACT_TEXT2,"|cffffd200- 다른 플레이어들과 교류하고 친구를 만드세요! 파티 플레이에서 공손하고 정중한 태도를 보이면 파티원 모두가 즐거운 시간을 보낼 수 있습니다. 파티원들에게 친근한 안부 메시지를 전하면 파티의 사기가 올라갈 거예요.|n|n- 던전, 공격대, 전장, 투기장, 혹은 필드에서 다른 플레이어들과 협동을 즐기세요. 함께 성공을 축하할 수 있도록 최선을 다해 파티를 지원하세요.|n|n- 필드에서 만나는 다른 플레이어들을 도와주세요. 강력한 몬스터를 함께 잡아주거나 약간의 치유를 해주는 것이 도움이 될 수도 있어요!|n|n- 일반 및 거래 채팅 채널에서 다른 플레이어들의 질문에 답해주세요. 우리 모두 한 때 와린이었잖아요 - 한 사람의 친절이 큰 도움이 될 수 있답니다!|n|n",2
 48954,SOCIAL_CONTRACT_TEXT3,"|n|n|cffffffff저희는 인터넷 세상이 항상 안전하지 않다는 걸 인지하고 있습니다. 그 점을 고려하여, 다음과 같은 행동은 아제로스에서 용인될 수 없음을 숙지하여 주시기를 바랍니다:|r|n|n|cffffd200- 타인의 인종, 성별, 장애 등을 향한 부정적인 표현을 포함하는 혐오 발언|n|n- 괴롭힘, 위혐 및 가학적/경멸적 언어와 행동|n|n- 스팸, 광고 등 타인에게 지장을 주는 행|r|n|n|n|n|cffffffff위와 같은 행동으로 다른 모험가들에게 피해를 입힐 경우, 최대 계정 정지를 포함하는 제재의 대상이 됩니다.|r|n|n|cffffd200세상은 넓고, 그 속에는 다양한 사람들이 존재합니다. 그러니 타인을 존중할 것을 부탁드리며, 위 소셜 규약을 위반하는 플레이어를 만났을 경우 저희 팀이 살펴볼 수 있도록 제보하여 주시면 감사하겠습니다. 모험자님의 도움과 함께, 월드 오브 워크래프트가 모두에게 또 하나의 쉼터가 될 수 있기를 바랍니다.|r",2
 48955,COMBINED_BAG_TITLE,결합된 배낭,1
@@ -20535,7 +20535,7 @@ ID,BaseTag,TagText_lang,Flags
 49208,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH_TITLE,%s|1을;를; 배우시겠습니까?,1
 49209,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH,정말로 %s 하위 전문화를 습득하시겠습니까? 대기 중인 모든 변경 사항이 저장됩니다.,1
 49210,PROFESSIONS_SPECIALIZATION_UNLOCK_PATH,하위 전문화 습득,1
-49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,잠금 해제,1
+49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,전문화 해제,1
 49212,PROFESSIONS_SPECIALIZATION_SUBPATH_UNLOCK_REQUIREMENT,추가 하위 전문화를 습득하려면 %2$s %1$d점이 필요합니다.,1
 49213,PROFESSIONS_SPECIALIZATION_PERK_RANK_SOURCE,%2$s %1$d점 달성 시 습득합니다.,1
 49214,PROFESSIONS_SPECIALIZATION_PERK_UNLOCK_SOURCE,%s 습득 시 획득합니다.,1
@@ -20591,7 +20591,7 @@ ID,BaseTag,TagText_lang,Flags
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,언제나 가능한 한 최고 품질의 재료만을 사용하는 기능을 비활성화합니다.,1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,항상 단추 표시,1
 49267,OPTION_TOOLTIP_CAMERA_FOV,시야각.,1
-49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,비보유 아이템 숨기기,1
+49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,사용 불가 아이템 숨기기,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,적합한 재료를 보유하고 있지 않습니다.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,흡수 (%s),1
 49271,PERKS_PROGRAM_HIDE_ARMOR,방어구 숨기기,1
@@ -20679,7 +20679,7 @@ ID,BaseTag,TagText_lang,Flags
 재제작 시에도 숙련도를 얻을 수 있으나, 그 확률은 감소합니다.",1
 49398,HUD_EDIT_MODE_ERROR_MAX_LAYOUTS,최대 %d개의 캐릭터 구성과 %d개의 계정 구성이 허용됩니다.,1
 49399,PERKS_PROGRAM_PURCHASED_TEXT,보유 중인 아이템,1
-49400,GOSSIP_QUEST_OPTION_PREPEND,|cnBRIGHTBLUE_FONT_COLOR:퀘스트! |r%s,1
+49400,GOSSIP_QUEST_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(퀘스트)|r%s,1
 49401,HUD_EDIT_MODE_ERROR_MAX_ACCOUNT_LAYOUTS,계정 공유 구성은 %d개만 허용됩니다. 캐릭터 전용 구성을 저장하려면 상자에 체크하세요.,1
 49402,HUD_EDIT_MODE_ERROR_MAX_CHAR_LAYOUTS,캐릭터 전용 구성은 %d개만 허용됩니다. 계정 공유 구성을 저장하려면 상자의 체크를 해제하세요.,1
 49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,|cnNORMAL_FONT_COLOR:구성 복사|r|n최대 %d개의 캐릭터 구성과 %d개의 계정 구성이 허용됩니다.,1
@@ -20994,7 +20994,7 @@ ID,BaseTag,TagText_lang,Flags
 49736,VIDEO_OPTIONS_STANDARD,일반 조정,3
 49737,VIDEO_OPTIONS_AGGRESSIVE,적극 조정,3
 49738,VRS_MODE,VRS 모드,3
-49739,OPTION_TOOLTIP_VRS_MODE,가변 레이트 셰이딩(VRS) 기능의 강도를 조정합니다.,3
+49739,OPTION_TOOLTIP_VRS_MODE,가변 레이트 셰이딩(VRS) 기능의 강도를 조정합니다. VRS는 GPU 하드웨어 기능으로 시각 품질을 크게 저해하지 않고 GPU 부하를 완화합니다. 지원 하드웨어에서 본 기능을 활성화하면 프레임률이 개선됩니다.,3
 49740,PROFESSIONS_CRAFT_OUTPUT_TITLE,제작 결과,1
 49741,PROFESSIONS_OUTPUT_INSPIRATION_TITLE,영감,1
 49742,PROFESSIONS_OUTPUT_INSPIRATION_DESC,영감을 얻어 추가 숙련도가 적용된 상태로 아이템을 제작하였습니다.,1
@@ -21360,7 +21360,7 @@ ID,BaseTag,TagText_lang,Flags
 50093,PROFESSIONS_AUTO_EQUIP_JEWELCRAFTING_ONLY,이 아이템은 보석세공 도구 칸에만 착용할 수 있습니다.,1
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,이 아이템은 주문각인 도구 칸에만 착용할 수 있습니다.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,재제작,1
-50096,CRAFTING_ORDER_ILVL_DISPLAY,%d+,1
+50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
 50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,일부 제작법은 선택 재료를 사용해 아이템 레벨을 더 높게 제작할 수 있습니다.,1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/loadoutname,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/loadoutname,1
@@ -21402,7 +21402,7 @@ ID,BaseTag,TagText_lang,Flags
 50139,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION,안내,1
 50140,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION_HORIZONTAL,수평,1
 50141,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION_VERTICAL,수직,1
-50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,주문,1
+50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,순서,1
 50143,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_DEFAULT,기본,1
 50144,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_REVERSE,반전,1
 50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,용량,1
@@ -21433,9 +21433,7 @@ ID,BaseTag,TagText_lang,Flags
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,장비 내구도,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,용량,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,여행자의 기록 진행 상황,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,"여행자의 기록을 이용하려면 %s 교역소를 방문하십시오.
-
-활성화된 게임 시간이 필요합니다.",1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,여행자의 기록을 이용하려면 %s 교역소를 방문하십시오.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,내|n평점,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"매달 여행자의 활동을 완료하면 수집가의 보관함에서 인장과 특별한 보상을 획득할 수 있습니다.
 
@@ -21445,7 +21443,7 @@ ID,BaseTag,TagText_lang,Flags
 
 진행 상황은 전 계정에 공유됩니다.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,현재 재제작하려는 아이템에는 고유 장착 제한이 있습니다. 우선 착용 해제해야 재제작할 수 있습니다.,1
-50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,사용 가능 횟수: %i/%i회. 다음 사용 횟수 회복까지 %s,1
+50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,사용 가능 제작 횟수: %i/%i회. 다음 사용 횟수 회복까지 %s,1
 50208,MOTION_SICKNESS_DRAGONRIDING,용 조련술 멀미 방지,1
 50209,GAMEPAD_CONNECTED,게임패드 %d 연결: %s,1
 50210,GAMEPAD_DISCONNECTED,게임패드 %d 연결 해제: %s,1
@@ -21483,11 +21481,75 @@ ID,BaseTag,TagText_lang,Flags
 50253,PROFESSIONS_ORDER_REJECTED,주문 거절됨,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"지금 경기를 떠나면 최소 |cnORANGE_FONT_COLOR:%1$d|r점의 평점이 차감되고 %3$s|1이;가; %2$s 동안 부여됩니다.|n|n또한, 명예 점수나 정복 점수를 받지 못합니다.|n|n정말 경기를 떠나시겠습니까?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,현재 제조법을 이용할 수 없습니다. 나중에 다시 시도해 주십시오.,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3f%s 님의 메시지가 부적절할 가능성이 있습니다.|h|cffffff00|Hcensoredmessage:%d|h |W[메시지 표시]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,용 조련술 속도 효과,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,속도 시각 효과를 비활성화하면 멀미를 완화할 수 있습니다.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,폴더 열기,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,닫기,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,이 파일을 이후에 사용할 수 있도록 안전한 위치에 복사해두십시오.,2
 50269,ACCOUNT_SAVE_ERROR_CANCELLED,진행 기록 다운로드 시도가 중단되었습니다. 다시 시도해 주십시오.,2
+50270,CENSOR_SOURCE_EVERYONE,모두,1
+50271,CENSOR_SOURCE_NO_ONE,해당 없음,1
+50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,친구를 제외한 모두,1
+50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,친구와 길드원을 제외한 모두,1
+50274,CENSOR_SOURCE_EXCLUDE,메시지 검열,1
+50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,부적절한 메시지를 검열할 대상을 설정합니다.,1
 50276,MONTHLY_ACTIVITIES_POINTS,여행 점수,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,탈것에 탄 플레이어가 있으므로 지금은 공격대 난이도를 변경할 수 없습니다.,1
+50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,보유한 재료 일부를 사용하여 주문 제작 의뢰를 완수합니다. 정말 확실합니까?,1
+50293,CHAT_LANGUAGE_NAME_TAG,[%s] ,1
+50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,태고의 보석만 장착할 수 있습니다.,1
+50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,태고의 보석은 태고의 홈에만 장착할 수 있습니다.,1
+50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
+50301,LANGUAGE_PROFICIENCY_FORMAT,%s (숙련 기술 %d/%d),1
+50302,PROF_SPECIALIZATION_HIGHLIGHTS,전문화 요약,1
+50303,PROF_VIEW_FULL_TREE,전체 계통도 보기,1
+50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,이 전문화를 해제하면 대기 중인 모든 변경 사항이 적용됩니다. 정말 %s 전문화를 배우시겠습니까?,1
+50305,CRAFTING_ORDERS_ORDER_FULFILLED_SINGLE_FMT,%s 주문 제작 의뢰를 완료하여 %s|1을;를; %s에게 전달하였습니다. %s의 수수료를 받았습니다.,1
+50306,CRAFTING_ORDERS_ORDER_FULFILLED_MULT_FMT,%s 주문 제작 의뢰를 완료하여 %s %d개를 %s에게 전달하였습니다. %s의 수수료를 받았습니다.,1
+50307,PROF_CRAFTING_ORDER_TYPE_PERSONAL,개인,1
+50308,PROF_CRAFTING_ORDER_TYPE_GUILD,길드,1
+50309,PROF_CRAFTING_ORDER_TYPE_PUBLIC,전체 공개,1
+50310,EMPTY_SOCKET_PRIMORDIAL,태고의 홈,1
+50311,GEM_TEXT_PRIMORDIAL,태고의 홈에 꼭 맞습니다.,1
+50312,NEW_SPOKEN_LANGUAGE_HELPTIP,새로운 언어를 배웠습니다. 이곳에서 사용 언어를 변경할 수 있습니다.,1
+50313,SPELL_FAILED_CUSTOM_ERROR_999,회오리치는 모조의 돌을 장착하고 있지 않습니다.,1
+50318,PLAYER_CHOICE_ENVOY_EXPLORERS,오늘 용비늘 원정대를 지원하시겠습니까?,1
+50319,PLAYER_CHOICE_ENVOY_TUSKARR,오늘 이스카라 투스카르를 지원하시겠습니까?,1
+50320,PLAYER_CHOICE_ENVOY_CENTAUR,오늘 마루크 켄타우로스를 지원하시겠습니까?,1
+50321,PLAYER_CHOICE_ENVOY_VALDRAKKEN,오늘 발드라켄 협의회를 지원하시겠습니까?,1
+50324,GXAPI_AUTO,자동 감지,3
+50325,GXAPI_TOOLTIP_AUTO,Auto-detect best available Graphics API. [DNT],3
+50326,GXAPI_TOOLTIP_AUTO_SELECTED,"선택한 그래픽 API입니다. 
+최적의 그래픽 API를 자동으로 감지합니다.",3
+50327,GXAPI_TOOLTIP_CURRENT_API,현재 그래픽 API입니다.,3
+50328,GXAPI_TOOLTIP_FAILED_SELECTED,"선택한 그래픽 API입니다.
+불러오기에 실패했습니다. 재시작 시 다시 시도합니다.",3
+50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[신고]|w|h|r,1
+50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,활성화된 게임 시간이 필요합니다.,1
+50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,애드온으로 인해 인터페이스 작동이 실패했습니다: %d,1
+50351,OPTION_TOOLTIP_VRS_STANDARD,시각 품질 손실이 거의 발생하지 않습니다.,3
+50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,세부 품질이 살짝 떨어집니다.,3
+50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,주문을 취소하거나 완료하기 전까지는 이 플레이어를 무시하지 못합니다.,1
+50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,해당 플레이어는 이미 차단 목록에 있습니다.,1
+50364,PROF_ORDER_CANT_WHISPER_OFFLINE,접속하지 않은 플레이어입니다.,1
+50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,이 플레이어는 상대 진영 소속입니다.,1
+50367,PROF_VIEW_TREE_OVERVIEW,개요,1
+50374,GLUE_TIMEEVENT_TITLE,활성화된 시간 이벤트,2
+50379,SPELL_FAILED_CUSTOM_ERROR_830,기존에 표시한 금지된 해안 보물이 너무 많습니다. 금지된 해안 보물 두루마리의 봉인을 추가로 해제하기 전에 우선 표시한 보물 몇 가지를 수집하십시오.,1
+50380,RAF_LEGACY_REWARDS_DESC,"개편 이전 프로그램으로 친구를 더 초대하는 것은 불가능하지만, 남아있는 친구는 계속해서 친구 초대 보상을 제공합니다.",1
+50382,RAF_NEW_VERSION_PROMPT,친구를 추가하면 이번 시즌에 보상이 주어집니다!,1
+50384,PLAIN_STRING_FORMAT,%s,1
+50388,XP_TEXT_BANKED_XP_HEADER,축적된 경험치,1
+50389,RAF_CLAIM_MULTIPLE_REWARDS,보상 %d개 획득,1
+50391,RAF_NEXT_REWARD_HELP_TEXT,친구를 초대하세요. 초대받은 친구가 게임 시간을 구매하면 보상을 얻을 수 있습니다.,1
+50392,RAF_LEGACY_REWARDS_HELP_TEXT,현재 활성화된 기존 초대받은 친구: |cnHIGHLIGHT_FONT_COLOR:%d|r|n미수령 보상: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50393,RAF_LATEST_REWARDS_HELP_TEXT,현재 활성화된 초대받은 친구: |cnHIGHLIGHT_FONT_COLOR:%d|r|n미수령 보상: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50399,RAF_NEXT_EARN_DATE,다음 획득일: %s,1
+50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,"깨어나는 해안 대장정을 완료하셨습니다.|n|n홀로 용의 섬을 계속 탐험하시거나, 용군단 게임 시간을 구매해 대장정을 계속해 보세요!",1
+50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,확장팩을 구매하여 잠금 해제,1
+50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,%d 레벨,1
+50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"이 체험 계정으로는 60레벨 이상을 달성할 수 없지만, 획득하시는 모든 경험치는 보관됩니다.|n|n용군단 게임 시간을 구매하여 축적된 경험치를 적용하고 70레벨까지 모험을 계속해 보세요!",1
+50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
+50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
+50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2

@@ -579,7 +579,7 @@ Ashran,588,572,0,0,3,0,0,0,0,0,0,0
 Miniera di Ashran,589,588,0,0,5,0,0,0,0,0,0,0
 Rocciafredda,590,525,13,0,6,0,0,64896,0,0,0,0
 Auchindoun,593,535,0,0,4,0,0,0,0,0,0,0
-Shattrath,594,535,0,0,6,0,0,0,0,0,0,0
+Shattrath,594,572,4096,0,6,0,0,0,0,0,0,0
 Darsena di Ferro,595,543,0,0,4,0,0,0,0,0,0,0
 Fonderia dei Roccianera,596,543,0,0,4,0,0,0,0,0,0,0
 Fonderia dei Roccianera,597,543,0,0,4,0,0,0,0,0,0,0
@@ -767,7 +767,7 @@ Incubo di Smeraldo,786,641,64,0,4,0,0,0,0,0,0,0
 Incubo di Smeraldo,787,641,64,0,4,0,0,0,0,0,0,0
 Incubo di Smeraldo,788,641,64,0,4,0,0,0,0,0,0,0
 Incubo di Smeraldo,789,641,64,0,4,0,0,0,0,0,0,0
-Occhio di Azshara,790,619,2,0,3,4,1,0,0,0,0,484
+Occhio di Azshara,790,619,6,0,3,4,1,0,0,0,0,484
 Tempio della Serpe di Giada,791,371,64,0,4,0,0,0,0,0,0,0
 Tempio della Serpe di Giada,792,371,64,0,4,0,0,0,0,0,0,0
 Forte Corvonero,793,641,0,0,6,0,0,0,0,0,0,0
@@ -1568,7 +1568,7 @@ Sponde del Risveglio,2022,1978,6,0,3,119,0,0,0,0,0,0
 Pianure di Ohn'ahra,2023,1978,6,0,3,119,0,0,0,0,0,0
 Vastità Azzurra,2024,1978,6,0,3,119,0,0,0,0,0,0
 Thaldraszus,2025,1978,6,0,3,119,0,0,0,0,0,0
-Isola Proibita,2026,1978,6,0,6,0,0,0,0,0,0,0
+Isola Proibita Deprecata,2026,0,0,0,6,0,0,0,0,0,0,0
 Fonderia Rigogliosa,2027,1970,0,0,5,0,0,0,0,0,0,0
 Locrian Esper,2028,1970,0,0,5,0,0,0,0,0,0,0
 Riposo Gravido,2029,1970,0,0,5,0,0,0,0,0,0,0
@@ -1614,14 +1614,14 @@ Conca dei Felcepelle,2096,2024,0,0,4,0,0,0,0,0,0,0
 Accademia di Algeth'ar,2097,2025,0,0,4,0,0,0,0,0,0,0
 Accademia di Algeth'ar,2098,2025,0,0,4,0,0,0,0,0,0,0
 Accademia di Algeth'ar,2099,2025,0,0,4,0,0,0,0,0,0,0
-Asilo dell'Assedio,2100,2026,0,0,5,0,0,0,0,0,0,0
-Asilo del Supporto,2101,2026,0,0,5,0,0,0,0,0,0,0
-Asilo della Guerra,2102,2026,0,0,5,0,0,0,0,0,0,0
+Asilo dell'Assedio,2100,2151,0,0,5,0,0,0,0,0,0,0
+Asilo del Supporto,2101,2151,0,0,5,0,0,0,0,0,0,0
+Asilo della Guerra,2102,2151,0,0,5,0,0,0,0,0,0,0
 Conca dei Felcepelle,2106,2024,0,0,4,0,0,0,0,0,0,0
-Isola Proibita,2107,1978,32774,0,3,0,0,102255,0,0,8,0
-Asilo della Guerra,2109,2107,0,0,5,0,0,0,0,0,0,0
-Asilo del Supporto,2110,2107,0,0,5,0,0,0,0,0,0,0
-Asilo dell'Assedio,2111,2107,0,0,5,0,0,0,0,0,0,0
+Isola Proibita,2107,0,0,0,3,0,0,0,0,0,0,0
+Asilo della Guerra,2109,2118,0,0,5,0,0,0,0,0,0,0
+Asilo del Supporto,2110,2118,0,0,5,0,0,0,0,0,0,0
+Asilo dell'Assedio,2111,2118,0,0,5,0,0,0,0,0,0,0
 Valdrakken,2112,2025,4,0,3,119,0,0,0,0,0,0
 Isola Proibita,2118,1978,6,0,3,0,0,102254,0,0,8,0
 Segrete delle Incarnazioni,2119,2025,0,0,4,0,0,0,0,0,0,0
@@ -1641,3 +1641,7 @@ Vastità Azzurra,2132,2024,0,0,5,0,0,0,0,0,0,0
 Valdrakken,2134,2130,4,2,3,0,0,0,0,0,0,0
 Valdrakken,2135,1978,0,0,6,0,0,0,0,0,0,0
 Pianure di Ohn'ahra,2149,0,4,2,2,0,0,0,0,5350,0,0
+Isola Teschio di Drago,2150,2151,0,0,5,0,0,0,0,0,0,0
+Isola Proibita,2151,1978,6,0,3,119,0,102255,0,0,0,0
+Segrete di Pietragelida,2154,2151,0,0,5,0,0,0,0,0,0,0
+Valle d'Alterac,2162,25,0,0,6,0,0,0,0,0,0,0

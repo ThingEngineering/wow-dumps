@@ -12443,7 +12443,7 @@ zugsbrowser",1
 24648,ERR_IN_BATTLEGROUND_RESPEC,Diese Spezialisierung entspricht nicht Eurer zugewiesenen Rolle.,1
 24649,OPTION_TOOLTIP_ANTIALIASING,"Antialiasing ist eine Technik, mit der scharfe Kanten, insbesondere bei niedriger Auflösung, geglättet werden.",3
 24650,GARRISON_LANDING_PAGE_TITLE,Garnisonsbericht,1
-24651,TRADESKILL_CHARGES_REMAINING,Verwendungen verfügbar: %i von %i,1
+24651,TRADESKILL_CHARGES_REMAINING,Verfügbares Handwerk: %i / %i.,1
 24652,SPELL_FAILED_CUSTOM_ERROR_216,Ziel ist zu weit entfernt.,1
 24653,GARRISON_LANDING_STATUS_BUILDING,Bau,1
 24654,GARRISON_LANDING_STATUS_MISSION_TRAVEL,Unterwegs,1
@@ -15251,8 +15251,8 @@ Abenteuerführer ausblenden",1
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,2
 34695,VISITABLE_URL4,http://deDE.nydus.battle.net/wow/deDE/client/challenge/%d/%d,2
 34696,VISITABLE_URL5,https://eu.battle.net/support/de/games/wow?loc,2
-34697,VISITABLE_URL6,https://eu.battle.net/support/de/ticket/submit?loc,2
-34698,VISITABLE_URL7,https://eu.battle.net/support/de/ticket/status?loc,2
+34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
+34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
 34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
 34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
 34701,VISITABLE_URL_GENERIC,http://deDE.nydus.battle.net/WOW/deDE/client/in_game_mail_link_%d,2
@@ -17018,7 +17018,7 @@ Abenteuerführer ausblenden",1
 36729,COMMUNITIES_ADD_TO_CHAT_DROP_DOWN_CHAT_SETTINGS,Optionen,1
 36734,EXPANSION_TRIAL,Erweiterungsprobe,1
 36735,EXPANSION_TRIAL_THANKS_TITLE,Vielen Dank fürs Spielen,1
-36736,EXPANSION_TRIAL_THANKS_TEXT,"Erwerben Sie die Erweiterung, um Ihre Abenteuer fortzusetzen.",1
+36736,EXPANSION_TRIAL_THANKS_TEXT,"Sie haben die Stufengrenze erreicht!|n|nSämtliche EP, die Sie ab jetzt sammeln, werden gespeichert. Kaufen Sie Dragonflight, um Ihre gesammelten EP anzuwenden und weiter bis auf Stufe 70 aufzusteigen!",1
 36737,EXPANSION_TRIAL_THANKS_BUTTON,Erweiterung kaufen,1
 36738,EXPANSION_TRIAL_LOCKED_TOOLTIP_TEXT,"Erwerbt Battle for Azeroth und benutzt die enthaltene Charakteraufwertung, um diesen Charakter freizuschalten.",2
 36739,CLICK_TO_OPEN_SHOP,"Klicken, um den Shop zu öffnen",3
@@ -17941,7 +17941,7 @@ Abenteuerführer ausblenden",1
 41556,ERR_CANT_USE_PROFANITY,Es dürfen keine Schimpfwörter verwendet werden.,1
 41557,RAF_REWARD_TITLE,Neuer Titel: %s,1
 41558,CLUB_FINDER_COMMUNITY_RECRUITING_NOTE,Optionale Notiz für den Communityleiter,1
-41559,RAF_MONTHS_EARNED,%d |4Monat:Monate; verdient,1
+41559,RAF_MONTHS_EARNED,Abonnements von Freunden: %d |4Monat:Monate;,1
 41560,RAF_YOU_HAVE_EARNED,Ihre Belohnung:,1
 41561,RAF_NEXT_REWARD_AFTER,Nächste Belohnung (%d von %d |4Monat:Monaten;),1
 41564,SPELL_FAILED_CUSTOM_ERROR_421,Diese Aufwertung benötigt einen Gegenstand des berüchtigten Gladiators.,1
@@ -17983,7 +17983,7 @@ Abenteuerführer ausblenden",1
 41606,AUCTION_HOUSE_ITEM_SOLD_FORMAT,%s - |cff00ff00Verkauft|r,1
 41607,AUCTION_HOUSE_ITEM_WITH_QUANTITY_FORMAT,%s  |cff808080x%s|r,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,Ein Spieler wurde für den gewerteten Kampf in dieser Sparte disqualifiziert.,1
-41609,RAF_NO_RECRUITS_DESC,"|cffffd200Werbt Freunde und erhaltet Belohnungen für jeden Monat, den sie WoW abonnieren.|n|nSpielt zusammen, um noch mehr Belohnungen freizuschalten!|r|n|nWeitere Informationen findet Ihr auf unserer |HurlIndex:49|h|cff82c5ffWerbt einen Freund|r|h-Website.",1
+41609,RAF_NO_RECRUITS_DESC,"|cffffd200Werbt Freunde und erhaltet Belohnungen für jeden Monat, den sie WoW abonnieren.|n|nSpielt zusammen, um zusätzliche Belohnungen freizuschalten!|r|n|nWeitere Informationen findet Ihr auf unserer |n|HurlIndex:49|h|cff82c5ffWerbt einen Freund|r|h-Website.",1
 41611,AUCTION_HOUSE_HIGHEST_BIDDER,Höchstgebot,1
 41612,AUCTION_HOUSE_OUTBID,Überboten,1
 41613,AUCTION_HOUSE_HEADER_CURRENT_BID,Akt. Gebot,1
@@ -19080,8 +19080,8 @@ Abenteuerführer ausblenden",1
 42877,JAILERS_TOWER_LEVEL_TOAST_UPPER_REACHES,Die Oberen Ebenen,1
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Paktabenteuer,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Manuelles Verlassen dieses Chat-Channels nicht möglich: %s,1
-42880,VISITABLE_URL50,https://eu.battle.net/support/de/help/home,2
-42881,VISITABLE_URL51,https://support-qa-eu.stech.blizzard.net/de/help/home,2
+42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
+42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Um Push-to-Talk nutzen zu können, wenn World of Warcraft nicht im Vordergrund ist, müssen Sie %s Zugriff auf ""Bedienungshilfen"" in den Sicherheitsoptionen gewähren, die Sie in den Systemeinstellungen finden. Möchten Sie die Systemeinstellungen jetzt öffnen?",3
 42883,MAC_INPUT_MONITORING1015,"Um Push-to-Talk nutzen zu können, wenn World of Warcraft nicht im Vordergrund ist, müssen Sie %s Zugriff auf ""Input-Monitoring"" in den Sicherheitsoptionen gewähren, die Sie in den Systemeinstellungen finden. Möchten Sie die Systemeinstellungen jetzt öffnen?",3
 42884,BINDING_NAME_CENTERCAMERA,Kamera zentrieren,1
@@ -19753,7 +19753,7 @@ Abenteuerführer ausblenden",1
 44170,PVP_RANK_4_NAME,Duellant,1
 44171,PVP_RANK_5_NAME,Elite,1
 44172,PVP_RANK_8_NEXT_RANK_DESC,Erreicht eine Wertung von 1.950 oder höher und erhaltet:|n- PvP-Gegenstandsaufwertungsrang,1
-44173,PVP_RANK_4_NEXT_RANK_DESC,Erreicht eine Wertung von 2.100 oder höher und erhaltet:|n- Titel: Duellant|n- Elite-PvP-Setvorlage: Prestigeumhang,1
+44173,PVP_RANK_4_NEXT_RANK_DESC,Erreicht eine Wertung von 2.100 oder höher und erhaltet:|n- Titel: Duellant|n- Elite-PvP-Setvorlage: Prestigeumhang|n- Elite-PvP-Waffenverzauberung,1
 44174,PVP_RANK_5_NEXT_RANK_DESC,Erreicht eine Wertung von 2.400 oder höher und erhaltet:|n- Titel: Elite|n- Elite-PvP-Setvorlage: Wappenrock,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,Voicechat-Transkription,1
@@ -20538,7 +20538,7 @@ abstand",1
 49208,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH_TITLE,%s erlernen?,1
 49209,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH,Wollt Ihr wirklich die Sekundärspezialisierung %s lernen? Dadurch werden alle ausstehenden Änderungen gespeichert.,1
 49210,PROFESSIONS_SPECIALIZATION_UNLOCK_PATH,Sekundärspezialisierung lernen,1
-49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Freischalten,1
+49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Spezialisierung freischalten,1
 49212,PROFESSIONS_SPECIALIZATION_SUBPATH_UNLOCK_REQUIREMENT,Das Lernen einer weiteren Sekundärspezialisierung erfordert %d |4Punkt:Punkte; in %s.,1
 49213,PROFESSIONS_SPECIALIZATION_PERK_RANK_SOURCE,Verdient bei %d Punkten in %s.,1
 49214,PROFESSIONS_SPECIALIZATION_PERK_UNLOCK_SOURCE,Verdient beim Lernen von %s.,1
@@ -20594,8 +20594,7 @@ Ergibt sich unter anderem aus Eurer grundlegenden Berufsfertigkeit, den Speziali
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,"Deaktivieren, um immer die verfügbaren Reagenzien mit der geringsten Qualität zu benutzen.",1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,Schaltflächen immer anzeigen,1
 49267,OPTION_TOOLTIP_CAMERA_FOV,Blickfeld,1
-49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,"Nicht vorhandene
-verbergen",1
+49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,Verbergen nicht verfügbar,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,Ihr besitzt keine passenden Reagenzien.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,Absorbieren (%s),1
 49271,PERKS_PROGRAM_HIDE_ARMOR,Rüstung verbergen,1
@@ -20683,7 +20682,7 @@ verbergen",1
 Auch dabei könnt Ihr Fertigkeitspunkte erhalten, allerdings weniger oft.",1
 49398,HUD_EDIT_MODE_ERROR_MAX_LAYOUTS,Es sind höchstens %d Charakterlayouts und %d Accountlayouts zulässig.,1
 49399,PERKS_PROGRAM_PURCHASED_TEXT,Ihr besitzt diesen Gegenstand.,1
-49400,GOSSIP_QUEST_OPTION_PREPEND,|cnBRIGHTBLUE_FONT_COLOR:Quest! |r%s,1
+49400,GOSSIP_QUEST_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(Quest)|r%s,1
 49401,HUD_EDIT_MODE_ERROR_MAX_ACCOUNT_LAYOUTS,"Es sind nur %d accountweite Layouts zulässig. Häkchen setzen, um ein charakterspezifisches Layout zu speichern.",1
 49402,HUD_EDIT_MODE_ERROR_MAX_CHAR_LAYOUTS,"Es sind nur %d charakterspezifische Layouts zulässig. Häkchen entfernen, um ein accountweites Layout zu speichern.",1
 49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,|cnNORMAL_FONT_COLOR:Layout kopieren|r|nEs sind höchstens %d Charakterlayouts und %d Accountlayouts zulässig.,1
@@ -21000,7 +20999,7 @@ Bei Konfigurationen mit dieser Einstellung werden dieselben Aktionsleisten verwe
 49736,VIDEO_OPTIONS_STANDARD,Standard,3
 49737,VIDEO_OPTIONS_AGGRESSIVE,Aggressiv,3
 49738,VRS_MODE,VRS-Modus,3
-49739,OPTION_TOOLTIP_VRS_MODE,Kontrolliert die Intensität der Variable-Rate-Schattierungsfunktionen (VRS),3
+49739,OPTION_TOOLTIP_VRS_MODE,"Kontrolliert die Intensität der Variable-Rate-Schattierungsfunktionen (VRS). VRS ist eine GPU-Hardwarefunktion, die die GPU-Arbeitslast verringert, ohne die Grafikqualität zu sehr zu beeinträchtigen. Diese Funktion auf unterstützter Hardware zu aktivieren, kann die Bildrate verbessern.",3
 49740,PROFESSIONS_CRAFT_OUTPUT_TITLE,Handwerksergebnisse,1
 49741,PROFESSIONS_OUTPUT_INSPIRATION_TITLE,Inspiration,1
 49742,PROFESSIONS_OUTPUT_INSPIRATION_DESC,Ihr wurdet inspiriert und habt diesen Gegenstand mit zusätzlicher Fertigkeit hergestellt.,1
@@ -21366,7 +21365,7 @@ Wollt Ihr diesen Auftrag wirklich aufgeben?",1
 50093,PROFESSIONS_AUTO_EQUIP_JEWELCRAFTING_ONLY,Dieser Gegenstand kann nur an Plätzen für Juwelierskunstausrüstung angelegt werden.,1
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,Dieser Gegenstand kann nur an Plätzen für Inschriftenkundeausrüstung angelegt werden.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,Umfertigen,1
-50096,CRAFTING_ORDER_ILVL_DISPLAY,%d+,1
+50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
 50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,Manche Gegenstände können mithilfe von optionalen Reagenzien auf einer höheren Stufe hergestellt werden.,1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/konfigname,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/loadoutname,1
@@ -21440,9 +21439,7 @@ um Aktivitäten abzuschließen und Belohnungen am Handelsposten zu erhalten.",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Ausrüstungshaltbarkeit,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Größe,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Fortschritt im Reisetagebuch,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,"Besucht den Handelsposten in %s, um Euer Reisetagebuch einzusehen.
-
-Erfordert aktive Spielzeit.",1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,"Besucht den Handelsposten in %s, um Euer Reisetagebuch einzusehen.",1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Zuweisungs-|nwert,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Schließt jeden Monat Eure Reiseaktivitäten ab, um in Eurer Truhe des Sammlers Devisen und eine besondere Belohnung zu erhalten.
 
@@ -21452,7 +21449,7 @@ Der Fortschritt gilt accountweit.",1
 
 Der Fortschritt gilt accountweit.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,"Ihr versucht, diesen Gegenstand mit einer 'Einzigartig anlegbar'-Beschränkung umzufertigen. Legt ihn dafür zuerst ab.",1
-50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,"Verwendungen verfügbar: %i von %i, %s bis zur nächsten verfügbaren Verwendung.",1
+50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Verfügbares Handwerk: %i / %i. Weiteres Handwerk in %s.,1
 50208,MOTION_SICKNESS_DRAGONRIDING,Bewegungskrankheit beim Drachenreiten,1
 50209,GAMEPAD_CONNECTED,Gamepad %d verbunden: %s,1
 50210,GAMEPAD_DISCONNECTED,Gamepad %d getrennt: %s,1
@@ -21470,31 +21467,95 @@ Der Fortschritt gilt accountweit.",1
 50232,CRAFTING_ORDER_NOT_CLAIMED,Nicht angenommen,1
 50233,CHARACTER_SELECT_ACCOUNT_LOCKED,Euer Account ist gesperrt.,2
 50234,ACCOUNT_SAVE_CONFIRM_STRING,ACCOUNT SPERREN,2
-50235,ACCOUNT_SAVE_IN_PROGRESS,Progression archive download in progress|nPlease do not close your client,2
-50236,ACCOUNT_SAVE_SUCCESS,Progression archive downloaded successfully.,2
+50235,ACCOUNT_SAVE_IN_PROGRESS,Fortschrittsarchiv wird heruntergeladen...|nBitte den Client nicht schließen.,2
+50236,ACCOUNT_SAVE_SUCCESS,Fortschrittsarchiv erfolgreich heruntergeladen.,2
 50237,ACCOUNT_SAVE_ERROR_OTHER,Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.,2
-50238,ACCOUNT_SAVE_ERROR_TIMEOUT,Progression archive timed out,2
-50239,ACCOUNT_SAVE_ERROR_INVALID_ACCOUNT,Progression archive download failed: Invalid account,2
-50240,ACCOUNT_SAVE_ERROR_INVALID_CHARACTER,Progression archive download failed: Invalid character,2
-50241,ACCOUNT_SAVE_ERROR_FILE_INVALID,Progression archive download failed: Couldn't open the target output file,2
-50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,Progression archive download failed: Couldn't write to the target output file,2
-50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,Download Progression Archive,2
-50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020World of Warcraft realms will be temporarily unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress (including characters and gear under your World of Warcraft accounts) now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your Game Progress Locally|r</h1><p>|n|cffff2020By downloading your game progress, your account will be immediately locked.|r|n|n|cffffd200You won't be able to use this account until it's restored in the future.|r|n|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200If you're sure, type|r |cffffffffLOCK ACCOUNT:|r",2
-50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020World of Warcraft realms will be unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your game progress locally|r</h1><p>|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200Your account is locked because you successfully downloaded your account data.|r",2
+50238,ACCOUNT_SAVE_ERROR_TIMEOUT,Fortschrittsarchiv wegen Zeitüberschreitung fehlgeschlagen.,2
+50239,ACCOUNT_SAVE_ERROR_INVALID_ACCOUNT,Herunterladen des Fortschrittsarchivs fehlgeschlagen: Ungültiger Account,2
+50240,ACCOUNT_SAVE_ERROR_INVALID_CHARACTER,Herunterladen des Fortschrittsarchivs fehlgeschlagen: Ungültiger Charakter,2
+50241,ACCOUNT_SAVE_ERROR_FILE_INVALID,Herunterladen des Fortschrittsarchivs fehlgeschlagen: Zieldatei konnte nicht geöffnet werden,2
+50242,ACCOUNT_SAVE_ERROR_FILE_WRITE,Herunterladen des Fortschrittsarchivs fehlgeschlagen: Schreiben in Zieldatei nicht möglich,2
+50243,ACCOUNT_SAVE_DOWNLOAD_BUTTON,Fortschrittsarchiv herunterladen,2
+50245,ACCOUNT_SAVE_DESCRIPTION_UNLOCKED,"|cffff2020World of Warcraft-Realms sind in dieser Region nach dem 23. Januar 2023 vorübergehend nicht mehr verfügbar.|r|n|n|cffffd200Der Spielfortschritt kann jetzt zum späteren Wiederherstellen heruntergeladen werden (inklusive der Charaktere und Gegenstände im World of Warcraft-Account).|r|n|n|cffffd200Bei lokaler Speicherung des Fortschritts wird der Account unabhängig der verbleibenden Spielzeit gesperrt. Das Archiv sollte sicher aufbewahrt werden, da wir seine Verwendung später ermöglichen möchten.|r|n|n|n</p><h1>|cffffffffSpielfortschritt lokal speichern|r</h1><p>|n|cffff2020Durch das Herunterladen des Spielfortschritts wird der Account unmittelbar gesperrt.|r|n|n|cffffd200Dieser Account ist nicht nutzbar, bis er später wiederhergestellt wird.|r|n|n|cffffffffDiese Funktion und der archivierte Spielfortschritt unterliegen der Endbenutzer-Lizenzvereinbarung von B.Net.|r|n|n|cffffd200Soll die Aktion trotzdem fortgesetzt werden, bitte|r |cffffffffACCOUNT SPERREN|r cffffd200eingeben:|r",2
+50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020World of Warcraft-Realms werden in dieser Region nach dem 23. Januar 2023 nicht mehr verfügbar sein.|r|n|n|cffffd200Der Spielfortschritt kann jetzt heruntergeladen werden, um ihn später wiederherzustellen.|r|n|n|cffffd200Bei lokaler Speicherung des Spielfortschritts wird der betreffende Account unabhängig der verbleibenden Spielzeit gesperrt. Wir empfehlen dringend, das Archiv sicher aufzubewahren, da wir dessen Verwendung zu einem späteren Zeitpunkt ermöglichen möchten.|r|n|n|n</p><h1>|cffffffffSpielfortschritt lokal speichern|r</h1><p>|n|cffffffffDiese Funktion und der archivierte Spielfortschritt unterliegen der Endbenutzer-Lizenzvereinbarung von B.Net.|r|n|n|cffffd200Dieser Account ist gesperrt, da die Accountdaten erfolgreich heruntergeladen wurden.|r",2
 50247,PROFESSIONS_ORDER_OP_FAILED,Vorgang zum Handwerksauftrag fehlgeschlagen. Bitte später erneut versuchen.,1
 50248,PROFESSIONS_ORDER_UNUSABLE_WARNING,"Dieser Gegenstand kann derzeit nicht verwendet werden und wird beim Aufheben gebunden. Seid Ihr sicher, dass Ihr diesen Auftrag aufgeben wollt?",1
 50249,SPELL_FAILED_CUSTOM_ERROR_825,Erfordert den Trainingsparcours von Nokhudon.,1
-50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Progression archive downloading is currently unavailable,2
-50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,A progression archive download is already in progress. Please try again later.,2
+50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Fortschrittsarchiv kann derzeit nicht heruntergeladen werden.,2
+50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,Es wird bereits ein Fortschrittsarchiv heruntergeladen. Bitte später erneut versuchen.,2
 50252,MAILFRAME_CRAFTING_ORDERS_TOOLTIP_TITLE,Handwerksaufträge:,1
 50253,PROFESSIONS_ORDER_REJECTED,Auftrag abgelehnt,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Wenn Ihr den Kampf jetzt verlasst, verliert Ihr mindestens |cnORANGE_FONT_COLOR:%d|r Wertung und werdet %s lang mit %s belegt.|n|nAußerdem erhaltet Ihr dann keine Ehren- oder Eroberungspunkte für Eure abgeschlossenen Runden.|n|nSeid Ihr sicher, dass Ihr den Kampf verlassen möchtet?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Dieses Rezept ist momentan deaktiviert. Bitte später erneut versuchen.,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fDie Nachricht von %s ist möglicherweise anstößig.|h|cffffff00|Hcensoredmessage:%d|h |W[Nachricht anzeigen]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Geschwindigkeitseffekte beim Drachenreiten,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Das Deaktivieren visueller Geschwindigkeitseffekte kann gegen Bewegungskrankheit helfen.,1
-50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
-50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
-50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
-50269,ACCOUNT_SAVE_ERROR_CANCELLED,Progression archive download was interrupted. Please try again later.,2
+50266,ACCOUNT_SAVE_FILE_BUTTON,Ordner öffnen,2
+50267,ACCOUNT_SAVE_CLOSE_BUTTON,Schließen,2
+50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Diese Datei sollte zur späteren Verwendung an einem sicheren Ort gespeichert werden:,2
+50269,ACCOUNT_SAVE_ERROR_CANCELLED,Das Herunterladen des Fortschrittsarchivs wurde unterbrochen. Bitte später erneut versuchen.,2
+50270,CENSOR_SOURCE_EVERYONE,Alle,1
+50271,CENSOR_SOURCE_NO_ONE,Keine,1
+50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,Alle außer von Freunden,1
+50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,Alle außer von Freunden und Gildenmitgliedern,1
+50274,CENSOR_SOURCE_EXCLUDE,Nachrichten zensieren,1
+50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,"Legt fest, wessen Nachrichten zensiert werden, wenn diese als anstößig erkannt wurden.",1
 50276,MONTHLY_ACTIVITIES_POINTS,Reisepunkte,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,Die Schlachtzugsschwierigkeit kann derzeit nicht geändert werden. Ein Spielercharakter ist auf einem Fahrzeug.,1
+50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,"Ihr seid dabei einen Handwerksauftrag zu erfüllen, der einige Eurer eigenen Reagenzien aufbraucht. Seid Ihr sicher?",1
+50293,CHAT_LANGUAGE_NAME_TAG,[%s],1
+50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,Dieser Platz benötigt einen urzeitlichen Edelstein.,1
+50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,Urzeitliche Edelsteine können nur in urzeitliche Sockel eingesetzt werden.,1
+50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,%s HK$,3
+50301,LANGUAGE_PROFICIENCY_FORMAT,%s (Kenntnisse %d/%d),1
+50302,PROF_SPECIALIZATION_HIGHLIGHTS,Besondere Spezialisierungen:,1
+50303,PROF_VIEW_FULL_TREE,Vollständigen Baum ansehen,1
+50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,Alle ausstehenden Änderungen werden beim Freischalten dieser Spezialisierung angewendet. Wollt Ihr wirklich die Spezialisierung %s lernen?,1
+50305,CRAFTING_ORDERS_ORDER_FULFILLED_SINGLE_FMT,Ihr habt einen Handwerksauftrag (%s) über %s für %s für eine Provision in Höhe von %s erfüllt.,1
+50306,CRAFTING_ORDERS_ORDER_FULFILLED_MULT_FMT,Ihr habt einen Handwerksauftrag (%s) über %s x%d für %s für eine Provision in Höhe von %s erfüllt.,1
+50307,PROF_CRAFTING_ORDER_TYPE_PERSONAL,persönlich,1
+50308,PROF_CRAFTING_ORDER_TYPE_GUILD,Gilde,1
+50309,PROF_CRAFTING_ORDER_TYPE_PUBLIC,öffentlich,1
+50310,EMPTY_SOCKET_PRIMORDIAL,Urzeitlicher Sockel,1
+50311,GEM_TEXT_PRIMORDIAL,Am besten für einen urzeitlichen Sockel geeignet.,1
+50312,NEW_SPOKEN_LANGUAGE_HELPTIP,Ihr habt eine neue Sprache gelernt. Ändert Eure gesprochene Sprache hier.,1
+50313,SPELL_FAILED_CUSTOM_ERROR_999,Ihr habt den wirbelnden Mojostein nicht angelegt.,1
+50318,PLAYER_CHOICE_ENVOY_EXPLORERS,Möchtet Ihr ab heute wirklich der Drachenschuppenexpedition helfen?,1
+50319,PLAYER_CHOICE_ENVOY_TUSKARR,Möchtet Ihr ab heute wirklich den Tuskarr von Iskaara helfen?,1
+50320,PLAYER_CHOICE_ENVOY_CENTAUR,Möchtet Ihr ab heute wirklich den Zentauren der Maruuk helfen?,1
+50321,PLAYER_CHOICE_ENVOY_VALDRAKKEN,Möchtet Ihr ab heute wirklich dem Valdrakkenabkommen helfen?,1
+50324,GXAPI_AUTO,Automatisch erkennen,3
+50325,GXAPI_TOOLTIP_AUTO,Auto-detect best available Graphics API. [DNT],3
+50326,GXAPI_TOOLTIP_AUTO_SELECTED,"Grafikschnittstelle ausgewählt.
+Beste verfügbare Grafikschnittstelle automatisch erkennen.",3
+50327,GXAPI_TOOLTIP_CURRENT_API,Aktuelle Grafikschnittstelle.,3
+50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Grafikschnittstelle ausgewählt.
+Konnte nicht geladen werden, erneuter Versuch bei Neustart.",3
+50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Melden]|w|h|r,1
+50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,Erfordert aktive Spielzeit.,1
+50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,Interface-Aktionen aufgrund des folgenden Addons fehlgeschlagen: %d,1
+50351,OPTION_TOOLTIP_VRS_STANDARD,Fast ohne Einbußen der Grafikqualität,3
+50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Geringe Einbußen bei kleinen Details,3
+50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,"Dieser Spielercharakter kann nicht ignoriert werden, bis der Auftrag gelöscht oder erfüllt wurde.",1
+50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,Dieser Spielercharakter wird bereits ignoriert.,1
+50364,PROF_ORDER_CANT_WHISPER_OFFLINE,Dieser Spielercharakter ist offline.,1
+50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,Dieser Spielercharakter gehört einer gegnerischen Fraktion an.,1
+50367,PROF_VIEW_TREE_OVERVIEW,Zusammenfassung,1
+50374,GLUE_TIMEEVENT_TITLE,Aktives Zeitevent,2
+50379,SPELL_FAILED_CUSTOM_ERROR_830,"Ihr habt auf der Verbotenen Insel bereits zu viele Schätze markiert. Sammelt einige ein, bevor Ihr weitere Schatzschriftrollen der Verbotenen Insel öffnet.",1
+50380,RAF_LEGACY_REWARDS_DESC,"Frühere geworbene Freunde können nicht länger hinzugefügt werden, aber bestehende Geworbene gewähren weiterhin ""Werbt einen Freund""-Belohnungen.",1
+50382,RAF_NEW_VERSION_PROMPT,"Fügt Freunde hinzu, um in dieser Saison Belohnungen zu erhalten!",1
+50384,PLAIN_STRING_FORMAT,%s,1
+50388,XP_TEXT_BANKED_XP_HEADER,Angesammelte EP,1
+50389,RAF_CLAIM_MULTIPLE_REWARDS,%d Belohnungen einlösen,1
+50391,RAF_NEXT_REWARD_HELP_TEXT,"Rekrutiert Freunde, um Belohnungen zu erhalten, wenn sie ein Abonnement buchen.",1
+50392,RAF_LEGACY_REWARDS_HELP_TEXT,Aktuell aktive früher geworbene Freunde: |cnHIGHLIGHT_FONT_COLOR:%d|r|nNicht abgeholte Belohnungen: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50393,RAF_LATEST_REWARDS_HELP_TEXT,Aktuell aktive geworbene Freunde: |cnHIGHLIGHT_FONT_COLOR:%d|r|nNicht abgeholte Belohnungen: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50399,RAF_NEXT_EARN_DATE,Nächstes Belohnungsdatum: %s,1
+50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,"Sie haben das Ende der Kampagne an der Küste des Erwachens erreicht.|n|nSetzen Sie Ihre Erkundung der Dracheninseln für sich selbst fort oder kaufen Sie Dragonflight, um die Kampagne fortzusetzen!",1
+50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,Zum Freischalten die Erweiterung kaufen,1
+50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,Stufe %d,1
+50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"Sie können in dieser Probeversion nicht weiter als bis auf Stufe 60 aufsteigen, aber sämtliche EP, die Sie sammeln, werden gespeichert.|n|nKaufen Sie Dragonflight, um Ihre gesammelten EP anzuwenden und weiter bis auf Stufe 70 aufzusteigen!",1
+50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
+50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
+50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
