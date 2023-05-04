@@ -3639,7 +3639,7 @@ Questa abilità si attiva sempre per prima.",134434,8,6,0,2
 Attacca il nemico 3 volte, infliggendo [StandardDamage(1,1)] danni [School()] per attacco.
 
 Ogni volta che usi quest'abilità, la tua velocità aumenta del 20% alla fine del turno.",650636,1,0,0,0
-2468,Test Abilità di Mike,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,Imposta il bersaglio all'1% della salute massima e lo stordisce.,646380,5,0,0,0
 2469,Gancio da Mietitura,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Infligge [StandardDamage(1,1)] danni [School()] e obbliga la mascotte della squadra nemica con meno salute a entrare nello scontro.",134226,9,4,0,0
@@ -3727,3 +3727,10 @@ I danni aumentano di [FormatDamage(10*AttackBonus())] ogni volta che questo atta
 2499,Assalto Quantico,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Colpisce il nemico, infliggendo [StandardDamage(1,1)] danni [petTypeName(abilityPetType())].",1392544,5,0,0,0
+2502,[DNT] INSTADEAD,Imposta la salute di una mascotte allo 0%.,133728,5,0,0,0
+2504,Manifesto dell'Odio,"Aggiunge [abs(abilityStateMod(71,2504))*AttackBonus()] danni a ogni attacco contro il bersaglio attivo.",4050664,5,0,530,3
+2505,Manifesto dell'Odio,"[StandardAccuracy(1,1)] |cffffffffProbabilità d'Impatto|r
+
+Un odio spropositato travolge il bersaglio, aggiungendo [abs(abilityStateMod(71,2504))*AttackBonus()] danni a ogni attacco contro il bersaglio. 
+
+Dura [duration(1,1)] |4turno:turni;",4050664,5,5,0,2

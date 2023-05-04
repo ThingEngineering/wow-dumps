@@ -3474,7 +3474,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 慢慢猛咬敵人1到2次，每次造成[StandardDamage(1,1)]點[School()]傷害。
 
 如果使用者在最後攻擊，會額外攻擊一次。",1339043,8,0,0,0
-2403,釋放大地生命,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
+2403,生命流溢,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 造成[StandardDamage(1,1)]點[School()]傷害。
 
@@ -3640,7 +3640,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 攻擊敵人3次，每次攻擊造成[StandardDamage(1,1)]點[School()]傷害。
 
 每次使用這個技能，你的速度會在回合結束時提高20%。",650636,1,0,0,0
-2468,麥可的測試技能,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,使目標生命降為上限的1%並擊暈目標。,646380,5,0,0,0
 2469,收割之鐮,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 造成[StandardDamage(1,1)]點[School()]傷害，並強迫對手生命力最低的寵物被交換進入戰鬥。",134226,9,4,0,0
@@ -3727,3 +3727,10 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2499,量子打擊,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 攻擊敵人，造成[StandardDamage(1,1)]點[petTypeName(abilityPetType())]傷害。",1392544,5,0,0,0
+2502,[DNT] INSTADEAD,使寵物的生命力降為0%。,133728,5,0,0,0
+2504,憎恨化身,"每次對目標攻擊造成[abs(abilityStateMod(71,2504))*AttackBonus()]點額外傷害。",4050664,5,0,530,3
+2505,憎恨化身,"[StandardAccuracy(1,1)]|cffffffff命中率|r
+
+無窮的憎恨將目標吞沒，每次攻擊對該目標造成的傷害提高[abs(abilityStateMod(71,2504))*AttackBonus()]點。
+
+持續[duration(1,1)]輪。",4050664,5,5,0,2

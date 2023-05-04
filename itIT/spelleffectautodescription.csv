@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Disorienta il bersaglio per $d.,Disorientato.,6,5,0,3,0,0,0
 329,Infligge $s@effectindex danni da ombra a tutti i nemici entro $A@effectindex m dall'incantatore ogni $t@effectindex s per $d.,$s@effectindex danni da ombra inflitti ogni $t@effectindex s.,6,3,1,7,32,50,50
-330,Infligge danni da fuoco.,,2,0,1,1,4,50,50
+330,Infligge $s@effectindex danni da fuoco a un nemico.,,2,0,1,1,4,50,50
 331,Infligge danni da furiaincanto.,,2,0,1,1,65,50,50
-332,Infligge danni da ombra.,,2,0,1,1,32,50,50
+332,Infligge $s@effectindex danni da ombra a un nemico.,,2,0,1,1,32,50,50
 333,Infligge danni fisici.,,2,0,1,1,1,50,50
 334,Infligge danni da natura.,,2,0,1,1,8,50,50
 335,Infligge danni da sacro.,,2,0,1,1,2,50,50
-336,Infligge danni da gelo.,,2,0,1,1,16,50,50
+336,Infligge $s@effectindex danni da gelo a un nemico.,,2,0,1,1,16,50,50
 337,Infligge danni da caos.,,2,0,1,1,127,50,50
 338,Infligge danni da arcano.,,2,0,1,1,64,50,50
 339,Infligge danni da ombra a tutti i nemici frontali ogni $t@effectindex s per $d.,Danni da ombra inflitti ogni $t@effectindex s.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,"Pacifica tutti i nemici entro $A@effectindex m, impedendo loro di attaccare per $d.",Impossibilitato ad attaccare.,6,25,0,7,0,0,0
 552,"Silenzia e pacifica un nemico, impedendogli di attaccare e lanciare incantesimi per $d.",Impossibilitato ad attaccare o a lanciare incantesimi.,6,60,0,3,0,30,0
 553,"Silenzia e pacifica tutti i nemici entro $A@effectindex m, impedendo loro di attaccare o lanciare incantesimi per $d.",Impossibilitato ad attaccare o a lanciare incantesimi.,6,60,0,7,0,0,0
+554,"Silenzia un nemico, impedendogli di lanciare incantesimi per $d.",Impossibile lanciare incantesimi.,6,27,0,1,0,30,0
+555,"Pacifica un nemico, impedendo che attacchi per $d.",Impossibilitato ad attaccare.,6,25,0,1,0,30,0
+556,"Silenzia e pacifica un nemico, impedendogli di attaccare e lanciare incantesimi per $d.",Impossibilitato ad attaccare o a lanciare incantesimi.,6,60,0,1,0,30,0
+557,Infligge $s@effectindex danni da ombrofuoco a un nemico.,,2,0,1,1,36,50,50
+558,Infligge danni da ombrofuoco a tutti i nemici in un cono frontale.,,165,0,1,9,36,50,50
+559,Infligge danni da ombrofuoco ai nemici entro $A@effectindex m dal punto d'impatto.,,165,0,1,5,36,50,50
+560,Infligge danni da ombrofuoco a tutti i nemici frontali.,,31,0,1,9,36,50,50
+561,Infligge danni da ombrofuoco a tutti i nemici entro $A@effectindex m.,,31,0,1,7,36,50,50
+562,Infligge danni da ombrofuoco a tutti i nemici entro $A@effectindex m dal punto d'impatto.,,31,0,1,5,36,50,50
+563,Infligge danni da ombrofuoco a un nemico.,,31,0,1,3,36,50,50
+564,Infligge danni da ombrofuoco pari al $s@effectindex% della salute massima a un nemico ogni $t@effectindex s per $d.,Danni da ombrofuoco subiti pari al $s@effectindex% della salute massima ogni $t@effectindex s.,6,89,1,1,36,20,20
+565,Aumenta i danni da ombrofuoco subiti da tutti i nemici entro $A@effectindex m del $s@effectindex% per $d.,Danni da ombrofuoco subiti aumentati del $s@effectindex%.,6,87,1,7,36,0,0
+566,Aumenta i danni da ombrofuoco subiti da tutti i nemici entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Danni da ombrofuoco subiti aumentati del $s@effectindex%.,6,87,1,5,36,10,10
+567,Aumenta i danni da ombrofuoco subiti da un nemico del $s@effectindex% per $d.,Danni da ombrofuoco subiti aumentati del $s@effectindex%.,6,87,1,3,36,0,0
+568,Aumenta i danni da ombrofuoco subiti da un nemico del $s@effectindex% per $d.,Danni da ombrofuoco subiti aumentati del $s@effectindex%.,6,87,1,1,36,0,0
+569,Riduce i danni da ombrofuoco inflitti da un nemico del $s@effectindex%.,Danni da ombrofuoco inflitti ridotti del $s@effectindex%.,6,79,2,3,36,20,20
+570,Aumenta i danni da ombrofuoco inflitti dall'incantatore del $s@effectindex%.,Danni da ombrofuoco inflitti aumentati del $s@effectindex%.,6,79,1,1,36,30,30
+571,Infligge danni da ombrofuoco a tutti i nemici frontali ogni $t@effectindex s per $d.,Danni da ombrofuoco inflitti ogni $t@effectindex s.,6,70,1,9,36,50,50
+572,Infligge danni da ombrofuoco a tutti i nemici entro $A@effectindex m ogni $t@effectindex s per $d.,Danni da ombrofuoco inflitti ogni $t@effectindex s.,6,70,1,7,36,50,50
+573,Infligge danni da ombrofuoco a tutti i nemici entro $A@effectindex m dal punto d'impatto ogni $t@effectindex s per $d.,Danni da ombrofuoco inflitti ogni $t@effectindex s.,6,70,1,5,36,50,50
+574,Infligge danni da ombrofuoco a un nemico ogni $t@effectindex s per $d.,Danni da ombrofuoco inflitti ogni $t@effectindex s.,6,70,1,3,36,50,50
+575,Infligge danni da ombrofuoco a un nemico ogni $t@effectindex s per $d.,Danni da ombrofuoco inflitti ogni $t@effectindex s.,6,70,1,1,36,50,50
+576,Circonda il bersaglio con uno scudo che dura $d e può assorbire fino a $s@effectindex danni da ombrofuoco subiti.,Assorbe $s@effectindex danni da ombrofuoco subiti.,6,69,1,3,36,0,0
+577,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni da ombrofuoco subiti.,Assorbe $s@effectindex danni da ombrofuoco subiti.,6,69,1,1,36,0,0
+578,Infligge danni da gelo ai nemici entro $A@effectindex m dal punto d'impatto.,,165,0,1,5,16,50,50
+579,Infligge $s@effectindex danni cosmici a tutti i nemici frontali.,,2,0,1,9,106,50,50
+580,Infligge $s@effectindex danni cosmici ai nemici entro $A@effectindex m.,,2,0,1,7,106,50,50
+581,Infligge $s@effectindex danni cosmici ai nemici entro $A@effectindex m dal punto d'impatto.,,2,0,1,5,106,50,50
+582,Infligge $s@effectindex danni cosmici a un nemico.,,2,0,1,3,106,50,50
+583,Infligge $s@effectindex danni cosmici a un nemico.,,2,0,1,1,106,50,50
+584,Infligge danni cosmici a tutti i nemici in un cono frontale.,,165,0,1,9,106,50,50
+585,Infligge danni cosmici ai nemici entro $A@effectindex m dal punto d'impatto.,,165,0,1,5,106,50,50
+586,Infligge danni cosmici a tutti i nemici frontali.,,31,0,1,9,106,50,50
+587,Infligge danni cosmici a tutti i nemici entro $A@effectindex m.,,31,0,1,7,106,50,50
+588,Infligge danni cosmici a tutti i nemici entro $A@effectindex m dal punto d'impatto.,,31,0,1,5,106,50,50
+589,Infligge danni cosmici a un nemico.,,31,0,1,3,106,50,50
+590,Infligge danni cosmici pari al $s@effectindex% della salute massima a un nemico ogni $t@effectindex s per $d.,Danni cosmici subiti pari al $s@effectindex% della salute massima ogni $t@effectindex s.,6,89,1,1,106,20,20
+591,Aumenta i danni cosmici subiti da tutti i nemici entro $A@effectindex m del $s@effectindex% per $d.,Danni cosmici subiti aumentati del $s@effectindex%.,6,87,1,7,106,0,0
+592,Aumenta i danni cosmici subiti da tutti i nemici entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Danni cosmici subiti aumentati del $s@effectindex%.,6,87,1,5,106,10,10
+593,Aumenta i danni cosmici subiti da un nemico del $s@effectindex% per $d.,Danni cosmici subiti aumentati del $s@effectindex%.,6,87,1,3,106,0,0
+594,Aumenta i danni cosmici subiti da un nemico del $s@effectindex% per $d.,Danni cosmici subiti aumentati del $s@effectindex%.,6,87,1,1,106,0,0
+595,Riduce i danni cosmici inflitti da un nemico del $s@effectindex%.,Danni cosmici inflitti ridotti del $s@effectindex%.,6,79,2,3,106,20,20
+596,Aumenta i danni cosmici inflitti dall'incantatore del $s@effectindex%.,Danni cosmici inflitti aumentati del $s@effectindex%.,6,79,1,1,106,30,30
+597,Infligge danni cosmici a tutti i nemici frontali ogni $t@effectindex s per $d.,Danni cosmici inflitti ogni $t@effectindex s.,6,70,1,9,106,50,50
+598,Infligge danni cosmici a tutti i nemici entro $A@effectindex m ogni $t@effectindex s per $d.,Danni cosmici inflitti ogni $t@effectindex s.,6,70,1,7,106,50,50
+599,Infligge danni cosmici a tutti i nemici entro $A@effectindex m dal punto d'impatto ogni $t@effectindex s per $d.,Danni cosmici inflitti ogni $t@effectindex s.,6,70,1,5,106,50,50
+600,Infligge danni cosmici a un nemico ogni $t@effectindex s per $d.,Danni cosmici inflitti ogni $t@effectindex s.,6,70,1,3,106,50,50
+601,Infligge danni cosmici a un nemico ogni $t@effectindex s per $d.,Danni cosmici inflitti ogni $t@effectindex s.,6,70,1,1,106,50,50
+602,Circonda il bersaglio con uno scudo che dura $d e può assorbire fino a $s@effectindex danni cosmici subiti.,Assorbe $s@effectindex danni cosmici subiti.,6,69,1,3,106,0,0
+603,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni cosmici subiti.,Assorbe $s@effectindex danni cosmici subiti.,6,69,1,1,106,0,0
+604,Infligge danni da ombra ai nemici entro $A@effectindex m dal punto d'impatto.,,165,0,1,5,32,50,50
+605,Infligge danni da ombra a un nemico ogni $t@effectindex s per $d.,Danni da ombra inflitti ogni $t@effectindex s.,6,70,1,1,32,50,50

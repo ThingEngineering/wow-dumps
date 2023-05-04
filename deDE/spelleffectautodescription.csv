@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Desorientiert das Ziel für $d,Desorientiert.,6,5,0,3,0,0,0
 329,Fügt allen Gegnern innerhalb von $A@effectindex Metern um den Zaubernden $d lang alle $t@effectindex Sek. $s@effectindex Schattenschaden zu.,Verursacht alle $t@effectindex Sek. $s@effectindex Schattenschaden.,6,3,1,7,32,50,50
-330,Verursacht Feuerschaden.,,2,0,1,1,4,50,50
+330,Fügt einem Gegner $s@effectindex Feuerschaden zu.,,2,0,1,1,4,50,50
 331,Verursacht Zauberschlagschaden.,,2,0,1,1,65,50,50
-332,Verursacht Schattenschaden.,,2,0,1,1,32,50,50
+332,Fügt einem Gegner $s@effectindex Schattenschaden zu.,,2,0,1,1,32,50,50
 333,Verursacht körperlichen Schaden.,,2,0,1,1,1,50,50
 334,Verursacht Naturschaden.,,2,0,1,1,8,50,50
 335,Verursacht Heiligschaden.,,2,0,1,1,2,50,50
-336,Verursacht Frostschaden.,,2,0,1,1,16,50,50
+336,Fügt einem Gegner $s@effectindex Frostschaden zu.,,2,0,1,1,16,50,50
 337,Verursacht Chaosschaden.,,2,0,1,1,127,50,50
 338,Verursacht Arkanschaden.,,2,0,1,1,64,50,50
 339,Fügt allen Gegnern vor dem Zaubernden $d lang alle $t@effectindex Sek. Schattenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenschaden.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,"Befriedet alle Gegner innerhalb von $A@effectindex Metern, sodass sie $d lang nicht angreifen können.",Kann nicht angreifen.,6,25,0,7,0,0,0
 552,"Bringt einen Gegner zum Schweigen und befriedet ihn, sodass er $d lang keine Zauber wirken und nicht angreifen kann.",Kann nicht angreifen oder Zauber wirken.,6,60,0,3,0,30,0
 553,"Bringt alle Gegner innerhalb von $A@effectindex Metern zum Schweigen und befriedet sie, sodass sie $d lang keine Zauber wirken und nicht angreifen können.",Kann nicht angreifen oder Zauber wirken.,6,60,0,7,0,0,0
+554,"Bringt einen Gegner zum Schweigen, sodass er $d lang keine Zauber wirken kann.",Kann keine Zauber wirken.,6,27,0,1,0,30,0
+555,"Befriedet einen Gegner, sodass er $d lang nicht angreifen kann.",Kann nicht angreifen.,6,25,0,1,0,30,0
+556,"Bringt einen Gegner zum Schweigen und befriedet ihn, sodass er $d lang keine Zauber wirken und nicht angreifen kann.",Kann nicht angreifen oder Zauber wirken.,6,60,0,1,0,30,0
+557,Fügt einem Gegner $s@effectindex Schattenflammenschaden zu.,,2,0,1,1,36,50,50
+558,Fügt allen Gegnern in einem kegelförmigen Bereich vor dem Zaubernden Schattenflammenschaden zu.,,165,0,1,9,36,50,50
+559,Fügt Gegnern innerhalb von $A@effectindex Metern um den Einschlagsort Schattenflammenschaden zu.,,165,0,1,5,36,50,50
+560,Fügt allen Gegnern vor dem Zaubernden Schattenflammenschaden zu.,,31,0,1,9,36,50,50
+561,Fügt allen Gegnern innerhalb von $A@effectindex Metern Schattenflammenschaden zu.,,31,0,1,7,36,50,50
+562,Fügt allen Gegnern innerhalb von $A@effectindex Metern um den Einschlagsort Schattenflammenschaden zu.,,31,0,1,5,36,50,50
+563,Fügt einem Gegner Schattenflammenschaden zu.,,31,0,1,3,36,50,50
+564,Fügt einem Gegner $d lang alle $t@effectindex Sek. $s@effectindex% der maximalen Gesundheit als Schattenflammenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden in Höhe von $s@effectindex% der maximalen Gesundheit.,6,89,1,1,36,20,20
+565,Lässt alle Gegner innerhalb von $A@effectindex Metern $d lang $s@effectindex% mehr Schattenflammenschaden erleiden.,Erlittener Schattenflammenschaden um $s@effectindex% erhöht.,6,87,1,7,36,0,0
+566,Lässt alle Gegner innerhalb von $A@effectindex Metern um den Einschlagsort $d lang $s@effectindex% mehr Schattenflammenschaden erleiden.,Erlittener Schattenflammenschaden um $s@effectindex% erhöht.,6,87,1,5,36,10,10
+567,Lässt einen Gegner $d lang $s@effectindex% mehr Schattenflammenschaden erleiden.,Erlittener Schattenflammenschaden um $s@effectindex% erhöht.,6,87,1,3,36,0,0
+568,Lässt einen Gegner $d lang $s@effectindex% mehr Schattenflammenschaden erleiden.,Erlittener Schattenflammenschaden um $s@effectindex% erhöht.,6,87,1,1,36,0,0
+569,Lässt einen Gegner $s@effectindex% weniger Schattenflammenschaden verursachen.,Verursachter Schattenflammenschaden um $s@effectindex% verringert.,6,79,2,3,36,20,20
+570,Lässt den Zaubernden $s@effectindex% mehr Schattenflammenschaden verursachen.,Verursachter Schattenflammenschaden um $s@effectindex% erhöht.,6,79,1,1,36,30,30
+571,Fügt allen Gegnern vor dem Zaubernden $d lang alle $t@effectindex Sek. Schattenflammenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden.,6,70,1,9,36,50,50
+572,Fügt allen Gegnern innerhalb von $A@effectindex Metern $d lang alle $t@effectindex Sek. Schattenflammenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden.,6,70,1,7,36,50,50
+573,Lässt alle Gegner innerhalb von $A@effectindex Metern um den Einschlagsort $d lang alle $t@effectindex Sek. Schattenflammenschaden erleiden.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden.,6,70,1,5,36,50,50
+574,Fügt einem Gegner $d lang alle $t@effectindex Sek. Schattenflammenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden.,6,70,1,3,36,50,50
+575,Fügt einem Gegner $d lang alle $t@effectindex Sek. Schattenflammenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenflammenschaden.,6,70,1,1,36,50,50
+576,"Umgibt das Ziel mit einem Schild, der $d lang bestehen bleibt und bis zu $s@effectindex Schattenflammenschaden absorbieren kann.",Absorbiert $s@effectindex Schattenflammenschaden.,6,69,1,3,36,0,0
+577,"Umgibt den Zaubernden mit einem Schild, der $d lang bestehen bleibt und bis zu $s@effectindex Schattenflammenschaden absorbieren kann.",Absorbiert $s@effectindex Schattenflammenschaden.,6,69,1,1,36,0,0
+578,Fügt Gegnern innerhalb von $A@effectindex Metern um den Einschlagsort Frostschaden zu.,,165,0,1,5,16,50,50
+579,Fügt allen Gegnern vor dem Zaubernden $s@effectindex kosmischen Schaden zu.,,2,0,1,9,106,50,50
+580,Fügt Gegnern innerhalb von $A@effectindex Metern $s@effectindex kosmischen Schaden zu.,,2,0,1,7,106,50,50
+581,Fügt Gegnern innerhalb von $A@effectindex Metern um den Einschlag $s@effectindex kosmischen Schaden zu.,,2,0,1,5,106,50,50
+582,Fügt einem Gegner $s@effectindex kosmischen Schaden zu.,,2,0,1,3,106,50,50
+583,Fügt einem Gegner $s@effectindex kosmischen Schaden zu.,,2,0,1,1,106,50,50
+584,Fügt allen Gegnern in einem kegelförmigen Bereich vor dem Zaubernden kosmischen Schaden zu.,,165,0,1,9,106,50,50
+585,Fügt Gegnern innerhalb von $A@effectindex Metern um den Einschlag kosmischen Schaden zu.,,165,0,1,5,106,50,50
+586,Fügt allen Gegnern vor dem Zaubernden kosmischen Schaden zu.,,31,0,1,9,106,50,50
+587,Fügt allen Gegnern innerhalb von $A@effectindex Metern kosmischen Schaden zu.,,31,0,1,7,106,50,50
+588,Fügt allen Gegnern innerhalb von $A@effectindex Metern um den Einschlag kosmischen Schaden zu.,,31,0,1,5,106,50,50
+589,Fügt einem Gegner kosmischen Schaden zu.,,31,0,1,3,106,50,50
+590,Fügt einem Gegner $d lang alle $t@effectindex Sek. $s@effectindex% der maximalen Gesundheit als kosmischen Schaden zu.,Verursacht alle $t@effectindex Sek. kosmischen Schaden in Höhe von $s@effectindex% der maximalen Gesundheit.,6,89,1,1,106,20,20
+591,Lässt alle Gegner innerhalb von $A@effectindex Metern $d lang $s@effectindex% mehr kosmischen Schaden erleiden.,Erlittener kosmischer Schaden um $s@effectindex% erhöht.,6,87,1,7,106,0,0
+592,Lässt alle Gegner innerhalb von $A@effectindex Metern um den Einschlagsort $d lang $s@effectindex% mehr kosmischen Schaden erleiden.,Erlittener kosmischer Schaden um $s@effectindex% erhöht.,6,87,1,5,106,10,10
+593,Lässt einen Gegner $d lang $s@effectindex% mehr kosmischen Schaden erleiden.,Erlittener kosmischer Schaden um $s@effectindex% erhöht.,6,87,1,3,106,0,0
+594,Lässt einen Gegner $d lang $s@effectindex% mehr kosmischen Schaden erleiden.,Erlittener kosmischer Schaden um $s@effectindex% erhöht.,6,87,1,1,106,0,0
+595,Lässt einen Gegner $s@effectindex% weniger kosmischen Schaden verursachen.,Verursachter kosmischer Schaden um $s@effectindex% verringert.,6,79,2,3,106,20,20
+596,Lässt den Zaubernden $s@effectindex% mehr kosmischen Schaden verursachen.,Verursachter kosmischer Schaden um $s@effectindex% erhöht.,6,79,1,1,106,30,30
+597,Fügt allen Gegnern vor dem Zaubernden $d lang alle $t@effectindex Sek. kosmischen Schaden zu.,Verursacht alle $t@effectindex Sek. kosmischen Schaden.,6,70,1,9,106,50,50
+598,Fügt allen Gegnern innerhalb von $A@effectindex Metern $d lang alle $t@effectindex Sek. kosmischen Schaden zu.,Verursacht alle $t@effectindex Sek. kosmischen Schaden.,6,70,1,7,106,50,50
+599,Lässt alle Gegner innerhalb von $A@effectindex Metern um den Einschlagsort $d lang alle $t@effectindex Sek. kosmischen Schaden erleiden.,Verursacht alle $t@effectindex Sek. kosmischen Schaden.,6,70,1,5,106,50,50
+600,Fügt einem Gegner $d lang alle $t@effectindex Sek. kosmischen Schaden zu.,Verursacht alle $t@effectindex Sek. kosmischen Schaden.,6,70,1,3,106,50,50
+601,Fügt einem Gegner $d lang alle $t@effectindex Sek. kosmischen Schaden zu.,Verursacht alle $t@effectindex Sek. kosmischen Schaden.,6,70,1,1,106,50,50
+602,"Umgibt das Ziel mit einem Schild, der $d lang bestehen bleibt und bis zu $s@effectindex kosmischen Schaden absorbieren kann.",Absorbiert $s@effectindex kosmischen Schaden.,6,69,1,3,106,0,0
+603,"Umgibt den Zaubernden mit einem Schild, der $d lang bestehen bleibt und bis zu $s@effectindex kosmischen Schaden absorbieren kann.",Absorbiert $s@effectindex kosmischen Schaden.,6,69,1,1,106,0,0
+604,Fügt Gegnern innerhalb von $A@effectindex Metern um den Einschlagsort Schattenschaden zu.,,165,0,1,5,32,50,50
+605,Fügt einem Gegner $d lang alle $t@effectindex Sek. Schattenschaden zu.,Verursacht alle $t@effectindex Sek. Schattenschaden.,6,70,1,1,32,50,50

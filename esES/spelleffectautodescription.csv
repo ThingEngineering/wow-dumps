@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Desorienta al objetivo durante $d.,Desorientado.,6,5,0,3,0,0,0
 329,Inflige $s@effectindex p. de daño de las Sombras a todos los enemigos en un radio de $A@effectindex m del taumaturgo cada $t@effectindex s durante $d.,$s@effectindex p. de daño de las Sombras infligidos cada $t@effectindex s.,6,3,1,7,32,50,50
-330,Inflige daño de Fuego.,,2,0,1,1,4,50,50
+330,Inflige $s@effectindex p. de daño de Fuego a un enemigo.,,2,0,1,1,4,50,50
 331,Inflige daño Arcanofísico.,,2,0,1,1,65,50,50
-332,Inflige daño de las Sombras.,,2,0,1,1,32,50,50
+332,Inflige $s@effectindex p. de daño de las Sombras a un enemigo.,,2,0,1,1,32,50,50
 333,Inflige daño físico.,,2,0,1,1,1,50,50
 334,Inflige daño de Naturaleza.,,2,0,1,1,8,50,50
 335,Inflige daño Sagrado.,,2,0,1,1,2,50,50
-336,Inflige daño de Escarcha.,,2,0,1,1,16,50,50
+336,Inflige $s@effectindex p. de daño de Escarcha a un enemigo.,,2,0,1,1,16,50,50
 337,Inflige daño de Caos.,,2,0,1,1,127,50,50
 338,Inflige daño Arcano.,,2,0,1,1,64,50,50
 339,Inflige daño de las Sombras a todos los enemigos frente al taumaturgo cada $t@effectindex s durante $d.,Daño de las Sombras infligido cada $t@effectindex s.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,Pacifica a todos los enemigos en un radio de $A@effectindex m e impide que ataquen durante $d.,Incapaz de atacar.,6,25,0,7,0,0,0
 552,Silencia y pacifica a un enemigo e impide que ataque y lance hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,3,0,30,0
 553,Silencia y pacifica a todos los enemigos en un radio de $A@effectindex m e impide que ataquen o lancen hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,7,0,0,0
+554,"Silencia a un enemigo, lo que le impide lanzar hechizos durante $d.",Incapaz de lanzar hechizos.,6,27,0,1,0,30,0
+555,Pacifica a un enemigo e impide que ataque durante $d.,Incapaz de atacar.,6,25,0,1,0,30,0
+556,Silencia y pacifica a un enemigo e impide que ataque y lance hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,1,0,30,0
+557,Inflige $s@effectindex p. de daño de Pirosombra a un enemigo.,,2,0,1,1,36,50,50
+558,Inflige daño de Pirosombra a todos los enemigos en un cono frente al taumaturgo.,,165,0,1,9,36,50,50
+559,Inflige daño de Pirosombra a los enemigos en un radio de $A@effectindex m del punto de impacto.,,165,0,1,5,36,50,50
+560,Inflige daño de Pirosombra a todos los enemigos frente al taumaturgo.,,31,0,1,9,36,50,50
+561,Inflige daño de Pirosombra a todos los enemigos en un radio de $A@effectindex m.,,31,0,1,7,36,50,50
+562,Inflige daño de Pirosombra a todos los enemigos en un radio de $A@effectindex m del punto de impacto.,,31,0,1,5,36,50,50
+563,Inflige daño de Pirosombra a un enemigo.,,31,0,1,3,36,50,50
+564,Inflige un $s@effectindex% de la salud máxima como daño de Pirosombra a un enemigo cada $t@effectindex s durante $d.,Un $s@effectindex% de la salud máxima infligido como daño de Pirosombra cada $t@effectindex s.,6,89,1,1,36,20,20
+565,Provoca que todos los enemigos en un radio de $A@effectindex m reciban un $s@effectindex% más de daño de Pirosombra durante $d.,Daño de Pirosombra recibido aumentado un $s@effectindex%.,6,87,1,7,36,0,0
+566,Provoca que todos los enemigos en un radio de $A@effectindex m del punto de impacto reciban un $s@effectindex% más de daño de Pirosombra durante $d.,Daño de Pirosombra recibido aumentado un $s@effectindex%.,6,87,1,5,36,10,10
+567,Provoca que un enemigo reciba un $s@effectindex% más de daño de Pirosombra durante $d.,Daño de Pirosombra recibido aumentado un $s@effectindex%.,6,87,1,3,36,0,0
+568,Provoca que un enemigo reciba un $s@effectindex% más de daño de Pirosombra durante $d.,Daño de Pirosombra recibido aumentado un $s@effectindex%.,6,87,1,1,36,0,0
+569,Provoca que un enemigo inflija un $s@effectindex% menos de daño de Pirosombra.,Daño de Pirosombra infligido reducido un $s@effectindex%.,6,79,2,3,36,20,20
+570,Provoca que el taumaturgo inflija un $s@effectindex% más de daño de Pirosombra.,Daño de Pirosombra infligido aumentado un $s@effectindex%.,6,79,1,1,36,30,30
+571,Inflige daño de Pirosombra a todos los enemigos frente al taumaturgo cada $t@effectindex s durante $d.,Daño de Pirosombra infligido cada $t@effectindex s.,6,70,1,9,36,50,50
+572,Inflige daño de Pirosombra a todos los enemigos en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Daño de Pirosombra infligido cada $t@effectindex s.,6,70,1,7,36,50,50
+573,Provoca que todos los enemigos en un radio de $A@effectindex m del punto de impacto reciban daño de Pirosombra cada $t@effectindex s durante $d.,Daño de Pirosombra infligido cada $t@effectindex s.,6,70,1,5,36,50,50
+574,Inflige daño de Pirosombra a un enemigo cada $t@effectindex s durante $d.,Daño de Pirosombra infligido cada $t@effectindex s.,6,70,1,3,36,50,50
+575,Inflige daño de Pirosombra a un enemigo cada $t@effectindex s durante $d.,Daño de Pirosombra infligido cada $t@effectindex s.,6,70,1,1,36,50,50
+576,Rodea al objetivo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño de Pirosombra.,Absorbe $s@effectindex p. de daño de Pirosombra.,6,69,1,3,36,0,0
+577,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño de Pirosombra.,Absorbe $s@effectindex p. de daño de Pirosombra.,6,69,1,1,36,0,0
+578,Inflige daño de Escarcha a los enemigos en un radio de $A@effectindex m del punto de impacto.,,165,0,1,5,16,50,50
+579,Inflige $s@effectindex p. de daño Cósmico a todos los enemigos frente al taumaturgo.,,2,0,1,9,106,50,50
+580,Inflige $s@effectindex p. de daño Cósmico a los enemigos en un radio de $A@effectindex m.,,2,0,1,7,106,50,50
+581,Inflige $s@effectindex p. de daño Cósmico a los enemigos en un radio de $A@effectindex m del impacto.,,2,0,1,5,106,50,50
+582,Inflige $s@effectindex p. de daño Cósmico a un enemigo.,,2,0,1,3,106,50,50
+583,Inflige $s@effectindex p. de daño Cósmico a un enemigo.,,2,0,1,1,106,50,50
+584,Inflige daño Cósmico a todos los enemigos en un cono frente al taumaturgo.,,165,0,1,9,106,50,50
+585,Inflige daño Cósmico a los enemigos en un radio de $A@effectindex m del impacto.,,165,0,1,5,106,50,50
+586,Inflige daño Cósmico a todos los enemigos frente al taumaturgo.,,31,0,1,9,106,50,50
+587,Inflige daño Cósmico a todos los enemigos en un radio de $A@effectindex m.,,31,0,1,7,106,50,50
+588,Inflige daño Cósmico a todos los enemigos en un radio de $A@effectindex m del punto de impacto.,,31,0,1,5,106,50,50
+589,Inflige daño Cósmico a un enemigo.,,31,0,1,3,106,50,50
+590,Inflige un $s@effectindex% de la salud máxima como daño Cósmico a un enemigo cada $t@effectindex s durante $d.,Un $s@effectindex% de la salud máxima infligido como daño Cósmico cada $t@effectindex s.,6,89,1,1,106,20,20
+591,Provoca que todos los enemigos en un radio de $A@effectindex m reciban un $s@effectindex% más de daño Cósmico durante $d.,Daño Cósmico recibido aumentado un $s@effectindex%.,6,87,1,7,106,0,0
+592,Provoca que todos los enemigos en un radio de $A@effectindex m del punto de impacto reciban un $s@effectindex% más de daño Cósmico durante $d.,Daño Cósmico recibido aumentado un $s@effectindex%.,6,87,1,5,106,10,10
+593,Provoca que un enemigo reciba un $s@effectindex% más de daño Cósmico durante $d.,Daño Cósmico recibido aumentado un $s@effectindex%.,6,87,1,3,106,0,0
+594,Provoca que un enemigo reciba un $s@effectindex% más de daño Cósmico durante $d.,Daño Cósmico recibido aumentado un $s@effectindex%.,6,87,1,1,106,0,0
+595,Provoca que un enemigo inflija un $s@effectindex% menos de daño Cósmico.,Daño Cósmico infligido reducido un $s@effectindex%.,6,79,2,3,106,20,20
+596,Provoca que el taumaturgo inflija un $s@effectindex% más de daño Cósmico.,Daño Cósmico infligido aumentado un $s@effectindex%.,6,79,1,1,106,30,30
+597,Inflige daño Cósmico a todos los enemigos frente al taumaturgo cada $t@effectindex s durante $d.,Daño Cósmico infligido cada $t@effectindex s.,6,70,1,9,106,50,50
+598,Inflige daño Cósmico a todos los enemigos en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Daño Cósmico infligido cada $t@effectindex s.,6,70,1,7,106,50,50
+599,Provoca que todos los enemigos en un radio de $A@effectindex m del punto de impacto reciban daño Cósmico cada $t@effectindex s durante $d.,Daño Cósmico infligido cada $t@effectindex s.,6,70,1,5,106,50,50
+600,Inflige daño Cósmico a un enemigo cada $t@effectindex s durante $d.,Daño Cósmico infligido cada $t@effectindex s.,6,70,1,3,106,50,50
+601,Inflige daño Cósmico a un enemigo cada $t@effectindex s durante $d.,Daño Cósmico infligido cada $t@effectindex s.,6,70,1,1,106,50,50
+602,Rodea al objetivo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño Cósmico.,Absorbe $s@effectindex p. de daño Cósmico.,6,69,1,3,106,0,0
+603,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño Cósmico.,Absorbe $s@effectindex p. de daño Cósmico.,6,69,1,1,106,0,0
+604,Inflige daño de las Sombras a los enemigos en un radio de $A@effectindex m del impacto.,,165,0,1,5,32,50,50
+605,Inflige daño de las Sombras a un enemigo cada $t@effectindex s durante $d.,Daño de las Sombras infligido cada $t@effectindex s.,6,70,1,1,32,50,50

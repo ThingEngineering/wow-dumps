@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Desorienta o alvo por $d.,Desorientado.,6,5,0,3,0,0,0
 329,Causa $s@effectindex de dano de Sombra a todos os inimigos em um raio de $A@effectindex m do lançador a cada $t@effectindex s por $d.,$s@effectindex de dano de Sombra causado a cada $t@effectindex s.,6,3,1,7,32,50,50
-330,Causa dano de Fogo.,,2,0,1,1,4,50,50
+330,Causa $s@effectindex de dano de Fogo a um inimigo.,,2,0,1,1,4,50,50
 331,Causa dano de Golpe Mágico.,,2,0,1,1,65,50,50
-332,Causa dano de Sombra.,,2,0,1,1,32,50,50
+332,Causa $s@effectindex de dano de Sombra a um inimigo.,,2,0,1,1,32,50,50
 333,Causa dano Físico.,,2,0,1,1,1,50,50
 334,Causa dano de Natureza.,,2,0,1,1,8,50,50
 335,Causa dano Sagrado.,,2,0,1,1,2,50,50
-336,Causa dano de Gelo.,,2,0,1,1,16,50,50
+336,Causa $s@effectindex de dano de Gelo a um inimigo.,,2,0,1,1,16,50,50
 337,Causa dano de Caos.,,2,0,1,1,127,50,50
 338,Causa dano Arcano.,,2,0,1,1,64,50,50
 339,Causa dano de Sombra a todos os inimigos à frente do lançador a cada $t@effectindex s por $d.,Dano de Sombra causado a cada $t@effectindex s.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,"Acalma todos os inimigos em um raio de $A@effectindex metros, impedindo-os de atacar por $d.",Incapaz de atacar.,6,25,0,7,0,0,0
 552,"Silencia e acalma um inimigo, impedindo-o de atacar e lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,3,0,30,0
 553,"Silencia e acalma todos os inimigos em um raio de $A@effectindex metros, impedindo-os de atacar ou lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,7,0,0,0
+554,"Silencia um inimigo, impedindo-o de lançar feitiços por $d.",Incapaz de lançar feitiços.,6,27,0,1,0,30,0
+555,"Acalma um inimigo, impedindo ataques por $d.",Incapaz de atacar.,6,25,0,1,0,30,0
+556,"Silencia e acalma um inimigo, impedindo-o de atacar e lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,1,0,30,0
+557,Causa $s@effectindex de dano de Chama Sombria a um inimigo.,,2,0,1,1,36,50,50
+558,Causa dano de Chama Sombria a todos os inimigos em uma área cônica à frente do lançador.,,165,0,1,9,36,50,50
+559,Causa dano de Chama Sombria aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,165,0,1,5,36,50,50
+560,Causa dano de Chama Sombria a todos os inimigos à frente do lançador.,,31,0,1,9,36,50,50
+561,Causa dano de Chama Sombria a todos os inimigos em um raio de $A@effectindex m.,,31,0,1,7,36,50,50
+562,Causa dano de Chama Sombria a todos os inimigos em um raio de $A@effectindex m do ponto de impacto.,,31,0,1,5,36,50,50
+563,Causa dano de Chama Sombria a um inimigo.,,31,0,1,3,36,50,50
+564,Causa dano de Chama Sombria equivalente a $s@effectindex% do máximo de pontos de vida a um inimigo a cada $t@effectindex s por $d.,Dano de Chama Sombria equivalente a $s@effectindex% do máximo de pontos de vida causado a cada $t@effectindex s.,6,89,1,1,36,20,20
+565,Faz todos os inimigos em um raio de $A@effectindex m recebam $s@effectindex% a mais de dano de Chama Sombria por $d.,Dano de Chama Sombria recebido aumentado em $s@effectindex%.,6,87,1,7,36,0,0
+566,Faz todos os inimigos em um raio de $A@effectindex m do ponto de impacto receberem $s@effectindex% a mais de dano de Chama Sombria por $d.,Dano de Chama Sombria recebido aumentado em $s@effectindex%.,6,87,1,5,36,10,10
+567,Faz um inimigo receber $s@effectindex% a mais de dano de Chama Sombria por $d.,Dano de Chama Sombria recebido aumentado em $s@effectindex%.,6,87,1,3,36,0,0
+568,Faz um inimigo receber $s@effectindex% a mais de dano de Chama Sombria por $d.,Dano de Chama Sombria recebido aumentado em $s@effectindex%.,6,87,1,1,36,0,0
+569,Faz um inimigo causar $s@effectindex% a menos de dano de Chama Sombria.,Dano de Chama Sombria causado reduzido em $s@effectindex%.,6,79,2,3,36,20,20
+570,Faz o lançador causar $s@effectindex% a mais de dano de Chama Sombria.,Dano de Chama Sombria causado aumentado em $s@effectindex%.,6,79,1,1,36,30,30
+571,Causa dano de Chama Sombria a todos os inimigos à frente do lançador a cada $t@effectindex s por $d.,Dano de Chama Sombria causado a cada $t@effectindex s.,6,70,1,9,36,50,50
+572,Causa dano de Chama Sombria a todos os inimigos em um raio de $A@effectindex m a cada $t@effectindex s por $d.,Dano de Chama Sombria causado a cada $t@effectindex s.,6,70,1,7,36,50,50
+573,Faz todos os inimigos em um raio de $A@effectindex m do ponto de impacto receberem dano de Chama Sombria a cada $t@effectindex s por $d.,Dano de Chama Sombria causado a cada $t@effectindex s.,6,70,1,5,36,50,50
+574,Causa dano de Chama Sombria a um inimigo a cada $t@effectindex s por $d.,Dano de Chama Sombria causado a cada $t@effectindex s.,6,70,1,3,36,50,50
+575,Causa dano de Chama Sombria a um inimigo a cada $t@effectindex s por $d.,Dano de Chama Sombria causado a cada $t@effectindex s.,6,70,1,1,36,50,50
+576,Envolve o alvo em um escudo que dura $d e absorve até $s@effectindex de dano de Chama Sombria.,Absorve $s@effectindex de dano de Chama Sombria.,6,69,1,3,36,0,0
+577,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano de Chama Sombria.,Absorve $s@effectindex de dano de Chama Sombria.,6,69,1,1,36,0,0
+578,Causa dano de Gelo aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,165,0,1,5,16,50,50
+579,Causa $s@effectindex de dano Cósmico a todos os inimigos à frente do lançador.,,2,0,1,9,106,50,50
+580,Causa $s@effectindex de dano Cósmico aos inimigos em um raio de $A@effectindex m.,,2,0,1,7,106,50,50
+581,Causa $s@effectindex de dano Cósmico aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,2,0,1,5,106,50,50
+582,Causa $s@effectindex de dano Cósmico a um inimigo.,,2,0,1,3,106,50,50
+583,Causa $s@effectindex de dano Cósmico a um inimigo.,,2,0,1,1,106,50,50
+584,Causa dano Cósmico a todos os inimigos em uma área cônica à frente do lançador.,,165,0,1,9,106,50,50
+585,Causa dano Cósmico aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,165,0,1,5,106,50,50
+586,Causa dano Cósmico a todos os inimigos à frente do lançador.,,31,0,1,9,106,50,50
+587,Causa dano Cósmico a todos os inimigos em um raio de $A@effectindex m.,,31,0,1,7,106,50,50
+588,Causa dano Cósmico a todos os inimigos em um raio de $A@effectindex m do ponto de impacto.,,31,0,1,5,106,50,50
+589,Causa dano Cósmico a um inimigo.,,31,0,1,3,106,50,50
+590,Causa dano Cósmico equivalente a $s@effectindex% do máximo de pontos de vida a um inimigo a cada $t@effectindex s por $d.,Dano Cósmico equivalente a $s@effectindex% do máximo de pontos de vida causado a cada $t@effectindex s.,6,89,1,1,106,20,20
+591,Faz todos os inimigos em um raio de $A@effectindex m receberem $s@effectindex% a mais de dano Cósmico por $d.,Dano Cósmico recebido aumentado em $s@effectindex%.,6,87,1,7,106,0,0
+592,Faz todos os inimigos em um raio de $A@effectindex m do ponto de impacto receberem $s@effectindex% a mais de dano Cósmico por $d.,Dano Cósmico recebido aumentado em $s@effectindex%.,6,87,1,5,106,10,10
+593,Faz um inimigo receber $s@effectindex% a mais de dano Cósmico por $d.,Dano Cósmico recebido aumentado em $s@effectindex%.,6,87,1,3,106,0,0
+594,Faz um inimigo receber $s@effectindex% a mais de dano Cósmico por $d.,Dano Cósmico recebido aumentado em $s@effectindex%.,6,87,1,1,106,0,0
+595,Faz um inimigo causar $s@effectindex% a menos de dano Cósmico.,Dano Cósmico causado reduzido em $s@effectindex%.,6,79,2,3,106,20,20
+596,Faz o lançador causar $s@effectindex% a mais de dano Cósmico.,Dano Cósmico causado aumentado em $s@effectindex%.,6,79,1,1,106,30,30
+597,Causa dano Cósmico a todos os inimigos à frente do lançador a cada $t@effectindex s por $d.,Dano Cósmico causado a cada $t@effectindex s.,6,70,1,9,106,50,50
+598,Causa dano Cósmico a todos os inimigos em um raio de $A@effectindex m a cada $t@effectindex s por $d.,Dano Cósmico causado a cada $t@effectindex s.,6,70,1,7,106,50,50
+599,Faz todos os inimigos em um raio de $A@effectindex m do ponto de impacto receberem dano Cósmico a cada $t@effectindex s por $d.,Dano Cósmico causado a cada $t@effectindex s.,6,70,1,5,106,50,50
+600,Causa dano Cósmico a um inimigo a cada $t@effectindex s por $d.,Dano Cósmico causado a cada $t@effectindex s.,6,70,1,3,106,50,50
+601,Causa dano Cósmico a um inimigo a cada $t@effectindex s por $d.,Dano Cósmico causado a cada $t@effectindex s.,6,70,1,1,106,50,50
+602,Envolve o alvo em um escudo que dura $d e absorve até $s@effectindex de dano Cósmico.,Absorve $s@effectindex de dano Cósmico.,6,69,1,3,106,0,0
+603,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano Cósmico.,Absorve $s@effectindex de dano Cósmico.,6,69,1,1,106,0,0
+604,Causa dano de Sombra aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,165,0,1,5,32,50,50
+605,Causa dano de Sombra a um inimigo a cada $t@effectindex s por $d.,Dano de Sombra causado a cada $t@effectindex s.,6,70,1,1,32,50,50

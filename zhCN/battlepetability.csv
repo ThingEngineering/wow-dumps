@@ -3635,7 +3635,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 攻击敌人3次，每次攻击造成[StandardDamage(1,1)]点[School()]伤害。
 
 每使用此技能一次，你的速度就会在回合结束时提高20%。",650636,1,0,0,0
-2468,Mike's Test Ability,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,将目标的生命值设置为最大生命值的1%并使其昏迷。,646380,5,0,0,0
 2469,收割弧钩,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
 
 造成[StandardDamage(1,1)]点[School()]伤害，并迫使敌人生命值最低的宠物出战。",134226,9,4,0,0
@@ -3722,3 +3722,10 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2499,量子打击,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
 
 打击敌人，造成[StandardDamage(1,1)]点[petTypeName(abilityPetType())]伤害。",1392544,5,0,0,0
+2502,[DNT] INSTADEAD,将一名宠物的生命值设置为0%。,133728,5,0,0,0
+2504,具现憎恨,"对目标造成的每次攻击，伤害提高[abs(abilityStateMod(71,2504))*AttackBonus()]点。",4050664,5,0,530,3
+2505,具现憎恨,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
+
+无穷的仇恨吞噬了目标，使目标受到的每次伤害都提高 [abs(abilityStateMod(71,2504))*AttackBonus()] 点。
+
+持续[duration(1,1)]轮。",4050664,5,5,0,2

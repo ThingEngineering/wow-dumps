@@ -71,14 +71,14 @@ ID,BaseTag,TagText_lang,Flags
 9674,BAGSLOTTEXT,Emplacements de sac,1
 9675,BANKSLOTPURCHASE_LABEL,Voulez-vous acheter un autre emplacement de sac ?,1
 9676,BANKSLOTPURCHASE,Acheter,1
-9677,ADD_FRIEND,Ajouter contact,1
-9678,ADD_IGNORE_LABEL,Indiquez le nom du joueur à ignorer ou\nfaites Clic-Maj sur le nom d’un joueur de la fenêtre de discussion :,1
+9677,ADD_FRIEND,Ajouter contact,3
+9678,ADD_IGNORE_LABEL,Indiquez le nom du joueur à ignorer \nou\n utilisez Maj+clic sur le nom d’une personne de la fenêtre de discussion :,1
 9679,REMOVE_FRIEND,Supprimer,1
 9680,GROUP_INVITE,Inv. groupe,1
-9681,SEND_MESSAGE,Envoyer message,1
+9681,SEND_MESSAGE,Envoyer message,3
 9682,FRIENDS,Contacts,3
 9683,FRIENDS_LIST,Liste de contacts,1
-9684,IGNORE,Ignorer,1
+9684,IGNORE,Ignorer,3
 9685,IGNORE_PLAYER,Ignorer le joueur,1
 9686,GROUPS,Groupes,1
 9687,WHO,Qui,1
@@ -984,7 +984,7 @@ ID,BaseTag,TagText_lang,Flags
 10772,BINDING_NAME_TARGETPARTYPET3,Familier de l'équipier 3,1
 10773,BINDING_NAME_TARGETPARTYPET4,Familier de l'équipier 4,1
 10774,BINDING_NAME_TARGETLASTHOSTILE,Sélectionner le dernier hostile,1
-10775,BINDING_NAME_NAMEPLATES,Afficher les barres d'info des ennemis,1
+10775,BINDING_NAME_NAMEPLATES,Barres d’info des adversaires,1
 10776,BINDING_NAME_ATTACKTARGET,Attaquer,1
 10777,BINDING_NAME_PETATTACK,Faire attaquer le familier,1
 10778,KEY_BUTTON4,Bouton de souris 4,1
@@ -1040,7 +1040,7 @@ ID,BaseTag,TagText_lang,Flags
 10835,ERR_CHAT_WHILE_DEAD,Impossible de discuter quand on est mort !,1
 10836,ERR_BANKSLOT_FAILED_TOO_MANY,Vous avez rempli tous les emplacements de votre sac !,1
 10839,ERR_CANT_WRAP_EQUIPPED,Les objets équipés ne peuvent être emballés.,1
-10842,LASTONLINE_HOURS,%d |4heure:heures;,1
+10842,LASTONLINE_HOURS,%d |4heure:heures;,3
 10844,ERR_GUILD_RANKS_LOCKED,Erreur de guilde temporaire. Veuillez réessayer !,1
 10845,ERR_GUILD_RANK_IN_USE,Ce rang de guilde est actuellement en cours d'utilisation.,1
 10846,SET_GUILDMOTD_LABEL,Configurer le message de guilde du jour :,1
@@ -1660,9 +1660,9 @@ ID,BaseTag,TagText_lang,Flags
 11515,EMOTE153_CMD1,/meuh,1
 11516,VOICEMACRO_1_Ta_1,Soyez sur vos gardes !,1
 11517,SKILL_DESCRIPTION,|cffffffff%s|r %s,1
-11518,LASTONLINE_YEARS,%d |4an:ans;,1
-11519,LASTONLINE_MONTHS,%d |4mois:mois;,1
-11520,LASTONLINE_DAYS,%d |4jour:jours;,1
+11518,LASTONLINE_YEARS,%d |4an:ans;,3
+11519,LASTONLINE_MONTHS,%d |4mois:mois;,3
+11520,LASTONLINE_DAYS,%d |4jour:jours;,3
 11521,GUILD_OFFICERNOTES_LABEL,Notes de l'officier,1
 11522,RANK,Grade,1
 11523,NOTE,Note publique,1
@@ -1987,7 +1987,7 @@ ID,BaseTag,TagText_lang,Flags
 11881,QUEST_ACCEPT,%s commence la quête : %s\nSouhaitez-vous également commencer cette quête ?,1
 11882,TWOHANDEDWEAPONBEINGWIELDED,"Vous ne pouvez pas prendre cet objet dans votre deuxième main, car vous utilisez déjà un objet qui se tient à deux mains !",1
 11884,ADD_FRIEND_LABEL,Indiquez le nom du personnage de votre contact :,1
-11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s – pas en ligne|r,1
+11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s – pas en ligne|r,3
 11886,ITEM_MIN_LEVEL,Niveau %d requis,1
 11887,ITEM_QUALITY0_DESC,Mauvais,1
 11888,ITEM_QUALITY6_DESC,Prodigieuse,1
@@ -3728,7 +3728,7 @@ ID,BaseTag,TagText_lang,Flags
 13914,NOTE_SUBMITTED,Remarque envoyée,1
 13915,NOTE_SUBMIT_FAILED,Échec d’envoi de la remarque,1
 13916,ERR_LOOT_PLAYER_NOT_FOUND,Joueur introuvable,1
-13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Butin]|h : Vous passez sur : %s,1
+13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Butin]|h : vous passez sur : %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[Voir les jets de butin]|r|h,1
 13918,LOOT_THRESHOLD,Seuil du butin,1
 13919,GIVE_LOOT,Donner le butin à :,1
 13920,TERRAIN_HIGHLIGHTS,Reflets de l'éclairage,3
@@ -4364,7 +4364,7 @@ ID,BaseTag,TagText_lang,Flags
 15145,BINDING_NAME_MULTIACTIONBAR4BUTTON10,Barre d’actions 5 Bouton 10,1
 15146,BINDING_NAME_MULTIACTIONBAR4BUTTON11,Barre d’actions 5 Bouton 11,1
 15147,BINDING_NAME_MULTIACTIONBAR4BUTTON12,Barre d’actions 5 Bouton 12,1
-15161,LOCK_ACTIONBAR_TEXT,Verr. barres d'actions,1
+15161,LOCK_ACTIONBAR_TEXT,Verrouiller les barres d’action,1
 15162,OPTION_TOOLTIP_LOCK_ACTIONBAR,Empêche l'utilisateur de placer/retirer des sorts dans sa barre d'actions. Cette fonction peut être liée à une touche dans le menu Raccourcis.,1
 15163,OPTION_TOOLTIP_SHOW_MULTIBAR2,Centré et ancré au-dessus de la barre d’actions 2 par défaut,1
 15164,OPTION_TOOLTIP_SHOW_MULTIBAR3,Sur le côté droit de l’écran par défaut,1
@@ -4435,7 +4435,7 @@ ID,BaseTag,TagText_lang,Flags
 15412,CHANGE_INSTANCE,Changer d'instance,1
 15413,BATTLEFIELD_IN_QUEUE,Vous êtes dans la file d’attente pour %s\nTemps d’attente moyen %s\nTemps passé dans la file : %s,1
 15414,BATTLEFIELD_QUEUE_CONFIRM,Vous pouvez rejoindre %s\nVous serez retiré de la file d’attente dans %s,1
-15415,BATTLEFIELD_IN_BATTLEFIELD,Vous êtes dans %s\n|cffffffff<Clic gauche pour afficher le score>\n<Clic-Maj pour voir la carte locale>|r,1
+15415,BATTLEFIELD_IN_BATTLEFIELD,Vous êtes dans %s\n|cffffffff<Clic gauche pour afficher le score>\n<Maj+clic pour afficher la carte locale>|r,1
 15416,HONOR_THIS_SESSION,Aujourd'hui,1
 15417,HONORABLE_KILLS,Victoires honorables,1
 15418,DISHONORABLE_KILLS,Victoires déshonorantes,1
@@ -4561,8 +4561,8 @@ ID,BaseTag,TagText_lang,Flags
 15902,DRESSUP_FRAME,Cabine d'essayage,1
 15903,DISPLAY_ON_CHARACTER,Essayage,1
 15904,DISPLAY_ON_CHAR_TOOLTIP,Cocher cette option montrera un objet sélectionné à l’hôtel des ventes sur votre personnage.\n\nUn CTRL-Clic gauche sur un objet équipable quelconque vous permettra aussi de l’essayer sur votre personnage.,1
-15905,LOOT_ROLL_GREED_SELF,|HlootHistory:%d|h[Butin]|h : Vous avez choisi Cupidité pour : %s,1
-15906,LOOT_ROLL_NEED_SELF,|HlootHistory:%d|h[Butin]|h : Vous avez choisi Besoin pour : %s,1
+15905,LOOT_ROLL_GREED_SELF,|HlootHistory:%d|h[Butin]|h : vous avez choisi Cupidité pour : %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[Voir les jets de butin]|r|h,1
+15906,LOOT_ROLL_NEED_SELF,|HlootHistory:%d|h[Butin]|h : vous avez choisi Besoin pour : %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[Voir les jets de butin]|r|h,1
 15907,LOOT_ROLL_GREED,%s a choisi Cupidité pour : %s,1
 15908,LOOT_ROLL_NEED,%s a choisi Besoin pour : %s,1
 15911,LOOT_ROLL_ROLLED_NEED,Jet de Besoin - %d pour %s par %s,1
@@ -4930,8 +4930,8 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 16333,OPTION_TOOLTIP_AUTO_SELF_CAST,"Si activé, les sorts ciblés bénéfiques que vous lancez sans cible ou avec une cible hostile seront automatiquement dirigés sur votre personnage.",1
 16334,HIDE_OUTDOOR_WORLD_STATE_TEXT,Masquer le suivi des objectifs,1
 16335,OPTION_TOOLTIP_HIDE_OUTDOOR_WORLD_STATE,Cocher cette case pour masquer l'interface servant à suivre les objectifs de zone.,1
-16336,BINDING_NAME_FRIENDNAMEPLATES,Afficher les barres d'info des amis,1
-16337,BINDING_NAME_ALLNAMEPLATES,Montrer toutes les barres d'info,1
+16336,BINDING_NAME_FRIENDNAMEPLATES,Barres d’info des unités amicales,1
+16337,BINDING_NAME_ALLNAMEPLATES,Montrer toutes les barres d’info,1
 16338,CHAT_THROTTLED_NOTICE,|Hchannel:%d|h[%s]|h Le nombre de messages qu’il est possible d’envoyer sur ce canal est limité. Veuillez patienter avant d’en envoyer un nouveau.,1
 16339,COMBAT_TEXT_COMBO_POINTS,<%d |4point:points; de combo>,1
 16341,COMBAT_TEXT_SHOW_REACTIVES_TEXT,Alertes des sorts,1
@@ -5409,7 +5409,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 16924,PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG_FIRE,Vos dégâts de Feu augmentent la puissance d'attaque de votre familier de %d et ses dégâts des sorts de %d,1
 16925,BINDING_NAME_TARGETLASTTARGET,Cibler la dernière cible,1
 16926,ERR_CANT_DO_THAT_IN_A_GROUP,Vous ne pouvez pas faire ça lorsque vous êtes en groupe.,1
-16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,Vous ne pouvez pas être en file d'attente pour plus de 2 batailles simultanément.,1
+16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,Vous ne pouvez pas être en file d’attente pour plus de 3 batailles simultanément.,1
 16929,ERR_BATTLEDGROUND_QUEUED_FOR_RATED,Vous ne pouvez pas entrer dans la file d'attente d'une autre bataille pendant que vous attendez pour un combat coté.,1
 16930,ERR_BATTLEGROUND_CANNOT_QUEUE_FOR_RATED,Vous ne pouvez pas entrer dans la file d'attente d'un combat coté si vous attendez pour d'autres batailles.,1
 16931,ARENA_MASTER_TEXT,"Que les jeux commencent ! La grille de l'arène est ouverte à tous ceux qui rêvent d'y trouver la gloire, et le cartel de Gentepression est prêt à accepter votre inscription aux jeux. Si votre destin est de vaincre, faites enregistrer une équipe auprès d'un organisateur de combats, ou rejoignez une des équipes déjà en lice !",1
@@ -5796,7 +5796,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 17364,OPENING,Ouverture,1
 17365,PET_INFO,Info fam.,1
 17367,MUTED_LIST,Liste des muets,1
-17368,ADD_MUTE_LABEL,Indiquez le nom du joueur à rendre muet ou\nfaites Clic-Maj sur le nom d’un joueur de la fenêtre de discussion :,1
+17368,ADD_MUTE_LABEL,Indiquez le nom du joueur à rendre muet \nou\n utilisez Maj+clic sur le nom d’une personne de la fenêtre de discussion :,1
 17369,MUTE_PLAYER,Joueur muet,1
 17370,NEWBIE_TOOLTIP_MUTEPLAYER,Ajoute un joueur à la liste de ceux que vous avez rendus muets. Vous n’entendrez plus les messages audio des joueurs qui se trouvent sur cette liste.,1
 17371,ERR_DANCE_CREATE_DUPLICATE,Vous avez déjà une danse portant ce nom,1
@@ -5962,7 +5962,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 17548,GROUND_DENSITY,Densité du décor au sol,3
 17549,NEAR,Près,3
 17550,FAR,Loin,3
-17551,LOOT_ROLL_PASSED_SELF_AUTO,"|HlootHistory:%d|h[Butin]|h : Vous avez passé automatiquement pour : %s, car vous ne pouvez pas récupérer cet objet.",1
+17551,LOOT_ROLL_PASSED_SELF_AUTO,"|HlootHistory:%d|h[Butin]|h : vous avez passé automatiquement pour : %s, car vous ne pouvez pas récupérer cet objet. |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[Voir les jets de butin]|r|h",1
 17552,LOOT_ROLL_PASSED_AUTO,"%s a passé automatiquement pour : %s, car il ne peut pas récupérer cet objet.",1
 17553,LOOT_ROLL_PASSED_AUTO_FEMALE,"%s a passé automatiquement pour : %s, car elle ne peut pas récupérer cet objet.",1
 17554,STATUS_TEXT,Textes d'état,1
@@ -7080,7 +7080,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 18804,UNUSED,Inutilisée,1
 18805,SHOW_ON_BACKPACK,Montrer dans le sac,1
 18806,TOKEN_MOVE_TO_UNUSED,"Déplace cette monnaie en bas de liste dans la catégorie ""Inutilisées"". Pratique pour les monnaies dont le suivi ne vous intéresse pas.",1
-18807,TOKEN_SHOW_ON_BACKPACK,Cocher cette option vous permet de suivre ce type de monnaie sous le sac à dos.\n\nVous pouvez également faire Clic-Maj sur une monnaie pour l’ajouter ou l’ôter de sous le sac à dos.,1
+18807,TOKEN_SHOW_ON_BACKPACK,Cocher cette option vous permet de suivre ce type de monnaie sous le sac à dos.\n\nVous pouvez également utiliser Maj+clic sur une monnaie pour l’ajouter ou l’ôter de sous le sac à dos.,1
 18808,ENCRYPTED,Codé,1
 18809,RUNIC_POWER,P. runique,1
 18810,BINDING_NAME_STOPCASTING,Cesser d'incanter,1
@@ -7112,7 +7112,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 18837,CALENDAR_ERROR_NEEDS_TITLE,Indiquer un titre.,1
 18838,CALENDAR_ERROR_EVENT_INVALID,Évènement introuvable.,1
 18839,CALENDAR_ERROR_NOT_INVITED,Vous n'avez pas d'invitation pour cet évènement.,1
-18840,CALENDAR_ERROR_EVENT_PASSED,Cet évènement est déjà passé.,1
+18840,CALENDAR_ERROR_EVENT_PASSED,Cet événement est déjà passé.,1
 18841,CALENDAR_ERROR_EVENT_LOCKED,Cet évènement est verrouillé.,1
 18842,CALENDAR_ERROR_DELETE_CREATOR_FAILED,Vous ne pouvez pas retirer le créateur de l'évènement.,1
 18843,CALENDAR_ERROR_INVITES_DISABLED,Vous ne pouvez pas inviter de personnage à cet évènement.,1
@@ -7930,7 +7930,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 19709,CALENDAR_TOOLTIP_INVITE_RESPONDED,A répondu le :,1
 19710,LEARN,Apprendre,1
 19713,GEARSETS_POPUP_TEXT,Nom de l'ensemble (16 caractères max.) :,1
-19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,Clic gauche pour sélectionner ce talent.,1
+19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,Cliquez pour apprendre,1
 19716,CONFIRM_LEARN_PREVIEW_TALENTS,Voulez-vous vraiment apprendre ces talents ?,1
 19717,CONFIRM_DELETE_EQUIPMENT_SET,Voulez-vous vraiment supprimer l'ensemble d'équipement %s ?,1
 19718,CONFIRM_OVERWRITE_EQUIPMENT_SET,Vous avez déjà un ensemble d'équipement nommé %s. Voulez-vous le remplacer ?,1
@@ -8150,7 +8150,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 19945,ACTION_UNIT_DISSIPATES,se dissipe,1
 19946,ACTION_UNIT_DISSIPATES_FULL_TEXT,%4$s se dissipe.,1
 19947,ACTION_UNIT_DISSIPATES_POSSESSIVE,0,1
-19948,BIND_TRADE_TIME_REMAINING,Il vous reste %s pour échanger cet objet avec les personnes qui avaient également la possibilité de le ramasser.,1
+19948,BIND_TRADE_TIME_REMAINING,Il vous reste %s (temps réel) pour échanger cet objet avec les personnes qui avaient également la possibilité de le ramasser.,1
 19949,ERR_TRADE_NOT_ON_TAPLIST,Vous ne pouvez échanger des objets liés qu'avec les joueurs qui avaient également la possibilité de ramasser le butin.,1
 19952,ITEM_REQ_ARENA_RATING_3V3,Nécessite une cote d’arène personnelle de %d|nen équipe d’arène de 3c3.,1
 19953,ITEM_REQ_ARENA_RATING_5V5,Nécessite une cote d'arène personnelle de %d|nen arène de 5c5.,1
@@ -8445,7 +8445,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 20266,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,"Activez cette option pour afficher les barres d’info des familiers, des gardiens et des totems amicaux.",1
 20267,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMIES,Afficher les barres d’info des unités ennemies,1
 20268,UNIT_NAMEPLATES_SHOW_FRIENDS,Barres d’info de personnage-joueur amical,1
-20269,UNIT_NAMEPLATES_SHOW_ENEMIES,Barres d’info de l’unité ennemie,1
+20269,UNIT_NAMEPLATES_SHOW_ENEMIES,Barres d’info d’unité ennemie,1
 20270,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDS,Afficher les barres d’info des personnages amicaux,1
 20271,DUNGEON_FLOOR_AHNKAHET1,Ahn'Kahet,1
 20272,DUNGEON_FLOOR_THEARGENTCOLISEUM1,Le colisée d'Argent,1
@@ -8652,7 +8652,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 20480,ERR_QUEST_FORCE_REMOVED_S,La quête %s est supprimée de votre journal de quêtes.,1
 20481,VOTE_BOOT_REASON_REQUIRED,Veuillez saisir la raison du vote d'exclusion |2 %s :,1
 20482,CHAT_PARTY_GUIDE_GET,|Hchannel:PARTY|h[Guide du donjon]|h %s :\32,1
-20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,Ajoute ou retire la quête sélectionnée de votre liste de suivi des quêtes.|nVous pouvez également faire Clic-Maj sur une quête ou son icône.,1
+20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,Ajoute ou retire la quête sélectionnée de votre liste de suivi des quêtes.|nVous pouvez également utiliser Maj+clic sur une quête ou son icône.,1
 20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,Basculer la taille de la carte du monde,1
 20485,SPELL_FAILED_CUSTOM_ERROR_91,Vous avez déjà détruit la plateforme pétrolière de la SCK.,1
 20486,SPELL_FAILED_CUSTOM_ERROR_92,Vous avez déjà lancé assez de cages.,1
@@ -8768,7 +8768,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 20607,BLOCK_INVITES_CONFIRMATION,Voulez-vous vraiment bloquer toutes les invitations |2 %s ?,1
 20609,BLOCK_INVITES,Bloquer les invitations,1
 20611,FRIENDS_LIST_ONLINE,En ligne,1
-20612,FRIENDS_LIST_OFFLINE,Hors ligne,1
+20612,FRIENDS_LIST_OFFLINE,Hors ligne,3
 20613,FRIENDS_LIST_AWAY,Absent(e),1
 20614,FRIENDS_LIST_BUSY,Occupé(e),1
 20615,FRIENDS_LIST_ENTER_TEXT,Informez vos amis,1
@@ -8846,9 +8846,9 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 20698,TRANSFER_ABORT_UNIQUE_MESSAGE2,Vous devez accomplir votre destin et celui du cartel Baille-Fonds avant de pouvoir partir.,1
 20699,TRANSFER_ABORT_UNIQUE_MESSAGE3,Le destin de Gilnéas n'est pas encore déterminé. Vous ne pouvez pas vous enfuir.,1
 20700,SPELL_FAILED_CUSTOM_ERROR_108,L'ambassadeur Martel-Scories est déjà votre prisonnier.,1
-20701,LASTONLINE_SECS,moins d'une minute,1
-20702,LASTONLINE_MINUTES,%d |4minute:minutes;,1
-20703,BNET_LAST_ONLINE_TIME,Dernière connexion il y a %s,1
+20701,LASTONLINE_SECS,moins d'une minute,3
+20702,LASTONLINE_MINUTES,%d |4minute:minutes;,3
+20703,BNET_LAST_ONLINE_TIME,Dernière connexion il y a %s,3
 20704,SPELL_FAILED_CUSTOM_ERROR_109_MIXED,Nécessite un lieu harmonisé avec la vierge combattante naz'jar.,1
 20705,POWER_TYPE_BLUE_POWER,Pouvoir de la foudre,1
 20706,POWER_TYPE_PURPLE_POWER,Pouvoir des Arcanes,1
@@ -9938,9 +9938,9 @@ de la discipline.",1
 21885,ITEM_BNETACCOUNTBOUND,Lié au compte Blizzard,1
 21886,ITEM_BIND_TO_BNETACCOUNT,Lie l’objet au compte Blizzard,1
 21887,AUCTION_MAIL_ITEM_STACK,%s (%d),1
-21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,Utilise la touche ALT pour débloquer/faire glisser des sorts sur des barres d'action verrouillées.,1
-21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,Utilise la touche CTRL pour débloquer/faire glisser des sorts sur des barres d'action verrouillées.,1
-21890,OPTION_TOOLTIP_PICKUP_ACTION_SHIFT_KEY,Utilise la touche MAJ pour débloquer/faire glisser des sorts sur des barres d'action verrouillées.,1
+21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,Utilise la touche ALT pour débloquer/faire glisser des sorts sur des barres d’action verrouillées.,1
+21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,Utilise la touche CTRL pour débloquer/faire glisser des sorts sur des barres d’action verrouillées.,1
+21890,OPTION_TOOLTIP_PICKUP_ACTION_SHIFT_KEY,Utilise la touche MAJ pour débloquer/faire glisser des sorts sur des barres d’action verrouillées.,1
 21891,OPTION_TOOLTIP_PICKUP_ACTION_NONE_KEY,Aucune touche définie.,1
 21892,PICKUP_ACTION_KEY_TEXT,Touche de déverrouillage,1
 21893,LOOT_DISENCHANT_CREDIT,%s a été désenchanté (butin) par %s.,1
@@ -11918,7 +11918,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 24081,SHOW_PET_BATTLES_ON_MAP_TEXT,Combats de mascottes,1
 24084,WEB_BROWSER_IME_ENTRY_TEXT,Saisir le texte ici,1
 24085,CAN_NOT_RELEASE_IN_COMBAT,Un membre de votre groupe est en plein combat.,1
-24086,CONFIRM_UPGRADE_ITEM,"Voulez-vous vraiment utiliser %s pour améliorer l'objet suivant ? Si vous améliorez cet objet, il vous sera lié.",1
+24086,CONFIRM_UPGRADE_ITEM,Voulez-vous vraiment dépenser %s pour améliorer l’objet suivant ?,1
 24087,BATTLEGROUND_IS_READY,Champ de bataille prêt,1
 24088,ITEM_UPGRADE_BONUS_FORMAT,(+%d) ,1
 24089,POWER_TYPE_TITAN_ENERGY,Énergie de Titan,1
@@ -14564,7 +14564,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 34007,CHAR_DELETE_FAILED_GUILD_LEADER,Ce personnage est Chef de guilde et ne peut pas être effacé tant que son rang n’a pas été transféré à un autre personnage.,2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,Ce personnage a du courrier et ne peut donc être supprimé.,2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,"Ce personnage ne peut pas être supprimé tant qu’un Jeton WoW se trouve dans son inventaire, sa boîte aux lettres ou à l’hôtel des ventes.",2
-34010,CHAR_DELETE_FAILED_LOCKED_FOR_TRANSFER,Vous ne pouvez pas vous connecter tant que le processus de mise à jour du personnage que vous avez récemment demandé n’est pas terminé.,2
+34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,Ce personnage ne peut pas être supprimé tant qu’un service de personnage est en cours de traitement.,2
 34011,CHAR_DELETE_IN_PROGRESS,Suppression du personnage,2
 34012,CHAR_DELETE_SUCCESS,Personnage effacé,2
 34013,CHAR_FACTION_CHANGE_ARENA_LEADER,Vous ne pouvez pas changer de race ou de faction tant que vous êtes capitaine d’une équipe d’arène.,2
@@ -15335,7 +15335,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 34837,SPELL_FAILED_CUSTOM_ERROR_297,Requiert 1 berserker flétri,1
 34838,SPELL_FAILED_CUSTOM_ERROR_298,Requiert 2 berserkers flétris,1
 34839,ARTIFACTS_NUM_PURCHASED_RANKS,Niveau d’arme prodigieuse : %d,1
-34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,|HlootHistory:%d|h[Butin]|h : vous avez choisi Besoin (spé. secondaire) pour : %s,1
+34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,|HlootHistory:%d|h[Butin]|h : vous avez choisi Besoin (spé. secondaire) pour : %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[Voir les jets de butin]|r|h,1
 34845,BOOST2_ROGUEASSN_REMIND_GARROTE,Utilisez |cFFFFFFFFGarrot|r.,1
 34846,LOOT_ROLL_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%d|h[Butin]|h : %s (Besoin - %d, spé. secondaire) a gagné : %s",1
 34847,LOOT_ROLL_YOU_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%d|h[Butin]|h : vous (Besoin - %d, spé. secondaire) avez gagné : %s",1
@@ -15474,7 +15474,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 34989,TRANSMOG_SPECS_BUTTON_TUTORIAL,Vous pouvez appliquer cette apparence à toutes vos spécialisations ou juste à la spécialisation actuelle.,1
 34990,TRANSMOG_JOURNAL_TAB_TUTORIAL,L’onglet Apparences affiche toutes les apparences d’objet que vous pouvez utiliser en transmogrification.,1
 34991,TRANSMOG_OUTFIT_DROPDOWN_TUTORIAL,Vous avez créé l’ensemble parfait ? Sauvegardez-le pour une utilisation future.,1
-34992,TRANSMOG_MOUSE_CLICK_TUTORIAL,Clic droit pour mettre une apparence en favori. Ctrl-clic pour la visualiser sur votre personnage.,1
+34992,TRANSMOG_MOUSE_CLICK_TUTORIAL,Clic droit pour mettre une apparence en favori. Ctrl+clic pour la visualiser sur votre personnage.,1
 34994,SPELL_FAILED_CUSTOM_ERROR_304,Vous êtes dans la mauvaise spécialisation de classe.,1
 34995,HUNTER_PET_FEROCITY_CORE_ABILITY_1,"Tant que votre familier est actif, vous bénéficiez tous les deux de la Ponction.",1
 34996,HUNTER_PET_FEROCITY_CORE_ABILITY_2,Technique qui confère brièvement un bonus de hâte à vos alliés et vous-même.,1
@@ -16776,7 +16776,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 36396,TALENT_MICRO_BUTTON_NEW_PVP_TALENT,Un nouveau talent JcJ est disponible.,1
 36397,PVP_TALENT_SLOT,Emplacement de talent JcJ,1
 36398,PVP_TALENT_SLOT_EMPTY,Cliquez pour choisir un talent.,1
-36399,PVP_TALENT_SLOT_LOCKED,Débloqué au niveau %d.,1
+36399,PVP_TALENT_SLOT_LOCKED,Déblocage au niveau %d.,1
 36400,PVP_HONOR_XP_BAR_CLICK_HERE_TO_PRESTIGE,Cliquez ici pour atteindre le niveau de prestige %s !,1
 36401,PLAYER_V_PLAYER_PRESTIGE,"Joueur contre Joueur, %s",1
 36402,PLAYER_V_PLAYER_SEASON_PRESTIGE,Joueur contre Joueur (saison %d de Legion) : %s,1
@@ -17240,7 +17240,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 40783,BOOST_POPUP_TIMER_FORMAT_STRING,Expire dans %s,2
 40784,TOOLTIP_AZERITE_UNLOCK_LEVELS,Traits azéritiques (0/%d) :,1
 40785,COMMUNITIES_INVITE_MANAGER_LINK_ID_LABEL,ID du lien :,1
-40786,EXPANSION_TRIAL_CREATE_TRIAL_CHARACTER,Créer un évocateur ou une évocatrice dracthyr,2
+40786,EXPANSION_TRIAL_CREATE_TRIAL_CHARACTER,Créer un évocateur dracthyr,2
 40787,CHARACTER_TYPE_FRAME_EXPANSION_TRIAL_CHARACTER,Essai de l’extension,2
 40788,AZERITE_EMPOWERED_SELECT_POWER,Voulez-vous vraiment sélectionner ce trait ?,1
 40789,COMMUNITIES_INVITE_MANAGER_LINK_TO_CHAT,Poster le lien,1
@@ -18578,10 +18578,10 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42351,NPEV2_RESOURCE_CALLOUT_HUNTER,Certaines techniques utilisent votre |cFFFF8040focalisation|r qui se recharge avec le temps.,1
 42353,NPEV2_APPROACH_INJURED_CREWMEMBER,Rapprochez-vous du |cFFFFD200membre d’équipage blessé|r.,1
 42354,MAP_PIN_SHARING,Partage de repère cartographique,1
-42355,MAP_PIN_SHARING_TOOLTIP,Vous pouvez partager ce repère cartographique en insérant un lien dans la fenêtre de discussion.|n|n|cff20ff20<Maj + clic pour partager le repère>|r,1
+42355,MAP_PIN_SHARING_TOOLTIP,Vous pouvez partager ce repère cartographique en insérant un lien dans la fenêtre de discussion.|n|n|cff20ff20<Maj+clic pour partager le repère>|r,1
 42356,MAP_PIN,Repère cartographique,1
 42357,MAP_PIN_TOOLTIP,Placez sur la carte un repère qui peut être partagé avec d’autres joueurs pour leur permettre de vous trouver.,1
-42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,"Cliquez sur ce bouton, puis sur la carte pour placer un repère, ou <faites Ctrl + clic directement sur la carte>",1
+42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,"Cliquez sur ce bouton, puis sur la carte pour placer un repère, ou <utilisez Ctrl+clic directement sur la carte>",1
 42360,NPEV2_APPROACH_WANDERING_BOAR,Rapprochez-vous du |cFFFFD200sanglier errant|r.,1
 42361,RUNEFORGE_LEGENDARY_COST_FORMAT,Coût : %s%s|r |cffffffff/ %s|r,1
 42362,RUNEFORGE_LEGENDARY_MODIFIER_UNAVAIBLE_TOOLTIP,Indisponible dans l’inventaire,1
@@ -19015,13 +19015,13 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,AVENTURE,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,S’ABONNER,1
 42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,METTRE À NIVEAU MAINTENANT,1
-42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Pour débloquer ces fonctionnalités épiques,1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,JOUEZ JUSQU’AU NIVEAU 50 !,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ACCOMPLISSEZ DES MILLIERS D’AUTRES QUÊTES !,1
-42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,TERMINEZ BATTLE FOR AZEROTH,1
-42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,DÉCOUVREZ WOW CLASSIC,1
-42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,ET BIEN PLUS ENCORE !,1
-42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,METTRE À NIVEAU MAINTENANT,1
+42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Abonnez-vous pour continuer votre périple épique,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,JOUEZ JUSQU’AU NIVEAU 60,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,VIVEZ DES AVENTURES PALPITANTES SUR AZEROTH ET AU-DELÀ,1
+42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,DÉCOUVREZ WOW CLASSIC,1
+42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,ET BIEN PLUS ENCORE !,1
+42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
+42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,S’ABONNER,1
 42828,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER1,|A:newplayerchat-chaticon-guide:0:0:0:0|aDes |cff81b558guides|r vous permettront de trouver les réponses à toutes vos questions.,1
 42829,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER2,Saisissez |cff00ff00%s|r suivi de votre message pour engager la conversation.,1
 42830,SOULBIND_APPLY_CONDUITS_BUTTON,Appliquer,1
@@ -19146,7 +19146,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42951,CONDUIT_ITEM_LOOT_LABEL,Vous avez reçu,1
 42952,COVENANT_MISSIONS_COMBAT_LOG_HEADER,Journal de combat,1
 42953,AUCTION_HOUSE_FILTER_RUNECARVING,|cff00ccffGravure runique|r,1
-42954,MAP_PIN_REMOVE,<Ctrl + clic pour retirer le repère>,1
+42954,MAP_PIN_REMOVE,<Ctrl+clic pour retirer le repère>,1
 42955,NPEV2_CHAT_HELP_HINT_HERE,Écrivez ici pour poser vos questions dans le canal Débutants.,1
 42956,NPEV2_CHAT_HELP_HINT_DIFFERENT,Saisissez %s pour poser des questions dans le canal Débutants.,1
 42957,BOOST2_SHAMANENHANCE_FLAMETONGUEWEAPON,Utilisez |cFFFFFFFFArme langue de feu|r.,1
@@ -19585,12 +19585,12 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 43992,CONFIGURE_TEXT_TO_SPEECH,Configuration du Narrateur,1
 43993,DUNGEON_SCORE_PER_DUNGEON_NO_RATING,%s : |cffffffff%d|r,1
 43994,SPELL_FAILED_CUSTOM_ERROR_600,Nécessite un bouclier élémentaire actif.,1
-43995,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_RECORD,Donjon %s (niveau %d) terminé en %s (%s $ls restante:s restantes;). Nouveau record !,1
-43996,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_AFFIX_RECORD,Donjon %s (niveau %d) terminé en %s (%s $ls restante:s restantes;). Nouveau record %s !,1
-43997,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK,Donjon %s (niveau %d) terminé en %s (%s $ls restante:s restantes;).,1
-43998,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_AFFIX_RECORD,Donjon %s (niveau %d) terminé en %s (%s $ls supplémentaire:s supplémentaires;). Nouveau record %s !,1
-43999,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_RECORD,Donjon %s (niveau %d) terminé en %s (%s $ls supplémentaire:s supplémentaires;). Nouveau record !,1
-44000,CHALLENGE_MODE_TIMED_DUNGEON_OVERTIME_CHAT_LINK,Donjon %s (niveau %d) terminé en %s (%s $ls supplémentaire:s supplémentaires;).,1
+43995,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_RECORD,Donjon %s (niveau %d) terminé en %s (temps restant : %s). Nouveau record !,1
+43996,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_AFFIX_RECORD,Donjon %s (niveau %d) terminé en %s (temps restant : %s). Nouveau record %s !,1
+43997,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK,Donjon %s (niveau %d) terminé en %s (temps restant : %s).,1
+43998,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_AFFIX_RECORD,Donjon %s (niveau %d) terminé en %s (temps supplémentaire : %s). Nouveau record %s !,1
+43999,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_RECORD,Donjon %s (niveau %d) terminé en %s (temps supplémentaire : %s). Nouveau record !,1
+44000,CHALLENGE_MODE_TIMED_DUNGEON_OVERTIME_CHAT_LINK,Donjon %s (niveau %d) terminé en %s (temps supplémentaire : %s).,1
 44001,ENABLE_QUEST_TEXT_CONTRAST,Contraste des textes de quête,1
 44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Rend le texte des quêtes plus facile à lire.,1
 44003,COLORBLIND_MODE_LABEL,Mode daltonien,1
@@ -19598,7 +19598,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Tuez des ennemis, libérez des âmes et brisez des urnes pour remplir votre barre de Renforcement.",1
 44006,TORGHAST_DOMINANCE_BAR_CUTOFF_TIP,Franchissez ce seuil pour bénéficier de la technique Renforcé. Remplissez complètement la barre pour en prolonger la durée.,1
 44007,SPELL_FAILED_CUSTOM_ERROR_601,Parlez à l’archiviste pour lui remettre vos reliques.,1
-44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Cote améliorée pour %s ! Bonus de vaillance obtenu.,1
+44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Cote améliorée pour %s !,1
 44009,VOICE_GENERIC_FORMAT,Voix anglaise %d,1
 44010,SPELL_FAILED_CUSTOM_ERROR_602,Nécessite les informations contenues dans le rapport de recherche : Sanctuaires antiques.,1
 44011,SLASH_TEXTTOSPEECH_ON,désactivé,1
@@ -19824,7 +19824,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 44254,GROUP_FINDER_PVP_RATING_REQ_TOOLTIP,Cote JcJ requise : |cffffffff%d|r,1
 44255,OPTION_TOOLTIP_ENABLE_MOUSEOVER_CAST,"Une fois ce paramètre activé, placer le curseur de la souris sur un portrait d’unité et appuyer sur la touche correspondante lance l’incantation sur la cible sans qu’elle soit visée.",1
 44262,ITEM_UPGRADE_COST_LABEL,Coût total :,1
-44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Niveau %d,1
+44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Niveau %d/%d,1
 44264,ITEM_UPGRADE_ITEM_LEVEL_BONUS_STAT_FORMAT,Objet de niveau |cff20ff20%1$d (+%2$d)|r,1
 44265,ITEM_UPGRADE_ITEM_LEVEL_STAT_FORMAT,Niveau d’objet %d,1
 44266,ITEM_UPGRADE_INACTIVE_BONUS_STAT_FORMAT,|cff7f7f7f%1$d (+%2$d) %3$s|r,1
@@ -19892,12 +19892,13 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Activer la discussion,1
 44342,REGIONAL_RESTRICT_CHAT_DIALOG_DISABLE,Ne pas activer la discussion,1
 44343,RESTRICT_CHAT_MESSAGE_SUPPRESSED,Vous ne pouvez ni envoyer ni recevoir de message tant que la discussion est désactivée.,1
-44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Réglages de la discussion,1
-44346,RESTRICT_CHAT_CONFIG_TOOLTIP,Cliquez sur « %s » pour rétablir les options de la discussion.,1
+44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Options de discussion,1
+44346,RESTRICT_CHAT_CONFIG_TOOLTIP,"|cnRED_FONT_COLOR:Il est impossible de modifier les paramètres de discussion tant que la fenêtre de discussion est désactivée.|r
+|cnGREEN_FONT_COLOR:<Maj+clic pour afficher les options>|r",1
 44347,RESTRICT_CHAT_CONFIG_ENABLE,Activer la discussion,1
 44348,RESTRICT_CHAT_CONFIG_DISABLE,Désactiver la discussion,1
 44349,RESTRICT_CHAT_CONFIG_DIALOG_MESSAGE,Voulez-vous vraiment désactiver complètement la discussion ?\n\nVous ne pourrez ni envoyer ni recevoir de messages.,1
-44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,<Maj+clic pour afficher les réglages>,1
+44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,<Maj+clic pour afficher les options de discussion>,1
 44351,RESTRICT_CHAT_CONFIG_DIALOG_DISABLE,Désactiver la discussion,1
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Annuler,1
 44357,SPELL_FAILED_CUSTOM_ERROR_627,Vous avez déjà atteint ce niveau de renom auprès de votre congrégation actuelle.,1
@@ -20142,7 +20143,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 48749,NOTCH_MODE_WINDOW_BELOW,Fenêtre inférieure,3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,La fenêtre s’affiche sous la caméra intégrée avec une barre noire.,3
 48751,PLAYER_CHOICE_QUALITY_STRING_EMPTY,|n|n,1
-48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_OPTIONAL,Composant d’artisanat optionnel,1
+48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING,Composant d’artisanat optionnel,1
 48753,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_BASIC,Composant d’artisanat,1
 48754,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_FINISHING,Composant d’artisanat de finition,1
 48755,JAILERS_TOWER_LEVEL_TOAST_BOSS_RUSH,L’épreuve du Geôlier,1
@@ -20309,7 +20310,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Sort à équiper – Défensif,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Sort à équiper – Pratique,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Sort à équiper – Offensif,1
-48947,INVTYPE_EQUIPABLESPELL_MOBILITY,Sort à équiper – Mobilité,1
+48947,INVTYPE_EQUIPABLESPELL_WEAPON,Sort à équiper – Arme,1
 48948,SOCIAL_CONTRACT_TITLE_BAR,Contrat social,2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,Accepter,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,Quitter,2
@@ -20382,7 +20383,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 49042,SETTINGS_QUICK_KEYBIND_BUTTON,Raccourcis clavier rapides,3
 49043,SETTINGS_SUBCATEGORY_FMT,%s (%s),3
 49044,SETTINGS_SEARCH_RESULTS,Résultats :,3
-49045,SETTINGS_RAID_GRAPHICS_QUALITY,Qualité des graphismes en raid,3
+49045,SETTINGS_RAID_GRAPHICS_QUALITY,Qualité graphismes en raid,3
 49046,SETTINGS_FMT_FPS,%d IPS,3
 49047,CAMERA_CTM_FOLLOWING_STYLE,Style de poursuite caméra,3
 49048,SPELL_FAILED_CUSTOM_ERROR_790,Vous n’avez pas appris Tonneau.,1
@@ -20600,7 +20601,7 @@ Ce chiffre est calculé en fonction de votre compétence de métier de base, de 
 49297,CHAR_CREATE_CLASS_TRIAL_NEWCOMER,Vous ne remplissez pas les conditions requises pour un essai de classe.,2
 49298,PROFESSIONS_SPECS_OUT_OF_KNOWLEDGE,Vous n’avez pas |2 %s à dépenser.,1
 49299,TRADESKILL_UNLEARNED_RECIPE_HEADER,Recette oubliée,1
-49300,HUD_EDIT_MODE_SHOW_GRID,Grille,1
+49300,HUD_EDIT_MODE_SHOW_GRID,Afficher grille,1
 49301,PROFESSIONS_SPECS_CAN_UNLOCK_SPEC,Vous pouvez débloquer une nouvelle spécialisation.,1
 49302,PROFESSIONS_SPECS_PENDING_POINTS,Vous n’avez pas appliqué les modifications à vos spécialisations.,1
 49303,PROFESSIONS_FLYOUT_SHOW_NAME,Afficher le nom,1
@@ -20660,7 +20661,7 @@ Ce chiffre est calculé en fonction de votre compétence de métier de base, de 
 49365,PRESS_AND_HOLD_CASTING_OPTION,Lancer de sorts : appuyer et maintenir,1
 49366,PRESS_AND_HOLD_CASTING_OPTION_TOOLTIP,Cette option permet de lancer en continu un sort de la barre d’action en appuyant et en maintenant une touche du clavier. Cette option est réservée aux raccourcis clavier uniquement ; cliquer sur un sort avec la souris ne lance le sort qu’une seule fois.,1
 49367,OPTIONAL_REAGENT_TOOLTIP_CLICK_TO_EXCHANGE,|cnDISABLED_FONT_COLOR:Clic gauche pour échanger ce composant optionnel|r,1
-49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Voulez-vous remplacer %s ?\nCe composant optionnel sera détruit lorsque vous refaçonnerez l’objet.,1
+49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Voulez-vous remplacer %s ?\nCe composant sera détruit lors du refaçonnage.,1
 49369,CHAR_CREATE_EVOKER_LEVEL_REQUIREMENT,La création d’un personnage évocateur nécessite de posséder un personnage de niveau 50 dans ce royaume.,2
 49370,CHAR_CREATE_EVOKER_DUPLICATE,Vous ne pouvez pas avoir plus d’un personnage évocateur dans ce royaume.,2
 49372,SPELL_FAILED_CUSTOM_ERROR_802,Le canard refuse de jouer en présence d’un autre maestro.,1
@@ -20697,7 +20698,7 @@ Cet équipement peut vous aider à faire des progrès dans votre métier.",1
 Essayez d’utiliser des composants de qualité supérieure, d’améliorer votre compétence ou de vous spécialiser pour atteindre un meilleur niveau.",1
 49418,PROFESSIONS_CRAFTING_HELP_FINISHING_REAGENTS,Ajoutez des composants de finition pour un bonus de caractéristique.,1
 49419,PROFESSIONS_CRAFTING_HELP_OPTIONAL_REAGENTS,"Les composants optionnels ne sont pas indispensables, mais peuvent conférer des bonus supplémentaires à l’objet que vous créez.",1
-49420,HUD_EDIT_MODE_EXTRA_ABILITIES_LABEL,Techniques supplémentaires,1
+49420,HUD_EDIT_MODE_EXTRA_ABILITIES_LABEL,Techniques suppl.,1
 49423,HUD_EDIT_MODE_UNSAVED_CHANGES,Certaines modifications n’ont pas été sauvegardées.,1
 49424,HUD_EDIT_MODE_BUFF_FRAME_LABEL,Cadre d’amélioration,1
 49425,HUD_EDIT_MODE_DEBUFF_FRAME_LABEL,Cadre d’affaiblissement,1
@@ -20742,7 +20743,7 @@ Essayez d’utiliser des composants de qualité supérieure, d’améliorer votr
 49468,MAJOR_FACTION_RENOWN_TOOLTIP_PROGRESS,Continuez à améliorer votre réputation auprès de la faction %s pour accroître votre renom et débloquer des récompenses.,1
 49469,PROFESSIONS_RECIPE_UNLEARNED,Recette oubliée,1
 49471,MAJOR_FACTION_RENOWN_CURRENT_PROGRESS,Avancement : |cffffffff%d/%d|r,1
-49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a Se termine dans : %d jour(s),1
+49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a Se termine dans : %s,1
 49473,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP,Inclusion des icônes,1
 49474,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_DOWN,Bas,1
 49475,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_UP,Haut,1
@@ -20795,10 +20796,10 @@ Essayez d’utiliser des composants de qualité supérieure, d’améliorer votr
 49522,PROFESSIONS_ITEM_RECRAFT_UNLEARNED,Vous avez besoin du plan/patron/recette d’un objet pour le refaçonner,1
 49523,TALENT_FRAME_EXPORT_TEXT,Code de configuration copié dans le presse-papiers.,1
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importer,1
-49525,TALENT_FRAME_DROP_DOWN_EXPORT,Partager |cnLIGHTGRAY_FONT_COLOR:(copier dans le presse-papier)|r,1
+49525,TALENT_FRAME_DROP_DOWN_EXPORT,Partager,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Tête parlante,1
 49527,PERKS_PROGRAM_SERVER_ERROR,Une erreur de communication est survenue avec le serveur. Veuillez réessayer ultérieurement.,1
-49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Bouton de sortie du véhicule,1
+49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Bouton sortie du véhicule,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,Vous n’avez pas assez pour cet achat.,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Note à l’artisan(e) :,1
 49531,SPELL_FAILED_CUSTOM_ERROR_805,Vous ne savez pas comment dompter les loutrèkes.,1
@@ -20856,7 +20857,7 @@ Toutes les configurations pour lesquelles cette option est activée partagent le
 49599,PROFESSIONS_ORDER_CANCEL_FAILED_CLAIMED,Impossible d’annuler la commande. Les commandes acceptées ne peuvent plus être annulées.,1
 49600,POWER_TYPE_STORMENERGY,Énergie de la tempête,0
 49602,TALENT_FRAME_NEW_LOADOUT_DISABLED_TOOLTIP,Nombre maximum de configurations atteint. Supprimez une configuration de vos spécialisations pour libérer un emplacement.,1
-49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,Ce composant a été fourni avec la commande.,1
+49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,Ce composant a été fourni par le client ou la cliente.,1
 49606,PROFESSIONS_CUSTOMER_NO_ORDERS,Aucune commande trouvée,1
 49607,TALENT_FRAME_SEARCH_TOOLTIP_NOT_ON_ACTIONBAR,Pas sur la barre d’action,1
 49608,TALENT_FRAME_SEARCH_PREVIEW_OVERFLOW_FORMAT,Et %s de plus,1
@@ -20884,9 +20885,9 @@ Toutes les configurations pour lesquelles cette option est activée partagent le
 49632,PROFESSIONS_ORDER_ABOUT_TO_EXPIRE,Cette commande va bientôt expirer. L’accepter n’affectera pas le nombre de vos commandes quotidiennes.,1
 49633,SPELL_FAILED_CUSTOM_ERROR_811,Vous possédez déjà une âme en cage de ce type.,1
 49634,TALENT_FRAME_DROP_DOWN_TOOLTIP_EDIT,Paramètres de la configuration,1
-49635,EDIT_MODE_HELPTIPS_1,Choisissez une configuration prédéfinie ou personnalisée à l’aide de ce menu déroulant.,1
-49636,EDIT_MODE_HELPTIPS_2,Utilisez les cases pour personnaliser des éléments d’interface qui sont normalement invisibles.,1
-49637,EDIT_MODE_HELPTIPS_3,Cliquez sur n’importe quel élément d’interface en surbrillance dans l’ATH pour commencer.,1
+49635,EDIT_MODE_HELPTIPS_LAYOUTS,Choisissez une configuration prédéfinie ou personnalisée à l’aide de ce menu déroulant.,1
+49636,EDIT_MODE_HELPTIPS_SHOW_HIDDEN_FRAMES,Utilisez les cases pour personnaliser des éléments d’interface qui sont normalement invisibles.,1
+49637,EDIT_MODE_HELPTIPS_SELECT_FRAMES,Cliquez sur n’importe quel élément d’interface en surbrillance dans l’ATH pour commencer.,1
 49638,SPELL_FAILED_CUSTOM_ERROR_812,Action impossible ici.,1
 49639,EDIT_MODE_HELPTIP_BUTTON_TOOLTIP,Cliquez ici pour activer/désactiver le système d’aide du mode Édition.,1
 49640,HUD_CLASS_TALENTS_NEW_LOADOUT_DIALOG_TITLE,Nouvelle configuration,1
@@ -21000,7 +21001,7 @@ Toutes les configurations pour lesquelles cette option est activée partagent le
 49751,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Affiche les barres d’énergie des membres de votre groupe.,1
 49752,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYAGGROHIGHLIGHT,Affiche un contour rouge lorsque la menace est dirigée vers le joueur.,1
 49753,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Affiche des couleurs de classe spécifiques. Si cette option est décochée, les couleurs de rôles par défaut seront utilisées.",1
-49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Affiche les familiers invoqués par les membres de votre groupe.,1
+49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Affiche les familiers invoqués par les membres de votre groupe et de votre raid.,1
 49755,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYMAINTANKANDASSIST,Met en évidence le tank principal et le tank secondaire dans votre groupe.,1
 49756,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYNONBOSSDEBUFFS,Affiche les affaiblissements sur les membres de votre groupe.,1
 49757,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYDISPELLABLEDEBUFFS,Affiche uniquement les affaiblissements dissipables sur les membres de votre groupe.,1
@@ -21051,7 +21052,7 @@ Toutes les configurations pour lesquelles cette option est activée partagent le
 49802,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_HORIZONTAL,Groupes combinés (horizontaux),1
 49803,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_VERTICAL,Groupes combinés (verticaux),1
 49804,HUD_EDIT_MODE_SETTING_UNIT_FRAME_COLUMN_SIZE,Taille de la colonne,1
-49805,HUD_EDIT_MODE_ENABLE_SNAP,Rattachem.,1
+49805,HUD_EDIT_MODE_ENABLE_SNAP,Ancrer aux éléments,1
 49806,PROFESSIONS_CRAFTING_NO_LEARNED_RECIPES,"Vous n’avez pas encore appris ce métier (%s).|n|nPour voir les recettes |2 %s, appliquez le filtre Recettes oubliées à votre recherche.",1
 49807,NPEV2_SELECT_TALENTS_TAB,Sélectionner l’onglet |cFF00FFFFTalents|r,1
 49808,NPEV2_TALENTS_STARTER_BUILD,Besoin d’aide pour choisir vos talents ? Sélectionnez |cFF00FFFFConfiguration de départ|r.,1
@@ -21352,7 +21353,8 @@ Voulez-vous vraiment passer cette commande ?",1
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,Cet objet peut uniquement être placé dans des emplacements de calligraphie.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,Refaçonner,1
 50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
-50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,Certaines recettes peuvent être fabriquées à un niveau d’objet supérieur en utilisant des composants optionnels.,1
+50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,Certaines recettes peuvent être fabriquées à un niveau d’objet supérieur en utilisant des composants spéciaux ou optionnels.,1
+50098,SPELL_FAILED_CUSTOM_ERROR_823,L’ombreflamme est trop puissante pour être maniée.,1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/nomconfiguration,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/nomconfiguration,1
 50101,SLASH_TALENT_LOADOUT_BY_NAME3,/nc,1
@@ -21396,7 +21398,7 @@ Voulez-vous vraiment passer cette commande ?",1
 50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,Commande,1
 50143,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_DEFAULT,Par défaut,1
 50144,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_REVERSE,Inverser,1
-50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Taille,1
+50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Taille du menu,1
 50146,PLAYER_DIFFICULTY_MYTHIC_PLUS,Mythique +,1
 50161,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION,Orientation,1
 50162,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION_HORIZONTAL,Horizontale,1
@@ -21419,14 +21421,13 @@ Voulez-vous vraiment passer cette commande ?",1
 50182,PROFESSIONS_CRAFTING_ORDERS_FAVORITES_FULL,Votre liste de favoris est pleine. Retirez une recette de la liste pour ajouter celle-ci.,1
 50184,TALENT_FRAME_INSPECT_COPY_BUTTON_TEXT,Copier le code de configuration,1
 50185,HUD_EDIT_MODE_EXPERIENCE_BAR_LABEL,Barre d’expérience,1
-50186,HUD_EDIT_MODE_REPUTATION_BAR_LABEL,Barre de réputation,1
 50190,MONTHLY_ACTIVITIES_RESTRICTED,"Vous devez disposer d’un abonnement actif ou de temps de jeu
 pour terminer des activités et obtenir des récompenses au comptoir.",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Durabilité,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Taille,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Progression du journal de voyage,1
 50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Allez au comptoir |2 %s pour consulter le journal de voyage.,1
-50201,BATTLEGROUND_MATCHMAKING_VALUE,Valeur|nd’association,1
+50201,BATTLEGROUND_MATCHMAKING_VALUE,Valeur|nd’association de départ,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Terminez vos activités de voyage mensuelles pour gagner des deniers et recevoir une récompense spéciale dans votre cache de collecte.
 
 La progression s’applique à tous les personnages du compte.",1
@@ -21487,11 +21488,13 @@ La progression s’applique à tous les personnages du compte.",1
 50274,CENSOR_SOURCE_EXCLUDE,Censurer les messages,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Contrôle la censure des messages jugés inappropriés,1
 50276,MONTHLY_ACTIVITIES_POINTS,Points de voyage,1
+50277,POWER_TYPE_SHADOWLAVA_ENERGY,Énergie d’ombrelave,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,La difficulté du raid ne peut pas être modifiée pour l’instant. Un joueur ou une joueuse est sur un véhicule.,1
 50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,Vous êtes sur le point d’honorer une commande d’artisanat qui comprend certains de vos propres composants. Souhaitez-vous continuer ?,1
 50293,CHAT_LANGUAGE_NAME_TAG,[%s] ,1
 50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,Cet emplacement requiert une gemme primordiale.,1
 50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,Les gemmes primordiales ne peuvent être placées que dans les châsses primordiales.,1
+50297,SPELL_FAILED_CUSTOM_ERROR_827,Vous n’avez pas invoqué la mascotte de combat requise.,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,%s HKD,3
 50301,LANGUAGE_PROFICIENCY_FORMAT,%s (Compétence : %d/%d),1
 50302,PROF_SPECIALIZATION_HIGHLIGHTS,Points forts de la spécialisation :,1
@@ -21517,31 +21520,178 @@ Détecte automatiquement la meilleure API graphique disponible.",3
 50327,GXAPI_TOOLTIP_CURRENT_API,API graphique actuelle.,3
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"API graphique sélectionnée.
 Échec du chargement, prochaine tentative au redémarrage.",3
+50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,Vous devez sélectionner une option dans les catégories marquées,2
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Rapport]|w|h|r,1
+50334,TALENTS_LINK_FORMAT,Talents affichés (%2$s %1$s),1
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,Vous allez à présent choisir votre nouvelle race et personnaliser votre avatar. Votre changement de race deviendra permanent à l’issue de ce processus.,2
+50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Afficher dans la discussion,1
+50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Copier dans le presse-papier |cnNORMAL_FONT_COLOR:(partage en ligne)|r,1
+50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,Niveau d’amélioration : %s %d/%d,1
+50340,TALENT_BUILD_CHAT_LINK_TEXT,Talents – %2$s %1$s,1
+50341,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT_STRING,%s : %d/%d,1
+50342,ITEM_UPGRADE_FRAME_CURRENT_UPGRADE_FORMAT_STRING,Niveau d’amélioration : %s %s/%s,1
 50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,Nécessite du temps de jeu actif.,1
 50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,Échec des actions d’interface à cause du programme d’interface personnalisé : %d,1
 50351,OPTION_TOOLTIP_VRS_STANDARD,Presque aucune perte de qualité visuelle,3
 50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Dégradation mineure des détails,3
+50353,CHAR_CUSTOMIZATION_TOOLTIP_PLAY_VOICE_SAMPLE,Lire un échantillon de ligne vocale,3
+50354,CHAR_CUSTOMIZATION_TOOLTIP_MUTE_SOUND,Couper le son,3
+50355,CHAR_CUSTOMIZATION_TOOLTIP_UNMUTE_SOUND,Activer le son,3
+50357,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING_REQUIRED,Composant d’artisanat,1
+50359,SPELL_FAILED_CUSTOM_ERROR_1000,Vous devez vous trouver près d’une des cinq pierres de vœu des Vols draconiques sur les îles aux Dragons.,1
+50361,OPTION_TOOLTIP_DISABLE_CHAT,Désactive la fenêtre de discussion. Vous serez dans l’impossibilité d’envoyer ou recevoir des messages.,1
 50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,Cette personne ne peut pas être ignorée tant que la commande n’a pas été annulée ou honorée.,1
 50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,Cette personne est déjà ignorée.,1
 50364,PROF_ORDER_CANT_WHISPER_OFFLINE,Cette personne est déconnectée.,1
 50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,Cette personne appartient à la faction adverse.,1
+50366,SPELL_FAILED_CUSTOM_ERROR_1001,Vous ne pouvez utiliser ceci que dans les airs.,1
 50367,PROF_VIEW_TREE_OVERVIEW,Vue d’ensemble,1
+50368,SPELL_FAILED_CUSTOM_ERROR_828,Vous avez déjà au moins une fiole conjurée.,1
+50369,BINDING_NAME_TEXT_TO_SPEECH_STOP,Arrêter le Narrateur,1
 50374,GLUE_TIMEEVENT_TITLE,TempsÉvénement actif,2
+50375,HUD_EDIT_MODE_SETTING_CAST_BAR_SHOW_CAST_TIME,Afficher le temps d’incantation,1
+50376,SLASH_EDITMODE1,/modeédition,1
+50377,ERROR_SLASH_EDITMODE_CANNOT_ENTER,Impossible de passer en mode édition pour le moment,1
+50378,CAST_BAR_CAST_TIME,%.1f s,1
 50379,SPELL_FAILED_CUSTOM_ERROR_830,Vous avez déjà marqué trop de trésors dans les confins Interdits. Récupérez-en quelques-uns avant d’ouvrir d’autres parchemins au trésor des confins Interdits.,1
 50380,RAF_LEGACY_REWARDS_DESC,"Les recrues des versions précédentes ne peuvent plus être ajoutées, mais les recrues existantes continueront à proposer des récompenses de parrainage.",1
+50381,PRC_FLOW_FINISH_LABEL,Accepter,2
 50382,RAF_NEW_VERSION_PROMPT,Ajoutez des contacts pour obtenir des récompenses pour cette saison !,1
+50383,PRC_FLOW_CUSTOMIZE_CHARACTER_STEP,Les prochaines étapes vont vous permettre de personnaliser votre avatar.,2
 50384,PLAIN_STRING_FORMAT,%s,1
+50387,HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL,Barre d’état %d,1
 50388,XP_TEXT_BANKED_XP_HEADER,EXP gagnée,1
 50389,RAF_CLAIM_MULTIPLE_REWARDS,Récupérer %d récompenses,1
+50390,HUD_EDIT_MODE_SETTING_MINIMAP_SIZE,Taille,1
 50391,RAF_NEXT_REWARD_HELP_TEXT,Recrutez des amis et recevez des récompenses lorsqu’ils s’abonnent.,1
 50392,RAF_LEGACY_REWARDS_HELP_TEXT,Recrues héritage actives : |cnHIGHLIGHT_FONT_COLOR:%d|r|nRécompenses en attente : |cnHIGHLIGHT_FONT_COLOR:%d|r,1
 50393,RAF_LATEST_REWARDS_HELP_TEXT,Recrues actives : |cnHIGHLIGHT_FONT_COLOR:%d|r|nRécompenses en attente : |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50394,BASE_SETTINGS_TAB,Base,3
+50395,BASE_GRAPHICS_QUALITY,Qualité de base,3
 50399,RAF_NEXT_EARN_DATE,Date de la prochaine récompense : %s,1
+50400,HUD_EDIT_MODE_SETTING_MICRO_MENU_EYE_SIZE,Taille de l’œil,1
 50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,Vous avez atteint la fin de la campagne des rivages de l’Éveil.|n|nContinuez à explorer les îles aux Dragons à votre guise ou achetez Dragonflight pour poursuivre la campagne !,1
 50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,Achetez l’extension pour débloquer,1
 50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,Niveau %d,1
 50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"Dans le cadre de cet essai, vous ne pouvez pas aller au-delà du niveau 60, mais vous conserverez toute l’expérience gagnée.|n|nAchetez Dragonflight pour profiter de cette expérience et continuer jusqu’au niveau 70 !",1
+50405,SPELL_FAILED_CUSTOM_ERROR_831,Nécessite un éclat de pilier djaradin.,1
 50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
 50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50422,HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS,Avancées,1
+50425,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_FRAMES,Cadres,1
+50426,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_COMBAT,Combat,1
+50427,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_MISC,Divers,1
+50428,SPELL_FAILED_CUSTOM_ERROR_832,Nécessite une pierre résistante.,1
+50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,Utilisez les options avancées pour afficher d’autres éléments d’interface.,1
+50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Amélior./Affaibl.,1
+50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Fenêtre des familiers,1
+50436,SELF_CAST,Auto-ciblage,1
+50437,SELF_CAST_AUTO,Auto,1
+50438,SELF_CAST_KEY_PRESS,Commande,1
+50439,SELF_CAST_AUTO_AND_KEY_PRESS,Auto et commande,1
+50440,OPTIONS_TOOLTIP_SELF_CAST_AUTO,Lancer automatiquement les sorts bénéfiques sur vous-même si aucune cible alliée ne se trouve à proximité.,1
+50441,OPTIONS_TOOLTIP_SELF_CAST_KEY_PRESS,"Maintenir la commande correspondante pour lancer des sorts sur vous-même, quelles que soient les cibles à proximité.",1
+50442,OPTIONS_TOOLTIP_SELF_CAST_AUTO_AND_KEY_PRESS,Lancer automatiquement les sorts bénéfiques sur vous-même si aucune cible alliée ne se trouve à proximité. Vous pouvez également maintenir la commande correspondante pour les lancer sur vous-même quelles que soient les cibles à proximité.,1
+50443,OPTIONS_TOOLTIP_SELF_CAST_NONE,Désactiver le lancement de sorts sur soi-même.,1
+50444,BINDING_HEADER_ACTIONBAR2,Barre d’actions 2,1
+50445,BINDING_HEADER_ACTIONBAR3,Barre d’actions 3,1
+50446,BINDING_HEADER_ACTIONBAR4,Barre d’actions 4,1
+50447,BINDING_HEADER_ACTIONBAR5,Barre d’actions 5,1
+50448,BINDING_HEADER_ACTIONBAR6,Barre d’actions 6,1
+50449,BINDING_HEADER_ACTIONBAR7,Barre d’actions 7,1
+50450,BINDING_HEADER_ACTIONBAR8,Barre d’actions 8,1
+50451,SPELL_FAILED_TARGET_IS_NOT_SWIMMING,La cible n’est pas en train de nager.,1
+50452,REQUIRED_REAGENT_TOOLTIP_CLICK_TO_ADD,Clic gauche pour ajouter un composant requis,1
+50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,[PH] Character service not available in this realm.,2
+50454,PROFESSIONS_REQUIRES_REAGENTS,Requiert : %s,1
+50457,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP,Votre valeur d’association détermine quelles personnes pourront rejoindre votre match. Les joueurs et joueuses ayant des valeurs similaires sont plus susceptibles de finir ensemble.,1
+50458,BATTLEGROUND_NEW_RATING_TOOLTIP,Votre cote personnelle à la fin de ce match,1
+50461,SPELL_FAILED_CUSTOM_ERROR_2222,Vous devez adopter votre forme anthropique pour faire cela.,1
+50462,MATCHMAKING_YOUR_UPDATED_MATCHMAKING_VALUE,Votre valeur d’association : %s |TInterface\\CHATFRAME\\ChatFrameExpandArrow:16:16|t %s,1
+50463,BATTLEGROUND_ROLE_AVERAGE_MMV,Valeur d’association moyenne de rôle : %s,1
+50464,HUD_EDIT_MODE_RAID_FRAME_SETTINGS,Réglages de la fenêtre de raid,1
+50465,SEARCH_RESULTS_STRING_WITH_COUNT,"Résultats de la recherche pour \""%s\""(%d)",1
+50466,KILLING_BLOW_TOOLTIP_TITLE,Coups fatals,1
+50467,HONORABLE_KILLS_TOOLTIP_TITLE,Victoires honorables,1
+50468,DEATHS_TOOLTIP_TITLE,Morts,1
+50469,DAMAGE_DONE_TOOLTIP_TITLE,Dégâts infligés,1
+50470,HEALING_DONE_TOOLTIP_TITLE,Soins prodigués,1
+50471,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP_TITLE,Valeur d’association initiale,1
+50472,BATTLEGROUND_RATING_TOOLTIP_TITLE,Cote actuelle,1
+50473,BATTLEGROUND_NEW_RATING_TOOLTIP_TITLE,Nouvelle cote,1
+50474,RATING_CHANGE_TOOLTIP_TITLE,Modif. de cote,1
+50475,RATING_CHANGE_TOOLTIP_SOLO_SHUFFLE,"Votre cote personnelle augmente ou diminue en fonction de vos performances face aux adversaires ayant le même rôle
+",1
+50476,SEARCH_RESULTS_SHOW_COUNT,Montrer les %d résultats,1
+50478,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT,niveau %d/%d %d cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50479,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT_STRING,%s %d %d/%d |cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50480,ITEM_UPGRADE_PROGRESS_ITEM_LEVEL_FORMAT,%d |cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50481,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY,%s en quantité insuffisante.,1
+50482,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_TWO,Pas assez |2 %s et |2 %s.,1
+50483,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_MULTIPLE,Pas assez de monnaie d’amélioration.,1
+50484,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_OPACITY,Opacité,1
+50485,ITEM_LEVEL_UPGRADE_MAX,Niveau d’objet %d,1
+50486,COMMUNITY_MEMBER_LIST_CROSS_FACTION,"%s|r
+Vous ne pouvez pas participer à du contenu en extérieur et en file d’attente avec ce personnage.",1
+50487,SPELL_FAILED_CUSTOM_ERROR_650,Vous ne pouvez pas lancer ce sort tant que vous possédez le talent Aura de rétorsion.,1
+50488,COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Barres d’énergie des soigneurs uniquement,1
+50489,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,N’affiche que les barres d’énergies des soigneurs. Les autres barres d’énergie sont masquées.,1
+50490,PVP_FRAMES_LABEL,Portraits d’adversaires JcJ,1
+50491,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Barres d’énergies,1
+50492,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Affiche les barres d’énergie de vos adversaires en JcJ.,1
+50493,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Barres d’énergie des soigneurs uniquement,1
+50494,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,N’affiche que les barres d’énergies des soigneurs. Les autres barres d’énergie sont masquées.,1
+50495,PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,Couleurs de classe,1
+50496,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Affiche des couleurs de classe précises. Si cette option est décochée, les couleurs par défaut seront utilisées.",1
+50497,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Familiers,1
+50498,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Affiche les familiers invoqués par vos adversaires en JcJ.,1
+50499,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,Rien,1
+50500,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,Ne pas afficher de texte de points de vie.,1
+50501,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Points de vie restants,1
+50502,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Affiche les points de vie restants sous forme de nombre.,1
+50503,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Points de vie perdus,1
+50504,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Affiche un nombre uniquement lorsque des points de vie sont perdus.,1
+50505,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Affiche les points de vie restants sous forme de pourcentage.,1
+50506,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Pourcentage de points de vie,1
+50507,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Affichage du texte de vie,1
+50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Détermine le type de texte de points de vie à afficher dans les fenêtres de raid.,1
+50509,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Détermine le type de texte de points de vie à afficher dans les fenêtres de JcJ.,1
+50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,"Le coût en %s de cette amélioration est réduit, car vous avez déjà un objet de niveau plus élevé (%d) dans cet emplacement.",1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,"Le coût en %s de cette amélioration est réduit, car un personnage de votre compte a déjà un objet de niveau plus élevé (%d) dans cet emplacement.",1
+50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,"Le coût en %s de cette amélioration est réduit, car vous avez déjà deux %s de niveau plus élevé (%d).",1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,"Le coût en %s de cette amélioration est réduit, car un personnage de votre compte a déjà deux %s de niveau plus élevé (%d).",1
+50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,"Le coût en %s de cette amélioration est réduit, car vous avez déjà une arme de niveau plus élevé (%d).",1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,"Le coût en %s de cette amélioration est réduit, car un personnage de votre compte a déjà une arme de niveau plus élevé (%d).",1
+50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,Réduction (%s),1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,Tous les personnages du compte,1
+50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,bijoux,1
+50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,anneaux,1
+50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,armes à une main,1
+50533,LOOT_HISTORY_CURRENT_WINNER,%s (%d),1
+50534,LOOT_HISTORY_PASSED,Passé,1
+50535,SPELL_FAILED_CUSTOM_ERROR_850,La clé de spéléo flairane et le bouclier doivent être désactivés.,1
+50554,LOOT_HISTORY_WAITING_ON,En attente de :,1
+50555,LOOT_HISTORY_INFO_TEXT,Les jets de butin des donjons et des raids s’affichent ici.,1
+50556,LOOT_HISTORY_PLAYER_DELIMITER,", ",1
+50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Off-Spec)|r,1
+50559,LOOT_HISTORY_ROLL_TIE,Égalité,1
+50570,LOOT_HISTORY_ROLL_TUTORIAL,Vos jets de butin apparaissent ici.|n|nLes objets gagnés seront automatiquement rangés dans vos sacs.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,"Les écus d’ombreflamme de niveau supérieur peuvent être déclassés auprès de Vaskarn, à Terreau.",1
+50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Vous devez fournir ce composant.,1
+50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Vous devez fournir certains composants.,1
+50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Vous devez fournir tous les composants.,1
+50580,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_ALL,Tous les composants ont été fournis par le client ou la cliente.,1
+50583,TRANSMOGRIFICATION,Transmogrification,1
+50584,LOOT_ROLL_YOU_WON_NO_SPAM_TRANSMOG,|HlootHistory:%d|h[Butin]|h : vous (Transmogrification – %d) Gagné : %s,1
+50585,LOOT_ROLL_WON_NO_SPAM_TRANSMOGRIFICATION,|HlootHistory:%d|h[Butin]|h : %s (Transmogrification – %d) Gagné : %s,1
+50588,BATTLEFIELD_BONUS_REWARDS,Gains d’honneur et de conquête augmentés de %d%%,1
+50589,SPELL_FAILED_CUSTOM_ERROR_835,Myrrit ne peut pas porter plus de cartes. Allez en fouille avec lui !,1
+50590,PROFESSIONS_PREREQUISITE_REAGENTS_CUSTOMER,Un ou plusieurs composants optionnels ne sont pas complets.,1
+50591,PROFESSIONS_PREREQUISITE_REAGENTS,Un ou plusieurs composants optionnels ne sont pas complets.,1
+50592,CONFIRM_UPGRADE_ITEM_BIND,"Voulez-vous vraiment dépenser %s pour améliorer l’objet suivant ? Si vous améliorez cet objet, il vous sera lié.",1
+50593,SPELL_FAILED_CUSTOM_ERROR_851,Appât à créature insaisissable récemment utilisé. Vous ne pouvez plus rien appâter dans cette zone pendant quelques minutes.,1
+50594,SPELL_FAILED_CUSTOM_ERROR_2424,Vous ne pouvez pas lancer un rituel magmatique à proximité d’un autre.,1
+50596,ITEM_UPGRADE_FRAGMENTS_TOTAL,Fragments obtenus : |c%s%s/%s|r,1
+50597,WEEKLY_REWARDS_MYTHIC_KEYSTONE,Clé mythique,1
+51168,PROFESSIONS_DISALLOW_DOWNGRADE,Vous ne pouvez pas refaçonner cet objet à moins d’utiliser une étincelle moins puissante.,1

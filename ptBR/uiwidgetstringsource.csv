@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,,19,1914
+4531,Long Text Test Test Test,19,1914
 4532,Test Widget Tooltip,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -6315,9 +6315,15 @@ ID,Value_lang,ReqID,ParentWidgetID
 12262,Ilhas do Dragão,19,4556
 12263,Os melhores gnomos estão rastreando a localização atual do barco.,208,4556
 12264,Horário de chegada desconhecido,273,4556
+12268,,19,4558
+12269,Colete Suprimentos das Ilhas do Dragão com várias atividades das Ilhas. (addCurrency 2003 10000),208,4558
+12270,Progresso da construção,273,4558
 12271,Portais Elementais ativos,19,4559
 12272,,273,4559
 12273,Feche Portais Elementais para cortar a energia do ritual Primevista.,208,4559
+12274,Progresso da construção,19,4560
+12275,Colete Suprimentos das Ilhas do Dragão com várias atividades das Ilhas. (addCurrency 2003 10000),208,4560
+12276,Suprimentos das Ilhas do Dragão,273,4560
 12398,,19,4602
 12399,Use Grânulos Primevos para atravessar a barreira e destruir este conduíte!,208,4602
 12400,Força da Barreira Primeva,273,4602
@@ -6366,7 +6372,22 @@ ID,Value_lang,ReqID,ParentWidgetID
 12468,,394,4616
 12539, |TInterface\Icons\INV_TreasureVault_Key01.BLP:16:16:0:-3|t Chaves disponíveis: |cFFFFFFFF%38805e|r,52,4642
 12540,,394,4642
+12602,Força Recuperada,19,4651
+12603,,273,4651
+12604,Ebyssian precisa recuperar as forças antes de apagar mais incêndios.,208,4651
 12616,Test,275,4653
+12617,Ataques de Fyrakk,19,4654
+12618,Fyrakk chegará com reforços para dizimar todos aqueles que roubaram o que era seu.,208,4654
+12619,Tempo até a chegada de Fyrakk,273,4654
+12620,Energia de Conduíte,19,4655
+12621,%w,273,4655
+12622,,208,4655
+12623,,19,4656
+12624,,208,4656
+12625,,273,4656
+12626,,19,4657
+12627,,208,4657
+12628,,273,4657
 12629,A prova começa em: %23175x,52,4658
 12630,,394,4658
 12631,Teste em andamento,52,4659
@@ -6398,6 +6419,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12752,,19,4698
 12753,Tempo restante,273,4698
 12754,,208,4698
+12770,Objetivos dos pesquisadores concluídos: ,19,4700
+12771,,273,4700
+12772,|Hspell:409646|h,208,4700
+12843,A Fúria de Fyrakk,19,4706
+12844,"Interferir nas forças de Fyrakk atrairá a fúria dele, e ele enviará um inimigo mais forte para impedir todos vocês.",208,4706
+12845,Próximo ataque de Fyrakk,273,4706
 12849,,212,4708
 12850,,277,4708
 12851,,212,4709
@@ -6414,6 +6441,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 12862,,277,4714
 12863,,212,4715
 12864,,277,4715
+12865,Fyrakk se aproxima.,433,4716
+12866,Fyrakk chegará com reforços para dizimar todos aqueles que roubaram o que era seu.,434,4716
+12875,Mostrar ao Asancião que você se importa mesmo.,208,4720
+12876,Encontro às Cegas,273,4720
+12877,,19,4720
 12878,As criaturas daqui podem conceder um |TInterface\Icons\ability_shawaterelemental_reform.blp:16:16:0:-3|t |cFFFFFFFF[Núcleo de Água Primeva]|r.,52,4721
 12879,,394,4721
 12880,As criaturas daqui podem conceder um |TInterface\Icons\inv_elemental_primal_fire.blp:16:16:0:-3|t |cFFFFFFFF[Núcleo de Fogo Primevo]|r.,52,4722
@@ -6434,12 +6466,21 @@ ID,Value_lang,ReqID,ParentWidgetID
 12895,,394,4731
 12896,Acabou o preparo... mas a sopa está |nservida!!|nTempo restante: %22515ht,52,4732
 12897,,394,4732
+12898,A Fúria de Fyrakk,19,4733
+12899,"Interferir nas forças de Fyrakk atrairá a fúria dele, e ele enviará um inimigo mais forte para impedir todos vocês.",208,4733
+12900,Próximo ataque de Fyrakk,273,4733
+12906,,19,4736
+12907,Traga ingredientes para contribuir com o pote de incenso!,208,4736
+12908,Fedor,273,4736
 12909,WS1 (23519),19,4737
 12910,,273,4737
 12911,,208,4737
 12912,WS2 (23520),19,4738
 12913,,273,4738
 12914,,208,4738
+12915,,19,4739
+12916,Pegue frascos de Pó Extintor e ajude a apagar os incêndios!,208,4739
+12917,Incêndios,273,4739
 12918,WS1 (23519) Remaining Time: %23519ht,52,4740
 12919,,394,4740
 12920,WS2 (23520) Remaining Time: %23520ha,52,4741
@@ -6453,17 +6494,293 @@ ID,Value_lang,ReqID,ParentWidgetID
 12931,,19,4745
 12932,O Enviado oferecerá a nova tarefa após o fim do tempo.,208,4745
 12933,Nova missão em,273,4745
+12936,,19,4746
+12937,Repelir os ataques de Amythera,208,4746
+12938,Pugilato,273,4746
+12939,Recompensas disponíveis:,52,4747
+12940,,394,4747
+12941,A Fúria de Fyrakk,19,4748
+12942,"Interferir nas forças de Fyrakk atrairá a fúria dele, que enviará um inimigo mais forte para impedir todos vocês.",208,4748
+12943,Próximo ataque de Fyrakk,273,4748
+12944,Ataques de Fyrakk,19,4749
+12945,Fyrakk chegará com reforços para dizimar todos aqueles que roubaram o que lhe pertencia.,208,4749
+12946,Tempo até a chegada de Fyrakk,273,4749
+12947,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t |cFFC845FATesouros Dracônicos|r,52,4750
+12948,,394,4750
 12953,,19,4753
 12954,O espírito pressente um perigo iminente...,208,4753
 12955,Antecipação Ancestral,273,4753
+12956,,19,4754
+12957,Leve as Bolhas de Cheiro de Briolor de volta ao caldeirão,208,4754
+12958,Fedor,273,4754
 12959,Dissipa a tempestade para ganhar |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Ice.BLP:16:16:0:-3|t |cFFA335EE[Magia do Gelo Condensada]|r.,52,4755
 12960,,394,4755
+12961,,19,4756
+12962,Ruptura Ritual,273,4756
+12963,Interrompa o ritual para evitar uma explosão populacional dos garras-de-magma!,208,4756
 12964,Dissipa a tempestade para ganhar |TInterface\Icons\INV_Misc_Orb_05.blp:16:16:0:-3|t |cFFA335EE[Magia do Fogo Condensada]|r.,52,4758
 12965,,394,4758
 12966,Dissipa a tempestade para ganhar |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Earth.BLP:16:16:0:-3|t |cFFA335EE[Magia da Terra Condensada]|r.,52,4759
 12967,,394,4759
 12968,Dissipa a tempestade para ganhar |TInterface\ICONS\INV_Misc_Orb_01.blp:16:16:0:-3|t |cFFA335EE[Magia da Natureza Condensada]|r.,52,4760
 12969,,394,4760
+12970,,19,4761
+12971,Derrote cristalinos agitados para contribuir com a pesquisa geológica!,208,4761
+12972,Progresso da Pesquisa,273,4761
+12979,,19,4764
+12980,Saciedade,273,4764
+12981,Alimente a hidra com inimigos próximos!,208,4764
 12982,,19,4744
 12983,Nova missão em,273,4744
 12984,O Enviado oferecerá a nova tarefa após o fim do tempo.,208,4744
+12985,%0s s,433,4765
+12986,,434,4765
+13001,As forças titânicas chegam em:,19,4771
+13002,,273,4771
+13003,,208,4771
+13007,Os Chama Partida retornam em:,19,4772
+13008,,273,4772
+13009,,208,4772
+13010,|A:minimap-genericevent-hornicon:20:20|a Pesquisadores sob fogo,19,4773
+13011,,273,4773
+13012,A ameaça da Chama Partida está se formando para expulsar os pesquisadores logo.,208,4773
+13039,Pedaços de Pedregulho removidos,19,4781
+13040,,273,4781
+13041,Coloque Pedaços de Pedregulhos aqui para liberar a área de testes. ,208,4781
+13188,,19,4782
+13189,Levante pesos para ganhar pontos!,208,4782
+13190,Pontos de Desafio,273,4782
+13193,Progresso dos Reparos,19,4784
+13194,,273,4784
+13195,"Traga peças titânicas à estação para consertá-la, habilitando-a a potencializar outros equipamentos titânicos.",208,4784
+13196,Progresso dos Reparos,19,4785
+13197,,273,4785
+13198,Traga peças titânicas para ajudar a Greta a consertar o console para testagem. ,208,4785
+13202,Amostras de Minério coletadas,19,4787
+13203,,273,4787
+13204,Traga Amostras de Minério até a poça sulfurosa para ajudar Greta a identificar o contaminante. ,208,4787
+13205,Amostras de Minério coletadas,19,4788
+13206,,273,4788
+13207,Traga Amostras de Minério até a poça sulfurosa para ajudar Greta a neutralizar o contaminante. ,208,4788
+13208,Estilhaços de Pilar Restaurados,19,4789
+13209,,273,4789
+13210,Traga estilhaços de pilar para consertar o pilar elemental. ,208,4789
+13211,Pedras do Altar recuperadas,19,4790
+13212,,273,4790
+13213,Traga pedras resilientes para restaurar o altar Zaqali. ,208,4790
+13214,Começa em breve,19,4791
+13215,,208,4791
+13216,,273,4791
+13220,Evento começa em: %23697x,52,4792
+13221,,394,4792
+13222,Ajude a carroça do Duporto a chegar a Argília!,52,4793
+13223,,394,4793
+13224,,19,4794
+13225,,208,4794
+13226,Ativo,273,4794
+13227,Começa em breve,52,4795
+13228,,394,4795
+13232,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_green.blp:24|t  |cFFa335eeBolsa com Sujeira Tilintante|r,52,4799
+13233,,394,4799
+13234,Recompensas disponíveis:,52,4800
+13235,,394,4800
+13236,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_darkbrown.blp:24|t  |cFF0070ddBolsa com Sujeira Tintinante|r,52,4802
+13237,,394,4802
+13238,Começa em breve,19,4803
+13239,,208,4803
+13240,,273,4803
+13241,Cristalinos Agitados estão atacando a Pesquisa |nGeológica Ferroqueixo,52,4804
+13242,,394,4804
+13243,Começa em breve,19,4805
+13244,,208,4805
+13245,,273,4805
+13246,O Cheiromante começou a preparar o fedor!,52,4806
+13247,,394,4806
+13248,A carroça fedorenta do Delvert está andando!,52,4807
+13249,,394,4807
+13250,Começa em breve,19,4808
+13251,,208,4808
+13252,,273,4808
+13253,Ajude a salvar a Dona Mimosa do fogo!,52,4809
+13254,,394,4809
+13255,Começa em breve,19,4810
+13256,,208,4810
+13257,,273,4810
+13258,%0s s,433,4811
+13259,Tempo restante até a chegada das forças titânicas para retomar o confinamento.,434,4811
+13260,%0s s,433,4812
+13261,Tempo restante até o retorno da Chama Partida com reforços.,434,4812
+13262,%0s s,433,4813
+13263,Tempo restante até Rannan ser forçado a recuar:,434,4813
+13264,Tempo até a próxima expedição: %23756ha,52,4814
+13265,,394,4814
+13266,Os drogbares de Lumerogg vão coletar cristais |ndo Piscilume Gigante!,52,4815
+13267,,394,4815
+13271,Começa em breve,19,4817
+13272,,208,4817
+13273,,273,4817
+13274,Começa em breve,19,4818
+13275,,273,4818
+13276,,208,4818
+13277,Destrua as armas de matar dragões dos djaradins!,52,4819
+13278,,394,4819
+13279,Os Primevistas começaram a evocar um |nelemental da água imenso!,52,4820
+13280,,394,4820
+13281,Começa em breve,19,4821
+13282,,208,4821
+13283,,273,4821
+13284,Está acontecendo uma competição de levantamento de peso |nem Lumerogg!,52,4822
+13285,,394,4822
+13286,Começa em breve,19,4823
+13287,,208,4823
+13288,,273,4823
+13289,Começa em breve,19,4824
+13290,,273,4824
+13291,,208,4824
+13292,Comungue com os espíritos ígneos da caldeira para |nconcluir o ritual Zaqali.,52,4825
+13293,,394,4825
+13294,Tempo restante: %23298ha,52,4826
+13295,,394,4826
+13296,Desative as pedras rúnicas Primevistas!,52,4827
+13297,,394,4827
+13298,Começa em breve,19,4828
+13299,,273,4828
+13300,,208,4828
+13301,Conclua o ritual para evocar e derrotar o |nelemental!,52,4829
+13302,,394,4829
+13303,Começa em breve,19,4830
+13304,,273,4830
+13305,,208,4830
+13311,Cargas restantes,19,4833
+13312,,273,4833
+13313,,208,4833
+13314,Cargas restantes,19,4834
+13315,,273,4834
+13316,,208,4834
+13317,Potencializado,19,4835
+13318,,273,4835
+13319,Canalize para o crânio para potencializar o componente do ritual.,208,4835
+13320,Começa em breve,19,4836
+13321,,273,4836
+13322,,208,4836
+13323,Um enxame nascente de garras-de-magma ameaça |ntomar a caverna!,52,4837
+13324,,394,4837
+13325,Começa em breve,19,4838
+13326,,273,4838
+13327,,208,4838
+13328,Começa em breve,19,4839
+13329,,273,4839
+13330,,208,4839
+13331,Começa em breve,19,4840
+13332,,273,4840
+13333,,208,4840
+13334,Começa em breve,19,4841
+13335,,273,4841
+13336,,208,4841
+13337,Começa em breve,19,4842
+13338,,273,4842
+13339,,208,4842
+13340,Alimente a hidra faminta com inimigos para mantê-la satisfeita!,52,4843
+13341,,394,4843
+13342,Troque os estandartes de Neltharion pelos seus!,52,4844
+13343,,394,4844
+13344,Os Primevistas montaram pilares e estão infundindo |nos campos de cristal!,52,4845
+13345,,394,4845
+13346,Cristais invasivos estão enlouquecendo as criaturas cristalinas próximas!,52,4846
+13347,,394,4846
+13348,Uma estátua titânica esfacelada precisa de reparos!,52,4847
+13349,,394,4847
+13371,,19,4705
+13372,,273,4705
+13373,,208,4705
+13386,Opcional: Siritiscos Garra-de-magma esmagados,19,4859
+13387,,273,4859
+13388,Pise nos siritiscos garra-de-magma para manter a área do ritual livre para Thaelin. ,208,4859
+13389,Lutando contra as forças de Sarkareth:,19,4860
+13390,,273,4860
+13391,,208,4860
+13392,|A:minimap-genericevent-hornicon:20:20|a Pesquisadores sob fogo,52,4861
+13393,A ameaça da Chama Partida está se formando para expulsar os pesquisadores logo.,394,4861
+13394,%23298ht,52,4862
+13395,,394,4862
+13396,Infusão de Lava,19,4863
+13397,,273,4863
+13398,Fique no círculo ritual de lava para infundir o elemental com lava.,208,4863
+13399,Infusão de Terra,19,4864
+13400,,273,4864
+13401,Fique no círculo ritual de terra para infundir o elemental com terra.,208,4864
+13402,|cnNORMAL_FONT_COLOR:- Caverna Zaralek:|r %39731e/%39732e,52,4865
+13403,,394,4865
+13418,Objetivos dos pesquisadores concluídos: ,52,4867
+13419,|Hspell:409646|h,394,4867
+13420,%s - %s,52,4868
+13421,|TInterface\ICONS\misc_arrowleft.blp:40|t,394,4868
+13422,Possíveis Recompensas: ,52,4869
+13423,,394,4869
+13424,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFFC845FAPresente do Pesquisador Penhorado|r,52,4870
+13425,,394,4870
+13426,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF0070ddPresente do Pesquisador Grato|r,52,4871
+13427,,394,4871
+13428,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF1eff00Presente do Pesquisador Grato|r,52,4872
+13429,,394,4872
+13430,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFFffffffPresente do Pesquisador|r,52,4873
+13431,,394,4873
+13432,Você ainda não concluiu o evento esta semana. ,52,4874
+13433,,394,4874
+13437,,19,4876
+13438,Os mapas permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,208,4876
+13439,Mapas de Escavação,273,4876
+13445,Os mapas permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,212,4875
+13446,,277,4875
+13449,Mapas de Escavação: %39771e,56,4877
+13450,Os mapas permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,57,4877
+13451,,59,4877
+13452,,60,4877
+13453,,62,4877
+13454,,63,4877
+13455,,67,4877
+13456,,66,4877
+13457,,72,4877
+13458,,73,4877
+13459,,74,4877
+13460,,75,4877
+13461,Mapas de Escavação: %39771e,52,4878
+13462,Os mapas permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,394,4878
+13463,Mapas de Escavação permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,212,4879
+13464,,277,4879
+13465,Mapas de Escavação permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,212,4880
+13466,,277,4880
+13467,Mapas de Escavação permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,212,4881
+13468,,277,4881
+13469,Mapas de Escavação permitem que Myrrit leve você em uma aventura! Pergunte a ele onde encontrar outros.,212,4882
+13470,,277,4882
+13471,A Fúria de Fyrakk,19,4883
+13472,"Interferir nas forças de Fyrakk atrairá a fúria dele, que enviará um inimigo mais forte para impedir todos vocês.",208,4883
+13473,Próximo ataque de Fyrakk,273,4883
+13474,Você obteve o Presente do Pesquisador Grau 1 |npela sua ajuda esta semana. ,52,4884
+13475,,394,4884
+13476,Você obteve o Presente do Pesquisador Grau 2 |npela sua ajuda esta semana. ,52,4885
+13477,,394,4885
+13478,Você obteve o Presente do Pesquisador Grau 3 |npela sua ajuda esta semana. ,52,4886
+13479,,394,4886
+13480,Você obteve o Presente do Pesquisador Grau 4 |npela sua ajuda esta semana. ,52,4887
+13481,,394,4887
+13482,- Ranque de Renome: |cFFFFFFFF%2402c|r,52,4888
+13483,,394,4888
+13484,Farins de Argília:,52,4889
+13485,,394,4889
+13486,- Concluir todos os passos do evento |cFFFFFFFFPesquisadores sob fogo|r|n listadas a seguir concede recompensas de bônus.,52,4890
+13487,,394,4890
+13488,- |cFFFFFFFFMyrrit|r pode ir a mais escavações de Busca Farejante esta semana.,52,4891
+13489,,394,4891
+13490,,19,4892
+13491,Ataque o Piscilume Gigante para mandar as escamas de cristal pelos ares!,208,4892
+13492,Escamas coletadas,273,4892
+13505,Myrrit está coletando mapas de escavações para sua próxima aventura. Pergunte a ele sobre o assunto!,212,4897
+13506,,277,4897
+13507,,19,4898
+13508,,208,4898
+13509,Tem alguma coisa chegando...,273,4898
+13527,,621,4904
+13528,,622,4904
+13529,Nível de Item: 500,627,4904

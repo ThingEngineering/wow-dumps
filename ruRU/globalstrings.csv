@@ -71,14 +71,14 @@ ID,BaseTag,TagText_lang,Flags
 9674,BAGSLOTTEXT,Ячейки для сумок,1
 9675,BANKSLOTPURCHASE_LABEL,Вы хотите приобрести место для еще одной сумки?,1
 9676,BANKSLOTPURCHASE,Приобрести,1
-9677,ADD_FRIEND,Добавить в друзья,1
-9678,ADD_IGNORE_LABEL,"Введите имя игрока, которого вы хотите игнорировать,\nили\nщелкните мышью при нажатом Shift по его имени в окне чата:",1
+9677,ADD_FRIEND,Добавить в друзья,3
+9678,ADD_IGNORE_LABEL,"Введите имя игрока, которого вы хотите игнорировать, \nили\nщелкните мышью при нажатом Shift по его имени в окне чата:",1
 9679,REMOVE_FRIEND,Удалить,1
 9680,GROUP_INVITE,Пригласить,1
-9681,SEND_MESSAGE,Сообщение,1
+9681,SEND_MESSAGE,Сообщение,3
 9682,FRIENDS,Друзья,3
 9683,FRIENDS_LIST,Список друзей,1
-9684,IGNORE,Черный список,1
+9684,IGNORE,Черный список,3
 9685,IGNORE_PLAYER,Добавить,1
 9686,GROUPS,Группы,1
 9687,WHO,Кто,1
@@ -228,8 +228,8 @@ ID,BaseTag,TagText_lang,Flags
 9852,GAMMA,Гамма,3
 9866,SPELL_SKILL_LINE,%s,1
 9867,MANA_COST_PER_TIME,%s ед. маны + %s/сек.,1
-9868,SPELL_DURATION_SEC,%.1f сек.,1
-9869,SPELL_DURATION_MIN,%.1f мин.,1
+9868,SPELL_DURATION_SEC,%.1f сек,1
+9869,SPELL_DURATION_MIN,%.1f мин,1
 9870,SPELL_DURATION_UNTIL_CANCELLED,до отмены,1
 9871,SPELL_EQUIPPED_ITEM,Требуется: %s,1
 9872,SPELL_REQUIRED_FORM,Требуется: %s,1
@@ -1040,7 +1040,7 @@ ID,BaseTag,TagText_lang,Flags
 10835,ERR_CHAT_WHILE_DEAD,"Вы не можете общаться, вы мертвы!",1
 10836,ERR_BANKSLOT_FAILED_TOO_MANY,Вы уже используете все ячейки для сумок!,1
 10839,ERR_CANT_WRAP_EQUIPPED,"Предметы, выбранные в качестве экипировки, упаковке не подлежат.",1
-10842,LASTONLINE_HOURS,%d |4час:часа:часов;,1
+10842,LASTONLINE_HOURS,%d |4час:часа:часов;,3
 10844,ERR_GUILD_RANKS_LOCKED,"Временная ошибка гильдии. Пожалуйста, попробуйте еще раз!",1
 10845,ERR_GUILD_RANK_IN_USE,Это звание гильдии уже используется.,1
 10846,SET_GUILDMOTD_LABEL,Сообщение дня для гильдии:,1
@@ -1660,9 +1660,9 @@ ID,BaseTag,TagText_lang,Flags
 11515,EMOTE153_CMD1,/му,1
 11516,VOICEMACRO_1_Ta_1,К бою!,1
 11517,SKILL_DESCRIPTION,|cffffffff%s|r %s,1
-11518,LASTONLINE_YEARS,%d |4год:года:лет;,1
-11519,LASTONLINE_MONTHS,%d |4месяц:месяца:месяцев;,1
-11520,LASTONLINE_DAYS,%d |4день:дня:дней;,1
+11518,LASTONLINE_YEARS,%d |4год:года:лет;,3
+11519,LASTONLINE_MONTHS,%d |4месяц:месяца:месяцев;,3
+11520,LASTONLINE_DAYS,%d |4день:дня:дней;,3
 11521,GUILD_OFFICERNOTES_LABEL,Офицерские заметки,1
 11522,RANK,Звание,1
 11523,NOTE,Общедоступное сообщение,1
@@ -1987,7 +1987,7 @@ ID,BaseTag,TagText_lang,Flags
 11881,QUEST_ACCEPT,"%s приступает к заданию ""%s"".\nХотите присоединиться?",1
 11882,TWOHANDEDWEAPONBEINGWIELDED,"Вы не можете достать другое оружие, у вас в руках двуручное оружие!",1
 11884,ADD_FRIEND_LABEL,Введите имя персонажа вашего друга:,1
-11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s – не в сети|r,1
+11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s – не в сети|r,3
 11886,ITEM_MIN_LEVEL,Требуется %d-й уровень,1
 11887,ITEM_QUALITY0_DESC,Низкое,1
 11888,ITEM_QUALITY6_DESC,Артефакт,1
@@ -3730,7 +3730,7 @@ ID,BaseTag,TagText_lang,Flags
 13914,NOTE_SUBMITTED,Записка передана,1
 13915,NOTE_SUBMIT_FAILED,Сохранить заметку не удалось.,1
 13916,ERR_LOOT_PLAYER_NOT_FOUND,Игрок не найден,1
-13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Добыча]|h: Вы отказались от предмета: %s.,1
+13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Loot]|h: You passed on: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 13918,LOOT_THRESHOLD,Порог ценности,1
 13919,GIVE_LOOT,Передать добычу:,1
 13920,TERRAIN_HIGHLIGHTS,Отражения и блики,3
@@ -4563,8 +4563,8 @@ ID,BaseTag,TagText_lang,Flags
 15902,DRESSUP_FRAME,Примерочная,1
 15903,DISPLAY_ON_CHARACTER,Примерить,1
 15904,DISPLAY_ON_CHAR_TOOLTIP,"Отметив этот пункт, вы сможете просматривать выбранные на аукционе вещи прямо на вашем персонаже.\n\nТо же самое будет происходить и за пределами аукциона, если вы, зажав CTRL, щелкнете по любому предмету, который может быть частью экипировки персонажа.",1
-15905,LOOT_ROLL_GREED_SELF,"|HlootHistory:%d|h[Добыча]|h: Разыгрывается: %s. Вы сказали: ""Не откажусь"".",1
-15906,LOOT_ROLL_NEED_SELF,"|HlootHistory:%d|h[Добыча]|h: Разыгрывается: %s. Вы сказали: ""Мне это нужно"".",1
+15905,LOOT_ROLL_GREED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Greed for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
+15906,LOOT_ROLL_NEED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Need for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 15907,LOOT_ROLL_GREED,"Разыгрывается: %2$s. %1$s: ""Не откажусь"".",1
 15908,LOOT_ROLL_NEED,"Разыгрывается: %2$s. %1$s: ""Мне это нужно"".",1
 15911,LOOT_ROLL_ROLLED_NEED,"Результат броска |3-1(%3$s) (""Нужно"") за предмет %2$s: %1$d.",1
@@ -4932,7 +4932,7 @@ ID,BaseTag,TagText_lang,Flags
 16334,HIDE_OUTDOOR_WORLD_STATE_TEXT,Скрыть индикатор цели зоны,1
 16335,OPTION_TOOLTIP_HIDE_OUTDOOR_WORLD_STATE,"Включите этот параметр, чтобы скрыть интерфейс отслеживания целей в пределах игровой зоны.",1
 16336,BINDING_NAME_FRIENDNAMEPLATES,Показать индикаторы союзников,1
-16337,BINDING_NAME_ALLNAMEPLATES,Показать все индикаторы,1
+16337,BINDING_NAME_ALLNAMEPLATES,Показать индикаторы здоровья врагов,1
 16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h Количество сообщений в этом канале ограничено. Пожалуйста, отправьте ваше сообщение позже.",1
 16339,COMBAT_TEXT_COMBO_POINTS,<%d |4прием:приема:приемов; в серии>,1
 16341,COMBAT_TEXT_SHOW_REACTIVES_TEXT,Предупреждения о заклинаниях,1
@@ -5410,7 +5410,7 @@ ID,BaseTag,TagText_lang,Flags
 16924,PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG_FIRE,"Урон от огня, который вы наносите цели, увеличивает силу атаки вашего питомца на %d, а урон от его заклинаний – на %d.",1
 16925,BINDING_NAME_TARGETLASTTARGET,Цель: последняя цель,1
 16926,ERR_CANT_DO_THAT_IN_A_GROUP,"Вы не можете этого делать, пока вы в группе.",1
-16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,Вы можете находиться в очереди на участие не более чем в 2 битвах одновременно.,1
+16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,"Вы можете находиться в очереди не более, чем на 3 битвы одновременно.",1
 16929,ERR_BATTLEDGROUND_QUEUED_FOR_RATED,"Вы не можете встать в очередь на другой бой, пока ждете своей очереди на рейтинговое состязание.",1
 16930,ERR_BATTLEGROUND_CANNOT_QUEUE_FOR_RATED,"Вы не можете встать в очередь на рейтинговое состязание, пока ждете своей очереди на другие бои.",1
 16931,ARENA_MASTER_TEXT,"Начнем игру! Путь открыт для всех, кто жаждет обрести славу на арене, а картель Хитрой Шестеренки готов принять вас в игру. Если вы – прирожденный победитель, зарегистрируйте свою команду у организатора боев на арене или вступите в существующую команду!",1
@@ -5964,7 +5964,7 @@ ID,BaseTag,TagText_lang,Flags
 17548,GROUND_DENSITY,Плотность травы,3
 17549,NEAR,Мин.,3
 17550,FAR,Макс.,3
-17551,LOOT_ROLL_PASSED_SELF_AUTO,"|HlootHistory:%d|h[Добыча]|h: вы пропускаете розыгрыш предмета ""%s"", поскольку не можете его забрать.""",1
+17551,LOOT_ROLL_PASSED_SELF_AUTO,|HlootHistory:%d|h[Loot]|h: You automatically passed on: %s because you cannot loot that item. |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 17552,LOOT_ROLL_PASSED_AUTO,"%s автоматически передает предмет %s, поскольку не может его забрать.",1
 17553,LOOT_ROLL_PASSED_AUTO_FEMALE,"%s пропускает розыгрыш предмета ""%s"", поскольку не может его забрать.",1
 17554,STATUS_TEXT,Текст статуса,1
@@ -7082,7 +7082,7 @@ ID,BaseTag,TagText_lang,Flags
 18804,UNUSED,Не используется,1
 18805,SHOW_ON_BACKPACK,Отображать в рюкзаке,1
 18806,TOKEN_MOVE_TO_UNUSED,"Передвигает эту валюту вниз по списку, в раздел неактивных. Вы можете использовать данную функцию для валют, в отслеживании которых вы больше не заинтересованы.",1
-18807,TOKEN_SHOW_ON_BACKPACK,"Выбрав эту опцию, вы сможете отслеживать количество этой валюты в окне рюкзака.\n\nВы также можете щелкнуть по валюте, зажав клавишу SHIFT, чтобы добавить или удалить ее из окна вашего рюкзака.",1
+18807,TOKEN_SHOW_ON_BACKPACK,"Выбрав эту опцию, вы сможете отслеживать количество этой валюты в окне рюкзака.\n\nВы также можете щелкнуть по валюте, зажав клавишу SHIFT, чтобы добавить или удалить ее из окна рюкзака.",1
 18808,ENCRYPTED,Зашифровано,1
 18809,RUNIC_POWER,Сила рун,1
 18810,BINDING_NAME_STOPCASTING,Прекратить применение заклинания,1
@@ -7114,7 +7114,7 @@ ID,BaseTag,TagText_lang,Flags
 18837,CALENDAR_ERROR_NEEDS_TITLE,Введите название.,1
 18838,CALENDAR_ERROR_EVENT_INVALID,Событие не найдено.,1
 18839,CALENDAR_ERROR_NOT_INVITED,Вы не приглашены на данное событие.,1
-18840,CALENDAR_ERROR_EVENT_PASSED,Это событие уже прошло.,1
+18840,CALENDAR_ERROR_EVENT_PASSED,Это событие уже завершилось.,1
 18841,CALENDAR_ERROR_EVENT_LOCKED,Событие заблокировано!,1
 18842,CALENDAR_ERROR_DELETE_CREATOR_FAILED,Вы не можете удалить создателя данного события.,1
 18843,CALENDAR_ERROR_INVITES_DISABLED,Вы не можете приглашать игроков для этого события.,1
@@ -7932,7 +7932,7 @@ ID,BaseTag,TagText_lang,Flags
 19709,CALENDAR_TOOLTIP_INVITE_RESPONDED,Последний ответ:,1
 19710,LEARN,Изучить,1
 19713,GEARSETS_POPUP_TEXT,Введите название комплекта (до 16 символов),1
-19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,"Щелкните, чтобы выбрать этот талант.",1
+19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,"Щелкните, чтобы изучить",1
 19716,CONFIRM_LEARN_PREVIEW_TALENTS,Вы действительно хотите изучить эти таланты?,1
 19717,CONFIRM_DELETE_EQUIPMENT_SET,"Вы действительно хотите удалить комплект экипировки ""%s""?",1
 19718,CONFIRM_OVERWRITE_EQUIPMENT_SET,"Комплект экипировки с названием ""%s"" уже существует. Хотите заменить его?",1
@@ -8152,7 +8152,7 @@ ID,BaseTag,TagText_lang,Flags
 19945,ACTION_UNIT_DISSIPATES,рассеивается,1
 19946,ACTION_UNIT_DISSIPATES_FULL_TEXT,%4$s рассеивается.,1
 19947,ACTION_UNIT_DISSIPATES_POSSESSIVE,0,1
-19948,BIND_TRADE_TIME_REMAINING,"В течение %s вы можете отдать этот предмет другому игроку, если тот тоже имеет право получить его.",1
+19948,BIND_TRADE_TIME_REMAINING,"Вы можете отдать этот предмет другому игроку, если тот тоже имеет право получить его, в течение %1$s (включая время, проведенное вне игры).",1
 19949,ERR_TRADE_NOT_ON_TAPLIST,"Вы можете передавать персональные предметы только тем игрокам, которые могли подобрать их сами.",1
 19952,ITEM_REQ_ARENA_RATING_3V3,Требуется личный рейтинг арены %d|nв команде 3 на 3.,1
 19953,ITEM_REQ_ARENA_RATING_5V5,Требуется личный рейтинг арены %d|nв команде 5 на 5,1
@@ -8654,7 +8654,7 @@ ID,BaseTag,TagText_lang,Flags
 20480,ERR_QUEST_FORCE_REMOVED_S,"Задание ""%1$s"" удалено из вашего журнала.",1
 20481,VOTE_BOOT_REASON_REQUIRED,Укажите причину для исключения |3-1(%s) из группы:,1
 20482,CHAT_PARTY_GUIDE_GET,|Hchannel:PARTY|h[Лидер]|h %s:\32,1
-20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,"Добавить или удалить задание из списка отслеживаемых.|nВы также можете щелкнуть по заданию или значку задания, удерживая Shift.",1
+20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,"Добавить или удалить задание из списка отслеживаемых.|nВы также можете щелкнуть по заданию или значку задания, удерживая Shift",1
 20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,Размер карты мира,1
 20485,SPELL_FAILED_CUSTOM_ERROR_91,Вы уже уничтожили нефтяную платформу ТКК.,1
 20486,SPELL_FAILED_CUSTOM_ERROR_92,Вы уже запустили достаточно клеток.,1
@@ -8770,7 +8770,7 @@ ID,BaseTag,TagText_lang,Flags
 20607,BLOCK_INVITES_CONFIRMATION,%s не сможет отправлять вам приглашения. Заблокировать игрока?,1
 20609,BLOCK_INVITES,Заблокировать приглашения,1
 20611,FRIENDS_LIST_ONLINE,В сети,1
-20612,FRIENDS_LIST_OFFLINE,Не в сети,1
+20612,FRIENDS_LIST_OFFLINE,Не в сети,3
 20613,FRIENDS_LIST_AWAY,Отсутствует,1
 20614,FRIENDS_LIST_BUSY,Не беспокоить,1
 20615,FRIENDS_LIST_ENTER_TEXT,Сообщение для друзей,1
@@ -8848,9 +8848,9 @@ ID,BaseTag,TagText_lang,Flags
 20698,TRANSFER_ABORT_UNIQUE_MESSAGE2,"Прежде чем вы покинете эту зону, вам нужно выполнить свое предназначение и долг перед картелем Трюмных Вод.",1
 20699,TRANSFER_ABORT_UNIQUE_MESSAGE3,Судьба Гилнеаса еще не определена. Вы пока не можете уйти.,1
 20700,SPELL_FAILED_CUSTOM_ERROR_108,Посол Шлакомолот уже является вашим пленником.,1
-20701,LASTONLINE_SECS,меньше минуты,1
-20702,LASTONLINE_MINUTES,%d |4минуту:минуты:минут;,1
-20703,BNET_LAST_ONLINE_TIME,последний раз в сети: %s назад,1
+20701,LASTONLINE_SECS,меньше минуты,3
+20702,LASTONLINE_MINUTES,%d |4минуту:минуты:минут;,3
+20703,BNET_LAST_ONLINE_TIME,последний раз в сети: %s назад,3
 20704,SPELL_FAILED_CUSTOM_ERROR_109_MIXED,"Нужно находиться на месте, где побывала воительница леди Наз'жар.",1
 20705,POWER_TYPE_BLUE_POWER,Сила молнии,1
 20706,POWER_TYPE_PURPLE_POWER,Мощь тайной магии,1
@@ -11918,7 +11918,7 @@ ID,BaseTag,TagText_lang,Flags
 24081,SHOW_PET_BATTLES_ON_MAP_TEXT,Битвы питомцев,1
 24084,WEB_BROWSER_IME_ENTRY_TEXT,"Пожалуйста, введите текст",1
 24085,CAN_NOT_RELEASE_IN_COMBAT,Член вашей группы находится в бою.,1
-24086,CONFIRM_UPGRADE_ITEM,"Вы уверены, что хотите улучшить указанный предмет? Стоимость улучшения: %s. После улучшения предмет станет персональным.",1
+24086,CONFIRM_UPGRADE_ITEM,"Вы уверены, что хотите улучшить указанный предмет? Стоимость улучшения: %s.",1
 24087,BATTLEGROUND_IS_READY,Вы можете войти на поле боя!,1
 24088,ITEM_UPGRADE_BONUS_FORMAT,(+%d),1
 24089,POWER_TYPE_TITAN_ENERGY,Энергия титанов,1
@@ -11957,10 +11957,10 @@ ID,BaseTag,TagText_lang,Flags
 24124,BINDING_NAME_TARGETARENA3,Цель - противник на арене 3,1
 24125,BINDING_NAME_TARGETARENA4,Цель - противник на арене 4,1
 24126,BINDING_NAME_TARGETARENA5,Цель - противник на арене 5,1
-24128,ITEM_MOD_CR_UNUSED_1_SHORT,Multi-Strike,1
-24130,ITEM_MOD_CR_UNUSED_3_SHORT,Speed,1
-24131,ITEM_MOD_CR_UNUSED_4_SHORT,Leech,1
-24132,ITEM_MOD_CR_UNUSED_5_SHORT,Avoidance,1
+24128,ITEM_MOD_CR_UNUSED_1_SHORT,к многократной атаке,1
+24130,ITEM_MOD_CR_UNUSED_3_SHORT,Скорость,1
+24131,ITEM_MOD_CR_UNUSED_4_SHORT,Самоисцеление,1
+24132,ITEM_MOD_CR_UNUSED_5_SHORT,Избежание,1
 24133,ITEM_MOD_CR_UNUSED_6_SHORT,Предмет не теряет прочности,1
 24134,ITEM_MOD_CR_UNUSED_7_SHORT,Unused 7,1
 24136,ITEM_MOD_CR_UNUSED_9_SHORT,к универсальности,1
@@ -12651,7 +12651,7 @@ ID,BaseTag,TagText_lang,Flags
 24874,GARRISON_RECRUIT_ABILITIES,Способности,1
 24875,GARRISON_RECRUIT_TRAITS,Особенности,1
 24876,CR_CRIT_PARRY_RATING_TOOLTIP,Вероятность нанести дополнительный урон и восстановить дополнительное здоровье.\n\nВероятность критического удара: %s [+%.2F%%]\n\nПовышает вероятность парирования на %.2F%%.,1
-24877,GARRISON_MATERIAL_TOOLTIP,[PH] Material Tooltip,1
+24877,GARRISON_MATERIAL_TOOLTIP,[PH] Подсказки о материалах,1
 24878,MINIMAP_GARRISON_LANDING_PAGE_TOOLTIP,Показать отчет из гарнизона.,1
 24880,ERR_QUEST_HAS_IN_PROGRESS,Цель на панели состояния не достигнута,1
 24881,GARRISON_MISSION_CHANCE,вероятность\nуспеха,1
@@ -12686,12 +12686,12 @@ ID,BaseTag,TagText_lang,Flags
 24910,GARRISON_MAX_FOLLOWERS_MISSION_TOOLTIP,"У вас слишком много соратников. Освободите лишних от службы, чтобы приступить к новым заданиям.",1
 24911,GARRISON_MAX_FOLLOWERS_TOOLTIP,"У вас слишком много соратников. Освободите лишних от службы, чтобы нанять новых или приступить к новым заданиям.",1
 24912,GARRISON_FOLLOWER_COUNT,Соратники: %s%d/%d%s,1
-24913,GARRISON_DISMISS_FOLLOWER,Dismiss,1
-24914,GARRISON_DISMISS_FOLLOWER_CONFIRMATION,You are about to dismiss this follower permanently. This follower cannot be re-acquired. Dismiss %s?,1
+24913,GARRISON_DISMISS_FOLLOWER,Отослать,1
+24914,GARRISON_DISMISS_FOLLOWER_CONFIRMATION,Вы собираетесь навсегда отослать этого соратника из гарнизона. Вернуть его будет нельзя. Отпустить |3-3(%s)?,1
 24915,GARRISON_MISSION_SUCCESS,Задание выполнено,1
 24916,GARRISON_MISSION_FAILED,Задание провалено,1
 24917,GARRISON_MISSION_PERCENT_CHANCE,%d%%-я вероятность,1
-24918,GARRISON_DISMISS_UNIQUE_FOLLOWER_CONFIRMATION,You are about to dismiss this follower. You can re-acquire this follower from some NPC [NYI]. Dismiss %s?,1
+24918,GARRISON_DISMISS_UNIQUE_FOLLOWER_CONFIRMATION,"Вы собираетесь отослать этого соратника из гарнизона. Его можно будет вернуть, обратившись к NPC. Отпустить |3-3(%s)?",1
 24919,WEEKLY,Еженедельно,1
 24920,YOU_EARNED_LABEL,Вы заслужили,1
 24921,RAID_SETTINGS_ENABLED,Настройки для рейдов и полей боя,3
@@ -14566,7 +14566,7 @@ ID,BaseTag,TagText_lang,Flags
 34007,CHAR_DELETE_FAILED_GUILD_LEADER,"Этот персонаж является главой гильдии. Прежде чем удалить его, необходимо передать звание главы другому персонажу.",2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,"Этот персонаж не может быть удален, поскольку у него есть непрочитанные сообщения в почте.",2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,"Этого персонажа нельзя удалить, пока в его инвентаре, почтовом ящике или среди лотов аукциона находится жетон WoW.",2
-34010,CHAR_DELETE_FAILED_LOCKED_FOR_TRANSFER,"Вы не можете войти в игру, пока начатый вами процесс обновления персонажа не завершен.",2
+34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,"Героя нельзя удалить, пока процесс обновления персонажа не завершен.",2
 34011,CHAR_DELETE_IN_PROGRESS,Удаление персонажа,2
 34012,CHAR_DELETE_SUCCESS,Персонаж удален,2
 34013,CHAR_FACTION_CHANGE_ARENA_LEADER,"Вы не можете сменить расу или фракцию, оставаясь капитаном команды арены.",2
@@ -14839,7 +14839,7 @@ ID,BaseTag,TagText_lang,Flags
 34280,CUSTOMIZE_CHARACTER,Параметры персонажа:,2
 34281,CUSTOMIZE_OPTIONS,Настройка внешности,2
 34282,DEATHKNIGHT_DISABLED,"Чтобы создать рыцаря смерти выбранной расы, требуется дополнение Shadowlands.",2
-34283,DEBUG_BUILD,Debug,2
+34283,DEBUG_BUILD,Отладка,2
 34284,DELETE_CHARACTER,Удалить персонажа,2
 34285,DELETE_CONFIRM_STRING,УДАЛИТЬ,2
 34286,DEMONHUNTER_DISABLED,Требуется дополнение Legion и наличие персонажа 70-го уровня.,2
@@ -15338,7 +15338,7 @@ ID,BaseTag,TagText_lang,Flags
 34837,SPELL_FAILED_CUSTOM_ERROR_297,Требуется 1 иссхощий берсерк.,1
 34838,SPELL_FAILED_CUSTOM_ERROR_298,Требуется 2 иссохших берсерка.,1
 34839,ARTIFACTS_NUM_PURCHASED_RANKS,Уровень артефакта: %d,1
-34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,"|HlootHistory:%d|h[Добыча]|h: Разыгрывается: %s. Вы сказали: ""Мне это нужно"" (вторая специализация).",1
+34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,|HlootHistory:%d|h[Loot]|h: You have selected Need (Off-Spec) for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 34845,BOOST2_ROGUEASSN_REMIND_GARROTE,Используйте |cFFFFFFFFГарроту|r.,1
 34846,LOOT_ROLL_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%1$d|h[Добыча]|h: %2$s выигрывает предмет %4$s (""Нужно"" – %3$d, вторая специализация)",1
 34847,LOOT_ROLL_YOU_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%1$d|h[Добыча]|h: вы выигрываете предмет %3$s (""Нужно"" – %2$d, вторая специализация)",1
@@ -15390,7 +15390,7 @@ ID,BaseTag,TagText_lang,Flags
 34897,WORLD_QUEST_CANT_COMPLETE_BY_SPELL,Вы не можете использовать это в заданиях данного типа.,1
 34898,BOOST2_SHAMANELE_HEX,"Используйте |cFFFFFFFFСглаз|r, чтобы превратить цель в лягушку.",1
 34899,MAELSTROM_POWER,Энергия Водоворота,1
-34900,ARCANE_CHARGES_POWER,|4чародейский заряд:чародейских заряда:чародейских зарядов;,1
+34900,ARCANE_CHARGES_POWER,|4Чародейский заряд:Чародейские заряды:Чародейские заряды;,1
 34901,INSANITY_POWER,Безумие,1
 34903,CHAT_BUBBLES_EXCLUDE_PARTY_CHAT,Исключить канал группы,1
 34904,DUNGEON_FLOOR_ULDUARMAGNI1,Вестибюль Ульдуара,1
@@ -15792,7 +15792,7 @@ ID,BaseTag,TagText_lang,Flags
 35327,BINDING_NAME_TOGGLECOLLECTIONSWARDROBE,Сменить внешность,1
 35328,TRANSMOGRIFY_ILLUSION_INVALID_ITEM,К этому облику предмета нельзя применить трансмогрификацию иллюзиями.,1
 35329,ARENA_RATED_QUEUES_DISABLED,Очереди на рейтинговые бои временно недоступны.,1
-35330,ERR_TEST_CVAR_SET_SSS,Test CVar %s has been set to %s (default %s),1
+35330,ERR_TEST_CVAR_SET_SSS,,1
 35331,BOSS_BANNER_LOOT_SET,Комплект: %s,1
 35332,SEND_ITEMS_TO_STRANGER_WARNING,"Возможно, вы не знакомы с владельцем этого персонажа. |n|n Вы действительно хотите отправить игроку %s эти предметы?",1
 35333,SEND_MONEY_TO_STRANGER_WARNING,"Возможно, вы не знакомы с владельцем этого персонажа. |n|n Вы действительно хотите отправить игроку %s указанную сумму?",1
@@ -16284,7 +16284,7 @@ ID,BaseTag,TagText_lang,Flags
 35871,SLASH_COMMENTATOR_OVERRIDE4,/пи,1
 35872,SLASH_RESET_COMMENTATOR_SETTINGS1,/resetcommentatorsettings,1
 35873,SLASH_RESET_COMMENTATOR_SETTINGS2,/сброснастроеккомментатора,1
-35874,SPELL_FAILED_AREA_TRIGGER_CREATION,Spell Failed to create area trigger,1
+35874,SPELL_FAILED_AREA_TRIGGER_CREATION,Не удалось создать инициатор области,1
 35875,ERROR_SLASH_COMMENTATOROVERRIDE,Использование: /overridename <старое имя> <новое имя>,1
 35877,ERROR_SLASH_COMMENTATOROVERRIDE_EXAMPLE,Пример: /overridename Миша Вася,1
 35878,SLASH_COMMENTATOROVERRIDE_SUCCESS,Игрок |cffffffff%s|r теперь носит имя |cffffffff%s|r.,1
@@ -16303,8 +16303,8 @@ ID,BaseTag,TagText_lang,Flags
 35893,TALENT_GRANTED_BY_ITEM,Источник: %s.,1
 35894,BLIZZARD_STORE_VAS_ERROR_BOOSTED_TOO_RECENTLY,"- Прошло слишком мало времени с момента повышения уровня этого персонажа. Пожалуйста, попробуйте позже.",3
 35895,COMMENTATOR_VICTORY_FANFARE_TEXT,ПОБЕДИТЕЛЬ,1
-35896,ACHIEVEMENT_TOOLTIP_COMPLETE_EU,Achievement earned by %1$s on %3$02d/%2$d/20%4$02d,1
-35897,ACHIEVEMENT_COMPARISON_COMPLETED_EU,|A:achievementcompare-GreenCheckmark:0:0|a You completed this on %2$02d/%1$d/20%3$02d,1
+35896,ACHIEVEMENT_TOOLTIP_COMPLETE_EU,Достижение получено |3-4(%1$s) %3$02d/%2$d/20%4$02d г.,1
+35897,ACHIEVEMENT_COMPARISON_COMPLETED_EU,|A:achievementcompare-GreenCheckmark:0:0|a Вы получили это достижение %2$02d/%1$d/20%3$02d г.,1
 35898,DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO0,Драконий Погост,1
 35899,DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO1,Обсидиановое святилище драконов,1
 35900,DUNGEON_FLOOR_DRAGONBLIGHTCHROMIESCENARIO2,Андорал,1
@@ -16486,7 +16486,7 @@ ID,BaseTag,TagText_lang,Flags
 36087,SPELL_FAILED_CUSTOM_ERROR_355,У вас пока нет фоновых изображений.,1
 36088,VOICE_CHAT_SETTINGS,Настройки голосового чата,1
 36090,SPELL_FAILED_CUSTOM_ERROR_356,Сейчас для вас здесь нет ничего интересного.,1
-36091,_JKL_TEST,_JKL_TEST,1
+36091,_JKL_TEST,,1
 36092,BOOST2_DEMONHUNTER_FELRUSH,"Используйте |cFFFFFFFF""Рывок Скверны""|r, чтобы добраться до противника.",1
 36093,BOOST2_DEMONHUNTER_DEMONSBITE,"Используйте |cFFFFFFFF""Укус демона""|r чтобы атаковать цель и накопить гнев.",1
 36094,BOOST2_DEMONHUNTER_CHAOSSTRIKE,"Используйте |cFFFFFFFF""Удар Хаоса""|r.",1
@@ -17179,7 +17179,7 @@ ID,BaseTag,TagText_lang,Flags
 36910,GARRISON_TYPE_8_0_LANDING_PAGE_TOOLTIP,"Щелкните, чтобы просмотреть отчет.",1
 36911,MYTHIC_PLUS_BEST_WEEKLY,Рекорд: |cFFFFFFFF%s (%d)|r,1
 36912,MYTHIC_PLUS_INCOMPLETE_WEEKLY_KEYSTONE,"Завершите подземелье со своим эпохальным ключом, чтобы получить:",1
-36913,MYTHIC_PLUS_MISSING_KEYSTONE_MESSAGE,"На эпохальном уровне после прохождения каждого подземелья сложность следующего возрастает, а награды становятся более ценными.\n\nРаз в неделю вы будете получать награды в зависимости от пройденных эпохальных подземелий.\n\nЧтобы начать, выберите эпохальный уровень сложности и пройдите любое из перечисленных ниже подземелий.",1
+36913,MYTHIC_PLUS_MISSING_KEYSTONE_MESSAGE,"На эпохальном уровне после прохождения каждого подземелья сложность следующего возрастает, а награды становятся более ценными.\n\nРаз в неделю вы будете получать награды в зависимости от пройденных эпохальных подземелий.\n\nЧтобы начать, выберите эпохальный уровень сложности и пройдите любое из перечисленных подземелий.",1
 36914,CALENDAR_CREATE_COMMUNITY_EVENT,Создать событие сообщества,1
 36915,MYTHIC_PLUS_CHEST_KEYSTONE_LEVEL,Трофеи %d-го эпохального уровня,1
 36916,COMMUNITIES_INVITATION_SENT,"Вы пригласили |3-3(%s) присоединиться к команде ""%s"".",1
@@ -17853,7 +17853,7 @@ ID,BaseTag,TagText_lang,Flags
 41463,CHARACTER_SHEET_MICRO_BUTTON_AZERITE_ESSENCE_SLOT_AVAILABLE,В Сердце Азерот есть неиспользуемая ячейка для сущности.,1
 41464,NEW_AZERITE_ESSENCE_SLOT_UNLOCKED,Открыта новая ячейка для сущности,1
 41465,NEW_AZERITE_ESSENCE_MILESTONE_UNLOCKED,Доступна новая особая возможность,1
-41468,PLACEHOLDER_SCENE,Cutscene Placeholder,1
+41468,PLACEHOLDER_SCENE,,1
 41469,UNITNAME_SUMMON_TITLE43,Механизм |3-1(%s),1
 41471,SPELL_FAILED_CUSTOM_ERROR_415,У вас недостаточно таких предметов.,1
 41472,SPELL_FAILED_CUSTOM_ERROR_416,Требуется маяк титанов,1
@@ -18574,7 +18574,7 @@ ID,BaseTag,TagText_lang,Flags
 42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Поговорите|r с воеводой Брекой Люторез,1
 42345,RUNEFORGE_LEGENDARY_POWER_LIST_LABEL,Выберите легендарную способность,1
 42346,NPEV2_INTRO_RANGED_COMBAT,|cFFFFD200Выберите|r целью боевой манекен.,1
-42347,SOULBIND_RESET_BUTTON,"TEMPORARY: Reset the flow of anima through this Soulbind.\n\n(NYI) In an upcoming build, this will be usable once per week to reset applied Conduits for this Soulbind.",1
+42347,SOULBIND_RESET_BUTTON,Сброс,1
 42348,NPEV2_RESOURCE_CALLOUT_WARRIOR,"|cFFFF0000Ярость накапливается|r, когда вы атакуете и получаете урон.\n\nНакопив достаточно ярости, нажмите |cFF00FFFF%s|r, чтобы применить |cFF00FFFF%s|r еще раз.",1
 42349,NPEV2_RESOURCE_CALLOUT_ENERGY,"|cFFFFFF00Энергия|r восстанавливается со временем.\n\nНакопив достаточно энергии, нажмите |cFF00FFFF%s|r, чтобы применить |cFF00FFFF""%s""|r еще раз.",1
 42350,NPEV2_RESOURCE_CALLOUT_MANA,"|cFF00FFFFСиняя шкала|r – это ваш запас |cFF00FFFFманы|r, которая нужна для применения заклинаний.",1
@@ -18584,7 +18584,7 @@ ID,BaseTag,TagText_lang,Flags
 42355,MAP_PIN_SHARING_TOOLTIP,"Вы можете отправить эти координаты другим игрокам, разместив ссылку в чате.|n|n|cff20ff20<Щелкните, удерживая Shift, чтобы поделиться координатами в чате.>|r",1
 42356,MAP_PIN,Точка на карте,1
 42357,MAP_PIN_TOOLTIP,"Вы можете поставить на карте отслеживаемую точку, чтобы ориентироваться на нее и давать ссылку другим игрокам.",1
-42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,"Щелкните по этой кнопке и укажите нужное место на карте, чтобы поставить точку, или <сразу щелкните по карте, удерживая клавишу Control>.",1
+42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,"Чтобы поставить точку, щелкните по этой кнопке, а затем по карте. Или <сразу щелкните по карте, удерживая Ctrl>.",1
 42360,NPEV2_APPROACH_WANDERING_BOAR,Подойдите ближе к |cFFFFD200блуждающему кабану|r.,1
 42361,RUNEFORGE_LEGENDARY_COST_FORMAT,Цена: %s%s|r |cffffffff/ %s|r,1
 42362,RUNEFORGE_LEGENDARY_MODIFIER_UNAVAIBLE_TOOLTIP,Отсутствует в снаряжении,1
@@ -18831,7 +18831,7 @@ ID,BaseTag,TagText_lang,Flags
 42626,CONDUIT_SLOT_POTENCY,Ячейка для проводника силы,1
 42627,CONDUIT_SLOT_ENDURANCE,Ячейка для проводника выносливости,1
 42628,COVENANT_MISSIONS_NOT_ENOUGH_MATERIALS,"У вас недостаточно ресурсов, чтобы начать это приключение.",1
-42629,SOULBIND_STAMINA_BONUS,[PH] Activating this row increases your stamina by %s%%.,1
+42629,SOULBIND_STAMINA_BONUS,"Активируйте этот ряд, чтобы повысить свою выносливость на %s%%.",1
 42630,SOULBIND_NODE_ACTIVATE,"Щелкните, чтобы активировать.",1
 42631,SOULBIND_NODE_UNSELECTED,"Вы должны находиться в зоне отдыха, чтобы активировать этот путь.",1
 42632,SOULBIND_NODE_DISCONNECTED,Нет связей,1
@@ -19018,13 +19018,13 @@ ID,BaseTag,TagText_lang,Flags
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,ЖДУТ,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,ОФОРМИТЬ ПОДПИСКУ,1
 42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,УЛУЧШИТE,1
-42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,"учетную запись, чтобы:",1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,РАЗВИВАТЬ ПЕРСОНАЖА ДО 50-ГО УРОВНЯ;,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ВЫПОЛНИТЬ ТЫСЯЧИ НОВЫХ ЗАДАНИЙ;,1
-42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ЗАВЕРШИТЬ БИТВУ ЗА АЗЕРОТ;,1
-42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,ПОЛУЧИТЬ ДОСТУП К WOW CLASSIC;,1
-42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,И НЕ ТОЛЬКО!,1
-42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,УЛУЧШИТЬ,1
+42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Оформите подписку и продолжите великое приключение,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,РАЗВИВАТЬ ПЕРСОНАЖА ДО 60-ГО УРОВНЯ,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ПЕРЕЖИТЬ НЕЗАБЫВАЕМЫЕ ПРИКЛЮЧЕНИЯ В АЗЕРОТЕ И ЗА ЕГО ПРЕДЕЛАМИ,1
+42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ПОЛУЧИТЬ ДОСТУП К WOW CLASSIC,1
+42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,И НЕ ТОЛЬКО!,1
+42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
+42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,ОФОРМИТЬ ПОДПИСКУ,1
 42828,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER1,|A:newplayerchat-chaticon-guide:0:0:0:0|a|cff81b558Менторы|r могут ответить на ваши вопросы.,1
 42829,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER2,"Чтобы задать вопрос, нажмите |cff00ff00%s|r и введите сообщение.",1
 42830,SOULBIND_APPLY_CONDUITS_BUTTON,Применить проводники,1
@@ -19056,7 +19056,7 @@ ID,BaseTag,TagText_lang,Flags
 42858,CHROMIE_TIME_CAMPAIGN_ALREADY_ON,Вы уже проходите эту кампанию,1
 42859,NPEV2_CHAT_GUIDE_FRAME_ACHIEVEMENT_EARNED,Получено достижение:|n%s,1
 42860,NPEV2_CHAT_GUIDE_FRAME_ACHIEVEMENT_COUNT_EARNED,Получено %d |4достижение:достижения:достижений; из|n%s,1
-42861,SOULBIND_RESET_BUTTON_TEMP,"(NYI) In an upcoming build, this will be usable once per week to reset applied Conduits for this Soulbind.",1
+42861,SOULBIND_RESET_BUTTON_TEMP,,1
 42862,GAIN_MAW_POWER_SELF,Получена способность анимы: %s,1
 42863,COVENANT_MISSIONS_ADVENTURE_COMPLETE,Приключение завершено,1
 42864,COVENANT_MISSIONS_HEAL_ALL,Общее исцеление,1
@@ -19149,7 +19149,7 @@ ID,BaseTag,TagText_lang,Flags
 42951,CONDUIT_ITEM_LOOT_LABEL,Ваша добыча,1
 42952,COVENANT_MISSIONS_COMBAT_LOG_HEADER,Журнал боя,1
 42953,AUCTION_HOUSE_FILTER_RUNECARVING,|cff00ccffВырезание рун|r,1
-42954,MAP_PIN_REMOVE,"<Щелкните, удерживая Ctrl, чтобы убрать точку>",1
+42954,MAP_PIN_REMOVE,"<Ctrl+ЛКМ, чтобы убрать точку>",1
 42955,NPEV2_CHAT_HELP_HINT_HERE,Здесь вы можете задать вопросы в чате для новичков.,1
 42956,NPEV2_CHAT_HELP_HINT_DIFFERENT,"Нажмите %s, чтобы задать вопросы в чате для новичков.",1
 42957,BOOST2_SHAMANENHANCE_FLAMETONGUEWEAPON,"Примените |cFFFFFFFF""Язык пламени""|r.",1
@@ -19601,7 +19601,7 @@ ID,BaseTag,TagText_lang,Flags
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Убивайте врагов, освобождайте души и разбивайте урны, чтобы заполнять шкалу усиления",1
 44006,TORGHAST_DOMINANCE_BAR_CUTOFF_TIP,"Пересеките эту черту, чтобы получить особое усиление. Заполните шкалу полностью, чтобы оно длилось дольше.",1
 44007,SPELL_FAILED_CUSTOM_ERROR_601,"Поговорите с архивариусом, чтобы сдать фрагменты реликвий.",1
-44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Рейтинг |3-1(%1$s) увеличен! Получены дополнительные очки доблести.,1
+44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Счет |3-1(%1$s) повышен!,1
 44009,VOICE_GENERIC_FORMAT,Английский голос: %1$d,1
 44010,SPELL_FAILED_CUSTOM_ERROR_602,"Требуются знания, полученные из отчета об исследованиях: древние святилища",1
 44011,SLASH_TEXTTOSPEECH_ON,вкл,1
@@ -19732,15 +19732,15 @@ ID,BaseTag,TagText_lang,Flags
 44154,ITEM_COSMETIC_LEARN,Использование: добавляет эту иллюзию для трансмогрификации в вашу коллекцию.,1
 44155,ERR_COSMETIC_KNOWN,Уже известно,1
 44156,SPELL_FAILED_CUSTOM_ERROR_613,Вы не состоите в нужной группе и не можете добавлять ингредиенты в каменный суп.,1
-44157,GRAPHICS_SUBTEXT,Graphics description placeholder,3
-44158,NETWORK_SUBTEXT,Network description placeholder,3
-44159,INTERFACE_SUBTEXT,Interface description placeholder,1
+44157,GRAPHICS_SUBTEXT,,3
+44158,NETWORK_SUBTEXT,,3
+44159,INTERFACE_SUBTEXT,,1
 44160,INTERFACE_LABEL,Интерфейс,1
-44161,COLORBLIND_SUBTEXT,Colorblind description placeholder,1
+44161,COLORBLIND_SUBTEXT,,1
 44162,COLORBLIND_LABEL,Альтернативные цвета,1
-44163,TTS_SUBTEXT,TTS description placeholder,1
+44163,TTS_SUBTEXT,,1
 44164,TTS_LABEL,Текст в речь,1
-44165,ACCESSIBILITY_GENERAL_SUBTEXT,Accessibility general description placeholder,1
+44165,ACCESSIBILITY_GENERAL_SUBTEXT,,1
 44166,ACCESSIBILITY_GENERAL_LABEL,Общее,1
 44167,SPELL_FAILED_CUSTOM_ERROR_614,Новые данные отсутствуют.,1
 44168,ERR_APPEARANCE_ALREADY_LEARNED,У вас уже есть этот облик,1
@@ -19827,7 +19827,7 @@ ID,BaseTag,TagText_lang,Flags
 44254,GROUP_FINDER_PVP_RATING_REQ_TOOLTIP,Требуется PvP-рейтинг: |cffffffff%1$d|r,1
 44255,OPTION_TOOLTIP_ENABLE_MOUSEOVER_CAST,"Эта настройка позволяет применять заклинания нажатием горячей клавиши, наводя указатель мыши на рамку портрета и не выбирая цель.",1
 44262,ITEM_UPGRADE_COST_LABEL,Общая цена:,1
-44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Уровень %1$d,1
+44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Уровень: %d/%d,1
 44264,ITEM_UPGRADE_ITEM_LEVEL_BONUS_STAT_FORMAT,Уровень предмета: |cff20ff20%1$d (+%2$d)|r,1
 44265,ITEM_UPGRADE_ITEM_LEVEL_STAT_FORMAT,Уровень предмета: %1$d,1
 44266,ITEM_UPGRADE_INACTIVE_BONUS_STAT_FORMAT,|cff7f7f7f%1$d (+%2$d) %3$s|r,1
@@ -19873,7 +19873,7 @@ ID,BaseTag,TagText_lang,Flags
 44312,BLACK_ESSENCE_COST_PER_TIME,%1$s ед. черной сущности + %2$s/сек.,1
 44313,BLACK_ESSENCE_COST,%1$s ед. черной сущности,1
 44314,MAC_SETTINGS_LABEL,Клавиатура,3
-44315,MAC_SETTINGS_SUBTEXT,[NL] Keyboard Options Subtext TEMP,3
+44315,MAC_SETTINGS_SUBTEXT,,3
 44316,CURSOR_SIZE_DEFAULT,По умолчанию,3
 44317,CURSOR_SIZE,Размер курсора,3
 44318,CURSOR_SIZE_TOOLTIP,Изменяет размер курсора,3
@@ -19895,12 +19895,13 @@ ID,BaseTag,TagText_lang,Flags
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Включить чат,1
 44342,REGIONAL_RESTRICT_CHAT_DIALOG_DISABLE,Оставить чат отключенным,1
 44343,RESTRICT_CHAT_MESSAGE_SUPPRESSED,Вы не можете получать и отправлять сообщения при отключенном чате.,1
-44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Настройки чата,1
-44346,RESTRICT_CHAT_CONFIG_TOOLTIP,"Нажмите на ""%1$s"", чтобы восстановить параметры чата.",1
+44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Параметры чата,1
+44346,RESTRICT_CHAT_CONFIG_TOOLTIP,"|cnRED_FONT_COLOR:Вы не можете изменять параметры чата, когда он отключен.|r
+|cnGREEN_FONT_COLOR:<Щелкните, удерживая Shift, чтобы просмотреть параметры чата>|r",1
 44347,RESTRICT_CHAT_CONFIG_ENABLE,Включить чат,1
 44348,RESTRICT_CHAT_CONFIG_DISABLE,Отключить чат,1
 44349,RESTRICT_CHAT_CONFIG_DIALOG_MESSAGE,"Вы уверены, что хотите полностью отключить чат?\n\nВы не сможете ни отправлять, ни получать сообщения.",1
-44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,"<Щелкните, удерживая Shift, чтобы просмотреть настройки чата>",1
+44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,"<Щелкните, удерживая Shift, чтобы просмотреть параметры чата>",1
 44351,RESTRICT_CHAT_CONFIG_DIALOG_DISABLE,Отключить чат,1
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Отмена,1
 44357,SPELL_FAILED_CUSTOM_ERROR_627,Вы уже достигли необходимого уровня известности в вашем текущем ковенанте.,1
@@ -19980,7 +19981,7 @@ ID,BaseTag,TagText_lang,Flags
 44434,VIDEO_OPTIONS_RESAMPLE_QUALITY_POINT,"Увеличение масштаба, приводящее к четкому изображению с видимыми пикселями.",3
 44435,VIDEO_OPTIONS_RESAMPLE_QUALITY_BILINEAR,"Увеличение масштаба, приводящее к сильному сглаживанию изображения или сглаживанию SSAA стандартного качества при масштабе прорисовки, превышающем 100%.",3
 44436,VIDEO_OPTIONS_RESAMPLE_QUALITY_BICUBIC,"Увеличение масштаба, приводящее к сглаживанию изображения или сглаживанию SSAA улучшенного качества при масштабе прорисовки, превышающем 100%.",3
-44437,VIDEO_OPTIONS_RESAMPLE_QUALITY_FSR,"AMD FidelityFX Super Resolution 1.0 – передовая высоко оптимизированная технология пространственного масштабирования, позволяющая добиться высокого качества изображения, не жертвуя частотой кадров.",3
+44437,VIDEO_OPTIONS_RESAMPLE_QUALITY_FSR,"AMD FidelityFX Super Resolution 1.0 – передовая высоко оптимизированная технология пространственного масштабирования. Она позволяет добиться высокого качества изображения, не жертвуя частотой кадров.",3
 44438,PCT_FLOW_DESTINATION_ACCOUNT_DROPDOWN_DIFFERENT,Другая учетная запись Blizzard,2
 44439,RESAMPLE_SHARPNESS,Ресэмплинг резкости,3
 44440,OPTION_TOOLTIP_SHARPNESS,"Настройка степени резкости, достигаемой эффектом FidelityFX Super Resolution, где ""0"" – самая высокая степень.",3
@@ -20085,7 +20086,7 @@ ID,BaseTag,TagText_lang,Flags
 48676,ORDER_HALL_TALENT_SELECT,Выберите щелчком мыши,1
 48677,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_USABLE_WITH,Применяется: |cffffffff%1$s|r,1
 48678,POWER_TYPE_ANDUIN_WILL,Воля Андуина,1
-48679,POWER_TYPE_REMNANT_TIMER,Remnant Timer,1
+48679,POWER_TYPE_REMNANT_TIMER,Энергия тени,1
 48680,PVP_BRAWL_TOOLTIP_ALL_ARENA_MAPS,- Все арены,1
 48681,SOLO_BRAWL_CANT_QUEUE,"Вы не можете этого делать, пока вы в группе.",1
 48682,METRIAL_TREE_DESCRIPTION,Основные системы,1
@@ -20145,7 +20146,7 @@ ID,BaseTag,TagText_lang,Flags
 48749,NOTCH_MODE_WINDOW_BELOW,Сдвиг окна,3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Сдвигает окно ниже выреза и добавляет черную полосу,3
 48751,PLAYER_CHOICE_QUALITY_STRING_EMPTY,|n|n,1
-48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_OPTIONAL,Дополнительный реагент,1
+48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING,Дополнительный реагент,1
 48753,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_BASIC,Используется для ремесел,1
 48754,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_FINISHING,Завершающий реагент,1
 48755,JAILERS_TOWER_LEVEL_TOAST_BOSS_RUSH,Испытание Тюремщика,1
@@ -20153,7 +20154,7 @@ ID,BaseTag,TagText_lang,Flags
 48757,DDD_COUNTDOWN3,3...,1
 48758,DDD_COUNTDOWN2,2...,1
 48759,DDD_COUNTDOWN1,1...,1
-48760,_RK_TEST,Just a test,1
+48760,_RK_TEST,,1
 48761,PROFESSIONS_REAGENT_QUALITY,Качество реагента: %1$s,1
 48762,PROFESSIONS_CRAFTED_QUALITY,Качество изготовления: %1$s,1
 48763,PROFESSIONS_CRAFTING_STAT_DIFFICULTY,Уровень рецепта:,1
@@ -20312,7 +20313,7 @@ ID,BaseTag,TagText_lang,Flags
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Экипируемое заклинание – защитное,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Экипируемое заклинание – вспомогательное,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Экипируемое заклинание – атакующее,1
-48947,INVTYPE_EQUIPABLESPELL_MOBILITY,Экипируемое заклинание – передвижения,1
+48947,INVTYPE_EQUIPABLESPELL_WEAPON,Экипируемое заклинание – оружие,1
 48948,SOCIAL_CONTRACT_TITLE_BAR,Общественный договор,2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,Принять,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,Выйти из игры,2
@@ -20413,8 +20414,8 @@ ID,BaseTag,TagText_lang,Flags
 49074,ADVANCED_CONFIRM_STRING,УСЛОЖНЕНИЕ,2
 49075,CHOOSE_DIFF_CLASS,Я выберу другой класс,2
 49076,CONTINUE_WITH_EVOKER,Начать за пробудителя,2
-49077,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_SIZE,Размер значка,1
-49078,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_PADDING,Края значка,1
+49077,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_SIZE,Размер значков,1
+49078,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_PADDING,Отступ между значками,1
 49079,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING,Показать панель,1
 49081,HUD_EDIT_MODE_SETTING_ACTION_BAR_SNAP_TO_RIGHT_SIDE,Перенести вправо,1
 49082,HUD_EDIT_MODE_SETTING_ACTION_BAR_ORIENTATION_HORIZONTAL,Горизонтально,1
@@ -20531,7 +20532,7 @@ ID,BaseTag,TagText_lang,Flags
 49208,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH_TITLE,"Изучить специализацию ""%1$s""?",1
 49209,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_PATH,"Открыть подспециализацию ""%1$s""? Все сделанные изменения будут сохранены.",1
 49210,PROFESSIONS_SPECIALIZATION_UNLOCK_PATH,Открыть подспециализацию,1
-49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Разблокировать специализацию,1
+49211,PROFESSIONS_SPECIALIZATION_UNLOCK_TAB,Открыть специализацию,1
 49212,PROFESSIONS_SPECIALIZATION_SUBPATH_UNLOCK_REQUIREMENT,"Чтобы открыть подспециализацию, требуется %1$d |4очко:очка:очков; в специализации ""%2$s"".",1
 49213,PROFESSIONS_SPECIALIZATION_PERK_RANK_SOURCE,"Нужно %d |4очко:очка:очков; в специализации ""%s"".",1
 49214,PROFESSIONS_SPECIALIZATION_PERK_UNLOCK_SOURCE,"Требуется открыть специализацию: ""%1$s"".",1
@@ -20663,7 +20664,7 @@ ID,BaseTag,TagText_lang,Flags
 49365,PRESS_AND_HOLD_CASTING_OPTION,Применение удержанием,1
 49366,PRESS_AND_HOLD_CASTING_OPTION_TOOLTIP,"При активации позволяет зажать и удерживать горячую клавишу, чтобы непрерывно применять заклинание с панели команд без повторного нажатия клавиши. Действует только для горячих клавиш на клавиатуре. Заклинание по щелчку мыши будет по-прежнему применяться только один раз.",1
 49367,OPTIONAL_REAGENT_TOOLTIP_CLICK_TO_EXCHANGE,"|cnDISABLED_FONT_COLOR:Щелкните ЛКМ, чтобы обменять дополнительный реагент|r",1
-49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Хотите ли вы заменить %1$s?\nПри переделке предмета дополнительный реагент будет уничтожен.,1
+49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Заменить %1$s?\nПри переделке предмета реагент будет уничтожен.,1
 49369,CHAR_CREATE_EVOKER_LEVEL_REQUIREMENT,"Вы можете создать пробудителя, только если у вас есть персонаж по меньшей мере 50-го уровня в этом игровом мире.",2
 49370,CHAR_CREATE_EVOKER_DUPLICATE,В этом игровом мире можно создать только одного пробудителя.,2
 49372,SPELL_FAILED_CUSTOM_ERROR_802,"Утка не хочет играть, когда рядом есть другой маэстро.",1
@@ -20745,20 +20746,20 @@ ID,BaseTag,TagText_lang,Flags
 49468,MAJOR_FACTION_RENOWN_TOOLTIP_PROGRESS,"Улучшайте отношение фракции ""%1$s"", чтобы повышать уровень известности и открывать награды.",1
 49469,PROFESSIONS_RECIPE_UNLEARNED,Рецепт не изучен,1
 49471,MAJOR_FACTION_RENOWN_CURRENT_PROGRESS,Текущий прогресс: |cffffffff%1$d/%2$d|r,1
-49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a Завершение: %d дн.,1
-49473,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP,Контур значка,1
-49474,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_DOWN,Внизу,1
-49475,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_UP,Сверху,1
+49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a До завершения %1$s,1
+49473,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP,Направление значков,1
+49474,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_DOWN,Вниз,1
+49475,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_UP,Вверх,1
 49476,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_LEFT,Слева,1
 49477,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_RIGHT,Справа,1
-49478,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION,Направление значка,1
+49478,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION,Выравнивание значков,1
 49479,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_DOWN,Вниз,1
 49480,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_UP,Вверх,1
 49481,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_LEFT,Влево,1
 49482,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_RIGHT,Вправо,1
-49483,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_LIMIT,Границы значка,1
-49484,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_SIZE,Размер значка,1
-49485,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_PADDING,Края значка,1
+49483,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_LIMIT,Количество значков,1
+49484,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_SIZE,Размер значков,1
+49485,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_PADDING,Отступ между значками,1
 49486,PERKS_PROGRAM_CURRENCY_AWARD,+%d %s,1
 49487,SPELL_FAILED_CUSTOM_ERROR_804,У вас недостаточно золота.,1
 49488,TRADERS_CACHE,Торговый сундук,1
@@ -20798,7 +20799,7 @@ ID,BaseTag,TagText_lang,Flags
 49522,PROFESSIONS_ITEM_RECRAFT_UNLEARNED,"Вы должны знать рецепт предмета, чтобы его переделать",1
 49523,TALENT_FRAME_EXPORT_TEXT,Код макета скопирован в буфер обмена.,1
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Импорт,1
-49525,TALENT_FRAME_DROP_DOWN_EXPORT,Поделиться |cnLIGHTGRAY_FONT_COLOR:(скопировать в буфер обмена)|r,1
+49525,TALENT_FRAME_DROP_DOWN_EXPORT,Поделиться,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Говорящая голова,1
 49527,PERKS_PROGRAM_SERVER_ERROR,Ошибка связи с сервером.  Попробуйте позже.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Выход из транспорта,1
@@ -20836,7 +20837,7 @@ ID,BaseTag,TagText_lang,Flags
 49567,HUD_EDIT_MODE_SETTING_UNIT_FRAME_HEIGHT,Высота рамки рейда,1
 49568,HUD_EDIT_MODE_SETTING_UNIT_FRAME_DISPLAY_BORDER,Показывать границы,1
 49570,TALENT_BUTTON_TOOLTIP_REPURCHASE_INSTRUCTIONS,"Щелкните, удерживая Shift, чтобы заново изучить все отмененные таланты",1
-49571,HUD_EDIT_MODE_ARENA_FRAMES_LABEL,Рамки портретов на арене,1
+49571,HUD_EDIT_MODE_ARENA_FRAMES_LABEL,Рамки арены,1
 49576,PROFESSIONS_ADD_ENCHANT,Выберите предмет для наложения чар,1
 49577,PROFESSIONS_CRAFTING_ORDER_LISTED,Заказ размещен,1
 49578,PROFESSIONS_CRAFTING_ORDER_IN_PROGRESS,Заказ выполняется,1
@@ -20859,7 +20860,7 @@ ID,BaseTag,TagText_lang,Flags
 49599,PROFESSIONS_ORDER_CANCEL_FAILED_CLAIMED,"Не удалось отменить заказ. Если мастер уже взялся за заказ, его нельзя отменить.",1
 49600,POWER_TYPE_STORMENERGY,Энергия шторма,0
 49602,TALENT_FRAME_NEW_LOADOUT_DISABLED_TOOLTIP,"Максимальное количество макетов. Удалите один из макетов любой специализации, чтобы освободить место.",1
-49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,Этот реагент включен в заказ.,1
+49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,Этот реагент был предоставлен заказчиком.,1
 49606,PROFESSIONS_CUSTOMER_NO_ORDERS,Заказов не найдено,1
 49607,TALENT_FRAME_SEARCH_TOOLTIP_NOT_ON_ACTIONBAR,Нет на панели команд,1
 49608,TALENT_FRAME_SEARCH_PREVIEW_OVERFLOW_FORMAT,И еще %s,1
@@ -20887,9 +20888,9 @@ ID,BaseTag,TagText_lang,Flags
 49632,PROFESSIONS_ORDER_ABOUT_TO_EXPIRE,"Срок действия заказа скоро кончится. Если вы его получите, это не повлияет на лимит ежедневных заказов.",1
 49633,SPELL_FAILED_CUSTOM_ERROR_811,У вас уже есть душа этого типа.,1
 49634,TALENT_FRAME_DROP_DOWN_TOOLTIP_EDIT,Настройки макета,1
-49635,EDIT_MODE_HELPTIPS_1,Выберите шаблон или создайте новый макет в этом меню.,1
-49636,EDIT_MODE_HELPTIPS_2,"Проставьте галочки, чтобы настроить обычно невидимые элементы интерфейса.",1
-49637,EDIT_MODE_HELPTIPS_3,"Щелкните подсвеченный элемент интерфейса в меню, чтобы начать.",1
+49635,EDIT_MODE_HELPTIPS_LAYOUTS,Выберите шаблон или создайте новый макет в этом меню.,1
+49636,EDIT_MODE_HELPTIPS_SHOW_HIDDEN_FRAMES,"Проставьте галочки, чтобы настроить обычно невидимые элементы интерфейса.",1
+49637,EDIT_MODE_HELPTIPS_SELECT_FRAMES,"Щелкните подсвеченный элемент интерфейса в меню, чтобы начать.",1
 49638,SPELL_FAILED_CUSTOM_ERROR_812,Здесь нельзя совершить это действие.,1
 49639,EDIT_MODE_HELPTIP_BUTTON_TOOLTIP,"Щелкните, чтобы включить или выключить подсказки в режиме редактирования.",1
 49640,HUD_CLASS_TALENTS_NEW_LOADOUT_DIALOG_TITLE,Новый макет,1
@@ -20989,7 +20990,7 @@ ID,BaseTag,TagText_lang,Flags
 49737,VIDEO_OPTIONS_AGGRESSIVE,Агрессивный,3
 49738,VRS_MODE,Режим VRS,3
 49739,OPTION_TOOLTIP_VRS_MODE,"Интенсивность режима оптимизации шейдинга (VRS). VRS – это функция графического процессора, снижающая его нагрузку без значимого ущерба качеству изображения. Активация этой функции на поддерживаемом устройстве может повысить быстродействие.",3
-49740,PROFESSIONS_CRAFT_OUTPUT_TITLE,Изготовлено,1
+49740,PROFESSIONS_CRAFT_OUTPUT_TITLE,Получено:,1
 49741,PROFESSIONS_OUTPUT_INSPIRATION_TITLE,Вдохновение,1
 49742,PROFESSIONS_OUTPUT_INSPIRATION_DESC,"Вас посетило вдохновение, и вы изготовили предмет с бонусом к мастерству.",1
 49743,SETTING_GROUP_GAMEPLAY,Игровой процесс,1
@@ -21004,7 +21005,7 @@ ID,BaseTag,TagText_lang,Flags
 49751,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Отображение ресурсов других участников группы,1
 49752,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYAGGROHIGHLIGHT,"Красная рамка вокруг имен игроков, которых атакуют",1
 49753,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Устанавливает цвета классов. Если не выбрано, по умолчанию используются цвета ролей.",1
-49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Отображение питомцев других участников группы,1
+49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Отображение питомцев других участников рейда или группы,1
 49755,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYMAINTANKANDASSIST,Выделение главного и второго танка,1
 49756,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYNONBOSSDEBUFFS,Отображение всех отрицательных эффектов других участников группы,1
 49757,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYDISPELLABLEDEBUFFS,Отображение только рассеиваемых отрицательных эффектов других участников группы,1
@@ -21055,7 +21056,7 @@ ID,BaseTag,TagText_lang,Flags
 49802,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_HORIZONTAL,Объединить группы (горизонтально),1
 49803,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_VERTICAL,Объединить группы (вертикально),1
 49804,HUD_EDIT_MODE_SETTING_UNIT_FRAME_COLUMN_SIZE,Размер столбцов,1
-49805,HUD_EDIT_MODE_ENABLE_SNAP,Прилипание,1
+49805,HUD_EDIT_MODE_ENABLE_SNAP,Привязка элементов,1
 49806,PROFESSIONS_CRAFTING_NO_LEARNED_RECIPES,"Профессия ""%s"" еще не изучена.|n|nВыберите ""Неизученные рецепты"", чтобы просмотреть рецепты этой профессии.",1
 49807,NPEV2_SELECT_TALENTS_TAB,Откройте вкладку |cFF00FFFFталантов|r,1
 49808,NPEV2_TALENTS_STARTER_BUILD,Сложно сделать выбор? Воспользуйтесь готовым |cFF00FFFFстартовым вариантом развития|r.,1
@@ -21231,7 +21232,7 @@ ID,BaseTag,TagText_lang,Flags
 49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,"Можно добавить обычные способности на панель умений полетов на драконах, чтобы быстрее спешиваться перед боем.",1
 49985,PROFESSIONS_CRAFTING_ORDER_MAIL_REPORT_WARNING,"Вы не забрали предметы у этого игрока. Если вы не заберете их перед отправкой жалобы, они будут уничтожены.",1
 49986,INTERACT_KEY_TUTORIAL,|cnNORMAL_FONT_COLOR:Interact Key|n|r|cnHIGHLIGHT_FONT_COLOR:Нажмите |r|cnNORMAL_FONT_COLOR:%s|r|cnHIGHLIGHT_FONT_COLOR: для взаимодействия с NPC и предметами вокруг|r|n|n|cnNORMAL_FONT_COLOR:%d/2 – взаимодействие с NPC или предметом|r,1
-49987,INTERACT_KEY_TUTORIAL_NO_INTERACT_KEY_ASSIGNED,|cnHIGHLIGHT_FONT_COLOR:The |r|cnNORMAL_FONT_COLOR:Клавиша взаимодействия|r|cnHIGHLIGHT_FONT_COLOR: позволяет взаимодействовать с NPC и объектами по нажатию клавиши.|n|n|r|cnRED_FONT_COLOR:Назначить клавишу можно в настройках управления|r,1
+49987,INTERACT_KEY_TUTORIAL_NO_INTERACT_KEY_ASSIGNED,|cnNORMAL_FONT_COLOR:Клавиша взаимодействия|r|cnHIGHLIGHT_FONT_COLOR: позволяет взаимодействовать с NPC и объектами по нажатию клавиши.|n|n|r|cnRED_FONT_COLOR:Назначить клавишу можно в настройках управления|r,1
 49989,ENABLE_INTERACT_KEY_ERROR,"Чтобы включить эту функцию, нужно назначить клавишу для ""Включить клавишу взаимодействия""",3
 49990,ENABLE_INTERACT_SOUND_OPTION_ERROR,"Чтобы включить эту функцию, нужно назначить клавишу для ""Включить клавишу взаимодействия""",3
 49991,PROFESSIONS_CRAFTING_ORDER_ALREADYCLAIMED,Кто-то уже взялся за этот заказ.,1
@@ -21259,7 +21260,7 @@ ID,BaseTag,TagText_lang,Flags
 50006,PROFESSIONS_GATHERING_JOURNAL_STATS_HELP,"Это основные характеристики, влияющие на сбор ресурсов.
 
 От разницы между уровнем реагента и вашим мастерством зависит вероятность собрать реагенты более высокого качества. ",1
-50007,PROFESSIONS_TAB_LOCKED_SPECIALIZATION,"Чтобы разблокировать специализации, требуется навык в профессии ""%s"" не ниже 25.",1
+50007,PROFESSIONS_TAB_LOCKED_SPECIALIZATION,"Чтобы открыть специализации, требуется навык в профессии ""%s"" не ниже 25.",1
 50008,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION,%s: теперь вы можете выбрать новую специализацию.,1
 50009,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION_TUTORIAL,"Выберите, какую специализацию разблокировать.
 
@@ -21356,7 +21357,8 @@ ID,BaseTag,TagText_lang,Flags
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,Этот предмет можно вставить только в ячейку снаряжения для начертания.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,Переделка,1
 50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
-50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,"Некоторые рецепты позволяют повышать уровень предмета, который в итоге получится. Для этого понадобятся дополнительные реагенты.",1
+50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,"Некоторые рецепты позволяют повышать уровень предмета, над которым вы работаете. Для этого понадобятся особые или дополнительные реагенты.",1
+50098,SPELL_FAILED_CUSTOM_ERROR_823,Пламя Тьмы слишком сильно.,1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/макетимя,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/макетимя,1
 50101,SLASH_TALENT_LOADOUT_BY_NAME3,/ми,1
@@ -21400,7 +21402,7 @@ ID,BaseTag,TagText_lang,Flags
 50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,Порядок,1
 50143,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_DEFAULT,По умолчанию,1
 50144,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_REVERSE,Перевернуть,1
-50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Размер,1
+50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Размер меню,1
 50146,PLAYER_DIFFICULTY_MYTHIC_PLUS,Эпохальный+,1
 50161,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION,Расположение,1
 50162,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION_HORIZONTAL,Горизонтально,1
@@ -21423,14 +21425,13 @@ ID,BaseTag,TagText_lang,Flags
 50182,PROFESSIONS_CRAFTING_ORDERS_FAVORITES_FULL,"Ваш список избранного заполнен. Освободите место в списке избранного, чтобы добавить рецепт.",1
 50184,TALENT_FRAME_INSPECT_COPY_BUTTON_TEXT,Скопировать код макета,1
 50185,HUD_EDIT_MODE_EXPERIENCE_BAR_LABEL,Индикатор опыта,1
-50186,HUD_EDIT_MODE_REPUTATION_BAR_LABEL,Индикатор репутации,1
 50190,MONTHLY_ACTIVITIES_RESTRICTED,"Приобретите подписку или игровое время,
 чтобы выполнять задачи и получать награды в торговой лавке",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Прочность снаряжения,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Размер,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Прогресс журнала путешественника,1
 50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Посетите торговую лавку в городе %s и получите журнал путешественника.,1
-50201,BATTLEGROUND_MATCHMAKING_VALUE,Подбор соперников|nЗначение,1
+50201,BATTLEGROUND_MATCHMAKING_VALUE,Стартовый|nРПС,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Выполняйте задачи путешественника каждый месяц, чтобы получать торговые жетоны и особые награды из сундука коллекционера.
 
 Прогресс распространяется на всех персонажей учетной записи.",1
@@ -21491,15 +21492,17 @@ ID,BaseTag,TagText_lang,Flags
 50274,CENSOR_SOURCE_EXCLUDE,Цензурировать сообщения,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Чьи сообщения вы хотите подвергать цензуре.,1
 50276,MONTHLY_ACTIVITIES_POINTS,Очки путешествия,1
+50277,POWER_TYPE_SHADOWLAVA_ENERGY,Энергия лавы Тьмы,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,Сложность рейда сейчас изменить нельзя. Игрок находится на средстве передвижения.,1
 50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,Вы собираетесь разместить заказ со своими реагентами. Продолжить?,1
 50293,CHAT_LANGUAGE_NAME_TAG,[%s] ,1
 50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,В это гнездо можно вставить только изначальный камень.,1
 50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,Изначальные камни можно вставлять только в подходящие гнезда.,1
+50297,SPELL_FAILED_CUSTOM_ERROR_827,Вы не призвали нужного боевого питомца.,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
 50301,LANGUAGE_PROFICIENCY_FORMAT,%s (владение языком: %d/%d),1
 50302,PROF_SPECIALIZATION_HIGHLIGHTS,Основы специализации:,1
-50303,PROF_VIEW_FULL_TREE,Просмотр всего древа,1
+50303,PROF_VIEW_FULL_TREE,Просмотр древа,1
 50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,"Все изменения будут активированы после разблокировки специализации. Выучить специализацию ""%s""?",1
 50305,CRAFTING_ORDERS_ORDER_FULFILLED_SINGLE_FMT,Вы выполнили %s заказ (%s) для клиента %s и получили %s в уплату.,1
 50306,CRAFTING_ORDERS_ORDER_FULFILLED_MULT_FMT,Вы выполнили %s заказ (%s x%d) для клиента %s и получили %s в уплату.,1
@@ -21515,37 +21518,184 @@ ID,BaseTag,TagText_lang,Flags
 50320,PLAYER_CHOICE_ENVOY_CENTAUR,Помочь сегодня кентаврам Маруук?,1
 50321,PLAYER_CHOICE_ENVOY_VALDRAKKEN,Помочь сегодня союзу Вальдраккена?,1
 50324,GXAPI_AUTO,Автоопределение,3
-50325,GXAPI_TOOLTIP_AUTO,Auto-detect best available Graphics API. [DNT],3
+50325,GXAPI_TOOLTIP_AUTO,,3
 50326,GXAPI_TOOLTIP_AUTO_SELECTED,"Выбранный графический API. 
 Автоматически определяет наилучший графический API.",3
 50327,GXAPI_TOOLTIP_CURRENT_API,Текущий графический API.,3
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Выбранный графический API.
 Загрузка не удалась. Следующая попытка после перезапуска.",3
+50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,Выберите нужный вариант в отмеченных категориях.,2
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Пожаловаться]|w|h|r,1
+50334,TALENTS_LINK_FORMAT,"Связанные таланты (%2$s, %1$s)",1
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,"Выберите новую расу и персонализируйте героя. Когда вы завершите этот процесс, ваш герой навсегда превратится в представителя другой расы.",2
+50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Отправить в чат,1
+50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Скопировать |cnNORMAL_FONT_COLOR:(для загрузки в интернет)|r,1
+50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,Уровень улучшения: %s %d/%d,1
+50340,TALENT_BUILD_CHAT_LINK_TEXT,"Таланты: %2$S, %1$s",1
+50341,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT_STRING,%s %d/%d,1
+50342,ITEM_UPGRADE_FRAME_CURRENT_UPGRADE_FORMAT_STRING,Уровень улучшения: %s: %s/%s,1
 50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,Требуется активное игровое время.,1
 50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,"Ошибка интерфейсной операции, вызванная модификацией: %d",1
 50351,OPTION_TOOLTIP_VRS_STANDARD,Незначительное снижение качества изображения,3
 50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Небольшое снижение детализации,3
+50353,CHAR_CUSTOMIZATION_TOOLTIP_PLAY_VOICE_SAMPLE,Воспроизвести голос,3
+50354,CHAR_CUSTOMIZATION_TOOLTIP_MUTE_SOUND,Отключить звук,3
+50355,CHAR_CUSTOMIZATION_TOOLTIP_UNMUTE_SOUND,Включить звук,3
+50357,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING_REQUIRED,Используется для ремесел,1
+50359,SPELL_FAILED_CUSTOM_ERROR_1000,Нужно находиться рядом с одним из камней клятвы на Драконьих островах.,1
+50361,OPTION_TOOLTIP_DISABLE_CHAT,Отключить чат. Теперь вы не сможете отправлять и получать сообщения.,1
 50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,"Нельзя игнорировать этого игрока, пока вы не отмените или не выполните заказ.",1
 50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,Вы уже игнорируете этого игрока.,1
 50364,PROF_ORDER_CANT_WHISPER_OFFLINE,Этот игрок не в сети.,1
 50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,Этот игрок из противоположной фракции.,1
+50366,SPELL_FAILED_CUSTOM_ERROR_1001,Данный предмет можно использовать только в воздухе.,1
 50367,PROF_VIEW_TREE_OVERVIEW,Обзор,1
+50368,SPELL_FAILED_CUSTOM_ERROR_828,У вас уже есть сотворенный флакон.,1
+50369,BINDING_NAME_TEXT_TO_SPEECH_STOP,"Отключить функцию ""Текст в речь""",1
 50374,GLUE_TIMEEVENT_TITLE,Идет событие,2
+50375,HUD_EDIT_MODE_SETTING_CAST_BAR_SHOW_CAST_TIME,Показывать время применения,1
+50376,SLASH_EDITMODE1,/editmode,1
+50377,ERROR_SLASH_EDITMODE_CANNOT_ENTER,Невозможно перейти в режим редактирования,1
+50378,CAST_BAR_CAST_TIME,%.1f s,1
 50379,SPELL_FAILED_CUSTOM_ERROR_830,"Вы уже отметили слишком много сокровищ в Запретном крае. Соберите их перед тем, как открывать новые свитки сокровищ.",1
 50380,RAF_LEGACY_REWARDS_DESC,"Вы больше не можете приглашать новых друзей в рамках старой системы ""Пригласи друга"", но по-прежнему будете получать награды за уже приглашенных.",1
+50381,PRC_FLOW_FINISH_LABEL,Принять,2
 50382,RAF_NEW_VERSION_PROMPT,"Добавьте друзей, чтобы получить награды в этом сезоне!",1
+50383,PRC_FLOW_CUSTOMIZE_CHARACTER_STEP,Далее вы сможете персонализировать героя.,2
 50384,PLAIN_STRING_FORMAT,%1$s,1
+50387,HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL,Индикатор статуса (%d),1
 50388,XP_TEXT_BANKED_XP_HEADER,Отложенный опыт,1
 50389,RAF_CLAIM_MULTIPLE_REWARDS,Получить %1$d |4награду:награды:наград;,1
+50390,HUD_EDIT_MODE_SETTING_MINIMAP_SIZE,Размер,1
 50391,RAF_NEXT_REWARD_HELP_TEXT,"Приводите друзей в Азерот и получайте награды, когда они оплатят подписку.",1
 50392,RAF_LEGACY_REWARDS_HELP_TEXT,Приглашенные друзья из предыдущей программы: |cnHIGHLIGHT_FONT_COLOR:%d|r|nНеполученные награды: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
 50393,RAF_LATEST_REWARDS_HELP_TEXT,Приглашенные друзья: |cnHIGHLIGHT_FONT_COLOR:%d|r|nНеполученные награды: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50394,BASE_SETTINGS_TAB,Базовые параметры,3
+50395,BASE_GRAPHICS_QUALITY,Базовое качество,3
 50399,RAF_NEXT_EARN_DATE,Следующая награда: %1$s,1
+50400,HUD_EDIT_MODE_SETTING_MICRO_MENU_EYE_SIZE,Размер глаза,1
 50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,Вы прошли всю кампанию на Берегах Пробуждения.|n|nВы можете продолжить исследование Драконьих островов или приобрести Dragonflight и продолжить кампанию!,1
 50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,"Купите дополнение, чтобы разблокировать",1
 50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,%d-й уровень,1
 50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"В пробной версии можно развивать персонажей максимум до 60-го уровня, но весь накопленный опыт будет сохраняться.|n|nПриобретите Dragonflight, чтобы воспользоваться отложенным опытом и продолжить развитие персонажа до 70-го уровня!",1
+50405,SPELL_FAILED_CUSTOM_ERROR_831,Требуется осколок столпа джарадинов.,1
 50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
 50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50422,HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS,Дополнительные параметры,1
+50425,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_FRAMES,Рамки интерфейса,1
+50426,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_COMBAT,Бой,1
+50427,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_MISC,Разное,1
+50428,SPELL_FAILED_CUSTOM_ERROR_832,Требуется прочный камень. ,1
+50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,"Откройте ""Дополнительные параметры"", чтобы увидеть больше элементов интерфейса.",1
+50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Эффекты и ауры,1
+50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Рамка питомца,1
+50436,SELF_CAST,Автовыбор себя,1
+50437,SELF_CAST_AUTO,Авто,1
+50438,SELF_CAST_KEY_PRESS,По нажатию,1
+50439,SELF_CAST_AUTO_AND_KEY_PRESS,Автоматически и по нажатию,1
+50440,OPTIONS_TOOLTIP_SELF_CAST_AUTO,"Автоматически применять благотворные заклинания к себе, если не выбран целью союзник.",1
+50441,OPTIONS_TOOLTIP_SELF_CAST_KEY_PRESS,"Удерживайте выбранную клавишу, чтобы применять заклинания к себе независимо от выбранной цели.",1
+50442,OPTIONS_TOOLTIP_SELF_CAST_AUTO_AND_KEY_PRESS,"Автоматически применять благотворные заклинания к себе, если не выбран целью союзник. Также вы можете удерживать выбранную клавишу, чтобы применять заклинания к себе независимо от выбранной цели.",1
+50443,OPTIONS_TOOLTIP_SELF_CAST_NONE,Отключить автовыбор себя,1
+50444,BINDING_HEADER_ACTIONBAR2,Панель команд 2,1
+50445,BINDING_HEADER_ACTIONBAR3,Панель команд 3,1
+50446,BINDING_HEADER_ACTIONBAR4,Панель команд 4,1
+50447,BINDING_HEADER_ACTIONBAR5,Панель команд 5,1
+50448,BINDING_HEADER_ACTIONBAR6,Панель команд 6,1
+50449,BINDING_HEADER_ACTIONBAR7,Панель команд 7,1
+50450,BINDING_HEADER_ACTIONBAR8,Панель команд 8,1
+50451,SPELL_FAILED_TARGET_IS_NOT_SWIMMING,Цель не плавает.,1
+50452,REQUIRED_REAGENT_TOOLTIP_CLICK_TO_ADD,"Щелкните ЛКМ, чтобы добавить необходимый реагент.",1
+50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,,2
+50454,PROFESSIONS_REQUIRES_REAGENTS,Требуется: %1$s,1
+50457,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP,"Рейтинг подбора соперников определяет уровень мастерства игроков, которые присоединятся к вашей игре. Игроки с одинаковым рейтингом подбора соперников с большой вероятностью играют друг с другом.",1
+50458,BATTLEGROUND_NEW_RATING_TOOLTIP,Ваш личный рейтинг в конце этого матча.,1
+50461,SPELL_FAILED_CUSTOM_ERROR_2222,Вы должны быть в облике человека.,1
+50462,MATCHMAKING_YOUR_UPDATED_MATCHMAKING_VALUE,Ваш рейтинг подбора соперников: %1$s |TInterface\\CHATFRAME\\ChatFrameExpandArrow:16:16|t %2$s,1
+50463,BATTLEGROUND_ROLE_AVERAGE_MMV,Средний рейтинг подбора соперников для роли: %1$s,1
+50464,HUD_EDIT_MODE_RAID_FRAME_SETTINGS,Параметры рамок рейда,1
+50465,SEARCH_RESULTS_STRING_WITH_COUNT,"Результаты поиска для \""%1$s\"" (%2$d)",1
+50466,KILLING_BLOW_TOOLTIP_TITLE,Смертельные удары,1
+50467,HONORABLE_KILLS_TOOLTIP_TITLE,Почетные победы,1
+50468,DEATHS_TOOLTIP_TITLE,Смерти,1
+50469,DAMAGE_DONE_TOOLTIP_TITLE,Урона нанесено,1
+50470,HEALING_DONE_TOOLTIP_TITLE,Объем исцеления,1
+50471,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP_TITLE,Рейтинг на начало матча,1
+50472,BATTLEGROUND_RATING_TOOLTIP_TITLE,Текущий рейтинг,1
+50473,BATTLEGROUND_NEW_RATING_TOOLTIP_TITLE,Новый рейтинг,1
+50474,RATING_CHANGE_TOOLTIP_TITLE,Изменение рейтинга,1
+50475,RATING_CHANGE_TOOLTIP_SOLO_SHUFFLE,"Личный рейтинг повышается или снижается в зависимости от ваших результатов в сравнении с оппонентами той же роли
+",1
+50476,SEARCH_RESULTS_SHOW_COUNT,Показать все результаты: %1$d,1
+50478,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT,Уровень %1$d/%2$d  %3$d |cnDISABLED_FONT_COLOR:(%4$d-%5$d)|r,1
+50479,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT_STRING,%1$s %2$d/%3$d  %4$d |cnDISABLED_FONT_COLOR:(%5$d-%6$d)|r,1
+50480,ITEM_UPGRADE_PROGRESS_ITEM_LEVEL_FORMAT,%1$d |cnDISABLED_FONT_COLOR:(%2$d-%3$d)|r,1
+50481,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY,Недостаточно |3-6(%1$s).,1
+50482,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_TWO,Недостаточно |3-6(%1$s) и |3-6(%2$s).,1
+50483,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_MULTIPLE,Недостаточно валюты для улучшения.,1
+50484,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_OPACITY,Непрозрачность,1
+50485,ITEM_LEVEL_UPGRADE_MAX,Уровень предмета: %d,1
+50486,COMMUNITY_MEMBER_LIST_CROSS_FACTION,"%1$s|r
+Контент вне помещений и контент, доступный через очередь, недоступен для этого персонажа.",1
+50487,SPELL_FAILED_CUSTOM_ERROR_650,"Вы не можете применить эту способность, когда выбран талант ""Аура возмездия"".",1
+50488,COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Показывать только ресурсы лекарей,1
+50489,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Показывать только ресурсы лекарей. Не связанные с исцелением ресурсы будут скрыты.,1
+50490,PVP_FRAMES_LABEL,Рамки противников в PvP,1
+50491,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Индикаторы ресурсов,1
+50492,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Показывать ресурсы оппонентов в PvP,1
+50493,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Показывать только ресурсы лекарей,1
+50494,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Показывать только ресурсы лекарей. Не связанные с исцелением ресурсы будут скрыты.,1
+50495,PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,Цвета классов,1
+50496,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Устанавливает цвета классов. Если не выбрано, используются цвета по умолчанию.",1
+50497,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Показывать питомцев,1
+50498,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Показывать призванных питомцев и прислужников оппонентов в PvP.,1
+50499,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,Нет,1
+50500,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,Не отображать здоровье в процентах или числах,1
+50501,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Запас здоровья,1
+50502,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Отображение текущего здоровья в числах,1
+50503,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Потерянное здоровье,1
+50504,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Отображение здоровья в числах только если оно ниже 100%,1
+50505,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Отображение текущего здоровья в процентах,1
+50506,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Здоровье в процентах,1
+50507,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Отображение здоровья,1
+50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Вид отображения здоровья в интерфейсе рейда.,1
+50509,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Вид отображения здоровья в интерфейсе PvP.,1
+50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что для этой ячейки уже есть предмет более высокого уровня (%2$d).",1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что у другого персонажа этой учетной записи уже есть предмет более высокого уровня (%2$d) для этой ячейки.",1
+50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что у вас уже есть два предмета более высокого уровня (%2$s ур. %3$d).",1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что у другого персонажа уже есть два предмета более высокого уровня (%2$s ур. %3$d).",1
+50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что у вас уже есть комплект оружия более высокого уровня (%2$d).",1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,"Это улучшение стоит меньше ресурсов (%1$s), потому что у другого персонажа уже есть комплект оружия более высокого уровня (%2$d).",1
+50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,%s со скидкой,1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,Другие персонажи,1
+50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,аксессуары,1
+50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,кольца,1
+50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,одноручное оружие,1
+50533,LOOT_HISTORY_CURRENT_WINNER,%1$s (%2$d),1
+50534,LOOT_HISTORY_PASSED,Пропуск,1
+50535,SPELL_FAILED_CUSTOM_ERROR_850,Требуется ключ ниффов для вылазок и отключенный щит.,1
+50554,LOOT_HISTORY_WAITING_ON,Ожидание: ,1
+50555,LOOT_HISTORY_INFO_TEXT,Здесь отображается отчет о розыгрыше добычи из подземелий и рейдов,1
+50556,LOOT_HISTORY_PLAYER_DELIMITER,",",1
+50557,LOOT_HISTORY_OFF_SPEC_FMT,%1$s |cnDISABLED_FONT_COLOR:(вторая специализация)|r,1
+50559,LOOT_HISTORY_ROLL_TIE,Ничья,1
+50570,LOOT_HISTORY_ROLL_TUTORIAL,Здесь отображаются ваши результаты при розыгрыше добычи.|n|nПолученные предметы автоматически попадают вам в сумки. ,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Уровень гребней пламени Тьмы можно понизить у Васкарн в Лоамме.,1
+50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Вам придется предоставить этот реагент.,1
+50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Вам придется предоставить некоторые реагенты.,1
+50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Вам придется предоставить все нужные реагенты.,1
+50580,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_ALL,Заказчик предоставил все нужные реагенты.,1
+50583,TRANSMOGRIFICATION,Трансмогрификация,1
+50584,LOOT_ROLL_YOU_WON_NO_SPAM_TRANSMOG,|HlootHistory:%1$d|h[Добыча]|h: вы выигрываете предмет %3$s (трансмогрификация – %2$d),1
+50585,LOOT_ROLL_WON_NO_SPAM_TRANSMOGRIFICATION,|HlootHistory:%1$d|h[Добыча]|h: %2$s выигрывает предмет %4$s (трансмогрификация – %3$d),1
+50588,BATTLEFIELD_BONUS_REWARDS,+%d%% к наградам за очки чести и завоевания,1
+50589,SPELL_FAILED_CUSTOM_ERROR_835,Больше карт Мирриту не унести. Отправляйтесь с ним на раскопки!,1
+50590,PROFESSIONS_PREREQUISITE_REAGENTS_CUSTOMER,Не соблюдены условия для одного или нескольких дополнительных реагентов.,1
+50591,PROFESSIONS_PREREQUISITE_REAGENTS,Не соблюдены условия для одного или нескольких дополнительных реагентов.,1
+50592,CONFIRM_UPGRADE_ITEM_BIND,"Вы уверены, что хотите улучшить указанный предмет? Стоимость улучшения: %s. После улучшения предмет станет персональным.",1
+50593,SPELL_FAILED_CUSTOM_ERROR_851,"В этой области нельзя никого приманивать в течение нескольких минут, так как здесь недавно использовали наживку на неуловимое существо.",1
+50594,SPELL_FAILED_CUSTOM_ERROR_2424,Нельзя проводить ритуал лавы так близко от другого ритуала.,1
+50596,ITEM_UPGRADE_FRAGMENTS_TOTAL,Полученные фрагменты: |c%s%s/%s|r,1
+50597,WEEKLY_REWARDS_MYTHIC_KEYSTONE,Эпохальный ключ,1
+51168,PROFESSIONS_DISALLOW_DOWNGRADE,"Нельзя переделать предмет, чтобы использовать менее мощную искру.",1

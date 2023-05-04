@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Désoriente la cible pendant $d.,Désorienté.,6,5,0,3,0,0,0
 329,Inflige $s@effectindex points de dégâts d’Ombre aux ennemis à moins de $A@effectindex mètres du lanceur toutes les $t@effectindex s pendant $d.,$s@effectindex points de dégâts d’Ombre infligés toutes les $t@effectindex s.,6,3,1,7,32,50,50
-330,Inflige des dégâts de Feu.,,2,0,1,1,4,50,50
+330,Inflige $s@effectindex points de dégâts de feu à une cible ennemie.,,2,0,1,1,4,50,50
 331,Inflige des dégâts de Frappe-sort.,,2,0,1,1,65,50,50
-332,Inflige des dégâts d’Ombre.,,2,0,1,1,32,50,50
+332,Inflige $s@effectindex points de dégâts d’ombre à une cible ennemie.,,2,0,1,1,32,50,50
 333,Inflige des dégâts physiques.,,2,0,1,1,1,50,50
 334,Inflige des dégâts de Nature.,,2,0,1,1,8,50,50
 335,Inflige des dégâts du Sacré.,,2,0,1,1,2,50,50
-336,Inflige des dégâts de Givre.,,2,0,1,1,16,50,50
+336,Inflige $s@effectindex points de dégâts de givre à une cible ennemie.,,2,0,1,1,16,50,50
 337,Inflige des dégâts du Chaos.,,2,0,1,1,127,50,50
 338,Inflige des dégâts des Arcanes.,,2,0,1,1,64,50,50
 339,Inflige des dégâts d’Ombre aux ennemis devant le lanceur toutes les $t@effectindex s pendant $d.,Dégâts d’Ombre infligés toutes les $t@effectindex s.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,Pacifie les adversaires à moins de $A@effectindex mètres et les empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,7,0,0,0
 552,"Réduit au silence une cible ennemie et la pacifie, ce qui l’empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,3,0,30,0
 553,"Réduit au silence et pacifie les adversaires à moins de $A@effectindex mètres, ce qui les empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,7,0,0,0
+554,Rend une cible ennemie muette et l’empêche de lancer des sorts pendant $d.,Incapable de lancer des sorts.,6,27,0,1,0,30,0
+555,Pacifie une cible ennemie et l’empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,1,0,30,0
+556,"Réduit au silence une cible ennemie et la pacifie, ce qui l’empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,1,0,30,0
+557,Inflige $s@effectindex points de dégâts d’ombreflamme à un adversaire.,,2,0,1,1,36,50,50
+558,Inflige des dégâts d’ombreflamme aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,36,50,50
+559,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,36,50,50
+560,Inflige des dégâts d’ombreflamme aux adversaires devant le lanceur ou la lanceuse.,,31,0,1,9,36,50,50
+561,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres.,,31,0,1,7,36,50,50
+562,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres de l’impact.,,31,0,1,5,36,50,50
+563,Inflige des dégâts d’ombreflamme à une cible ennemie.,,31,0,1,3,36,50,50
+564,Inflige $s@effectindex% des points de vie maximum sous forme de dégâts d’ombreflamme à une cible ennemie toutes les $t@effectindex s pendant $d.,$s@effectindex% du maximum de points de vie infligés sous forme de dégâts d’ombreflamme toutes les $t@effectindex s.,6,89,1,1,36,20,20
+565,Augmente de $s@effectindex% les dégâts d’ombreflamme infligés aux adversaires à moins de $A@effectindex mètres pendant $d.,Dégâts d’ombreflamme subis augmentés de $s@effectindex%.,6,87,1,7,36,0,0
+566,Augmente de $s@effectindex% les dégâts d’ombreflamme infligés aux adversaires à moins de $A@effectindex mètres de l’impact pendant $d.,Dégâts d’ombreflamme subis augmentés de $s@effectindex%.,6,87,1,5,36,10,10
+567,Augmente les dégâts d’ombreflamme subis par une cible ennemie de $s@effectindex% pendant $d.,Dégâts d’ombreflamme subis augmentés de $s@effectindex%.,6,87,1,3,36,0,0
+568,Augmente les dégâts d’ombreflamme subis par une cible ennemie de $s@effectindex% pendant $d.,Dégâts d’ombreflamme subis augmentés de $s@effectindex%.,6,87,1,1,36,0,0
+569,Réduit les dégâts d’ombreflamme infligés par une cible ennemie de $s@effectindex%.,Dégâts d’ombreflamme infligés réduits de $s@effectindex%.,6,79,2,3,36,20,20
+570,Augmente les dégâts d’ombreflamme infligés par le lanceur ou la lanceuse de $s@effectindex%.,Dégâts d’ombreflamme infligés augmentés de $s@effectindex%.,6,79,1,1,36,30,30
+571,Inflige des dégâts d’ombreflamme aux adversaires devant le lanceur ou la lanceuse toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,9,36,50,50
+572,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,7,36,50,50
+573,Augmente les dégâts d’ombreflamme infligés aux adversaires à moins de $A@effectindex mètres de l’impact toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,5,36,50,50
+574,Inflige des dégâts d’ombreflamme à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,3,36,50,50
+575,Inflige des dégâts d’ombreflamme à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,1,36,50,50
+576,Entoure la cible d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts d’ombreflamme.,Absorbe $s@effectindex points de dégâts d’ombreflamme.,6,69,1,3,36,0,0
+577,Entoure le lanceur ou la lanceuse d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts d’ombreflamme.,Absorbe $s@effectindex points de dégâts d’ombreflamme.,6,69,1,1,36,0,0
+578,Inflige des points de dégâts de givre aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,16,50,50
+579,Inflige $s@effectindex points de dégâts cosmiques aux adversaires devant le lanceur ou la lanceuse.,,2,0,1,9,106,50,50
+580,Inflige $s@effectindex points de dégâts cosmiques aux adversaires à moins de $A@effectindex mètres.,,2,0,1,7,106,50,50
+581,Inflige $s@effectindex points de dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,2,0,1,5,106,50,50
+582,Inflige $s@effectindex points de dégâts cosmiques à une cible ennemie.,,2,0,1,3,106,50,50
+583,Inflige $s@effectindex points de dégâts cosmiques à une cible ennemie.,,2,0,1,1,106,50,50
+584,Inflige des dégâts cosmiques aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,106,50,50
+585,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,106,50,50
+586,Inflige des dégâts cosmiques aux adversaires devant le lanceur.,,31,0,1,9,106,50,50
+587,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres.,,31,0,1,7,106,50,50
+588,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,31,0,1,5,106,50,50
+589,Inflige des dégâts cosmiques à une cible ennemie.,,31,0,1,3,106,50,50
+590,Inflige $s@effectindex% du maximum de points de vie sous forme de dégâts cosmiques à une cible ennemie toutes les $t@effectindex s pendant $d.,$s@effectindex% du maximum de points de vie infligés sous forme de dégâts cosmiques toutes les $t@effectindex s.,6,89,1,1,106,20,20
+591,Augmente de $s@effectindex% les dégâts cosmiques infligés aux adversaires à moins de $A@effectindex mètres pendant $d.,Dégâts cosmiques subis augmentés de $s@effectindex%.,6,87,1,7,106,0,0
+592,Augmente de $s@effectindex% les dégâts cosmiques infligés aux adversaires à moins de $A@effectindex mètres de l’impact pendant $d.,Dégâts cosmiques subis augmentés de $s@effectindex%.,6,87,1,5,106,10,10
+593,Augmente les dégâts cosmiques subis par une cible ennemie de $s@effectindex% pendant $d.,Dégâts cosmiques subis augmentés de $s@effectindex%.,6,87,1,3,106,0,0
+594,Augmente les dégâts cosmiques subis par une cible ennemie de $s@effectindex% pendant $d.,Dégâts cosmiques subis augmentés de $s@effectindex%.,6,87,1,1,106,0,0
+595,Réduit les dégâts cosmiques infligés par une cible ennemie de $s@effectindex%.,Dégâts cosmiques infligés réduits de $s@effectindex%.,6,79,2,3,106,20,20
+596,Augmente les dégâts cosmiques infligés par le lanceur ou la lanceuse de $s@effectindex%.,Dégâts cosmiques infligés augmentés de $s@effectindex%.,6,79,1,1,106,30,30
+597,Inflige des dégâts cosmiques aux adversaires devant le lanceur ou la lanceuse toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,9,106,50,50
+598,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,7,106,50,50
+599,Augmente les dégâts cosmiques infligés aux adversaires à moins de $A@effectindex mètres de l’impact toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,5,106,50,50
+600,Inflige des dégâts cosmiques à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,3,106,50,50
+601,Inflige des dégâts cosmiques à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,1,106,50,50
+602,Entoure la cible d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts cosmiques.,Absorbe $s@effectindex points de dégâts cosmiques.,6,69,1,3,106,0,0
+603,Entoure le lanceur d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts cosmiques.,Absorbe $s@effectindex points de dégâts cosmiques.,6,69,1,1,106,0,0
+604,Inflige des dégâts d’ombre aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,32,50,50
+605,Inflige des dégâts d’ombre à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts d’ombre infligés toutes les $t@effectindex s.,6,70,1,1,32,50,50

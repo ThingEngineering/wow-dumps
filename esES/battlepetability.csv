@@ -3648,7 +3648,7 @@ Esta facultad siempre va primero.",134434,8,6,0,2
 Ataca al enemigo 3 veces y le inflige [StandardDamage(1,1)] p. de daño de [School()] por ataque.
 
 Cada vez que usas esta facultad, tu velocidad aumenta un 20% al final de la ronda.",650636,1,0,0,0
-2468,Facultad de prueba de Mike,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,Deja al objetivo en un 1% de la salud máxima y lo aturde.,646380,5,0,0,0
 2469,Gancho segador,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Inflige[StandardDamage(1,1)] p. de daño de [School()] y obliga a la mascota con menos salud del oponente a entrar en combate.",134226,9,4,0,0
@@ -3734,3 +3734,10 @@ El daño aumenta [FormatDamage(10*AttackBonus())] p. cada vez que se utiliza. Pu
 2499,Golpe cuántico,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Golpea al enemigo e inflige [StandardDamage(1,1)][petTypeName(abilityPetType())] p. de daño.",1392544,5,0,0,0
+2502,[DNT] INSTADEAD,Deja una mascota en un 0% de salud.,133728,5,0,0,0
+2504,Manifiesto del odio,"Añade [abs(abilityStateMod(71,2504))*AttackBonus()] p. de daño a cada ataque contra el objetivo.",4050664,5,0,530,3
+2505,Manifiesto del odio,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Un odio inconmensurable abruma al objetivo y añade [abs(abilityStateMod(71,2504))*AttackBonus()] p. de daño a cada ataque contra él.
+
+Dura [duration(1,1)] |4ronda:rondas;.",4050664,5,5,0,2
