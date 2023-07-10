@@ -2,15 +2,15 @@ ActivityName_lang,Description_lang,ID,CriteriaTreeID,ThresholdContributionAmount
 Schließt 30 Quests ab,"Schließt Quests ab, für die Ihr Erfahrung erhaltet.",3,135693,200,0,0
 Besiegt 50 Dungeonbosse,"Besiegt Dungeonbosse, für die Ihr Erfahrung erhaltet.",4,135695,200,0,0
 Erhaltet in der Zeit vom 16.12. bis zum 02.01. (Winterhauch) eine fein gewirkte Festtagsmütze,,5,135697,150,0,0
-Schließt 5 Dungeons auf Mythisch+ ab,,6,135699,200,0,0
+Schließt 5 Dungeons auf Mythisch+ ab,,6,135699,200,0,7
 Schließt 15 Weltquests ab,,7,136176,150,0,0
-Tötet 10 Schlachtzugsbosse von Dragonflight,,8,136202,200,0,0
+Besiegt 10 Schlachtzugsbosse von Dragonflight,,8,136202,200,0,0
 Verdient 7.500 Ehre,,10,136220,200,0,0
 Siegt auf 5 Schlachtfeldern,,11,136222,200,0,0
 Gewinnt 10 Arenakämpfe außer Geplänkeln,,12,136224,200,0,0
-Erfüllt Handwerksaufträge,"Sprecht mit einem Verwaltungsangestellten für Handwerksaufträge auf dem Handwerkermarkt von Valdrakken, um Handwerksaufträge anzunehmen.",13,136242,200,0,0
+Erfüllt Handwerksaufträge,Sprecht mit einem Verwaltungsangestellten für Handwerksaufträge auf dem Handwerkermarkt von Valdrakken.,13,136242,200,0,0
 Gewinnt 15 Haustierkämpfe,,14,136244,200,0,0
-Besiegt 25 Dungeonbosse in einer fraktionsübergreifenden Gruppe,"Besiegt Dungeonbosse, für die Ihr Erfahrung erhaltet.",16,136248,150,0,0
+Besiegt Dungeonbosse in einer fraktionsübergreifenden Gruppe,"Besiegt Dungeonbosse, für die Ihr Erfahrung erhaltet, während Ihr Euch in einer fraktionsübergreifenden Gruppe befindet.",16,136248,150,0,0
 Schließt 15 Quests in Nordend ab,,17,136250,200,0,0
 Schließt 5 Zeitwanderungsdungeons von Wrath of the Lich King ab,,18,136265,300,0,0
 Schließt die Eiskronenzitadelle ab,,19,136286,100,0,0
@@ -29,137 +29,273 @@ Tötet den Anführer der gegnerischen Fraktion,,31,136449,400,0,0
 Erforscht eine verschneite Zone,,32,136527,100,0,0
 Verwendet in der Zeit vom 16.12. bis zum 02.01. Frostzorns Kühlbox oder erhaltet dessen Blitzeisaura am Baum,,34,136855,150,0,0
 Schließt 15 Quests in Draenor ab,,36,137522,150,0,0
-Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Warlords of Draenor ab,Schließt zwischen dem 4.7. und 11.7. Zeitwanderungsdungeons von Warlords of Draenor ab.,37,137530,100,0,-11
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Warlords of Draenor ab,Schließt zwischen dem 04.07. und 11.07. Zeitwanderungsdungeons von Warlords of Draenor ab.,37,137530,100,0,-11
 Schließt die Höllenfeuerzitadelle ab,,38,137539,150,0,0
 Tötet 15 Spielercharaktere im Tanaandschungel,,39,137541,200,0,0
-Besiegt Meisterzähmer der Dracheninseln mit Drachkinhaustieren,"Besiegt 2 Meisterzähmer der Dracheninseln mit einem Team, das aus mindestens 2 Drachkinhaustieren besteht",40,137543,200,0,0
-Fangt Fische in Draenor,,41,137567,100,0,0
-Verwendet Leckerlis für glückliche Haustiere,Leckerlis für glückliche Haustiere können beim Händler für Haustiervorräte in Dalaran erworben werden.,42,137615,100,0,0
-Liebe liegt in der Luft: Verwendet Q. Pidos Ruhestein auf den Dracheninseln,Verwendet in der Zeit vom 06.02. bis zum 20.02. Q. Pidos Ruhestein auf den Dracheninseln.,43,137617,150,0,0
-Liebe liegt in der Luft: Veranstaltet ein Picknick für Verliebte auf den Ebenen von Ohn'ahra,Verwendet in der Zeit vom 06.02. bis zum 20.02. einen Picknickkorb für Verliebte auf den Ebenen von Ohn'ahra.,44,137619,150,0,0
+Besiegt Meisterzähmer der Dracheninseln mit Drachkinhaustieren,"Besiegt 2 Meisterzähmer der Dracheninseln mit einem Team, das aus mindestens 2 Drachkinhaustieren besteht.",40,137543,200,0,0
+Fangt Fische auf Draenor,,41,137567,100,0,0
+Verwendet Leckerlis für glückliche Haustiere,Kauft Leckerlis für glückliche Haustiere von Breanni in der Magischen Menagerie in Dalaran.,42,137615,100,0,0
+"Liebe liegt in der Luft: Verwendet das Spielzeug ""Q. Pidos herziger Ruhestein"" auf den Dracheninseln","Verwendet in der Zeit vom 06.02. bis zum 20.02. das Spielzeug ""Q. Pidos herziger Ruhestein"" auf den Dracheninseln.",43,137617,150,0,0
+"Liebe liegt in der Luft: Verwendet das Spielzeug ""Picknickkorb für Verliebte"" auf den Ebenen von Ohn'ahra","Verwendet in der Zeit vom 06.02. bis zum 20.02. das Spielzeug ""Picknickkorb für Verliebte"" auf den Ebenen von Ohn'ahra.",44,137619,150,0,0
 "Liebe liegt in der Luft: Schließt ""Bonbonangriff"" ab","Schließt in der Zeit vom 06.02. bis zum 20.02. die Quest ""Bonbonangriff"" ab.",45,137621,150,0,0
-Liebe liegt in der Luft: Tötet Apotheker Hummel,Tötet in der Zeit vom 06.02. bis zum 20.02. Apotheker Hummel auf Burg Schattenfang.,46,137623,150,0,0
+Liebe liegt in der Luft: Besiegt Apotheker Hummel,Besiegt in der Zeit vom 06.02. bis zum 20.02. Apotheker Hummel auf Burg Schattenfang.,46,137623,150,0,0
 Liebe liegt in der Luft: Übergebt einen hübschen Glücksbringerarmreif,Übergebt einem Eurer Fraktionsanführer in der Zeit vom 06.02. bis zum 20.02. einen hübschen Glücksbringerarmreif.,47,137625,150,0,0
 Einen toten Spielercharakter /umarmen,Emote: Einen toten Spielercharakter /umarmen.,48,137634,50,0,0
 Belebt Spielercharaktere wieder,,49,137636,50,0,0
-Trinkt Zanzils schleichendes Gift,,50,137645,50,0,0
-Erhaltet 5.000 Gold durch Auktionen im Auktionshaus,,52,137647,100,0,0
-"Esst ein Stück Schokoladenkuchen, ein Stück Punschtorte und ein Stück Beerenkuchen",,53,137651,50,0,0
-"Das große Hippogryphenschlüpfen: Bringt einen Schlüpfling dazu, sich auf Euch zu setzen","Bringt am 23.02. ein Fransenfederküken dazu, sich auf Eure Schulter zu setzen.",54,137655,150,0,0
-Das große Hippogryphenschlüpfen: Erhaltet eine Spektralfeder und verwendet sie,Erhaltet am 23.02. eine Spektralfeder und verwendet sie.,55,137657,150,0,0
+Verwendet Zanzils schleichendes Gift,"Benutzt Zanzils schleichendes Gift, das Ihr von Gerald Schwartz in Sturmwind oder von Alpheus Cain in Orgrimmar erhaltet.",50,137645,50,0,0
+Verdient Gold im Auktionshaus,,52,137647,100,0,0
+"Esst ein Stück Schokoladenkuchen, ein Stück Punschtorte und ein Stück Beerenkuchen","Esst ein Stück Schokoladenkuchen, ein Stück Punschtorte und ein Stück Beerenkuchen, die Ihr von Aimee im alten Dalaran erhalten könnt.",53,137651,50,0,0
+Das große Hippogryphenschlüpfen: Fransenfederküken,"Brütet am 23.02. ein Fransenfederei aus, damit sich ein Küken auf Eure Schulter setzt.",54,137655,150,0,0
+Das große Hippogryphenschlüpfen: Verwendet eine Spektralfeder,Erbeutet am 23.02. eine Spektralfeder von Lorthalium und verwendet sie.,55,137657,150,0,0
 Dunkelmond-Jahrmarkt: Stellt einen großen Beerenkuchen auf,Stellt in der Zeit vom 05.02. bis zum 11.02. einen großen Beerenkuchen auf der Insel des Dunkelmond-Jahrmarkts auf.,56,137659,50,0,0
-Der große Stylecheck: Verdient Marken des großen Stylechecks,Verdient in der Zeit vom 20.03. bis zum 24.03. Marken des großen Stylechecks.,61,137688,100,0,0
-"Erhaltet ein Spielzeug, dass Euch gut aussehen lässt",,64,137776,50,0,0
-Der große Stylecheck: Jubelt für andere Spielercharaktere,Benutzt das Emote /jubeln in der Zeit vom 20.03. bis zum 24.03. für 5 andere Spielercharaktere im Zuge des großen Stylechecks.,65,137787,50,0,0
-"Der große Stylecheck: Verwendet den Scheinwerfer, die Tanzfläche und die Flammen des großen Stylechecks","Verwendet in der Zeit vom 20.03. bis zum 24.03. den Scheinwerfer, die Tanzfläche und die Flammen des großen Stylechecks.",66,137789,100,0,0
-Der große Stylecheck: Fans beschwören,Beschwört in der Zeit vom 20.03. bis zum 24.03. 3 Fans im Zuge des großen Stylechecks.,67,137793,50,0,0
-Tötet Kael'thas Sonnenwanderer auf der Terrasse der Magister,,68,137795,150,0,0
+Der große Stylecheck: Verdient 100 Marken des großen Stylechecks,"Verdient zwischen dem 01.08. und 07.08. Marken des großen Stylechecks, indem Ihr am großen Stylecheck teilnehmt.",61,137688,100,266,0
+Fangt Fische auf den Verheerten Inseln,,63,137731,100,0,0
+"Erhaltet ein Spielzeug, dass Euch ""gut aussehen"" lässt",,64,137776,50,0,0
+Der große Stylecheck: Verwendet /jubeln für andere Spielercharaktere,Benutzt das Emote /jubeln in der Zeit vom 20.03. bis zum 24.03. für andere Spielercharaktere im Zuge des großen Stylechecks.,65,137787,50,0,0
+"Der große Stylecheck: Verwendet den Scheinwerfer, die Tanzfläche und die Flammen des großen Stylechecks","Verwendet in der Zeit vom 20.03. bis zum 24.03. den Scheinwerfer, die Tanzfläche und die Flammen des großen Stylechecks im Zuge des großen Stylechecks.",66,137789,100,0,0
+Der große Stylecheck: Verwendet die Fanpost,Verwendet in der Zeit vom 20.03. bis zum 24.03. die Fanpost im Zuge des großen Stylechecks.,67,137793,50,0,0
+Bezwingt Kael'thas Sonnenwanderer auf der Terrasse der Magister,,68,137795,150,0,0
 Un'Gorowahnsinn: Sammelt Dinomojo,Sammelt in der Zeit vom 17.03. bis zum 19.03. Dinomojo im Krater von Un'Goro.,69,137797,150,0,0
-"Un'Gorowahnsinn: Erhaltet die Anpassung ""Cool""","Verwendet in der Zeit vom 17.03. bis zum 19.03. Dinomojo, um Euren Anpassungseffekt zu verbessern, bis Ihr ""cool"" seid.",70,137799,150,0,0
-Dunkelmond-Jahrmarkt: Die menschliche Kanonenkugel,"Schließt in der Zeit vom 05.03. bis zum 11.03. die Quest ""Die menschliche Kanonenkugel"" auf der Insel des Dunkelmond-Jahrmarkts ab.",71,137801,50,0,0
-Benutzt die überjustierte Corgibrille,Alles sieht toll aus!,72,137803,50,0,0
-Verändert Euer Aussehen,"Verwendet einen Barbiersessel, um Euer Aussehen zu ändern.",73,137805,20,0,0
-Der große Stylecheck: Sammelt die Vorlage 'Zweispitz des Händlers',"Nehmt in der Zeit vom 20.03. bis zum 24.03. am großen Stylecheck teil, um die Vorlage 'Zweispitz des Händlers' zu sammeln.",74,137807,20,0,0
-"Verwendet /angeben vor einem anderen Spielercharakter, während Ihr gut ausseht",,75,137809,50,0,0
-Macht einen /Knicks vor einem Spielercharakter der gegnerischen Fraktion,,76,137811,20,0,0
-"Erstarrt vor Spielercharakteren, die gut aussehen, in /Ehrfurcht","Erstarrt vor Spielercharakteren, die unter dem Effekt eines gutaussehenden Spielzeugs stehen, in /Ehrfurcht.",77,137813,50,0,0
+Un'Gorowahnsinn: Erhaltet die coole Anpassung,"Verwendet in der Zeit vom 17.03. bis zum 19.03. Dinomojo, um Euren Anpassungseffekt zu verbessern, bis Ihr ""cool"" seid.",70,137799,150,0,0
+"Dunkelmond-Jahrmarkt: Schließt ""Die menschliche Kanonenkugel"" ab","Schließt in der Zeit vom 05.03. bis zum 11.03. die Quest ""Die menschliche Kanonenkugel"" auf der Insel des Dunkelmond-Jahrmarkts ab.",71,137801,50,0,0
+"Benutzt das Spielzeug ""Überjustierte Corgibrille""",,72,137803,50,0,0
+Verändert Euer Aussehen,"Sucht in einer der großen Städte einen Barbier auf, um Eure Erscheinung zu verändern.",73,137805,20,0,0
+Der große Stylecheck: Sammelt die Vorlage 'Zweispitz des Händlers',"Erhaltet in der Zeit vom 20.03. bis zum 24.03. die Vorlage Zweispitz des Händlers, indem Ihr am großen Stylecheck teilnehmt.",74,137807,20,0,0
+"Verwendet /angeben vor einem anderen Spielercharakter, während Ihr ""gut ausseht""","Verwendet das Emote /angeben vor einem Spielercharakter, während Ihr unter dem Effekt eines ""gutaussehenden"" Spielzeugs steht.",75,137809,50,0,0
+Macht einen /Knicks vor einem Spielercharakter der gegnerischen Fraktion,Macht einen /Knicks vor einem Spielercharakter der gegnerischen Fraktion.,76,137811,20,0,0
+"Erstarrt vor einem ""gut aussehenden"" Spielercharakter in /Ehrfurcht","Erstarrt vor einem Spielercharakter, der unter dem Effekt eines ""gutaussehenden"" Spielzeugs steht, in /Ehrfurcht.",77,137813,50,0,0
 Erlangt Ruf auf den Dracheninseln,,79,137872,150,0,0
-Schließt 15 Dungeons auf Mythisch+ ab,,81,140979,200,6,0
-Schließt große Jagden mit den Zentauren der Maruuk ab,Schließt große Jagden auf den Dracheninseln ab.,82,140981,150,0,0
-Fangt zusammen mit einem Freund einen Fisch mit einer Harpune,Fangt zusammen mit einem anderen Spielercharakter auf den Dracheninseln einen Fisch mit einer Harpune.,83,140983,50,0,0
-Nehmt am gemeinschaftlichen Festmahl der Tuskarr teil,Schließt Aufgaben beim gemeinschaftlichen Festmahl in Iskaara auf den Dracheninseln ab.,84,140985,50,0,0
-Schließt die Belagerung der Drachenfluchfestung ab,"Schließt das Szenario ""Belagerung der Drachenfluchfestung"" an der Küste des Erwachens auf den Dracheninseln ab.",85,140987,50,0,0
+Schließt 15 Dungeons auf Mythisch+ ab,,81,140979,200,0,5
+Schließt die großen Jagden der Zentauren der Maruuk ab,Schließt große Jagden der Zentauren der Maruuk auf den Dracheninseln ab.,82,140981,150,0,0
+Fangt einen Oschi mit einem Freund,"Benutzt eine Harpune, um auf den Dracheninseln gemeinsam mit einem anderen Spielercharakter einen Oschi zu fangen.",83,140983,50,0,0
+Schließt während des gemeinschaftlichen Festmahls der Tuskarr von Iskaara Aufgaben ab,Schließt Aufgaben während des gemeinschaftlichen Festmahls in Iskaara auf den Dracheninseln ab.,84,140985,50,0,0
+Schließt die Belagerung der Drachenfluchfestung ab,Schließt die Belagerung der Drachenfluchfestung an der Küste des Erwachens auf den Dracheninseln ab.,85,140987,50,0,0
 Nutzt das Freundschaftssystem beim Klettern,Nutzt das Freundschaftssystem während Kletterweltquests auf den Dracheninseln.,86,140989,50,0,0
 Besiegt besondere Kreaturen während Primalistenstürmen,Besondere Kreaturen werden während der Primalistenstürme auf den Dracheninseln auftauchen.,87,140991,100,0,0
-Schließt Gruppendrachenreitenrennen ab,"Sprecht mit einem Bronzezeithüter auf den Dracheninseln, um an einem Gruppenrennen teilzunehmen.",88,141010,150,0,0
+Schließt vier Drachenreitenstrecken auf den Dracheninseln ab,Sprecht an einer aktiven Rennstrecke auf den Dracheninseln mit einem Bronzezeithüter.,88,141010,250,265,0
 Schließt eine PvP-Weltquest auf den Dracheninseln ab,,89,141012,100,0,0
 Besiegt einen Weltboss der Dracheninseln,,90,141021,100,0,0
 Schließt die optionalen Geschichtsstränge an der Küste des Erwachens ab,,91,141032,200,0,0
-Schließt wöchentliche Sammelquests ab,Auf dem Handwerkermarkt von Valdrakken können wöchentliche Berufsquests angenommen werden.,92,141044,100,0,0
+Schließt wöchentliche Sammelquests ab,Sprecht mit einem Berufsausbilder auf dem Handwerkermarkt von Valdrakken.,92,141044,100,0,0
+Schließt wöchentliche Handwerksquests ab,Sprecht mit einem Berufsausbilder auf dem Handwerkermarkt von Valdrakken.,93,141057,100,0,0
+Plündert Kisten mit Kriegsvorräten auf den Dracheninseln,,94,141095,100,0,0
 Angelt Gegenstände auf den Dracheninseln,,95,141125,100,0,0
-Zeigt den Drachenaspekten etwas Liebe,Zeigt den Drachenaspekten in Valdrakken etwas /Liebe.,96,141883,50,0,0
-Zeigt den gefallenen Drachen etwas Liebe,Zeigt 2 der angegebenen gefallenen Drachen in ihren Schlachtzügen etwas /Liebe.,97,141887,50,0,0
-Erhaltet ein Spielzeug mit Frühlingsthematik,Erhaltet eines der folgenden Spielzeuge,98,141941,50,0,0
-Nobelgartenfest: Esst Schokolade in Iskaara,Esst in der Zeit vom 10.04. bis zum 17.04. Nobelgartenschokolade in Iskaara auf den Dracheninseln.,99,141949,100,0,0
+Zeigt den Drachenaspekten etwas /Liebe,Zeigt den Drachenaspekten in Valdrakken etwas /Liebe.,96,141883,50,0,0
+/Liebe für gefallene Drachen,Zeigt 2 gefallenen Drachen in ihrem Schlachtzug etwas /Liebe.,97,141887,50,0,0
+Erhaltet ein Spielzeug mit Frühlingsthematik,,98,141941,50,0,0
+Nobelgartenfest: Esst Nobelgartenschokolade in Iskaara,Esst in der Zeit vom 10.04. bis zum 17.04. Nobelgartenschokolade in Iskaara auf den Dracheninseln.,99,141949,100,0,0
 Nobelgartenfest: Verwendet Frühlingsblumen in einer Arena oder auf einem Schlachtfeld,Verwendet in der Zeit vom 10.04. bis zum 17.04. Frühlingsblumen bei einem gegnerischen Spielercharakter in einer Arena oder auf einem Schlachtfeld.,100,141951,50,0,0
-Nobelgartenfest: Sammelt bunt gefärbte Eier,Sammelt in der Zeit vom 10.04. bis zum 17.04. 30 bunt gefärbte Eier.,101,141953,100,0,0
-Fotografiert legendäre Angler,Macht während Katalogisierungsweltquests Fotos von legendären Anglern.,102,141960,50,0,0
-Schließt Katalogisierungsweltquests ab,Schließt die Katalogisierungsweltquests auf den Dracheninseln ab.,103,141971,50,0,0
-Erlangt 500 Einheiten Elementarüberfluss,"Elementarüberfluss kann von Kreaturen geplündert werden, die von den Primalistenstürmen beeinflusst sind.",104,141979,100,0,0
+Nobelgartenfest: Sammelt bunt gefärbte Eier,Sammelt in der Zeit vom 10.04. bis zum 17.04 bunt gefärbte Eier.,101,141953,100,0,0
+Fotografiert legendäre Angler,Fotografiert legendäre Angler während Katalogisierungsweltquests auf den Dracheninseln.,102,141960,50,0,0
+Schließt Katalogisierungsweltquests ab,Schließt Katalogisierungsweltquests auf den Dracheninseln ab.,103,141971,50,0,0
+Erlangt Elementarüberfluss,"Erlangt Elementarüberfluss von Kreaturen, die von den Primalistenstürmen auf den Dracheninseln beeinflusst sind.",104,141979,100,0,0
+Schließt Drachenreitenstrecken auf den Dracheninseln ab,Sprecht mit einem Bronzezeithüter auf den Dracheninseln.,105,141981,100,0,0
 Nobelgartenfest: Eier platzieren,Platziert in der Zeit vom 10.04. bis zum 17.04. 12 aufwendig bemalte Eier oder 1 fantastisch bemaltes Ei.,106,141983,50,0,0
 "Marsch der Kaulquappen: Schließt ""Ein Geschenk von Eurer Kaulquappe"" ab","Schließt am 05.04. die Quest ""Ein Geschenk von Eurer Kaulquappe"" ab.",107,141986,150,0,0
 Schließt die optionalen Geschichtsstränge auf den Ebenen von Ohn'ahra ab,,108,141988,150,0,0
+Besiegt Bosse der großen Jagd,Besiegt Bosse während der großen Jagd der Zentauren der Maruuk auf den Dracheninseln.,109,141997,100,0,0
 Fangt Oschis mit einer Harpune,"Benutzt eine Harpune, um auf den Dracheninseln Oschis zu fangen.",110,142034,50,0,0
 Gebt Obsidianschlüssel ab,Liefert Obsidianschlüssel bei Personen um die Obsidianzitadelle auf den Dracheninseln ab.,111,142036,100,0,0
-Ändert das Aussehen Eures Reitdrachen,,112,142038,20,0,0
-Verdient im Ausbildungsgelände des Azurblauen Gebirges Ehre,,113,142733,100,0,0
-Tag der Wachen: Eindringlinge töten,Tötet am 28.04. als Wache in Sturmwind oder Orgrimmar Eindringlinge.,114,142040,200,0,0
-Dunkelmond-Jahrmarkt: Dunkelmond-Tanzparty,"Schließt in der Zeit vom 02.04. bis zum 08.04. die Quest ""Dunkelmond-Tanzparty"" auf der Insel des Dunkelmond-Jahrmarkts ab.",115,142044,50,0,0
-Dunkelmond-Jahrmarkt: Verwendet /jubeln im Karussell oder einem Sandkastentiger,"Verwendet das Emote ""/jubeln"" in der Zeit vom 02.04. bis zum 08.04., während Ihr mit dem Karussell oder einem Sandkastentiger auf der Insel des Dunkelmond-Jahrmarkts fahrt.",116,142048,50,0,0
-Verwendet das Teleportationsnetzwerk der Dracheninseln,Verwendet das Teleportationsnetzwerk der Dracheninseln 10-mal.,117,142050,100,0,0
-Tötet Kreaturen im Drachenquellgipfel,"Tötet am Drachenquellgipfel auf den Dracheninseln 30 Kreaturen, die Erfahrung gewähren.",118,142052,50,0,0
+Ändert das Aussehen Eures Reitdrachen,Besucht ein Podium der Transformation auf den Dracheninseln.,112,142038,20,0,0
+Verdient im Ausbildungsgelände des Kobaltkonvents im Azurblauen Gebirge Ehre,,113,142733,100,0,0
+Tag der Wachen: Eindringlinge töten,Salutiert (/salutieren) am 28.04. vor Wachen in Sturmwind oder Orgrimmar und erschlagt Angreifer in den Hauptstädten.,114,142040,200,0,0
+"Dunkelmond-Jahrmarkt: Schließt ""Dunkelmond-Tanzparty"" ab","Schließt in der Zeit vom 02.04. bis zum 08.04. die Quest ""Dunkelmond-Tanzparty"" auf der Insel des Dunkelmond-Jahrmarkts ab.",115,142044,50,0,0
+Dunkelmond-Jahrmarkt: Verwendet während der Fahrt mit dem Karussell oder einem Sandkastentiger das Emote /jubeln,"Verwendet das Emote ""/jubeln"" in der Zeit vom 02.04. bis zum 08.04., während Ihr mit dem Karussell oder einem Sandkastentiger auf der Insel des Dunkelmond-Jahrmarkts fahrt.",116,142048,50,0,0
+Verwendet das Teleportationsnetzwerk der Dracheninseln,"Interagiert mit einem uralten Portal, um das Teleportationsnetzwerk der Dracheninseln zu benutzen.",117,142050,100,0,0
+Tötet Kreaturen am Drachenquellgipfel,"Tötet am Drachenquellgipfel im Südosten der Ebenen von Ohn'ahra Kreaturen, die Erfahrung gewähren.",118,142052,50,0,0
 Schließt die Prüfung der Flut ab,Schließt an den Quellen von Ohn'iri auf den Dracheninseln die Prüfung der Flut ab.,119,142054,50,0,0
 Schließt den Geschichtsstrang im Bad der Ruhigen Träume ab,Schließt den Geschichtsstrang im Bad der Ruhigen Träume in Thaldraszus auf den Dracheninseln ab.,120,142056,50,0,0
 Besiegt Elitehaustiere der Dracheninseln mit Drachkinhaustieren,"Besiegt 2 Elitehaustiere der Dracheninseln mit einem Team, das aus mindestens 2 Drachkinhaustieren besteht.",121,142058,200,0,0
-"Angelt Gegenstände auf den Dracheninseln, während Ihr gut seht und ausseht","Ihr seht nicht nur gut, wenn Ihr den Onyxblendschutz oder das Handwerkermonokel tragt, Ihr seht dabei auch gut aus.",122,142063,50,0,0
-"Stellt Gegenstände her, während Ihr gut seht und ausseht","Ihr seht nicht nur gut, wenn Ihr den Onyxblendschutz oder das Handwerkermonokel tragt, Ihr seht dabei auch gut aus.",123,142065,50,0,0
+"Angelt Gegenstände, während Ihr ""gut ausseht""","Angelt Gegenstände, während Ihr einen Onyxblendschutz oder ein Handwerkermonokel tragt.",122,142063,50,0,0
+"Stellt Gegenstände her, während Ihr gut seht und ausseht","Stellt Gegenstände her, während Ihr einen Onyxblendschutz oder ein Handwerkermonokel tragt.",123,142065,50,0,0
 Schließt die optionalen Geschichtsstränge des Azurblauen Gebirges ab,,124,142067,150,0,0
 Verdient in der Festung Nokhudon Ehre,Verdient in der Festung Nokhudon auf den Dracheninseln Ehre.,125,142046,100,0,0
-Verändert das Aussehen Eures Begleiters der großen Jagd,"Sprecht mit einem Ausbilder der großen Jagd auf den Dracheninseln, um das Aussehen Eures Begleiters zu ändern.",126,142080,20,0,0
-Entdeckt die Ansammlungen versteckter Juwelen auf den Dracheninseln,,127,142082,50,0,0
+Verändert das Aussehen Eures Begleiters der großen Jagd,Sprecht an einem Ort der großen Jagden auf den Dracheninseln mit Trainer Frodrum.,126,142080,20,0,0
+Entdeckt Ansammlungen versteckter Juwelen auf den Dracheninseln,Verwendet Karten für Edelsteinklumpen auf den Dracheninseln.,127,142082,50,0,0
 Besiegt Meisterzähmer der Dracheninseln mit mechanischen Haustieren,"Besiegt 2 Meisterzähmer der Dracheninseln mit einem Team, das aus mindestens 2 mechanischen Haustieren besteht.",128,142725,200,0,0
-Sammelt ein Kopfgeld und öffnet eine Kiste mit Kriegsvorräten auf den Ebenen von Ohn'ahra,Sammelt ein Kopfgeld für bezwungene Spielercharaktere und öffnet eine Kiste mit Kriegsvorräten auf den Ebenen von Ohn'ahra im Kriegsmodus.,129,142087,150,0,0
+Sammelt ein Kopfgeld und öffnet eine Kiste mit Kriegsvorräten auf den Ebenen von Ohn'ahra,Sammelt ein Kriegsmoduskopfgeld von einem bezwungenen Spielercharakter ein und öffnet eine Kiste mit Kriegsvorräten auf den Ebenen von Ohn'ahra.,129,142087,150,0,0
 Schließt wöchentliche Handwerksquests ab,Auf dem Handwerkermarkt von Valdrakken können wöchentliche Berufsquests angenommen werden.,130,0,100,0,0
 Schließt wöchentliche Sammelquests ab,Auf dem Handwerkermarkt von Valdrakken können wöchentliche Berufsquests angenommen werden.,131,0,100,0,0
 Schließt Einzeldrachenreitenrennen ab,"Sprecht mit einem Bronzezeithüter auf den Dracheninseln, um an einem Einzelrennen teilzunehmen.",132,0,100,0,0
 Schließt die Belagerung der Drachenfluchfestung ab,"Schließt das Szenario ""Belagerung der Drachenfluchfestung"" an der Küste des Erwachens ab.",133,0,50,0,0
-Schließt Kletterweltquests ab,Schließt 8 Kletterweltquests auf den Dracheninseln ab.,135,142099,100,0,0
-Werdet von Tornados getroffen,Werdet während eines Windsturms der Primalisten von einem Tornado zurückgeworfen.,136,142112,50,0,0
-Schließt Karawanenquests ab,Schließt Karawanenquests für den Nomadenklan der Zentauren der Maruuk auf den Dracheninseln ab.,137,142114,100,0,0
-Nutzt die Winde der Inseln beim Drachenreiten,"Fliegt durch die Winde der Inseln, während Ihr auf einem Reitdrachen sitzt, um noch höhere Höhen zu erreichen.",138,142133,50,0,0
-Angelt Gegenstände an Angellöchern der Tuskarr,,139,142135,50,0,0
+Schließt Kletterweltquests ab,Schließt Kletterweltquests auf den Dracheninseln ab.,135,142099,100,0,0
+Werdet von Tornados des Primalistensturms getroffen,Werdet während eines Gewitters der Primalisten von Tornados getroffen.,136,142112,50,0,0
+Schließt Quests der Karawane der Aylaag ab,Schließt auf den Ebenen von Ohn'ahra auf den Dracheninseln Quests der Karawane der Aylaag ab.,137,142114,100,0,0
+Fliegt beim Drachenreiten durch die Winde der Inseln,Fliegt beim Drachenreiten auf den Dracheninseln durch die Winde der Inseln.,138,142133,50,0,0
+Angelt Gegenstände an Angellöchern der Tuskarr von Iskaara,,139,142135,50,0,0
+Sammelt blutige Abzeichen auf den Dracheninseln,Schließt PvP-Aktivitäten auf den Dracheninseln ab.,140,142224,150,0,0
 Nobelgartenfest: Schließt tägliche Quests ab,Schließt in der Zeit vom 10.04. bis zum 17.04. tägliche Quests des Nobelgartenfests ab.,141,142243,100,0,0
-Verwendet /hüpfen vor Kleintieren auf den Dracheninseln,Verwendet /hüpfen vor folgenden Kleintieren auf den Dracheninseln (und zeigt ihnen vielleicht auch etwas /Liebe),142,142248,50,0,0
-"Esst Suppe, während Ihr gut ausseht","Esst von der gemeinschaftlichen Suppe in Iskaara auf den Dracheninseln, während Ihr gut ausseht.",143,142261,50,0,0
-Zeigt dem Handelsposten etwas Liebe,Zeigt den Händlern am Handelsposten und ihren Waren etwas /Liebe.,144,142268,50,0,0
-Besiegt 25 Schlachtzugsbosse,,145,142290,250,0,0
-Fangt zusammen mit 5 Freunden einen Oschi mit einer Harpune,Fangt zusammen mit 5 anderen Spielercharakteren auf den Dracheninseln einen Oschi mit einer Harpune.,146,142297,50,0,0
+Verwendet /hüpfen vor Kleintieren auf den Dracheninseln,Verwendet /hüpfen vor Kleintieren auf den Dracheninseln.,142,142248,50,0,0
+"Esst Suppe, während Ihr ""gut ausseht""","Esst Suppe aus dem gemeinschaftlichen Topf in Iskaara, während Ihr unter dem Effekt eines ""gutaussehenden"" Spielzeugs steht.",143,142261,50,0,0
+/Liebe am Handelsposten,Zeigt den Händlern am Handelsposten und ihren Waren etwas /Liebe.,144,142268,50,0,0
+Besiegt 25 Schlachtzugsbosse,,145,142290,250,0,10
+Fangt einen Oschi mit Freunden,"Benutzt eine Harpune, um mit mindestens 5 anderen Spielercharakteren auf den Dracheninseln einen Oschi zu fangen.",146,142297,50,0,0
 Erfüllt öffentliche Handwerksaufträge,"Sprecht mit einem Verwaltungsangestellten für Handwerksaufträge auf dem Handwerkermarkt von Valdrakken, um Handwerksaufträge anzunehmen.",147,142299,100,0,0
+Erfüllt persönliche Handwerksaufträge,Sprecht mit einem Berufsausbilder auf dem Handwerkermarkt von Valdrakken.,148,142303,100,0,0
 "Nobelgartenfest: Schließt einen Dungeon von Dragonflight ab, während Ihr einen Frühlingsreif tragt","Schließt in der Zeit vom 10.04. bis zum 17.04. einen Dungeon von Dragonflight ab, während Ihr einen Frühlingsreif tragt.",149,142324,50,0,0
-"Besiegt Bosse während des Ereignisses ""Der Zorn des Sturms""","Das Ereignis ""Der Zorn des Sturms"" kann auf den Dracheninseln in der Zukunft der Primalisten gefunden werden.",150,142527,100,0,0
+"Besiegt Bosse aus ""Der Zorn des Sturms""","Besiegt Bosse aus ""Der Zorn des Sturms"" in der Zukunft der Primalisten auf den Dracheninseln.",150,142527,100,0,0
 Erfüllt öffentliche Handwerksaufträge,"Sprecht mit einem Verwaltungsangestellten für Handwerksaufträge auf dem Handwerkermarkt von Valdrakken, um Handwerksaufträge anzunehmen.",152,142299,100,0,0
-Öffnet Türen in den Gewölben von Zskera,Öffnet Türen in den Gewölben von Zskera mit Gewölbeschlüsseln von Zskera.,154,143906,100,0,0
-Schließt große Jagden mit den Zentauren der Maruuk ab,Schließt Große Jagden auf den Dracheninseln ab.,155,143919,150,0,0
+Öffnet Türen in den Gewölben von Zskera,Öffnet mit Gewölbeschlüsseln von Zskera Türen in den Gewölben von Zskera.,154,143906,100,0,0
+Schließt die großen Jagden der Zentauren der Maruuk ab,Schließt große Jagden der Zentauren der Maruuk auf den Dracheninseln ab.,155,143919,150,0,0
 """Ja, Küchenchef!"" während eines gemeinschaftlichen Festmahls","Schließt ""Ja, Küchenchef!"" bei einem gemeinschaftlichen Festmahl in Iskaara auf den Dracheninseln ab.",156,143922,50,0,0
-Schließt Drachenreiterrennen-Weltquests ab,,157,144066,50,0,0
+Schließt Weltquests der Drachenreiterrennen ab,,157,144066,50,0,0
 Schließt die Weltquests der Drachenschuppenexpedition ab,Schließt Weltquests der Drachenschuppenexpedition auf den Dracheninseln ab.,158,143930,100,0,0
 Besiegt Bosse des Ursturms auf der Verbotenen Insel,Besiegt Bosse des Ursturms auf der Verbotenen Insel der Dracheninseln.,159,143936,50,0,0
 "Schließt Quests für ""Lebensfunke"" ab","Schließt Quests für ""Lebensfunke"" auf den Dracheninseln ab.",160,143949,100,0,0
-Schließt wöchentliche Quests in den Gewölben von Zskera ab,Schließt wöchentliche Quests in den Gewölben von Zskera auf den Dracheninseln ab.,161,143955,75,0,0
-Besiegt neue Haustierzähmer mit Drachkinhaustieren,"Besiegt Haustierzähmer der Dracheninseln mit einem Team, das aus mindestens 2 Drachkinhaustieren besteht.",162,143959,200,0,0
+Schließt wöchentliche Quests in den Gewölben von Zskera ab,Schließt wöchentliche Quests in den Gewölben von Zskera auf der Verbotenen Insel auf den Dracheninseln ab.,161,143955,75,0,0
+Besiegt Haustierzähmer der Dracheninseln mit Drachkinhaustieren,"Besiegt Haustierzähmer der Dracheninseln mit einem Team, das aus mindestens 2 Drachkinhaustieren besteht.",162,143959,200,0,0
 Nutzt das Spielzeug Schwingende Sande in einem Dungeon von Warlords of Draenor,,163,143966,50,0,0
-Die Kinderwoche: Schließt eine Quest ab,Schließt zwischen dem 01.05. und 08.05. eine der folgenden Quests der Kinderwoche ab.,164,143968,100,0,0
-"Kinderwoche: Schließt tägliche Quests ab, während Euer Waisenkind dabei ist","Schließt zwischen dem 01.05. und 08.05. tägliche Quests ab, während ein Waisenkind dabei ist.",165,143977,100,0,0
+Die Kinderwoche: Schließt eine Quest ab,Schließt zwischen dem 01.05. und 08.05. eine Quest der Kinderwoche ab.,164,143968,100,0,0
+Kinderwoche: Schließt tägliche Quests mit einem Waisenkind ab,"Schließt zwischen dem 01.05. und 08.05. tägliche Quests ab, während ein Waisenkind dabei ist.",165,143977,100,0,0
 "Kinderwoche: Fangt Oschis mit einer Harpune, während ein Waisenkind dabei ist","Nutzt zwischen dem 01.05. und 08.05. eine Harpune, um Oschis an Land zu ziehen, während ein Waisenkind dabei ist.",166,143998,50,0,0
-Die Kinderwoche: Schließt vier Quests ab,Schließt zwischen dem 01.05. und 08.05. vier der folgenden Quests der Kinderwoche ab.,167,144000,150,0,0
-Kinderwoche: /jubelt für Paera Wohlbrise zusammen mit einem Waisenkind,"Benutzt zwischen dem 01.05. und 08.05. das Emote /jubeln für Paera Wohlbrise in Iskaara, während ein Waisenkind dabei ist.",168,144011,50,0,0
+Die Kinderwoche: Schließt Quests ab,Schließt zwischen dem 01.05. und 08.05. vier Quests der Kinderwoche ab.,167,144000,150,0,0
+Kinderwoche: Verwendet /jubeln für Paera Wohlbrise zusammen mit einem Waisenkind,"Benutzt zwischen dem 01.05. und 08.05. das Emote /jubeln für Paera Wohlbrise in Iskaara, während ein Waisenkind dabei ist.",168,144011,50,0,0
 Kinderwoche: Schließt Dungeons auf Mythisch+ mit einem Waisenkind ab,"Schließt zwischen dem 01.05. und 08.05. Dungeons auf Mythisch+ ab, während ein Waisenkind dabei ist.",169,144013,100,0,0
 Frühlingsballonfest: Schließt einen Heißluftballonflug ab,Fahrt zwischen dem 10.05. und dem 12.05. mit einem Heißluftballon und genießt die Tour.,170,144015,100,0,0
-Glühkappenfest: Werdet Zeuge vom Aufstieg und Fall von Fshoo,"Helft am 17.05. in Sporregar in den Zangarmarschen, den großen Fshoo so lange wie möglich am Leben zu halten.",171,144017,150,0,0
-Dunkelmond-Jahrmarkt: Panzergeneral,"Schließt in der Zeit vom 07.05. bis zum 13.05. die Quest ""Panzergeneral"" auf der Insel des Dunkelmond-Jahrmarkts ab.",172,144021,50,0,0
+Glühkappenfest: Werdet Zeuge vom Aufstieg und Fall von Fshoo,"Helft am 27.05. in Sporeggar in den Zangarmarschen, den großen Fshoo so lange wie möglich am Leben zu halten.",171,144017,150,0,0
+"Dunkelmond-Jahrmarkt: Schließt ""Panzergeneral"" ab","Schließt in der Zeit vom 07.05. bis zum 13.05. die Quest ""Panzergeneral"" auf der Insel des Dunkelmond-Jahrmarkts ab.",172,144021,50,0,0
 Dunkelmond-Jahrmarkt: Ballon + Pony = Spaß,"Reitet in der Zeit vom 07.05. bis zum 13.05. ein Dunkelmond-Pony über die Insel des Dunkelmond-Jahrmarkts, während Ihr einen Ballon haltet.",173,144028,50,0,0
-Quietscheentenangeln,Angelt Gegenstände auf den Dracheninseln mit dem Quietscheentenschwimmer.,174,144039,50,0,0
+Quietscheentenangeln,"Benutzt das Spielzeug ""Kiste mit Schwimmern: Quietscheentchen"" und angelt dann auf den Dracheninseln Gegenstände.",174,144039,50,0,0
 "Erschlagt Kreaturen, während Ihr die Brennende Klinge repräsentiert","Tötet auf den Dracheninseln Kreaturen, die Erfahrung gewähren, während ihr unter dem Einfluss des ""Banner der Brennenden Klinge""-Spielzeugs steht.",175,144041,50,0,0
-Murbrillen müssen gesehen werden,"Nutzt die Murbrille in: Valdrakken, Iskaara, Maruukai und dem Drachenschuppenbasislager.",176,144043,100,0,0
-Murbrillen müssen gefeiert werden,Benutzt das Emote /tanzen unter dem Einfluss der Murbrille.,177,144048,50,0,0
-Das Brett auf den Kopf stellen,Interagiert mit einem Hearthstonespielbrett im Gasthaus zur Fehlenden Türangel im Azurblauen Gebirge.,178,144050,50,0,0
-Zieht einen Zugschlitten von Iskaara oder fahrt damit,Zieht einen Zugschlitten von Iskaara oder fahrt damit.,179,144056,50,0,0
-Besiegt die Haustierzähmer von Draenor,Besiegt Haustierzähmer von Warlords of Draenor.,180,144059,150,0,0
-Schließt umgekehrte Drachenrennkurse ab,Schließt umgekehrte Drachenrennkurse auf der Verbotenen Insel ab.,181,144100,100,0,0
+"Benutzt das Spielzeug ""Murbrille""","Nutzt das Spielzeug ""Murbrille"" in Valdrakken, Iskaara, Maruukai und dem Drachenschuppenbasislager.",176,144043,100,0,0
+/Tanzen mit Murbrille,"Verwendet /tanzen mit aktivem Murbrilleneffekt durch das Spielzeug ""Murbrille"" vor einem Spielercharakter.",177,144048,50,0,0
+Werft ein Hearthstone-Spielbrett um,"Benutzt das Spielzeug ""Hearthstone-Spielbrett"" und interagiert im Gasthaus zur Fehlenden Türangel im Azurblauen Gebirge mit einem Hearthstone-Spielbrett.",178,144050,50,0,0
+Zieht einen Zugschlitten von Iskaara oder fahrt damit,"Benutzt das Spielzeug ""Zugschlitten von Iskaara"" oder fahrt mit dem eines anderen Spielercharakters.",179,144056,50,0,0
+Besiegt Haustierzähmer von Draenor,,180,144059,150,0,0
+Schließt umgekehrte Drachenreitenstrecken auf der Verbotenen Insel ab,Sprecht mit einem Bronzezeithüter auf der Verbotenen Insel auf den Dracheninseln.,181,144100,100,0,0
+Fangt Lavafische auf den Dracheninseln,,182,144559,100,0,0
 [DNT] Test: Noblegarden: Complete a Dragonflight Dungeon in a Spring Circlet,"[DNT]  Test: From 4/10 - 4/17, complete a Dragonflight dungeon wearing any Spring Circlet.",184,144640,150,0,0
-Überwindet Sturmhaustierereignisbosse mit Elementarhaustieren,"Besiegt Sturmhaustierereignisbosse mit einem Team, das aus mindestens 2 Elementarhaustieren besteht.",189,146075,200,0,0
-Plündert Durchdringungstiegel in Durchdringungslagern.,Plündert während Fyrakkangriffen Durchdringungstiegel in Durchdringungslagern.,248,145855,100,0,0
-Entdeckt die uralten Steine in der Zaralekhöhle.,,249,145857,100,0,0
-Sammelt Titanenteile,"Sammelt im Event ""Forscher unter Feuer: Titanenabriegelung"" Titanenteile",250,145862,100,0,0
-"Tötet Kreaturen während des Ereignisses ""Forscher unter Feuer"".",,253,145988,100,0,0
+Regeneriert Drachenreitenelan während 'Bodenkratzer',,185,144628,100,0,0
+Schließt Weltquests der Drachenschuppenexpedition in der Zaralekhöhle ab,Schließt Kletter- und Katalogisierungsweltquests in der Zaralekhöhle ab.,186,144630,100,0,0
+Fangt Lavaoschis mit einer Harpune,Benutzt die Harpune von Iskaara und fangt in der Nähe einer Oschisichtung der Tuskarr an Angellöchern auf den Dracheninseln Lavaoschis.,187,144835,100,0,0
+Tötet Spielercharaktere an der Küste des Erwachens,,188,144916,100,0,0
+Überwindet Sturmhaustierbosse auf der Verbotenen Insel mit Elementarhaustieren,"Besiegt Sturmhaustierbosse der Verbotenen Insel mit einem Team, das aus mindestens 2 Elementarhaustieren besteht.",189,146075,200,0,0
+Sonnenwendfest: Schließt tägliche Quests ab,Schließt in der Zeit vom 21.06. bis zum 30.06. tägliche Quests des Sonnenwendfests ab.,190,145066,200,0,0
+Sonnenwendfest: Ehrt die Flammen in Pandaria,Ehrt in der Zeit vom 21.06. bis zum 30.06. die Flammen in Pandaria.,191,145072,200,0,0
+Sonnenwendfest: Entweiht das Freudenfeuer in Pandaria,Entweiht vom 21.06. bis 30.06. das Freudenfeuer im Tal der Ewigen Blüten in Pandaria.,192,145087,100,0,0
+Sonnenwendfest: Ehrt die Flammen auf den Dracheninseln,Ehrt in der Zeit vom 21.06. bis zum 30.06. die Flammen auf den Dracheninseln.,193,145090,200,0,0
+Sonnenwendfest: Feiert das Feuer am Obsidianthron,"Benutzt das Emote /tanzen mit dem Spielzeug ""Kohlenpfanne der tanzenden Flammen"" am Obsidianthron an der Küste des Erwachens.",194,145097,100,0,0
+Sonnenwendfest: Besiegt Ahune,Besiegt zwischen dem 21.06. und 30.06. Frostfürst Ahune.,195,145187,200,0,0
+Schließt Quests in Pandaria ab,"Schließt Quests ab, für die Ihr Erfahrung erhaltet.",196,145189,150,0,0
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Mists of Pandaria ab,Schließt zwischen dem 13.06. und 20.06. Zeitwanderungsdungeons von Mists of Pandaria ab.,197,145198,200,0,0
+Fangt Fische in Pandaria,,200,145221,100,0,0
+Besiegt Meisterzähmer von Pandaria,Besiegt 3 Meisterzähmer von Pandaria.,201,145232,100,0,0
+Tanz der tausend Boote: Baut ein kleines Boot,"Schließt in der Zeit vom 6.6. bis zum 8.6. Quests beim Tanz der tausend Boote ab, um Teile zu erhalten und zu einem kleinen Boot zu kombinieren.",202,145239,100,0,0
+Tanz der tausend Boote: Die Dracheninseln umsegeln,"Nutzt in der Zeit vom 6.6. bis zum 8.6. ein kleines Boot, um die Dracheninseln zu umsegeln.",203,145241,150,0,0
+"Dunkelmond-Jahrmarkt: Schließt ""Herausforderung des Feuervogels"" ab","Schließt in der Zeit vom 04.06. bis zum 10.06. die Quest ""Herausforderung des Feuervogels"" auf dem Dunkelmond-Jahrmarkt ab.",205,145281,50,0,0
+"Dunkelmond-Jahrmarkt: Verwendet das Spielzeug ""Brennender Reifen"" auf der Insel des Dunkelmond-Jahrmarkts und in Valdrakken","Verwendet in der Zeit vom 4.6. bis zum 10.6. das Spielzeug ""Brennender Reifen"" auf der Insel des Dunkelmond-Jahrmarkts und in Valdrakken.",206,145285,50,0,0
+Besiegt Kokia Feuerhuf auf dem Schwierigkeitsgrad 'Mythisch' nach dem Erhitzen der Lebensbecken,"Besiegt Kokia Feuerhuf in den Rubinlebensbecken auf dem Schwierigkeitsgrad 'Mythisch', nachdem Ihr vier Lebensbecken mit 'Geschmolzener Brocken' erhitzt habt.",207,145290,100,0,0
+Schließt Drachenreitenstrecken der Zaralekhöhle ab,Sprecht mit einem Bronzezeithüter in der Zaralekhöhle auf den Dracheninseln.,209,145403,100,0,0
+Tötet Spielercharakter in der Zaralekhöhle,,210,145405,100,0,0
+Schließt Haustierkampfweltquests in der Zaralekhöhle ab,Schließt die Haustierkampfweltquests in der Zaralekhöhle mit einer vollständigen Gruppe Haustiere auf Stufe 25 ab.,211,145407,150,0,0
+Schließt Kletterweltquests in der Zaralekhöhle ab,,212,145414,100,0,0
+Zeitwanderung: Schließt einen Zeitwanderungsdungeon von Warlords of Draenor ab,Schließt zwischen dem 04.07. und 11.07. Zeitwanderungsdungeons von Warlords of Draenor ab.,213,145430,20,0,-10
+Zeitwanderung: Schließt 1 Zeitwanderungsdungeon von Legion ab,Schließt zwischen dem 25.7. und 31.7. Zeitwanderungsdungeons von Legion ab.,214,145441,20,0,-30
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Legion ab,Schließt zwischen dem 25.7. und 31.7. Zeitwanderungsdungeons von Legion ab.,215,145457,100,0,-31
+Schließt eine Haustierkampfherausforderungs-Quest ab,"Besucht den Haustierladen in Dalaran, Tizzy Kolbenschock in Boralus oder mit Radek Luntenschloss in Dazar'alor, um eine Herausforderung zu starten.",216,145477,100,0,0
+Feuerwerksspektakel: /Tanzen mit den Feiernden,"Verwendet am 04.07. das Emote /tanzen bei Feiernden in Sturmwind, Orgrimmar und Beutebucht.",217,145546,100,0,-4
+"Benutzt das Spielzeug ""Medaillon des flammenden Verteidigers"" und tötet Kreaturen","Tötet auf den Dracheninseln Kreaturen, die Erfahrung gewähren, während Ihr unter dem Einfluss des Spielzeugs ""Medaillon des flammenden Verteidigers"" steht.",218,145550,100,0,0
+Tötet Kreaturen in der Schuppenknackerfeste oder der Obsidianzitadelle,Besiegt Kreaturen in der Schuppenknackerfeste oder der Obsidianzitadelle an der Küste des Erwachens.,219,145554,100,0,0
+Lichte Leuchten: Kauft Quallengelee,Kauft am 13.7. Quallengelee von Max Megaspreng in Vashj'ir.,220,145559,120,0,-13
+Lichte Leuchten: Kauft einen Unterseeantriebsmotor,Kauft am 13.7. einen Unterseeantriebsmotor von Max Megaspreng in Vashj'ir.,221,145563,130,0,-13
+Lichte Leuchten: Kauft einen beschädigten Taucherhelm,Kauft am 13.7. einen beschädigten Taucherhelm von Max Megaspreng in Vashj'ir.,222,145565,150,0,-13
+"/kalt bei einem Spielercharakter, der durch das Spielzeug ""Streichholzschächtelchen"" brennt","Verwendet das Emote /kalt bei einem Spielercharakter mit dem Effekt des Spielzeugs ""Streichholzschächtelchen"".",223,145567,50,0,0
+Tanzparty im Auktionshaus: Habt eine /anderemeinung als die wütende Händlerin,Verwendet am 22.07. das Emote /anderemeinung bei einer wütenden Händlerin vor einem Auktionshaus in Sturmwind oder Orgrimmar.,224,145569,100,0,-22
+"Benutzt das Spielzeug ""Streichholzschächtelchen""","Benutzt das Streichholzschächtelchen-Spielzeug in Valdrakken, Iskaara, dem Drachenschuppenbasislager und Maruukai.",225,145571,100,0,0
+Tanzparty im Auktionshaus: Erhaltet Fröhliche Füße,"Erhaltet am 22.07. 'Fröhliche Füße', indem Ihr im Auktionshaus von Sturmwind oder Orgrimmar auf die Bühne gebeten werdet.",226,145586,100,0,-22
+Sonnenwendfest: Stehlt eine Flamme,"Schließt in der Zeit vom 01.07. bis zum 04.07. die Quest ""Raubt die Flamme von Orgrimmar"" oder ""Raubt die Flamme von Sturmwind"" ab.",227,145588,150,0,-2
+/Jubeln am Handelsposten,Jubelt (/jubeln) den Händlern am Handelsposten und ihren Waren zu.,228,145597,20,0,0
+/Jubeln für die Super-Panzerkhanbande,"Verwendet das Spielzeug ""Super-Panzerkhanbande"" und verwendet das Emote /jubeln bei der Super-Panzerkhanbande.",230,145600,20,0,0
+/Jubeln für die Drachenaspekte,Jubelt (/jubeln) den Drachenaspekten in Valdrakken zu.,231,145602,20,0,0
+"Verwendet das Spielzeug ""Isolierte Tanzschuheinlagen""","Benutzt das ""Isolierte Tanzschuheinlagen""-Spielzeug in Valdrakken und Loamm.",232,145606,50,0,-30
+Ein /Hurra für isolierte Tanzschuheinlagen,"Ruft einem Spielercharakter der gegnerischen Fraktion /Hurra zu, der unter dem Effekt 'Heiße Sohlen' des Spielzeugs ""Isolierte Tanzschuheinlagen"" steht.",233,145613,100,0,-30
+"Schließt tägliche Quests von ""Angriff von Fyrakk"" in Durchdringungslagern ab","Schließt tägliche Quests von ""Angriff von Fyrakk"" in Durchdringungslagern auf den Dracheninseln ab.",234,145702,100,0,0
+/Jubeln für Glimmeroggrennschnecken,Jubelt (/jubeln) den Rennschnecken in Glimmerogg zu.,235,145736,50,0,0
+"Benutzt das Spielzeug ""Fetzige Tuskarrparty""","Benutzt das ""Fetzige Tuskarrparty""-Spielzeug in Valdrakken und Loamm.",236,145723,50,0,0
+"Benutzt das ""Schwingende Sande""-Spielzeug","Benutzt das Spielzeug ""Schwingende Sande"" in Valdrakken, im Morqutdorf und in Loamm.",237,145741,50,0,-40
+/Tanzen für schwingende Sande,"Verwendet /tanzen für einen Spielercharakter der gegnerischen Fraktion, der unter dem Effekt 'Schwingende Sande' des Spielzeugs ""Schwingende Sande"" steht.",238,145745,100,0,-40
+Startet Feuerflieger in Hauptstädten.,Benutzt Feuerflieger des Ingenieursfeuerwerks in Valdrakken und Sturmwind oder Orgrimmar.,239,145765,50,0,-50
+Plündert Schatzkisten in Niffenhöhlen.,"Plündert Schatztruhen, während Ihr an der Seite eines Niffenbegleiters die Höhlen die Zaralekhöhle erkundet.",240,145770,200,0,0
+Startet Feuerflieger in Dungeons von Dragonflight,Benutzt Feuerflieger des Ingenieursfeuerwerks in Dungeons von Dragonflight.,241,145788,50,0,-50
+Startet Feuerflieger in Schlachtzügen von Dragonflight,Benutzt Feuerflieger des Ingenieursfeuerwerks in Schlachtzügen von Dragonflight.,242,145790,50,0,-50
+Benutzt das Dunkelmond-Tanzparty-Spielzeug,Benutzt das Dunkelmond-Tanzparty-Spielzeug in Loamm.,243,145792,50,0,0
+Benutzt das Drachenteeservice-Spielzeug,"Benutzt das Spielzeug ""Drachenteeservice"" in Valdrakken, Iskaara, dem Morqutdorf und am Obsidianthron.",244,145794,50,0,0
+Benutzt das D.I.S.C.O.-Spielzeug.,"Hört Musik, indem Ihr das D.I.S.C.O.-Spielzeug in Valdrakken und Sturmwind oder Orgrimmar benutzt.",245,145801,50,0,0
+Dunkelmond-Jahrmarkt: /Jubeln für die Musikanten,Verwendet in der Zeit vom 01.07. bis 08.07. das Emote /jubeln bei den Musikanten auf dem Dunkelmond-Jahrmarkt.,246,145810,50,0,0
+Erlangt Elementarüberfluss,"Erlangt Elementarüberfluss, der von Kreaturen geplündert werden kann, die von den Primalistenstürmen beeinflusst sind.",247,145813,100,0,0
+"Plündert Durchdringungstiegel von ""Angriff von Fyrakk"" in Durchdringungslagern","Plündert Durchdringungstiegel von ""Angriff von Fyrakk"" in Durchdringungslagern auf den Dracheninseln.",248,145855,100,0,0
+Entdeckt die uralten Steine in der Zaralekhöhle,,249,145857,100,0,0
+"Sammelt Titanenteile von ""Forscher unter Feuer""","Sammelt während ""Abriegelungsschlamassel"" Titanenteile von ""Forscher unter Feuer"".",250,145862,100,0,0
+An Myrrit /schnüffeln,"Verwendet /schnüffeln bei an Myrrit, während Ihr auf einer Höhlenerkundung in der Zaralekhöhle nach Schätzen sucht.",251,145976,50,0,0
+Vertreibt aufgeregte Bewunderer beim Schneckenrennen,"Vertreibt aufgeregte Bewunderer, die sich in das Schneckenrennen in Glimmerogg einmischen.",252,145980,50,0,0
+"Tötet Kreaturen von ""Forscher unter Feuer""","Tötet Kreaturen von ""Forscher unter Feuer"" in den Ruinen von Drekazera in der Zaralekhöhle.",253,145988,150,0,0
+Ein gieriger Abgesandter: Tötet Schatzgoblins,"Tötet zwischen dem 01.06. und dem 15.06. Schatzgoblins in Sturmwind, Orgrimmar oder auf den Dracheninseln.",254,146252,250,0,0
+Erlangt Ruf bei den Niffen von Loamm,,255,146080,100,0,0
 Sonnenwendfest: Verwendet /verbeugen bei einem Flämmling,Verwendet zwischen dem 21.6. und dem 30.6. das Emote /verbeugen bei einem Sommerflämmling oder Festflämmling.,256,146088,50,0,0
+Gewinnt einen PvP-Haustierkampf,,258,146502,50,0,0
+Gewinnt 5 PvP-Haustierkämpfe,,259,146504,100,258,0
+Fangt ein ungewöhnlich seltenes Kampfhaustier,Fangt ein ungewöhnlich seltenes Kampfhaustier in der Zaralekhöhle.,260,146506,100,0,0
+Gewinnt Duelle auf den Dracheninseln,"Gewinnt ein Duell gegen einen anderen Spielercharakter in Valdrakken, Maruukai und Loamm.",261,146508,100,0,0
+"Helft Tricksi, das Schneckenrennen zu gewinnen",Angehörige der Horde helfen Tricksi der Schnecke bei den Glimmeroggrennen in der Zaralekhöhle.,262,146515,100,0,0
+"Helft Schüchti, das Schneckenrennen zu gewinnen",Angehörige der Allianz helfen Schüchti der Schnecke bei den Glimmeroggrennen in der Zaralekhöhle.,263,146539,100,0,0
+"Helft Brulee, das Schneckenrennen zu gewinnen",Helft Brulee der Schnecke bei den Glimmeroggrennen in der Zaralekhöhle.,264,146541,100,0,0
+Schließt eine Drachenreitenstrecke auf den Dracheninseln ab,Sprecht an einer aktiven Rennstrecke auf den Dracheninseln mit einem Bronzezeithüter.,265,146543,100,0,0
+Der große Stylecheck: Verdient 20 Marken des großen Stylechecks,"Verdient zwischen dem 01.08. und 07.08. Marken des großen Stylechecks, indem Ihr am großen Stylecheck teilnehmt.",266,146545,20,0,0
+Der große Stylecheck: Verdient 300 Marken des großen Stylechecks,"Verdient zwischen dem 01.08. und 07.08. Marken des großen Stylechecks, indem Ihr am großen Stylecheck teilnehmt.",267,146547,200,61,0
+"Der große Stylecheck: Schließt 2 Quests von ""Macht es!"" ab","Schließt zwischen dem 01.08. und 07.08. Quests von ""Macht es"" auf den Dracheninseln ab.",268,146549,20,0,0
+"Der große Stylecheck: Schließt 10 Quests von ""Macht es!"" ab","Schließt zwischen dem 01.08. und 07.08. Quests von ""Macht es"" auf den Dracheninseln ab.",269,146551,180,0,0
+Der große Stylecheck: Belegt den ersten Platz,Belegt zwischen dem 01.08. und 07.08. bei einem Wettbewerb des großen Stylechecks den ersten Platz.,270,146553,150,0,0
+Der große Stylecheck: /Ehrfurcht vor Siegerkleidung,Erstarrt zwischen dem 01.08. und 07.08. am Handelsposten in Sturmwind oder Orgrimmar beim Anblick von Siegerkleidung in /Ehrfurcht.,271,146559,20,0,0
+Dunkelmond-Jahrmarkt: Erbeutet ein Grubenkämpferschmuckstück,Erbeutet zwischen dem 06.08. und 12.08. in der Dunkelmond-Todesgrube auf der Insel des Dunkelmond-Jahrmarkts ein Grubenkämpferschmuckstück.,275,146567,200,0,0
+Dunkelmond-Jahrmarkt: Nehmt am Konzert von Seuchensau teil,Nehmt zwischen dem 06.08. und 12.08. am Konzert von Seuchensau auf der Insel des Dunkelmond-Jahrmarkts teil.,276,146767,150,0,0
+Dunkelmond-Jahrmarkt: Schließt 1 Dunkelmond-Rennen ab,Schließt zwischen dem 06.08. und 12.08. Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,277,146769,50,0,0
+Dunkelmond-Jahrmarkt: Schließt 4 Dunkelmond-Rennen ab,Schließt zwischen dem 06.08. und 12.08. Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,278,146774,100,277,0
+Zeitwanderung: Schließt 1 Zeitwanderungsdungeon von Burning Crusade ab,Schließt zwischen dem 15.08. und 22.08. einen Zeitwanderungsdungeon von Burning Crusade ab.,279,146779,50,0,0
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Burning Crusade ab,Schließt zwischen dem 15.08. und 22.08. Zeitwanderungsdungeons von Burning Crusade ab.,280,146787,100,279,0
+Besiegt Haustierzähmer der Scherbenwelt,,281,146797,150,0,0
+Angelt Gegenstände in der Scherbenwelt,,282,146803,100,0,0
+"Schließt den Geschichtsstrang der Krippe ""Kleinschuppe"" ab","Sprecht mit Jyhanna in der Krippe ""Kleinschuppe"" in Valdrakken.",283,146806,250,0,0
+Erreicht bei den Sehern oder den Aldor den Status ehrfürchtig,Erreicht in Shattrath bei den Sehern oder den Aldor den Status ehrfürchtig.,285,146834,100,0,0
+"Schließt 1 tägliche Quest in der Krippe ""Kleinschuppe"" ab","Schließt tägliche Quests in der Krippe ""Kleinschuppe"" in Valdrakken ab.",286,146921,100,0,0
+"Schließt 5 tägliche Quests in der Krippe ""Kleinschuppe"" ab","Schließt tägliche Quests in der Krippe ""Kleinschuppe"" in Valdrakken ab.",287,146937,100,286,0
+Beschafft Flugsteine,,288,147005,100,0,0
+Erstellt ein Schattenflammenwappen,Sammelt Schattenflammenwappen-Fragmente ein und erstellt ein beliebiges Schattenflammenwappen.,289,147009,150,0,0
+Handelspostentest,Handelspostentest,290,147073,1000,0,0
+Kalimdorpokal: Schließt 5 Drachenreitenstrecken ab,Sprecht zwischen dem 15.08. und 29.08. mit einem Bronzezeithüter in Kalimdor.,291,147096,100,0,0
+Kalimdorpokal: Schließt 10 Drachenreitenstrecken ab,Sprecht zwischen dem 15.08. und 29.08. mit einem Bronzezeithüter in Kalimdor.,292,147098,150,291,0
+Kalimdorpokal: Schließt 20 Drachenreitenstrecken ab,Sprecht zwischen dem 15.08. und 29.08. mit einem Bronzezeithüter in Kalimdor.,293,147100,200,292,0
+"Kalimdorpokal: Sammelt die Vorlage ""Helm des Drachenreiters""",Kauft zwischen dem 15.08. und 29.08. den Helm des Drachenreiters von Maztha in Valdrakken.,294,147102,50,0,0
+"Kalimdorpokal: Salutiert (/salutieren) vor Lord Andestrasz, während Ihr die Drachenreiterausrüstung tragt","Salutiert (/salutieren) zwischen dem 15.08. und 29.08. vor Lord Andestrasz in Valdrakken, während Ihr die Drachenreiterausrüstung tragt.",295,147104,20,0,0
+Kalimdorpokal: Lasst Euch eine Wegbeschreibung von einem Bronzezeithüterassistenten geben,"Sprecht zwischen dem 15.08. und 29.08. mit einem Bronzezeithüterassistenten in Kalimdor, um nach dem Weg zu einer Strecke zu fragen.",296,147106,20,0,0
+"Rufer: Schließt ""Stärkung eines Drachen"" ab",Schließt als Verstärkungsrufer die folgenden Quests ab:,297,147108,100,0,0
+Schließt 2 tägliche Quests an der Grenze des Äons ab.,Schließt tägliche Quests an der Grenze des Äons in Thaldraszus ab.,298,147197,100,0,0
+Schließt 5 tägliche Quests an der Grenze des Äons ab.,Schließt tägliche Quests an der Grenze des Äons in Thaldraszus ab.,299,147204,100,298,0
+Schließt einen Zeitriss ab,Schließt einen Zeitriss im Tyrholdreservoir in Thaldraszus auf den Dracheninseln ab.,300,147575,50,0,0
+Schließt 5 Zeitrisse ab,Schließt einen Zeitriss im Tyrholdreservoir in Thaldraszus auf den Dracheninseln ab.,301,147577,150,300,0
+Bezwingt Azmerloth,Besiegt Azmerloth während eines Zeitrisses im Tyrholdreservoir in Thaldraszus auf den Dracheninseln.,302,147579,100,0,0
+Blickt /verdattert vor Soridormi,Verwendet das Emote /verdattert vor Soridormi im Tyrholdreservoir in Thaldraszus auf den Dracheninseln.,303,147581,50,0,0
+Erlangt den Kasten der kollabierten Realität,Erlangt den Kasten der kollabierten Realität von Zeitrissen im Tyrholdreservoir in Thaldraszus auf den Dracheninseln.,304,147583,50,0,0
+Braufest: Verdient 100 Braufestmarken,"Verdient zwischen dem 20.09. und 30.09. Braufestmarken, indem Ihr am Braufest teilnehmt.",305,147728,100,0,0
+Braufest: Verdient 300 Braufestmarken,"Verdient zwischen dem 20.09. und 30.09. Braufestmarken, indem Ihr am Braufest teilnehmt.",306,147730,100,305,0
+Braufest: Verdient 600 Braufestmarken,"Verdient zwischen dem 20.09. und 30.09. Braufestmarken, indem Ihr am Braufest teilnehmt.",307,147732,200,306,0
+Bezwingt Arthas,Besiegt Arthas während eines Zeitrisses im Tyrholdreservoir in Thaldraszus auf den Dracheninseln.,308,147734,100,0,0
+Bezwingt Illidan,Besiegt Illidan während eines Zeitrisses im Tyrholdreservoir in Thaldraszus auf den Dracheninseln.,309,147736,100,0,0
+Zeitwanderung: Schließt 1 Zeitwanderungsdungeon ab,Schließt zwischen dem 05.09. und 12.09. einen Zeitwanderungsdungeon ab.,310,147759,50,0,0
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeon ab,Schließt zwischen dem 05.09. und 12.09. Zeitwanderungsdungeons ab.,311,147770,100,310,0
+Zeitwanderung: Schließt 1 Zeitwanderungsdungeon aus Cataclysm ab,Schließt zwischen dem 26.09. und 03.10. einen Zeitwanderungsdungeon aus Cataclysm ab.,312,147780,50,0,0
+Zeitwanderung: Schließt 5 Zeitwanderungsdungeon aus Cataclysm ab,Schließt zwischen dem 26.09. und 03.10. Zeitwanderungsdungeons aus Cataclysm ab.,313,147788,100,312,0
+Braufest: Tötet Coren Düsterbräu,Tötet zwischen dem 20.09. und 30.09. Coren Düsterbräu.,314,147798,150,0,0
+Piratentag: Werdet einen Tag lang Pirat,Sprecht zwischen dem 19.09. und 20.09. in Beutebucht mit Schreckenskapitänin DeMeza und schließt Euch ihrer Besatzung an.,315,147800,80,0,0
+Piratentag: Ihr werdet ein größeres Boot brauchen,"Sprecht zwischen dem 19.09. und 20.09. in Beutebucht mit Schreckenskapitänin DeMeza und schließt die Quest ""Ihr werdet ein größeres Boot brauchen"" ab.",316,147802,80,0,0
+Piratentag: Bezwingt Harlan den Schmierigen mit Peterchen,"Sprecht zwischen dem 19.09. und 20.09. in Beutebucht mit Schreckenskapitänin DeMeza, um Peterchen zu erhalten und bezwingt Harlan den Schmierigen mit Peterchen auf Eurer Schulter.",317,147804,80,0,0
+Erntedankfest; Die Ehrung eines Helden,"Sprecht zwischen dem 25.09. und 30.09. entweder vor Orgrimmar mit Javnir Nashak oder vor Eisenschmiede mit Wagner Hammerschlag und schließt die Quest ""Die Ehrung eines Helden"" ab.",318,147806,200,0,0
+Erntedankfest: /verbeugen bei einem Verehrten Vorfahr oder Geehrten Helden,Verwendet zwischen dem 25.09. und 30.09. das Emote /verbeugen bei einem Verehrter Vorfahr vor Orgrimmar oder einem Geehrter Helden vor Eisenschmiede.,319,147809,100,0,0
+Geheimnisse von Azeroth: 1 Geheimnis gelüftet,"Schließt zwischen dem 01.09. und 13.09. eine ""Geheimnisse von Azeroth""-Quest ab oder lüftet ein dazugehöriges Geheimnis.",320,147811,50,0,0
+Besiegt Haustierzähmer von Nordend,,322,147839,150,0,0
+Besiegt Haustierzähmer des Kataklysmus,,323,147845,150,0,0
+Geheimnisse von Azeroth: 3 Geheimnisse gelüftet,"Schließt zwischen dem 01.09. und 13.09. ""Geheimnisse von Azeroth""-Quests ab oder lüftet dazugehörige Geheimnisse.",324,147853,100,320,0
+Geheimnisse von Azeroth: 7 Geheimnisse gelüftet,"Schließt zwischen dem 01.09. und 13.09. ""Geheimnisse von Azeroth""-Quests ab oder lüftet dazugehörige Geheimnisse.",325,147856,150,324,0
+"Dunkelmond-Jahrmarkt: Schließt ""Hau-den-Gnoll"" ab","Schließt zwischen dem 03.09. und 09.09. die Quest ""Hau-den-Gnoll"" auf der Insel des Dunkelmond-Jahrmarkts ab.",341,147895,50,0,0
+Dunkelmond-Jahrmarkt: Genießt die Fahrt,Fahrt zwischen dem 03.09. und 09.09. mit dem Karussell oder der Achterbahn auf der Insel des Dunkelmond-Jahrmarkts.,342,147897,50,0,0
+Benutzt das Emote /tanzen mit einem Gast im Drachenhort,Benutzt das Emote /tanzen mit einem Teilnehmer der Tanzparty im Drachenhort in Valdrakken.,343,147900,50,0,0
+Schlachtzugsbrowser: Schließt einen Schlachtzug mit Eurem festlichen rosa Hut ab,"Schließt ein Schlachtzugsbrowserszenario ab, während Ihr den festlichen rosa Hut tragt.",344,147905,50,0,0

@@ -796,7 +796,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 1998,TalonbranchGlade,Claro Ramaespolón,1,361,794,0,0,0,675,697,0,0,0,0,0.15,15,-1,0,0,0,0,1073758272,8192,0,0,0,0
 2017,Stratholme,Stratholme,329,0,795,0,0,37,675,0,0,0,0,0,0.15,15,-1,0,0,0,214,0,12,0,0,0,0
 2037,Quel'thalas,Quel'Thalas,0,0,796,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,825,16448,0,0,0,0,0
-2057,Scholomance,ScholomanceOLD,289,0,797,0,0,37,675,15,0,0,0,0,0.15,15,-1,0,0,0,212,0,0,0,0,0,0
+2057,Scholomance,Scholomance,289,0,797,0,0,37,675,15,0,0,0,0,0.15,15,-1,0,0,0,212,0,0,0,0,0,0
 2077,TwilightVale,Vega Crepuscular,1,148,798,0,0,623,675,867,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
 2078,TwilightShore,Orilla Crepuscular,1,148,799,0,0,583,675,873,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
 2079,AlcazIsland,Isla de Alcaz,1,15,800,0,89,600,675,684,0,0,0,0,0.15,13,-1,0,0,0,23,1073758272,8192,0,0,0,0
@@ -3107,7 +3107,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 5732,HallsofOrigination,Cámaras de los Orígenes,1,5034,4445,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,55,1073758272,8192,0,0,0,0
 5733,MoltenFront,Frente de Magma,861,0,4446,0,0,733,0,1010,0,0,0,0,0.15,13,-1,0,0,0,165,64,0,0,0,0,0
 5734,Sarahland,Sarahlandia,451,4019,4447,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,798,1073758272,0,0,0,0,0
-5736,TheWanderingIsle,La Isla Errante,860,0,4449,86,0,930,675,1050,0,0,0,0,0.15,15,-1,0,0,0,80,16384,0,0,0,0,0
+5736,TheWanderingIsle,La Isla Errante,860,0,4449,86,0,930,675,1050,0,0,0,0,0.15,15,-1,0,0,0,80,540672,0,0,0,0,0
 5737,Pei-WuForest,Bosque Pei-Wu,860,5736,4450,0,0,802,0,1051,0,0,0,0,0.15,15,-1,0,0,0,80,1073741824,8192,0,0,0,0
 5738,Malfurion'sBreach,Brecha de Malfurion,861,5733,4451,0,0,0,0,1000,0,909,0,0,0.15,13,-1,0,0,0,165,1075841024,8192,0,0,0,0
 5739,AshenFields,Campos Cinéreos,861,5733,4452,0,0,0,0,1001,0,0,0,0,0.15,13,-1,0,0,0,165,1073741888,8192,0,0,0,0
@@ -8405,7 +8405,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14093,EpochsRest,[PH] Epoch's Rest,2444,13647,0,0,0,2459,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 14094,TheAylaagSteppe,Estepa del Errante,2444,13645,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8320,0,0,0,0
 14095,VaultoftheIncarnates,Cámara de las Encarnaciones,2444,13647,12168,0,0,0,0,2677,0,0,0,0,0,15,-1,0,0,0,0,1073741888,0,0,0,0,0
-14096,WhelpDaycare,Guardería Escamitas,2444,13862,12639,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,0,0,0,0,0
+14096,WhelpDaycare,Guardería Escamitas,2444,13862,12639,0,0,0,0,2790,0,0,0,0,0,15,-1,0,0,0,0,1073743936,0,0,0,0,0
 14097,SundappleCopse,Soto Llamanzana,2444,13645,0,0,0,0,0,2645,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8320,0,0,0,0
 14098,AzmerlothNoMansLand,Azmerloth - Área intemporal,2512,0,0,0,0,2580,0,0,0,0,0,0,0,13,-1,0,0,0,0,64,128,0,0,0,0
 14099,QuakingCavern,Caverna Sísmica,2444,13644,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2523,1073759296,8320,0,0,0,0
@@ -8515,8 +8515,10 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14510,DragonIslesForbiddenReachTheGreatSea,Mare Magnum,2570,0,0,0,0,1496,675,1705,0,0,0,0,0.15,15,-1,25,25,0,0,16448,384,0,0,0,0
 14511,WingrestBay,Bahía Reposo Alado,2444,13644,0,0,0,2451,675,0,0,0,0,0,0,15,-1,0,0,0,2523,1142964288,8320,0,0,0,0
 14513,TheRuggedDragonscale,La Dragontina Robusta,2524,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,2307,64,128,0,0,0,0
+14514,DungeonDawnoftheInfinite,Amanecer del Infinito,2579,0,0,84,0,2624,0,0,0,0,0,0,0,15,-1,0,0,0,2155,268435456,136,0,0,0,0
 14515,LeyPools,Charcos Ley,2444,13646,0,0,0,2481,2511,0,0,0,0,0,0,15,-1,0,0,0,0,1073758272,8320,0,0,0,0
 14516,LostCanal,Canal Perdido,2444,13644,0,0,0,2451,675,0,0,0,0,0,0,15,-1,0,0,0,2523,1142964288,8320,0,0,0,0
+14518,TheEasternGlades,Claros Orientales,2583,0,0,82,0,2620,0,2788,0,0,0,0,0,13,-1,0,0,0,2586,20480,128,0,0,0,0
 14520,NiffinHub,Loamm,2454,14022,12669,73,0,2611,0,2761,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14524,UktulutOutpost,Avanzada Uktulut,2444,13644,12596,0,0,0,0,2657,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8192,0,0,0,0
 14525,AlteracValleyOrcHeritage,Valle de Alterac,2582,0,0,0,0,42,675,242,0,0,0,0,0.5,13,-1,0,0,0,1281,81920,128,0,0,0,0
@@ -8559,6 +8561,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14617,PrimalistRaidSeatoftheAspects,Trono de los Aspectos,2522,14030,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2158,1342193664,140,0,0,0,0
 14618,AzureVaultDungeon,Azure Vault (delete me),2515,0,12603,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,2155,0,8,0,0,0,0
 14619,TreasurevaultInterior,Cámaras de Zskera,2444,14433,0,0,0,2461,675,2756,0,0,0,0,0,12,-1,0,0,0,0,1107300416,128,0,0,0,0
+14620,BlueDragonChoice,Elección de Dragón Azul,2444,13646,0,0,0,2491,2511,0,0,0,0,0,0,15,-1,0,0,0,0,1073758272,8320,0,0,0,0
 14644,DeephollowLake,Lago Abisal,2454,14022,12561,0,0,0,0,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14645,DeepflayerNest,Nido de los Despellejadores,2454,14022,12541,73,0,2599,2598,2767,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14646,UndergroundTitanVault,Nal ks'kol,2454,14022,12672,0,0,0,0,2767,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
@@ -8607,6 +8610,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14703,FroststonePeak,Pico Petraescarcha,2444,14433,0,0,0,2460,675,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 14704,UndergroundMagmaFields,Desbordamiento Fundido,2454,14022,12671,73,0,2597,0,2763,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14705,AberrusCh6Scenario,"Aberrus, el Crisol Ensombrecido",2600,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2650,16448,128,0,0,0,0
+14706,DracScenarioMaelstrom,La Vorágine,2625,0,0,0,0,809,0,1078,0,966,0,0,0.15,0,-1,0,0,0,2650,20480,136,0,0,0,0
 14707,AmyTestForest,Amy Test Forest,2626,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,64,128,0,0,0,0
 14708,AmyTestTown,Amy Test Town,2626,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,64,128,0,0,0,0
 14709,ShaneTestArea,Shane Test Area,2627,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,64,128,0,0,0,0
@@ -8633,7 +8637,39 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14738,MysteriousCave09,Cueva Misteriosa I,2454,14022,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1073758272,128,0,0,0,0
 14739,MysteriousCave10,Cueva Misteriosa J,2454,14022,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1073758272,128,0,0,0,0
 14740,ZaralekSecondaryEntrance,Colmillos del Guardián,2454,14022,12679,0,0,0,0,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
+14742,EverywhenInn,Posada de Todos los Momentos,2444,13647,0,0,0,0,0,2680,0,0,0,0,0,0,-1,0,0,0,2154,1086326816,128,0,0,0,0
 14743,101UndergroundOPTunnelDISide,Camino Viejo a Loamm,2444,13645,0,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 14744,101UndergroundOPTunnel,Camino Viejo a Loamm,2454,14022,12675,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14745,101UndergroundASTunnel,Brecha del Oteador,2454,14022,12670,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14746,101UndergroundASTunnellDISide,Brecha del Oteador,2444,13646,0,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+14750,DragonIsles,Islas Dragón,2637,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,25,25,0,0,16448,128,0,0,0,0
+14751,TheWakingShores,Orillas del Despertar,2637,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2151,16448,128,0,0,0,0
+14770,AzmerlothTimeRifts,Azmerloth,2586,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14840,AzerothRobotTimeRifts,A.Z.E.R.O.T.H.,2587,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14841,AzqRothTimeRifts,Azq'roth,2593,0,0,67,0,2187,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14842,UlderothTimeRifts,Ulderoth,2594,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14843,AzewrathTimeRifts,Azoteroth,2595,0,0,86,0,1565,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14844,AzmourneTimeRifts,Azegonía,2639,0,0,0,0,2633,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14845,TheWarlands,Tierras del Conflicto,2634,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14846,UlderothTimeRiftsReal,Ulderoth,2635,0,0,0,0,1591,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14872,ScarletCathedral1015,Monasterio Escarlata,2645,0,0,0,0,0,0,0,0,0,0,0,0.15,0,-1,0,0,0,211,0,12,0,0,0,0
+14873,ChapelGardens1015,Jardines de la Capilla,2645,14872,0,86,0,40,675,1199,0,1044,0,0,0.6,13,-1,0,0,0,211,1073741888,8,0,0,0,0
+14874,ForlornCloister1015,Claustro Abandonado,2645,14872,0,86,0,1006,0,1198,0,1043,0,0,0.6,15,-1,0,0,0,211,1073741888,8,0,0,0,0
+14885,DungeonDawnoftheInfiniteAntechamber,Vestíbulo Temporal,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14886,DungeonDawnoftheInfiniteInnerChamber,Sagrario de la Cronología,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14887,DungeonDawnoftheInfiniteTimewaysMain,Umbral de los Milenios,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14888,DungeonDawnoftheInfiniteTimeways,Las líneas temporales,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14889,DungeonDawnoftheInfiniteTimewaysHub,Enclave de la Eternidad,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14890,DungeonDawnoftheInfiniteTimewaysDragonblight,Radio del Invierno Interminable,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14891,DungeonDawnoftheInfiniteGalakrondClaw,Caída de Galakrond,2579,14514,0,0,0,0,675,2806,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14892,DungeonDawnoftheInfiniteGalakrondCave,Encrucijada del Destino,2579,14514,0,0,0,0,675,2806,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14893,DungeonDawnoftheInfiniteGalakrondCaveHallway,Cavernas Gélidas,2579,14514,0,0,0,0,675,2801,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14894,DungeonDawnoftheInfiniteGalakrondIridikron,Precipicio de Iridikron,2579,14514,0,0,0,0,675,2801,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14895,DungeonDawnoftheInfiniteFront,Confluencia Infinita,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14896,DungeonDawnoftheInfiniteTimewaysChromie,Vereda Sinuosa,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14897,DungeonDawnoftheInfiniteTimewaysBattlefield,Campo de Batalla Inmemorial,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14898,DungeonDawnoftheInfiniteGalakrondDeios,Ascenso de Murozond,2579,14514,0,0,0,0,675,2806,0,1622,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14899,DungeonDawnoftheInfiniteFrontZoneTrees,Bosque Fluyente,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14900,DungeonDawnoftheInfiniteFrontSand,Arenas cambiantes,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14934,TheChronosmithsForge,Forja del Cronoherrero,2444,13647,0,0,0,0,0,2680,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+14935,IronormusVault,Cámara de Ferrodormu,2444,13647,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0

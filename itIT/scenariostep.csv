@@ -2561,7 +2561,7 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5018,So'leah cerca delle potenti reliquie per uno scopo nefasto. Fermala!,Tazavesh: Azzardo di So'leh,2032,94230,0,0,0,0,0,0,0
 5019,"Salva le anime, cerca il potere e sconfiggi le forze del Carceriere.",L'ascesa della torre,2033,94286,0,0,0,0,0,0,291
 5020,Le tue morti hanno attratto il Trucidasque! Sali al piano superiore prima che ti raggiunga!,Presto!,2033,94288,0,0,0,1,0,0,291
-5021,test,Step 1,2034,94290,0,0,0,0,4,0,0
+5021,Ti do il benvenuto nel limbo!,Sala d'attesa,2034,94290,0,0,0,1,12,0,0
 5022,Ottieni il favore dei potenti cartelli di Tazavesh e trova So'leah!,Tazavesh: Strade delle Meraviglie,2035,94332,62658,0,0,0,0,0,0
 5023,So'leah cerca delle potenti reliquie per uno scopo nefasto. Fermala!,Tazavesh: Azzardo di So'leh,2036,94338,62658,0,0,0,0,0,0
 5024,Proteggi gli Esiliati d'Ossidiana mentre raggiungono il Forte del Flagello dei Draghi.,Carro dei Draghi,2037,95387,0,0,0,0,0,0,0
@@ -2860,6 +2860,7 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5384,[DNT]Description,[DNT]Storm Prototype Final Step,2134,140640,0,0,0,0,0,0,0
 5385,[DNT]Description,[DNT]Major Storm Mini Bosses Step,2135,140642,0,0,0,0,0,0,0
 5386,[DNT]Description,[DNT]Major Storm Boss Step,2135,140644,0,0,0,1,0,0,0
+5387,Salva i Vrykul dall'apparizione della carne.,Radure Orientali,2136,140708,0,0,0,0,0,0,0
 5388,Sei arrivato con Eitrigg nelle terre dei Lupi Bianchi. Dovresti seguirlo per parlare con Drek'thar.,Una visita di famiglia,2137,140747,0,0,0,0,0,0,0
 5389,"Vi siete riuniti nella Rocca dei Lupi Bianchi con Eitrigg, Thrall, Aggra e i loro figli. È tempo di discutere del ritorno del Kosh'harg.",Una questione di grande importanza,2137,140749,0,0,0,1,0,0,0
 5390,Drek'thar ti ha lanciato una sfida! Dimostrati meritevole di essere tra i primi a completare il nuovo rito sconfiggendo Duros e Drakan.,Sfida di Drek'thar,2137,140751,0,0,0,2,0,0,0
@@ -2872,6 +2873,15 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5399,Indebolisci la tempesta sconfiggendo gli elementali.,Mantieni la posizione,2141,142599,0,0,0,0,0,0,0
 5400,Indebolisci la tempesta sconfiggendo gli elementali.,Uno scambio acceso,2142,142603,0,0,0,0,0,0,0
 5401,Indebolisci la tempesta sconfiggendo gli elementali.,Pioggia di terrore,2143,142607,0,0,0,0,0,0,0
+5402,Sconfiggi le forze degli Dei Antichi in questi boschi e raduna i Vrykul.,Ora Kith'ix,2136,142563,0,0,0,1,0,0,0
+5403,Aiuta Ferreya e Archaedas a sconfiggere Kith'ix.,Cronache alleate,2136,142564,0,0,0,2,0,0,0
+5404,Ripulisci i boschi dalle forze rimaste degli Dei Antichi e raduna i Vrykul.,Radura ombrosa,2136,142565,0,0,0,3,0,0,0
+5405,Affronta Zakajz.,L'ultima difesa di Tyr,2136,142566,0,0,0,4,0,0,0
+5406,Sconfiggi le illusioni di Zakajz.,Gli aspetti di Zakajz,2136,142567,0,0,0,5,0,0,0
+5407,Sconfiggi Zakajz. Osserva l'ultimo sacrificio di Tyr.,Caduta di Tyr,2136,142568,0,0,0,6,0,0,0
+5410,Le essenze di Malygos e Sindragosa sono state spostate nella Cripta Azzurra. È tempo di liberarle!,Parla con Kalecgos,2145,142577,0,0,0,0,0,0,0
+5411,Assisti alla furia di Sindragosa!,Sconfiggi Sindragosa,2145,142579,0,0,0,1,0,0,0
+5412,Sindragosa e Malygos sono stati placati.,Parla con Kalecgos,2145,144721,0,0,0,2,0,0,0
 5414,Sconfiggi Han'thul.,Occhio del ciclone,2140,142593,0,0,0,1,0,0,0
 5415,Sconfiggi Khirna Cuordiroccia.,Occhio del ciclone,2141,142589,0,0,0,1,0,0,0
 5416,Sconfiggi Fael'lin.,Occhio del ciclone,2142,142587,0,0,0,1,0,0,0
@@ -2887,8 +2897,12 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5428,Depreda il Forziere delle Tempeste,Successo,2149,142862,0,0,0,3,0,0,0
 5459,Sconfiggi le pattuglie della Fiamma Frammentata.,Inizio problematico,2152,143235,0,0,0,0,0,0,0
 5460,Elimina le forze di confinamento dei Titani a sud-ovest.,Purificare il Blocco,2152,143239,74906,0,0,1,0,0,756
-5463,Le forze della Fiamma Frammentata sono state sconfitte. Ora è possibile informare Rannan che i suoi ricercatori possono ritirarsi con i dati raccolti.,Uscita,2152,143237,74905,0,0,21,0,0,806
+5463,Le forze della Fiamma Frammentata sono state sconfitte. Ora è possibile informare Rannan che i suoi ricercatori possono ritirarsi con i dati raccolti.,Uscita,2152,143237,74905,0,0,21,0,0,0
 5464,Sconfiggi le forze dei Primalisti della terra e il Custode delle Colline Sassani.,Amanti della Terra,2146,143185,0,0,0,1,0,0,0
+5469,Eccoti nel Maelstrom. Parla con Nozdormu per scoprire cosa ti aspetta.,Parla con Nozdormu,2154,143358,0,0,0,0,0,0,0
+5470,Usa il guanto forgiato per reclamare l'ultima essenza dei Draghi Neri di Alamorte,Assorbi l'essenza di Alamorte,2154,143459,0,0,0,1,0,0,0
+5471,Un agente degli Dei Antichi è emerso da Alamorte!,Sconfiggi il Senzavolto,2154,143461,0,0,0,2,0,0,0
+5472,Prova ancora una volta a reclamare l'essenza di Alamorte.,Reclama l'essenza di Alamorte,2154,143467,0,0,0,3,0,0,0
 5473,"Il Collare di Piranha Millemorsi può essere acquistato da Junnik, vicino alle tende a sud della pentola.",Qualcosa di letale,2155,143363,0,0,0,0,0,0,663
 5474,Lancia il Collare di Piranha Millemorsi nella pentola!,Collare di Piranha Millemorsi,2155,143411,74382,0,0,1,0,0,663
 5475,"Puoi acquistare i Pezzettini di Colossale da Patchu, vicino alle tende a sud della pentola.",Qualcosa di economico,2156,143365,0,0,0,0,0,0,663
@@ -2937,21 +2951,22 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5518,Versa le Razioni: Stufato delle Marche Occidentali nella pentola!,Razioni: Stufato delle Marche Occidentali,2177,143455,74382,0,0,1,0,0,663
 5519,"Le Razioni: Chili alla Ruttafuoco possono essere acquistate dal Capo Chef Stacks, vicino al ponte a nord della pentola.",Qualcosa di ardente,2178,143409,0,0,0,0,0,0,663
 5520,Versa le Razioni: Chili alla Ruttafuoco nella pentola!,Razioni: Chili alla Ruttafuoco,2178,143457,74382,0,0,1,0,0,663
+5521,"Nasz'uro, il Retaggio Indomabile, è tua!",Un nuovo retaggio,2154,143469,0,0,0,4,0,0,0
 5524,Attacca o interagisci con il Pesce Leone Enorme e ottieni più carne possibile!,Pesce Leone Enorme,2179,143496,70925,0,0,0,0,0,663
 5525,Attacca o interagisci con il Mantacorno Enorme e ottieni più carne possibile!,Mantacorno Enorme,2180,143502,70925,0,0,0,0,0,663
 5526,Attacca o interagisci con lo Squalo Enorme e ottieni più carne possibile!,Squalo Enorme,2181,143504,70925,0,0,0,0,0,663
 5529,Sconfiggi i boss del Pinnacolo del Vortice.,Pinnacolo del Vortice,2184,143614,0,0,0,0,0,0,0
-5530,Descrizione fase base 1,Inizio scenario 1A,2185,143669,0,0,0,0,0,0,0
+5530,Descrizione fase base 1A,Inizio scenario 1A,2185,143669,0,0,0,0,0,0,0
 5532,Ripulisci la Conca dei Felcepelle!,Conca dei Felcepelle,2187,143773,0,0,0,0,0,0,0
 5533,Indaga a Uldaman per i Dischi di Tyr!,Uldaman: Eredità di Tyr,2188,143778,0,0,0,0,0,0,0
 5534,Ripulisci Neltharus.,Neltharus,2189,143784,0,0,0,0,0,0,0
 5535,Indaga nelle Sale dell'Infusione.,Sale dell'Infusione,2190,143789,0,0,0,0,0,0,0
-5536,Descrizione fase base 2,Inizio scenario 1B,2185,143796,0,0,0,0,0,0,0
-5537,,Scenario 2,2185,0,0,0,0,1,0,0,0
+5536,Descrizione fase base 1B,Inizio scenario 1B,2185,143796,0,0,0,0,0,0,0
+5537,Descrizione fase base 2,Scenario 2,2185,144181,0,0,0,1,0,0,0
 5538,Elimina i macigni che bloccano la console principale. Recupera i Componenti dei Titani per le riparazioni di Greta.,Confusione nel Blocco,2152,143894,74906,0,0,2,0,0,756
-5539,Sconfiggi le forze di confinamento dei Titani per permettere a Greta di raccogliere i suoi dati.,Un contrattacco titanico,2152,143896,74906,0,0,9,0,0,806
-5540,I rinforzi della Fiamma Frammentata sono arrivati. Difendi l'accampamento abbastanza a lungo da permettere ai ricercatori di ritirarsi.,"Chiaramente, non siamo i benvenuti",2152,143904,74906,0,0,19,0,0,806
-5541,"La capa della Fiamma Frammentata, la Capitana Reykal, sta avanzando con l'intenzione di uccidere Rannan in persona!",Capa alla brace,2152,143900,74906,0,0,20,0,0,806
+5539,Sconfiggi le forze di confinamento dei Titani per permettere a Greta di raccogliere i suoi dati.,Un contrattacco titanico,2152,143896,74906,0,0,9,0,0,0
+5540,I rinforzi della Fiamma Frammentata sono arrivati. Difendi l'accampamento abbastanza a lungo da permettere ai ricercatori di ritirarsi.,"Chiaramente, non siamo i benvenuti",2152,143904,74906,0,0,19,0,0,0
+5541,"La capa della Fiamma Frammentata, la Capitana Reykal, sta avanzando con l'intenzione di uccidere Rannan in persona!",Capa alla brace,2152,143900,74906,0,0,20,0,0,0
 5542,Sconfiggi le forze dei Primalisti e il Custode del Portale Cimbra.,Fyrakk e fiamme,2146,144009,0,0,0,2,0,0,0
 5546,Aiuta Greta a neutralizzare il contaminante posizionando i Campioni di Minerale Strano nei processori di minerali.,Neutralizzare il contaminante,2152,144237,74906,0,0,6,0,0,756
 5547,La nostra lotta contro le forze dei Titani ha innervosito la fauna locale.,Investigatori ostili,2152,144240,74906,0,0,3,0,0,756
@@ -2972,3 +2987,163 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5562,Sconfiggi Rashok prima che distrugga il crogiolo.,Furia dei Giganti,2194,144319,0,0,0,0,0,0,0
 5563,Ostacola il piano di Neltharion di scatenare l'oscurità.,Ombra di Neltharion,2195,144341,0,0,0,0,0,0,0
 5564,Impedisci a Sarkareth di conquistare l'Aberrus.,Orlo del Vuoto,2196,144344,0,0,0,0,0,0,0
+5595,riprova!!,Fase 2,2034,146208,0,0,0,2,0,0,0
+5596,Parla con Soridormi e dille che sei disponibile ad aiutarla.,A rapporto!,2222,144583,0,0,0,0,8,0,792
+5625,Prova,Fase 1,2034,0,0,0,0,0,0,0,0
+5654,Occupati dei maghi Murloc del Krrrn Trr.,KRRRN TRR!,2222,144598,76985,0,0,2,0,0,792
+5655,Occupati degli assassini Murloc dell'MR-7.,MR-7!,2222,144602,76985,0,0,3,0,0,792
+5656,Occupati dei Druidi Murloc del Crgll Cnrrgll.,CRGLL CNRRGLL!,2222,144604,76985,0,0,4,0,0,792
+5657,Occupati dei dinosauri di Ulderoth.,Dinosauri di Ulderoth,2222,144606,76985,0,0,21,0,0,792
+5658,Occupati delle piante di Ulderoth.,Piante di Ulderoth,2222,144608,76985,0,0,22,0,0,792
+5659,Occupati delle bestie di Ulderoth,Bestie di Ulderoth,2222,144610,76985,0,0,23,0,0,792
+5660,Uccidi Grrrmrrsh Mlllgrrrrdd.,Incarico di gruppo: Grrrmrrsh Mlllgrrrrdd,2222,144635,76983,0,0,5,0,0,792
+5661,Raccogli i materiali per costruire un Pauraloc.,Parti di Pauraloc,2222,144920,76983,0,0,6,0,0,792
+5662,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Azmerloth!,2222,146301,0,0,0,142,0,0,864
+5664,Sconfiggi tutte le creature che emergono dalle Fenditure del Tempo!,Uccidi qualsiasi cosa!,2222,144723,76985,0,0,1,0,0,792
+5665,Uccidi Branchidan.,Incarico di gruppo: Branchidan,2222,144906,76983,0,0,7,0,0,792
+5666,Uccidi il Servitore di Alamurgl.,Incarico di gruppo: Servitore di Alamurgl,2222,144908,76983,0,0,8,0,0,792
+5667,Lancia i Piccoli Murloc Spaventati nella loro dimensione.,Incarico di gruppo: Murloc Spaventati,2222,145179,76983,0,0,9,0,0,792
+5668,Rilancia i Piccoli Murloc Erranti nella loro realtà.,Incarico di gruppo: Piccoli Murloc Erranti,2222,145219,76983,0,0,10,0,0,792
+5672,Trascina l'Uovo Gigante nel suo portale.,Incarico di gruppo: Uovo Gigante,2222,145288,76983,0,0,11,0,0,792
+5673,Fai scoppiare le bolle della Bollamante di Azmerloth.,Incarico di gruppo: Bolle,2222,145483,0,0,0,12,0,0,792
+5674,Sconfiggi la Bollamante di Azmerloth.,Incarico di gruppo: Bollamante di Azmerloth,2222,145561,76983,0,0,13,0,0,792
+5675,Distruggi la Pila Puzzolente di Pesci Morti.,Pila Puzzolente di Pesci Morti,2222,145329,76984,0,0,14,0,0,792
+5676,Distruggi il Cestino Puzzolente di Pesci Morti.,Cestino Puzzolente di Pesci Morti,2222,145331,76984,0,0,15,0,0,792
+5677,Distruggi il Barile Puzzolente di Pesci Morti.,Barile Puzzolente di Pesci Morti,2222,145333,76984,0,0,16,0,0,792
+5678,Cura i Murloc che sono stati feriti sul campo.,Murloc feriti,2222,145428,76984,0,0,17,0,0,792
+5679,Cura i Murloc che si sono infortunati sul campo.,Murloc infortunati,2222,145473,76984,0,0,18,0,0,792
+5680,Raccogli Globi di Melma di Azmerloth.,Raccogli la melma,2222,145611,0,0,0,19,0,0,792
+5681,Costruisci una Pozza di Melma di Azmerloth per te e i tuoi alleati.,Costruzione Pozza di Melma,2222,145678,76984,0,0,20,0,0,792
+5682,Uccidi la Serpe delle Nubi Purosangue.,Incarico di gruppo: Serpe delle Nubi Purosangue,2222,146101,76983,0,0,24,0,0,792
+5683,Uccidi il Mammut Purosangue.,Incarico di gruppo: Mammut Purosangue,2222,146103,76983,0,0,25,0,0,792
+5684,Uccidi il Proto-Draco Purosangue.,Incarico di gruppo: Proto-Draco Purosangue,2222,146105,76983,0,0,26,0,0,792
+5685,Uccidi il Gigantosauro Purosangue.,Incarico di gruppo: Gigantosauro Purosangue,2222,146107,76983,0,0,27,0,0,792
+5686,Distruggi il Purificatore d'Impurità.,Incarico di gruppo: Purificatore d'Impurità,2222,146128,76983,0,0,28,0,0,792
+5687,Schiaccia le bestie fastidiose che stanno assaltando la piattaforma di Soridormi.,Incarico di gruppo: Bestie Fastidiose,2222,146130,76983,0,0,29,0,0,792
+5688,Vola attraverso le Mosche Cristalline Intatte in alto.,Incarico di gruppo: Mosche Cristalline Intatte,2222,146134,76983,0,0,30,0,0,792
+5689,Libera i Draghetti Impigliati.,Draghetti Impigliati,2222,146109,76984,0,0,31,0,0,792
+5690,Distruggi la Pianta Sferzante Intatta.,Pianta Sferzante Intatta,2222,146111,76984,0,0,32,0,0,792
+5691,Trova e uccidi il Raptor Alfa.,Raptor Alfa,2222,146113,76984,0,0,33,0,0,792
+5692,Trova e uccidi la Tigre Alfa.,Tigre Alfa,2222,146115,76984,0,0,34,0,0,792
+5693,Raccogli i materiali per costruire una Forgia della Purificazione.,Mutazioni per tutti,2222,146117,0,0,0,35,0,0,792
+5694,Abbatti lo Pterrordattilo Alfa.,Rovina Volteggiante,2222,146119,0,0,0,36,0,0,792
+5695,Uccidi lo Pterrordattilo Alfa.,Pterrordattilo Alfa,2222,146122,76984,0,0,37,0,0,792
+5696,Ripara i Guardiani Feriti.,Guardiani Feriti,2222,146124,76984,0,0,38,0,0,792
+5706,Occupati dei Non Morti.,Attaccanti Erranti,2222,146855,76985,0,0,39,0,0,792
+5707,Occupati dei Nerubiani.,Disinfestazione,2222,146856,76985,0,0,40,0,0,792
+5708,Occupati dei Vargul.,Al servizio del Re,2222,146857,76985,0,0,41,0,0,792
+5709,Distruggi il Grano Infetto.,Qualcuno ha detto epurazione?,2222,146858,76984,0,0,42,0,0,792
+5710,Sbarazzati del Cadavere di Sgorgasangue.,Rimozione cadaveri,2222,146859,76984,0,0,43,0,0,792
+5711,Distruggi il Libro di Kel'Thuzad.,L'ultimo bibliotecario,2222,146860,76984,0,0,44,0,0,792
+5712,Calcia il Cuore Gelido nella Fenditura del Tempo.,Le Profondità Dimenticate,2222,146861,76984,0,0,45,0,0,792
+5713,Sconfiggi il Gladiatore Marcio.,Arena del Valore,2222,146862,76984,0,0,46,0,0,792
+5714,Riporta il Colosso Marcescente indietro nel tempo.,Marcescenza a rendere,2222,146863,76984,0,0,47,0,0,792
+5715,Riporta la Val'kyr Impura indietro nel tempo.,Impurità a rendere,2222,146864,76984,0,0,48,0,0,792
+5716,Libera Bolvar Domadraghi.,Mai re,2222,146865,76984,0,0,49,0,0,792
+5717,Esamina la Fenditura del Tempo Congelata.,Incarico di gruppo: Al servizio del Re,2222,146866,76983,0,0,50,0,0,792
+5718,Sconfiggi le Fiamme Incatenate del Traditore.,Incarico di gruppo: Corte delle Ossa,2222,146867,76983,0,0,51,0,0,792
+5719,Sconfiggi la Regina Banshee.,Incarico di gruppo: Sempre una Ventolesto,2222,146868,76983,0,0,52,0,0,792
+5720,Sconfiggi Uther l'Araldo della Morte.,Incarico di gruppo: L'ultimo Paladino,2222,146869,76983,0,0,53,0,0,792
+5721,Distruggi il Filatterio dello Zelota.,Incarico di gruppo: Assalto alla Luce,2222,146870,76983,0,0,54,0,0,792
+5722,Sconfiggi Thassarian.,Incarico di gruppo: L'assassino oscuratore,2222,146871,76983,0,0,55,0,0,792
+5723,Sconfiggi la Regina Angrboda.,Incarico di gruppo: La Regina risvegliata,2222,146872,76983,0,0,56,0,0,792
+5724,Sconfiggi il Signore dello Sciame Caduto.,Incarico di gruppo: Una sconfitta vuota,2222,146873,76983,0,0,57,0,0,792
+5726,Dei Kaldorei Viltoccati e alcune loro guardie stanno ispezionando l'area: interferisci con il loro lavoro eliminandone il più possibile.,Figli caduti,2222,146382,76985,0,0,60,0,0,792
+5727,Degli Shu'halo e alcune loro guardie stanno corrompendo l'ambiente con la magia vile: eliminane più che puoi.,Cadere in disgrazia,2222,147014,76985,0,0,58,0,0,792
+5728,Dei Vilmezzorsi e alcune loro guardie stanno corrompendo le nostre terre con la magia vile: eliminane più che puoi.,Guardiani Caduti,2222,147020,76985,0,0,59,0,0,792
+5729,Elimina i Kaldorei Viltoccati.,Lacrime della luna,2222,146840,76984,0,0,61,0,0,792
+5730,Uccidi Vilcorteccia il Profanatore.,Profanatore della terra,2222,147160,76984,0,0,62,0,0,792
+5731,Trova e uccidi l'Uccisore.,Uccidere l'Uccisore,2222,147162,76984,0,0,63,0,0,792
+5732,Distruggi i Vilpiloni per sabotare la griglia del caos della Legione.,Abbasso la griglia,2222,147164,76984,0,0,64,0,0,792
+5733,Strappa via le Vilpiante.,Erbacce da strappar via,2222,147232,76984,0,0,65,0,0,792
+5734,Rimuovi i nuclei della Console della Legione.,Un problema da enucleare,2222,147239,76984,0,0,66,0,0,792
+5735,Recupera quattro Vilpigne.,Non commestibili,2222,147246,0,0,0,67,0,0,792
+5736,Metti le Vilpigne nel condotto di aerazione del Cannone Devastatore.,Condotto intasato,2222,147395,76984,0,0,68,0,0,792
+5737,Uccidi il Servo di Kruul.,Incarico di gruppo: Servo di Kruul,2222,146963,76983,0,0,69,0,0,792
+5738,Uccidi Ursoc il Distruttore.,Incarico di gruppo: Ursoc il Distruttore,2222,146965,76983,0,0,70,0,0,792
+5739,Uccidi la Vilguardiana Mara.,Incarico di gruppo: Guarda il Guardiano,2222,146968,76983,0,0,71,0,0,792
+5740,Distruggi i Vilspargitori.,Incarico di gruppo: Fermare l'infestazione,2222,146874,76983,0,0,72,0,0,792
+5741,Uccidi l'Infernale Invasore.,Incarico di gruppo: Orlo della distruzione,2222,146940,76983,0,0,73,0,0,792
+5742,Strappa via la Vilpianta Grande.,Incarico di gruppo: La vilterra,2222,147236,76983,0,0,74,0,0,792
+5745,Occupati dei Divoratori del Vuoto.,Divoratori del Vuoto,2222,146896,76985,0,0,75,0,0,792
+5746,Occupati degli Aqir.,Invasione degli Aqir,2222,146897,76985,0,0,76,0,0,792
+5747,Occupati dei Klaxxi.,Fanatici Klaxxi,2222,146898,76985,0,0,77,0,0,792
+5749,Dissolvi le visioni di N'zoth.,Visioni maledette,2222,146900,76984,0,0,78,0,0,792
+5750,Trova e uccidi il Profeta Skitra.,Profeta Skitra,2222,146901,76984,0,0,79,0,0,792
+5751,Trova e uccidi il Visir Imperiale Zor'lok.,Visir Imperiale Zor'lok,2222,146902,76984,0,0,80,0,0,792
+5752,Salta sui tumuli infestati e schiacciali,Diffusione dell'infestazione,2222,146903,76984,0,0,81,0,0,792
+5753,Distruggi le Uova di Aqir.,Uova di Aqir,2222,146904,76984,0,0,82,0,0,792
+5754,Distruggi le Sale delle Uova dei Klaxxi.,Sale delle Uova dei Klaxxi,2222,146905,76984,0,0,83,0,0,792
+5755,Imprigiona i Klaxxi Volanti nelle prigioni d'ambra.,Prigioni d'ambra,2222,146906,76984,0,0,84,0,0,792
+5756,Usa il lanciafiamme per bruciare i tentacoli.,Incarico di gruppo: Che il fuoco vi purifichi,2222,146907,76983,0,0,85,0,0,792
+5757,Vola sul tuo draco per colpire gli Osservatori Scivolosi.,Incarico di gruppo: Tieni pulito il cielo,2222,146908,76983,0,0,86,0,0,792
+5758,Acceca gli occhi di N'zoth con un bastone.,Incarico di gruppo: Un bastone nell'occhio,2222,146909,76983,0,0,87,0,0,792
+5759,Distruggi le Prigioni del Vuoto.,Incarico di Gruppo: Prigioni del Vuoto,2222,146910,76983,0,0,88,0,0,792
+5760,Uccidi Cho'gall il Profeta del Crepuscolo.,Incarico di gruppo: Cho'gall il Profeta del Crepuscolo,2222,146911,76983,0,0,89,0,0,792
+5761,Uccidi Shad'har il Divoratore del Vuoto.,Incarico di gruppo: Shad'har il Divoratore del Vuoto,2222,146912,76983,0,0,90,0,0,792
+5762,Uccidi Dest'agath il Corrotto.,Incarico di gruppo: Dest'Agath il Corrotto,2222,146913,76983,0,0,91,0,0,792
+5763,Uccidi il Generale Supremo Pa'valak.,Incarico di gruppo: Generale Supremo Pa'valak,2222,146914,76983,0,0,92,0,0,792
+5764,Sconfiggi quanti più membri possibile della Grande Alleanza Gloriosa.,La Grande Alleanza Gloriosa,2222,146915,76985,0,0,93,0,0,792
+5765,Sconfiggi quanti più membri possibile della Grande Alleanza Gloriosa e dell'Orda di Sangue.,Guerra eterna,2222,146916,76985,0,0,94,0,0,792
+5766,Sconfiggi quanti più membri possibile dell'Orda di Sangue.,L'Orda di Sangue,2222,146917,76985,0,0,95,0,0,792
+5767,Trova e uccidi la Svisceratrice Kintara.,Svisceratrice Kintara,2222,146918,76984,0,0,96,0,0,792
+5768,Trova e uccidi il Mago da Guerra Bernante.,Mago da Guerra Bernante,2222,146919,76984,0,0,97,0,0,792
+5769,Distruggi il deposito di palle di cannone della Grande Alleanza Gloriosa.,Munizioni esaurite,2222,146920,76984,0,0,98,0,0,792
+5770,Fai esplodere in anticipo il negozio di Bombe di Rottami dell'Orda di Sangue.,Sganciare le bombe,2222,146924,76984,0,0,99,0,0,792
+5771,Costruisci una Rastrelliera dell'Orda di Sangue per te e i tuoi alleati.,Armi dell'Orda di Sangue,2222,146925,76984,0,0,101,0,0,792
+5772,Costruisci una Rastrelliera della Grande Alleanza Gloriosa per te e i tuoi alleati.,Armi della Grande Alleanza Gloriosa,2222,146926,76984,0,0,103,0,0,792
+5773,Ruba un Maiale del Fumo e cavalcalo per tornare da Soridormi.,Maiale del Fumo,2222,146927,76984,0,0,104,0,0,792
+5774,Ruba una Macchina Volante e guidala per tornare da Soridormi.,Macchina Volante,2222,146928,76984,0,0,105,0,0,792
+5775,Uccidi Ankura Tagliasangue.,Incarico di gruppo: Ankura Tagliasangue,2222,146929,76983,0,0,106,0,0,792
+5776,Uccidi il Comandante dei Cieli Gadrius Cacciaorchi.,Incarico di gruppo: Comandante dei Cieli Gadrius Cacciaorchi,2222,146930,76983,0,0,107,0,0,792
+5777,Uccidi Margosh l'Affumicatore.,Incarico di gruppo: Margosh l'Affumicatore,2222,146931,76983,0,0,108,0,0,792
+5778,Uccidi la Grande Accusatrice Kilandrelle.,Incarico di gruppo: Grande Accusatrice Kilandrelle,2222,146932,76983,0,0,109,0,0,792
+5779,Trascina la Bomba Gigante nella sua realtà.,Incarico di gruppo: Bomba Gigante!,2222,146933,76983,0,0,110,0,0,792
+5780,Disarma le Mine di Sangue.,Incarico di gruppo: Campo minato dell'Orda di Sangue,2222,146934,76983,0,0,111,0,0,792
+5781,"Spezza lo scudo dell'Inquisitore Benedetto, poi sconfiggi l'Inquisitore Benedetto.",Incarico di gruppo: Inquisitore Benedetto,2222,146935,76983,0,0,112,0,0,792
+5782,Sconfiggi le Macchine Volanti volandoci contro con il Volo Draconico.,Incarico di gruppo: Cieli di ferro,2222,146936,76983,0,0,114,0,0,792
+5784,Occupati degli Scavatori di Azerite.,Estrazione a strisce,2222,146942,76985,0,0,115,0,0,792
+5785,Occupati dei Coordinatori Corrosi e dei Droni di Rilevamento Arrugginiti.,"Ricerca, nascondi e distruggi",2222,146943,76985,0,0,116,0,0,792
+5786,Occupati dei Mietitori Fuori Controllo.,Euristica fuori controllo,2222,146944,76985,0,0,117,0,0,792
+5787,Ripara il pannello di controllo malfunzionante.,Controllo ristabilito,2222,146945,76984,0,0,118,0,0,792
+5788,Corri verso U:\RAN.2 /SWIFT e fermalo!,Condizione di risoluzione: tu,2222,146946,76984,0,0,119,0,0,792
+5789,Rimanda indietro nel tempo i Furfanti-P41!,Raccolta di spazzatura,2222,146947,76984,0,0,120,0,0,792
+5790,Ripulisci le Pozzanghere d'Olio.,Ostilità viscosa,2222,146948,76984,0,0,121,0,0,792
+5791,Abbatti tutti gli Ammazzadraghi AQ-9.,Minaccia dall'alto,2222,146949,76984,0,0,122,0,0,792
+5792,Elimina i calderoni malfunzionanti.,Cosa si cucina,2222,146950,76984,0,0,123,0,0,792
+5793,Usa una batteria carica per distruggere i Collettori di Azerite!,Io penso positivo,2222,146951,76984,0,0,124,0,0,792
+5794,Distruggi i lanciafiamme!,Lampade di lava letali,2222,146952,76984,0,0,125,0,0,792
+5795,Usa i magneti per spingere il Disperobot da Campo nel pilone elettrico!,Incarico di gruppo: Personalità magnetica,2222,146953,76983,0,0,126,0,0,792
+5796,Sconfiggi Peeved!,Incarico di gruppo: Maggiordomo Robotico Pessimo Gentiluomo,2222,146954,76983,0,0,127,0,0,792
+5797,Disattiva il Pilone Alfa!,Incarico di gruppo: disattiva il Pilone Alfa,2222,146955,76983,0,0,128,0,0,792
+5798,Sconfiggi il Cattivotron!,Incarico di gruppo: DONI e DOLORI,2222,146956,76983,0,0,129,0,0,792
+5799,Chiudi la Fenditura del Tempo Instabile usando la Granata di Scarti Sovraccaricata!,Incarico di gruppo: Scarti di binario,2222,146957,76983,0,0,130,0,0,792
+5800,Sconfiggi Armorux.,"Incarico di gruppo: SALVE, CREATORE",2222,146958,76983,0,0,131,0,0,792
+5801,Disattiva l'ologramma.,Incarico di gruppo: Le macchine sono il futuro,2222,146959,76983,0,0,132,0,0,792
+5802,Disattiva l'Annichilo-bomba 9000.,Incarico di gruppo: Poche probabilità di sopravvivere,2222,146960,76983,0,0,133,0,0,792
+5806,Risolvi il paradosso identificando le creature della linea temporale sbagliata.,Risolvi il Paradosso,2222,144612,76984,0,0,134,0,0,792
+5807,Risolvi il paradosso districando le linee temporali.,Risolvi il Paradosso,2222,144910,76984,0,0,135,0,0,792
+5808,Riempi la clessidra regolando la velocità di riempimento.,Riempi la Clessidra,2222,144912,76984,0,0,136,0,0,792
+5809,Riempi la clessidra catturando la sabbia.,Riempi la Clessidra,2222,146985,76984,0,0,137,0,0,792
+5810,Riempi la clessidra spostandola sotto la sabbia che cade.,Riempi la Clessidra,2222,146986,76984,0,0,138,0,0,792
+5811,Risolvi il paradosso trovando le creature della linea temporale specificata.,Risolvi il Paradosso,2222,146987,76984,0,0,139,0,0,792
+5818,Raccogli le armi dell'Orda di Sangue e una rastrelliera per tenerle.,Armi dell'Orda,2222,147190,0,0,0,100,0,0,792
+5819,Raccogli le armi della Grande Alleanza Gloriosa e una rastrelliera per tenerle.,Armi dell'Alleanza,2222,147191,0,0,0,102,0,0,792
+5820,Sconfiggi l'Inquisitore Benedetto.,Incarico di gruppo: Indagine,2222,147188,76983,0,0,113,0,0,792
+5849,Costruisci una Forgia della Purificazione per te e i tuoi alleati.,Forgia della Purificazione,2222,147530,76984,0,0,141,0,0,792
+5850,Costruisci un Pauraloc per te e i tuoi alleati.,Pauraloc,2222,147531,76984,0,0,140,0,0,792
+5851,Lo Stormo dei Draghi dell'Infinito ha invaso il Tempio di Bronzo. Aiuta Nozdormu e Cromie a riprendere il controllo dei flussi temporali!,Alba degli Infiniti: Caduta di Galakrond,2276,147543,0,0,0,0,0,0,0
+5852,Murozond ascende. Corri contro il tempo con Cromie per correggere il passato!,Alba degli Infiniti: Ascesa di Murozond,2277,147548,0,0,0,0,0,0,0
+5853,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2278,147554,0,0,0,0,0,0,0
+5854,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2280,147557,0,0,0,0,0,0,0
+5855,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2281,147559,0,0,0,0,0,0,0
+5856,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2282,147561,0,0,0,0,0,0,0
+5857,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2283,147563,0,0,0,0,0,0,0
+5858,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2284,147565,0,0,0,0,0,0,0
+5859,"Distruggi la Causalità Fratturata, così che Soridormi possa riparare i flussi temporali.",Causalità Fratturata,2285,147567,0,0,0,0,0,0,0
+6231,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Ulderoth!,2222,147747,0,0,0,143,0,0,864
+6232,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Azeranima!,2222,147749,0,0,0,144,0,0,864
+6233,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Azerira!,2222,147751,0,0,0,145,0,0,864
+6234,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Azq'roth!,2222,147753,0,0,0,146,0,0,864
+6235,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: Terre di Guerra!,2222,147755,0,0,0,147,0,0,864
+6236,Entra nella Fenditura del Tempo al centro del bacino.,Nella Fenditura: A.Z.E.R.O.T.H.!,2222,147757,0,0,0,148,0,0,864

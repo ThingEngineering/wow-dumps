@@ -2561,7 +2561,7 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5018,So’leah recherche de puissantes reliques pour mener à bien son sinistre dessein. Arrêtez-la !,Tazavesh : le stratagème de So’leah,2032,94230,0,0,0,0,0,0,0
 5019,"Sauvez des âmes, gagnez en puissance et triomphez des troupes du Geôlier.",Gravir la tour,2033,94286,0,0,0,0,0,0,291
 5020,Vos défaites successives ont attiré le Naphtrémens ! Hâtez-vous de gagner l’étage suivant avant lui !,Faites vite !,2033,94288,0,0,0,1,0,0,291
-5021,test,Step 1,2034,94290,0,0,0,0,4,0,0
+5021,Bienvenue dans les limbes !,Salle d’attente,2034,94290,0,0,0,1,12,0,0
 5022,Attirez-vous les faveurs des puissants cartels de Tazavesh et trouvez So’leah !,Tazavesh : les rues des merveilles,2035,94332,62658,0,0,0,0,0,0
 5023,So’leah recherche de puissantes reliques pour mener à bien son sinistre dessein. Arrêtez-la !,Tazavesh : le stratagème de So’leah,2036,94338,62658,0,0,0,0,0,0
 5024,Escortez les parias d’obsidienne au donjon du Fléau-des-Dragons.,Chariot à Dragon,2037,95387,0,0,0,0,0,0,0
@@ -2860,6 +2860,7 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5384,[DNT]Description,[DNT]Storm Prototype Final Step,2134,140640,0,0,0,0,0,0,0
 5385,[DNT]Description,[DNT]Major Storm Mini Bosses Step,2135,140642,0,0,0,0,0,0,0
 5386,[DNT]Description,[DNT]Major Storm Boss Step,2135,140644,0,0,0,1,0,0,0
+5387,Sauvez les Vrykuls des rejetons de chair.,Clairières Orientales,2136,140708,0,0,0,0,0,0,0
 5388,Vous arrivez sur le territoire des Loups-de-givre avec Eitrigg. Vous devriez le suivre pour aller parler à Drek’Thar.,Une visite familiale,2137,140747,0,0,0,0,0,0,0
 5389,"Vous avez retrouvé Eitrigg, Thrall, Aggra et leurs enfants au donjon Loup-de-givre. Il est temps de parler du retour du Kosh’harg.",Une question de la plus haute importance,2137,140749,0,0,0,1,0,0,0
 5390,Drek’Thar vous a lancé un défi ! Prouvez que vous êtes digne d’accomplir en premier le nouveau rituel en terrassant Duros et Drakan.,Défi de Drek’Thar,2137,140751,0,0,0,2,0,0,0
@@ -2872,6 +2873,15 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5399,Affaiblissez la tempête en terrassant des élémentaires.,S’ancrer à la terre,2141,142599,0,0,0,0,0,0,0
 5400,Affaiblissez la tempête en terrassant des élémentaires.,Un échange enflammé,2142,142603,0,0,0,0,0,0,0
 5401,Affaiblissez la tempête en terrassant des élémentaires.,Pluie de terreur,2143,142607,0,0,0,0,0,0,0
+5402,Éliminez les troupes des Dieux très anciens dans ces bois et rassemblez les Vrykuls.,Et maintenant Kith’ix,2136,142563,0,0,0,1,0,0,0
+5403,Aidez Ironaya et Archaedas à vaincre Kith’ix.,Chroniques alliées,2136,142564,0,0,0,2,0,0,0
+5404,Nettoyez les bois de toutes les troupes restantes des Dieux très anciens et rassemblez les Vrykuls.,Clairière ombreuse,2136,142565,0,0,0,3,0,0,0
+5405,Affrontez Zakajz.,Le baroud de Tyr,2136,142566,0,0,0,4,0,0,0
+5406,Éliminez les illusions de Zakajz.,Les Aspects de Zakajz,2136,142567,0,0,0,5,0,0,0
+5407,Terrassez Zakajz. Assistez à l’ultime sacrifice de Tyr.,Trépas de Tyr,2136,142568,0,0,0,6,0,0,0
+5410,Les essences de Malygos et Sindragosa ont été déplacées dans le caveau d’Azur. Il est temps de les libérer !,Parler à Kalecgos,2145,142577,0,0,0,0,0,0,0
+5411,Sentez la fureur de Sindragosa !,Vaincre Sindragosa,2145,142579,0,0,0,1,0,0,0
+5412,Sindragosa et Malygos ont été apaisés.,Parler à Kalecgos,2145,144721,0,0,0,2,0,0,0
 5414,Terrassez Han’thul.,L’œil de la tempête,2140,142593,0,0,0,1,0,0,0
 5415,Terrassez Khirna Cœur-de-Roc,L’œil de la tempête,2141,142589,0,0,0,1,0,0,0
 5416,Terrassez Fael’lin.,L’œil de la tempête,2142,142587,0,0,0,1,0,0,0
@@ -2887,8 +2897,12 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5428,Récupérez le contenu du coffre des tempêtes.,Réussite,2149,142862,0,0,0,3,0,0,0
 5459,Éliminez les patrouilles de la Flamme fracturée.,Le début des ennuis,2152,143235,0,0,0,0,0,0,0
 5460,Éliminez les troupes de confinement des Titans au sud-ouest.,Purifier la quarantaine,2152,143239,74906,0,0,1,0,0,756
-5463,Les forces de la Flamme fracturée ont été vaincues. Vous pouvez à présent informer Rannan que ses scientifiques et lui peuvent se retirer avec les données collectées.,Sortie,2152,143237,74905,0,0,21,0,0,806
+5463,Les forces de la Flamme fracturée ont été vaincues. Vous pouvez à présent informer Rannan que ses scientifiques et lui peuvent se retirer avec les données collectées.,Sortie,2152,143237,74905,0,0,21,0,0,0
 5464,Éliminez les Primalistes de terre et le garde-falaise Rocani.,Amateurs de terre,2146,143185,0,0,0,1,0,0,0
+5469,Vous voilà dans le Maelström. Parlez à Nozdormu pour connaître la suite des événements.,Parler à Nozdormu,2154,143358,0,0,0,0,0,0,0
+5470,Utilisez le gant forgé pour récupérer la dernière essence de Dragon noir d’Aile de mort.,Absorber l’essence d’Aile de mort,2154,143459,0,0,0,1,0,0,0
+5471,Un agent des Dieux très anciens a surgi d’Aile de mort !,Éliminez le sans-visage,2154,143461,0,0,0,2,0,0,0
+5472,Essayez une nouvelle fois d’obtenir l’essence d’Aile de mort.,Récupérer l’essence d’Aile de mort,2154,143467,0,0,0,3,0,0,0
 5473,"Vous pouvez acheter du collier de piranha mille-morsures à Junnik, près des tentes au sud de la marmite.",Une touche fatale,2155,143363,0,0,0,0,0,0,663
 5474,Lancez le collier de piranha mille-morsures dans la marmite !,Collier de piranha mille-morsures,2155,143411,74382,0,0,1,0,0,663
 5475,"Vous pouvez acheter des morceaux de malabar à Patchou, près des tentes au sud de la marmite.",Une touche bon marché,2156,143365,0,0,0,0,0,0,663
@@ -2937,21 +2951,22 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5518,Versez les rations de ragoût de la marche de l’Ouest dans la marmite !,Rations : ragoût de la marche de l’Ouest,2177,143455,74382,0,0,1,0,0,663
 5519,"Vous pouvez acheter des rations de chili de souffle de dragon au chef Poêlon, près du pont au nord de la marmite.",Une touche pimentée,2178,143409,0,0,0,0,0,0,663
 5520,Versez les rations de chili de souffle de dragon dans la marmite !,Rations : chili de souffle de dragon,2178,143457,74382,0,0,1,0,0,663
+5521,"Nasz’uro, l’héritage délié, est à vous !",Un nouvel héritage,2154,143469,0,0,0,4,0,0,0
 5524,Attaquez le poisson-lion énorme ou interagissez avec lui de manière à récupérer un maximum de chair !,Poisson-lion énorme,2179,143496,70925,0,0,0,0,0,663
 5525,Attaquez la mantacorne énorme ou interagissez avec elle de manière à récupérer un maximum de chair !,Mantacorne énorme,2180,143502,70925,0,0,0,0,0,663
 5526,Attaquez le requin-renard énorme ou interagissez avec lui de manière à récupérer un maximum de chair !,Requin-renard énorme,2181,143504,70925,0,0,0,0,0,663
 5529,Terrassez les boss de la cime du Vortex.,La cime du Vortex,2184,143614,0,0,0,0,0,0,0
-5530,Description de base des étapes 1,Scenario Start 1A,2185,143669,0,0,0,0,0,0,0
+5530,Description de l’étape de base 1A,Scenario Start 1A,2185,143669,0,0,0,0,0,0,0
 5532,Nettoyez le creux des Fougerobes !,Creux des Fougerobes,2187,143773,0,0,0,0,0,0,0
 5533,Explorez Uldaman à la recherche des disques de Tyr !,Uldaman : l’héritage de Tyr,2188,143778,0,0,0,0,0,0,0
 5534,Nettoyez Neltharus.,Neltharus,2189,143784,0,0,0,0,0,0,0
 5535,Examinez les salles de l’Imprégnation.,Salles de l’Imprégnation,2190,143789,0,0,0,0,0,0,0
-5536,Description de base des étapes 2,Scenario Start 1B,2185,143796,0,0,0,0,0,0,0
-5537,,Scenario 2,2185,0,0,0,0,1,0,0,0
+5536,Description de l’étape de base 1B,Scenario Start 1B,2185,143796,0,0,0,0,0,0,0
+5537,Description de l’étape de base 2,Scenario 2,2185,144181,0,0,0,1,0,0,0
 5538,Détruisez les rochers qui bloquent la console principale. Récupérez des pièces des Titans pour les réparations de Greta.,Chaos de quarantaine,2152,143894,74906,0,0,2,0,0,756
-5539,Terrassez les troupes de confinement des Titans pour laisser le temps à Greta d’obtenir ses données.,Une contre-attaque titanesque,2152,143896,74906,0,0,9,0,0,806
-5540,Les renforts de la Flamme fracturée sont là. Défendez le campement suffisamment longtemps pour permettre aux scientifiques de se retirer.,Vous n’êtes pas les bienvenus,2152,143904,74906,0,0,19,0,0,806
-5541,"La capitaine de la Flamme fracturée, Reykal, projette de tuer Rannan elle-même.",Le chef de la Flamme,2152,143900,74906,0,0,20,0,0,806
+5539,Terrassez les troupes de confinement des Titans pour laisser le temps à Greta d’obtenir ses données.,Une contre-attaque titanesque,2152,143896,74906,0,0,9,0,0,0
+5540,Les renforts de la Flamme fracturée sont là. Défendez le campement suffisamment longtemps pour permettre aux scientifiques de se retirer.,Vous n’êtes pas les bienvenus,2152,143904,74906,0,0,19,0,0,0
+5541,"La capitaine de la Flamme fracturée, Reykal, projette de tuer Rannan elle-même.",Le chef de la Flamme,2152,143900,74906,0,0,20,0,0,0
 5542,Éliminez les Primalistes de feu et le garde-portail Cimbra.,Fyrakka et soufre,2146,144009,0,0,0,2,0,0,0
 5546,Aidez Greta à neutraliser le contaminant en plaçant les échantillons de minerai dans les transformateurs.,Neutralisation du contaminant,2152,144237,74906,0,0,6,0,0,756
 5547,Notre escarmouche avec les troupes des Titans a énervé la faune locale.,Enquêteurs hostiles,2152,144240,74906,0,0,3,0,0,756
@@ -2972,3 +2987,163 @@ ID,Description_lang,Title_lang,ScenarioID,CriteriatreeID,RewardQuestID,RelatedSt
 5562,Terrassez Rashok avant qu’il ne détruise le creuset.,Fureur des Géants,2194,144319,0,0,0,0,0,0,0
 5563,Contrecarrez les sombres desseins de Neltharion.,L’ombre de Neltharion,2195,144341,0,0,0,0,0,0,0
 5564,Arrêtez Sarkareth avant qu’il n’atteigne Aberrus.,Au bord du Vide,2196,144344,0,0,0,0,0,0,0
+5595,Testez à nouveau !!,Étape 2,2034,146208,0,0,0,2,0,0,0
+5596,Parlez à Soridormi et faites-lui savoir que vous pouvez l’aider.,Le point sur la situation,2222,144583,0,0,0,0,8,0,792
+5625,test,Étape 1,2034,0,0,0,0,0,0,0,0
+5654,Occupez-vous des mages murlocs de Krrrn Trr.,KRRRN TRR !,2222,144598,76985,0,0,2,0,0,792
+5655,Occupez-vous des assassins murlocs MR-7.,MR-7 !,2222,144602,76985,0,0,3,0,0,792
+5656,Occupez-vous des druides murlocs de Cenrrrn Cirrgl.,CENRRRN CIRRGL !,2222,144604,76985,0,0,4,0,0,792
+5657,Occupez-vous des dinosaures d’Ulderoth.,Dinos d’Ulderoth,2222,144606,76985,0,0,21,0,0,792
+5658,Occupez-vous des plantes d’Ulderoth.,Plantes d’Ulderoth,2222,144608,76985,0,0,22,0,0,792
+5659,Occupez-vous des bêtes d’Ulderoth.,Bêtes d’Ulderoth,2222,144610,76985,0,0,23,0,0,792
+5660,Tuez Grrrmrrsh Hrrnglscrrrm.,Tâche de groupe : Grrrmrrsh Hrrnglscrrrm,2222,144635,76983,0,0,5,0,0,792
+5661,Rassemblez de quoi construire un peurloc.,Pièces de peurloc,2222,144920,76983,0,0,6,0,0,792
+5662,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : Azmerloth !,2222,146301,0,0,0,142,0,0,864
+5664,Éliminez toute créature sortant des failles temporelles !,Tout tuer !,2222,144723,76985,0,0,1,0,0,792
+5665,Tuez Gillidan.,Tâche de groupe : Gillidan,2222,144906,76983,0,0,7,0,0,792
+5666,Tuez le serviteur d’Aile de morgurlugull.,Tâche de groupe : serviteur d’Aile de morgurlugull,2222,144908,76983,0,0,8,0,0,792
+5667,Lancez les bébés murlocs effrayés pour les renvoyer dans leur dimension.,Tâche de groupe : murlocs effrayés,2222,145179,76983,0,0,9,0,0,792
+5668,Renvoyez les bébés murlocs errants dans leur réalité.,Tâche de groupe : bébés murlocs errants,2222,145219,76983,0,0,10,0,0,792
+5672,Tirez l’œuf géant vers son portail.,Tâche de groupe : œuf géant,2222,145288,76983,0,0,11,0,0,792
+5673,Crevez les bulles du bullomancien d’Azmerloth.,Tâche de groupe : bulles,2222,145483,0,0,0,12,0,0,792
+5674,Terrassez le bullomancien d’Azmerloth.,Tâche de groupe : bullomancien d’Azmerloth,2222,145561,76983,0,0,13,0,0,792
+5675,Détruisez le tas de poissons morts puant.,Tas de poissons morts puant,2222,145329,76984,0,0,14,0,0,792
+5676,Détruisez le panier de poissons morts puant.,Panier de poissons morts puant,2222,145331,76984,0,0,15,0,0,792
+5677,Détruisez le tonneau de poissons morts puant.,Tonneau de poissons morts puant,2222,145333,76984,0,0,16,0,0,792
+5678,Soignez les murlocs blessés au combat.,Murlocs blessés,2222,145428,76984,0,0,17,0,0,792
+5679,Soignez les Murlocs blessés au combat.,Murlocs blessés,2222,145473,76984,0,0,18,0,0,792
+5680,Ramassez des gouttes de bave d’Azmerloth.,Collecte de bave,2222,145611,0,0,0,19,0,0,792
+5681,Formez une flaque de bave d’Azmerloth pour vos alliés et vous.,Flaque de bave,2222,145678,76984,0,0,20,0,0,792
+5682,Tuez le serpent-nuage pur sang.,Tâche de groupe : serpent-nuage pur sang,2222,146101,76983,0,0,24,0,0,792
+5683,Tuez le mammouth pur sang.,Tâche de groupe : mammouth pur sang,2222,146103,76983,0,0,25,0,0,792
+5684,Tuez le proto-drake pur sang.,Tâche de groupe : proto-drake pur sang,2222,146105,76983,0,0,26,0,0,792
+5685,Tuez le diablosaure pur sang.,Tâche de groupe : diablosaure pur sang,2222,146107,76983,0,0,27,0,0,792
+5686,Détruisez le nettoyeur d’impuretés.,Tâche de groupe : nettoyeur d’impuretés,2222,146128,76983,0,0,28,0,0,792
+5687,Piétiner les bêtes embêtantes qui attaquent la plateforme de Soridormi.,Tâche de groupe : bêtes embêtantes,2222,146130,76983,0,0,29,0,0,792
+5688,"Volez au travers des cristaloptères inaltérés, là-haut.",Tâche de groupe : cristaloptères inaltérés,2222,146134,76983,0,0,30,0,0,792
+5689,Libérez les jeunes Dragonnets enchevêtrés.,Dragonnets enchevêtrés,2222,146109,76984,0,0,31,0,0,792
+5690,Détruisez le flagellant intouché.,Flagellant intouché,2222,146111,76984,0,0,32,0,0,792
+5691,Trouvez et tuez le raptor de l’Apogée.,Raptor de l'Apogée,2222,146113,76984,0,0,33,0,0,792
+5692,Trouvez et tuez le tigre de l’Apogée.,Tigre de l'Apogée,2222,146115,76984,0,0,34,0,0,792
+5693,Rassemblez de quoi construire une forge purificatrice.,Mutations pour tous,2222,146117,0,0,0,35,0,0,792
+5694,Faites tomber le pterreurdactyle de l’Apogée.,Mort planante,2222,146119,0,0,0,36,0,0,792
+5695,Tuez le pterreurdactyle de l’Apogée.,Pterreurdactyle de l'Apogée,2222,146122,76984,0,0,37,0,0,792
+5696,Réparez les veilleurs blessés.,Veilleurs blessés,2222,146124,76984,0,0,38,0,0,792
+5706,Occupez-vous des morts-vivants.,Des assaillants atones,2222,146855,76985,0,0,39,0,0,792
+5707,Occupez-vous des nérubiens.,Désinsectisation,2222,146856,76985,0,0,40,0,0,792
+5708,Occupez-vous des varguls.,Au service du roi,2222,146857,76985,0,0,41,0,0,792
+5709,Détruisez les céréales pestiférées.,L’appel à l’élimination,2222,146858,76984,0,0,42,0,0,792
+5710,Éliminez le cadavre de Festin-de-Sang.,Élimination des cadavres,2222,146859,76984,0,0,43,0,0,792
+5711,Détruisez le livre de Kel’Thuzad.,Le dernier bibliothécaire,2222,146860,76984,0,0,44,0,0,792
+5712,Jetez le cœur gelé dans la faille temporelle.,Les profondeurs Oubliées,2222,146861,76984,0,0,45,0,0,792
+5713,Vainquez le gladiateur pourri.,L’arène des Valeureux,2222,146862,76984,0,0,46,0,0,792
+5714,Renvoyez le colosse pourrissant dans le temps.,Herbe gelée,2222,146863,76984,0,0,47,0,0,792
+5715,Renvoyez la Val’kyr en herbe dans le temps.,Fées spirituelles,2222,146864,76984,0,0,48,0,0,792
+5716,Libérez Bolvar Fordragon.,Jamais couronné,2222,146865,76984,0,0,49,0,0,792
+5717,Enquêtez sur la faille temporelle gelée.,Tâche de groupe : au service du roi,2222,146866,76983,0,0,50,0,0,792
+5718,Vainquez les flammes du Traître entravées.,Tâche de groupe : cour des Ossements,2222,146867,76983,0,0,51,0,0,792
+5719,Vainquez la reine banshee.,Tâche de groupe : toujours une Coursevent,2222,146868,76983,0,0,52,0,0,792
+5720,Vainquez Uther le Porte-mort.,Tâche de groupe : le dernier paladin,2222,146869,76983,0,0,53,0,0,792
+5721,Détruisez le phylactère du zélote,Tâche de groupe : assaut contre la lumière,2222,146870,76983,0,0,54,0,0,792
+5722,Vainquez le seigneur Thassarian.,Tâche de groupe : le Tueur assombri,2222,146871,76983,0,0,55,0,0,792
+5723,Vainquez la reine Angrboda.,Tâche de groupe : la reine éveillée,2222,146872,76983,0,0,56,0,0,792
+5724,Vainquez le seigneur de l’essaim déchu.,Tâche de groupe : une défaite creuse,2222,146873,76983,0,0,57,0,0,792
+5726,Des Kaldorei touchés par la gangrène et leurs gardes surveillent la zone. Gênez leur travail en en éliminant le maximum.,Enfants perdus,2222,146382,76985,0,0,60,0,0,792
+5727,Un groupe de Shu’halo et leurs gardes corrompent l’environnement avec la gangrène. Éliminez-en autant que possible.,Disgrâce,2222,147014,76985,0,0,58,0,0,792
+5728,Un groupe de gangrebolgs et leurs gardes corrompent nos terres avec la gangrène. Éliminez-en autant que possible.,Gardiens déchus,2222,147020,76985,0,0,59,0,0,792
+5729,Éliminez des Kaldorei touchés par la gangrène.,Les larmes de la Lune,2222,146840,76984,0,0,61,0,0,792
+5730,Tuez Gangrécorce le Profanateur.,Profanateur de la terre,2222,147160,76984,0,0,62,0,0,792
+5731,Trouvez et tuez Tueur.,Tuer Tueur,2222,147162,76984,0,0,63,0,0,792
+5732,Détruisez des gangre-pylônes pour saboter le réseau de chaos de la Légion.,Coupure de réseau,2222,147164,76984,0,0,64,0,0,792
+5733,Arrachez des gangrèches.,Arrachage de gangrèches,2222,147232,76984,0,0,65,0,0,792
+5734,Retirez les noyaux de la console de la Légion.,Le cœur du problème,2222,147239,76984,0,0,66,0,0,792
+5735,Récupérez quatre pommes de pin gangrenées.,Non comestible,2222,147246,0,0,0,67,0,0,792
+5736,Placez les pommes de pin gangrenées dans la colonne de ventilation du canon dévastateur.,Obstruction,2222,147395,76984,0,0,68,0,0,792
+5737,Tuez le serviteur de Kruul.,Tâche de groupe : serviteur de Kruul,2222,146963,76983,0,0,69,0,0,792
+5738,Tuez Ursoc le Destructeur.,Tâche de groupe : Ursoc le Destructeur,2222,146965,76983,0,0,70,0,0,792
+5739,Tuez Mara la gardienne gangrenée.,Tâche de groupe : gare à la gardienne,2222,146968,76983,0,0,71,0,0,792
+5740,Détruisez les épandeurs de corruption.,Tâche de groupe : stop à la propagation,2222,146874,76983,0,0,72,0,0,792
+5741,Tuez l’infernal de l’invasion.,Tâche de groupe : au bord de la destruction,2222,146940,76983,0,0,73,0,0,792
+5742,Arrachez la grande gangrèche.,Tâche de groupe : la gangrène de la terre,2222,147236,76983,0,0,74,0,0,792
+5745,Occupez-vous des mangeurs du Vide.,Mangeurs du Vide,2222,146896,76985,0,0,75,0,0,792
+5746,Occupez-vous des Aqir.,L’invasion des Aqir,2222,146897,76985,0,0,76,0,0,792
+5747,Occupez-vous des Klaxxi.,Fanatiques klaxxi,2222,146898,76985,0,0,77,0,0,792
+5749,Dissipez les visions de N’Zoth.,Visions maudites,2222,146900,76984,0,0,78,0,0,792
+5750,Trouvez et tuez le prophète Skitra.,Le prophète Skitra,2222,146901,76984,0,0,79,0,0,792
+5751,Trouvez et tuez le vizir impérial Zor’lok.,Vizir impérial Zor’lok,2222,146902,76984,0,0,80,0,0,792
+5752,Écrabouillez les tumeurs infestées en marchand dessus.,Propagation de l’infestation,2222,146903,76984,0,0,81,0,0,792
+5753,Détruisez les œufs aqir.,Œufs aqir,2222,146904,76984,0,0,82,0,0,792
+5754,Détruisez les couvoirs klaxxi.,Couvoirs klaxxi,2222,146905,76984,0,0,83,0,0,792
+5755,Capturez les Klaxxi volants dans des prisons d’ambre.,Prisons d’ambre,2222,146906,76984,0,0,84,0,0,792
+5756,Utilisez votre lance-flammes pour brûler les tentacules.,"Tâche de groupe : par le feu, soyez purifiés",2222,146907,76983,0,0,85,0,0,792
+5757,Volez et utilisez votre drake pour percuter les guetteurs à la dérive.,Tâche de groupe : dégager l’espace aérien,2222,146908,76983,0,0,86,0,0,792
+5758,Crevez les yeux de N’Zoth avec un bâton.,Tâche de groupe : un sujet pointu,2222,146909,76983,0,0,87,0,0,792
+5759,Détruisez les prisons du Vide.,Tâche de groupe : prisons du Vide,2222,146910,76983,0,0,88,0,0,792
+5760,Tuez le prophète du Crépuscule Cho’gall.,Tâche de groupe : prophète du Crépuscule Cho’gall,2222,146911,76983,0,0,89,0,0,792
+5761,Tuez Shad’ar le Mangeur du Vide.,Tâche de groupe : Shad’ar le Mangeur du Vide,2222,146912,76983,0,0,90,0,0,792
+5762,Tuez Dest’Agath la Corrompue.,Tâche de groupe : Dest’Agath la Corrompue,2222,146913,76983,0,0,91,0,0,792
+5763,Tuez le général suprême Pa’valak.,Tâche de groupe : général suprême Pa’valak,2222,146914,76983,0,0,92,0,0,792
+5764,Terrassez autant d’envahisseurs de la Grande et Glorieuse Alliance que possible.,La Grande et Glorieuse Alliance,2222,146915,76985,0,0,93,0,0,792
+5765,Terrassez autant de membres de la Grande et glorieuse Alliance et de la Horde de sang en guerre que possible.,La guerre éternelle,2222,146916,76985,0,0,94,0,0,792
+5766,Terrassez autant d’envahisseurs de la Horde de sang que possible.,La Horde de sang,2222,146917,76985,0,0,95,0,0,792
+5767,Trouvez et tuez l’éviscératrice Kintara.,Éviscératrice Kintara,2222,146918,76984,0,0,96,0,0,792
+5768,Trouvez et tuez le mage de guerre Bernante.,Mage de guerre Bernante,2222,146919,76984,0,0,97,0,0,792
+5769,Détruisez la réserve de boulets de canon de la Grande et Glorieuse Alliance.,Plus de munitions,2222,146920,76984,0,0,98,0,0,792
+5770,Faites exploser prématurément la réserve de bombes de ferraille de la Horde de sang.,Bombes !,2222,146924,76984,0,0,99,0,0,792
+5771,Construisez un râtelier à fusils de la Horde de sang pour vous et vos alliés.,Les fusils de la Horde de sang,2222,146925,76984,0,0,101,0,0,792
+5772,Construisez un râtelier à fusils de la Grande et Glorieuse Alliance pour vous et vos alliés.,Les fusils de la Grande et Glorieuse Alliance,2222,146926,76984,0,0,103,0,0,792
+5773,Volez une meule à fumée et ramenez-la à Soridormi.,Meule à fumée,2222,146927,76984,0,0,104,0,0,792
+5774,Volez une machine volante et ramenez-la à Soridormi.,Machine volante,2222,146928,76984,0,0,105,0,0,792
+5775,Tuez Ankura Taillesang.,Tâche de groupe : Ankura Taillesang,2222,146929,76983,0,0,106,0,0,792
+5776,Tuez le commandant Gadrius Plaie-des-Orcs.,Tâche de groupe : commandant Gadrius Plaie-des-Orcs,2222,146930,76983,0,0,107,0,0,792
+5777,Tuez Margosh le Fumeur.,Tâche de groupe : Margosh le Fumeur,2222,146931,76983,0,0,108,0,0,792
+5778,Tuez la grande interrogatrice Kilandrelle.,Tâche de groupe : grande interrogatrice Kilandrelle,2222,146932,76983,0,0,109,0,0,792
+5779,Rapportez la bombe géante dans sa réalité.,Tâche de groupe : bombe géante !,2222,146933,76983,0,0,110,0,0,792
+5780,Désamorcez les mines de sang.,Tâche de groupe : champ de mines de la Horde de sang,2222,146934,76983,0,0,111,0,0,792
+5781,"Brisez le bouclier de l’inquisitrice bénie en le percutant, puis vainquez cette dernière.",Tâche de groupe : inquisitrice bénie,2222,146935,76983,0,0,112,0,0,792
+5782,Détruisez des machines volantes en les percutant avec une monture draconique.,Tâche de groupe : bataille aérienne,2222,146936,76983,0,0,114,0,0,792
+5784,Occupez-vous des excavatrices d’azérite.,Extraction à ciel ouvert,2222,146942,76985,0,0,115,0,0,792
+5785,Occupez-vous des sous-chefs corrodés et des drones d’inspection rouillés.,Tueur à rouages,2222,146943,76985,0,0,116,0,0,792
+5786,Occupez-vous des moissonneurs détraqués.,Euristique détraquée,2222,146944,76985,0,0,117,0,0,792
+5787,Réparez le panneau de contrôle défectueux.,Contrôle rétabli,2222,146945,76984,0,0,118,0,0,792
+5788,Tombez sur U:\RAN.2 /SWIFT et arrêtez-le !,Condition d’interruption : vous,2222,146946,76984,0,0,119,0,0,792
+5789,Renvoyez tous les Canaille-P41 dans le temps !,Collecte des déchets,2222,146947,76984,0,0,120,0,0,792
+5790,Nettoyez les flaques de naphte.,Quand il faut s’y coller,2222,146948,76984,0,0,121,0,0,792
+5791,Abattez tous les tueurs de Dragons AQ-9.,Menaces dans le ciel,2222,146949,76984,0,0,122,0,0,792
+5792,Nettoyez les chaudrons défectueux.,Une drôle de cuisine,2222,146950,76984,0,0,123,0,0,792
+5793,Utilisez une batterie chargée pour détruire les collectionneurs d’azérite !,Approche positive,2222,146951,76984,0,0,124,0,0,792
+5794,Détruisez les lance-flammes !,Lampes à lave de la mort,2222,146952,76984,0,0,125,0,0,792
+5795,Utilisez des aimants pour envoyer le robot désespoirateur contre le pylône électrique !,Tâche de groupe : personnalité magnétique,2222,146953,76983,0,0,126,0,0,792
+5796,Éliminez Rogne !,Tâche de groupe : le pire robot maître d’hôtel du monde,2222,146954,76983,0,0,127,0,0,792
+5797,Désactivez le pylône alpha !,Tâche de groupe : désactivez le pylône alpha,2222,146955,76983,0,0,128,0,0,792
+5798,Éliminez le malfaitron !,Tâche de groupe : des cadeaux et des bobos,2222,146956,76983,0,0,129,0,0,792
+5799,Fermez la faille temporelle instable en utilisant la grenade à ferraille surchargée !,Tâche de groupe : ferraille binaire,2222,146957,76983,0,0,130,0,0,792
+5800,Éliminez Grèves.,"Tâche de groupe : BONJOUR, CRÉATEUR",2222,146958,76983,0,0,131,0,0,792
+5801,Désactivez l’hologramme.,Tâche de groupe : les machines sont l’avenir,2222,146959,76983,0,0,132,0,0,792
+5802,Désactivez l’annihilo-bombe 9000.,Tâche de groupe : de minces chances de survie,2222,146960,76983,0,0,133,0,0,792
+5806,Résolvez le paradoxe en identifiant les créatures de la mauvaise ligne temporelle.,Résoudre le paradoxe,2222,144612,76984,0,0,134,0,0,792
+5807,Résolvez le paradoxe en séparant les lignes temporelles.,Résoudre le paradoxe,2222,144910,76984,0,0,135,0,0,792
+5808,Remplissez le sablier en ajustant la vitesse de remplissage.,Remplir le sablier,2222,144912,76984,0,0,136,0,0,792
+5809,Remplissez le sablier en attrapant du sable.,Remplir le sablier,2222,146985,76984,0,0,137,0,0,792
+5810,Remplissez le sablier en le déplaçant sous le sable qui tombe.,Remplir le sablier,2222,146986,76984,0,0,138,0,0,792
+5811,Résolvez le paradoxe en trouvant les créatures de la ligne temporelle indiquée.,Résoudre le paradoxe,2222,146987,76984,0,0,139,0,0,792
+5818,Rassemblez des armes de la Horde de sang ainsi qu’un râtelier pour les ranger.,Armement de la Horde,2222,147190,0,0,0,100,0,0,792
+5819,Rassemblez des armes de la Grande et Glorieuse Alliance ainsi qu’un râtelier pour les ranger.,Armement de l’Alliance,2222,147191,0,0,0,102,0,0,792
+5820,Terrassez l’inquisitrice bénie,Tâche de groupe : enquête,2222,147188,76983,0,0,113,0,0,792
+5849,Construisez une forge purificatrice pour vous et vos alliés.,Forge purificatrice,2222,147530,76984,0,0,141,0,0,792
+5850,Construisez un peurloc pour vous et vos alliés.,Peurloc,2222,147531,76984,0,0,140,0,0,792
+5851,Le Vol draconique infini a envahi le temple de Bronze. Aidez Nozdormu et Chromie a reprendre les voies temporelles !,Aube de l’Infini : repos de Galakrond,2276,147543,0,0,0,0,0,0,0
+5852,Murozond se relève. Aidez Chromie à corriger le passé. Le temps presse !,Aube de l’Infini : cime de Murozond,2277,147548,0,0,0,0,0,0,0
+5853,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2278,147554,0,0,0,0,0,0,0
+5854,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2280,147557,0,0,0,0,0,0,0
+5855,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2281,147559,0,0,0,0,0,0,0
+5856,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2282,147561,0,0,0,0,0,0,0
+5857,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2283,147563,0,0,0,0,0,0,0
+5858,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2284,147565,0,0,0,0,0,0,0
+5859,Détruisez la causalité fracturée pour que Soridormi puisse réparer les voies temporelles.,Causalité fracturée,2285,147567,0,0,0,0,0,0,0
+6231,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : Ulderoth !,2222,147747,0,0,0,143,0,0,864
+6232,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : Azedeuil !,2222,147749,0,0,0,144,0,0,864
+6233,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : Azerage !,2222,147751,0,0,0,145,0,0,864
+6234,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : Azq’roth !,2222,147753,0,0,0,146,0,0,864
+6235,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : les terres Belliqueuses !,2222,147755,0,0,0,147,0,0,864
+6236,Entrez dans la faille temporelle au centre du réservoir.,Dans la faille : A.Z.E.R.O.T.H.,2222,147757,0,0,0,148,0,0,864
