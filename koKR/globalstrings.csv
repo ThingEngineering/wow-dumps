@@ -8287,7 +8287,7 @@ ID,BaseTag,TagText_lang,Flags
 20097,POWER_TYPE_HEAT,열기,1
 20098,PRESS_TAB,Tab 키를 누르십시오.,1
 20099,ITEM_MOD_HEALTH_REGEN,5초마다 %s의 생명력을 회복합니다.,1
-20100,CALENDAR_STATUS_TENTATIVE,미확정,1
+20100,CALENDAR_STATUS_TENTATIVE,미확정,5
 20101,MERCHANT_HONOR_POINTS,명예 %d,1
 20102,MERCHANT_ARENA_POINTS,투기장 점수 %d,1
 20103,SPELL_FAILED_CUSTOM_ERROR_77,노스렌드 기계공학 (25) 필요,1
@@ -11348,7 +11348,7 @@ ID,BaseTag,TagText_lang,Flags
 23441,SHADOW_ORBS_POWER,어둠의 구슬,1
 23443,FAVORITES_FILTER,즐겨찾기만 표시,1
 23444,ERR_BONUS_ROLL_EMPTY,이 우두머리에게서 아무 전리품도 획득하지 못했습니다. 보너스 주사위 비용을 지불하지 않습니다.,1
-23445,MAIN_HELP_BUTTON_TOOLTIP,이 단추를 클릭하면 이 창의 도움말을 켜고 끕니다.,1
+23445,MAIN_HELP_BUTTON_TOOLTIP,이 단추를 클릭하면 이 창의 도움말을 켜고 끕니다.,3
 23446,CR_RANGED_EXPERTISE_TOOLTIP,공격이 회피될 확률 %s만큼 감소\n숙련 %s (숙련 +%.2F%%),1
 23447,ADD_CHARACTER_FRIEND,캐릭터 친구 추가,1
 23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,계정 내 모든 캐릭터가\n이 업적 획득에 기여합니다.,1
@@ -13687,12 +13687,12 @@ ID,BaseTag,TagText_lang,Flags
 25986,COLORBLIND_ITEM_QUALITY,아이템 등급,1
 25987,BLIZZARD_STORE_CONFIRMATION_VAS_NAME_CHANGE_KR,"본 서비스는 구입 버튼을 클릭한 후에는 취소나 환불이 불가능하며, 처리가 완료되는 즉시 적용됩니다.",3
 25988,POWER_TYPE_INSANITY,광기,1
-25989,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:23|h|cff006995자주 하는 질문|r|h,2
+25989,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:23|h|cff006995자주 하는 질문|r|h,3
 25990,BLIZZARD_STORE_DISCLAIMER_RACE_CHANGE,|HurlIndex:24|h|cff006995자주 하는 질문|r|h,3
 25991,BLIZZARD_STORE_DISCLAIMER_APPEARANCE_CHANGE,|HurlIndex:25|h|cff006995자주 하는 질문|r|h,3
 25992,BLIZZARD_STORE_DISCLAIMER_NAME_CHANGE,|HurlIndex:26|h|cff006995자주 하는 질문|r|h,3
 25993,POWER_TYPE_MAELSTROM,소용돌이,1
-25994,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE_CN,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:27|h|cff006995자주 하는 질문|r|h,2
+25994,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE_CN,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:27|h|cff006995자주 하는 질문|r|h,3
 25995,BLIZZARD_STORE_DISCLAIMER_RACE_CHANGE_CN,|HurlIndex:28|h|cff006995자주 하는 질문|r|h,3
 25996,BLIZZARD_STORE_DISCLAIMER_APPEARANCE_CHANGE_CN,|HurlIndex:29|h|cff006995자주 하는 질문|r|h,3
 25997,BLIZZARD_STORE_DISCLAIMER_NAME_CHANGE_CN,|HurlIndex:30|h|cff006995자주 하는 질문|r|h,3
@@ -14429,8 +14429,8 @@ ID,BaseTag,TagText_lang,Flags
 33870,BILLING_TIME_LEFT_30_MINS,계정 사용 기한이 30분 또는 그 이내에 만료됩니다. 홈페이지로 접속하셔서 계정 사용 기한을 연장하시기 바랍니다.,2
 33871,BILLING_TIME_LEFT_DAYS,계정 사용 기한이 %d일 남았습니다.,2
 33872,BILLING_TIME_LEFT_LAST_DAY,계정 사용 기한이 하루 내에 만료됩니다.,2
-33873,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:31|h|cff006995자주 하는 질문|r|h,2
-33874,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER_CN,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:32|h|cff006995자주 하는 질문|r|h,2
+33873,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:31|h|cff006995자주 하는 질문|r|h,3
+33874,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER_CN,작업이 완료되기까지 %s 정도 소요됩니다. |HurlIndex:32|h|cff006995자주 하는 질문|r|h,3
 33875,BLIZZARD_STORE_LOG_OUT_NOW,지금 접속 종료,2
 33876,BLIZZARD_STORE_VAS_PRODUCT_READY,%s|1이;가; 준비되었습니다!,2
 33877,BLIZZ_DISCLAIMER,Copyright 2004-2021  Blizzard Entertainment. All Rights Reserved.,2
@@ -15236,17 +15236,17 @@ ID,BaseTag,TagText_lang,Flags
 34681,VISITABLE_URL20,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=TW,2
 34682,VISITABLE_URL21,https://nydus.battle.net/WoW/%s/client/choose-payment-method?targetRegion=EU,2
 34683,VISITABLE_URL22,http://nydus.battle.net/WoW/%s/client/gametime-purchase?targetRegion=%s,2
-34684,VISITABLE_URL23,https://battle.net/support/article/22231,2
-34685,VISITABLE_URL24,https://battle.net/support/article/23684,2
-34686,VISITABLE_URL25,https://battle.net/support/article/24517,2
-34687,VISITABLE_URL26,https://battle.net/support/article/31332,2
-34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,2
-34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,2
-34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,2
+34684,VISITABLE_URL23,https://battle.net/support/article/22231,3
+34685,VISITABLE_URL24,https://battle.net/support/article/23684,3
+34686,VISITABLE_URL25,https://battle.net/support/article/24517,3
+34687,VISITABLE_URL26,https://battle.net/support/article/31332,3
+34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,3
+34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,3
+34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,3
 34691,VISITABLE_URL3,http://koKR.nydus.battle.net/wow/koKR/client/item-restoration,2
-34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,2
-34693,VISITABLE_URL31,https://battle.net/support/article/34787,2
-34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,2
+34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,3
+34693,VISITABLE_URL31,https://battle.net/support/article/34787,3
+34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,3
 34695,VISITABLE_URL4,http://koKR.nydus.battle.net/wow/koKR/client/challenge/%d/%d,2
 34696,VISITABLE_URL5,https://kr.battle.net/support/ko/games/wow?loc,2
 34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
@@ -16133,8 +16133,8 @@ ID,BaseTag,TagText_lang,Flags
 35694,CONTRIBUTION_RESULT_ERROR_UNABLE_TO_COMPLETE_QUEST,지금은 기여할 수 없습니다.,1
 35695,CALENDAR_HOLIDAYFRAME_BEGINSENDS,%1$s|n|n시작: %2$s %3$s|n종료: %4$s %5$s,1
 35696,CALENDAR_TOOLTIP_ONGOING,계속,1
-35697,VISITABLE_URL37,https://battle.net/support/article/32222,2
-35698,VISITABLE_URL38,https://www.battlenet.com.cn/support/zh/article/2537,2
+35697,VISITABLE_URL37,https://battle.net/support/article/000251513,3
+35698,VISITABLE_URL38,https://www.battlenet.com.cn/support/zh/article/000251513,3
 35699,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100,|HurlIndex:37|h|cff006995캐릭터 업그레이드 관련 자주 하는 질문|r|h,3
 35700,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100_CN,|HurlIndex:38|h|cff006995캐릭터 업그레이드 관련 자주 하는 질문|r|h,3
 35701,UNITNAME_SUMMON_TITLE31,%s의 분출하는 반영,1
@@ -16951,7 +16951,7 @@ ID,BaseTag,TagText_lang,Flags
 36664,COMMUNITIES_NOTIFICATION_SETTINGS_DIALOG_SETTINGS_LABEL,알림,5
 36665,STAT_STAGGER_TARGET_TOOLTIP,(현재 대상을 상대로 %0.2f%%),1
 36666,ITEM_SCRAPABLE_NOT,분해 불가,1
-36667,ITEM_SCRAPABLE,분해 가능,1
+36667,ITEM_SCRAPABLE,분해 가능,5
 36668,ERR_CANT_BE_SCRAPPED,해당 아이템은 분해할 수 없습니다.,1
 36669,CONFIRM_LEAVE_CHARACTER_COMMUNITY,커뮤니티에서 나가시겠습니까?,5
 36670,CONFIRM_LEAVE_COMMUNITY,그룹에서 나가시겠습니까?,1
@@ -17392,10 +17392,10 @@ ID,BaseTag,TagText_lang,Flags
 40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s %s,1
 40949,COMMUNITIES_CALENDAR_TODAY,오늘,1
 40950,COMMUNITIES_CALENDAR_CLICK_TO_ADD_INSTRUCTIONS,<클릭하여 커뮤니티 일정 추가>,1
-40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,2
-40955,BLIZZARD_STORE_DISCLAIMER_GUILD_FACTION_CHANGE,작업이 완료되기까지 %s 정도 소요됩니다.|n|HurlIndex:44|h|cff006995자주 하는 질문|r|h,2
+40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,3
+40955,BLIZZARD_STORE_DISCLAIMER_GUILD_FACTION_CHANGE,작업이 완료되기까지 %s 정도 소요됩니다.|n|HurlIndex:44|h|cff006995자주 하는 질문|r|h,3
 40957,RACIAL_TRAITS,종족 특성:,3
-40959,BLIZZARD_STORE_DISCLAIMER_GUILD_NAME_CHANGE,본 요청은 완료되는 데 %s가량 소요됩니다.|n|HurlIndex:44|h|cff006995자주 하는 질문|r|h,2
+40959,BLIZZARD_STORE_DISCLAIMER_GUILD_NAME_CHANGE,본 요청은 완료되는 데 %s가량 소요됩니다.|n|HurlIndex:44|h|cff006995자주 하는 질문|r|h,3
 40961,COMMUNITIES_CALENDAR_ONGOING_EVENT_PREFIX,현재 진행 중인 일정,1
 40962,COMMUNITIES_CALENDAR_CHAT_EVENT_BROADCAST_FORMAT,%s: %s %s,1
 40963,COMMUNITIES_CALENDAR_CHAT_EVENT_TITLE_FORMAT,[%s],1
@@ -20180,8 +20180,8 @@ ID,BaseTag,TagText_lang,Flags
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,%d 레벨 %s (%s),1
 48781,GROUP_FINDER_CROSS_FACTION_LISTING_WITHOUT_PLAYSTLE,%s 전용,1
 48782,SPELL_FAILED_CUSTOM_ERROR_632,꽃가루 먼지구름이 필요합니다.,1
-48783,INVTYPE_PROFESSION_TOOL,전문 기술 도구,1
-48784,INVTYPE_PROFESSION_GEAR,전문 기술 장비,1
+48783,INVTYPE_PROFESSION_TOOL,전문 기술 도구,5
+48784,INVTYPE_PROFESSION_GEAR,전문 기술 장비,5
 48785,ITEM_MOD_INSPIRATION_SHORT,영감,5
 48786,ITEM_MOD_RESOURCEFULNESS_SHORT,지혜,5
 48787,ITEM_MOD_FINESSE_SHORT,기교,5
@@ -20472,7 +20472,7 @@ ID,BaseTag,TagText_lang,Flags
 49144,PROFESSIONS_CRAFTING_FORM_OPTIONAL_MESSAGE,여기에 메시지를 입력하십시오.,1
 49145,PROFESSIONS_CRAFTING_FORM_BACK,뒤로,1
 49146,PROFESSIONS_CRAFTING_FORM_DECLINE_ORDER,주문 거절,1
-49147,PROFESSIONS_CRAFTING_FORM_CANCEL_ORDER,지시 취소,1
+49147,PROFESSIONS_CRAFTING_FORM_CANCEL_ORDER,주문 취소,1
 49148,PROFESSIONS_CRAFTING_FORM_START_ORDER,주문 시작,1
 49149,PROFESSIONS_CRAFTING_FORM_CREATE_ORDER,주문 생성,1
 49150,PROFESSIONS_CRAFTING_FORM_NOTE_TO_CRAFTER,제작자 참고 사항,1
@@ -20904,7 +20904,7 @@ ID,BaseTag,TagText_lang,Flags
 49642,PROFESSIONS_ORDER_POSTED_BY,주문 제작 의뢰인:,1
 49644,PROFESSIONS_START_ORDER,주문 시작,1
 49645,PROFESSIONS_ORDER_NOT_AVAILABLE,더는 이용 가능한 주문이 아닙니다.,1
-49646,PROFESSIONS_CRAFTER_RELEASE_ORDER,지시 취소,1
+49646,PROFESSIONS_CRAFTER_RELEASE_ORDER,주문 취소,1
 49647,PROFESSIONS_START_ORDER_TOOLTIP,주문이 시작되면 30분 내로 납품해야 합니다.,1
 49648,HUD_EDIT_MODE_HUD_TOOLTIP_LABEL,HUD 툴팁,1
 49649,SETTINGS_SEARCH_NOTHING_FOUND,결과가 없습니다. 검색 조건을 조정해주시기 바랍니다.,1
@@ -21799,7 +21799,8 @@ ID,BaseTag,TagText_lang,Flags
 51269,RPE_CONFIRM,확인,3
 51270,RPE_UPDATE,갱신,3
 51271,SELL_ALL_JUNK_ITEMS,모든 잡동사니 아이템 판매,1
-51272,SELL_ALL_JUNK_ITEMS_POPUP,정말 모든 잡동사니 아이템을 판매하시겠습니까?,1
+51272,SELL_ALL_JUNK_ITEMS_POPUP,"모든 잡동사니 아이템을 판매합니다. 이렇게 판매한 아이템은 다시 사들일 수 없습니다. 
+계속 진행하시겠습니까?",1
 51273,HUD_EDIT_MODE_TIMER_BARS_LABEL,지속시간 막대,1
 51274,HUD_EDIT_MODE_SETTING_TIMER_BARS_SIZE,크기,1
 51275,CONTENT_TRACKING_DISABLED_TOOLTIP_PROMPT,현재 추적 이용 불가,1
@@ -21822,10 +21823,90 @@ ID,BaseTag,TagText_lang,Flags
 51311,OPTION_TOOLTIP_REPLACE_OTHER_PLAYER_PORTRAITS,다른 플레이어 개체창 초상화를 직업 아이콘으로 대체합니다.,1
 51312,REPLACE_MY_PLAYER_PORTRAIT,내 개체창 초상화 대체,1
 51313,OPTION_TOOLTIP_REPLACE_MY_PLAYER_PORTRAIT,내 플레이어 개체창 초상화를 내 직업 아이콘으로 대체합니다.,1
+51314,PING_SUBJECT_TYPE_ON_MY_WAY_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|a가는 중: %s,1
+51315,PING_SUBJECT_TYPE_ATTACK_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|a공격: %s,1
+51316,PING_SUBJECT_TYPE_ASSIST_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|a지원: %s,1
+51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|a경고: %s,1
+51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|a위협 경보: %s,1
+51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
 51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,사용하지 않은 용 조련술 문양이 있습니다.,1
+51321,SPELL_FAILED_CUSTOM_ERROR_857,오직 포세이큰만이 이 명예를 드러낼 수 있습니다.,1
 51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,퀘스트 목록을 초기화하고\n새롭게 시작하시겠습니까?,3
 51323,RPE_CLEAR_QUESTS,퀘스트 제거,3
 51324,RPE_KEEP_QUESTS,퀘스트 유지,3
+51326,CONFIRM_AZEROTHIANARCHIVES_PUBLICEVENT_CONTRIBUTION,선택한 자원을 소모합니다. 계속 진행하시겠습니까?,1
 51327,PROFESSIONS_ORDER_FAILED_NO_CLAIMS,현재 남은 일일 공개 주문이 없으며 만료를 앞둔 주문만 납품할 수 있습니다.,1
+51332,RAID_MANAGER_RESTRICT_PINGS,신고 권한을 부공격대장으로 제한,1
+51337,PING,신호,1
 51338,ERR_PERKS_PROGRAM_COMMUNICATION_ERROR,"교역소가 서버에 접속할 수 없습니다.
 |n구매 진행 중인 아이템은 연결이 돌아오는대로 수집가의 보관함에서 획득하실 수 있습니다.",1
+51340,BINDING_NAME_TOGGLEPINGLISTENER,신호,1
+51341,PING_TYPE_ASSIST,지원,1
+51342,PING_TYPE_ATTACK,공격,1
+51343,PING_TYPE_ON_MY_WAY,가는 중,1
+51344,PING_TYPE_WARNING,경고,1
+51345,PING_FAILED_GENERIC,신호를 보낼 수 없습니다.,1
+51346,PING_FAILED_SPAMMING,신호를 보내지 못했습니다. 한 번에 신호를 너무 많이 보냈습니다.,1
+51347,PING_FAILED_INVALID_TARGET,신호를 보내지 못했습니다. 대상이 유효하지 않습니다.,1
+51348,PING_FAILED_DISABLED_BY_LEADER,신호를 보내지 못했습니다. 파티장만 신호를 보낼 수 있습니다.,1
+51349,PING_FAILED_UNSPECIFIED,신호를 보내지 못했습니다. 오류가 발생했습니다.,1
+51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,다음 단계에서 캐릭터 설정을 변경하십시오.,2
+51352,PNC_FLOW_FINISH_LABEL,수락,2
+51354,SLASH_PING1,/신호,1
+51355,SLASH_PING2,/신호,1
+51356,PNC_CUSTOMIZE_DIALOG_TEXT,수락 시 이름 변경이 영구적으로 적용됩니다.,2
+51357,PNC_FLOW_NEW_NAME_LABEL,새로운 이름,2
+51359,PNC_FLOW_SLECT_NAME_ACTIVE,새로운 이름 결정,2
+51360,PNC_FLOW_SLECT_NAME_RESULTS,새로운 이름:,2
+51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200이름: %s,2
+51362,PAGE_NUMBER_WITH_MAX,%d/%d쪽,1
+51363,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a주목,1
+51364,PING_SUBJECT_TYPE_ALERT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|a위협 경보,1
+51365,PING_SUBJECT_TYPE_WARNING_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|a경고,1
+51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|a지원,1
+51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|a공격,1
+51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|a가는 중,1
+51374,ENABLE_PING_SOUNDS,신호 음향,1
+51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,신호 효과음의 사용 여부를 결정합니다.,1
+51376,PING_VOLUME,신호 음량,1
+51377,OPTION_TOOLTIP_PING_VOLUME,신호 효과음의 음량을 조정합니다.,1
+51378,PING_SYSTEM_LABEL,신호 시스템,1
+51379,PING_FAILED_OUT_OF_PING_AREA,신호를 보내지 못했습니다. 대상이 사정거리 바깥에 있습니다.,1
+51380,ERR_CANT_BULK_SELL_ITEM_WITH_REFUND,환불 가능 아이템은 대량 판매가 불가능합니다.,1
+51381,ENABLE_PINGS,신호 활성화,1
+51382,OPTION_TOOLTIP_ENABLE_PINGS,신호 시스템의 사용 여부를 결정합니다.,1
+51383,SHOW_PINGS_IN_CHAT,대화창에 신호 표시,1
+51384,OPTION_TOOLTIP_SHOW_PINGS_IN_CHAT,신호 대화 메시지의 사용 여부를 결정합니다.,1
+51385,BLIZZARD_STORE_VAS_INVALID_NAME,- 유효하지 않은 이름입니다. 다른 이름을 사용하십시오.,2
+51386,PING_KEYBINDINGS,신호 단축키,1
+51387,BINDING_HEADER_PING_SYSTEM,신호 시스템,1
+51388,BINDING_NAME_PINGATTACK,공격,1
+51389,BINDING_NAME_PINGWARNING,경고,1
+51390,BINDING_NAME_PINGONMYWAY,가는 중,1
+51391,BINDING_NAME_PINGASSIST,지원,1
+51392,SLASH_TEXTTOSPEECH_PING,신호,1
+51393,SLASH_TEXTTOSPEECH_HELP_PING,신호 메시지 활성화 또는 비활성화,1
+51394,PING_FAILED_DISABLED_BY_SETTINGS,신호를 보내지 못했습니다. 설정에서 신호가 비활성화되어 있습니다.,1
+51395,PING_SYSTEM_SETTINGS,신호 시스템 설정,1
+51398,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<SHIFT 클릭으로 브라우저에서 자주 묻는 질문 보기>|r,3
+51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,본 요청은 완료되는 데 %s가량 소요됩니다.|n|HurlIndex:44|h|cff006995자주 하는 질문|r|h,3
+51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,잡동사니 판매,1
+51409,SELL_ALL_JUNK_ITEMS_EXCLUDE_HEADER,잡동사니 판매,1
+51414,PING_MODE_KEY_DOWN,빠른 신호,1
+51415,PING_MODE_CLICK_DRAG,완화된 신호 모드,1
+51416,PING_MODE,신호 모드,1
+51417,OPTION_TOOLTIP_PING_MODE,신호 시스템 사용에 사용할 모드를 설정합니다.,1
+51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"신호 단축키를 누를 때 클릭하면 상황 신호를, 클릭 후 커서를 끌면 신호 메뉴가 열립니다.",1
+51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,신호 단축키를 눌렀다 손을 떼면 상황에 맞는 신호를 보냅니다. 혹은 단축키를 길게 누를 경우 신호 메뉴가 열립니다.,1
+51433,PING_FAILED_SQUELCHED,신호를 보내지 못했습니다. 일시적으로 대화가 금지된 상태입니다.,1
+51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,신호 단축키를 |cnTUTORIAL_BLUE_FONT_COLOR:눌러|r 간편 신호를 오픈 월드에 배치할 수 있습니다.,1
+51435,PING_SYSTEM_TUTORIAL_RADIAL,신호 단축키를 |cnTUTORIAL_BLUE_FONT_COLOR:길게 눌러|r 특정 신호를 지정하여 배치할 수 있습니다.,1
+51436,PING_SYSTEM_TUTORIAL_TARGETS,몬스터 또는 캐릭터에게 |cnTUTORIAL_BLUE_FONT_COLOR:직접 신호|r를 보내보십시오.,1
+51437,PING_SYSTEM_TUTORIAL_MACRO_1,신호를 활용하는 |cnTUTORIAL_BLUE_FONT_COLOR:매크로를 설정|r해 보십시오.,1
+51438,PING_SYSTEM_TUTORIAL_MACRO_2,대화창에 |cnNORMAL_FONT_COLOR:/매크로|r를 입력하십시오.,1
+51439,PING_SYSTEM_TUTORIAL_MACRO_3,매크로 명령어:,1
+51440,PING_SYSTEM_TUTORIAL_MACRO_4,|cnNORMAL_FONT_COLOR:/신호 [@target] 신호 유형 이름|r,1
+51441,PING_SYSTEM_TUTORIAL_TOOLTIP,신호 시스템 설명,1
+51442,PING_SYSTEM_TUTORIAL_LABEL,신호 시스템,1
+51443,INSPECT_REQUIREMENTS,<CTRL 클릭으로 요구 조건 보기>,1
+51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,%s|1이;가; 모의전 초대를 거절했습니다.,1

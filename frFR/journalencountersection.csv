@@ -8334,9 +8334,9 @@ $bullet;Déplacez-vous en arc de cercle pour éviter le sort |cFF2959D3|Hspell:1
 12515,Section 17,,1672,16,12512,12964,12653,2,0,0,199193,0,0,0,-1
 12516,Section 7,,1656,7,12311,0,12517,2,0,0,199345,0,0,0,-1
 12517,Section 8,,1656,8,12311,0,0,2,0,0,199389,0,0,0,-1
-12518,Vue d’ensemble,"Naraxas émerge d’un profond terrier pour se nourrir et attire les personnages-joueurs dans sa gueule avec |cFF2959D3|Hspell:199176|h[Langue à pointes]|h|r. Au fil du combat, d’autres Drogbars se précipitent vers elle pour se sacrifier, lui conférant ainsi des charges de |cFF2959D3|Hspell:199246|h[Vorace]|h|r.$[!2,23
+12518,Vue d’ensemble,"Naraxas émerge d’un profond terrier pour se nourrir et attire les personnages-joueurs dans sa gueule avec sa |cFF2959D3|Hspell:199176|h[Langue à pointes]|h|r. Au fil du combat, d’autres Drogbars se précipitent vers elle pour se sacrifier, lui conférant des charges de |cFF2959D3|Hspell:199246|h[Vorace]|h|r.$[!2,23
 
-En mode héroïque, les spectateurs des tribunes lancent des pierres qui infligent des dégâts à l’ensemble du groupe.$]",1673,1,0,12519,12522,3,0,0,0,0,0,0,-1
+En mode héroïque, le public des tribunes se met à effectuer des Lancers de pierres, infligeant des dégâts au groupe en continu.$]",1673,1,0,12519,12522,3,0,0,0,0,0,0,-1
 12519,DPS,"$bullet;Tuez les Drogbars avant qu’ils ne soient dévorés par Naraxas.
 $bullet;Évitez de rester dans les flaques de |cFF2959D3|Hspell:210150|h[Vomi toxique]|h|r.",1673,2,12518,0,12520,3,0,0,0,0,0,2,-1
 12520,Soigneurs,"$bullet;Soignez les alliés touchés par |cFF2959D3|Hspell:188492|h[Gueule rance]|h|r.
@@ -19488,7 +19488,7 @@ $bullet; Plus le nombre de charges de |cFF2959D3|Hspell:373896|h[Pourriture flé
 
 À 100 points d’énergie, ils déclenchent leur technique ultime, Attaque de chaloupe ! La chaloupe naine magique fait feu sur les personnages-joueurs avec |cFF2959D3|Hspell:375286|h[Tir de canon incendiaire]|h|r, sa cadence de tir augmentant pour chaque Nain se trouvant à bord.
 
-Lorsqu’il ne reste plus que $375339s1% de ses points de vie à un Nain perdu, il se réfugie à bord de la chaloupe et y reste jusqu’à la fin du combat.",2475,1,0,24737,24740,3,0,0,0,0,0,0,-1
+Lorsqu’il ne reste plus que $375339s1 % de ses points de vie à un Nain perdu, il se réfugie à bord de la chaloupe et y reste jusqu’à la fin du combat.",2475,1,0,24737,24740,3,0,0,0,0,0,0,-1
 24737,Tanks,"$bullet;|cFF2959D3|Hspell:369573|h[Flèche lourde]|h|r inflige des dégâts importants aux personnages-joueurs devant Baelog.
 $bullet;|cFF2959D3|Hspell:369603|h[Rempart défensif]|h|r protège les Nains perdus dans sa zone tant qu’il est actif.",2475,2,24736,0,24738,3,0,0,0,0,0,1,-1
 24738,DPS,"$bullet;|cFF2959D3|Hspell:369573|h[Flèche lourde]|h|r inflige des dégâts importants aux personnages-joueurs devant Baelog.
@@ -21059,19 +21059,20 @@ En mode mythique, l’une des cibles déclenche une éruption de Magma explosif.
 26288,Coup de tank,,2525,26,26229,26635,26560,2,0,0,400777,0,2,4096,0
 26289,Section 14,,2525,35,26237,0,26962,2,0,0,404445,0,2,4,0
 26291,Vue d’ensemble,"Les voies temporelles se matérialisent en réaction à l’intervention de Nozdormu. Des champs de |cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et d’|cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r produisent des itérations en continu autour du flux temporel matérialisé, contrôlant l’exécution des techniques.",2528,1,0,26292,26295,3,0,0,0,0,0,0,-1
-26292,Tanks,"$bullet;L’effet de dégâts secondaires de |cFF2959D3|Hspell:404663|h[Dérouler]|h|r est retardé lorsque vous êtes sous l’effet de |cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r.
-$bullet;|cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r affectent la vitesse de progression de |cFF2959D3|Hspell:405431|h[Fragments du temps]|h|r.",2528,2,26291,0,26294,3,0,0,0,0,0,1,-1
+26292,Tanks,"$bullet;|cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r manipulent de manière notable la vitesse de déplacement de |cFF2959D3|Hspell:405431|h[Fragments de temps]|h|r.
+$bullet;Les voies temporelles matérialisées lancent |cFF2959D3|Hspell:414307|h[Radieux]|h|r lorsqu’il n’y a pas de cibles valides à portée de mêlée.
+$[23$bullet;|cFF2959D3|Hspell:414303|h[Dérouler]|h|r retarde son effet de dégâts secondaire lorsqu’il est affecté par |cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r.$]",2528,2,26291,0,26294,3,0,0,0,0,0,1,-1
 26293,DPS,"$bullet;|cFF2959D3|Hspell:404141|h[Chrono-effacé]|h|r lance |cFF2959D3|Hspell:405448|h[Chrono-effacement]|h|r, qui est dangereux lorsque vous êtes sous l’effet de |cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r.
 $bullet;|cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r affectent la vitesse de progression de |cFF2959D3|Hspell:405431|h[Fragments du temps]|h|r.",2528,4,26291,0,0,3,0,0,0,0,0,2,-1
 26294,Soins,"$bullet;|cFF2959D3|Hspell:404141|h[Chrono-effacement]|h|r libéré par |cFF2959D3|Hspell:405448|h[Chrono-effacé]|h|r se déplace considérablement plus vite lorsqu’il est dissipé dans |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r.
-$bullet;Les dégâts supplémentaires de |cFF2959D3|Hspell:404663|h[Dérouler]|h|r sont dangereux lorsque la cible est affectée par |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r.
-$bullet;|cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r afectent la progression de |cFF2959D3|Hspell:405431|h[Fragments du temps]|h|r.",2528,3,26291,0,26293,3,0,0,0,0,0,4,-1
+$bullet;|cFF2959D3|Hspell:403910|h[Temps en décomposition]|h|r et |cFF2959D3|Hspell:403912|h[Accélération du temps]|h|r manipulent de manière notable la vitesse de déplacement de |cFF2959D3|Hspell:405431|h[Fragments de temps]|h|r.
+$[23$bullet;|cFF2959D3|Hspell:414303|h[Dérouler]|h|r retarde son effet de dégâts secondaire lorsqu’il est affecté par |cFF2959D3|Hspell:403912|h[Temps en décomposition]|h|r.$]",2528,3,26291,0,26293,3,0,0,0,0,0,4,-1
 26295,Confluence des voies temporelles,Des champs fluctuants d’énergie temporelle encerclent les voies temporelles matérialisées et appliquent Accélération du temps ou Temps en décomposition.,2528,5,0,26296,26298,0,0,0,0,0,1,32,-1
 26296,Section 6,,2528,6,26295,0,26297,2,0,0,403910,0,0,0,-1
 26297,Section 6,,2528,7,26295,0,0,2,0,0,403912,0,0,0,-1
 26298,Section 5,,2528,8,0,26299,26301,2,0,0,404141,0,1,128,-1
 26299,Section 9,,2528,9,26298,0,0,2,0,0,405448,0,0,0,-1
-26300,Section 10,,2528,11,0,0,27150,2,0,0,414303,0,0,1,-1
+26300,Section 10,,2528,11,0,0,27150,2,0,0,414303,0,2,1,0
 26301,Section 11,,2528,10,0,0,26300,2,0,0,405431,0,0,0,-1
 26304,Vue d’ensemble,"Le brasier éternel et l’essence d’ombre irradient d’énergie et appliquent |cFF2959D3|Hspell:402617|h[Chaleur ardente]|h|r et |cFF2959D3|Hspell:401809|h[Ombre corruptrice]|h|r aux personnages-joueurs à proximité. Lorsque l’un des élémentaires est réduit à 50% de ses points de vie, les deux élémentaires se combinent pour former l’amalgame d’ombreflamme.",2529,1,0,26305,26631,3,0,0,0,0,0,0,-1
 26305,DPS,"$bullet; Le brasier éternel et l’essence d’ombre combinent leurs points de vie pour former l’amalgame d’ombreflamme lorsque l’un d’eux atteint 50% de ses points de vie.
@@ -21288,7 +21289,7 @@ $bullet; |cFF2959D3|Hspell:407159|h[Reconquête du chancre]|h|r dissipe |cFF2959
 26549,Section 19,,2522,10,26177,0,26285,2,0,0,408367,0,0,4,-1
 26550,Section 20,,2522,22,26183,0,26708,2,0,0,408147,0,2,4096,0
 26551,Section 20,,2522,12,26177,0,0,2,0,0,404789,0,0,0,-1
-26552,,"Rashok gagne progressivement de l’énergie en dehors du conduit de l’Ancien. À 100 points d’énergie, il reçoit |cFF2959D3|Hspell:405316|h[Fureur des anciens]|h|r et commence à infliger des dégâts d’ombreflamme réguliers.
+26552,Vue d’ensemble,"Rashok gagne progressivement de l’énergie en dehors du conduit de l’Ancien. À 100 points d’énergie, il reçoit |cFF2959D3|Hspell:405316|h[Fureur des anciens]|h|r et commence à infliger des dégâts d’ombreflamme réguliers.
 
 Le puissant |cFF2959D3|Hspell:405821|h[heurt incendiaire]|h|r de Rashok crée un |cFF2959D3|Hspell:406160|h[vortex de lave]|h|r qui déverse des |cFF2959D3|Hspell:403556|h[vagues de lave]|h|r dans toute la salle.",2525,1,0,26553,26229,3,0,0,0,0,1,0,-1
 26553,Tank,"$bullet;Quand Rashok atteint 100 points d’énergie, il gagne |cFF2959D3|Hspell:405316|h[Fureur des anciens]|h|r et inflige des dégâts d’ombreflamme réguliers aux personnages-joueurs.
@@ -21355,9 +21356,9 @@ $bullet;|cFF2959D3|Hspell:416139|h[Souffle temporel]|h|r inflige des dégâts im
 
 Toutes les Morchie se mettent à lancer |cFF2959D3|Hspell:404365|h[Souffle du dragon]|h|r. Juste avant la fin de l’incantation, l’originale renvoie les doubles à leur ligne temporelle d’origine.",2536,6,0,26590,26591,2,0,0,403891,0,1,0,-1
 26590,Section 7,,2536,7,26589,27380,0,2,0,0,404365,0,1,48,-1
-26591,Section 8,"$[23
+26591,Section 8,"$; 
 
-Avec les incantations suivantes, Morchie rend tous leurs points de vie à ses serviteurs et dissipe tous les effets néfastes.$]",2536,9,0,26592,26594,2,0,0,405279,0,0,0,-1
+Avec les incantations suivantes, Morchie rend tous leurs points de vie à ses serviteurs et dissipe tous les effets néfastes.",2536,9,0,26592,26594,2,0,0,405279,0,0,0,-1
 26592,Visage familier,,2536,10,26591,27377,0,1,37925,0,0,0,0,0,-1
 26593,Section 10,,2536,12,26592,0,0,2,0,0,412768,0,0,0,-1
 26594,Section 11,,2536,13,0,27378,0,2,0,0,406481,0,0,0,-1
@@ -21403,10 +21404,10 @@ En mode mythique, Surcharge perdure et déclenche Éruption du conduit en cas de
 26640,Section 55,,2523,46,26533,0,0,2,0,0,401883,0,0,0,-1
 26641,Section 54,,2523,19,26455,0,0,2,0,0,401883,0,0,0,-1
 26642,Section 7,,2537,7,0,27185,27188,2,0,0,409261,0,1,16,-1
-26646,Section 9,,2537,18,0,27147,26649,2,0,0,409635,0,0,16,-1
+26646,Section 9,,2537,19,0,27147,26649,2,0,0,409635,0,0,16,-1
 26647,Section 10,,2537,13,0,27189,27231,2,0,0,409456,0,2,6,2
-26648,Section 5,,2537,24,0,0,0,2,0,0,414075,0,0,1,-1
-26649,Section 6,,2537,21,0,27191,26648,2,0,0,409692,0,0,0,-1
+26648,Section 5,,2537,25,0,0,0,2,0,0,414075,0,0,1,-1
+26649,Section 6,,2537,22,0,27191,26648,2,0,0,409692,0,0,0,-1
 26652,Section 58,,2523,61,26439,0,0,2,0,0,409876,0,2,0,0
 26653,Section 57,,2523,67,26535,0,0,2,0,0,401883,0,0,0,-1
 26654,Section 56,,2523,72,26454,0,0,2,0,0,401883,0,0,0,-1
@@ -21628,8 +21629,8 @@ $bullet;La combinaison de |cFF2959D3|Hspell:405914|h[Vulnérabilité faiblissant
 27143,Explosion vide,,2520,43,27141,0,0,2,0,0,404754,0,0,64,-1
 27145,Section 40,,2525,25,26634,0,0,2,0,0,405827,0,2,8,0
 27146,Coup de tank,,2525,23,26229,0,26634,2,0,0,400777,0,2,0,0
-27147,Section 17,,2537,19,26646,27149,0,2,73034,0,409884,0,2,4098,0
-27149,Section 19,,2537,20,27147,0,0,2,0,0,416256,0,0,8196,-1
+27147,Section 17,,2537,20,26646,27149,0,2,73034,0,409884,0,2,4098,0
+27149,Section 19,,2537,21,27147,0,0,2,0,0,416256,0,0,8196,-1
 27150,Section 12,,2528,12,0,0,0,2,0,0,414307,0,0,17,-1
 27151,Gardien infini,,2538,9,27201,27153,27158,1,112687,0,0,0,0,32,-1
 27153,Section 14,,2538,10,27151,0,27154,2,0,0,412027,0,0,128,-1
@@ -21642,10 +21643,10 @@ $bullet;La combinaison de |cFF2959D3|Hspell:405914|h[Vulnérabilité faiblissant
 27184,Section 28,,2522,26,26178,0,0,2,0,0,404789,0,0,0,-1
 27185,Section 18,,2537,8,26642,27195,0,2,0,0,414330,0,0,0,-1
 27186,Section 20,,2537,10,27185,0,0,2,0,0,414496,0,0,0,-1
-27187,Section 19,,2537,23,27191,0,0,2,0,0,414293,0,0,0,-1
+27187,Section 19,,2537,24,27191,0,0,2,0,0,414293,0,0,0,-1
 27188,Section 20,,2537,11,0,27192,26647,2,0,0,414535,0,0,32,-1
-27189,Section 14,,2537,14,26647,0,0,2,0,0,409287,0,0,0,-1
-27191,Section 22,,2537,22,26649,27187,0,2,0,0,414184,0,1,16,-1
+27189,Section 14,,2537,14,26647,27631,0,2,0,0,409287,0,0,0,-1
+27191,Section 22,,2537,23,26649,27187,0,2,0,0,414184,0,1,16,-1
 27192,Section 23,,2537,12,27188,0,0,2,0,0,414552,0,2,4097,0
 27193,Section 24,,2490,20,25749,0,0,2,0,0,414585,0,0,16,-1
 27194,Section 24,,2490,23,25052,0,0,2,0,0,414585,0,0,16,-1
@@ -21677,9 +21678,9 @@ $bullet; |cFF2959D3|Hspell:408029|h[Vents nécrotiques]|h|r inflige des dégâts
 27226,Section 12,,2535,9,26561,27295,26563,2,0,0,407406,0,2,32,0
 27231,Section 10,"$[!23
 
-En mode Mythique, chaque impulsion de dégâts augmente les dégâts de la suivante.$",2537,15,0,27232,26646,2,0,0,409456,0,2,4102,0
-27232,Section 14,,2537,16,27231,27233,0,2,0,0,409287,0,0,0,-1
-27233,Section 21,,2537,17,27232,0,0,2,0,0,414376,0,0,4096,-1
+En mode Mythique, chaque impulsion de dégâts augmente les dégâts de la suivante.$",2537,16,0,27232,26646,2,0,0,409456,0,2,4102,0
+27232,Section 14,,2537,17,27231,27233,0,2,0,0,409287,0,0,0,-1
+27233,Section 21,,2537,18,27232,0,0,2,0,0,414376,0,0,0,-1
 27234,DPS,"$bullet; |cFF2959D3|Hspell:409456|h[Afflux de terre]|h|r inflige des dégâts croissants sur sa durée.
 $bullet; |cFF2959D3|Hspell:409261|h[Explosion extinctrice]|h|r inflige des dégâts mortels aux personnages-joueurs sans la |cFF2959D3|Hspell:414330|h[Protection de ligne temporelle]|h|r de Chromie.
 $bullet; |cFF2959D3|Hspell:414535|h[Barrage craquepierre]|h|r inflige des dégâts mortels à Chromie si les personnages-joueurs n’en réduisent pas la force.",2537,2,26577,0,26578,3,0,0,0,0,2,2,0
@@ -21727,3 +21728,4 @@ $bullet;|cFF2959D3|Hspell:418056|h[Onde de choc]|h|r se lance trois fois de sui
 Les visages familiers qui déclenchent un piège temporel sont suspendus dans le temps jusqu’à ce que Morchie les libère.",2536,14,26594,0,26595,2,0,0,401667,0,0,128,-1
 27379,Section 22,,2535,17,0,26557,0,2,0,0,413608,0,0,0,-1
 27380,Section 15,,2536,8,26590,0,0,2,0,0,413208,0,0,0,-1
+27631,Section 25,,2537,15,27189,0,0,2,0,0,414376,0,0,0,-1

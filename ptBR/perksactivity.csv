@@ -1,6 +1,6 @@
 ActivityName_lang,Description_lang,ID,CriteriaTreeID,ThresholdContributionAmount,Field_10_1_0_48480_005,Field_10_1_0_48776_006
 Cumprir 30 Missões,Concluir missões que concedam experiência.,3,135693,200,0,0
-Derrotar 50 Chefes de Masmorra,Derrotar chefes de masmorra que concede experiência.,4,135695,200,0,0
+Derrotar 50 Chefes de Masmorra,Derrotar chefes de masmorra que concedem experiência.,4,135695,200,0,0
 "De 16/12 a 02/01 (Véu de Inverno), obter um Chapéu Festivo sob medida",,5,135697,150,0,0
 Concluir 5 Masmorras Míticas+,,6,135699,200,0,7
 Concluir 15 Missões Mundiais,,7,136176,150,0,0
@@ -65,7 +65,7 @@ Provação do Estilo: colete a transmogrificação Bicorne do Comerciante,"De 20
 Fazer /mesura para um jogador da facção oposta,Usar a expressão /mesura para um jogador da facção oposta.,76,137811,20,0,0
 "Usar a expressão /admir para um jogador que está ""Uma Beleza""","Usar a expressão /admir para um jogador sob o efeito de um brinquedo que deixa ""Uma Beleza"".",77,137813,50,0,0
 Ganhar Reputação pelas Ilhas do Dragão,,79,137872,150,0,0
-Concluir 15 Masmorras Míticas+,,81,140979,200,0,5
+Concluir 15 Masmorras Míticas+,,81,140979,200,6,5
 Concluir as Grandes Caçadas dos Centauros Maruuk,Concluir as Grandes Caçadas dos Centauros Maruuk nas Ilhas do Dragão.,82,140981,150,0,0
 Capturar um peixão com um amigo,Usar um arpão para capturar um peixão com outro jogador nas Ilhas do Dragão.,83,140983,50,0,0
 Concluir tarefas durante o Banquete da Comunidade Morsana de Iskaara,"Concluir tarefas durante o Banquete da Comunidade em Iskaara, nas Ilhas do Dragão.",84,140985,50,0,0
@@ -115,7 +115,7 @@ Descobrir Drusas de Gemas Ocultas nas Ilhas do Dragão,Usar Mapas de Drusas de G
 Derrotar Mestres Domadores das Ilhas do Dragão com mascotes Mecânicas.,Derrotar 2 Mestres Domadores das Ilhas do Dragão com uma formação de pelo menos 2 mascotes mecânicas.,128,142725,200,0,0
 Saquear uma Recompensa e um Baú de Suprimentos de Guerra na Chapada Ohn'ahrana,Saquear a recompensa do Modo de Guerra de um jogador morto e abrir um Baú de Suprimentos de Guerra na Chapada Ohn'ahrana.,129,142087,150,0,0
 Concluir Missões de Criação Semanais,"Missões de profissão semanais podem ser obtidas no Mercado dos Artífices, em Valdrakken.",130,0,100,0,0
-Concluir Missões de Encontro Semanais,"Missões de profissão semanais podem ser obtidas no Mercado dos Artífices, em Valdrakken.",131,0,100,0,0
+Concluir Missões de Encontro Semanais,"Missões de profissão semanais podem ser obtidas no Mercado dos Artífices, em Valdrakken.",131,141044,100,0,0
 Concluir Corridas de Dragonaria Solo,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão para participar de uma corrida solo.,132,0,100,0,0
 Concluir o Cerco à Bastilha de Ruína Dragônica,Concluir o cenário Cerco à Bastilha de Ruína Dragônica na Costa Desperta.,133,0,50,0,0
 Concluir Missões Mundiais de Escalada,Concluir missões mundiais de escalada nas Ilhas do Dragão.,135,142099,100,0,0
@@ -176,10 +176,10 @@ Festival do Fogo do Solstício: profanar a Fogueira em Pandária,"De 21/6 a 30/6
 Festival do Fogo do Solstício: reverenciar as Chamas nas Ilhas do Dragão,"De 21/6 a 30/6, reverenciar as chamas nas Ilhas do Dragão.",193,145090,200,0,0
 Festival do Fogo do Solstício: celebrar a chama no Trono Obsidiano.,"Usar a expressão /dançar no Braseiro de Chamas Dançantes de brinquedo no Trono Obsidiano, na Costa Desperta.",194,145097,100,0,0
 Festival do Fogo do Solstício: derrotar Ahune,"De 21/6 a 30/6, derrotar Ahune, o Senhor do Gelo.",195,145187,200,0,0
-Concluir missões em Pandária,Concluir missões que concedam experiência.,196,145189,150,0,0
+Concluir missões em Pandária,Concluir missões que concedam experiência em Pandária.,196,145189,150,0,-40
 Caminhada Temporal: concluir 5 Masmorras de Caminhada Temporal de Mists of Pandaria,"De 13/6 a 20/6, concluir Masmorras da Caminhada Temporal de Mists of Pandaria.",197,145198,200,0,0
-Pegar Peixes em Pandária,,200,145221,100,0,0
-Derrotar Mestres Domadores de Pandária,Derrotar 3 Mestres Domadores de Pandária.,201,145232,100,0,0
+Pegar Peixes em Pandária,,200,145221,100,0,-40
+Derrotar Mestres Domadores de Pandária,Derrotar 3 Mestres Domadores de Pandária.,201,145232,100,0,-40
 Barco a Dar Com o Pau: criar um Barquinho,"De 6/6 a 8/6, completar missões de Barco a Dar Com o Pau para adquirir e combinar peças para criar um Barquinho.",202,145239,100,0,0
 Barco a Dar Com o Pau: velejar pelas Ilhas do Dragão,"De 6/6 a 8/6, usar o Barquinho para velejar pelas Ilhas do Dragão.",203,145241,150,0,0
 Feira de Negraluna: concluir o Desafio da Ave Flamejante,"De 4/6 a 10/6, concluir a missão ""Desafio da ave flamejante"" na Ilha da Feira de Negraluna.",205,145281,50,0,0
@@ -189,8 +189,8 @@ Concluir percursos de dragonaria na Caverna Zaralek,Falar com o Guarda-tempo Bro
 Eliminar jogadores na Caverna Zaralek,,210,145405,100,0,0
 Concluir as Missões Mundiais de Batalha de Mascotes na Caverna Zaralek,Concluir as missões mundiais de batalha de mascotes na Caverna Zaralek com uma equipe completa de mascotes de nível 25.,211,145407,150,0,0
 Concluir Missões Mundiais de Escalada na Caverna Zaralek,,212,145414,100,0,0
-Caminhada Temporal: concluir 1 Masmorra da Caminhada Temporal de Warlords of Draenor,"De 4/7 a 11/7, concluir masmorras da Caminhada Temporal de Warlords of Draenor.",213,145430,20,0,-10
-Caminhada Temporal: Concluir 1 Masmorra da Caminhada Temporal de Legion,"De 25/7 a 31/7, concluir masmorras da Caminhada Temporal de Legion.",214,145441,20,0,-30
+Caminhada Temporal: concluir 1 Masmorra da Caminhada Temporal de Warlords of Draenor,"De 4/7 a 11/7, concluir masmorras da Caminhada Temporal de Warlords of Draenor.",213,145430,25,0,-10
+Caminhada Temporal: Concluir 1 Masmorra da Caminhada Temporal de Legion,"De 25/7 a 31/7, concluir masmorras da Caminhada Temporal de Legion.",214,145441,25,0,-30
 Caminhada Temporal: Concluir 1 Masmorra da Caminhada Temporal de Legion,"De 25/7 a 31/7, concluir masmorras da Caminhada Temporal de Legion.",215,145457,100,0,-31
 Concluir uma Missão de Desafio de Batalha de Mascotes,"Visitar a Loja de Mascotes em Dalaran, Tina Marcharroda em Boralus ou Radek Brecarrastilho em Dazar'alor para começar um desafio.",216,145477,100,0,0
 Espetáculo de Fogos de Artifício: /dançar com Foliões,"Em 4/7, usar a expressão /dançar em um folião em Ventobravo, Orgrimmar e na Angra do Butim.",217,145546,100,0,-4
@@ -243,18 +243,22 @@ Concluir 1 Percurso de Rali de Dragonaria nas Ilhas do Dragão,Falar com um Guar
 Provação do Estilo: ganhar 20 Fichas da Provação do Estilo,"De 1/8 a 7/8, obter Fichas da Provação do Estilo participando da Provação do Estilo.",266,146545,20,0,0
 Provação do Estilo: ganhar 300 Fichas da Provação do Estilo,"De 1/8 a 7/8, obter Fichas da Provação do Estilo participando da Provação do Estilo.",267,146547,200,61,0
 "Provação do Estilo: concluir 2 missões ""Trabalhe""","De 1/8 a 7/8, concluir missões ""Trabalhe"" nas Ilhas do Dragão.",268,146549,20,0,0
-"Provação do Estilo: concluir 10 missões ""Trabalhe""","De 1/8 a 7/8, concluir missões ""Trabalhe"" nas Ilhas do Dragão.",269,146551,180,0,0
+"Provação do Estilo: concluir 10 missões ""Trabalhe""","De 1/8 a 7/8, concluir missões ""Trabalhe"" nas Ilhas do Dragão.",269,146551,180,268,0
 Provação do Estilo: ficar em primeiro lugar,"De 1/8 a 7/8, ficar em primeiro lugar em uma competição da Provação do Estilo.",270,146553,150,0,0
 Provação do Estilo: /admir para a exibição de um Traje Vencedor,"De 1/8 a 17/8, usar /admir para a exibição de um Traje Vencedor no Posto Comercial, em Ventobravo ou Orgrimmar",271,146559,20,0,0
+"Dia das camisetas grátis - Saquear 1 ""Camiseta"" Grátis","Dia 16/8, saquear ""Camisetas"" grátis em Ventobravo ou Orgrimmar.",272,146561,50,0,0
+"Dia das camisetas grátis - Saquear 7 ""Camisetas"" Grátis","Dia 16/8, saquear ""Camisetas"" grátis em Ventobravo ou Orgrimmar.",273,146563,70,272,0
+"Dia das Camisetas Grátis: /muque para um jogador da facção oposta enquanto usa uma ""Camiseta"" grátis","Dia 16/8, mostrar o /muque para um jogador da facção oposta, enquanto estiver usando uma ""Camiseta"" grátis",274,146565,80,0,0
 Feira de Negraluna: saquear um Berloque de Luta Livre,"De 6/8 a 12/8, saquear um berloque de Luta Livre durante o Vale-tudo de Negraluna, na Ilha da Feira de Negraluna.",275,146567,200,0,0
 Feira de Negraluna: participar do show do Javali Pestilento,"De 6/8 a 12/8, participar do show do Javali Pestilento na Ilha da Feira de Negraluna.",276,146767,150,0,0
 Feira de Negraluna: concluir 1 Corrida de Negraluna,"De 6/8 a 12/8, concluir as corridas do Tablado de Negraluna, na Ilha da Feira de Negraluna.",277,146769,50,0,0
 Feira de Negraluna: concluir 4 Corridas de Negraluna,"De 6/8 a 12/8, concluir as corridas do Tablado de Negraluna, na Ilha da Feira de Negraluna.",278,146774,100,277,0
-Caminhada Temporal: concluir 1 masmorra de Caminhada Temporal da Cruzada Ardente,"De 15/8 a 22/8, concluir uma masmorra da Caminhada Temporal de Burning Crusade.",279,146779,50,0,0
+Caminhada Temporal: concluir 1 masmorra de Caminhada Temporal da Cruzada Ardente,"De 15/8 a 22/8, concluir uma masmorra da Caminhada Temporal de Burning Crusade.",279,146779,25,0,0
 Caminhada Temporal: concluir 5 masmorras de Caminhada Temporal da Cruzada Ardente,"De 15/8 a 22/8, concluir uma masmorra da Caminhada Temporal de Burning Crusade.",280,146787,100,279,0
 Derrotar domadores de mascote de Terralém,,281,146797,150,0,0
 Pescar itens em Terralém,,282,146803,100,0,0
 Concluir a história da Creche Escaminha,Falar com Jyhanna na Creche Escaminha em Valdrakken.,283,146806,250,0,0
+"Bruxo: concluir ""Um tom mais claro de vileza""","Como Bruxo, cumpra as seguintes missões:",284,146821,150,0,0
 Tornar-se Exaltado pelos Áugures ou pelos Aldor,Tornar-se exaltado pelas facções dos Áugure ou dos Aldor em Shattrath.,285,146834,100,0,0
 Concluir 1 missão diária na Creche Escaminha,Concluir missões diárias na Creche Escaminha em Valdrakken.,286,146921,100,0,0
 Concluir 5 missões diárias na Creche Escaminha,Concluir missões diárias na Creche Escaminha em Valdrakken.,287,146937,100,286,0
@@ -275,27 +279,125 @@ Concluir 5 Fendas Temporais,"Concluir uma Fenda Temporal no Reservatório do Bal
 Derrotar Azmerloth,"Derrotar Azmerloth durante uma Fenda Temporal no Reservatório do Baluarte de Tyr em Thaldraszus, que fica nas Ilhas do Dragão.",302,147579,100,0,0
 Ficar /perplexo com Soridormi,"Fazer a expressão /perplexo para Soridormi no Reservatório do Baluarte de Tyr em Thaldraszus, que fica nas Ilhas do Dragão.",303,147581,50,0,0
 Obter a Caixa da Realidade Colapsada,"Obter a Caixa da Realidade Colapsada das Fendas Temporais no Reservatório do Baluarte de Tyr em Thaldraszus, que fica nas Ilhas do Dragão",304,147583,50,0,0
-CervaFest: ganhar 100 Fichas-prêmio da CervaFest,"De 20/9 a 30/9, obter Fichas-prêmio da CervaFest participando da CervaFest.",305,147728,100,0,0
-CervaFest: ganhar 300 Fichas-prêmio da CervaFest,"De 20/9 a 30/9, obter Fichas-prêmio da CervaFest participando da CervaFest.",306,147730,100,305,0
-CervaFest: ganhar 600 Fichas-prêmio da CervaFest,"De 20/9 a 30/9, obter Fichas-prêmio da CervaFest participando da CervaFest.",307,147732,200,306,0
+CervaFest: ganhar 100 Fichas-prêmio da CervaFest,From {EventStartDate} - {EventEndDate} earn Brewfest Prize Tokens by participating in Brewfest.,305,147728,100,0,0
+CervaFest: ganhar 300 Fichas-prêmio da CervaFest,From {EventStartDate} - {EventEndDate} earn Brewfest Prize Tokens by participating in Brewfest.,306,147730,100,305,0
+CervaFest: ganhar 600 Fichas-prêmio da CervaFest,From {EventStartDate} - {EventEndDate} earn Brewfest Prize Tokens by participating in Brewfest.,307,147732,200,306,0
 Derrotar Arthas,"Derrotar Arthas durante uma Fenda Temporal no Reservatório do Baluarte de Tyr em Thaldraszus, que fica nas Ilhas do Dragão.",308,147734,100,0,0
 Derrotar Illidan,"Derrotar Illidan durante uma Fenda Temporal no Reservatório do Baluarte de Tyr em Thaldraszus, que fica nas Ilhas do Dragão.",309,147736,100,0,0
-Caminhada Temporal: concluir 1 masmorra da Caminhada Temporal de Wrath,"De 5/9 a 12/9, concluir uma masmorra da Caminhada Temporal de Wrath.",310,147759,50,0,0
-Caminhada Temporal: concluir 5 masmorras da Caminhada Temporal de Wrath,"De 5/9 a 12/9, concluir masmorras da Caminhada Temporal de Wrath.",311,147770,100,310,0
-Caminhada Temporal: concluir 1 masmorra da Caminhada Temporal de Cataclysm,"De 26/9 a 3/10, concluir uma masmorra da Caminhada Temporal de Cataclysm.",312,147780,50,0,0
-Caminhada Temporal: concluir 5 masmorras da Caminhada Temporal de Cataclysm,"De 26/9 a 3/10, concluir masmorras da Caminhada Temporal de Cataclismo.",313,147788,100,312,0
-CervaFest: matar Coren Cervatroz,"De 20/9 a 30/9, matar Coren Cervatroz.",314,147798,150,0,0
-Dia dos Piratas: tornar-se pirata por um dia,"De 19/9 a 20/9, falar com a Terrível Capitã DeMeza em Angra do Butim e tornar-se membro da tripulação dela.",315,147800,80,0,0
-"Dia dos Piratas: ""Você vai precisar de um barco maior""","De 19/9 a 20/9, falar com a Terrível Capitã DeMeza em Angra do Butim e concluir a missão ""Você vai precisar de um barco maior"".",316,147802,80,0,-40
-Dia dos Piratas: derrotar Arlão Mel com Pedrex,"De 19/9 a 20/9, falar com a Terrível Capitã DeMeza em Angra do Butim e derrotar Arlão Mel com Pedrex no ombro.",317,147804,80,0,0
-"Festival da Colheita: ""Homenagem a um herói""","De 25/9 a 30/9, falar com Javnir Nashak, perto de Orgrimmar, ou com Wagner Golparrão, perto de Altaforja, e concluir a missão ""Homenagem a um herói"".",318,147806,200,0,0
-Festival da Colheita: expressão /curvar com um Honorável Ancestral ou Herói Honrado,"De 25/9 a 30/9, usar a expressão /curvar com um Honorável Ancestral perto de Orgrimmar ou com um Herói Honrado perto de Altaforja.",319,147809,100,0,0
-Segredos de Azeroth: 1 segredo encontrado,"De 1/09 a 13/9, concluir uma missão de Segredos de Azeroth ou descobrir um segredo relacionado.",320,147811,50,0,0
-Derrotar domadores de mascote de Nortúndria,,322,147839,150,0,0
-Derrotar domadores de mascote de Cataclysm,,323,147845,150,0,0
-Segredos de Azeroth: 3 segredos encontrados,"De 1/9 a 13/9, concluir missões de Segredos de Azeroth ou descobrir segredos relacionados.",324,147853,100,320,0
-Segredos de Azeroth: 7 segredos encontrados,"De 1/9 a 13/9, concluir missões de Segredos de Azeroth ou descobrir segredos relacionados.",325,147856,150,324,0
-"Feira de Negraluna: concluir ""É hora de martelar!""","De 9/3 a 9/9, concluir a missão ""É hora de martelar!"" na Ilha da Feira de Negraluna.",341,147895,50,0,0
-Feira de Negraluna: aproveitar o passeio,"De 9/3 a 9/9, andar no carrossel ou na montanha-russa da Feira de Negraluna na Ilha da Feira de Negraluna.",342,147897,50,0,0
+Caminhada Temporal: concluir 1 masmorra da Caminhada Temporal de Wrath,"De 5/9 a 12/9, concluir uma masmorra da Caminhada Temporal de Wrath.",310,147759,25,0,-30
+Caminhada Temporal: concluir 5 Masmorras da Caminhada Temporal de Wrath,"De 5/9 a 12/9, concluir masmorras da Caminhada Temporal de Wrath.",311,147770,100,310,-30
+Caminhada Temporal: concluir 1 masmorra da Caminhada Temporal de Cataclysm,"De 26/9 a 3/10, concluir uma masmorra da Caminhada Temporal de Cataclysm.",312,147780,25,0,-70
+Caminhada Temporal: concluir 5 Masmorras da Caminhada Temporal de Cataclysm,"De 26/9 a 3/10, concluir masmorras da Caminhada Temporal de Cataclismo.",313,147788,100,312,-70
+CervaFest: matar Coren Cervatroz,From {EventStartDate} - {EventEndDate} kill Coren Direbrew.,314,147798,150,0,0
+Dia dos Piratas: tornar-se pirata por um dia,From {EventStartDate} - {EventEndDate} speak to Dread Captain DeMeza in Booty Bay and become a member of her crew.,315,147800,80,0,0
+"Dia dos Piratas: ""Você vai precisar de um barco maior""","From {EventStartDate} - {EventEndDate} speak to Dread Captain DeMeza in Booty Bay and complete the quest ""You're Gonna Need A Bigger Boat.""",316,147802,80,0,-40
+Dia dos Piratas: derrotar Arlão Mel com Pedrex,"From {EventStartDate} - {EventEndDate} speak to Dread Captain DeMeza in Booty Bay to gain Petey, then defeat Harlan Sweete with Petey on your shoulder.",317,147804,80,0,0
+"Festival da Colheita: ""Homenagem a um herói""","From {EventStartDate} - {EventEndDate} speak to Javnir Nashak, outside Orgrimmar, or Wagner Hammerstrike, outside Ironforge, and complete the quest ""Honoring a Hero.""",318,147806,200,0,0
+Festival da Colheita: expressão /curvar com um Honorável Ancestral ou Herói Honrado,From {EventStartDate} - {EventEndDate} emote /bow at an Honored Ancestor outside or Orgrimmar or an Honored Hero outside of Ironforge.,319,147809,100,0,0
+Segredos de Azeroth: 1 segredo encontrado,From {EventStartDate} - {EventEndDate} complete a Secrets of Azeroth quest or discover a related secret.,320,147811,50,0,0
+Renegados: concluir a história da armadura tradicional,"Como Renegado, concluir as missões de armadura tradicional a seguir:",321,147832,100,0,0
+Derrotar domadores de mascote de Nortúndria,,322,147839,150,0,-30
+Derrotar domadores de mascote de Cataclysm,,323,147845,150,0,-70
+Segredos de Azeroth: 3 segredos encontrados,From {EventStartDate} - {EventEndDate} complete Secrets of Azeroth quests or discover related secrets.,324,147853,100,320,0
+Segredos de Azeroth: 7 segredos encontrados,From {EventStartDate} - {EventEndDate} complete Secrets of Azeroth quests or discover related secrets.,325,147856,150,324,0
+Concluir um percurso de desafio de dragonaria nas Ilhas do Dragão,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,326,147859,25,0,0
+Concluir 5 percursos de desafio de dragonaria nas Ilhas do Dragão,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,327,147861,50,326,0
+Concluir 10 percursos de desafio de dragonaria nas Ilhas do Dragão,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,328,147863,50,327,0
+Concluir 20 percursos de desafio de dragonaria nas Ilhas do Dragão,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,329,147865,100,328,0
+Concluir 3 Sonhos do Despertar,Concluir eventos de Sonho do Despertar nas áreas de Surto Onírico nas Ilhas do Dragão.,330,147867,50,0,0
+Concluir 15 Sonhos do Despertar,Concluir eventos de Sonho do Despertar nas áreas de Surto Onírico nas Ilhas do Dragão.,331,147869,100,330,0
+Derrotar 3 Elites Raros potencializados pelo Surto Onírico,Derrotar Elites Raros na área do Surto Onírico atual das Ilhas do Dragão.,332,147871,50,0,0
+Derrotar 15 Elites Raros potencializados pelo Surto Onírico,Derrotar Elites Raros na área do Surto Onírico atual das Ilhas do Dragão.,333,147873,100,332,0
+Coletar 100 Coalescências do Surto Onírico,Coletar Coalescência do Surto Onírico de atividades em áreas de Surto Onírico nas Ilhas do Dragão.,334,147875,100,0,0
+Concluir a história da Reconciliação,"Falar com a Comandante-de-escama Brasathal em Valdrakken para começar a missão ""Uma asa solitária"".",335,147877,100,0,0
+Caminhada Temporal: concluir 1 masmorra de Caminhada Temporal de Mists of Pandaria,"De 17/10 a 24/10, concluir masmorras da Caminhada Temporal de Mists of Pandaria.",336,147879,25,0,-40
+Caminhada Temporal: concluir 5 masmorras de Caminhada Temporal de Mists of Pandaria,"De 17/10 a 24/10, concluir masmorras da Caminhada Temporal de Mists of Pandaria.",337,145198,100,336,-40
+Coletar 250 Coalescências do Surto Onírico,Coletar Coalescência do Surto Onírico de atividades em áreas de Surto Onírico nas Ilhas do Dragão.,339,149014,150,334,0
+Derrotar Elites Raros potencializados pelo Surto Onírico,Derrotar Elites Raros na área do Surto Onírico atual das Ilhas do Dragão.,340,147886,100,0,0
+"Feira de Negraluna: concluir ""É hora de martelar!""",From {EventStartDate} - {EventEndDate} complete the quest It's Hammer Time on Darkmoon Faire Island.,341,147895,50,0,0
+Feira de Negraluna: aproveitar o passeio,From {EventStartDate} - {EventEndDate} ride the Darkmoon Faire carousel or rollercoaster on Darkmoon Faire Island.,342,147897,50,0,0
 /dançar com um cliente no Tesouro do Dragão,"Usar a expressão /dançar com um Cliente da Festa Dançante no Tesouro do Dragão, em Valdrakken.",343,147900,50,0,0
 LR: concluir um raide com seu Chapéu de Festa Rosa,Concluir um raide do LR enquanto usa o Chapéu de Festa Rosa.,344,147905,50,0,0
+CervaFest: concluir 2 missões da CervaFest,"De 20/9 a 30/9, concluir missões da CervaFest no mundo.",345,147937,50,0,-50
+CervaFest: concluir 5 missões da CervaFest,"De 20/9 a 30/9, concluir missões da CervaFest no mundo.",346,147939,150,345,-50
+Vencer 1 Batalha de Mascotes JxJ com mascotes mortas-vivas,Ganhar 1 Batalha de Mascotes JxJ usando pelo menos 2 mascotes mortas-vivas,347,148003,50,0,0
+Noturnália: visitar Baldes de Doces e de Balas no Modo de Guerra,"De 18/10 a 31/10, coletar um Punhado de Balas de Baldes de Doces e de Balas pelo mundo no Modo de Guerra.",348,148005,50,0,-60
+Cuidar da sua Fazenda na Fazenda Sol Cantante,"Cultivar o solo da Fazenda Sol Cantante em Meia Colina, no Vale dos Quatro Ventos.",350,148009,50,0,-40
+Obter ouro em 4 percursos de dragonaria nas Ilhas do Dragão,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,351,148012,50,0,0
+Noturnália: visitar Baldes de Balas nas Ilhas do Dragão.,"De 18/10 a 31/10, coletar um Punhado de Balas do Balde de Doces nas Ilhas do Dragão.",353,148016,50,0,-50
+Noturnália: visitar Baldes de Balas em Pandária,"De 18/10 a 31/10, coletar um Punhado de Balas do Balde de Doces em Pandária.",354,148018,50,0,-50
+Noturnália: concluir 5 missões diárias de Noturnália,,355,148020,100,0,-60
+Noturnália: concluir 15 missões diárias de Noturnália,,356,148022,150,355,-60
+Noturnália: derrotar o Cavaleiro Sem Cabeça repetidamente,"De 18/10 a 31/10, derrotar o Cavaleiro Sem Cabeça repetidamente.",357,148026,100,0,-60
+Noturnália: derrotar o Cavaleiro Sem Cabeça com todas as 4 maldições dos Homens de Vime,"De 18/10 a 31/10, derrotar o Cavaleiro Sem Cabeça depois de aceitar todas as 4 maldições dos Homens de Vime.",358,148028,100,0,-60
+Noturnália: colher maçãs com a máscara da Noturnália,"De 18/10 a 31/10, colher maçãs usando a máscara da Noturnália.",359,148042,50,0,-60
+Feira de Negraluna: falar com um Espírito Indócil,Falar com um fantasma na ilha da Feira de Negraluna.,360,148056,50,0,-10
+Grande Corrida de Gnomeregan: participar da Grande Corrida de Gnomeregan,"Em 14/10, participar da corrida a pé na Vila da Gambiarra, em Dun Morogh.",361,148058,100,0,-30
+CervaFest: participar de um Bate-rango,,362,148060,50,0,-20
+/risada para um jogador Renegado,Expressão /risada para um jogador Renegado,363,148065,50,0,0
+Concluir missões mundiais de dragonaria no Recôndito Proibido,Falar com um Guarda-tempo Bronze nas Ilhas do Dragão.,364,148098,100,0,0
+Concluir corridas de dragonaria avançadas nas Ilhas do Dragão,"Concluir corridas de dragonaria avançadas na Costa Desperta, Chapada Ohn'ahrana, Vasta Lazúli e Thaldraszus.",365,148100,100,0,0
+Feira de Negraluna: usar uma cabeça de peixe nas masmorras,"De 1/10 a 7/10, usar a ferramenta Localizador de Masmorras para concluir uma masmorra usando uma Cabeça Decepada de Escama-escarlate ou uma Cabeça Decepada de Pinazul pescada na ilha de Feira de Negraluna.",366,148102,100,0,-30
+Grande Corrida de Gnomeregan: concluir a Grande Corrida de Gnomeregan como um gnomo de nível 10 ou inferior usando uma Camisa Rosa,"Em 14/10, participar da corrida a pé na Vila da Gambiarra, em Dun Morogh, como um gnomo ou gnomecânico de nível 1 a 10 usando a Camisa de Magitrama Rosa.",367,148104,150,0,-30
+"Coletar 50 plantas, minérios ou peles nas Ilhas do Dragão",,368,148528,50,0,0
+"Coletar 250 plantas, minérios ou peles nas Ilhas do Dragão",,369,148743,100,368,0
+Concluir 2 das seguintes missões mundiais de dragonaria,,370,148532,100,0,0
+Gastar 100 de Vigor em dragonaria,,371,148542,50,0,0
+Gastar 1000 de Vigor em dragonaria,,372,148546,100,371,0
+"Feira de Negraluna: concluir ""Ele atira, ele acerta!""","De 5/11 a 11/11, concluir a missão ""Ele atira, ele acerta!"" na ilha da Feira de Negraluna.",373,148550,50,0,-30
+"Concluir uma missão ""Centelha de Vida""","Concluir uma missão de ""Centelhas de Vida"" nas Ilhas do Dragão.",375,148554,100,0,0
+Vencer em um Campo de Batalha abaixo do nível 70,,376,148556,100,0,0
+Vencer uma Batalha de Mascotes JxJ com um peru,Vencer uma Batalha de Mascotes JxJ com qualquer peru na sua equipe,377,148558,100,0,0
+Alimentar sua mascote com um biscoito ou guloseima,"Alimentar uma Mascote de Batalha com um Biscoito do Ajudante Feliz, Guloseima para Ajudantes ou Guloseima para Ajudantes Inferior.",378,148560,50,0,0
+Concluir missões mundiais em um grupo durante a semana bônus de missão mundial,"De 1/11 a 7/11, concluir missões mundiais em um grupo.",379,148564,100,0,-20
+Vencer em um Campo de Batalha Épico durante a semana bônus de Campo de Batalha Épico,"De 14/11 a 21/11, vencer em um Campo de Batalha Épico.",380,148566,100,0,-50
+Concluir masmorras heroicas com jogadores aleatórios durante a semana bônus de masmorra de Revoada Dragônica,"De 21/11 a 28/11, usar a ferramenta Localizador de Masmorras para concluir masmorras heroicas com jogadores aleatórios.",381,148568,150,0,-80
+Levar a guilda para as masmorras,Usar a ferramenta Localizador de Masmorras para concluir masmorras em um grupo de guilda.,383,148572,150,0,0
+Concluir missões em um grupo,,384,148574,100,0,0
+Ganhar todos os bônus a seguir de uma vez,,385,148576,50,0,0
+Montar na montaria de outro jogador,,386,148582,50,0,0
+Dia dos Mortos: derrotar um competidor,"De 1/11 a 3/11, comprar uma roupa de competidor de Chapa e derrotar outro jogador que também está usando uma roupa de competidor.",387,148584,100,0,-10
+"Dia dos Mortos: concluir a missão ""Mortos de fome""","De 1/11 a 3/11, concluir a missão ""Mortos de fome"", que pode ser encontrada na corrida da sua cidade natal.",388,148586,100,0,-10
+"Festival do Luniscante: concluir ""Monitorando os Luniscantes""","Em 12/11, concluir a missão ""Monitorando os Luniscantes"", em Clareira da Lua em Kalimdor.",389,148588,150,0,-40
+Aniversário de WoW: participar da Revanche de Korrak,"De 16/11 a 7/12, participar do Campo de Batalha da Revanche de Korrak.",390,148590,100,0,-60
+Aniversário do WoW: matar Armagedom,"De 16/11 a 7/12, matar Armagedom em Tanaris.",391,148592,100,0,-60
+Aniversário do WoW: /vibrar para Leeroy Jenkins,"De 16/11 a 30/11, usar expressão /vibrar para Leeroy Jenkins nas Cavernas do Tempo.",392,148594,50,0,-60
+Aniversário do WoW: concluir missões em um grupo abaixo do nível 20,"De 16/11 a 30/11, concluir 5 missões em um grupo e abaixo do nível 20.",393,148596,100,0,-60
+Festival do Luniscante: matar inimigos com seus Lunisquitos,"Em 12/11, fazer amizade com um Lunisquito na Clareira da Lua, em Kalimdor, e depois matar 25 inimigos que dão EXP com seu ajudante Luniscante.",394,148609,150,0,-40
+Aniversário do WoW: soltar Fogos de Artifício nas capitais,"De 16/11 a 30/11, soltar 10 Fogos de Artifício de Comemoração ou Revoadas Fulgurantes em Ventobravo ou Orgrimmar.",395,148611,50,0,-60
+Festa da Fartura: ganha o Espírito da Partilha,"De 19/11 a 26/11, comer todas as comidas da Mesa Abundante para ganhar o Espírito da Partilha.",396,148617,50,0,-70
+Festa da Fartura: ganhar o Espírito da Partilha em todas as áreas das Ilhas do Dragão,"De 19/11 a 26/11, comer todas as comidas da Mesa Abundante para ganhar o Espírito da Partilha em cada uma das áreas a seguir.",397,148619,100,396,-70
+Festa da Fartura: cozinhar todas as receitas da Festa da Fartura,"De 19/11 a 26/11, cozinhar todas as comidas a seguir da Festa da Fartura.",398,148638,100,0,-70
+Festa da Fartura: concluir missões,"De 19/11 a 26/11, concluir 5 missões da Festa da Fartura.",399,148656,100,0,-70
+Festa da Fartura: experimentar os sabores de Azeroth,"De 19/11 a 26/11, comer cada comida listada abaixo.",400,148660,150,0,-70
+Festa da Fartura: cobrir todos com Penas de Peru,"De 19/11 a 26/11, atirar em cada uma das corridas de jogador a seguir com Atiradores de Peru.",401,148674,100,0,-70
+Festa da Fartura: caçar perus com um Chapéu do Peregrino,"De 19/11 a 26/11, matar Perus Selvagens rapidamente na Floresta de Elwynn, Clareiras de Tirisfal ou Chapada Ohn'ahrana para ganhar Dominação de Peru usando um Chapéu do Peregrino.",402,148717,150,0,-70
+Aniversário do WoW: vencer uma Batalha de Mascotes JxJ com sua nova mascote,"De {EventStartDate} a {EventEndDate}, vencer uma Batalha de Mascotes JxJ com Asinha Gélida na sua equipe.",403,148719,100,0,-60
+Aprimorar itens usando Pedras Volantes,,404,148721,100,0,0
+Concluir uma masmorra aleatória ou Campo de Batalha com seu amigo recrutado ou recrutador,Usar a ferramenta Localizador de Masmorras para concluir uma masmorra aleatória ou Campo de Batalha Aleatório em um grupo com seu amigo recrutado ou recrutador.,405,148739,150,0,0
+Passar de Nível na Culinária do Classic,,406,149016,100,0,0
+Comer um Banquete da Comunidade Épico ou Lendário,Participar de um Banquete da Comunidade Morsana de Iskaara para aumentar sua raridade e depois tomar uma sopa épica!,407,149018,100,0,0
+Participar do Calor da Batalha,,409,149478,50,0,0
+Vencer 1 contenda do Calor da Batalha,,410,149481,50,0,0
+Vencer 5 contendas do Calor da Batalha,,411,149571,50,410,0
+Chegar ao nível 20,Subir qualquer personagem para o nível 20.,412,149577,25,0,0
+Ganhar Reputação pelas Ilhas do Dragão,,414,149607,70,0,0
+Derrotar 5 Chefes de Raide,,415,149619,50,0,10
+Derrotar 20 Chefes de Raide,,416,149621,100,415,10
+Cumprir 10 missões,Concluir missões que concedam experiência.,417,149633,100,0,0
+Cumprir 25 missões,Concluir missões que concedam experiência.,418,149635,100,417,0
+Cumprir 50 missões,Concluir missões que concedam experiência.,419,149637,100,418,0
+Concluir 5 Missões Mundiais,,420,149639,50,0,0
+Concluir 10 Missões Mundiais,,421,149641,50,420,0
+Concluir 25 Missões Mundiais,,422,149643,100,421,0
+Derrotar 25 chefes de masmorra,Derrotar chefes de masmorra que concedam experiência.,423,149645,100,0,0
+Criar um Brasão da Chama Sombria,Coletar fragmentos de Brasão da Chama Sombria e criar qualquer tipo de Brasão da Chama Sombria.,424,149647,30,0,0
+Alcançar o nível 30,Subir qualquer personagem para o nível 30.,426,149713,25,0,0
+Alcançar o nível 40,Subir qualquer personagem para o nível 40.,427,149715,25,0,0
+Alcançar o nível 50,Subir qualquer personagem para o nível 50.,428,149717,25,0,0
+Alcançar o nível 60,Subir qualquer personagem para o nível 60.,429,149719,25,0,0
+Alcançar o nível 70,Subir qualquer personagem para o nível 70.,430,149721,25,0,0
+Ganhar 5 níveis de classe,,431,149723,25,0,0
+Surto final: concluir missões,"De {EventStartDate} a {EventEndDate}, concluir missões que concedam experiência.",478,149923,150,0,0
+Surto final: concluir missões mundiais,"De {EventStartDate} a {EventEndDate}, concluir missões mundiais.",479,149925,150,0,0
+Elfo Noturno: concluir a história da armadura tradicional,"Como elfo noturno, concluir as missões de armadura tradicional a seguir:",484,150069,100,0,0
