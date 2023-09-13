@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Annehmen,5
 9790,ARMOR,Rüstung,7
 9791,CANCEL,Abbrechen,7
-9792,CHARACTER,Charakter,1
+9792,CHARACTER,Charakter,3
 9793,CHARACTER_INFO,Charakterinfo,1
 9794,COMPLETE,Fertig,5
 9795,COPPER_AMOUNT,%d Kupfer,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d |4Tag:Tage;,3
 9832,HOURS_ABBR,%d |4Std.:Std.;,3
 9836,FRAMERATE_LABEL,FPS:,1
-9837,SCREENSHOT_SUCCESS,Screenshot gespeichert,1
+9837,SCREENSHOT_SUCCESS,Screenshot gespeichert,3
 9838,VIDEOOPTIONS_MENU,Grafik,3
 9839,QUIT,Beenden,3
 9840,CONTINUE,Weiter,7
@@ -1959,7 +1959,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11844,SILVER_AMOUNT,%d Silber,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d |4Sek.:Sek.;,3
-11847,SCREENSHOT_FAILURE,Screenshot fehlgeschlagen,1
+11847,SCREENSHOT_FAILURE,Screenshot fehlgeschlagen,3
 11848,ANISOTROPIC,Texturenfilter,3
 11849,PET_RENAME_CONFIRMATION,Begleiter '%s' nennen?,1
 11850,SPELLBOOK_ABILITIES_BUTTON,Zauberbuch und Berufe,1
@@ -19046,15 +19046,15 @@ Abenteuerführer ausblenden",1
 42841,CONDUIT_COLLECTION_ITEM_PENDING,Ausstehend,1
 42842,CONDUIT_RESET_INELIGIBLE,Keine Medien gesockelt,1
 42843,GREAT_VAULT_REWARDS,Belohnungen der Großen Schatzkammer,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,"Schließt diese Woche einen Dungeon auf Mythisch+ ab, um eine Belohnung in der Großen Schatzkammer freizuschalten.|n|nDie Gegenstandsstufe Eurer Belohnung richtet sich nach Eurem besten Durchlauf dieser Woche.",1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,"Schließt diese Woche %1$d |4weiteren Dungeon:weitere Dungeons; auf Mythisch+ ab, um eine zweite Belohnung in der Großen Schatzkammer freizuschalten.|n|nDie Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %2$d Durchläufe dieser Woche (aktuell: Mythische Stufe %3$d).",1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,"Schließt diese Woche %1$d |4weiteren Dungeon:weitere Dungeons; auf Mythisch+ ab, um eine dritte Belohnung in der Großen Schatzkammer freizuschalten.|n|nDie Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %2$d Durchläufe dieser Woche (aktuell: Mythische Stufe %3$d).",1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete a Heroic or Mythic dungeon this week to unlock a Great Vault reward.|n|nThe item level of your reward will be based on your highest run this week.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a second Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a third Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,"Ihr habt für diese Woche alle verfügbaren Belohnungen freigeschaltet. Besucht Anfang nächster Woche die Große Schatzkammer, um aus den freigeschalteten Belohnungen zu wählen!",1
 42848,GREAT_VAULT_IMPROVE_REWARD,Verbessert Eure Belohnung,1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,"Schließt %1$d mythische Schlüsselsteindungeons der Stufe %2$d oder höher ab, um Eure Belohnung zu verbessern.",1
 42850,GREAT_VAULT_REWARDS_WAITING,In der Großen Schatzkammer warten Belohnungen auf Euch.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Ihr oder ein Gruppenmitglied müsst die vorherige Ebene meistern,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,"Verdient Eroberungspunkte, um gewertete PvP-Gegenstände in Valdrakken zu kaufen. Gewertete PvP-Gegenstände können mit Ehre aufgewertet werden.",1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
 42855,GAIN_MAW_POWER,%s hat folgenden Animabonus erhalten: %s,1
 42856,MAW_POWER_DESCRIPTION,Animabonus,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Kampagne abgeschlossen,1
@@ -21700,7 +21700,7 @@ Ihr könnt mit diesem Charakter weder instanziierte noch Anmeldungsinhalte spiel
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Sekundäre Spezialisierung)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Unentschieden,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,Eure Beute-Würfe werden hier angezeigt.|n|nVon Euch gewonnene Gegenstände werden automatisch in Eure Taschen gelegt.,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Schattenflammenwappen mit hoher Stufe kann bei Vaskarn in Loamm abgewertet werden.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Crests can be downgraded at Vaskarn in Loamm.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Dieses Reagenz wird von Euch zur Verfügung gestellt.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Einige der Reagenzien werden von Euch zur Verfügung gestellt.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Alle Reagenzien werden von Euch zur Verfügung gestellt.,1
@@ -21873,6 +21873,7 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aUnterstützen:,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAngriff,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aUnterwegs,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,"Ihr wisst nicht, wie man dies sammelt.",1
 51374,ENABLE_PING_SOUNDS,Ping-Geräusche,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Schaltet Ping-Geräusche ein und aus,1
 51376,PING_VOLUME,Ping-Lautstärke,1
@@ -21903,8 +21904,10 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51415,PING_MODE_CLICK_DRAG,Entspannter Ping,1
 51416,PING_MODE,Ping-Modus,1
 51417,OPTION_TOOLTIP_PING_MODE,"Legt fest, welcher Modus zur Interaktion mit dem Ping-System verwendet wird.",1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,Euch folgen bereits genug Mondkinküken. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Beim Drücken der Ping-Taste kann für kontextabhängige Pings einfach geklickt werden. Klicken und ziehen, um das Ping-Radialmenü aufzurufen.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Drücken und loslassen der Ping-Taste für kontextabhängige Pings. Drücken und halten der Taste, um das Ping-Radialmenü aufzurufen.",1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,"Ihr solltet nicht zu viele Desserts verputzen, wenn Ihr beim nächsten Mal wieder eine Einladung erhalten wollt.",1
 51433,PING_FAILED_SQUELCHED,"Ping konnte nicht gesendet werden, Chat vorübergehend gesperrt.",1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,"|cnTUTORIAL_BLUE_FONT_COLOR:Drückt|r die Ping-Taste, um rasch Pings in die Welt zu senden.",1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,"|cnTUTORIAL_BLUE_FONT_COLOR:Haltet|r Eure Ping-Taste gedrückt, um einen bestimmten Ping auszuwählen.",1
@@ -21917,3 +21920,29 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Ping-System,1
 51443,INSPECT_REQUIREMENTS,"<Strg+Linke Maustaste, um Voraussetzungen zu sehen>",1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Eure Anfrage zum Kräftemessen wurde abgelehnt von %s.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,Ihr erhaltet Währung: %sx%d (Ihr habt den Höchstbetrag von %s verdient.),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,"Ihr müsst alle Fehler beheben. Verlernt Talente, um Punkte zurückzugewinnen, und verteilt sie neu, um einen gültigen Build zu erstellen.",1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,Keine aktiven Verbindungen. Verbindet oder verlernt dieses Talent.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,"Gebt mehr Punkte aus, um dieses Talent wiederherzustellen, oder rechtsklickt, um es zu verlernen.",1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffffEingefroren|r
+",1
+51457,MAP_FILTER,Kartenfilter,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,Ihr habt bereits vollen Elan.,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,Die Nährstoffe dieser Erde müssen für weiteres Wachstum erneuert werden.,1
+51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,Complete %d Heroic or Mythic |4Dungeon:Dungeons,1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
+51499,PING_CHAT_SETTINGS,Chat Settings,1
+51503,PITCH_CONTROL_ADV_FLY,Dragonriding Pitch Control,1
+51504,PITCH_CONTROL_ADV_FLY_FORWARD_UP,Forward/Up,1
+51505,PITCH_CONTROL_ADV_FLY_BACKWARD_UP,Backward/Up,1
+51506,OPTION_TOOLTIP_PITCH_CONTROL_ADV_FLY,"Helps to address motor control while flying Drakes in Dragon Isles
+
+|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while Dragonriding.
+
+|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while Dragonriding.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type.,1

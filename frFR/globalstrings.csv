@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Accepter,5
 9790,ARMOR,Armure,7
 9791,CANCEL,Annuler,7
-9792,CHARACTER,Personnage,1
+9792,CHARACTER,Personnage,3
 9793,CHARACTER_INFO,Infos personnage,1
 9794,COMPLETE,Terminé,5
 9795,COPPER_AMOUNT,%d Cuivre,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d |4jour:jours;,3
 9832,HOURS_ABBR,%d |4h:h;,3
 9836,FRAMERATE_LABEL,IPS :,1
-9837,SCREENSHOT_SUCCESS,Capture d’écran sauvegardée,1
+9837,SCREENSHOT_SUCCESS,Capture d’écran sauvegardée,3
 9838,VIDEOOPTIONS_MENU,Vidéo,3
 9839,QUIT,Quitter,3
 9840,CONTINUE,Continuer,7
@@ -1956,7 +1956,7 @@ ID,BaseTag,TagText_lang,Flags
 11844,SILVER_AMOUNT,%d Argent,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d s,3
-11847,SCREENSHOT_FAILURE,Échec de la capture d’écran,1
+11847,SCREENSHOT_FAILURE,Échec de la capture d’écran,3
 11848,ANISOTROPIC,Filtre des textures\32,3
 11849,PET_RENAME_CONFIRMATION,Donner à votre familier le nom '%s' ?,1
 11850,SPELLBOOK_ABILITIES_BUTTON,Grimoire et métiers,1
@@ -18414,8 +18414,8 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42115,SPELL_FAILED_CUSTOM_ERROR_453,Balise titanesque requise,1
 42116,CLUB_FINDER_DISABLE_REASON_VETERAN_TRIAL,L’accès à cette fonctionnalité nécessite un compte avec du temps de jeu ou un abonnement actif.,1
 42117,IN_PROGRESS,En cours,5
-42118,TARGETFPS,IPS cibles,3
-42119,TARGETFPS_CHECK,Activer IPS cibles,3
+42118,TARGETFPS,IPS désirées,3
+42119,TARGETFPS_CHECK,Activer IPS désirées,3
 42120,OPTION_TARGETFPS_CHECK,Activez cette option pour réduire la qualité des graphismes de façon dynamique quand le taux de rafraîchissement passe sous un seuil donné.,3
 42121,OPTION_TARGETFPS,"Taux de rafraîchissement souhaité. En dessous de ce seuil, les systèmes dynamiques réduiront la qualité des graphismes pour se rapprocher au maximum de cette valeur.",3
 42122,SPELL_FAILED_CUSTOM_ERROR_454,Cet objet est verrouillé.,1
@@ -18859,7 +18859,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42659,ANIMA_DIVERSION_NOT_ENOUGH_CURRENCY,Anima du réservoir insuffisant.,1
 42660,CONFIRM_RESET_TO_PREVIOUS_KEYBINDINGS,Souhaitez-vous réinitialiser tous les raccourcis clavier ?,1
 42661,RESET_ALL_BUTTON_TEXT,Tout réinitialiser,1
-42662,GXAPI_MTL_LEGACY,Héritage du métal,3
+42662,GXAPI_MTL_LEGACY,Compatibilité Metal,3
 42663,RUNEFORGE_LEGENDARY_ERROR_UPGRADE_INSUFFICIENT_CURRENCY_FORMAT,Vous n’avez pas assez |2 %s pour améliorer cet objet.,1
 42664,ERR_ACTIVATE_SOULBIND_FAILED_REST_AREA,Vous devez vous trouver dans une zone de repos pour changer d’âme liée.,1
 42665,ANIMA_DIVERSION_CANT_REINFORCE,Améliorez le conducteur d’anima pour déverrouiller de nouveaux emplacements à renforcer.,1
@@ -19038,15 +19038,15 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42841,CONDUIT_COLLECTION_ITEM_PENDING,En attente,1
 42842,CONDUIT_RESET_INELIGIBLE,Aucun intermédiaire serti,1
 42843,GREAT_VAULT_REWARDS,Récompenses de la grande chambre forte,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Terminez un donjon en mode mythique + cette semaine pour débloquer une récompense de la grande chambre forte.|n|nLe niveau de cette récompense dépend du niveau de votre meilleure session de la semaine.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Terminez %1$d |4autre donjon:autres donjons; en mode mythique + cette semaine pour débloquer une seconde récompense de la grande chambre forte.|n|nLe niveau d’objet de cette récompense dépend du niveau le plus bas de vos %2$d meilleures sessions de la semaine (niveau mythique actuel : %3$d).,1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Terminez %1$d |4autre donjon:autres donjons; en mode mythique + cette semaine pour débloquer une troisième récompense de la grande chambre forte.|n|nLe niveau d’objet de cette récompense dépend du niveau le plus bas de vos %2$d meilleures sessions de la semaine (niveau mythique actuel : %3$d).,1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete a Heroic or Mythic dungeon this week to unlock a Great Vault reward.|n|nThe item level of your reward will be based on your highest run this week.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a second Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a third Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,Vous avez débloqué toutes les récompenses disponibles pour cette semaine. Visitez la grande chambre forte au début de la semaine prochaine pour choisir votre récompense parmi celles débloquées !,1
 42848,GREAT_VAULT_IMPROVE_REWARD,Améliorer votre récompense,1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Terminez %1$d donjons mythiques de niveau %2$d ou supérieur pour améliorer votre récompense.,1
 42850,GREAT_VAULT_REWARDS_WAITING,Vous avez des récompenses en attente dans la grande chambre forte.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Vous ou un membre de votre groupe devez triompher de l’échelon précédent.,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Cumulez des points de conquête pour acheter des objets de JcJ coté à Valdrakken. Il est possible d’améliorer ces objets avec des points d’honneur.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
 42855,GAIN_MAW_POWER,%s a obtenu le pouvoir d’anima : %s.,1
 42856,MAW_POWER_DESCRIPTION,Pouvoir d’anima,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campagne terminée,1
@@ -21686,7 +21686,7 @@ Vous ne pouvez pas participer à du contenu en extérieur et en file d’attente
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Off-Spec)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Égalité,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,Vos jets de butin apparaissent ici.|n|nLes objets gagnés seront automatiquement rangés dans vos sacs.,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,"Les écus d’ombreflamme de niveau supérieur peuvent être déclassés auprès de Vaskarn, à Terreau.",1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Crests can be downgraded at Vaskarn in Loamm.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Vous devez fournir ce composant.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Vous devez fournir certains composants.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Vous devez fournir tous les composants.,1
@@ -21859,6 +21859,7 @@ Voulez-vous vraiment faire ceci ?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s] : |h|A:ping_chat_assist:0:0:0:0|aAide,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s] :|h|A:ping_chat_attack:0:0:0:0|aAttaque,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s] :|h|A:ping_chat_onmyway:0:0:0:0|aEn route,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,Vous ne savez pas collecter cet élément.,1
 51374,ENABLE_PING_SOUNDS,Pings,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Activer/désactiver les sons des pings.,1
 51376,PING_VOLUME,Volume des pings,1
@@ -21889,8 +21890,10 @@ Voulez-vous vraiment faire ceci ?",1
 51415,PING_MODE_CLICK_DRAG,Ping détendu,1
 51416,PING_MODE,Mode de ping,1
 51417,OPTION_TOOLTIP_PING_MODE,Détermine le mode de ping utilisé pour interagir avec le système de ping.,1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,Suffisamment de bébés séléniens vous suivent déjà. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Lorsque vous appuyez sur le raccourci du ping, cliquez pour un ping contextuel ou cliquez et faites glisser pour déclencher le menu radial des pings.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,Appuyez et lâchez le raccourci du ping pour effectuer un ping contextuel ou appuyez et maintenez pour déclencher le menu radial des pings.,1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,Il est préférable de ne pas manger trop de desserts si vous voulez qu’on vous invite à la prochaine fête.,1
 51433,PING_FAILED_SQUELCHED,Impossible d’envoyer le ping : la discussion est temporairement suspendue.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Appuyez|r sur la touche pour placer rapidement des pings dans le monde.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Appuyez et maintenez|r sur la touche pour choisir un ping spécifique.,1
@@ -21903,3 +21906,29 @@ Voulez-vous vraiment faire ceci ?",1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Système de pings,1
 51443,INSPECT_REQUIREMENTS,<Ctrl-clic pour voir les conditions>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,%s a refusé votre invitation à un jeu de guerre.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,Vous recevez la monnaie : %sx%d (vous avez obtenu le montant maximum |2%s),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,Vous devez corriger toutes les erreurs. Oubliez des talents pour libérer des points et utilisez-les ailleurs pour créer une configuration valable.,1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,Aucun lien actif. Reconnectez ou oubliez ce talent.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Dépensez plus de points pour restaurer ce talent ou faites un clic droit pour l’oublier.,1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffffGelé|r
+",1
+51457,MAP_FILTER,Filtre de carte,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,Vous êtes déjà au maximum de vigueur.,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,Les nutriments de ce sol doivent être reconstitués avant toute nouvelle croissance.,1
+51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,Complete %d Heroic or Mythic |4Dungeon:Dungeons,1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
+51499,PING_CHAT_SETTINGS,Chat Settings,1
+51503,PITCH_CONTROL_ADV_FLY,Dragonriding Pitch Control,1
+51504,PITCH_CONTROL_ADV_FLY_FORWARD_UP,Forward/Up,1
+51505,PITCH_CONTROL_ADV_FLY_BACKWARD_UP,Backward/Up,1
+51506,OPTION_TOOLTIP_PITCH_CONTROL_ADV_FLY,"Helps to address motor control while flying Drakes in Dragon Isles
+
+|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while Dragonriding.
+
+|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while Dragonriding.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type.,1
