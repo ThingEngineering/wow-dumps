@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Принять,5
 9790,ARMOR,Броня,7
 9791,CANCEL,Отмена,7
-9792,CHARACTER,Персонаж,3
+9792,CHARACTER,Персонаж,1
 9793,CHARACTER_INFO,Информация о персонаже,1
 9794,COMPLETE,Выполнено,5
 9795,COPPER_AMOUNT,%d |4медная монета:медные монеты:медных монет;,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d д.,3
 9832,HOURS_ABBR,%d ч.,3
 9836,FRAMERATE_LABEL,Кадров/с:,1
-9837,SCREENSHOT_SUCCESS,Скриншот сохранен.,3
+9837,SCREENSHOT_SUCCESS,Скриншот сохранен.,1
 9838,VIDEOOPTIONS_MENU,Изображение,3
 9839,QUIT,Выйти,3
 9840,CONTINUE,Продолжить,7
@@ -1956,7 +1956,7 @@ ID,BaseTag,TagText_lang,Flags
 11844,SILVER_AMOUNT,%d |4серебряная:серебряные:серебряных;,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d с.,3
-11847,SCREENSHOT_FAILURE,Ошибка снятия скриншота,3
+11847,SCREENSHOT_FAILURE,Ошибка снятия скриншота,1
 11848,ANISOTROPIC,Фильтрация текстур,3
 11849,PET_RENAME_CONFIRMATION,"Дать питомцу имя ""%s""?",1
 11850,SPELLBOOK_ABILITIES_BUTTON,Способности и профессии,1
@@ -19041,15 +19041,15 @@ ID,BaseTag,TagText_lang,Flags
 42841,CONDUIT_COLLECTION_ITEM_PENDING,Ожидание,1
 42842,CONDUIT_RESET_INELIGIBLE,Нет вставленных проводников,1
 42843,GREAT_VAULT_REWARDS,Награды в Великом хранилище,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete a Heroic or Mythic dungeon this week to unlock a Great Vault reward.|n|nThe item level of your reward will be based on your highest run this week.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a second Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Complete %1$d more Heroic or Mythic |4dungeon:dungeons; this week to unlock a third Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,"Пройдите на этой неделе подземелье с ключом ""Эпохальный+"", чтобы открыть награду в Великом хранилище.|n|nУровень предмета будет соответствовать самому высокому уровню подземелья, пройденного на неделе.",1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,"Пройдите на этой неделе еще %1$d |4подземелье:подземелья:подземелий; с ключом ""Эпохальный+"", чтобы открыть вторую награду в Великом хранилище.|n|nУровень предмета будет соответствовать самому низкоуровнему из %2$d самых сложных подземелий, пройденных на неделе (текущий уровень эпохального ключа: %3$d).",1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,"Пройдите на этой неделе еще %1$d |4подземелье:подземелья:подземелий; с ключом ""Эпохальный+"", чтобы открыть третью награду в Великом хранилище.|n|nУровень предмета будет соответствовать самому низкоуровнему из %2$d самых сложных подземелий, пройденных на неделе (текущий уровень эпохального ключа: %3$d).",1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,"Вы открыли все награды, доступные на этой неделе. Посетите Великое хранилище в начале следующей недели, чтобы выбрать награду из открытого списка!",1
 42848,GREAT_VAULT_IMPROVE_REWARD,Улучшение награды,1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,"Пройдите %1$d |4эпохальное подземелье:эпохальных подземелья:эпохальных подземелий; с эпохальным ключом %2$d-го уровня или выше, чтобы улучшить награду.",1
 42850,GREAT_VAULT_REWARDS_WAITING,В вашем Великом хранилище доступны награды.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Вы или один из участников группы должны пройти предыдущий уровень.,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,"Получайте очки завоевания, чтобы приобретать предметы для рейтинговых PvP-боев в Вальдраккене. Эти предметы можно улучшать за очки чести.",1
 42855,GAIN_MAW_POWER,%s получает способность анимы: %s,1
 42856,MAW_POWER_DESCRIPTION,Способность анимы,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Кампания пройдена,1
@@ -21690,7 +21690,7 @@ ID,BaseTag,TagText_lang,Flags
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%1$s |cnDISABLED_FONT_COLOR:(вторая специализация)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Ничья,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,Здесь отображаются ваши результаты при розыгрыше добычи.|n|nПолученные предметы автоматически попадают вам в сумки. ,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Crests can be downgraded at Vaskarn in Loamm.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Уровень гребней пламени Тьмы можно понизить у Васкарн в Лоамме.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Вам придется предоставить этот реагент.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Вам придется предоставить некоторые реагенты.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Вам придется предоставить все нужные реагенты.,1
@@ -21864,7 +21864,6 @@ ID,BaseTag,TagText_lang,Flags
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aПомочь:,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aв атаку,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aиду,1
-51373,SPELL_FAILED_CUSTOM_ERROR_1010,"Вы не знаете, как это собрать.",1
 51374,ENABLE_PING_SOUNDS,Звуки сигналов,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,"Включить/отключить звуки, соответствующие сигналам игроков.",1
 51376,PING_VOLUME,Громкость сигналов,1
@@ -21895,10 +21894,8 @@ ID,BaseTag,TagText_lang,Flags
 51415,PING_MODE_CLICK_DRAG,Медленный сигнал,1
 51416,PING_MODE,Режим сигналов,1
 51417,OPTION_TOOLTIP_PING_MODE,"Определяет, как вы будете взаимодействовать с системой сигналов.",1
-51418,SPELL_FAILED_CUSTOM_ERROR_858,За вами следует достаточно лунных совушков. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Удерживая клавишу сигнала, щелкните ПКМ, чтобы разместить сигнал. Зажмите ПКМ и переместите указатель, чтобы открыть меню сигналов.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Нажмите клавишу сигнала, чтобы разместить сигнал. Зажмите эту же клавишу, чтобы открыть меню сигналов.",1
-51421,SPELL_FAILED_CUSTOM_ERROR_840,"Если хотите, чтобы вас пригласили снова, не наедайтесь сладостей.",1
 51433,PING_FAILED_SQUELCHED,Не удалось послать сигнал: чат временно приостановлен.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,"|cnTUTORIAL_BLUE_FONT_COLOR:Нажмите|r клавишу отметки, чтобы быстро поставить отметку.",1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,"|cnTUTORIAL_BLUE_FONT_COLOR:Нажмите и удерживайте|r клавишу отметки, чтобы выбрать определенную отметку.",1
@@ -21911,29 +21908,3 @@ ID,BaseTag,TagText_lang,Flags
 51442,PING_SYSTEM_TUTORIAL_LABEL,Система отметок,1
 51443,INSPECT_REQUIREMENTS,<Ctrl+щелчок – посмотреть требования>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,%s отклоняет ваше предложение провести маневры.,1
-51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,"Вы получаете валюту – %1$sх%2$d (У вас максимальное количество валюты ""%3$s"")",1
-51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
-51449,TALENT_FRAME_REFUND_INVALID_ERROR,"Исправьте все ошибки. Забудьте таланты, чтобы вернуть очки и потратить их на создание корректного варианта развития.",1
-51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,Нет действующих связей. Восстановите связь или забудьте этот талант.,1
-51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,"Потратьте больше очков, чтобы вернуть этот талант, или щелкните ПКМ, чтобы забыть его",1
-51452,PERKS_PROGRAM_FROZEN,"|cffffffffЗаморозка|r
-",1
-51457,MAP_FILTER,Фильтр карты,1
-51472,SPELL_FAILED_CUSTOM_ERROR_891,У вас уже максимальный запас бодрости,1
-51473,SPELL_FAILED_CUSTOM_ERROR_1006,"Питательные вещества на этом участке почвы должны восстановиться, прежде чем здесь можно будет выращивать растения.",1
-51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
-51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
-51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
-51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,Complete %d Heroic or Mythic |4Dungeon:Dungeons,1
-51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
-51499,PING_CHAT_SETTINGS,Chat Settings,1
-51503,PITCH_CONTROL_ADV_FLY,Dragonriding Pitch Control,1
-51504,PITCH_CONTROL_ADV_FLY_FORWARD_UP,Forward/Up,1
-51505,PITCH_CONTROL_ADV_FLY_BACKWARD_UP,Backward/Up,1
-51506,OPTION_TOOLTIP_PITCH_CONTROL_ADV_FLY,"Helps to address motor control while flying Drakes in Dragon Isles
-
-|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while Dragonriding.
-
-|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while Dragonriding.",1
-51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
-51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type.,1
