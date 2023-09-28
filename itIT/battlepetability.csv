@@ -3727,6 +3727,11 @@ I danni aumentano di [FormatDamage(10*AttackBonus())] ogni volta che questo atta
 2499,Assalto Quantico,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Colpisce il nemico, infliggendo [StandardDamage(1,1)] danni [petTypeName(abilityPetType())].",1392544,5,0,0,0
+2500,Sogni di Morte,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Arfus si addormenta. I suoi sogni di morte tormentano il bersaglio, infliggendo [StandardDamage(1,1,653)] danni [School()] a ogni turno.
+
+Mentre tormenta il bersaglio, Arfus è considerato morto.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Imposta la salute di una mascotte allo 0%.,133728,5,0,0,0
 2504,Manifesto dell'Odio,"Aggiunge [abs(abilityStateMod(71,2504))*AttackBonus()] danni a ogni attacco contro il bersaglio attivo.",4050664,5,0,530,3
 2505,Manifesto dell'Odio,"[StandardAccuracy(1,1)] |cffffffffProbabilità d'Impatto|r

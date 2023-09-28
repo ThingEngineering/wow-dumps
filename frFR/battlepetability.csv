@@ -3738,6 +3738,11 @@ Les dégâts augmentent de [FormatDamage(10*AttackBonus())] |4point:points; de 
 2499,Frappe quantique,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Frappe l’adversaire et lui inflige [StandardDamage(1,1)] points de dégâts [petTypeName(abilityPetType())].",1392544,5,0,0,0
+2500,Rêve mortel,"[StandardAccuracy(1,1)] |cffffffffChances de toucher :|r
+
+Arfus sommeille. Ses rêves mortels hantent la cible, infligeant [StandardDamage(1,1,653)] [School()] points de dégâts par tour. 
+
+Tant qu’Arfus sommeille, il est considéré comme mort.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Fixe les points de vie du familier à 0%.,133728,5,0,0,0
 2504,Haine incarnée,"Ajoute [abs(abilityStateMod(71,2504))*AttackBonus()] points de dégâts à chaque attaque contre la cible.",4050664,5,0,530,3
 2505,Haine incarnée,"|cffffffffChances de toucher :|r[StandardAccuracy(1,1)]

@@ -3734,6 +3734,11 @@ El daño aumenta [FormatDamage(10*AttackBonus())] p. cada vez que se utiliza. Pu
 2499,Golpe cuántico,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Golpea al enemigo e inflige [StandardDamage(1,1)][petTypeName(abilityPetType())] p. de daño.",1392544,5,0,0,0
+2500,Sueño letal,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Garraparthas duerme. Sus sueños letales acechan al objetivo, que recibe [StandardDamage(1,1,653)] p. de daño de [School()] cada ronda.
+
+Mientras Garraparthas duerme, se considera que está muerto.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Deja una mascota en un 0% de salud.,133728,5,0,0,0
 2504,Manifiesto del odio,"Añade [abs(abilityStateMod(71,2504))*AttackBonus()] p. de daño a cada ataque contra el objetivo.",4050664,5,0,530,3
 2505,Manifiesto del odio,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]

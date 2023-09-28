@@ -3735,6 +3735,11 @@ El daño aumenta [FormatDamage(10*AttackBonus())] p. cada vez que se usa. Puede 
 2499,Golpe cuántico,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Golpea al enemigo y le inflige [StandardDamage(1,1)] p. de daño de [petTypeName(abilityPetType())].",1392544,5,0,0,0
+2500,Sueños letales,"[StandardAccuracy(1,1)] |cffffffffde probabilidad de golpe|r
+
+Arfus se queda dormido. Sus sueños letales torturan al objetivo y le infligen [StandardDamage(1,1,653)] p. de daño de [School()] cada ronda. 
+
+Mientras Arfus duerme, se lo considera muerto.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Establece la salud de una mascota en 0%.,133728,5,0,0,0
 2504,Odio manifiesto,"Suma [abs(abilityStateMod(71,2504))*AttackBonus()] p. de daño a cada ataque contra el objetivo.",4050664,5,0,530,3
 2505,Odio manifiesto,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe:|r

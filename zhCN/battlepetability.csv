@@ -3722,6 +3722,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2499,量子打击,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
 
 打击敌人，造成[StandardDamage(1,1)]点[petTypeName(abilityPetType())]伤害。",1392544,5,0,0,0
+2500,致命梦境,"[StandardAccuracy(1,1)] |cffffffff命中几率|r
+
+阿尔福斯开始打盹。它致命的梦境会萦绕目标，每回合造成[StandardDamage(1,1,653)]点[School()]伤害。
+
+阿尔福斯打盹期间，它被视作已死亡。",236798,3,4,0,0
 2502,[DNT] INSTADEAD,将一名宠物的生命值设置为0%。,133728,5,0,0,0
 2504,具现憎恨,"对目标造成的每次攻击，伤害提高[abs(abilityStateMod(71,2504))*AttackBonus()]点。",4050664,5,0,530,3
 2505,具现憎恨,"[StandardAccuracy(1,1)] |cffffffff命中几率|r

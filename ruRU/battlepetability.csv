@@ -3727,6 +3727,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2499,Квантовый удар,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Бьет противника, нанося [StandardDamage(1,1)] ед. урона |3-11([petTypeName(abilityPetType())]).",1392544,5,0,0,0
+2500,Смертоносные сны,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+
+Псартас впадает в спячку. Его смертоносные сны преследуют цель, нанося [StandardDamage(1,1,653)] ед. |3-9([School()]) каждый раунд. 
+
+Во время спячки Псартас считается мертвым.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Снижает запас здоровья питомца до 0%.,133728,5,0,0,0
 2504,Воплощенная ненависть,"Цель получает на [abs(abilityStateMod(71,2504))*AttackBonus()] ед. урона больше от всех атак.",4050664,5,0,530,3
 2505,Воплощенная ненависть,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r

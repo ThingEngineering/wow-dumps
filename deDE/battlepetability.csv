@@ -3726,6 +3726,11 @@ Der Schaden wird bei jedem Einsatz um [FormatDamage(10*AttackBonus())] erhöht. 
 2499,Quantenstoß,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Schlägt den Gegner und fügt ihm [StandardDamage(1,1)] [petTypeName(abilityPetType())]schaden zu.",1392544,5,0,0,0
+2500,Tödliche Träume,"[StandardAccuracy(1,1)]|cffffffffTrefferchance|r
+
+Arfus schlummert. Seine tödlichen Träume suchen das Ziel heim und verursachen jede Runde [StandardDamage(1,1,653)] [School()]schaden.
+
+Während Arfus schlummert, wird er als tot betrachtet.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Setzt die Gesundheit eines Haustiers auf 0%.,133728,5,0,0,0
 2504,Manifestierter Hass,"Fügt jedem Angriff auf das Ziel [abs(abilityStateMod(71,2504))*AttackBonus()] Schaden hinzu.",4050664,5,0,530,3
 2505,Manifestierter Hass,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
