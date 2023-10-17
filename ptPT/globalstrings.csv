@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Aceitar,5
 9790,ARMOR,Armadura,7
 9791,CANCEL,Cancelar,7
-9792,CHARACTER,Personagem,1
+9792,CHARACTER,Personagem,3
 9793,CHARACTER_INFO,Informações do Personagem,1
 9794,COMPLETE,Sucesso,5
 9795,COPPER_AMOUNT,%d de Cobre,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d |4dia:dias;,3
 9832,HOURS_ABBR,%d |4H:H;,3
 9836,FRAMERATE_LABEL,QPS:,1
-9837,SCREENSHOT_SUCCESS,Tela capturada,1
+9837,SCREENSHOT_SUCCESS,Tela capturada,3
 9838,VIDEOOPTIONS_MENU,Vídeo,3
 9839,QUIT,Sair,3
 9840,CONTINUE,Continuar,7
@@ -1958,7 +1958,7 @@ ID,BaseTag,TagText_lang,Flags
 11844,SILVER_AMOUNT,%d de Prata,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d |4s:s;,3
-11847,SCREENSHOT_FAILURE,Falha na Captura de Tela,1
+11847,SCREENSHOT_FAILURE,Falha na Captura de Tela,3
 11848,ANISOTROPIC,Filtro de texturas,3
 11849,PET_RENAME_CONFIRMATION,Chamar o ajudante de '%s'?,1
 11850,SPELLBOOK_ABILITIES_BUTTON,Grimório e Profissões,1
@@ -14879,7 +14879,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Seu driver de gráficos está desatualizado. Acesse <a href=""https://us.battle.net/support/pt/article/31024"">https://us.battle.net/support/pt/article/31024</a> para mais informações.</p></body></html>",2
 34301,DRUID_DISABLED,É preciso escolher outra raça se optar por esta classe.,2
 34302,EMAIL_ADDRESS,Endereço de e-mail,2
-34303,ENABLED_FOR_SOME,Este AddOn só está ativado para alguns personagens.,2
+34303,ENABLED_FOR_SOME,Este AddOn só está ativado para alguns personagens.,3
 34304,ENTER_AUTHCODE_INFO,Digite o código digital gerado.,2
 34305,ENTER_AUTHCODE_TITLE,Código de autenticação,2
 34306,ENTER_CAPTCHA_INFO,Insira o texto exibido abaixo para provar que você não é uma criação gnômica fora de controle.,2
@@ -19060,15 +19060,15 @@ Você encontra os treinadores nos povoados e cidades.",1
 42841,CONDUIT_COLLECTION_ITEM_PENDING,Pendente,1
 42842,CONDUIT_RESET_INELIGIBLE,Nenhum conduíte engastado,1
 42843,GREAT_VAULT_REWARDS,Recompensas do Grande Cofre,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete uma masmorra Mítica+ esta semana para desbloquear uma recompensa do Grande Cofre.|n|nO nível de item da sua recompensa será baseado na sua melhor incursão da semana.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,"Complete mais %1$d |4Masmorra Mítica+:Masmorras Míticas+; esta semana para desbloquear uma segunda recompensa do Grande Cofre.|n|nO nível de item dessa recompensa será baseado na mais baixa das suas %2$d melhores incursões da semana (atualmente, Nível de Mítica %3$d).",1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,"Complete mais %1$d |4Masmorra Mítica+:Masmorras Míticas+; esta semana para desbloquear uma terceira recompensa do Grande Cofre.|n|nO nível de item dessa recompensa será baseado na mais baixa das suas %2$d melhores incursões da semana (atualmente, Nível de Mítica %3$d).",1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete uma masmorra de nível máximo Mítico ou Heroico esta semana para desbloquear uma recompensa do Grande Cofre. Masmorras de Caminhada Temporal contam como Heroicas.|n|nO nível de item da sua recompensa será baseado na sua melhor incursão da semana.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Conclua mais %1$d |4masmorra:masmorras; de nível máximo Heroico ou Mítico esta semana para desbloquear uma segunda recompensa do Grande Cofre. Masmorras de Caminhada Temporal contam como Heroicas.,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Conclua mais %1$d |4masmorra:masmorras; de nível máximo Heroico ou Mítico esta semana para desbloquear uma terceira recompensa do Grande Cofre. Masmorras de Caminhada Temporal contam como Heroicas.,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,Você desbloqueou todas as recompensas disponíveis da semana. Vá ao Grande Cofre no início da semana que vem e faça sua escolha entre as recompensas desbloqueadas!,1
 42848,GREAT_VAULT_IMPROVE_REWARD,Melhore sua recompensa,1
-42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d masmorras com Nível de Mítica %2$d ou acima para melhorar sua recompensa.,1
+42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d Mythic Level %2$d or higher dungeons to improve your reward.,1
 42850,GREAT_VAULT_REWARDS_WAITING,Você tem recompensas à sua espera no Grande Cofre.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Você ou um integrante do grupo deve vencer na camada anterior,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ganhe Dominação para comprar itens no JxJ Ranqueado em Valdrakken. Itens do JxJ Ranqueado podem ser aprimorados com Honra.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ganhe Dominação para comprar itens no JxJ Ranqueado em Valdrakken.,1
 42855,GAIN_MAW_POWER,%s ganhou Poder de Ânima: %s,1
 42856,MAW_POWER_DESCRIPTION,Poder de Ânima,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campanha concluída,1
@@ -19154,7 +19154,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 42937,ERR_GROUPS_VOICE_CHAT_DISABLED,"O bate-papo com voz dos grupos está desabilitado enquanto atualizamos o sistema. Enquanto isso, use o bate-papo com voz por meio do aplicativo Battle.net.",1
 42938,BOOST2_WARLOCKAFF_MAELIFICRAPTURE,Use |cFFFFFFFFArrebatamento Maléfico|r.,1
 42939,TORGHAST_LEVEL_PICKER_LEADER_ERROR,Você não é líder do grupo.,1
-42940,LOOT_JOURNAL_POWERS,Poderes,1
+42940,LOOT_JOURNAL_POWERS,Shadowlands Powers,1
 42941,OPTIONAL_REAGENT_TOOLTIP_SLOT_LOCKED_FORMAT,Bloqueado até o nível de perícia %s.,1
 42942,FLIGHT_MAP_CLICK_TO_ZOOM_OUT_HINT,Clique com o botão direito para afastar,1
 42943,COVENANT_SANCTUM_UPGRADE_ACTIVE,Ativo,1
@@ -20328,7 +20328,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 48939,MONTHLY_ACTIVITIES_UNTRACK,<Shift + clique para parar de acompanhar>,1
 48941,SPELL_FAILED_CUSTOM_ERROR_643,Pórtico Antigo incorreto.,1
 48942,PERKS_PROGRAM_FREEZE_ITEM_INSTRUCTIONS,Arraste um item até aqui para congelá-lo e impedir que expire.,1
-48943,PERKS_PROGRAM_FROZEN_ITEM_SET,Congelado:\n%s,1
+48943,PERKS_PROGRAM_FROZEN_ITEM_SET,|cffffffffCongelado:|r\n%s,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Feitiço equipável - Defensivo,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Feitiço equipável - Utilitário,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Feitiço equipável - Ofensivo,1
@@ -20606,7 +20606,7 @@ Vem da sua perícia profissional base, especializações, reagentes de alta qual
 49262,PROFESSIONS_USE_HIGHEST_QUALITY_REAGENTS,Marque para sempre usar os reagentes de mais alta qualidade disponíveis.,1
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,Desmarque para sempre usar os reagentes de qualidade mais baixa disponíveis.,1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,Sempre mostrar botões,1
-49267,OPTION_TOOLTIP_CAMERA_FOV,Campo de visão.,1
+49267,OPTION_TOOLTIP_CAMERA_FOV,Adjust the camera field of view,3
 49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,Ocultar indisponíveis,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,Você não possui nenhum reagente adequado.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,Absorver (%s),1
@@ -20664,7 +20664,7 @@ Vem da sua perícia profissional base, especializações, reagentes de alta qual
 49346,UNITNAME_SUMMON_TITLE51,Clone Arcano de %s,1
 49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,Você precisa de um nível de item médio de JxJ mais alto para entrar na fila.|n(Requer: %2$d. Nível atual: %3$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR: Clique com o botão esquerdo para substituir este Equipamento|r,1
-49349,ERR_SOLO_SHUFFLE_MIN_ITEM_LEVEL,Você precisa de um nível médio de itens JxJ mais alto.,1
+49349,ERR_SOLO_MIN_ITEM_LEVEL,Você precisa de um nível médio de itens JxJ mais alto.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Barra de Lançamento,1
 49351,HUD_EDIT_MODE_SETTING_CAST_BAR_SIZE,Tamanho da Barra,1
 49352,HUD_EDIT_MODE_SETTING_CAST_BAR_LOCK_TO_PLAYER_FRAME,Bloquear na Janela do Jogador,1
@@ -21459,17 +21459,17 @@ O progresso realizado abrange toda a conta.",1
 O progresso realizado abrange toda a conta.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,Você está tentando recriar este item com um limitação de único-equipado. Remova-o primeiro para recriá-lo.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Criações disponíveis: %i / %i. Criações adicionais em %s.,1
-50208,MOTION_SICKNESS_DRAGONRIDING,Vertigem de Movimento de Dragonaria,1
+50208,MOTION_SICKNESS_DRAGONRIDING,Vertigem de movimento,1
 50209,GAMEPAD_CONNECTED,Controle %d conectado: %s,1
 50210,GAMEPAD_DISCONNECTED,Controle %d desconectado: %s,1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,Círculo Focal,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,Escurecimento e Círculo,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,Escurecimento da Paisagem,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Ajuda a tratar a vertigem de movimento ao voar com os dracos nas Ilhas do Dragão
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Ajuda a tratar a vertigem de movimento durante a dragonaria.
 
-|cffffffffEscurecimento da Paisagem:|r aplica um efeito de escurecimento em volta da tela durante a dragonaria
+|cffffffffEscurecimento da Paisagem:|r aplica um efeito de escurecimento em volta da tela durante a dragonaria.
 
-|cffffffffCírculo Focal:|r adiciona uma mira focal no centro da tela",1
+|cffffffffCírculo Focal:|r adiciona um círculo focal no centro da tela.",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,Você tem %d |4pedido pessoal disponível:pedidos pessoais; de %s.,1
 50230,PROFESSIONS_ORDER_CANCELLED,Pedido cancelado,1
 50231,PROFESSIONS_ORDER_EXPIRED,Pedido expirado,1
@@ -21497,8 +21497,8 @@ O progresso realizado abrange toda a conta.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Sair da partida agora fará com que você perca pelo menos |cnORANGE_FONT_COLOR:%d|r de classificação e sofra %s de %s.|n|nVocê não receberá Honra nem Dominação das rodadas concluídas se sair agora.|n|nTem certeza de que deseja sair da partida?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Esta receita está desativada. Tente novamente mais tarde.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fA mensagem de %s talvez seja imprópria.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostrar mensagem]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efeitos de Velocidade de Dragonaria,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Desativar efeitos visuais de velocidade pode reduzir a vertigem de movimento.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efeitos de velocidade,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Desativar efeitos visuais de velocidade pode reduzir a vertigem de movimento durante a dragonaria.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Abrir pasta,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Fechar,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Copie este arquivo para um local seguro para usá-lo futuramente:,2
@@ -21708,7 +21708,7 @@ Você não pode fazer conteúdo de mundo aberto ou entrar em uma fila com este p
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Especialização Secundária)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Empate,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,Seus rolamentos de saque aparecem aqui.|n|nOs itens ganhos vão automaticamente para uma das suas bolsas. ,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,"Brasões da Chama Sombria de nível alto podem ter seu nível reduzido em Vaskarn, em Argília.",1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,"Brasões de nível alto podem ter seu nível reduzido em Vaskarn, em Argília.",1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Você fornecerá esse reagente.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Você fornecerá alguns dos reagentes.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Você fornecerá todos os reagentes.,1
@@ -21881,6 +21881,7 @@ Quer continuar?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAjudar,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAtaque,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aA caminho,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,Você não sabe como coletar isso.,1
 51374,ENABLE_PING_SOUNDS,Sons do ping,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Ativa e desativa os sons do ping,1
 51376,PING_VOLUME,Volume do ping,1
@@ -21911,8 +21912,10 @@ Quer continuar?",1
 51415,PING_MODE_CLICK_DRAG,Ping Relaxado,1
 51416,PING_MODE,Modo de Ping,1
 51417,OPTION_TOOLTIP_PING_MODE,Determina qual modo é usado para interagir com o sistema de ping.,1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,Lunisquitos suficientes já seguem você. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Ao pressionar a tecla ping, clique para enviar ping contextualmente ou clique e arraste para acionar o menu radial do ping.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,Pressione e solte a tecla ping para enviar ping contextualmente ou pressione e segure para acionar o menu radial do ping.,1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,Você não deveria comer tanta sobremesa se quiser receber convite para a próxima festa.,1
 51433,PING_FAILED_SQUELCHED,Não foi possível enviar o ping. O bate-papo está suspenso temporariamente.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Pressione|r a tecla de ping para enviar pings rapidamente pelo mundo.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Pressione e segure|r a tecla de ping para selecionar um ping específico.,1
@@ -21925,3 +21928,66 @@ Quer continuar?",1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Sistema de pings,1
 51443,INSPECT_REQUIREMENTS,<Ctrl+Clique para ver os requisitos>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,O seu convite para o Jogo de Guerra foi recusado por %s.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,Você recebe: %sx%d (Você ganhou a quantidade máxima de %s),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,Você precisa consertar todos os erros. Desaprenda talentos para liberar pontos e use-os em outro lugar para criar uma versão válida.,1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,Nenhum vínculo ativo. Reconecte-se ou desaprenda este talento.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Gaste mais pontos para restaurar este talento ou clique com o botão direito para desaprendê-lo,1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelado|r
+",1
+51457,MAP_FILTER,Filtro do mapa,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,Você já está com o máximo de Vigor,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,Os nutrientes deste solo devem ser repostos antes de mais crescimento.,1
+51480,PERSONALTABARDVENDORGREETING,Saudações! Escolha o símbolo e as cores do seu tabardo pessoal.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restringir Pings aos Líderes,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,O alvo já teve penas arrancadas. Arrancar mais seria uma grosseria sem tamanho.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Complete %d Heroic, Mythic, or Timewalking |4Dungeon:Dungeons",1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,Você só pode abrir este baú nos seus sonhos.,1
+51499,PING_CHAT_SETTINGS,Configurações de Bate-papo,1
+51503,ADV_FLY_PITCH_CONTROL,Controle de inclinação,1
+51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,Para frente/cima,1
+51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,Para trás/cima,1
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Ajuda a lidar com a função do movimento da mão durante a dragonaria.
+
+|cffffffffPara trás/cima:|r faz com que o comando Mover para Trás também incline para cima e o comando Mover Adiante também incline para baixo durante a dragonaria.
+
+|cffffffffPara frente/cima:|r faz com que o comando Mover Adiante também incline para cima e o comando Mover para Trás também incline para baixo durante a dragonaria.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,Esta criatura já foi harmonizada recentemente.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,Você não pode mais ter nenhum brasão deste tipo.,1
+51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,Voo Dinâmico,1
+51517,ADV_FLY_MINIMUM_PITCH_TEXT,Velocidade mínima de inclinação no teclado,1
+51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Velocidade máxima de inclinação no teclado,1
+51519,ADV_FLY_MINIMUM_TURN_TEXT,Velocidade mínima de giro no teclado,1
+51520,ADV_FLY_MAXIMUM_TURN_TEXT,Velocidade máxima de giro no teclado,1
+51521,OPTION_TOOLTIP_ADV_FLY_MINIMUM_PITCH,Ajusta a velocidade mínima de inclinação do comando no teclado.,1
+51522,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_PITCH,Ajusta a velocidade máxima de inclinação do comando no teclado.,1
+51523,OPTION_TOOLTIP_ADV_FLY_MINIMUM_TURN,Ajusta a velocidade mínima de giro do comando no teclado.,1
+51524,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_TURN,Ajusta a velocidade máxima de giro do comando no teclado.,1
+51525,ERR_BATTLEGROUND_JOIN_GROUP_QUEUE_WITHOUT_HEALER,Você não pode entrar neste campo de batalha como grupo sem um curador.,1
+51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,Inclinação da câmera para seguir no teclado,1
+51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,Ajusta a velocidade com que a câmera se inclina para seguir o jogador ao usar os controles Mover Adiante e Mover-se para Trás para controlar a inclinação.,1
+51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,Precisão do comando de inclinação,1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"Se ativada ao usar Mover Adiante e Mover-se para Trás para controlar a inclinação, esta configuração precisa que os comandos sejam pressionados novamente ao fazer a transição entre momentos no chão e voando. ",1
+51530,ACCESSIBILITY_MOUNT_LABEL,Montarias,1
+51535,PERKS_PROGRAM_ERROR_INDICATOR,O Posto Comercial está com dificuldades para se comunicar com o servidor. Tente novamente mais tarde.,1
+51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Compras indisponíveis,1
+51540,SPELL_FAILED_CUSTOM_ERROR_1011,Você não tem itens deste tipo.,1
+51543,KIOSK_ENTER,Entrar no mundo,2
+51552,WEEKLY_REWARDS_HEROIC,Heroico,1
+51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Conclua uma masmorra no modo Mítico para aumentar o nível de item desta recompensa.,1
+51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Nível de item %1$d - Heroico,1
+51555,WEEKLY_REWARDS_UNLOCK_REWARD,Desbloquear recompensa,1
+51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,"O nível de item desta recompensa será baseado na mais baixa das suas %1$d melhores incursões da semana (atualmente, Nível de Mítica %2$d).",1
+51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,"O nível de item desta recompensa será baseado na mais baixa das suas %1$d melhores incursões da semana (atualmente, Heroico).",1
+51560,QUEST_BG_DEFAULT,Padrão,1
+51561,QUEST_BG_LIGHT1,Luz 1,1
+51562,QUEST_BG_LIGHT2,Luz 2,1
+51563,QUEST_BG_DARK,Escuro,1
+51565,QUEST_BG_LIGHT3,Light 3,1
+51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
+51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
+51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
+51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
+51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
+51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1

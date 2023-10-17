@@ -145,14 +145,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 在焦土作用期間，所有寵物被視為|cFFFF2020燃燒|r。",237588,1,3,0,0
 173,燒灼,"恢復[StandardDamage(1,1)]點生命力，再加上使用者上一次所受攻擊傷害值一半的生命力。",236218,6,3,0,2
 174,昏迷,無法對此寵物下命令。,135860,-1,0,103,3
-175,火山,"在2|4輪:輪;後，地面會爆發熔岩，持續2|4輪:輪;，使當前敵方寵物受到[StandardDamage(3,1,175)]點[School()]傷害，並且有25%的機率在接下來的[duration(3,3,175)]輪中陷入昏迷。
+175,火山,"在1輪後，地面會爆發熔岩，持續2輪，使當前敵方寵物受到[StandardDamage(3,1,175)]點[School()]傷害，並且有25%的機率在接下來的[duration(3,3,175)]輪中陷入昏迷。
 
 [StandardAccuracy(3,1)]|cffffffff命中機率|r",524305,6,0,288,1
 176,火山,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 使敵方隊伍腳下的地面震動。
 
-在2輪後，地面會爆發熔岩，持續2輪，使當前敵方寵物受到[StandardDamage(3,1,175)]點[School()]傷害，並且有25%的機率在接下來的1輪中陷入昏迷。",524305,6,5,0,0
+在1輪後，地面會爆發熔岩，持續2輪，使當前敵方寵物受到[StandardDamage(3,1,175)]點[School()]傷害，並且有25%的機率在接下來的1輪中陷入昏迷。",524305,6,5,0,0
 177,獻祭,"每輪造成[StandardDamage(1,1)]點元素傷害。
 
 |cFFFF2020燃燒|r",135817,6,0,28,0
@@ -716,14 +716,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 在敵方隊伍周圍長出一大叢藤蔓。
 
 下一輪，對手的寵物會受到[StandardDamage(2,1,399)]點[School()]傷害並被定身[duration(2,2,399)]輪。",136100,6,3,0,0
-401,昏迷種子,"在[numTurns()]|4輪:輪;後引爆，對目前敵人的寵物造成[StandardDamage(3,1)]點元素傷害，並使目標昏迷1輪。
+401,昏迷種子,"在[numTurns()-1]輪後引爆，對目前敵人的寵物造成[StandardDamage(3,1)]點元素傷害，並使目標昏迷1輪。
 
 [StandardAccuracy(3,1)]|cffffffff命中機率|r",464030,6,0,0,0
 402,昏迷種子,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 將一枚種子種植在敵人體內。
 
-在3|4輪:輪;後，種子會開花，使目前敵人的寵物受到[StandardDamage(3,1,401)]點[School()]傷害，並昏迷[duration(3,2,401)]|4輪:輪;。",464030,6,5,0,0
+在2輪後，種子會開花，使目前敵人的寵物受到[StandardDamage(3,1,401)]點[School()]傷害，並昏迷[duration(3,2,401)]|4輪:輪;。",464030,6,5,0,0
 403,晴天,"使所有寵物的生命力上限提高[abs(abilityStateMod(99,403))]%。
 
 使造成的治療效果提高[abs(abilityStateMod(65,403))]%。",535593,6,0,179,2
@@ -1238,12 +1238,12 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 600,時間停止,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 使目標昏迷[duration(1,1)]輪。",136106,5,5,0,2
-601,定時炸彈,"在3輪後引爆，造成[StandardDamage(1,1)]點魔法傷害，並使目標昏迷1輪。",237538,5,0,0,1
+601,定時炸彈,"在3輪後引爆，造成[StandardDamage(4,1)]點魔法傷害，並使目標昏迷1輪。",237538,5,0,0,1
 602,定時炸彈,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 在敵方隊伍腳下放置時光裂隙。
 
-在[duration(1,1)]輪後，裂隙爆發，使當前的敵方寵物受到[StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)]點[School()]傷害，並陷入昏迷，持續[duration(1,2,601)]輪。",237538,5,5,0,0
+在3輪後，裂隙爆發，使當前的敵方寵物受到[StandardDamage(4,1,601)]點[School()]傷害，並陷入昏迷，持續[duration(4,2,601)]輪。",237538,5,5,0,0
 603,時光流逝,"我方隊伍攻擊的次數加倍，持續[duration(1,1)]輪。",609811,1,20,0,2
 604,極限力量,"我方隊伍攻擊造成[abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]%額外傷害。",648206,-1,0,0,2
 605,源質箭,"在[numTurns()-1]|4回合:回合;後引爆，對目前敵人的寵物造成[StandardDamage(1,1,2372)]點[School()]傷害，並使目標昏迷[duration(3,2)]|4回合:回合;。
@@ -1290,14 +1290,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 621,岩石急衝,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 猛撞向敵人，造成[StandardDamage(1,1)]點[School()]傷害，並對自己造成[SimpleDamage(1,3)]點[School()]傷害。",237002,6,1,0,0
-623,寒冰之墓,"在[numTurns()]|4輪:輪;後引爆，對目前敵人的寵物造成[StandardDamage(3,1)]點元素傷害，並使目標昏迷1輪。
+623,寒冰之墓,"在[numTurns()-1]輪後引爆，對目前敵人的寵物造成[StandardDamage(3,1)]點元素傷害，並使目標昏迷1輪。
 
 [StandardAccuracy(3,1)]|cffffffff命中機率|r",609814,6,0,0,0
 624,寒冰之墓,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 對敵人發射一顆冰凍能量球。
 
-冰凍球在3|4輪:輪;後命中，使當前敵方寵物受到[StandardDamage(3,1,623)]點[School()]傷害，並昏迷[duration(3,2,623)]輪。",609814,6,5,0,0
+冰凍球在2輪後命中，使當前敵方寵物受到[StandardDamage(3,1,623)]點[School()]傷害，並昏迷[duration(3,2,623)]輪。",609814,6,5,0,0
 625,冰刺術,"穿刺目標，造成[StandardDamage(1,1)]點[School()]傷害。
 
 此技能有很高的機率會失手。",135855,6,0,0,0
@@ -3420,7 +3420,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 
 以聖光衝擊敵人，造成[StandardDamage(1,1)] [School()]點傷害。
 
-每次使用傷害提高[FormatDamage(5*AttackBonus())]點。最高為[FormatDamage(30 *AttackBonus())] [School()]點傷害。",461859,6,0,0,0
+每次使用傷害提高[FormatDamage(5*AttackBonus())]點。最高為[FormatDamage(30 *AttackBonus())]點[School()]傷害。",461859,6,0,0,0
 2378,聖光光束,"[StandardAccuracy(1,1)] |cffffffff命中機率|r
 
 對敵方的前排寵物造成[StandardDamage(1,1)]點[School()]傷害，並且對敵方的後排寵物造成[StandardDamage(1,2)]點[School()]傷害。對所有盟友回復[StandardHealing(1,1)]點生命力。",525026,5,4,0,0
@@ -3733,6 +3733,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 
 阿福斯睡著的時候，就跟死了沒什麼兩樣。",236798,3,4,0,0
 2502,[DNT] INSTADEAD,使寵物的生命力降為0%。,133728,5,0,0,0
+2503,伊露恩的恩典,"伊露恩祝福你的隊伍，使所有盟友恢復[StandardHealing(1,1)]點生命力。",4640501,5,5,0,2
 2504,憎恨化身,"每次對目標攻擊造成[abs(abilityStateMod(71,2504))*AttackBonus()]點額外傷害。",4050664,5,0,530,3
 2505,憎恨化身,"[StandardAccuracy(1,1)]|cffffffff命中率|r
 
@@ -3740,6 +3741,13 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 
 持續[duration(1,1)]輪。",4050664,5,5,0,2
 2506,臣服恐懼,,132296,3,0,0,2
+2510,傲慢,"你受到的傷害提高[abs(abilityStateMod( 24, 185 ))]%。",1390945,5,0,530,3
+2511,傲慢,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
+
+完全不打算防禦，一昧盲目地攻擊。這些渺小的凡人又能對你做什麼呢？
+
+造成[StandardDamage(1, 1)]點[School()]傷害，但在[duration(1,3)]輪內使你受到的傷害提高[abs(abilityStateMod(24, 2510 ))]%。",1390945,5,1,0,0
 2512,冰河時期,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
 造成[StandardDamage(1,1)]點[School()]傷害，並有25%的機率使目標昏迷。",4226156,6,5,0,0
+2514,[DNT] TEST,,897140,5,0,0,18

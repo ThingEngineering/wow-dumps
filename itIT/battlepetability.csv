@@ -145,14 +145,14 @@ Brucia il terreno, infliggendo [StandardDamage(1,1)] danni [School()] e [Standar
 Durante Terra Bruciata, tutte le mascotte sono |cFFFF2020In fiamme|r.",237588,1,3,0,0
 173,Cauterizzazione,"Rigenera [StandardDamage(1,1)] salute più metà dei danni subiti dall'ultimo colpo.",236218,6,3,0,2
 174,Stordita,Stordita. Impossibile dare ordini a questa mascotte.,135860,-1,0,103,3
-175,Vulcano,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(3,1)]
+175,Vulcano,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
 
-Dopo 2 turni, il terreno si spacca per 2 turni. [StandardDamage(3,1,175)] danni [School()] subiti dalla mascotte attiva e 25% di probabilità che venga stordita per [duration(3,3,175)] |4turno:turni;.",524305,6,0,288,1
-176,Vulcano,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
+176,Vulcano,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Fa tremare il terreno sotto la squadra nemica.
+Causes the ground beneath the enemy team to tremble. 
 
-Dopo 2 turni, il terreno si spacca per 2 turni, infliggendo [StandardDamage(3,1,175)] danni [School()] alla mascotte nemica attiva e con una probabilità del 25% di stordirla per 1 turno.",524305,6,5,0,0
+After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
 177,Immolazione,"[StandardDamage(1,1)] danni elementali subiti a ogni turno.
 
 |cFFFF2020In fiamme|r",135817,6,0,28,0
@@ -716,14 +716,14 @@ Al termine di questo effetto, [StandardDamage(2,1)] danni [School()] subiti dall
 Un fitto intrico di viticci cresce intorno alla squadra nemica.
 
 Al turno successivo, la mascotte avversaria subisce [StandardDamage(2,1,399)] danni [School()] e viene immobilizzata per [duration(2,2,399)] |4turno:turni;.",136100,6,3,0,0
-401,Seme dello Stordimento,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(3,1)]
+401,Seme dello Stordimento,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-Dopo [numTurns()] |4turno:turni;, [StandardDamage(3,1)] danni elementali subiti e mascotte stordita per 1 turno.",464030,6,0,0,0
-402,Seme dello Stordimento,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
+402,Seme dello Stordimento,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Pianta un seme nel nemico.
+Plants a seed in the enemy. 
 
-Dopo 3 turni, il seme sboccia, infliggendo al nemico [StandardDamage(3,1,401)] danni [School()] e stordendolo per [duration(3,2,401)] |4turno:turni;.",464030,6,5,0,0
+After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
 403,Giorno di Sole,"Aumenta la salute massima di tutte le mascotte del [abs(abilityStateMod(99,403))]%.
 
 Aumenta le cure fornite del [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1244,12 +1244,12 @@ Rigenera salute crescente a ogni turno.",135745,-1,0,78,0
 600,Tempo Fermo,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Stordisce il bersaglio per [duration(1,1)] |4turno:turni;.",136106,5,5,0,2
-601,Bomba a Tempo,"Esplode dopo 3 |4turno:turni;, infliggendo [StandardDamage(1,1)] danni magici e stordendo il bersaglio per 1 turno.",237538,5,0,0,1
-602,Bomba a Tempo,"|cffffffffProbabilità d'impatto:|r[StandardAccuracy(1,1)]
+601,Bomba a Tempo,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
+602,Bomba a Tempo,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Piazza una Fenditura Temporale sotto la squadra nemica. 
+Places a temporal rift beneath the enemy team. 
 
-Dopo [duration(1,1)] |4turno:turni;, la fenditura si apre, infliggendo [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)] danni [School()] alla mascotte nemica attiva e stordendola per [duration(1,2,601)] |4turno:turni;.",237538,5,5,0,0
+After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
 603,Anomalia Temporale,"Gli attacchi della squadra raddoppiano per [duration(1,1)] |4turno:turni;.",609811,1,20,0,2
 604,Potenza Estrema,"[abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% di danni aggiuntivi inflitti dagli attacchi della squadra.",648206,-1,0,0,2
 605,Dardo d'Elementio,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(3,1)]
@@ -1296,14 +1296,14 @@ Colpisce una volta aggiuntiva se la mascotte attacca per prima.",348560,6,0,0,0
 621,Scatto di Pietra,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 La mascotte si abbatte sul nemico, infliggendo [StandardDamage(1,1)] danni [School()] al nemico e [SimpleDamage(1,3)] danni [School()] a se stessa.",237002,6,1,0,0
-623,Tomba di Ghiaccio,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(3,1)]
+623,Tomba di Ghiaccio,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-Dopo [numTurns()] |4turno:turni;, [StandardDamage(3,1)] danni elementali subiti e mascotte stordita per 1 turno.",609814,6,0,0,0
-624,Tomba di Ghiaccio,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
+624,Tomba di Ghiaccio,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Scaglia un globo di ghiaccio contro il nemico.
+Launches an orb of freezing energy at the target. 
 
-Dopo 3 turni, il ghiaccio colpisce, infliggendo [StandardDamage(3,1,623)] danni [School()] alla mascotte nemica attiva e stordendola per [duration(3,2,623)] |4turno:turni;.",609814,6,5,0,0
+After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
 625,Punta di Ghiaccio,"Impala il bersaglio, infliggendo [StandardDamage(1,1)] danni [School()].
 
 Ha una maggiore probabilità di mancare il bersaglio rispetto alle altre abilità.",135855,6,0,0,0
@@ -3733,6 +3733,7 @@ Arfus si addormenta. I suoi sogni di morte tormentano il bersaglio, infliggendo 
 
 Mentre tormenta il bersaglio, Arfus è considerato morto.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Imposta la salute di una mascotte allo 0%.,133728,5,0,0,0
+2503,Grazia di Elune,"Elune benedice la tua squadra, rigenerando [StandardHealing(1,1)] salute a tutti gli alleati.",4640501,5,5,0,2
 2504,Manifesto dell'Odio,"Aggiunge [abs(abilityStateMod(71,2504))*AttackBonus()] danni a ogni attacco contro il bersaglio attivo.",4050664,5,0,530,3
 2505,Manifesto dell'Odio,"[StandardAccuracy(1,1)] |cffffffffProbabilità d'Impatto|r
 
@@ -3740,6 +3741,13 @@ Un odio spropositato travolge il bersaglio, aggiungendo [abs(abilityStateMod(71,
 
 Dura [duration(1,1)] |4turno:turni;",4050664,5,5,0,2
 2506,Arrendersi al Terrore,,132296,3,0,0,2
+2510,Superbia,"Danni subiti aumentati del [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
+2511,Superbia,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Sferza ciecamente la mascotte avversaria senza pensare alla difesa. Cosa potranno mai farti dei miserabili mortali?
+
+Infligge [StandardDamage(1, 1)] danni [School()] ma aumenta i danni subiti del [abs(abilityStateMod(24, 2510 ))]% per [duration(1,3)] |4turno:turni;.",1390945,5,1,0,0
 2512,Era Glaciale,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Infligge [StandardDamage(1,1)] danni [School()] e ha una probabilità del 25% di stordire il bersaglio.",4226156,6,5,0,0
+2514,[DNT] TEST,,897140,5,0,0,18

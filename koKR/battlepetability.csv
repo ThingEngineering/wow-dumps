@@ -145,14 +145,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 모든 애완동물은 |cFFFF2020불타는|r 상태로 간주됩니다.",237588,1,3,0,0
 173,지지기,"생명력을 [StandardDamage(1,1)]만큼 회복하고 마지막으로 받은 피해의 절반을 복구합니다.",236218,6,3,0,2
 174,기절,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,103,3
-175,화산,"2라운드 뒤에 땅이 2라운드 동안 솟아나, 현재 대상에게 [StandardDamage(3,1,175)]의 [School()] 피해를 입히고 25% 확률로 대상을 [duration(3,3,175)]라운드 동안 기절시킵니다.
+175,화산,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
 
-|cffffffff적중률|r [StandardAccuracy(3,1)]",524305,6,0,288,1
-176,화산,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
+176,화산,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-상대 팀 발밑의 땅을 요동치게 합니다.
+Causes the ground beneath the enemy team to tremble. 
 
-2라운드 뒤부터 2라운드 동안 땅이 솟아나 현재 대상에게 [StandardDamage(3,1,175)]의 [School()] 피해를 입히고 25% 확률로 다음 1라운드 동안 기절시킵니다.",524305,6,5,0,0
+After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
 177,제물,"매 라운드마다 [StandardDamage(1,1)]의 원소 피해를 입힙니다.
 
 |cFFFF2020불타는|r 중입니다.",135817,6,0,28,0
@@ -717,14 +717,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 살아있는 덩굴 더미가 상대 팀 근처에서 자라나게 합니다.
 
 다음 라운드에 상대는 [StandardDamage(2,1,399)]의 [School()] 피해를 입고, [duration(2,2,399)]라운드 동안 발이 묶입니다.",136100,6,3,0,0
-401,실신 씨앗,"[numTurns()]라운드 뒤에 씨앗이 터져 현재 대상에게 [StandardDamage(3,1)]의 원소 피해를 입히고 1라운드 동안 기절시킵니다.
+401,실신 씨앗,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-|cffffffff적중률|r [StandardAccuracy(3,1)]",464030,6,0,0,0
-402,실신 씨앗,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
+402,실신 씨앗,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-적에게 씨앗을 심습니다.
+Plants a seed in the enemy. 
 
-3라운드 뒤에 씨앗이 터지면서 현재 상대 애완동물에게 [StandardDamage(3,1,401)]의 [School()] 피해를 입히고 [duration(3,2,401)]라운드 동안 기절시킵니다.",464030,6,5,0,0
+After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
 403,화창한 날,"모든 애완동물의 최대 생명력을 [abs(abilityStateMod(99,403))]%만큼 증가시킵니다.
 
 치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",535593,6,0,179,2
@@ -1240,12 +1240,12 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 600,시간 정지,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 대상을 [duration(1,1)]라운드 동안 기절시킵니다.",136106,5,5,0,2
-601,시한 폭탄,"3라운드 뒤에 폭발해 [StandardDamage(1,1)]의 마법 피해를 입히고 대상을 1라운드 동안 기절시킵니다.",237538,5,0,0,1
-602,시한 폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+601,시한 폭탄,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
+602,시한 폭탄,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-상대 팀 발밑에 일시적인 균열을 생성합니다. 
+Places a temporal rift beneath the enemy team. 
 
-[duration(1,1)]라운드 뒤에 균열이 폭발하여 현재 대상에게 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)]의 [School()] 피해를 입히고 [duration(1,2,601)]라운드 동안 기절시킵니다.",237538,5,5,0,0
+After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
 603,일탈,"우리 팀의 공격력이 [duration(1,1)]라운드 동안 두 배로 증가합니다.",609811,1,20,0,2
 604,비정상적인 힘,"우리 팀의 공격이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]%의 추가 피해를 입힙니다.",648206,-1,0,0,2
 605,엘레멘티움 화살,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(1,1,2372)]의 [School()] 피해를 입히고 [duration(3,2)]라운드 동안 기절시킵니다.
@@ -1292,14 +1292,14 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 621,돌멩이 메치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 적에게 큰 충격을 가해 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신도 [SimpleDamage(1,3)]의 [School()] 피해를 입습니다.",237002,6,1,0,0
-623,얼음 무덤,"[numTurns()]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(3,1)]의 원소 피해를 입히고 1라운드 동안 기절시킵니다.
+623,얼음 무덤,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-|cffffffff적중률|r [StandardAccuracy(3,1)]",609814,6,0,0,0
-624,얼음 무덤,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
+624,얼음 무덤,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-대상에게 얼어붙은 서리 보주를 쏩니다.
+Launches an orb of freezing energy at the target. 
 
-3라운드 뒤에 얼음이 작렬해 현재 대상에게 [StandardDamage(3,1,623)]의 [School()] 피해를 입히고 [duration(3,2,623)]라운드 동안 기절시킵니다.",609814,6,5,0,0
+After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
 625,얼음 쐐기,"대상을 꿰뚫어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
 
 이 기술은 빗나갈 확률이 높습니다.",135855,6,0,0,0
@@ -3740,6 +3740,7 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 
 멍서스가 잠자는 동안에는 죽은 것으로 간주됩니다.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,애완동물의 생명력을 0%로 설정합니다.,133728,5,0,0,0
+2503,엘룬의 은총,"엘룬이 우리 팀에 축복을 내려 모든 아군을 [StandardHealing(1,1)]만큼 치유합니다.",4640501,5,5,0,2
 2504,증오의 현신,"대상에게 매 공격마다 [abs(abilityStateMod(71,2504))*AttackBonus()]의 추가 피해를 입힙니다.",4050664,5,0,530,3
 2505,증오의 현신,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
@@ -3747,6 +3748,13 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 
 [duration(1,1)]라운드 동안 지속됩니다.",4050664,5,5,0,2
 2506,공포에 항복해라,,132296,3,0,0,2
+2510,오만,"받는 피해가 [abs(abilityStateMod( 24, 185 ))]%만큼 증가합니다.",1390945,5,0,530,3
+2511,오만,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+방어는 생각하지 않고 마구잡이로 공격을 날립니다. 하찮은 필멸자가 발악해봤자 아니겠어요?
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히지만 [duration(1,3)]라운드 동안 받는 피해가 [abs(abilityStateMod(24, 2510 ))]%만큼 증가합니다.",1390945,5,1,0,0
 2512,빙하기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 [StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",4226156,6,5,0,0
+2514,[DNT] TEST,,897140,5,0,0,18

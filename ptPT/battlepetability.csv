@@ -145,14 +145,14 @@ Calcina o chão, causando [StandardDamage(1,1)] de dano tipo [School()] e [Stand
 Durante Terra Queimada, todas as mascotes ficam |cFFFF2020Em Chamas|r.",237588,1,3,0,0
 173,Cauterizar,"Restaura [StandardDamage(1,1)] pontos de vida, mais metade do último ataque recebido pelo lançador.",236218,6,3,0,2
 174,Atordoado,Impossível dar comandos a esta mascote.,135860,-1,0,103,3
-175,Vulcão,"Após 2 |4rodada:rodadas;, o chão se rompe por mais 2 |4rodada:rodadas;, causando [StandardDamage(3,1,175)] de dano tipo [School()] à mascote inimiga atual, que tem 25% de chance de ficar atordoada pelas próximas [duration(3,3,175)] rodadas.
+175,Vulcão,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
 
-[StandardAccuracy(3,1)] |cffffffffde chance de acerto|r",524305,6,0,288,1
-176,Vulcão,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
+176,Vulcão,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Faz com que o chão sob a equipe inimiga estremeça. 
+Causes the ground beneath the enemy team to tremble. 
 
-Depois de 2 rodadas, o chão se rompe por 2 rodadas, fazendo com que a mascote inimiga atual receba [StandardDamage(3,1,175)] de dano tipo [School()] e tenha 25% de chance de ficar atordoada por 1 rodada.",524305,6,5,0,0
+After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
 177,Imolar,"Causa [StandardDamage(1,1)] de dano Elemental por rodada.
 
 |cFFFF2020Em Chamas|r",135817,6,0,28,0
@@ -358,7 +358,7 @@ Dragões causam 50% de dano adicional uma rodada depois de reduzirem os pontos d
 |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t 33% de habilidades Voadoras",618974,1,0,0,6
 246,Hibernação,"Hibernando 
 Restaura mais pontos de vida a cada rodada.",132156,-1,0,45,2
-247,Hibernar,"Cai no sono, restaurando [StandardHealing(1,1,246)] pontos de vida na primeira rodada, [StandardHealing(2,1,246)] pontos de vida no segundo e [StandardHealing(3,1, 246)] pontos de vida no terceiro.
+247,Hibernar,"Cai no sono, restaurando [StandardHealing(1,1,246)] pontos de vida na primeira rodada, [StandardHealing(2,1,246)] pontos de vida na segunda e [StandardHealing(3,1, 246)] pontos de vida na terceira.
 
 Durante a Hibernação não é possível trocar de mascote.",132156,7,5,0,2
 248,Enraizado,Esta mascote não pode ser trocada.,136091,-1,0,166,3
@@ -716,14 +716,14 @@ Causa [StandardDamage(1,1)] de dano tipo [School()] instantaneamente e |cFF1EFF0
 Faz com que um emaranhado de cipós espesso cresça ao redor da equipe inimiga. 
 
 Na próxima rodada, a mascote do oponente receberá [StandardDamage(2,1,399)] de dano tipo [School()] e será enraizada por [duration(2,2,399)] rodadas.",136100,6,3,0,0
-401,Semente Atordoante,"Detona depois de [numTurns()] |4rodada:rodadas;, causando [StandardDamage(3,1)] de dano Elemental à mascote inimiga atual e atordoando o alvo por 1 rodada.
+401,Semente Atordoante,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-[StandardAccuracy(3,1)] |cffffffffde chance de acerto|r.",464030,6,0,0,0
-402,Semente Atordoante,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
+402,Semente Atordoante,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Planta uma semente no inimigo. 
+Plants a seed in the enemy. 
 
-Depois de 3 rodadas, a semente germina, causando [StandardDamage(3,1,401)] de dano tipo [School()] e atordoando a mascote inimiga atual por [duration(3,2,401)] |4rodada:rodadas;.",464030,6,5,0,0
+After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
 403,Dia Ensolarado,"Aumenta em [abs(abilityStateMod(99,403))]% o total de pontos de vida de todas as mascotes.
 
 Aumenta em [abs(abilityStateMod(65,403))]% toda cura realizada.",535593,6,0,179,2
@@ -1239,12 +1239,12 @@ Restaura mais pontos de vida a cada rodada.",135745,-1,0,78,0
 600,Parar o Tempo,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Atordoa o alvo por [duration(1,1)] |4rodada:rodadas;.",136106,5,5,0,2
-601,Bomba Relógio,"Detona depois de 3 |4rodada:rodadas;, causando [StandardDamage(1,1)] de dano Mágico e atordoando o alvo por 1 rodada.",237538,5,0,0,1
-602,Bomba Relógio,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+601,Bomba Relógio,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
+602,Bomba Relógio,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Faz com que uma fenda se abra temporariamente embaixo da equipe inimiga. 
+Places a temporal rift beneath the enemy team. 
 
-Depois de [duration(1,1)] |4rodada:rodadas;, a fenda entra em erupção, causando [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)] de dano tipo [School()] à mascote inimiga e atordoando-a por [duration(1,2,601)] |4rodada:rodadas;.",237538,5,5,0,0
+After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
 603,Lapso Temporal,"Os ataques da sua equipe são duplicados por [duration(1,1)] |4rodada:rodadas;.",609811,1,20,0,2
 604,Poder Extremo,"Os ataques da sua equipe causam [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% de dano adicional.",648206,-1,0,0,2
 605,Raio de Elemêntio,"Detona depois de [numTurns()-1] |4rodada:rodadas;, causando [StandardDamage(1,1,2372)] de dano tipo [School()] à mascote inimiga atual e atordoando o alvo por [duration(3,2)] |4rodada:rodadas;.
@@ -1291,14 +1291,14 @@ Acerta uma vez a mais se o usuário for o primeiro a atacar.",348560,6,0,0,0
 621,Impulso Pétreo,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Choca-se contra o inimigo, causando [StandardDamage(1,1)] de dano tipo [School()] e [SimpleDamage(1,3)] de dano tipo [School()] a si mesma.",237002,6,1,0,0
-623,Tumba de Gelo,"Detona depois de [numTurns()] |4rodada:rodadas;, causando [StandardDamage(3,1)] de dano Elemental à mascote inimiga atual e atordoando o alvo por 1 rodada.
+623,Tumba de Gelo,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
-[StandardAccuracy(3,1)] |cffffffffde chance de acerto|r.",609814,6,0,0,0
-624,Tumba de Gelo,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
+624,Tumba de Gelo,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Lança um orbe de energia congelante contra o alvo. 
+Launches an orb of freezing energy at the target. 
 
-Depois de 3 |4rodada:rodadas;, o gelo atinge o alvo, causando [StandardDamage(3,1,623)] de dano tipo [School()] e atordoando a mascote inimiga por [duration(3,2,623)] |4rodada:rodadas;.",609814,6,5,0,0
+After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
 625,Aguilhão de Gelo,"Empala o alvo, causando [StandardDamage(1,1)] de dano tipo [School()].
 
 Essa habilidade tem pouca chance de acerto.",135855,6,0,0,0
@@ -3738,6 +3738,7 @@ Arfus dorme. Os sonhos mortais dele assombram o alvo, causando [StandardDamage(1
 
 Arfus é considerado morto enquanto estiver dormir.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Deixa o alvo com 0% dos pontos de vida.,133728,5,0,0,0
+2503,Graça de Eluna,"Eluna abençoa sua equipe, restaurando [StandardHealing(1,1)] pontos de vida de todos os aliados.",4640501,5,5,0,2
 2504,Manifesto do Ódio,"Adiciona [abs(abilityStateMod(71,2504))*AttackBonus()] de dano a todos os ataques contra o alvo.",4050664,5,0,530,3
 2505,Manifesto do Ódio,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
@@ -3745,6 +3746,13 @@ Arfus é considerado morto enquanto estiver dormir.",236798,3,4,0,0
 
 Dura [duration(1,1)]|4rodada:rodadas;.",4050664,5,5,0,2
 2506,Renda-se ao Terror,,132296,3,0,0,2
+2510,Arrogância,"O dano recebido por você foi aumentado em [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
+2511,Arrogância,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Ataca cegamente sem pensar em defesa. O que esses mortais insignificantes podem fazer com você?
+
+Causa [StandardDamage(1, 1)] de dano tipo [School()], mas aumenta em [abs(abilityStateMod(24, 2510 ))]% o dano recebido por [duration(1,3)] rodada.",1390945,5,1,0,0
 2512,Era do Gelo,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Causa [StandardDamage(1,1)] de dano tipo [School()] e tem 25% de chance de atordoar o alvo.",4226156,6,5,0,0
+2514,[DNT] TEST,,897140,5,0,0,18

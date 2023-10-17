@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,수락,5
 9790,ARMOR,방어도,7
 9791,CANCEL,취소,7
-9792,CHARACTER,캐릭터,1
+9792,CHARACTER,캐릭터,3
 9793,CHARACTER_INFO,캐릭터 정보,1
 9794,COMPLETE,완료,5
 9795,COPPER_AMOUNT,%d 코퍼,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d일,3
 9832,HOURS_ABBR,%d시간,3
 9836,FRAMERATE_LABEL,FPS:,1
-9837,SCREENSHOT_SUCCESS,스크린샷 저장,1
+9837,SCREENSHOT_SUCCESS,스크린샷 저장,3
 9838,VIDEOOPTIONS_MENU,그래픽 설정,3
 9839,QUIT,게임 종료,3
 9840,CONTINUE,계속,7
@@ -1957,7 +1957,7 @@ ID,BaseTag,TagText_lang,Flags
 11844,SILVER_AMOUNT,%d 실버,1
 11845,TIME_TWELVEHOURAM,오전 %d:%02d,1
 11846,SECONDS_ABBR,%d초,3
-11847,SCREENSHOT_FAILURE,스크린샷 저장 실패,1
+11847,SCREENSHOT_FAILURE,스크린샷 저장 실패,3
 11848,ANISOTROPIC,텍스처 필터링,3
 11849,PET_RENAME_CONFIRMATION,야수 이름을 %s|1으로;로; 정하시겠습니까?,1
 11850,SPELLBOOK_ABILITIES_BUTTON,마법책 및 전문 기술,1
@@ -14863,7 +14863,7 @@ ID,BaseTag,TagText_lang,Flags
 34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">그래픽 장치 드라이버가 업데이트되지 않았습니다. 자세한 내용은 다음 페이지에서 확인하시기 바랍니다. <a href=""http://nydus.battle.net/WoW/koKR/launcher/driverupdates"">http://nydus.battle.net/WoW/koKR/launcher/driverupdates</a></p></body></html>",2
 34301,DRUID_DISABLED,이 직업으로 플레이하려면 다른 종족을 선택해야 합니다.,2
 34302,EMAIL_ADDRESS,이메일 주소,2
-34303,ENABLED_FOR_SOME,이 애드온은 특정 캐릭터만 사용하도록 설정되었습니다.,2
+34303,ENABLED_FOR_SOME,이 애드온은 특정 캐릭터만 사용하도록 설정되었습니다.,3
 34304,ENTER_AUTHCODE_INFO,블리자드 인증기 또는 Battle.net 모바일 인증기에서 생성한\n인증번호를 입력하세요.,2
 34305,ENTER_AUTHCODE_TITLE,인증번호 입력,2
 34306,ENTER_CAPTCHA_INFO,"당신이 무단 작동하는 노움의 창조물이 아니라는 사실을 증명하려면, 아래에 보이는 글자를 입력해 주십시오.",2
@@ -19045,15 +19045,15 @@ ID,BaseTag,TagText_lang,Flags
 42841,CONDUIT_COLLECTION_ITEM_PENDING,대기 중,1
 42842,CONDUIT_RESET_INELIGIBLE,홈에 장착한 도관이 없습니다.,1
 42843,GREAT_VAULT_REWARDS,위대한 금고 보상,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,위대한 금고 보상을 잠금 해제하려면 이번 주에 신화+ 던전을 완료해야 합니다.|n|n보상의 아이템 레벨은 이번 주의 최고 기록에 따라 결정됩니다.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,이번 주에 신화+ 던전을 추가로 %1$d회 완료하면 두 번째 위대한 금고 보상이 잠금 해제됩니다.|n|n이 보상의 아이템 레벨은 이번 주 최고 기록 %2$d개 중 가장 낮은 기록에 따라 결정됩니다(현재 신화 %3$d 레벨).,1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,이번 주에 신화+ 던전을 추가로 %1$d회 완료하면 세 번째 위대한 금고 보상이 잠금 해제됩니다.|n|n이 보상의 아이템 레벨은 이번 주 최고 기록 %2$d개 중 가장 낮은 기록에 따라 결정됩니다(현재 신화 %3$d 레벨).,1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,위대한 금고 보상을 잠금 해제하려면 이번 주에 영웅 또는 신화 최고 레벨 던전을 완료해야 합니다. 시간여행 던전은 영웅 난이도로 간주됩니다.|n|n보상의 아이템 레벨은 이번 주의 최고 기록에 따라 결정됩니다.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,이번 주에 영웅 또는 신화 최고 레벨 던전을 추가로 %1$d회 완료하면 두 번째 위대한 금고 보상이 잠금 해제됩니다. 시간여행 던전은 영웅 난이도로 간주됩니다.,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,이번 주에 영웅 또는 신화 최고 레벨 던전을 추가로 %1$d회 완료하면 세 번째 위대한 금고 보상이 잠금 해제됩니다. 시간여행 던전은 영웅 난이도로 간주됩니다.,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,이번 주에 획득할 수 있는 모든 보상을 잠금 해제했습니다. 다음 주가 시작될 때 위대한 금고를 방문해 잠금 해제한 보상을 선택하십시오!,1
 42848,GREAT_VAULT_IMPROVE_REWARD,보상 향상,1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,신화 %2$d 레벨 이상 던전을 %1$d회 완료하면 보상이 향상됩니다.,1
 42850,GREAT_VAULT_REWARDS_WAITING,위대한 금고에 보상이 준비되어 있습니다.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,자신이나 파티원이 이전 단계를 완료해야 합니다.,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,정복 점수를 획득하여 발드라켄에서 평점제 PvP 아이템을 구매하십시오. 평점제 PvP 아이템은 명예 점수로 강화할 수 있습니다.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,정복 점수를 획득하여 발드라켄에서 평점제 PvP 아이템을 구매하십시오.,1
 42855,GAIN_MAW_POWER,%s 님이 령 능력을 획득했습니다: %s,1
 42856,MAW_POWER_DESCRIPTION,령 능력,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,대장정 완료,1
@@ -19139,7 +19139,7 @@ ID,BaseTag,TagText_lang,Flags
 42937,ERR_GROUPS_VOICE_CHAT_DISABLED,시스템 업데이트가 진행 중이어서 그룹 음성 대화를 사용하실 수 없습니다. 그동안 Battle.net 데스크톱 앱 음성 대화 사용을 부탁드립니다.,1
 42938,BOOST2_WARLOCKAFF_MAELIFICRAPTURE,|cFFFFFFFF사악한 환희|r를 사용해야 합니다.,1
 42939,TORGHAST_LEVEL_PICKER_LEADER_ERROR,당신은 파티장이 아닙니다.,1
-42940,LOOT_JOURNAL_POWERS,능력,1
+42940,LOOT_JOURNAL_POWERS,Shadowlands Powers,1
 42941,OPTIONAL_REAGENT_TOOLTIP_SLOT_LOCKED_FORMAT,%s 숙련도 달성 후 잠금 해제됩니다.,1
 42942,FLIGHT_MAP_CLICK_TO_ZOOM_OUT_HINT,우클릭하여 축소,1
 42943,COVENANT_SANCTUM_UPGRADE_ACTIVE,활성화,1
@@ -20313,7 +20313,7 @@ ID,BaseTag,TagText_lang,Flags
 48939,MONTHLY_ACTIVITIES_UNTRACK,<추적을 중단하려면 SHIFT 클릭>,1
 48941,SPELL_FAILED_CUSTOM_ERROR_643,이 고대의 차원문이 아닙니다.,1
 48942,PERKS_PROGRAM_FREEZE_ITEM_INSTRUCTIONS,아이템을 얼려 만료를 방지하려면 여기에 끌어 놓으십시오.,1
-48943,PERKS_PROGRAM_FROZEN_ITEM_SET,얼리기:\n%s,1
+48943,PERKS_PROGRAM_FROZEN_ITEM_SET,|cffffffff얼리기:|r\n%s,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,장착 가능 주문 - 방어,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,장착 가능 주문 - 다용도,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,장착 가능 주문 - 공격,1
@@ -20591,7 +20591,7 @@ ID,BaseTag,TagText_lang,Flags
 49262,PROFESSIONS_USE_HIGHEST_QUALITY_REAGENTS,이 기능을 활성화하면 언제나 가능한 한 최고 품질의 재료를 사용합니다.,1
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,언제나 가능한 한 최고 품질의 재료만을 사용하는 기능을 비활성화합니다.,1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,항상 단추 표시,1
-49267,OPTION_TOOLTIP_CAMERA_FOV,시야각.,1
+49267,OPTION_TOOLTIP_CAMERA_FOV,Adjust the camera field of view,3
 49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,사용 불가 아이템 숨기기,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,적합한 재료를 보유하고 있지 않습니다.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,흡수 (%s),1
@@ -20649,7 +20649,7 @@ ID,BaseTag,TagText_lang,Flags
 49346,UNITNAME_SUMMON_TITLE51,%s의 비전 복제,1
 49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,평균 PvP 아이템 레벨이 너무 낮아 대기열에 등록할 수 없습니다.|n(필요 레벨: %2$d. 현재 레벨: %3$d),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:이 장비를 교체하려면 왼쪽 클릭|r,1
-49349,ERR_SOLO_SHUFFLE_MIN_ITEM_LEVEL,평균 PvP 아이템 레벨이 너무 낮습니다.,1
+49349,ERR_SOLO_MIN_ITEM_LEVEL,평균 PvP 아이템 레벨이 너무 낮습니다.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,시전바,1
 49351,HUD_EDIT_MODE_SETTING_CAST_BAR_SIZE,막대 크기,1
 49352,HUD_EDIT_MODE_SETTING_CAST_BAR_LOCK_TO_PLAYER_FRAME,플레이어 개체창에 고정,1
@@ -21445,13 +21445,13 @@ ID,BaseTag,TagText_lang,Flags
 진행 상황은 전 계정에 공유됩니다.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,현재 재제작하려는 아이템에는 고유 장착 제한이 있습니다. 우선 착용 해제해야 재제작할 수 있습니다.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,사용 가능 제작 횟수: %i/%i회. 다음 사용 횟수 회복까지 %s,1
-50208,MOTION_SICKNESS_DRAGONRIDING,용 조련술 멀미 방지,1
+50208,MOTION_SICKNESS_DRAGONRIDING,멀미 방지,1
 50209,GAMEPAD_CONNECTED,게임패드 %d 연결: %s,1
 50210,GAMEPAD_DISCONNECTED,게임패드 %d 연결 해제: %s,1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,원형 조준점,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,감광 및 원형 조준점,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,지형 감광,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"용의 섬 비룡을 타고 비행할 때 발생하는 멀미를 완화합니다.
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"용 조련술 사용 시 발생하는 멀미를 완화합니다.
 
 |cffffffff지형 감광:|r 용 조련술을 사용하는 동안 화면 바깥에 감광 효과를 적용합니다.
 
@@ -21483,8 +21483,8 @@ ID,BaseTag,TagText_lang,Flags
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"지금 경기를 떠나면 최소 |cnORANGE_FONT_COLOR:%1$d|r점의 평점이 차감되고 %3$s|1이;가; %2$s 동안 부여됩니다.|n|n또한, 명예 점수나 정복 점수를 받지 못합니다.|n|n정말 경기를 떠나시겠습니까?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,현재 제조법을 이용할 수 없습니다. 나중에 다시 시도해 주십시오.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3f%s 님의 메시지가 부적절할 가능성이 있습니다.|h|cffffff00|Hcensoredmessage:%d|h |W[메시지 표시]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,용 조련술 속도 효과,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,속도 시각 효과를 비활성화하면 멀미를 완화할 수 있습니다.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,속도 효과,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,속도 시각 효과를 비활성화하면 용 조련술 사용 중 발생하는 멀미를 완화할 수 있습니다.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,폴더 열기,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,닫기,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,이 파일을 이후에 사용할 수 있도록 안전한 위치에 복사해두십시오.,2
@@ -21693,7 +21693,7 @@ ID,BaseTag,TagText_lang,Flags
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(부 전문화)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,동점,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,이곳에 내 주사위 굴림이 표시됩니다.|n|n입찰에 성공한 아이템은 자동으로 소지품에 추가됩니다. ,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,높은 레벨의 암흑불길 문장은 로암의 바스카른을 통해 등급을 낮출 수 있습니다.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,높은 레벨의 문장은 로암의 바스카른을 통해 등급을 낮출 수 있습니다.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,해당 재료를 제공합니다.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,재료 일부를 제공합니다.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,모든 재료를 제공합니다.,1
@@ -21746,7 +21746,7 @@ ID,BaseTag,TagText_lang,Flags
 51213,RPE_INFO_TEXT2,퀘스트 목록 정리,3
 51214,RPE_INFO_TEXT3,대도시 순간이동,3
 51215,RPE_INFO_TEXT4,언제든 특성 초기화 가능!,3
-51216,RPE_CHARACTER_LVL,레벨 %d |cFFFFA500%s|r,3
+51216,RPE_CHARACTER_LVL,%d 레벨 |cFFFFA500%s|r,3
 51217,LOOT_TTS_LABEL,아이템 획득,1
 51218,MONEY_TTS_LABEL,돈 획득,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,업적 아이템 획득 메시지 활성화 또는 비활성화,1
@@ -21866,6 +21866,7 @@ ID,BaseTag,TagText_lang,Flags
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|a지원,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|a공격,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|a가는 중,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,이 물품을 채집하는 법을 모릅니다.,1
 51374,ENABLE_PING_SOUNDS,신호 음향,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,신호 효과음의 사용 여부를 결정합니다.,1
 51376,PING_VOLUME,신호 음량,1
@@ -21896,8 +21897,10 @@ ID,BaseTag,TagText_lang,Flags
 51415,PING_MODE_CLICK_DRAG,완화된 신호 모드,1
 51416,PING_MODE,신호 모드,1
 51417,OPTION_TOOLTIP_PING_MODE,신호 시스템 사용에 사용할 모드를 설정합니다.,1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,이미 충분한 수의 아기 달빛야수가 동행하고 있습니다. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"신호 단축키를 누를 때 클릭하면 상황 신호를, 클릭 후 커서를 끌면 신호 메뉴가 열립니다.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,신호 단축키를 눌렀다 손을 떼면 상황에 맞는 신호를 보냅니다. 혹은 단축키를 길게 누를 경우 신호 메뉴가 열립니다.,1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,다음 연회에도 초대받으려면 후식을 너무 많이 먹지 않도록 주의해야 합니다.,1
 51433,PING_FAILED_SQUELCHED,신호를 보내지 못했습니다. 일시적으로 대화가 금지된 상태입니다.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,신호 단축키를 |cnTUTORIAL_BLUE_FONT_COLOR:눌러|r 간편 신호를 오픈 월드에 배치할 수 있습니다.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,신호 단축키를 |cnTUTORIAL_BLUE_FONT_COLOR:길게 눌러|r 특정 신호를 지정하여 배치할 수 있습니다.,1
@@ -21910,3 +21913,66 @@ ID,BaseTag,TagText_lang,Flags
 51442,PING_SYSTEM_TUTORIAL_LABEL,신호 시스템,1
 51443,INSPECT_REQUIREMENTS,<CTRL 클릭으로 요구 조건 보기>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,%s|1이;가; 모의전 초대를 거절했습니다.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,화폐 획득: %sx%d (이미 최대 수량에 해당하는 %s 획득),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,"오류를 모두 수정해야 합니다. 특성 습득을 취소하여 여유 포인트를 확보한 다음, 다른 데 투자하여 유효한 빌드를 구성해 주시기 바랍니다.",1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,활성화된 연결이 없습니다. 다시 연결하거나 해당 특성의 습득을 취소해 주시기 바랍니다.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,포인트를 좀 더 투자하여 해당 특성을 복구하거나 오른쪽 클릭으로 습득을 취소하십시오.,1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffff동결|r
+",1
+51457,MAP_FILTER,지도 필터,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,이미 활력이 모두 회복되었습니다.,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,토양의 양분이 보충되어야 새로운 작물을 길러낼 수 있습니다.,1
+51480,PERSONALTABARDVENDORGREETING,반갑습니다! 개인 휘장 상징과 색상을 선택하십시오.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,신호 권한을 공격대장으로 제한,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,대상은 이미 깃털을 뽑혔습니다. 더 뽑는 건 무례가 될 것입니다.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"영웅, 신화, 시간여행 던전 %d회 완료",1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,이 상자는 꿈속에서만 열 수 있습니다.,1
+51499,PING_CHAT_SETTINGS,대화 설정,1
+51503,ADV_FLY_PITCH_CONTROL,기수 제어,1
+51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,앞으로/위로,1
+51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,뒤로/위로,1
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"용 조련술 사용 중 손 조작 제어에 도움이 되는 기능입니다.
+
+|cffffffff뒤로/위로:|r 용 조련술 사용 중 뒤로 가기 키를 누르면 시점을 위로 올리고, 앞으로 가기 키를 누르면 시점을 아래로 내립니다.
+
+|cffffffff앞으로/위로:|r 용 조련술 사용 중 앞으로 가기 키를 누르면 시점을 위로 올리고, 뒤로 가기 키를 누르면 시점을 아래로 내립니다.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,이 생명체는 최근에 이미 조율되었습니다.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,해당 유형의 문장은 더 소지할 수 없습니다.,1
+51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,역동적 비행,1
+51517,ADV_FLY_MINIMUM_PITCH_TEXT,최소 키보드 기수 속도,1
+51518,ADV_FLY_MAXIMUM_PITCH_TEXT,최대 키보드 기수 속도,1
+51519,ADV_FLY_MINIMUM_TURN_TEXT,최소 키보드 선회 속도,1
+51520,ADV_FLY_MAXIMUM_TURN_TEXT,최대 키보드 선회 속도,1
+51521,OPTION_TOOLTIP_ADV_FLY_MINIMUM_PITCH,키보드 입력의 최소 기수 속도를 조정합니다.,1
+51522,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_PITCH,키보드 입력의 최대 기수 속도를 조정합니다.,1
+51523,OPTION_TOOLTIP_ADV_FLY_MINIMUM_TURN,키보드 입력의 최소 선회 속도를 조정합니다.,1
+51524,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_TURN,키보드 입력의 최대 선회 속도를 조정합니다.,1
+51525,ERR_BATTLEGROUND_JOIN_GROUP_QUEUE_WITHOUT_HEALER,치유 담당이 없는 파티와 함께 전장에 입장하는 것은 불가능합니다.,1
+51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,키보드 기수 카메라 따라가기,1
+51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,앞으로 가기와 뒤로 가기로 기수를 제어할 때 카메라 기수가 플레이어를 따라가는 속도를 조정합니다.,1
+51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,기수 입력 디바운스,1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"본 설정을 활성화할 경우, 앞으로 가기와 뒤로 가기로 기수를 제어할 때 해당 키를 다시 입력해야 지상과 용 조련술 전환이 이루어집니다. ",1
+51530,ACCESSIBILITY_MOUNT_LABEL,탈것,1
+51535,PERKS_PROGRAM_ERROR_INDICATOR,현재 교역소와 서버 간 통신에 차질이 발생하고 있습니다. 나중에 다시 시도하십시오.,1
+51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,구입 기능 이용 불가,1
+51540,SPELL_FAILED_CUSTOM_ERROR_1011,해당 유형의 아이템을 보유하고 있지 않습니다.,1
+51543,KIOSK_ENTER,접속하기,2
+51552,WEEKLY_REWARDS_HEROIC,영웅,1
+51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,신화 난이도 던전을 완료하면 보상의 아이템 레벨이 증가합니다.,1
+51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,아이템 레벨 %1$d - 영웅,1
+51555,WEEKLY_REWARDS_UNLOCK_REWARD,보상 해제,1
+51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,이 보상의 아이템 레벨은 이번 주 최고 기록 %1$d개 중 가장 낮은 기록에 따라 결정됩니다(현재 신화 %2$d 레벨).,1
+51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,이 보상의 아이템 레벨은 이번 주 최고 기록 %1$d개 중 가장 낮은 기록에 따라 결정됩니다(현재 영웅).,1
+51560,QUEST_BG_DEFAULT,기본,1
+51561,QUEST_BG_LIGHT1,광원 1,1
+51562,QUEST_BG_LIGHT2,광원 2,1
+51563,QUEST_BG_DARK,어두움,1
+51565,QUEST_BG_LIGHT3,Light 3,1
+51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
+51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
+51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
+51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
+51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
+51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1

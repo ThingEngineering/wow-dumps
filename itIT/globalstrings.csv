@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Accetta,5
 9790,ARMOR,Armatura,7
 9791,CANCEL,Annulla,7
-9792,CHARACTER,Personaggio,1
+9792,CHARACTER,Personaggio,3
 9793,CHARACTER_INFO,Info personaggio,1
 9794,COMPLETE,Completa,5
 9795,COPPER_AMOUNT,%d rame,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d |4giorno:giorni;,3
 9832,HOURS_ABBR,%d |4ora:ore;,3
 9836,FRAMERATE_LABEL,FPS:,1
-9837,SCREENSHOT_SUCCESS,Schermata catturata,1
+9837,SCREENSHOT_SUCCESS,Schermata catturata,3
 9838,VIDEOOPTIONS_MENU,Video,3
 9839,QUIT,Esci,3
 9840,CONTINUE,Continua,7
@@ -1968,7 +1968,7 @@ minuti per diventare |r |cffffd200completamente riposato|r|cffffffff.|r",1
 11844,SILVER_AMOUNT,%d argento,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d s,3
-11847,SCREENSHOT_FAILURE,Cattura schermata fallito,1
+11847,SCREENSHOT_FAILURE,Cattura schermata fallito,3
 11848,ANISOTROPIC,Filtro texture,3
 11849,PET_RENAME_CONFIRMATION,"Vuoi davvero chiamare il tuo famiglio ""%s""?",1
 11850,SPELLBOOK_ABILITIES_BUTTON,Grimorio e Professioni,1
@@ -15250,7 +15250,7 @@ World of Warcraft e scaricare la patch.",2
 34301,DRUID_DISABLED,"Devi scegliere una razza diversa
 per giocare questa classe.",2
 34302,EMAIL_ADDRESS,Indirizzo e-mail,2
-34303,ENABLED_FOR_SOME,Questo add-on è attivo solo per alcuni personaggi.,2
+34303,ENABLED_FOR_SOME,Questo add-on è attivo solo per alcuni personaggi.,3
 34304,ENTER_AUTHCODE_INFO,Digita il codice digitale generato.,2
 34305,ENTER_AUTHCODE_TITLE,Codice Authenticator,2
 34306,ENTER_CAPTCHA_INFO,Digita il seguente testo per dimostrare di non essere una creazione degli Gnomi.,2
@@ -19472,15 +19472,15 @@ Consentire script personalizzati?",1
 42841,CONDUIT_COLLECTION_ITEM_PENDING,In sospeso,1
 42842,CONDUIT_RESET_INELIGIBLE,Nessun Condotto incastonato,1
 42843,GREAT_VAULT_REWARDS,Ricompense della Gran Banca,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Completa una spedizione Mitica+ questa settimana per sbloccare una ricompensa della Gran Banca.|n|nIl livello oggetto della ricompensa si basa sulla spedizione di livello più alto di questa settimana.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Completa un numero di spedizioni Mitiche+ pari a %1$d questa settimana per sbloccare una seconda ricompensa della Gran Banca.|n|nIl livello oggetto della ricompensa si basa sulla spedizione più bassa tra le %2$d migliori spedizioni di questa settimana (attualmente di livello %3$d).,1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Completa un numero di spedizioni Mitiche+ pari a %1$d questa settimana per sbloccare una terza ricompensa della Gran Banca.|n|nIl livello oggetto della ricompensa si basa sulla spedizione più bassa tra le %2$d migliori spedizioni di questa settimana (attualmente di livello %3$d).,1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Completa una spedizione Eroica o Mitica di livello massimo questa settimana per sbloccare una ricompensa della Gran Banca. Le spedizioni dei Viaggi nel Tempo contano come Eroiche.|n|nIl livello oggetto della ricompensa si basa sulla spedizione di livello più alto di questa settimana.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Completa %1$d |4altra spedizione Eroica o Mitica:altre spedizioni Eroiche o Mitiche; di livello massimo questa settimana per sbloccare una seconda ricompensa della Gran Banca. Le spedizioni dei Viaggi nel Tempo contano come Eroiche.,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Completa %1$d |4altra spedizione Eroica o Mitica:altre spedizioni Eroiche o Mitiche; di livello massimo questa settimana per sbloccare una terza ricompensa della Gran Banca. Le spedizioni dei Viaggi nel Tempo contano come Eroiche.,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,Hai sbloccato tutte le ricompense disponibili per questa settimana. Visita la Gran Banca all'inizio della prossima settimana per scegliere tra le ricompense che hai sbloccato!,1
 42848,GREAT_VAULT_IMPROVE_REWARD,Migliora la tua ricompensa,1
-42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Completa %1$d spedizioni Mitiche+ di livello %2$d o più alto per migliorare la tua ricompensa.,1
+42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d Mythic Level %2$d or higher dungeons to improve your reward.,1
 42850,GREAT_VAULT_REWARDS_WAITING,Delle ricompense ti attendono alla Gran Banca.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Tu o un membro del gruppo dovete completare il blocco precedente,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ottieni Punti Conquista per acquistare oggetti del PvP classificato a Valdrakken. Gli oggetti del PvP classificato possono essere potenziati con Punti Onore.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ottieni Punti Conquista per acquistare oggetti del PvP classificato a Valdrakken.,1
 42855,GAIN_MAW_POWER,%s ha ottenuto il Potere d'Animum: %s,1
 42856,MAW_POWER_DESCRIPTION,Potere d'Animum,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campagna completata,1
@@ -19566,7 +19566,7 @@ Consentire script personalizzati?",1
 42937,ERR_GROUPS_VOICE_CHAT_DISABLED,La chat vocale di gruppo è attualmente disattivata mentre aggiorniamo il sistema. Nel frattempo puoi usare la chat vocale tramite l'applicazione Battle.net Desktop.,1
 42938,BOOST2_WARLOCKAFF_MAELIFICRAPTURE,Usa |cFFFFFFFFEstasi Malefica|r.,1
 42939,TORGHAST_LEVEL_PICKER_LEADER_ERROR,Non sei il capogruppo.,1
-42940,LOOT_JOURNAL_POWERS,Poteri,1
+42940,LOOT_JOURNAL_POWERS,Shadowlands Powers,1
 42941,OPTIONAL_REAGENT_TOOLTIP_SLOT_LOCKED_FORMAT,Bloccato fino al grado di competenza %s.,1
 42942,FLIGHT_MAP_CLICK_TO_ZOOM_OUT_HINT,Clicca col pulsante destro per ridurre la visuale,1
 42943,COVENANT_SANCTUM_UPGRADE_ACTIVE,Attivo,1
@@ -20740,7 +20740,7 @@ Consentire script personalizzati?",1
 48939,MONTHLY_ACTIVITIES_UNTRACK,<MAIUSC+pulsante sinistro per smettere di tracciare>,1
 48941,SPELL_FAILED_CUSTOM_ERROR_643,Portale Antico errato.,1
 48942,PERKS_PROGRAM_FREEZE_ITEM_INSTRUCTIONS,Trascina qui un oggetto per bloccarlo e impedire che scada,1
-48943,PERKS_PROGRAM_FROZEN_ITEM_SET,Congelamento:\n%s,1
+48943,PERKS_PROGRAM_FROZEN_ITEM_SET,|cffffffffCongelamento:|r\n%s,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Incantesimo Equipaggiabile - Difesa,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Incantesimo Equipaggiabile - Utilità,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Incantesimo Equipaggiabile - Attacco,1
@@ -21018,7 +21018,7 @@ La qualità deriva dalla competenza di base nella professione, dalle specializza
 49262,PROFESSIONS_USE_HIGHEST_QUALITY_REAGENTS,Attiva questa opzione per utilizzare sempre i reagenti di maggiore qualità disponibile.,1
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,Disattiva questa opzione per utilizzare sempre i reagenti di minore qualità disponibile.,1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,Mostra sempre i pulsanti,1
-49267,OPTION_TOOLTIP_CAMERA_FOV,Campo visivo.,1
+49267,OPTION_TOOLTIP_CAMERA_FOV,Adjust the camera field of view,3
 49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,Nascondi non disponibili,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,Non possiedi alcun reagente idoneo.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,Assorbimento (%s),1
@@ -21076,7 +21076,7 @@ La qualità deriva dalla competenza di base nella professione, dalle specializza
 49346,UNITNAME_SUMMON_TITLE51,Clone Arcano di %s,1
 49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,Devi avere un valore medio del livello PvP degli oggetti più alto. (Richiesto: %2$d. Attuale: %3$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:Clicca col pulsante sinistro per sostituire questo Equipaggiamento|r,1
-49349,ERR_SOLO_SHUFFLE_MIN_ITEM_LEVEL,Devi avere un valore medio del livello degli oggetti PvP più alto.,1
+49349,ERR_SOLO_MIN_ITEM_LEVEL,Devi avere un valore medio del livello degli oggetti PvP più alto.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Barra degli incantesimi,1
 49351,HUD_EDIT_MODE_SETTING_CAST_BAR_SIZE,Dimensioni barra,1
 49352,HUD_EDIT_MODE_SETTING_CAST_BAR_LOCK_TO_PLAYER_FRAME,Blocca il riquadro del personaggio,1
@@ -21871,17 +21871,17 @@ I progressi sono condivisi da tutto l'account.",1
 I progressi sono condivisi da tutto l'account.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,Stai cercando di ricreare un oggetto con la limitazione: Unico equipaggiabile. Rimuovilo dall'equipaggiamento prima di ricrearlo.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Creazioni disponibili: %i / %i. Creazione aggiuntiva tra %s.,1
-50208,MOTION_SICKNESS_DRAGONRIDING,Chinetosi da Volo Draconico,1
+50208,MOTION_SICKNESS_DRAGONRIDING,Chinetosi,1
 50209,GAMEPAD_CONNECTED,GamePad %d connesso: %s,1
 50210,GAMEPAD_DISCONNECTED,GamePad %d disconnesso: %s,1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,Cerchio focale,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,Oscuramento e cerchio,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,Oscuramento del paesaggio,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Aiuta a risolvere problemi di chinetosi durante il volo con i drachi nelle Isole dei Draghi
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Aiuta a risolvere problemi di chinetosi durante il Volo Draconico.
 
-|cffffffffOscuramento del paesaggio:|r applica un effetto di oscuramento alla cornice dello schermo quando il personaggio usa il Volo Draconico
+|cffffffffOscuramento del paesaggio:|r applica un effetto di oscuramento alla cornice dello schermo quando il personaggio usa il Volo Draconico.
 
-|cffffffffCerchio focale:|r aggiunge un reticolo circolare focale al centro dello schermo",1
+|cffffffffCerchio focale:|r aggiunge un reticolo circolare focale al centro dello schermo.",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,Hai %d |4ordine personale:ordini personali; di %s.,1
 50230,PROFESSIONS_ORDER_CANCELLED,Ordine eliminato,1
 50231,PROFESSIONS_ORDER_EXPIRED,Ordine scaduto,1
@@ -21909,8 +21909,8 @@ I progressi sono condivisi da tutto l'account.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Abbandonare la partita ora ti farà perdere almeno |cnORANGE_FONT_COLOR:%d|r punteggio e subirai %s di %s.|n|nAbbandonando ora, non riceverai Punti Onore o Conquista per i turni completati.|n|nVuoi davvero uscire da questa partita?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Questa ricetta è attualmente disattivata. Riprova più tardi.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fUn messaggio da %s potrebbe essere inappropriato.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostra messaggio]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti velocità del Volo Draconico,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabilitare gli effetti visivi della velocità può aiutare con la chinetosi.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti di velocità,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabilitare gli effetti visivi della velocità può aiutare con la chinetosi durante il Volo Draconico.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Apri cartella,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Chiudi,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Copia questo file in un luogo sicuro per il futuro:,2
@@ -22120,7 +22120,7 @@ Non puoi affrontare contenuti esterni o in coda con questo personaggio.",1
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Specializzazione secondaria)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Pareggio,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,I tuoi tiri per i bottini vengono mostrati qui.|n|nGli oggetti che vinci andranno automaticamente nelle tue borse. ,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Gli Emblemi d'Ombrofuoco di livello superiore possono essere depotenziati da Vaskarn a Loamm.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Gli Emblemi di livello superiore possono essere depotenziati da Vaskarn a Loamm.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,Tu fornirai questo reagente.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,Tu fornirai alcuni dei reagenti.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,Tu fornirai tutti i reagenti.,1
@@ -22293,6 +22293,7 @@ Vuoi davvero procedere?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAiuto,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttacco,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aArrivo,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,Non sai come raccoglierlo.,1
 51374,ENABLE_PING_SOUNDS,Suoni segnali,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Attiva o disattiva i suoni dei segnali,1
 51376,PING_VOLUME,Volume segnali,1
@@ -22323,8 +22324,10 @@ Vuoi davvero procedere?",1
 51415,PING_MODE_CLICK_DRAG,Segnale rilassato,1
 51416,PING_MODE,Modalità segnale,1
 51417,OPTION_TOOLTIP_PING_MODE,Determina quale modalità viene usata per interagire con il sistema dei segnali.,1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,Ti seguono già abbastanza Cuccioli di Lunagufo. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Quando premi il tasto associato al segnale, clicca per un segnale contestuale o clicca e trascina per attivare il menu radiale dei segnali.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,Premi e rilascia il tasto associato al segnale per un segnale contestuale o tieni premuto per attivare il menu radiale dei segnali.,1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,Non dovresti mangiare troppi dolci se vuoi ricevere un invito alla prossima festa.,1
 51433,PING_FAILED_SQUELCHED,Impossibile inviare il segnale: la chat è temporaneamente sospesa.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Premi|r il tasto Segnale per inviare segnali veloci nel mondo.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Premi e tieni premuto|r il tasto Segnale per selezionare un segnale specifico.,1
@@ -22337,3 +22340,66 @@ Vuoi davvero procedere?",1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Sistema dei segnali,1
 51443,INSPECT_REQUIREMENTS,<CTRL+pulsante sinistro per visualizzare i requisiti>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Il tuo invito alla prova di guerra è stato rifiutato da %s.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,Ricevi la seguente valuta: %sx%d (Hai ottenuto il numero massimo di %s),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,Devi correggere tutti gli errori. Rimuovi i talenti per liberare i punti e utilizzali altrove per creare una configurazione valida.,1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,Nessun collegamento attivo. Riconnetti o rimuovi questo talento.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Spendi altri punti per ripristinare questo talento o clicca con il pulsante destro per rimuoverlo,1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelato|r
+",1
+51457,MAP_FILTER,Filtro mappa,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,Sei già al massimo di Vigore,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,I nutrienti di questo terreno devono ripristinarsi prima di poter crescere ulteriormente.,1
+51480,PERSONALTABARDVENDORGREETING,Saluti! Scegli il simbolo e i colori per la tua insegna personale.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Limita i segnali al capo,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,Al bersaglio sono già state tolte delle piume. Sarebbe maleducato prenderne altre.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Complete %d Heroic, Mythic, or Timewalking |4Dungeon:Dungeons",1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,Puoi aprire questo forziere solo nei tuoi sogni.,1
+51499,PING_CHAT_SETTINGS,Impostazioni chat,1
+51503,ADV_FLY_PITCH_CONTROL,Controllo del beccheggio,1
+51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,Avanti/Su,1
+51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,Indietro/Su,1
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Aiuta a controllare il movimento manuale durante il Volo Draconico.
+
+|cffffffffIndietro/Su|r Fa sì che durante il Volo Draconico l'input per il movimento all'indietro faccia anche alzare il draco e l'input per il movimento in avanti lo faccia abbassare.
+
+|cffffffffAvanti/Su|r Fa sì che durante il Volo Draconico l'input per il movimento in avanti faccia anche alzare il draco e l'input per il movimento all'indietro lo faccia abbassare.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,Questa creatura è già stata sintonizzata di recente.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,Non puoi possedere altri Emblemi di questo tipo.,1
+51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,Volo Dinamico,1
+51517,ADV_FLY_MINIMUM_PITCH_TEXT,Velocità minima di beccheggio su tastiera,1
+51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Velocità massima di beccheggio su tastiera,1
+51519,ADV_FLY_MINIMUM_TURN_TEXT,Velocità minima di virata su tastiera,1
+51520,ADV_FLY_MAXIMUM_TURN_TEXT,Velocità massima di virata su tastiera,1
+51521,OPTION_TOOLTIP_ADV_FLY_MINIMUM_PITCH,Modifica la velocità minima del beccheggio tramite i comandi da tastiera.,1
+51522,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_PITCH,Modifica la velocità massima del beccheggio tramite i comandi da tastiera.,1
+51523,OPTION_TOOLTIP_ADV_FLY_MINIMUM_TURN,Modifica la velocità minima della virata tramite i comandi da tastiera.,1
+51524,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_TURN,Modifica la velocità massima della virata tramite i comandi da tastiera.,1
+51525,ERR_BATTLEGROUND_JOIN_GROUP_QUEUE_WITHOUT_HEALER,Non puoi entrare in questo campo di battaglia come gruppo senza un guaritore.,1
+51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,Visuale beccheggio su tastiera,1
+51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,Modifica la velocità del beccheggio della visuale quando segue il personaggio che usa i comandi Avanti e Indietro per controllare il beccheggio.,1
+51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,Antirimbalzo comando beccheggio,1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"Se abilitata quando si usano i comandi Avanti e Indietro per controllare il beccheggio, questa impostazione richiede che quei comandi vengano premuti di nuovo durante la transizione tra il movimento a terra e il Volo Draconico. ",1
+51530,ACCESSIBILITY_MOUNT_LABEL,Cavalcature,1
+51535,PERKS_PROGRAM_ERROR_INDICATOR,L'Emporio sta avendo difficoltà a comunicare con il server. Riprova più tardi.,1
+51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Acquisto non disponibile,1
+51540,SPELL_FAILED_CUSTOM_ERROR_1011,Non hai oggetti di questo tipo.,1
+51543,KIOSK_ENTER,Entra nel mondo,2
+51552,WEEKLY_REWARDS_HEROIC,Eroica,1
+51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Completa una spedizione in modalità Mitica per aumentare il livello oggetto di questa ricompensa.,1
+51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Livello oggetto %1$d - Eroica,1
+51555,WEEKLY_REWARDS_UNLOCK_REWARD,Sblocca ricompensa,1
+51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,Il livello oggetto di questa ricompensa si basa sulla spedizione più bassa tra le %1$d migliori spedizioni di questa settimana (attualmente di livello Mitico %2$d).,1
+51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,Il livello oggetto di questa ricompensa si basa sulla spedizione più bassa tra le %1$d migliori spedizioni di questa settimana (attualmente di livello Eroico).,1
+51560,QUEST_BG_DEFAULT,Predefinito,1
+51561,QUEST_BG_LIGHT1,Chiaro 1,1
+51562,QUEST_BG_LIGHT2,Chiaro 2,1
+51563,QUEST_BG_DARK,Scuro,1
+51565,QUEST_BG_LIGHT3,Light 3,1
+51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
+51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
+51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
+51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
+51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
+51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1
