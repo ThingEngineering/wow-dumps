@@ -145,14 +145,14 @@ Lasts [numTurns()] |4round:rounds;.",0,1,0,0,0
 Во время действия эффекта все питомцы |cFFFF2020горят|r.",237588,1,3,0,0
 173,Прижигание,"Гарантированно восстанавливает [StandardDamage(1,1)] ед. здоровья. Также излечивает половину урона, нанесенного предыдущей атакой противника.",236218,6,3,0,2
 174,Оглушение,Питомцу невозможно отдавать команды.,135860,-1,0,103,3
-175,Вулкан,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Вулкан,"Через 1 |4раунд:раунда:раундов; земля взрывается на 2 |4раунд:раунда:раундов;, нанося текущему питомцу противника [StandardDamage(3,1,175)] ед. |3-9([School()]) и с вероятностью 25% оглушая цель на [duration(3,3,175)] |4раунд:раунда:раундов;.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
-176,Вулкан,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffВероятность попадания: [StandardAccuracy(3,1)]|r",524305,6,0,288,1
+176,Вулкан,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
-Causes the ground beneath the enemy team to tremble. 
+Земля под ногами противников дрожит.
 
-After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+Через 1 раунд земля трескается на 2 раунда, нанося текущему питомцу противника [StandardDamage(3,1,175)] ед. |3-9([School()]) и с вероятностью 25% оглушая его на 1 раунд.",524305,6,5,0,0
 177,Жертвенный огонь,"Наносит [StandardDamage(1,1)] ед. урона каждый раунд (тип: элементаль).
 
 Цель |cFFFF2020горит|r",135817,6,0,28,0
@@ -716,14 +716,14 @@ After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to 
 Из-под земли под ногами вражеской команды пробиваются на поверхность мощные побеги лозы.
 
 В следующем раунде вражеский питомец получает [StandardDamage(2,1,399)] ед. |3-9([School()]) и теряет способность передвигаться на [duration(2,2,399)] |4раунд:раунда:раундов;.",136100,6,3,0,0
-401,Оглушающее семя,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Оглушающее семя,"Взрывается через [numTurns()-1] |4раунд:раунда:раундов;, нанося активному питомцу противника [StandardDamage(3,1)] ед. урона (тип: элементаль) и оглушая его на 1 раунд.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
-402,Оглушающее семя,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffВероятность попадания: [StandardAccuracy(3,1)]|r",464030,6,0,0,0
+402,Оглушающее семя,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
-Plants a seed in the enemy. 
+Роняет в противника семя.
 
-After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+Через 2 |4раунд:раунда:раундов; семя прорастает, нанося активному питомцу противника [StandardDamage(3,1,401)] ед. |3-9([School()]) и оглушая его на [duration(3,2,401)] |4раунд:раунда:раундов;.",464030,6,5,0,0
 403,Солнечный день,"Увеличивает максимальный запас здоровья всех питомцев на [abs(abilityStateMod(99,403))]%.
 
 Увеличивает эффективность исцеления на [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1238,12 +1238,12 @@ After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take 
 600,Остановка времени,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Оглушает цель на [duration(1,1)] |4раунд:раунда:раундов;.",136106,5,5,0,2
-601,Часовая бомба,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
-602,Часовая бомба,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+601,Часовая бомба,"Взрывается через 3 |4раунд:раунда:раундов;, нанося [StandardDamage(4,1)] ед. урона от магии и оглушая противника на 1 раунд.",237538,5,0,0,1
+602,Часовая бомба,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
-Places a temporal rift beneath the enemy team. 
+Создает под командой противников темпоральный разлом.
 
-After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
+Через 3 |4раунд:раунда:раундов; он взрывается, нанося активному питомцу противника [StandardDamage(4,1,601)] ед. |3-9([School()]) и оглушая его на [duration(4,2,601)] |4раунд:раунда:раундов;.",237538,5,5,0,0
 603,Временной парадокс,"Количество атак вашей команды удваивается на [duration(1,1)] |4раунд:раунда:раундов;.",609811,1,20,0,2
 604,Невероятная мощь,"Количество урона, наносимого атаками вашей команды, увеличивается на [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]%.",648206,-1,0,0,2
 605,Элементиевая стрела,"Взрывается через [numTurns()-1] |4раунд:раунда:раундов;, нанося активному питомцу противника [StandardDamage(1,1,2372)] ед. |3-9([School()]) и оглушая его на [duration(3,2)] |4раунд:раунда:раундов;.
@@ -1290,14 +1290,14 @@ After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [
 621,Каменное буйство,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Врезается в противника, нанося [StandardDamage(1,1)] ед. |3-9([School()]) ему и [SimpleDamage(1,3)] ед. |3-9([School()]) себе.",237002,6,1,0,0
-623,Ледяная гробница,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Ледяная гробница,"Взрывается через [numTurns()-1] |4раунд:раунда:раундов;, нанося активному питомцу противника [StandardDamage(3,1)] ед. урона (тип: элементаль) и оглушая его на 1 раунд.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
-624,Ледяная гробница,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffВероятность попадания: [StandardAccuracy(3,1)]|r",609814,6,0,0,0
+624,Ледяная гробница,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
-Launches an orb of freezing energy at the target. 
+Выпускает в противника сферу энергии холода. 
 
-After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+Через 2 |4раунд:раунда:раундов; она достигает цели, нанося активному питомцу противника [StandardDamage(3,1,623)] ед. |3-9([School()]) и оглушая его на [duration(3,2,623)] |4раунд:раунда:раундов;.",609814,6,5,0,0
 625,Ледяное острие,"Пронзает выбранного противника, нанося [StandardDamage(1,1)] ед. |3-9([School()]).
 
 Высокий шанс промаха.",135855,6,0,0,0

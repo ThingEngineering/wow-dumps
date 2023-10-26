@@ -146,14 +146,14 @@ Calcina el suelo, lo que inflige [StandardDamage(1,1)] p. de daño de [School()]
 Durante Tierra agostada, todas las mascotas cuentan como |cFFFF2020ardiendo|r.",237588,1,3,0,0
 173,Cauterizar,"Restaura [StandardDamage(1,1)] p. de salud más la mitad del último golpe recibido por el usuario.",236218,6,3,0,2
 174,Aturdido,No puedes dar órdenes a esta mascota.,135860,-1,0,103,3
-175,Volcán,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Volcán,"Tras 1 |4ronda:rondas;, el suelo entra en erupción durante 2 |4ronda:rondas;, lo que provoca que la mascota enemiga actual reciba [StandardDamage(3,1,175)] p. de daño de [School()] y tenga un 25% de probabilidad de quedar aturdida por las siguientes [duration(3,3,175)] rondas.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
-176,Volcán,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffProbabilidad de golpe|r: [StandardAccuracy(3,1)]",524305,6,0,288,1
+176,Volcán,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Causes the ground beneath the enemy team to tremble. 
+Provoca que tiemble el suelo bajo el equipo enemigo.
 
-After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+Tras 1 ronda, el suelo entra en erupción durante 2 rondas, lo que provoca que la mascota enemiga activa reciba [StandardDamage(3,1,175)] p. de daño de [School()] y tenga un 25% de probabilidad de quedar aturdida durante 1 ronda.",524305,6,5,0,0
 177,Inmolar,"Inflige [StandardDamage(1,1)] p. de daño de Elemental cada ronda.
 
 |cFFFF2020Ardiendo.|r",135817,6,0,28,0
@@ -719,14 +719,14 @@ Inflige al instante [StandardDamage(1,1)] p. de daño de [School()], |cFF1EFF00e
 Provoca que un grueso nido de enredaderas empiece a crecer alrededor del equipo enemigo.
 
 En la siguiente ronda, la mascota del oponente recibirá [StandardDamage(2,1,399)] p. de daño de [School()] y quedará enraizada durante [duration(2,2,399)] |4ronda:rondas;.",136100,6,3,0,0
-401,Semilla de aturdimiento,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Semilla de aturdimiento,"Detona después de [numTurns()-1] |4ronda:rondas;, lo que inflige [StandardDamage(3,1)] p. de daño de Elemental a la mascota enemiga actual y aturde al objetivo durante 1 ronda.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
-402,Semilla de aturdimiento,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffProbabilidad de golpe:|r [StandardAccuracy(3,1)]",464030,6,0,0,0
+402,Semilla de aturdimiento,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Plants a seed in the enemy. 
+Planta una semilla en el enemigo.
 
-After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+Después de 2 |4ronda:rondas;, la semilla florece, lo que provoca que la mascota enemiga actual reciba [StandardDamage(3,1,401)] p. de daño de [School()] y quede aturdida durante [duration(3,2,401)] |4ronda:rondas;.",464030,6,5,0,0
 403,Día soleado,"Aumenta la salud máxima de todas las mascotas un [abs(abilityStateMod(99,403))]%.
 
 Aumenta la sanación realizada un [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1245,12 +1245,12 @@ Restaura cada vez más salud cada ronda.",135745,-1,0,78,0
 600,Detener tiempo,"[StandardAccuracy(1,1)] |cffffffffde probabilidad de golpe|r
 
 Aturde al objetivo durante [duration(1,1)] |4ronda:rondas;.",136106,5,5,0,2
-601,Bomba de tiempo,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
-602,Bomba de tiempo,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+601,Bomba de tiempo,"Detona después de 3 |4ronda:rondas;, lo que inflige [StandardDamage(4,1)] p. de daño mágico y aturde al objetivo durante 1 ronda.",237538,5,0,0,1
+602,Bomba de tiempo,"|cffffffffProbabilidad de golpe|r: [StandardAccuracy(1,1)]
 
-Places a temporal rift beneath the enemy team. 
+Abre una falla temporal debajo del equipo del enemigo. 
 
-After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
+Después de 3 |4ronda:rondas, la falla estalla y hace que la mascota enemiga reciba [StandardDamage(4,1,601)] p. de daño [School()] y quede aturdida durante [duration(4,2,601)] ronda.",237538,5,5,0,0
 603,Lapso de tiempo,"Los ataques de tu equipo se duplican durante [duration(1,1)] |4ronda:rondas;.",609811,1,20,0,2
 604,Fuerza extrema,"Los ataques de tu equipo infligen un [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% de daño extra.",648206,-1,0,0,2
 605,Descarga de elementium,"Detona después de [numTurns()-1] |4ronda:rondas;, inflige [StandardDamage(1,1,2372)] p. de daño [School()] a la mascota enemiga actual y aturde al objetivo durante [duration(3,2)] |4ronda:rondas;.
@@ -1297,14 +1297,14 @@ Golpea una vez más si el usuario ataca primero.",348560,6,0,0,0
 621,Carga de piedra,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Se abalanza sobre el enemigo, lo que inflige [StandardDamage(1,1)] p. de daño de [School()] y se inflige [SimpleDamage(1,3)] p. de daño de [School()] a sí mismo.",237002,6,1,0,0
-623,Tumba de hielo,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Tumba de hielo,"Detona después de [numTurns()-1] |4ronda:rondas;, lo que inflige [StandardDamage(3,1)] p. de daño de Elemental a la mascota enemiga actual y aturde al objetivo durante 1 ronda.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
-624,Tumba de hielo,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffProbabilidad de golpe:|r [StandardAccuracy(3,1)]",609814,6,0,0,0
+624,Tumba de hielo,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Launches an orb of freezing energy at the target. 
+Lanza un orbe de energía gélida al objetivo.
 
-After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+Después de 2 |4ronda:rondas, el hielo golpea a la mascota activa del enemigo, lo que inflige [StandardDamage(3,1,623)] p. de daño de [School()] y la aturde durante [duration(3,2,623)] ronda.",609814,6,5,0,0
 625,Púa de hielo,"Empala al objetivo, lo que inflige [StandardDamage(1,1)] p. de daño de [School()].
 
 Esta habilidad tiene muchas posibilidades de fallar.",135855,6,0,0,0

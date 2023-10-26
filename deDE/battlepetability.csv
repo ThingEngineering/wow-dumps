@@ -145,14 +145,14 @@ Verbrennt den Boden und verursacht dabei [StandardDamage(1,1)] [School()]schaden
 Während 'Verbrannte Erde' aktiv ist, |cFFFF2020brennen|r alle betroffenen Haustiere.",237588,1,3,0,0
 173,Kauterisieren,"Stellt [StandardDamage(1,1)] Gesundheit wieder her und zusätzlich die Hälfte des letzten Treffers, der vom Benutzer erlitten wurde.",236218,6,3,0,2
 174,Betäubt,"Es ist nicht möglich, diesem Haustier Befehle zu erteilen.",135860,-1,0,103,3
-175,Vulkan,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Vulkan,"|cffffffffTrefferchance:|r [StandardAccuracy(3,1)]
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
-176,Vulkan,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+Nach einer Runde bricht der Boden zwei Runden lang auf, wodurch das aktuelle gegnerische Haustier [StandardDamage(3,1,175)] [School()]schaden erleidet und eine Chance von 25% besteht, dass es für [duration(3,3,175)] |4Runde:Runden; betäubt wird.",524305,6,0,288,1
+176,Vulkan,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Causes the ground beneath the enemy team to tremble. 
+Lässt den Boden unter dem gegnerischen Team erbeben.
 
-After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+Nach einer Runde bricht der Boden zwei Runden lang auf und fügt dem aktuellen gegnerischen Haustier [StandardDamage(3,1,175)] [School()]schaden zu. Es besteht außerdem eine Chance von 25%, dass es eine Runde lang betäubt wird.",524305,6,5,0,0
 177,Entzünden,"Verursacht [StandardDamage(1,1)] Elementarschaden in jeder Runde.
 
 |cFFFF2020Brennt|r.",135817,6,0,28,0
@@ -717,14 +717,14 @@ Wenn dieser Effekt abläuft, erleidet Euer aktuelles Haustier [StandardDamage(2,
 Lässt ein dichtes Gewirr aus Ranken um das gegnerische Team wachsen.
 
 In der nächsten Runde erleidet das Haustier des Gegners [StandardDamage(2,1,399)] [School()]schaden und wird [duration(2,2,399)] |4Runde:Runden; lang bewegungsunfähig.",136100,6,3,0,0
-401,Betäubungssaat,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Betäubungssaat,"|cffffffffTrefferchance:|r [StandardAccuracy(3,1)]
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
-402,Betäubungssaat,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+Explodiert nach [numTurns()-1] |4Runde:Runden;, fügt dem aktuellen gegnerischen Haustier [StandardDamage(3,1)] Elementarschaden zu und betäubt das Ziel 1 Runde lang.",464030,6,0,0,0
+402,Betäubungssaat,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Plants a seed in the enemy. 
+Pflanzt einen Samen im Gegner.
 
-After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+Nach zwei Runden blüht der Samen, fügt dem gegnerischen Haustier [StandardDamage(3,1,401)] [School()]schaden zu und betäubt es [duration(3,2,401)] |4Runde:Runden; lang.",464030,6,5,0,0
 403,Sonnenschein,"Erhöht die maximale Gesundheit aller Haustiere um [abs(abilityStateMod(99,403))]%.
 
 Erhöht die hervorgerufene Heilung um [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1237,12 +1237,12 @@ Die wiederhergestellte Gesundheit erhöht sich mit jeder weiteren Runde.",135745
 600,Zeitstopp,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Betäubt das Ziel [duration(1,1)] |4Runde:Runden; lang.",136106,5,5,0,2
-601,Zeitbombe,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
-602,Zeitbombe,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+601,Zeitbombe,"Explodiert nach drei Runden, verursacht [StandardDamage(4,1)] Magieschaden und betäubt das Ziel eine Runde lang.",237538,5,0,0,1
+602,Zeitbombe,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Places a temporal rift beneath the enemy team. 
+Erzeugt unter dem gegnerischen Team einen Temporalriss.
 
-After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
+Nach drei Runden bricht der Riss auf, fügt dem aktuellen gegnerischen Haustier [StandardDamage(4,1,601)] [School()]schaden zu und betäubt es [duration(4,2,601)] |4Runde:Runden; lang.",237538,5,5,0,0
 603,Zeitsprung,"Die Angriffe Eures Teams verursachen [duration(1,1)] |4Runde:Runden; lang doppelten Schaden.",609811,1,20,0,2
 604,Extreme Macht,"Die Angriffe Eures Teams verursachen [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% zusätzlichen Schaden.",648206,-1,0,0,2
 605,Elementiumblitz,"|cffffffffTrefferchance:|r [StandardAccuracy(3,1)]
@@ -1291,14 +1291,14 @@ Trifft ein zusätzliches Mal, wenn der Benutzer zuerst angreift.",348560,6,0,0,0
 621,Steinrausch,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Rammt den Gegner und fügt ihm dabei [StandardDamage(1,1)] [School()]schaden sowie sich selbst [SimpleDamage(1,3)] [School()]schaden zu.",237002,6,1,0,0
-623,Eisgrab,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Eisgrab,"|cffffffffTrefferchance:|r [StandardAccuracy(3,1)]
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
-624,Eisgrab,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+Explodiert nach [numTurns()-1] |4Runde:Runden;, fügt dem aktuellen gegnerischen Haustier [StandardDamage(3,1)] Elementarschaden zu und betäubt das Ziel 1 Runde lang.",609814,6,0,0,0
+624,Eisgrab,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Launches an orb of freezing energy at the target. 
+Schleudert eine Kugel eiskalter Energie auf das Ziel.
 
-After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+Nach zwei Runden stürzt das Eis herab, fügt dem aktuellen gegnerischen Haustier [StandardDamage(3,1,623)] [School()]schaden zu und betäubt es [duration(3,2,623)] |4Runde:Runden; lang.",609814,6,5,0,0
 625,Eisstachel,"Spießt das Ziel auf und fügt ihm [StandardDamage(1,1)] [School()]schaden zu.
 
 Diese Fähigkeit hat eine hohe Chance zu verfehlen.",135855,6,0,0,0

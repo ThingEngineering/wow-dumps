@@ -183,9 +183,9 @@ Este efecto se puede acumular hasta 3 veces y, si lo hace, la toxina se coagula 
 2199,Dominamentes Ghur'sha,,103,9,0,2200,0,1,32259,0,0,0,1,0,-1
 2200,Absorber magia,,103,10,2199,0,2201,2,0,0,429172,134430,0,160,-1
 2201,Niebla mental,,103,11,2199,0,0,2,0,0,429173,136212,0,4,-1
-2204,Fase 1: ¡Malditos invasores!,"Ozumat floods foul ink into the bubble, forming the Ink of Ozumat and Servants of Filth.",104,5,0,28235,2219,0,0,0,0,0,1,0,-1
-2219,Stage Two: Tidal Surge,"Once the Ink of Ozumat has been purged, Neptulon empowers himself and his allies with the gift of pure water.",104,23,0,2222,0,0,0,0,0,0,1,0,-1
-2220,Ozumat,"Upon reaching 10% health remaining, Ozumat flees back into the depths.",104,26,2219,28283,0,1,34135,0,0,0,1,0,-1
+2204,Fase 1: ¡Malditos invasores!,Ozumat inunda de tinta la burbuja y crea la Tinta de Ozumat y varios sirvientes de la inmundicia.,104,5,0,28235,2219,0,0,0,0,0,1,0,-1
+2219,Fase 2: Fuerza del oleaje,"Una vez purgada la Tinta de Ozumat, Neptulon se potencia a sí mismo y a sus aliados con el don del agua pura.",104,23,0,2222,0,0,0,0,0,0,1,0,-1
+2220,Ozumat,"Al llegar al 10% de salud, Ozumat huye hacia las profundidades.",104,26,2219,28283,0,1,34135,0,0,0,1,0,-1
 2222,Neptulon,,104,24,2219,2223,2220,1,32081,0,0,0,1,0,-1
 2223,Fuerza del oleaje,,104,25,2222,0,0,2,0,0,428952,136037,0,32,-1
 2356,Temblor,"Machacahuesos Rom'ogg golpea el suelo y hace que la tierra se resquebraje bajo todos los jugadores, lo que inflige $75272s1 p. de daño físico por segundo durante $75272d. $75379t1 s después, todas las brechas del suelo se rompen e infligen $75347s1 p. de daño físico a todos los objetivos enemigos en un radio de $75347A1 m de la brecha.$[!2,4
@@ -6889,18 +6889,18 @@ $bullet;El hechizo |cFF2959D3|Hspell:167679|h[Aliento solar]|h|r de Rukhmar infl
 10517,Sección 10,,1262,10,0,0,10518,2,0,0,167687,0,0,1,-1
 10518,Sección 11,,1262,11,0,0,0,2,0,0,167710,0,0,4,-1
 10531,Sección 1,,1210,6,0,0,28268,2,0,0,169179,0,0,1,-1
-10537,Flourishing Ancient,,1210,8,28268,28269,0,1,54675,0,0,0,0,0,-1
+10537,Anciano floreciente,,1210,8,28268,28269,0,1,54675,0,0,0,0,0,-1
 10538,Sección 8,,1210,10,10537,0,0,2,0,0,169929,0,0,0,-1
 10539,Sección 9,,1210,11,0,10617,10541,2,0,0,169613,0,0,0,-1
 10541,El Kirin Tor,Lady Baihu y sus magos de batalla del Kirin Tor combaten a Yalnu en un intento de detener la invasión de este.,1210,15,0,28270,0,0,0,0,0,0,1,0,-1
 10542,Bola de Fuego,,1210,17,10541,0,0,2,0,0,168666,0,0,0,-1
-10548,Resumen,"Yalnu causes an array of living plants to spring up from the earth to attack players with |cFF2959D3|Hspell:428823|h[Verdant Eruption]|h|r and |cFF2959D3|Hspell:169613|h[Genesis]|h|r. Kirin Tor mages assist the party in defense of Azeroth, using powerful magic to keep Yalnu  in check, but players must protect them to keep them in the fight.",1210,1,0,10549,10531,3,0,0,0,0,1,0,-1
-10549,DPS,"$bullet;Flourishing Ancients prevent Lady Baihu from channeling |cFF2959D3|Hspell:428746|h[Brushfire]|h|r for as long as they remain alive.
-$bullet;When Yalnu uses |cFF2959D3|Hspell:169613|h[Genesis]|h|r, step on any sprouting lashers to |cFF2959D3|Hspell:173536|h[Trample]|h|r them and prevent them from becoming full-grown.",1210,2,10548,0,10550,3,0,0,0,0,0,2,-1
-10550,Sanadores,"$bullet;When Yalnu uses |cFF2959D3|Hspell:169613|h[Genesis]|h|r, step on any sprouting lashers to |cFF2959D3|Hspell:173536|h[Trample]|h|r them and prevent them from becoming full-grown.
-$bullet;|cFF2959D3|Hspell:169179|h[Colossal Blow]|h|r inflicts heavy group-wide damage.",1210,3,10548,0,28271,3,0,0,0,0,2,4,3
-10551,Tanques,"$bullet;|cFF2959D3|Hspell:169179|h[Colossal Blow]|h|r inflicts major damage and stuns any players who fail to avoid it.
-$bullet;When Yalnu uses |cFF2959D3|Hspell:169613|h[Genesis]|h|r, step on any sprouting lashers to |cFF2959D3|Hspell:173536|h[Trample]|h|r them and prevent them from becoming full-grown.",1210,5,10548,0,0,3,0,0,0,0,0,1,-1
+10548,Resumen,"Yalnu hace que broten del suelo una serie de plantas vivas para atacar a los jugadores con |cFF2959D3|Hspell:428823|h[Erupción verdeante]|h|r y |cFF2959D3|Hspell:169613|h[Génesis]|h|r. Los magos del Kirin Tor ayudan al grupo a defender Azeroth usando una magia poderosa para mantener a raya a Yalnu, pero los jugadores deben protegerlos para que no sean eliminados de la lucha.",1210,1,0,10549,10531,3,0,0,0,0,1,0,-1
+10549,DPS,"$bullet;Los ancianos florecientes impiden que lady Baihu canalice |cFF2959D3|Hspell:428746|h[Fuegoarbusto]|h|r mientras permanecen con vida.
+$bullet;Cuando Yalnu utiliza |cFF2959D3|Hspell:169613|h[Génesis]|h|r, |cFF2959D3|Hspell:173536|h[Pisotea]|h|r los azotadores en crecimiento para impedir que crezcan.",1210,2,10548,0,10550,3,0,0,0,0,0,2,-1
+10550,Sanadores,"$bullet;Cuando Yalnu lanza |cFF2959D3|Hspell:169613|h[Génesis]|h|r, |cFF2959D3|Hspell:173536|h[Pisotea]|h|r los azotadores en crecimiento para impedir que crezcan.
+$bullet;|cFF2959D3|Hspell:169179|h[Arremetida colosal]|h|r inflige un daño importante a toda la banda.",1210,3,10548,0,28271,3,0,0,0,0,2,4,3
+10551,Tanques,"$bullet;|cFF2959D3|Hspell:169179|h[Arremetida colosal]|h|r inflige una gran cantidad de daño y aturde a los jugadores que no logren esquivarlo.
+$bullet;Cuando Yalnu lanza |cFF2959D3|Hspell:169613|h[Génesis]|h|r, |cFF2959D3|Hspell:173536|h[Pisotea]|h|r los azotadores en crecimiento para impedir que crezcan.",1210,5,10548,0,0,3,0,0,0,0,0,1,-1
 10552,DPS,"$bullet;|cFF2959D3|Hspell:168082|h[Revitalizar]|h|r restaura una gran cantidad de salud si no se interrumpe.
 $bullet;|cFF2959D3|Hspell:427459|h[Flor tóxica]|h|r aturde a todos los jugadores si no se interrumpe.",1207,2,10405,0,10553,3,0,0,0,0,1,2,-1
 10553,Sanadores,"$bullet;|cFF2959D3|Hspell:427498|h[Furia torrencial]|h|r y |cFF2959D3|Hspell:427509|h[Furia terrestre]|h|r infligen daño constante a todo el grupo.
@@ -20258,8 +20258,8 @@ Al llegar a 100 p. de energía, el tsunami usa |cFF2959D3|Hspell:388420|h[Lanzar
 $bullet;El tsunami primigenio seguirá lanzando |cFF2959D3|Hspell:389872|h[Resaca]|h|r si no hay jugadores al alcance de los ataques cuerpo a cuerpo.",2511,2,25525,0,25527,3,0,0,0,0,0,1,-1
 25527,DPS,"$bullet;Los primalistas inyectores seguirán lanzando |cFF2959D3|Hspell:387619|h[Imbuir]|h|r al tsunami primigenio hasta que los interrumpan.
 $bullet;|cFF2959D3|Hspell:383204|h[Tsunami aplastante]|h|r repelerá a los jugadores y los ralentizarán durante |cFF2959D3|Hspell:388420|h[Lanzar lejos]|h|r.",2511,3,25525,0,25528,3,0,0,0,0,0,2,-1
-25528,Sanadores,"$bullet;|cFF2959D3|Hspell:387571|h[Focused Deluge]|h|r will inflict high Frost damage to the target.
-$bullet;|cFF2959D3|Hspell:383204|h[Crashing Tsunami]|h|r will knock back and slow players during |cFF2959D3|Hspell:388420|h[Cast Away]|h|r.",2511,4,25525,0,0,3,0,0,0,0,0,4,-1
+25528,Sanadores,"$bullet;|cFF2959D3|Hspell:387571|h[Inundación enfocada]|h|r infligirá una gran cantidad de daño de Escarcha a su objetivo.
+$bullet;;|cFF2959D3|Hspell:383204|h[Tsunami aplastante]|h|r repelerá a los jugadores y los ralentizará durante |cFF2959D3|Hspell:388420|h[Lanzar lejos]|h|r.",2511,4,25525,0,0,3,0,0,0,0,0,4,-1
 25529,Fase 1: Oleadas violentas,,2511,5,0,25610,25531,0,0,0,0,0,1,0,-1
 25530,Sección 7,,2511,18,25531,25601,0,2,0,0,387363,0,0,0,-1
 25531,Fase 2: Aguas imbuidas,,2511,12,0,25724,0,0,0,0,0,0,1,0,-1
@@ -20841,20 +20841,20 @@ $bullet;Hay que atacar rápidamente a los refuerzos primalistas para evitar que 
 26127,Sección 20,,1719,16,13074,0,0,2,0,0,397903,0,0,0,-1
 26128,Sección 21,,1719,19,13075,0,0,2,0,0,397907,0,0,64,-1
 26129,Sección 22,,1719,22,13076,0,0,2,0,0,397892,0,0,0,-1
-26130,Resumen,"As the battle for Amirdrassil begins, Fyrakk conjures |cFF2959D3|Hspell:419506|h[Firestorms]|h|r that darken the sky. Each time Fyrakk casts |cFF2959D3|Hspell:420422|h[Wildfire]|h|r, the |cFF2959D3|Hspell:419066|h[Raging Flames]|h|r spread. Upon reaching $421528s1% remaining health, Fyrakk attempts to |cFF2959D3|Hspell:419144|h[Corrupt]|h|r the Heart of Amirdrassil.
+26130,Resumen,"Cuando comienza la batalla por Amirdrassil, Fyrakk conjura unas |cFF2959D3|Hspell:419506|h[Tormentas de Fuego]|h|r que oscurecen el cielo. Cada vez que lanza |cFF2959D3|Hspell:420422|h[Fuego salvaje]|h|r, las |cFF2959D3|Hspell:419066|h[Llamas enfurecidas]|h|r se propagan. Cuando le quede un $421528s1% de salud, Fyrakk intentará |cFF2959D3|Hspell:419144|h[Corromper]|h|r el corazón de Amirdrassil.
 
-As |cFF2959D3|Hspell:422032|h[Spirits of the Kaldorei]|h|r emerge to defend the world tree, Fyrakk animates living shadowflame with |cFF2959D3|Hspell:422524|h[Shadowflame Devastation]|h|r.
+Mientras surgen los |cFF2959D3|Hspell:422032|h[Espíritus de los kaldorei]|h|r para defender el Árbol del Mundo, Fyrakk aniquila a sus enemigos con |cFF2959D3|Hspell:422524|h[Devastación de llama de las Sombras]|h|r.
 
-Fyrakk unleashes the full power of an Incarnate with |cFF2959D3|Hspell:422837|h[Apocalypse Roar]|h|r as the world tree begins to produce |cFF2959D3|Hspell:423601|h[Seeds of Amirdrassil]|h|r.",2519,1,0,26131,26666,3,0,0,0,0,0,0,-1
-26131,Tanques,"$bullet;|cFF2959D3|Hspell:417443|h[Mark of Fyr'alath]|h|r inflicts heavy Shadowflame damage each time Fyrakk attacks a player.
-$bullet;Fyrakk calls down two Burning Colossi with |cFF2959D3|Hspell:422518|h[Greater Firestorm]|h|r.
-$bullet;Fyrakk inflicts massive damage with |cFF2959D3|Hspell:425492|h[Burning Maw]|h|r while in dragon form.",2519,2,26130,0,26132,3,0,0,0,0,0,1,-1
-26132,Sanadores,"$bullet;|cFF2959D3|Hspell:417455|h[Dream Rend]|h|r inflicts heavy Shadowflame damage to all players while the portal is open.
-$bullet;Fyrakk periodically lights players |cFF2959D3|Hspell:417807|h[Aflame]|h|r.
-$bullet;Injured |cFF2959D3|Hspell:422032|h[Spirits of the Kaldorei]|h|r transfer their health to Amirdrassil upon reaching it.",2519,3,26130,0,26133,3,0,0,0,0,0,4,-1
-26133,DPS,"$bullet;|cFF2959D3|Hspell:420422|h[Wildfire]|h|r causes |cFF2959D3|Hspell:419066|h[Raging Flames]|h|r to spread towards the |cFF2959D3|Hspell:425346|h[Roots of Amirdrassil]|h|r.
-$bullet;Burning Colossi cast |cFF2959D3|Hspell:428400|h[Exploding Core]|h|r upon reaching 100 energy.
-$bullet;Fyrakk leaves behind a trail of Raging Embers with |cFF2959D3|Hspell:422524|h[Shadowflame Devastation]|h|r.",2519,4,26130,0,0,3,0,0,0,0,0,2,-1
+Fyrakk desata todo su poder como Encarnación con un |cFF2959D3|Hspell:422837|h[Rugido apocalíptico]|h|r mientras el Árbol del Mundo empieza a producir |cFF2959D3|Hspell:423601|h[Semillas de Amirdrassil]|h|r.",2519,1,0,26131,26666,3,0,0,0,0,0,0,-1
+26131,Tanques,"$bullet;|cFF2959D3|Hspell:417443|h[Marca de Fyr'alath]|h|r inflige mucho daño de llama de las Sombras cada vez que Fyrakk ataca a un jugador.
+$bullet;Fyrakk invoca a dos colosos ardientes con |cFF2959D3|Hspell:422518|h[Tormenta de fuego superior]|h|r.
+$bullet;Fyrakk inflige daño masivo con |cFF2959D3|Hspell:425492|h[Fauce infernal]|h|r mientras está en forma de dragón.",2519,2,26130,0,26132,3,0,0,0,0,0,1,-1
+26132,Sanadores,"$bullet;|cFF2959D3|Hspell:417455|h[Desgarrar el Sueño]|h|r inflige mucho daño de llama de las Sombras a todos los jugadores mientras el portal está abierto.
+$bullet;Fyrakk prende |cFF2959D3|Hspell:417807|h[En llamas]|h|r a los jugadores cada cierto tiempo.
+$bullet;Los |cFF2959D3|Hspell:422032|h[Espíritus de los kaldorei]|h|r transfieren su salud a Amirdrassil al alcanzar el árbol.",2519,3,26130,0,26133,3,0,0,0,0,0,4,-1
+26133,DPS,"$bullet;|cFF2959D3|Hspell:420422|h[Fuego salvaje]|h|r hace que las |cFF2959D3|Hspell:419066|h[Llamas enfurecidas]|h|r se propaguen hacia las |cFF2959D3|Hspell:425346|h[Raíces de Amirdrassil]|h|r.
+$bullet;Los colosos ardientes lanzan |cFF2959D3|Hspell:428400|h[Núcleo detonante]|h|r al llegar a 100 p. de energía.
+$bullet;Fyrakk deja tras de sí un rastro de Ascuas iracundas con |cFF2959D3|Hspell:422524|h[Devastación de llama de las Sombras]|h|r.",2519,4,26130,0,0,3,0,0,0,0,0,2,-1
 26134,Sección 91,,2499,70,25818,0,0,2,0,0,399057,0,1,2,-1
 26135,Sección 92,,2499,79,25477,0,26029,2,0,0,399713,0,2,8,0
 26136,Resumen,"El escamandante Sarkareth comienza la batalla con |cFF2959D3|Hspell:401383|h[Aullido opresor]|h|r e intenta aniquilar a los jugadores con |cFF2959D3|Hspell:401810|h[Oleada resplandeciente]|h|r.
@@ -21219,7 +21219,7 @@ $bullet;|cFF2959D3|Hspell:408228|h[Ola de choque]|h|r se lanza tres veces rápid
 26514,El Campo de Batalla Infinito,"En este campo de batalla perdido en el tiempo, la lucha no cesa. Las fuerzas de la Horda y la Alianza combaten sin descanso en la arena.",2533,5,0,26515,26525,0,0,0,0,0,0,0,-1
 26515,Fuerzas de la Horda,,2533,6,26514,27206,0,0,0,0,0,0,1,0,-1
 26525,Grommash Grito Infernal,,2533,14,0,27246,0,1,0,0,0,0,1,0,-1
-26526,Sección 13,,2533,20,26525,0,26690,2,0,0,418046,0,0,0,-1
+26526,Sección 13,,2533,19,26525,0,26688,2,0,0,418046,0,0,0,-1
 26529,Sección 26,,2524,15,26209,0,26222,2,0,0,398938,0,0,32,-1
 26530,Sección 24,,2529,16,26336,0,26341,2,0,0,407640,0,2,8,0
 26532,Sección 8,,2523,44,26421,26533,26537,2,0,0,407221,0,0,0,-1
@@ -21380,8 +21380,8 @@ En dificultad heroica y superior, los vórtices de lava expulsan olas de lava co
 26664,Sección 22,,2525,9,26663,0,0,2,0,0,403543,0,0,0,-1
 26666,Fase 1: Rajasueños,"Fyrakk empuña la hoja ardiente, Fyr'alath la Rajasueños.",2519,5,0,27341,26667,0,0,0,0,0,1,0,-1
 26667,Intermedio: Amirdrassil en peligro,Fyrakk ataca el corazón de Amirdrassil directamente con llamas corruptoras.,2519,29,0,27483,26668,0,0,0,0,0,1,0,-1
-26668,Fase 2: Hijos de las estrellas,Un poder se agita en el corazón de Amirdrassil mientras Fyrakk manifiesta llama de las Sombras viviente para que le ayude.,2519,38,0,27571,26670,0,0,0,0,0,1,0,-1
-26670,Fase 3: La llama de las Sombras encarnada,Fyrakk desata todo el poder de una Encarnación en los últimos momentos de Amirdrassil.,2519,68,0,28384,0,0,0,0,0,0,1,0,-1
+26668,Fase 2: Hijos de las estrellas,Un poder se agita en el corazón de Amirdrassil mientras Fyrakk manifiesta llama de las Sombras viviente para que le ayude.,2519,45,0,27571,26670,0,0,0,0,0,1,0,-1
+26670,Fase 3: La llama de las Sombras encarnada,Fyrakk desata todo el poder de una Encarnación en los últimos momentos de Amirdrassil.,2519,77,0,28442,0,0,0,0,0,0,1,0,-1
 26671,Aliento abisal,,2520,32,26142,26672,26143,2,0,0,404456,0,3,0,0
 26672,Recolección vacía,"Al lanzar Aliento abisal, Sarkareth deja tras de sí imágenes de sí mismo.",2520,33,26671,26673,26675,1,111768,0,0,0,2,4097,0
 26673,Rescisión,,2520,34,26672,0,26803,2,0,0,404705,0,0,0,-1
@@ -21395,10 +21395,10 @@ En dificultad heroica y superior, los vórtices de lava expulsan olas de lava co
 26685,Sección 35,,2524,37,26684,0,0,2,0,0,406585,0,1,4,-1
 26686,Sección 31,,2524,35,26683,0,26684,2,0,0,410351,0,0,1,-1
 26687,Sección 19,,2533,16,26525,26692,26689,2,0,0,410254,0,0,1,-1
-26688,Sección 20,,2533,18,26687,0,0,2,0,0,419602,0,1,0,-1
-26689,Sección 22,,2533,19,26525,0,26526,2,0,0,408227,0,0,0,-1
+26688,Sección 20,,2533,20,26525,0,26690,2,0,0,419602,0,1,0,-1
+26689,Sección 22,,2533,18,26525,0,26526,2,0,0,408227,0,0,0,-1
 26690,Sección 23,,2533,21,26525,0,0,2,0,0,410496,0,0,0,-1
-26692,Sección 24,,2533,17,26687,0,26688,2,0,0,410497,0,1,0,-1
+26692,Sección 24,,2533,17,26687,0,0,2,0,0,410497,0,1,0,-1
 26694,Sección 32,,2524,34,26801,0,0,2,0,0,404616,0,3,8,0
 26695,Sección 14,,2523,38,26421,26696,27114,2,0,0,402902,0,0,0,-1
 26696,Sección 10,,2523,39,26695,0,0,2,0,0,402831,0,0,0,-1
@@ -21625,13 +21625,12 @@ $bullet;La combinación de |cFF2959D3|Hspell:405914|h[Vulnerabilidad marchitador
 27211,Sección 16,,2533,12,27210,0,27212,2,0,0,407122,0,0,0,-1
 27212,Sección 16,,2533,13,27210,0,0,2,0,0,407121,0,0,128,-1
 27214,Sección 24,,2538,20,27204,0,0,2,0,0,417413,0,1,0,-1
-27216,Sección 10,,2519,59,27599,0,0,2,0,0,422527,0,3,24,0
-27220,DPS,"$bullet; |cFF2959D3|Hspell:403486|h[Eon Residue]|h|r causes |cFF2959D3|Hspell:417480|h[Residue Blast]|h|r if it fails to hit a player.
-$bullet; |cFF2959D3|Hspell:413105|h[Eon Shatter]|h|r and the resulting |cFF2959D3|Hspell:405970|h[Eon Fragments]|h|r inflict significant damage.",2521,2,26415,0,26412,3,0,0,0,0,2,2,0
-27221,Sanadores,"$bullet; |cFF2959D3|Hspell:413013|h[Chronoshear]|h|r's healing absorption prevents dispelling of |cFF2959D3|Hspell:413041|h[Sheared Lifespan]|h|r.
-$bullet; |cFF2959D3|Hspell:403486|h[Eon Residue]|h|r causes |cFF2959D3|Hspell:417480|h[Residue Blast]|h|r if it fails to hit a player.",2521,4,26415,0,26413,3,0,0,0,0,2,4,0
-27222,Tanques,"$bullet; |cFF2959D3|Hspell:413013|h[Chronoshear]|h|r increases incoming damage with |cFF2959D3|Hspell:413041|h[Sheared Lifespan]|h|r.
-$bullet; |cFF2959D3|Hspell:403486|h[Eon Residue]|h|r causes |cFF2959D3|Hspell:417480|h[Residue Blast]|h|r if it fails to hit a player.",2521,6,26415,0,26414,3,0,0,0,0,2,1,0
+27220,DPS,"$bullet;|cFF2959D3|Hspell:403486|h[Residuo de eón]|h|r provoca |cFF2959D3|Hspell:417480|h[Descarga de residuos]|h|r si no alcanza a ningún jugador.
+$bullet;|cFF2959D3|Hspell:413105|h[Destrozo de eón]|h|r y los |cFF2959D3|Hspell:405970|h[Fragmentos de eón]|h|r resultantes infligen un daño considerable.",2521,2,26415,0,26412,3,0,0,0,0,2,2,0
+27221,Sanadores,"$bullet;La absorción de sanación de |cFF2959D3|Hspell:413013|h[Cronocorte]|h|r impide disipar |cFF2959D3|Hspell:413041|h[Esperanza de vida hendida]|h|r.
+$bullet; |cFF2959D3|Hspell:403486|h[Residuo de eón]|h|r provoca |cFF2959D3|Hspell:417480|h[Descarga de residuos]|h|r si no alcanza a ningún jugador.",2521,4,26415,0,26413,3,0,0,0,0,2,4,0
+27222,Tanques,"$bullet;|cFF2959D3|Hspell:413013|h[Cronocorte]|h|r aumenta el daño de |cFF2959D3|Hspell:413041|h[Esperanza de vida hendida]|h|r.
+$bullet;|cFF2959D3|Hspell:403486|h[Residuo de eón]|h|r provoca |cFF2959D3|Hspell:417480|h[Descarga de residuos]|h|r si no alcanza a ningún jugador.",2521,6,26415,0,26414,3,0,0,0,0,2,1,0
 27223,DPS,"$bullet;|cFF2959D3|Hspell:407406|h[Corrosión]|h|r provoca |cFF2959D3|Hspell:418348|h[Mente corrupta]|h|r al agotarse.
 $bullet;|cFF2959D3|Hspell:408029|h[Necroescarcha]|h|r es vulnerable al daño.",2535,2,26542,0,26543,3,0,0,0,0,2,2,0
 27224,Sanadores,"$bullet;|cFF2959D3|Hspell:407406|h[Corrosión]|h|r provoca |cFF2959D3|Hspell:418348|h[Mente corrupta]|h|r al agotarse.
@@ -21649,24 +21648,24 @@ $bullet;|cFF2959D3|Hspell:409261|h[Explosión de extinción]|h|r inflige daño l
 27236,Tanques,"$bullet;Al interceptar |cFF2959D3|Hspell:414535|h[Tromba partepiedras]|h|r, se protege a los aliados de |cFF2959D3|Hspell:414604|h[Partepiedras]|h|r.
 $bullet; |cFF2959D3|Hspell:414075|h[Embestida aplastante]|h|r aumenta rápidamente el daño que recibe el objetivo de Iridikron.
 $bullet;|cFF2959D3|Hspell:409635|h[Exhalación pulverizadora]|h|r hace que surjan creaciones de piedra del suelo.",2537,5,26577,0,26580,3,0,0,0,0,2,1,0
-27237,Resumen,"Larodar summons |cFF2959D3|Hspell:417666|h[Fiery Treants]|h|r and |cFF2959D3|Hspell:418654|h[Scorching Roots]|h|r to spread |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r. Upon reaching 100 energy, Larodar envelops the arena in flame with |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.
+27237,Resumen,"Larodar invoca |cFF2959D3|Hspell:417666|h[Antárboles ígneos]|h|r y |cFF2959D3|Hspell:418654|h[Raíces agostadoras]|h|r para propagar |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r. Al llegar a 100 p. de energía, Larodar envuelve la arena en llamas con |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.
 
-After 3 casts of |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r, Larodar channels |cFF2959D3|Hspell:421316|h[Consuming Flame]|h|r and transforms into the |cFF2959D3|Hspell:421998|h[Avatar of Ash]|h|r. |cFF2959D3|Hspell:427252|h[Falling Embers]|h|r fall from above as Larodar attempts to cleanse his enemies with |cFF2959D3|Hspell:421326|h[Flash Fire]|h|r.",2553,1,0,27238,27241,3,0,0,0,0,0,0,-1
-27238,Tanques,"$bullet;|cFF2959D3|Hspell:418637|h[Furious Charge]|h|r applies |cFF2959D3|Hspell:423719|h[Nature's Fury]|h|r and inflicts less damage the further his target is.
-$bullet;|cFF2959D3|Hspell:421594|h[Smoldering Suffocation]|h|r prevents all healing received but drains health from nearby allies.
-$bullet;|cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r drastically reduce damage taken from |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.",2553,2,27237,0,27239,0,0,0,0,0,0,1,-1
-27239,Sanadores,"$bullet;|cFF2959D3|Hspell:417667|h[Charred Treants]|h|r transform into |cFF2959D3|Hspell:417668|h[Renewed Treants]|h|r and |cFF2959D3|Hspell:418655|h[Charred Brambles]|h|r transform into |cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r when healed to full.
-$bullet;|cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r drastically reduce damage taken from |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.
-$bullet;|cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r douses |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r.
-$bullet;|cFF2959D3|Hspell:421326|h[Flash Fire]|h|r-afflicted players become |cFF2959D3|Hspell:427306|h[Encased in Ash]|h|r if the absorb expires.",2553,3,27237,0,28233,0,0,0,0,0,2,4,0
-27240,DPS,"$bullet;|cFF2959D3|Hspell:417666|h[Fiery Treants]|h|r transform into |cFF2959D3|Hspell:417667|h[Charred Treants]|h|r and |cFF2959D3|Hspell:418657|h[Scorching Brambles]|h|r transform into |cFF2959D3|Hspell:418655|h[Charred Brambles]|h|r when killed.
-$bullet;|cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r drastically reduce damage taken from |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.
-$bullet;|cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r douses |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r.",2553,5,27237,0,28232,0,0,0,0,0,2,2,0
+Tras lanzar |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r 3 veces, Larodar canaliza |cFF2959D3|Hspell:421316|h[Llama acuciante]|h|r y se transforma en el |cFF2959D3|Hspell:421998|h[Avatar de Ceniza]|h|r.|cFF2959D3|Hspell:427252|h[Lluvia de rescoldos]|h|r cae desde arriba mientras Larodar intenta purificar a sus enemigos con |cFF2959D3|Hspell:421326|h[Destello ígneo]|h|r.",2553,1,0,27238,27241,3,0,0,0,0,0,0,-1
+27238,Tanques,"$bullet;|cFF2959D3|Hspell:418637|h[Carga furiosa]|h|r aplica |cFF2959D3|Hspell:423719|h[Furia de la Naturaleza]|h|r e inflige menos daño cuanto más lejos esté su objetivo.
+$bullet;|cFF2959D3|Hspell:421594|h[Asfixia humeante]|h|r evita toda la sanación recibida, pero drena salud de los aliados cercanos.
+$bullet;|cFF2959D3|Hspell:418653|h[Barrera de zarzas renovada]|h|r reduce en gran medida el daño recibido de |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.",2553,2,27237,0,27240,0,0,0,0,0,0,1,-1
+27239,Sanadores,"$bullet;Los |cFF2959D3|Hspell:417667|h[Antárboles carbonizados]|h|r se transforman en |cFF2959D3|Hspell:417668|h[Antárboles renovados]|h|r y las |cFF2959D3|Hspell:418655|h[Zarzas carbonizadas]|h|r, en |cFF2959D3|Hspell:418653|h[Barreras de zarzas renovadas]|h|r si se sanan por completo.
+$bullet;|cFF2959D3|Hspell:418653|h[Barrera de zarzas renovada]|h|r reduce en gran medida el daño recibido de |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.
+$bullet;|cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r apaga el |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r.
+$bullet;Los jugadores alcanzados por |cFF2959D3|Hspell:421326|h[Destello ígneo]|h|r se ven afectados por |cFF2959D3|Hspell:427306|h[Encerrado en ceniza]|h|r si se agota la absorción.",2553,5,27237,0,28233,0,0,0,0,0,2,4,0
+27240,DPS,"$bullet;Los |cFF2959D3|Hspell:417666|h[Antárboles ígneos]|h|r se transforman en |cFF2959D3|Hspell:417667|h[Antárboles carbonizados]|h|r, y las |cFF2959D3|Hspell:418657|h[Zarzas agostadoras]|h|r, en |cFF2959D3|Hspell:418655|h[Zarzas carbonizadas]|h|r al morir.
+$bullet;|cFF2959D3|Hspell:418653|h[Barrera de zarzas renovada]|h|r reduce en gran medida el daño recibido de |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.
+$bullet;|cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r apaga el |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r.",2553,3,27237,0,28232,0,0,0,0,0,2,2,0
 27241,Fase 1: El ciclo de la llama,,2553,7,0,27967,27242,0,0,0,0,0,1,0,-1
 27242,Intermedio: Desrenacido otra vez,,2553,42,0,27425,27243,0,0,0,0,0,0,0,-1
 27243,Fase 2: Avatar de ceniza,,2553,44,0,28265,0,0,0,0,0,0,0,0,-1
-27244,Sección 10,,2519,64,26668,27868,27605,2,0,0,417431,0,0,1,-1
-27245,Sección 10,,2519,66,27244,0,0,2,0,0,425345,0,1,0,-1
+27244,Sección 10,,2519,73,26668,27868,27605,2,0,0,417431,0,0,1,-1
+27245,Sección 10,,2519,75,27244,0,0,2,0,0,425345,0,1,0,-1
 27246,Sección 13,,2533,15,26525,0,26687,2,0,0,410234,0,0,0,-1
 27247,Resumen,"Anduin Lothar lidera las fuerzas de la Alianza en una batalla infinita contra la Horda. Con Colmillo de León, la hoja noble de Ventormenta en la mano, arenga a sus tropas y destruye las líneas enemigas.",2534,1,0,27248,27251,3,0,0,0,0,0,0,-1
 27248,DPS,"$bullet;|cFF2959D3|Hspell:418047|h[¡Por la Alianza!]|h|r invoca más enemigos contra los jugadores.
@@ -21690,26 +21689,26 @@ $bullet;|cFF2959D3|Hspell:418056|h[Ola de choque]|h|r se lanza tres veces rápid
 27260,Anduin Lothar,,2534,14,0,27261,0,1,112018,0,0,0,1,0,-1
 27261,Sección 15,,2534,15,27260,0,27262,2,0,0,410234,0,0,0,-1
 27262,Sección 15,,2534,16,27260,27263,27265,2,0,0,418059,0,0,1,-1
-27263,Sección 17,,2534,17,27262,0,27264,2,0,0,410497,0,0,0,-1
-27264,Sección 18,,2534,18,27262,0,0,2,0,0,419609,0,0,0,-1
-27265,Sección 19,,2534,19,27260,0,27266,2,0,0,418056,0,0,0,-1
-27266,Sección 20,,2534,20,27260,0,27267,2,0,0,418047,0,0,0,-1
+27263,Sección 17,,2534,17,27262,0,0,2,0,0,410497,0,0,0,-1
+27264,Sección 18,,2534,20,27260,0,27267,2,0,0,419609,0,0,0,-1
+27265,Sección 19,,2534,18,27260,0,27266,2,0,0,418056,0,0,0,-1
+27266,Sección 20,,2534,19,27260,0,27264,2,0,0,418047,0,0,0,-1
 27267,Sección 21,,2534,21,27260,0,0,2,0,0,418062,0,0,0,-1
-27268,Resumen,"Igira unleashes |cFF2959D3|Hspell:414425|h[Blistering Spears]|h|r to restrict how far her victims can flee. At 100 energy, Igira uses |cFF2959D3|Hspell:422776|h[Marked for Torment]|h|r to ignite areas in her chamber, tormenting players standing within them. Based on the ignited area players stand within, Igira changes her weapon and gains new abilities.
+27268,Resumen,"Igira arroja |cFF2959D3|Hspell:414425|h[Lanzas virulentas]|h|r para reducir la distancia a la que pueden huir sus víctimas. Al llegar a 100 p. de energía, usa |cFF2959D3|Hspell:422776|h[Marcado para el tormento]|h|r y prende fuego a su cámara, lo que atormenta a los jugadores en su interior. Según la zona en llamas en la que se encuentren los jugadores, Igira cambia de arma y obtiene nuevas facultades.
 $[!16
-On Mythic difficulty, Igira forges two weapons at once during |cFF2959D3|Hspell:422776|h[Marked for Torment]|h|r.$]",2554,1,0,27269,27274,3,0,0,0,0,0,0,-1
-27269,DPS,$bullet;While a player is tethered to a |cFF2959D3|Hspell:414425|h[Blistering Spear]|h|r their movement is restricted.,2554,2,27268,0,27270,3,0,0,0,0,0,2,-1
-27270,Sanadores,"$bullet;|cFF2959D3|Hspell:415624|h[Heart Stopper]|h|r inflicts significant damage upon expiration.
-$bullet;Each application of |cFF2959D3|Hspell:420251|h[Harvest of Screams]|h|r increases Igira's damage.",2554,3,27268,0,27271,3,0,0,0,0,0,4,-1
-27271,Tanques,$bullet;|cFF2959D3|Hspell:423108|h[Shared Agony]|h|r causes Igira's melee attacks to also strike the next closest target.,2554,4,27268,0,0,3,0,0,0,0,0,1,-1
+En dificultad mítica, forja dos armas a la vez durante |cFF2959D3|Hspell:422776|h[Marcado para el tormento]|h|r.$]",2554,1,0,27269,27274,3,0,0,0,0,0,0,-1
+27269,DPS,"$bullet;Mientras un jugador esté amarrado a una |cFF2959D3|Hspell:414425|h[Lanza virulenta]|h|r, su movimiento está restringido.",2554,2,27268,0,27270,3,0,0,0,0,0,2,-1
+27270,Sanadores,"$bullet;|cFF2959D3|Hspell:415624|h[Parar corazón]|h|r inflige un daño considerable al agotarse.
+$bullet;Cada aplicación de |cFF2959D3|Hspell:420251|h[Cosecha de alaridos]|h|r aumenta el daño de Igira.",2554,3,27268,0,27271,3,0,0,0,0,0,4,-1
+27271,Tanques,$bullet;|cFF2959D3|Hspell:423108|h[Agonía compartida]|h|r provoca que los ataques cuerpo a cuerpo a cuerpo de Igira también golpeen al siguiente objetivo más cercano.,2554,4,27268,0,0,3,0,0,0,0,0,1,-1
 27274,Sección 7,,2554,5,0,27691,27276,2,0,0,423108,0,0,1,-1
 27276,Sección 9,,2554,7,0,27277,27292,2,0,0,414425,0,0,2,-1
 27277,Sección 10,,2554,8,27276,0,0,2,0,0,414770,0,0,0,-1
-27278,Tormento segador,Igira forges an axe that drinks the agony of her enemies.,2554,22,0,27290,27288,3,0,0,0,0,0,0,-1
-27280,Sección 13,"$[!16
-On Mythic difficulty, |cFF2959D3|Hspell:415624|h[Heart Stopper]|h|r unleashes a |cFF2959D3|Hspell:426017|h[Vital Rupture]|h|r from its target's destination when removed.$]",2554,31,27282,28065,0,2,0,0,415624,0,2,4100,0
-27282,Tormento desollador,Igira forges a knife to carve the hearts from her victims.,2554,29,0,28264,0,3,0,0,0,0,0,0,-1
-27288,Tormento cortante,Igira forges a sword that sunders the earth with each swing.,2554,25,0,28108,27282,3,0,0,0,0,0,0,-1
+27278,Tormento segador,Igira forja un hacha que absorbe la agonía de sus enemigos.,2554,22,0,27290,27288,3,0,0,0,0,0,0,-1
+27280,Sección 13,"$[!15, 16
+En dificultades mítica y heroica, |cFF2959D3|Hspell:415624|h[Parar corazón]|h|r lanza una |cFF2959D3|Hspell:426017|h[Ruptura vital]|h|r en la ubicación del jugador cuando se elimina.$]",2554,31,27282,28065,0,2,0,0,415624,0,2,12,0
+27282,Tormento desollador,Igira forja un cuchillo para desgarrar los corazones de sus víctimas.,2554,29,0,28264,0,3,0,0,0,0,0,0,-1
+27288,Tormento cortante,Igira forja una espada que destroza el suelo con cada golpe.,2554,25,0,28108,27282,3,0,0,0,0,0,0,-1
 27290,Sección 23,,2554,23,27278,28309,0,2,0,0,416056,0,0,0,-1
 27292,Sección 25,,2554,9,0,0,27389,2,0,0,416998,0,0,0,-1
 27295,Sección 24,,2535,10,27226,0,0,2,0,0,418348,0,0,4096,-1
@@ -21731,27 +21730,20 @@ $bullet;|cFF2959D3|Hspell:421020|h[Garras agonizantes]|h|r de Urctos inflige muc
 27301,Aerwynn,,2555,20,0,27424,27302,1,62290,0,0,0,1,0,-1
 27302,Pip,,2555,27,0,28069,0,1,62504,0,0,0,1,0,-1
 27303,Sección 8,,2555,8,0,0,27857,2,0,0,418187,0,3,32,0
-27304,Resumen,"|cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r de Nymue recurre al Sueño para tejer nueva vida en la existencia y castigar a aquellos que crucen sus hilos esmeralda. 
+27304,Resumen,"La |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r de Nymue recurre al Sueño para tejer vida nueva y castiga a quienes se cruzan con sus hilos esmeralda. Cada lanzamiento de |cFF2959D3|Hspell:420846|h[Continuo]|h|r altera la |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r de Nymue.
 
-Al llegar al 100% de energía, Nymue lanza |cFF2959D3|Hspell:420846|h[Continuo]|h|r para remodelar la matriz de nuevo e invocar a unos celadores del ciclo que la protegen con |cFF2959D3|Hspell:425794|h[Sudario del protector]|h|r. 
-
-Cada |cFF2959D3|Hspell:420846|h[Continuo]|h|r amplifica |cFF2959D3|Hspell:425357|h[Flora violenta]|h|r y |cFF2959D3|Hspell:420907|h[Lluvia veridiana]|h|r de Nymue mediante |cFF2959D3|Hspell:420553|h[Poder creciente del Sueño]|h|r.
-$[!16
-En dificultad mítica, durante |cFF2959D3|Hspell:420846|h[Continuo]|h|r, Nymue forma un Sueño manifestado.$]",2556,1,0,28228,28355,3,0,0,0,0,0,0,-1
-27305,Tanques,"$bullet; |cFF2959D3|Hspell:426154|h[Explosión entretejida]|h|r inflige una cantidad considerable de daño físico y de Naturaleza.
-$bullet;|cFF2959D3|Hspell:420846|h[Continuo]|h|r hace que aparezcan celadores del ciclo en la arena del encuentro.
-$bullet; |cFF2959D3|Hspell:426520|h[Carga de tejedora]|h|r explota al eliminarse e inflige daño a todos los jugadores.",2556,3,27304,0,27306,3,0,0,0,0,2,1,0
-27306,DPS,"$bullet;|cFF2959D3|Hspell:418490|h[Hilos de la vida]|h|r repele a los jugadores a su paso, pero inflige daño reducido al cruzar la |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r.
-$bullet;Los celadores del ciclo otorgan |cFF2959D3|Hspell:425794|h[Sudario del protector]|h|r a Nymue y lanzan continuamente |cFF2959D3|Hspell:426854|h[Salva de naturaleza]|h|r.
-$bullet;|cFF2959D3|Hspell:423195|h[Inflorescencia]|h|r suprime la aplicación de |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r.",2556,4,27304,0,27307,3,0,0,0,0,0,2,-1
-27307,Sanadores,"$bullet;Los |cFF2959D3|Hspell:418490|h[Hilos de la vida]|h|r que no crucen la |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r infligen un daño considerable.
+Al llegar al 100% de energía, Nymue lanza |cFF2959D3|Hspell:426855|h[Florecimiento pleno]|h|r e invoca a los celadores del ciclo, que la protegen con |cFF2959D3|Hspell:425794|h[Resguardo vital]|h|r.",2556,1,0,28228,28355,3,0,0,0,0,0,0,-1
+27306,DPS,"$bullet; Standing on |cFF2959D3|Hspell:425357|h[Surging Growth]|h|r greatly reduces its duration.
+$bullet; Cycle Wardens protect Nymue with |cFF2959D3|Hspell:425794|h[Life Ward]|h|r and cast |cFF2959D3|Hspell:429108|h[Lumbering Slam]|h|r.
+$bullet; |cFF2959D3|Hspell:429785|h[Impending Loom]|h|r stuns players on contact and inflicts substantial damage.",2556,3,27304,0,27307,3,0,0,0,0,0,2,-1
+27307,Sanadores,"$bullet;|cFF2959D3|Hspell:429785|h[Telar inminente]|h|r aturde a los jugadores con los que entra en contacto e inflige un daño considerable.
 $bullet;|cFF2959D3|Hspell:423195|h[Inflorescencia]|h|r suprime la aplicación de |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r.
-$bullet;Nymue irradia un daño sustancial a toda la banda durante |cFF2959D3|Hspell:420846|h[Continuo]|h|r.",2556,5,27304,0,0,3,0,0,0,0,0,4,-1
+$bullet;Nymue irradia un daño sustancial a toda la banda durante |cFF2959D3|Hspell:421368|h[Deshacer]|h|r y |cFF2959D3|Hspell:420846|h[Continuo]|h|r.",2556,4,27304,0,0,3,0,0,0,0,0,4,-1
 27311,Sección 8,"$[!15
 
-On Heroic and Mythic difficulties, Larodar release a Furious Outburst when reaching his target.$]$[!16
+En las dificultades heroica y mítica, Larodar lanza Arrebato furioso al llegar a su objetivo.$]$[!16
 
-On Heroic and Mythic difficulties, Larodar release a Furious Outburst when reaching his target.$]",2553,31,27241,27751,28278,2,0,0,418637,0,2,9,0
+En las dificultades heroica y mítica, Larodar lanza Arrebato furioso al llegar a su objetivo.$]",2553,31,27241,27751,28278,2,0,0,418637,0,2,9,0
 27312,Sección 9,,2553,20,27241,28146,27858,2,0,0,417660,0,0,32,-1
 27313,Sección 10,,2553,12,27241,27321,27312,2,0,0,417653,0,1,32,-1
 27314,Sección 11,,2553,41,27241,0,0,2,0,0,417610,0,0,0,-1
@@ -21764,13 +21756,13 @@ Al morir, se transforman en antárboles carbonizados.",2553,13,27313,27330,27322
 
 Cuando recuperan la salud por completo, se transforman en antárboles renovados.",2553,17,27313,0,27323,1,113612,0,0,0,0,4,-1
 27323,Antárbol renovado,Los antárboles renovados amistosos canalizan Don de la Naturaleza y sacrifican su propia vida para potenciar la semilla de la vida.,2553,18,27313,27332,0,1,113613,0,0,0,0,0,-1
-27324,Raíces agostadoras,"Scorching Roots fixate on random players, pursuing them relentlessly and speed over time.
+27324,Raíces agostadoras,"Las raíces agostadoras se fijan en jugadores aleatorios y los persiguen sin descanso, más rápidas cada vez.
 
-When killed, they transform into Charred Brambles.$[!15
+Al morir, se transforman en zarzas carbonizadas.$[!15
 
-On Heroic and Mythic difficulties, Scorched Roots remain untargetable until doused with |cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r.$]$[!16
+En las dificultades heroica y mítica, las raíces agostadoras no se pueden seleccionar hasta que se les aplique |cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r.$]$[!16
 
-On Heroic and Mythic difficulties, Scorched Roots remain untargetable until doused with |cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r.$]",2553,23,27312,28086,27326,1,115925,0,0,0,2,8,0
+En las dificultades heroica y mítica, no se pueden seleccionar las raíces agostadoras hasta que se les aplique |cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r.$]",2553,23,27312,28086,27326,1,115925,0,0,0,2,8,0
 27326,Zarzas carbonizadas,"Las zarzas carbonizadas son inertes y se pueden sanar.
 
 Cuando recuperan la salud por completo, se transforman en una barrera de zarzas renovada.",2553,25,27312,0,27327,1,113920,0,0,0,0,4,-1
@@ -21795,14 +21787,14 @@ $bullet;|cFF2959D3|Hspell:420415|h[Choque Abrasacola]|h|r inflige daño letal a 
 $bullet;Al llegar a 100 p. de energía, |cFF2959D3|Hspell:420933|h[Inundación de las Tierras de Fuego]|h|r lanza dos pegotes de lava que consumen la cámara si no alcanzan a suficientes jugadores.",2557,4,27334,0,0,3,0,0,0,0,0,4,-1
 27339,Sección 6,,2557,19,0,0,27692,2,0,0,419054,0,0,1,-1
 27341,Sección 10,,2519,6,26666,27573,28266,2,0,0,425346,0,0,32,-1
-27343,Sección 10,,2519,32,27483,0,0,2,0,0,421741,0,0,16,-1
-27344,Sección 10,,2519,31,27483,0,27343,2,0,0,410223,0,0,16,-1
+27343,Sección 10,,2519,33,27483,0,0,2,0,0,421741,0,0,16,-1
+27344,Sección 10,,2519,32,27483,0,27343,2,0,0,410223,0,0,16,-1
 27373,Sección 15,,2526,7,26253,0,0,2,0,0,403724,0,2,4096,0
 27374,Sección 16,,2526,11,26256,0,26565,2,0,0,403724,0,0,0,-1
 27375,Sección 17,,2526,17,26260,0,0,2,0,0,406543,0,0,0,-1
 27376,Sección 26,"$[!16
 
-On Mythic difficulty, Blazing Coalescence applies a stack of Everlasting Blaze.$]",2553,37,27328,28280,0,2,0,0,426242,0,2,4096,0
+En dificultad mítica, Coalescencia llameante aplica una acumulación de Llamarada imperecedera.$]",2553,37,27328,28280,0,2,0,0,426242,0,2,4096,0
 27377,Sección 10,,2536,11,26592,0,26593,2,0,0,401197,0,0,0,-1
 27378,Sección 12,"Las trampas temporales se activan al entrar en contacto con los jugadores, que quedan enraizados en el sitio durante 30 s.
 
@@ -21813,8 +21805,8 @@ Los rostros familiares que activan una trampa temporal quedan suspendidos en el 
 27382,Sección 31,,2554,20,27381,0,27660,2,0,0,423715,0,0,0,-1
 27389,Sección 32,,2554,10,0,0,28112,2,0,0,420251,0,2,0,0
 27391,Sección 11,,2555,12,27300,27866,28169,2,0,0,420525,0,0,32,-1
-27394,Sección 9,,2556,7,28355,0,28297,2,0,0,418423,0,1,32,-1
-27404,Sección 13,,2556,11,28355,0,28218,2,0,0,420907,0,0,4,-1
+27394,Sección 9,,2556,6,28355,0,28297,2,0,0,418423,0,1,32,-1
+27404,Sección 13,,2556,13,28355,0,28454,2,0,0,420907,0,0,4,-1
 27405,Sección 12,,2555,23,27301,27409,27411,2,0,0,420671,0,0,0,-1
 27408,Sección 29,,2553,27,27327,0,28234,2,0,0,419485,0,0,0,-1
 27409,Sección 13,,2555,24,27405,0,0,2,0,0,426390,0,0,0,-1
@@ -21839,12 +21831,12 @@ En dificultad mítica, Pip canaliza soplos caprichosos en la arena. $]",2555,42,
 27428,Sección 34,,2553,58,27243,0,27427,2,0,0,421323,0,0,0,-1
 27430,Sección 36,,2553,47,27243,27436,27437,2,0,0,421326,0,0,36,-1
 27431,Sección 37,,2553,46,27243,0,27430,2,0,0,427252,0,0,16,-1
-27432,Celador del ciclo,,2556,29,28356,28140,0,1,108646,0,0,0,1,0,-1
+27432,Celador del ciclo,,2556,30,28356,28140,0,1,108646,0,0,0,1,0,-1
 27436,Sección 38,,2553,48,27430,0,0,2,0,0,427306,0,0,128,-1
 27437,Sección 39,,2553,49,27243,0,28275,2,0,0,427343,0,0,0,-1
 27438,Sección 40,"$[!16
 
-On Mythic difficulty, Smoldering Suffocation applies a stack of Ashen Asphyxiation.$]",2553,53,27426,28277,0,2,0,0,421594,0,0,4096,-1
+En dificultad mítica, Asfixia humeante aplica una acumulación de Asfixia cinérea.$]",2553,53,27426,28277,0,2,0,0,421594,0,0,4096,-1
 27439,Sección 11,,2557,17,0,27440,27339,2,0,0,421616,0,0,0,-1
 27440,Sección 12,,2557,18,27439,0,0,2,0,0,421082,0,0,0,-1
 27441,Resumen,"Aurostor entra en frenesí para repeler a los jugadores con|cFF2959D3|Hspell:420895|h[Azote tambaleante]|h|r y lanza tierra por los aires con |cFF2959D3|Hspell:420921|h[Arrebato pulverizador]|h|r y |cFF2959D3|Hspell:421015|h[Rabieta de cascarrabias]|h|r. Al llegar a 0 p. de energía, profiere un |cFF2959D3|Hspell:421260|h[Rugido soñoliento]|h|r para compartir el dolor de su insomnio con los jugadores.",2562,1,0,27442,27445,3,0,0,0,0,0,0,-1
@@ -21871,18 +21863,17 @@ $bullet;|cFF2959D3|Hspell:422277|h[Devorar esencia]|h|r saca las |cFF2959D3|Hspe
 27455,DPS,"$bullet;|cFF2959D3|Hspell:421343|h[Marca de condenación]|h|r aplica a todos los jugadores alcanzados un |cFF2959D3|Hspell:421656|h[Herida cauterizante]|h|r que absorbe una gran cantidad de sanación.
 $bullet;|cFF2959D3|Hspell:422277|h[Devorar esencia]|h|r saca las |cFF2959D3|Hspell:423904|h[Llamas vivas]|h|r de los jugadores afectados por |cFF2959D3|Hspell:421643|h[Marca de Brasaescara]|h|r.
 $bullet;|cFF2959D3|Hspell:421455|h[Recalentado]|h|r a todos los jugadores cercanos al objetivo.",2563,4,27453,0,27456,3,0,0,0,0,0,2,-1
-27456,Sanadores,"$bullet;|cFF2959D3|Hspell:422067|h[Alma llameante]|h|r provoca que |cFF2959D3|Hspell:420950|h[Calor virulento]|h|r inflija mucho daño a toda la banda.
+27456,Sanadores,"$bullet;|cFF2959D3|Hspell:422067|h[Alma llameante]|h|r provoca que |cFF2959D3|Hspell:420950|h[Calor virulento]|h|r inflija mucho daño a todos los jugadores.
 $bullet;|cFF2959D3|Hspell:421343|h[Marca de condenación]|h|r aplica a todos los jugadores alcanzados una |cFF2959D3|Hspell:421656|h[Herida cauterizante]|h|r que absorbe una gran cantidad de sanación.
 $bullet;|cFF2959D3|Hspell:422277|h[Devorar esencia]|h|r saca las |cFF2959D3|Hspell:423904|h[Llamas vivas]|h|r de los jugadores afectados por |cFF2959D3|Hspell:421643|h[Marca de Brasaescara]|h|r.",2563,5,27453,0,0,3,0,0,0,0,0,4,-1
 27458,Sección 15,,2557,22,0,0,27770,2,0,0,421703,0,0,16,-1
-27459,Sección 10,,2519,21,27898,0,0,2,0,0,425483,0,1,16,-1
-27462,Sección 10,,2519,77,27532,0,0,2,0,0,417807,0,0,128,-1
+27459,Sección 10,,2519,31,27483,0,27344,2,0,0,425483,0,1,16,-1
 27463,Resumen,"Tuercerraíces siembra la tierra con llama de las Sombras, lo que provoca la aparición de aliados corruptos y crea |cFF2959D3|Hspell:422023|h[Tierra agostada por las sombras]|h|r.
 
 Al llegar a 100 p. de energía, Tuercerraíces lanza un |cFF2959D3|Hspell:421013|h[Fertilizante potente]|h|r que absorbe energía del suelo con |cFF2959D3|Hspell:425648|h[Raíces de fatalidad]|h|r. Tuercerraíces inflige daño creciente a todos los jugadores hasta que se destruyen sus raíces, lo que le provoca una |cFF2959D3|Hspell:421840|h[Agonía desarraigada]|h|r.",2564,1,0,28196,27467,3,0,0,0,0,0,0,-1
-27464,Tanques,"$bullet; |cFF2959D3|Hspell:424352|h[Dreadfire Barrage]|h|r inflicts significant damage and increases Shadowflame damage taken.
-$bullet; When awakened, Tainted Lashers and Tainted Treants attack nearby players.
-$bullet; |cFF2959D3|Hspell:421038|h[Ember-Charred]|h|r players can ignite |cFF2959D3|Hspell:425648|h[Doom Roots]|h|r by touching them.",2564,3,27463,0,28195,3,0,0,0,0,2,1,0
+27464,Tanques,"$bullet;|cFF2959D3|Hspell:424352|h[Tromba de fuego aterrador]|h|r inflige daño considerable y aumenta el daño de llama de las Sombras recibido.
+$bullet;Cuando despiertan, los azotadores corruptos y los antárboles corruptos atacan a los jugadores cercanos.
+$bullet;Los jugadores en estado |cFF2959D3|Hspell:421038|h[Carbonizado]|h|r pueden prender las |cFF2959D3|Hspell:425648|h[Raíces de fatalidad]|h|r al entrar en contacto con ellas.",2564,3,27463,0,28195,3,0,0,0,0,2,1,0
 27465,DPS,"$bullet;Los jugadores en estado |cFF2959D3|Hspell:421038|h[Carbonizado]|h|r pueden prender las |cFF2959D3|Hspell:425648|h[Raíces de fatalidad]|h|r al entrar en contacto con ellas.
 $bullet;Tuercerraíces recibe un 100% más de daño cuando le afecta |cFF2959D3|Hspell:424734|h[Agonía desarraigada]|h|r.",2564,6,27463,0,27466,3,0,0,0,0,2,2,0
 27466,Sanadores,"$bullet;|cFF2959D3|Hspell:422026|h[Grito de tortura]|h|r inflige un daño considerable a todos los jugadores.
@@ -21898,20 +21889,19 @@ $bullet;Tuercerraíces obtiene una acumulación de |cFF2959D3|Hspell:425709|h[Ma
 27478,Sección 15,,2564,36,27476,27479,27615,2,0,0,426548,0,3,8,0
 27479,Sección 16,,2564,37,27478,0,0,2,0,0,421038,0,0,0,-1
 27481,<PH> Vuln Aura,,2564,39,27475,27926,0,2,0,0,421840,0,0,2,-1
-27482,Sección 10,,2519,36,27516,0,0,2,0,0,429866,0,1,16,-1
-27483,Sección 10,,2519,30,26667,27344,27524,2,0,0,419144,0,0,32,-1
+27482,Sección 10,,2519,43,27516,0,0,2,0,0,429866,0,1,16,-1
+27483,Sección 10,,2519,30,26667,27459,28471,2,0,0,419144,0,0,32,-1
 27488,Fase 1: Lechúcico lunar de la Llama,,2565,9,0,27661,27500,0,0,0,0,0,0,0,-1
-27495,Forma de lechúcico lunar abrasador,Tindral cambia a forma de lechúcico lunar ígneo y bombardea a todos los jugadores de forma periódica con Llama solar.,2565,119,27508,27809,27676,1,114405,0,0,0,0,0,-1
-27498,Sección 15,,2565,121,27495,0,27919,2,0,0,421398,0,2,0,0
+27495,Forma de lechúcico lunar abrasador,Tindral cambia a forma de lechúcico lunar ígneo y bombardea a todos los jugadores de forma periódica con Llama solar.,2565,120,27508,27809,27676,1,114405,0,0,0,0,0,-1
+27498,Sección 15,,2565,122,27495,0,27919,2,0,0,421398,0,2,0,0
 27500,Intermedio: Persecución ardiente,,2565,38,0,27772,27506,0,0,0,0,0,1,0,-1
 27506,Fase 2: Árbol de la Llama,,2565,49,0,27509,27507,0,0,0,0,0,0,0,-1
-27507,Intermission: Path of Flame,,2565,84,0,27774,27508,0,0,0,0,0,1,0,-1
-27508,Fase 3: Vidente de la Llama,,2565,96,0,27587,0,0,0,0,0,0,0,0,-1
+27507,Intermedio: El camino de la Llama,,2565,85,0,27774,27508,0,0,0,0,0,1,0,-1
+27508,Fase 3: Vidente de la Llama,,2565,97,0,27587,0,0,0,0,0,0,0,0,-1
 27509,Tindral Sabioveloz,,2565,50,27506,27566,27537,1,38743,0,0,0,0,0,-1
-27516,Sección 10,,2519,34,26667,28085,27706,2,0,0,421937,0,0,0,-1
+27516,Sección 10,,2519,41,26667,28391,27706,2,0,0,429876,0,2,4096,0
 27518,Tindral Sabioveloz,,2565,45,27500,28290,0,1,38743,0,0,0,0,0,-1
-27519,Sección 28,,2565,94,27781,28293,0,2,0,0,424140,0,2,4114,0
-27524,Sección 10,,2519,33,26667,0,27516,2,0,0,412761,0,0,0,-1
+27519,Sección 28,,2565,95,27781,28293,0,2,0,0,424140,0,2,4114,0
 27525,Sección 20,,2564,27,27472,0,0,2,0,0,422023,0,0,0,-1
 27526,Sección 10,,2519,28,26666,0,0,2,0,0,422137,0,0,1,-1
 27527,Sección 10,,2519,25,26666,27867,27526,2,0,0,417431,0,0,1,-1
@@ -21919,35 +21909,34 @@ $bullet;Tuercerraíces obtiene una acumulación de |cFF2959D3|Hspell:425709|h[Ma
 27529,Sección 10,,2519,9,28266,28267,27528,2,0,0,426368,0,0,0,-1
 27530,Sección 10,,2519,23,26666,27531,27527,2,0,0,417806,0,0,4,-1
 27531,Sección 10,,2519,24,27530,0,0,2,0,0,417807,0,1,128,-1
-27532,Sección 10,,2519,76,26670,27462,27635,2,0,0,422837,0,0,16,-1
+27532,Sección 10,,2519,86,26670,0,27635,2,0,0,422837,0,0,16,-1
 27537,Forma de antárbol ardiente,Tindral cambia a forma de antárbol llameante y afecta a los jugadores de forma periódica con Ascua supresora.,2565,69,27506,27810,28059,1,114072,0,0,0,1,0,-1
 27566,Sección 36,,2565,51,27509,0,27971,2,0,0,424495,0,2,2,0
-27570,Sección 10,,2519,43,27571,0,0,2,0,0,421741,0,0,16,-1
-27571,Sección 10,,2519,39,26668,28080,27604,2,0,0,422457,0,0,32,-1
+27570,Sección 10,,2519,50,27571,0,0,2,0,0,421741,0,0,16,-1
+27571,Sección 10,,2519,46,26668,28080,27604,2,0,0,422457,0,0,32,-1
 27573,Sección 10,,2519,7,27341,0,0,2,0,0,421741,0,1,16,-1
 27583,Sección 44,,2565,55,27509,27804,28150,2,0,0,420236,0,0,0,-1
-27587,Tindral Sabioveloz,,2565,97,27508,28053,27495,1,38743,0,0,0,1,0,-1
-27592,Sección 9,,2565,108,27587,27806,27968,2,0,0,424581,0,2,132,0
-27595,Sección 44,,2565,105,27587,27807,28148,2,0,0,420236,0,0,0,-1
-27598,Sección 10,,2519,55,26668,0,27603,2,0,0,419123,0,0,0,-1
-27599,Raging Ember,,2519,57,27603,27613,27708,1,102503,0,0,0,0,2,-1
-27603,Sección 10,,2519,56,26668,27599,27606,2,0,0,422524,0,0,16,-1
-27604,Sección 10,,2519,44,26668,28260,27598,2,0,0,422518,0,0,0,-1
-27605,Sección 10,,2519,67,26668,0,0,2,0,0,422137,0,0,1,-1
-27606,Sección 10,,2519,61,26668,0,27611,2,0,0,414186,0,2,8,0
-27608,Dark Colossus,,2519,50,27604,27614,0,1,79389,0,0,0,2,4097,0
-27609,Sección 10,,2519,54,27608,0,0,2,0,0,428400,0,0,18,-1
-27611,Sección 10,,2519,62,26668,27612,27244,2,0,0,417806,0,0,4,-1
-27612,Sección 10,,2519,63,27611,0,0,2,0,0,417807,0,1,128,-1
-27613,Sección 10,,2519,58,27599,0,27216,2,0,0,422528,0,1,0,-1
-27614,Sección 10,,2519,51,27608,0,28261,2,0,0,428965,0,0,1,-1
+27587,Tindral Sabioveloz,,2565,98,27508,28053,27495,1,38743,0,0,0,1,0,-1
+27592,Sección 9,,2565,109,27587,27806,27968,2,0,0,424581,0,2,132,0
+27595,Sección 44,,2565,106,27587,27807,28148,2,0,0,420236,0,0,0,-1
+27598,Sección 10,,2519,62,26668,0,27603,2,0,0,419123,0,0,0,-1
+27599,Alma ululante,,2519,67,27603,27613,27708,1,38435,0,0,0,0,2,-1
+27603,Sección 10,,2519,63,26668,28446,27606,2,0,0,422524,0,0,16,-1
+27604,Sección 10,,2519,51,26668,28260,27598,2,0,0,422518,0,0,0,-1
+27605,Sección 10,,2519,76,26668,0,0,2,0,0,422137,0,0,1,-1
+27606,Sección 10,,2519,70,26668,0,27611,2,0,0,414186,0,2,8,0
+27608,Coloso oscuro,,2519,57,27604,27614,0,1,79389,0,0,0,2,4097,0
+27609,Sección 10,,2519,61,27608,0,0,2,0,0,428400,0,0,18,-1
+27611,Sección 10,,2519,71,26668,27612,27244,2,0,0,417806,0,0,4,-1
+27612,Sección 10,,2519,72,27611,0,0,2,0,0,417807,0,1,128,-1
+27613,Sección 10,,2519,68,27599,0,0,2,0,0,430051,0,1,0,-1
+27614,Sección 10,,2519,58,27608,0,28261,2,0,0,428965,0,0,1,-1
 27615,Raíz de fatalidad,,2564,38,27476,0,0,2,0,0,422373,0,0,16,-1
-27616,Sección 49,,2565,117,27587,0,28161,2,0,0,422000,0,0,1,-1
+27616,Sección 49,,2565,118,27587,0,28161,2,0,0,422000,0,0,1,-1
 27618,Sección 51,,2565,67,27509,0,28160,2,0,0,422000,0,0,1,-1
 27631,Sección 25,,2537,15,27189,0,0,2,0,0,414376,0,0,0,-1
-27633,Sección 10,,2519,75,27922,0,0,2,0,0,425530,0,1,0,-1
-27635,Sección 10,,2519,78,26670,0,27724,2,0,0,410223,0,0,16,-1
-27636,Sección 10,,2519,80,26670,0,27900,2,0,0,412761,0,0,0,-1
+27633,Sección 10,,2519,85,27922,0,0,2,0,0,425530,0,1,0,-1
+27635,Sección 10,,2519,87,26670,0,27724,2,0,0,410223,0,0,16,-1
 27637,Fase 1: La furia del Señor del Fuego,,2563,6,0,27732,27649,0,0,0,0,0,1,0,-1
 27649,Fase 2: Mundo en llamas,,2563,29,0,27654,0,0,0,0,0,0,1,0,-1
 27650,Sección 19,,2563,26,27637,27657,28201,2,0,0,422691,0,0,0,-1
@@ -21964,14 +21953,14 @@ En dificultad heroica, Alma llameante también aumenta el daño de Calor virulen
 27662,Sección 49,,2565,27,27661,0,28159,2,0,0,422000,0,0,1,-1
 27665,Sección 44,,2565,15,27661,27797,28149,2,0,0,420236,0,0,0,-1
 27671,Forma de lechúcico lunar abrasador,Tindral cambia a forma de lechúcico lunar ígneo y bombardea a todos los jugadores de forma periódica con Llama solar.,2565,29,27488,27799,28054,1,114405,0,0,0,1,0,-1
-27676,Forma de antárbol ardiente,Tindral cambia a forma de antárbol llameante y afecta a jugadores aleatorios de forma periódica con Ascua supresora.,2565,124,27508,27811,27948,1,114072,0,0,0,0,0,-1
+27676,Forma de antárbol ardiente,Tindral cambia a forma de antárbol llameante y afecta a jugadores aleatorios de forma periódica con Ascua supresora.,2565,125,27508,27811,27948,1,114072,0,0,0,0,0,-1
 27690,Sección 18,"$[!15, 16
-On Heroic and Mythic difficulties, Igira's leaps unleash |cFF2959D3|Hspell:424347|h[Devastation]|h|r.$]",2554,27,27288,28109,0,2,0,0,418533,0,2,8,0
+En las dificultades heroica y mítica, Igira provoca |cFF2959D3|Hspell:424347|h[Devastación]|h|r con cada salto.$]",2554,27,27288,28109,0,2,0,0,418533,0,2,8,0
 27691,Sección 19,,2554,6,27274,0,0,2,0,0,414340,0,0,8192,-1
 27692,Sección 16,,2557,20,0,0,27452,2,0,0,423117,0,0,1,-1
-27699,Sección 74,,2565,126,27676,27837,27961,2,0,0,423265,0,2,4,0
-27706,Sección 10,,2519,37,26667,0,0,2,0,0,422836,0,0,4,-1
-27708,Sección 10,,2519,60,27603,0,0,2,0,0,422836,0,0,4,-1
+27699,Sección 74,,2565,127,27676,27837,27961,2,0,0,423265,0,2,4,0
+27706,Sección 10,,2519,44,26667,0,0,2,0,0,422836,0,0,4,-1
+27708,Sección 10,,2519,69,27603,0,0,2,0,0,422836,0,0,4,-1
 27716,Sección 23,,2555,17,27414,0,0,2,0,0,420966,0,0,0,-1
 27718,Sección 9,,2562,10,27448,0,0,2,0,0,421279,0,0,160,-1
 27719,Sección 10,,2562,7,27446,0,0,2,0,0,422583,0,0,0,-1
@@ -21980,9 +21969,7 @@ En dificultad heroica y mítica, se desprenden unas mareas ígneas del impacto d
 27721,Sección 16,,2557,16,27720,0,0,2,0,0,423494,0,2,8,0
 27722,Sección 24,,2555,26,27411,0,0,2,0,0,423522,0,2,4096,0
 27723,Sección 25,,2555,43,27416,0,0,2,0,0,423551,0,2,4096,0
-27724,Sección 10,,2519,79,26670,0,27636,2,0,0,414186,0,2,8,0
-27725,Sección 10,,2519,72,26670,27726,27922,2,0,0,429862,0,2,32,0
-27726,Sección 10,,2519,73,27725,0,0,2,0,0,423717,0,1,0,-1
+27724,Sección 10,,2519,88,26670,0,27900,2,0,0,414186,0,2,8,0
 27729,Sección 9,,2563,11,27637,0,28251,2,0,0,421455,0,2,0,0
 27732,Sección 8,,2563,7,27637,27733,27729,2,0,0,421343,0,3,33,0
 27733,Sección 11,,2563,8,27732,27905,27737,2,0,0,421656,0,0,4,-1
@@ -22000,16 +21987,16 @@ En dificultad heroica y mítica, se desprenden unas mareas ígneas del impacto d
 27770,Sección 18,,2557,23,0,0,0,2,0,0,424218,0,0,16,-1
 27772,Sección 60,,2565,39,27500,27773,27776,2,0,0,424258,0,1,0,-1
 27773,Sección 61,,2565,40,27772,0,0,2,0,0,421884,0,1,0,-1
-27774,Sección 62,,2565,85,27507,27775,27955,2,0,0,424258,0,1,0,-1
-27775,Sección 63,,2565,86,27774,0,0,2,0,0,421884,0,0,0,-1
+27774,Sección 62,,2565,86,27507,27775,27955,2,0,0,424258,0,1,0,-1
+27775,Sección 63,,2565,87,27774,0,0,2,0,0,421884,0,0,0,-1
 27776,Forma de búho flamígero,,2565,41,27500,27954,27518,1,114031,0,0,0,0,0,-1
 27778,Sección 66,,2565,43,27776,0,27780,2,0,0,421636,0,0,0,-1
 27780,Sección 68,,2565,44,27776,0,0,2,0,0,421939,0,0,0,-1
-27781,Tindral Sabioveloz,,2565,92,27507,27782,0,1,38743,0,0,0,1,0,-1
-27782,Sección 70,,2565,93,27781,0,27519,2,0,0,424140,0,2,18,0
+27781,Tindral Sabioveloz,,2565,93,27507,27782,0,1,38743,0,0,0,1,0,-1
+27782,Sección 70,,2565,94,27781,0,27519,2,0,0,424140,0,2,18,0
 27784,Sección 28,,2555,41,27333,0,0,2,0,0,424269,0,0,0,-1
 27785,Sección 9,"$[!16
-On Mythic difficulty, a Coiling Eruption is triggered upon expiration.$]",2557,10,27451,28155,0,2,0,0,421284,0,2,4096,0
+En dificultad mítica, se activa una Erupción en espiral cuando se agota.$]",2557,10,27451,28155,0,2,0,0,421284,0,2,4096,0
 27787,Sección 22,,2564,30,27467,0,0,2,0,0,424352,0,0,1,-1
 27796,Sección 62,,2565,23,27661,0,28121,2,0,0,423260,0,2,1,0
 27797,Sección 61,,2565,16,27665,0,0,2,0,0,422503,0,0,0,-1
@@ -22020,15 +22007,15 @@ On Mythic difficulty, a Coiling Eruption is triggered upon expiration.$]",2557,1
 27802,Sección 67,,2565,58,27509,27803,27891,2,0,0,424581,0,2,132,0
 27803,Sección 68,,2565,59,27802,0,0,2,0,0,424499,0,0,0,-1
 27804,Sección 69,,2565,56,27583,0,0,2,0,0,422503,0,0,0,-1
-27805,Sección 62,,2565,113,27587,0,28123,2,0,0,423260,0,2,1,0
-27806,Sección 63,,2565,109,27592,0,0,2,0,0,424499,0,0,0,-1
-27807,Sección 65,,2565,106,27595,0,0,2,0,0,422503,0,0,0,-1
-27808,Sección 64,,2565,101,27587,0,28373,2,0,0,424495,0,2,2,0
-27809,Sección 65,,2565,120,27495,0,27498,2,0,0,420240,0,0,0,-1
+27805,Sección 62,,2565,114,27587,0,28123,2,0,0,423260,0,2,1,0
+27806,Sección 63,,2565,110,27592,0,0,2,0,0,424499,0,0,0,-1
+27807,Sección 65,,2565,107,27595,0,0,2,0,0,422503,0,0,0,-1
+27808,Sección 64,,2565,102,27587,0,28373,2,0,0,424495,0,2,2,0
+27809,Sección 65,,2565,121,27495,0,27498,2,0,0,420240,0,0,0,-1
 27810,Sección 66,,2565,70,27537,0,27876,2,0,0,424579,0,0,0,-1
-27811,Sección 67,,2565,125,27676,0,27699,2,0,0,424579,0,0,0,-1
-27837,Sección 70,,2565,127,27699,27838,0,2,0,0,424665,0,2,0,0
-27838,Sección 71,,2565,128,27837,0,0,2,0,0,422325,0,2,0,0
+27811,Sección 67,,2565,126,27676,0,27699,2,0,0,424579,0,0,0,-1
+27837,Sección 70,,2565,128,27699,27838,0,2,0,0,424665,0,2,0,0
+27838,Sección 71,,2565,129,27837,0,0,2,0,0,422325,0,2,0,0
 27856,Sección 29,,2555,10,0,0,27300,2,0,0,424975,0,3,4096,0
 27857,Sección 30,"$[!16
 
@@ -22038,26 +22025,26 @@ En dificultad mítica, Renacer sana por completo a los miembros del consejo. $]"
 27860,Sección 41,,2553,33,27311,0,0,2,0,0,425025,0,2,9,0
 27863,Sección 35,,2553,55,27243,27864,27428,2,0,0,422461,0,0,2,-1
 27864,Antárbol cinéreo,Los antárboles cinéreos entran en erupción con |cFF2959D3|Hspell:418535|h[Corteza explosiva]|h|r y |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r al morir.,2553,56,27863,0,27865,1,113611,0,0,0,3,2,0
-27865,Antárbol cinéreo,"Ashen Treants erupt with |cFF2959D3|Hspell:418535|h[Explosive Bark]|h|r and |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r when killed.
+27865,Antárbol cinéreo,"Los antárboles cinéreos entran en erupción con |cFF2959D3|Hspell:418535|h[Corteza explosiva]|h|r y |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r al morir.
 
-$[!15 On Heroic and Mythic difficulties, Ashen Treants leave behind a trail of |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r.$]$[!16 On Heroic and Mythic difficulties, Ashen Treants create a trail of |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r.$]",2553,57,27863,0,0,1,113611,0,0,0,3,10,0
+$[!15 En las dificultades heroica y mítica, los antárboles cinéreos dejan un rastro de |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r.$]$[!16 En las dificultades heroica y mítica, los antárboles crean un rastro de |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r.$]",2553,57,27863,0,0,1,113611,0,0,0,3,10,0
 27866,Sección 31,,2555,13,27391,0,0,2,0,0,425114,0,2,16,0
 27867,Sección 10,,2519,26,27527,0,28272,2,0,0,417443,0,1,1,-1
-27868,Sección 10,,2519,65,27244,0,27245,2,0,0,417443,0,1,1,-1
-27872,Sección 16,,2556,10,28355,0,27404,2,0,0,425357,0,0,0,-1
+27868,Sección 10,,2519,74,27244,0,27245,2,0,0,417443,0,1,1,-1
+27872,Sección 16,,2556,12,28355,0,27404,2,0,0,425357,0,2,0,0
 27876,Sección 67,,2565,71,27537,27877,27964,2,0,0,423265,0,2,4,0
 27877,Sección 68,,2565,72,27876,27878,0,2,0,0,424665,0,2,0,0
 27878,Sección 69,,2565,73,27877,0,0,2,0,0,422325,0,2,0,0
-27882,Sección 67,,2565,132,27676,27883,0,2,0,0,423265,0,2,12,0
+27882,Sección 67,,2565,133,27676,27883,0,2,0,0,423265,0,2,12,0
 27883,Sección 68,"$[!16
 
-En dificultad heroica y superior, al pisar una semilla de llamas, el jugador recibe daño aumentado de esta durante 6 s.",2565,133,27882,27884,0,2,0,0,424665,0,2,8,0
-27884,Sección 69,,2565,134,27883,0,0,2,0,0,422325,0,2,0,0
-27885,Sección 67,,2565,77,27537,27886,0,2,0,0,423265,0,2,12,0
+In Mythic difficulty, stepping on a Seed of Flame afflicts the player with Germinating Aura for 10 sec.",2565,134,27882,28522,0,2,0,0,430584,0,2,4096,0
+27884,Sección 69,,2565,136,27883,0,0,2,0,0,422325,0,2,0,0
+27885,Sección 67,,2565,77,27537,27886,0,2,0,0,423265,0,2,4100,0
 27886,Sección 68,"$[!16
 
-En dificultad heroica y superior, al pisar una semilla de llamas, el jugador recibe daño aumentado de esta durante 6 s.",2565,78,27885,27887,0,2,0,0,424665,0,2,8,0
-27887,Sección 69,,2565,79,27886,0,0,2,0,0,422325,0,2,0,0
+In Mythic difficulty, stepping on a Seed of Flame afflicts the player with Germinating Aura for 10 sec.",2565,78,27885,28521,0,2,0,0,430584,0,2,4096,0
+27887,Sección 69,,2565,80,27886,0,0,2,0,0,422325,0,2,0,0
 27888,Sección 63,"$[!16
 
 En dificultad mítica, se aplica Ceniza persistente a todos los jugadores cuando se elimina Crecimiento ígneo.",2565,20,27661,27889,27796,2,0,0,424581,0,2,4228,0
@@ -22069,15 +22056,15 @@ En dificultad mítica, se aplica Ceniza persistente a todos los jugadores cuando
 27892,Sección 72,,2565,61,27891,0,27893,2,0,0,424582,0,2,4096,0
 27893,Sección 65,,2565,62,27891,0,0,2,0,0,424499,0,0,0,-1
 27898,Sección 10,,2519,19,26666,28084,28083,2,0,0,417455,0,0,0,-1
-27900,Sección 10,,2519,81,26670,0,27901,2,0,0,422836,0,0,4,-1
-27901,Sección 10,,2519,82,26670,0,0,2,0,0,425492,0,0,1,-1
+27900,Sección 10,,2519,89,26670,0,27901,2,0,0,422836,0,0,4,-1
+27901,Sección 10,,2519,90,26670,0,0,2,0,0,425492,0,0,1,-1
 27905,Sección 39,,2563,9,27733,0,0,2,0,0,424233,0,0,0,-1
-27907,Semilla de la vida,The Seed of Life lays dormant while it has zero energy. Renewed Treants' channel |cFF2959D3|Hspell:424997|h[Nature's Gift]|h|r causing the seed to blossom.,2553,9,27241,27908,27313,1,114176,0,0,0,1,32,-1
+27907,Semilla de la vida,La semilla de la vida permanece latente mientras no tenga energía. La canalización de |cFF2959D3|Hspell:424997|h[Don de la Naturaleza]|h|r de los antárboles renovados hace que florezca la semilla.,2553,9,27241,27908,27313,1,114176,0,0,0,1,32,-1
 27908,Sección 46,"$[!15
 
-On Heroic and Mythic difficulties, the Seed of Life causes players who form a bond to gain Dream Fatigue.$]$[!16
+ En las dificultades heroica y mítica, la semilla de la vida hace que los jugadores que formen un vínculo obtengan Fatiga onírica.$]$[!16
 
-On Heroic and Mythic difficulties, the Seed of Life causes players who form a bond to gain Dream Fatigue.$]",2553,10,27907,27914,0,2,0,0,425249,0,0,0,-1
+En las dificultades heroica y mítica, la semilla de la vida hace que los jugadores que formen un vínculo obtengan Fatiga onírica.$]",2553,10,27907,27914,0,2,0,0,425249,0,0,0,-1
 27909,Sección 9,"$[!15
 
 En dificultad heroica, se duplica Bomba de Polimorfia a los jugadores en un radio de $418740A1 m al eliminarse. $]",2555,30,27302,28167,27333,2,0,0,418720,0,2,0,0
@@ -22094,110 +22081,108 @@ En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impac
 En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impacto.",2565,32,27671,0,27917,2,0,0,421398,0,2,8,0
 27919,Sección 91,"$[!15
 
-En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impacto.",2565,122,27495,0,27920,2,0,0,421398,0,2,8,0
+En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impacto.",2565,123,27495,0,27920,2,0,0,421398,0,2,8,0
 27920,Sección 92,"$[!16
 
-En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impacto.",2565,123,27495,0,0,2,0,0,421398,0,2,8,0
+En dificultad heroica y superior, Tindral crea más Rayos de Fuego tras el impacto.",2565,124,27495,0,0,2,0,0,421398,0,2,8,0
 27921,Sección 34,,2563,20,27743,0,27748,2,0,0,422577,0,0,9,-1
-27922,Sección 10,,2519,74,26670,27633,27532,2,0,0,422935,0,0,0,-1
+27922,Sección 10,,2519,84,26670,27633,27532,2,0,0,422935,0,0,0,-1
 27924,Sección 36,,2563,34,27655,0,0,2,0,0,425574,0,0,0,-1
 27925,Sección 26,,2564,33,27476,0,28157,2,0,0,425648,0,1,0,-1
 27926,Sección 27,,2564,40,27481,0,0,2,0,0,425709,0,0,0,-1
 27946,Sección 10,,2519,12,26666,28383,28259,2,0,0,419506,0,0,0,-1
-27948,Forma de búho flamígero,,2565,135,27508,27952,0,1,114177,0,0,0,2,4096,0
-27950,Sección 95,,2565,137,27948,27951,0,2,0,0,425607,0,2,16,0
-27951,Sección 96,,2565,138,27950,0,0,2,0,0,425610,0,2,0,0
-27952,Sección 97,,2565,136,27948,0,27950,2,0,0,425657,0,2,0,0
+27948,Forma de búho flamígero,,2565,137,27508,27952,0,1,114177,0,0,0,2,4096,0
+27950,Sección 95,,2565,139,27948,27951,0,2,0,0,425607,0,2,16,0
+27951,Sección 96,,2565,140,27950,0,0,2,0,0,425610,0,2,0,0
+27952,Sección 97,,2565,138,27948,0,27950,2,0,0,425657,0,2,0,0
 27954,Sección 99,,2565,42,27776,0,27778,2,0,0,422509,0,0,0,-1
-27955,Forma de búho flamígero,,2565,87,27507,27956,27781,1,114031,0,0,0,1,0,-1
-27956,Sección 65,,2565,88,27955,0,27957,2,0,0,421603,0,0,0,-1
-27957,Sección 99,,2565,89,27955,0,27958,2,0,0,422509,0,0,0,-1
-27958,Sección 66,,2565,90,27955,0,28197,2,0,0,421636,0,0,0,-1
-27961,Sección 67,,2565,129,27676,27962,27882,2,0,0,423265,0,2,12,0
+27955,Forma de búho flamígero,,2565,88,27507,27956,27781,1,114031,0,0,0,1,0,-1
+27956,Sección 65,,2565,89,27955,0,27957,2,0,0,421603,0,0,0,-1
+27957,Sección 99,,2565,90,27955,0,27958,2,0,0,422509,0,0,0,-1
+27958,Sección 66,,2565,91,27955,0,28197,2,0,0,421636,0,0,0,-1
+27961,Sección 67,,2565,130,27676,27962,27882,2,0,0,423265,0,2,12,0
 27962,Sección 68,"$[!15
 
-En dificultad heroica y superior, al pisar una semilla de llamas, el jugador recibe daño aumentado de esta durante 6 s.",2565,130,27961,27963,0,2,0,0,424665,0,2,8,0
-27963,Sección 69,,2565,131,27962,0,0,2,0,0,422325,0,2,0,0
+En dificultad heroica y superior, al pisar una semilla de llamas, el jugador recibe daño aumentado de esta durante 6 s.",2565,131,27961,27963,0,2,0,0,424665,0,2,8,0
+27963,Sección 69,,2565,132,27962,0,0,2,0,0,422325,0,2,0,0
 27964,Sección 67,,2565,74,27537,27965,27885,2,0,0,423265,0,2,12,0
 27965,Sección 68,"$[!15
 
-En dificultad heroica y superior, al pisar una semilla de llamas, el jugador recibe daño aumentado de esta durante 6 s.",2565,75,27964,27966,0,2,0,0,424665,0,2,8,0
+In Heroic difficulty, stepping on a Seed of Flame makes the player take increased damage from Seed of Flame for 6 sec.",2565,75,27964,27966,0,2,0,0,424665,0,2,8,0
 27966,Sección 69,,2565,76,27965,0,0,2,0,0,422325,0,2,0,0
 27967,Sección 48,,2553,8,27241,0,27907,2,0,0,425889,0,3,4096,0
 27968,Sección 63,"$[!16
 
-En dificultad mítica, se aplica Ceniza persistente a todos los jugadores cuando se elimina Crecimiento ígneo.",2565,110,27587,27969,27805,2,0,0,424581,0,2,4228,0
-27969,Sección 72,,2565,111,27968,0,27970,2,0,0,424582,0,2,4096,0
-27970,Sección 65,,2565,112,27968,0,0,2,0,0,424499,0,0,0,-1
+En dificultad mítica, se aplica Ceniza persistente a todos los jugadores cuando se elimina Crecimiento ígneo.",2565,111,27587,27969,27805,2,0,0,424581,0,2,4228,0
+27969,Sección 72,,2565,112,27968,0,27970,2,0,0,424582,0,2,4096,0
+27970,Sección 65,,2565,113,27968,0,0,2,0,0,424499,0,0,0,-1
 27971,Sección 60,"$[!16
 
-In Mythic difficulty, if the fiery vine fails to root a player or if the root is removed before it is destroyed, a Scorched Treant is formed at its location.",2565,52,27509,28368,27583,2,0,0,424495,0,2,4098,0
+En dificultad mítica, si la vid ígnea no consigue enraizar a un jugador o si se elimina antes de que se destruya, se forma un antárbol agostado en su ubicación.",2565,52,27509,28368,27583,2,0,0,424495,0,2,4098,0
 28051,Sección 37,,2563,22,27637,0,28213,2,0,0,426018,0,2,4096,0
-28053,Sección 105,,2565,98,27587,0,28295,2,0,0,429169,0,2,18,0
+28053,Sección 105,,2565,99,27587,0,28295,2,0,0,429169,0,2,18,0
 28054,Forma de búho flamígero,,2565,34,27488,28055,0,1,114177,0,0,0,3,4096,0
 28055,Sección 97,,2565,35,28054,0,28057,2,0,0,425657,0,2,0,0
 28057,Sección 95,,2565,36,28054,28058,0,2,0,0,425607,0,2,16,0
 28058,Sección 96,,2565,37,28057,0,0,2,0,0,425610,0,2,0,0
-28059,Forma de búho flamígero,,2565,80,27506,28060,0,1,114177,0,0,0,2,4096,0
-28060,Sección 97,,2565,81,28059,0,28062,2,0,0,425657,0,2,0,0
-28062,Sección 95,,2565,82,28059,28063,0,2,0,0,425607,0,2,16,0
-28063,Sección 96,,2565,83,28062,0,0,2,0,0,425610,0,2,0,0
+28059,Forma de búho flamígero,,2565,81,27506,28060,0,1,114177,0,0,0,2,4096,0
+28060,Sección 97,,2565,82,28059,0,28062,2,0,0,425657,0,2,0,0
+28062,Sección 95,,2565,83,28059,28063,0,2,0,0,425607,0,2,16,0
+28063,Sección 96,,2565,84,28062,0,0,2,0,0,425610,0,2,0,0
 28065,Sección 21,,2554,32,27280,0,0,2,0,0,426017,0,0,0,-1
 28066,Sección 38,,2555,7,0,0,27303,2,0,0,425389,0,3,32,0
 28069,Sección 19,,2555,28,27302,28070,27909,2,0,0,421029,0,0,32,-1
 28070,Sección 20,,2555,29,28069,0,0,2,0,0,421032,0,0,48,-1
-28078,Sección 12,,2556,17,28355,0,0,2,0,0,426154,0,0,1,-1
-28080,Sección 10,,2519,40,27571,28082,27570,2,0,0,422032,0,0,4,-1
-28081,Anciano darnassiano,Un antiguo espíritu de árbol extinguido en la quema de Darnassus.,2519,42,28080,0,0,2,89541,0,0,0,3,4096,0
-28082,Espíritu de los kaldorei,Un espíritu que pereció en las llamas de Teldrassil.,2519,41,28080,0,28081,2,68533,0,0,0,1,0,-1
+28078,Sección 12,,2556,20,28355,0,0,2,0,0,426154,0,0,1,-1
+28080,Sección 10,,2519,47,27571,28082,27570,2,0,0,422032,0,0,4,-1
+28081,Anciano darnassiano,Un antiguo espíritu de árbol extinguido en la quema de Darnassus.,2519,49,28080,0,0,2,89541,0,0,0,3,4096,0
+28082,Espíritu de los kaldorei,Un espíritu que pereció en las llamas de Teldrassil.,2519,48,28080,0,28081,2,68533,0,0,0,1,0,-1
 28083,Sección 10,,2519,22,26666,0,27530,2,0,0,414186,0,2,8,0
-28084,Sección 10,,2519,20,27898,0,27459,2,0,0,425484,0,3,4096,0
-28085,Sección 10,,2519,35,27516,0,27482,2,0,0,426376,0,3,4096,0
+28084,Sección 10,,2519,20,27898,0,28475,2,0,0,425484,0,3,4096,0
 28086,Sección 48,,2553,24,27324,0,0,2,0,0,426387,0,0,128,-1
 28108,Sección 18,,2554,26,27288,0,27690,2,0,0,418533,0,2,0,0
 28109,Sección 24,,2554,28,27690,0,0,2,0,0,424347,0,0,0,-1
 28110,Sección 25,,2554,12,28112,28111,28113,2,0,0,414367,0,0,8,-1
 28111,Sección 26,,2554,13,28110,0,0,2,0,0,419462,0,0,16,-1
 28112,Sección 27,"$[!16 
- On Mythic difficulty, Igira forges two weapons to wield.$]",2554,11,0,28110,27381,2,0,0,422776,0,3,4128,0
+ En dificultad mítica, Igira forja dos armas y las empuña.$]",2554,11,0,28110,27381,2,0,0,422776,0,3,4128,0
 28113,Sección 28,,2554,14,28112,0,28114,2,0,0,423715,0,0,0,-1
 28114,Sección 29,,2554,15,28112,0,0,2,0,0,419048,0,0,16,-1
 28115,Sección 30,,2554,18,27381,28116,27382,2,0,0,414367,0,2,8,0
 28116,Sección 31,,2554,19,28115,0,0,2,0,0,419462,0,0,16,-1
-28117,Sección 14,,2556,15,28355,28366,28078,2,0,0,427722,0,2,1,0
 28118,Sección 9,,2127,8,17966,0,17967,2,0,0,265005,0,2,0,3
 28119,Sección 13,,2127,13,18209,0,0,2,0,0,268234,0,2,8,2
 28120,Tanques,"$bullet;|cFF2959D3|Hspell:421343|h[Marca de condenación]|h|r aplica a todos los jugadores alcanzados una |cFF2959D3|Hspell:421656|h[Herida cauterizante]|h|r que absorbe una gran cantidad de sanación.
 $bullet;|cFF2959D3|Hspell:422277|h[Devorar esencia]|h|r saca las |cFF2959D3|Hspell:423904|h[Llamas vivas]|h|r de los jugadores afectados por |cFF2959D3|Hspell:421643|h[Marca de Brasaescara]|h|r.",2563,2,27453,0,27454,3,0,0,0,0,2,1,0
 28121,Sección 116,,2565,24,27661,28124,27662,2,0,0,426669,0,2,4097,0
 28122,Sección 117,,2565,64,27509,28126,27618,2,0,0,426669,0,2,4097,0
-28123,Sección 118,,2565,114,27587,28128,27616,2,0,0,426669,0,2,4097,0
+28123,Sección 118,,2565,115,27587,28128,27616,2,0,0,426669,0,2,4097,0
 28124,Sección 120,,2565,25,28121,0,28125,2,0,0,426687,0,2,4097,0
 28125,Sección 119,,2565,26,28121,0,0,2,0,0,423264,0,2,1,0
 28126,Sección 122,,2565,65,28122,0,28127,2,0,0,426687,0,2,4097,0
 28127,Sección 121,,2565,66,28122,0,0,2,0,0,423264,0,2,1,0
-28128,Sección 124,,2565,115,28123,0,28129,2,0,0,426687,0,2,4097,0
-28129,Sección 123,,2565,116,28123,0,0,2,0,0,423264,0,2,1,0
+28128,Sección 124,,2565,116,28123,0,28129,2,0,0,426687,0,2,4097,0
+28129,Sección 123,,2565,117,28123,0,0,2,0,0,423264,0,2,1,0
 28131,Sección 39,,2563,36,27757,0,0,2,0,0,426725,0,1,16,-1
-28140,Sección 13,,2556,30,27432,0,28378,2,0,0,425794,0,0,0,-1
+28140,Sección 13,,2556,31,27432,0,28378,2,0,0,425794,0,0,0,-1
 28145,Sección 49,,2553,15,27321,0,27331,2,0,0,426524,0,0,64,-1
 28146,Raíces agostadoras,"Las raíces agostadoras se fijan en jugadores aleatorios y los persiguen sin descanso y cada vez más deprisa.
 
 Al morir, se transforman en zarzas carbonizadas.",2553,21,27312,28147,27324,1,115925,0,0,0,2,0,0
 28147,Sección 48,,2553,22,28146,0,0,2,0,0,426387,0,0,128,-1
-28148,Sección 63,,2565,107,27587,0,27592,2,0,0,424581,0,2,132,0
+28148,Sección 63,,2565,108,27587,0,27592,2,0,0,424581,0,2,132,0
 28149,Sección 63,,2565,17,27661,0,27798,2,0,0,424581,0,2,132,0
 28150,Sección 63,,2565,57,27509,0,27802,2,0,0,424581,0,2,132,0
 28151,Sección 40,,2555,32,28167,0,0,2,0,0,427010,0,0,0,-1
 28152,Sección 39,,2555,38,28168,0,0,2,0,0,427010,0,0,0,-1
-28153,Sección 15,,2556,27,28357,0,0,2,0,0,423195,0,0,0,-1
+28153,Sección 15,,2556,19,28218,0,0,2,0,0,423195,0,2,0,0
 28154,Sección 9,,2557,8,27451,28302,27785,2,0,0,421284,0,2,0,0
 28155,Sección 20,,2557,11,27785,28303,28304,2,0,0,427201,0,2,4096,0
 28157,Sección 15,,2564,34,27476,28158,27478,2,0,0,421350,0,3,8,0
 28158,Sección 16,,2564,35,28157,0,0,2,0,0,421038,0,0,0,-1
 28159,Sección 128,,2565,28,27661,0,0,2,0,0,427297,0,0,0,-1
 28160,Sección 129,,2565,68,27509,0,0,2,0,0,427297,0,0,32,-1
-28161,Sección 130,,2565,118,27587,0,0,2,0,0,427297,0,0,32,-1
+28161,Sección 130,,2565,119,27587,0,0,2,0,0,427297,0,0,32,-1
 28163,Sección 17,,1207,15,10660,0,0,2,0,0,427513,0,0,0,-1
 28166,Sección 17,,2555,18,27300,0,27415,2,0,0,421020,0,2,1,0
 28167,Sección 42,,2555,31,27909,28151,27912,2,0,0,427602,0,0,0,-1
@@ -22221,7 +22206,7 @@ $bullet;Tuercerraíces recibe un 100% más de daño cuando le afecta |cFF2959D3|
 28196,Tanques,"$bullet;|cFF2959D3|Hspell:424352|h[Tromba de fuego aterrador]|h|r inflige daño considerable y aumenta el daño de llama de las Sombras recibido.
 $bullet;Cuando despiertan, los azotadores corruptos atacan a los jugadores cercanos.
 $bullet;Los jugadores en estado |cFF2959D3|Hspell:421038|h[Carbonizado]|h|r pueden prender las |cFF2959D3|Hspell:425648|h[Raíces de fatalidad]|h|r al entrar en contacto con ellas.",2564,2,27463,0,27464,3,0,0,0,0,2,1,0
-28197,Sección 126,,2565,91,27955,0,0,2,0,0,421939,0,0,0,-1
+28197,Sección 126,,2565,92,27955,0,0,2,0,0,421939,0,0,0,-1
 28199,Sección 18,,1208,5,0,28200,10477,2,0,0,428179,0,1,0,-1
 28200,Sección 19,,1208,6,28199,0,0,2,0,0,428177,0,2,4096,0
 28201,Sección 20,,2563,28,27637,0,0,2,0,0,420950,0,0,0,-1
@@ -22232,224 +22217,244 @@ En dificultad heroica, cuando se agota Recalentado, se generan unas olas de llam
 28215,Sección 12,,101,17,2181,0,0,2,0,0,428048,0,1,0,-1
 28216,Guardia de élite de lady Naz'jar,,101,7,2182,2183,0,3,0,0,0,0,1,0,-1
 28217,Invocar géiser,,101,18,0,0,28221,2,0,0,427769,135836,0,0,-1
-28218,Sección 17,"$[!15
-
-In Heroic difficulty, Weaver's Burden applies Woven Resonance and spreads to two additional players.$]",2556,12,28355,28229,28117,2,0,0,427722,0,2,9,0
+28218,Sección 17,,2556,18,28355,28153,28078,2,0,0,427722,0,2,1,0
 28220,Sección 13,,101,20,0,0,0,2,0,0,428263,0,0,64,-1
 28221,Sección 14,,101,19,0,0,28220,2,0,0,428376,0,0,4,-1
-28222,Sección 10,,2519,53,27608,0,27609,2,0,0,422517,0,0,0,-1
-28223,Sueño manifestado,,2556,20,28358,28224,28359,1,115305,0,0,0,2,4128,0
-28224,Sección 22,,2556,21,28223,0,28225,2,0,0,428471,0,2,16,0
-28225,Sección 19,,2556,22,28223,28226,28227,2,0,0,428012,0,2,0,0
-28226,Sección 21,,2556,23,28225,0,0,2,0,0,428479,0,2,0,0
-28227,Sección 20,,2556,24,28223,0,0,2,0,0,423993,0,2,0,0
+28222,Sección 10,,2519,60,27608,0,27609,2,0,0,422517,0,0,0,-1
 28228,Tanques,"$bullet;|cFF2959D3|Hspell:426154|h[Explosión entretejida]|h|r inflige una cantidad considerable de daño físico y de Naturaleza.
-$bullet;|cFF2959D3|Hspell:420846|h[Continuo]|h|r provoca que aparezcan celadores del ciclo en la arena del encuentro.
-$bullet;|cFF2959D3|Hspell:427722|h[Carga de tejedora]|h|r explota al eliminarse e inflige daño a todos los jugadores cercanos.",2556,2,27304,0,27305,3,0,0,0,0,2,1,0
-28229,Section 24,,2556,13,28218,0,28365,2,0,0,428273,0,2,8,0
-28230,Damage Dealers,"$bullet; Standing near dormant Tainted Lashers and Tainted Treants when |cFF2959D3|Hspell:421971|h[Controlled Burn]|h|r expires causes them to activate.
-$bullet; |cFF2959D3|Hspell:421038|h[Ember-Charred]|h|r players can ignite |cFF2959D3|Hspell:425648|h[Doom Roots]|h|r by touching them.
-$bullet; Gnarlroot takes 100% increased damage when afflicted by |cFF2959D3|Hspell:424734|h[Uprooted Agony]|h|r.",2564,5,27463,0,27465,3,0,0,0,0,2,2,0
-28232,DPS,"$bullet;|cFF2959D3|Hspell:417666|h[Fiery Treants]|h|r transform into |cFF2959D3|Hspell:417667|h[Charred Treants]|h|r and |cFF2959D3|Hspell:418657|h[Scorching Brambles]|h|r transform into |cFF2959D3|Hspell:418655|h[Charred Brambles]|h|r when killed.
-$bullet;|cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r drastically reduce damage taken from |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.
-$bullet;|cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r douses |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r and |cFF2959D3|Hspell:418654|h[Scorching Roots]|h|r.",2553,6,27237,0,0,0,0,0,0,0,2,2,0
-28233,Healers,"$bullet;|cFF2959D3|Hspell:417667|h[Charred Treants]|h|r transform into |cFF2959D3|Hspell:417668|h[Renewed Treants]|h|r and |cFF2959D3|Hspell:418655|h[Charred Brambles]|h|r transform into |cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r when healed to full.
-$bullet;|cFF2959D3|Hspell:418653|h[Renewed Bramble Barriers]|h|r drastically reduce damage taken from |cFF2959D3|Hspell:417634|h[Raging Inferno]|h|r.
-$bullet;|cFF2959D3|Hspell:425249|h[Dream Blossom]|h|r douses |cFF2959D3|Hspell:417610|h[Burning Ground]|h|r and |cFF2959D3|Hspell:418654|h[Scorching Roots]|h|r.
-$bullet;|cFF2959D3|Hspell:421326|h[Flash Fire]|h|r-afflicted players become |cFF2959D3|Hspell:427306|h[Encased in Ash]|h|r if the absorb expires.",2553,4,27237,0,27240,0,0,0,0,0,2,4,0
-28234,Section 52,,2553,28,27327,0,0,2,0,0,418535,0,0,0,-1
-28235,Ink of Ozumat,,104,6,2204,28236,28246,1,91695,0,0,0,1,0,-1
-28236,Section 8,,104,7,28235,28247,28281,2,0,0,428399,0,0,0,-1
-28237,Section 9,,104,10,28235,0,28282,2,0,0,428530,0,0,1,-1
+$bullet;|cFF2959D3|Hspell:423842|h[Desgarro verdeante]|h|r inflige una cantidad considerable de daño de Naturaleza a todos los jugadores cuando un celador del ciclo atraviesa la |cFF2959D3|Hspell:418423|h[Matriz Verdeante]|h|r.
+$bullet;|cFF2959D3|Hspell:427722|h[Carga de tejedora]|h|r detona al eliminarse e inflige daño a los jugadores cercanos.",2556,2,27304,0,27306,3,0,0,0,0,0,1,-1
+28230,DPS,"$bullet;Al estar cerca de los azotadores y de los antárboles corruptos durmientes cuando se agote |cFF2959D3|Hspell:421971|h[Fuego controlado]|h|r, estos se activarán.
+$bullet;|cFF2959D3|Hspell:421038|hLos jugadores en estado [Carbonizado]|h|r pueden prender las |cFF2959D3|Hspell:425648|h[Raíces de fatalidad]|h|r al entrar en contacto con ellas.
+$bullet;Tuercerraíces recibe un 100% más de daño cuando le afecta |cFF2959D3|Hspell:424734|h[Agonía desarraigada]|h|r.",2564,5,27463,0,27465,3,0,0,0,0,2,2,0
+28232,DPS,"$bullet;Los |cFF2959D3|Hspell:417666|h[Antárboles ígneos]|h|r se transforman en |cFF2959D3|Hspell:417667|h[Antárboles carbonizados]|h|r, y las |cFF2959D3|Hspell:418657|h[Zarzas agostadoras]|h|r, en |cFF2959D3|Hspell:418655|h[Zarzas carbonizadas]|h|r al morir.
+$bullet;|cFF2959D3|Hspell:418653|h[Barrera de zarzas renovada]|h|r reduce en gran medida el daño recibido de |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.
+$bullet;|cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r apaga el |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r y las |cFF2959D3|Hspell:418654|h[Raíces agostadoras]|h|r.",2553,4,27237,0,27239,0,0,0,0,0,2,2,0
+28233,Sanadores,"$bullet;Los |cFF2959D3|Hspell:417667|h[Antárboles carbonizados]|h|r se transforman en |cFF2959D3|Hspell:417668|h[Antárboles renovados]|h|r y las |cFF2959D3|Hspell:418655|h[Zarzas carbonizadas]|h|r, en |cFF2959D3|Hspell:418653|h[Barreras de zarzas renovadas]|h|r si se sanan por completo.
+$bullet;|cFF2959D3|Hspell:418653|h[Barrera de zarzas renovada]|h|r reduce en gran medida el daño recibido de |cFF2959D3|Hspell:417634|h[Inferno enfurecido]|h|r.
+$bullet;|cFF2959D3|Hspell:425249|h[Flor del Sueño]|h|r apaga el |cFF2959D3|Hspell:417610|h[Suelo ardiente]|h|r y las |cFF2959D3|Hspell:418654|h[Raíces agostadoras]|h|r.
+$bullet;Los jugadores alcanzados por |cFF2959D3|Hspell:421326|h[Destello ígneo]|h|r se ven afectados por |cFF2959D3|Hspell:427306|h[Encerrado en ceniza]|h|r si se agota la absorción.",2553,6,27237,0,0,0,0,0,0,0,2,4,0
+28234,Sección 52,,2553,28,27327,0,0,2,0,0,418535,0,0,0,-1
+28235,Tinta de Ozumat,,104,6,2204,28236,28246,1,91695,0,0,0,1,0,-1
+28236,Sección 8,,104,7,28235,28247,28281,2,0,0,428399,0,0,0,-1
+28237,Sección 9,,104,10,28235,0,28282,2,0,0,428530,0,0,1,-1
 28238,Ozumat,,104,14,2204,28239,0,1,34135,0,0,0,1,0,-1
-28239,Section 11,,104,15,28238,0,28240,2,0,0,428594,0,0,0,-1
-28240,Servants of Filth,,104,16,28238,28241,0,0,0,0,0,0,1,0,-1
-28241,Sludge,,104,17,28240,28242,28244,1,91837,0,0,0,0,0,-1
-28242,Section 15,,104,18,28241,28248,28243,2,0,0,428621,0,0,0,-1
-28243,Section 14,,104,20,28241,0,0,2,0,0,428531,0,0,1,-1
-28244,Splotch,,104,21,28240,28245,0,1,102373,0,0,0,0,0,-1
-28245,Section 17,,104,22,28244,0,0,2,0,0,428526,0,0,64,-1
+28239,Sección 11,,104,15,28238,0,28240,2,0,0,428594,0,0,0,-1
+28240,Sirvientes de la inmundicia,,104,16,28238,28241,0,0,0,0,0,0,1,0,-1
+28241,Fango,,104,17,28240,28242,28244,1,91837,0,0,0,0,0,-1
+28242,Sección 15,,104,18,28241,28248,28243,2,0,0,428621,0,0,0,-1
+28243,Sección 14,,104,20,28241,0,0,2,0,0,428531,0,0,1,-1
+28244,Mancha,,104,21,28240,28245,0,1,102373,0,0,0,0,0,-1
+28245,Sección 17,,104,22,28244,0,0,2,0,0,428526,0,0,64,-1
 28246,Neptulon,,104,12,2204,28256,28238,1,32081,0,0,0,1,0,-1
-28247,Section 19,,104,8,28236,0,0,2,0,0,428404,0,0,0,-1
-28248,Section 20,,104,19,28242,0,0,2,0,0,428404,0,0,0,-1
-28249,,"$[!16
+28247,Sección 19,,104,8,28236,0,0,2,0,0,428404,0,0,0,-1
+28248,Sección 20,,104,19,28242,0,0,2,0,0,428404,0,0,0,-1
+28249,Sección 11,"$[!16
 
-In Mythic difficulty, targets afflicted with Cauterizing Wound that are hit by Flame Waves create additional Flame Waves.$]",2563,18,27743,28250,27921,2,0,0,421656,0,0,4100,-1
-28250,,,2563,19,28249,0,0,2,0,0,424233,0,0,0,-1
-28251,,"$[!15
+En dificultad mítica, los objetivos afectados por Herida cauterizante que son alcanzados por las olas de llamas crean unas olas de llamas extra.$]",2563,18,27743,28250,27921,2,0,0,421656,0,0,4100,-1
+28250,Sección 12,,2563,19,28249,0,0,2,0,0,424233,0,0,0,-1
+28251,Sección 8,"$[!15
 
-In Heroic difficulty, the primary target of Brand of Damnation is afflicted with Searing Aftermath.$]",2563,12,27637,28252,27743,2,0,0,421343,0,3,41,0
-28252,,,2563,13,28251,28253,28254,2,0,0,421656,0,0,4,-1
-28253,,,2563,14,28252,0,0,2,0,0,424233,0,0,0,-1
-28254,,,2563,15,28251,0,28255,2,0,0,422577,0,0,9,-1
-28255,,,2563,16,28251,0,0,2,0,0,421643,0,0,0,-1
-28256,Section 21,,104,13,28246,0,0,2,0,0,428674,0,0,32,-1
-28257,,,2519,18,28259,0,0,2,0,0,419066,0,3,0,0
-28259,,,2519,17,26666,28257,27898,2,0,0,420422,0,2,0,0
-28260,,,2519,45,27604,28273,27608,1,78224,0,0,0,0,1,-1
-28261,,,2519,52,27608,0,28222,2,0,0,428968,0,0,0,-1
-28262,,,2519,48,28260,0,28263,2,0,0,422517,0,0,0,-1
-28263,,,2519,49,28260,0,0,2,0,0,428400,0,0,18,-1
-28264,,,2554,30,27282,0,27280,2,0,0,415624,0,2,4,0
-28265,Section 53,,2553,45,27243,0,27431,2,0,0,428896,0,2,4128,0
-28266,,,2519,8,26666,27529,27946,2,0,0,428954,0,2,4096,0
-28267,,,2519,10,27529,0,0,2,0,0,419066,0,0,0,-1
-28268,Section 21,,1210,7,0,10537,10539,2,0,0,428823,0,0,2,-1
-28269,Section 22,,1210,9,10537,0,10538,2,0,0,428948,0,2,4100,0
-28270,Section 16,,1210,16,10541,0,10542,2,0,0,428746,0,0,32,-1
-28271,Healers,"$bullet;When Yalnu uses |cFF2959D3|Hspell:169613|h[Genesis]|h|r, step on any sprouting lashers to |cFF2959D3|Hspell:173536|h[Trample]|h|r them and prevent them from becoming full-grown.
-$bullet;|cFF2959D3|Hspell:169179|h[Colossal Blow]|h|r inflicts heavy group-wide damage.
-$bullet;Flourishing Ancients cast |cFF2959D3|Hspell:428948|h[Vibrant Flourish]|h|r, inflicting continuous group-wide damage.",1210,4,10548,0,10551,3,0,0,0,0,2,4,0
-28272,,,2519,27,27527,0,0,2,0,0,425345,0,1,0,-1
-28273,,,2519,46,28260,0,28274,2,0,0,428963,0,0,1,-1
-28274,,,2519,47,28260,0,28262,2,0,0,428971,0,0,4096,-1
-28275,,,2553,50,27243,28276,27426,2,0,0,421318,0,2,1,0
-28276,,,2553,51,28275,0,0,2,0,0,421594,0,0,0,-1
-28277,Section 56,,2553,54,27438,0,0,2,0,0,428946,0,0,4096,-1
-28278,,,2553,34,27241,28279,27328,2,0,0,426206,0,2,0,0
-28279,,,2553,35,28278,0,0,2,0,0,426242,0,2,0,0
-28280,Section 59,,2553,38,27376,0,0,2,0,0,429032,0,2,4096,0
-28281,Section 21,,104,9,28235,0,28237,2,0,0,428868,0,0,4,-1
-28282,Section 22,,104,11,28235,0,0,2,0,0,428889,0,0,1,-1
-28283,Section 23,,104,27,2220,0,0,2,0,0,429046,0,0,0,-1
-28290,,,2565,46,27518,0,28291,2,0,0,424140,0,2,18,0
-28291,,,2565,47,27518,28292,0,2,0,0,424140,0,2,4114,0
-28292,Section 124,,2565,48,28291,0,0,2,0,0,429166,0,2,4116,0
-28293,Section 124,,2565,95,27519,0,0,2,0,0,429166,0,2,4116,0
-28295,Section 127,,2565,99,27587,28296,27808,2,0,0,429169,0,2,4114,0
-28296,Section 128,,2565,100,28295,0,0,2,0,0,429166,0,2,4116,0
-28297,,,2556,8,28355,0,28363,2,0,0,420846,0,0,4,-1
-28302,Section 21,,2557,9,28154,0,0,2,0,0,429153,0,2,0,0
-28303,Section 22,,2557,12,28155,0,0,2,0,0,427211,0,2,4096,0
-28304,Section 23,,2557,13,27785,0,0,2,0,0,429153,0,2,0,0
-28305,Deep Sea Murloc,,101,14,28216,28306,0,1,31539,0,0,0,0,0,-1
-28306,Section 16,,101,15,28305,0,0,2,0,0,428096,0,0,4,-1
-28308,Section 31,"$[!15
+En dificultad heroica, el objetivo principal de Marca de condenación queda afectado por Secuelas abrasadoras.$]",2563,12,27637,28252,27743,2,0,0,421343,0,3,41,0
+28252,Sección 11,,2563,13,28251,28253,28254,2,0,0,421656,0,0,4,-1
+28253,Sección 12,,2563,14,28252,0,0,2,0,0,424233,0,0,0,-1
+28254,Sección 34,,2563,15,28251,0,28255,2,0,0,422577,0,0,9,-1
+28255,Sección 15,,2563,16,28251,0,0,2,0,0,421643,0,0,0,-1
+28256,Sección 21,,104,13,28246,0,0,2,0,0,428674,0,0,32,-1
+28257,Sección 10,,2519,18,28259,0,0,2,0,0,419066,0,3,0,0
+28259,Sección 10,,2519,17,26666,28257,27898,2,0,0,420422,0,2,0,0
+28260,Coloso ardiente,,2519,52,27604,28273,27608,1,78224,0,0,0,0,1,-1
+28261,Sección 10,,2519,59,27608,0,28222,2,0,0,428968,0,0,0,-1
+28262,Sección 10,,2519,55,28260,0,28263,2,0,0,422517,0,0,0,-1
+28263,Sección 10,,2519,56,28260,0,0,2,0,0,428400,0,0,18,-1
+28264,Sección 22,,2554,30,27282,0,27280,2,0,0,415624,0,2,4,0
+28265,Sección 53,,2553,45,27243,0,27431,2,0,0,428896,0,2,4128,0
+28266,Sección 10,,2519,8,26666,27529,27946,2,0,0,428954,0,2,4096,0
+28267,Sección 10,,2519,10,27529,0,0,2,0,0,419066,0,0,0,-1
+28268,Sección 21,,1210,7,0,10537,10539,2,0,0,428823,0,0,2,-1
+28269,Sección 22,,1210,9,10537,0,10538,2,0,0,428948,0,2,4100,0
+28270,Sección 16,,1210,16,10541,0,10542,2,0,0,428746,0,0,32,-1
+28271,Sanadores,"$bullet;Cuando Yalnu utiliza |cFF2959D3|Hspell:169613|h[Génesis]|h|r, |cFF2959D3|Hspell:173536|h[Pisotea]|h|r los azotadores en crecimiento para impedir que crezcan.
+$bullet;|cFF2959D3|Hspell:169179|h[Arremetida colosal]|h|r inflige un daño importante a toda la banda.
+$bullet;Los ancianos florecientes lanzan |cFF2959D3|Hspell:428948|h[Floritura vibrante]|h|r, lo que inflige daño continuo a toda la banda.",1210,4,10548,0,10551,3,0,0,0,0,2,4,0
+28272,Sección 10,,2519,27,27527,0,0,2,0,0,425345,0,1,0,-1
+28273,Sección 10,,2519,53,28260,0,28274,2,0,0,428963,0,0,1,-1
+28274,Sección 10,,2519,54,28260,0,28262,2,0,0,428971,0,2,4096,0
+28275,Sección 32,,2553,50,27243,28276,27426,2,0,0,421318,0,2,1,0
+28276,Sección 40,,2553,51,28275,0,0,2,0,0,421594,0,0,0,-1
+28277,Sección 56,,2553,54,27438,0,0,2,0,0,428946,0,0,4096,-1
+28278,Sección 22,,2553,34,27241,28279,27328,2,0,0,426206,0,2,0,0
+28279,Sección 26,,2553,35,28278,0,0,2,0,0,426242,0,2,0,0
+28280,Sección 59,,2553,38,27376,0,0,2,0,0,429032,0,2,4096,0
+28281,Sección 21,,104,9,28235,0,28237,2,0,0,428868,0,0,4,-1
+28282,Sección 22,,104,11,28235,0,0,2,0,0,428889,0,0,1,-1
+28283,Sección 23,,104,27,2220,0,0,2,0,0,429046,0,0,0,-1
+28290,Sección 28,,2565,46,27518,0,28291,2,0,0,424140,0,2,18,0
+28291,Sección 28,,2565,47,27518,28292,0,2,0,0,424140,0,2,4114,0
+28292,Sección 124,,2565,48,28291,0,0,2,0,0,429166,0,2,4116,0
+28293,Sección 124,,2565,96,27519,0,0,2,0,0,429166,0,2,4116,0
+28295,Sección 127,,2565,100,27587,28296,27808,2,0,0,429169,0,2,4114,0
+28296,Sección 128,,2565,101,28295,0,0,2,0,0,429166,0,2,4116,0
+28297,Sección 11,,2556,7,28355,0,28363,2,0,0,420846,0,0,4,-1
+28302,Sección 21,,2557,9,28154,0,0,2,0,0,429153,0,2,0,0
+28303,Sección 22,,2557,12,28155,0,0,2,0,0,427211,0,2,4096,0
+28304,Sección 23,,2557,13,27785,0,0,2,0,0,429153,0,2,0,0
+28305,Múrloc de las profundidades,,101,14,28216,28306,0,1,31539,0,0,0,0,0,-1
+28306,Sección 16,,101,15,28305,0,0,2,0,0,428096,0,0,4,-1
+28308,Sección 31,"$[!15
 
-In Heroic difficulty, Lumbering Slam causes Surging Growths to sprout.$]",2556,32,27432,28379,28376,2,0,0,429108,0,2,41,0
-28309,Section 32,,2554,24,27290,0,0,2,0,0,429277,0,2,0,0
-28310,Overview,"When Lady Naz'jar reaches $75683s3% and $75683s4% remaining health, she summons her Elite Guard and begins to channel High Tide.  
+En dificultad heroica, Embate pesado hace que broten crecimientos en oleada.$]",2556,33,27432,28379,28376,2,0,0,429108,0,2,40,0
+28309,Sección 32,,2554,24,27290,0,0,2,0,0,429277,0,2,0,0
+28310,Resumen,"Cuando lady Naz'jar alcanza el $75683s3% y el $75683s4% de salud restante, invoca a su guardia de élite y empieza a canalizar Marea alta. 
 
-While channeling High Tide Lady Naz'jar is immune to damage and causes geysers to erupt throughout the arena periodically until her guards are defeated.",101,1,0,28311,2182,3,0,0,0,0,1,0,-1
-28311,Tanks,"$bullet;Lady Naz'jar maintains |cFF2959D3|Hspell:75683|h[High Tide]|h|runtil her guards are defeated.
-$bullet;Naz'jar Frost Witch's |cFF2959D3|Hspell:428103|h[Frostbolt]|h|r reduces movement speed.",101,2,28310,0,28312,3,0,0,0,0,1,1,-1
-28312,Healers,"$bullet;|cFF2959D3|Hspell:428041|h[Shock Blast]|h|r inflicts high damage to the primary target and causes |cFF2959D3|Hspell:428048.|h[Shock Orbs]|h|r to scatter in all directions from their location.
-$bullet;|cFF2959D3|Hspell:428041|h[Focused Tempest]|h|r inflicts moderate damage to multiple players over its duration.",101,3,28310,0,28313,3,0,0,0,0,1,4,-1
-28313,Damage Dealers,"$bullet;Lady Naz'jar maintains |cFF2959D3|Hspell:75683|h[High Tide]|h|runtil her guards are defeated.
-$bullet;|cFF2959D3|Hspell:428041|h[Shock Blast]|h|r inflicts high damage to the primary target and causes |cFF2959D3|Hspell:428048.|h[Shock Orbs]|h|r to scatter in all directions from their location.
-$bullet;Naz'jar Frost Witch's |cFF2959D3|Hspell:428103|h[Frostbolt]|h|r reduces movement speed.",101,4,28310,0,0,3,0,0,0,0,1,2,-1
-28314,Overview,Commander Ulthok creates pools of Bubbling Ooze throughout the arena and then uses |cFF2959D3|Hspell:427456|h[Awaken Ooze]|h|r to make them pursue players.,102,1,0,28315,2193,3,0,0,0,0,0,0,-1
-28315,Tanks,"$bullet;|cFF2959D3|Hspell:427451|h[Congealed Ooze]|h|r are knocked back when attacked.
-$bullet;|cFF2959D3|Hspell:427670|h[Crushing Claw]|h|r increases Physical damage taken.
-$bullet;|cFF2959D3|Hspell:427668|h[Festering Shockwave]|h|r knocks players away.",102,2,28314,0,28316,3,0,0,0,0,0,1,-1
-28316,Healers,"$bullet;|cFF2959D3|Hspell:427451|h[Congealed Ooze]|h|r are knocked back when attacked.
-$bullet;|cFF2959D3|Hspell:427670|h[Crushing Claw]|h|r increases Physical damage taken.
-$bullet;|cFF2959D3|Hspell:427668|h[Festering Shockwave]|h|r inflicts moderate damage knocks players away.",102,3,28314,0,28317,3,0,0,0,0,0,4,-1
-28317,Damage Dealers,"$bullet;|cFF2959D3|Hspell:427451|h[Congealed Ooze]|h|r are knocked back when attacked.
-$bullet;|cFF2959D3|Hspell:427668|h[Festering Shockwave]|h|r knocks players away.",102,4,28314,0,0,3,0,0,0,0,0,2,-1
-28318,Overview,"Ozumat summons the Ink of Ozumat to attack players and pollute the arena. Neptulon grants players |cFF2959D3|Hspell:428674|h[Cleansing Flux]|h|r with the power to purify |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r.
+Mientras canaliza Marea alta, lady Naz'jar es inmune al daño y hace que surjan géiseres de forma periódica por la arena hasta que los guardias caen derrotados.",101,1,0,28311,2182,3,0,0,0,0,1,0,-1
+28311,Tanques,"$bullet;La |cFF2959D3|Hspell:75683|h[Marea alta]|h|r de Lady Naz'jar no se disipa hasta que sus guardias son derrotados.
+$bullet;La |cFF2959D3|Hspell:428103|h[Descarga de Escarcha]|h|r de la bruja de escarcha Naz'jar reduce la velocidad de movimiento.",101,2,28310,0,28312,3,0,0,0,0,1,1,-1
+28312,Sanadores,"$bullet;|cFF2959D3|Hspell:428041|h[Explosión de choque]|h|r inflige mucho daño al objetivo principal y provoca que los |cFF2959D3|Hspell:428048.|h[Orbes de choque]|h|r se dispersen en todas direcciones.
+$bullet;|cFF2959D3|Hspell:428041|h[Tempestad enfocada]|h|r inflige daño moderado a varios jugadores mientras dura.",101,3,28310,0,28313,3,0,0,0,0,1,4,-1
+28313,DPS,"$bullet;La |cFF2959D3|Hspell:75683|h[Marea alta]|h|r de Lady Naz'jar no se disipa hasta que sus guardias son derrotados.
+$bullet;|cFF2959D3|Hspell:428041|h[Explosión de choque]|h|r inflige mucho daño al objetivo principal y provoca que los |cFF2959D3|Hspell:428048.|h[Orbes de choque]|h|r se dispersen en todas direcciones.
+$bullet;La |cFF2959D3|Hspell:428103|h[Descarga de Escarcha]|h|r de la bruja de escarcha Naz'jar reduce la velocidad de movimiento.",101,4,28310,0,0,3,0,0,0,0,1,2,-1
+28314,Resumen,El comandante Ulthok crea unos charcos de moco burbujeante por la arena y luego lanza |cFF2959D3|Hspell:427456|h[Despertar moco]|h|r para que persigan a los jugadores.,102,1,0,28315,2193,3,0,0,0,0,0,0,-1
+28315,Tanques,"$bullet;El |cFF2959D3|Hspell:427451|h[moco coagulado]|h|r resulta repelido cuando recibe un ataque.
+$bullet;|cFF2959D3|Hspell:427670|h[Zarpa aplastante]|h|r aumenta el daño físico recibido.
+$bullet;|cFF2959D3|Hspell:427668|h[Ola de choque degenerativa]|h|r repele a los jugadores.",102,2,28314,0,28316,3,0,0,0,0,0,1,-1
+28316,Sanadores,"$bullet;El |cFF2959D3|Hspell:427451|h[moco coagulado]|h|r resulta repelido cuando recibe un ataque.
+$bullet;|cFF2959D3|Hspell:427670|h[Zarpa aplastante]|h|r aumenta el daño físico recibido.
+$bullet;|cFF2959D3|Hspell:427668|h[Ola de choque degenerativa]|h|r inflige daño moderado y repele a los jugadores.",102,3,28314,0,28317,3,0,0,0,0,0,4,-1
+28317,DPS,"$bullet;El |cFF2959D3|Hspell:427451|h[moco coagulado]|h|r se repele cuando recibe un ataque.
+$bullet;|cFF2959D3|Hspell:427668|h[Ola de choque degenerativa]|h|r repele a los jugadores.",102,4,28314,0,0,3,0,0,0,0,0,2,-1
+28318,Resumen,"Ozumat invoca la Tinta de Ozumat para atacar a los jugadores y contaminar la arena. Neptulon otorga a los jugadores |cFF2959D3|Hspell:428674|h[Flujo purificador]|h|r para que puedan purificar |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r.
 
-Once the Ink of Ozumat has been purged, Neptulon empowers himself and his allies with the |cFF2959D3|Hspell:428952|h[Tidal Surge]|h|r to banish Ozumat.",104,1,0,28319,2204,3,0,0,0,0,0,0,-1
-28319,Tanks,"$bullet;Players under the effects of |cFF2959D3|Hspell:428674|h[Cleansing Flux]|h|r  purify pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r while standing in them.
-$bullet;Sludge create pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r when defeated.
-$bullet;Ink of Ozumat will use |cFF2959D3|Hspell:428889|h[Foul Bolt]|h|r when there are no melee targets in range.",104,2,28318,0,28320,3,0,0,0,0,0,1,-1
-28320,Healers,"$bullet;Players under the effects of |cFF2959D3|Hspell:428674|h[Cleansing Flux]|h|r  purify pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r while standing in them.
-$bullet;|cFF2959D3|Hspell:428399|h[Blotting Barrage]|h|r inflicts moderate damage and creates pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r upon impact.",104,3,28318,0,28321,3,0,0,0,0,0,4,-1
-28321,Damage Dealers,"$bullet;Players under the effects of |cFF2959D3|Hspell:428674|h[Cleansing Flux]|h|r  purify pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r while standing in them.
-$bullet;Sludge create pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r when defeated.
-$bullet;|cFF2959D3|Hspell:428399|h[Blotting Barrage]|h|r creates pools of |cFF2959D3|Hspell:428404|h[Blotting Darkness]|h|r upon impact.",104,4,28318,0,0,3,0,0,0,0,0,2,-1
-28322,Overview,Erunak attacks players while Mindbender Ghur'sha has control over him. Upon reaching $419956s2% remaining health Mindbender Ghur'sha loses control of Erunak and attacks players directly.,103,1,0,28323,2194,3,0,0,0,0,0,0,-1
-28323,Tanks,"$bullet;|cFF2959D3|Hspell:429037|h[Stormflurry Totem]|h|r grants Erunak increased damage until defeated.
-$bullet;|cFF2959D3|Hspell:429172|h[Terrifying Vision]|h|r inflicts damage and Fears all players in line of sight.",103,2,28322,0,28324,3,0,0,0,0,0,1,-1
-28324,Healers,"$bullet;|cFF2959D3|Hspell:429037|h[Stormflurry Totem]|h|r grants Erunak increased damage until defeated.
-$bullet;|cFF2959D3|Hspell:429172|h[Terrifying Vision]|h|r inflicts damage and Fears all players in line of sight.",103,3,28322,0,28325,3,0,0,0,0,0,4,-1
-28325,Damage Dealers,"$bullet;|cFF2959D3|Hspell:429037|h[Stormflurry Totem]|h|r grants Erunak increased damage until defeated.
-$bullet;|cFF2959D3|Hspell:429172|h[Terrifying Vision]|h|r inflicts damage and Fears all players in line of sight.",103,4,28322,0,0,3,0,0,0,0,0,2,-1
-28326,,"As a master shapeshifter, Tindral assaults players in various Druid forms.
+Una vez purgada la Tinta de Ozumat, Neptulon se potencia a sí mismo y a sus aliados con |cFF2959D3|Hspell:428952|h[Fuerza del oleaje]|h|r para desterrar a Ozumat.",104,1,0,28319,2204,3,0,0,0,0,0,0,-1
+28319,Tanques,"$bullet;Los jugadores bajo los efectos de |cFF2959D3|Hspell:428674|h[Flujo purificador]|h|r purifican las pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r mientras están sobre ellas.
+$bullet;El fango crea pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r cuando es derrotado.
+$bullet;La Tinta de Ozumat lanza |cFF2959D3|Hspell:428889|h[Descarga fétida]|h|r cuando no hay objetivos al alcance cuerpo a cuerpo.",104,2,28318,0,28320,3,0,0,0,0,0,1,-1
+28320,Sanadores,"$bullet;Los jugadores bajo los efectos de |cFF2959D3|Hspell:428674|h[Flujo purificador]|h|r purifican las pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r mientras están sobre ellas.
+$bullet;|cFF2959D3|Hspell:428399|h[Tromba tintórea]|h|r inflige daño moderado y crea pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r al impactar.",104,3,28318,0,28321,3,0,0,0,0,0,4,-1
+28321,DPS,"$bullet;Los jugadores bajo los efectos de |cFF2959D3|Hspell:428674|h[Flujo purificador]|h|r purifican las pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r mientras están sobre ellas.
+$bullet;El fango crea pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r cuando es derrotado.
+$bullet;|cFF2959D3|Hspell:428399|h[Tromba tintórea]|h|r crea pozas de |cFF2959D3|Hspell:428404|h[Oscuridad tintórea]|h|r al impactar.",104,4,28318,0,0,3,0,0,0,0,0,2,-1
+28322,Resumen,"Erunak ataca a los jugadores mientras el dominamentes Gur'sha lo controla. Cuando alcanza el $419956s2% de salud, el dominamentes Gur'sha pierde el control de Erunak y ataca directamente a los jugadores.",103,1,0,28323,2194,3,0,0,0,0,0,0,-1
+28323,Tanques,"$bullet;|cFF2959D3|Hspell:429037|h[Tótem de aluvión tormentoso]|h|r aumenta el daño de Erunak hasta que es derrotado.
+$bullet;|cFF2959D3|Hspell:429172|h[Visión terrorífica]|h|r inflige daño y asusta a todos los jugadores en su línea de visión.",103,2,28322,0,28324,3,0,0,0,0,0,1,-1
+28324,Sanadores,"$bullet;|cFF2959D3|Hspell:429037|h[Tótem de aluvión tormentoso]|h|r aumenta el daño de Erunak hasta que es derrotado.
+$bullet;|cFF2959D3|Hspell:429172|h[Visión terrorífica]|h|r inflige daño y asusta a todos los jugadores en su línea de visión.",103,3,28322,0,28325,3,0,0,0,0,0,4,-1
+28325,DPS,"$bullet;|cFF2959D3|Hspell:429037|h[Tótem de aluvión tormentoso]|h|r aumenta el daño de Erunak hasta que es derrotado.
+$bullet;|cFF2959D3|Hspell:429172|h[Visión terrorífica]|h|r inflige daño y asusta a todos los jugadores en su línea de visión.",103,4,28322,0,0,3,0,0,0,0,0,2,-1
+28326,Resumen,"Como maestro cambiaformas, Tindral ataca a los jugadores en diversas formas de druida.
 
-In his humanoid form, Tindral roots players with |cFF2959D3|Hspell:424495|h[Mass Entanglement]|h|r and bombards players with |cFF2959D3|Hspell:420236|h[Falling Stars]|h|r.
+En su forma humanoide, enraíza a los jugadores con |cFF2959D3|Hspell:424495|h[Enredo masivo]|h|r y los bombardea con |cFF2959D3|Hspell:420236|h[Lluvia de aerolitos]|h|r.
 
-Shapeshifting into his Moonkin form, Tindral unleashes |cFF2959D3|Hspell:420240|h[Sunflame]|h|r on all players and summons |cFF2959D3|Hspell:421398|h[Fire Beam]|h|r that scorches the platform.
+Al cambiar a forma de lechúcico lunar, Tindral desata |cFF2959D3|Hspell:420240|h[Llama solar]|h|r contra todos los jugadores e invoca un |cFF2959D3|Hspell:421398|h[Rayo de Fuego]|h|r que abrasa la plataforma.
 
-As the Treant of the Flame, Tindral pulses |cFF2959D3|Hspell:424579|h[Suppressive Ember]|h|r and sears players with |cFF2959D3|Hspell:423266|h[Flaming Germination]|h|r.
+En forma de antárbol de la llama, Tindral emite pulsos de |cFF2959D3|Hspell:424579|h[Ascua supresora]|h|r y abrasa a los jugadores con |cFF2959D3|Hspell:423266|h[Germinación llameante]|h|r.
 
-Becoming the Owl of the Flame leaves behind |cFF2959D3|Hspell:422509|h[Empowered Feather]|h|r, allowing players to dragonride within The Blessed Boughs.",2565,1,0,28327,27488,3,0,0,0,0,0,1,-1
-28327,,"$bullet; |cFF2959D3|Hspell:421992|h[Searing Wrath]|h|r is applied on every melee strike and stacks.
-$bullet; |cFF2959D3|Hspell:423260|h[Blazing Mushroom]|h|r inflicts high damage to all players if it fails to hit a player.
-$bullet; |cFF2959D3|Hspell:421398|h[Fire Beam]|h|r inflicts Fire damage to players within.",2565,2,28326,0,28328,3,0,0,0,0,2,1,0
-28328,,"$bullet; |cFF2959D3|Hspell:421992|h[Searing Wrath]|h|r is applied on every melee strike and stacks.
-$bullet; |cFF2959D3|Hspell:423260|h[Blazing Mushroom]|h|r and |cFF2959D3|Hspell:426686|h[Poisonous Mushroom]|h|r inflict high damage to all players if they fail to hit a player.
-$bullet; |cFF2959D3|Hspell:421398|h[Fire Beam]|h|r inflicts Fire damage to players within its area.",2565,3,28326,0,28329,3,0,0,0,0,2,1,0
-28329,,"$bullet; |cFF2959D3|Hspell:424140|h[Supernova]|h|r is interrupted when its absorb shield is depleted.
-$bullet; |cFF2959D3|Hspell:424497|h[Mass Entanglement]|h|r holds players in place until the roots are destroyed.
-$bullet; |cFF2959D3|Hspell:424581|h[Fiery Growth]|h|r creates |cFF2959D3|Hspell:425451|h[Scorching Ground]|h|r when dispelled.",2565,4,28326,0,28330,3,0,0,0,0,2,2,0
-28330,,"$bullet; |cFF2959D3|Hspell:424140|h[Supernova]|h|r is interrupted when its absorb shield is depleted.
-$bullet; |cFF2959D3|Hspell:424497|h[Mass Entanglement]|h|r holds players in place until the roots are destroyed.",2565,5,28326,0,28331,3,0,0,0,0,2,2,0
-28331,Healers,"$bullet; |cFF2959D3|Hspell:424581|h[Fiery Growth]|h|r creates |cFF2959D3|Hspell:425451|h[Scorching Ground]|h|r when dispelled.
-$bullet; |cFF2959D3|Hspell:424579|h[Suppressive Ember]|h|r is used in Treant form and absorbs a substantial amount of healing.
-$bullet; Tindral continuously blasts the group with |cFF2959D3|Hspell:420240|h[Sunfire]|h|r while in his Moonkin form.",2565,6,28326,0,28332,3,0,0,0,0,2,4,0
-28332,,"$bullet; |cFF2959D3|Hspell:424579|h[Suppressive Ember]|h|r is used in Treant form and absorbs a substantial amount of healing.
-$bullet; Tindral continuously blasts the group with |cFF2959D3|Hspell:420240|h[Sunfire]|h|r while in his Moonkin form.",2565,7,28326,0,28333,3,0,0,0,0,2,4,0
-28333,Healers,"$bullet; |cFF2959D3|Hspell:429166|h[Astral Heat]|h|r gradually increases damage taken from |cFF2959D3|Hspell:424140|h[Supernova]|h|r.
-$bullet; |cFF2959D3|Hspell:424581|h[Fiery Growth]|h|r creates |cFF2959D3|Hspell:425451|h[Scorching Ground]|h|r when dispelled.
-$bullet; |cFF2959D3|Hspell:424579|h[Suppressive Ember]|h|r is used in Treant form and absorbs a substantial amount of healing.
-$bullet; Tindral continuously blasts the group with |cFF2959D3|Hspell:420240|h[Sunfire]|h|r while in his Moonkin form.",2565,8,28326,0,0,3,0,0,0,0,2,4,0
-28334,,"Shadowflame from Gnarlroot's Flaming Pestilence seeps into the earth, sowing hostile vegetation.
+Al convertirse en un búho de la Llama, dejará un efecto de |cFF2959D3|Hspell:422509|h[Pluma potenciada]|h|r a su paso, lo que permite a los jugadores montar en dragón en las Ramas Benditas.",2565,1,0,28327,27488,3,0,0,0,0,0,1,-1
+28327,Tanques,"$bullet;|cFF2959D3|Hspell:421992|h[Cólera abrasadora]|h|r se aplica en cada ataque cuerpo a cuerpo y se acumula.
+$bullet;|cFF2959D3|Hspell:423260|h[Champiñón llameante]|h|r inflige mucho daño a todos los jugadores si no alcanza a un jugador.
+$bullet;|cFF2959D3|Hspell:421398|h[Rayo de Fuego]|h|r inflige daño de Fuego a los jugadores afectados.",2565,2,28326,0,28328,3,0,0,0,0,2,1,0
+28328,Tanques,"$bullet;Se aplica |cFF2959D3|Hspell:421992|h[Cólera abrasadora]|h|r en cada ataque cuerpo a cuerpo y se acumula.
+$bullet;|cFF2959D3|Hspell:423260|h[Champiñón llameante]|h|r y |cFF2959D3|Hspell:426686|h[Champiñón venenoso]|h|r infligen mucho daño a todos los jugadores si no alcanzan a uno de ellos.
+$bullet;|cFF2959D3|Hspell:421398|h[Rayo de Fuego]|h|r inflige daño de Fuego a los jugadores dentro de su área.",2565,3,28326,0,28329,3,0,0,0,0,2,1,0
+28329,DPS,"$bullet;|cFF2959D3|Hspell:424140|h[Supernova]|h|r se interrumpe cuando su escudo de absorción se agota.
+$bullet;|cFF2959D3|Hspell:424497|h[Enredo masivo]|h|r mantiene a los jugadores en el sitio hasta que se destruyen las raíces.
+$bullet;|cFF2959D3|Hspell:424581|h[Crecimiento ígneo]|h|r crea |cFF2959D3|Hspell:425451|h[Tierra agostadora]|h|r cuando se disipa.",2565,4,28326,0,28330,3,0,0,0,0,2,2,0
+28330,DPS,"$bullet;|cFF2959D3|Hspell:424140|h[Supernova]|h|r se interrumpe cuando su escudo de absorción se agota.
+$bullet;|cFF2959D3|Hspell:424497|h[Enredo masivo]|h|r mantiene a los jugadores en el sitio hasta que se destruyen las raíces.",2565,5,28326,0,28331,3,0,0,0,0,2,2,0
+28331,Sanadores,"$bullet;|cFF2959D3|Hspell:424579|h[Crecimiento ígneo]|h|r crea |cFF2959D3|Hspell:425451|h[Tierra agostadora]|h|r cuando se disipa.
+$bullet;|cFF2959D3|Hspell:424581|h[Ascua supresora]|h|r se usa en forma de antárbol y absorbe una cantidad considerable de sanación.
+$bullet;Tindral ataca al grupo con |cFF2959D3|Hspell:420240|h[Llama solar]|h|r cuando está en forma de lechúcico lunar.",2565,6,28326,0,28332,3,0,0,0,0,2,4,0
+28332,Sanadores,"$bullet;|cFF2959D3|Hspell:424579|h[Ascua supresora]|h|r se usa en forma de antárbol y absorbe una cantidad considerable de sanación.
+$bullet;Tindral ataca al grupo con |cFF2959D3|Hspell:420240|h[Llama solar]|h|r cuando está en forma de lechúcico lunar.",2565,7,28326,0,28333,3,0,0,0,0,2,4,0
+28333,Sanadores,"$bullet;|cFF2959D3|Hspell:429166|h[Calor astral]|h|r aumenta gradualmente el daño recibido por |cFF2959D3|Hspell:424140|h[Supernova]|h|r.
+$bullet;|cFF2959D3|Hspell:424581|h[Crecimiento ígneo]|h|r crea |cFF2959D3|Hspell:425451|h[Tierra agostadora]|h|r cuando se disipa.
+$bullet;|cFF2959D3|Hspell:424579|h[Ascua supresora]|h|r se usa en forma de antárbol y absorbe una cantidad considerable de sanación.
+$bullet;Tindral ataca al grupo con |cFF2959D3|Hspell:420240|h[Llama solar]|h|r cuando está en forma de lechúcico lunar.",2565,8,28326,0,0,3,0,0,0,0,2,4,0
+28334,Flora corrupta,"La llama de las Sombras de la Pestilencia llameante de Tuercerraíces se filtra en la tierra y siembra vegetación hostil.
 $[!16 
-On Mythic difficulty, the creatures spawn in a dormant state, awakening when infused by |cFF2959D3|Hspell:422023|h[Shadow-Scorched Earth]|h|r or |cFF2959D3|Hspell:421013|h[Doom Cultivation]|h|r.$]
+En dificultad mítica, las criaturas aparecen en un estado latente y despiertan cuando se imbuyen con |cFF2959D3|Hspell:422023|h[Tierra agostada por las sombras]|h|r o |cFF2959D3|Hspell:421013|h[Cultivo de fatalidad]|h|r.$]
 $[!15 
-On Heroic difficulty, the creatures spawn in a dormant state, awakening when infused by |cFF2959D3|Hspell:422023|h[Shadow-Scorched Earth]|h|r or |cFF2959D3|Hspell:421013|h[Doom Cultivation]|h|r.$]",2564,10,27468,28335,28344,3,0,0,0,0,3,32,0
-28335,,,2564,11,28334,28336,0,1,104635,0,0,0,0,0,-1
-28336,,,2564,12,28335,0,28337,2,0,0,421986,0,0,0,-1
-28337,<PH> Probably a bolt (thematic),,2564,13,28335,0,28338,2,0,0,422053,0,0,8192,-1
-28338,Section 33,,2564,14,28335,28339,0,2,0,0,428992,0,0,0,-1
-28339,Section 34,,2564,15,28338,0,0,2,0,0,429009,0,0,0,-1
-28344,,"Shadowflame from Gnarlroot's Flaming Pestilence seeps into the earth, sowing hostile vegetation.
+En dificultad heroica, las criaturas aparecen en un estado latente y despiertan cuando se imbuyen con |cFF2959D3|Hspell:422023|h[Tierra agostada por las sombras]|h|r o |cFF2959D3|Hspell:421013|h[Cultivo de fatalidad]|h|r.$]",2564,10,27468,28335,28344,3,0,0,0,0,3,32,0
+28335,Azotador corrupto,,2564,11,28334,28336,0,1,104635,0,0,0,0,0,-1
+28336,Flor corrupta,,2564,12,28335,0,28337,2,0,0,421986,0,0,0,-1
+28337,<PH> Probablemente una descarga (temática),,2564,13,28335,0,28338,2,0,0,422053,0,0,8192,-1
+28338,Sección 33,,2564,14,28335,28339,0,2,0,0,428992,0,0,0,-1
+28339,Sección 34,,2564,15,28338,0,0,2,0,0,429009,0,0,0,-1
+28344,Flora corrupta,"La llama de las Sombras de la Pestilencia llameante de Tuercerraíces se filtra en la tierra y siembra vegetación hostil.
 $[!16 
-On Mythic difficulty, the creatures spawn in a dormant state, awakening when infused by |cFF2959D3|Hspell:422023|h[Shadow-Scorched Earth]|h|r or |cFF2959D3|Hspell:421013|h[Doom Cultivation]|h|r.$]
+En dificultad mítica, las criaturas aparecen en un estado latente y despiertan cuando se imbuyen con |cFF2959D3|Hspell:422023|h[Tierra agostada por las sombras]|h|r o |cFF2959D3|Hspell:421013|h[Cultivo de fatalidad]|h|r.$]
 $[!15 
-On Heroic difficulty, the creatures spawn in a dormant state, awakening when infused by |cFF2959D3|Hspell:422023|h[Shadow-Scorched Earth]|h|r or |cFF2959D3|Hspell:421013|h[Doom Cultivation]|h|r.$]",2564,16,27468,28345,0,3,0,0,0,0,3,40,0
-28345,,,2564,17,28344,28346,28350,1,104635,0,0,0,0,0,-1
-28346,,,2564,18,28345,0,28347,2,0,0,421986,0,0,0,-1
-28347,<PH> Probably a bolt (thematic),,2564,19,28345,0,28348,2,0,0,422053,0,0,8192,-1
-28348,Section 33,,2564,20,28345,28349,0,2,0,0,428992,0,0,0,-1
-28349,Section 34,,2564,21,28348,0,0,2,0,0,429009,0,0,0,-1
-28350,,,2564,22,28344,28351,0,1,114027,0,0,0,2,4096,0
-28351,,,2564,23,28350,0,28352,2,0,0,421986,0,0,0,-1
-28352,,,2564,24,28350,0,28353,2,0,0,425816,0,2,64,0
-28353,,,2564,25,28350,0,0,2,0,0,425819,0,2,4,0
-28355,Stage One: Rapid Iteration,,2556,6,0,27394,28356,0,0,0,0,0,1,0,-1
-28356,Stage Two: Creation Complete,,2556,18,0,28358,0,0,0,0,0,0,1,0,-1
-28357,Section 33,,2556,26,28356,28153,28364,2,0,0,426855,0,3,0,0
-28358,Section 33,"$[!16
+En dificultad heroica, las criaturas aparecen en un estado latente y despiertan cuando se imbuyen con |cFF2959D3|Hspell:422023|h[Tierra agostada por las sombras]|h|r o |cFF2959D3|Hspell:421013|h[Cultivo de fatalidad]|h|r.$]",2564,16,27468,28345,0,3,0,0,0,0,3,40,0
+28345,Azotador corrupto,,2564,17,28344,28346,28350,1,104635,0,0,0,0,0,-1
+28346,Flor corrupta,,2564,18,28345,0,28347,2,0,0,421986,0,0,0,-1
+28347,<PH> Probablemente una descarga (temática),,2564,19,28345,0,28348,2,0,0,422053,0,0,8192,-1
+28348,Sección 33,,2564,20,28345,28349,0,2,0,0,428992,0,0,0,-1
+28349,Sección 34,,2564,21,28348,0,0,2,0,0,429009,0,0,0,-1
+28350,Antárbol corrupto,,2564,22,28344,28351,0,1,114027,0,0,0,2,4096,0
+28351,Flor corrupta,,2564,23,28350,0,28352,2,0,0,421986,0,0,0,-1
+28352,Sección 24,,2564,24,28350,0,28353,2,0,0,425816,0,2,64,0
+28353,Sección 25,,2564,25,28350,0,0,2,0,0,425819,0,2,4,0
+28355,Fase 1: Reiteración rápida,,2556,5,0,27394,28356,0,0,0,0,0,1,0,-1
+28356,Fase 2: Creación completada,,2556,21,0,28357,0,0,0,0,0,0,1,0,-1
+28357,Sección 33,"$[!16
 
-On Mythic difficulty, a Manifested Dream coalesces during |cFF2959D3|Hspell:426855|h[Full Bloom]|h|r.$]",2556,19,28356,28223,28357,2,0,0,426855,0,3,0,0
-28359,,,2556,25,28358,0,0,2,0,0,423195,0,0,0,-1
-28363,Section 33,,2556,9,28355,0,27872,2,0,0,429615,0,0,0,-1
-28364,Section 32,,2556,28,28356,0,27432,2,0,0,421368,0,0,4,-1
-28365,Section 30,,2556,14,28218,0,0,2,0,0,423369,0,2,0,0
-28366,Section 31,,2556,16,28117,0,0,2,0,0,423369,0,2,1,0
-28367,,,2565,11,27661,0,28370,2,0,0,424495,0,2,2,0
-28368,Scorched Treant,,2565,53,27971,28369,0,1,114132,0,0,0,2,4096,0
-28369,Scorched Treant,,2565,54,28368,0,0,2,0,0,429740,0,3,4096,0
-28370,,"$[!16
+In Mythic difficulty, a Manifested Dream amalgamates from the surge in life energy.$]",2556,22,28356,28449,28364,2,0,0,426855,0,1,0,-1
+28363,Sección 33,,2556,8,28355,0,28487,2,0,0,429785,0,0,0,-1
+28364,Sección 32,,2556,24,28356,0,28482,2,0,0,421368,0,0,4,-1
+28367,Sección 60,,2565,11,27661,0,28370,2,0,0,424495,0,2,2,0
+28368,Antárbol agostado,,2565,53,27971,28369,0,1,114132,0,0,0,2,4096,0
+28369,Antárbol agostado,,2565,54,28368,0,0,2,0,0,429740,0,3,4096,0
+28370,Sección 60,"$[!16
 
-In Mythic difficulty, if the fiery vine fails to root a player or if the root is removed before it is destroyed, a Scorched Treant is formed at its location.",2565,12,27661,28371,27665,2,0,0,424495,0,2,4098,0
-28371,Scorched Treant,,2565,13,28370,28372,0,1,114132,0,0,0,2,4096,0
-28372,Scorched Treant,,2565,14,28371,0,0,2,0,0,429740,0,3,4096,0
-28373,,"$[!16
+En dificultad mítica, si la vid ígnea no consigue enraizar a un jugador o si se elimina antes de que se destruya, se forma un antárbol agostado en su ubicación.",2565,12,27661,28371,27665,2,0,0,424495,0,2,4098,0
+28371,Antárbol agostado,,2565,13,28370,28372,0,1,114132,0,0,0,2,4096,0
+28372,Antárbol agostado,,2565,14,28371,0,0,2,0,0,429740,0,3,4096,0
+28373,Sección 60,"$[!16
 
-In Mythic difficulty, if the fiery vine fails to root a player or if the root is removed before it is destroyed, a Scorched Treant is formed at its location.",2565,102,27587,28374,27595,2,0,0,424495,0,2,4098,0
-28374,Scorched Treant,,2565,103,28373,28375,0,1,114132,0,0,0,2,4096,0
-28375,Scorched Treant,,2565,104,28374,0,0,2,0,0,429740,0,3,4096,0
-28376,Section 32,,2556,34,27432,0,28377,2,0,0,425370,0,0,0,-1
-28377,Section 33,,2556,35,27432,0,0,2,0,0,423842,0,0,17,-1
-28378,Section 31,,2556,31,27432,0,28308,2,0,0,429108,0,2,33,0
-28379,Section 35,,2556,33,28308,0,0,2,0,0,425357,0,2,8,0
-28380,,,2519,14,27946,28381,0,2,0,0,420422,0,2,0,0
-28381,Flamespawn,,2519,15,28380,28382,0,1,88582,0,0,0,3,4096,0
-28382,,,2519,16,28381,0,0,2,0,0,428750,0,1,0,-1
-28383,,,2519,13,27946,0,28380,2,0,0,419066,0,2,0,0
-28384,,,2519,69,26670,28385,27725,2,0,0,423601,0,2,32,0
-28385,,,2519,70,28384,0,28386,2,0,0,423717,0,0,0,-1
-28386,,,2519,71,28384,0,0,2,0,0,423598,0,0,16,-1
+En dificultad mítica, si la vid ígnea no consigue enraizar a un jugador o si se elimina antes de que se destruya, se forma un antárbol agostado en su ubicación.",2565,103,27587,28374,27595,2,0,0,424495,0,2,4098,0
+28374,Antárbol agostado,,2565,104,28373,28375,0,1,114132,0,0,0,2,4096,0
+28375,Antárbol agostado,,2565,105,28374,0,0,2,0,0,429740,0,3,4096,0
+28376,Sección 32,,2556,35,27432,0,28377,2,0,0,425370,0,0,0,-1
+28377,Sección 33,,2556,36,27432,0,0,2,0,0,423842,0,0,17,-1
+28378,Sección 31,,2556,32,27432,0,28308,2,0,0,429108,0,2,0,0
+28379,Sección 35,,2556,34,28308,0,0,2,0,0,425357,0,2,8,0
+28380,Sección 10,,2519,14,27946,28381,0,2,0,0,420422,0,2,0,0
+28381,Engendro llameante,,2519,15,28380,28382,0,1,88582,0,0,0,3,4096,0
+28382,Sección 10,,2519,16,28381,0,0,2,0,0,428750,0,1,0,-1
+28383,Sección 10,,2519,13,27946,0,28380,2,0,0,419066,0,2,0,0
+28384,Sección 10,,2519,81,26670,28445,27922,2,0,0,430048,0,2,4096,0
+28386,Sección 10,,2519,83,28384,0,0,2,0,0,423598,0,0,16,-1
+28387,Sección 10,,2519,36,26667,28388,28389,2,0,0,421937,0,2,0,0
+28388,Sección 10,,2519,37,28387,0,0,2,0,0,429866,0,1,16,-1
+28389,Sección 10,,2519,38,26667,28392,27516,2,0,0,429875,0,2,4096,0
+28390,Sección 10,,2519,40,28389,0,0,2,0,0,429866,0,1,16,-1
+28391,Sección 10,,2519,42,27516,0,27482,2,0,0,429906,0,1,0,-1
+28392,Sección 10,,2519,39,28389,0,28390,2,0,0,429903,0,1,0,-1
+28442,Sección 10,,2519,78,26670,28443,28384,2,0,0,423601,0,0,32,-1
+28443,Sección 10,,2519,79,28442,0,28444,2,0,0,423717,0,0,0,-1
+28444,Sección 10,,2519,80,28442,0,0,2,0,0,423598,0,2,16,0
+28445,Sección 10,,2519,82,28384,0,28386,2,0,0,430045,0,0,0,-1
+28446,Ascua iracunda,,2519,64,27603,28447,27599,1,102503,0,0,0,0,2,-1
+28447,Sección 10,,2519,65,28446,0,28448,2,0,0,422528,0,1,0,-1
+28448,Sección 10,,2519,66,28446,0,0,2,0,0,422527,0,3,24,0
+28449,Sección 15,,2556,23,28357,0,0,2,0,0,423195,0,0,0,-1
+28454,Sección 36,"$[!15
+
+En dificultad heroica, Carga de tejedora aplica Resonancia tejida y se propaga a otros jugadores. Al agotarse, brota una flor de barrera en la ubicación del objetivo.$]",2556,14,28355,28455,28218,2,0,0,427722,0,2,9,0
+28455,Sección 37,,2556,15,28454,0,28456,2,0,0,423195,0,2,0,0
+28456,Sección 38,,2556,16,28454,0,28457,2,0,0,428273,0,2,9,0
+28457,Sección 35,,2556,17,28454,0,0,2,0,0,423369,0,2,8,0
+28471,Sección 10,,2519,34,26667,28472,28387,2,0,0,412761,0,0,0,-1
+28472,Sección 10,,2519,35,28471,0,0,2,0,0,417807,0,2,4096,0
+28475,Sección 10,,2519,21,27898,0,0,2,0,0,425483,0,1,16,-1
+28479,,,2556,10,28355,28480,27872,2,0,0,425357,0,2,4096,0
+28480,Section 29,,2556,11,28479,0,0,2,0,0,430485,0,2,4096,0
+28482,Manifested Dream,,2556,25,28356,28483,27432,1,115305,0,0,0,3,4096,0
+28483,Section 33,,2556,26,28482,0,28484,2,0,0,428471,0,0,16,-1
+28484,Section 32,,2556,27,28482,28486,28485,2,0,0,428012,0,0,32,-1
+28485,Section 34,,2556,29,28482,0,0,2,0,0,423993,0,0,0,-1
+28486,Section 35,,2556,28,28484,0,0,2,0,0,428479,0,0,0,-1
+28487,Section 36,,2556,9,28355,0,28479,2,0,0,430563,0,0,4096,-1
+28521,Section 139,,2565,79,27886,0,27887,2,0,0,430583,0,2,4096,0
+28522,Section 140,,2565,135,27883,0,27884,2,0,0,430583,0,2,4096,0

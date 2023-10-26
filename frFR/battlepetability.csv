@@ -145,14 +145,14 @@ Brûle le sol, infligeant [StandardDamage(1,1)] points de dégâts [School()] pl
 Pendant Terre brûlée, toutes les mascottes sont considérées comme en train de |cFFFF2020brûler|r.",237588,1,3,0,0
 173,Cautérisation,"Rend [StandardDamage(1,1)] points de vie plus la moitié du montant des derniers dégâts subis par le lanceur.",236218,6,3,0,2
 174,Etourdi,Impossible de donner des ordres à cette mascotte.,135860,-1,0,103,3
-175,Volcan,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Volcan,"Au bout de 1 tour, le sol entre en éruption pendant 2 tours, infligeant [StandardDamage(3,1,175)] points de dégâts [School()] à la mascotte adverse présente et a 25 % de chances de l’étourdir pendant [duration(3,3,175)] |4tour:tours;.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
-176,Volcan,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffChances de toucher :|r [StandardAccuracy(3,1)]",524305,6,0,288,1
+176,Volcan,"|cffffffffChances de toucher : [StandardAccuracy(1,1)]|r
 
-Causes the ground beneath the enemy team to tremble. 
+Fait trembler le sol sous l’équipe adverse. 
 
-After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+Au bout de 1 tour, le sol entre en éruption pour 2 tours, et la mascotte adverse présente subit [StandardDamage(3,1,175)] points de dégâts [School()] et a 25 % de chances d’être étourdie pendant 1 tour.",524305,6,5,0,0
 177,Immoler,"Inflige [StandardDamage(1,1)] points de dégâts élémentaires par tour.
 
 |cFFFF2020Brûle|r",135817,6,0,28,0
@@ -722,14 +722,14 @@ Inflige [StandardDamage(1,1)] points de dégâts [School()] instantanément et |
 Fait pousser un épais buisson de ronces autour de l’équipe adverse.
 
 Au prochain tour, la mascotte de l’adversaire subira [StandardDamage(2,1,399)] points de dégâts [School()] et sera immobilisée pendant [duration(2,2,399)] |4tour:tours;.",136100,6,3,0,0
-401,Graine étourdissante,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Graine étourdissante,"Explose au bout de [numTurns()-1] |4tour:tours;, infligeant [StandardDamage(3,1)] points de dégâts élémentaires à la mascotte adverse actuelle et étourdissant la cible pendant 1 tour.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
-402,Graine étourdissante,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffChances de toucher : [StandardAccuracy(3,1)]|r",464030,6,0,0,0
+402,Graine étourdissante,"|cffffffffChances de toucher : [StandardAccuracy(1,1)]|r
 
-Plants a seed in the enemy. 
+Plante une graine dans l’adversaire.
 
-After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+Au bout de 2 tours, la graine germe, infligeant à la mascotte adverse [StandardDamage(3,1,401)] points de dégâts [School()], en plus de l’étourdir pendant [duration(3,2,401)] |4tour:tours;.",464030,6,5,0,0
 403,Journée ensoleillée,"Augmente le maximum de points de vie de toutes vos mascottes de [abs(abilityStateMod(99,403))]%.
 
 Augmente les soins prodigués de [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1246,12 +1246,12 @@ Regagne de plus en plus de vie à chaque tour.",135745,-1,0,78,0
 600,Arrêt du temps,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)] 
 
 Étourdit la cible pendant [duration(1,1)] |4tour:tours;.",136106,5,5,0,2
-601,Bombe à retardement,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
-602,Bombe à retardement,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+601,Bombe à retardement,"Explose au bout de 3 tours, inflige [StandardDamage(4,1)] points de dégâts magiques et étourdit la cible pendant 1 tour.",237538,5,0,0,1
+602,Bombe à retardement,"|cffffffffChances de toucher : [StandardAccuracy(1,1)]|r
 
-Places a temporal rift beneath the enemy team. 
+Place une faille temporelle sous l’équipe adverse. 
 
-After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
+Au bout de 3 tours, elle entre en éruption, inflige [StandardDamage(4,1,601)] points de dégâts [School()] à la mascotte adverse présente et l’étourdit pendant [duration(4,2,601)] tour:tours;.",237538,5,5,0,0
 603,Trou temporel,"Les attaques de votre équipe sont doublées pendant [duration(1,1)] |4tour:tours;.",609811,1,20,0,2
 604,Pouvoir extrême,"Les attaques de votre équipe infligent [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% de dégâts supplémentaires.",648206,-1,0,0,2
 605,Trait d’élémentium,"Explose au bout de [numTurns()-1] |4tour:tours;, inflige [StandardDamage(1,1,2372)] points de dégâts [School()] et étourdit la mascotte adverse actuelle pendant [duration(3,2)] |4tour:tours;, en plus de l’étourdir.
@@ -1298,14 +1298,14 @@ Envoie une décharge supplémentaire si le lanceur attaque en premier.",348560,6
 621,Ruée de pierre,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)] 
 
 Percute l’adversaire, lui infligeant [StandardDamage(1,1)] points de dégâts [School()], en plus de s’infliger à soi-même [SimpleDamage(1,3)] points de dégâts [School()].",237002,6,1,0,0
-623,Tombeau de glace,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Tombeau de glace,"Explose au bout de [numTurns()-1] |4tour:tours;, infligeant [StandardDamage(3,1)] points de dégâts élémentaires à la mascotte adverse présente et étourdissant la cible pendant 1 tour.
 
-[StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
-624,Tombeau de glace,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+|cffffffffChances de toucher : [StandardAccuracy(3,1)]|r",609814,6,0,0,0
+624,Tombeau de glace,"|cffffffffChances de toucher : [StandardAccuracy(1,1)]|r
 
-Launches an orb of freezing energy at the target. 
+Lance un orbe d’énergie gelé sur l’équipe adverse. 
 
-After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+Au bout de 2 tours, l’orbe frappe la mascotte adverse présente, lui inflige [StandardDamage(3,1,623)] points de dégâts [School()] et l’étourdit pendant [duration(3,2,623)] |4tour:tours;.",609814,6,5,0,0
 625,Pointe de glace,"Impale la cible et inflige [StandardDamage(1,1)] points de dégâts [School()].
 
 Cette technique a de grandes chances de rater.",135855,6,0,0,0

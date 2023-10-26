@@ -25483,3 +25483,18 @@ end
 transFront = outerWheelMag * cos ( missileAngle )
 transRight = outerWheelMag * sin ( missileAngle )
 transUp = -distanceToFirePos",0,6
+4678,10.2 Raid - Dream - Boss - Fiery Ancient - Intermission - Soaks - Missile (CHTL),"local angle = 0
+local maxMagnitude = startDistance * .75
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+scale = progress
+
+transFront = -distanceToFirePos * (1 - progress)",0,1
+4680,7.0 Nightmare Dungeon - Corrupted Water Elemental - Water Bomb 1. Missile,"local magnitude = 15
+scale = 2
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos	",0,0
