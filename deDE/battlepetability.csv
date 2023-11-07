@@ -3634,6 +3634,14 @@ Schlitzt die gegnerischen Haustiere mit Klauen auf und lässt sie so [duration(1
 2460,Panzerfestung,"Nutzt den eigenen Panzer, um für die aktuelle und die nächste Runde alle Angriffe abzuwehren. Der Benutzer ist handlungsunfähig, während er den Schild aufrechterhält.
 
 Diese Fähigkeit wird immer zuerst ausgeführt.",134434,8,6,0,2
+2462,Armkanonenschlag,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Trifft den Gegner mit einem Energiestrahl und fügt ihm [StandardDamage(1,1)] [School()]schaden zu.
+
+Der Schaden wird bei jedem Einsatz um [FormatDamage(5*AttackBonus())] erhöht. Maximal [FormatDamage(25 *AttackBonus())] [School()]schaden.",132868,9,0,0,0
+2463,Sturzflugangriff,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Befiehlt Eurer Flugmaschine, einen Sturzflugangriff auf Eure Gegner auszuführen, und verursacht [StandardDamage(1,1)] [School()]schaden, der gleichmäßig auf alle Ziele aufgeteilt wird.",1141394,9,5,0,0
 2465,Furioser Ansturm,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Greift den Gegner 3-mal an und verursacht [StandardDamage(1,1)] [School()]schaden pro Angriff.
@@ -3740,6 +3748,11 @@ Das Ziel wird überwältigt von unermesslichem Hass, wodurch jedem Angriff auf d
 
 Hält [duration(1,1)] |4Runde:Runden; lang an.",4050664,5,5,0,2
 2506,In Furcht ergeben,,132296,3,0,0,2
+2508,Sturmatem,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Speit ein Gewitter auf den Gegner und verursacht [StandardDamage(1, 1)] [School()]schaden.
+
+Greift ein zweites Mal an und verursacht [StandardDamage(1,3)] [School()]schaden an, wenn ein Gewittersturm herrscht.",236392,6,0,0,0
 2510,Überheblichkeit,"Erlittener Schaden um [abs(abilityStateMod( 24, 185 ))]% erhöht.",1390945,5,0,530,3
 2511,Überheblichkeit,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 

@@ -3643,6 +3643,14 @@ Cortas a las mascotas del enemigo con tus garfas, lo que provoca que cada mascot
 2460,Fortaleza de caparazón,"Extrae el poder del caparazón del usuario para defenderse de todos los ataques durante la ronda actual y la siguiente. El usuario no puede actuar mientras proyecta este escudo.
 
 Esta facultad siempre va primero.",134434,8,6,0,2
+2462,Preparar disparo de cañón,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Golpea al enemigo con un haz de energía que le inflige [StandardDamage(1,1)] p. de daño de [School()].
+
+El daño aumenta [FormatDamage(5*AttackBonus())] p. cada vez que se usa. Puede infligir un máximo de [FormatDamage(25 *AttackBonus())] p. de daño de [School()].",132868,9,0,0,0
+2463,Soltar bomba,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Ordena a tu máquina voladora que bombardee en picado a tus enemigos, lo que inflige [StandardDamage(1,1)] p. de daño de [School()], divididos a partes iguales entre ellos.",1141394,9,5,0,0
 2465,Oleada furiosa,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Ataca al enemigo 3 veces y le inflige [StandardDamage(1,1)] p. de daño de [School()] por ataque.
@@ -3748,6 +3756,11 @@ Un odio inconmensurable abruma al objetivo y añade [abs(abilityStateMod(71,2504
 
 Dura [duration(1,1)] |4ronda:rondas;.",4050664,5,5,0,2
 2506,Rendición al terror,,132296,3,0,0,2
+2508,Aliento tormentoso,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Exhala una tormenta de relámpagos sobre el enemigo que inflige [StandardDamage(1, 1)] p. de daño de [School()].
+
+Ataca una segunda vez e inflige [StandardDamage(1,3)] p. de daño de [School()] si el clima es de tormenta de relámpagos.",236392,6,0,0,0
 2510,Soberbia,"El daño que recibes ha aumentado un [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Soberbia,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 

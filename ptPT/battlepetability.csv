@@ -3639,6 +3639,14 @@ Talha as mascotes do inimigo com as garras, causando em cada uma um |cFF970000Sa
 2460,Fortaleza da Carapaça,"Usa o poder da carapaça do usuário para se defender de todos os ataques na rodada atual e na próxima rodada. O usuário não pode agir enquanto estiver projetando o escudo.
 
 Esta habilidade sempre tem prioridade.",134434,8,6,0,2
+2462,Canhonaço,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Atinge o inimigo com um feixe energético, causando [StandardDamage(1,1)] de dano tipo [School()]. 
+
+O dano aumenta em [FormatDamage(5*AttackBonus())] a cada uso. Máximo de [FormatDamage(25 *AttackBonus())] de dano tipo [School()].",132868,9,0,0,0
+2463,Rasante Bombástico,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Ordena que sua máquina voadora bombardeie os inimigos, causando [StandardDamage(1,1)] de dano tipo [School()] dividido igualmente entre eles.",1141394,9,5,0,0
 2465,Surto Furioso,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Ataca o inimigo 3 vezes, causando [StandardDamage(1,1)] de dano tipo [School()] por ataque.
@@ -3746,6 +3754,11 @@ Arfus é considerado morto enquanto estiver dormir.",236798,3,4,0,0
 
 Dura [duration(1,1)]|4rodada:rodadas;.",4050664,5,5,0,2
 2506,Renda-se ao Terror,,132296,3,0,0,2
+2508,Sopro Tempestuoso,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Sopra uma tempestade de raios no inimigo, causando [StandardDamage(1, 1)] [School()] de dano.
+
+Ataca uma segunda vez, causando [StandardDamage(1,3)] de dano tipo [School()], quando o clima é Tempestade de Raios.",236392,6,0,0,0
 2510,Arrogância,"O dano recebido por você foi aumentado em [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Arrogância,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 

@@ -3641,6 +3641,14 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 2460,껍질 요새,"껍질의 힘을 끌어내 현재 라운드와 다음 라운드에서 모든 공격을 막아냅니다. 보호막을 투사하는 동안 사용자는 행동 불가 상태가 됩니다.
 
 이 기술은 항상 먼저 사용됩니다.",134434,8,6,0,2
+2462,팔 대포 작렬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+마력 광선으로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가하고, 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",132868,9,0,0,0
+2463,강하 폭격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비행기에 명령을 내려 적을 폭격해 [StandardDamage(1,1)]의 [School()] 피해를 나누어 입힙니다.",1141394,9,5,0,0
 2465,격분의 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 적을 3번 공격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
@@ -3748,6 +3756,11 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 
 [duration(1,1)]라운드 동안 지속됩니다.",4050664,5,5,0,2
 2506,공포에 항복해라,,132296,3,0,0,2
+2508,폭풍 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 번개 폭풍을 내뿜어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.
+
+날씨가 번개 폭풍일 때는 한 번 더 공격하여 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",236392,6,0,0,0
 2510,오만,"받는 피해가 [abs(abilityStateMod( 24, 185 ))]%만큼 증가합니다.",1390945,5,0,530,3
 2511,오만,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
