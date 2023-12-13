@@ -27,7 +27,7 @@ Wanderfest: Nehmt am Fest teil,Nehmt zwischen dem {EventStartDate} und {EventEnd
 Dunkelmond-Jahrmarkt: Esst nach Eurem Ritt ein mit Mais paniertes Würstchen,Fahrt zwischen dem 03.12. und 09.12. mit dem Dunkelmond-Karussell oder der Achterbahn und esst ein mit Mais paniertes Würstchen.,30,136369,25,0,-62
 Tötet den Anführer der gegnerischen Fraktion,,31,136449,400,0,0
 Erforscht eine verschneite Region,Erkundet eine der folgenden Zonen vollständig.,32,136527,50,0,0
-Winterhauchfest: Erhaltet Blitzeis,Erhaltet zwischen dem {EventStartDate} und {EventEndDate} Blitzeis aus Frostzorns Kühlbox.,34,136855,25,0,-100
+Winterhauchfest: Erhaltet Blitzeis,Erhaltet zwischen dem {EventStartDate} und dem {EventEndDate} Blitzeis aus Frostzorns Kühlbox.,34,136855,25,0,-100
 Zeitwanderung: Schließt Quests in Draenor ab,Schließt vom {EventStartDate} bis zum {EventEndDate} Quests in Draenor ab.,36,149949,100,0,0
 Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Warlords of Draenor ab,Schließt in der Zeit vom {EventStartDate} bis zum {EventEndDate} Zeitwanderungsdungeons von Warlords of Draenor ab.,37,137530,100,213,0
 Schließt die Höllenfeuerzitadelle ab,,38,137539,150,0,0
@@ -248,8 +248,8 @@ Der große Stylecheck: /Ehrfurcht vor Siegerkleidung,Verwendet in der Zeit vom {
 "T-Shirt-Tag: Verwendet das Emote /angeben vor einem Spielercharakter der gegnerischen Fraktion, während Ihr ein kostenloses ""T-Shirt"" tragt","Verwendet am {EventStartDate} das Emote /angeben vor einem Spielercharakter der gegnerischen Fraktion, während ihr ein kostenloses ""T-Shirt"" tragt.",274,146565,80,0,0
 Dunkelmond-Jahrmarkt: Erbeutet ein Grubenkämpferschmuckstück,Erbeutet in der Zeit vom {EventStartDate} bis zum {EventEndDate} in der Dunkelmond-Todesgrube auf der Insel des Dunkelmond-Jahrmarkts ein Grubenkämpferschmuckstück.,275,146567,200,0,0
 Dunkelmond-Jahrmarkt: Nehmt am Konzert von Seuchensau teil,Nehmt in der Zeit vom {EventStartDate} bis zum {EventEndDate} am Konzert von Seuchensau auf der Insel des Dunkelmond-Jahrmarkts teil.,276,146767,150,0,0
-Dunkelmond-Jahrmarkt: Schließt 1 Dunkelmond-Rennen ab,Schließt in der Zeit vom {EventStartDate} bis zum {EventEndDate} Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,277,146769,50,0,0
-Dunkelmond-Jahrmarkt: Schließt 4 Dunkelmond-Rennen ab,Schließt in der Zeit vom {EventStartDate} bis zum {EventEndDate} Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,278,146774,100,277,0
+Dunkelmond-Jahrmarkt: Schließt 1 Dunkelmond-Rennen ab,Schließt zwischen dem 5.11. und 11.11. Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,277,146769,50,0,0
+Dunkelmond-Jahrmarkt: Schließt 4 Dunkelmond-Rennen ab,Schließt zwischen dem 5.11. und 11.11. Rennen auf der Dunkelmond-Promenade auf der Insel des Dunkelmond-Jahrmarkts ab.,278,146774,100,277,0
 Zeitwanderung: Schließt 1 Zeitwanderungsdungeon von Burning Crusade ab,Schließt in der Zeit vom {EventStartDate} bis zum {EventEndDate} einen Zeitwanderungsdungeon von Burning Crusade ab.,279,146779,25,0,0
 Zeitwanderung: Schließt 5 Zeitwanderungsdungeons von Burning Crusade ab,Schließt in der Zeit vom {EventStartDate} bis zum {EventEndDate} Zeitwanderungsdungeons von Burning Crusade ab.,280,146787,100,279,0
 Zeitwanderung: Besiegt Haustierzähmer der Scherbenwelt,Besiegt in der Zeit vom {EventStartDate} bis zum {EventEndDate} Meisterzähmer der Scherbenwelt.,281,146797,150,0,0
@@ -430,7 +430,7 @@ Besiegt Traumhaustiere,"Besiegt 5 der folgenden Haustiere, die im Smaragdgrünen
 Fangt ein Winterhaustier,Fangt eines der folgenden winterlichen Haustiere.,464,149801,50,0,0
 Lasst Euch wiederbeleben,,465,149808,25,0,0
 Tötet Feinde in der Kälte,Erschlagt 30 Gegner in einer der folgenden Zonen.,466,149823,50,0,0
-Verursacht Frostschaden,"Verursacht insgesamt 500.000 Frostschaden. Frostschaden wird normalerweise von Magiern, Schamanen und Todesrittern verursacht.",467,149830,50,0,0
+Verursacht Frostschaden,"Verursacht insgesamt 500.000 Frostschaden. Frostschaden wird normalerweise von Magiern, Schamanen und Todesrittern verursacht.",467,0,50,0,0
 Nehmt an Superblüten teil,Nehmt an 3 Superblüte-Ereignissen im Smaragdgrünen Traum teil.,468,149832,25,0,0
 Pflanzt Traumsaat im Smaragdgrünen Traum,,469,149834,25,0,0
 Arenageplänkelbonuswoche: Gewinnt tägliche Arenakämpfe,Gewinnt zwischen dem {EventStartDate} und {EventEndDate} an vier verschiedenen Tagen einen Arenakampf.,470,150004,100,0,-65
@@ -461,14 +461,14 @@ Scherbenweltpokal: Schließt 5 Drachenreitenstrecken ab,Sprecht in der Zeit vom 
 Scherbenweltpokal: Schließt 10 Drachenreitenstrecken ab,Sprecht in der Zeit vom {EventStartDate} bis zum {EventEndDate} mit einem Bronzezeithüter in der Scherbenwelt.,502,151416,150,501,0
 Scherbenweltpokal: Schließt 20 Drachenreitenstrecken ab,Sprecht in der Zeit vom {EventStartDate} bis zum {EventEndDate} mit einem Bronzezeithüter in der Scherbenwelt.,503,151418,200,502,0
 Letzte Woge: Schließt Dungeons in Dragonflight ab,Schließt vom {EventStartDate} bis zum {EventEndDate} Dungeons in Dragonflight ab.,504,151511,150,0,0
-Dunkelmond-Jahrmarkt: Gewinnt 1 Arkadespiel,Gewinnt vom {EventStartDate} bis zum {EventEndDate} 1 der folgenden Arkadespiele auf der Insel des Dunkelmond-Jahrmarkts.,505,151640,25,0,0
-Dunkelmond-Jahrmarkt: Gewinnt 5 Arkadespiele,Gewinnt vom {EventStartDate} bis zum {EventEndDate} 5 der folgenden Arkadespiele auf der Insel des Dunkelmond-Jahrmarkts.,506,151642,100,505,0
+Dunkelmond-Jahrmarkt: Gewinnt 1 Arkadespiel,Gewinnt vom 7.1. bis zum 13.1. eines der folgenden Arkadespiele auf der Insel des Dunkelmond-Jahrmarkts.,505,151640,25,0,0
+Dunkelmond-Jahrmarkt: Gewinnt 5 Arkadespiele,Gewinnt vom 7.1. bis zum 13.1. fünf der folgenden Arkadespiele auf der Insel des Dunkelmond-Jahrmarkts.,506,151642,100,505,0
 Gewinnt 5 Haustierkämpfe im Smaragdgrünen Traum,,507,151646,100,0,0
 Erreicht Klassenstufen,Steigt mit einem beliebigen Charakter eine Stufe auf.,508,149723,100,0,0
 /Grübeln in Amirdrassil,"Ihr müsst /grübeln, während Ihr in Amirdrassil im Smaragdgrünen Traum seid.",509,151652,25,0,0
 Tötet Kreaturen im Smaragdgrünen Traum,"Tötet im Smaragdgrünen Traum auf den Dracheninseln Kreaturen, die Erfahrung gewähren.",510,151658,100,0,0
 "Schließt den Geschichtsstrang ""Abenteurer der Extraklasse"" ab","Sprecht mit Nozdormu im Temporalen Konflux in Thaldraszus, um die Quest ""Sturz durch die Zeit"" zu starten.",511,151660,200,0,0
-"Dunkelmond-Jahrmarkt: Verwendet das Spielzeug ""Unerschöpfliches Dunkelmond-Feuerwerk"" auf der Insel des Dunkelmond-Jahrmarkts","Verwendet in der Zeit vom {EventStartDate} bis zum {EventEndDate} das Spielzeug ""Unerschöpfliches Dunkelmond-Feuerwerk"" auf der Insel des Dunkelmond-Jahrmarkts.",512,151686,25,0,0
+"Dunkelmond-Jahrmarkt: Verwendet das Spielzeug ""Unerschöpfliches Dunkelmond-Feuerwerk"" auf der Insel des Dunkelmond-Jahrmarkts","Verwendet vom 7.1. bis zum 13.1. das Spielzeug ""Unerschöpfliches Dunkelmond-Feuerwerk"" auf der Insel des Dunkelmond-Jahrmarkts.",512,151686,25,0,0
 Tötet Spielercharaktere im Smaragdgrünen Traum,,513,151688,50,0,0
 "Ruf des Skarabäus: Schließt ""Silithyst"" ab","Schließt vom {EventStartDate} bis zum {EventEndDate} die Weltquest ""Silithyst"" in Silithus ab.",514,151833,50,0,-5
 Ruf des Skarabäus: Spendet Kriegsvorräte,Spendet vom {EventStartDate} bis zum {EventEndDate} 3-mal Kriegsvorräte für das Anliegen in Silithus.,515,151923,100,0,-6
