@@ -3424,7 +3424,7 @@ I danni aumentano di [FormatDamage(5*AttackBonus())] ogni volta che questo attac
 2378,Raggi di Luce,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Infligge [StandardDamage(1,1)] danni [School()] alla mascotte nemica attiva e [StandardDamage(1,2)] danni [School()] alle mascotte di riserva nemiche. Rigenera [StandardHealing(1,1)] salute a tutti gli alleati.",525026,5,4,0,0
-2379,Conoscenza Turbinosa,Blocca i successivi 2 attacchi ma l'incantatore resta fermo sul posto per 1 turno.,134917,5,0,1179,2
+2379,Conoscenza Turbinosa - Aura,Blocca i successivi 2 attacchi ma l'incantatore resta fermo sul posto per 1 turno.,134917,5,0,1179,2
 2380,Fermati un Attimo e Ascolta,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Costringe il bersaglio a dormire per [duration(1,1)] |4turno:turni;.",458721,5,5,0,2
@@ -3754,6 +3754,11 @@ Dura [duration(1,1)] |4turno:turni;",4050664,5,5,0,2
 Soffia una tempesta di fulmini contro il nemico, infliggendo [StandardDamage(1, 1)] danni [School()].
 
 Durante Tempesta di Fulmini, attacca una seconda volta, infliggendo [StandardDamage(1,3)] danni [School()].",236392,6,0,0,0
+2509,Linfa Vitale,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Infligge [StandardDamage(1,1)] danni [School()].
+
+La mascotte si cura del [points(1,2)]% dei danni inflitti.",136233,1,0,0,0
 2510,Superbia,"Danni subiti aumentati del [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Superbia,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
@@ -3771,3 +3776,13 @@ Il Piccolo Irathion infligge [FormatDamage(SimpleDamage(1,1))] danni[School()].
 
 Ogni ondata di assassini infligge [FormatDamage(SimpleDamage(1,2))] danni [School()].",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,Furia del Vento,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Attacca con la forza di una burrasca ululante, colpendo il nemico due volte.
+
+Ogni colpo infligge [FormatDamage(SimpleDamage(1,1))] danni [School()].",132845,6,0,0,0
+2518,Replica Arcana,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Infligge [StandardDamage(1,1)] danni [School()].
+
+Infligge [StandardDamage(1,2)] danni aggiuntivi se la mascotte ha salute inferiore a quella del bersaglio.",429382,5,0,0,0

@@ -12517,7 +12517,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Changer de spécialisation,1
 24738,ARTIFACT_XP_GAIN,%s gagne %s points de puissance prodigieuse.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Pas assez de carburant,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Équipé : augmente le niveau d’objet à %d dans les arènes et sur les champs de bataille.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Équipé : augmente le niveau d’objet à %d minimum dans les arènes et sur les champs de bataille.,1
 24742,STAT_ARMOR,Armure,1
 24743,STAT_BONUS_ARMOR,Armure bonus,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Énergie aqueuse,1
@@ -12793,7 +12793,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Héritage,1
 25019,SIGN_UP,S’inscrire,1
-25020,SEARCHING,Recherche...,1
+25020,SEARCHING,Recherche...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Niveau d’objet nécessaire : |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Créé : |cffffffffil y a %s|r,1
@@ -18957,7 +18957,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Réduire les mouvements de la caméra,1
 42761,MOTION_SICKNESS_NONE,Autoriser le déplacement dynamique de la caméra,1
 42762,MOTION_SICKNESS_BOTH,Centrer sur le personnage et réduire les mouvements de la caméra.,1
-42763,MOTION_SICKNESS_DROPDOWN,Cinétose,1
+42763,MOTION_SICKNESS_CHECKBOX,Cinétose,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Tremblement de la caméra,1
 42765,COVENANT_TOAST_TEXT,Vous avez rejoint la congrégation des,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19534,8 +19534,8 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Effets,1
 43932,SLASH_TEXTTOSPEECH_VOICE,voix,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clic droit pour en savoir plus,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clic droit pour masquer les détails,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clic gauche pour afficher les détails,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clic gauche pour masquer les détails,1
 43935,EVENTTRACE_ARG_FMT,Arg %d :,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s exp : %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nexp : %s,1
@@ -20798,7 +20798,7 @@ Essayez d’utiliser des composants de qualité supérieure, d’améliorer votr
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importer,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Partager,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Tête parlante,1
-49527,PERKS_PROGRAM_SERVER_ERROR,Une erreur de communication est survenue avec le serveur. Veuillez réessayer ultérieurement.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,Le comptoir rencontre des problèmes de communication avec le serveur. Veuillez réessayer plus tard.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Bouton sortie du véhicule,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,Vous n’avez pas assez pour cet achat.,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Note à l’artisan(e) :,1
@@ -21475,7 +21475,7 @@ La progression s’applique à tous les personnages du compte.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Quitter le match en l’état vous coûtera au moins |cnORANGE_FONT_COLOR:%d|r $lpoint:points; de cote et vous subirez %s de %s.|n|nVous ne recevrez ni points d’honneur ni points de conquête pour les manches terminées si vous partez maintenant.|n|nVoulez-vous vraiment quitter le match ?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Cette recette est actuellement désactivée. Veuillez réessayer plus tard.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fLe message |2 %s pourrait être inapproprié.|h|cffffff00|Hcensoredmessage:%d|h |W[Afficher le message]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effets de vitesse,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effets de vitesse de vol dynamique,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Désactiver les effets visuels de vitesse peut soulager la cinétose pendant le vol à dos de Dragon.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Ouvrir le dossier,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Fermer,2
@@ -21915,11 +21915,15 @@ Voulez-vous vraiment faire ceci ?",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Dépensez plus de points pour restaurer ce talent ou faites un clic droit pour l’oublier.,1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffGelé|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Utilisable uniquement pendant De l’amour dans l’air,1
 51457,MAP_FILTER,Filtre de carte,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,Pas d’odeur à proximité !,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Vous êtes déjà au maximum de vigueur.,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,Les nutriments de ce sol doivent être reconstitués avant toute nouvelle croissance.,1
 51480,PERSONALTABARDVENDORGREETING,Salutations ! Choisissez le symbole et les couleurs de votre tabard personnel.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Limiter les pings au chef,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Donjons avec sujets,1
+51494,LFD_FOLLOWER_EXPLANATION,Terminer des donjons avec des PNJ dans l’équipe,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,La cible s’est déjà fait arracher quelques plumes. Il serait grossier d’en prendre davantage.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Terminez %d |4donjon:donjons; en mode héroïque, mythique ou des Marcheurs du temps.",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Vous ne pouvez ouvrir ce coffre que dans vos rêves.,1
@@ -21935,6 +21939,7 @@ Voulez-vous vraiment faire ceci ?",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Cette créature a déjà été harmonisée récemment.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,Vous ne pouvez pas posséder davantage d’écus de ce type.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080–|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Vous avez commencé trop de donjons avec sujets récemment.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Vol dynamique,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Vitesse de l’inclinaison minimale au clavier,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Vitesse de l’inclinaison maximale au clavier,1
@@ -21952,8 +21957,15 @@ Voulez-vous vraiment faire ceci ?",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Montures,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,Le comptoir rencontre des problèmes de communication avec le serveur. Veuillez réessayer plus tard.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Achats non disponibles,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Remboursement indisponible,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,Le traitement de votre achat prend plus de temps que prévu. Il se poursuivra en arrière-plan.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Retourner au comptoir,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,Vous ne possédez aucun objet de ce type.,1
 51543,KIOSK_ENTER,Entrer dans le jeu,2
+51547,PERKS_PROGRAM_PENDING,En attente,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,Le traitement de votre achat prend plus de temps que prévu. L’objet sera livré une fois le traitement terminé.,1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Achat en attente,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Un objet est en cours de traitement. Veuillez réessayer ultérieurement.,1
 51552,WEEKLY_REWARDS_HEROIC,Héroïque,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Terminez un donjon en mode mythique pour augmenter le niveau d’objet de cette récompense.,1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Niveau d’objet %1$d – Héroïque,1
@@ -21961,13 +21973,32 @@ Voulez-vous vraiment faire ceci ?",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,Le niveau d’objet de cette récompense dépend du niveau le plus bas de vos %1$d meilleures sessions de la semaine (niveau mythique actuel : %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,Le niveau d’objet de cette récompense dépend du niveau le plus bas de vos %1$d meilleures sessions de la semaine (niveau actuel : héroïque).,1
 51560,QUEST_BG_DEFAULT,Par défaut,1
-51561,QUEST_BG_LIGHT1,Clair 1,1
-51562,QUEST_BG_LIGHT2,Clair 2,1
-51563,QUEST_BG_DARK,Sombre,1
-51565,QUEST_BG_LIGHT3,Clair 3,1
+51561,QUEST_BG_LIGHT1,Marron,1
+51562,QUEST_BG_LIGHT2,Blanc,1
+51563,QUEST_BG_DARK,Noir,1
+51565,QUEST_BG_LIGHT3,Gris,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Terminez %1$d donjons en mode mythique pour obtenir une meilleure récompense.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Vous n’avez pas encore fait vos preuves aux yeux de cet esprit.,1
 51573,CANNOT_UNEQUIP_ERR,Impossible de changer le statut d’équipement pour le moment.,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Vous avez assez d’éclats radieux des cendres.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Votre personnage ne peut pas transformer cet objet.,1
+51579,COLOR_PICKER_HEX,Code hexadécimal,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Impossible de nommer un personnage-joueur de la faction opposée comme chef de guilde.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Effets d’écran de vol dynamique,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Désactiver les effets d’écran peut soulager la cinétose.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Activer le paramètre de cinétose réduit les déplacements de caméra et maintient votre personnage au centre.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Remplacez votre objet gelé en en déposant un autre ici à tout moment.,1
+51628,NPE_UNBOUND_KEYBIND,[Non attribué],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s – %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Ajouter aux favoris,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Enlever des favoris,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Temps restant : %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Cette activité n’a pas encore commencé,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Cette activité a expiré,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Exemple,1
+51654,QUEST_TEXT_PREVIEW_BODY,Voici un aperçu de la description de quête dans l’encadré avec la couleur de fond modifiée.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Difficulté : %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Vous recevrez les objets suivants :,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d personnes,1
+51727,WOW_ERROR_337,L’accès à ce royaume nécessite un compte doté d’une licence valide.,2

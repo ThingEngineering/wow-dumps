@@ -6291,12 +6291,12 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 17896,ACTION_SPELL_AURA_APPLIED,aplicó,1
 17897,ACTION_SPELL_AURA_APPLIED_BUFF,aplicó,1
 17898,ACTION_SPELL_AURA_APPLIED_BUFF_FULL_TEXT,%4$s gana %2$s de %1$s.,1
-17899,ACTION_SPELL_AURA_APPLIED_DEBUFF,afectó,1
+17899,ACTION_SPELL_AURA_APPLIED_DEBUFF,aflicción,1
 17900,ACTION_SPELL_AURA_APPLIED_DEBUFF_FULL_TEXT,A %4$s le afecta %2$s de %1$s.,1
 17901,ACTION_SPELL_AURA_APPLIED_DOSE,acumuló,1
 17902,ACTION_SPELL_AURA_APPLIED_DOSE_BUFF,acumuló,1
 17903,ACTION_SPELL_AURA_APPLIED_DOSE_BUFF_FULL_TEXT,%4$s gana %2$s de %1$s (%9$s).,1
-17904,ACTION_SPELL_AURA_APPLIED_DOSE_DEBUFF,afectó,1
+17904,ACTION_SPELL_AURA_APPLIED_DOSE_DEBUFF,aflicción,1
 17905,ACTION_SPELL_AURA_APPLIED_DOSE_DEBUFF_FULL_TEXT,A %4$s le afecta %2$s de %1$s (%9$s).,1
 17906,ACTION_SPELL_AURA_REMOVED,eliminó,1
 17907,ACTION_SPELL_AURA_REMOVED_FULL_TEXT,%2$s de %1$s se eliminó de %4$s.,1
@@ -9260,7 +9260,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 21148,SPELL_FAILED_CUSTOM_ERROR_118,Tienes que estar de cara a las naves desde el dirigible de rescate.,1
 21149,WORLD_MARKER,Marcador del mundo %d,1
 21150,REMOVE_WORLD_MARKERS,Quitar todo,1
-21151,ROLE_POLL,Comprobación de función,1
+21151,ROLE_POLL,Eligiendo función,1
 21157,GUILD_NEWS_ITEM_PURCHASED,- %s compró %s,1
 21158,DISPLAY_INCOMING_HEALS,Mostrar sanaciones entrantes,1
 21159,OPTION_TOOLTIP_DISPLAY_INCOMING_HEALS,Mostrar sanaciones en curso de lanzamiento.,1
@@ -12518,7 +12518,7 @@ min",1
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Cambiar especializaciones,1
 24738,ARTIFACT_XP_GAIN,%s obtiene %s p. de poder de artefacto.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,No queda combustible,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Equipar: Aumenta el nivel de objeto a %d en las arenas y los campos de batalla.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Equipar: Aumenta el nivel de objeto a un mínimo de %d en las arenas y los campos de batalla.,1
 24742,STAT_ARMOR,Armadura,1
 24743,STAT_BONUS_ARMOR,Bonus de armadura,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Energía acuosa,1
@@ -12794,7 +12794,7 @@ min",1
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Banda antigua,1
 25019,SIGN_UP,Inscribirse,1
-25020,SEARCHING,Buscando...,1
+25020,SEARCHING,Buscando...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Nivel de objeto requerido: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Creado: |cffffffffhace %s|r,1
@@ -18962,7 +18962,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Reducir movimiento de cámara,1
 42761,MOTION_SICKNESS_NONE,Permitir movimientos dinámicos de cámara,1
 42762,MOTION_SICKNESS_BOTH,Mantener al personaje en el centro y reducir movimiento de cámara,1
-42763,MOTION_SICKNESS_DROPDOWN,Mareo,1
+42763,MOTION_SICKNESS_CHECKBOX,Mareo,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Temblor de cámara,1
 42765,COVENANT_TOAST_TEXT,Te has unido a la curia,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19539,8 +19539,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Efectos,1
 43932,SLASH_TEXTTOSPEECH_VOICE,voz,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Haz clic derecho para ver los detalles,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Haz clic derecho para ocultar los detalles,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Haz clic izquierdo para ver los detalles,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Haz clic izquierdo para ocultar los detalles,1
 43935,EVENTTRACE_ARG_FMT,Par. %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,PE de %s %s: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nPE: %s,1
@@ -20803,7 +20803,7 @@ Prueba a usar componentes de mayor calidad para mejorar tu habilidad o a especia
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importar,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Compartir,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Busto parlante,1
-49527,PERKS_PROGRAM_SERVER_ERROR,Se ha producido un error de comunicación con el servidor. Vuelve a intentarlo más tarde.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,El puesto comercial está teniendo dificultades para comunicarse con el servidor. Inténtalo más tarde.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Botón Salir del vehículo,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,No tienes suficiente moneda para esta compra.,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Nota para el artesano:,1
@@ -21474,7 +21474,7 @@ El progreso es para toda la cuenta.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Si abandonas el encuentro ahora, perderás un |cnORANGE_FONT_COLOR:%d|r de índice como mínimo y te verás afectado por %s de %s.|n|nNo recibirás puntos de honor ni de conquista por las rondas que hayas completado si lo haces.|n|n¿Seguro que quieres salir del encuentro?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,La receta no está disponible en este momento. Inténtalo más tarde.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fEl mensaje de %s es potencialmente inapropiado.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostrar mensaje]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efectos de velocidad,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efectos de velocidad de vuelo dinámico,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,La desactivación de los efectos visuales puede reducir los mareos mientras vuelas sobre tu draco.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Abrir carpeta,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Cerrar,2
@@ -21914,11 +21914,15 @@ No puedes hacer contenido del mundo exterior y en cola con este personaje.",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Gasta más puntos para restaurar este talento o haz clic derecho para olvidarlo,1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelado|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Solo se puede usar durante Amor en el aire,1
 51457,MAP_FILTER,Filtro del mapa,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,¡No hay olores cerca!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Ya tienes el máximo de vigor,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,Los nutrientes de esta tierra deben reponerse para seguir creciendo.,1
 51480,PERSONALTABARDVENDORGREETING,¡Saludos! Elige el símbolo y los colores para tu tabardo personal.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restringir avisos al líder,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Mazmorras con seguidores,1
+51494,LFD_FOLLOWER_EXPLANATION,Completa mazmorras con compañeros de equipo PNJ,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,Ya le han arrancado algunas plumas al objetivo. Sería de mala educación quitarle más.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Completa %d |4mazmorra:mazmorras; en dificultad heroica, mítica o de Paseo en el tiempo",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Solo puedes abrir este cofre en tus sueños.,1
@@ -21934,6 +21938,7 @@ No puedes hacer contenido del mundo exterior y en cola con este personaje.",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Ya te has armonizado con esta criatura recientemente.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,No puedes llevar más blasones de este tipo.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Has entrado en demasiadas mazmorras con seguidores recientemente.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Vuelo dinámico,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Velocidad mínima de inclinación con el teclado,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Velocidad máxima de inclinación con el teclado,1
@@ -21951,8 +21956,15 @@ No puedes hacer contenido del mundo exterior y en cola con este personaje.",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Monturas,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,El puesto comercial está teniendo dificultades para comunicarse con el servidor. Inténtalo más tarde.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Compra no disponible,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Devolución no disponible,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,Está llevando más de lo habitual completar la compra. El proceso continuará en segundo plano.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Vuelve al puesto comercial,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,No tienes objetos de este tipo.,1
 51543,KIOSK_ENTER,Entrar en el mundo,2
+51547,PERKS_PROGRAM_PENDING,Pendiente,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,Ha llevado más de lo habitual completar la compra. Este artículo se entregará una vez haya terminado el proceso.,1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Compra pendiente,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Se está procesando un objeto. Vuelve a intentarlo más tarde.,1
 51552,WEEKLY_REWARDS_HEROIC,Heroica,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Completa una mazmorra en dificultad mítica para aumentar el nivel de objeto de esta recompensa.,1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Nivel de objeto %1$d - Heroica,1
@@ -21960,13 +21972,32 @@ No puedes hacer contenido del mundo exterior y en cola con este personaje.",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,"El nivel de objeto de la recompensa variará en función de la peor de tus %1$d mejores incursiones de la semana (actualmente, nivel mítico %2$d).",1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,"El nivel de objeto de la recompensa variará en función de la peor de tus %1$d mejores incursiones de la semana (actualmente, nivel heroico).",1
 51560,QUEST_BG_DEFAULT,Predeterminado,1
-51561,QUEST_BG_LIGHT1,Claro 1,1
-51562,QUEST_BG_LIGHT2,Claro 2,1
-51563,QUEST_BG_DARK,Oscuro,1
-51565,QUEST_BG_LIGHT3,Claro 3,1
+51561,QUEST_BG_LIGHT1,Marrón,1
+51562,QUEST_BG_LIGHT2,Blanco,1
+51563,QUEST_BG_DARK,Negro,1
+51565,QUEST_BG_LIGHT3,Gris,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Completa %1$d mazmorras en dificultad mítica para mejorar tu recompensa.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,No has demostrado tu valía ante este espíritu.,1
 51573,CANNOT_UNEQUIP_ERR,No se puede cambiar el estado del equipo en este momento,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Tienes suficientes motas radiantes de ceniza.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Tu personaje no puede transformar este objeto.,1
+51579,COLOR_PICKER_HEX,Hexadecimal,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Los jugadores de la facción contraria no pueden ascender a líder de hermandad.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Efectos de pantalla de vuelo dinámico,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,La desactivación de los efectos visuales puede reducir los mareos,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Activar el ajuste de mareo reduce el movimiento de la cámara y mantiene a tu personaje en el centro.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Sustituye tu artículo congelado arrastrando otro objeto aquí en cualquier momento,1
+51628,NPE_UNBOUND_KEYBIND,[Sin vincular],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Añadir a favoritos,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Eliminar de favoritos,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Tiempo restante: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Esta actividad aún no ha comenzado,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Esta actividad ha terminado,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Ejemplo,1
+51654,QUEST_TEXT_PREVIEW_BODY,Este ejemplo muestra el aspecto que tendrá el fondo del texto de una misión cuando optes por el color alternativo para él.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Dificultad: %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Recibirás los siguientes objetos:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Jugadores,1
+51727,WOW_ERROR_337,Para acceder a este reino necesitas una cuenta con una licencia de acceso válida.,2

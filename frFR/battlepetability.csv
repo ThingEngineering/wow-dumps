@@ -3432,7 +3432,7 @@ Les dégâts augmentent de [FormatDamage(5*AttackBonus())] à chaque utilisation
 2378,Rayons lumineux,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] points de dégâts [School()] à la mascotte adverse active et [StandardDamage(1,2)] points de dégâts [School()] aux mascottes adverses en retrait. Rend [StandardHealing(1,1)] points de vie aux alliés.",525026,5,4,0,0
-2379,Savoir tourbillonnant,"Bloque les 2 prochaines attaques, mais immobilise le lanceur pendant 1 tour.",134917,5,0,1179,2
+2379,Savoir tourbillonnant – Aura,"Bloque les 2 prochaines attaques, mais immobilise le lanceur pendant 1 tour.",134917,5,0,1179,2
 2380,Écoute prolongée,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Endort la cible pendant [duration(1,1)] |4tour:tours;.",458721,5,5,0,2
@@ -3765,6 +3765,11 @@ Dure [duration(1,1)] |4tour:tours;.",4050664,5,5,0,2
 Souffle une tempête d’éclairs sur l’ennemi, lui infligeant [StandardDamage(1, 1)] points de dégâts [School()].
 
 Attaque une seconde fois et inflige [StandardDamage(1,3)] points de dégâts [School()] pendant une Tempête de foudre.",236392,6,0,0,0
+2509,Absorption vitale,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Contrôle le pouvoir de la vie même et inflige [StandardDamage(1,1)] points de dégâts [School()].
+
+Le lanceur regagne [points(1,2)] % des dégâts infligés sous forme de points de vie.",136233,1,0,0,0
 2510,Fatuité,"Les dégâts subis sont augmentés de [abs(abilityStateMod( 24, 185 ))] %.",1390945,5,0,530,3
 2511,Fatuité,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
@@ -3782,3 +3787,13 @@ P’tit Irion inflige [FormatDamage(SimpleDamage(1,1))] points de dégâts |2[S
 
 Chaque vague d’assassins inflige [FormatDamage(SimpleDamage(1,2))] points de dégâts |2[School()].",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,Furie des vents,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Attaque avec la force d’un ouragan et frappe l’adversaire deux fois.
+
+Chaque coup inflige [FormatDamage(SimpleDamage(1,1))] points de dégâts [School()].",132845,6,0,0,0
+2518,Riposte arcanique,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Inflige [StandardDamage(1,1)] points de dégâts [School()].
+
+Inflige [StandardDamage(1,2)] points de dégâts supplémentaires si le lanceur ou la lanceuse dispose de moins de points de vie que la cible.",429382,5,0,0,0

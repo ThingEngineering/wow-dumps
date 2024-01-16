@@ -12779,7 +12779,7 @@ Indice di ritorno vitale: %s [+%.2f%% ritorno vitale]",1
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Cambia specializzazione,1
 24738,ARTIFACT_XP_GAIN,"L'Artefatto ""%s"" guadagna %s Potere Artefatto.",1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Carburante insufficiente,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Equipaggia: aumenta il livello oggetto a %d nelle Arene e nei Campi di Battaglia.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Equipaggia: aumenta il livello oggetto a un minimo di %d nelle Arene e nei Campi di Battaglia.,1
 24742,STAT_ARMOR,Armatura,1
 24743,STAT_BONUS_ARMOR,Armatura bonus,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Energia Acquea,1
@@ -13077,7 +13077,7 @@ della Guarnigione",1
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Passate,1
 25019,SIGN_UP,Iscriviti,1
-25020,SEARCHING,Ricerca...,1
+25020,SEARCHING,Ricerca...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Richiesto livello oggetti: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Creato: |cffffffff%s fa|r,1
@@ -19391,7 +19391,7 @@ Consentire script personalizzati?",1
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Riduci il movimento della visuale,1
 42761,MOTION_SICKNESS_NONE,Consenti il movimento dinamico della visuale,1
 42762,MOTION_SICKNESS_BOTH,Mantieni il personaggio al centro e riduci il movimento della visuale,1
-42763,MOTION_SICKNESS_DROPDOWN,Chinetosi,1
+42763,MOTION_SICKNESS_CHECKBOX,Chinetosi,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Tremolio visuale,1
 42765,COVENANT_TOAST_TEXT,Ti sei unito alla Congrega,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19968,8 +19968,8 @@ Consentire script personalizzati?",1
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Effetti,1
 43932,SLASH_TEXTTOSPEECH_VOICE,voce,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clicca col pulsante destro per vedere i dettagli,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clicca col pulsante destro per nascondere i dettagli,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clicca col pulsante sinistro per vedere i dettagli,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clicca col pulsante sinistro per vedere i dettagli,1
 43935,EVENTTRACE_ARG_FMT,Arg %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s - PE: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nPE: %s,1
@@ -21232,7 +21232,7 @@ Per raggiungere una qualità maggiore, prova a utilizzare reagenti di qualità p
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importa,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Condividi,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Testa Parlante,1
-49527,PERKS_PROGRAM_SERVER_ERROR,C'è stato un errore di comunicazione col server. Riprova più tardi.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,L'Emporio sta avendo difficoltà a comunicare con il server. Riprova più tardi.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Pulsante Uscita dal Veicolo,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,Non hai abbastanza valuta per l'acquisto,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Nota per l'artigiano:,1
@@ -21909,7 +21909,7 @@ I progressi sono condivisi da tutto l'account.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Abbandonare la partita ora ti farà perdere almeno |cnORANGE_FONT_COLOR:%d|r punteggio e subirai %s di %s.|n|nAbbandonando ora, non riceverai Punti Onore o Conquista per i turni completati.|n|nVuoi davvero uscire da questa partita?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Questa ricetta è attualmente disattivata. Riprova più tardi.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fUn messaggio da %s potrebbe essere inappropriato.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostra messaggio]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti di velocità,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti di velocità del Volo Dinamico,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabilitare gli effetti visivi della velocità può aiutare con la chinetosi durante il Volo Draconico.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Apri cartella,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Chiudi,2
@@ -22349,11 +22349,15 @@ Vuoi davvero procedere?",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Spendi altri punti per ripristinare questo talento o clicca con il pulsante destro per rimuoverlo,1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelato|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Utilizzabile solo durante Amore nell'Aria,1
 51457,MAP_FILTER,Filtro mappa,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,Nessun odore nelle vicinanze!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Sei già al massimo di Vigore,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,I nutrienti di questo terreno devono ripristinarsi prima di poter crescere ulteriormente.,1
 51480,PERSONALTABARDVENDORGREETING,Saluti! Scegli il simbolo e i colori per la tua insegna personale.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Limita i segnali al capo,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Spedizioni con Seguace,1
+51494,LFD_FOLLOWER_EXPLANATION,Completa le spedizioni con PNG alleati,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,Al bersaglio sono già state tolte delle piume. Sarebbe maleducato prenderne altre.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Completa %d |4Spedizione:Spedizioni in modalità Eroica, Mitica o Viaggio nel Tempo",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Puoi aprire questo forziere solo nei tuoi sogni.,1
@@ -22369,6 +22373,7 @@ Vuoi davvero procedere?",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Questa creatura è già stata sintonizzata di recente.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,Non puoi possedere altri Emblemi di questo tipo.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Hai partecipato a troppe spedizioni con Seguace di recente.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Volo Dinamico,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Velocità minima di beccheggio su tastiera,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Velocità massima di beccheggio su tastiera,1
@@ -22386,8 +22391,15 @@ Vuoi davvero procedere?",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Cavalcature,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,L'Emporio sta avendo difficoltà a comunicare con il server. Riprova più tardi.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Acquisto non disponibile,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Rimborso non disponibile,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,L'elaborazione del tuo acquisto sta richiedendo più tempo del solito. Il processo continuerà in background.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Ritorno all'Emporio,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,Non hai oggetti di questo tipo.,1
 51543,KIOSK_ENTER,Entra nel mondo,2
+51547,PERKS_PROGRAM_PENDING,In sospeso,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,L'elaborazione del tuo acquisto sta richiedendo più tempo del solito. Questo oggetto verrà consegnato una volta terminato il processo.,1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Acquisto in sospeso,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Un articolo è attualmente in fase di elaborazione. Riprova più tardi.,1
 51552,WEEKLY_REWARDS_HEROIC,Eroica,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Completa una spedizione in modalità Mitica per aumentare il livello oggetto di questa ricompensa.,1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Livello oggetto %1$d - Eroica,1
@@ -22395,13 +22407,32 @@ Vuoi davvero procedere?",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,Il livello oggetto di questa ricompensa si basa sulla spedizione più bassa tra le %1$d migliori spedizioni di questa settimana (attualmente di livello Mitico %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,Il livello oggetto di questa ricompensa si basa sulla spedizione più bassa tra le %1$d migliori spedizioni di questa settimana (attualmente di livello Eroico).,1
 51560,QUEST_BG_DEFAULT,Predefinito,1
-51561,QUEST_BG_LIGHT1,Chiaro 1,1
-51562,QUEST_BG_LIGHT2,Chiaro 2,1
-51563,QUEST_BG_DARK,Scuro,1
-51565,QUEST_BG_LIGHT3,Chiaro 3,1
+51561,QUEST_BG_LIGHT1,Marrone,1
+51562,QUEST_BG_LIGHT2,Bianco,1
+51563,QUEST_BG_DARK,Nero,1
+51565,QUEST_BG_LIGHT3,Grigio,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Completa %1$d spedizioni in modalità Mitica per migliorare la ricompensa.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Non hai dimostrato il tuo valore a questo spirito.,1
 51573,CANNOT_UNEQUIP_ERR,Non puoi cambiare lo stato dell'equipaggiamento in questo momento,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Possiedi Macchie di Cenere Radiosa a sufficienza.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Questo oggetto non può essere trasformato dal tuo personaggio.,1
+51579,COLOR_PICKER_HEX,Esadecimale,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,I giocatori della fazione opposta non possono essere promossi a capogilda.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Effetti dello schermo del Volo Dinamico,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabilitare gli effetti dello schermo può aiutare con la chinetosi.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Attivare l'impostazione Chinetosi riduce il movimento della visuale e mantiene il personaggio al centro.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Sostituisci l'oggetto congelato trascinando qui un altro oggetto in qualsiasi momento,1
+51628,NPE_UNBOUND_KEYBIND,[Non vincolato],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Aggiungi ai preferiti,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Rimuovi dai preferiti,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Tempo restante: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,L'attività non è ancora iniziata,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,L'attività è terminata,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Esempio,1
+51654,QUEST_TEXT_PREVIEW_BODY,Quest'anteprima mostra come apparirà la descrizione della missione nella schermata della missione quando scegli il colore di sfondo alternativo.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Difficoltà %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Riceverai i seguenti oggetti:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d giocatori,1
+51727,WOW_ERROR_337,L'accesso a questo reame richiede un account con una licenza di accesso valida.,2

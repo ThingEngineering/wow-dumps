@@ -972,7 +972,7 @@ Feuert einen Laser aus arkaner Energie auf den Gegner ab und fügt ihm [Standard
 Verursacht [StandardDamage(1,2)] zusätzlichen Schaden, wenn arkane Winde wehen.",457655,5,1,0,0
 484,Rückkopplung,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Startet einen Manawoge in Richtung des Gegners und fügt ihm [StandardDamage(1,1)] [School()]schaden zu.",135728,5,0,0,0
+Startet eine Manawoge in Richtung des Gegners und fügt ihm [StandardDamage(1,1)] [School()]schaden zu.",135728,5,0,0,0
 485,Angriffsschub,"Verursachter Schaden um [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]% erhöht.",648206,-1,0,320,2
 486,Kraft entziehen,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
@@ -3421,7 +3421,7 @@ Der Schaden wird bei jedem Einsatz um [FormatDamage(5*AttackBonus())] erhöht. M
 2378,Lichtstrahlen,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Fügt dem aktiven Haustier des Gegners [StandardDamage(1,1)] [School()]schaden sowie den gegnerischen Haustieren in der hinteren Reihe [StandardDamage(1,2)] [School()]schaden zu. Stellt bei allen Verbündeten [StandardHealing(1,1)] Gesundheit wieder her.",525026,5,4,0,0
-2379,Wirbelndes Wissen,"Blockt die nächsten 2 Angriffe, hält den Zaubernden aber an Ort und Stelle fest, weil er 1 Runde lang forschen muss.",134917,5,0,1179,2
+2379,"Wirbelndes Wissen, Aura","Blockt die nächsten 2 Angriffe, hält den Zaubernden aber an Ort und Stelle fest, weil er 1 Runde lang forschen muss.",134917,5,0,1179,2
 2380,Bleibt ein Weilchen und hört zu,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Lässt das Ziel [duration(1,1)] |4Runde:Runden; lang schlafen.",458721,5,5,0,2
@@ -3753,6 +3753,11 @@ Hält [duration(1,1)] |4Runde:Runden; lang an.",4050664,5,5,0,2
 Speit ein Gewitter auf den Gegner und verursacht [StandardDamage(1, 1)] [School()]schaden.
 
 Greift ein zweites Mal an und verursacht [StandardDamage(1,3)] [School()]schaden an, wenn ein Gewittersturm herrscht.",236392,6,0,0,0
+2509,Lebensnektar,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Kontrolliert die Macht des Lebens selbst und verursacht [StandardDamage(1,1)] [School()]schaden.
+
+Der Benutzer wird um [points(1,2)]% des verursachten Schadens geheilt.",136233,1,0,0,0
 2510,Überheblichkeit,"Erlittener Schaden um [abs(abilityStateMod( 24, 185 ))]% erhöht.",1390945,5,0,530,3
 2511,Überheblichkeit,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
@@ -3770,3 +3775,13 @@ Mini-Furorion verursacht [FormatDamage(SimpleDamage(1,1))] [School()] Schaden
 
 Jede Welle von Assassinen verursacht [FormatDamage(SimpleDamage(1,2))] [School()] Schaden.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,Windzorn,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Greift mit der Macht eines heulenden Sturmes Eure Gegner zweimal an.
+
+Jeder Treffer verursacht [FormatDamage(SimpleDamage(1,1))] [School()]schaden.",132845,6,0,0,0
+2518,Arkane Riposte,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Verursacht [StandardDamage(1,1)] [School()]schaden.
+
+Verursacht zusätzlich [StandardDamage(1,2)] Schaden, falls der Benutzer weniger Gesundheit hat als das Ziel.",429382,5,0,0,0

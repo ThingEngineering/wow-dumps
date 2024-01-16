@@ -12539,7 +12539,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Trocar de especialização,1
 24738,ARTIFACT_XP_GAIN,%s recebe %s de Poder do Artefato.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Sem combustível suficiente,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Equipar: aumenta o nível do item para %d em Arenas e Campos de Batalha.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Equipar: aumenta o nível do item para um mínimo de %d em Arenas e Campos de Batalha.,1
 24742,STAT_ARMOR,Armadura,1
 24743,STAT_BONUS_ARMOR,Bônus de Armadura,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Energia Aquosa,1
@@ -12815,7 +12815,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Legado,1
 25019,SIGN_UP,Inscrever-se,1
-25020,SEARCHING,Buscando...,1
+25020,SEARCHING,Buscando...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Nível de Item necessário: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Criado: |cffffffff%s atrás|r,1
@@ -18979,7 +18979,7 @@ Você encontra os treinadores nos povoados e cidades.",1
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Reduzir movimento da câmera,1
 42761,MOTION_SICKNESS_NONE,Permitir movimento dinâmico da câmera,1
 42762,MOTION_SICKNESS_BOTH,Manter o personagem centralizado e reduzir o movimento da câmera,1
-42763,MOTION_SICKNESS_DROPDOWN,Vertigem de movimento,1
+42763,MOTION_SICKNESS_CHECKBOX,Vertigem de movimento,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Tremer câmera,1
 42765,COVENANT_TOAST_TEXT,Você entrou para o Pacto,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19556,8 +19556,8 @@ Você encontra os treinadores nos povoados e cidades.",1
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Efeitos,1
 43932,SLASH_TEXTTOSPEECH_VOICE,voz,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clique com o botão direito para ver os detalhes,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clique com o botão direito para ocultar os detalhes,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Clique com o botão esquerdo para ver os detalhes,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Clique com o botão esquerdo para ocultar os detalhes,1
 43935,EVENTTRACE_ARG_FMT,Arg %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s exp: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nexp: %s,1
@@ -20658,8 +20658,8 @@ Vem da sua perícia profissional base, especializações, reagentes de alta qual
 49339,SPELL_FAILED_CUSTOM_ERROR_800,Um sinalizador foi lançado recentemente neste local.,1
 49341,BASIC_REAGENT_TOOLTIP_CLICK_TO_ALLOCATE,Clique com o botão esquerdo para alocar qualidades de reagente.,1
 49342,PROFESSIONS_CRAFTING_EXPECTED_QUALITY_WITH_NEXT_SKILL,"|cnHIGHLIGH_FONT_COLOR: Qualidade esperada:|r %s|n|nCom a dificuldade atual da Receita, chegue a %d de Perícia para garantir a Qualidade %s",1
-49343,HUD_EDIT_MODE_COLLAPSE_OPTIONS,Opções de colapso |A:editmode-up-arrow:16:11:0:3|a,1
-49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Opções de expansão |A:editmode-down-arrow:16:11:0:-7|a,1
+49343,HUD_EDIT_MODE_COLLAPSE_OPTIONS,Recolher opções |A:editmode-up-arrow:16:11:0:3|a,1
+49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Expandir opções |A:editmode-down-arrow:16:11:0:-7|a,1
 49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,Mira e Foco,1
 49346,UNITNAME_SUMMON_TITLE51,Clone Arcano de %s,1
 49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,Você precisa de um nível de item médio de JxJ mais alto para entrar na fila.|n(Requer: %2$d. Nível atual: %3$d.),1
@@ -20695,7 +20695,7 @@ Vem da sua perícia profissional base, especializações, reagentes de alta qual
 Você pode aprimorar suas habilidades ao recriar, mas com uma chance reduzida.",1
 49398,HUD_EDIT_MODE_ERROR_MAX_LAYOUTS,É permitido um máximo de %d esquemas de personagem e %d esquemas de conta.,1
 49399,PERKS_PROGRAM_PURCHASED_TEXT,Você possui este item,1
-49400,GOSSIP_QUEST_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(Quest)|r %s,1
+49400,GOSSIP_QUEST_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(Missão)|r %s,1
 49401,HUD_EDIT_MODE_ERROR_MAX_ACCOUNT_LAYOUTS,Só são permitidos %d esquemas amplos de conta. Marque a caixa para salvar um determinado esquema de personagem.,1
 49402,HUD_EDIT_MODE_ERROR_MAX_CHAR_LAYOUTS,Só são permitidos %d esquemas de personagens específicos. Desmarque a caixa para salvar um esquema amplo de conta.,1
 49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,│cnNORMAL_FONT_COLOR:Copiar esquema|r|nÉ permitido um máximo de %d esquemas de personagem e %d esquemas de conta.,1
@@ -20820,7 +20820,7 @@ Para alcançar uma qualidade melhor, tente usar reagentes de qualidade superior,
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importar,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Compartilhar,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Cabeça Falante,1
-49527,PERKS_PROGRAM_SERVER_ERROR,Ocorreu um erro na comunicação com o Servidor. Tente novamente mais tarde.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,O Posto Comercial está com dificuldades para se comunicar com o servidor. Tente novamente mais tarde.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Botão de Saída de Veículo,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,Você não tem fundos suficientes para esta compra,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Bilhete para artesão:,1
@@ -21074,7 +21074,7 @@ Todos os equipamentos que possuem esta opção terão as mesmas barras de ação
 49802,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_HORIZONTAL,Combinar grupos (horizontal),1
 49803,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_VERTICAL,Combinar grupos (vertical),1
 49804,HUD_EDIT_MODE_SETTING_UNIT_FRAME_COLUMN_SIZE,Tamanho da coluna,1
-49805,HUD_EDIT_MODE_ENABLE_SNAP,Fixar nos elementos,1
+49805,HUD_EDIT_MODE_ENABLE_SNAP,Alinhar aos elementos,1
 49806,PROFESSIONS_CRAFTING_NO_LEARNED_RECIPES,"Você ainda não aprendeu %s.|n|nPara ver receitas de %s, aplique o filtro ""Receitas não aprendidas"" à sua busca.",1
 49807,NPEV2_SELECT_TALENTS_TAB,Selecione a aba |cFF00FFFFTalentos|r,1
 49808,NPEV2_TALENTS_STARTER_BUILD,Não consegue decidir? Tente usar a |cFF00FFFFSeleção Inicial|r,1
@@ -21497,7 +21497,7 @@ O progresso realizado abrange toda a conta.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Sair da partida agora fará com que você perca pelo menos |cnORANGE_FONT_COLOR:%d|r de classificação e sofra %s de %s.|n|nVocê não receberá Honra nem Dominação das rodadas concluídas se sair agora.|n|nTem certeza de que deseja sair da partida?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Esta receita está desativada. Tente novamente mais tarde.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fA mensagem de %s talvez seja imprópria.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostrar mensagem]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efeitos de velocidade,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Efeitos de velocidade de Voo Dinâmico,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Desativar efeitos visuais de velocidade pode reduzir a vertigem de movimento durante a dragonaria.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Abrir pasta,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Fechar,2
@@ -21937,11 +21937,15 @@ Quer continuar?",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Gaste mais pontos para restaurar este talento ou clique com o botão direito para desaprendê-lo,1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelado|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Só pode ser usado durante O Amor Está no Ar,1
 51457,MAP_FILTER,Filtro do mapa,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,Nenhum cheiro por perto!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Você já está com o máximo de Vigor,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,Os nutrientes deste solo devem ser repostos antes de mais crescimento.,1
 51480,PERSONALTABARDVENDORGREETING,Saudações! Escolha o símbolo e as cores do seu tabardo pessoal.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restringir Pings aos Líderes,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Masmorras de seguidor,1
+51494,LFD_FOLLOWER_EXPLANATION,Conclua masmorras com companheiros PNJ,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,O alvo já teve penas arrancadas. Arrancar mais seria uma grosseria sem tamanho.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Conclua %d |4masmorra Heroica, Mítica:masmorras Heroicas, Míticas; ou de Caminhada Temporal",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Você só pode abrir este baú nos seus sonhos.,1
@@ -21957,6 +21961,7 @@ Quer continuar?",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Esta criatura já foi harmonizada recentemente.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,Você não pode mais ter nenhum brasão deste tipo.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Você entrou em muitas masmorras de seguidor recentemente.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Voo Dinâmico,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Velocidade mínima de inclinação no teclado,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Velocidade máxima de inclinação no teclado,1
@@ -21974,8 +21979,15 @@ Quer continuar?",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Montarias,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,O Posto Comercial está com dificuldades para se comunicar com o servidor. Tente novamente mais tarde.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Compras indisponíveis,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Reembolso indisponível,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,O processamento da sua compra está demorando mais do que o normal. Ele continuará em segundo plano.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Voltar ao Posto Comercial,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,Você não tem itens deste tipo.,1
 51543,KIOSK_ENTER,Entrar no mundo,2
+51547,PERKS_PROGRAM_PENDING,Pendente,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,O processamento da sua compra está demorando mais do que o normal. Este item será entregue após o fim do processamento.,1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Compra pendente,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Um item está sendo processado no momento. Tente novamente mais tarde.,1
 51552,WEEKLY_REWARDS_HEROIC,Heroico,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Conclua uma masmorra no modo Mítico para aumentar o nível de item desta recompensa.,1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Nível de item %1$d - Heroico,1
@@ -21983,13 +21995,32 @@ Quer continuar?",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,"O nível de item desta recompensa será baseado na mais baixa das suas %1$d melhores incursões da semana (atualmente, Nível de Mítica %2$d).",1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,"O nível de item desta recompensa será baseado na mais baixa das suas %1$d melhores incursões da semana (atualmente, Heroico).",1
 51560,QUEST_BG_DEFAULT,Padrão,1
-51561,QUEST_BG_LIGHT1,Luz 1,1
-51562,QUEST_BG_LIGHT2,Luz 2,1
-51563,QUEST_BG_DARK,Escuro,1
-51565,QUEST_BG_LIGHT3,Luz 3,1
+51561,QUEST_BG_LIGHT1,Marrom,1
+51562,QUEST_BG_LIGHT2,Branco,1
+51563,QUEST_BG_DARK,Preto,1
+51565,QUEST_BG_LIGHT3,Cinza,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Conclua %1$d masmorras no modo Mítico para melhorar sua recompensa,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Você não mostrou seu valor a este espírito.,1
 51573,CANNOT_UNEQUIP_ERR,Não é possível equipar status no momento,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Você tem Floco de Cinza Radiante suficiente.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Este item não pode ser transformado pelo seu personagem.,1
+51579,COLOR_PICKER_HEX,Hex,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Jogadores da facção adversária não podem ser promovidos a líder da guilda.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Efeitos de tela de Voo Dinâmico,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Desativar efeitos de tela pode reduzir a vertigem de movimento.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Ativar a configuração Vertigem de Movimento reduzirá o movimento da câmera e manterá seu personagem centralizado.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Substitua seu item congelado arrastando outro item para cá a qualquer momento,1
+51628,NPE_UNBOUND_KEYBIND,[livre],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Definir favorito,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Remover favorito,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Tempo restante: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Esta atividade ainda não começou,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Esta atividade expirou,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Exemplo,1
+51654,QUEST_TEXT_PREVIEW_BODY,Esta prévia mostra como será a descrição da sua missão no painel de ofertas da missão quando você optar pela cor de fundo alternativa.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Modo %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Você receberá os itens a seguir:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d jogadores,1
+51727,WOW_ERROR_337,Acessar esse reino requer uma conta com uma licença de acesso válida.,2

@@ -7743,7 +7743,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 19499,SPELL_FAILED_CUSTOM_ERROR_55,Fehlendes Reagenz: Dunkle Materie,1
 19500,BINDING_NAME_TOGGLECURRENCY,Abzeichenfenster ein/aus,1
 19504,SHORTDATE,%1$02d.%2$02d.%3$02d,3
-19505,TUTORIAL52,"Glückwunsch! Ihr habt Euer erstes Kampfhaustier erhalten. Dieser kleine Kerl wird Euch bei Euren Abenteuern in Azeroth und darüber hinaus begleiten.|n|nIhr könnt alle Eure Kampfhaustiere sehen, indem Ihr auf den |cffffd200Sammlungen-Button|r klickt und dann den Tab |cffffd200Wildtierführer|r wählt.",1
+19505,TUTORIAL52,"Glückwunsch! Ihr habt Euer erstes Kampfhaustier erhalten. Dieser kleine Kerl wird Euch bei Euren Abenteuern in Azeroth und darüber hinaus begleiten.|n|nIhr könnt alle Eure Kampfhaustiere sehen, indem Ihr auf den |cffffd200Sammlungen-Button|r klickt und dann den Tab |cffffd200Haustierführer|r wählt.",1
 19506,TUTORIAL_TITLE52,Haustiere,1
 19507,TUTORIAL53,"Glückwunsch! Ihr habt gelernt, Euer erstes Reittier zu beschwören. Dieses mächtige Reittier wird Euch durch Eure Abenteuer in Azeroth und darüber hinaus begleiten. Ihr könnt alle Eure Reittiere sehen, indem Ihr auf den |cffffd200Sammlungen-Button|r klickt und dann den Tab |cffffd200Reittiere|r wählt. Ihr könnt Euer Lieblingsreittier auch in Eure Aktionsleiste ziehen, um es leichter beschwören zu können.",1
 19508,TUTORIAL_TITLE53,Reittiere,1
@@ -12523,7 +12523,7 @@ zugsbrowser",1
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Spezialisierung ändern,1
 24738,ARTIFACT_XP_GAIN,%s erhält %s Artefaktmacht.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Nicht genug Treibstoff,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Anlegen: Erhöht die Gegenstandsstufe in Arenen und auf Schlachtfeldern auf %d.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Anlegen: Erhöht die Gegenstandsstufe in Arenen und auf Schlachtfeldern mindestens auf %d.,1
 24742,STAT_ARMOR,Rüstung,1
 24743,STAT_BONUS_ARMOR,Bonusrüstung,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Aquäusenergie,1
@@ -12800,7 +12800,7 @@ Missionsbericht",1
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Klassisch,1
 25019,SIGN_UP,Anmelden,1
-25020,SEARCHING,Suche...,1
+25020,SEARCHING,Suche...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Benötigte Gegenstandsstufe: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Erstellt: |cffffffffvor %s|r,1
@@ -12961,7 +12961,7 @@ Missionsbericht",1
 25181,GARRISON_MISSION_BASE_XP,|cffffd200Grund-EP:|r %d,1
 25182,GARRISON_MISSION_BASE_XP_PLUS,|cffffd200Grund-EP:|r %d |cff20ff20(+%d)|r,1
 25183,GARRISON_MISSION_ADD_FOLLOWER,Zur Mission hinzufügen,1
-25184,BINDING_NAME_TOGGLECOLLECTIONSPETJOURNAL,Wildtierführer ein/aus,1
+25184,BINDING_NAME_TOGGLECOLLECTIONSPETJOURNAL,Haustierführer ein/aus,1
 25185,BINDING_NAME_TOGGLECOLLECTIONSTOYBOX,Spielzeugkiste ein/aus,1
 25186,BINDING_NAME_TOGGLECOLLECTIONSMOUNTJOURNAL,Reittiere ein/aus,1
 25187,GARRISON_LOCKED_PLOT_TOOLTIP,"Schließt eine Quest ab, um dieses Gebäude freizuschalten.",1
@@ -18965,7 +18965,7 @@ Abenteuerführer ausblenden",1
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Kamerabewegung verringern,1
 42761,MOTION_SICKNESS_NONE,Dynamische Kamerabewegung erlauben,1
 42762,MOTION_SICKNESS_BOTH,Charakter zentriert halten und Kamerabewegung verringern,1
-42763,MOTION_SICKNESS_DROPDOWN,Bewegungskrankheit,1
+42763,MOTION_SICKNESS_CHECKBOX,Bewegungskrankheit,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Kamerawackeln,1
 42765,COVENANT_TOAST_TEXT,Willkommen im Pakt:,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19542,8 +19542,8 @@ Abenteuerführer ausblenden",1
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Effekte,1
 43932,SLASH_TEXTTOSPEECH_VOICE,stimme,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Details durch Rechtsklick anzeigen,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Details durch Rechtsklick verbergen,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Details durch Linksklick anzeigen,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Details durch Linksklick verbergen,1
 43935,EVENTTRACE_ARG_FMT,Arg. %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s EP: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nEP: %s,1
@@ -20812,7 +20812,7 @@ abstand",1
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Importieren,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Teilen,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Sprechender Kopf,1
-49527,PERKS_PROGRAM_SERVER_ERROR,Bei der Verbindung zum Server ist ein Fehler aufgetreten. Versucht es bitte später erneut.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,Der Handelsposten hat Verbindungsprobleme mit dem Server. Versucht es später noch einmal.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Fahrzeug-verlassen-Knopf,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,Ihr habt für diesen Kauf nicht genügend Währung.,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Hinweis an Handwerker:,1
@@ -21489,7 +21489,7 @@ Der Fortschritt gilt accountweit.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Wenn Ihr den Kampf jetzt verlasst, verliert Ihr mindestens |cnORANGE_FONT_COLOR:%d|r Wertung und werdet %s lang mit %s belegt.|n|nAußerdem erhaltet Ihr dann keine Ehren- oder Eroberungspunkte für Eure abgeschlossenen Runden.|n|nSeid Ihr sicher, dass Ihr den Kampf verlassen möchtet?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Dieses Rezept ist momentan deaktiviert. Bitte später erneut versuchen.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fDie Nachricht von %s ist möglicherweise anstößig.|h|cffffff00|Hcensoredmessage:%d|h |W[Nachricht anzeigen]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Geschwindigkeitseffekte,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Geschwindigkeitseffekte beim dynamischen Flug,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Das Deaktivieren visueller Geschwindigkeitseffekte kann gegen Bewegungskrankheit beim Drachenreiten helfen.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Ordner öffnen,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Schließen,2
@@ -21929,11 +21929,15 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,"Gebt mehr Punkte aus, um dieses Talent wiederherzustellen, oder rechtsklickt, um es zu verlernen.",1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffEingefroren|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,"Kann nur während ""Liebe liegt in der Luft"" benutzt werden",1
 51457,MAP_FILTER,Kartenfilter,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,Keine Gerüche in der Nähe!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Ihr habt bereits vollen Elan.,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,Die Nährstoffe dieser Erde müssen für weiteres Wachstum erneuert werden.,1
 51480,PERSONALTABARDVENDORGREETING,Grüße! Wählt das Symbol und die Farben Eures persönlichen Wappenrocks.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Pings auf Anführer beschränken,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Anhängerdungeons,1
+51494,LFD_FOLLOWER_EXPLANATION,Schließt Dungeons mit NSC-Teamkameraden ab,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,"Dem Ziel wurden bereits einige Federn ausgerupft. Es wäre unhöflich, mehr zu nehmen.",1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Schließt %d |4heroischen, mythischen oder Zeitwanderungsdungeon:heroische, mythische oder Zeitwanderungsdungeons; ab",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Ihr könnt diese Kiste nur in Euren Träumen öffnen.,1
@@ -21949,6 +21953,7 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Mit dieser Kreatur wurde sich vor Kurzem erst eingestimmt.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,Ihr könnt keine weiteren Wappen dieser Art tragen.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Ihr habt in letzter Zeit zu viele Anhängerdungeons betreten.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Dynamischer Flug,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Minimale Tastatur-Pitchgeschwindigkeit,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Maximale Tastatur-Pitchgeschwindigkeit,1
@@ -21966,8 +21971,15 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Reittiere,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,Der Handelsposten hat Verbindungsprobleme mit dem Server. Versucht es später noch einmal.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Einkäufe nicht verfügbar,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Rückerstattung nicht verfügbar,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,Die Bearbeitung Ihres Kaufs dauert länger als üblich. Die Bearbeitung wird im Hintergrund fortgesetzt.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Rückkehr zum Handelsposten,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,Ihr habt keine Gegenstände dieser Art.,1
 51543,KIOSK_ENTER,Welt betreten,2
+51547,PERKS_PROGRAM_PENDING,Ausstehend,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,"Die Bearbeitung Ihres Kaufs dauert länger als üblich. Dieser Gegenstand wird geliefert, sobald die Bearbeitung abgeschlossen ist.",1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Kauf ausstehend,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Ein Gegenstand wird gerade bearbeitet. Bitte versucht es später noch einmal.,1
 51552,WEEKLY_REWARDS_HEROIC,Heroisch,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,"Schließt einen Dungeon auf dem Schwierigkeitsgrad Mythisch ab, um die Gegenstandsstufe der Belohnung zu erhöhen.",1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Gegenstandsstufe %1$d - Heroisch,1
@@ -21975,13 +21987,32 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,Die Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %1$d Durchläufe dieser Woche (aktuell: Mythische Stufe %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,Die Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %1$d Durchläufe dieser Woche (aktuell: Heroisch).,1
 51560,QUEST_BG_DEFAULT,Standard,1
-51561,QUEST_BG_LIGHT1,Hell 1,1
-51562,QUEST_BG_LIGHT2,Hell 2,1
-51563,QUEST_BG_DARK,Dunkel,1
-51565,QUEST_BG_LIGHT3,Hell 3,1
+51561,QUEST_BG_LIGHT1,Braun,1
+51562,QUEST_BG_LIGHT2,Weiß,1
+51563,QUEST_BG_DARK,Schwarz,1
+51565,QUEST_BG_LIGHT3,Grau,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,"Schließt %1$d Dungeons auf dem Schwierigkeitsgrad 'Mythisch' ab, um Eure Belohnung zu verbessern.",1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Ihr habt Euch diesem Geist nicht bewiesen.,1
 51573,CANNOT_UNEQUIP_ERR,Der Ausrüstungsstatus kann zur Zeit nicht geändert werden,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Ihr habt genug leuchtende Ascheflocken.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Dieser Gegenstand kann von Eurem Charakter nicht transformiert werden.,1
+51579,COLOR_PICKER_HEX,Hex,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Spielercharaktere der gegnerischen Fraktion können nicht zum Gildenmeister befördert werden.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Bildschirmeffekte beim dynamischen Flug,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Das Deaktivieren von Bildschirmeffekten kann gegen Bewegungskrankheit helfen.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Durch die Aktivierung der Einstellung für Bewegungskrankheit wird die Kamerabewegung verringert und der Spielercharakter zentriert.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Der eingefrorene Gegenstand kann jederzeit durch das Reinziehen eines anderen Gegenstands hierher ersetzt werden.,1
+51628,NPE_UNBOUND_KEYBIND,[Ungebunden],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Favorit setzen,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Favorit entfernen,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Verbleibende Zeit: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Diese Aktivität hat noch nicht begonnen.,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Diese Aktivität ist abgelaufen.,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Beispiel,1
+51654,QUEST_TEXT_PREVIEW_BODY,"Diese Vorschau demonstriert, wie die Questbeschreibung bei Auswahl einer alternativen Hintergrundfarbe im Questfenster aussehen wird.",1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Schwierigkeitsgrad %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Ihr erhaltet folgende Gegenstände:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Spielercharaktere,1
+51727,WOW_ERROR_337,Für den Zugang zu diesem Realm ist ein Account mit einer gültigen Zugangslizenz erforderlich.,2

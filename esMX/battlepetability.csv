@@ -1304,7 +1304,7 @@ Se abalanza sobre el enemigo, lo que inflige [StandardDamage(1,1)] p. de daño d
 
 Lanza un orbe de energía gélida al objetivo.
 
-Después de 2 |4ronda:rondas, el hielo golpea a la mascota activa del enemigo, lo que inflige [StandardDamage(3,1,623)] p. de daño de [School()] y la aturde durante [duration(3,2,623)] ronda.",609814,6,5,0,0
+Después de 2 rondas, el hielo golpea a la mascota activa del enemigo, lo que inflige [StandardDamage(3,1,623)] p. de daño de [School()] y la aturde durante [duration(3,2,623)] |4ronda:rondas;.",609814,6,5,0,0
 625,Púa de hielo,"Empala al objetivo, lo que inflige [StandardDamage(1,1)] p. de daño de [School()].
 
 Esta habilidad tiene muchas posibilidades de fallar.",135855,6,0,0,0
@@ -3431,7 +3431,7 @@ El daño aumenta [FormatDamage(5*AttackBonus())] p. cada vez que se usa. Puede i
 2378,Rayos de luz,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] p. de daño [School()] a la mascota activa del enemigo y [StandardDamage(1,2)] p. de daño [School()] mascotas de reserva del enemigo. Restaura [StandardHealing(1,1)] p. de salud a todos los aliados.",525026,5,4,0,0
-2379,Conocimiento abrumador,"Bloquea los próximos 2 ataques, pero el taumaturgo queda inmovilizado investigando durante 1 turno.",134917,5,0,1179,2
+2379,Conocimiento abrumador - Aura,"Bloquea los próximos 2 ataques, pero el taumaturgo queda inmovilizado investigando durante 1 turno.",134917,5,0,1179,2
 2380,Quédate aquí y escucha,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Duerme al objetivo durante [duration(1,1)] |4ronda:rondas;.",458721,5,5,0,2
@@ -3762,6 +3762,11 @@ Dura [duration(1,1)] |4ronda:rondas;.",4050664,5,5,0,2
 Exhala una tormenta de relámpagos sobre el enemigo e inflige [StandardDamage(1, 1)] p. de daño de [School()].
 
 Realiza un segundo ataque que inflige [StandardDamage(1,3)] p. de daño de [School()] cuando hay Tormenta de relámpagos.",236392,6,0,0,0
+2509,Golpe de vida,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Controla el poder de la vida misma para infligir [StandardDamage(1,1)] p. de daño de [School()].
+
+El usuario sana un [points(1,2)]% del daño infligido.",136233,1,0,0,0
 2510,Arrogancia,"Tu daño recibido ha aumentado un [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Arrogancia,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
@@ -3779,3 +3784,13 @@ Pequeño Wrathion inflige [FormatDamage(SimpleDamage(1,1))] [School()] p. de da�
 
 Cada oleada de asesinos inflige [FormatDamage(SimpleDamage(1,2))] [School()] p. de daño.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,Viento furioso,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Ataca con la fuerza de un vendaval aullante, lo que golpea a tu enemigo dos veces.
+
+Cada golpe inflige [FormatDamage(SimpleDamage(1,1))] p. de daño de [School()].",132845,6,0,0,0
+2518,Réplica arcana,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Inflige [StandardDamage(1,1)] p. de daño [School()]. 
+
+Inflige [StandardDamage(1,2)] p. más de daño si el usuario tiene menos salud que el objetivo.",429382,5,0,0,0

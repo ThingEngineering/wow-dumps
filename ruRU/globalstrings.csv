@@ -10773,7 +10773,7 @@ ID,BaseTag,TagText_lang,Flags
 22775,CONVERT_TO_RAID_LABEL,В вашей группе нет мест. Вы хотите сделать группу рейдовой?\n\nВ составе рейдовой группы вы не сможете выполнять большинство заданий!,1
 22776,HELPFRAME_SUBMIT_SUGGESTION_LEGAL,"Щелкнув по кнопке |cffffd200Отправить|r, вы подтверждаете, что описанная идея принадлежит вам, и разрешаете компании Blizzard Entertainment использовать ее любым способом без каких-либо обязательств по вознаграждению.",1
 22777,BLACK_MARKET_AUCTION_HOUSE,Аукцион черного рынка,1
-22778,PET_BATTLE_EFFECTIVENESS_VS,против,1
+22778,PET_BATTLE_EFFECTIVENESS_VS,противник,1
 22779,PET_BATTLE_TURN_CURRENT_COOLDOWN,До восстановления: %d |4ход:хода:ходов;,1
 22780,MANA_COST_LARGE_PER_TIME,Мана: %s плюс %s/сек,1
 22781,CORE_ABILITIES,Основные способности,1
@@ -12517,7 +12517,7 @@ ID,BaseTag,TagText_lang,Flags
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Смена специализации,1
 24738,ARTIFACT_XP_GAIN,Артефакт %s получает %s ед. силы артефакта.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Недостаточно топлива,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,На аренах и полях боя уровень предмета повышается до %d.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Если на персонаже: на аренах и полях боя уровень предмета повышается минимум до %d.,1
 24742,STAT_ARMOR,Броня,1
 24743,STAT_BONUS_ARMOR,Бонус брони,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Энергия воды,1
@@ -12793,7 +12793,7 @@ ID,BaseTag,TagText_lang,Flags
 25017,LFG_LIST_CATEGORY_FORMAT,%s – %s%s%s,1
 25018,LFG_LIST_LEGACY,Классические,1
 25019,SIGN_UP,Подписаться,1
-25020,SEARCHING,Поиск…,1
+25020,SEARCHING,Поиск…,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Необходимый уровень предметов: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Создано: |cffffffff%s назад|r,1
@@ -18960,7 +18960,7 @@ ID,BaseTag,TagText_lang,Flags
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Ограничить подвижность камеры,1
 42761,MOTION_SICKNESS_NONE,Разрешить динамичное передвижение камеры,1
 42762,MOTION_SICKNESS_BOTH,Удерживать персонажа в центре и ограничить подвижность камеры,1
-42763,MOTION_SICKNESS_DROPDOWN,Укачивание,1
+42763,MOTION_SICKNESS_CHECKBOX,Укачивание,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Тряска камеры,1
 42765,COVENANT_TOAST_TEXT,Вы вступили в ковенант.,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19537,8 +19537,8 @@ ID,BaseTag,TagText_lang,Flags
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%1$s %2$s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Эффекты,1
 43932,SLASH_TEXTTOSPEECH_VOICE,голос,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,"Щелкните ПКМ, чтобы узнать больше.",1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,"Щелкните ПКМ, чтобы скрыть подробности.",1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,"Щелкните ЛКМ, чтобы узнать больше.",1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,"Щелкните ЛКМ, чтобы скрыть подробности.",1
 43935,EVENTTRACE_ARG_FMT,Арг. %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s. Опыт: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nОпыт: %s,1
@@ -20801,7 +20801,7 @@ ID,BaseTag,TagText_lang,Flags
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Импорт,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Поделиться,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Говорящая голова,1
-49527,PERKS_PROGRAM_SERVER_ERROR,Ошибка связи с сервером.  Попробуйте позже.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,Торговой лавке не удается установить соединение с сервером. Попробуйте позже.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Выход из транспорта,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,У вас не хватает валюты для покупки,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Примечание для мастера:,1
@@ -21479,7 +21479,7 @@ ID,BaseTag,TagText_lang,Flags
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Покинув матч сейчас, вы потеряете по меньшей мере |cnORANGE_FONT_COLOR:%d|r рейтинга, а сами вы будете в течение %s испытывать эффект ""%s"".|n|nЕсли вы покинете матч сейчас, то не сможете получить очки чести или завоевания за раунды, в которых приняли участие.|n|nПокинуть матч?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Этот рецепт в данный момент недоступен. Попробуйте позже.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fСообщение от игрока %s может носить неприемлемый характер.|h|cffffff00|Hcensoredmessage:%d|h |W[Показать сообщение]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Эффекты ускорения,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Эффекты ускорения в режиме динамичного полета,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,"Отключение графических эффектов, использующихся при передвижении на драконах, поможет избежать укачивания.",1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Открыть папку,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Закрыть,2
@@ -21920,11 +21920,15 @@ ID,BaseTag,TagText_lang,Flags
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,"Потратьте больше очков, чтобы вернуть этот талант, или щелкните ПКМ, чтобы забыть его",1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffЗаморозка|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Можно использовать только во время Любовной лихорадки.,1
 51457,MAP_FILTER,Фильтр карты,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,Поблизости ничем не пахнет!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,У вас уже максимальный запас бодрости,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,"Питательные вещества на этом участке почвы должны восстановиться, прежде чем здесь можно будет выращивать растения.",1
 51480,PERSONALTABARDVENDORGREETING,Здравствуйте! Выберите символ и цвета вашей личной гербовой накидки.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Только лидер ставит отметки,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Подземелья с соратниками,1
+51494,LFD_FOLLOWER_EXPLANATION,Проходите подземелья с группой NPC,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,У цели уже выдернули несколько перьев. Будет невежливо выдергивать еще больше.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,Пройдите %d |4подземелье:подземелья:подземелий; в героическом и эпохальном режиме или в режиме путешествий во времени.,1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Открыть этот сундук вы сможете только во сне.,1
@@ -21940,6 +21944,7 @@ ID,BaseTag,TagText_lang,Flags
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,С этим существом недавно уже было установлено единство.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,У вас уже максимальное количество гребней этого типа.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Вы достигли лимита подземелий с соратниками.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Динамичный полет,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Мин. скорость движения камеры по вертикали (клавиатура),1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Макс. скорость движения камеры по вертикали (клавиатура),1
@@ -21957,8 +21962,15 @@ ID,BaseTag,TagText_lang,Flags
 51530,ACCESSIBILITY_MOUNT_LABEL,Средства передвижения,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,Торговой лавке не удается установить соединение с сервером. Попробуйте позже.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Покупка невозможна,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Возврат средств недоступен,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,"Обработка данной покупки требует больше времени, чем обычно. Она продолжится в фоновом режиме.",1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Вернуться в торговую лавку,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,У вас нет предметов этого типа.,1
 51543,KIOSK_ENTER,Войти в игровой мир,2
+51547,PERKS_PROGRAM_PENDING,Ожидание,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,"Обработка данной покупки требует больше времени, чем обычно. Вы получите ее, как только обработка завершится.",1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Покупка обрабатывается,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,Идет обработка товара. Попробуйте позже.,1
 51552,WEEKLY_REWARDS_HEROIC,Героический режим,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,"Пройдите подземелье в эпохальном режиме, чтобы повысить уровень этой награды.",1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Уровень предметов %1$d – героический режим,1
@@ -21966,13 +21978,32 @@ ID,BaseTag,TagText_lang,Flags
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,"Уровень предмета будет соответствовать самому низкоуровнему из %1$d |4самого сложного подземелья, пройденного:самых сложных подземелий, пройденных:самых сложных подземелий, пройденных; на неделе (текущий уровень эпохального ключа: %2$d).",1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,"Уровень предмета будет соответствовать самому низкоуровнему из %1$d |4самого сложного подземелья, пройденного:самых сложных подземелий, пройденных:самых сложных подземелий, пройденных; на неделе (текущий режим: героический).",1
 51560,QUEST_BG_DEFAULT,По умолчанию,1
-51561,QUEST_BG_LIGHT1,Свет 1,1
-51562,QUEST_BG_LIGHT2,Свет 2,1
-51563,QUEST_BG_DARK,Темнота,1
-51565,QUEST_BG_LIGHT3,Свет 3,1
+51561,QUEST_BG_LIGHT1,Коричневый,1
+51562,QUEST_BG_LIGHT2,Белый,1
+51563,QUEST_BG_DARK,Черный,1
+51565,QUEST_BG_LIGHT3,Серый,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,"Пройдите %1$d |4эпохальное подземелье:эпохальных подземелья:эпохальных подземелий;, чтобы улучшить награду.",1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,"Вы не доказали этому духу, что достойны.",1
 51573,CANNOT_UNEQUIP_ERR,Пока что вы не можете изменить статус снаряжения.,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,У вас достаточно лучистых хлопьев пепла.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Ваш персонаж не может преобразить этот предмет.,1
+51579,COLOR_PICKER_HEX,HEX-код,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Нельзя назначить главой гильдии игрока из противоположной фракции.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Эффекты экрана в режиме динамичного полета,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Отключение визуальных эффектов экрана поможет избежать укачивания.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Функции для избежания укачивания уменьшают подвижность камеры и фиксируют персонаж в центре экрана.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,"Вы можете заменить замороженный предмет в любой момент, перетянув на его место новый.",1
+51628,NPE_UNBOUND_KEYBIND,[Не назначено],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,"Добавить в ""Избранное""",3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,"Удалить из ""Избранного""",3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Осталось: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Это событие еще не началось,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Это событие уже закончилось,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Пример,1
+51654,QUEST_TEXT_PREVIEW_BODY,Предварительный просмотр окна с текстом предлагаемого задания при выборе альтернативного цвета фона.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Режим: %s,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,Вы получите следующие предметы:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d игроков,1
+51727,WOW_ERROR_337,Для доступа к этому игровому миру требуется учетная запись с соответствующей лицензией.,2

@@ -3424,7 +3424,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 2378,聖光光束,"[StandardAccuracy(1,1)] |cffffffff命中機率|r
 
 對敵方的前排寵物造成[StandardDamage(1,1)]點[School()]傷害，並且對敵方的後排寵物造成[StandardDamage(1,2)]點[School()]傷害。對所有盟友回復[StandardHealing(1,1)]點生命力。",525026,5,4,0,0
-2379,知識盤旋,格擋接下來2次攻擊，但施法者會被鎖在原地做研究，持續1回合。,134917,5,0,1179,2
+2379,知識盤旋 - 光環,格擋接下來2次攻擊，但施法者會被鎖在原地做研究，持續1回合。,134917,5,0,1179,2
 2380,留步聽故事,"[StandardAccuracy(1,1)] |cffffffff命中機率|r
 
 使目標沉睡[duration(1,1)]|4輪:輪;。",458721,5,5,0,2
@@ -3754,6 +3754,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 朝敵人噴吐閃電風暴，造成[StandardDamage(1, 1)]點[School()]傷害。
 
 天氣為閃電風暴時則攻擊第二次，造成[StandardDamage(1,3)]點[School()]傷害。",236392,6,0,0,0
+2509,生命樹液,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
+
+控制生命本身的能量，造成[StandardDamage(1,1)]點[School()]傷害。
+
+使用者恢復相當於傷害量[points(1,2)]%的生命力。",136233,1,0,0,0
 2510,傲慢,"你受到的傷害提高[abs(abilityStateMod( 24, 185 ))]%。",1390945,5,0,530,3
 2511,傲慢,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
 
@@ -3771,3 +3776,13 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 
 每一波刺客會造成[FormatDamage(SimpleDamage(1,2))]點[School()]傷害。",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,風怒,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
+
+以呼嘯的狂風之力攻擊敵人兩次。
+
+每一次攻擊造成[FormatDamage(SimpleDamage(1,1))]點[School()]傷害。",132845,6,0,0,0
+2518,秘法反擊,"[StandardAccuracy(1,1)]|cffffffff命中機率|r
+
+造成[StandardDamage(1,1)]點[School()]傷害。
+
+如果使用者的生命力低於目標，則造成[StandardDamage(1,2)]點額外傷害。",429382,5,0,0,0

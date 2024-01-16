@@ -3428,7 +3428,7 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 2378,빛줄기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다. 모든 아군의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",525026,5,4,0,0
-2379,소용돌이치는 지식,다음 두 번의 공격을 막습니다. 하지만 시전자가 연구에 골몰하게 되어 1라운드 동안 자리에 고정됩니다.,134917,5,0,1179,2
+2379,소용돌이치는 지식 - 오라,다음 두 번의 공격을 막습니다. 하지만 시전자가 연구에 골몰하게 되어 1라운드 동안 자리에 고정됩니다.,134917,5,0,1179,2
 2380,잠시 내 말 좀 들어보게나,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 [duration(1,1)]라운드 동안 대상을 잠에 빠뜨립니다.",458721,5,5,0,2
@@ -3761,6 +3761,11 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 적에게 번개 폭풍을 내뿜어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.
 
 날씨가 번개 폭풍일 때는 한 번 더 공격하여 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",236392,6,0,0,0
+2509,생명력 착취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+생명 그 자체의 힘을 조종하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,2)]%만큼 자신의 생명력을 회복합니다.",136233,1,0,0,0
 2510,오만,"받는 피해가 [abs(abilityStateMod( 24, 185 ))]%만큼 증가합니다.",1390945,5,0,530,3
 2511,오만,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
@@ -3778,3 +3783,13 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 
 각 암살자 공세는 [FormatDamage(SimpleDamage(1,2))]의 [School()] 피해를 입힙니다.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
+2515,질풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+울부짖는 강풍의 힘으로 적을 두 번 가격합니다.
+
+적중할 때마다 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입힙니다.",132845,6,0,0,0
+2518,비전의 반격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+애완동물의 생명력이 대상보다 낮으면 추가로 [StandardDamage(1,2)]의 피해를 입힙니다.",429382,5,0,0,0
