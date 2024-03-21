@@ -2222,7 +2222,7 @@ Lasts [numTurns()] |4round:rounds;.",0,1,0,0,0
 Призывает псов-помощников, которые наносят [FormatDamage(SimpleDamage(1,2)*3)] ед. |3-9([School()]), а также увеличивают получаемый целью урон на [abs(abilityStateMod( 24, 542 ))]% на [duration(1, 4)] |4раунд:раунда:раундов;.",132266,7,3,0,0
 1119,Праведное воодушевление,Урон и скорость увеличены на 100%.,135971,-1,0,813,2
 1120,Ослабление атаки,"Урон от следующей атаки будет снижен на [abs(abilityStateMod( 23, 1120 ))]%.",653219,-1,0,334,3
-1121,Бросок монетки,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+1121,Приоритет по жадности,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
 Наносит [StandardDamage(1,1)] ед. |3-9([School()]) и заставляет противника страдать от жадности в течение 3 раундов.
 
@@ -3772,9 +3772,9 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 
 Гневиончик насылает на противника два отряда убийц.
 
-Гневиончик наносит [FormatDamage(SimpleDamage(1,1))] [School()] ед. урона.
+Гневиончик наносит [FormatDamage(SimpleDamage(1,1))] ед. |3-9([School()]).
 
-Каждый отряд ассасинов наносит по [FormatDamage(SimpleDamage(1,2))] [School()] ед. урона.",458726,0,0,0,0
+Каждый отряд убийц наносит по [FormatDamage(SimpleDamage(1,2))] ед. |3-9([School()]).",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
 2515,Неистовство ветра,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
 
@@ -3786,3 +3786,11 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 Наносит [StandardDamage(1,1)] ед. |3-9([School()]).
 
 Наносит еще [StandardDamage(1,2)] ед. урона, если здоровье у атакующего ниже, чем у цели.",429382,5,0,0,0
+2519,Взрыв пузыря,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+
+Устремляется к противнику в потоке пузырей, нанося [StandardDamage(1,1)] ед. |3-9([School()]).
+
+Эта способность всегда используется первой.",132852,8,1,0,0
+2520,Блеск,"|cffffffffВероятность попадания: [StandardAccuracy(1,1)]|r
+
+Поражает противников сияющей сферой, наносящей [StandardDamage(1,1)] ед. |3-9([School()]), |cff9933FFослепляя|r цель и снижая ее меткость на [abs(abilityStateMod( 41 , 462 ))]% на [duration(1,2)] |4раунд:раунда:раундов;.",133836,0,4,0,0

@@ -2234,7 +2234,7 @@ Déclenche une Avalanche sur vos adversaires, leur infligeant [StandardDamage(1,
 Appelle des renforts canins qui infligent [FormatDamage(SimpleDamage(1,2)*3)] points de dégâts [School()] et augmentent les dégâts subis de [abs(abilityStateMod( 24, 542 ))]% pendant [duration(1, 4)] |4tour:tours;.",132266,7,3,0,0
 1119,Inspiration vertueuse,Dégâts et vitesse augmentés de 100%.,135971,-1,0,813,2
 1120,Réduction de l’attaque,"Les dégâts infligés sont réduits de [abs(abilityStateMod( 23, 1120 ))]% pour la prochaine attaque.",653219,-1,0,334,3
-1121,Jet de pièce,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+1121,Appât du gain,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] points de dégâts [School()] et rend la cible cupide pendant 3 tours.
 
@@ -3779,13 +3779,13 @@ Inflige [StandardDamage(1, 1)] points de dégâts [School()] mais augmente les 
 2512,Âge de glace,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] points de dégâts [School()] et a 25 % de chances d’étourdir la cible.",4226156,6,5,0,0
-2513,Ruée de Ravenholdt,"[StandardAccuracy(1,1)] |cffffffffChances de toucher|r
+2513,Ruée de Ravenholdt,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 P’tit Irion lance 2 vagues d’assassins pour détruire son ennemi.
 
-P’tit Irion inflige [FormatDamage(SimpleDamage(1,1))] points de dégâts |2[School()].
+P’tit Irion inflige [FormatDamage(SimpleDamage(1,1))] points de dégâts [School()].
 
-Chaque vague d’assassins inflige [FormatDamage(SimpleDamage(1,2))] points de dégâts |2[School()].",458726,0,0,0,0
+Chaque vague d’assassins inflige [FormatDamage(SimpleDamage(1,2))] points de dégâts [School()].",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
 2515,Furie des vents,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
@@ -3797,3 +3797,11 @@ Chaque coup inflige [FormatDamage(SimpleDamage(1,1))] points de dégâts [Schoo
 Inflige [StandardDamage(1,1)] points de dégâts [School()].
 
 Inflige [StandardDamage(1,2)] points de dégâts supplémentaires si le lanceur ou la lanceuse dispose de moins de points de vie que la cible.",429382,5,0,0,0
+2519,Tir de bulles,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Fonce sur l’adversaire au milieu d’une projection de bulles et inflige [StandardDamage(1,1)] |4point:points; de dégâts [School()]. 
+
+Cette attaque passe toujours en premier.",132852,8,1,0,0
+2520,Éblouissement,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Éblouit vos adversaires avec une balle scintillante. Inflige [StandardDamage(1,1)] |4point:points; de dégâts [School()] et |cff9933FFaveugle|r la cible, réduisant ses chances de toucher de [abs(abilityStateMod( 41 , 462 ))] % pendant [duration(1,2)] |4tour:tours;.",133836,0,4,0,0

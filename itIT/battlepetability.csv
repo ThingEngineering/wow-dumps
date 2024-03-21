@@ -2228,7 +2228,7 @@ Scatena una slavina contro tutti i nemici, infliggendo [StandardDamage(1,1)] dan
 Richiama dei cani in aiuto, infliggendo al nemico [FormatDamage(SimpleDamage(1,2)*3)] danni [School()] e aumentandone i danni subiti del [abs(abilityStateMod( 24, 542 ))]% per [duration(1, 4)] |4turno:turni;.",132266,7,3,0,0
 1119,Ispirazione Virtuosa,Velocità e danni inflitti aumentati del 100%.,135971,-1,0,813,2
 1120,Riduzione d'Attacco,"Danni inflitti dal successivo attacco ridotti del [abs(abilityStateMod( 23, 1120 ))]%.",653219,-1,0,334,3
-1121,Lancio della Moneta,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+1121,Bramosia Prima di Necessità,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Infligge [StandardDamage(1,1)] danni [School()] e rende la mascotte avversaria avida per 3 turni.
 
@@ -3786,3 +3786,11 @@ Ogni colpo infligge [FormatDamage(SimpleDamage(1,1))] danni [School()].",132845,
 Infligge [StandardDamage(1,1)] danni [School()].
 
 Infligge [StandardDamage(1,2)] danni aggiuntivi se la mascotte ha salute inferiore a quella del bersaglio.",429382,5,0,0,0
+2519,Detonazione di Bolle,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+La mascotte scatta verso il nemico in un'esplosione di bolle, infliggendo [StandardDamage(1,1)] danni [School()]. 
+
+Questa abilità attacca sempre per prima.",132852,8,1,0,0
+2520,Bagliore,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Confonde i bersagli con una sfera luminosa. Infligge [StandardDamage(1,1)] danni [School()] e rende la mascotte avversaria |cff9933FFAccecata|r, riducendone la probabilità d'impatto del [abs(abilityStateMod( 41 , 462 ))]% per [duration(1,2)] |4turno:turni;.",133836,0,4,0,0

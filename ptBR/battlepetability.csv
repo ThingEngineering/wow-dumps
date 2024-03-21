@@ -2227,7 +2227,7 @@ Convoca um Avalanche sobre os inimigos, causando [StandardDamage(1,1)] de dano t
 Convoca ajuda canina, causando[FormatDamage(SimpleDamage(1,2)*3)] de dano tipo [School()] e aumentando o dano recebido em [abs(abilityStateMod( 24, 542 ))]% por [duration(1, 4)] |4rodada:rodadas;.",132266,7,3,0,0
 1119,Inspiração Íntegra,Velocidade e dano aumentados em 100%.,135971,-1,0,813,2
 1120,Redução de Ataque,"O dano causado pelo seu próximo ataque será reduzido em [abs(abilityStateMod( 23, 1120 ))]%.",653219,-1,0,334,3
-1121,Jogar Moeda,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+1121,Ganância Antes de Necessidade,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Causa [StandardDamage(1,1)] de dano tipo [School()] e deixa o alvo ganancioso por 3 rodadas.
 
@@ -3777,7 +3777,7 @@ Causa [StandardDamage(1,1)] de dano tipo [School()] e tem 25% de chance de atord
 
 Wrathionzinho lidera 2 ondas de assassinos para destruir o inimigo.
 
-Wrathionzinho causa [FormatDamage(SimpleDamage(1,1))] [School()] de dano
+Wrathionzinho causa [FormatDamage(SimpleDamage(1,1))] [School()] de dano.
 
 Cada onda de assassinos causa [FormatDamage(SimpleDamage(1,2))] [School()] de dano.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
@@ -3791,3 +3791,11 @@ Cada acerto causa [FormatDamage(SimpleDamage(1,1))] de dano tipo [School()].",13
 Causa [StandardDamage(1,1)] de dano tipo [School()]. 
 
 Causa [StandardDamage(1,2)] de dano adicional quando o lançador tem menos pontos de vida que o alvo.",429382,5,0,0,0
+2519,Impacto de Bolhas,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Investe contra o inimigo em uma explosão de bolhas, causando [StandardDamage(1,1)] de dano tipo [School()]. 
+
+Esse movimento sempre tem prioridade.",132852,8,1,0,0
+2520,Ofuscamento,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Ofusca os inimigos com uma esfera faiscante. Causa [StandardDamage(1,1)] de dano tipo [School()] e |cff9933FFCega|r o alvo, reduzindo em [abs(abilityStateMod( 41 , 462 ))]% sua chance de acerto durante [duration(1,2)] |4rodada:rodadas;.",133836,0,4,0,0

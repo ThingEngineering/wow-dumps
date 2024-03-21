@@ -1194,7 +1194,7 @@ Los oponentes golpeados por la bandada reciben un [abs(abilityStateMod( 24, 542 
 El bonus se reduce cada vez que infliges daño.",648206,-1,0,0,2
 584,Espíritu invernal,"Dispara una ráfaga de aire frío, lo que inflige [StandardDamage(1,1)] p. de daño de [School()].",135833,6,0,0,0
 585,Ovación festiva,"Inflige [StandardDamage(1,1)] p. de daño de [School()] y aumenta tu velocidad un [abs(abilityStateMod(25,161))]% durante 4 |4ronda:rondas;.",574615,0,0,0,0
-586,Regalo de Festival de Invierno,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+586,Obsequio del Festival de Invierno,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] p. de daño de [School()] al enemigo.",133202,5,5,0,0
 588,Devastar,"Vuela alto y se vuelve imposible de atacar durante un turno.
@@ -2229,7 +2229,7 @@ Provoca una avalancha que cae sobre tus enemigos, lo que inflige [StandardDamage
 Pide ayuda canina, lo que inflige [FormatDamage(SimpleDamage(1,2)*3)] p. de daño de [School()] y aumenta el daño recibido un [abs(abilityStateMod( 24, 542 ))]% durante [duration(1, 4)] |4ronda:rondas;.",132266,7,3,0,0
 1119,Inspiración justa,Daño y velocidad aumentados un 100%.,135971,-1,0,813,2
 1120,Reducción de ataque,"El daño infligido de tu siguiente ataque se ha reducido un [abs(abilityStateMod( 23, 1120 ))]%.",653219,-1,0,334,3
-1121,Tirar monedas,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+1121,Más codicia que necesidad,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Inflige [StandardDamage(1,1)] p. de daño de [School()] y la codicia se apodera del objetivo durante 3 rondas.
 
@@ -3793,3 +3793,11 @@ Cada golpe inflige [FormatDamage(SimpleDamage(1,1))] [School()] p. de daño.",13
 Inflige [StandardDamage(1,1)] p. de daño de [School()]. 
 
 Inflige [StandardDamage(1,2)] p. de daño extra si el usuario tiene menos salud que el objetivo.",429382,5,0,0,0
+2519,Explosión de burbujas,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Se abalanza sobre el enemigo en una explosión de burbujas que inflige [StandardDamage(1,1)] p. de daño de [School()].
+
+Este movimiento siempre va en primer lugar.",132852,8,1,0,0
+2520,Fulgor,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Deslumbra a tus enemigos con una bola luminosa. Inflige [StandardDamage(1,1)] p. de daño de [School()] y |cff9933FFciega|r al objetivo, lo que reduce un [abs(abilityStateMod( 41 , 462 ))]% su precisión durante [duration(1,2)] |4ronda:rondas;.",133836,0,4,0,0

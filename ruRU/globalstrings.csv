@@ -73,17 +73,17 @@ ID,BaseTag,TagText_lang,Flags
 9676,BANKSLOTPURCHASE,Приобрести,1
 9677,ADD_FRIEND,Добавить в друзья,3
 9678,ADD_IGNORE_LABEL,"Введите имя игрока, которого вы хотите игнорировать, \nили\nщелкните мышью при нажатом Shift по его имени в окне чата:",1
-9679,REMOVE_FRIEND,Удалить,1
-9680,GROUP_INVITE,Пригласить,1
+9679,REMOVE_FRIEND,Удалить,3
+9680,GROUP_INVITE,Пригласить,3
 9681,SEND_MESSAGE,Сообщение,3
 9682,FRIENDS,Друзья,3
-9683,FRIENDS_LIST,Список друзей,1
+9683,FRIENDS_LIST,Список друзей,3
 9684,IGNORE,Черный список,3
-9685,IGNORE_PLAYER,Добавить,1
+9685,IGNORE_PLAYER,Добавить,3
 9686,GROUPS,Группы,1
 9687,WHO,Кто,1
-9688,FRIENDS_LIST_TEMPLATE,|cffffffff- %s|r %s,1
-9689,FRIENDS_LEVEL_TEMPLATE,|3-6(%2$s) %1$d-го уровня,1
+9688,FRIENDS_LIST_TEMPLATE,|cffffffff- %s|r %s,3
+9689,FRIENDS_LEVEL_TEMPLATE,|3-6(%2$s) %1$d-го уровня,3
 9690,ITEM_BIND_ON_EQUIP,Становится персональным при надевании,5
 9691,ITEM_BIND_ON_USE,Становится персональным при использовании,5
 9692,ITEM_BIND_QUEST,Требуется для задания,5
@@ -121,7 +121,7 @@ ID,BaseTag,TagText_lang,Flags
 9724,JOINED_PARTY,%s вступает в группу.,1
 9725,LEFT_PARTY,%s покидает группу.,1
 9726,NOT_IN_GROUP,Вы больше не состоите в группе.,1
-9727,PARTY_INVITE,Пригласить в группу,1
+9727,PARTY_INVITE,Пригласить в группу,3
 9728,PARTY_LEAVE,Покинуть группу,1
 9729,PARTY_PROMOTE,Сделать лидером,1
 9730,PARTY_UNINVITE,Исключить,1
@@ -166,7 +166,7 @@ ID,BaseTag,TagText_lang,Flags
 9786,RACE_CLASS_ONLY,Доступно только для: %s.,5
 9787,SKILL_RANK_UP,|3-6(%s) повышается до %d.,1
 9788,ABILITIES,Способности,5
-9789,ACCEPT,Принять,5
+9789,ACCEPT,Принять,7
 9790,ARMOR,Броня,7
 9791,CANCEL,Отмена,7
 9792,CHARACTER,Персонаж,3
@@ -198,7 +198,7 @@ ID,BaseTag,TagText_lang,Flags
 9818,SPEED,Скорость,7
 9819,SPELLBOOK,Способности,1
 9820,SPELLS,Заклинания,1
-9821,UNKNOWN,Неизвестно,1
+9821,UNKNOWN,Неизвестно,3
 9822,XP,Опыт,5
 9823,HP,HP,1
 9824,MP,ОМ,1
@@ -297,24 +297,24 @@ ID,BaseTag,TagText_lang,Flags
 9936,CHAT_GUILD_PROMOTE_SEND,Произвести,1
 9937,CHAT_GUILD_DEMOTE_SEND,Разжаловать,1
 9938,CHAT_GUILD_LEADER_SEND,Назначить главой гильдии:,1
-9939,CHAT_INVITE_SEND,Пригласить в группу,1
+9939,CHAT_INVITE_SEND,Пригласить в группу,3
 9940,CHAT_MONSTER_SAY_GET,%s говорит:\32,1
 9941,CHAT_MONSTER_EMOTE_GET,,1
 9942,CHAT_OFFICER_GET,|Hchannel:OFFICER|h[Офицер]|h %s:\32,1
 9943,CHAT_OFFICER_SEND,Офицер:\32,1
-9944,CHAT_PARTY_SEND,Группа:\32,1
-9945,CHAT_PROMOTE_SEND,Произвести,1
+9944,CHAT_PARTY_SEND,Группа:\32,3
+9945,CHAT_PROMOTE_SEND,Произвести,3
 9946,CHAT_SAY_GET,%s говорит:\32,1
-9947,CHAT_SAY_SEND,Сказать:\32,1
-9948,CHAT_UNINVITE_SEND,Исключить,1
+9947,CHAT_SAY_SEND,Сказать:\32,3
+9948,CHAT_UNINVITE_SEND,Исключить,3
 9949,CHAT_WHISPER_INFORM_GET,Вы шепчете |3-2(%s):\32,1
 9950,CHAT_WHISPER_GET,%s шепчет:\32,1
-9951,CHAT_WHISPER_SEND,Шепнуть |3-2(%s):\32,1
+9951,CHAT_WHISPER_SEND,Шепнуть |3-2(%s):\32,3
 9952,CHAT_YELL_SEND,Крикнуть:\32,1
 9953,CHAT_CHANNEL_LEAVE_GET,%s покидает канал.,1
-9954,CHAT_YOU_LEFT_NOTICE,Вы покинули канал |Hchannel:%d|h[%s]|h.,1
+9954,CHAT_YOU_LEFT_NOTICE,Вы покинули канал |Hchannel:%d|h[%s]|h.,3
 9955,CHAT_CHANNEL_GET,%s:\32,1
-9956,CHAT_CHANNEL_SEND,[%d. %s]:\32,1
+9956,CHAT_CHANNEL_SEND,[%d. %s]:\32,3
 9957,CHAT_CHANNEL_LIST_GET,|Hchannel:CHANNEL:%d|h[%s]|h\32,1
 9958,CHAT_NOT_MODERATOR_NOTICE,Не модератор канала |Hchannel:%d|h[%s]|h.,1
 9959,CHAT_PASSWORD_CHANGED_NOTICE,|Hchannel:%d|h[%s]|h %s изменяет пароль.,1
@@ -333,10 +333,10 @@ ID,BaseTag,TagText_lang,Flags
 9972,CHAT_IGNORED,%s игнорирует вас.,1
 9973,EMOTE_MESSAGE,Эмоция,1
 9974,GUILD_MESSAGE,Канал гильдии,1
-9975,PARTY_MESSAGE,Канал группы,1
-9976,REPLY_MESSAGE,Ответить,1
+9975,PARTY_MESSAGE,Канал группы,3
+9976,REPLY_MESSAGE,Ответить,3
 9977,SAY_MESSAGE,Сказать,1
-9978,WHISPER_MESSAGE,Шепот,1
+9978,WHISPER_MESSAGE,Шепот,3
 9979,SLASH_ASSIST1,/п,1
 9980,SLASH_EMOTE1,/э,1
 9981,SLASH_EMOTE2,/эм,1
@@ -369,12 +369,12 @@ ID,BaseTag,TagText_lang,Flags
 10009,SLASH_INVITE2,/пригласить,1
 10010,SLASH_OFFICER1,/оф,1
 10011,SLASH_OFFICER2,/офсказать,1
-10012,SLASH_PARTY1,/гр,1
-10013,SLASH_PARTY2,/группа,1
+10012,SLASH_PARTY1,/гр,3
+10013,SLASH_PARTY2,/группа,3
 10014,SLASH_PLAYED1,/времяигры,1
 10015,SLASH_PROMOTE1,/pr,1
 10016,SLASH_PROMOTE2,/произвести,1
-10017,SLASH_REPLY1,/о,1
+10017,SLASH_REPLY1,/о,3
 10018,SLASH_SAY1,/с,1
 10019,SLASH_TIME1,/время,1
 10020,SLASH_TRADE2,/торг,1
@@ -474,10 +474,10 @@ ID,BaseTag,TagText_lang,Flags
 10134,TRADE_SKILLS,Профессии,1
 10135,HELP_TEXT_LINE12,- r или /о – ответить на последнее сообщение,1
 10136,HELP_TEXT_LINE13,- /кто – получить список игроков,1
-10137,CHAT_HELP_TEXT_LINE2,"/<цифра>, /c, /csay (/ксказать) – отправить текстовое сообщение в канал <номер> (напр., /1 Привет!)",1
-10138,CHAT_HELP_TEXT_LINE4,"/join (/войти), /channel (/канал), /chan (/кан) – войти в канал",1
-10139,CHAT_HELP_TEXT_LINE8,/owner (/владелец) <канал> [игрок] – узнать имя нынешнего владельца канала или назначить нового,1
-10140,CHAT_HELP_TEXT_LINE9,"/mod, /moderator (/модератор), /unmod (/немодер), /unmoderator (/немодератор) <канал> <игрок> – изменить статус смотрителя канала для указанного игрока",1
+10137,CHAT_HELP_TEXT_LINE2,"/<цифра>, /c, /csay (/ксказать) – отправить текстовое сообщение в канал <номер> (напр., /1 Привет!)",3
+10138,CHAT_HELP_TEXT_LINE4,"/join (/войти), /channel (/канал), /chan (/кан) – войти в канал",3
+10139,CHAT_HELP_TEXT_LINE8,/owner (/владелец) <канал> [игрок] – узнать имя нынешнего владельца канала или назначить нового,3
+10140,CHAT_HELP_TEXT_LINE9,"/mod, /moderator (/модератор), /unmod (/немодер), /unmoderator (/немодератор) <канал> <игрок> – изменить статус смотрителя канала для указанного игрока",3
 10141,GUILD_HELP_TEXT_LINE1,"А теперь, чтобы создать гильдию, наберите ""guildcreate <название гильдии>"".",1
 10142,GUILD_HELP_TEXT_LINE4,/оф <текст сообщения> – отправить сообщение всем офицерам вашей гильдии,1
 10143,GUILD_HELP_TEXT_LINE5,/гпригласить <имя игрока> – пригласить указанного игрока в вашу гильдию,1
@@ -552,7 +552,7 @@ ID,BaseTag,TagText_lang,Flags
 10268,ITEM_LEVEL_AND_MIN,Уровень: %d (минимум: %d),1
 10270,ASSIST_ATTACK,Автоматическая помощь,1
 10271,SPELL_TARGET_TYPE15_DESC,мастер,1
-10272,ERR_FRIEND_WRONG_FACTION,Друзья должны быть вашими союзниками.,1
+10272,ERR_FRIEND_WRONG_FACTION,Друзья должны быть вашими союзниками.,3
 10273,SPELL_POINTS_SPREAD_TEMPLATE,%.1f - %.1f,1
 10277,TRAINER_LIST_SP,Очки навыков: %d,1
 10278,SPELL_USE_ALL_MANA,Требуется 100% маны,1
@@ -613,7 +613,7 @@ ID,BaseTag,TagText_lang,Flags
 10335,ERR_NEW_LEADER_YOU,Теперь вы лидер группы.,1
 10336,ERR_LEFT_GROUP_YOU,Вы покидаете группу.,1
 10337,SLASH_UNINVITE4,/отмприглашение,1
-10338,SLASH_SMART_WHISPER1,/ш,1
+10338,SLASH_SMART_WHISPER1,/ш,3
 10339,SLASH_SMART_WHISPER3,/ш,1
 10340,SLASH_SMART_WHISPER4,/шепнуть,1
 10341,SLASH_SMART_WHISPER5,/отослать,1
@@ -655,8 +655,8 @@ ID,BaseTag,TagText_lang,Flags
 10381,SLASH_CHAT_DND1,/dnd,1
 10382,SLASH_WHO1,/кто,1
 10383,SLASH_COMBATLOG1,/журналбоя,1
-10384,SLASH_FRIENDS1,/друзья,1
-10385,SLASH_FRIENDS2,/друг,1
+10384,SLASH_FRIENDS1,/друзья,3
+10385,SLASH_FRIENDS2,/друг,3
 10386,SLASH_REMOVEFRIEND1,/удалитьдруга,1
 10387,SLASH_REMOVEFRIEND2,/удлдруга,1
 10388,LAUGH_WORD1,лол,1
@@ -681,7 +681,7 @@ ID,BaseTag,TagText_lang,Flags
 10408,ERR_CANNOTCREATEDIRECTORY,"Невозможно создать папку ""%s"".",1
 10409,ERR_BANKSLOT_NOTBANKER,Это не банкир!,1
 10410,ERR_FRIEND_DB_ERROR,Ошибка при поиске в списке друзей.,1
-10411,ERR_FRIEND_LIST_FULL,В вашем списке нет места для новых друзей.,1
+10411,ERR_FRIEND_LIST_FULL,В вашем списке нет места для новых друзей.,3
 10412,ERR_FRIEND_ONLINE_SS,|Hplayer:%s|h[%s]|h входит в игровой мир.,1
 10413,ERR_FRIEND_NOT_FOUND,Игрок не найден.,1
 10414,ERR_FRIEND_SELF,Нельзя внести себя в список друзей.,1
@@ -1021,7 +1021,7 @@ ID,BaseTag,TagText_lang,Flags
 10812,WHO_TAG_GUILD,g-,1
 10813,WHO_LIST_GUILD_FORMAT,"|Hplayer:%1$s|h[%2$s]|h: |3-6(%4$s), |3-6(%5$s) %3$d-го уровня <%6$s> - %7$s",1
 10814,BLOCK_TRAILER,(заблокировано: %d),1
-10815,RENAME_CHAT_WINDOW,Переименовать окно,1
+10815,RENAME_CHAT_WINDOW,Переименовать окно,3
 10816,SKILL_LEARNING_COST_SINGULAR,Изучение навыка (очков навыков: %s%d|r).,1
 10817,ERR_GUILD_INTERNAL,Внутренняя ошибка гильдии.,1
 10818,ERR_GUILD_LEADER_IS_S,Главой вашей гильдии становится %s.,1
@@ -1506,7 +1506,7 @@ ID,BaseTag,TagText_lang,Flags
 11342,SPELL_FAILED_HIGHLEVEL,Цель слишком высокого уровня.,1
 11343,UNIT_SKINNABLE_LEATHER,Можно снять шкуру,1
 11349,COLOR,Цвет,1
-11350,CHAT_NAME_TEMPLATE,"Чат ""%d""",1
+11350,CHAT_NAME_TEMPLATE,"Чат ""%d""",3
 11351,VOICEMACRO_5_Dw_1_FEMALE,Маны не хватает!,1
 11352,VOICEMACRO_7_Dw_1_FEMALE,Ждите здесь.,1
 11353,VOICEMACRO_10_Dw_1_FEMALE,Огонь!,1
@@ -1617,7 +1617,7 @@ ID,BaseTag,TagText_lang,Flags
 11470,SLASH_SAY3,/s,1
 11471,SLASH_FOLLOW4,/f,1
 11472,SLASH_VOICEMACRO2,/v,1
-11473,CHAT_YOU_CHANGED_NOTICE,Смена канала: |Hchannel:%d|h[%s]|h.,1
+11473,CHAT_YOU_CHANGED_NOTICE,Смена канала: |Hchannel:%d|h[%s]|h.,3
 11474,BUG_CATEGORY1,Классы персонажей,1
 11475,SPELL_FAILED_TOO_MANY_OF_ITEM,У вас уже слишком много подобных предметов.,1
 11476,TUTORIAL_TITLE21,Журнал заданий,1
@@ -1654,7 +1654,7 @@ ID,BaseTag,TagText_lang,Flags
 11509,SLASH_SMART_WHISPER6,/w,1
 11510,SLASH_CHANNEL3,/c,1
 11511,SLASH_MACRO3,/m,1
-11512,BACKGROUND,Фон,1
+11512,BACKGROUND,Фон,3
 11513,EMOTE150_CMD1,/испуг,1
 11514,EMOTE151_CMD1,/суета,1
 11515,EMOTE153_CMD1,/му,1
@@ -1680,7 +1680,7 @@ ID,BaseTag,TagText_lang,Flags
 11535,ERR_MAIL_SENT,Письмо отправлено.,1
 11536,COD_AMOUNT,Сумма наложенного платежа:,1
 11537,BATTLEFIELD_LEVEL,Диапазон уровней:,1
-11538,GENERAL,Общий,1
+11538,GENERAL,Общий,3
 11539,COD_PAYMENT,Наложенный платеж: %s,1
 11541,INVTYPE_SHOULDER,Плечи,5
 11542,INVTYPE_WEAPONMAINHAND,Правая рука,5
@@ -1689,7 +1689,7 @@ ID,BaseTag,TagText_lang,Flags
 11545,NEXT_ABILITY,Следующая способность,1
 11546,SKILLS,Навыки,1
 11547,CHAT_HELP_TEXT_LINE1,Команды общения:,1
-11548,CHAT_HELP_TEXT_LINE10,"/mute (/молчать), /squelch (/заткнуть), /unvoice (/отклголос), /unmute (/говорить), /unsquelch (/вклголос), /voice (/голос) <канал> <игрок> – отключить голос игрока в канале или включить его",1
+11548,CHAT_HELP_TEXT_LINE10,"/mute (/молчать), /squelch (/заткнуть), /unvoice (/отклголос), /unmute (/говорить), /unsquelch (/вклголос), /voice (/голос) <канал> <игрок> – отключить голос игрока в канале или включить его",3
 11549,CHAT_JOIN_HELP,"Введите /войти <канал> [пароль], чтобы создать новый канал или присоединиться к существующему.",1
 11550,GUILD_HELP_TEXT_LINE8,/гразжаловать <имя игрока> – понижает на одно звание указанного игрока из вашей гильдии,1
 11551,STARTUP_TEXT_LINE1,"Введите '/помощь', чтобы получить список основных команд.",1
@@ -1789,10 +1789,10 @@ ID,BaseTag,TagText_lang,Flags
 11662,SLASH_GUILD_UNINVITE3,/gremove,1
 11663,CHAT_UNSET_MODERATOR_NOTICE,|Hchannel:%d|h[%s]|h %s лишается прав модератора.,1
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h %s получает разрешение на общение.,1
-11665,CHAT_HELP_TEXT_LINE11,"/cinvite (/чпригласить), /chatinvite (/чатпригласить) <канал> <игрок> – пригласить игрока присоединиться к каналу",1
-11666,CHAT_HELP_TEXT_LINE12,/ckick (/чвыгнать) <канал> <игрок> – исключить игрока из канала,1
-11667,CHAT_HELP_TEXT_LINE15,/moderate (/фмодератора) <канал> – включить функции модератора канала,1
-11668,CHAT_HELP_TEXT_LINE16,"/away (/отошел), /busy (/занят) – поставить статус ""Отсутствует"" или ""Не беспокоить""",1
+11665,CHAT_HELP_TEXT_LINE11,"/cinvite (/чпригласить), /chatinvite (/чатпригласить) <канал> <игрок> – пригласить игрока присоединиться к каналу",3
+11666,CHAT_HELP_TEXT_LINE12,/ckick (/чвыгнать) <канал> <игрок> – исключить игрока из канала,3
+11667,CHAT_HELP_TEXT_LINE15,/moderate (/фмодератора) <канал> – включить функции модератора канала,3
+11668,CHAT_HELP_TEXT_LINE16,"/away (/отошел), /busy (/занят) – поставить статус ""Отсутствует"" или ""Не беспокоить""",3
 11669,GUILD_HELP_TEXT_LINE2,/ginfo – получение кратких сведений о вашей гильдии,1
 11670,GUILD_HELP_TEXT_LINE6,/гудалить <игрок> – исключает указанного игрока из вашей гильдии,1
 11671,GUILD_HELP_TEXT_LINE7,/гпроизвести <имя игрока> – повышает на одно звание указанного игрока из вашей гильдии,1
@@ -1911,9 +1911,9 @@ ID,BaseTag,TagText_lang,Flags
 11792,RECOVER_CORPSE,Воскреснуть?,1
 11795,WHO_LIST,Список игроков,1
 11796,PREFERENCES,Предпочтения,1
-11797,FONT_SIZE,Размер шрифта,1
+11797,FONT_SIZE,Размер шрифта,3
 11798,EMOTE152_CMD1,/любовь,1
-11799,FONT_SIZE_TEMPLATE,Размер шрифта: %d,1
+11799,FONT_SIZE_TEMPLATE,Размер шрифта: %d,3
 11800,MESSAGE_TYPES,Типы сообщений,1
 11802,REPLACE_ENCHANT,"Хотите ли вы заменить \""%s\"" на \""%s\""?",1
 11803,BUG_CATEGORY5,Интерфейс пользователя,1
@@ -1986,7 +1986,7 @@ ID,BaseTag,TagText_lang,Flags
 11875,COMBAT_MESSAGES,Сообщения во время боя,1
 11881,QUEST_ACCEPT,"%s приступает к заданию ""%s"".\nХотите присоединиться?",1
 11882,TWOHANDEDWEAPONBEINGWIELDED,"Вы не можете достать другое оружие, у вас в руках двуручное оружие!",1
-11884,ADD_FRIEND_LABEL,Введите имя персонажа вашего друга:,1
+11884,ADD_FRIEND_LABEL,Введите имя персонажа вашего друга:,3
 11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s – не в сети|r,3
 11886,ITEM_MIN_LEVEL,Требуется %d-й уровень,5
 11887,ITEM_QUALITY0_DESC,Низкое,5
@@ -2055,7 +2055,7 @@ ID,BaseTag,TagText_lang,Flags
 11960,TRAINER_REQ_LEVEL,|cffffffff%d|r-й уровень,1
 11962,TRAINER_COST_SP_RED,Очки навыков: |cffff2020%d|r,1
 11963,CHAT_GUILD_INVITE_SEND,Пригласить в гильдию:,1
-11964,CHAT_PARTY_GET,|Hchannel:PARTY|h[Группа]|h %s:\32,1
+11964,CHAT_PARTY_GET,|Hchannel:PARTY|h[Группа]|h %s:\32,3
 11965,CHAT_NOT_OWNER_NOTICE,|Hchannel:%d|h[%s]|h Вы не являетесь владельцем канала.,1
 11966,CHAT_INVITE_WRONG_FACTION_NOTICE,%s: цель относится к неподходящей фракции.,1
 11967,SLASH_GUILD_INVITE2,/гильдияпригласить,1
@@ -2145,7 +2145,7 @@ ID,BaseTag,TagText_lang,Flags
 12057,ENABLE_AMBIENCE,Фоновые звуки,3
 12058,TUTORIAL_TITLE18,Создание групп,1
 12059,ERR_ZONE_EXPLORED_XP,Открыта новая территория: %s. Получено %d |4очко:очка:очков; опыта.,1
-12060,CHAT_HELP_TEXT_LINE14,"/announce (/объявления), /ann <канал> – включить или отключить объявления в чате",1
+12060,CHAT_HELP_TEXT_LINE14,"/announce (/объявления), /ann <канал> – включить или отключить объявления в чате",3
 12061,SPELL_FAILED_ONLY_OUTDOORS,Можно использовать только под открытым небом.,1
 12064,SPELL_TOTEMS,Инструменты:\32,1
 12065,SPELL_TARGET_CREATURE_TYPE_DEAD13_DESC,%s: мертвый противник,1
@@ -2178,7 +2178,7 @@ ID,BaseTag,TagText_lang,Flags
 12094,MARKED_AFK,Вы временно отсутствуете.,1
 12095,EMBLEM_BORDER_COLOR,Цвет каймы,1
 12096,ERR_GUILDEMBLEM_COLORSPRESENT,У вашей гильдии уже есть герб!,1
-12097,ERR_GUILD_NOT_ALLIED,Из противоположной фракции можно приглашать только ваших друзей в Battle.net.,1
+12097,ERR_GUILD_NOT_ALLIED,Из противоположной фракции можно приглашать только ваших друзей в Battle.net.,3
 12098,VOICEMACRO_4_Dw_0_FEMALE,"За мной, в атаку!",1
 12099,VOICEMACRO_8_Dw_1_FEMALE,Вылечите мои раны!,1
 12100,VOICEMACRO_5_Ni_0,Мана заканчивается!,1
@@ -2258,7 +2258,7 @@ ID,BaseTag,TagText_lang,Flags
 12182,ENABLE_ERROR_SPEECH,Сообщения об ошибках,3
 12183,TUTORIAL2,"Вы можете передвигаться при помощи клавиш A, S, D и W.",1
 12184,TUTORIAL6,"Многие способности являются ударами, наносимыми оружием, или боевыми заклинаниями.|n|nНа панели команд можно найти защитные способности или даже исцеляющие заклинания, если они доступны вашему классу.",1
-12185,CHAT_HELP_TEXT_LINE5,"/leave (/уйти), /chatleave (/чуйти), /chatexit (/чвыйти) [канал] – покинуть канал (или все каналы)",1
+12185,CHAT_HELP_TEXT_LINE5,"/leave (/уйти), /chatleave (/чуйти), /chatexit (/чвыйти) [канал] – покинуть канал (или все каналы)",3
 12186,GUILD_HELP_TEXT_LINE10,/гвыйти – выводит вас из вашей гильдии,1
 12187,SPELL_FAILED_OUT_OF_RANGE,Вне зоны действия.,1
 12188,SPELL_FAILED_TOTEMS,Требуется: %s,1
@@ -2408,7 +2408,7 @@ ID,BaseTag,TagText_lang,Flags
 12365,SENDMAIL_TEXT,Добавьте сюда предмет и/или деньги,1
 12366,COOLDOWN_REMAINING,Времени до восстановления:,1
 12367,STAMINA_COLON,Выносливость:,1
-12368,CHAT_HELP_TEXT_LINE13,"/ban (/блок), /unban (/разблокировать) <канал> <игрок> – добавление указанного игрока в черный список канала или удаление его из этого списка",1
+12368,CHAT_HELP_TEXT_LINE13,"/ban (/блок), /unban (/разблокировать) <канал> <игрок> – добавление указанного игрока в черный список канала или удаление его из этого списка",3
 12369,TUTORIAL_TITLE19,Игроки,1
 12371,CONTESTED_TERRITORY,(Оспариваемая территория),1
 12372,SLASH_GUILD_INFO4,/guildinfo,1
@@ -2473,7 +2473,7 @@ ID,BaseTag,TagText_lang,Flags
 12439,REMOVE_GUILDMEMBER_LABEL,"Вы уверены, что хотите исключить |3-3(%s) из гильдии?",5
 12441,TALENTS,Таланты,5
 12445,SLASH_SMART_WHISPER8,/t,1
-12446,SLASH_SMART_WHISPER10,/send,1
+12446,SLASH_SMART_WHISPER10,/send,3
 12447,SLASH_CHAT_PASSWORD5,/пар,1
 12448,SLASH_REMOVEFRIEND3,/removefriend,1
 12449,SLASH_IGNORE2,/ignore,1
@@ -2556,8 +2556,8 @@ ID,BaseTag,TagText_lang,Flags
 12530,SLASH_CHAT_CINVITE4,/chatinvite,1
 12531,SLASH_WHO2,/who,1
 12532,SLASH_COMBATLOG2,/combatlog,1
-12533,SLASH_FRIENDS3,/friends,1
-12534,SLASH_FRIENDS4,/friend,1
+12533,SLASH_FRIENDS3,/friends,3
+12534,SLASH_FRIENDS4,/friend,3
 12535,SLASH_REMOVEFRIEND4,/remfriend,1
 12536,EMOTE3_CMD3,/angry,1
 12537,EMOTE5_CMD5,/bravo,1
@@ -2613,7 +2613,7 @@ ID,BaseTag,TagText_lang,Flags
 12593,PROFICIENCY_NEEDED,"Вам не хватает мастерства, чтобы использовать этот предмет.",1
 12595,TWO_HANDED,Двуручное оружие,1
 12596,CHAT_MONSTER_YELL_GET,%s кричит:\32,1
-12597,CHAT_YOU_JOINED_NOTICE,Вы присоединились к каналу |Hchannel:%d|h[%s]|h.,1
+12597,CHAT_YOU_JOINED_NOTICE,Вы присоединились к каналу |Hchannel:%d|h[%s]|h.,3
 12604,SPELL_ON_NEXT_SWING,Следующая атака,1
 12605,SPELL_DURATION,Время действия: %s,1
 12606,SPELL_TARGET_TYPE0_DESC,заклинатель,1
@@ -2682,10 +2682,10 @@ ID,BaseTag,TagText_lang,Flags
 12673,ERR_LOOT_WHILE_INVULNERABLE,"Нельзя забрать добычу, пока вы неуязвимы.",1
 12674,LOCK_WINDOW,Зафиксировать окно,1
 12675,UNLOCK_WINDOW,Разблокировать окно,1
-12676,NEW_CHAT_WINDOW,Создать новое окно,1
+12676,NEW_CHAT_WINDOW,Создать новое окно,3
 12677,CLOSE_CHAT_WINDOW,Закрыть окно чата,1
 12678,DISPLAY,Графика,3
-12679,FILTERS,Фильтры,5
+12679,FILTERS,Фильтры,7
 12680,OTHER_MESSAGES,Другие сообщения:,1
 12681,ERR_AUCTION_QUEST_ITEM,"Нельзя продать предмет, необходимый для задания.",1
 12682,ERR_AUCTION_BOUND_ITEM,Нельзя продать персональный предмет.,5
@@ -2702,8 +2702,8 @@ ID,BaseTag,TagText_lang,Flags
 12696,ERR_USE_LOCKED,Заперто.,1
 12697,ERR_SET_LOOT_MASTER,"Разделение добычи производится по системе ""Ответственный за добычу"".",1
 12698,ERR_BANKSLOT_INSUFFICIENT_FUNDS,У вас недостаточно средств.,1
-12699,ERR_FRIEND_ADDED_S,Вы добавили |3-3(%s) в список друзей.,1
-12700,ERR_FRIEND_REMOVED_S,Вы удалили |3-3(%s) из списка друзей.,1
+12699,ERR_FRIEND_ADDED_S,Вы добавили |3-3(%s) в список друзей.,3
+12700,ERR_FRIEND_REMOVED_S,Вы удалили |3-3(%s) из списка друзей.,3
 12701,ERR_FRIEND_ALREADY_S,%s уже есть в вашем списке друзей.,1
 12708,ERR_WRONG_BAG_TYPE_SUBCLASS,Сюда можно положить только |3-6(%s).,1
 12713,ITEM_COOLDOWN_TIME_SEC,Времени до восстановления: %d сек.,1
@@ -2876,8 +2876,8 @@ ID,BaseTag,TagText_lang,Flags
 12981,ERR_AUCTION_WRAPPED_ITEM,Упакованные предметы нельзя выставить на аукцион.,1
 12982,AMMOSLOT,Боеприпасы,1
 12983,ERR_AUCTION_LOOT_ITEM,Невзятые предметы невозможно выставлять на аукцион.,1
-12984,CHAT_MSG_WHISPER,Шепот,1
-12985,CHAT_MSG_PARTY,Группа,1
+12984,CHAT_MSG_WHISPER,Шепот,3
+12985,CHAT_MSG_PARTY,Группа,3
 12986,SPELL_FAILED_FLEEING,Вы в панике и не можете этого сделать.,1
 12987,SPELL_FAILED_CONFUSED,Вы в замешательстве и не можете этого сделать.,1
 12988,ERR_ATTACK_FLEEING,Вы в панике и не можете атаковать.,1
@@ -3011,7 +3011,7 @@ ID,BaseTag,TagText_lang,Flags
 13129,SYSTEM_MESSAGES,Системные сообщения,1
 13130,CHAT_MSG_AFK,Отсутствует,1
 13131,DND,Не беспокоить,1
-13132,CHAT_MSG_GUILD,Гильдия,1
+13132,CHAT_MSG_GUILD,Гильдия,3
 13133,SAY,Речь,1
 13134,WHISPER,Шепот,1
 13136,CHAT_COMBAT_MISC_INFO_GET,,1
@@ -3073,7 +3073,7 @@ ID,BaseTag,TagText_lang,Flags
 13197,TAKE_ATTACHMENTS,Забрать приложения:,1
 13198,ERR_AUCTION_BID_OWN,Вы не можете делать ставки на собственном аукционе.,5
 13199,AUCTION_ITEM_TEXT,"Перенесите предмет сюда, чтобы выставить его на аукцион.",1
-13201,BINDING_NAME_TOGGLEFRIENDSTAB,Друзья,1
+13201,BINDING_NAME_TOGGLEFRIENDSTAB,Друзья,3
 13202,BINDING_NAME_TOGGLEIGNORETAB,Черный список,1
 13203,BINDING_NAME_TOGGLEWHOTAB,Список пользователей,1
 13204,REQUIRED_MONEY,Требующаяся сумма:,1
@@ -3514,7 +3514,7 @@ ID,BaseTag,TagText_lang,Flags
 13668,MACRO_HELP_TEXT_LINE4,"- Чтобы применить заклинание, внесенное в макросы, используйте следующую командную строку: /cast <название заклинания> (<дополнительный текст>)",1
 13669,ERR_QUEST_PUSH_ACCEPTED_S,%1$s принимает ваше задание.,1
 13670,ERR_QUEST_ADD_KILL_SII,%s – убито: %d/%d,1
-13671,CHAT_HELP_TEXT_LINE3,"/chat (/чат), /chathelp (/чпомощь) – просмотр этого текста",1
+13671,CHAT_HELP_TEXT_LINE3,"/chat (/чат), /chathelp (/чпомощь) – просмотр этого текста",3
 13672,EMOTE43_CMD2,/disappointed,1
 13673,EMOTE22_CMD2,/flap,1
 13674,GUILD_HELP_TEXT_LINE3,/г <текст сообщения> – отправить сообщение всем членам вашей гильдии,1
@@ -3527,7 +3527,7 @@ ID,BaseTag,TagText_lang,Flags
 13681,EMOTE114_CMD2,/insult,1
 13682,SLASH_UNINVITE3,/удалить,1
 13683,SLASH_CHAT_PASSWORD2,/pass,1
-13684,CHAT_HELP_TEXT_LINE7,"/password (/пароль), /pass (/пар) <канал> <пароль> – изменить пароль",1
+13684,CHAT_HELP_TEXT_LINE7,"/password (/пароль), /pass (/пар) <канал> <пароль> – изменить пароль",3
 13685,EMOTE71_CMD1,/peer,1
 13686,EMOTE130_CMD4,/pest,1
 13687,EMOTE125_CMD1,/puzzled,1
@@ -3553,7 +3553,7 @@ ID,BaseTag,TagText_lang,Flags
 13711,ERR_ATTACK_PACIFIED,Вы усмирены и не можете атаковать.,1
 13712,NUMBER_OF_RESULTS_TEMPLATE,Предметы: %d – %d (всего: %d),1
 13713,SPELL_FAILED_ITEM_GONE,Предмет исчез.,1
-13714,CHAT_MSG_SYSTEM,Система,1
+13714,CHAT_MSG_SYSTEM,Система,3
 13715,COMBAT_ERROR,Ошибка боя,1
 13716,ITEM_ENCHANT_TIME_LEFT_SEC,%s (%d сек.),1
 13717,INCREASE_POTENTIAL,|cffffffff%s|r: потенциал возрастает до |cffffffff%d|r!,1
@@ -3589,7 +3589,7 @@ ID,BaseTag,TagText_lang,Flags
 13747,OPTION_TOOLTIP_BLOCK_TRADES,Блокировка предложений об обмене.,1
 13748,PROFESSION_CONFIRMATION2,"Вы можете владеть только двумя профессиями одновременно. Хотите ли вы в качестве второй выбрать профессию ""|cffffd200%s|r""?",1
 13749,BINDING_NAME_TARGETNEARESTFRIEND,Цель: ближайший союзник,1
-13750,PARTY,Группа,1
+13750,PARTY,Группа,3
 13751,INT_SPELL_DURATION_HOURS,%d ч,1
 13752,BINDING_NAME_TARGETPREVIOUSFRIEND,Цель: предыдущий союзник,1
 13753,SPELL_DURATION_DAYS,%.1f д,1
@@ -3599,7 +3599,7 @@ ID,BaseTag,TagText_lang,Flags
 13757,VOICEMACRO_15_Dw_0,Нет.,1
 13758,VOICEMACRO_18_Dw_3_FEMALE,Отлично!,1
 13759,VOICEMACRO_20_Dw_0_FEMALE,"Они не настоящие, но все равно спасибо.",1
-13760,CHAT_HELP_TEXT_LINE6,"/chatlist (/списокчата), /chatwho (/чкто), /chatinfo (/чатинфо) [канал] – просмотреть список каналов или пользователей на указанном канале",1
+13760,CHAT_HELP_TEXT_LINE6,"/chatlist (/списокчата), /chatwho (/чкто), /chatinfo (/чатинфо) [канал] – просмотреть список каналов или пользователей на указанном канале",3
 13761,VOICEMACRO_20_Ta_3,"Таурены, знаете ли, рождаются охотниками. Вот вы когда-нибудь видели, как таурен ловит рыбу в ручье? Потрясающее зрелище. А видели таурена, выслеживающего питона? Ну разумеется, не видели. А все потому, что таурены отлично маскируются.",1
 13762,VOICEMACRO_19_Ta_4_FEMALE,"Хотите посмотреть, как я здорово танцую?",1
 13763,VOICEMACRO_20_Ta_1_FEMALE,"Я однажды так смеялась, что весь пол молоком залила!",1
@@ -4237,7 +4237,7 @@ ID,BaseTag,TagText_lang,Flags
 14721,TUTORIAL44,"Вы получили оружие дальнего боя. Чтобы воспользоваться им, сначала возьмите его в руки, открыв |cffffd200рюкзак|r и окно |cffffd200Информация о персонаже|r и перетащив оружие на изображение персонажа.|n|nЗатем откройте окно |cffffd200Заклинания|r и перетащите значок способности |cffffd200Стрельба|r или |cffffd200Бросок|r на панель команд.|n|nОружие дальнего боя могут использовать только охотники, воины и разбойники. Маги, жрецы и чернокнижники могут пользоваться жезлами.",1
 14722,TUTORIAL45,"Невозможно стрелять из луков и ружей, не имея боеприпасов. Чтобы приобрести боеприпасы, зайдите в городе к торговцу луками или ружьями. Чтобы сложить боеприпасы в сумку, щелкните по ним |cffffd200ПКМ|r.",1
 14723,SHOW_IGNORE_LIST,Показывать черный список игроков,1
-14724,SHOW_FRIENDS_LIST,Показывать список друзей,1
+14724,SHOW_FRIENDS_LIST,Показывать список друзей,3
 14737,FILTER,Фильтр,1
 14738,DUEL_COUNTDOWN,До начала поединка: %d,1
 14739,TUTORIAL46,"Вы присоединились к рейдовой группе, имеющей ограничение в 40 участников (хотя обычно в состав рейда могут входить не более 10 или 25 человек). Рейдовые группы необходимы для походов в наиболее опасные подземелья и побед над самыми сильными противниками – обычно на максимальном уровне. |n|n|cffff2020Находясь в рейдовой группе, вы не можете выполнять большинство обычных заданий. Покинуть группу можно, щелкнув ПКМ по портрету вашего персонажа и выбрав соответствующий пункт меню.|r",1
@@ -4589,9 +4589,9 @@ ID,BaseTag,TagText_lang,Flags
 15940,ERR_NOT_WHILE_DISARMED,Вы не можете сделать этого без оружия.,1
 15941,SLASH_CHATLOG2,/журналчата,1
 15942,IGR_BILLING_NAG_DIALOG,"Срок действия вашей учетной записи с фиксированным тарифным планом скоро истечет, и связь будет прервана.",1
-15943,ADDON_LOAD_FAILED,Ошибка загрузки (%s): %s.,1
+15943,ADDON_LOAD_FAILED,Ошибка загрузки (%s): %s.,3
 15944,ADDON_UNKNOWN_ERROR,Неизвестная проблема при загрузке.,1
-15945,ADDON_MISSING,Отсутствует,1
+15945,ADDON_MISSING,Отсутствует,3
 15946,ADDON_DISABLED,Отключено,3
 15947,ADDON_BANNED,Заблокировано,3
 15948,ADDON_CORRUPT,Повреждено,3
@@ -4631,8 +4631,8 @@ ID,BaseTag,TagText_lang,Flags
 15982,LAST_ONLINE_COLON,Последний раз в игре:,5
 15983,NOTE_COLON,Заметка:,5
 15984,OFFICER_NOTE_COLON,Заметка для офицеров:,5
-15985,ADDON_DEMAND_LOADED,Загруж. только по требов.,1
-15986,ADDON_DEP_DEMAND_LOADED,Зависимая модификация загружается только по требованию,1
+15985,ADDON_DEMAND_LOADED,Загруж. только по требов.,3
+15986,ADDON_DEP_DEMAND_LOADED,Зависимая модификация загружается только по требованию,3
 15987,SPELL_FAILED_DAMAGE_IMMUNE,Вы невосприимчивы и не можете этого сделать.,1
 15988,ERR_UNHEALTHY_TIME,"Ваш персонаж устал. Пожалуйста, покиньте игру.",1
 15989,SPELL_FAILED_PREVENTED_BY_MECHANIC,Действие невозможно. Причина: %s.,1
@@ -4788,14 +4788,14 @@ ID,BaseTag,TagText_lang,Flags
 16163,GM_TICKET_UNAVAILABLE,Время ожидания пока неизвестно.,1
 16164,GM_TICKET_HIGH_VOLUME,Сейчас у нас очень большой объем петиций.,1
 16165,GM_TICKET_WAIT_TIME,Среднее время ожидания ответа:\n%s,1
-16166,RAID_TARGET_1,Звезда,1
-16167,RAID_TARGET_2,Круг,1
-16168,RAID_TARGET_3,Ромб,1
-16169,RAID_TARGET_4,Треугольник,1
-16170,RAID_TARGET_5,Полумесяц,1
-16171,RAID_TARGET_6,Квадрат,1
-16172,RAID_TARGET_7,Крест,1
-16173,RAID_TARGET_8,Череп,1
+16166,RAID_TARGET_1,Звезда,3
+16167,RAID_TARGET_2,Круг,3
+16168,RAID_TARGET_3,Ромб,3
+16169,RAID_TARGET_4,Треугольник,3
+16170,RAID_TARGET_5,Полумесяц,3
+16171,RAID_TARGET_6,Квадрат,3
+16172,RAID_TARGET_7,Крест,3
+16173,RAID_TARGET_8,Череп,3
 16174,RAID_MEMBER_NOT_READY,%s не подтверждает готовность.,1
 16175,RAID_MEMBERS_AFK,Следующие игроки отсутствуют: %s.,1
 16176,RAID_TARGET_ICON,Метка цели,1
@@ -4915,7 +4915,7 @@ ID,BaseTag,TagText_lang,Flags
 16308,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_RESISTANCES,Отображение сообщений о сопротивлении урону от атак или заклинаний.,1
 16309,OPTION_TOOLTIP_COMBAT_TEXT_SCROLL_DOWN,"Прокрутка текста боя не вверх, а вниз.",1
 16310,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_REPUTATION,Отображение уведомления о получении или потере репутации среди представителей одной из фракций.,1
-16311,CHAT_FILTERED,"Невозможно отправить сообщение |3-2(%s), так как оно содержит недопустимые слова.",1
+16311,CHAT_FILTERED,"Невозможно отправить сообщение |3-2(%s), так как оно содержит недопустимые слова.",3
 16312,SHOW_COMBAT_TEXT_TEXT,Текст боя для себя,1
 16313,OPTION_TOOLTIP_SHOW_COMBAT_TEXT,Отображение на экране дополнительных сообщений во время боя.,1
 16314,EMOTE44_CMD1,/gasp,1
@@ -4933,7 +4933,7 @@ ID,BaseTag,TagText_lang,Flags
 16335,OPTION_TOOLTIP_HIDE_OUTDOOR_WORLD_STATE,"Включите этот параметр, чтобы скрыть интерфейс отслеживания целей в пределах игровой зоны.",1
 16336,BINDING_NAME_FRIENDNAMEPLATES,Показать индикаторы союзников,1
 16337,BINDING_NAME_ALLNAMEPLATES,Показать индикаторы здоровья врагов,1
-16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h Количество сообщений в этом канале ограничено. Пожалуйста, отправьте ваше сообщение позже.",1
+16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h Количество сообщений в этом канале ограничено. Пожалуйста, отправьте ваше сообщение позже.",3
 16339,COMBAT_TEXT_COMBO_POINTS,<%d |4прием:приема:приемов; в серии>,1
 16341,COMBAT_TEXT_SHOW_REACTIVES_TEXT,Предупреждения о заклинаниях,1
 16342,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_REACTIVES,Отображение сообщений о некоторых важных событиях.,1
@@ -5339,7 +5339,7 @@ ID,BaseTag,TagText_lang,Flags
 16839,SERVER_MESSAGE_PREFIX,[СЕРВЕР],1
 16840,KBASE_ERROR_NO_RESULTS,"Статей, соответствующих вашим критериям поиска, не найдено.",1
 16841,REPUTATION_MOVE_TO_INACTIVE,"Перемещает индикатор репутации в конец вашего списка и помечает ее ""Неактивно"". Полезно для репутации в тех фракциях, где вы в ней не заинтересованы.",1
-16842,REPUTATION_SHOW_AS_XP,"Отображение индикатора репутации в нижней части экрана, над панелью команд.",1
+16842,REPUTATION_SHOW_AS_XP,Отображение индикатора репутации рядом с индикатором опыта.,1
 16843,AUTO_SELF_CAST_KEY_TEXT,К себе,1
 16844,OPTION_TOOLTIP_AUTO_SELF_CAST_KEY_TEXT,Использование данной клавиши для перенаправления заклинания на вашего персонажа даже при наличии другой цели.,1
 16845,ALT_KEY,ALT,1
@@ -5598,7 +5598,7 @@ ID,BaseTag,TagText_lang,Flags
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,Вы уже подписали хартию другой гильдии.,1
 17138,CHAT_MSG_RESTRICTED,Запрещено,1
 17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Ваша команда вышла из очереди.,1
-17140,CHAT_RESTRICTED,"Владельцы бесплатной пробной версии могут шептать только тем игрокам, которые добавили их персонажей в список друзей. |cffffd000|Hstorecategory:gametime|h[Щелкните, чтобы купить полную версию]|h|r",1
+17140,CHAT_RESTRICTED,"Владельцы бесплатной пробной версии могут шептать только тем игрокам, которые добавили их персонажей в список друзей. |cffffd000|Hstorecategory:gametime|h[Щелкните, чтобы купить полную версию]|h|r",3
 17141,SHOW_COMBAT_HEALING,Лечение,1
 17142,OPTION_TOOLTIP_SHOW_COMBAT_HEALING,"Отображение информации о количестве ед. здоровья, восполненных у цели.",1
 17143,RAID_INSTANCE_WELCOME_DH,"Блокировка подземелья ""%s"" истекает через %d д. %d ч.",1
@@ -5615,7 +5615,7 @@ ID,BaseTag,TagText_lang,Flags
 присоединиться к этому заданию, если освободите место в списке.",1
 17156,ERR_ITEM_MAX_COUNT_EQUIPPED_SOCKETED,На предметах вашей экипировки уже имеется максимально возможное количество таких самоцветов.,1
 17157,ERR_ITEM_UNIQUE_EQUIPPABLE_SOCKETED,Один предмет можно инкрустировать только одним из этих камней.,1
-17159,ERR_CHAT_THROTTLED,"Число сообщений ограничено, пожалуйста, подождите, прежде чем отправлять очередное сообщение.",1
+17159,ERR_CHAT_THROTTLED,"Число сообщений ограничено, пожалуйста, подождите, прежде чем отправлять очередное сообщение.",3
 17160,SLASH_FOLLOW7,/сл,1
 17161,SLASH_GUILD9,/г,1
 17163,SLASH_PARTY5,/гр,1
@@ -6142,9 +6142,9 @@ ID,BaseTag,TagText_lang,Flags
 17744,WEEKDAY_FRIDAY,Пятница,5
 17745,WEEKDAY_SATURDAY,Суббота,5
 17746,ERR_GROUP_ACTION_THROTTLED,Вы предприняли слишком много групповых действий за слишком короткое время. Подождите немного.,1
-17747,FRIENDS_LIST_NOTE_TEMPLATE,(%s),1
+17747,FRIENDS_LIST_NOTE_TEMPLATE,(%s),3
 17748,CONFIRM_PURCHASE_TOKEN_ITEM,"Вы уверены, что хотите произвести обмен? Вы обменяете %s на %s",1
-17749,FRIENDS_LIST_NOTE_OFFLINE_TEMPLATE,|cff999999(%s)|r,1
+17749,FRIENDS_LIST_NOTE_OFFLINE_TEMPLATE,|cff999999(%s)|r,3
 17750,CONTROLS_SUBTEXT,Основные настройки взаимодействия вашего персонажа с объектами и обитателями Азерота.,1
 17751,COMBAT_LABEL,Бой,1
 17752,COMBAT_SUBTEXT,Настройки поведения вашего персонажа в бою и отображения боевого интерфейса.,1
@@ -6675,14 +6675,14 @@ ID,BaseTag,TagText_lang,Flags
 18289,RANGED,Дальний бой,1
 18290,DAMAGE_SHIELD,Ответные повреждения,1
 18291,MISSES,Промах,1
-18292,ICON_TAG_RAID_TARGET_SKULL1,rt8,1
-18293,ICON_TAG_RAID_TARGET_SQUARE1,rt6,1
-18294,ICON_TAG_RAID_TARGET_DIAMOND1,rt3,1
-18295,ICON_TAG_RAID_TARGET_CIRCLE1,rt2,1
-18296,ICON_TAG_RAID_TARGET_STAR1,rt1,1
-18297,ICON_TAG_RAID_TARGET_CROSS1,rt7,1
-18298,ICON_TAG_RAID_TARGET_TRIANGLE1,rt4,1
-18299,ICON_TAG_RAID_TARGET_MOON1,rt5,1
+18292,ICON_TAG_RAID_TARGET_SKULL1,rt8,3
+18293,ICON_TAG_RAID_TARGET_SQUARE1,rt6,3
+18294,ICON_TAG_RAID_TARGET_DIAMOND1,rt3,3
+18295,ICON_TAG_RAID_TARGET_CIRCLE1,rt2,3
+18296,ICON_TAG_RAID_TARGET_STAR1,rt1,3
+18297,ICON_TAG_RAID_TARGET_CROSS1,rt7,3
+18298,ICON_TAG_RAID_TARGET_TRIANGLE1,rt4,3
+18299,ICON_TAG_RAID_TARGET_MOON1,rt5,3
 18300,AURAS,Ауры,1
 18301,HOSTILE,Губительные,1
 18302,BENEFICIAL,Защитные,1
@@ -6745,7 +6745,7 @@ ID,BaseTag,TagText_lang,Flags
 18367,SHOW_CHAT_ICONS,Значки в чате,1
 18368,OPTION_TOOLTIP_SHOW_CHAT_ICONS,"Отображение ссылок в каналах, вход на которые осуществляется автоматически (""Торговля"" и т.п.) в виде значков.",1
 18369,CONFIRM_COMBAT_FILTER_DELETE,Удалить этот фильтр?,1
-18370,CHAT_CONFIGURATION,Параметры,1
+18370,CHAT_CONFIGURATION,Параметры,3
 18371,EXAMPLE_TEXT,Пример текста:,1
 18372,EXAMPLE_TARGET_MONSTER,Монстр,1
 18373,EXAMPLE_SPELL_FROSTBOLT,Ледяная стрела,1
@@ -6909,14 +6909,14 @@ ID,BaseTag,TagText_lang,Flags
 18598,KBASE_CHARSTUCK,Персонаж застрял,1
 18602,SPELL_FAILED_NOT_IN_RAID_INSTANCE,Вы не можете сделать этого в рейдовом подземелье.,1
 18604,NEW_ACHIEVEMENT_EARNED,"Вы получили достижение ""%s"".",1
-18608,ICON_TAG_RAID_TARGET_CIRCLE2,цр2,1
-18609,ICON_TAG_RAID_TARGET_CROSS2,X,1
-18610,ICON_TAG_RAID_TARGET_DIAMOND2,цр3,1
-18611,ICON_TAG_RAID_TARGET_MOON2,цр5,1
-18612,ICON_TAG_RAID_TARGET_SKULL2,цр8,1
-18613,ICON_TAG_RAID_TARGET_SQUARE2,цр6,1
-18614,ICON_TAG_RAID_TARGET_STAR2,цр1,1
-18615,ICON_TAG_RAID_TARGET_TRIANGLE2,цр4,1
+18608,ICON_TAG_RAID_TARGET_CIRCLE2,цр2,3
+18609,ICON_TAG_RAID_TARGET_CROSS2,X,3
+18610,ICON_TAG_RAID_TARGET_DIAMOND2,цр3,3
+18611,ICON_TAG_RAID_TARGET_MOON2,цр5,3
+18612,ICON_TAG_RAID_TARGET_SKULL2,цр8,3
+18613,ICON_TAG_RAID_TARGET_SQUARE2,цр6,3
+18614,ICON_TAG_RAID_TARGET_STAR2,цр1,3
+18615,ICON_TAG_RAID_TARGET_TRIANGLE2,цр4,3
 18616,ITEM_QUANTITY_TEMPLATE,%1$d x %2$s,1
 18618,TEXT_MODE_A_STRING_RESULT_OVERHEALING,Избыточное лечение: %s.,1
 18619,ERR_QUEST_ALREADY_DONE_DAILY,Сегодня вы уже выполнили это ежедневное задание.,1
@@ -7805,7 +7805,7 @@ ID,BaseTag,TagText_lang,Flags
 19572,ACHIEVEMENT_META_COMPLETED_DATE,Завершено %s,1
 19573,ACHIEVEMENT_CATEGORY_PROGRESS,Общий прогресс,1
 19574,MAKE_INTERACTABLE,Вкл. интерактивный режим,1
-19575,MAKE_UNINTERACTABLE,Выкл. интерактивный режим,1
+19575,MAKE_UNINTERACTABLE,Выкл. интерактивный режим,3
 19576,GM_CHAT,Общение с ГМ,1
 19577,GM_CHAT_OPEN,Открыть журнал общения с ГМ,1
 19578,GM_CHAT_STATUS_READY,Запрос на общение от ГМ,1
@@ -8284,7 +8284,7 @@ ID,BaseTag,TagText_lang,Flags
 20095,TRADE_POTENTIAL_BIND_ENCHANT,"Если вы зачаруете этот предмет, он станет персональным.",1
 20096,ERR_TRADE_TEMP_ENCHANT_BOUND,Вы не можете обменивать предмет с временным улучшением.,1
 20097,POWER_TYPE_HEAT,Жар,1
-20098,PRESS_TAB,Нажмите Tab,1
+20098,PRESS_TAB,Нажмите Tab,3
 20099,ITEM_MOD_HEALTH_REGEN,Восполняет %s ед. здоровья раз в 5 секунд.,1
 20100,CALENDAR_STATUS_TENTATIVE,Под вопросом,5
 20101,MERCHANT_HONOR_POINTS,%d |4очко чести:очка чести:очков чести;,1
@@ -8634,7 +8634,7 @@ ID,BaseTag,TagText_lang,Flags
 20460,ERR_LFG_PROPOSAL_DECLINED_SELF,"Вы покинули очередь, потому что не приняли приглашение.",1
 20461,ERR_LFG_PROPOSAL_DECLINED_PARTY,"Вы покинули очередь, потому что один из участников вашей группы не принял приглашение.",1
 20462,CHAT_MSG_PARTY_LEADER,Лидер группы,1
-20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Лидер группы]|h %s:\32,1
+20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Лидер группы]|h %s:\32,3
 20464,PARTY_LEADER,Лидер группы,1
 20465,ERR_LFG_CANT_USE_BATTLEGROUND,"Вы не можете встать в очередь на поле боя или арену, пока используете поиск подземелий или рейдов.",1
 20466,ERR_LFG_CANT_USE_DUNGEONS,"Вы не можете воспользоваться поиском подземелий или рейдов, находясь на поле боя или арене.",1
@@ -8750,13 +8750,13 @@ ID,BaseTag,TagText_lang,Flags
 20584,LOOT_ROLL_INELIGIBLE_REASON5,"Опция ""Мне это нужно"" отключена для этого предмета.",1
 20586,SPELL_FAILED_CUSTOM_ERROR_102,"Нет чар, которые можно высвободить.",1
 20587,OR_CAPS,ИЛИ,1
-20588,BATTLENET_FRIEND,Друг в сети Blizzard,1
+20588,BATTLENET_FRIEND,Друг в сети Blizzard,3
 20589,CHARACTER_FRIEND,Друг по World of Warcraft,1
 20590,REALID_FRIEND_LABEL,Введите адрес эл. почты,1
 20591,CHARACTER_FRIEND_LABEL,Введите имя персонажа,1
 20592,ENTER_NAME_OR_EMAIL,"Указать: адрес эл. почты, имя персонажа",1
 20593,ENTER_INVITE_NOTE,Добавьте сообщение для друга,1
-20594,BATTLENET_FRIEND_INFO,"Этого человека вы знаете в реальной жизни. Добавив его в список друзей, вы сможете общаться с ним независимо от того, в какую игру компании Blizzard вы играете. Этот человек должен принять ваше предложение дружбы. В таком случае все его друзья смогут увидеть ваше настоящее имя.",1
+20594,BATTLENET_FRIEND_INFO,"Этого человека вы знаете в реальной жизни. Добавив его в список друзей, вы сможете общаться с ним независимо от того, в какую игру компании Blizzard вы играете. Этот человек должен принять ваше предложение дружбы. В таком случае все его друзья смогут увидеть ваше настоящее имя.",3
 20595,CHARACTER_FRIEND_INFO,"Вы познакомились с этим персонажем в вашем игровом мире, и вам нравится играть вместе. Добавив персонажа в список друзей, вы сможете с ним общаться и приглашать его в группу.",1
 20596,SEND_REQUEST,Отправить запрос,1
 20597,ADD_ANOTHER,Добавить,1
@@ -8765,20 +8765,20 @@ ID,BaseTag,TagText_lang,Flags
 20602,SPELL_FAILED_CUSTOM_ERROR_104,Нужно находиться минимум в 40 м от оборудования для добычи нефти.,1
 20603,PENDING_INVITE,Ожидают ответа,5
 20604,PENDING_INVITE_LIST,Список ожидающих ответа,1
-20605,BATTLENET_NAME_FORMAT,%1$s %2$s,1
+20605,BATTLENET_NAME_FORMAT,%1$s %2$s,3
 20606,BNET_INVITE_SENT_TIME,Отправлено %s назад,1
 20607,BLOCK_INVITES_CONFIRMATION,%s не сможет отправлять вам приглашения. Заблокировать игрока?,1
 20609,BLOCK_INVITES,Заблокировать приглашения,1
-20611,FRIENDS_LIST_ONLINE,В сети,1
+20611,FRIENDS_LIST_ONLINE,В сети,3
 20612,FRIENDS_LIST_OFFLINE,Не в сети,3
-20613,FRIENDS_LIST_AWAY,Отсутствует,1
-20614,FRIENDS_LIST_BUSY,Не беспокоить,1
-20615,FRIENDS_LIST_ENTER_TEXT,Сообщение для друзей,1
-20616,FRIENDS_LIST_PLAYING,Также в игре:,1
-20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, |3-6(%3$s) %2$d-го уровня",1
-20618,FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE,"%1$s: |3-6(%3$s), |3-6(%4$s) %2$s-го уровня",1
-20619,FRIENDS_LIST_ZONE,Зона: ,1
-20620,FRIENDS_LIST_REALM,Игровой мир: ,1
+20613,FRIENDS_LIST_AWAY,Отсутствует,3
+20614,FRIENDS_LIST_BUSY,Не беспокоить,3
+20615,FRIENDS_LIST_ENTER_TEXT,Сообщение для друзей,3
+20616,FRIENDS_LIST_PLAYING,Также в игре:,3
+20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, |3-6(%3$s) %2$d-го уровня",3
+20618,FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE,"%1$s: |3-6(%3$s), |3-6(%4$s) %2$s-го уровня",3
+20619,FRIENDS_LIST_ZONE,Зона: ,3
+20620,FRIENDS_LIST_REALM,Игровой мир: ,3
 20621,TALENT_SPEC_PRIMARY_ACTIVE,Первый набор талантов - активен,1
 20622,TALENT_SPEC_PRIMARY_GLYPH_ACTIVE,Первый набор символов - активен,1
 20623,TALENT_SPEC_SECONDARY_ACTIVE,Второй набор талантов - активен,1
@@ -8831,20 +8831,20 @@ ID,BaseTag,TagText_lang,Flags
 20680,PROFESSIONS_FIRST_AID_MISSING,"Обратитесь к учителю, чтобы освоить первую помощь. Эта профессия позволяет делать из ткани бинты, которые персонаж может использовать, чтобы лечить себя и других.",1
 20681,POWER_TYPE_SHADOWFLAME_ENERGY,Энергия пламени Тьмы,1
 20682,FLIGHT_MAP,Карта полетов,1
-20683,FRIENDS_FRIENDS_HEADER,Друзья игрока |3-1(%s),1
-20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Все,1
-20685,FRIENDS_FRIENDS_CHOICE_POTENTIAL,Вероятные друзья,1
-20686,FRIENDS_FRIENDS_CHOICE_MUTUAL,Общие друзья,1
-20687,FRIENDS_FRIENDS_MUTUAL_TEXT,(Общие),1
-20688,FRIENDS_FRIENDS_REQUESTED_TEXT,(запрос отправлен),1
-20689,FRIENDS_FRIENDS_WAITING,Поиск…,1
+20683,FRIENDS_FRIENDS_HEADER,Друзья игрока |3-1(%s),3
+20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Все,3
+20685,FRIENDS_FRIENDS_CHOICE_POTENTIAL,Вероятные друзья,3
+20686,FRIENDS_FRIENDS_CHOICE_MUTUAL,Общие друзья,3
+20687,FRIENDS_FRIENDS_MUTUAL_TEXT,(Общие),3
+20688,FRIENDS_FRIENDS_REQUESTED_TEXT,(запрос отправлен),3
+20689,FRIENDS_FRIENDS_WAITING,Поиск…,3
 20691,ERR_CURRENCY_SPELL_SLOT_MISMATCH,Этот предмет нельзя положить в эту ячейку.,1
 20692,SPELL_FAILED_CUSTOM_ERROR_107,"Нужно выбрать в качестве цели водорослевую черепаху, прилипалу-чистильщика или чешуеспинную акулу-молот.",1
-20693,CHAT_MSG_BN_WHISPER,Шепот в сети Blizzard,1
+20693,CHAT_MSG_BN_WHISPER,Шепот в сети Blizzard,3
 20694,BN_WHISPER,От друзей в сети Blizzard,1
-20695,CHAT_BN_WHISPER_GET,%s шепчет:\32,1
-20696,CHAT_BN_WHISPER_INFORM_GET,Вы шепчете |3-2(%s):\32,1
-20697,CHAT_BN_WHISPER_SEND,Шепнуть игроку %s:\32,1
+20695,CHAT_BN_WHISPER_GET,%s шепчет:\32,3
+20696,CHAT_BN_WHISPER_INFORM_GET,Вы шепчете |3-2(%s):\32,3
+20697,CHAT_BN_WHISPER_SEND,Шепнуть игроку %s:\32,3
 20698,TRANSFER_ABORT_UNIQUE_MESSAGE2,"Прежде чем вы покинете эту зону, вам нужно выполнить свое предназначение и долг перед картелем Трюмных Вод.",1
 20699,TRANSFER_ABORT_UNIQUE_MESSAGE3,Судьба Гилнеаса еще не определена. Вы пока не можете уйти.,1
 20700,SPELL_FAILED_CUSTOM_ERROR_108,Посол Шлакомолот уже является вашим пленником.,1
@@ -8861,7 +8861,7 @@ ID,BaseTag,TagText_lang,Flags
 20711,BN_TOAST_OFFLINE,|cffff0000выходит из сети|r.,1
 20712,BN_TOAST_CONVERSATION,Вы присоединились к каналу,1
 20713,BN_TOAST_NEW_INVITE,У вас новый запрос на добавление в друзья.,1
-20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(еще %d |4персонаж:персонажа:персонажей;),1
+20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(еще %d |4персонаж:персонажа:персонажей;),3
 20715,ITEM_REQ_PURCHASE_GUILD,Требуется гильдия,1
 20716,ITEM_REQ_PURCHASE_GUILD_LEVEL,Требуется %d-й уровень гильдии,1
 20717,ITEM_REQ_PURCHASE_ACHIEVEMENT,Требуется достижение: %s,1
@@ -8886,24 +8886,24 @@ ID,BaseTag,TagText_lang,Flags
 20738,CHAT_SET_SPEAK_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s получает право на голосовое общение.,1
 20739,CHAT_SET_VOICE_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s получает разрешение на общение.,1
 20740,CHAT_SUSPENDED_NOTICE_BN,Вы покинули канал |Hchannel:CHANNEL:%d|h[%s]|h.,1
-20741,CHAT_THROTTLED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h Количество сообщений в этом канале ограничено. Пожалуйста, отправьте ваше сообщение позже.",1
+20741,CHAT_THROTTLED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h Количество сообщений в этом канале ограничено. Пожалуйста, отправьте ваше сообщение позже.",3
 20742,CHAT_UNSET_MODERATOR_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s лишается прав модератора.,1
 20743,CHAT_UNSET_SPEAK_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s лишается права на голосовое общение.,1
 20744,CHAT_UNSET_VOICE_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s лишается права на общение.,1
 20745,CHAT_VOICE_OFF_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s отключает голосовой чат в канале.,1
 20746,CHAT_VOICE_ON_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s включает голосовой чат в канале.,1
 20747,CHAT_SET_MODERATOR_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s получает права модератора.,1
-20748,CHAT_YOU_CHANGED_NOTICE_BN,Смена канала: |Hchannel:CHANNEL:%d|h[%s]|h.,1
-20749,CHAT_YOU_JOINED_NOTICE_BN,Вы присоединились к каналу |Hchannel:CHANNEL:%d|h[%s]|h.,1
-20750,CHAT_YOU_LEFT_NOTICE_BN,Вы покинули канал |Hchannel:CHANNEL:%d|h[%s]|h.,1
+20748,CHAT_YOU_CHANGED_NOTICE_BN,Смена канала: |Hchannel:CHANNEL:%d|h[%s]|h.,3
+20749,CHAT_YOU_JOINED_NOTICE_BN,Вы присоединились к каналу |Hchannel:CHANNEL:%d|h[%s]|h.,3
+20750,CHAT_YOU_LEFT_NOTICE_BN,Вы покинули канал |Hchannel:CHANNEL:%d|h[%s]|h.,3
 20751,OFFICER,Офицер,1
 20752,POP_OUT_CHAT,Выделить чат,1
 20753,POP_IN_CHAT,Объединить чат,1
-20754,CHAT_WINDOWS_COUNT,Окон чата: %d,1
-20756,CHAT_MSG_BN_CONVERSATION,Разговор в сети Blizzard,1
+20754,CHAT_WINDOWS_COUNT,Окон чата: %d,3
+20756,CHAT_MSG_BN_CONVERSATION,Разговор в сети Blizzard,3
 20757,BN_CONVERSATION,Разговор в сети Blizzard,1
-20758,CHAT_BN_CONVERSATION_GET,%s:,1
-20760,CHAT_BN_CONVERSATION_SEND,[%d. Разговор]:\32,1
+20758,CHAT_BN_CONVERSATION_GET,%s:,3
+20760,CHAT_BN_CONVERSATION_SEND,[%d. Разговор]:\32,3
 20761,CONVERSATION_NAME,%d. Разговор,1
 20762,INVITE_TO_CONVERSATION,Пригласить в разговор,1
 20763,NEW_CONVERSATION_INSTRUCTIONS,"Выберите |cffffffff2|r друзей, чтобы начать разговор.",1
@@ -8911,11 +8911,11 @@ ID,BaseTag,TagText_lang,Flags
 20765,CREATE_CONVERSATION_WITH,Начать разговор,1
 20766,INVITE_FRIEND_TO_CONVERSATION,Пригласить друга,1
 20767,LEAVE_CONVERSATION,Выйти из разговора,1
-20768,BATTLENET_UNAVAILABLE,Служба Blizzard недоступна.,1
-20769,BATTLENET_UNAVAILABLE_ALERT,"В данный момент служба Blizzard недоступна.\n\nВы не увидите список друзей в сети Blizzard и по BattleTag, а также не сможете отправлять и получать предложения стать друзьями. Возможно, вам придется перезапустить игру, чтобы заново подключиться к службе.",1
+20768,BATTLENET_UNAVAILABLE,Служба Blizzard недоступна.,3
+20769,BATTLENET_UNAVAILABLE_ALERT,"В данный момент служба Blizzard недоступна.\n\nВы не увидите список друзей в сети Blizzard и по BattleTag, а также не сможете отправлять и получать предложения стать друзьями. Возможно, вам придется перезапустить игру, чтобы заново подключиться к службе.",3
 20770,BLOCKED_INVITES,Приглашение заблокировано,1
 20771,ARENA_NOT_USABLE,Невозможно использовать на арене,1
-20772,CHAT_BN_CONVERSATION_GET_LINK,|Hchannel:BN_CONVERSATION:%d|h[%s. Разговор]|h,1
+20772,CHAT_BN_CONVERSATION_GET_LINK,|Hchannel:BN_CONVERSATION:%d|h[%s. Разговор]|h,3
 20773,CHAT_CONVERSATION_YOU_JOINED_CONVERSATION_NOTICE,Вы присоединились к каналу %s.,1
 20774,CHAT_CONVERSATION_YOU_LEFT_CONVERSATION_NOTICE,Вы покинули канал %s.,1
 20775,CHAT_CONVERSATION_CONVERSATION_CONVERTED_TO_WHISPER_NOTICE,Разговор %s перешел на шепот с игроком %s.,1
@@ -8929,12 +8929,12 @@ ID,BaseTag,TagText_lang,Flags
 20783,CLASSIC_STYLE,Классический чат,1
 20784,CHAT_WHOLE_WINDOW_CLICKABLE,Активация чата,1
 20785,OPTION_TOOLTIP_CHAT_WHOLE_WINDOW_CLICKABLE,"Щелкнув по окну чата, вы сделаете его активным.",1
-20786,BNET_BROADCAST_SENT_TIME,(%s назад),1
-20787,FRIENDS_LIST_AVAILABLE,В сети,1
-20788,FRIENDS_LIST_STATUS_TOOLTIP,Статус: |cffffffff%s|r,1
+20786,BNET_BROADCAST_SENT_TIME,(%s назад),3
+20787,FRIENDS_LIST_AVAILABLE,В сети,3
+20788,FRIENDS_LIST_STATUS_TOOLTIP,Статус: |cffffffff%s|r,3
 20789,SPELLBOOK_TRAINABLE,Обратитесь к учителю,1
 20790,SPELLBOOK_AVAILABLE_AT,%d-й уровень,1
-20791,VIEW_FRIENDS_OF_FRIENDS,Друзья друга,1
+20791,VIEW_FRIENDS_OF_FRIENDS,Друзья друга,3
 20792,PVP_CONQUEST,Завоевание,1
 20793,ARENA_TEAMS,Команды арены,1
 20794,PVP_RATED_BATTLEGROUND,Рейтинговое поле боя,1
@@ -8948,12 +8948,12 @@ ID,BaseTag,TagText_lang,Flags
 20802,ARENA_CREATE_INFO,"Чтобы создать команду арены, щелкните по пустому флагу в верхней части окна, введите название команды и выберите ее флаг.",1
 20803,NO_FRIEND_REQUESTS,У вас нет запросов на добавление в друзья.,1
 20804,BN_INLINE_TOAST_ALERT,Уведомления Blizzard,1
-20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s входит в сеть.,1
-20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s выходит из сети.,1
-20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,1
-20808,BN_INLINE_TOAST_BROADCAST_INFORM,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tВаша рассылка отправлена.,1
-20810,BN_INLINE_TOAST_FRIEND_REQUEST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tВы получили новое предложение стать друзьями.,1
-20811,REMOVE_PLAYER,Удалить,1
+20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s входит в сеть.,3
+20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s выходит из сети.,3
+20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,3
+20808,BN_INLINE_TOAST_BROADCAST_INFORM,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tВаша рассылка отправлена.,3
+20810,BN_INLINE_TOAST_FRIEND_REQUEST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tВы получили новое предложение стать друзьями.,3
+20811,REMOVE_PLAYER,Удалить,3
 20812,NEWBIE_TOOLTIP_REMOVEPLAYER,Удалить выбранного игрока из черного списка.,1
 20813,CONVERSATION_MODE,Новые чаты с друзьями в сети Blizzard,1
 20814,CONVERSATION_MODE_POPOUT,В новой вкладке,1
@@ -8963,27 +8963,27 @@ ID,BaseTag,TagText_lang,Flags
 20818,CLOSE_CHAT_WHISPER_WINDOW,Закрыть окно личных сообщений,1
 20819,CLOSE_AND_LEAVE_CHAT_CONVERSATION_WINDOW,Выйти из разговора,1
 20820,CLOSE_CHAT_CONVERSATION_WINDOW,Закрыть окно разговора,1
-20821,SHOW_BATTLENET_TOASTS,Уведомления Blizzard,1
-20822,OPTION_TOOLTIP_SHOW_BATTLENET_TOASTS,Отображать системные сообщения Blizzard во всплывающем окне.,1
-20823,CANNOT_COOPERATE_LABEL,*,1
+20821,SHOW_BATTLENET_TOASTS,Уведомления Blizzard,3
+20822,OPTION_TOOLTIP_SHOW_BATTLENET_TOASTS,Отображать системные сообщения Blizzard во всплывающем окне.,3
+20823,CANNOT_COOPERATE_LABEL,*,3
 20824,POWER_TYPE_ENERGY,Энергия,1
-20825,BATTLENET_OPTIONS_LABEL,Служба Blizzard,1
-20826,BATTLENET_OPTIONS_SUBTEXT,Эти настройки позволяют редактировать типы получаемых сообщений Blizzard.,1
+20825,BATTLENET_OPTIONS_LABEL,Служба Blizzard,3
+20826,BATTLENET_OPTIONS_SUBTEXT,Эти настройки позволяют редактировать типы получаемых сообщений Blizzard.,3
 20827,SHOW_TOAST_ONLINE_TEXT,Друзья в сети,1
 20828,SHOW_TOAST_OFFLINE_TEXT,Друзья не в сети,1
-20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Предложения стать друзьями в сети Blizzard или по BattleTag,1
+20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Предложения стать друзьями в сети Blizzard или по BattleTag,3
 20830,SHOW_TOAST_BROADCAST_TEXT,Обновления рассылок,1
 20831,SHOW_TOAST_CONVERSATION_TEXT,Уведомления о разговорах,1
 20832,SHOW_TOAST_WINDOW_TEXT,Показывать окно уведомлений,1
 20833,TOAST_DURATION_TEXT,Длительность отображения,1
 20834,OPTION_TOOLTIP_SHOW_TOAST_ONLINE,"Отображать сообщение Blizzard, когда ваши друзья в сети Blizzard или по BattleTag входят в сеть.",1
 20835,OPTION_TOOLTIP_SHOW_TOAST_OFFLINE,"Отображать сообщение Blizzard, когда ваши друзья в сети Blizzard или по BattleTag выходят из сети.",1
-20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,"Отображать сообщение Blizzard, когда вам приходят предложения стать друзьями в сети Blizzard или по BattleTag.",1
+20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,"Отображать сообщение Blizzard, когда вам приходят предложения стать друзьями в сети Blizzard или по BattleTag.",3
 20837,OPTION_TOOLTIP_SHOW_TOAST_BROADCAST,"Отображать сообщение Blizzard, когда ваши друзья в сети Blizzard или по BattleTag обновляют свои рассылки.",1
 20838,OPTION_TOOLTIP_SHOW_TOAST_CONVERSATION,"Отображать сообщение Blizzard, когда вы присоединяетесь к разговору с друзьями в сети Blizzard или по BattleTag.",1
 20839,OPTION_TOOLTIP_SHOW_TOAST_WINDOW,Включение этого параметра позволяет отображать сообщения Blizzard в окне уведомлений.,1
 20840,OPTION_TOOLTIP_TOAST_DURATION,Настроить длительность отображения окна уведомлений.,1
-20841,BN_INLINE_TOAST_CONVERSATION,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:66:95:2:29|tВы присоединились к разговору с игроками: %s.,1
+20841,BN_INLINE_TOAST_CONVERSATION,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:66:95:2:29|tВы присоединились к разговору с игроками: %s.,3
 20842,SPELL_FAILED_NO_LIQUID,Требуется водоем,1
 20843,TIMESTAMPS_LABEL,Время в чате,1
 20844,OPTION_TOOLTIP_TIMESTAMPS,Выберите формат времени для сообщений чата.,1
@@ -9018,7 +9018,7 @@ ID,BaseTag,TagText_lang,Flags
 20875,RID_FRIEND_REQUEST_INFO,"Это человек, которого вы знаете в реальной жизни. Добавив его в список друзей, вы сможете общаться с ним независимо от того, в какую игру вы играете. Если вы примете предложение дружбы, все его друзья смогут увидеть ваше настоящее имя.",1
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,Вы не дали достаточного количества предметов для применения этого заклинания.,1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,Вы дали слишком много предметов для применения этого заклинания.,1
-20879,BN_BROADCAST_TOOLTIP,Отправить рассылку всем друзьям в сети Blizzard и по BattleTag.,1
+20879,BN_BROADCAST_TOOLTIP,Отправить рассылку всем друзьям в сети Blizzard и по BattleTag.,3
 20880,ERR_REQUIRES_EXPANSION_S,Требуется дополнение: %s,1
 20881,EXPANSION_NAME3,Cataclysm,7
 20882,BLOCK_COMMUNICATION,Заблокировать сообщения,1
@@ -9041,7 +9041,7 @@ ID,BaseTag,TagText_lang,Flags
 20908,SLASH_CHAT_DND5,/занят,1
 20909,SLASH_CHAT_DND6,/небеспокоить,1
 20910,BN_UNABLE_TO_RESOLVE_NAME,"Невозможно прошептать: ""%s"". Служба Blizzard может быть недоступна.",1
-20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tУ вас %s |4запрос:запроса:запросов; на добавление в друзья.,1
+20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tУ вас %s |4запрос:запроса:запросов; на добавление в друзья.,3
 20912,LEVEL_UP_YOU_REACHED,Вы достигли,1
 20913,LEVEL_UP_ABILITY,Доступна новая способность!,1
 20914,LEVEL_UP_ABILITY2,Доступна новая способность:,1
@@ -9057,12 +9057,12 @@ ID,BaseTag,TagText_lang,Flags
 20926,LEVEL_UP_TALENTPOINT_LINK,Доступен новый |cffFF4E00|Htalentpane:|h[талант]|h|r!,1
 20927,LEVEL_UP_TALENTS_LINK,|cffFF4E00|Htalentpane:|h[Таланты]|h|r,1
 20928,LEVEL_UP_DUAL_SPEC_LINK,|cffFF4E00|Htalentpane:|h[Двойная специализация]|h|r,1
-20929,BN_INLINE_TOAST_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s теперь является вашим другом в сети Blizzard.,1
-20930,BN_INLINE_TOAST_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s больше не является вашим другом в сети Blizzard.,1
-20931,REMOVE_FRIEND_CONFIRMATION,"Вы уверены, что хотите удалить игрока %s из списка друзей в сети Blizzard?",1
+20929,BN_INLINE_TOAST_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s теперь является вашим другом в сети Blizzard.,3
+20930,BN_INLINE_TOAST_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s больше не является вашим другом в сети Blizzard.,3
+20931,REMOVE_FRIEND_CONFIRMATION,"Вы уверены, что хотите удалить игрока %s из списка друзей в сети Blizzard?",3
 20932,OPTION_TOOLTIP_PROFANITY_FILTER_WITH_WARNING,"Фильтрация грубых слов и выражений.\n\n|cffff0000Внимание:|r служба Blizzard недоступна, ваши настройки могут не сохраниться.",1
-20933,ERR_CANNOT_IGNORE_BN_FRIEND,Вы не можете игнорировать друзей в сети Blizzard или по BattleTag.,1
-20934,CHAT_BN_CONVERSATION_LIST,%s %s,1
+20933,ERR_CANNOT_IGNORE_BN_FRIEND,Вы не можете игнорировать друзей в сети Blizzard или по BattleTag.,3
+20934,CHAT_BN_CONVERSATION_LIST,%s %s,3
 20935,CHAT_OVERFLOW_LABEL,Список вкладок,1
 20936,NEWBIE_TOOLTIP_CHAT_OVERFLOW,"Показаны не все вкладки окон чата. Щелкните левой кнопкой, чтобы увидеть все вкладки.",1
 20937,RAF_SUMMON_WITH_COOLDOWN,Призвать друга (%s),1
@@ -9291,8 +9291,8 @@ ID,BaseTag,TagText_lang,Flags
 21184,TRANSFER_ABORT_LOCKED_TO_DIFFERENT_INSTANCE,"Копия подземелья ""%s"" уже сохранена за вами.",1
 21185,TRANSFER_ABORT_ALREADY_COMPLETED_ENCOUNTER,"Вы не имеете права участвовать как минимум в одном бою, потому как уже победили соответствующего босса в сохраненной за вами копии этого подземелья.",1
 21186,BONUS_TALENTS_TOOLTIP,+%d очков талантов,1
-21187,CHAT_SERVER_DISCONNECTED_MESSAGE,"Вы были отключены от сервера чата. Возможно, вы больше не сможете отправлять и получать сообщения.",1
-21188,CHAT_SERVER_RECONNECTED_MESSAGE,Вы были подключены к серверу чата. Теперь вы вновь можете отправлять и получать сообщения.,1
+21187,CHAT_SERVER_DISCONNECTED_MESSAGE,"Вы были отключены от сервера чата. Возможно, вы больше не сможете отправлять и получать сообщения.",3
+21188,CHAT_SERVER_RECONNECTED_MESSAGE,Вы были подключены к серверу чата. Теперь вы вновь можете отправлять и получать сообщения.,3
 21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Подземелье героического режима уже находится в процессе прохождения другой группой.,1
 21190,GUILD_NEWS_FORMAT0,Заработано достижение гильдии: %s,1
 21191,GUILD_NEWS_FORMAT1,%s зарабатывает достижение %s,1
@@ -10508,22 +10508,22 @@ ID,BaseTag,TagText_lang,Flags
 22497,NO_LFR_WHILE_RF,"Вы не можете добавить свою кандидатуру в список ""Другие рейды"", пока находитесь в системе поиска рейда.",1
 22498,NO_RF_WHILE_LFD,"Вы не можете занять очередь на поиск рейда, находясь в очереди на поиск подземелья.",1
 22499,NO_RF_WHILE_LFR,"Вы не можете занять очередь на поиск рейда, пока ваша кандидатура числится в списке ""Другие рейды"".",1
-22501,GROUP1_CHAT_TAG1,1 группа,1
-22502,GROUP1_CHAT_TAG2,1 группа,1
-22503,GROUP2_CHAT_TAG1,2 группа,1
-22504,GROUP2_CHAT_TAG2,2 группа,1
-22505,GROUP3_CHAT_TAG1,3 группа,1
-22506,GROUP3_CHAT_TAG2,3 группа,1
-22507,GROUP4_CHAT_TAG1,4 группа,1
-22508,GROUP4_CHAT_TAG2,4 группа,1
-22509,GROUP5_CHAT_TAG1,5 группа,1
-22510,GROUP5_CHAT_TAG2,5 группа,1
-22511,GROUP6_CHAT_TAG1,6 группа,1
-22512,GROUP6_CHAT_TAG2,6 группа,1
-22513,GROUP7_CHAT_TAG1,7 группа,1
-22514,GROUP7_CHAT_TAG2,7 группа,1
-22515,GROUP8_CHAT_TAG1,8 группа,1
-22516,GROUP8_CHAT_TAG2,8 группа,1
+22501,GROUP1_CHAT_TAG1,1 группа,3
+22502,GROUP1_CHAT_TAG2,1 группа,3
+22503,GROUP2_CHAT_TAG1,2 группа,3
+22504,GROUP2_CHAT_TAG2,2 группа,3
+22505,GROUP3_CHAT_TAG1,3 группа,3
+22506,GROUP3_CHAT_TAG2,3 группа,3
+22507,GROUP4_CHAT_TAG1,4 группа,3
+22508,GROUP4_CHAT_TAG2,4 группа,3
+22509,GROUP5_CHAT_TAG1,5 группа,3
+22510,GROUP5_CHAT_TAG2,5 группа,3
+22511,GROUP6_CHAT_TAG1,6 группа,3
+22512,GROUP6_CHAT_TAG2,6 группа,3
+22513,GROUP7_CHAT_TAG1,7 группа,3
+22514,GROUP7_CHAT_TAG2,7 группа,3
+22515,GROUP8_CHAT_TAG1,8 группа,3
+22516,GROUP8_CHAT_TAG2,8 группа,3
 22517,LFG_LEADER_CHANGED_WARNING,%s становится лидером группы!,1
 22518,SLASH_RAIDBROWSER7,/or,1
 22519,SLASH_RAIDBROWSER8,/др,1
@@ -10718,7 +10718,7 @@ ID,BaseTag,TagText_lang,Flags
 22715,PET_BATTLE_TURN_COOLDOWN,Время восстановления: %d |4раунд:раунда:раундов;,1
 22716,ERR_LEARN_PASSIVE_S,Вы приобрели новую пассивную способность: %s.,1
 22717,GROUP_FINDER,Подземелья и рейды,1
-22718,CHALLENGES,"Подземелья с ключом ""Эпохальный+""",1
+22718,CHALLENGES,"Подземелья в режиме ""Эпохальный+""",1
 22719,CHOOSE_PET_ABILITY,Выберите одну способность,1
 22720,ERR_PET_JOURNAL_ALREADY_IN_LOADOUT,У вас уже есть такой питомец.,1
 22721,CHALLENGES_NO_MEDAL,- нет медали -,1
@@ -11153,8 +11153,8 @@ ID,BaseTag,TagText_lang,Flags
 23178,BATTLE_PET_YOUR,Ваш боевой питомец,1
 23183,BATTLE_PET_LEVEL_UP_ICON,|T%s:0|t|Hbattlepet|h[%s]|h достигает %d-го уровня!,1
 23185,TALENT_FRAME_HELP_2,По мере повышения уровня вы будете открывать новые таланты.,1
-23204,BATTLENET_BROADCAST,Объявление,1
-23205,BATTLENET_FRIEND_PROMPT,BattleTag#0000 или Vasya@Email.com,1
+23204,BATTLENET_BROADCAST,Объявление,3
+23205,BATTLENET_FRIEND_PROMPT,BattleTag#0000 или Vasya@Email.com,3
 23206,CHARACTER_NAME_PROMPT,Имя персонажа,1
 23207,BATTLE_TAG_SYMBOL,#,1
 23208,BATTLE_TAG_ID_PROMPT,0000,1
@@ -11170,7 +11170,7 @@ ID,BaseTag,TagText_lang,Flags
 23220,PET_BATTLE_RESULT_WIN,Вы победили!,1
 23221,PET_BATTLE_RESULT_LOSE,Бой завершен,1
 23222,BATTLE_TAG_REQUEST,Отправить предложение стать друзьями по |cff82c5ffBattleTag|r:,1
-23223,BATTLE_TAG_REQUEST_INFO,"Игрок будет добавлен в список ваших друзей, когда примет предложение о дружбе.",1
+23223,BATTLE_TAG_REQUEST_INFO,"Игрок будет добавлен в список ваших друзей, когда примет предложение о дружбе.",3
 23224,OPTION_TOOLTIP_SSAO,Отвечает за качество обработки теней. Уменьшение параметра значительно повысит быстродействие игры.,3
 23246,SPELL_FAILED_CUSTOM_ERROR_164,Для использования этого заклинания необходимо оплатить лицензию мастера воздушных путей.,1
 23247,ERR_PVP_MAP_NOT_FOUND,Карта не была внесена в черный список.,1
@@ -11261,10 +11261,10 @@ ID,BaseTag,TagText_lang,Flags
 23336,TOGGLE_BATTLEFIELD_MAP,Карта зоны,1
 23337,TOGGLE_SCOREBOARD,Таблица очков,1
 23341,CHALLENGE_MODE_NEW_RECORD,Новый рекорд,1
-23342,BATTLETAG_REMOVE_FRIEND_CONFIRMATION,"Вы уверены, что хотите удалить игрока %s из списка друзей по BattleTag?",1
+23342,BATTLETAG_REMOVE_FRIEND_CONFIRMATION,"Вы уверены, что хотите удалить игрока %s из списка друзей по BattleTag?",3
 23343,ERR_BATTLETAG_FRIEND_REQUEST_SENT,Предложение стать друзьями по BattleTag отправлено.,1
-23344,BN_INLINE_TOAST_BATTLETAG_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s теперь является вашим другом по BattleTag.,1
-23345,BN_INLINE_TOAST_BATTLETAG_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s больше не является вашим другом по BattleTag.,1
+23344,BN_INLINE_TOAST_BATTLETAG_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s теперь является вашим другом по BattleTag.,3
+23345,BN_INLINE_TOAST_BATTLETAG_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s больше не является вашим другом по BattleTag.,3
 23346,BATTLE_PET_SOURCE_1,Добыча,1
 23347,BATTLE_PET_SOURCE_2,Задание,1
 23348,BATTLE_PET_SOURCE_3,Торговец,1
@@ -11307,7 +11307,7 @@ ID,BaseTag,TagText_lang,Flags
 23386,MONK_BREW_CORE_ABILITY_1,Базовая атака ближнего боя. Сокращает время восстановления способностей хмелеварения.,1
 23387,MONK_BREW_CORE_ABILITY_2,"Атака дальнего боя на небольшом расстоянии, уменьшающая время восстановления ваших способностей и наносящая урон противникам рядом с целью.",1
 23388,NO_BATTLETAG,У вас нет BattleTag.,1
-23389,BATTLETAG_CREATE_INFO,"Чтобы добавлять друзей по BattleTag, необходимо создать себе BattleTag. Щелкните здесь, чтобы начать создание.",1
+23389,BATTLETAG_CREATE_INFO,"Чтобы добавлять друзей по BattleTag, необходимо создать себе BattleTag. Щелкните здесь, чтобы начать создание.",3
 23390,BATTLETAG_CREATE_WEBSITE,По нажатию кнопки вы будете перенаправлены на сайт Blizzard.,1
 23391,BATTLETAG_CREATE,Создать,1
 23392,BATTLE_TAG_CLICK_CREATE,"Щелкните, чтобы создать BattleTag!",1
@@ -11323,7 +11323,7 @@ ID,BaseTag,TagText_lang,Flags
 23402,MONK_BREW_CORE_ABILITY_6,"Способность с небольшим временем восстановления, значительно увеличивающая количество отложенного ""Пошатыванием"" урона.",1
 23403,SEND_BATTLETAG_FRIEND_REQUEST,Отправить предложение стать друзьями по BattleTag,1
 23418,REPORT_BATTLEPET_NAME_CONFIRMATION,"Вы уверены, что хотите пожаловаться на %s за недопустимое имя боевого питомца?",1
-23419,BATTLENET_ADD_FRIEND_INFO,"Друзья, добавленные с использованием адреса электронной почты, будут видеть ваше настоящее имя (это друзья в сети Blizzard).\n\nДрузья, добавленные с использованием BattleTag, будут видеть только BattleTag. Для добавления друга по BattleTag необходимо использовать знак # и последующий номер.",1
+23419,BATTLENET_ADD_FRIEND_INFO,"Друзья, добавленные с использованием адреса электронной почты, будут видеть ваше настоящее имя (это друзья в сети Blizzard).\n\nДрузья, добавленные с использованием BattleTag, будут видеть только BattleTag. Для добавления друга по BattleTag необходимо использовать знак # и последующий номер.",3
 23420,REPORT_PET_NAME_CONFIRMATION,"Вы уверены, что хотите пожаловаться на %s за недопустимое имя питомца?",1
 23422,ACCOUNT_LEVEL_MOUNT,Транспорт для всех персонажей учетной записи,1
 23423,PARTY_IN_PUBLIC_GROUP_MESSAGE,Этот игрок сейчас находится в группе для прохождения подземелья.,1
@@ -11727,7 +11727,7 @@ ID,BaseTag,TagText_lang,Flags
 23856,INSTANCE_CHAT,Подземелье,1
 23857,INSTANCE_CHAT_LEADER,Лидер подземелья,1
 23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Подземелье]|h %s:\32,1
-23859,CHAT_INSTANCE_CHAT_SEND,Подземелье:\32,1
+23859,CHAT_INSTANCE_CHAT_SEND,Подземелье:\32,3
 23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Лидер подземелья]|h %s:\32,1
 23861,SLASH_INSTANCE_CHAT1,/п,1
 23862,SLASH_INSTANCE_CHAT2,/i,1
@@ -11824,7 +11824,7 @@ ID,BaseTag,TagText_lang,Flags
 23980,ITEM_CHARGEUP_TOTAL_MIN,(Требуется %d мин.),1
 23981,ITEM_CHARGEUP_TOTAL_SEC,(Требуется %d сек.),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,Вы должны находиться рядом с окровавленными воротами.,1
-23984,ERR_BN_FRIEND_LIST_FULL,В вашем списке нет места для новых друзей в сети Blizzard.,1
+23984,ERR_BN_FRIEND_LIST_FULL,В вашем списке нет места для новых друзей в сети Blizzard.,3
 23985,GMSS_CHAT_DEFAULT_RESPONSE,"Этот гейм-мастер недоступен для общения. Если у Вас есть открытый запрос, не закрывайте и не редактируйте его. Если иконки открытого запроса нет, пожалуйста, откройте новый запрос. Спасибо.",1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - завершено %d%%,1
 23988,BONUS_REPUTATION_TITLE,Бонус к репутации,1
@@ -12877,7 +12877,7 @@ ID,BaseTag,TagText_lang,Flags
 25103,GARRISON_FOLLOWER_EXHAUSTED,Восстановление (1 д.),1
 25104,GARRISON_MISSION_EXHAUSTING,Изнурительное задание,1
 25105,GARRISON_FOLLOWER_ADDED_UPGRADED_TOAST,Получен улучшенный соратник,1
-25106,NUMBER_IN_PARENTHESES,(%d),1
+25106,NUMBER_IN_PARENTHESES,(%d),3
 25107,GARRISON_MISSION_EXPECTED_ILVL,Ожидаемый уровень силы: %d,1
 25108,GARRISON_MISSION_EXPECTED_ILVL_TOOLTIP,Для выполнения этого задания рекомендуется определенный уровень силы. Более слабые соратники будут приносить меньше пользы.,1
 25109,LFG_LIST_RECOMMENDED_ILVL,Рекомендуется: %d,1
@@ -15786,7 +15786,7 @@ ID,BaseTag,TagText_lang,Flags
 35321,ERR_MAIL_NOT_FRIEND_OR_GUILD,Получатель должен быть вашим другом или членом гильдии.,1
 35322,CONFIRM_ARTIFACT_CHALLENGE,"Вы уверены, что хотите продолжить? Имейте в виду, что это очень сложное задание, и его выполнение может занять приличное время.",1
 35323,SPELL_FAILED_CUSTOM_ERROR_320,Цель уже не может иметь сферу могущества.,1
-35324,FRIEND_REQUESTS,Запросов на добавление в друзья (%d),1
+35324,FRIEND_REQUESTS,Запросов на добавление в друзья (%d),3
 35325,SELF_HIGHLIGHT_MODE_OUTLINE,Силуэт,1
 35326,TEXT_MODE_A_STRING_RESULT_OVERENERGIZE,(%s: перенасыщение энергией),1
 35327,BINDING_NAME_TOGGLECOLLECTIONSWARDROBE,Сменить внешность,1
@@ -15843,7 +15843,7 @@ ID,BaseTag,TagText_lang,Flags
 35381,SPELL_FAILED_CUSTOM_ERROR_323,Требуется заряженный ключ.,1
 35382,CHAR_LOGIN_LOCKED_BY_RESTRICTION,В данный момент этим персонажем нельзя войти в игру.,6
 35383,AUCTION_BROWSE_UNIT_PRICE_SORT,Цена за штуку,1
-35384,BATTLENET_FRIEND_REQUEST_RECEIVED,Вы получили предложение стать друзьями в сети Blizzard.,1
+35384,BATTLENET_FRIEND_REQUEST_RECEIVED,Вы получили предложение стать друзьями в сети Blizzard.,3
 35385,SOCIAL_QUEUE_QUEUED_FOR,в очереди на,1
 35386,SOCIAL_QUEUE_FORMAT_DUNGEON,Подземелье: %s,1
 35387,SOCIAL_QUEUE_FORMAT_HEROIC_DUNGEON,Подземелье: %s (героич.),1
@@ -15856,7 +15856,7 @@ ID,BaseTag,TagText_lang,Flags
 35394,QUICK_JOIN_ROLE_NOT_NEEDED,Эта роль в группе не требуется.,1
 35395,QUICK_JOIN_FAILED,Не удается присоединиться к группе.,1
 35396,SOCIAL_QUEUE_TOOLTIP_HEADER,Очереди,1
-35397,QUICK_JOIN,Вступить,1
+35397,QUICK_JOIN,Вступить,3
 35398,JOIN_QUEUE,Отправить запрос,1
 35399,ACCEPT_GLUE,Принять,2
 35400,CHARACTER_BOOST_YOU_MUST_REACTIVATE,"Чтобы воспользоваться данной возможностью, вы должны повторно активировать свою учетную запись.",2
@@ -16130,7 +16130,7 @@ ID,BaseTag,TagText_lang,Flags
 35694,CONTRIBUTION_RESULT_ERROR_UNABLE_TO_COMPLETE_QUEST,Невозможно внести вклад в данный момент.,1
 35695,CALENDAR_HOLIDAYFRAME_BEGINSENDS,%1$s|n|nНачало: %2$s %3$s|nЗавершение: %4$s %5$s,1
 35696,CALENDAR_TOOLTIP_ONGOING,Идет в данный момент,1
-35697,VISITABLE_URL37,https://battle.net/support/article/000251513,3
+35697,VISITABLE_URL37,https://eu.battle.net/support/ru/article/000345591,3
 35698,VISITABLE_URL38,https://www.battlenet.com.cn/support/zh/article/000251513,3
 35699,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100,|HurlIndex:37|h|cff006995Часто задаваемые вопросы о повышении уровня персонажа|r|h,3
 35700,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100_CN,|HurlIndex:38|h|cff006995Часто задаваемые вопросы о повышении уровня персонажа|r|h,3
@@ -16344,14 +16344,14 @@ ID,BaseTag,TagText_lang,Flags
 35939,ARTIFACT_RELIC_TALENT_AVAILABLE,В тигле света Пустоты доступна новая особенность артефакта.,1
 35940,ARTIFACT_RELIC_SLOT_NEXT_RANK,Эта ячейка для реликвии артефакта улучшается до %1$d-го уровня по достижении %2$d-го уровня артефакта.,1
 35941,PET_JOURNAL_FILTER_USABLE_ONLY,Только используемые,5
-35942,ICON_TAG_RAID_TARGET_STAR3,золото,1
-35943,ICON_TAG_RAID_TARGET_CIRCLE3,оранжевый,1
-35944,ICON_TAG_RAID_TARGET_DIAMOND3,фиолетовый,1
-35945,ICON_TAG_RAID_TARGET_TRIANGLE3,зеленый,1
-35946,ICON_TAG_RAID_TARGET_MOON3,серебряный,1
-35947,ICON_TAG_RAID_TARGET_SQUARE3,синий,1
-35948,ICON_TAG_RAID_TARGET_CROSS3,красный,1
-35949,ICON_TAG_RAID_TARGET_SKULL3,белый,1
+35942,ICON_TAG_RAID_TARGET_STAR3,золото,3
+35943,ICON_TAG_RAID_TARGET_CIRCLE3,оранжевый,3
+35944,ICON_TAG_RAID_TARGET_DIAMOND3,фиолетовый,3
+35945,ICON_TAG_RAID_TARGET_TRIANGLE3,зеленый,3
+35946,ICON_TAG_RAID_TARGET_MOON3,серебряный,3
+35947,ICON_TAG_RAID_TARGET_SQUARE3,синий,3
+35948,ICON_TAG_RAID_TARGET_CROSS3,красный,3
+35949,ICON_TAG_RAID_TARGET_SKULL3,белый,3
 35950,ERR_LFG_JOINED_BATTLEFIELD_QUEUE,Вы встали в очередь на участие в потасовке.,1
 35951,REPORT_BAD_GUILD_NAME,Название гильдии,1
 35952,LFG_LIST_SPAM,Реклама,1
@@ -18094,8 +18094,8 @@ ID,BaseTag,TagText_lang,Flags
 41744,CLUB_FINDER_REPORT_GUILD_NAME,Оскорбительное название гильдии,1
 41745,CLUB_FINDER_REPORT_COMMUNITY_NAME,Оскорбительное название сообщества,1
 41746,CLUB_FINDER_REPORT_JOIN_NOTE,Оскорбительное сообщение при вступлении,1
-41747,RAF_RECRUIT_FRIEND,|cffffd200Приглашенный игрок:|r %s,1
-41748,RAF_RECRUITER_FRIEND,|cffffd200Пригласивший игрок:|r %s,1
+41747,RAF_RECRUIT_FRIEND,|cffffd200Приглашенный игрок:|r %s,3
+41748,RAF_RECRUITER_FRIEND,|cffffd200Пригласивший игрок:|r %s,3
 41749,AUCTION_HOUSE_FILTER_DROP_DOWN_LEVEL_RANGE,Уровни,1
 41750,QUEST_SESSION_BONUS_LOOT_REWARD_FRAME_TITLE,За выполнение этого задания в режиме синхронизации можно получить:,1
 41751,AUCTION_HOUSE_MAIL_MULTIPLE_BUYERS,Несколько покупателей,1
@@ -18345,7 +18345,7 @@ ID,BaseTag,TagText_lang,Flags
 42030,NPEV2_CLASSQUESTABILITY,"\nПеретащите способность |cFF00FFFF""%s""|r на панель команд.",1
 42031,CHAR_CREATE_CLASS_DISABLED_GENERIC,Вы пока не можете создать персонажа этого класса.,2
 42032,CHAR_CREATE_CLASS_DISABLED_TEMPLATE,Текущий шаблон не поддерживает персонажей этого класса.,2
-42033,CHAR_CREATE_NEED_EXPANSION,"Нужно приобрести дополнение ""%s""",2
+42033,CHAR_CREATE_NEED_EXPANSION,"Нужно приобрести дополнение ""%s""",3
 42034,CALENDAR_FILTER_HOLIDAYS,Праздники,5
 42035,ORDER_HALL_TALENT_UNAVAILABLE_REQUIRES_PREREQUISITE_TALENT,Требуется предшествующий талант,1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,Возможность совершать покупки ограничена,3
@@ -19234,7 +19234,7 @@ ID,BaseTag,TagText_lang,Flags
 43037,COVENANT_SANCTUM_RESERVOIR_INACTIVE,Резервуар обители в настоящее время бездействует.,1
 43038,TRANSFER_ABORT_UNIQUE_MESSAGE5,"Вы не можете покинуть остров Изгнанников, не разгадав его тайну.",1
 43039,SSAO_TYPE_LABEL,Рассеянное затенение,3
-43040,ERR_BN_INVITER_FRIEND_LIST_FULL,У этого игрока нет места в списке друзей Blizzard.,1
+43040,ERR_BN_INVITER_FRIEND_LIST_FULL,У этого игрока нет места в списке друзей Blizzard.,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
 43043,ERR_AUCTION_COMMODITY_WON_S,"Вы выиграли торги за предмет ""%s"" (x%d).",1
@@ -19496,13 +19496,13 @@ ID,BaseTag,TagText_lang,Flags
 43883,PARTY_VOICE,Голосовой чат группы,1
 43884,COMMUNITIES_VOICE,Голосовой чат сообществ,1
 43885,GUILD_VOICE,Голосовой чат гильдии,1
-43886,CHAT_PARTY_VOICE_GET,|Hchannel:PARTY_VOICE|h[Группа]|h %s:\32,1
+43886,CHAT_PARTY_VOICE_GET,|Hchannel:PARTY_VOICE|h[Группа]|h %s:\32,3
 43887,CHAT_GUILD_VOICE_GET,|Hchannel:GUILD_VOICE|h[Гильдия]|h %s:\32,1
 43888,CHAT_COMMUNITIES_VOICE_GET,%s:\32,1
 43889,SPELL_FAILED_SHADOWLANDS_RIDING_REQUIREMENT,Требуется навык полетов в Темных Землях.,1
 43890,LFG_LIST_WARMODE_ACTIVITY_FORMAT,%s (режим войны включен),1
 43892,VOICE_WINDOW,Голосовое общение,1
-43893,SPEECH_TO_TEXT_HEADER,Распознавание речи позволяет добавлять субтитры в голосовой канал.,1
+43893,SPEECH_TO_TEXT_HEADER,Распознавание речи позволяет добавлять субтитры в голосовой канал.,3
 43894,SPEECH_TO_TEXT_COUNT,"Количество игроков, использующих распознавание речи: %d.",1
 43895,SPEECH_TO_TEXT_STARTED,Начало распознавания.,1
 43896,SPEECH_TO_TEXT_JOINED,"Распознавание речи включено. Сообщения в чате видны только игрокам, присоединившимся к голосовому чату и включившим распознавание речи.",1
@@ -19517,7 +19517,7 @@ ID,BaseTag,TagText_lang,Flags
 43906,SLASH_PARTY_VOICE1,/ггр,1
 43907,SLASH_GUILD_VOICE1,/ггд,1
 43908,SLASH_COMMUNITIES_VOICE1,/гс,1
-43909,CHAT_PARTY_VOICE_SEND,Голосовой чат группы:\32,1
+43909,CHAT_PARTY_VOICE_SEND,Голосовой чат группы:\32,3
 43910,CHAT_GUILD_VOICE_SEND,Голосовой чат гильдии:\32,1
 43911,CHAT_COMMUNITIES_VOICE_SEND,Голосовой чат сообщества:\32,1
 43912,SPEECH_TO_TEXT_SUBTEXT,Подробнее в разделе о |cff00aaff|HurlIndex:15|hполитике конфиденциальности|h|r,1
@@ -19573,8 +19573,8 @@ ID,BaseTag,TagText_lang,Flags
 43975,TORGHAST_EARN_TOWER_KNOWLEDGE_TUTORIAL_TEXT,%s можно получать за победы в Торгасте,1
 43976,TORGHAST_SPEND_TOWER_KNOWLEDGE_TUTORIAL_TEXT,"%s позволяют приобретать таланты. Вкладывайте знания, чтобы открывать новые таланты.",1
 43977,GARRISON_TALENT_TREE_REQUIRED_CURRENCY_SPENT_FORMAT,%2$s: потратьте еще %1$i ед.,1
-43978,BNET_FRIEND_TOOLTIP_ZONE_AND_REALM,|cffffd200Зона: |r%1$s|n|cffffd200Игровой мир: |r%2$s,1
-43979,BNET_FRIEND_TOOLTIP_ZONE_AND_REGION,|cffffd200Зона: |r%1$s|n|cffffd200Регион: |r%2$s,1
+43978,BNET_FRIEND_TOOLTIP_ZONE_AND_REALM,|cffffd200Зона: |r%1$s|n|cffffd200Игровой мир: |r%2$s,3
+43979,BNET_FRIEND_TOOLTIP_ZONE_AND_REGION,|cffffd200Зона: |r%1$s|n|cffffd200Регион: |r%2$s,3
 43980,RECONNECT_BUTTON,Переподключение,2
 43981,SWITCH_ACCOUNTS_BUTTON,Выйти,2
 43982,ERR_TRAVEL_PASS_DIFFERENT_REGION,Другой регион,1
@@ -19681,7 +19681,7 @@ ID,BaseTag,TagText_lang,Flags
 44099,TEXT_TO_SPEECH_NARRATE_MY_MESSAGES,Зачитывать мои сообщения,1
 44100,ORIBOS_GREAT_VAULT_POI_TOOLTIP_INSTRUCTIONS,"Щелкните, чтобы осмотреть Великое хранилище.",1
 44101,LEVEL_UP_BATTLEGROUND_WITH_LINK,Открыто новое поле боя: |cff66bbff|Hbattleground:%d|h[%s]|h|r,1
-44103,CHAT_HELP_TEXT_LINE17,/твр – включить или выключить зачитывание вслух ваших сообщений в чате,1
+44103,CHAT_HELP_TEXT_LINE17,/твр – включить или выключить зачитывание вслух ваших сообщений в чате,3
 44104,HELP_TEXT_LINE16,"– чтобы получить список команд функции ""Текст в речь"", введите /твр помощь",1
 44105,LEVEL_UP_DUNGEON_WITH_LINK,Открыто новое подземелье: %s,1
 44106,LEVEL_UP_RAID_WITH_LINK,Открыт новый рейд: %s,1
@@ -20011,7 +20011,7 @@ ID,BaseTag,TagText_lang,Flags
 44472,CLICK_CAST_UNSAVED,"Вы не сохранили назначенные команды. Закрыв это окно, вы удалите все изменения.",1
 44473,CLICK_CAST_RESET,Сбросить все команды до стандартных?,1
 44481,POWER_TYPE_EPHEMERA,Эфемера,1
-44483,CHAT_CHANNEL_SEND_NO_ID,[%s]:\32,1
+44483,CHAT_CHANNEL_SEND_NO_ID,[%s]:\32,3
 44484,TRANSMOGRIFY_TOOLTIP_APPEARANCE_UNCOLLECTABLE,"Этот предмет нельзя трансмогрифицировать, но можно надеть",1
 44485,EMOTE623_CMD1,/сморщиться,1
 44486,EMOTE623_CMD2,/сморщиться,1
@@ -20234,7 +20234,7 @@ ID,BaseTag,TagText_lang,Flags
 48848,REPORT_CLUB_FINDER,Пожаловаться,1
 48849,REPORT_GROUP_FINDER,Пожаловаться,1
 48850,REPORT_CLUB_MEMBER,Пожаловаться,1
-48851,REPORT_FRIEND,Пожаловаться,1
+48851,REPORT_FRIEND,Пожаловаться,3
 48852,REPORT_GROUP_MEMBER,Пожаловаться,1
 48853,LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP,Данное действие недоступно для межфракционных групп.|n|nВашу группу смогут увидеть только игроки из фракции %1$s.,1
 48854,EXPANSION_NAME9,Dragonflight,7
@@ -20400,8 +20400,7 @@ ID,BaseTag,TagText_lang,Flags
 49060,SETTING_EMPOWERED_SPELL_INPUT,Применение усиленных заклинаний,1
 49061,SETTING_EMPOWERED_SPELL_INPUT_HOLD_OPTION,Зажимать и отпускать,1
 49062,SETTING_EMPOWERED_SPELL_INPUT_TAP_OPTION,Двойное нажатие,1
-49063,SETTING_EMPOWERED_SPELL_INPUT_TOOLTIP,"Только для пробудителей.
-Усиленные заклинания, в отличие от обычных и поддерживаемых, нужно сначала зарядить, а потом применить.",1
+49063,SETTING_EMPOWERED_SPELL_INPUT_TOOLTIP,"Усиленные заклинания, в отличие от обычных и поддерживаемых, нужно сначала зарядить, а потом применить.",1
 49064,SETTING_EMPOWERED_SPELL_INPUT_HOLD_OPTION_TOOLTIP,"Функция ""Зажимать и отпускать"" начинает применять заклинание, когда вы зажмете клавишу, и выпускает его, когда вы перестаете ее удерживать.",1
 49065,SETTING_EMPOWERED_SPELL_INPUT_TAP_OPTION_TOOLTIP,"При ""Двойном нажатии"" первое нажатие заряжает заклинание, а второе – выпускает его.",1
 49067,PERKS_PROGRAM_CONFIRM_CLEAR_FROZEN_ITEM,Убрать этот замороженный предмет?,1
@@ -20963,7 +20962,7 @@ ID,BaseTag,TagText_lang,Flags
 49709,OPTION_TOOLTIP_TARGET_TOOLTIP,Показывает подсказку цели без наведения указателя мыши.,1
 49710,INTERACT_ICONS_OPTION,Значки клавиш взаимодействия,1
 49711,OPTION_TOOLTIP_INTERACT_ICONS,"Определяет, какие значки появляются над НИП и объектами, если включен параметр клавиши взаимодействия.",1
-49712,INTERACT_ICONS_DEFAULT,По умолчанию,1
+49712,INTERACT_ICONS_DEFAULT,Только NPC (по умолчанию),1
 49713,INTERACT_ICONS_SHOW_ALL,Показать все,5
 49714,INTERACT_ICONS_SHOW_NONE,Не показывать,1
 49715,PROFESSIONS_START_RECRAFTING_ORDER,Заказ на переделку,1
@@ -21429,7 +21428,7 @@ ID,BaseTag,TagText_lang,Flags
 чтобы выполнять задачи и получать награды в торговой лавке",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Прочность снаряжения,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Размер,1
-50199,MONTHLY_ACTIVITIES_PROGRESSED,Прогресс журнала путешественника,1
+50199,MONTHLY_ACTIVITIES_PROGRESSED,Журнал путешественника,1
 50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Посетите торговую лавку в городе %s и получите журнал путешественника.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Стартовый|nРПС,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Выполняйте задачи путешественника каждый месяц, чтобы получать торговые жетоны и особые награды из сундука коллекционера.
@@ -21513,6 +21512,9 @@ ID,BaseTag,TagText_lang,Flags
 50311,GEM_TEXT_PRIMORDIAL,Для изначального гнезда.,1
 50312,NEW_SPOKEN_LANGUAGE_HELPTIP,Вы выучили новый язык. Изменить язык общения можно здесь.,1
 50313,SPELL_FAILED_CUSTOM_ERROR_999,Вы не вставили камень вихрей моджо.,1
+50315,WOW_LABS_PRESENCE_GAME_STATE_FRONTEND,Главное меню,3
+50316,WOW_LABS_PRESENCE_GAME_STATE_INGAME_LOBBY,Лобби матча,3
+50317,WOW_LABS_PRESENCE_GAME_STATE_INGAME_MATCH,Игра,3
 50318,PLAYER_CHOICE_ENVOY_EXPLORERS,Помочь сегодня Драконьей экспедиции?,1
 50319,PLAYER_CHOICE_ENVOY_TUSKARR,Помочь сегодня искарским клыкаррам?,1
 50320,PLAYER_CHOICE_ENVOY_CENTAUR,Помочь сегодня кентаврам Маруук?,1
@@ -21528,6 +21530,7 @@ ID,BaseTag,TagText_lang,Flags
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Пожаловаться]|w|h|r,1
 50333,101_CutsceneName_Ref,Наз'уро,1
 50334,TALENTS_LINK_FORMAT,"Связанные таланты (%2$s, %1$s)",1
+50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,В очереди,3
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,"Выберите новую расу и персонализируйте героя. Когда вы завершите этот процесс, ваш герой навсегда превратится в представителя другой расы.",2
 50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Отправить в чат,1
 50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Скопировать |cnNORMAL_FONT_COLOR:(для загрузки в интернет)|r,1
@@ -21966,6 +21969,11 @@ ID,BaseTag,TagText_lang,Flags
 51538,PERKS_PROGRAM_SLOW_PURCHASE,"Обработка данной покупки требует больше времени, чем обычно. Она продолжится в фоновом режиме.",1
 51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Вернуться в торговую лавку,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,У вас нет предметов этого типа.,1
+51541,KIOSK_SESSION_STARTED_BODY,"Новое Древо Жизни цветет в Изумрудном Сне.
+Фиракку нужна сила Источника,
+чтобы завладеть сердцем Древа
+и сжечь в огне весь Азерот.",1
+51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Хранители Сна,1
 51543,KIOSK_ENTER,Войти в игровой мир,2
 51547,PERKS_PROGRAM_PENDING,Ожидание,1
 51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,"Обработка данной покупки требует больше времени, чем обычно. Вы получите ее, как только обработка завершится.",1
@@ -21990,20 +21998,131 @@ ID,BaseTag,TagText_lang,Flags
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Ваш персонаж не может преобразить этот предмет.,1
 51579,COLOR_PICKER_HEX,HEX-код,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Нельзя назначить главой гильдии игрока из противоположной фракции.,1
+51583,FRONT_END_LOBBY_SOLO,Соло,2
+51584,FRONT_END_LOBBY_DUO,Дуэт,2
+51585,FRONT_END_LOBBY_TRIOS,Трио,2
+51590,WOWLABS_CUSTOMIZE_CHARACTER,Настроить персонажа,3
+51591,WOWLABS_JOIN_GAME,Присоединиться,3
+51592,WOWLABS_MAINLINE,Основное,3
+51598,FRONT_END_LOBBY_QUEUE_TIME,Время ожидания: %s,2
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Эффекты экрана в режиме динамичного полета,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Отключение визуальных эффектов экрана поможет избежать укачивания.,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Функции для избежания укачивания уменьшают подвижность камеры и фиксируют персонаж в центре экрана.,1
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,"Вы можете заменить замороженный предмет в любой момент, перетянув на его место новый.",1
 51628,NPE_UNBOUND_KEYBIND,[Не назначено],1
+51631,TOAST_NEW_FRIEND_INVITE_WOWLABS,Вам пришло новое предложение дружбы.,3
+51632,TOAST_NEW_PARTY_INVITE_WOWLABS,Вам пришло новое приглашение в группу.,3
+51634,WOWLABS_FRIENDS_GLUE,Друзья,2
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,"Добавить в ""Избранное""",3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,"Удалить из ""Избранного""",3
 51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Осталось: %s,1
+51650,BN_BLOCK_FRIEND,Блокировка,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Это событие еще не началось,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Это событие уже закончилось,1
 51653,QUEST_TEXT_PREVIEW_TITLE,Пример,1
 51654,QUEST_TEXT_PREVIEW_BODY,Предварительный просмотр окна с текстом предлагаемого задания при выборе альтернативного цвета фона.,1
+51655,WOWLABS_BINDING_HEADER,Пиратская буря,1
+51656,BINDING_NAME_WOWLABS_ACTIONBUTTON1,Атака,1
+51657,BINDING_NAME_WOWLABS_ACTIONBUTTON2,Зелье здоровья,1
+51658,BINDING_NAME_WOWLABS_ITEM1,Предмет,1
+51659,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON1,Атакующее заклинание 1,1
+51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Атакующее заклинание 2,1
+51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Вспомогательное заклинание 1,1
+51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Вспомогательное заклинание 2,1
+51667,SPELL_FAILED_CUSTOM_ERROR_870,Данный предмет нельзя использовать в текущем сезоне.,1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Режим: %s,1
+51699,LEVEL_UP_NO_LINK,"Поздравляем, вы достигли |cffFF4E00%d-го уровня|r!",1
+51700,SPECTATE,Наблюдение,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Вы получите следующие предметы:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d игроков,1
+51719,WOW_LABS_REMATCH,Покинуть бой,3
+51720,LFG_LIST_BEST_FOR_DUNGEON,Лучшее для подземелья,1
+51721,LFG_LIST_BEST_RUN,Лучшее прохождение,1
+51723,SPELL_FAILED_CUSTOMERROR_1011,Лимит достигнут.,1
+51724,ITEM_ALREADY_MAX_QUALITY,У вас уже максимальное количество данного предмета.,1
+51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Установите диапазон уровней (например, 14-16 или 15-15), чтобы получить более точные результаты поиска.",1
+51726,MEMBERS_COLON,Участники:,1
 51727,WOW_ERROR_337,Для доступа к этому игровому миру требуется учетная запись с соответствующей лицензией.,2
+51733,GROUPFINDER_PLUS,+,1
+51735,ADD_BATTLENET_FRIEND_LABEL,Введите имя друга в BattleNet (включая номер):,3
+51738,GLUE_LEAVE_PARTY,Покинуть группу,3
+51739,GLUE_REMOVE_FROM_PARTY,Исключить из группы,3
+51740,LFG_LIST_NEEDS_TANK,Требуется танк,1
+51749,LFG_LIST_CLASS_AVAILABLE,Требуется мой класс,1
+51754,ERR_QUEST_PUSH_HIGH_FACTION_S,"%1$s не может принять это задание, потому что для него требуется репутация ниже.",1
+51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Вы не можете принять задание ""%2$s"" у игрока %1$s. У вас слишком высокая репутация.",1
+51756,ADDON_DEP_NOT_AVAILABLE,Зависимость недоступна,3
+51757,ADDON_EXCLUDED_FROM_BUILD,Исключено в данной версии,3
+51758,ADDON_DEP_EXCLUDED_FROM_BUILD,Зависимость исключена из данной версии,3
+51759,ADDON_NO_ACTIVE_INTERFACE,Нет активного интерфейса,3
+51760,ADDON_DEP_NO_ACTIVE_INTERFACE,У зависимости нет активного интерфейса,3
+51761,ADDON_WRONG_ACTIVE_INTERFACE,Неверный активный интерфейс,3
+51762,ADDON_DEP_WRONG_ACTIVE_INTERFACE,У зависимости неверный активный интерфейс,3
+51763,ADDON_WRONG_GAME_TYPE,Неверный тип игры,3
+51764,ADDON_DEP_WRONG_GAME_TYPE,Для зависимости установлен неверный тип игры,3
+51765,ADDON_WRONG_LOAD_PHASE,Неверная фаза загрузки,3
+51766,ADDON_DEP_WRONG_LOAD_PHASE,Для зависимости установлена неверная фаза загрузки,3
+51767,ADDON_USER_ADDONS_DISABLED,Пользовательские модификации отключены,3
+51768,ADDON_DEP_USER_ADDONS_DISABLED,Связанные модификации отключены,3
+51771,LFG_LIST_NEEDS_HEALER,Требуется лекарь,1
+51772,LFG_LIST_NEEDS_DAMAGE,Требуется боец,1
+51773,LFG_LIST_HAS_TANK,Есть танк,1
+51774,LFG_LIST_HAS_HEALER,Есть лекарь,1
+51775,LFG_LIST_DIFFICULTY,Сложность,1
+51776,LFG_LIST_REQUIRE,Требование,1
+51780,DRAGONRIDING_RACES_MAP_TOGGLE,Гонки на драконах,1
+51784,WOW_LABS_ATTACK_TOOLTIP,Атака,1
+51785,WOW_LABS_HEAL_TOOLTIP,Исцеление,1
+51786,WOW_LABS_UTILITY_TOOLTIP,Вспомогательное,1
+51787,WOW_LABS_OFFENSIVE_TOOLTIP,Атакующее,1
+51788,WOW_LABS_ITEM_SLOT_TOOLTIP,Предмет,1
+51789,PLUNDERSTORM_RENOWN_LEVEL_TOOLTIP,"Собирайте добычу, чтобы зарабатывать награды.",1
+51794,WOWLABS_GAMEMODE_HEADER,Пиратская буря,3
+51795,WOWLABS_GAMEMODE_DESC,"Сражение пиратов в грандиозном поединке за первенство.\n\nВставайте в очередь в одиночку или вместе с другом.
+
+",3
+51798,INVTYPE_NON_EQUIP_IGNORE,,1
+51804,WOWLABS_FIND_GAME_SOLO,"Поиск игры ""Соло""",3
+51805,WOWLABS_FIND_GAME_DUO,"Поиск игры ""Дуэты""",3
+51806,WOWLABS_FIND_GAME_TRIO,"Поиск игры ""Трио""",3
+51807,WOW_LABS_STAY,Остаться,1
+51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Товарищ по команде все еще может вас оживить.|n|nВы действительно хотите покинуть матч?,1
+51809,FRONT_END_LOBBY_SOLOS,Соло,2
+51810,FRONT_END_LOBBY_DUOS,Дуэты,2
+51815,WOWLABS_INVITE_FRIEND,Пригласить друга,3
+51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Максимальный уровень,1
+51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Улучшение:,1
+51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Сокращает время восстановления и увеличивает урон (если возможно).,1
+51832,WOWLABS_GAME_BASICS_TITLE,"Основы ""Пиратской бури""",3
+51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Побеждает тот, кто последним останется в живых.
+
+|cffffffff2.|r Убивайте противников и существ, чтобы повышать уровень и получать заклинания.
+
+|cffffffff3.|r Улучшайте заклинания, собирая их копии.
+
+|cffffffff4.|r Не забывайте использовать исцеляющую способность, если у вашего персонажа мало здоровья.",3
+51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Выполняйте задания и собирайте награбленное, чтобы открывать новые награды у Да'каша Мракочета. Его можно найти в зоне ожидания.|n|n|cff00ff00Награда за %1$d-й уровень:|r",3
+51837,WOWLABS_RENOWN_PREVIEW_TITLE,Известность,3
+51838,WOWLABS_READY_GAME,Готовность,3
+51840,WOWLABS_SUB_REQUIRED,Для доступа требуется учетная запись с активной подпиской или игровым временем.,3
+51841,WOWLABS_SUBSCRIBE_NOW,Оформить подписку,2
+51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Ожидание других игроков...,2
+51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Группа в лобби]|h %1$s:\32,3
+51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Группа в лобби]|h %1$s:\32,1
+51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Группа в лобби:\32,1
+51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Группа в лобби,1
+51849,WOW_LABS_VIEW_REWARDS,Награды,1
+51850,EXPANSION_SEASON_NAME,%2$d-й сезон %1$s,1
+51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Можно воскресить,1
+51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,"Воскресите участника команды, встав рядом с ним",1
+51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Всего награбленного:,3
+51867,LIMITED_TIME_EVENT,ВРЕМЕННОЕ|nСОБЫТИЕ,3
+51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Пиратская буря,1
+51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Взаимодействие,1
+51878,SPELL_FAILED_CUSTOM_ERROR_1026,Нельзя сменить восстанавливающееся заклинание в ходе боя.,1
+51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Ваша команда еще не выбыла. Если вы уйдете сейчас, то потеряете все награбленное за этот матч.|n|nПокинуть матч?
+",1
+51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,"Вы еще не выбыли. Если вы выйдете сейчас, то потеряете все награбленное за этот матч.|n|nПокинуть матч?",1
+51917,WOWLABS_CURRENCY_PICKUP,+%s к награбленному,3
+51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,"Не удалось перейти в режим ""Пиратская буря"". Повторите попытку позже.",2

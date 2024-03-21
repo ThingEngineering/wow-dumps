@@ -485,7 +485,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 276593,Totem dei Cantaguerra distrutti,0,50,87264,10,92,9,37629
 276594,Tracciamento obiettivo - Sacca,2,100000,237264,11,92,10,37629
 276595,Tracciamento obiettivo - Cassa,2,100000,237263,12,92,11,37629
-276596,Chiave delle Catene consegnata,0,1,89159,7,12,3,35637
+276596,Consegna la Chiave delle Catene,0,1,89159,7,12,3,35637
 276597,Progresso dell'assalto al Posto di Guardia dei Mok'gol,15,1,0,0,0,0,37630
 276598,Nemici minori sconfitti,0,100,86955,1,92,0,37630
 276599,Nemici uccisi,0,34,86957,2,92,1,37630
@@ -562,7 +562,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 276670,Oggetti degli Sha'tar recuperati,0,34,84997,10,92,11,37636
 276671,Cadaveri di Orco,0,100,85393,11,92,13,37636
 276672,Guardie catturate,0,34,85103,12,92,4,37636
-276673,Chiave delle Catene consegnata,0,1,89160,7,12,3,35641
+276673,Consegna la Chiave delle Catene,0,1,89160,7,12,3,35641
 276676,Raccolta,0,50,87510,8,92,1,36826
 276677,Raccolta,0,50,87510,8,92,2,36827
 276678,Raccolta,0,34,87510,8,92,1,37625
@@ -2071,7 +2071,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 283847,,0,1,98757,3,0,2,42174
 283857,Regina Bretta uccisa,0,1,106587,1,1,1,42176
 283863,Trasmettitore caricato,0,1,90866,0,0,0,42178
-283864,Livello di carica raggiunto,0,100,90903,1,12,1,42178
+283864,Livello di carica,0,100,90903,1,12,1,42178
 283870,Worgen del Presidio Grigio uccisi,0,10,94614,0,0,0,42182
 283871,Calcaterrore dei Reietti uccisi,0,10,94338,0,0,0,42183
 283876,Ualair ucciso,0,1,106665,2,3,1,42172
@@ -3076,7 +3076,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 289345,,0,1,120059,6,28,6,45358
 289346,Uova Vilcorrotte distrutte,2,12,267224,0,0,0,45178
 289347,Strega Matrona Magora uccisa,0,1,120068,1,1,1,45178
-289360,Bombe Fumogene recuperate,0,1,120075,0,12,2,46212
+289360,Recupera le Bombe Fumogene,0,1,120075,0,12,2,46212
 289381,Vilfuoco estinto,15,1,0,1,2,0,46201
 289382,,0,20,120103,3,92,1,46201
 289383,Unito le forze con il Campione Acquapura,0,1,120085,0,1,2,46201
@@ -8782,7 +8782,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 437451,,0,8,208113,4,92,1,76739
 437452,,0,5,208111,5,92,2,76739
 437453,,0,34,208107,6,92,4,76739
-437454,Trasferisci le informazioni alla reliquia,0,1,215297,7,28,6,76739
+437454,,0,1,215297,7,28,6,76739
 437466,,0,1,208130,1,28,3,76911
 437467,Raccogli le informazioni,15,1,0,2,2,0,76911
 437468,,0,12,208137,3,92,0,76911
@@ -8989,4 +8989,24 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 445620,Parla con Carboncino,0,1,215282,0,0,5,76734
 445631,Parla con Frittella,0,1,215296,0,0,5,76739
 445632,Parla con Peikon,0,1,215309,0,0,5,76911
+445875,Apri le casse,0,2,215705,0,0,0,79246
+445883,Uccidi le creature,0,10,215715,0,0,0,79249
+445893,,0,1,216123,0,1,1,79254
+446010,,0,1,216117,0,1,0,79315
+446012,,0,1,216118,0,1,1,79316
+446013,,0,1,216119,0,1,0,79317
+446014,,0,1,216120,0,1,0,79318
+446015,,0,1,216121,0,1,0,79319
+446016,,0,1,216122,0,1,0,79320
 446078,,0,13,216305,10,92,9,76558
+446172,Uccidi le creature d'élite,0,2,215714,0,0,1,79379
+446176,Recupera gli oggetti,0,2,216528,0,0,1,79381
+446178,Recupera gli incantesimi,0,3,216529,0,0,1,79382
+446918,Brandisci la tua spada,0,1,218099,0,0,0,79965
+446919,Bevi la Birra della Salute,0,1,218107,1,0,1,79965
+446920,Controlla la Fama da Da'kash Mastrotetro,0,1,218108,2,0,2,79965
+446925,Raccogli un incantesimo,0,1,216529,4,0,5,79965
+446929,Apri un forziere,0,1,218149,3,0,7,79965
+446939,Prova a resuscitare un pirata morto,0,1,218156,5,0,10,79965
+447288,Bottino raccolto,0,30,218731,0,0,1,80081
+447346,Completa Ordini del capitano,0,1,218946,0,0,0,80110

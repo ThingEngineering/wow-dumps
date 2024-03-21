@@ -73,17 +73,17 @@ ID,BaseTag,TagText_lang,Flags
 9676,BANKSLOTPURCHASE,Kaufen,1
 9677,ADD_FRIEND,+ Kontakt,3
 9678,ADD_IGNORE_LABEL,Gebt den Namen des zu ignorierenden Spielers ein\noder\nUmschalt-klickt auf einen Namen im Chatfenster:,1
-9679,REMOVE_FRIEND,Kontakt entfernen,1
-9680,GROUP_INVITE,Gruppeneinlad.,1
+9679,REMOVE_FRIEND,Kontakt entfernen,3
+9680,GROUP_INVITE,Gruppeneinlad.,3
 9681,SEND_MESSAGE,Nachricht senden,3
 9682,FRIENDS,Freunde,3
-9683,FRIENDS_LIST,Kontaktliste,1
+9683,FRIENDS_LIST,Kontaktliste,3
 9684,IGNORE,Ignorieren,3
-9685,IGNORE_PLAYER,Ignorieren,1
+9685,IGNORE_PLAYER,Ignorieren,3
 9686,GROUPS,Gruppen,1
 9687,WHO,Wer,1
-9688,FRIENDS_LIST_TEMPLATE,|cffffffff- %s|r %s,1
-9689,FRIENDS_LEVEL_TEMPLATE,Stufe %1$d %2$s,1
+9688,FRIENDS_LIST_TEMPLATE,|cffffffff- %s|r %s,3
+9689,FRIENDS_LEVEL_TEMPLATE,Stufe %1$d %2$s,3
 9690,ITEM_BIND_ON_EQUIP,Wird beim Anlegen gebunden,5
 9691,ITEM_BIND_ON_USE,Wird bei Benutzung gebunden,5
 9692,ITEM_BIND_QUEST,Questgegenstand,5
@@ -121,7 +121,7 @@ ID,BaseTag,TagText_lang,Flags
 9724,JOINED_PARTY,%s schließt sich der Gruppe an.,1
 9725,LEFT_PARTY,%s verlässt die Gruppe.,1
 9726,NOT_IN_GROUP,Ihr gehört jetzt nicht mehr zu einer Gruppe.,1
-9727,PARTY_INVITE,Einladen,1
+9727,PARTY_INVITE,Einladen,3
 9728,PARTY_LEAVE,Gruppe verlassen,1
 9729,PARTY_PROMOTE,Zum Anführer befördern,1
 9730,PARTY_UNINVITE,Einladung rückgängig machen,1
@@ -166,7 +166,7 @@ ID,BaseTag,TagText_lang,Flags
 9786,RACE_CLASS_ONLY,Nur %1$s,5
 9787,SKILL_RANK_UP,Eure Fertigkeit '%1$s' hat sich auf %2$d erhöht.,1
 9788,ABILITIES,Fähigkeiten,5
-9789,ACCEPT,Annehmen,5
+9789,ACCEPT,Annehmen,7
 9790,ARMOR,Rüstung,7
 9791,CANCEL,Abbrechen,7
 9792,CHARACTER,Charakter,3
@@ -198,7 +198,7 @@ ID,BaseTag,TagText_lang,Flags
 9818,SPEED,Geschwindigkeit,7
 9819,SPELLBOOK,Zauberbuch,1
 9820,SPELLS,Zauber,1
-9821,UNKNOWN,Unbekannt,1
+9821,UNKNOWN,Unbekannt,3
 9822,XP,EP,5
 9823,HP,GP,1
 9824,MP,MP,1
@@ -297,24 +297,24 @@ ID,BaseTag,TagText_lang,Flags
 9936,CHAT_GUILD_PROMOTE_SEND,Befördern,1
 9937,CHAT_GUILD_DEMOTE_SEND,Rückstufen,1
 9938,CHAT_GUILD_LEADER_SEND,Gildenmeister bestimmen:,1
-9939,CHAT_INVITE_SEND,Einladen,1
+9939,CHAT_INVITE_SEND,Einladen,3
 9940,CHAT_MONSTER_SAY_GET,%s sagt:\32,1
 9941,CHAT_MONSTER_EMOTE_GET,,1
 9942,CHAT_OFFICER_GET,|Hchannel:OFFICER|h[Offizier]|h %s:\32,1
 9943,CHAT_OFFICER_SEND,Offizier:\32,1
-9944,CHAT_PARTY_SEND,Gruppe:\32,1
-9945,CHAT_PROMOTE_SEND,Befördern,1
+9944,CHAT_PARTY_SEND,Gruppe:\32,3
+9945,CHAT_PROMOTE_SEND,Befördern,3
 9946,CHAT_SAY_GET,%s sagt:\32,1
-9947,CHAT_SAY_SEND,Sagen:\32,1
-9948,CHAT_UNINVITE_SEND,Einladung rückgängig machen,1
+9947,CHAT_SAY_SEND,Sagen:\32,3
+9948,CHAT_UNINVITE_SEND,Einladung rückgängig machen,3
 9949,CHAT_WHISPER_INFORM_GET,An %s:\32,1
 9950,CHAT_WHISPER_GET,%s flüstert:\32,1
-9951,CHAT_WHISPER_SEND,%s erzählen:\32,1
+9951,CHAT_WHISPER_SEND,%s erzählen:\32,3
 9952,CHAT_YELL_SEND,Schreien:\32,1
 9953,CHAT_CHANNEL_LEAVE_GET,%s hat den Channel verlassen.,1
-9954,CHAT_YOU_LEFT_NOTICE,Channel verlassen: |Hchannel:%d|h[%s]|h,1
+9954,CHAT_YOU_LEFT_NOTICE,Channel verlassen: |Hchannel:%d|h[%s]|h,3
 9955,CHAT_CHANNEL_GET,%s:\32,1
-9956,CHAT_CHANNEL_SEND,[%d. %s]:\32,1
+9956,CHAT_CHANNEL_SEND,[%d. %s]:\32,3
 9957,CHAT_CHANNEL_LIST_GET,|Hchannel:CHANNEL:%d|h[%s]|h\32,1
 9958,CHAT_NOT_MODERATOR_NOTICE,Nicht Moderator von |Hchannel:%d|h[%s]|h.,1
 9959,CHAT_PASSWORD_CHANGED_NOTICE,|Hchannel:%d|h[%s]|h Passwort wurde von %s geändert.,1
@@ -333,10 +333,10 @@ ID,BaseTag,TagText_lang,Flags
 9972,CHAT_IGNORED,%s ignoriert Euch.,1
 9973,EMOTE_MESSAGE,Emote,1
 9974,GUILD_MESSAGE,Gildenchat,1
-9975,PARTY_MESSAGE,Gruppenchat,1
-9976,REPLY_MESSAGE,Antworten,1
+9975,PARTY_MESSAGE,Gruppenchat,3
+9976,REPLY_MESSAGE,Antworten,3
 9977,SAY_MESSAGE,Sagen,1
-9978,WHISPER_MESSAGE,Flüstern,1
+9978,WHISPER_MESSAGE,Flüstern,3
 9979,SLASH_ASSIST1,/a,1
 9980,SLASH_EMOTE1,/e,1
 9981,SLASH_EMOTE2,/em,1
@@ -369,12 +369,12 @@ ID,BaseTag,TagText_lang,Flags
 10009,SLASH_INVITE2,/einladen,1
 10010,SLASH_OFFICER1,/o,1
 10011,SLASH_OFFICER2,/osagen,1
-10012,SLASH_PARTY1,/p,1
-10013,SLASH_PARTY2,/Gruppe,1
+10012,SLASH_PARTY1,/p,3
+10013,SLASH_PARTY2,/Gruppe,3
 10014,SLASH_PLAYED1,/gespielt,1
 10015,SLASH_PROMOTE1,/bef,1
 10016,SLASH_PROMOTE2,/befördern,1
-10017,SLASH_REPLY1,/r,1
+10017,SLASH_REPLY1,/r,3
 10018,SLASH_SAY1,/s,1
 10019,SLASH_TIME1,/Zeit,1
 10020,SLASH_TRADE2,/handeln,1
@@ -474,12 +474,12 @@ ID,BaseTag,TagText_lang,Flags
 10134,TRADE_SKILLS,Berufe,1
 10135,HELP_TEXT_LINE12,"- 'r' oder '/r', um auf das zuletzt mit 'tell' Gesagte zu antworten.",1
 10136,HELP_TEXT_LINE13,"- /wer, um eine Spielerliste anzuzeigen.",1
-10137,CHAT_HELP_TEXT_LINE2,"/#, /c, /csagen - Text an den Channel mit der Nummer (z. B. /1 Hi!) senden.",1
-10138,CHAT_HELP_TEXT_LINE4,"/beitreten, /channel, /chan - Einem Channel beitreten.",1
-10139,CHAT_HELP_TEXT_LINE8,/Besitzer <Channel> [Spieler] - Channelbesitzer anzeigen oder ändern.,1
+10137,CHAT_HELP_TEXT_LINE2,"/#, /c, /csagen - Text an den Channel mit der Nummer (z. B. /1 Hi!) senden.",3
+10138,CHAT_HELP_TEXT_LINE4,"/beitreten, /channel, /chan - Einem Channel beitreten.",3
+10139,CHAT_HELP_TEXT_LINE8,/Besitzer <Channel> [Spieler] - Channelbesitzer anzeigen oder ändern.,3
 10140,CHAT_HELP_TEXT_LINE9,"/mod, /moderator, 
 ichtmod, 
-ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
+ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 10141,GUILD_HELP_TEXT_LINE1,"Um eine Gilde zu erstellen, gebt Ihr im Interface 'guildcreate <Gildenname>' ein.",1
 10142,GUILD_HELP_TEXT_LINE4,'/o <Nachricht>' schickt eine Chatnachricht an alle Offiziere in Eurer Gilde.,1
 10143,GUILD_HELP_TEXT_LINE5,'/ginvite <Spieler>' lädt einen anderen Spieler in Eure Gilde ein.,1
@@ -554,7 +554,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 10268,ITEM_LEVEL_AND_MIN,Stufe %1$d (mind. %2$d),1
 10270,ASSIST_ATTACK,Angriff bei Unterstützen,1
 10271,SPELL_TARGET_TYPE15_DESC,Meister,1
-10272,ERR_FRIEND_WRONG_FACTION,Kontakte müssen Eurer Fraktion angehören.,1
+10272,ERR_FRIEND_WRONG_FACTION,Kontakte müssen Eurer Fraktion angehören.,3
 10273,SPELL_POINTS_SPREAD_TEMPLATE,%.1f bis %.1f,1
 10277,TRAINER_LIST_SP,%d FP,1
 10278,SPELL_USE_ALL_MANA,Verbraucht 100% Mana.,1
@@ -615,7 +615,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 10335,ERR_NEW_LEADER_YOU,Ihr seid jetzt der Gruppenanführer.,1
 10336,ERR_LEFT_GROUP_YOU,Ihr verlasst die Gruppe.,1
 10337,SLASH_UNINVITE4,/ausladen,1
-10338,SLASH_SMART_WHISPER1,/w,1
+10338,SLASH_SMART_WHISPER1,/w,3
 10339,SLASH_SMART_WHISPER3,/t,1
 10340,SLASH_SMART_WHISPER4,/erzählen,1
 10341,SLASH_SMART_WHISPER5,/senden,1
@@ -657,8 +657,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 10381,SLASH_CHAT_DND1,/dnd,1
 10382,SLASH_WHO1,/wer,1
 10383,SLASH_COMBATLOG1,/kampflog,1
-10384,SLASH_FRIENDS1,/kontakte,1
-10385,SLASH_FRIENDS2,/Freund,1
+10384,SLASH_FRIENDS1,/kontakte,3
+10385,SLASH_FRIENDS2,/Freund,3
 10386,SLASH_REMOVEFRIEND1,/entfernekontakt,1
 10387,SLASH_REMOVEFRIEND2,/entkontakt,1
 10388,LAUGH_WORD1,lol,1
@@ -683,7 +683,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 10408,ERR_CANNOTCREATEDIRECTORY,Verzeichnis %s kann nicht erstellt werden.,1
 10409,ERR_BANKSLOT_NOTBANKER,Diese Einheit ist kein Bankier!,1
 10410,ERR_FRIEND_DB_ERROR,Datenbankfehler bei der Kontaktsuche.,1
-10411,ERR_FRIEND_LIST_FULL,Es gibt keinen Platz für weitere Kontakte.,1
+10411,ERR_FRIEND_LIST_FULL,Es gibt keinen Platz für weitere Kontakte.,3
 10412,ERR_FRIEND_ONLINE_SS,|Hplayer:%s|h[%s]|h ist jetzt online.,1
 10413,ERR_FRIEND_NOT_FOUND,Spieler nicht gefunden.,1
 10414,ERR_FRIEND_SELF,Ihr könnt Euch nicht selbst auf Eure Kontaktliste setzen.,1
@@ -1023,7 +1023,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 10812,WHO_TAG_GUILD,g-,1
 10813,WHO_LIST_GUILD_FORMAT,"|Hplayer:%s|h[%s]|h: Stufe %d - %s, %s <%s> - %s",1
 10814,BLOCK_TRAILER, (%d geblockt),1
-10815,RENAME_CHAT_WINDOW,Fenster umbenennen,1
+10815,RENAME_CHAT_WINDOW,Fenster umbenennen,3
 10816,SKILL_LEARNING_COST_SINGULAR,Diese Fertigkeit erlernen: %1$s%2$d|r Fertigkeitspunkte.,1
 10817,ERR_GUILD_INTERNAL,Interner Gildenfehler.,1
 10818,ERR_GUILD_LEADER_IS_S,%s ist der Anführer Eurer Gilde.,1
@@ -1508,7 +1508,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11342,SPELL_FAILED_HIGHLEVEL,Stufe des Ziels ist zu hoch.,1
 11343,UNIT_SKINNABLE_LEATHER,Häutbar,1
 11349,COLOR,Farbe,1
-11350,CHAT_NAME_TEMPLATE,Chat %d,1
+11350,CHAT_NAME_TEMPLATE,Chat %d,3
 11351,VOICEMACRO_5_Dw_1_FEMALE,Ich brauche mehr Mana!,1
 11352,VOICEMACRO_7_Dw_1_FEMALE,Wartet hier.,1
 11353,VOICEMACRO_10_Dw_1_FEMALE,Eröffnet das Feuer!,1
@@ -1619,7 +1619,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11470,SLASH_SAY3,/s,1
 11471,SLASH_FOLLOW4,/f,1
 11472,SLASH_VOICEMACRO2,/v,1
-11473,CHAT_YOU_CHANGED_NOTICE,Channel gewechselt: |Hchannel:%d|h[%s]|h,1
+11473,CHAT_YOU_CHANGED_NOTICE,Channel gewechselt: |Hchannel:%d|h[%s]|h,3
 11474,BUG_CATEGORY1,Charakterklassen,1
 11475,SPELL_FAILED_TOO_MANY_OF_ITEM,Ihr habt bereits zu viele Exemplare dieses Gegenstandes.,1
 11476,TUTORIAL_TITLE21,Questlog,1
@@ -1656,7 +1656,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11509,SLASH_SMART_WHISPER6,/w,1
 11510,SLASH_CHANNEL3,/c,1
 11511,SLASH_MACRO3,/m,1
-11512,BACKGROUND,Hintergrund,1
+11512,BACKGROUND,Hintergrund,3
 11513,EMOTE150_CMD1,/ängstlich,1
 11514,EMOTE151_CMD1,/wälzen,1
 11515,EMOTE153_CMD1,/muh,1
@@ -1682,7 +1682,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11535,ERR_MAIL_SENT,Post verschickt.,1
 11536,COD_AMOUNT,Nachnahmegebühr:,1
 11537,BATTLEFIELD_LEVEL,Stufenreichweite:,1
-11538,GENERAL,Allgemein,1
+11538,GENERAL,Allgemein,3
 11539,COD_PAYMENT,Nachnahmezahlung: %1$s,1
 11541,INVTYPE_SHOULDER,Schulter,5
 11542,INVTYPE_WEAPONMAINHAND,Waffenhand,5
@@ -1691,7 +1691,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11545,NEXT_ABILITY,Nächste Fähigkeit,1
 11546,SKILLS,Fertigkeiten,1
 11547,CHAT_HELP_TEXT_LINE1,Chat-Befehle:,1
-11548,CHAT_HELP_TEXT_LINE10,"/stumm, /unterdrücken, /Stimmverbot, /laut, /erlauben, /Stimme <Channel> <Spieler> - Eine Spielerberechtigung ändern.",1
+11548,CHAT_HELP_TEXT_LINE10,"/stumm, /unterdrücken, /Stimmverbot, /laut, /erlauben, /Stimme <Channel> <Spieler> - Eine Spielerberechtigung ändern.",3
 11549,CHAT_JOIN_HELP,"Gebt /join <channelname> [password] ein, um einen neuen Channel zu erstellen oder um einem vorhandenen Channel beizutreten.",1
 11550,GUILD_HELP_TEXT_LINE8,/gdemote <Spieler>' degradiert einen Spieler in Eurer Gilde um einen Rang.,1
 11551,STARTUP_TEXT_LINE1,"Gebt '/hilfe' ein, um eine Übersicht über einige Befehle aufzurufen.",1
@@ -1791,11 +1791,11 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11662,SLASH_GUILD_UNINVITE3,/gremove,1
 11663,CHAT_UNSET_MODERATOR_NOTICE,|Hchannel:%d|h[%s]|h %s wurden die Moderationsprivilegien entzogen.,1
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h Chaterlaubnis an %s vergeben.,1
-11665,CHAT_HELP_TEXT_LINE11,"/ceinladen, /chateinladen <Channel> <Spieler> - Einen Spieler in einen Channel einladen.",1
-11666,CHAT_HELP_TEXT_LINE12,/ckick <Channel> <Spieler> - Einen Spieler aus einem Channel kicken.,1
-11667,CHAT_HELP_TEXT_LINE15,/moderieren <Channel> - Moderation für einen Channel ein/aus.,1
+11665,CHAT_HELP_TEXT_LINE11,"/ceinladen, /chateinladen <Channel> <Spieler> - Einen Spieler in einen Channel einladen.",3
+11666,CHAT_HELP_TEXT_LINE12,/ckick <Channel> <Spieler> - Einen Spieler aus einem Channel kicken.,3
+11667,CHAT_HELP_TEXT_LINE15,/moderieren <Channel> - Moderation für einen Channel ein/aus.,3
 11668,CHAT_HELP_TEXT_LINE16,"/afk, /away, /nat - Den Status auf AFK ('Away From Keyboard' - 'Nicht an der Tastatur') setzen. 
-/dnd, /busy, /bns - Den Status auf DND ('Do Not Disturb' - 'Bitte nicht stören') setzen.",1
+/dnd, /busy, /bns - Den Status auf DND ('Do Not Disturb' - 'Bitte nicht stören') setzen.",3
 11669,GUILD_HELP_TEXT_LINE2,'/ginfo' - Liefert einige grundlegende Informationen über Eure Gilde.,1
 11670,GUILD_HELP_TEXT_LINE6,'/gremove <Spieler>' - Entfernt einen Spieler aus Eurer Gilde.,1
 11671,GUILD_HELP_TEXT_LINE7,'/gpromote <Spieler>' - Befördert einen Spieler in Eurer Gilde einen Rang höher.,1
@@ -1914,9 +1914,9 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11792,RECOVER_CORPSE,Jetzt wiederbeleben?,1
 11795,WHO_LIST,Wer-Liste,1
 11796,PREFERENCES,Voreinstellungen,1
-11797,FONT_SIZE,Schriftgröße,1
+11797,FONT_SIZE,Schriftgröße,3
 11798,EMOTE152_CMD1,/Liebe,1
-11799,FONT_SIZE_TEMPLATE,%d Pt.,1
+11799,FONT_SIZE_TEMPLATE,%d Pt.,3
 11800,MESSAGE_TYPES,Nachrichtenarten,1
 11802,REPLACE_ENCHANT,"Möchtet Ihr \""%1$s\"" durch \""%2$s\"" ersetzen?",1
 11803,BUG_CATEGORY5,Benutzerinterface,1
@@ -1989,7 +1989,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11875,COMBAT_MESSAGES,Kampf-Nachrichten,1
 11881,QUEST_ACCEPT,%s startet %s.\nMöchtet Ihr teilnehmen?,1
 11882,TWOHANDEDWEAPONBEINGWIELDED,Ihr könnt das nicht in der anderen Hand tragen. Ihr haltet bereits einen zweihändigen Gegenstand!,1
-11884,ADD_FRIEND_LABEL,Gebt den Namen Eures Freundes ein:,1
+11884,ADD_FRIEND_LABEL,Gebt den Namen Eures Freundes ein:,3
 11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s - Offline|r,3
 11886,ITEM_MIN_LEVEL,Benötigt Stufe %d,5
 11887,ITEM_QUALITY0_DESC,Schlecht,5
@@ -2056,7 +2056,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 11960,TRAINER_REQ_LEVEL,Stufe |cffffffff%d|r,1
 11962,TRAINER_COST_SP_RED,|cffff2020%d|r Fertigkeitspunkte,1
 11963,CHAT_GUILD_INVITE_SEND,In Gilde einladen:,1
-11964,CHAT_PARTY_GET,|Hchannel:PARTY|h[Gruppe]|h %s:\32,1
+11964,CHAT_PARTY_GET,|Hchannel:PARTY|h[Gruppe]|h %s:\32,3
 11965,CHAT_NOT_OWNER_NOTICE,|Hchannel:%d|h[%s]|h Ihr seid nicht der Besitzer des Channels.,1
 11966,CHAT_INVITE_WRONG_FACTION_NOTICE,Ziel ist in der falschen Fraktion für %s.,1
 11967,SLASH_GUILD_INVITE2,/gildeeinladen,1
@@ -2146,7 +2146,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12057,ENABLE_AMBIENCE,Umgebungsgeräusche,3
 12058,TUTORIAL_TITLE18,Gruppieren,1
 12059,ERR_ZONE_EXPLORED_XP,%1$s entdeckt: %2$d Erfahrung erhalten.,1
-12060,CHAT_HELP_TEXT_LINE14,"/meldungen, /meld <channel> - Anzeige von Beitreten/Verlassen-Mitteilungen auf einem Channel ein-/ausschalten.",1
+12060,CHAT_HELP_TEXT_LINE14,"/meldungen, /meld <channel> - Anzeige von Beitreten/Verlassen-Mitteilungen auf einem Channel ein-/ausschalten.",3
 12061,SPELL_FAILED_ONLY_OUTDOORS,Kann nur draußen benutzt werden.,1
 12064,SPELL_TOTEMS,Benötigt:\32,1
 12065,SPELL_TARGET_CREATURE_TYPE_DEAD13_DESC,toter Feind %s,1
@@ -2179,7 +2179,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12094,MARKED_AFK,Ihr seid jetzt nicht an der Tastatur.,1
 12095,EMBLEM_BORDER_COLOR,Randfarbe,1
 12096,ERR_GUILDEMBLEM_COLORSPRESENT,Eure Gilde verfügt bereits über ein Emblem!,1
-12097,ERR_GUILD_NOT_ALLIED,Nur Battle.net-Freunde können von der gegnerischen Fraktion eingeladen werden.,1
+12097,ERR_GUILD_NOT_ALLIED,Nur Battle.net-Freunde können von der gegnerischen Fraktion eingeladen werden.,3
 12098,VOICEMACRO_4_Dw_0_FEMALE,Folgt mir in den Kampf!,1
 12099,VOICEMACRO_8_Dw_1_FEMALE,Kümmert Euch um meine Wunden!,1
 12100,VOICEMACRO_5_Ni_0,Ich habe wenig Mana!,1
@@ -2259,7 +2259,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12182,ENABLE_ERROR_SPEECH,Audiofehlermeldungen,3
 12183,TUTORIAL2,"Nutzt die Tasten A, S, D und W um Euren Charakter zu bewegen.",1
 12184,TUTORIAL6,Viele Eurer Fähigkeiten sind Angriffe mit Waffen oder Kampfzauber.|n|nAbhängig von der Klasse Eures Charakters habt Ihr gegebenenfalls auch Verteidigungsfähigkeiten oder sogar Heilzauber auf Eurer Aktionsleiste.,1
-12185,CHAT_HELP_TEXT_LINE5,"/verlassen, /chatverlassen, /chatexit [channel] - Einen Channel (oder alle Channels) verlassen.",1
+12185,CHAT_HELP_TEXT_LINE5,"/verlassen, /chatverlassen, /chatexit [channel] - Einen Channel (oder alle Channels) verlassen.",3
 12186,GUILD_HELP_TEXT_LINE10,/gquit' entfernt Euch aus der Gilde.,1
 12187,SPELL_FAILED_OUT_OF_RANGE,Außer Reichweite,1
 12188,SPELL_FAILED_TOTEMS,Benötigt %s,1
@@ -2409,7 +2409,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12365,SENDMAIL_TEXT,Hier Gegenstand und/oder Geld hinzufügen.,1
 12366,COOLDOWN_REMAINING,Verbleibende Abklingzeit:,1
 12367,STAMINA_COLON,Ausdauer:,1
-12368,CHAT_HELP_TEXT_LINE13,"/ausschließen, /zulassen <channel> <Spieler> - Spieler aus einem Channel ausschließen bzw. wieder zulassen.",1
+12368,CHAT_HELP_TEXT_LINE13,"/ausschließen, /zulassen <channel> <Spieler> - Spieler aus einem Channel ausschließen bzw. wieder zulassen.",3
 12369,TUTORIAL_TITLE19,Spieler,1
 12371,CONTESTED_TERRITORY,(Umkämpftes Territorium),1
 12372,SLASH_GUILD_INFO4,/guildinfo,1
@@ -2474,7 +2474,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12439,REMOVE_GUILDMEMBER_LABEL,Möchtet Ihr %s wirklich aus der Gilde entfernen?,5
 12441,TALENTS,Talente,5
 12445,SLASH_SMART_WHISPER8,/t,1
-12446,SLASH_SMART_WHISPER10,/send,1
+12446,SLASH_SMART_WHISPER10,/send,3
 12447,SLASH_CHAT_PASSWORD5,/pass,1
 12448,SLASH_REMOVEFRIEND3,/removefriend,1
 12449,SLASH_IGNORE2,/ignore,1
@@ -2557,8 +2557,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12530,SLASH_CHAT_CINVITE4,/chatinvite,1
 12531,SLASH_WHO2,/who,1
 12532,SLASH_COMBATLOG2,/combatlog,1
-12533,SLASH_FRIENDS3,/friends,1
-12534,SLASH_FRIENDS4,/friend,1
+12533,SLASH_FRIENDS3,/friends,3
+12534,SLASH_FRIENDS4,/friend,3
 12535,SLASH_REMOVEFRIEND4,/remfriend,1
 12536,EMOTE3_CMD3,/angry,1
 12537,EMOTE5_CMD5,/bravo,1
@@ -2614,7 +2614,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12593,PROFICIENCY_NEEDED,Ihr verfügt nicht über die erforderlichen Kenntnisse für diesen Gegenstand.,1
 12595,TWO_HANDED,Zweihändige Waffe,1
 12596,CHAT_MONSTER_YELL_GET,%s schreit:\32,1
-12597,CHAT_YOU_JOINED_NOTICE,Channel beigetreten: |Hchannel:%d|h[%s]|h,1
+12597,CHAT_YOU_JOINED_NOTICE,Channel beigetreten: |Hchannel:%d|h[%s]|h,3
 12604,SPELL_ON_NEXT_SWING,Nächster Nahkampf,1
 12605,SPELL_DURATION,Dauer: %s,1
 12606,SPELL_TARGET_TYPE0_DESC,Zaubernder,1
@@ -2683,10 +2683,10 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12673,ERR_LOOT_WHILE_INVULNERABLE,"Ihr könnt nicht plündern, während Ihr unverwundbar seid.",1
 12674,LOCK_WINDOW,Fenster fixieren,1
 12675,UNLOCK_WINDOW,Fenster freigeben,1
-12676,NEW_CHAT_WINDOW,Neues Fenster erstellen,1
+12676,NEW_CHAT_WINDOW,Neues Fenster erstellen,3
 12677,CLOSE_CHAT_WINDOW,Fenster schließen,1
 12678,DISPLAY,Anzeige,3
-12679,FILTERS,Filter,5
+12679,FILTERS,Filter,7
 12680,OTHER_MESSAGES,Andere Nachrichten,1
 12681,ERR_AUCTION_QUEST_ITEM,Ihr könnt keinen Questgegenstand verkaufen.,1
 12682,ERR_AUCTION_BOUND_ITEM,Ihr könnt keinen seelengebundenen Gegenstand verkaufen.,5
@@ -2703,8 +2703,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12696,ERR_USE_LOCKED,Gegenstand ist verschlossen.,1
 12697,ERR_SET_LOOT_MASTER,"Plündern zu ""Plündermeister"" geändert.",1
 12698,ERR_BANKSLOT_INSUFFICIENT_FUNDS,Das könnt Ihr Euch nicht leisten.,1
-12699,ERR_FRIEND_ADDED_S,%s zur Kontaktliste hinzugefügt.,1
-12700,ERR_FRIEND_REMOVED_S,%s von Kontaktliste entfernt.,1
+12699,ERR_FRIEND_ADDED_S,%s zur Kontaktliste hinzugefügt.,3
+12700,ERR_FRIEND_REMOVED_S,%s von Kontaktliste entfernt.,3
 12701,ERR_FRIEND_ALREADY_S,%s ist bereits einer Eurer Kontakte.,1
 12708,ERR_WRONG_BAG_TYPE_SUBCLASS,Ihr könnt hier nur %1$s ablegen.,1
 12713,ITEM_COOLDOWN_TIME_SEC,Verbleibende Abklingzeit: %d Sek.,1
@@ -2877,8 +2877,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 12981,ERR_AUCTION_WRAPPED_ITEM,Ihr könnt keinen verpackten Gegenstand versteigern.,1
 12982,AMMOSLOT,Munition,1
 12983,ERR_AUCTION_LOOT_ITEM,Ihr könnt keinen plünderbaren Gegenstand versteigern.,1
-12984,CHAT_MSG_WHISPER,Euch wurde etwas zugeflüstert,1
-12985,CHAT_MSG_PARTY,Gruppe,1
+12984,CHAT_MSG_WHISPER,Euch wurde etwas zugeflüstert,3
+12985,CHAT_MSG_PARTY,Gruppe,3
 12986,SPELL_FAILED_FLEEING,"Das geht nicht, wenn Ihr flieht.",1
 12987,SPELL_FAILED_CONFUSED,Das ist während einer Verwirrung nicht möglich.,1
 12988,ERR_ATTACK_FLEEING,"Ihr könnt nicht angreifen, während Ihr flieht.",1
@@ -3012,7 +3012,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13129,SYSTEM_MESSAGES,System-Nachrichten,1
 13130,CHAT_MSG_AFK,AFK,1
 13131,DND,DND,1
-13132,CHAT_MSG_GUILD,Gilde,1
+13132,CHAT_MSG_GUILD,Gilde,3
 13133,SAY,Sagen,1
 13134,WHISPER,Flüstern,1
 13136,CHAT_COMBAT_MISC_INFO_GET,,1
@@ -3074,7 +3074,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13197,TAKE_ATTACHMENTS,Anhänge nehmen:,1
 13198,ERR_AUCTION_BID_OWN,Ihr könnt nicht bei Eurer eigenen Auktion mitbieten.,5
 13199,AUCTION_ITEM_TEXT,"Zieht einen Gegenstand hierher, um ihn zur Auktion freizugeben.",1
-13201,BINDING_NAME_TOGGLEFRIENDSTAB,Kontaktfenster ein/aus,1
+13201,BINDING_NAME_TOGGLEFRIENDSTAB,Kontaktfenster ein/aus,3
 13202,BINDING_NAME_TOGGLEIGNORETAB,Ignorieren-Fenster ein/aus,1
 13203,BINDING_NAME_TOGGLEWHOTAB,Wer-Fenster ein/aus,1
 13204,REQUIRED_MONEY,Benötigtes Geld:,1
@@ -3515,7 +3515,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13668,MACRO_HELP_TEXT_LINE4,"- Um mit einem Makro einen Zauber zu wirken, wird folgende Syntax benutzt: /wirken <Name> (<Subtext>)",1
 13669,ERR_QUEST_PUSH_ACCEPTED_S,%s hat Eure Quest angenommen.,1
 13670,ERR_QUEST_ADD_KILL_SII,%1$s getötet: %2$d/%3$d,1
-13671,CHAT_HELP_TEXT_LINE3,"/chat, /chathilfe - Diese Hilfe",1
+13671,CHAT_HELP_TEXT_LINE3,"/chat, /chathilfe - Diese Hilfe",3
 13672,EMOTE43_CMD2,/disappointed,1
 13673,EMOTE22_CMD2,/flap,1
 13674,GUILD_HELP_TEXT_LINE3,'/g <Nachricht>' - Sendet eine Chatnachricht an alle Mitglieder Eurer Gilde.,1
@@ -3528,7 +3528,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13681,EMOTE114_CMD2,/insult,1
 13682,SLASH_UNINVITE3,/kick,1
 13683,SLASH_CHAT_PASSWORD2,/pass,1
-13684,CHAT_HELP_TEXT_LINE7,"/passwort, /pass <Channel> <Passwort> - Passwort ändern.",1
+13684,CHAT_HELP_TEXT_LINE7,"/passwort, /pass <Channel> <Passwort> - Passwort ändern.",3
 13685,EMOTE71_CMD1,/peer,1
 13686,EMOTE130_CMD4,/pest,1
 13687,EMOTE125_CMD1,/verwirrt,1
@@ -3554,7 +3554,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13711,ERR_ATTACK_PACIFIED,"Ihr könnt nicht angreifen, während Ihr befriedet seid.",1
 13712,NUMBER_OF_RESULTS_TEMPLATE,Gegenstände %1$d - %2$d ( %3$d insgesamt ),1
 13713,SPELL_FAILED_ITEM_GONE,Gegenstand ist nicht mehr da.,1
-13714,CHAT_MSG_SYSTEM,System,1
+13714,CHAT_MSG_SYSTEM,System,3
 13715,COMBAT_ERROR,Kampf - Fehler,1
 13716,ITEM_ENCHANT_TIME_LEFT_SEC,%1$s (%2$d Sek.),1
 13717,INCREASE_POTENTIAL,Erhöht Potenzial bei |cffffffff%1$s|r um |cffffffff%2$d|r,1
@@ -3590,7 +3590,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13747,OPTION_TOOLTIP_BLOCK_TRADES,Alle eingehenden Handelsangebote blockieren.,1
 13748,PROFESSION_CONFIRMATION2,Ihr könnt maximal zwei Berufe lernen. '|cffffd200%s|r' als Zweitberuf erlernen?,1
 13749,BINDING_NAME_TARGETNEARESTFRIEND,Nächsten Freund anvisieren,1
-13750,PARTY,Gruppe,1
+13750,PARTY,Gruppe,3
 13751,INT_SPELL_DURATION_HOURS,%d |4Stunde:Stunden;,1
 13752,BINDING_NAME_TARGETPREVIOUSFRIEND,Vorherigen Freund anvisieren,1
 13753,SPELL_DURATION_DAYS,%.1f |4Tag:Tage;,1
@@ -3600,7 +3600,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 13757,VOICEMACRO_15_Dw_0,Nein.,1
 13758,VOICEMACRO_18_Dw_3_FEMALE,Genial.,1
 13759,VOICEMACRO_20_Dw_0_FEMALE,"Nein, sie sind nicht echt, trotzdem danke.",1
-13760,CHAT_HELP_TEXT_LINE6,"/chatliste, /chatwer, /chatinfo [channel] - Channels oder Channelmitglieder anzeigen.",1
+13760,CHAT_HELP_TEXT_LINE6,"/chatliste, /chatwer, /chatinfo [channel] - Channels oder Channelmitglieder anzeigen.",3
 13761,VOICEMACRO_20_Ta_3,"Wisst Ihr, Tauren sind geborene Jäger. Schon mal 'n Tauren Lachs im Bach fangen sehen? Ist ziemlich spannend. Und habt Ihr je 'n Tauren 'ne Python fangen sehen? Natürlich nicht. Weil Tauren so einzigartig mit ihrer Umwelt verschmelzen können.",1
 13762,VOICEMACRO_19_Ta_4_FEMALE,Wollt Ihr mal 'n richtig guten Holzschuhtanz sehen?,1
 13763,VOICEMACRO_20_Ta_1_FEMALE,Ich hab mal vor Lachen auf den Boden gemilcht.,1
@@ -4238,7 +4238,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 14721,TUTORIAL44,"Ihr habt eine Distanzwaffe erhalten. Um sie zu benutzen, legt sie zunächst an, indem Ihr Euer |cffffd200Charakterinfo-Fenster|r und Euren |cffffd200Rucksack|r öffnet und dann den Gegenstand auf Euren Charakter zieht.|n|nÖffnet danach Eurer |cffffd200Zauberbuch|r, um das Symbol der Fähigkeit |cffffd200Schießen|r oder |cffffd200Werfen|r auf Eure Aktionsleiste zu ziehen.|n|nNur Jäger, Krieger und Schurken können Distanzwaffen verwenden. Magier, Priester und Hexenmeister nutzen stattdessen Zauberstäbe.",1
 14722,TUTORIAL45,Ohne Munition können Bögen und Schusswaffen nicht abgefeuert werden. Munition kann in einer Stadt bei Schusswaffen- und Bogenhändlern gekauft werden. Mit einem |cffffd200Rechtsklick|r wird Munition angelegt.,1
 14723,SHOW_IGNORE_LIST,Ignorierliste anzeigen,1
-14724,SHOW_FRIENDS_LIST,Kontaktliste anzeigen,1
+14724,SHOW_FRIENDS_LIST,Kontaktliste anzeigen,3
 14737,FILTER,Filter,1
 14738,DUEL_COUNTDOWN,Duell beginnt: %d,1
 14739,TUTORIAL46,"Ihr habt Euch einem Schlachtzug angeschlossen: Dies ist eine Gruppe mit einer erhöhten Begrenzung auf 40 Mitglieder, zumeist sind es jedoch nur 10 oder 25. Schlachtzüge sind notwendig, um die herausforderndsten Dungeons oder die mächtigsten Feinde zu bezwingen, üblicherweise auf hoher Stufe.|n|n|cffff2020Während Ihr in einem Schlachtzug seid, zählt das Töten von Kreaturen für Nicht-Schlachtzugsquests nicht weiter und Questgegenstände von Nicht-Schlachtzugsquests können nicht eingesammelt werden. Um einen Schlachtzug zu verlassen, klickt mit der rechten Maustaste auf Euer Charakterporträt und wählt die Option ""Schlachtzug verlassen"".|r",1
@@ -4590,9 +4590,9 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 15940,ERR_NOT_WHILE_DISARMED,"Das geht nicht, wenn Ihr entwaffnet wurdet!",1
 15941,SLASH_CHATLOG2,/chatlog,1
 15942,IGR_BILLING_NAG_DIALOG,"Ihre IGR-Spielzeit ist dabei, abzulaufen, die Verbindung zum Spielserver wird in Kürze getrennt.",1
-15943,ADDON_LOAD_FAILED,Fehlschlagen beim Laden von %s: %s,1
+15943,ADDON_LOAD_FAILED,Fehlschlagen beim Laden von %s: %s,3
 15944,ADDON_UNKNOWN_ERROR,Unbekanntes Ladeproblem,1
-15945,ADDON_MISSING,Fehlt,1
+15945,ADDON_MISSING,Fehlt,3
 15946,ADDON_DISABLED,Deaktiviert,3
 15947,ADDON_BANNED,Gebannt,3
 15948,ADDON_CORRUPT,Beschädigt,3
@@ -4632,8 +4632,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 15982,LAST_ONLINE_COLON,Zuletzt online:,5
 15983,NOTE_COLON,Notiz:,5
 15984,OFFICER_NOTE_COLON,Offiziersnotiz,5
-15985,ADDON_DEMAND_LOADED,Kann nur auf Anfrage geladen werden,1
-15986,ADDON_DEP_DEMAND_LOADED,Abhängigkeit kann nur auf Anfrage geladen werden,1
+15985,ADDON_DEMAND_LOADED,Kann nur auf Anfrage geladen werden,3
+15986,ADDON_DEP_DEMAND_LOADED,Abhängigkeit kann nur auf Anfrage geladen werden,3
 15987,SPELL_FAILED_DAMAGE_IMMUNE,"Das geht nicht, solange Ihr immun seid!",1
 15988,ERR_UNHEALTHY_TIME,Ihr seid in der ungesunden Phase und solltet Euch ausloggen.,1
 15989,SPELL_FAILED_PREVENTED_BY_MECHANIC,"Das geht nicht, während Euer Status '%s' ist.",1
@@ -4789,14 +4789,14 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 16163,GM_TICKET_UNAVAILABLE,Wartezeit momentan nicht verfügbar.,1
 16164,GM_TICKET_HIGH_VOLUME,Momentan erhalten wir eine sehr große Anzahl Hilfsanfragen.,1
 16165,GM_TICKET_WAIT_TIME,Durchschnittliche Ticket-Wartezeit:\n%s,1
-16166,RAID_TARGET_1,Stern,1
-16167,RAID_TARGET_2,Kreis,1
-16168,RAID_TARGET_3,Diamant,1
-16169,RAID_TARGET_4,Dreieck,1
-16170,RAID_TARGET_5,Mond,1
-16171,RAID_TARGET_6,Quadrat,1
-16172,RAID_TARGET_7,Kreuz,1
-16173,RAID_TARGET_8,Totenschädel,1
+16166,RAID_TARGET_1,Stern,3
+16167,RAID_TARGET_2,Kreis,3
+16168,RAID_TARGET_3,Diamant,3
+16169,RAID_TARGET_4,Dreieck,3
+16170,RAID_TARGET_5,Mond,3
+16171,RAID_TARGET_6,Quadrat,3
+16172,RAID_TARGET_7,Kreuz,3
+16173,RAID_TARGET_8,Totenschädel,3
 16174,RAID_MEMBER_NOT_READY,%s ist nicht bereit,1
 16175,RAID_MEMBERS_AFK,Die folgenden Spieler sind AFK: %s,1
 16176,RAID_TARGET_ICON,Zielmarkierungssymbole,1
@@ -4916,7 +4916,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 16308,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_RESISTANCES,"Nachricht anzeigen, wenn Ihr Schaden von Angriffen und Zaubern widersteht.",1
 16309,OPTION_TOOLTIP_COMBAT_TEXT_SCROLL_DOWN,"Scrollt den Kampflogtext abwärts, statt aufwärts.",1
 16310,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_REPUTATION,"Nachricht anzeigen, wenn sich Euer Ruf bei einer Fraktion verbessert oder verschlechtert.",1
-16311,CHAT_FILTERED,"Die Chatmitteilung konnte nicht an %s gesendet werden, da sie gesperrte Begriffe enthält.",1
+16311,CHAT_FILTERED,"Die Chatmitteilung konnte nicht an %s gesendet werden, da sie gesperrte Begriffe enthält.",3
 16312,SHOW_COMBAT_TEXT_TEXT,Eigene scrollende Kampflogtexte,1
 16313,OPTION_TOOLTIP_SHOW_COMBAT_TEXT,Aktivieren dieser Option zeigt zusätzliche Kampfnachrichten im Spielfenster an.,1
 16314,EMOTE44_CMD1,/keuchen,1
@@ -4934,7 +4934,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 16335,OPTION_TOOLTIP_HIDE_OUTDOOR_WORLD_STATE,Die Anzeige zur Verfolgung von gebietsweiten Zielen wird bei Aktivierung ausgeblendet.,1
 16336,BINDING_NAME_FRIENDNAMEPLATES,Namensplaketten von verbündeten Einheiten anzeigen,1
 16337,BINDING_NAME_ALLNAMEPLATES,Alle Namensplaketten anzeigen,1
-16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h Die Anzahl von Nachrichten, die an diesen Channel gesendet werden können, ist begrenzt. Bitte wartet, bevor Ihr eine weitere Nachricht sendet.",1
+16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h Die Anzahl von Nachrichten, die an diesen Channel gesendet werden können, ist begrenzt. Bitte wartet, bevor Ihr eine weitere Nachricht sendet.",3
 16339,COMBAT_TEXT_COMBO_POINTS,<%d |4Combopunkt:Combopunkte;>,1
 16341,COMBAT_TEXT_SHOW_REACTIVES_TEXT,Zauberwarnmeldungen,1
 16342,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_REACTIVES,"Zeigt Alarmierungen, wenn gewisse wichtige Ereignisse auftreten.",1
@@ -5340,7 +5340,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 16839,SERVER_MESSAGE_PREFIX,[SERVER],1
 16840,KBASE_ERROR_NO_RESULTS,"Es wurden keine Artikel gefunden, die den Suchkriterien entsprechen.",1
 16841,REPUTATION_MOVE_TO_INACTIVE,"Bewegt den Rufbalken an das Ende der Liste 'Inaktiv'. Besonders nützlich, wenn Ihr bestimmte Rufentwicklungen nicht länger nachverfolgen möchtet.",1
-16842,REPUTATION_SHOW_AS_XP,Zeigt den Rufbalken in der unteren Bildschirmhälfte direkt über der Aktionsleiste an.,1
+16842,REPUTATION_SHOW_AS_XP,Zeigt diese Rufleiste neben Eurer Erfahrungsleiste an.,1
 16843,AUTO_SELF_CAST_KEY_TEXT,Taste für Selbstzauber,1
 16844,OPTION_TOOLTIP_AUTO_SELF_CAST_KEY_TEXT,"Solange diese Taste gedrückt gehalten wird, wirkt Ihr automatisch alle Stärkungszauber auf Euch selbst, auch wenn Ihr ein gegnerisches Ziel anvisiert habt.",1
 16845,ALT_KEY,ALT-Taste,1
@@ -5599,7 +5599,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,Ihr habt bereits eine andere Gildensatzung unterschrieben,1
 17138,CHAT_MSG_RESTRICTED,Eingeschränkte Funktion,1
 17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Euer Team hat die Warteschlange verlassen,1
-17140,CHAT_RESTRICTED,"Kostenlose Probeaccounts können nur Spieler anflüstern, die Ihren Charakter zu ihrer Kontaktliste hinzugefügt haben. |cffffd000|Hstorecategory:gametime|h[Hier klicken, um zu erweitern]|h|r",1
+17140,CHAT_RESTRICTED,"Kostenlose Probeaccounts können nur Spieler anflüstern, die Ihren Charakter zu ihrer Kontaktliste hinzugefügt haben. |cffffd000|Hstorecategory:gametime|h[Hier klicken, um zu erweitern]|h|r",3
 17141,SHOW_COMBAT_HEALING,Heilung,1
 17142,OPTION_TOOLTIP_SHOW_COMBAT_HEALING,"Zeigt die Menge an Heilung an, die Ihr dem Ziel zugefügt habt.",1
 17143,RAID_INSTANCE_WELCOME_DH,%s läuft in %d Tagen %d Stunden aus.,1
@@ -5615,7 +5615,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 17154,QUEST_ACCEPT_LOG_FULL,"%s startet ""%s""\nEuer Questlog ist voll. Ihr könnt an dieser\nQuest teilnehmen, sobald Ihr in Eurem Questlog Platz geschaffen habt.",1
 17156,ERR_ITEM_MAX_COUNT_EQUIPPED_SOCKETED,Ihr habt bereits die maximal mögliche Anzahl dieser Edelsteine in Euren angelegten Gegenständen gesockelt.,1
 17157,ERR_ITEM_UNIQUE_EQUIPPABLE_SOCKETED,Ihr könnt maximal einen dieser Edelsteine in einen einzelnen Gegenstand sockeln.,1
-17159,ERR_CHAT_THROTTLED,"Die Anzahl der Nachrichten, die versendet werden können, ist begrenzt. Bitte wartet mit dem Versenden einer weiteren Nachricht.",1
+17159,ERR_CHAT_THROTTLED,"Die Anzahl der Nachrichten, die versendet werden können, ist begrenzt. Bitte wartet mit dem Versenden einer weiteren Nachricht.",3
 17160,SLASH_FOLLOW7,/f,1
 17161,SLASH_GUILD9,/g,1
 17163,SLASH_PARTY5,/p,1
@@ -6142,9 +6142,9 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 17744,WEEKDAY_FRIDAY,Freitag,5
 17745,WEEKDAY_SATURDAY,Samstag,5
 17746,ERR_GROUP_ACTION_THROTTLED,"Ihr habt in einem kurzen Zeitraum zu viele Gruppenaktionen aufgerufen. Bitte wartet einen Moment, bevor Ihr weitere Gruppenaktionen unternehmt.",1
-17747,FRIENDS_LIST_NOTE_TEMPLATE,(%s),1
+17747,FRIENDS_LIST_NOTE_TEMPLATE,(%s),3
 17748,CONFIRM_PURCHASE_TOKEN_ITEM,"Seid Ihr Euch sicher, dass Ihr %s gegen den folgenden Gegenstand eintauschen wollt? %s",1
-17749,FRIENDS_LIST_NOTE_OFFLINE_TEMPLATE,|cff999999(%s)|r,1
+17749,FRIENDS_LIST_NOTE_OFFLINE_TEMPLATE,|cff999999(%s)|r,3
 17750,CONTROLS_SUBTEXT,"Das sind allgemeine Einstellungen, die beeinflussen, wie Euer Charakter mit Objekten und anderen Spielern auf Azeroth interagiert.",1
 17751,COMBAT_LABEL,Kampf,1
 17752,COMBAT_SUBTEXT,"Diese Einstellungen beeinflussen das Verhalten Eures Charakters im Kampf und ermöglichen Euch, die UI-Anzeigen im Kampf anzupassen.",1
@@ -6675,14 +6675,14 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 18289,RANGED,Distanz,1
 18290,DAMAGE_SHIELD,Schadensschilde,1
 18291,MISSES,Verfehlen,1
-18292,ICON_TAG_RAID_TARGET_SKULL1,rt8,1
-18293,ICON_TAG_RAID_TARGET_SQUARE1,rt6,1
-18294,ICON_TAG_RAID_TARGET_DIAMOND1,rt3,1
-18295,ICON_TAG_RAID_TARGET_CIRCLE1,rt2,1
-18296,ICON_TAG_RAID_TARGET_STAR1,rt1,1
-18297,ICON_TAG_RAID_TARGET_CROSS1,rt7,1
-18298,ICON_TAG_RAID_TARGET_TRIANGLE1,rt4,1
-18299,ICON_TAG_RAID_TARGET_MOON1,rt5,1
+18292,ICON_TAG_RAID_TARGET_SKULL1,rt8,3
+18293,ICON_TAG_RAID_TARGET_SQUARE1,rt6,3
+18294,ICON_TAG_RAID_TARGET_DIAMOND1,rt3,3
+18295,ICON_TAG_RAID_TARGET_CIRCLE1,rt2,3
+18296,ICON_TAG_RAID_TARGET_STAR1,rt1,3
+18297,ICON_TAG_RAID_TARGET_CROSS1,rt7,3
+18298,ICON_TAG_RAID_TARGET_TRIANGLE1,rt4,3
+18299,ICON_TAG_RAID_TARGET_MOON1,rt5,3
 18300,AURAS,Auren,1
 18301,HOSTILE,Feindlich,1
 18302,BENEFICIAL,Vorteilhaft,1
@@ -6745,7 +6745,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 18367,SHOW_CHAT_ICONS,Symbole im Chat,1
 18368,OPTION_TOOLTIP_SHOW_CHAT_ICONS,"Kontrolliert, ob in Channels, denen man automatisch beitritt (wie zum Beispiel Handel), Gegenstände als Symbole angezeigt werden sollen oder nicht.",1
 18369,CONFIRM_COMBAT_FILTER_DELETE,Wollt Ihr diesen Filter wirklich löschen?,1
-18370,CHAT_CONFIGURATION,Einstellungen,1
+18370,CHAT_CONFIGURATION,Einstellungen,3
 18371,EXAMPLE_TEXT,Beispieltext:,1
 18372,EXAMPLE_TARGET_MONSTER,Monster,1
 18373,EXAMPLE_SPELL_FROSTBOLT,Frostblitz,1
@@ -6909,14 +6909,14 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 18598,KBASE_CHARSTUCK,Feststecken,1
 18602,SPELL_FAILED_NOT_IN_RAID_INSTANCE,Das könnt Ihr in einer Schlachtzugsinstanz nicht tun.,1
 18604,NEW_ACHIEVEMENT_EARNED,"Ihr habt den Erfolg ""%s"" errungen.",1
-18608,ICON_TAG_RAID_TARGET_CIRCLE2,sz2,1
-18609,ICON_TAG_RAID_TARGET_CROSS2,X,1
-18610,ICON_TAG_RAID_TARGET_DIAMOND2,sz3,1
-18611,ICON_TAG_RAID_TARGET_MOON2,sz5,1
-18612,ICON_TAG_RAID_TARGET_SKULL2,sz8,1
-18613,ICON_TAG_RAID_TARGET_SQUARE2,sz6,1
-18614,ICON_TAG_RAID_TARGET_STAR2,sz1,1
-18615,ICON_TAG_RAID_TARGET_TRIANGLE2,sz4,1
+18608,ICON_TAG_RAID_TARGET_CIRCLE2,sz2,3
+18609,ICON_TAG_RAID_TARGET_CROSS2,X,3
+18610,ICON_TAG_RAID_TARGET_DIAMOND2,sz3,3
+18611,ICON_TAG_RAID_TARGET_MOON2,sz5,3
+18612,ICON_TAG_RAID_TARGET_SKULL2,sz8,3
+18613,ICON_TAG_RAID_TARGET_SQUARE2,sz6,3
+18614,ICON_TAG_RAID_TARGET_STAR2,sz1,3
+18615,ICON_TAG_RAID_TARGET_TRIANGLE2,sz4,3
 18616,ITEM_QUANTITY_TEMPLATE,%1$d %2$s,1
 18618,TEXT_MODE_A_STRING_RESULT_OVERHEALING,(%s Überheilung),1
 18619,ERR_QUEST_ALREADY_DONE_DAILY,Ihr habt diese tägliche Quest heute bereits abgeschlossen.,1
@@ -7121,7 +7121,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 18844,CALENDAR_ERROR_INVALID_TIME,Bitte tragen Sie eine gültige Zeit ein.,5
 18845,CALENDAR_ERROR_INVALID_DATE,Bitte tragt ein gültiges Datum ein.,5
 18846,SPELL_FAILED_CUSTOM_ERROR_30,Ihr habt genügend Ghule erschaffen. Kehrt zu Gothik dem Ernter bei der Todesbresche zurück.,1
-18847,QUEST_PLAYERS_KILLED,Spieler besiegt: %1$d/%2$d %3$s,1
+18847,QUEST_PLAYERS_KILLED,Spieler von der %3$s besiegt: %1$d/%2$d,1
 18848,QUEST_PLAYERS_KILLED_NOPROGRESS,%2$s Spieler x %1$d,1
 18849,ERR_QUEST_ADD_PLAYER_KILL_SII,Spieler besiegt: %d/%d,1
 18850,D_SECONDS,%d |4Sekunde:Sekunden;,3
@@ -7805,7 +7805,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",1
 19572,ACHIEVEMENT_META_COMPLETED_DATE,%s abgeschlossen.,1
 19573,ACHIEVEMENT_CATEGORY_PROGRESS,Fortschrittsüberblick,1
 19574,MAKE_INTERACTABLE,Interaktiv machen,1
-19575,MAKE_UNINTERACTABLE,Nicht-interaktiv machen,1
+19575,MAKE_UNINTERACTABLE,Nicht-interaktiv machen,3
 19576,GM_CHAT,Mit einem GM chatten.,1
 19577,GM_CHAT_OPEN,Gespeicherten Chat mit GM öffnen,1
 19578,GM_CHAT_STATUS_READY,Bitten um GM-Chat.,1
@@ -8285,7 +8285,7 @@ anzeigen",1
 20095,TRADE_POTENTIAL_BIND_ENCHANT,Durch das Verzaubern wird dieser Gegenstand seelengebunden.,1
 20096,ERR_TRADE_TEMP_ENCHANT_BOUND,Gegenstände mit zeitlich begrenzter Verstärkung können nicht gehandelt werden.,1
 20097,POWER_TYPE_HEAT,Hitze,1
-20098,PRESS_TAB,Tab-Taste drücken,1
+20098,PRESS_TAB,Tab-Taste drücken,3
 20099,ITEM_MOD_HEALTH_REGEN,Stellt alle 5 Sek. %s Gesundheit wieder her.,1
 20100,CALENDAR_STATUS_TENTATIVE,Vorläufig,5
 20101,MERCHANT_HONOR_POINTS,%d Ehre,1
@@ -8635,7 +8635,7 @@ anzeigen",1
 20460,ERR_LFG_PROPOSAL_DECLINED_SELF,"Ihr wurdet aus der Warteschlange entfernt, da Ihr die Einladung abgelehnt habt.",1
 20461,ERR_LFG_PROPOSAL_DECLINED_PARTY,"Ihr wurdet aus der Warteschlange entfernt, da jemand aus Eurer Gruppe die Einladung abgelehnt hat.",1
 20462,CHAT_MSG_PARTY_LEADER,Gruppenanführer,1
-20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Gruppenanführer]|h %s:\32,1
+20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Gruppenanführer]|h %s:\32,3
 20464,PARTY_LEADER,Gruppenanführer,1
 20465,ERR_LFG_CANT_USE_BATTLEGROUND,"Ihr könnt Euch nicht in die Warteschlange für ein Schlachtfeld oder eine Arena begeben, während Ihr im Dungeon- oder Schlachtzugsbrowser gelistet seid.",1
 20466,ERR_LFG_CANT_USE_DUNGEONS,"Ihr könnt Euch nicht in die Warteschlange für einen Dungeon oder Schlachtzug begeben, während Ihr Euch auf einem Schlachtfeld oder in einer Arena befindet.",1
@@ -8751,13 +8751,13 @@ anzeigen",1
 20584,LOOT_ROLL_INELIGIBLE_REASON5,Für diesen Gegenstand sind keine 'Bedarf'-Würfe möglich.,1
 20586,SPELL_FAILED_CUSTOM_ERROR_102,"Es ist derzeit keine Verzauberung aktiv, die entfesselt werden könnte.",1
 20587,OR_CAPS,ODER,1
-20588,BATTLENET_FRIEND,Freund,1
+20588,BATTLENET_FRIEND,Freund,3
 20589,CHARACTER_FRIEND,World of Warcraft,1
 20590,REALID_FRIEND_LABEL,E-Mail-Adresse eingeben,1
 20591,CHARACTER_FRIEND_LABEL,Charakternamen eingeben,1
 20592,ENTER_NAME_OR_EMAIL,E-Mail-Adresse oder Charakternamen eingeben,1
 20593,ENTER_INVITE_NOTE,Fügen Sie eine Nachricht hinzu (optional),1
-20594,BATTLENET_FRIEND_INFO,"Das ist eine Person, der Sie außerhalb des Spiels vertrauen. Sie werden über alle Blizzard-Spiele hinweg mit diesem Spieler chatten können. Sobald die Freundschaftsanfrage akzeptiert wurde, wird Ihr vollständiger echter Name allen seinen Freunden angezeigt.",1
+20594,BATTLENET_FRIEND_INFO,"Das ist eine Person, der Sie außerhalb des Spiels vertrauen. Sie werden über alle Blizzard-Spiele hinweg mit diesem Spieler chatten können. Sobald die Freundschaftsanfrage akzeptiert wurde, wird Ihr vollständiger echter Name allen seinen Freunden angezeigt.",3
 20595,CHARACTER_FRIEND_INFO,"Das ist ein Charakter von diesem Realm, mit dem Sie gern gemeinsam gespielt haben. Sie können mit diesem Charakter Gruppen bilden und chatten.",1
 20596,SEND_REQUEST,Anfrage senden,1
 20597,ADD_ANOTHER,Weiteren hinzufügen,1
@@ -8766,20 +8766,20 @@ anzeigen",1
 20602,SPELL_FAILED_CUSTOM_ERROR_104,Ihr müsst mindestens 40 Meter von allen anderen Bohrtürmen entfernt sein.,1
 20603,PENDING_INVITE,Ausstehend,5
 20604,PENDING_INVITE_LIST,Ausstehende Anfragen,1
-20605,BATTLENET_NAME_FORMAT,%1$s %2$s,1
+20605,BATTLENET_NAME_FORMAT,%1$s %2$s,3
 20606,BNET_INVITE_SENT_TIME,Vor %s verschickt,1
 20607,BLOCK_INVITES_CONFIRMATION,"Sind Sie sich sicher, dass Sie jegliche weitere Einladungen von %s blockieren wollen?",1
 20609,BLOCK_INVITES,Einladungen blockieren,1
-20611,FRIENDS_LIST_ONLINE,Online,1
+20611,FRIENDS_LIST_ONLINE,Online,3
 20612,FRIENDS_LIST_OFFLINE,Offline,3
-20613,FRIENDS_LIST_AWAY,AFK,1
-20614,FRIENDS_LIST_BUSY,DND,1
-20615,FRIENDS_LIST_ENTER_TEXT,Was tun Sie gerade?,1
-20616,FRIENDS_LIST_PLAYING,Ebenfalls online in:,1
-20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, Stufe %2$d - %3$s",1
-20618,FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE,"%1$s, Stufe %2$s - %3$s, %4$s",1
-20619,FRIENDS_LIST_ZONE,Zone:\32,1
-20620,FRIENDS_LIST_REALM,Realm:\32,1
+20613,FRIENDS_LIST_AWAY,AFK,3
+20614,FRIENDS_LIST_BUSY,DND,3
+20615,FRIENDS_LIST_ENTER_TEXT,Was tun Sie gerade?,3
+20616,FRIENDS_LIST_PLAYING,Ebenfalls online in:,3
+20617,FRIENDS_LIST_WOW_TEMPLATE,"%1$s, Stufe %2$d - %3$s",3
+20618,FRIENDS_TOOLTIP_WOW_TOON_TEMPLATE,"%1$s, Stufe %2$s - %3$s, %4$s",3
+20619,FRIENDS_LIST_ZONE,Zone:\32,3
+20620,FRIENDS_LIST_REALM,Realm:\32,3
 20621,TALENT_SPEC_PRIMARY_ACTIVE,Erste Talentspezialisierung - Aktiv,1
 20622,TALENT_SPEC_PRIMARY_GLYPH_ACTIVE,Primärglyphen - Aktiv,1
 20623,TALENT_SPEC_SECONDARY_ACTIVE,Sekundäre Talente - Aktiv,1
@@ -8832,20 +8832,20 @@ anzeigen",1
 20680,PROFESSIONS_FIRST_AID_MISSING,"Besucht einen Lehrer, um Euch in Erster Hilfe ausbilden zu lassen. Mittels Erster Hilfe könnt Ihr Stoff zu Verbänden machen und Euch selbst oder andere heilen.",1
 20681,POWER_TYPE_SHADOWFLAME_ENERGY,Schattenflammenenergie,1
 20682,FLIGHT_MAP,Flugkarte,1
-20683,FRIENDS_FRIENDS_HEADER,Freunde von %s,1
-20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Alle,1
-20685,FRIENDS_FRIENDS_CHOICE_POTENTIAL,Potenzielle Freunde,1
-20686,FRIENDS_FRIENDS_CHOICE_MUTUAL,Gemeinsame Freunde,1
-20687,FRIENDS_FRIENDS_MUTUAL_TEXT,(Gemeinsam),1
-20688,FRIENDS_FRIENDS_REQUESTED_TEXT,(Anfrage gesendet),1
-20689,FRIENDS_FRIENDS_WAITING,Suche...,1
+20683,FRIENDS_FRIENDS_HEADER,Freunde von %s,3
+20684,FRIENDS_FRIENDS_CHOICE_EVERYONE,Alle,3
+20685,FRIENDS_FRIENDS_CHOICE_POTENTIAL,Potenzielle Freunde,3
+20686,FRIENDS_FRIENDS_CHOICE_MUTUAL,Gemeinsame Freunde,3
+20687,FRIENDS_FRIENDS_MUTUAL_TEXT,(Gemeinsam),3
+20688,FRIENDS_FRIENDS_REQUESTED_TEXT,(Anfrage gesendet),3
+20689,FRIENDS_FRIENDS_WAITING,Suche...,3
 20691,ERR_CURRENCY_SPELL_SLOT_MISMATCH,Dieser Gegenstand kann an diesem Platz nicht verwendet werden,1
 20692,SPELL_FAILED_CUSTOM_ERROR_107,"Ihr müsst den Leichnam einer Meeresdickichtschildkröte, eines Kolkschiffshalters oder Dornschuppenhammerhais anvisieren.",1
-20693,CHAT_MSG_BN_WHISPER,Privater Freundeschat,1
+20693,CHAT_MSG_BN_WHISPER,Privater Freundeschat,3
 20694,BN_WHISPER,Blizzard-Flüstern,1
-20695,CHAT_BN_WHISPER_GET,%s flüstert:\32,1
-20696,CHAT_BN_WHISPER_INFORM_GET,An %s:\32,1
-20697,CHAT_BN_WHISPER_SEND,%s erzählen:\32,1
+20695,CHAT_BN_WHISPER_GET,%s flüstert:\32,3
+20696,CHAT_BN_WHISPER_INFORM_GET,An %s:\32,3
+20697,CHAT_BN_WHISPER_SEND,%s erzählen:\32,3
 20698,TRANSFER_ABORT_UNIQUE_MESSAGE2,"Ihr müsst Euer Schicksal und das des Bilgewasserkartells erfüllen, bevor Ihr diesen Ort verlassen könnt.",1
 20699,TRANSFER_ABORT_UNIQUE_MESSAGE3,Das Schicksal von Gilneas ist noch nicht entschieden. Ihr könnt noch nicht fliehen.,1
 20700,SPELL_FAILED_CUSTOM_ERROR_108,Botschafter Schlackenhammer ist bereits Euer Gefangener.,1
@@ -8862,7 +8862,7 @@ anzeigen",1
 20711,BN_TOAST_OFFLINE,ist jetzt |cffff0000offline|r.,1
 20712,BN_TOAST_CONVERSATION,Sie sind beigetreten:,1
 20713,BN_TOAST_NEW_INVITE,Sie haben eine neue Freundschaftsanfrage erhalten.,1
-20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(%d |4Zeichen:Zeichen; mehr),1
+20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(%d |4Zeichen:Zeichen; mehr),3
 20715,ITEM_REQ_PURCHASE_GUILD,Benötigt Gilde,1
 20716,ITEM_REQ_PURCHASE_GUILD_LEVEL,Benötigt Gildenstufe %d,1
 20717,ITEM_REQ_PURCHASE_ACHIEVEMENT,Benötigt Erfolg: %s,1
@@ -8887,24 +8887,24 @@ anzeigen",1
 20738,CHAT_SET_SPEAK_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h Erlaubnis zum Voicechat an %s vergeben.,1
 20739,CHAT_SET_VOICE_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h Chaterlaubnis an %s vergeben.,1
 20740,CHAT_SUSPENDED_NOTICE_BN,Channel verlassen: |Hchannel:CHANNEL:%d|h[%s]|h,1
-20741,CHAT_THROTTLED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h Die Anzahl von Nachrichten, die an diesen Channel gesendet werden können, ist begrenzt. Bitte warten Sie, bevor Sie eine weitere Nachricht senden.",1
+20741,CHAT_THROTTLED_NOTICE_BN,"|Hchannel:CHANNEL:%d|h[%s]|h Die Anzahl von Nachrichten, die an diesen Channel gesendet werden können, ist begrenzt. Bitte warten Sie, bevor Sie eine weitere Nachricht senden.",3
 20742,CHAT_UNSET_MODERATOR_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s wurden die Moderationsprivilegien entzogen.,1
 20743,CHAT_UNSET_SPEAK_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s wurde in diesem Channel die Erlaubnis zum Voicechat entzogen.,1
 20744,CHAT_UNSET_VOICE_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h %s wurde die Chaterlaubnis entzogen.,1
 20745,CHAT_VOICE_OFF_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h Voicechat für den Channel von %s deaktiviert.,1
 20746,CHAT_VOICE_ON_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h Voicechat für den Channel von %s aktiviert.,1
 20747,CHAT_SET_MODERATOR_NOTICE_BN,|Hchannel:CHANNEL:%d|h[%s]|h Moderationsprivilegien an %s vergeben.,1
-20748,CHAT_YOU_CHANGED_NOTICE_BN,Channel gewechselt: |Hchannel:CHANNEL:%d|h[%s]|h,1
-20749,CHAT_YOU_JOINED_NOTICE_BN,Channel beigetreten: |Hchannel:CHANNEL:%d|h[%s]|h,1
-20750,CHAT_YOU_LEFT_NOTICE_BN,Channel verlassen: |Hchannel:CHANNEL:%d|h[%s]|h,1
+20748,CHAT_YOU_CHANGED_NOTICE_BN,Channel gewechselt: |Hchannel:CHANNEL:%d|h[%s]|h,3
+20749,CHAT_YOU_JOINED_NOTICE_BN,Channel beigetreten: |Hchannel:CHANNEL:%d|h[%s]|h,3
+20750,CHAT_YOU_LEFT_NOTICE_BN,Channel verlassen: |Hchannel:CHANNEL:%d|h[%s]|h,3
 20751,OFFICER,Offizier,1
 20752,POP_OUT_CHAT,Chat abkoppeln,1
 20753,POP_IN_CHAT,Chat minimieren,1
-20754,CHAT_WINDOWS_COUNT,%d Chatfenster,1
-20756,CHAT_MSG_BN_CONVERSATION,Freundeschat,1
+20754,CHAT_WINDOWS_COUNT,%d Chatfenster,3
+20756,CHAT_MSG_BN_CONVERSATION,Freundeschat,3
 20757,BN_CONVERSATION,Freundeschat,1
-20758,CHAT_BN_CONVERSATION_GET,%s:,1
-20760,CHAT_BN_CONVERSATION_SEND,[%d. Chat]:\32,1
+20758,CHAT_BN_CONVERSATION_GET,%s:,3
+20760,CHAT_BN_CONVERSATION_SEND,[%d. Chat]:\32,3
 20761,CONVERSATION_NAME,%d. Chat,1
 20762,INVITE_TO_CONVERSATION,Zum Chat einladen,1
 20763,NEW_CONVERSATION_INSTRUCTIONS,"Wählen Sie |cffffffff2|r Freunde, um einen Chat zu eröffnen.",1
@@ -8912,11 +8912,11 @@ anzeigen",1
 20765,CREATE_CONVERSATION_WITH,Chat eröffnen,1
 20766,INVITE_FRIEND_TO_CONVERSATION,Kontakt einladen,1
 20767,LEAVE_CONVERSATION,Chat verlassen,1
-20768,BATTLENET_UNAVAILABLE,Blizzard-Dienste nicht verfügbar,1
-20769,BATTLENET_UNAVAILABLE_ALERT,"Die Blizzard-Dienste sind zurzeit nicht verfügbar.\n\nIhre Freunde und BattleTag-Freunde werden nicht angezeigt. Es wird Ihnen auch nicht möglich sein, Freundschaftsanfragen oder BattleTag-Freundschaftsanfragen zu senden oder zu empfangen. Es kann möglich sein, dass Sie das Spiel neu starten müssen, um die Funktion zu reaktivieren.",1
+20768,BATTLENET_UNAVAILABLE,Blizzard-Dienste nicht verfügbar,3
+20769,BATTLENET_UNAVAILABLE_ALERT,"Die Blizzard-Dienste sind zurzeit nicht verfügbar.\n\nIhre Freunde und BattleTag-Freunde werden nicht angezeigt. Es wird Ihnen auch nicht möglich sein, Freundschaftsanfragen oder BattleTag-Freundschaftsanfragen zu senden oder zu empfangen. Es kann möglich sein, dass Sie das Spiel neu starten müssen, um die Funktion zu reaktivieren.",3
 20770,BLOCKED_INVITES,Einladung blockiert,1
 20771,ARENA_NOT_USABLE,In der Arena nicht nutzbar,1
-20772,CHAT_BN_CONVERSATION_GET_LINK,|Hchannel:BN_CONVERSATION:%d|h[%s. Chat]|h,1
+20772,CHAT_BN_CONVERSATION_GET_LINK,|Hchannel:BN_CONVERSATION:%d|h[%s. Chat]|h,3
 20773,CHAT_CONVERSATION_YOU_JOINED_CONVERSATION_NOTICE,Sie sind %s beigetreten.,1
 20774,CHAT_CONVERSATION_YOU_LEFT_CONVERSATION_NOTICE,Sie haben %s verlassen.,1
 20775,CHAT_CONVERSATION_CONVERSATION_CONVERTED_TO_WHISPER_NOTICE,%s wurde in einen privaten Chat mit %s umgewandelt.,1
@@ -8930,12 +8930,12 @@ anzeigen",1
 20783,CLASSIC_STYLE,Klassische Ansicht,1
 20784,CHAT_WHOLE_WINDOW_CLICKABLE,Für Fokus anklicken,1
 20785,OPTION_TOOLTIP_CHAT_WHOLE_WINDOW_CLICKABLE,Durch einen Klick auf das Chatfenster wird es in den Vordergrund gerückt.,1
-20786,BNET_BROADCAST_SENT_TIME,(vor %s),1
-20787,FRIENDS_LIST_AVAILABLE,Verfügbar,1
-20788,FRIENDS_LIST_STATUS_TOOLTIP,Status: |cffffffff%s|r,1
+20786,BNET_BROADCAST_SENT_TIME,(vor %s),3
+20787,FRIENDS_LIST_AVAILABLE,Verfügbar,3
+20788,FRIENDS_LIST_STATUS_TOOLTIP,Status: |cffffffff%s|r,3
 20789,SPELLBOOK_TRAINABLE,Sucht Euren Lehrer auf,1
 20790,SPELLBOOK_AVAILABLE_AT,Stufe %d,1
-20791,VIEW_FRIENDS_OF_FRIENDS,Freunde anzeigen,1
+20791,VIEW_FRIENDS_OF_FRIENDS,Freunde anzeigen,3
 20792,PVP_CONQUEST,Eroberungen,1
 20793,ARENA_TEAMS,Arenateams,1
 20794,PVP_RATED_BATTLEGROUND,Gew. Schlachtfelder,1
@@ -8949,12 +8949,12 @@ anzeigen",1
 20802,ARENA_CREATE_INFO,"Klickt auf eine leere Flagge, um ein Arenateam zu erstellen sowie die Flagge und den Teamnamen festzulegen.",1
 20803,NO_FRIEND_REQUESTS,Es liegen keine Freundschaftsanfragen vor.,1
 20804,BN_INLINE_TOAST_ALERT,Blizzard-Mitteilungen,1
-20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt online.,1
-20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt offline.,1
-20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,1
-20808,BN_INLINE_TOAST_BROADCAST_INFORM,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tIhre Statusnachricht wurde gesendet.,1
-20810,BN_INLINE_TOAST_FRIEND_REQUEST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tSie haben eine neue Freundschaftsanfrage erhalten.,1
-20811,REMOVE_PLAYER,Entfernen,1
+20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt online.,3
+20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt offline.,3
+20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,3
+20808,BN_INLINE_TOAST_BROADCAST_INFORM,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|tIhre Statusnachricht wurde gesendet.,3
+20810,BN_INLINE_TOAST_FRIEND_REQUEST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tSie haben eine neue Freundschaftsanfrage erhalten.,3
+20811,REMOVE_PLAYER,Entfernen,3
 20812,NEWBIE_TOOLTIP_REMOVEPLAYER,Entfernt den ausgewählten Spieler von Ihrer Ignorierliste.,1
 20813,CONVERSATION_MODE,Neue Blizzard-Chats,1
 20814,CONVERSATION_MODE_POPOUT,Neuer Reiter,1
@@ -8964,27 +8964,27 @@ anzeigen",1
 20818,CLOSE_CHAT_WHISPER_WINDOW,Privaten Chat schließen,1
 20819,CLOSE_AND_LEAVE_CHAT_CONVERSATION_WINDOW,Chat verlassen,1
 20820,CLOSE_CHAT_CONVERSATION_WINDOW,Chatfenster schließen,1
-20821,SHOW_BATTLENET_TOASTS,Blizzard-Benachrichtigungen,1
-20822,OPTION_TOOLTIP_SHOW_BATTLENET_TOASTS,"Diese Option aktivieren, damit Blizzard-Systemnachrichten in einem Popup-Fenster angezeigt werden.",1
-20823,CANNOT_COOPERATE_LABEL,*,1
+20821,SHOW_BATTLENET_TOASTS,Blizzard-Benachrichtigungen,3
+20822,OPTION_TOOLTIP_SHOW_BATTLENET_TOASTS,"Diese Option aktivieren, damit Blizzard-Systemnachrichten in einem Popup-Fenster angezeigt werden.",3
+20823,CANNOT_COOPERATE_LABEL,*,3
 20824,POWER_TYPE_ENERGY,Energie,1
-20825,BATTLENET_OPTIONS_LABEL,Blizzard-Dienste,1
-20826,BATTLENET_OPTIONS_SUBTEXT,"Diese Optionen ändern die Arten der Blizzard-Nachrichten, die Sie erhalten.",1
+20825,BATTLENET_OPTIONS_LABEL,Blizzard-Dienste,3
+20826,BATTLENET_OPTIONS_SUBTEXT,"Diese Optionen ändern die Arten der Blizzard-Nachrichten, die Sie erhalten.",3
 20827,SHOW_TOAST_ONLINE_TEXT,Freunde online,1
 20828,SHOW_TOAST_OFFLINE_TEXT,Freunde offline,1
-20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Freundschaftsanfragen und\nBattleTag-Freundschaftsanfragen,1
+20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Freundschaftsanfragen und\nBattleTag-Freundschaftsanfragen,3
 20830,SHOW_TOAST_BROADCAST_TEXT,Aktualisierte Statusnachrichten,1
 20831,SHOW_TOAST_CONVERSATION_TEXT,Chatbenachrichtigungen,1
 20832,SHOW_TOAST_WINDOW_TEXT,Benachrichtigungsfenster anzeigen,1
 20833,TOAST_DURATION_TEXT,Benachrichtigungsdauer,1
 20834,OPTION_TOOLTIP_SHOW_TOAST_ONLINE,"Zeigt eine Blizzard-Nachricht an, sobald ein Freund oder BattleTag-Freund online ist.",1
 20835,OPTION_TOOLTIP_SHOW_TOAST_OFFLINE,"Zeigt eine Blizzard-Nachricht an, sobald ein Freund oder BattleTag-Freund offline ist.",1
-20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,"Zeigt eine Blizzard-Nachricht an, sobald Ihr eine Freundschaftsanfrage oder eine BattleTag-Freundschaftsanfrage erhaltet.",1
+20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,"Zeigt eine Blizzard-Nachricht an, sobald Ihr eine Freundschaftsanfrage oder eine BattleTag-Freundschaftsanfrage erhaltet.",3
 20837,OPTION_TOOLTIP_SHOW_TOAST_BROADCAST,"Zeigt eine Blizzard-Nachricht an, sobald ein Freund oder ein BattleTag-Freund seine Statusnachricht aktualisiert.",1
 20838,OPTION_TOOLTIP_SHOW_TOAST_CONVERSATION,"Zeigt eine Blizzard-Nachricht an, wenn Ihr einem Freundeschat mit Freunden oder BattleTag-Kontakten beitretet.",1
 20839,OPTION_TOOLTIP_SHOW_TOAST_WINDOW,Das Aktivieren dieser Option lässt Blizzard-Nachrichten in einem Benachrichtigungsfenster erscheinen.,1
 20840,OPTION_TOOLTIP_TOAST_DURATION,Passt die Dauer des Benachrichtigungsfensters an.,1
-20841,BN_INLINE_TOAST_CONVERSATION,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:66:95:2:29|tSie befinden sich jetzt in einem Chat mit %s.,1
+20841,BN_INLINE_TOAST_CONVERSATION,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:66:95:2:29|tSie befinden sich jetzt in einem Chat mit %s.,3
 20842,SPELL_FAILED_NO_LIQUID,Benötigt Wasseroberfläche,1
 20843,TIMESTAMPS_LABEL,Chatzeitstempel,1
 20844,OPTION_TOOLTIP_TIMESTAMPS,Bitte wählt das Format des Zeitstempels für Chatnachrichten aus.,1
@@ -9019,7 +9019,7 @@ anzeigen",1
 20875,RID_FRIEND_REQUEST_INFO,"Das sollte jemand sein, den Sie außerhalb des Spiels gut kennen und dem Sie vertrauen. Sie werden mit dieser Person in jedem Blizzard-Spiel chatten können. Sobald Sie akzeptieren, können alle Freunde dieser Person Ihren echten Namen sehen.",1
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,"Ihr habt nicht genügend Gegenstände bereitgestellt, um diesen Zauber zu wirken.",1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,"Ihr habt zu viele Gegenstände bereitgestellt, um diesen Zauber zu wirken.",1
-20879,BN_BROADCAST_TOOLTIP,Sendet eine Statusnachricht an Freunde und BattleTag-Freunde.,1
+20879,BN_BROADCAST_TOOLTIP,Sendet eine Statusnachricht an Freunde und BattleTag-Freunde.,3
 20880,ERR_REQUIRES_EXPANSION_S,Benötigt Erweiterung: %s,1
 20881,EXPANSION_NAME3,Cataclysm,7
 20882,BLOCK_COMMUNICATION,Kommunikation blockieren,1
@@ -9042,7 +9042,7 @@ anzeigen",1
 20908,SLASH_CHAT_DND5,/busy,1
 20909,SLASH_CHAT_DND6,/bns,1
 20910,BN_UNABLE_TO_RESOLVE_NAME,'%s' kann nicht angeflüstert werden. Möglicherweise sind die Blizzard-Dienste nicht verfügbar.,1
-20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tSie haben %s |4Freundschaftsanfrage:Freundschaftsanfragen;.,1
+20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tSie haben %s |4Freundschaftsanfrage:Freundschaftsanfragen;.,3
 20912,LEVEL_UP_YOU_REACHED,Erreicht:,1
 20913,LEVEL_UP_ABILITY,Neue Fähigkeit verfügbar!,1
 20914,LEVEL_UP_ABILITY2,Neue Fähigkeit verfügbar:,1
@@ -9058,12 +9058,12 @@ anzeigen",1
 20926,LEVEL_UP_TALENTPOINT_LINK,Neues |cffFF4E00|Htalentpane:|h[Talent]|h|r verfügbar!,1
 20927,LEVEL_UP_TALENTS_LINK,|cffFF4E00|Htalentpane:|h[Talente]|h|r,1
 20928,LEVEL_UP_DUAL_SPEC_LINK, |cffFF4E00|Htalentpane:|h[Duale Spezialisierung]|h|r,1
-20929,BN_INLINE_TOAST_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s ist jetzt ein Real-ID-Freund.,1
-20930,BN_INLINE_TOAST_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt kein Real-ID-Freund mehr.,1
-20931,REMOVE_FRIEND_CONFIRMATION,"Sind Sie sich sicher, dass Sie Ihren Freund %s aus der Kontaktliste entfernen möchten?",1
+20929,BN_INLINE_TOAST_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s ist jetzt ein Real-ID-Freund.,3
+20930,BN_INLINE_TOAST_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist jetzt kein Real-ID-Freund mehr.,3
+20931,REMOVE_FRIEND_CONFIRMATION,"Sind Sie sich sicher, dass Sie Ihren Freund %s aus der Kontaktliste entfernen möchten?",3
 20932,OPTION_TOOLTIP_PROFANITY_FILTER_WITH_WARNING,"Schimpfwortfilter aktivieren.\n\n|cffff0000Warnung:|r Die Blizzard-Dienste sind nicht verfügbar, möglicherweise wird diese Einstellung daher nicht gespeichert.",1
-20933,ERR_CANNOT_IGNORE_BN_FRIEND,Sie können Freunde oder BattleTag-Freunde nicht ignorieren.,1
-20934,CHAT_BN_CONVERSATION_LIST,%s %s,1
+20933,ERR_CANNOT_IGNORE_BN_FRIEND,Sie können Freunde oder BattleTag-Freunde nicht ignorieren.,3
+20934,CHAT_BN_CONVERSATION_LIST,%s %s,3
 20935,CHAT_OVERFLOW_LABEL,Alle Reiter auflisten,1
 20936,NEWBIE_TOOLTIP_CHAT_OVERFLOW,Es können nicht alle Chat-Reiter angezeigt werden. Per Linksklick werden alle Chat-Reiter angezeigt.,1
 20937,RAF_SUMMON_WITH_COOLDOWN,Freund beschwören (%s),1
@@ -9292,8 +9292,8 @@ anzeigen",1
 21184,TRANSFER_ABORT_LOCKED_TO_DIFFERENT_INSTANCE,"Ihr seid bereits ""%s"" zugewiesen.",1
 21185,TRANSFER_ABORT_ALREADY_COMPLETED_ENCOUNTER,"Ihr seid für mindestens eine Bossbegegnung in dieser Instanz gesperrt, da Ihr bereits einer anderen ID zugewiesen seid, in der dieser Boss bereits bezwungen wurde.",1
 21186,BONUS_TALENTS_TOOLTIP,+%d Talentpunkte,1
-21187,CHAT_SERVER_DISCONNECTED_MESSAGE,Sie wurden vom Chatserver getrennt und können möglicherweise keine Nachrichten senden oder empfangen.,1
-21188,CHAT_SERVER_RECONNECTED_MESSAGE,Sie wurden wieder mit dem Chatserver verbunden und können Nachrichten senden oder empfangen.,1
+21187,CHAT_SERVER_DISCONNECTED_MESSAGE,Sie wurden vom Chatserver getrennt und können möglicherweise keine Nachrichten senden oder empfangen.,3
+21188,CHAT_SERVER_RECONNECTED_MESSAGE,Sie wurden wieder mit dem Chatserver verbunden und können Nachrichten senden oder empfangen.,3
 21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Eure heroische Instanz ist bereits im Gange und wird von einer anderen Gruppe genutzt.,1
 21190,GUILD_NEWS_FORMAT0,Gildenerfolg errungen: %s,1
 21191,GUILD_NEWS_FORMAT1,%s hat den Erfolg %s errungen,1
@@ -10510,22 +10510,22 @@ Tasten ausgelöst",1
 22497,NO_LFR_WHILE_RF,"Ihr könnt Euch nicht in die ""Andere Schlachtzüge""-Liste eintragen, solange Ihr Euch in der Warteschlange für einen Schlachtzug befindet.",1
 22498,NO_RF_WHILE_LFD,"Ihr könnt Euch nicht in die Warteschlange für einen Schlachtzug begeben, solange Ihr Euch in der Warteschlange für einen Dungeon befindet.",1
 22499,NO_RF_WHILE_LFR,"Ihr könnt Euch nicht in die Warteschlange für einen Schlachtzug begeben, solange Ihr in ""Andere Schlachtzüge"" gelistet seid.",1
-22501,GROUP1_CHAT_TAG1,Gruppe1,1
-22502,GROUP1_CHAT_TAG2,Gruppe1,1
-22503,GROUP2_CHAT_TAG1,Gruppe2,1
-22504,GROUP2_CHAT_TAG2,Gruppe2,1
-22505,GROUP3_CHAT_TAG1,Gruppe3,1
-22506,GROUP3_CHAT_TAG2,Gruppe3,1
-22507,GROUP4_CHAT_TAG1,Gruppe4,1
-22508,GROUP4_CHAT_TAG2,Gruppe4,1
-22509,GROUP5_CHAT_TAG1,Gruppe5,1
-22510,GROUP5_CHAT_TAG2,Gruppe5,1
-22511,GROUP6_CHAT_TAG1,Gruppe6,1
-22512,GROUP6_CHAT_TAG2,Gruppe6,1
-22513,GROUP7_CHAT_TAG1,Gruppe7,1
-22514,GROUP7_CHAT_TAG2,Gruppe7,1
-22515,GROUP8_CHAT_TAG1,Gruppe8,1
-22516,GROUP8_CHAT_TAG2,Gruppe8,1
+22501,GROUP1_CHAT_TAG1,Gruppe1,3
+22502,GROUP1_CHAT_TAG2,Gruppe1,3
+22503,GROUP2_CHAT_TAG1,Gruppe2,3
+22504,GROUP2_CHAT_TAG2,Gruppe2,3
+22505,GROUP3_CHAT_TAG1,Gruppe3,3
+22506,GROUP3_CHAT_TAG2,Gruppe3,3
+22507,GROUP4_CHAT_TAG1,Gruppe4,3
+22508,GROUP4_CHAT_TAG2,Gruppe4,3
+22509,GROUP5_CHAT_TAG1,Gruppe5,3
+22510,GROUP5_CHAT_TAG2,Gruppe5,3
+22511,GROUP6_CHAT_TAG1,Gruppe6,3
+22512,GROUP6_CHAT_TAG2,Gruppe6,3
+22513,GROUP7_CHAT_TAG1,Gruppe7,3
+22514,GROUP7_CHAT_TAG2,Gruppe7,3
+22515,GROUP8_CHAT_TAG1,Gruppe8,3
+22516,GROUP8_CHAT_TAG2,Gruppe8,3
 22517,LFG_LEADER_CHANGED_WARNING,%s ist nun der Anführer Eurer Gruppe.,1
 22518,SLASH_RAIDBROWSER7,/or,1
 22519,SLASH_RAIDBROWSER8,/as,1
@@ -11157,8 +11157,8 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23178,BATTLE_PET_YOUR,Euer Kampfhaustier,1
 23183,BATTLE_PET_LEVEL_UP_ICON,|Hbattlepet|h[%s]|h von |T%s:0|t hat Stufe %d erreicht!,1
 23185,TALENT_FRAME_HELP_2,"Während Ihr in den Stufen aufsteigt, schaltet Ihr weitere Talentgruppen frei.",1
-23204,BATTLENET_BROADCAST,Statusnachricht,1
-23205,BATTLENET_FRIEND_PROMPT,BattleTag#0000 oder Friend@Email.com,1
+23204,BATTLENET_BROADCAST,Statusnachricht,3
+23205,BATTLENET_FRIEND_PROMPT,BattleTag#0000 oder Friend@Email.com,3
 23206,CHARACTER_NAME_PROMPT,Charaktername,1
 23207,BATTLE_TAG_SYMBOL,#,1
 23208,BATTLE_TAG_ID_PROMPT,0,1
@@ -11174,7 +11174,7 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23220,PET_BATTLE_RESULT_WIN,Ihr habt gewonnen!,1
 23221,PET_BATTLE_RESULT_LOSE,Kampf beendet,1
 23222,BATTLE_TAG_REQUEST,|cff82c5ffBattleTag|r-Anfrage schicken an:,1
-23223,BATTLE_TAG_REQUEST_INFO,"Wurde die Freundschaftsanfrage angenommen, wird der Kontakt in die Freundesliste eingetragen.",1
+23223,BATTLE_TAG_REQUEST_INFO,"Wurde die Freundschaftsanfrage angenommen, wird der Kontakt in die Freundesliste eingetragen.",3
 23224,OPTION_TOOLTIP_SSAO,Steuert die Renderqualität von erweiterten Beleuchtungseffekten. Das Verringern kann die Leistung stark verbessern.,3
 23246,SPELL_FAILED_CUSTOM_ERROR_164,"Ihr müsst zunächst eine Flugmeisterlizenz erwerben, bevor Ihr diesen Zauber benutzen könnt.",1
 23247,ERR_PVP_MAP_NOT_FOUND,Kartenveto nicht festgelegt.,1
@@ -11265,10 +11265,10 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23336,TOGGLE_BATTLEFIELD_MAP,Zonenkarte ein/aus,1
 23337,TOGGLE_SCOREBOARD,Punkteübersicht ein/aus,1
 23341,CHALLENGE_MODE_NEW_RECORD,Neuer Rekord,1
-23342,BATTLETAG_REMOVE_FRIEND_CONFIRMATION,"Sind Sie sich sicher, dass Sie Ihren BattleTag-Freund %s entfernen möchten?",1
+23342,BATTLETAG_REMOVE_FRIEND_CONFIRMATION,"Sind Sie sich sicher, dass Sie Ihren BattleTag-Freund %s entfernen möchten?",3
 23343,ERR_BATTLETAG_FRIEND_REQUEST_SENT,BattleTag-Freundschaftsanfrage wurde verschickt,1
-23344,BN_INLINE_TOAST_BATTLETAG_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s ist jetzt ein BattleTag-Freund.,1
-23345,BN_INLINE_TOAST_BATTLETAG_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist kein BattleTag-Freund mehr.,1
+23344,BN_INLINE_TOAST_BATTLETAG_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s ist jetzt ein BattleTag-Freund.,3
+23345,BN_INLINE_TOAST_BATTLETAG_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s ist kein BattleTag-Freund mehr.,3
 23346,BATTLE_PET_SOURCE_1,Beute,1
 23347,BATTLE_PET_SOURCE_2,Quest,1
 23348,BATTLE_PET_SOURCE_3,Händler,1
@@ -11311,7 +11311,7 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23386,MONK_BREW_CORE_ABILITY_1,Einfacher Nahkampfangriff. Verringert die Abklingzeit Eurer Gebräufähigkeiten.,1
 23387,MONK_BREW_CORE_ABILITY_2,Angriff auf kurze Distanz. Verringert die Abklingzeit Eurer Gebräufähigkeiten und fügt auch allen Gegnern in der Nähe des Ziels Schaden zu.,1
 23388,NO_BATTLETAG,Sie verfügen über keinen BattleTag.,1
-23389,BATTLETAG_CREATE_INFO,"Um BattleTag-Freunde hinzufügen zu können, müssen Sie zunächst einen eigenen BattleTag erstellen. Klicken Sie auf ""Erstellen"", um zu beginnen.",1
+23389,BATTLETAG_CREATE_INFO,"Um BattleTag-Freunde hinzufügen zu können, müssen Sie zunächst einen eigenen BattleTag erstellen. Klicken Sie auf ""Erstellen"", um zu beginnen.",3
 23390,BATTLETAG_CREATE_WEBSITE,"Wenn Sie auf ""Erstellen"" klicken, werden Sie auf blizzard.com weitergeleitet.",1
 23391,BATTLETAG_CREATE,Erstellen,1
 23392,BATTLE_TAG_CLICK_CREATE,"Hier klicken, um einen BattleTag zu erstellen!",1
@@ -11327,7 +11327,7 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23402,MONK_BREW_CORE_ABILITY_6,"Fähigkeit mit kurzer Abklingzeit. Erhöht die Schadensmenge drastisch, die gestaffelt werden kann.",1
 23403,SEND_BATTLETAG_FRIEND_REQUEST,BattleTag-Freundschaftsanfrage senden,1
 23418,REPORT_BATTLEPET_NAME_CONFIRMATION,"Sind Sie sicher, dass Sie %s wegen eines anstößigen Kampfhaustiernamens melden möchten?",1
-23419,BATTLENET_ADD_FRIEND_INFO,"Wenn Sie einen Freund über seine E-Mailadresse hinzufügen, wird ihm Ihr echter Name angezeigt (Sie sind dann Freunde).\n\nWenn Sie einen Kontakt über sein BattleTag hinzufügen, wird ihm ausschließlich Ihr BattleTag angezeigt. Sie müssen die Raute (#) sowie die darauffolgende Nummer angeben, um einen BattleTag-Freund eintragen zu können.",1
+23419,BATTLENET_ADD_FRIEND_INFO,"Wenn Sie einen Freund über seine E-Mailadresse hinzufügen, wird ihm Ihr echter Name angezeigt (Sie sind dann Freunde).\n\nWenn Sie einen Kontakt über sein BattleTag hinzufügen, wird ihm ausschließlich Ihr BattleTag angezeigt. Sie müssen die Raute (#) sowie die darauffolgende Nummer angeben, um einen BattleTag-Freund eintragen zu können.",3
 23420,REPORT_PET_NAME_CONFIRMATION,"Sind Sie sicher, dass Sie %s wegen eines anstößigen Begleiternamens melden möchten?",1
 23422,ACCOUNT_LEVEL_MOUNT,Accountweites Reittier,1
 23423,PARTY_IN_PUBLIC_GROUP_MESSAGE,Dieser Spieler befindet sich momentan in einer Instanzgruppe.,1
@@ -11733,7 +11733,7 @@ zugsbrowser",1
 23856,INSTANCE_CHAT,Instanz,1
 23857,INSTANCE_CHAT_LEADER,Instanzanführer,1
 23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Instanz]|h %s:\32,1
-23859,CHAT_INSTANCE_CHAT_SEND,Instanz:\32,1
+23859,CHAT_INSTANCE_CHAT_SEND,Instanz:\32,3
 23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Instanzanführer]|h %s:\32,1
 23861,SLASH_INSTANCE_CHAT1,/i,1
 23862,SLASH_INSTANCE_CHAT2,/i,1
@@ -11830,7 +11830,7 @@ zugsbrowser",1
 23980,ITEM_CHARGEUP_TOTAL_MIN,(Benötigt %d Min.),1
 23981,ITEM_CHARGEUP_TOTAL_SEC,(Benötigt %d Sek.),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,Ihr müsst Euch in der Nähe des Tors zum Blutigen Hof befinden.,1
-23984,ERR_BN_FRIEND_LIST_FULL,Es gibt keinen Platz für weitere Blizzard-Kontakte.,1
+23984,ERR_BN_FRIEND_LIST_FULL,Es gibt keinen Platz für weitere Blizzard-Kontakte.,3
 23985,GMSS_CHAT_DEFAULT_RESPONSE,"Dieser GM steht nicht zum Chat zur Verfügung. Falls das Icon Offenes Ticket angezeigt wird, sehen Sie bitte davon ab, Ihr Ticket zu editieren oder zu schließen. Falls dieses Symbol nicht angezeigt wird, öffnen Sie bitte ein neues Ticket. Vielen Dank.",1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - %d%% abgeschlossen,1
 23988,BONUS_REPUTATION_TITLE,Bonusruf,1
@@ -12884,7 +12884,7 @@ Missionsbericht",1
 25103,GARRISON_FOLLOWER_EXHAUSTED,Erschöpft (1 Tag),1
 25104,GARRISON_MISSION_EXHAUSTING,Erschöpfende Mission,1
 25105,GARRISON_FOLLOWER_ADDED_UPGRADED_TOAST,Aufgewerteten Anhänger erhalten,1
-25106,NUMBER_IN_PARENTHESES,(%d),1
+25106,NUMBER_IN_PARENTHESES,(%d),3
 25107,GARRISON_MISSION_EXPECTED_ILVL,Vorgesehene Machtstufe (%d),1
 25108,GARRISON_MISSION_EXPECTED_ILVL_TOOLTIP,"Diese Mission hat eine vorgesehene Machtstufe. Anhänger, deren Machtstufe unter der der Mission liegt, tragen weniger zur Erfolgschance bei.",1
 25109,LFG_LIST_RECOMMENDED_ILVL,%d empfohlen,1
@@ -15791,7 +15791,7 @@ Abenteuerführer ausblenden",1
 35321,ERR_MAIL_NOT_FRIEND_OR_GUILD,Der Empfänger muss ein Freund oder Gildenmitglied sein.,1
 35322,CONFIRM_ARTIFACT_CHALLENGE,"Seid Ihr sicher, dass Ihr diese Quest verfolgen wollt? Sie ist sehr herausfordernd und könnte viel Zeit in Anspruch nehmen.",1
 35323,SPELL_FAILED_CUSTOM_ERROR_320,Das Ziel darf nicht bereits eine Kugel der Macht halten.,1
-35324,FRIEND_REQUESTS,Freundschaftsanfragen (%d),1
+35324,FRIEND_REQUESTS,Freundschaftsanfragen (%d),3
 35325,SELF_HIGHLIGHT_MODE_OUTLINE,Umriss,1
 35326,TEXT_MODE_A_STRING_RESULT_OVERENERGIZE,(%s Überaufladung),1
 35327,BINDING_NAME_TOGGLECOLLECTIONSWARDROBE,Vorlagen ein/aus,1
@@ -15848,7 +15848,7 @@ Abenteuerführer ausblenden",1
 35381,SPELL_FAILED_CUSTOM_ERROR_323,Erfordert einen geladenen Schlüsselstein.,1
 35382,CHAR_LOGIN_LOCKED_BY_RESTRICTION,Das Einloggen mit diesem Charakter ist derzeit beschränkt.,6
 35383,AUCTION_BROWSE_UNIT_PRICE_SORT,Preis/Einheit,1
-35384,BATTLENET_FRIEND_REQUEST_RECEIVED,Sie haben eine Freundschaftsanfrage (RealID) erhalten,1
+35384,BATTLENET_FRIEND_REQUEST_RECEIVED,Sie haben eine Freundschaftsanfrage (RealID) erhalten,3
 35385,SOCIAL_QUEUE_QUEUED_FOR,In Warteschlange für:,1
 35386,SOCIAL_QUEUE_FORMAT_DUNGEON,Dungeon: %s,1
 35387,SOCIAL_QUEUE_FORMAT_HEROIC_DUNGEON,Dungeon: %s (Heroisch),1
@@ -15861,7 +15861,7 @@ Abenteuerführer ausblenden",1
 35394,QUICK_JOIN_ROLE_NOT_NEEDED,Diese Rolle wird in der Gruppe nicht benötigt.,1
 35395,QUICK_JOIN_FAILED,Ihr könnt dieser Gruppe nicht beitreten.,1
 35396,SOCIAL_QUEUE_TOOLTIP_HEADER,Warteschlangen,1
-35397,QUICK_JOIN,Schnellbeitritt,1
+35397,QUICK_JOIN,Schnellbeitritt,3
 35398,JOIN_QUEUE,Beitrittsanfrage,1
 35399,ACCEPT_GLUE,Annehmen,2
 35400,CHARACTER_BOOST_YOU_MUST_REACTIVATE,"Sie müsst Ihren Account reaktivieren, um dieses Feature zu nutzen.",2
@@ -16135,7 +16135,7 @@ Abenteuerführer ausblenden",1
 35694,CONTRIBUTION_RESULT_ERROR_UNABLE_TO_COMPLETE_QUEST,Beisteuern momentan nicht möglich,1
 35695,CALENDAR_HOLIDAYFRAME_BEGINSENDS,%1$s|n|nAnfang: %2$s %3$s|nEnde: %4$s %5$s,1
 35696,CALENDAR_TOOLTIP_ONGOING,Im Gange,1
-35697,VISITABLE_URL37,https://battle.net/support/article/000251513,3
+35697,VISITABLE_URL37,https://eu.battle.net/support/de/article/000345591,3
 35698,VISITABLE_URL38,https://www.battlenet.com.cn/support/zh/article/000251513,3
 35699,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100,|HurlIndex:37|h|cff006995Häufig gestellte Fragen (FAQ) zur Charakteraufwertung|r|h,3
 35700,BLIZZARD_STORE_DISCLAIMER_BOOST_TOKEN_100_CN,|HurlIndex:38|h|cff006995Häufig gestellte Fragen (FAQ) zur Charakteraufwertung|r|h,3
@@ -16349,14 +16349,14 @@ Abenteuerführer ausblenden",1
 35939,ARTIFACT_RELIC_TALENT_AVAILABLE,Beim Netherlichttiegel ist ein neuer Artefaktbonus verfügbar.,1
 35940,ARTIFACT_RELIC_SLOT_NEXT_RANK,Dieser Reliktplatz wird auf Artefaktstufe %2$d auf Stufe %1$d aufgewertet.,1
 35941,PET_JOURNAL_FILTER_USABLE_ONLY,Nur nutzbare,5
-35942,ICON_TAG_RAID_TARGET_STAR3,golden,1
-35943,ICON_TAG_RAID_TARGET_CIRCLE3,orange,1
-35944,ICON_TAG_RAID_TARGET_DIAMOND3,violett,1
-35945,ICON_TAG_RAID_TARGET_TRIANGLE3,grün,1
-35946,ICON_TAG_RAID_TARGET_MOON3,silber,1
-35947,ICON_TAG_RAID_TARGET_SQUARE3,blau,1
-35948,ICON_TAG_RAID_TARGET_CROSS3,rot,1
-35949,ICON_TAG_RAID_TARGET_SKULL3,weiß,1
+35942,ICON_TAG_RAID_TARGET_STAR3,golden,3
+35943,ICON_TAG_RAID_TARGET_CIRCLE3,orange,3
+35944,ICON_TAG_RAID_TARGET_DIAMOND3,violett,3
+35945,ICON_TAG_RAID_TARGET_TRIANGLE3,grün,3
+35946,ICON_TAG_RAID_TARGET_MOON3,silber,3
+35947,ICON_TAG_RAID_TARGET_SQUARE3,blau,3
+35948,ICON_TAG_RAID_TARGET_CROSS3,rot,3
+35949,ICON_TAG_RAID_TARGET_SKULL3,weiß,3
 35950,ERR_LFG_JOINED_BATTLEFIELD_QUEUE,Ihr befindet Euch jetzt in der Warteschlange für eine Rauferei.,1
 35951,REPORT_BAD_GUILD_NAME,Gildenname,1
 35952,LFG_LIST_SPAM,Werbung,1
@@ -18099,8 +18099,8 @@ Abenteuerführer ausblenden",1
 41744,CLUB_FINDER_REPORT_GUILD_NAME,Anstößiger Gildenname,1
 41745,CLUB_FINDER_REPORT_COMMUNITY_NAME,Anstößiger Community-Name,1
 41746,CLUB_FINDER_REPORT_JOIN_NOTE,Anstößige Beitrittsnotiz,1
-41747,RAF_RECRUIT_FRIEND,|cffffd200Angeworbener:|r %s,1
-41748,RAF_RECRUITER_FRIEND,|cffffd200Anwerber:|r %s,1
+41747,RAF_RECRUIT_FRIEND,|cffffd200Angeworbener:|r %s,3
+41748,RAF_RECRUITER_FRIEND,|cffffd200Anwerber:|r %s,3
 41749,AUCTION_HOUSE_FILTER_DROP_DOWN_LEVEL_RANGE,Stufenreichw.,1
 41750,QUEST_SESSION_BONUS_LOOT_REWARD_FRAME_TITLE,Mögliche Belohnungen bei Abschluss dieser Quest als synchronisierte Gruppe:,1
 41751,AUCTION_HOUSE_MAIL_MULTIPLE_BUYERS,Mehrere Käufer,1
@@ -18350,7 +18350,7 @@ Abenteuerführer ausblenden",1
 42030,NPEV2_CLASSQUESTABILITY,\nZieht |cFF00FFFF%s|r in Eure Aktionsleiste.,1
 42031,CHAR_CREATE_CLASS_DISABLED_GENERIC,Einen Charakter dieser Klasse dürft Ihr aktuell nicht erstellen.,2
 42032,CHAR_CREATE_CLASS_DISABLED_TEMPLATE,Die aktuell ausgewählte Vorlage unterstützt diese Klasse nicht.,2
-42033,CHAR_CREATE_NEED_EXPANSION,Benötigt Erweiterung: %s,2
+42033,CHAR_CREATE_NEED_EXPANSION,Benötigt Erweiterung: %s,3
 42034,CALENDAR_FILTER_HOLIDAYS,Feiertage,5
 42035,ORDER_HALL_TALENT_UNAVAILABLE_REQUIRES_PREREQUISITE_TALENT,Erfordert ein bestimmtes Talent,1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,Käufe eingeschränkt,3
@@ -19239,7 +19239,7 @@ Abenteuerführer ausblenden",1
 43037,COVENANT_SANCTUM_RESERVOIR_INACTIVE,Das Sanktumsreservoir ist momentan inaktiv,1
 43038,TRANSFER_ABORT_UNIQUE_MESSAGE5,"Ihr müsst das Geheimnis der Insel des Verbannten lösen, bevor Ihr sie verlassen könnt.",1
 43039,SSAO_TYPE_LABEL,Umgebungsverdeckung,3
-43040,ERR_BN_INVITER_FRIEND_LIST_FULL,Euer Gegenüber hat keinen Platz für weitere Blizzard-Kontakte.,1
+43040,ERR_BN_INVITER_FRIEND_LIST_FULL,Euer Gegenüber hat keinen Platz für weitere Blizzard-Kontakte.,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
 43043,ERR_AUCTION_COMMODITY_WON_S,Ihr habt eine Auktion gewonnen für: %s (x%d),1
@@ -19501,13 +19501,13 @@ Abenteuerführer ausblenden",1
 43883,PARTY_VOICE,Gruppen-Voicechat,1
 43884,COMMUNITIES_VOICE,Communitys-Voicechat,1
 43885,GUILD_VOICE,Gilden-Voicechat,1
-43886,CHAT_PARTY_VOICE_GET,|Hchannel:PARTY_VOICE|h[Gruppe]|h %s:\32,1
+43886,CHAT_PARTY_VOICE_GET,|Hchannel:PARTY_VOICE|h[Gruppe]|h %s:\32,3
 43887,CHAT_GUILD_VOICE_GET,|Hchannel:GUILD_VOICE|h[Gilde]|h %s:\32,1
 43888,CHAT_COMMUNITIES_VOICE_GET,%s:\32,1
 43889,SPELL_FAILED_SHADOWLANDS_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Flug in den Schattenlanden'.,1
 43890,LFG_LIST_WARMODE_ACTIVITY_FORMAT,%s (Kriegsmodus aktiv),1
 43892,VOICE_WINDOW,Voicechat,1
-43893,SPEECH_TO_TEXT_HEADER,Mit Sprachtranskription können Sie einen Voicechat-Channel in Echtzeit als Text anzeigen lassen.,1
+43893,SPEECH_TO_TEXT_HEADER,Mit Sprachtranskription können Sie einen Voicechat-Channel in Echtzeit als Text anzeigen lassen.,3
 43894,SPEECH_TO_TEXT_COUNT,%d Spieler nutzen Sprachtranskription.,1
 43895,SPEECH_TO_TEXT_STARTED,Transkription gestartet.,1
 43896,SPEECH_TO_TEXT_JOINED,"Sprachtranskription für Voicechat aktiv. Nur Mitglieder, die im selben Voicechat-Channel sind und ""Voicechat transkribieren"" aktiviert haben, sehen den Transkriptionsverlauf.",1
@@ -19522,7 +19522,7 @@ Abenteuerführer ausblenden",1
 43906,SLASH_PARTY_VOICE1,/grv,1
 43907,SLASH_GUILD_VOICE1,/giv,1
 43908,SLASH_COMMUNITIES_VOICE1,/cv,1
-43909,CHAT_PARTY_VOICE_SEND,Gruppen-Voicechat:\32,1
+43909,CHAT_PARTY_VOICE_SEND,Gruppen-Voicechat:\32,3
 43910,CHAT_GUILD_VOICE_SEND,Gilden-Voicechat :\32,1
 43911,CHAT_COMMUNITIES_VOICE_SEND,Community-Voicechat:\32,1
 43912,SPEECH_TO_TEXT_SUBTEXT,Weitere Informationen sind in den |cff00aaff|HurlIndex:17|hDatenschutzrichtlinien|h|r.,1
@@ -19578,8 +19578,8 @@ Abenteuerführer ausblenden",1
 43975,TORGHAST_EARN_TOWER_KNOWLEDGE_TUTORIAL_TEXT,"Verdient %s, indem Ihr Euch in Torghast gut schlagt.",1
 43976,TORGHAST_SPEND_TOWER_KNOWLEDGE_TUTORIAL_TEXT,"Investiert %s in verfügbare Talente. Investiert noch mehr, um zusätzliche Talente verfügbar zu machen.",1
 43977,GARRISON_TALENT_TREE_REQUIRED_CURRENCY_SPENT_FORMAT,Ihr müsst noch %i %s mehr investieren.,1
-43978,BNET_FRIEND_TOOLTIP_ZONE_AND_REALM,|cffffd200Zone: |r%1$s|n|cffffd200Realm: |r%2$s,1
-43979,BNET_FRIEND_TOOLTIP_ZONE_AND_REGION,|cffffd200Zone: |r%1$s|n|cffffd200Region: |r%2$s,1
+43978,BNET_FRIEND_TOOLTIP_ZONE_AND_REALM,|cffffd200Zone: |r%1$s|n|cffffd200Realm: |r%2$s,3
+43979,BNET_FRIEND_TOOLTIP_ZONE_AND_REGION,|cffffd200Zone: |r%1$s|n|cffffd200Region: |r%2$s,3
 43980,RECONNECT_BUTTON,Wiederverbinden,2
 43981,SWITCH_ACCOUNTS_BUTTON,Ausloggen,2
 43982,ERR_TRAVEL_PASS_DIFFERENT_REGION,Andere Region,1
@@ -19686,7 +19686,7 @@ Abenteuerführer ausblenden",1
 44099,TEXT_TO_SPEECH_NARRATE_MY_MESSAGES,Eigene Nachrichten vorlesen,1
 44100,ORIBOS_GREAT_VAULT_POI_TOOLTIP_INSTRUCTIONS,"Klicken, um eine Vorschau der Großen Schatzkammer anzusehen",1
 44101,LEVEL_UP_BATTLEGROUND_WITH_LINK,Neues Schlachtfeld freigeschaltet: |cff66bbff|Hbattleground:%d|h[%s]|h|r,1
-44103,CHAT_HELP_TEXT_LINE17,/tts - Vorlesen von Chatnachrichten aktivieren/deaktivieren,1
+44103,CHAT_HELP_TEXT_LINE17,/tts - Vorlesen von Chatnachrichten aktivieren/deaktivieren,3
 44104,HELP_TEXT_LINE16,"- Geben Sie ""/tts hilfe"" ein, um eine Liste der Text-to-Speech-Befehle aufzurufen.",1
 44105,LEVEL_UP_DUNGEON_WITH_LINK,Neuer Dungeon freigeschaltet: %s,1
 44106,LEVEL_UP_RAID_WITH_LINK,Neuer Schlachtzug freigeschaltet: %s,1
@@ -20016,7 +20016,7 @@ Abenteuerführer ausblenden",1
 44472,CLICK_CAST_UNSAVED,Es gibt nicht gespeicherte Klickbelegungen. Änderungen gehen beim Schließen verloren.,1
 44473,CLICK_CAST_RESET,Sollen alle Klickbelegungen auf die Standardbelegung zurückgesetzt werden?,1
 44481,POWER_TYPE_EPHEMERA,Ephemera,1
-44483,CHAT_CHANNEL_SEND_NO_ID,[%s]:\32,1
+44483,CHAT_CHANNEL_SEND_NO_ID,[%s]:\32,3
 44484,TRANSMOGRIFY_TOOLTIP_APPEARANCE_UNCOLLECTABLE,"Dieser Gegenstand kann nicht zur Transmogrifikation verwendet werden, lässt sich aber als Ausrüstungsteil tragen.",1
 44485,EMOTE623_CMD1,/zusammenzucken,1
 44486,EMOTE623_CMD2,/wince,1
@@ -20240,7 +20240,7 @@ Abenteuerführer ausblenden",1
 48848,REPORT_CLUB_FINDER,Spieler melden,1
 48849,REPORT_GROUP_FINDER,Spieler melden,1
 48850,REPORT_CLUB_MEMBER,Spieler melden,1
-48851,REPORT_FRIEND,Spieler melden,1
+48851,REPORT_FRIEND,Spieler melden,3
 48852,REPORT_GROUP_MEMBER,Spieler melden,1
 48853,LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP,Diese Aktivität unterstützt keine fraktionsübergreifenden Gruppen.|n|nEure Gruppe wird nur Spielern der %s angezeigt.,1
 48854,EXPANSION_NAME9,Dragonflight,7
@@ -20406,8 +20406,7 @@ Abenteuerführer ausblenden",1
 49060,SETTING_EMPOWERED_SPELL_INPUT,Eingabe Ermächtigter Zauber,1
 49061,SETTING_EMPOWERED_SPELL_INPUT_HOLD_OPTION,Halten und Loslassen,1
 49062,SETTING_EMPOWERED_SPELL_INPUT_TAP_OPTION,Drücken und Antippen,1
-49063,SETTING_EMPOWERED_SPELL_INPUT_TOOLTIP,"Nur für Rufer.
-Ermächtigte Zauber, im Gegensatz zu gewirkten oder kanalisierten Zaubern, erfordern eine zweite Eingabe, um den Zauber zu vervollständigen.",1
+49063,SETTING_EMPOWERED_SPELL_INPUT_TOOLTIP,"Ermächtigte Zauber, im Gegensatz zu gewirkten oder kanalisierten Zaubern, erfordern eine zweite Eingabe, um den Zauber zu vervollständigen.",1
 49064,SETTING_EMPOWERED_SPELL_INPUT_HOLD_OPTION_TOOLTIP,"Halten und Loslassen ermöglicht es Euch, das Zauberwirken zu beginnen, indem Ihr Eure Zaubertaste drückt und gedrückt haltet und den Zauber dann einsetzt, wenn Ihr die Taste loslasst.",1
 49065,SETTING_EMPOWERED_SPELL_INPUT_TAP_OPTION_TOOLTIP,"Drücken und Antippen ermöglicht es Euch, den Zauber einmal anzutippen, um das Zauberwirken zu beginnen und dann ein zweites Mal anzutippen, wenn Ihr den Zauber einsetzen möchtet.",1
 49067,PERKS_PROGRAM_CONFIRM_CLEAR_FROZEN_ITEM,"Seid Ihr sicher, dass Ihr diesen festgehaltenen Gegenstand entfernen wollt?",1
@@ -20974,7 +20973,7 @@ Bei Konfigurationen mit dieser Einstellung werden dieselben Aktionsleisten verwe
 49709,OPTION_TOOLTIP_TARGET_TOOLTIP,"Zeigt den Tooltip des Ziels an, ohne dass das Ziel mit dem Mauszeiger berührt werden muss.",1
 49710,INTERACT_ICONS_OPTION,Interaktionstastensymbole,1
 49711,OPTION_TOOLTIP_INTERACT_ICONS,"Legt fest, welche Symbole über NSCs und Gegenständen angezeigt werden, wenn die Interaktionstastenfunktion aktiviert ist.",1
-49712,INTERACT_ICONS_DEFAULT,Standard,1
+49712,INTERACT_ICONS_DEFAULT,Nur NSCs (Standard),1
 49713,INTERACT_ICONS_SHOW_ALL,Alles anzeigen,5
 49714,INTERACT_ICONS_SHOW_NONE,Nichts anzeigen,1
 49715,PROFESSIONS_START_RECRAFTING_ORDER,Umfertigungsauftrag beginnen,1
@@ -21523,6 +21522,9 @@ Der Fortschritt gilt accountweit.",1
 50311,GEM_TEXT_PRIMORDIAL,Am besten für einen urzeitlichen Sockel geeignet.,1
 50312,NEW_SPOKEN_LANGUAGE_HELPTIP,Ihr habt eine neue Sprache gelernt. Ändert Eure gesprochene Sprache hier.,1
 50313,SPELL_FAILED_CUSTOM_ERROR_999,Ihr habt den wirbelnden Mojostein nicht angelegt.,1
+50315,WOW_LABS_PRESENCE_GAME_STATE_FRONTEND,Hauptmenü,3
+50316,WOW_LABS_PRESENCE_GAME_STATE_INGAME_LOBBY,Spielelobby,3
+50317,WOW_LABS_PRESENCE_GAME_STATE_INGAME_MATCH,Spielt,3
 50318,PLAYER_CHOICE_ENVOY_EXPLORERS,Möchtet Ihr ab heute wirklich der Drachenschuppenexpedition helfen?,1
 50319,PLAYER_CHOICE_ENVOY_TUSKARR,Möchtet Ihr ab heute wirklich den Tuskarr von Iskaara helfen?,1
 50320,PLAYER_CHOICE_ENVOY_CENTAUR,Möchtet Ihr ab heute wirklich den Zentauren der Maruuk helfen?,1
@@ -21538,6 +21540,7 @@ Konnte nicht geladen werden, erneuter Versuch bei Neustart.",3
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Melden]|w|h|r,1
 50333,101_CutsceneName_Ref,Nasz'uro,1
 50334,TALENTS_LINK_FORMAT,Verbundene Talente (%s %s),1
+50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,Wartet,3
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,Es folgen die Auswahl des neuen Volks und die Anpassung des Charakters. Nach Abschluss des Vorgangs wird der Volkswechsel dauerhaft angewendet.,2
 50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,In Chat posten,1
 50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,In Zwischenablage kopieren |cnNORMAL_FONT_COLOR:(zum Teilen online)|r,1
@@ -21951,7 +21954,7 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 
 |cffffffffVorwärts/Auf:|r Sorgt dafür, dass Ihr beim Drachenreiten durch den Vorwärtsbefehl aufwärts und durch den Rückwärtsbefehl abwärts fliegt.",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Mit dieser Kreatur wurde sich vor Kurzem erst eingestimmt.,1
-51508,SPELL_FAILED_CUSTOM_ERROR_646,Ihr könnt keine weiteren Wappen dieser Art tragen.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,Ihr könnt gerade keine weiteren Wappen dieser Art tragen.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
 51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,Ihr habt in letzter Zeit zu viele Anhängerdungeons betreten.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Dynamischer Flug,1
@@ -21975,6 +21978,11 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51538,PERKS_PROGRAM_SLOW_PURCHASE,Die Bearbeitung Ihres Kaufs dauert länger als üblich. Die Bearbeitung wird im Hintergrund fortgesetzt.,1
 51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Rückkehr zum Handelsposten,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,Ihr habt keine Gegenstände dieser Art.,1
+51541,KIOSK_SESSION_STARTED_BODY,"Ein neuer Weltenbaum erblüht im Traum.
+Fyrakk braucht die Macht des Urquells,
+Um das Herz des Baumes zu erobern
+Und seine Flamme in ganz Azeroth zu verbreiten.",1
+51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Wächter des Traums,1
 51543,KIOSK_ENTER,Welt betreten,2
 51547,PERKS_PROGRAM_PENDING,Ausstehend,1
 51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,"Die Bearbeitung Ihres Kaufs dauert länger als üblich. Dieser Gegenstand wird geliefert, sobald die Bearbeitung abgeschlossen ist.",1
@@ -21999,20 +22007,131 @@ Seid Ihr sicher, dass Ihr fortfahren möchtet?",1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Dieser Gegenstand kann von Eurem Charakter nicht transformiert werden.,1
 51579,COLOR_PICKER_HEX,Hex,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Spielercharaktere der gegnerischen Fraktion können nicht zum Gildenmeister befördert werden.,1
+51583,FRONT_END_LOBBY_SOLO,Solo,2
+51584,FRONT_END_LOBBY_DUO,Duo,2
+51585,FRONT_END_LOBBY_TRIOS,Trios,2
+51590,WOWLABS_CUSTOMIZE_CHARACTER,Charakter anpassen,3
+51591,WOWLABS_JOIN_GAME,Spiel beitreten,3
+51592,WOWLABS_MAINLINE,Hauptlinie,3
+51598,FRONT_END_LOBBY_QUEUE_TIME,Zeit in Warteschlange: %s,2
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Bildschirmeffekte beim dynamischen Flug,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Das Deaktivieren von Bildschirmeffekten kann gegen Bewegungskrankheit helfen.,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Durch die Aktivierung der Einstellung für Bewegungskrankheit wird die Kamerabewegung verringert und der Spielercharakter zentriert.,1
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Der eingefrorene Gegenstand kann jederzeit durch das Reinziehen eines anderen Gegenstands hierher ersetzt werden.,1
 51628,NPE_UNBOUND_KEYBIND,[Ungebunden],1
+51631,TOAST_NEW_FRIEND_INVITE_WOWLABS,Ihr habt eine neue Freundschaftsanfrage.,3
+51632,TOAST_NEW_PARTY_INVITE_WOWLABS,Ihr habt eine neue Gruppeneinladung.,3
+51634,WOWLABS_FRIENDS_GLUE,Freunde,2
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,Favorit setzen,3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,Favorit entfernen,3
 51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Verbleibende Zeit: %s,1
+51650,BN_BLOCK_FRIEND,Blockieren,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Diese Aktivität hat noch nicht begonnen.,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Diese Aktivität ist abgelaufen.,1
 51653,QUEST_TEXT_PREVIEW_TITLE,Beispiel,1
 51654,QUEST_TEXT_PREVIEW_BODY,"Diese Vorschau demonstriert, wie die Questbeschreibung bei Auswahl einer alternativen Hintergrundfarbe im Questfenster aussehen wird.",1
+51655,WOWLABS_BINDING_HEADER,Plunderstorm,1
+51656,BINDING_NAME_WOWLABS_ACTIONBUTTON1,Angriff,1
+51657,BINDING_NAME_WOWLABS_ACTIONBUTTON2,Heiltrank,1
+51658,BINDING_NAME_WOWLABS_ITEM1,Gegenstand benutzen,1
+51659,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON1,Angriffszauber 1,1
+51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Angriffszauber 2,1
+51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Unterstützungszauber 1,1
+51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Unterstützungszauber 2,1
+51667,SPELL_FAILED_CUSTOM_ERROR_870,Dieser Gegenstand kann in der aktuellen Saison nicht genutzt werden.,1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Schwierigkeitsgrad %s,1
+51699,LEVEL_UP_NO_LINK,Glückwunsch! Ihr habt |cffFF4E00Stufe %d|r erreicht!,1
+51700,SPECTATE,Zuschauen,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Ihr erhaltet folgende Gegenstände:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Spielercharaktere,1
+51719,WOW_LABS_REMATCH,Partie verlassen,3
+51720,LFG_LIST_BEST_FOR_DUNGEON,Bestleistung für Dungeon,1
+51721,LFG_LIST_BEST_RUN,Bester Durchlauf,1
+51723,SPELL_FAILED_CUSTOMERROR_1011,Bereits am Maximum,1
+51724,ITEM_ALREADY_MAX_QUALITY,Gegenstand besitzt bereits maximale Qualität.,1
+51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Gebt eine Spanne für präzise Ergebnisse ein, wie zum Beispiel 14-16 oder 15-15.",1
+51726,MEMBERS_COLON,Mitglieder:,1
 51727,WOW_ERROR_337,Für den Zugang zu diesem Realm ist ein Account mit einer gültigen Zugangslizenz erforderlich.,2
+51733,GROUPFINDER_PLUS,+,1
+51735,ADD_BATTLENET_FRIEND_LABEL,Gebt den BattleNet-Namen eures Freundes inklusive der Ziffern ein:,3
+51738,GLUE_LEAVE_PARTY,Gruppe verlassen,3
+51739,GLUE_REMOVE_FROM_PARTY,Aus Gruppe entfernen,3
+51740,LFG_LIST_NEEDS_TANK,Benötigt Tank,1
+51749,LFG_LIST_CLASS_AVAILABLE,Benötigt meine Klasse,1
+51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s hat zu viel Ruf für diese Quest.,1
+51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Der Versuch von %s, die Quest ""%s"" zu teilen, ist fehlgeschlagen. Ihr habt zu viel Ruf für diese Quest.",1
+51756,ADDON_DEP_NOT_AVAILABLE,Abhängigkeit nicht verfügbar,3
+51757,ADDON_EXCLUDED_FROM_BUILD,Vom Erstellen ausgeschlossen,3
+51758,ADDON_DEP_EXCLUDED_FROM_BUILD,Abhängigkeit vom Erstellen ausgeschlossen,3
+51759,ADDON_NO_ACTIVE_INTERFACE,Keine aktive Benutzeroberfläche,3
+51760,ADDON_DEP_NO_ACTIVE_INTERFACE,Abhängigkeit hat keine aktive Benutzeroberfläche,3
+51761,ADDON_WRONG_ACTIVE_INTERFACE,Falsche aktive Benutzeroberfläche,3
+51762,ADDON_DEP_WRONG_ACTIVE_INTERFACE,Abhängigkeit hat falsche aktive Benutzeroberfläche,3
+51763,ADDON_WRONG_GAME_TYPE,Falscher Spieltyp,3
+51764,ADDON_DEP_WRONG_GAME_TYPE,Abhängigkeit hat falschen Spieltyp,3
+51765,ADDON_WRONG_LOAD_PHASE,Falsche Ladephase,3
+51766,ADDON_DEP_WRONG_LOAD_PHASE,Abhängigkeit hat falsche Ladephase,3
+51767,ADDON_USER_ADDONS_DISABLED,Benutzererweiterungen deaktiviert,3
+51768,ADDON_DEP_USER_ADDONS_DISABLED,Abhängigkeit (Benutzererweiterungen) deaktiviert,3
+51771,LFG_LIST_NEEDS_HEALER,Heiler benötigt,1
+51772,LFG_LIST_NEEDS_DAMAGE,Schadensklassen benötigt,1
+51773,LFG_LIST_HAS_TANK,Tank vorhanden,1
+51774,LFG_LIST_HAS_HEALER,Heiler vorhanden,1
+51775,LFG_LIST_DIFFICULTY,Schwierigkeitsgrad,1
+51776,LFG_LIST_REQUIRE,Benötigt,1
+51780,DRAGONRIDING_RACES_MAP_TOGGLE,Drachenreitenrennen,1
+51784,WOW_LABS_ATTACK_TOOLTIP,Angriff,1
+51785,WOW_LABS_HEAL_TOOLTIP,Heilung,1
+51786,WOW_LABS_UTILITY_TOOLTIP,Unterstützung,1
+51787,WOW_LABS_OFFENSIVE_TOOLTIP,Offensiv,1
+51788,WOW_LABS_ITEM_SLOT_TOOLTIP,Gegenstand,1
+51789,PLUNDERSTORM_RENOWN_LEVEL_TOOLTIP,"Beute machen, um Belohnungen zu verdienen.",1
+51794,WOWLABS_GAMEMODE_HEADER,Plunderstorm,3
+51795,WOWLABS_GAMEMODE_DESC,"Piraten treffen in einem großen Battle Royale aufeinander.\n\nIhr könnt Euch alleine oder mit einem Freund zusammen in die Schlange einreihen.
+
+",3
+51798,INVTYPE_NON_EQUIP_IGNORE,,1
+51804,WOWLABS_FIND_GAME_SOLO,Solospiel finden,3
+51805,WOWLABS_FIND_GAME_DUO,Duospiel finden,3
+51806,WOWLABS_FIND_GAME_TRIO,Triospiel finden,3
+51807,WOW_LABS_STAY,Bleiben,1
+51808,WOW_LABS_CONFIRM_LEAVE_MATCH,"Ihr könnt immer noch von einem Teammitglied wiederbelebt werden.|n|nSeid Ihr sicher, dass Ihr die Partie verlassen möchtet?",1
+51809,FRONT_END_LOBBY_SOLOS,Solos,2
+51810,FRONT_END_LOBBY_DUOS,Duos,2
+51815,WOWLABS_INVITE_FRIEND,Kontakt einladen,3
+51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Komplett aufgewertet,1
+51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Aufwertung:,1
+51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Abklingzeit verringert und Schaden erhöht (falls zutreffend),1
+51832,WOWLABS_GAME_BASICS_TITLE,Grundlagen von Plunderstorm,3
+51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Wer am Ende noch steht, gewinnt.
+
+|cffffffff2.|r Durch das Töten von Kreaturen und Gegnern können Stufen erklommen und Zauber erhalten werden.
+
+|cffffffff3.|r Das Plündern weiterer Kopien eines Zaubers lässt diesen besser werden.
+
+|cffffffff4.|r Nutzt bei niedriger Gesundheit Eure Heilungsfähigkeit.",3
+51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Schließt Quests ab und sammelt Beute, um Belohnungen freizuschalten. Besucht Da'kash Grimjoch im Wartebereich.|n|n|cff00ff00Nächste Belohnung bei Stufe %d:|r",3
+51837,WOWLABS_RENOWN_PREVIEW_TITLE,Ruhm,3
+51838,WOWLABS_READY_GAME,Bereit,3
+51840,WOWLABS_SUB_REQUIRED,Zugang zu diesem Feature erfordert einen Account mit Spielzeit oder aktivem Abonnement.,3
+51841,WOWLABS_SUBSCRIBE_NOW,Jetzt abonnieren,2
+51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Warte auf andere Spielercharaktere...,2
+51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobbygruppe]|h %s\32,3
+51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobbygruppe]|h %s\32,1
+51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobbygruppe:\32,1
+51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Lobbygruppe,1
+51849,WOW_LABS_VIEW_REWARDS,Belohnungen ansehen,1
+51850,EXPANSION_SEASON_NAME,Saison %2$d von %1$s,1
+51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Wiederbelebbar,1
+51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,"Belebt Euer Besatzungsmitglied wieder, indem Ihr Euch in die Nähe des Leichnams stellt.",1
+51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Gesamtbeute gesammelt,3
+51867,LIMITED_TIME_EVENT,ZEITLICH BEGRENZTES|nEREIGNIS,3
+51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
+51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interagieren,1
+51878,SPELL_FAILED_CUSTOM_ERROR_1026,"Ihr könnt im Kampf keine Zauber austauschen, deren Abklingzeit aktiv ist.",1
+51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Ihr werdet alle Beute verlieren, die Ihr in dieser Runde verdient habt, wenn Ihr geht, bevor Euer Team besiegt wurde.|n|nSeid Ihr sicher, dass Ihr gehen wollt?
+",1
+51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,"Ihr werdet alle Beute verlieren, die Ihr in dieser Runde verdient habt, wenn Ihr geht, bevor Ihr besiegt wurdet.|n|nSeid Ihr sicher, dass Ihr gehen wollt?",1
+51917,WOWLABS_CURRENCY_PICKUP,+%s Beute,3
+51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Es konnte keine Verbindung zu Plunderstorm hergestellt werden. Bitte später erneut versuchen.,2

@@ -2223,7 +2223,7 @@ Lässt eine Lawine über Eure Gegner hereinbrechen, die [StandardDamage(1,1)] [S
 Fordert pelzige Unterstützung an, die [FormatDamage(SimpleDamage(1,2)*3)] [School()]schaden verursacht und den erlittenen Schaden [duration(1, 4)] |4Runde:Runden; lang um [abs(abilityStateMod( 24, 542 ))]% erhöht.",132266,7,3,0,0
 1119,Rechtschaffene Inspiration,Erhöht den Schaden und die Geschwindigkeit um 100%.,135971,-1,0,813,2
 1120,Angriffsverringerung,"Schaden des nächsten Angriffs um [abs(abilityStateMod( 23, 1120 ))]% verringert.",653219,-1,0,334,3
-1121,Münzenwurf,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+1121,Drang vor Drangsal,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Verursacht [StandardDamage(1,1)] [School()]schaden und macht das Ziel 3 Runden lang habgierig.
 
@@ -3767,13 +3767,13 @@ Verursacht [StandardDamage(1, 1)] [School()]schaden, erhöht jedoch den von Eure
 2512,Eiszeit,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Verursacht [StandardDamage(1,1)] [School()]schaden und hat eine Chance von 25%, das Ziel zu betäuben.",4226156,6,5,0,0
-2513,Rabenholdt-Sturm,"[StandardAccuracy(1,1)] |cffffffffTrefferchance|r
+2513,Rabenholdt-Sturm,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Mini-Furorion führt zwei Wellen von Assassinen an, um seine Feinde zu vernichten.
 
-Mini-Furorion verursacht [FormatDamage(SimpleDamage(1,1))] [School()] Schaden
+Mini-Furorion verursacht [FormatDamage(SimpleDamage(1,1))] [School()]schaden.
 
-Jede Welle von Assassinen verursacht [FormatDamage(SimpleDamage(1,2))] [School()] Schaden.",458726,0,0,0,0
+Jede Welle von Assassinen verursacht [FormatDamage(SimpleDamage(1,2))] [School()]schaden.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
 2515,Windzorn,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
@@ -3785,3 +3785,11 @@ Jeder Treffer verursacht [FormatDamage(SimpleDamage(1,1))] [School()]schaden.",1
 Verursacht [StandardDamage(1,1)] [School()]schaden.
 
 Verursacht zusätzlich [StandardDamage(1,2)] Schaden, falls der Benutzer weniger Gesundheit hat als das Ziel.",429382,5,0,0,0
+2519,Blasenschlag,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Stürmt in Blasen gehüllt auf den Gegner zu, fügt ihm [StandardDamage(1,1)] [School()]schaden zu.
+
+Diese Aktion wird immer zuerst ausgeführt.",132852,8,1,0,0
+2520,Schillern,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Ihr verwirrt den Gegner mit einer schillernden Kugel und verursacht [StandardDamage(1,1)] [School()]schaden, |cff9933FFblendet|r das Ziel und verringert dessen Trefferchance [duration(1,2)] |4Runde:Runden; lang um [abs(abilityStateMod( 41 , 462 ))]%.",133836,0,4,0,0

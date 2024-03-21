@@ -5075,14 +5075,17 @@ ID,Value_lang,ReqID,ParentWidgetID
 9063,,39,1020
 9064,,41,1020
 9065,,42,1020
-9066,,212,3460
-9067,,277,3460
-9068,,19,3461
-9069,,208,3461
-9070,,273,3461
 9074,,19,3463
 9075,Energia Cosmica,273,3463
 9076,Raccogli Energia Cosmica uccidendo i nemici che ne sono potenziati e stando nell'area d'effetto delle pozze di energia.,208,3463
+9086,|cffFFD100Tempesta in avvicinamento,19,3467
+9087,,273,3467
+9088,,208,3467
+9089,|cffFFD100La Tempesta converge tra:,19,3468
+9090,,273,3468
+9091,,208,3468
+9096,,212,3471
+9097,,277,3471
 9115,,19,3475
 9116,Resta vicino a Kodah e tieni lontani i Giurafauce per contribuire ad attivare la matrice.,208,3475
 9117,Attivazione Matrice,273,3475
@@ -5124,6 +5127,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 9341,,277,3508
 9342,,212,3509
 9343,,277,3509
+9348,|Hitem:187988|h,212,3512
+9349, ,277,3512
+9350,|Hitem:187988|h,212,3513
+9351, ,277,3513
 9352,|cffffffffSfida del Carceriere|r|nBlocco: %19811w,204,3514
 9353,,205,3514
 9364,%187921ic,25,3519
@@ -5144,23 +5151,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 9412,Obiettivi della zona completati,19,3528
 9413,,273,3528
 9414,,208,3528
-9415,,407,3529
-9416,,413,3529
-9417,500,257,3530
-9418,,258,3530
-9419,,262,3530
-9420,736,261,3530
-9421,621,264,3530
-9422,,265,3530
-9423,400,267,3530
-9424,,268,3530
-9425,,270,3530
-9426,,271,3530
-9427,,420,3531
-9441,3/5: |TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t,19,3538
-9442,,273,3538
-9443,"Occhio del Carceriere|nGrado 3/5|n|nLe tue azioni nella Fauce attirano l'Occhio del Carceriere, che porterà ad affrontare minacce sempre crescenti.|n|nMinacce attuali:|n|cFFFFFFFFCercatori d'Anima ti attaccano a vista|n|nTorri bombardano la tua posizione, infliggendo danni e rallentandoti|n|nAssassini vengono mandati a ucciderti|r|n|nProssima minaccia:|n|cFFFFFFFFAssassini d'élite|r",208,3538
-9444,"Occhio del Carceriere|n|cFFFFFFFFGrado 3/5|r|n|nLe tue azioni nella Fauce attirano l'Occhio del Carceriere, che porterà ad affrontare minacce sempre crescenti.|n|nMinacce attuali:|n|cFFFFFFFFCercatori d'Anima ti attaccano a vista|n|nTorri bombardano la tua posizione, infliggendo danni e rallentandoti|n|nAssassini vengono mandati a ucciderti|r|n|nProssima minaccia:|n|cFFFFFFFFRapitori Alati|r",418,3539
 9445,,19,3540
 9446,Raccogli Cristalli Arcani attorno alla cittadella per infondere il tavolo!,208,3540
 9447,Progresso Infusione,273,3540
@@ -5475,6 +5465,20 @@ ID,Value_lang,ReqID,ParentWidgetID
 9883,,277,2064
 9884,,277,2065
 9885,,277,2066
+9888,%22262w giocatori restanti,194,3629
+9889,La quantità di giocatori in vita.,195,3629
+9890,,197,3629
+9891,,198,3629
+9892,,200,3629
+9893,,201,3629
+9894,|cffFFD100Bottini e razzie!,428,3629
+9895,%22262w/%21271w Solo,194,3630
+9896,Il torneo inizierà una volta che saranno stati evocati abbastanza giocatori.,195,3630
+9897,,197,3630
+9898,,198,3630
+9899,,200,3630
+9900,,201,3630
+9901,|cffFFD100Evocazione canaglie,428,3630
 9902,,19,3631
 9903,Salute di Uranto: %21928w%,273,3631
 9904,,208,3631
@@ -5499,6 +5503,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 11089,,19,4175
 11090,Rabbia Ittica,273,4175
 11091,,208,4175
+11092,|Hspell:375246|h,212,4176
+11093, ,277,4176
 11129,,212,4178
 11130,,277,4178
 11131,,212,4179
@@ -5534,9 +5540,39 @@ ID,Value_lang,ReqID,ParentWidgetID
 11169,Armi Restanti,19,4189
 11170,,273,4189
 11171,Scorte d'Armi Restanti,208,4189
+11182,I giocatori sconfitti durante la partita.,477,4195
+11183,Giocatori uccisi:,480,4195
+11184,,485,4195
+11185,%53832yc,490,4195
+11186,,495,4195
+11187,Totale dell'oro depredato durante la partita.,477,4196
+11188,Oro depredato:,480,4196
+11189,,485,4196
+11190,%53833yc,490,4196
+11191,,495,4196
+11192,Personaggi non giocanti sconfitti.,477,4197
+11193,Creature uccise:,480,4197
+11194,,485,4197
+11195,%53834yc,490,4197
+11196,,495,4197
+11197,Danni inflitti ai giocatori.,477,4198
+11198,Danni ai giocatori:,480,4198
+11199,,485,4198
+11200,%53810yc,490,4198
+11201,,495,4198
 11207,Gruppi sconfitti:,19,4199
 11208,,273,4199
 11209,,208,4199
+11215,Danni inflitti ai giocatori e alle creature.,477,4200
+11216,Danni totali inflitti:,480,4200
+11217,,485,4200
+11218,%53835yc,490,4200
+11219,,495,4200
+11220,Incantesimi e oggetti depredati.,477,4201
+11221,Oggetti depredati:,480,4201
+11222,,485,4201
+11223,%53836yc,490,4201
+11224,,495,4201
 11227,Tempo restante:,19,4203
 11228,,273,4203
 11229,La rete può essere raccolta allo scadere del tempo.,208,4203
@@ -5591,6 +5627,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 11321,,208,4215
 11346,Unisciti a una Grande Caccia col Clan Shikaar.,52,4218
 11347,Test Tooltip,394,4218
+11348,,212,4219
+11349,,277,4219
 11353,,19,4221
 11354,Salute di Honmor: %21928w%,273,4221
 11355,,208,4221
@@ -5855,6 +5893,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 11661,Opzionale: Spuntino dato a Filetto,19,4326
 11662,,273,4326
 11663,Raccogli i Lumaconi di Lava nei pressi e dalli a Filetto per rinforzarvi tutti e due!,208,4326
+11664,,212,4327
+11665,,277,4327
+11666,,212,4328
+11667,,277,4328
 11668,,19,4329
 11669,Tempo restante,273,4329
 11670,,208,4329
@@ -5943,6 +5985,36 @@ ID,Value_lang,ReqID,ParentWidgetID
 11758,"Migliore è l'odore, migliore è la zuppa... e più grande è il pericolo!",208,4344
 11759,Qualità della zuppa: |cFFFF8000Leggendaria (%38830e)|r,19,4344
 11760,Proteggi la zuppa!,273,4344
+11761,,212,4345
+11762,,277,4345
+11763,,212,4346
+11764,,277,4346
+11765,,212,4347
+11766,,277,4347
+11767,,212,4348
+11768,,277,4348
+11769,,212,4349
+11770,,277,4349
+11771,,212,4350
+11772,,277,4350
+11773,,212,4351
+11774,,277,4351
+11775,,212,4352
+11776,,277,4352
+11779,,212,4354
+11780,,277,4354
+11781,,212,4355
+11782,,277,4355
+11783,,212,4356
+11784,,277,4356
+11785,,212,4357
+11786,,277,4357
+11787,,212,4358
+11788,,277,4358
+11789,,212,4359
+11790,,277,4359
+11791,,212,4360
+11792,,277,4360
 11793,|cff1eff00Ricco|r|nProbabilità del 125% di pescare una Conchiglia Inquietante. |n20% di probabilità di creare un buco più profondo nel ghiaccio per catturare meglio.|nLe zone di pesca nel ghiaccio durano 10 minuti.|nPuoi piazzare delle Reti.,52,4361
 11794,,394,4361
 11795,|cff9d9d9dModerato|r|nLe zone di pesca nel ghiaccio durano 3 minuti.|nNon puoi piazzare delle Reti.,52,4362
@@ -6130,6 +6202,26 @@ ID,Value_lang,ReqID,ParentWidgetID
 11993,"Una tempesta di fuoco dei Primalisti invade l'area, infondendo le creature con nuovi poteri e forza.",394,4436
 11994,|A:elementalstorm-lesser-water:24:24:0:0|a Tempesta Elementale,52,4437
 11995,"Una tempesta di neve dei Primalisti invade l'area, infondendo le creature con nuovi poteri e forza.",394,4437
+11996,,212,4438
+11997,,277,4438
+11998,,212,4439
+11999,,277,4439
+12000,,212,4440
+12001,,277,4440
+12002,,212,4441
+12003,,277,4441
+12004,,212,4442
+12005,,277,4442
+12006,,212,4443
+12007,,277,4443
+12008,,212,4444
+12009,,277,4444
+12010,,212,4445
+12011,,277,4445
+12012,,212,4446
+12013,,277,4446
+12014,,212,4447
+12015,,277,4447
 12046,Vittorie: %55859yc,2,4457
 12047,,3,4457
 12048,,4,4457
@@ -6347,8 +6439,49 @@ ID,Value_lang,ReqID,ParentWidgetID
 12466,La rete può essere raccolta allo scadere del tempo.,208,4615
 12467,Zona di Pesca dell'Isola Teschio di Drago,52,4616
 12468,,394,4616
+12528,Clicca sul membro della squadra per rianimarlo!,212,4637
+12529, ,277,4637
+12530,,15,4637
+12531,Clicca sul membro della squadra per resuscitarlo!,212,4639
+12532, ,277,4639
+12533,,15,4639
 12539, |TInterface\Icons\INV_TreasureVault_Key01.BLP:16:16:0:-3|t Chiavi disponibili: |cFFFFFFFF%38805e|r,52,4642
 12540,,394,4642
+12541,%22262w/%22264w Duo,194,4643
+12542,Il torneo inizierà una volta che saranno stati evocati abbastanza giocatori.,195,4643
+12543,,197,4643
+12544,,198,4643
+12545,,200,4643
+12546,,201,4643
+12547,|cffFFD100Evocazione canaglie,428,4643
+12548,%22262w/%22266w Trio,194,4644
+12549,Il torneo inizierà una volta che saranno stati evocati abbastanza giocatori.,195,4644
+12550,,197,4644
+12551,,198,4644
+12552,,200,4644
+12553,,201,4644
+12554,|cffFFD100Evocazione canaglie,428,4644
+12555,%22262w squadre restanti,194,4645
+12556,La quantità di giocatori in vita.,195,4645
+12557,,197,4645
+12558,,198,4645
+12559,,200,4645
+12560,,201,4645
+12561,|cffFFD100Bottini e razzie!,428,4645
+12569,? in vita,194,4647
+12570,C'è un numero sconosciuto di giocatori in vita.,195,4647
+12571,,197,4647
+12572,,198,4647
+12573,,200,4647
+12574,,201,4647
+12575,         |cffFFD100Round %21305w,428,4647
+12576,? squadre (? giocatori),194,4648
+12577,C'è un numero sconosciuto di giocatori in vita.,195,4648
+12578,,197,4648
+12579,,198,4648
+12580,,200,4648
+12581,,201,4648
+12582,         |cffFFD100Round %21305w,428,4648
 12602,Forza recuperata,19,4651
 12603,,273,4651
 12604,Ebissian deve recuperare le forze prima di poter spegnere altri incendi.,208,4651
@@ -6387,6 +6520,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 12648,"Uccidi i Primalisti vicini e proteggi la posizione, in modo che il portale possa essere chiuso.",275,4674
 12693,|cnNORMAL_FONT_COLOR:- Isola Proibita:|r %39078e/%39071e,52,4683
 12694,,394,4683
+12734,"Lorem ipsum dolor siede amet, consetetur adipiscicing elit, ced do eusmod tempor incidificut ut lore magna aliqua. ut enim minim Venim, quas noostold lavora per l'intero lavoro di ullamco ex ea commip ex commiato. Duis aute irreba di commiato. Duis aute irre dolor in commiato. Duis aute irruce dolor. Duis aute irre dolor, in cambio di requisizione. Duis aute irruce dolor, in cambio di requisizione. Duis aute irruce dolor in volubile. Duis aute irruce dolor in volubile. Duis aute irruce dolor in volubile. Duis aute irruce dolor",52,4691
+12735,,394,4691
 12746,,19,4696
 12747,Tempo restante,273,4696
 12748,,208,4696
@@ -6399,6 +6534,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12770,Obiettivi dei ricercatori completati: ,19,4700
 12771,,273,4700
 12772,|Hspell:409646|h,208,4700
+12790,|cffFFD100La Tempesta è arrivata!,19,3469
+12791,,273,3469
+12792,,208,3469
+12793,|cffFFD100La Tempesta sta convergendo!,19,3470
+12794,,273,3470
+12795,,208,3470
 12841,,52,4705
 12842,,394,4705
 12843,Furia di Fyrakk,19,4706
@@ -6422,6 +6563,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12864,,277,4715
 12865,Fyrakk si sta avvicinando.,433,4716
 12866,Fyrakk arriva con dei rinforzi per decimare coloro che lo hanno derubato.,434,4716
+12869,[Clicca] sulla bandiera per iniziare la difesa!,212,4718
+12870, ,277,4718
+12871,,15,4718
+12872,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4719
+12873,Abbandonare troppo spesso le partite prima di ottenere una posizione nel torneo farà sì che il tuo account venga sottoposto a revisioni e sospensioni.|n|nVuoi davvero abbandonare la partita?,585,4719
+12874,,598,4719
 12875,Mostra agli Alavecchia quanto ti interessa.,208,4720
 12876,Appuntamento Lampo,273,4720
 12877,,19,4720
@@ -6448,6 +6595,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 12898,Furia di Fyrakk,19,4733
 12899,"Interferire con le forze di Fyrakk aumenta la sua furia, finché non invia un nemico più grande a fermarvi.",208,4733
 12900,Prossimo attacco di Fyrakk,273,4733
+12901,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4734
+12902,La tua squadra è ancora viva e può resuscitarti.|n|nVuoi davvero abbandonare la partita?,585,4734
+12903,,598,4734
+12904,,204,4735
+12905,|cff00FFFFTAB|r,205,4735
 12906,,19,4736
 12907,Porta gli ingredienti per contribuire alla pentola dell'incenso!,208,4736
 12908,Puzza,273,4736
@@ -6823,7 +6975,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 13509,Qualcosa sta arrivando...,273,4898
 13527,,621,4904
 13528,,622,4904
-13529,Livello oggetto 500 ci forza a completare il testo delle informazioni,627,4904
+13529,%202081id,627,4904
 13530,,275,4905
 13531,Carica,19,4906
 13532,,273,4906
@@ -7875,6 +8027,67 @@ ID,Value_lang,ReqID,ParentWidgetID
 14892,Disciplina,19,5377
 14893,,273,5377
 14894,Sconfiggi i nemici per aumentare la Disciplina e sconfiggere l'Eco di Fyrakk.,208,5377
+14897,,19,3465
+14898,,273,3465
+14899,,208,3465
+14915,,52,3472
+14916,,394,3472
+14917,,52,3473
+14918,,394,3473
+14922,,19,3490
+14923,,273,3490
+14924,,208,3490
+14925,,212,3511
+14926,,277,3511
+14942,,52,4190
+14943,,394,4190
+14944,,52,4192
+14945,,394,4192
+14946,,52,4193
+14947,,394,4193
+14948,,52,4194
+14949,,394,4194
+14977,,212,4342
+14978,,277,4342
+15057,,52,4448
+15058,,394,4448
+15059,,52,4463
+15060,,394,4463
+15061,,52,4466
+15062,,394,4466
+15063,,52,4467
+15064,,394,4467
+15071,,584,4641
+15072,,585,4641
+15073,,598,4641
+15089,,19,4652
+15090,,273,4652
+15091,,208,4652
+15092,,2,4675
+15093,,3,4675
+15094,,4,4675
+15095,,19,4676
+15096,,273,4676
+15097,,208,4676
+15098,,19,4677
+15099,,273,4677
+15100,,208,4677
+15101,,52,4682
+15102,,394,4682
+15103,,52,4684
+15104,,394,4684
+15108,,19,4692
+15109,,273,4692
+15110,,208,4692
+15111,,19,4694
+15112,,273,4694
+15113,,208,4694
+15114,,52,4695
+15115,,394,4695
+15437,,19,5482
+15438,,208,5482
+15439,Qualcosa sta arrivando...,273,5482
+15533,,275,5513
 15542,,19,5516
 15543,,273,5516
 15544,,208,5516
@@ -7946,12 +8159,74 @@ ID,Value_lang,ReqID,ParentWidgetID
 15771,,75,5590
 15772,Attiva,52,5592
 15773,,394,5592
+15796,,212,5597
+15797,,277,5597
 15808,,19,5602
 15809,,273,5602
 15810,,208,5602
+15811,Esempio di testo,584,5603
+15812,Esempio di testo secondario,585,5603
+15813,Descrizione di prova,598,5603
+15814,,212,5604
+15815,,277,5604
 15834,,19,5611
 15835,,273,5611
 15836,,208,5611
 15837,,19,5612
 15838,,273,5612
 15839,,208,5612
+15914,300,56,5641
+15915,Bottino ottenuto completando una missione Ordini del capitano.,57,5641
+15916,,59,5641
+15917,,60,5641
+15918,,62,5641
+15919,,63,5641
+15920,,67,5641
+15921,,66,5641
+15922,Ricompensa Ordini del capitano:,72,5641
+15923,,73,5641
+15924,,74,5641
+15925,,75,5641
+15926,150,56,5642
+15927,Bottino aggiuntivo ottenuto completando la prima missione Ordini del capitano del giorno.,57,5642
+15928,,59,5642
+15929,,60,5642
+15930,,62,5642
+15931,,63,5642
+15932,,67,5642
+15933,,66,5642
+15934,Ricompensa Dobloni giornalieri:,72,5642
+15935,,73,5642
+15936,,74,5642
+15937,,75,5642
+15951,,19,5650
+15952,,273,5650
+15953,,208,5650
+15982,Risvegliato,52,5670
+15983,,394,5670
+16014,,2,5673
+16015,,3,5673
+16016,,4,5673
+16017,%3011c Bottino raccolto,56,5673
+16018,Bottino totale ottenuto in questo scontro. Ottenuto quando la tua squadra viene eliminata o vince.,57,5673
+16019,,59,5673
+16020,,60,5673
+16021,,62,5673
+16022,,63,5673
+16023,,67,5673
+16024,,66,5673
+16025,,72,5673
+16026,,73,5673
+16027,,74,5673
+16028,,75,5673
+16029,Risvegliato,52,5674
+16030,,394,5674
+16031,Risvegliato,52,5675
+16032,,394,5675
+16061,Salute aumentata|nDanni inflitti dalle abilità aumentati,52,5683
+16062,,394,5683
+16063,|cff00ff00+%3011c reputazione guadagnata in questa partita|r|nFai visita a Da'kash Mastrotetro nell'area d'attesa per vedere le ricompense,52,5684
+16064,,394,5684
+16081,La Tempesta si è fermata!,19,3476
+16082,,273,3476
+16083,,208,3476
