@@ -633,7 +633,7 @@ omoderador <canal> <jugador>: cambiar un jugador al estado de moderador",3
 10357,SLASH_LEAVE3,/chatsalir,1
 10358,SLASH_LIST_CHANNEL1,/chatlist,1
 10359,SLASH_LIST_CHANNEL3,/chatinfo,1
-10360,SLASH_CHANNEL1,/c,1
+10360,SLASH_CHANNEL1,/c,3
 10361,SLASH_CHANNEL2,/cdecir,1
 10362,SLASH_CHAT_HELP1,/chat,1
 10363,SLASH_CHAT_HELP2,/chatayuda,1
@@ -1821,7 +1821,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 11695,PET_DIET_TEMPLATE,|cffffd200Dieta:|r %s,1
 11696,HP_TEMPLATE,%d p. de salud,1
 11697,CHANCE_TO_CRIT,Probabilidad de golpe crítico: %.2f%%,1
-11698,CHAT_MSG_YELL,Gritar,1
+11698,CHAT_MSG_YELL,Gritar,3
 11699,ERR_TAXINOVENDORNEARBY,¡No hay ningún transporte cercano!,1
 11700,ERR_MOUNT_INVALIDMOUNTEE,No puedes montar esa unidad.,1
 11701,ERR_MOUNT_SHAPESHIFTED,No puedes montar durante el cambio de forma.,1
@@ -1997,7 +1997,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 11890,RACIAL_SKILLS,%s habilidades:,1
 11891,CREATE_ARENA_TEAM,Crear,1
 11892,HELP_TEXT_LINE14,- Usa /chat para ver una lista de los comandos del chat,1
-11894,TUTORIAL22,"Si has disfrutado jugando con otro jugador, añádelo a tu lista de amigos. Haz clic en el |cffffd200botón Social|r y añádelo a tu lista de amigos.|n|nSolo puedes añadir amigos de tu mismo reino.",1
+11894,TUTORIAL22,"Si has disfrutado jugando con otro jugador, añádelo a tu lista de amigos. Haz clic en el |cffffd200botón Social|r y añádelo a tu lista de amigos.|n|nSolo puedes añadir amigos de tu mismo reino.",3
 11895,CHAT_NOT_MEMBER_NOTICE,No está en el canal %s.,1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,|Hchannel:%d|h[%s]|h No se ha encontrado al jugador %s.,1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h %s ha desactivado los anuncios del canal.,1
@@ -3001,16 +3001,16 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 13118,SERVER_CHANNELS,Canales del servidor,1
 13119,CREATURE,Criatura,1
 13120,SKILL,Habilidad,1
-13121,CHAT_MSG_LOOT,Botín (objeto),1
-13122,CHAT_MSG_EMOTE,Emoción,1
+13121,CHAT_MSG_LOOT,Botín (objeto),3
+13122,CHAT_MSG_EMOTE,Emoción,3
 13123,CHAT_MSG_TEXT_EMOTE,Emotexto,1
 13124,CHAT_MSG_OFFICER,Oficial,5
-13125,CHAT_MSG_WHISPER_INFORM,Susurrar,1
-13126,CHAT_MSG_MONSTER_SAY,Criatura: hablar,1
-13127,CHAT_MSG_MONSTER_YELL,Criatura: gritar,1
-13128,CHAT_MSG_MONSTER_WHISPER,Criatura: susurrar,1
+13125,CHAT_MSG_WHISPER_INFORM,Susurrar,3
+13126,CHAT_MSG_MONSTER_SAY,Criatura: hablar,3
+13127,CHAT_MSG_MONSTER_YELL,Criatura: gritar,3
+13128,CHAT_MSG_MONSTER_WHISPER,Criatura: susurrar,3
 13129,SYSTEM_MESSAGES,Mensajes del sistema,1
-13130,CHAT_MSG_AFK,Ausente,1
+13130,CHAT_MSG_AFK,Ausente,3
 13131,DND,Ocupado,1
 13132,CHAT_MSG_GUILD,Hermandad,3
 13133,SAY,Hablar,1
@@ -3054,7 +3054,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 13177,COMBAT_ENEMY,Combatir enemigo,1
 13178,COMBAT_MISC,Combatir varios,1
 13179,IGNORED,Ignorado,1
-13180,CHAT_MSG_CHANNEL_LIST,Lista de canales,1
+13180,CHAT_MSG_CHANNEL_LIST,Lista de canales,3
 13181,TIME_PLAYED_MSG,Tiempo jugado,1
 13182,CHAT_MSG_SKILL,Habilidad,1
 13183,PLAYER_LEVEL_UP,Sube de nivel,1
@@ -3081,7 +3081,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 13206,PERIODIC_MESSAGES,Efectos en el tiempo,1
 13211,ERR_TAXINOTSTANDING,Para ir a cualquier parte necesitas estar de pie.,1
 13212,CHAT_NOT_MODERATED_NOTICE,%s no está siendo moderado,1
-13213,CHAT_MSG_SAY,Decir,1
+13213,CHAT_MSG_SAY,Decir,3
 13214,MASTERY_POINTS_SPENT,Talentos de %1$s: %2$s,1
 13215,ERR_ALREADY_TRADING,Ya estás comerciando,1
 13216,STABLES,Establos,1
@@ -3249,7 +3249,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 13389,VOICEMACRO_19_Or_5_FEMALE,No fastidiemos el momento con tanta charla.,1
 13390,ITEM_SPELL_KNOWN,Ya conocido,5
 13391,BUYBACK_THIS_ITEM,Comprar este objeto para recuperarlo,1
-13392,CHAT_MSG_RAID,Banda,1
+13392,CHAT_MSG_RAID,Banda,3
 13393,VOICEMACRO_20_Ni_3,"¿Eso está afilado? ¿Podría cortarme? Ahora no soy inmortal, ¿sabes?",1
 13394,VOICEMACRO_12_Ni_0_FEMALE,Hola.,1
 13395,VOICEMACRO_12_Ni_2_FEMALE,Ha sido un placer.,1
@@ -4139,7 +4139,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 14507,COMBATLOG_XPGAIN_FIRSTPERSON_RAID,"%s muere, obtienes %d p. de experiencia. (-%d penalización por banda)",1
 14508,NEWBIE_TOOLTIP_QUESTLOG,Es la lista de todas las misiones que tienes actualmente. Puedes tener hasta 25 misiones pendientes al mismo tiempo.,1
 14509,COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_RAID,Obtienes %d p. de experiencia. (-%d de penalización por banda),1
-14510,NEWBIE_TOOLTIP_SOCIAL,"Información sobre otras personas en el juego. Puedes usar la ventana Social para gestionar tu lista de amigos y de ignorados, así como para ver quién está conectado.",1
+14510,NEWBIE_TOOLTIP_SOCIAL,"Información sobre otras personas en el juego. Puedes usar la ventana Social para gestionar tu lista de amigos y de ignorados, así como para ver quién está conectado.",3
 14511,COMBATLOG_XPGAIN_EXHAUSTION1_RAID,"%s muere, obtienes %d p. de experiencia. (%s exp %s bonus, -%d penalización por banda)",1
 14512,NEWBIE_TOOLTIP_WORLDMAP,A medida que exploras una zona irán apareciendo más lugares en el mapa del mundo. Para acercar la visión puedes hacer clic izquierdo y para alejarla clic derecho.,1
 14513,COMBATLOG_XPGAIN_EXHAUSTION2_RAID,"%s muere, obtienes %d p. de experiencia. (%s exp %s bonus, -%d penalización por banda)",1
@@ -4172,8 +4172,8 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 14561,NEWBIE_TOOLTIP_FRIENDSTAB,Te permite gestionar una lista de jugadores con los que te gusta jugar. Recibirás avisos cuando estos contactos se conecten o desconecten.,1
 14562,NEWBIE_TOOLTIP_GUILDTAB,Te permite visualizar información sobre tu hermandad y los jugadores que la integran. Si eres un oficial también puedes gestionar la hermandad desde esta pestaña.,1
 14563,NEWBIE_TOOLTIP_RAIDTAB,Te permite ver o modificar tu banda. Las bandas son grupos de más de 5 personas y son útiles para superar grandes desafíos en los niveles más avanzados.,1
-14564,NEWBIE_TOOLTIP_ADDFRIEND,Añade un jugador a tu lista de amigos. Recibirás una notificación cuando tus amigos se conecten o desconecten. Los demás jugadores no sabrán si están o no en tu lista de amigos.,1
-14565,NEWBIE_TOOLTIP_REMOVEFRIEND,Elimina al jugador seleccionado de tu lista de amigos.,1
+14564,NEWBIE_TOOLTIP_ADDFRIEND,Añade un jugador a tu lista de amigos. Recibirás una notificación cuando tus amigos se conecten o desconecten. Los demás jugadores no sabrán si están o no en tu lista de amigos.,3
+14565,NEWBIE_TOOLTIP_REMOVEFRIEND,Elimina al jugador seleccionado de tu lista de amigos.,3
 14566,NEWBIE_TOOLTIP_SENDMESSAGE,Envía un mensaje privado al jugador seleccionado.,1
 14567,NEWBIE_TOOLTIP_GROUPINVITE,Invita a unirse a tu grupo al jugador seleccionado.,1
 14568,NEWBIE_TOOLTIP_IGNOREPLAYER,"Añade un jugador a tu lista de ignorados. No podrás ver mensajes ni texto alguno de jugadores en tu lista de ignorados, ni ellos tampoco podrán comunicarse contigo de forma alguna.",1
@@ -5006,7 +5006,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 16427,SLASH_SAVEGUILDROSTER1,/saveguildroster,1
 16428,SLASH_SAVEGUILDROSTER2,/hermguardarlista,1
 16429,ERR_NOT_IN_BATTLEGROUND,No estás en un campo de batalla,1
-16430,CHAT_MSG_FILTERED,Mensaje de chat filtrado,1
+16430,CHAT_MSG_FILTERED,Mensaje de chat filtrado,3
 16431,EMOTE171_CMD1,/mountspecial,1
 16432,ABANDON_QUEST_CONFIRM_WITH_ITEMS,"Si abandonas \""%s\"", destruirás %s. ¿Seguro?",1
 16433,LFG_TYPE_DUNGEON,Mazmorra,1
@@ -5597,7 +5597,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 17134,OPTION_TOOLTIP_LOOT_UNDER_MOUSE,Seleccionar esto hará que la ventana de botín se abra en la situación actual del puntero del ratón.,1
 17136,ERR_QUEST_ALREADY_DONE,Has completado esa misión.,1
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,Ya has firmado los estatutos de otra hermandad.,1
-17138,CHAT_MSG_RESTRICTED,Restringido.,1
+17138,CHAT_MSG_RESTRICTED,Restringido.,3
 17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Tu equipo ha abandonado la cola,1
 17140,CHAT_RESTRICTED,Con una cuenta del periodo de prueba solo puedes enviar susurros a los jugadores que tengan a tu personaje en su lista de amigos. |cffffd000|Hstorecategory:gametime|h[Haz clic para actualizar]|h|r,3
 17141,SHOW_COMBAT_HEALING,Sanación,1
@@ -6547,7 +6547,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 18154,TEXT_MODE_A_STRING_RESULT_CRITICAL_SPELL,(Crítico),1
 18155,ERRORS,Errores,1
 18156,AFK,Ausente,1
-18158,CHANNEL,Canal,1
+18158,CHANNEL,Canal,3
 18159,ADD_FILTER,Añadir,1
 18160,MESSAGE_SOURCES,Origen mensaje,1
 18161,COLORS,Colores,1
@@ -7128,7 +7128,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 18851,D_DAYS,%d |4día:días;,3
 18852,D_HOURS,%d |4hora:horas;,3
 18853,CALENDAR_ERROR_EVENT_TIME_PASSED,La hora de este evento ya ha pasado.,1
-18854,UPDATE,Actualizar,1
+18854,UPDATE,Actualizar,3
 18855,INVITE,Invitar,1
 18856,CALENDAR_ACCEPT_INVITATION,Aceptar invitación,5
 18857,CALENDAR_AUTO_APPROVE,Aprobar miembros automáticamente,1
@@ -7263,7 +7263,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 18992,ACHIEVEMENT_BROADCAST,¡%s ha ganado el logro %s!,1
 18993,CALENDAR_PASTE_EVENT,Pegar,1
 18994,ACHIEVEMENT,Anunciar logro,1
-18995,CHAT_MSG_ACHIEVEMENT,Anunciar logro,1
+18995,CHAT_MSG_ACHIEVEMENT,Anunciar logro,3
 18996,SPELL_FAILED_CUSTOM_ERROR_31,Tu compañero no quiere ir ahí. Aléjate de El Fragmento Hendido.,1
 18997,ACTION_SPELL_RESURRECT,resucitado,1
 18998,ACTION_SPELL_RESURRECT_FULL_TEXT,%1$s %2$s resucita a %4$s.%6$s,1
@@ -8633,7 +8633,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20459,SLASH_DUNGEONS6,/df,1
 20460,ERR_LFG_PROPOSAL_DECLINED_SELF,Se te ha eliminado de la cola porque no has aceptado la invitación.,1
 20461,ERR_LFG_PROPOSAL_DECLINED_PARTY,Se te ha eliminado de la cola porque alguien de tu grupo no ha aceptado la invitación.,1
-20462,CHAT_MSG_PARTY_LEADER,Líder del grupo,1
+20462,CHAT_MSG_PARTY_LEADER,Líder del grupo,3
 20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Líder del grupo]|h %s:\32,3
 20464,PARTY_LEADER,Líder del grupo,1
 20465,ERR_LFG_CANT_USE_BATTLEGROUND,No puedes hacer cola para un campo de batalla o arena mientras usas los sistemas de cola de mazmorras y bandas.,1
@@ -8766,7 +8766,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20603,PENDING_INVITE,Pendiente,5
 20604,PENDING_INVITE_LIST,Lista de pendientes,1
 20605,BATTLENET_NAME_FORMAT,%1$s %2$s,3
-20606,BNET_INVITE_SENT_TIME,Enviada hace %s,1
+20606,BNET_INVITE_SENT_TIME,Enviada hace %s,3
 20607,BLOCK_INVITES_CONFIRMATION,¿Seguro que quieres bloquear las invitaciones de %s?,1
 20609,BLOCK_INVITES,Bloquear invitaciones,1
 20611,FRIENDS_LIST_ONLINE,Conectado,3
@@ -8841,7 +8841,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20691,ERR_CURRENCY_SPELL_SLOT_MISMATCH,Ese objeto no se puede utilizar en esa ranura,1
 20692,SPELL_FAILED_CUSTOM_ERROR_107,"Debes seleccionar el cadáver de una tortuga de agua dulce Malezamarina, de una rémora Registraintestinos o de un tiburón martillo Escamaespina.",1
 20693,CHAT_MSG_BN_WHISPER,Susurro con ID real,3
-20694,BN_WHISPER,Susurro de Blizzard,1
+20694,BN_WHISPER,Susurro de Blizzard,3
 20695,CHAT_BN_WHISPER_GET,%s susurra:\32,3
 20696,CHAT_BN_WHISPER_INFORM_GET,Para %s:\32,3
 20697,CHAT_BN_WHISPER_SEND,Decir a %s:\32,3
@@ -8856,11 +8856,11 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20706,POWER_TYPE_PURPLE_POWER,Poder Arcano,1
 20707,POWER_TYPE_GREEN_POWER,Poder de Veneno,1
 20708,POWER_TYPE_ORANGE_POWER,Poder de Fuego,1
-20709,BN_TOAST_PENDING_INVITES,Tienes |cff82c5ff%d|r |4solicitud:solicitudes; de amistad.,1
-20710,BN_TOAST_ONLINE,se ha |cff00ff00conectado|r.,1
-20711,BN_TOAST_OFFLINE,se ha |cffff0000desconectado|r.,1
-20712,BN_TOAST_CONVERSATION,Te has unido,1
-20713,BN_TOAST_NEW_INVITE,Has recibido una nueva solicitud de amistad.,1
+20709,BN_TOAST_PENDING_INVITES,Tienes |cff82c5ff%d|r |4solicitud:solicitudes; de amistad.,3
+20710,BN_TOAST_ONLINE,se ha |cff00ff00conectado|r.,3
+20711,BN_TOAST_OFFLINE,se ha |cffff0000desconectado|r.,3
+20712,BN_TOAST_CONVERSATION,Te has unido,3
+20713,BN_TOAST_NEW_INVITE,Has recibido una nueva solicitud de amistad.,3
 20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(%d |4personaje:personajes; más),3
 20715,ITEM_REQ_PURCHASE_GUILD,Requiere una hermandad,1
 20716,ITEM_REQ_PURCHASE_GUILD_LEVEL,Requiere nivel de hermandad %d,1
@@ -8901,7 +8901,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20753,POP_IN_CHAT,Visitar chat,1
 20754,CHAT_WINDOWS_COUNT,%d ventanas de chat,3
 20756,CHAT_MSG_BN_CONVERSATION,Convers. con ID real,3
-20757,BN_CONVERSATION,Convers. con ID real,1
+20757,BN_CONVERSATION,Convers. con ID real,3
 20758,CHAT_BN_CONVERSATION_GET,%s:,3
 20760,CHAT_BN_CONVERSATION_SEND,[%d. Conversación]:\32,3
 20761,CONVERSATION_NAME,%d. Conversación,1
@@ -8947,7 +8947,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20801,ARENA_INFO,"En la arena, al ganar encuentros obtendrás puntos de Conquista. Ganar encuentros también aumentará tu índice de arena. Cuanto más alto sea tu índice, más puntos de Conquista podrás ganar cada semana.",1
 20802,ARENA_CREATE_INFO,"Para crear un equipo de arena, haz clic sobre una bandera blanca, personalízala y pon un nombre a tu nuevo equipo.",1
 20803,NO_FRIEND_REQUESTS,No hay solicitudes de amistad,1
-20804,BN_INLINE_TOAST_ALERT,Alertas de Blizzard,1
+20804,BN_INLINE_TOAST_ALERT,Alertas de Blizzard,3
 20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s se ha conectado.,3
 20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s se ha desconectado.,3
 20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,3
@@ -9005,14 +9005,14 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20861,ARENA_CAPTAIN_INVALID_TEAM,Haz clic en el botón |cffffd200Añadir miembro|r para completar la lista de tu equipo.,1
 20862,ARENA_NOT_CAPTAIN_INVALID_TEAM,El capitán del equipo necesita hacer clic en el botón |cffffd200Añadir miembro|r para llenar la lista del equipo.,1
 20863,SPELL_FAILED_CUSTOM_ERROR_110,¡Libera al draco de la red primero!,1
-20864,ERR_BN_FRIEND_SELF,No puedes añadirte a tu lista de amigos.,1
-20865,ERR_BN_FRIEND_ALREADY,Esa persona ya es tu amigo,1
-20866,ERR_BN_FRIEND_REQUEST_SENT,Se ha enviado una solicitud de amistad,1
-20867,ERR_BN_FRIEND_BLOCKED,Esa persona está en tu lista de bloqueados,1
+20864,ERR_BN_FRIEND_SELF,No puedes añadirte a tu lista de amigos.,3
+20865,ERR_BN_FRIEND_ALREADY,Esa persona ya es tu amigo,3
+20866,ERR_BN_FRIEND_REQUEST_SENT,Se ha enviado una solicitud de amistad,3
+20867,ERR_BN_FRIEND_BLOCKED,Esa persona está en tu lista de bloqueados,3
 20868,MOVE_TO_CONVERSATION_WINDOW,Mover a ventana de conversación,1
 20869,MOVE_TO_NEW_WINDOW,Mover a nueva ventana,1
 20870,MOVE_TO_WHISPER_WINDOW,Mover a ventana de susurro,1
-20871,ERR_BN_BROADCAST_THROTTLE,Espera unos segundos antes de volver a actualizar tu mensaje.,1
+20871,ERR_BN_BROADCAST_THROTTLE,Espera unos segundos antes de volver a actualizar tu mensaje.,3
 20872,INTERNAL_STRING_ERROR,Error de secuencia interna %d,1
 20873,BLOCK_INVITES_TOOLTIP,Eliminar esta invitación y bloquear las invitaciones de este jugador.,1
 20875,RID_FRIEND_REQUEST_INFO,"Esta debería ser una persona que conoces y en la que confías en la vida real. Podréis hablar sin importar a qué juego de Blizzard estéis jugando. Si aceptas su solicitud de amistad, todos sus amigos podrán ver tu nombre real.",1
@@ -9026,21 +9026,21 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20884,CLICK_TO_INVITE_TO_CONVERSATION,Haz clic aquí para invitar a otro amigo a esta Conversación.,1
 20885,CLICK_TO_START_CONVERSATION,Haz clic aquí para iniciar una conversación con este jugador y otro amigo.,1
 20889,BNET_REPORT,Informar,5
-20891,BNET_REPORT_ABUSE,Abuso,1
-20893,BNET_REPORT_NAME,Nombre inapropiado,1
-20894,BNET_REPORT_SENT,Informe enviado.,1
-20895,BNET_REPORT_ABUSE_PROMPT,Deja un comentario para ayudar a aclarar el tipo de abuso.,1
-20897,BNET_REPORT_ABUSE_LABEL,Formulario de denuncia de abuso:,1
-20899,BNET_REPORT_ABUSE_BUTTON,Denunciar abuso,1
-20901,BNET_REPORT_CONFIRM_ABUSE,¿Seguro que quieres informar de %s por abuso?,1
-20902,BNET_REPORT_CONFIRM_SPAM,¿Estás seguro de querer informar de que %s está cometiendo una falta de spam?,1
-20904,BNET_REPORT_CONFIRM_NAME,¿Seguro que quieres informar de %s por un nombre inapropiado?,1
+20891,BNET_REPORT_ABUSE,Abuso,3
+20893,BNET_REPORT_NAME,Nombre inapropiado,3
+20894,BNET_REPORT_SENT,Informe enviado.,3
+20895,BNET_REPORT_ABUSE_PROMPT,Deja un comentario para ayudar a aclarar el tipo de abuso.,3
+20897,BNET_REPORT_ABUSE_LABEL,Formulario de denuncia de abuso:,3
+20899,BNET_REPORT_ABUSE_BUTTON,Denunciar abuso,3
+20901,BNET_REPORT_CONFIRM_ABUSE,¿Seguro que quieres informar de %s por abuso?,3
+20902,BNET_REPORT_CONFIRM_SPAM,¿Estás seguro de querer informar de que %s está cometiendo una falta de spam?,3
+20904,BNET_REPORT_CONFIRM_NAME,¿Seguro que quieres informar de %s por un nombre inapropiado?,3
 20905,SLASH_CHAT_AFK3,/aus,1
 20906,SLASH_CHAT_AFK4,/away,1
 20907,SLASH_CHAT_DND4,/nm,1
 20908,SLASH_CHAT_DND5,/nm,1
 20909,SLASH_CHAT_DND6,/busy,1
-20910,BN_UNABLE_TO_RESOLVE_NAME,No es posible susurrar a '%s'. Puede que el servicio de Blizzard no esté disponible.,1
+20910,BN_UNABLE_TO_RESOLVE_NAME,No es posible susurrar a '%s'. Puede que el servicio de Blizzard no esté disponible.,3
 20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tTienes %s |4solicitud:solicitudes; de amistad.,3
 20912,LEVEL_UP_YOU_REACHED,Has alcanzado,1
 20913,LEVEL_UP_ABILITY,¡Nueva habilidad disponible!,1
@@ -9865,17 +9865,17 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 21808,ALTERNATE_RESOURCE_TEXT,Recurso alternativo,1
 21809,OPTION_TOOLTIP_ALTERNATE_RESOURCE,Muestra siempre el texto en barras de recursos alternativos.,1
 21810,SKILLUP_TOOLTIP,Crear esto otorgará %s puntos de habilidad.,1
-21811,BN_CHAT_CONNECTED,Ahora estás conectado al servicio de Blizzard.,1
-21812,BN_CHAT_DISCONNECTED,Te has desconectado del servicio de Blizzard.,1
+21811,BN_CHAT_CONNECTED,Ahora estás conectado al servicio de Blizzard.,3
+21812,BN_CHAT_DISCONNECTED,Te has desconectado del servicio de Blizzard.,3
 21813,WHISPER_MODE,Nuevos susurros,1
-21814,BN_WHISPER_MODE,Nuevos susurros de Blizzard,1
+21814,BN_WHISPER_MODE,Nuevos susurros de Blizzard,3
 21815,CONVERSATION_MODE_POPOUT_AND_INLINE,Ambos,1
 21816,OPTION_WHISPER_MODE_INLINE,Los susurros se mostrarán en tus pestañas de chat normales. Se pueden desplazar a su propia ventana haciendo clic con el botón derecho sobre el nombre del jugador en el chat.,1
 21817,OPTION_WHISPER_MODE_POPOUT,Los nuevos susurros se mostrarán en una nueva pestaña.,1
 21818,OPTION_WHISPER_MODE_POPOUT_AND_INLINE,Los nuevos susurros se mostrarán en una pestaña nueva y en tus pestañas de chat normal.,1
-21819,OPTION_BN_WHISPER_MODE_INLINE,Los susurros con ID real y con BattleTag se mostrarán en tus pestañas de chat normales. Se pueden desplazar a su propia ventana haciendo clic con el botón derecho sobre el nombre del jugador en el chat.,1
-21820,OPTION_BN_WHISPER_MODE_POPOUT,Los nuevos susurros con ID real y con BattleTag se mostrarán en una nueva pestaña.,1
-21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,Los nuevos susurros con ID real y con BattleTag se mostrarán en una pestaña nueva y en tus pestañas de chat normal.,1
+21819,OPTION_BN_WHISPER_MODE_INLINE,Los susurros con ID real y con BattleTag se mostrarán en tus pestañas de chat normales. Se pueden desplazar a su propia ventana haciendo clic con el botón derecho sobre el nombre del jugador en el chat.,3
+21820,OPTION_BN_WHISPER_MODE_POPOUT,Los nuevos susurros con ID real y con BattleTag se mostrarán en una nueva pestaña.,3
+21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,Los nuevos susurros con ID real y con BattleTag se mostrarán en una pestaña nueva y en tus pestañas de chat normal.,3
 21822,OPTION_CONVERSATION_MODE_POPOUT_AND_INLINE,Las nuevas conversaciones con ID real y con BattleTag se mostrarán en una pestaña nueva y en tu chat normal.,1
 21824,PET_STABLE_SLOT_LOCKED,Bloqueado,1
 21825,NOT_READY,No estoy listo,1
@@ -9893,8 +9893,8 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 21837,PVP_NO_QUEUE_GROUP,No estás en un grupo válido para añadirte a la cola.,1
 21838,ERR_LEARN_MOUNT_S,Has añadido la montura %s a tu colección.,1
 21839,PVP_REWARD_FAILURE,Debes pertenecer a un grupo válido y tener el nivel máximo para ganar puntos de conquista.,1
-21840,BN_BLOCK_FAILED_TOO_MANY_RID,Ya has bloqueado el número máximo de jugadores con ID real y con BattleTag.,1
-21841,BN_BLOCK_FAILED_TOO_MANY_CID,Ya has bloqueado el número máximo de personajes en el servicio de Blizzard.,1
+21840,BN_BLOCK_FAILED_TOO_MANY_RID,Ya has bloqueado el número máximo de jugadores con ID real y con BattleTag.,3
+21841,BN_BLOCK_FAILED_TOO_MANY_CID,Ya has bloqueado el número máximo de personajes en el servicio de Blizzard.,3
 21842,ITEM_HEROIC_QUALITY0_DESC,Heroico pobre,1
 21843,ITEM_HEROIC_QUALITY1_DESC,Heroico común,1
 21844,ITEM_HEROIC_QUALITY2_DESC,Heroico inusual,1
@@ -10742,8 +10742,8 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 22739,HELPFRAME_REPORT_PLAYER_RIGHT_CLICK,Haz clic derecho,1
 22740,HELPFRAME_REPORT_PLAYER_EXAMPLE_CHAT_CLICK_LOCATION,[Nombre en el chat],1
 22741,HELPFRAME_REPORT_PLAYER_EXAMPLE_TARGET_CLICK_LOCATION,Marco de objetivo,1
-22742,REPORT_PLAYER_FOR,Informar de jugador por:,1
-22743,REPORT_PLAYER,Informar de jug.,5
+22742,REPORT_PLAYER_FOR,Informar de jugador por:,3
+22743,REPORT_PLAYER,Informar de jug.,7
 22744,REPORT_SPAMMING,Spam,5
 22745,REPORT_BAD_LANGUAGE,Lenguaje,1
 22746,REPORT_BAD_NAME,Nombre,1
@@ -12158,7 +12158,7 @@ Puedes encontrar instructores en varios asentamientos y ciudades.",1
 24346,RAF_FAQ,Preguntas frecuentes acerca de Recluta a un amigo,1
 24347,RAF_INVITATION_SENT,¡Se ha enviado tu invitación!\n\nTu amigo recibirá un correo electrónico con las instrucciones para crear una cuenta nueva y descargar el juego.,1
 24348,RAF_INVITEE_FRIEND_ADDED_EXPLANATION,Ahora tú y la persona que te ha invitado a jugar a World of Warcraft sois amigos.\n\n|cffffd200Haz clic derecho|r en su nombre para enviarle un susurro cuando esté online.\n\n¡Ya podéis reuniros y disfrutar juntos de Azeroth!,1
-24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,Abre tu lista de amigos para buscar al amigo que te ha invitado a jugar a World of Warcraft,1
+24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,Abre tu lista de amigos para buscar al amigo que te ha invitado a jugar a World of Warcraft,3
 24350,RAF_INVITER_FRIEND_ADDED,El amigo que has reclutado ahora es tu amigo con Battletag: |cff88C5ff[%s]|r,1
 24351,ERR_RECRUIT_A_FRIEND_ACCOUNT_LIMIT,Has enviado el máximo de solicitudes de reclutamiento permitidas durante este período de tiempo. Vuelve a intentarlo más tarde.,1
 24352,ERR_RECRUIT_A_FRIEND_FAILED,Error al enviar la solicitud para reclutar a un amigo. Vuelve a intentarlo más tarde.,1
@@ -13371,7 +13371,7 @@ min",1
 25630,CAPPED_LEVEL_TRIAL,Límite de nv. de cuenta de periodo de prueba alcanzado.,1
 25631,LEVEL_CAP_REACHED_TRIAL,Has alcanzado el nivel máximo posible en una cuenta del periodo de prueba. |cffffd000|Hstorecategory:gametime|h[Haz clic aquí]|h|r para actualizar la cuenta.,1
 25632,MONEY_CAP_REACHED_TRIAL,Ya has alcanzado la cantidad máxima de dinero en tu cuenta del periodo de prueba. |cffffd000|Hstorecategory:gametime|h[Haz clic aquí]|h|r para actualizar la cuenta.,1
-25633,CHAT_RESTRICTED_TRIAL,Con una cuenta del periodo de prueba solo puedes enviar susurros a los jugadores que tengan a tu personaje en su lista de amigos. |cffffd000|Hstorecategory:gametime|h[Haz clic para actualizar]|h|r,1
+25633,CHAT_RESTRICTED_TRIAL,Con una cuenta del periodo de prueba solo puedes enviar susurros a los jugadores que tengan a tu personaje en su lista de amigos. |cffffd000|Hstorecategory:gametime|h[Haz clic para actualizar]|h|r,3
 25634,CALENDAR_ERROR_MODERATOR_RESTRICTED_TRIAL,Las cuentas del periodo de prueba no pueden modificar eventos del calendario.,5
 25635,CHAT_TRIAL_RESTRICTED_NOTICE_TRIAL,|Hchannel:%d|h[%s]|h Las cuentas del periodo de prueba no pueden enviar mensajes a este canal. |cffffd000|Hstorecategory:gametime|h[Haz clic para actualizar]|h|r,1
 25651,ACTION_PLAYER_DIED,murió,1
@@ -14124,7 +14124,7 @@ min",1
 32481,DUNGEON_FLOOR_HALLSOFVALOR1,La Puerta Insigne,1
 32482,SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,Parpadear al perder el agro,1
 32483,OPTION_TOOLTIP_SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,"Cuando pierdas la amenaza de un enemigo, su placa de nombre parpadeará. Principalmente para tanques.",1
-32484,ERR_BN_TARGET_OFFLINE,%s se ha desconectado.,1
+32484,ERR_BN_TARGET_OFFLINE,%s se ha desconectado.,3
 32485,ORDER_HALL_TALENT_RESEARCH,Haz clic para investigar,1
 32486,ORDER_HALL_RESEARCH_CONFIRMATION,Elegir %s requiere %s|T%s:0:0:2:0|t y llevará %s.,1
 32487,PHYSICS_INTERACTION,Interacciones físicas,3
@@ -15908,7 +15908,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,Activar/desactivar unión rápida,1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,También en el grupo:,1
 35452,SOCIAL_QUEUE_AND_MORE,y más,1
-35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,Te unes rápidamente a tus amigos y compañeros de banda cuando se ponen en cola o entran en un grupo ya creado.,1
+35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,Te unes rápidamente a tus amigos y compañeros de banda cuando se ponen en cola o entran en un grupo ya creado.,3
 35455,CR_PARRY_BASE_STAT_TOOLTIP,Aumenta la probabilidad de parar un %.2F%%|n|cff888888(Antes del rendimiento decreciente)|r,1
 35456,CR_DODGE_BASE_STAT_TOOLTIP,Aumenta la probabilidad de esquivar un %.2F%%|n|cff888888(Antes del rendimiento decreciente)|r,1
 35458,SPELL_FAILED_NEED_ALL_PARTY_MEMBERS,Todos los miembros del grupo deben estar presentes para poder hacer eso.,1
@@ -16844,7 +16844,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36465,COMMUNITIES_ROSTER_COLUMN_TITLE_LEVEL,Niv,1
 36466,COMMUNITIES_ROSTER_COLUMN_TITLE_CLASS,Clase,1
 36467,COMMUNITIES_ROSTER_COLUMN_TITLE_ZONE,Zona,1
-36468,CHAT_MSG_INSTANCE_CHAT,Estancia,1
+36468,CHAT_MSG_INSTANCE_CHAT,Estancia,3
 36469,SPELL_FAILED_CUSTOM_ERROR_368,No has desbloqueado el silbato de vuelo de esta zona.,1
 36470,SPELL_FAILED_CUSTOM_ERROR_369,No hay puntos de vuelo desbloqueados cerca a los que llevarte.,1
 36471,SPELL_FAILED_CUSTOM_ERROR_370,Necesitas tener un guardia vil.,1
@@ -17163,7 +17163,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36893,CHAR_DELETE_FAILED_COMMUNITY_OWNER,Este personaje es propietario de una comunidad y no se puede borrar hasta que la propiedad sea transferida a otro personaje.,2
 36894,MYTHIC_PLUS_LEADER_BOARD_NAME_ICON,%1$s|t %2$s,1
 36895,GOAL_COMPLETED,Completado,1
-36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,¿Seguro que quieres informar de %s por un lenguaje inapropiado?,1
+36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,¿Seguro que quieres informar de %s por un lenguaje inapropiado?,3
 36898,GUILD_CONTROL_RANK_PERMISSION_HAS_OFFICER_PRIVLEGES,Tiene rango de oficial,1
 36899,GUILD_OFFICER_PERMISSION_ACCESS_CHANNELS,- Acceder a canales de oficiales,1
 36900,GUILD_OFFICER_PERMISSION_REMOVE_FROM_VOICE,- Expulsar a gente del chat de voz,1
@@ -17307,7 +17307,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,Chat para móvil,1
 40851,COMMUNITIES_INVITE_MANAGER_NUMBERUSES_LABEL,Número de usos,1
 40852,COMMUNITIES_INVITE_MANAGER_EXPIRES_AFTER_LABEL,Expira tras,1
-40853,ERR_BNET_IS_NOT_YOUR_FRIEND,Añade a %s a tu lista de amigos para poder enviarle susurros.,1
+40853,ERR_BNET_IS_NOT_YOUR_FRIEND,Añade a %s a tu lista de amigos para poder enviarle susurros.,3
 40854,COMMUNITIES_CREATE_DIALOG_NAME_INSTRUCTIONS_BATTLE_NET,El nombre de tu grupo,1
 40855,COMMUNITIES_CREATE_DIALOG_NAME_LABEL_BATTLE_NET,Nombre del grupo,1
 40856,COMMUNITIES_CREATE_DIALOG_DESCRIPTION_LABEL_BATTLE_NET,Descripción del grupo,1
@@ -18006,14 +18006,14 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41636,RAF_RECRUIT_TOOLTIP_MONTH_COUNT,- %d/%d meses de suscripción otorgados,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Envía una nota e incluye tus especializaciones si quieres que se considere tu candidatura.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,"Ahora mismo no se está reclutando ninguna de las especializaciones de tu clase, pero puedes enviar una solicitud.",1
-41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
-41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
+41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,3
+41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,3
 41643,CLUB_FINDER_ONE_SPEC_REQUIRED,Hay que tener al menos una especialización para solicitar la membresía.,1
 41644,AUCTION_HOUSE_DIALOG_ITEM_FORMAT,%s  x%s,5
 41645,QUEST_SESSION_CHECK_START_SESSION_TITLE,Iniciar sincronización de grupo,1
 41646,QUEST_SESSION_CHECK_START_SESSION_BODY,Sincroniza y repite misiones con los miembros del grupo. Tu nivel y habilidades estarán restringidos al nivel (%d).,1
 41647,QUEST_SESSION_CHECK_START_SESSION_BUTTON,Iniciar,1
-41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,1
+41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,3
 41650,ERR_QUEST_SESSION_RESULT_LEFT,Has abandonado la sincronización de grupo.,1
 41651,QUEST_SESSION_CHECK_JOIN_SESSION_TITLE,Unirse a una sesión de sincronización de grupo en marcha,1
 41652,QUEST_SESSION_CHECK_JOIN_SESSION_BODY,"¿Continuar con la solicitud de sincronización de grupo?\n\n|cffffd200- Vuestras misiones se rebobinarán temporalmente según el estado más atrasado de misión compartida.\n- Puede que algunas misiones se pausen.\n- Se restringirán los niveles y habilidades basándose en el miembro de nivel más bajo del grupo.\n- Podréis aceptar repeticiones de misiones.|r\n\nMientras la sincronización de grupo esté activa, recibiréis recompensas acordes a vuestro nivel real.",1
@@ -20111,7 +20111,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48705,SUGGEST_INVITE_CROSS_FACTION,Sugerir invitación al grupo de estancia,1
 48706,REQUEST_INVITE_CROSS_FACTION,Solicitar invitación al grupo de estancia,1
 48707,CROSS_FACTION_INVITE_TOOLTIP,Puedes formar un grupo con este jugador de la %s y llevar a cabo un montón de actividades de estancias juntos.\n\n|cffffffffOpciones disponibles:|r\n- Mazmorras (sin hacer cola)\n- Bandas (sin hacer cola)\n- JcJ puntuado\n- Torghast\n\n|cffffffffOpciones no disponibles:|r\n- Contenido de exteriores,1
-48708,CROSS_FACTION_INVITE_HELPTIP,Puedes invitar a amigos de la facción contraria para llevar a cabo contenido de estancias juntos,1
+48708,CROSS_FACTION_INVITE_HELPTIP,Puedes invitar a amigos de la facción contraria para llevar a cabo contenido de estancias juntos,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Desactiva la sincronización de grupo para invitar a este jugador,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requiere más memoria silábica.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,Requiere 5 ovoides perdidos.,1
@@ -22076,7 +22076,7 @@ y propagar su llama por todo Azeroth.",1
 51795,WOWLABS_GAMEMODE_DESC,"Una gran batalla campal entre piratas.\n\nPuedes hacer cola en solitario o invitar a un amigo y hacer cola juntos.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,1
+51798,INVTYPE_NON_EQUIP_IGNORE,,5
 51804,WOWLABS_FIND_GAME_SOLO,Buscando partida en solitario,3
 51805,WOWLABS_FIND_GAME_DUO,Buscando partida como dúo,3
 51806,WOWLABS_FIND_GAME_TRIO,Buscando partida como trío,3
@@ -22103,9 +22103,9 @@ y propagar su llama por todo Azeroth.",1
 51841,WOWLABS_SUBSCRIBE_NOW,Suscribirse,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Esperando a otros jugadores...,2
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Grupo de sala]|h %s:\32,3
-51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Grupo de sala]|h %s:\32,1
-51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Grupo de sala:\32,1
-51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Grupo de sala,1
+51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Grupo de sala]|h %s:\32,3
+51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Grupo de sala:\32,3
+51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Grupo de sala,3
 51849,WOW_LABS_VIEW_REWARDS,Ver recompensas,1
 51850,EXPANSION_SEASON_NAME,%s temporada %d,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resucitable,1
@@ -22120,3 +22120,4 @@ y propagar su llama por todo Azeroth.",1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,Perderás todo el pillaje conseguido durante esta partida si abandonas antes de que te eliminen.|n|n¿Seguro que quieres abandonar?,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s de pillaje,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,No se ha podido conectar a Plunderstorm. Vuelve a intentarlo más tarde.,2
+51957,SPECTATING,OBSERVANDO,1

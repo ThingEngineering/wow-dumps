@@ -631,7 +631,7 @@ ID,BaseTag,TagText_lang,Flags
 10357,SLASH_LEAVE3,/채널종료,1
 10358,SLASH_LIST_CHANNEL1,/chatlist,1
 10359,SLASH_LIST_CHANNEL3,/chatinfo,1
-10360,SLASH_CHANNEL1,/c,1
+10360,SLASH_CHANNEL1,/c,3
 10361,SLASH_CHANNEL2,/채,1
 10362,SLASH_CHAT_HELP1,/chat,1
 10363,SLASH_CHAT_HELP2,/대화도움말,1
@@ -1819,7 +1819,7 @@ ID,BaseTag,TagText_lang,Flags
 11695,PET_DIET_TEMPLATE,|cffffd200먹이:|r %s,1
 11696,HP_TEMPLATE,생명력 %d,1
 11697,CHANCE_TO_CRIT,치명타 및 극대화율 %.2f%%,1
-11698,CHAT_MSG_YELL,외침,1
+11698,CHAT_MSG_YELL,외침,3
 11699,ERR_TAXINOVENDORNEARBY,조련사로부터 너무 멀리 떨어져 있습니다.,1
 11700,ERR_MOUNT_INVALIDMOUNTEE,해당 탈것을 이용할 수 없습니다.,1
 11701,ERR_MOUNT_SHAPESHIFTED,변신 중에는 탈 수 없습니다.,1
@@ -1995,7 +1995,7 @@ ID,BaseTag,TagText_lang,Flags
 11890,RACIAL_SKILLS,%s 기술 숙련도:,1
 11891,CREATE_ARENA_TEAM,만들기,1
 11892,HELP_TEXT_LINE14,- /대화도움말: 대화 도움말 표시,1
-11894,TUTORIAL22,마음이 맞는 친구를 발견했다면 친구 목록에 추가해 보십시오. |cffffd200커뮤니티 버튼|r을 클릭하여 친구를 추가할 수 있습니다.|n|n친구 목록에는 같은 서버의 플레이어만 등록할 수 있습니다.,1
+11894,TUTORIAL22,마음이 맞는 친구를 발견했다면 친구 목록에 추가해 보십시오. |cffffd200커뮤니티 버튼|r을 클릭하여 친구를 추가할 수 있습니다.|n|n친구 목록에는 같은 서버의 플레이어만 등록할 수 있습니다.,3
 11895,CHAT_NOT_MEMBER_NOTICE,[%s] 채널에 참가하지 않았습니다.,1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,|Hchannel:%d|h[%s]|h %s 님을 찾을 수 없습니다.,1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h %s 님이 채널 알림 기능을 해제했습니다.,1
@@ -2999,16 +2999,16 @@ ID,BaseTag,TagText_lang,Flags
 13118,SERVER_CHANNELS,서버 채널,1
 13119,CREATURE,NPC,1
 13120,SKILL,기술 향상,1
-13121,CHAT_MSG_LOOT,아이템 획득,1
-13122,CHAT_MSG_EMOTE,감정 표현,1
+13121,CHAT_MSG_LOOT,아이템 획득,3
+13122,CHAT_MSG_EMOTE,감정 표현,3
 13123,CHAT_MSG_TEXT_EMOTE,감정 표현 - 개인,1
 13124,CHAT_MSG_OFFICER,길드 관리 메시지,5
-13125,CHAT_MSG_WHISPER_INFORM,귓속말,1
-13126,CHAT_MSG_MONSTER_SAY,NPC - 대화,1
-13127,CHAT_MSG_MONSTER_YELL,NPC - 외침,1
-13128,CHAT_MSG_MONSTER_WHISPER,NPC - 귓속말,1
+13125,CHAT_MSG_WHISPER_INFORM,귓속말,3
+13126,CHAT_MSG_MONSTER_SAY,NPC - 대화,3
+13127,CHAT_MSG_MONSTER_YELL,NPC - 외침,3
+13128,CHAT_MSG_MONSTER_WHISPER,NPC - 귓속말,3
 13129,SYSTEM_MESSAGES,시스템 메시지,1
-13130,CHAT_MSG_AFK,자리 비움,1
+13130,CHAT_MSG_AFK,자리 비움,3
 13131,DND,다른 용무 중,1
 13132,CHAT_MSG_GUILD,길드 일반 메시지,3
 13133,SAY,일반 대화,1
@@ -3052,7 +3052,7 @@ ID,BaseTag,TagText_lang,Flags
 13177,COMBAT_ENEMY,전투 메시지 - 적,1
 13178,COMBAT_MISC,전투 메시지 - 기타,1
 13179,IGNORED,차단,1
-13180,CHAT_MSG_CHANNEL_LIST,채널 목록,1
+13180,CHAT_MSG_CHANNEL_LIST,채널 목록,3
 13181,TIME_PLAYED_MSG,플레이 시간,1
 13182,CHAT_MSG_SKILL,기술 향상,1
 13183,PLAYER_LEVEL_UP,레벨 상승,1
@@ -3079,7 +3079,7 @@ ID,BaseTag,TagText_lang,Flags
 13206,PERIODIC_MESSAGES,주기적인 효과,1
 13211,ERR_TAXINOTSTANDING,탈것에 타려면 일어나야 합니다.,1
 13212,CHAT_NOT_MODERATED_NOTICE,%s의 관리자가 없습니다.,1
-13213,CHAT_MSG_SAY,대화,1
+13213,CHAT_MSG_SAY,대화,3
 13214,MASTERY_POINTS_SPENT,%1$s 특성 포인트 합계: %2$s,1
 13215,ERR_ALREADY_TRADING,현재 교환 중입니다.,1
 13216,STABLES,우리,1
@@ -3247,7 +3247,7 @@ ID,BaseTag,TagText_lang,Flags
 13389,VOICEMACRO_19_Or_5_FEMALE,당신이 '저그 저그'라고 말한 순간부터 전 당신에게 반했어요.,1
 13390,ITEM_SPELL_KNOWN,이미 배움,5
 13391,BUYBACK_THIS_ITEM,아이템 재매입,1
-13392,CHAT_MSG_RAID,공격대,1
+13392,CHAT_MSG_RAID,공격대,3
 13393,VOICEMACRO_20_Ni_3,그거 절 해칠만큼 날카롭나요? 전 이제 불사의 존재가 아닙니다.,1
 13394,VOICEMACRO_12_Ni_0_FEMALE,안녕하세요?,1
 13395,VOICEMACRO_12_Ni_2_FEMALE,만나서 반가워요.,1
@@ -4140,7 +4140,7 @@ ID,BaseTag,TagText_lang,Flags
 14507,COMBATLOG_XPGAIN_FIRSTPERSON_RAID,%1$s|1이;가; 죽었습니다. %2$d의 경험치를 획득했습니다. (공격대 경험치 페널티 -%3$d),1
 14508,NEWBIE_TOOLTIP_QUESTLOG,현재 수행 중인 퀘스트 목록을 살펴봅니다. 동시에 최대 25개의 퀘스트를 받을 수 있습니다.,1
 14509,COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_RAID,%d의 경험치를 획득했습니다. (공격대 경험치 페널티 -%d),1
-14510,NEWBIE_TOOLTIP_SOCIAL,게임에 접속한 다른 플레이어의 정보를 표시합니다. 다른 플레이어를 친구 목록에 등록하여 접속 상태를 살펴보거나 차단할 수도 있습니다.,1
+14510,NEWBIE_TOOLTIP_SOCIAL,게임에 접속한 다른 플레이어의 정보를 표시합니다. 다른 플레이어를 친구 목록에 등록하여 접속 상태를 살펴보거나 차단할 수도 있습니다.,3
 14511,COMBATLOG_XPGAIN_EXHAUSTION1_RAID,"%1$s|1이;가; 죽었습니다. %2$d의 경험치를 획득했습니다. (%4$s 경험치 보너스 %3$s, 공격대 경험치 페널티 -%5$d)",1
 14512,NEWBIE_TOOLTIP_WORLDMAP,어느 한 지역의 탐험을 마치면 해당 지역이 세계지도에 표시됩니다. 왼쪽 클릭으로 확대/오른쪽 클릭으로 축소하여 지역을 살펴볼 수 있습니다.,1
 14513,COMBATLOG_XPGAIN_EXHAUSTION2_RAID,"%1$s|1이;가; 죽었습니다. %2$d의 경험치를 획득했습니다. (%4$s 경험치 보너스 %3$s, 공격대 경험치 페널티 -%5$d)",1
@@ -4173,8 +4173,8 @@ ID,BaseTag,TagText_lang,Flags
 14561,NEWBIE_TOOLTIP_FRIENDSTAB,친구 목록에 있는 플레이어를 살펴봅니다. 이 목록에 있는 플레이어는 접속 및 종료 시 알림 메시지가 표시됩니다.,1
 14562,NEWBIE_TOOLTIP_GUILDTAB,자신이 가입한 길드의 정보를 살펴봅니다. 관리자일 경우 길드를 관리할 수 있습니다.,1
 14563,NEWBIE_TOOLTIP_RAIDTAB,공격대를 살펴보거나 관리합니다. 공격대는 5명을 초과할 수 있는 모임으로서 높은 레벨에서 어려운 임무를 수행할 때 사용됩니다.,1
-14564,NEWBIE_TOOLTIP_ADDFRIEND,플레이어를 친구 목록에 추가합니다. 친구 목록에 등록된 플레이어가 접속하거나 종료할 경우 알림 메시지를 받을 수 있습니다. 다른 플레이어는 자신이 친구로 등록되었는지의 여부를 알 수 없습니다.,1
-14565,NEWBIE_TOOLTIP_REMOVEFRIEND,선택한 플레이어를 친구 목록에서 제외합니다.,1
+14564,NEWBIE_TOOLTIP_ADDFRIEND,플레이어를 친구 목록에 추가합니다. 친구 목록에 등록된 플레이어가 접속하거나 종료할 경우 알림 메시지를 받을 수 있습니다. 다른 플레이어는 자신이 친구로 등록되었는지의 여부를 알 수 없습니다.,3
+14565,NEWBIE_TOOLTIP_REMOVEFRIEND,선택한 플레이어를 친구 목록에서 제외합니다.,3
 14566,NEWBIE_TOOLTIP_SENDMESSAGE,선택한 플레이어에게 귓속말을 보냅니다.,1
 14567,NEWBIE_TOOLTIP_GROUPINVITE,선택한 플레이어를 파티에 초대합니다.,1
 14568,NEWBIE_TOOLTIP_IGNOREPLAYER,플레이어를 차단 목록에 추가합니다. 차단 목록에 등록된 플레이어가 말하는 모든 메시지를 차단하며 해당 플레이어는 어떤 방법으로도 메시지를 전달할 수 없습니다.,1
@@ -5007,7 +5007,7 @@ ID,BaseTag,TagText_lang,Flags
 16427,SLASH_SAVEGUILDROSTER1,/길드원목록저장,1
 16428,SLASH_SAVEGUILDROSTER2,/saveguildroster,1
 16429,ERR_NOT_IN_BATTLEGROUND,현재 전장에 있지 않습니다.,1
-16430,CHAT_MSG_FILTERED,대화창 걸러진 메시지,1
+16430,CHAT_MSG_FILTERED,대화창 걸러진 메시지,3
 16431,EMOTE171_CMD1,/mountspecial,1
 16432,ABANDON_QUEST_CONFIRM_WITH_ITEMS,"정말 \""%s\"" 퀘스트를 포기하고 관련 퀘스트 아이템인 %s|1을;를; 파괴하겠습니까?",1
 16433,LFG_TYPE_DUNGEON,던전,1
@@ -5598,7 +5598,7 @@ ID,BaseTag,TagText_lang,Flags
 17134,OPTION_TOOLTIP_LOOT_UNDER_MOUSE,이 항목을 켜면 전리품 획득창이 현재 마우스 커서 위치 밑에 나타납니다.,1
 17136,ERR_QUEST_ALREADY_DONE,해당 퀘스트를 완료했습니다.,1
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,이미 다른 길드 창단서에 서명했습니다.,1
-17138,CHAT_MSG_RESTRICTED,제한됨,1
+17138,CHAT_MSG_RESTRICTED,제한됨,3
 17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,당신의 팀이 대기열 등록을 취소하였습니다.,1
 17140,CHAT_RESTRICTED,무료 체험 계정으로는 자신의 캐릭터를 친구 목록에 등록한 플레이어에게만 귓속말을 보낼 수 있습니다. |cffffd000|Hstorecategory:gametime|h[업그레이드하려면 여기를 클릭하십시오]|h|r,3
 17141,SHOW_COMBAT_HEALING,치유량,1
@@ -6548,7 +6548,7 @@ ID,BaseTag,TagText_lang,Flags
 18154,TEXT_MODE_A_STRING_RESULT_CRITICAL_SPELL,(극대화),1
 18155,ERRORS,오류,1
 18156,AFK,자리 비움,1
-18158,CHANNEL,채널,1
+18158,CHANNEL,채널,3
 18159,ADD_FILTER,필터 추가,1
 18160,MESSAGE_SOURCES,메시지 출처,1
 18161,COLORS,색상,1
@@ -7129,7 +7129,7 @@ ID,BaseTag,TagText_lang,Flags
 18851,D_DAYS,%d일,3
 18852,D_HOURS,%d시간,3
 18853,CALENDAR_ERROR_EVENT_TIME_PASSED,이미 시간이 지난 일정입니다.,1
-18854,UPDATE,갱신,1
+18854,UPDATE,갱신,3
 18855,INVITE,초대,1
 18856,CALENDAR_ACCEPT_INVITATION,초대 수락,5
 18857,CALENDAR_AUTO_APPROVE,자동 구성원 승인,1
@@ -7264,7 +7264,7 @@ ID,BaseTag,TagText_lang,Flags
 18992,ACHIEVEMENT_BROADCAST,%s|1이;가; 업적을 이루었습니다. %s,1
 18993,CALENDAR_PASTE_EVENT,붙여넣기,1
 18994,ACHIEVEMENT,업적 알림,1
-18995,CHAT_MSG_ACHIEVEMENT,업적 알림,1
+18995,CHAT_MSG_ACHIEVEMENT,업적 알림,3
 18996,SPELL_FAILED_CUSTOM_ERROR_31,친구가 여기 오고 싶어하지 않습니다. 조각난 파편에서 더 멀리 가야 합니다.,1
 18997,ACTION_SPELL_RESURRECT,부활함,1
 18998,ACTION_SPELL_RESURRECT_FULL_TEXT,%1$s|1이;가; %2$s|1으로;로; %4$s|1을;를; 부활시켰습니다. %6$s,1
@@ -8634,7 +8634,7 @@ ID,BaseTag,TagText_lang,Flags
 20459,SLASH_DUNGEONS6,/df,1
 20460,ERR_LFG_PROPOSAL_DECLINED_SELF,참여를 수락하지 않았으므로 대기열에서 제외되었습니다.,1
 20461,ERR_LFG_PROPOSAL_DECLINED_PARTY,파티원 중 누군가 참여를 수락하지 않았으므로 대기열에서 제외되었습니다.,1
-20462,CHAT_MSG_PARTY_LEADER,파티장,1
+20462,CHAT_MSG_PARTY_LEADER,파티장,3
 20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[파티장]|h %s:\32,3
 20464,PARTY_LEADER,파티장,1
 20465,ERR_LFG_CANT_USE_BATTLEGROUND,던전 또는 공격대 찾기를 사용 중에는 전장 또는 투기장 대기열에 등록할 수 없습니다.,1
@@ -8767,7 +8767,7 @@ ID,BaseTag,TagText_lang,Flags
 20603,PENDING_INVITE,미수락,5
 20604,PENDING_INVITE_LIST,미수락 목록,1
 20605,BATTLENET_NAME_FORMAT,%1$s%2$s,3
-20606,BNET_INVITE_SENT_TIME,전송 후 %s 경과,1
+20606,BNET_INVITE_SENT_TIME,전송 후 %s 경과,3
 20607,BLOCK_INVITES_CONFIRMATION,%s 님의 초대를 차단하시겠습니까?,1
 20609,BLOCK_INVITES,초대 차단,1
 20611,FRIENDS_LIST_ONLINE,접속 중,3
@@ -8842,7 +8842,7 @@ ID,BaseTag,TagText_lang,Flags
 20691,ERR_CURRENCY_SPELL_SLOT_MISMATCH,이 칸에 사용할 수 없는 아이템입니다.,1
 20692,SPELL_FAILED_CUSTOM_ERROR_107,"바다덤불거북, 청소부빨판상어, 가시비늘귀상어의 시체를 대상으로 선택해야 합니다.",1
 20693,CHAT_MSG_BN_WHISPER,실명 ID 귓속말,3
-20694,BN_WHISPER,블리자드 귓속말,1
+20694,BN_WHISPER,블리자드 귓속말,3
 20695,CHAT_BN_WHISPER_GET,%s 님의 귓속말:\32,3
 20696,CHAT_BN_WHISPER_INFORM_GET,%s 님에게 귓속말:\32,3
 20697,CHAT_BN_WHISPER_SEND,%s 님에게 귓속말:\32,3
@@ -8857,11 +8857,11 @@ ID,BaseTag,TagText_lang,Flags
 20706,POWER_TYPE_PURPLE_POWER,비전의 힘,1
 20707,POWER_TYPE_GREEN_POWER,독의 힘,1
 20708,POWER_TYPE_ORANGE_POWER,불의 힘,1
-20709,BN_TOAST_PENDING_INVITES,|cff82c5ff%d|r 건의 친구 요청을 받았습니다.,1
-20710,BN_TOAST_ONLINE,님이 |cff00ff00접속|r하였습니다.,1
-20711,BN_TOAST_OFFLINE,님이 |cffff0000접속 종료|r하였습니다.,1
-20712,BN_TOAST_CONVERSATION,대화에 참여합니다:,1
-20713,BN_TOAST_NEW_INVITE,새 친구 요청을 받았습니다.,1
+20709,BN_TOAST_PENDING_INVITES,|cff82c5ff%d|r 건의 친구 요청을 받았습니다.,3
+20710,BN_TOAST_ONLINE,님이 |cff00ff00접속|r하였습니다.,3
+20711,BN_TOAST_OFFLINE,님이 |cffff0000접속 종료|r하였습니다.,3
+20712,BN_TOAST_CONVERSATION,대화에 참여합니다:,3
+20713,BN_TOAST_NEW_INVITE,새 친구 요청을 받았습니다.,3
 20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(그 밖의 캐릭터 %d개),3
 20715,ITEM_REQ_PURCHASE_GUILD,길드 필요,1
 20716,ITEM_REQ_PURCHASE_GUILD_LEVEL,필요한 길드 레벨: %d,1
@@ -8902,7 +8902,7 @@ ID,BaseTag,TagText_lang,Flags
 20753,POP_IN_CHAT,대화 넣기,1
 20754,CHAT_WINDOWS_COUNT,대화창: %d 개,3
 20756,CHAT_MSG_BN_CONVERSATION,실명 ID 대화,3
-20757,BN_CONVERSATION,실명 ID 대화,1
+20757,BN_CONVERSATION,실명 ID 대화,3
 20758,CHAT_BN_CONVERSATION_GET,%s:,3
 20760,CHAT_BN_CONVERSATION_SEND,[%d. 대화]:\32,3
 20761,CONVERSATION_NAME,%d. 대화,1
@@ -8948,7 +8948,7 @@ ID,BaseTag,TagText_lang,Flags
 20801,ARENA_INFO,"투기장 경기에서 이기면 정복 점수를 얻을 수 있습니다. 또한, 경기에서 이기면 투기장 평점이 올라갑니다. 평점이 높으면 매주 더 많은 정복 점수를 얻을 수 있습니다.",1
 20802,ARENA_CREATE_INFO,투기장 팀을 창단하려면 위에 있는 빈 깃발을 클릭한 후 팀 이름과 깃발 모양을 결정하십시오.,1
 20803,NO_FRIEND_REQUESTS,새 친구 요청이 없습니다.,1
-20804,BN_INLINE_TOAST_ALERT,블리자드 서비스 알림,1
+20804,BN_INLINE_TOAST_ALERT,블리자드 서비스 알림,3
 20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s 님이 접속했습니다.,3
 20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s 님이 접속을 종료했습니다.,3
 20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,3
@@ -9006,14 +9006,14 @@ ID,BaseTag,TagText_lang,Flags
 20861,ARENA_CAPTAIN_INVALID_TEAM,팀원을 추가하려면 |cffffd200구성원 추가|r 버튼을 누르십시오.,1
 20862,ARENA_NOT_CAPTAIN_INVALID_TEAM,팀원을 추가하려면 팀장이 |cffffd200구성원 추가|r 버튼을 눌러야 합니다.,1
 20863,SPELL_FAILED_CUSTOM_ERROR_110,먼저 그물에 걸린 비룡을 풀어주십시오!,1
-20864,ERR_BN_FRIEND_SELF,자기 자신을 친구 목록에 등록할 수 없습니다.,1
-20865,ERR_BN_FRIEND_ALREADY,이미 친구로 등록된 플레이어입니다.,1
-20866,ERR_BN_FRIEND_REQUEST_SENT,친구 요청을 보냈습니다.,1
-20867,ERR_BN_FRIEND_BLOCKED,차단 목록에 등록된 플레이어입니다.,1
+20864,ERR_BN_FRIEND_SELF,자기 자신을 친구 목록에 등록할 수 없습니다.,3
+20865,ERR_BN_FRIEND_ALREADY,이미 친구로 등록된 플레이어입니다.,3
+20866,ERR_BN_FRIEND_REQUEST_SENT,친구 요청을 보냈습니다.,3
+20867,ERR_BN_FRIEND_BLOCKED,차단 목록에 등록된 플레이어입니다.,3
 20868,MOVE_TO_CONVERSATION_WINDOW,대화창으로 이동,1
 20869,MOVE_TO_NEW_WINDOW,새 창으로 이동,1
 20870,MOVE_TO_WHISPER_WINDOW,귓속말창으로 이동,1
-20871,ERR_BN_BROADCAST_THROTTLE,단체 알림 메시지를 다시 갱신하기 전에 잠시 기다려 주십시오.,1
+20871,ERR_BN_BROADCAST_THROTTLE,단체 알림 메시지를 다시 갱신하기 전에 잠시 기다려 주십시오.,3
 20872,INTERNAL_STRING_ERROR,내부 문자열 오류 %d,1
 20873,BLOCK_INVITES_TOOLTIP,이 초대를 삭제하고 앞으로 해당 플레이어의 초대를 차단합니다.,1
 20875,RID_FRIEND_REQUEST_INFO,현실에서 알고 있으며 신뢰할 수 있는 친구인지 확인하십시오. 월드 오브 워크래프트 또는 다른 블리자드 게임을 즐기는 동안 함께 대화할 수 있게 됩니다. 친구 요청을 수락하면 친구의 다른 친구들에게 자신의 실명이 알려집니다.,1
@@ -9027,21 +9027,21 @@ ID,BaseTag,TagText_lang,Flags
 20884,CLICK_TO_INVITE_TO_CONVERSATION,여기를 클릭하면 다른 친구를 대화에 초대할 수 있습니다.,1
 20885,CLICK_TO_START_CONVERSATION,여기를 클릭하면 이 플레이어 및 다른 플레이어 한 명과 대화를 시작할 수 있습니다.,1
 20889,BNET_REPORT,신고,5
-20891,BNET_REPORT_ABUSE,괴롭힘,1
-20893,BNET_REPORT_NAME,작명 정책 위반,1
-20894,BNET_REPORT_SENT,신고가 접수되었습니다.,1
-20895,BNET_REPORT_ABUSE_PROMPT,괴롭힘의 유형에 관해 상세한 내용을 적어 주시기 바랍니다.,1
-20897,BNET_REPORT_ABUSE_LABEL,다음 플레이어를 괴롭힘으로 신고:,1
-20899,BNET_REPORT_ABUSE_BUTTON,괴롭힘 신고,1
-20901,BNET_REPORT_CONFIRM_ABUSE,정말 %s 님을 괴롭힘으로 신고하시겠습니까?,1
-20902,BNET_REPORT_CONFIRM_SPAM,정말 %s 님을 스팸 발송으로 신고하시겠습니까?,1
-20904,BNET_REPORT_CONFIRM_NAME,정말 %s 님을 작명 정책 위반으로 신고하시겠습니까?,1
+20891,BNET_REPORT_ABUSE,괴롭힘,3
+20893,BNET_REPORT_NAME,작명 정책 위반,3
+20894,BNET_REPORT_SENT,신고가 접수되었습니다.,3
+20895,BNET_REPORT_ABUSE_PROMPT,괴롭힘의 유형에 관해 상세한 내용을 적어 주시기 바랍니다.,3
+20897,BNET_REPORT_ABUSE_LABEL,다음 플레이어를 괴롭힘으로 신고:,3
+20899,BNET_REPORT_ABUSE_BUTTON,괴롭힘 신고,3
+20901,BNET_REPORT_CONFIRM_ABUSE,정말 %s 님을 괴롭힘으로 신고하시겠습니까?,3
+20902,BNET_REPORT_CONFIRM_SPAM,정말 %s 님을 스팸 발송으로 신고하시겠습니까?,3
+20904,BNET_REPORT_CONFIRM_NAME,정말 %s 님을 작명 정책 위반으로 신고하시겠습니까?,3
 20905,SLASH_CHAT_AFK3,/away,1
 20906,SLASH_CHAT_AFK4,/자리,1
 20907,SLASH_CHAT_DND4,/busy,1
 20908,SLASH_CHAT_DND5,/바쁨,1
 20909,SLASH_CHAT_DND6,/용무,1
-20910,BN_UNABLE_TO_RESOLVE_NAME,'%s' 님께 귓속말을 보낼 수 없습니다. 블리자드 서비스를 이용할 수 없습니다.,1
+20910,BN_UNABLE_TO_RESOLVE_NAME,'%s' 님께 귓속말을 보낼 수 없습니다. 블리자드 서비스를 이용할 수 없습니다.,3
 20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s 건의 친구 요청이 있습니다.,3
 20912,LEVEL_UP_YOU_REACHED,레벨이 올랐습니다:,1
 20913,LEVEL_UP_ABILITY,새로운 기술을 배울 수 있습니다!,1
@@ -9866,17 +9866,17 @@ ID,BaseTag,TagText_lang,Flags
 21808,ALTERNATE_RESOURCE_TEXT,보조 자원,1
 21809,OPTION_TOOLTIP_ALTERNATE_RESOURCE,우두머리와의 전투 등 일부에서 사용되는 상황 표시바에 항상 숫자를 표시합니다.,1
 21810,SKILLUP_TOOLTIP,이 물품을 제작하면 숙련도가 %s만큼 상승합니다.,1
-21811,BN_CHAT_CONNECTED,블리자드 서비스에 연결되었습니다.,1
-21812,BN_CHAT_DISCONNECTED,블리자드 서비스와의 연결이 끊어졌습니다.,1
+21811,BN_CHAT_CONNECTED,블리자드 서비스에 연결되었습니다.,3
+21812,BN_CHAT_DISCONNECTED,블리자드 서비스와의 연결이 끊어졌습니다.,3
 21813,WHISPER_MODE,새 귓속말,1
-21814,BN_WHISPER_MODE,새 블리자드 귓속말,1
+21814,BN_WHISPER_MODE,새 블리자드 귓속말,3
 21815,CONVERSATION_MODE_POPOUT_AND_INLINE,모두,1
 21816,OPTION_WHISPER_MODE_INLINE,귓속말을 일반 대화 탭에 표시합니다. 대화 중 플레이어의 이름을 마우스 오른쪽 클릭하면 새 창으로 이동할 수 있습니다.,1
 21817,OPTION_WHISPER_MODE_POPOUT,새 귓속말을 새 탭에 표시합니다.,1
 21818,OPTION_WHISPER_MODE_POPOUT_AND_INLINE,새 귓속말을 새 탭과 일반 대화 탭에 모두 표시합니다.,1
-21819,OPTION_BN_WHISPER_MODE_INLINE,실명 ID와 BattleTag 귓속말을 일반 대화 탭에 표시합니다. 대화 중 플레이어의 이름을 마우스 오른쪽 클릭하면 새 창으로 이동할 수 있습니다.,1
-21820,OPTION_BN_WHISPER_MODE_POPOUT,새 실명 ID 귓속말과 BattleTag 귓속말을 새 탭에 표시합니다.,1
-21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,새 실명 ID 귓속말과 BattleTag 귓속말을 새 탭과 일반 대화 탭에 모두 표시합니다.,1
+21819,OPTION_BN_WHISPER_MODE_INLINE,실명 ID와 BattleTag 귓속말을 일반 대화 탭에 표시합니다. 대화 중 플레이어의 이름을 마우스 오른쪽 클릭하면 새 창으로 이동할 수 있습니다.,3
+21820,OPTION_BN_WHISPER_MODE_POPOUT,새 실명 ID 귓속말과 BattleTag 귓속말을 새 탭에 표시합니다.,3
+21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,새 실명 ID 귓속말과 BattleTag 귓속말을 새 탭과 일반 대화 탭에 모두 표시합니다.,3
 21822,OPTION_CONVERSATION_MODE_POPOUT_AND_INLINE,새 실명 ID 대화 및 BattleTag 대화를 새 탭과 일반 대화 탭에 모두 표시합니다.,1
 21824,PET_STABLE_SLOT_LOCKED,잠김,1
 21825,NOT_READY,준비되지 않음,1
@@ -9894,8 +9894,8 @@ ID,BaseTag,TagText_lang,Flags
 21837,PVP_NO_QUEUE_GROUP,대기열에 등록할 수 있는 파티에 속해 있지 않습니다.,1
 21838,ERR_LEARN_MOUNT_S,%s 탈것을 소환하는 방법을 배웠습니다.,1
 21839,PVP_REWARD_FAILURE,정복 점수를 얻으려면 파티에 속해 있어야 하며 최고 레벨이어야 합니다.,1
-21840,BN_BLOCK_FAILED_TOO_MANY_RID,차단한 실명 ID 친구와 BattleTag 친구 수가 한도에 도달했습니다.,1
-21841,BN_BLOCK_FAILED_TOO_MANY_CID,블리자드 서비스에서 차단한 캐릭터 수가 한도에 도달했습니다.,1
+21840,BN_BLOCK_FAILED_TOO_MANY_RID,차단한 실명 ID 친구와 BattleTag 친구 수가 한도에 도달했습니다.,3
+21841,BN_BLOCK_FAILED_TOO_MANY_CID,블리자드 서비스에서 차단한 캐릭터 수가 한도에 도달했습니다.,3
 21842,ITEM_HEROIC_QUALITY0_DESC,상급 하급,1
 21843,ITEM_HEROIC_QUALITY1_DESC,상급 일반,1
 21844,ITEM_HEROIC_QUALITY2_DESC,상급 고급,1
@@ -10743,8 +10743,8 @@ ID,BaseTag,TagText_lang,Flags
 22739,HELPFRAME_REPORT_PLAYER_RIGHT_CLICK,마우스 오른쪽 클릭:,1
 22740,HELPFRAME_REPORT_PLAYER_EXAMPLE_CHAT_CLICK_LOCATION,[대화창에 표시된 이름],1
 22741,HELPFRAME_REPORT_PLAYER_EXAMPLE_TARGET_CLICK_LOCATION,대상 창의 초상화,1
-22742,REPORT_PLAYER_FOR,다음 사유로 플레이어 신고,1
-22743,REPORT_PLAYER,플레이어 신고,5
+22742,REPORT_PLAYER_FOR,다음 사유로 플레이어 신고,3
+22743,REPORT_PLAYER,플레이어 신고,7
 22744,REPORT_SPAMMING,스팸 발송,5
 22745,REPORT_BAD_LANGUAGE,부적절한 언어,1
 22746,REPORT_BAD_NAME,부적절한 이름,1
@@ -12160,7 +12160,7 @@ ID,BaseTag,TagText_lang,Flags
 24346,RAF_FAQ,친구 초대 FAQ,1
 24347,RAF_INVITATION_SENT,"초대가 발송되었습니다!\n\n친구에게 새로운 계정을 만들고 게임을 다운로드하는 법이 담긴 이메일이 발송될 것입니다. 친구가 새 캐릭터를 생성하면 게임 중에 알림 메시지를 받게 되니, 함께 모험을 시작하세요!",1
 24348,RAF_INVITEE_FRIEND_ADDED_EXPLANATION,"월드 오브 워크래프트로 당신을 초대한 분과 친구가 되었습니다.\n\n친구가 온라인 상태일 때, 친구의 이름을 |cffffd200오른쪽 클릭|r하여 귓속말을 전하세요.\n\n이제 함께 아제로스로 모험을 떠날 수 있습니다!",1
-24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,친구 목록을 열어 월드 오브 워크래프트의 세계로 초대해준 친구 찾기,1
+24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,친구 목록을 열어 월드 오브 워크래프트의 세계로 초대해준 친구 찾기,3
 24350,RAF_INVITER_FRIEND_ADDED,"당신의 초대해준 친구가 이제 Battletag 친구, |cff88C5ff[%s]|r 님이 되었습니다.",1
 24351,ERR_RECRUIT_A_FRIEND_ACCOUNT_LIMIT,이 기간 동안 초대할 수 있는 친구 횟수가 한도에 도달했습니다. 나중에 다시 시도하십시오.,1
 24352,ERR_RECRUIT_A_FRIEND_FAILED,친구 초대 요청을 전송하지 못했습니다. 나중에 다시 시도하십시오.,1
@@ -13372,7 +13372,7 @@ ID,BaseTag,TagText_lang,Flags
 25630,CAPPED_LEVEL_TRIAL,무료 체험 계정의 레벨 상한선에 도달했습니다.,1
 25631,LEVEL_CAP_REACHED_TRIAL,무료 체험 계정에서 도달 가능한 최고 레벨이 되었습니다. 계정을 업그레이드하려면 |cffffd000|Hstorecategory:gametime|h[여기를 클릭하십시오]|h|r!,1
 25632,MONEY_CAP_REACHED_TRIAL,무료 체험 계정에서 보유 가능한 최대 금액을 이미 소지하고 있습니다. 계정을 업그레이드하려면 |cffffd000|Hstorecategory:gametime|h[여기를 클릭하십시오]|h|r!,1
-25633,CHAT_RESTRICTED_TRIAL,무료 체험 계정으로는 자신의 캐릭터를 친구 목록에 등록한 플레이어에게만 귓속말을 보낼 수 있습니다. |cffffd000|Hstorecategory:gametime|h[업그레이드하려면 여기를 클릭하십시오]|h|r,1
+25633,CHAT_RESTRICTED_TRIAL,무료 체험 계정으로는 자신의 캐릭터를 친구 목록에 등록한 플레이어에게만 귓속말을 보낼 수 있습니다. |cffffd000|Hstorecategory:gametime|h[업그레이드하려면 여기를 클릭하십시오]|h|r,3
 25634,CALENDAR_ERROR_MODERATOR_RESTRICTED_TRIAL,무료 체험 계정으로는 달력에서 일정을 수정할 수 없습니다.,5
 25635,CHAT_TRIAL_RESTRICTED_NOTICE_TRIAL,|Hchannel:%d|h[%s]|h 무료 체험 계정으로는 이 채널에 메시지를 전송할 수 없습니다. |cffffd000|Hstorecategory:gametime|h[업그레이드하려면 여기를 클릭하십시오]|h|r,1
 25651,ACTION_PLAYER_DIED,죽음,1
@@ -14125,7 +14125,7 @@ ID,BaseTag,TagText_lang,Flags
 32481,DUNGEON_FLOOR_HALLSOFVALOR1,드높은 관문,1
 32482,SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,위협 수준 상실 시 반짝임,1
 32483,OPTION_TOOLTIP_SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,대상에 대한 자신의 위협 수준이 감소하면 대상의 이름표가 반짝입니다. 주로 방어 담당을 위한 옵션입니다.,1
-32484,ERR_BN_TARGET_OFFLINE,%s 님이 접속해 있지 않습니다.,1
+32484,ERR_BN_TARGET_OFFLINE,%s 님이 접속해 있지 않습니다.,3
 32485,ORDER_HALL_TALENT_RESEARCH,연구하려면 클릭,1
 32486,ORDER_HALL_RESEARCH_CONFIRMATION,"%s|1을;를; 연구하는 데에는 %s|T%s:0:0:2:0|t|1이;가; 소모되고, %s|1이;가; 소요됩니다.",1
 32487,PHYSICS_INTERACTION,물리 상호 작용,3
@@ -15912,7 +15912,7 @@ ID,BaseTag,TagText_lang,Flags
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,빠른 참여 켜기/끄기,1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,같은 파티 참여 중:,1
 35452,SOCIAL_QUEUE_AND_MORE,...,1
-35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,친구와 길드원이 대기열에 등록하거나 구성된 파티에 참여하면 빠르게 합류합니다.,1
+35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,친구와 길드원이 대기열에 등록하거나 구성된 파티에 참여하면 빠르게 합류합니다.,3
 35455,CR_PARRY_BASE_STAT_TOOLTIP,무기 막기 확률 %.2f%%만큼 증가|n|cff888888(점감 효과 적용 전)|r,1
 35456,CR_DODGE_BASE_STAT_TOOLTIP,회피율 %.2f%%만큼 증가|n|cff888888(점감 효과 적용 전)|r,1
 35458,SPELL_FAILED_NEED_ALL_PARTY_MEMBERS,모든 파티 구성원이 함께 있어야 합니다.,1
@@ -16848,7 +16848,7 @@ ID,BaseTag,TagText_lang,Flags
 36465,COMMUNITIES_ROSTER_COLUMN_TITLE_LEVEL,레벨,1
 36466,COMMUNITIES_ROSTER_COLUMN_TITLE_CLASS,직업,1
 36467,COMMUNITIES_ROSTER_COLUMN_TITLE_ZONE,지역,1
-36468,CHAT_MSG_INSTANCE_CHAT,인스턴스,1
+36468,CHAT_MSG_INSTANCE_CHAT,인스턴스,3
 36469,SPELL_FAILED_CUSTOM_ERROR_368,이 지역에서 비행 호루라기를 잠금 해제하지 않았습니다.,1
 36470,SPELL_FAILED_CUSTOM_ERROR_369,현재 갈 수 있는 비행 지점이 주위에 없습니다.,1
 36471,SPELL_FAILED_CUSTOM_ERROR_370,지옥수호병이 있어야 합니다.,1
@@ -17168,7 +17168,7 @@ ID,BaseTag,TagText_lang,Flags
 36893,CHAR_DELETE_FAILED_COMMUNITY_OWNER,이 캐릭터는 커뮤니티 소유자입니다. 소유권을 다른 캐릭터에게 위임해야 캐릭터를 삭제할 수 있습니다.,2
 36894,MYTHIC_PLUS_LEADER_BOARD_NAME_ICON,%1$s|t %2$s,1
 36895,GOAL_COMPLETED,완료,1
-36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,정말 %s 님을 부적절한 언어 사용으로 신고하시겠습니까?,1
+36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,정말 %s 님을 부적절한 언어 사용으로 신고하시겠습니까?,3
 36898,GUILD_CONTROL_RANK_PERMISSION_HAS_OFFICER_PRIVLEGES,길드관리자 권한,1
 36899,GUILD_OFFICER_PERMISSION_ACCESS_CHANNELS,- 길드관리자 채널 사용,1
 36900,GUILD_OFFICER_PERMISSION_REMOVE_FROM_VOICE,- 음성 대화에서 참가자 내보내기,1
@@ -17312,7 +17312,7 @@ ID,BaseTag,TagText_lang,Flags
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,모바일 대화,1
 40851,COMMUNITIES_INVITE_MANAGER_NUMBERUSES_LABEL,사용 횟수,1
 40852,COMMUNITIES_INVITE_MANAGER_EXPIRES_AFTER_LABEL,만료 예정,1
-40853,ERR_BNET_IS_NOT_YOUR_FRIEND,귓속말을 보내려면 %s 님을 친구 목록에 추가하십시오.,1
+40853,ERR_BNET_IS_NOT_YOUR_FRIEND,귓속말을 보내려면 %s 님을 친구 목록에 추가하십시오.,3
 40854,COMMUNITIES_CREATE_DIALOG_NAME_INSTRUCTIONS_BATTLE_NET,그룹의 이름,1
 40855,COMMUNITIES_CREATE_DIALOG_NAME_LABEL_BATTLE_NET,그룹 이름,1
 40856,COMMUNITIES_CREATE_DIALOG_DESCRIPTION_LABEL_BATTLE_NET,그룹 설명,1
@@ -18008,14 +18008,14 @@ ID,BaseTag,TagText_lang,Flags
 41636,RAF_RECRUIT_TOOLTIP_MONTH_COUNT,- 게임 시간 %d/%d 개월 제공,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,계속 가입을 희망할 시에는 자신의 전문화 정보를 포함한 쪽지를 보내세요.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,현재 해당하는 직업 전문화를 모집하고 있지 않습니다. 다만 지원은 가능합니다.,1
-41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW 클래식: %s,1
-41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW 클래식,1
+41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW 클래식: %s,3
+41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW 클래식,3
 41643,CLUB_FINDER_ONE_SPEC_REQUIRED,신청하려면 최소한 하나의 전문화가 필요합니다.,1
 41644,AUCTION_HOUSE_DIALOG_ITEM_FORMAT,%s  x%s,5
 41645,QUEST_SESSION_CHECK_START_SESSION_TITLE,파티 동기화 시작,1
 41646,QUEST_SESSION_CHECK_START_SESSION_BODY,파티원들과 퀘스트를 동기화하고 반복 수행합니다. 레벨과 기술이 (%d) 레벨로 제한됩니다.,1
 41647,QUEST_SESSION_CHECK_START_SESSION_BUTTON,시작,1
-41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,1
+41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,3
 41650,ERR_QUEST_SESSION_RESULT_LEFT,파티 동기화를 떠났습니다,1
 41651,QUEST_SESSION_CHECK_JOIN_SESSION_TITLE,진행 중인 파티 동기화 세션 참가,1
 41652,QUEST_SESSION_CHECK_JOIN_SESSION_BODY,파티 동기화를 계속 요청하시겠습니까?\n\n|cffffd200- 퀘스트가 일시적으로 마지막에 공유된 퀘스트 진행 상태로 되돌려집니다.\n- 현재 진행 중인 퀘스트 일부의 진행이 멈출 수 있습니다.\n- 레벨과 기술이 가장 레벨이 낮은 파티원 수준에 맞춰 제한됩니다.\n- 반복 퀘스트를 수락할 수 있습니다.|r\n\n파티 동기화 활성화 중에 획득한 보상은 자신의 실제 레벨에 알맞게 조정됩니다.,1
@@ -20113,7 +20113,7 @@ ID,BaseTag,TagText_lang,Flags
 48705,SUGGEST_INVITE_CROSS_FACTION,인스턴스 파티 참가 추천,1
 48706,REQUEST_INVITE_CROSS_FACTION,인스턴스 파티 참가 요청하기,1
 48707,CROSS_FACTION_INVITE_TOOLTIP,해당 %s 플레이어와 파티를 맺어 여러 인스턴스 활동을 즐길 수 있습니다.\n\n|cffffffff이용 가능:|r\n- 던전 (대기열 미사용)\n- 공격대 (대기열 미사용)\n- 평점제 플레이어 간 전투\n- 토르가스트\n\n|cffffffff이용 불가:|r\n- 야외 콘텐츠,1
-48708,CROSS_FACTION_INVITE_HELPTIP,반대 진영 플레이어를 초대해 인스턴스 콘텐츠를 함께 즐길 수 있습니다,1
+48708,CROSS_FACTION_INVITE_HELPTIP,반대 진영 플레이어를 초대해 인스턴스 콘텐츠를 함께 즐길 수 있습니다,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,이 플레이어를 초대하려면 파티 동기화를 중지해야 합니다,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,음절의 회상이 더 필요합니다.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,잃어버린 계란형 물체 5개 필요,1
@@ -22084,7 +22084,7 @@ ID,BaseTag,TagText_lang,Flags
 51795,WOWLABS_GAMEMODE_DESC,"최후의 승자만이 살아남는 장엄한 전투에서 해적들이 격돌합니다.\n\n혼자 대기열에 등록하거나 친구를 초대하여 함께 등록할 수 있습니다.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,1
+51798,INVTYPE_NON_EQUIP_IGNORE,,5
 51804,WOWLABS_FIND_GAME_SOLO,1인 게임 찾기,3
 51805,WOWLABS_FIND_GAME_DUO,2인 게임 찾기,3
 51806,WOWLABS_FIND_GAME_TRIO,3인 게임 찾기,3
@@ -22111,9 +22111,9 @@ ID,BaseTag,TagText_lang,Flags
 51841,WOWLABS_SUBSCRIBE_NOW,지금 구매하기,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,다른 플레이어를 기다리는 중...,2
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[대기실 파티]|h %s:\32,3
-51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[대기실 파티]|h %s:\32,1
-51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,대기실 파티:\32,1
-51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,대기실 파티,1
+51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[대기실 파티]|h %s:\32,3
+51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,대기실 파티:\32,3
+51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,대기실 파티,3
 51849,WOW_LABS_VIEW_REWARDS,보상 보기,1
 51850,EXPANSION_SEASON_NAME,%s %d 시즌,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,부활 가능,1
@@ -22128,3 +22128,4 @@ ID,BaseTag,TagText_lang,Flags
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,처치당하기 전에 나가면 이 경기에서 획득한 노획물을 모두 잃습니다.|n|n정말 나가시겠습니까?,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s 노획물,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,약탈폭풍에 연결하지 못했습니다. 나중에 다시 시도해 주십시오.,2
+51957,SPECTATING,관전,1
