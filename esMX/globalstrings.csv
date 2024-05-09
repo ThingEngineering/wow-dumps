@@ -140,7 +140,7 @@ ID,BaseTag,TagText_lang,Flags
 9743,PET_WAIT,Quedarse,1
 9744,PET_FOLLOW,Seguir,1
 9745,PET_ATTACK,Atacar,5
-9746,PET_ABANDON,Abandonar,1
+9746,PET_ABANDON,Liberar,1
 9747,PET_DISMISS,Despedir,1
 9748,PET_RENAME,Renombrar,1
 9763,ERR_ONLY_ONE_QUIVER,Solo puedes equipar un carcaj.,1
@@ -1940,7 +1940,7 @@ m: Establecen las marcas Ausente u Ocupado",3
 11820,CHAT_MONSTER_WHISPER_GET,%s susurra:\32,1
 11822,TOOLTIP_TALENT_PREREQ,Requiere %1$d |4punto:puntos; en %2$s,1
 11823,GUILD_INVITATION,te invita a unirte a la hermandad:,1
-11824,ABANDON_PET,¿Seguro que quieres abandonar tu mascota para siempre? No podrás volver a invocar esta mascota.,1
+11824,ABANDON_PET,¿Seguro que quieres liberar a tu mascota para siempre? No podrás volver a invocar esta mascota.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,Recibes botín: %s,1
 11828,POTION_TIMER,Aún no puedes hacer eso.,1
@@ -2083,7 +2083,7 @@ m: Establecen las marcas Ausente u Ocupado",3
 11987,ERR_PETITION_DECLINED_S,%s se ha negado a firmar tu petición.,1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,No puedes subirte aquí.,1
 11991,HEALTH_COST_PER_TIME,"%s p. de salud, más %s p. por segundo",1
-11993,ERR_GUILDEMBLEM_SUCCESS,Emblema de la hermandad guardado.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,Emblema guardado.,1
 11994,ERR_GUILD_LEADER_LEAVE,Antes de abandonar la hermandad debes delegar tu puesto de Maestro en alguien mediante el comando /hmaestro.,1
 11996,ERR_IGNORING_YOU_S,%s te ignora.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,Debes desenvainar,1
@@ -4203,7 +4203,7 @@ ormas-de-los-reinos-jcj|r",1
 14607,NEWBIE_TOOLTIP_UNIT_PET_DISMISS,Retira al esbirro bajo control.,1
 14608,NEWBIE_TOOLTIP_UNIT_PET_PAPERDOLL,"Información sobre tu mascota, incluyendo estadísticas de combate, resistencia a hechizos y dieta.",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,Te permite dar nombre a tu mascota. Solo se puede hacer una vez.,1
-14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,Abandonas a tu mascota y la dejas volver a la naturaleza. Una vez abandonada no podrás volver a contar con su compañía.,1
+14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Liberas a tu mascota y la dejas volver a la naturaleza. Una vez liberada, no podrás volver a contar con su compañía.",1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,"Es la cantidad de salud con la que cuentas actualmente. Si llega a cero, morirás. La salud se regenera automáticamente cuando no estás en combate.",1
 14612,NEWBIE_TOOLTIP_MANABAR0,Es la cantidad de maná que tienes actualmente. Para lanzar hechizos se necesita maná. El maná se regenera automáticamente a partir de 5 segundos después de lanzar cualquier hechizo.,1
 14613,NEWBIE_TOOLTIP_MANABAR1,Los guerreros (y los druidas en la forma de oso o en la forma de oso temible) necesitan ira para usar sus habilidades.,1
@@ -5953,8 +5953,8 @@ ormas-de-los-reinos-jcj|r",1
 17534,LOOT,Botín,1
 17535,ERR_VOICESESSION_FULL,La sesión de voz a la que intentas unirte está llena.,1
 17536,BINDING_NAME_TOGGLECHATTAB,Mostrar/ocultar panel de chat,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Requiere habilidad Experto jinete,1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Requiere habilidad Artesano jinete,1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Requiere ser nivel %d,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Requiere ser nivel %d,1
 17540,TALENT_POINTS,Talentos,1
 17541,GUILD_BANK_MONEY_LOG,Registro de dinero,1
 17542,USE_GUILDBANK_REPAIR,¿Quieres usar los fondos de la hermandad para la reparación?,1
@@ -8665,7 +8665,6 @@ ormas-de-los-reinos-jcj|r",1
 20489,LOOT_ROLL_INELIGIBLE_REASON3,Este objeto no se puede desencantar.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,No hay un encantador con %d p. de habilidad en tu grupo.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,Requiere cohetes propulsores de una etapa. Vuelve con Hobart Martillazos para conseguir más.,1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,"No se puede expulsar a los jugadores en combate, o justo después del combate.",1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,No se puede expulsar a los jugadores una vez completada la estancia.,1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,No se puede expulsar a los jugadores durante los lanzamientos de dados.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,No puedes teletransportarte fuera del calabozo mientras estás en combate.,1
@@ -11571,9 +11570,9 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,Este hechizo está bloqueado porque estás en combate.,1
 23673,BATTLE_PET_NEW_PET,¡Se ha añadido %s a tu guía de mascotas!,1
 23674,BATTLE_PET_TOOLTIP_SUMMON,Invoca y retira a tu %s.,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Requiere la habilidad Aprendiz jinete,1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Requiere la habilidad Oficial jinete,1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Requiere la habilidad Maestro jinete,1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Requiere ser nivel %d,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Requiere ser nivel %d,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Requiere ser nivel %d,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,Requiere la habilidad Licencia de maestro de vuelo,1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,Requiere la habilidad Vuelo en clima frío,1
 23680,UNITNAME_SUMMON_TITLE19,Reconstituyente de %s,1
@@ -15441,7 +15440,7 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 34950,SPELL_FAILED_CUSTOM_ERROR_302,Un fenómeno desconocido evita una conexión con la línea ley.,1
 34951,GARRISON_TALENT_ORDER_ADVANCEMENT,Avanzada de la orden,1
 34952,GARRISON_TALENT_RESEARCH_COMPLETE,Investigación finalizada,5
-34953,ERR_CANNOT_ABANDON_LAST_PET,No puedes abandonar a la última mascota,1
+34953,ERR_CANNOT_ABANDON_LAST_PET,No puedes liberar tu última mascota,1
 34954,IGNORED_QUEST_DISPLAY,|cff000000%s (ignorada)|r,1
 34955,SPELL_FAILED_CUSTOM_ERROR_303,La Pesadilla oscurece tu visión.,1
 34956,SPELL_FAILED_YOU_CANNOT_USE_THAT_IN_PVP_INSTANCE,No puedes usar eso en una instancia JcJ.,1
@@ -18840,7 +18839,7 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 42636,WEEKLY_REWARDS_CONFIRM_SELECT,No podrás cambiar esta recompensa una vez que la elijas.|n|n¿Estás seguro de que quieres elegir este objeto?,1
 42637,WEEKLY_REWARDS_THRESHOLD_RAID,Faltan datos en DisplaySeason,0
 42638,WEEKLY_REWARDS_THRESHOLD_MYTHIC,Completa %d |4calabozo mítico+:calabozos míticos+,1
-42639,WEEKLY_REWARDS_THRESHOLD_PVP,Consigue %d p. de Honor en actividades JcJ puntuadas,1
+42639,WEEKLY_REWARDS_THRESHOLD_PVP,Consigue %d p. de honor en actividades JcJ puntuadas o el Campo de batalla frenético,1
 42640,WEEKLY_REWARDS_SELECT_REWARD,Elegir recompensa,1
 42641,MYTHIC_DUNGEONS,Calabozos míticos,1
 42642,SOULBIND_CONDUIT_ACTIVATE_UNAVAIL,"Para activar esta ranura de conducto, visita la Forja de lazos en tu sagrario de Pacto",1
@@ -18906,9 +18905,9 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 42703,CANNOT_UNEQUIP_TORGHAST,No puedes cambiar tu equipo mientras estás en Torghast,1
 42704,NOT_IN_TORGHAST,"No puedes hacer eso en Torghast, la Torre de los Condenados.",1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,No puedes cambiar tu equipo mientras hay una Piedra angular mítica activa,1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"No puedes ver a este jugador porque está en otra fase. Puede unirse a tu fase si visita cualquier santuario, como Oribos.",1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"No puedes ver a este jugador porque está en otra fase. Puedes unirte a su fase si visitas cualquier santuario, como Oribos.",1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"No puedes ver a este jugador porque está en otra fase. Para aparecer en la misma fase, los dos deben visitar cualquier santuario, como Oribos.",1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"No puedes ver a este jugador porque está en otra fase. Puede unirse a tu fase si visita cualquier santuario, como Valdrakken, Oribos o Dalaran.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"No puedes ver a este jugador porque está en otra fase. Puede unirte a su fase si visitas cualquier santuario, como Valdrakken, Oribos o Dalaran.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"No puedes ver a este jugador porque está en otra fase. Para aparecer en la misma fase, los dos deben visitar cualquier santuario, como Valdrakken, Oribos o Dalaran.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,Todos los jugadores deben tener la misión Torghast: La Torre de los Condenados.,1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,Continúa la campaña para desbloquear: %s,1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,Consulta los poderes de tu lazo de alma aquí cuando estés lejos de la Forja de lazos,1
@@ -18936,7 +18935,7 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 42734,JAILERS_TOWER_CURRENCY_REWARD_FORMAT,|T%1$s:20:20|t %2$s %3$s,1
 42735,JAILERS_TOWER_CURRENCY_REWARD_CONTAINER,|T%1$s:20:20|t %2$s,1
 42736,JAILERS_TOWER_REWARDS_TITLE,Recompensas,1
-42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,Consigue puntos de Honor en actividades JcJ puntuadas para desbloquear recompensas de la Gran bóveda. El nivel de objeto de tus recompensas depende de tu victoria en la rama más alta esta semana.\n\n%s/%s recompensas desbloqueadas.,1
+42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,Consigue puntos de Honor en actividades JcJ puntuadas o el Campo de batalla frenético para desbloquear recompensas de la Gran bóveda. El nivel de objeto de tus recompensas depende de tu victoria en la rama más alta esta semana.\n\n%s/%s recompensas desbloqueadas.,1
 42739,SPELL_FAILED_CUSTOM_ERROR_494,Requiere Ingeniería de Shadowlands,1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,No estás en aguas suficientemente profundas.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Requiere las aguas frescas de Ardenweald o Bastión,1
@@ -18986,7 +18985,7 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 42786,SHAKE_INTENSITY_NONE,Desactivado,1
 42787,SHAKE_INTENSITY_REDUCED,Reducido,1
 42788,SHAKE_INTENSITY_FULL,Máximo,1
-42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,Consigue puntos de Honor en actividades JcJ puntuadas para desbloquear recompensas de la Gran bóveda. El nivel de objeto de tus recompensas depende de tu victoria en la rama más alta esta semana.\n\n%s/%s recompensas desbloqueadas.,1
+42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,Consigue puntos de Honor en actividades JcJ puntuadas o el Campo de batalla frenético para desbloquear recompensas de la Gran bóveda. El nivel de objeto de tus recompensas depende de tu victoria en la rama más alta esta semana.\n\n%s/%s recompensas desbloqueadas.,1
 42790,UI_AZERITE_ITEM_DISABLED,"Después de cortar su vínculo con Azeroth, el Corazón de Azeroth ha quedado sumido en un letargo.",1
 42791,SPELL_FAILED_CUSTOM_ERROR_499,No sabes domar dragones nimbo.,1
 42792,SPELL_FAILED_CUSTOM_ERROR_500,No sabes domar criaturas no-muertas.,1
@@ -22028,12 +22027,39 @@ Y propagar su llama por todo Azeroth.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Hechizo ofensivo 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Hechizo de utilidad 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Hechizo de utilidad 2,1
+51665,RELEASE_PET_BUTTON_LABEL,Liberar,1
+51666,RELEASE_PET,¿Seguro que quieres liberar a tu mascota para siempre? No podrás volver a invocar esta mascota.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,Este objeto no puede utilizarse en la temporada actual.,1
+51668,STABLE_PET_BUTTON_LABEL,Colocar en el establo,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,Marcar como activa,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%2$s de %1$s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,Familia: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,Familia: %s,1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,Activa,1
+51674,STABLE_SUMMONED_PET_LABEL,Mascota invocada actualmente,1
+51675,STABLE_STABLED_PET_LIST_LABEL,Establo,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,Debes usar %s antes de cambiar el nombre de esta mascota.,1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,Esta mascota está invocada actualmente.,1
+51678,STABLE_HELP_STABLED_PETS,En el establo se guardan todas las mascotas que has domado y no van contigo al mundo.|n|nHaz clic en una mascota para ver información acerca de su especialización y habilidades.,1
+51679,STABLE_HELP_ACTIVE_PETS,Las mascotas activas te acompañan por el mundo y te ayudan. Puedes llamarlas de a una a la vez. Brindarán distintos beneficios para diferentes situaciones.,1
+51680,STABLE_HELP_SECONDARY_PET,Una mascota secundaria puede seguir a tu mascota activa para infligir más daño.,1
+51681,STABLE_FILTER_BUTTON_LABEL,Ordenar,1
+51682,STABLE_SORT_NAME_LABEL,Nombre (A-Z),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,Especialización,1
+51684,STABLE_SORT_TYPE_LABEL,Familia,1
+51685,STABLE_SECONDARY_PET_DISABLED,Se necesita el talento Compañero animal de la especialización maestro de bestias,1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,Solo puedes liberar a la mascota invocada actualmente.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,Habilidades especiales,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,El destinatario no puede recibir correo.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,Nombre (Z-A),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Dificultad %s,1
 51699,LEVEL_UP_NO_LINK,"¡Felicitaciones, has alcanzado el |cffFF4E00nivel %d!|r",1
 51700,SPECTATE,Observar,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Recibirás los siguientes objetos:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d jugadores,1
+51713,STABLE_EXOTIC_TYPE_LABEL,Exótica,1
+51714,STABLE_FILTER_LABEL_TYPE,Tipo,1
+51715,STABLE_FILTER_SORT_BY_LABEL,Ordenar por,1
 51719,WOW_LABS_REMATCH,Abandonar partida,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Ideal para calabozo,1
 51721,LFG_LIST_BEST_RUN,Mejor ronda,1
@@ -22042,12 +22068,15 @@ Y propagar su llama por todo Azeroth.",1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Ingresa un rango específico para conseguir resultados más precisos, como 14-16 o 15-15.",1
 51726,MEMBERS_COLON,Miembros:,1
 51727,WOW_ERROR_337,"Para acceder a este reino, se necesita una cuenta con una licencia de acceso válida.",2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%2$s %1$s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Ingresa el nombre de BattleNet de tu amigo (incluido el número):,3
 51738,GLUE_LEAVE_PARTY,Abandonar grupo,3
 51739,GLUE_REMOVE_FROM_PARTY,Expulsar del grupo,3
 51740,LFG_LIST_NEEDS_TANK,Necesita tanque,1
-51749,LFG_LIST_CLASS_AVAILABLE,Necesita mi clase,1
+51744,TRANSMOG_SOURCE_7,Puesto de venta,1
+51746,STABLE_PET_UNCATEGORIZED,Sin categoría,1
+51749,LFG_LIST_CLASS_AVAILABLE,Aún no hay %s en el grupo,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,La reputación de %s es demasiado alta para esa misión.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"%s no pudo compartir la misión ""%s"". Tu reputación es demasiado alta para esa misión.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Archivo necesario no disponible,3
@@ -22075,12 +22104,13 @@ Y propagar su llama por todo Azeroth.",1
 51786,WOW_LABS_UTILITY_TOOLTIP,Utilidad,1
 51787,WOW_LABS_OFFENSIVE_TOOLTIP,Ofensiva,1
 51788,WOW_LABS_ITEM_SLOT_TOOLTIP,Objeto,1
-51789,PLUNDERSTORM_RENOWN_LEVEL_TOOLTIP,Recolecta botín para obtener recompensas.,1
+51789,PLUNDERSTORM_RENOWN_LEVEL_TOOLTIP,Recoge tesoros pirata para obtener recompensas.,1
 51794,WOWLABS_GAMEMODE_HEADER,Plunderstorm,3
 51795,WOWLABS_GAMEMODE_DESC,"Los piratas se enfrentan en un gran battle royale.\n\nPuedes buscar una partida solo o invitar a un amigo y buscar una partida juntos.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,Primero debes equipar una capa de potencial infinito.,1
 51804,WOWLABS_FIND_GAME_SOLO,Buscando partida en solitario,3
 51805,WOWLABS_FIND_GAME_DUO,Buscando partidas de dúos,3
 51806,WOWLABS_FIND_GAME_TRIO,Buscando partidas de tríos,3
@@ -22088,10 +22118,15 @@ Y propagar su llama por todo Azeroth.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Todavía te puede resucitar tu compañero de equipo.|n|n¿Deseas abandonar la partida de todos modos?,1
 51809,FRONT_END_LOBBY_SOLOS,Solitario,2
 51810,FRONT_END_LOBBY_DUOS,Dúos,2
+51814,LFG_LIST_MINIMUM_RATING,Puntaje mítico+ mínimo,1
 51815,WOWLABS_INVITE_FRIEND,Invitar amigo,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Mejorado al máximo,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Mejora:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Tiempo de reutilización reducido y daño aumentado (si aplica).,1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,Bronce insuficiente para realizar esta operación.,1
+51829,STABLE_PET_SPEC_CUNNING,Astucia,1
+51830,STABLE_PET_SPEC_FEROCITY,Ferocidad,1
+51831,STABLE_PET_SPEC_TENACITY,Tenacidad,1
 51832,WOWLABS_GAME_BASICS_TITLE,Lo básico de Plunderstorm,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Gana el último que queda en pie.
 
@@ -22100,12 +22135,14 @@ Y propagar su llama por todo Azeroth.",1
 |cffffffff3.|r Mejora los hechizos recogiendo más copias de ellos.
 
 |cffffffff4.|r Usa tu habilidad de sanación cuando tengas poca salud.",3
-51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Completa misiones y recolecta Saqueo para desbloquear recompensas. Visita Da'kash Registro Siniestro en el área de espera.|n|n|cff00ff00Siguiente recompensa en el nivel %d:|r,3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Requiere dracoequitación.,1
+51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Completa misiones y recoge tesoros pirata para desbloquear recompensas. Visita Da'kash Registro Siniestro en el área de espera.|n|n|cff00ff00Siguiente recompensa en el nivel %d:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Reconocimiento,3
 51838,WOWLABS_READY_GAME,Todo listo,3
 51840,WOWLABS_SUB_REQUIRED,El acceso a esta función requiere una cuenta con una suscripción activa o tiempo de juego.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Suscríbete ahora,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Esperando a otros jugadores...,2
+51843,STABLE_PET_COUNTER,%1d/%2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Grupo de la sala]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Grupo de la sala]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Grupo de la sala:\32,3
@@ -22114,14 +22151,77 @@ Y propagar su llama por todo Azeroth.",1
 51850,EXPANSION_SEASON_NAME,%s Temporada %d,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resucitable,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,Párate junto al cadáver de tu compañero para resucitarlo,1
-51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Cantidad total de saqueo obtenido,3
+51859,QUEST_SESSION_ABANDON_WARNING,"La siguientes misiones pueden abandonarse si te unes a sincronía grupal:
+%s",1
+51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Total de tesoros pirata obtenidos,3
 51867,LIMITED_TIME_EVENT,EVENTO POR|nTIEMPO LIMITADO,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interactuar,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,No puedes cambiar los hechizos que se estén recargando mientras estás en combate.,1
+51881,GROUPMANAGER_GROUND_MARKER,Suelo,1
+51882,GROUPMANAGER_UNIT_MARKER,Unidad,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Perderás todos los tesoros pirata que hayas conseguido en esta ronda si abandonas la partida antes de que eliminen a tu equipo.|n|n¿Quieres irte de todas formas?
 ",1
+51888,COUNTDOWN,Cuenta regresiva,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,Solo los personajes draenei y draenei templeluz pueden usar este objeto.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h ha comenzado una cuenta regresiva.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,Perderás todos los tesoros pirata que hayas conseguido en esta ronda si abandonas la partida antes de que te eliminen.|n|n¿Quieres irte de todas formas?,1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,Estándar,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,Crea un personaje estándar para jugar World of Warcraft.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,Crea un cronoaventurero para participar en WoW Remix: Mists of Pandaria y obtener recompensas exclusivas.|n|nEste personaje se convertirá en un personaje estándar cuando termine el evento.,2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,Cronoaventurero,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,Limitar marcas a:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,Líder,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,Asistente,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,Tanques/Sanadores,1
+51908,TIMERUNNING_CHOICE_SELECT,Seleccionar,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,Misiones y bandas,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Todas las misiones, gestas, calabozos y bandas de Pandaria están disponibles para jugar.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,Nuevos objetos y mecánicas,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Diseño de objetos y gemas de hechizos únicas completamente nuevos les brindarán a los jugadores una nueva experiencia de juego.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,Recompensas únicas,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Completa logros de evento para desbloquear nuevas monturas, mascotas de duelo, transfiguraciones y más para tu cuenta.",2
+51915,TIMERUNNING_POPUP_CREATE,Crear cronoaventurero,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceló la cuenta regresiva.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s tesoros pirata,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,No se pudo establecer la conexión con Plunderstorm. Intenta de nuevo más tarde.,2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Solo de la expansión actual,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: ¡Mists of Pandaria!,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r restante(s),2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Personaje de cronotravesía,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,Este personaje está participando en WoW Remix: Mists of Pandaria y solo puede formar grupo con otros cronoaventureros.,2
+51946,KEY_OEM1,ñ,1
+51947,KEY_OEM2,-,1
+51948,KEY_OEM3,|,1
+51949,KEY_OEM4,´,1
+51950,KEY_OEM5,Intro,1
+51951,KEY_OEM6,+,1
+51952,KEY_OEM7,},1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,OBSERVANDO,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,La casa de subastas no está disponible para cronoaventureros.,5
+51961,TIMERUNNING_CHOICE_WARNING,Este es un modo de juego avanzado. ¿Confirmas que quieres crear un personaje de cronotravesía?,2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Crea un cronoaventurero y explora una nueva versión de Mists of Pandaria.,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,La participación requiere una suscripción,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,Los cronoaventureros no pueden salir de Pandaria con un teletransporte.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,Técnicas de suavizado de contorno que usan solo los renderizados de pantalla completa existentes,3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,Suavizado de contorno aproximado rápido - Bajo: Cálculos simplificados para que los bordes con contraste se vean un poco difuminados.,3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,Suavizado de contorno aproximado rápido - Alto: Cálculos más precisos para que los bordes con contraste se vean un poco difuminados; agrega más fundidos.,3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,Suavizado de contorno morfológico conservador: Cálculos aun más precisos para contar con una variedad de técnicas de detección de bordes que permiten difuminarlos.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Suavizado de contorno morfológico conservador 2: Versión más avanzada de SCMC (método preferido cuando también se usa ""Técnicas multimuestra"").",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,Ajusta la resolución del juego,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Insuficiente,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,No se puede expulsar a los jugadores de esta estancia,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Ocultar barras de salud y poder debajo de tu personaje,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Mostrar tiempos de reutilización de hechizos importantes debajo de tu personaje,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Mostrar beneficios aliados debajo de tu personaje,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,Los bancos de la hermandad no están disponibles para este personaje.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encuentro iniciado, cuenta regresiva cancelada.",1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,No pueden unirse al mismo grupo un personaje común y un cronoaventurero.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,El poder otorgado por la capa de potencial infinito se muestra aquí.,1
+52059,TIMERUNNING_DISABLED_TOOLTIP,Se han desactivado temporalmente los cronoaventureros.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Animación de combate,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Animación especial de montura,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Debes tener un tabardo personal para personalizarlo, pero siéntete libre de explorar.",7

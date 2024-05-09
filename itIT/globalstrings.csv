@@ -140,7 +140,7 @@ ID,BaseTag,TagText_lang,Flags
 9743,PET_WAIT,Fermo,1
 9744,PET_FOLLOW,Segui,1
 9745,PET_ATTACK,Attacca,5
-9746,PET_ABANDON,Abbandona,1
+9746,PET_ABANDON,Libera,1
 9747,PET_DISMISS,Congeda,1
 9748,PET_RENAME,Rinomina,1
 9763,ERR_ONLY_ONE_QUIVER,Puoi equipaggiare una sola faretra.,1
@@ -1942,7 +1942,7 @@ prima del prossimo stato di riposo.",1
 11820,CHAT_MONSTER_WHISPER_GET,%s sussurra:\32,1
 11822,TOOLTIP_TALENT_PREREQ,Richiede %1$d |4punto:punti; in %2$s,1
 11823,GUILD_INVITATION,ti invita nella gilda:,1
-11824,ABANDON_PET,Vuoi davvero abbandonare permanentemente il famiglio? Non potrai più evocare questo specifico famiglio.,1
+11824,ABANDON_PET,Vuoi davvero liberare permanentemente il famiglio? Non potrai più evocare questo specifico famiglio.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,Hai ricevuto: %s,1
 11828,POTION_TIMER,Non puoi ancora farlo.,1
@@ -2094,7 +2094,7 @@ verranno inseriti automaticamente.",1
 11987,ERR_PETITION_DECLINED_S,%s ha rifiutato di firmare la tua licenza.,1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,In questo luogo non puoi salire su una cavalcatura.,1
 11991,HEALTH_COST_PER_TIME,"%s salute, più %s al s",1
-11993,ERR_GUILDEMBLEM_SUCCESS,Insegna di gilda salvata.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,Emblema salvato.,1
 11994,ERR_GUILD_LEADER_LEAVE,Prima di lasciare la gilda devi promuovere un altro personaggio a capogilda con il comando /gcapo.,1
 11996,ERR_IGNORING_YOU_S,%s ti sta ignorando.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,Devi sfoderare le armi.,1
@@ -4245,7 +4245,7 @@ http://eu.battle.net/support/article/harassment-policy",1
 14607,NEWBIE_TOOLTIP_UNIT_PET_DISMISS,Congeda il servitore attualmente controllato.,1
 14608,NEWBIE_TOOLTIP_UNIT_PET_PAPERDOLL,"Mostra informazioni sul tuo famiglio, tra cui le statistiche di combattimento, la resistenza agli incantesimi e la dieta.",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,Assegna un nome al tuo famiglio. Ricorda che a un famiglio può essere dato il nome una volta sola.,1
-14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Abbandona il tuo famiglio, permettendogli di tornare libero. Se abbandoni un famiglio, non potrai più evocarlo.",1
+14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Libera il tuo famiglio, permettendogli di tornare a essere selvatico. Se liberi un famiglio, non potrai più evocarlo.",1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,"Questa è la quantità di salute che attualmente possiedi. Se la tua salute arriva a zero, morirai. La salute si rigenera automaticamente quando non sei in combattimento.",1
 14612,NEWBIE_TOOLTIP_MANABAR0,Questa è la quantità di mana che attualmente possiedi. Alcuni personaggi utilizzano il mana per lanciare incantesimi. Il mana si rigenera automaticamente se non lanci incantesimi per almeno cinque secondi.,1
 14613,NEWBIE_TOOLTIP_MANABAR1,I Guerrieri (e i Druidi in Forma d'Orso o in Forma d'Orso Feroce) utilizzano la rabbia per attivare le proprie abilità.,1
@@ -6034,8 +6034,8 @@ Indice di perizia: %s [+%.2F%% perizia]",1
 17534,LOOT,Bottino,1
 17535,ERR_VOICESESSION_FULL,La sessione vocale a cui vuoi accedere è piena.,1
 17536,BINDING_NAME_TOGGLECHATTAB,Pannello della chat,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Richiede la competenza Equitazione a livello Esperto.,1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Richiede la competenza Equitazione a livello Specialista.,1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Richiede il livello %d,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Richiede il livello %d,1
 17540,TALENT_POINTS,Talenti,1
 17541,GUILD_BANK_MONEY_LOG,Transazioni,1
 17542,USE_GUILDBANK_REPAIR,Vuoi utilizzare i fondi della gilda per le riparazioni?,1
@@ -8757,7 +8757,6 @@ Che tipo di latenza hai? Clicca su uno dei pulsanti qui sotto per inviarci una s
 20489,LOOT_ROLL_INELIGIBLE_REASON3,Questo oggetto non può essere disincantato.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,Nel gruppo non è presente un Incantatore con un livello di competenza %d.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,Richiede dei Razzi Propulsori a Singola Fase. Torna da Hobart Multivite per prenderne altri.,1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,I giocatori non possono essere espulsi in combattimento e subito dopo.,1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,I giocatori non possono essere espulsi quando l'istanza è completata.,1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,I giocatori non possono essere espulsi durante i tiri per il bottino.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,Non puoi teletrasportarti fuori da un'istanza mentre sei in combattimento.,1
@@ -11679,7 +11678,7 @@ verrà attribuito a tutti i tuoi personaggi.",1
 23565,SPELL_PASSIVE_SECOND,Passivo,1
 23566,LOOT_ROLL_LOST_ROLL,|HlootHistory:%d|h[Bottino]|h: Hai tirato (%s - %d) per: %s.,1
 23567,BATTLE_PETS_TOTAL_PETS,Mascotte,1
-23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Numero di mascotte in tuo possesso. Puoi possedere fino a massimo tre mascotte per tipo.,1
+23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Numero di mascotte in tuo possesso. Puoi avere fino a un massimo di tre mascotte uguali.,1
 23570,BATTLE_PETS_ACHIEVEMENT,Imprese mascotte da combattimento,1
 23571,BATTLE_PETS_FIND_BATTLE_TOOLTIP,Trova un avversario di abilità analoga alla tua per uno scontro tra mascotte.,1
 23572,BATTLE_PETS_ACHIEVEMENT_TOOLTIP,Il tuo punteggio relativo alle imprese con le mascotte da combattimento. Alcune imprese sbloccano funzionalità aggiuntive.,1
@@ -11790,9 +11789,9 @@ Puoi anche visitare uno Stalliere in citta se l'abilità non è disponibile.",1
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,Questo incantesimo non è disponibile poiché è in corso uno scontro.,1
 23673,BATTLE_PET_NEW_PET,"La mascotte ""%s"" è stata aggiunta al diario delle mascotte!",1
 23674,BATTLE_PET_TOOLTIP_SUMMON,Evoca e congeda il tuo %s.,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Richiede la competenza Equitazione a livello Apprendista.,1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Richiede la competenza Equitazione a livello Praticante.,1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Richiede la competenza Equitazione a livello Maestro.,1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Richiede il livello %d,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Richiede il livello %d,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Richiede il livello %d,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,Richiede la Licenza del Maestro di Volo.,1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,Richiede Volo in Ambienti Gelidi.,1
 23680,UNITNAME_SUMMON_TITLE19,Scaldacuori di %s,1
@@ -15869,7 +15868,7 @@ per giocare questa classe.",2
 34950,SPELL_FAILED_CUSTOM_ERROR_302,Un fenomeno sconosciuto impedisce la connessione alla linea di faglia.,1
 34951,GARRISON_TALENT_ORDER_ADVANCEMENT,Potenziamento dell'Enclave,1
 34952,GARRISON_TALENT_RESEARCH_COMPLETE,Ricerca completata,5
-34953,ERR_CANNOT_ABANDON_LAST_PET,Non puoi abbandonare l'ultima mascotte,1
+34953,ERR_CANNOT_ABANDON_LAST_PET,Non puoi liberare l'ultimo famiglio,1
 34954,IGNORED_QUEST_DISPLAY,|cff000000%s (ignorata)|r,1
 34955,SPELL_FAILED_CUSTOM_ERROR_303,L'Incubo oscura la tua vista.,1
 34956,SPELL_FAILED_YOU_CANNOT_USE_THAT_IN_PVP_INSTANCE,Non puoi utilizzare questo oggetto in un'istanza PvP.,1
@@ -19271,7 +19270,7 @@ Consentire script personalizzati?",1
 42636,WEEKLY_REWARDS_CONFIRM_SELECT,Non potrai cambiare questa ricompensa dopo averla selezionata.|n|nVuoi davvero selezionare quest'oggetto?,1
 42637,WEEKLY_REWARDS_THRESHOLD_RAID,Dati mancanti in MostraStagione,0
 42638,WEEKLY_REWARDS_THRESHOLD_MYTHIC,Completa %d |4spedizione Mitica+:spedizioni Mitiche+;,1
-42639,WEEKLY_REWARDS_THRESHOLD_PVP,Ottieni %d Punti Onore dal PvP classificato,1
+42639,WEEKLY_REWARDS_THRESHOLD_PVP,Ottieni %d Punti Onore dal PvP classificato o dal Blitz nel Campo di Battaglia,1
 42640,WEEKLY_REWARDS_SELECT_REWARD,Seleziona Ricompensa,1
 42641,MYTHIC_DUNGEONS,Spedizioni Mitiche,1
 42642,SOULBIND_CONDUIT_ACTIVATE_UNAVAIL,"Per attivare questo scomparto condotto, visita la Forgia dei Vincoli nel tuo Santuario della Congrega",1
@@ -19337,9 +19336,9 @@ Consentire script personalizzati?",1
 42703,CANNOT_UNEQUIP_TORGHAST,Non puoi cambiare equipaggiamento mentre sei a Torgast,1
 42704,NOT_IN_TORGHAST,"Non puoi farlo a Torgast, Torre dei Dannati",1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,Non puoi cambiare stato mentre una Mitica+ è attiva,1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Può unirsi alla tua fase recandosi in un santuario, come Oribos.",1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Puoi unirti alla sua fase recandoti in un santuario, come Oribos.",1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Per essere nella stessa fase, recatevi entrambi in un santuario, come Oribos.",1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Può unirsi alla tua fase recandosi in un santuario, come Valdrakken, Oribos o Dalaran.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Puoi unirti alla sua fase recandoti in un santuario, come Valdrakken, Oribos o Dalaran.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Non puoi vedere questo personaggio perché si trova in una fase diversa. Per essere nella stessa fase, recatevi entrambi in un santuario, come Valdrakken, Oribos o Dalaran.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,"Tutti i personaggi devono avere la missione ""Torgast, Torre dei Dannati"".",1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,Continua la campagna per sbloccare %s,1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,Visualizza qui i poteri del tuo Vincolo dell'Anima quando sei lontano dalla Forgia dei Vincoli,1
@@ -19367,7 +19366,7 @@ Consentire script personalizzati?",1
 42734,JAILERS_TOWER_CURRENCY_REWARD_FORMAT,|T%1$s:20:20|t %2$s %3$s,1
 42735,JAILERS_TOWER_CURRENCY_REWARD_CONTAINER,|T%1$s:20:20|t %2$s,1
 42736,JAILERS_TOWER_REWARDS_TITLE,Ricompense,1
-42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,Ottieni Punti Onore dal PvP classificato per sbloccare le ricompense della Gran Banca. Il livello oggetti cambia in base alla tua ricompensa più alta di questa settimana.\n\n%s/%s ricompense sbloccate.,1
+42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,Ottieni Punti Onore dal PvP classificato o dal Blitz nel Campo di Battaglia per sbloccare le ricompense della Gran Banca. Il livello oggetti cambia in base alla tua ricompensa più alta di questa settimana.\n\n%s/%s ricompense sbloccate.,1
 42739,SPELL_FAILED_CUSTOM_ERROR_494,Richiede l'Ingegneria di Shadowlands,1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,Non sei in acque abbastanza profonde.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Richiede le acque fresche di Selvarden o del Bastione,1
@@ -19417,7 +19416,7 @@ Consentire script personalizzati?",1
 42786,SHAKE_INTENSITY_NONE,Nessuno,1
 42787,SHAKE_INTENSITY_REDUCED,Ridotto,1
 42788,SHAKE_INTENSITY_FULL,Pieno,1
-42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,Ottieni Punti Onore dal PvP classificato per sbloccare le ricompense della Gran Banca. Il livello oggetti cambia in base alla tua ricompensa più alta di questa settimana.\n\n%s/%s ricompense sbloccate.,1
+42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,Ottieni Punti Onore dal PvP classificato o dal Blitz nel Campo di Battaglia per sbloccare le ricompense della Gran Banca. Il livello oggetti cambia in base alla tua ricompensa più alta di questa settimana.\n\n%s/%s ricompense sbloccate.,1
 42790,UI_AZERITE_ITEM_DISABLED,Il Cuore di Azeroth giace dormiente mentre il suo collegamento con Azeroth è interrotto.,1
 42791,SPELL_FAILED_CUSTOM_ERROR_499,Non sai come addomesticare le Serpi delle Nubi.,1
 42792,SPELL_FAILED_CUSTOM_ERROR_500,Non sai come addomesticare le creature non morte.,1
@@ -22459,12 +22458,39 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Incantesimo Offensivo 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Incantesimo d'Utilità 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Incantesimo d'Utilità 2,1
+51665,RELEASE_PET_BUTTON_LABEL,Rilascia,1
+51666,RELEASE_PET,Vuoi davvero rilasciare permanentemente il famiglio? Non potrai più evocare questo specifico famiglio.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,Questo oggetto non può essere usato nella stagione attuale.,1
+51668,STABLE_PET_BUTTON_LABEL,Metti nella Stalla,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,Rendi attivo,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%s %s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,Famiglia: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,Famiglia: %s,1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,Attivo,1
+51674,STABLE_SUMMONED_PET_LABEL,Famiglio attualmente evocato,1
+51675,STABLE_STABLED_PET_LIST_LABEL,Stalla,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,Devi usare %s prima di rinominare questo famiglio.,1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,Questo famiglio è attualmente evocato.,1
+51678,STABLE_HELP_STABLED_PETS,La Stalla ospita tutti i famigli che hai addomesticato che non sono con te nel mondo.|n|nCliccare su un famiglio fornisce informazioni sulla sua specializzazione e sulle abilità.,1
+51679,STABLE_HELP_ACTIVE_PETS,I famigli attivi ti accompagnano e aiutano nel mondo. Possono essere richiamati uno alla volta e offrono benefici diversi per situazioni diverse.,1
+51680,STABLE_HELP_SECONDARY_PET,Un famiglio secondario può seguire i tuo famiglio attivo per infliggere più danni.,1
+51681,STABLE_FILTER_BUTTON_LABEL,Ordina,1
+51682,STABLE_SORT_NAME_LABEL,Nome (A-Z),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,Specializzazione,1
+51684,STABLE_SORT_TYPE_LABEL,Famiglia,1
+51685,STABLE_SECONDARY_PET_DISABLED,Richiede il talento Famiglio Animale dalla specializzazione Affinità Animale,1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,È possibile rilasciare solo il famiglio evocato.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,Abilità speciali,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,Il destinatario non può ricevere la posta.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,Nome (Z-A),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Difficoltà %s,1
 51699,LEVEL_UP_NO_LINK,"Congratulazioni, hai raggiunto il |cffFF4E00livello %d!|r",1
 51700,SPECTATE,Osserva,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Riceverai i seguenti oggetti:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d giocatori,1
+51713,STABLE_EXOTIC_TYPE_LABEL,Esotico,1
+51714,STABLE_FILTER_LABEL_TYPE,Tipo,1
+51715,STABLE_FILTER_SORT_BY_LABEL,Ordina per,1
 51719,WOW_LABS_REMATCH,Abbandona partita,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Migliore per spedizione,1
 51721,LFG_LIST_BEST_RUN,Miglior tentativo,1
@@ -22473,12 +22499,15 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Inserisci un intervallo per risultati precisi, come 14-16 o 15-15.",1
 51726,MEMBERS_COLON,Membri:,1
 51727,WOW_ERROR_337,L'accesso a questo reame richiede un account con una licenza di accesso valida.,2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Inserisci il nome Battle.net del tuo amico (incluso il numero):,3
 51738,GLUE_LEAVE_PARTY,Abbandona gruppo,3
 51739,GLUE_REMOVE_FROM_PARTY,Rimuovi dal gruppo,3
 51740,LFG_LIST_NEEDS_TANK,Difensore necessario,1
-51749,LFG_LIST_CLASS_AVAILABLE,Mia classe necessaria,1
+51744,TRANSMOG_SOURCE_7,Emporio,1
+51746,STABLE_PET_UNCATEGORIZED,Senza categoria,1
+51749,LFG_LIST_CLASS_AVAILABLE,%s non presente in gruppo,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,La reputazione di %s è troppo alta per questa missione.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Il tentativo di %s di condividere la missione ""%s"" è fallito. La tua reputazione è troppo alta per questa missione.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Dipendenza non disponibile,3
@@ -22511,7 +22540,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51795,WOWLABS_GAMEMODE_DESC,"Dei pirati si danno battaglia in un grande scontro battle royale.\n\nPuoi metterti in coda in solitaria, oppure invitare un amico e partecipare insieme.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,Devi prima equipaggiare il Mantello del Potenziale Infinito.,1
 51804,WOWLABS_FIND_GAME_SOLO,Ricerca partita in solo,3
 51805,WOWLABS_FIND_GAME_DUO,Ricerca partita in duo,3
 51806,WOWLABS_FIND_GAME_TRIO,Ricerca partita in trio,3
@@ -22519,10 +22549,15 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Il tuo compagno di squadra può ancora resuscitarti.|n|nVuoi davvero abbandonare la partita?,1
 51809,FRONT_END_LOBBY_SOLOS,Solo,2
 51810,FRONT_END_LOBBY_DUOS,Duo,2
+51814,LFG_LIST_MINIMUM_RATING,Punteggio Mitica+ minimo,1
 51815,WOWLABS_INVITE_FRIEND,Invita un amico,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Potenziamento massimo,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Potenziamento:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Tempo di recupero ridotto e danni inflitti aumentati (se applicabile).,1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,Bronzo insufficiente per fare questo scambio.,1
+51829,STABLE_PET_SPEC_CUNNING,Scaltrezza,1
+51830,STABLE_PET_SPEC_FEROCITY,Ferocia,1
+51831,STABLE_PET_SPEC_TENACITY,Tenacia,1
 51832,WOWLABS_GAME_BASICS_TITLE,Basi di Plunderstorm,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Vinci se sei l'ultimo rimasto.
 
@@ -22531,12 +22566,14 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 |cffffffff3.|r Potenzia gli incantesimi saccheggiandone più copie.
 
 |cffffffff4.|r Usa le tue abilità di cura quando hai poca salute.",3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Richiede il Volo Draconico.,1
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Completa le missioni e raccogli Bottino per sbloccare le ricompense. Fai visita a Da'kash Mastrotetro nell'area d'attesa.|n|n|cff00ff00Prossima ricompensa al livello %d:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Fama,3
 51838,WOWLABS_READY_GAME,Pronto,3
 51840,WOWLABS_SUB_REQUIRED,L'accesso a questa funzionalità richiede un account con una sottoscrizione attiva o del tempo di gioco.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Abbonati,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,In attesa di altri giocatori...,2
+51843,STABLE_PET_COUNTER,%1d di %2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Gruppo Lobby]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Gruppo Lobby]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Gruppo Lobby:\32,3
@@ -22545,14 +22582,77 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51850,EXPANSION_SEASON_NAME,%s Stagione %d,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resuscitabile,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,Rianima il tuo compagno di squadra stando accanto al suo cadavere,1
+51859,QUEST_SESSION_ABANDON_WARNING,"Le seguenti missioni potrebbero essere abbandonate unendosi alla Sincronia di Gruppo:
+%s",1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Bottino totale raccolto,3
 51867,LIMITED_TIME_EVENT,EVENTO A TEMPO|nLIMITATO,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interazione,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,Non si può scambiare incantesimi in tempo di recupero quando si è in combattimento.,1
+51881,GROUPMANAGER_GROUND_MARKER,Terreno,1
+51882,GROUPMANAGER_UNIT_MARKER,Unità,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Perderai tutto il Bottino ottenuto in questa partita, se abbandoni prima che la tua squadra sia eliminata.|n|nVuoi davvero abbandonare?
 ",1
+51888,COUNTDOWN,Conto alla Rovescia,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,Solo i personaggi Draenei e Draenei Forgialuce possono usare questo oggetto.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h ha iniziato un conto alla rovescia.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,"Perderai tutto il Bottino ottenuto in questa partita, se abbandoni prima di essere eliminato.|n|nVuoi davvero abbandonare?",1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,Normale,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,Crea un personaggio standard per giocare a World of Warcraft.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,Crea un Corridore nel Tempo per partecipare all'evento WoW Remix: Mists of Pandaria e ottenere ricompense esclusive.|n|nQuesto personaggio diventerà un personaggio normale alla fine dell'evento.,2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,Corridore nel Tempo,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,Limita i segnali a:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,Capo,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,Assistente,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,Difensori/Guaritori,1
+51908,TIMERUNNING_CHOICE_SELECT,Seleziona,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,Missioni e incursioni,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Sono disponibili tutte le missioni di Pandaria, gli scenari, le spedizioni e le incursioni.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,Nuovi oggetti e meccaniche,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Nuovi oggetti e gemme magiche uniche propongono a giocatori e giocatrici una nuova esperienza di gioco.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,Ricompense uniche,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Completando le imprese degli eventi, sbloccherai nuove cavalcature, mascotte da combattimento, trasmogrificazione e altro per il tuo account.",2
+51915,TIMERUNNING_POPUP_CREATE,Crea Corridore nel Tempo,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h ha annullato il conto alla rovescia.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Bottino,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Impossibile connettersi a Plunderstorm. Riprova più tardi.,2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Solo espansione attuale,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r |4restante:restanti;,2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Personaggio delle Corse nel Tempo,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,Questo personaggio partecipa all'evento WoW Remix: Mists of Pandaria e può creare gruppi solo con altri personaggi Corridori nel Tempo.,2
+51946,KEY_OEM1,ò,1
+51947,KEY_OEM2,-,1
+51948,KEY_OEM3,\,1
+51949,KEY_OEM4,è,1
+51950,KEY_OEM5,ù,1
+51951,KEY_OEM6,+,1
+51952,KEY_OEM7,',1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,MODALITÀ SPETTATORE,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,La Casa d'Aste non è disponibile per i Corridori nel Tempo.,5
+51961,TIMERUNNING_CHOICE_WARNING,Questa è una modalità di gioco avanzata. Vuoi davvero creare un personaggio delle Corse nel Tempo?,2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Vivi una nuova e avvincente avventura di Mists of Pandaria creando un Corridore nel Tempo.,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,È richiesto un abbonamento per partecipare,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,I Corridori nel Tempo non possono teletrasportarsi fuori da Pandaria.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,Tecniche di anti-aliasing che utilizzano solo le renderizzazioni a schermo intero esistenti,3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,Anti-aliasing approssimativo veloce - Basso: calcoli semplificati per sfocare i bordi basati sul contrasto.,3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,"Anti-aliasing approssimativo veloce - Alto: calcoli più precisi per sfocare i bordi basati sul contrasto, oltre a una maggiore fusione.",3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,Anti-aliasing morfologico conservativo: calcoli ancora più precisi per una gamma di tecniche di rilevamento del contrasto per sfocare i bordi.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Anti-aliasing morfologico conservativo 2: versione avanzata di CMAA (metodo da preferirsi in caso si usino anche le ""Tecniche multisample"").",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,Modifica la risoluzione del gioco,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Disponibilità insufficiente,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Non è possibile espellere i personaggi da questa istanza,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Nascondi le barre della salute e delle risorse sotto il tuo personaggio,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Mostra i tempi di recupero degli incantesimi importanti sotto il tuo personaggio,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Mostra i benefici sotto il tuo personaggio,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,La Banca di Gilda non è disponibile per questo personaggio.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,Scontro iniziato. Conto alla rovescia annullato.,1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,Nello stesso gruppo non possono esserci un personaggio normale e uno Corridore nel Tempo.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,Il potere fornito dal Mantello del Potenziale Infinito è mostrato qui.,1
+52059,TIMERUNNING_DISABLED_TOOLTIP,I Corridori nel Tempo sono stati disattivati temporaneamente.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Animazione combattimento,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Animazione speciale cavalcatura,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Devi possedere un'Insegna Personale per la personalizzazione, ma dai pure un'occhiata.",7

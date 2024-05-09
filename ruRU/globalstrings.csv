@@ -1936,7 +1936,7 @@ ID,BaseTag,TagText_lang,Flags
 11820,CHAT_MONSTER_WHISPER_GET,%s шепчет:\32,1
 11822,TOOLTIP_TALENT_PREREQ,"Повысьте до %1$d-го уровня талант ""%2$s"".",1
 11823,GUILD_INVITATION,приглашает вас вступить в гильдию:,1
-11824,ABANDON_PET,"Вы уверены, что хотите навсегда отказаться от своего питомца? Вы больше не сможете его вызывать.",1
+11824,ABANDON_PET,"Вы уверены, что хотите навсегда отпустить своего питомца? Вы больше не сможете его вызывать.",1
 11826,LOCKED_WITH_SPELL_KNOWN,Требуется: %s,1
 11827,LOOT_ITEM_SELF,Ваша добыча: %s.,1
 11828,POTION_TIMER,Вы пока не можете этого сделать.,1
@@ -2081,7 +2081,7 @@ ID,BaseTag,TagText_lang,Flags
 11987,ERR_PETITION_DECLINED_S,%s отказывается подписать вашу хартию.,1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,Здесь нельзя ездить верхом.,1
 11991,HEALTH_COST_PER_TIME,%s ед. здоровья + %s/сек.,1
-11993,ERR_GUILDEMBLEM_SUCCESS,Герб гильдии сохранен.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,Герб сохранен.,1
 11994,ERR_GUILD_LEADER_LEAVE,"Прежде чем покинуть гильдию, вы должны назначить нового главу гильдии, используя /гглава.",1
 11996,ERR_IGNORING_YOU_S,%s вас игнорирует.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,Вы должны достать оружие.,1
@@ -5951,8 +5951,8 @@ ID,BaseTag,TagText_lang,Flags
 17534,LOOT,Добыча,1
 17535,ERR_VOICESESSION_FULL,"В канале голосового чата, к которому вы хотите присоединиться, свободных мест нет.",1
 17536,BINDING_NAME_TOGGLECHATTAB,Окно чата,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Требует умения ездить верхом на уровне умельца.,1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Требует умения ездить верхом на уровне искусника.,1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Требуется %d-й уровень,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Требуется %d-й уровень,1
 17540,TALENT_POINTS,Таланты,1
 17541,GUILD_BANK_MONEY_LOG,Журнал финансов,1
 17542,USE_GUILDBANK_REPAIR,Вы хотите осуществить ремонт за счет гильдии?,1
@@ -8663,7 +8663,6 @@ ID,BaseTag,TagText_lang,Flags
 20489,LOOT_ROLL_INELIGIBLE_REASON3,Этот предмет нельзя распылить.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,В вашей группе нет зачаровывателя с навыком %d.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,Нужна одноступенчатая ракета-носитель. Их можно получить у Хобарта Дрека.,1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,Игрока нельзя исключить во время битвы или сразу после ее завершения.,1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,"Игрока нельзя исключить после того, как подземелье пройдено.",1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,Игрока нельзя исключить во время разделения добычи.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,Вы не можете перенестись из подземелья во время битвы.,1
@@ -11568,9 +11567,9 @@ ID,BaseTag,TagText_lang,Flags
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,"Это заклинание заблокировано, поскольку вы участвуете в бою.",1
 23673,BATTLE_PET_NEW_PET,В ваш атлас был добавлен питомец %s!,1
 23674,BATTLE_PET_TOOLTIP_SUMMON,Призвать или отпустить |3-1(%s).,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Необходимо быть учеником в деле верховой езды.,1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Необходимо быть подмастерьем в деле верховой езды.,1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Необходимо быть мастером в деле верховой езды.,1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Требуется %d-й уровень,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Требуется %d-й уровень,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Требуется %d-й уровень,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,Необходима лицензия мастера воздушных путей.,1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,Необходима лицензия для полетов в непогоду.,1
 23680,UNITNAME_SUMMON_TITLE19,Оберег |3-1(%s),1
@@ -11908,7 +11907,7 @@ ID,BaseTag,TagText_lang,Flags
 24071,RANDOM_HEROIC_SCENARIO,Случайный героический сценарий,1
 24072,HEROIC_SCENARIO,Героический сценарий,1
 24073,SCENARIO_RANDOM_HEROIC_EXPLANATION,"Воспользовавшись системой поиска сценариев для прохождения случайного героического сценария, вы получите дополнительные награды. Ваша группа должна быть полной.",1
-24074,LFG_TYPE_RANDOM_HEROIC_SCENARIO,Случайный героический сценарий,1
+24074,LFG_TYPE_RANDOM_HEROIC_SCENARIO,Случайный сценарий (героич.),1
 24075,HEROIC_SCENARIO_BONUS_VALOR,За выполнение дополнительных задач начисляются дополнительные очки доблести.,1
 24076,HEROIC_SCENARIO_BONUS_VALOR_SPECIFIC,За выполнение дополнительных задач начисляется %d |4дополнительное очко:дополнительных очка:дополнительных очков; доблести.,1
 24077,SPELL_FAILED_CUSTOM_ERROR_194,Вы уже состоите в бойцовской гильдии.,1
@@ -18840,7 +18839,7 @@ ID,BaseTag,TagText_lang,Flags
 42636,WEEKLY_REWARDS_CONFIRM_SELECT,"Сделав выбор, вы уже не сможете изменить награду.|n|nВы уверены, что хотите выбрать этот предмет?",1
 42637,WEEKLY_REWARDS_THRESHOLD_RAID,нет данных в DisplaySeason,0
 42638,WEEKLY_REWARDS_THRESHOLD_MYTHIC,"Пройдите %d |4эподземелье, открытое:подземелья, открытых:подземелий, открытых; с ключом ""Эпохальный+"".",1
-42639,WEEKLY_REWARDS_THRESHOLD_PVP,Получите %d |4очко:очка:очков; чести в рейтинговых PvP-боях,1
+42639,WEEKLY_REWARDS_THRESHOLD_PVP,Получите %d $lочко:очка:очков; чести в рейтинговых PvP-боях или в ходе блица по полям боя,1
 42640,WEEKLY_REWARDS_SELECT_REWARD,Выберите награду,1
 42641,MYTHIC_DUNGEONS,Эпохальные подземелья,1
 42642,SOULBIND_CONDUIT_ACTIVATE_UNAVAIL,"Чтобы активировать эту ячейку для проводника, посетите Горнило Уз в обители ковенанта.",1
@@ -18906,9 +18905,9 @@ ID,BaseTag,TagText_lang,Flags
 42703,CANNOT_UNEQUIP_TORGHAST,Вы не можете изменить статус снаряжения в Торгасте.,1
 42704,NOT_IN_TORGHAST,"Вы не можете сделать это в Торгасте, Башне Проклятых",1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,"Вы не можете изменить статус снаряжения в подземелье, открытом с помощью эпохального ключа.",1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Вы не можете видеть этого героя, так как он находится в другой фазе. Другой игрок может перейти в вашу фазу в Орибосе или любом другом святилище.",1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Вы не можете видеть этого героя, так как он находится в другой фазе. Вы можете перейти в ту же фазу в Орибосе или любом другом святилище.",1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Вы не можете видеть этого героя, так как он находится в другой фазе. Чтобы перейти в общую фазу, вы с другим игроком должны посетить Орибос или любое другое святилище.",1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Вы не можете видеть этого героя, так как он находится в другой фазе. Другой игрок может перейти в вашу фазу в Вальдраккене, Орибосе, Даларане или любом другом святилище.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Вы не можете видеть этого героя, так как он находится в другой фазе. Вы можете перейти в ту же фазу в Вальдраккене, Орибосе, Даларане или любом другом святилище.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Вы не можете видеть этого героя, так как он находится в другой фазе. Чтобы перейти в общую фазу, вы с другим игроком должны посетить Вальдраккен, Орибос, Даларан или любое другое святилище.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,"Все игроки должны выполнять задание ""Торгаст: Башня Проклятых"".",1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,"Продолжайте кампанию, чтобы открыть |3-3(%s).",1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,"Позволяет просматривать способности медиумов, когда вы находитесь вдали от Горнила Уз.",1
@@ -18936,7 +18935,7 @@ ID,BaseTag,TagText_lang,Flags
 42734,JAILERS_TOWER_CURRENCY_REWARD_FORMAT,|T%1$s:20:20|t %2$s %3$s,1
 42735,JAILERS_TOWER_CURRENCY_REWARD_CONTAINER,|T%1$s:20:20|t %2$s,1
 42736,JAILERS_TOWER_REWARDS_TITLE,Награды,1
-42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,"Получайте очки чести в рейтинговых PvP-боях, чтобы открывать награды в Великом хранилище. Уровень наградных предметов зависит от самого высокого вашего рейтинга в любом рейтинговом режиме на этой неделе.\n\nОткрыто наград: %s/%s",1
+42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,"Получайте очки чести в рейтинговых PvP-боях или в ходе блица по полям боя, чтобы открывать награды в Великом хранилище. Уровень наградных предметов зависит от самого высокого вашего рейтинга в любом рейтинговом режиме на этой неделе.\n\nОткрыто наград: %s/%s",1
 42739,SPELL_FAILED_CUSTOM_ERROR_494,Требуется инженерное дело Темных Земель.,1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,Вы на мелководье.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Требуется свежая вода из Арденвельда или Бастиона.,1
@@ -18986,7 +18985,7 @@ ID,BaseTag,TagText_lang,Flags
 42786,SHAKE_INTENSITY_NONE,Нет,1
 42787,SHAKE_INTENSITY_REDUCED,Уменьшенная,1
 42788,SHAKE_INTENSITY_FULL,Полная,1
-42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,"Получайте очки чести в рейтинговых PvP-боях, чтобы открывать награды в Великом хранилище. Уровень наградных предметов зависит от самого высокого вашего рейтинга в любом рейтинговом режиме на этой неделе.\n\nОткрыто наград: %s/%s",1
+42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,"Получайте очки чести в рейтинговых PvP-боях или в ходе блица по полям боя, чтобы открывать награды в Великом хранилище. Уровень наградных предметов зависит от самого высокого вашего рейтинга в любом рейтинговом режиме на этой неделе.\n\nОткрыто наград: %s/%s",1
 42790,UI_AZERITE_ITEM_DISABLED,Сердце Азерот теряет силу за пределами родного мира.,1
 42791,SPELL_FAILED_CUSTOM_ERROR_499,Вы не умеете приручать облачных змеев.,1
 42792,SPELL_FAILED_CUSTOM_ERROR_500,Вы не умеете приручать нежить.,1
@@ -22030,12 +22029,39 @@ ID,BaseTag,TagText_lang,Flags
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Атакующее заклинание 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Вспомогательное заклинание 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Вспомогательное заклинание 2,1
+51665,RELEASE_PET_BUTTON_LABEL,Отпустить на волю,1
+51666,RELEASE_PET,"Вы уверены, что хотите навсегда отпустить своего питомца? Вы больше не сможете его вызывать.",1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,Данный предмет нельзя использовать в текущем сезоне.,1
+51668,STABLE_PET_BUTTON_LABEL,Отправить в стойло,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,Забрать из стойла,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%s %s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,Семейство: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,"Семейство ""%s""",1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,Активные,1
+51674,STABLE_SUMMONED_PET_LABEL,Призванный питомец,1
+51675,STABLE_STABLED_PET_LIST_LABEL,В стойле,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,"Используйте предмет ""%s"" перед сменой имени питомца.",1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,Этот питомец сейчас с вами.,1
+51678,STABLE_HELP_STABLED_PETS,"В стойле находятся все прирученные питомцы, которые не путешествуют с вами в данный момент.|n|nЩелкните по питомцу, чтобы просмотреть информацию о его специализации и способностях.",1
+51679,STABLE_HELP_ACTIVE_PETS,"Активные питомцы следуют за вами, помогая исследовать мир. Единовременно можно призвать только одного из этих питомцев. У разных питомцев свои преимущества, подходящие для разных ситуаций.",1
+51680,STABLE_HELP_SECONDARY_PET,"Второстепенный питомец может следовать за вашим активным питомцем, помогая наносить больше урона.",1
+51681,STABLE_FILTER_BUTTON_LABEL,Фильтр,1
+51682,STABLE_SORT_NAME_LABEL,Наименование (А-Я),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,Специализация,1
+51684,STABLE_SORT_TYPE_LABEL,Семейство,1
+51685,STABLE_SECONDARY_PET_DISABLED,"Требуется талант ""Питомец"" специализации ""Повелитель зверей"".",1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,Можно отпустить только призванного питомца.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,Особые способности,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,Персонаж не может получать письма.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,Наименование (Я-А),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Режим: %s,1
 51699,LEVEL_UP_NO_LINK,"Поздравляем, вы достигли |cffFF4E00%d-го уровня|r!",1
 51700,SPECTATE,Наблюдение,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Вы получите следующие предметы:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d игроков,1
+51713,STABLE_EXOTIC_TYPE_LABEL,Экзотические,1
+51714,STABLE_FILTER_LABEL_TYPE,Тип,1
+51715,STABLE_FILTER_SORT_BY_LABEL,Сортировка,1
 51719,WOW_LABS_REMATCH,Покинуть бой,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Лучшее для подземелья,1
 51721,LFG_LIST_BEST_RUN,Лучшее прохождение,1
@@ -22044,12 +22070,15 @@ ID,BaseTag,TagText_lang,Flags
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Установите диапазон уровней (например, 14-16 или 15-15), чтобы получить более точные результаты поиска.",1
 51726,MEMBERS_COLON,Участники:,1
 51727,WOW_ERROR_337,Для доступа к этому игровому миру требуется учетная запись с соответствующей лицензией.,2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Введите имя друга в BattleNet (включая номер):,3
 51738,GLUE_LEAVE_PARTY,Покинуть группу,3
 51739,GLUE_REMOVE_FROM_PARTY,Исключить из группы,3
 51740,LFG_LIST_NEEDS_TANK,Требуется танк,1
-51749,LFG_LIST_CLASS_AVAILABLE,Требуется мой класс,1
+51744,TRANSMOG_SOURCE_7,Торговая лавка,1
+51746,STABLE_PET_UNCATEGORIZED,Без категории,1
+51749,LFG_LIST_CLASS_AVAILABLE,Персонажей следующего класса еще нет в группе: %s,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,"%1$s не может принять это задание, потому что для него требуется репутация ниже.",1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Вы не можете принять задание ""%2$s"" у игрока %1$s. У вас слишком высокая репутация.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Зависимость недоступна,3
@@ -22082,7 +22111,8 @@ ID,BaseTag,TagText_lang,Flags
 51795,WOWLABS_GAMEMODE_DESC,"Сражение пиратов в грандиозном поединке за первенство.\n\nВставайте в очередь в одиночку или вместе с другом.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,Сначала нужно надеть плащ бесконечных возможностей.,1
 51804,WOWLABS_FIND_GAME_SOLO,"Поиск игры ""Соло""",3
 51805,WOWLABS_FIND_GAME_DUO,"Поиск игры ""Дуэты""",3
 51806,WOWLABS_FIND_GAME_TRIO,"Поиск игры ""Трио""",3
@@ -22090,10 +22120,15 @@ ID,BaseTag,TagText_lang,Flags
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Товарищ по команде все еще может вас оживить.|n|nВы действительно хотите покинуть матч?,1
 51809,FRONT_END_LOBBY_SOLOS,Соло,2
 51810,FRONT_END_LOBBY_DUOS,Дуэты,2
+51814,LFG_LIST_MINIMUM_RATING,"Минимальный счет в режиме ""Эпохальный+""",1
 51815,WOWLABS_INVITE_FRIEND,Пригласить друга,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Максимальный уровень,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Улучшение:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Сокращает время восстановления и увеличивает урон (если возможно).,1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,У вас недостаточно бронзы для обмена.,1
+51829,STABLE_PET_SPEC_CUNNING,Хитрость,1
+51830,STABLE_PET_SPEC_FEROCITY,Свирепость,1
+51831,STABLE_PET_SPEC_TENACITY,Упорство,1
 51832,WOWLABS_GAME_BASICS_TITLE,"Основы ""Пиратской бури""",3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Побеждает тот, кто последним останется в живых.
 
@@ -22102,12 +22137,14 @@ ID,BaseTag,TagText_lang,Flags
 |cffffffff3.|r Улучшайте заклинания, собирая их копии.
 
 |cffffffff4.|r Не забывайте использовать исцеляющую способность, если у вашего персонажа мало здоровья.",3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Требуется навык полетов на драконах.,1
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Выполняйте задания и собирайте награбленное, чтобы открывать новые награды у Да'каша Мракочета. Его можно найти в зоне ожидания.|n|n|cff00ff00Награда за %1$d-й уровень:|r",3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Известность,3
 51838,WOWLABS_READY_GAME,Готовность,3
 51840,WOWLABS_SUB_REQUIRED,Для доступа требуется учетная запись с активной подпиской или игровым временем.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Оформить подписку,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Ожидание других игроков...,2
+51843,STABLE_PET_COUNTER,%1d/%2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Группа в лобби]|h %1$s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Группа в лобби]|h %1$s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Группа в лобби:\32,3
@@ -22116,14 +22153,77 @@ ID,BaseTag,TagText_lang,Flags
 51850,EXPANSION_SEASON_NAME,%2$d-й сезон %1$s,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Можно воскресить,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,"Воскресите участника команды, встав рядом с ним",1
+51859,QUEST_SESSION_ABANDON_WARNING,"Переход в режим синхронизации может отменить следующие задания:
+%s",1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Всего награбленного:,3
 51867,LIMITED_TIME_EVENT,ВРЕМЕННОЕ|nСОБЫТИЕ,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Пиратская буря,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Взаимодействие,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,Нельзя сменить восстанавливающееся заклинание в ходе боя.,1
+51881,GROUPMANAGER_GROUND_MARKER,Земля,1
+51882,GROUPMANAGER_UNIT_MARKER,Цель,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Ваша команда еще не выбыла. Если вы уйдете сейчас, то потеряете все награбленное за этот матч.|n|nПокинуть матч?
 ",1
+51888,COUNTDOWN,Отсчет,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,Этот предмет могут использовать только дренеи и озаренные дренеи.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h запускает обратный отсчет.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,"Вы еще не выбыли. Если вы выйдете сейчас, то потеряете все награбленное за этот матч.|n|nПокинуть матч?",1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,Обычный,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,Создать обычного персонажа для игры в World of Warcraft.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,"Создать персонажа для путешествий во времени, чтобы принять участие в WoW Remix: Mists of Pandaria и заработать особые награды.|n|nПосле окончания события он станет обычным персонажем.",2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,Путешественник во времени,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,Ограничение по отметкам:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,лидер,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,помощники,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,танки/лекари,1
+51908,TIMERUNNING_CHOICE_SELECT,Выбрать,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,Задания и рейды,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"В этом режиме доступны все задания, сценарии, подземелья и рейды Пандарии.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,Новые предметы и механики,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Новая система предметов и уникальные самоцветы заклинаний кардинально обновляют игровой процесс.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,Уникальные награды,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Зарабатывая достижения события, вы сможете получить для своей учетной записи новые средства передвижения, боевых питомцев, предметы для трансмогрификации и не только.",2
+51915,TIMERUNNING_POPUP_CREATE,Создать путешественника во времени,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h отменяет обратный отсчет.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s к награбленному,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,"Не удалось перейти в режим ""Пиратская буря"". Повторите попытку позже.",2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Только из текущего дополнения,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,Осталось |cnNORMAL_FONT_COLOR:%s|r,2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Персонаж для путешествий во времени,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,Этот персонаж играет в режиме WoW Remix: Mists of Pandaria и может входить в группу только с другими путешественниками во времени.,2
+51946,KEY_OEM1,;,1
+51947,KEY_OEM2,/,1
+51948,KEY_OEM3,`,1
+51949,KEY_OEM4,[,1
+51950,KEY_OEM5,\,1
+51951,KEY_OEM6,],1
+51952,KEY_OEM7,',1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,НАБЛЮДЕНИЕ,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,Путешественники во времени не могут пользоваться услугами аукциона.,5
+51961,TIMERUNNING_CHOICE_WARNING,"Путешествия во времени – дополнительный режим, предназначенный для опытных игроков. Создать персонажа для этого режима?",2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Создайте путешественника во времени и взгляните на Mists of Pandaria с новой стороны.,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,Для участия требуется подписка,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,Путешественники во времени не могут телепортироваться за пределы Пандарии.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,"Технология сглаживания, использующая только существующие рендеры полного экрана",3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,"Быстрое приближенное сглаживание (FXAA), низкий уровень: упрощенный алгоритм, размывающий неровные края на основе контраста.",3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,"Быстрое приближенное сглаживание (FXAA), высокий уровень: более точный алгоритм, размывающий неровные края на основе контраста и дополнительно корректирующий изображение.",3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,"Консервативное морфологическое сглаживание (CMAA): еще более точный алгоритм, использующий различные методы распознавания и размытия краев.",3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Консервативное морфологическое сглаживание (CMAA) 2: более совершенная версия CMAA (рекомендуется использовать вместе с ""Множественной выборкой"").",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,Настройка разрешения окна игры,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Недостаточное количество,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Нельзя исключить игрока из этого сценария,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Скрывать шкалу здоровья и ресурса в нижней части экрана,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Показывать время восстановления важных заклинаний в нижней части экрана,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Показывать положительные эффекты союзников в нижней части экрана,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,Этот персонаж не может пользоваться гильдейским банком.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,"Бой начался, обратный отсчет прерван.",1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,Обычный персонаж и путешественник во времени не могут вступить в одну группу.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,"Здесь указана сила, которую дает плащ бесконечных возможностей.",1
+52059,TIMERUNNING_DISABLED_TOOLTIP,Путешественники во времени пока недоступны.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Анимация боя,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Особая анимация транспорта,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Чтобы редактировать персональную накидку, ее нужно сначала получить. Но вы можете просмотреть каталог.",7

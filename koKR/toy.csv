@@ -396,7 +396,7 @@ SourceText_lang,ID,ItemID,Flags,SourceTypeEnum
 |cFFFFD200업적:|r 갈퀴발톱의 새끼|n|cFFFFD200지역:|r 높은산|n,549,139773,0,0
 |cFFFFD200연맹 전당:|r 무관의 연맹 전당,550,139587,0,-1
 |cFFFFD200연맹 전당:|r 하늘보루 영예의 투기장,551,140160,0,-1
-|cFFFFD200상인: |r드레무스|n|cFFFFD200지역: |r달라란|n|cFFFFD200가격: |r1000|TINTERFACE\ICONS\ACHIEVEMENT_GUILDPERK_HONORABLEMENTION.BLP:0|t,552,140231,0,2
+|cFFFFD200상인: |r드레무스|n|cFFFFD200지역: |r달라란|n|cFFFFD200가격: |r1000|Hitem:163036|h|TInterface\ICONS\INV_Currency_PetBattle.BLP:0|t|h,552,140231,0,2
 |cFFFFD200상인:|r 광기 어린 상인|n,553,140309,0,2
 |cFFFFD200획득:|r 공포의 침투자|n,554,140363,0,0
 |cFFFFD200상인: |r란사 그레이페더|n|cFFFFD200지역: |r높은산|n|cFFFFD200평판: |r높은산 부족 - 약간 우호적|n|cFFFFD200가격: |r100|TINTERFACE\MONEYFRAME\UI-GOLDICON.BLP:0|t,557,131814,4,2
@@ -809,7 +809,7 @@ SourceText_lang,ID,ItemID,Flags,SourceTypeEnum
 |cFFFFD200전문 기술:|r 용의 섬 기계공학|n,1220,199554,0,3
 |cFFFFD200퀘스트:|r 투스카르 병기 시험,1221,199830,0,1
 |cFFFFD200상인: |r폭풍 사냥꾼 윌리엄|n|cFFFFD200지역: |r스톰윈드|n|cFFFFD200가격: |r100|Hitem:199211|h|TInterface\ICONS\INV_Enchant_EssenceCosmicGreater.blp:0|t|h|n|n|cFFFFD200상인: |r폭풍 여사냥꾼 슈라카|n|cFFFFD200지역: |r듀로타|n|cFFFFD200가격: |r100|Hitem:199211|h|TInterface\ICONS\INV_Enchant_EssenceCosmicGreater.blp:0|t|h,1222,199337,0,2
-|cFFFFD200획득:|r 용의 섬 고블린|n,1224,200142,2,0
+|n,1224,200142,2,0
 "|cFFFFD200획득: |r용의 섬, 일시적으로 변형된 생명체",1225,200148,0,0
 |cFFFFD200획득: |r기피 대상 노트파르|n|cFFFFD200지역: |r하늘빛 평원,1226,200160,0,0
 |cFFFFD200획득: |r용의 섬 원시술사,1227,200198,0,-1
@@ -906,12 +906,12 @@ WoW 이스포츠: 용군단 1 시즌,1289,203716,2,-1
 |cFFFFD200상인: |r할로 마를|n|cFFFFD200지역: |r자랄레크 동굴|n|cFFFFD200가격: |r200|Hcurrency:2003|h|TInterface\ICONS\INV_Faction_WarResources.BLP:0|t|h,1326,205963,0,2
 |cFFFFD200획득: |r피락의 사도,1327,206043,0,-1
 |cFFFFD200상인: |r한여름 축제 상인|n|cFFFFD200지역: |r티리스팔 숲|n|cFFFFD200지역: |r오그리마|n|cFFFFD200지역: |r썬더 블러프|n|cFFFFD200지역: |r실버문|n|cFFFFD200가격: |r500|Hitem:23247|h|TInterface\ICONS\INV_SummerFest_FireFlower.blp:0|t|h|n|n|cFFFFD200상인: |r한여름 축제 보급원|n|cFFFFD200지역: |r던 모로|n|cFFFFD200지역: |r텔드랏실|n|cFFFFD200지역: |r스톰윈드|n|cFFFFD200지역: |r엑소다르|n|cFFFFD200가격: |r500|Hitem:23247|h|TInterface\ICONS\INV_SummerFest_FireFlower.blp:0|t|h,1328,206038,4,2
-PH / TBD,1329,206195,2,-1
+|cFFFFD200상인: |r가알|n|cFFFFD200지역: |r크로쿠운|n|cFFFFD200가격: |r90|Hitem:151567|h|TInterface\ICONS\INV_Tailoring_LightweaveCloth.BLP:0|t|h 90|Hitem:151564|h|TInterface\ICONS\INV_Misc_Starmetal.BLP:0|t|h 900|Hcurrency:1508|h|TInterface\ICONS\Oshugun_CrystalFragments.BLP:0|t|h,1329,206195,2,2
 |cFFFFD200업적: |r전설: 용군단 2 시즌|n|cFFFFD200분류: |r투기장,1330,206267,2,5
 |cFFFFD200이벤트: |r탐욕의 사절,1331,206008,2,6
 |cFFFFD200상인: |r로암 음식 및 음료 상인,1332,205936,0,2
 |cFFFFD200업적: |r전설: 용군단 1 시즌|n|cFFFFD200분류: |r플레이어 간 전투,1333,206343,2,5
-교역소,1334,206347,2,2
+|cFFFFD200교역소|r,1334,206347,2,11
 |cFFFFD200발견:|r 낙스라마스|n,1335,206565,0,10
 |cFFFFD200획득: |r시간의 수사관|n|cFFFFD200지역: |r탈드라서스,1336,206993,0,0
 |cFFFFD200업적:|r 상자와 돌멩이의 향연|n,1337,207099,0,5
@@ -921,7 +921,7 @@ WoW 이스포츠: 용군단 2 시즌,1338,208057,2,-1
 |cFFFFD200이벤트:|r 아제로스의 비밀|n,1342,208092,2,6
 |cFFFFD200이벤트:|r 아제로스의 비밀|n,1343,207730,2,6
 |cFFFFD200업적:|r 시간 취득 전문가|n,1344,208186,4,5
-|cFFFFD200교역소|r |n,1345,206268,2,2
+|cFFFFD200교역소|r |n,1345,206268,2,11
 |cFFFFD200퀘스트:|r 무한의 여명: 시간의 군주 데이오스|n|cFFFFD200지역:|r 탈드라서스,1347,208415,0,1
 |cFFFFD200업적:|r 최고 인기 제품|n|cFFFFD200분류:|r 주문각인,1348,208421,0,5
 |cFFFFD200업적:|r 용 조련술 도전: 용의 섬: 동메달|n,1349,208433,0,5
@@ -952,13 +952,14 @@ WoW 이스포츠: 용군단 3 시즌,1440,211424,2,-1
 |cFFFFD200이벤트:|r 온누리에 사랑을,1447,211864,0,6
 |cFFFFD200업적: |r전설: 용군단 4 시즌|n|cFFFFD200분류: |r투기장,1448,211869,2,-1
 ,1450,211946,2,-1
-|cFFFFD200교역소|r |n,1452,212500,2,2
-|cFFFFD200교역소|r |n,1453,212523,2,2
-|cFFFFD200교역소|r |n,1454,212524,2,2
-|cFFFFD200교역소|r |n,1455,212525,2,2
+|cFFFFD200교역소|r |n,1452,212500,2,11
+|cFFFFD200교역소|r |n,1453,212523,2,11
+|cFFFFD200교역소|r |n,1454,212524,2,11
+|cFFFFD200교역소|r |n,1455,212525,2,11
 ,1456,212337,2,-1
 |cFFFFD200퀘스트:|r오리걸음|n|cFFFFD200지역: |r듀로타|n|n|cFFFFD200퀘스트: |r오리걸음|n|cFFFFD200지역: |r엘윈 숲|n,1461,216881,0,1
 |cFFFFD200진영: |r술통다리 해적단|n|cFFFFD200영예: |r16,1464,170197,2,0
+|cFFFFD200드레나이 유산 이야기 전개|r|n|cFFFFD200퀘스트: |r우리가 나아갈 길,1465,210455,2,1
 "|cFFFFD200상인: |r다센드래쉬
 |cFFFFD200지역: |r스톰윈드
 |cFFFFD200지역: |r오그리마
@@ -967,4 +968,12 @@ WoW 이스포츠: 용군단 3 시즌,1440,211424,2,-1
 |cFFFFD200상인: |r마즈타
 |cFFFFD200지역: |r발드라켄
 |cFFFFD200가격: |r40|Hcurrency:2588|h|TInterface\ICONS\INV_10_Fishing_DragonIslesCoins_Bronze.BLP:0|t|h",1466,212518,0,2
+|cFFFFD200업적: |r무한한 마력 XII|n|cFFFFD200분류: |r시간질주,1467,217724,2,-1
+|cFFFFD200업적: |r무한한 마력 XII|n|cFFFFD200분류: |r시간질주,1468,217726,2,-1
+|cFFFFD200업적: |r무한한 마력 XII|n|cFFFFD200분류: |r시간질주,1469,217723,2,-1
+|cFFFFD200업적: |r무한한 마력 XII|n|cFFFFD200분류: |r시간질주,1470,217725,2,-1
+|cFFFFD200교역소|r,1471,218112,2,11
 WoW 이스포츠: 용군단 4 시즌,1472,218128,2,-1
+|cFFFFD200교역소|r,1475,220692,2,11
+|cFFFFD200업적: |r비취 숲|n|cFFFFD200분류: |r시간질주,1476,220777,2,-1
+|cFFFFD200퀘스트:|r 자매의 죄,1479,223146,0,0

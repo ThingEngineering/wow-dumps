@@ -140,7 +140,7 @@ ID,BaseTag,TagText_lang,Flags
 9743,PET_WAIT,대기,1
 9744,PET_FOLLOW,따르기,1
 9745,PET_ATTACK,공격,5
-9746,PET_ABANDON,결속 해제,1
+9746,PET_ABANDON,풀어주기,1
 9747,PET_DISMISS,소환 해제,1
 9748,PET_RENAME,이름 변경,1
 9763,ERR_ONLY_ONE_QUIVER,화살통은 한 번에 하나만 착용할 수 있습니다.,1
@@ -1937,7 +1937,7 @@ ID,BaseTag,TagText_lang,Flags
 11820,CHAT_MONSTER_WHISPER_GET,%s의 귓속말:\32,1
 11822,TOOLTIP_TALENT_PREREQ,%2$s %1$d 포인트 필요,1
 11823,GUILD_INVITATION,당신을 길드에 초대했습니다:,1
-11824,ABANDON_PET,정말 이 야수의 소유권을 영원히 포기하시겠습니까? 소유권을 포기한 야수는 다시 소환할 수 없습니다.,1
+11824,ABANDON_PET,정말 이 야수를 영원히 풀어주시겠습니까? 풀어준 야수는 다시 소환할 수 없습니다.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,아이템을 획득했습니다: %s,1
 11828,POTION_TIMER,아직 그럴 수 없습니다.,1
@@ -2080,7 +2080,7 @@ ID,BaseTag,TagText_lang,Flags
 11987,ERR_PETITION_DECLINED_S,%s 님이 초대를 사양했습니다.,1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,여기서 탈 수 없습니다.,1
 11991,HEALTH_COST_PER_TIME,"생명력 %s, 추가로 초당 %s",1
-11993,ERR_GUILDEMBLEM_SUCCESS,길드 문장이 저장되었습니다.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,문장이 저장되었습니다.,1
 11994,ERR_GUILD_LEADER_LEAVE,길드를 탈퇴하기 전에 /길드위임 명령어를 사용하여 새로운 길드장을 임명해야 합니다.,1
 11996,ERR_IGNORING_YOU_S,%s 님은 당신을 차단했습니다.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,먼저 장착해야 합니다!,1
@@ -4202,7 +4202,7 @@ ID,BaseTag,TagText_lang,Flags
 14607,NEWBIE_TOOLTIP_UNIT_PET_DISMISS,지배 중인 소환수를 소환 해제합니다.,1
 14608,NEWBIE_TOOLTIP_UNIT_PET_PAPERDOLL,"소환의 정보를 표시합니다. 전투 능력치와 마법 저항력, 먹이가 표시됩니다.",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,소환수에게 이름을 지어줍니다. 이름은 한번만 지어줄 수 있습니다.,1
-14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,야수와의 결속을 해제하여 자연으로 돌려보냅니다. 한번 결속이 끊어지면 다시 돌이킬 수 없습니다.,1
+14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,야수와의 결속을 해제하여 자연으로 돌려보냅니다. 한번 풀어주면 다시 돌이킬 수 없습니다.,1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,자신의 생명력을 표시합니다. 생명력이 0이 되면 목숨을 잃게 됩니다. 비전투 상태일 때 생명력은 천천히 자동으로 회복됩니다.,1
 14612,NEWBIE_TOOLTIP_MANABAR0,자신의 마나를 표시합니다. 주문을 사용하면 마나가 소비됩니다. 마지막으로 주문을 사용한 후 5초가 지난 시점부터 자동으로 마나가 회복됩니다.,1
 14613,NEWBIE_TOOLTIP_MANABAR1,"전사(또는 곰 변신, 광포한 곰 변신 상태의 드루이드)가 기술을 사용하려면 분노가 필요합니다.",1
@@ -5952,8 +5952,8 @@ ID,BaseTag,TagText_lang,Flags
 17534,LOOT,전리품,1
 17535,ERR_VOICESESSION_FULL,참여하고자 하는 음성 대화의 인원이 가득 찼습니다.,1
 17536,BINDING_NAME_TOGGLECHATTAB,대화 채널창 열기/닫기,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,숙련 타기 기술이 필요합니다.,1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,타기의 대가 기술이 필요합니다.,1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,최소 요구 레벨: %d,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,최소 요구 레벨: %d,1
 17540,TALENT_POINTS,특성,1
 17541,GUILD_BANK_MONEY_LOG,자금 입출금 기록,1
 17542,USE_GUILDBANK_REPAIR,길드 자금으로 수리하시겠습니까?,1
@@ -8664,7 +8664,6 @@ ID,BaseTag,TagText_lang,Flags
 20489,LOOT_ROLL_INELIGIBLE_REASON3,아이템에서 마력을 추출할 수 없습니다.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,마법부여 숙련도가 %d 이상인 파티원이 없습니다.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,단식 보조 로켓이 필요합니다. 호바트 그래플해머에게서 더 얻으십시오.,1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,전투 중 또는 전투 직후에는 플레이어를 추방할 수 없습니다.,1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,인스턴스를 완료한 후에는 플레이어를 추방할 수 없습니다.,1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,주사위를 굴리는 동안에는 플레이어를 추방할 수 없습니다.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,전투 중에는 던전 밖으로 순간이동할 수 없습니다.,1
@@ -11570,9 +11569,9 @@ ID,BaseTag,TagText_lang,Flags
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,현재 전투 중이기 때문에 이 주문을 사용할 수 없습니다.,1
 23673,BATTLE_PET_NEW_PET,애완동물 도감에 %s|1이;가; 추가되었습니다!,1
 23674,BATTLE_PET_TOOLTIP_SUMMON,%s|1을;를; 소환하거나 소환 해제합니다.,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,초급 타기가 필요합니다.,1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,수습 타기가 필요합니다.,1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,타기의 거장 기술이 필요합니다.,1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,최소 요구 레벨: %d,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,최소 요구 레벨: %d,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,최소 요구 레벨: %d,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,비행 조련사 면허증이 필요합니다.,1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,극지 비행 기술이 필요합니다.,1
 23680,UNITNAME_SUMMON_TITLE19,%s의 마음을 따뜻하게 하는 이,1
@@ -15444,7 +15443,7 @@ ID,BaseTag,TagText_lang,Flags
 34950,SPELL_FAILED_CUSTOM_ERROR_302,미지의 현상 때문에 지맥과의 연결이 이루어지지 않고 있습니다.,1
 34951,GARRISON_TALENT_ORDER_ADVANCEMENT,연맹 성장,1
 34952,GARRISON_TALENT_RESEARCH_COMPLETE,연구 완료,5
-34953,ERR_CANNOT_ABANDON_LAST_PET,마지막 야수는 결속 해제할 수 없습니다.,1
+34953,ERR_CANNOT_ABANDON_LAST_PET,마지막 야수는 풀어줄 수 없습니다.,1
 34954,IGNORED_QUEST_DISPLAY,|cff000000%s (무시됨)|r,1
 34955,SPELL_FAILED_CUSTOM_ERROR_303,악몽이 당신의 시야를 흐려지게 합니다.,1
 34956,SPELL_FAILED_YOU_CANNOT_USE_THAT_IN_PVP_INSTANCE,PvP 인스턴스에서는 사용할 수 없습니다.,1
@@ -18844,7 +18843,7 @@ ID,BaseTag,TagText_lang,Flags
 42636,WEEKLY_REWARDS_CONFIRM_SELECT,한번 선택한 보상은 변경할 수 없습니다.|n|n이 아이템을 선택하시겠습니까?,1
 42637,WEEKLY_REWARDS_THRESHOLD_RAID,DisplaySeason 데이터를 찾을 수 없음,0
 42638,WEEKLY_REWARDS_THRESHOLD_MYTHIC,신화+ 던전 %d회 완료,1
-42639,WEEKLY_REWARDS_THRESHOLD_PVP,평점제 PvP에서 명예 점수 %d점 획득,1
+42639,WEEKLY_REWARDS_THRESHOLD_PVP,평점제 플레이어 간 전투 또는 전장 대공세에서 명예 점수 %d점 획득,1
 42640,WEEKLY_REWARDS_SELECT_REWARD,보상 선택,1
 42641,MYTHIC_DUNGEONS,신화 던전,1
 42642,SOULBIND_CONDUIT_ACTIVATE_UNAVAIL,이 도관 칸을 활성화하려면 성약의 단 성소에 있는 결속의 제련소를 찾아가야 합니다.,1
@@ -18910,9 +18909,9 @@ ID,BaseTag,TagText_lang,Flags
 42703,CANNOT_UNEQUIP_TORGHAST,토르가스트에 있는 동안에는 장비를 변경할 수 없습니다.,1
 42704,NOT_IN_TORGHAST,저주받은 자의 탑 토르가스트에서는 불가능합니다.,1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,신화 쐐기돌 진행 중에는 장비를 변경할 수 없습니다.,1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 플레이어가 성역(오리보스 등)을 방문하면 같은 위상으로 합류할 수 있습니다.,1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 성역(오리보스 등)을 방문하면 같은 위상으로 합류할 수 있습니다.,1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 같은 위상에서 만나려면 양쪽 모두 성역(오리보스 등)을 방문해야 합니다.,1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 플레이어가 성역(발드라켄, 오리보스, 달라란 등)을 방문하면 같은 위상으로 합류할 수 있습니다.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 성역(발드라켄, 오리보스, 달라란 등)을 방문하면 같은 위상으로 합류할 수 있습니다.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"해당 플레이어가 다른 위상에 있어 볼 수 없습니다. 같은 위상에서 만나려면 양쪽 모두 성역(발드라켄, 오리보스, 달라란 등)을 방문해야 합니다.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,모든 플레이어가 저주받은 자의 탑 토르가스트 퀘스트를 수행 중이어야 합니다.,1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,%s|1을;를; 잠금 해제하려면 대장정을 계속 진행해야 합니다.,1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,결속의 제련소에서 떨어져 있을 땐 이곳에서 영혼결속 능력을 확인할 수 있습니다.,1
@@ -18940,7 +18939,7 @@ ID,BaseTag,TagText_lang,Flags
 42734,JAILERS_TOWER_CURRENCY_REWARD_FORMAT,|T%1$s:20:20|t %2$s %3$s,1
 42735,JAILERS_TOWER_CURRENCY_REWARD_CONTAINER,|T%1$s:20:20|t %2$s,1
 42736,JAILERS_TOWER_REWARDS_TITLE,보상,1
-42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,평점제 PvP에서 명예 점수를 획득하여 위대한 금고 보상을 잠금 해제하십시오. 보상의 아이템 레벨은 이번 주에 승리를 기록한 최상위 종목에 따라 결정됩니다.\n\n보상 %s/%s 잠금 해제,1
+42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,평점제 PvP 또는 전장 대공세에서 명예 점수를 획득하여 위대한 금고 보상을 잠금 해제하십시오. 보상의 아이템 레벨은 이번 주에 승리를 기록한 최상위 종목에 따라 결정됩니다.\n\n보상 %s/%s 잠금 해제,1
 42739,SPELL_FAILED_CUSTOM_ERROR_494,어둠땅 기계공학이 필요합니다.,1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,깊은 물 속에 있지 않습니다.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,몽환숲이나 승천의 보루에서 길어낸 신선한 물이 필요합니다.,1
@@ -18990,7 +18989,7 @@ ID,BaseTag,TagText_lang,Flags
 42786,SHAKE_INTENSITY_NONE,없음,1
 42787,SHAKE_INTENSITY_REDUCED,감소,1
 42788,SHAKE_INTENSITY_FULL,최대,1
-42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,평점제 PvP에서 명예 점수를 획득하여 위대한 금고 보상을 잠금 해제하십시오. 보상의 아이템 레벨은 이번 주에 승리를 기록한 최상위 종목에 따라 결정됩니다.\n\n보상 %s/%s 잠금 해제,1
+42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,평점제 PvP 또는 전장 대공세에서 명예 점수를 획득하여 위대한 금고 보상을 잠금 해제하십시오. 보상의 아이템 레벨은 이번 주에 승리를 기록한 최상위 종목에 따라 결정됩니다.\n\n보상 %s/%s 잠금 해제,1
 42790,UI_AZERITE_ITEM_DISABLED,아제로스와 연결이 끊긴 동안에는 아제로스의 심장이 휴면 상태가 됩니다.,1
 42791,SPELL_FAILED_CUSTOM_ERROR_499,운룡을 길들이는 방법을 모릅니다.,1
 42792,SPELL_FAILED_CUSTOM_ERROR_500,언데드 생명체를 길들이는 방법을 모릅니다.,1
@@ -22032,12 +22031,39 @@ ID,BaseTag,TagText_lang,Flags
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,공격 주문 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,보조 주문 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,보조 주문 2,1
+51665,RELEASE_PET_BUTTON_LABEL,풀어주기,1
+51666,RELEASE_PET,정말 이 야수를 영원히 풀어주시겠습니까? 풀어준 야수는 다시 소환할 수 없습니다.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,현재 시즌에서는 사용이 불가능한 아이템입니다.,1
+51668,STABLE_PET_BUTTON_LABEL,우리에 넣기,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,활성화 상태로 만들기,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%s %s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,종류: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,%s 종류,1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,활성화,1
+51674,STABLE_SUMMONED_PET_LABEL,현재 소환된 야수,1
+51675,STABLE_STABLED_PET_LIST_LABEL,우리 이용,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,야수의 이름을 변경하려면 %s|1을;를; 사용해야 합니다.,1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,이 야수는 현재 소환되어 있습니다.,1
+51678,STABLE_HELP_STABLED_PETS,야수 우리에는 길들였지만 동행하지 않는 모든 야수가 보관됩니다.|n|n야수를 클릭하면 전문화와 능력에 관한 정보를 확인할 수 있습니다.,1
+51679,STABLE_HELP_ACTIVE_PETS,활성화된 야수는 사냥꾼을 도우며 동행합니다. 야수는 동시에 하나만 부를 수 있으며 상황에 따라 여러 이로운 효과를 제공합니다.,1
+51680,STABLE_HELP_SECONDARY_PET,두 번째 야수는 활성화된 야수를 따라 추가 피해를 입힙니다.,1
+51681,STABLE_FILTER_BUTTON_LABEL,정렬,1
+51682,STABLE_SORT_NAME_LABEL,이름 (이름순),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,전문화,1
+51684,STABLE_SORT_TYPE_LABEL,종류,1
+51685,STABLE_SECONDARY_PET_DISABLED,야수 전문화의 동물 친구 특성이 필요합니다.,1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,현재 소환된 야수만 풀어줄 수 있습니다.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,특수 능력,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,수신인이 우편을 받을 수 없는 상태입니다.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,이름 (역 이름순),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,%s 난이도,1
 51699,LEVEL_UP_NO_LINK,축하합니다. |cffFF4E00%d 레벨|r이 되었습니다!,1
 51700,SPECTATE,관전,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,다음 아이템을 받습니다.,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%1$d/%2$d 플레이어,1
+51713,STABLE_EXOTIC_TYPE_LABEL,특수,1
+51714,STABLE_FILTER_LABEL_TYPE,종류,1
+51715,STABLE_FILTER_SORT_BY_LABEL,정렬 기준,1
 51719,WOW_LABS_REMATCH,경기 떠나기,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,던전 최고 기록,1
 51721,LFG_LIST_BEST_RUN,최고 기록,1
@@ -22046,12 +22072,15 @@ ID,BaseTag,TagText_lang,Flags
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"쐐기돌 범위(예: 14~16, 15~15)를 입력하면 보다 정확한 결과를 살펴보실 수 있습니다.",1
 51726,MEMBERS_COLON,구성원:,1
 51727,WOW_ERROR_337,이 서버를 이용하려면 유효한 접근 라이선스를 보유한 계정이 필요합니다.,2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,친구의 Battle.net 이름 입력(숫자 포함):,3
 51738,GLUE_LEAVE_PARTY,파티 떠나기,3
 51739,GLUE_REMOVE_FROM_PARTY,파티에서 제외,3
 51740,LFG_LIST_NEEDS_TANK,방어 담당 필요,1
-51749,LFG_LIST_CLASS_AVAILABLE,내 직업 필요,1
+51744,TRANSMOG_SOURCE_7,교역소,1
+51746,STABLE_PET_UNCATEGORIZED,미분류,1
+51749,LFG_LIST_CLASS_AVAILABLE,파티에 속한 %s 없음,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s 님은 평판이 높아 해당 퀘스트를 수행할 수 없습니다.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"%s 님의 ""%s"" 퀘스트 공유가 실패했습니다. 평판이 높아 해당 퀘스트를 수행할 수 없습니다.",1
 51756,ADDON_DEP_NOT_AVAILABLE,추가 구성 요소 이용 불가,3
@@ -22084,7 +22113,8 @@ ID,BaseTag,TagText_lang,Flags
 51795,WOWLABS_GAMEMODE_DESC,"최후의 승자만이 살아남는 장엄한 전투에서 해적들이 격돌합니다.\n\n혼자 대기열에 등록하거나 친구를 초대하여 함께 등록할 수 있습니다.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,무한한 가능성의 망토를 착용해야 합니다.,1
 51804,WOWLABS_FIND_GAME_SOLO,1인 게임 찾기,3
 51805,WOWLABS_FIND_GAME_DUO,2인 게임 찾기,3
 51806,WOWLABS_FIND_GAME_TRIO,3인 게임 찾기,3
@@ -22092,10 +22122,15 @@ ID,BaseTag,TagText_lang,Flags
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,아직 팀원이 당신을 부활시킬 수 있습니다.|n|n정말 경기를 나가시겠습니까?,1
 51809,FRONT_END_LOBBY_SOLOS,1인,2
 51810,FRONT_END_LOBBY_DUOS,2인,2
+51814,LFG_LIST_MINIMUM_RATING,최소 신화+ 평점,1
 51815,WOWLABS_INVITE_FRIEND,친구 초대,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,최대로 강화됨,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,강화:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,재사용 대기시간이 감소하고 공격력이 증가합니다. (적용 가능한 경우),1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,보유 청동이 부족하여 거래할 수 없습니다.,1
+51829,STABLE_PET_SPEC_CUNNING,교활,1
+51830,STABLE_PET_SPEC_FEROCITY,야성,1
+51831,STABLE_PET_SPEC_TENACITY,끈기,1
 51832,WOWLABS_GAME_BASICS_TITLE,약탈폭풍 기본 정보,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r 마지막까지 살아남는 플레이어가 승리합니다.
 
@@ -22104,12 +22139,14 @@ ID,BaseTag,TagText_lang,Flags
 |cffffffff3.|r 중복 주문을 획득하면 해당 주문이 강화됩니다.
 
 |cffffffff4.|r 생명력이 낮아졌을 땐 회복 능력을 적극적으로 활용해야 합니다.",3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,용 조련술이 필요합니다.,1
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,퀘스트를 완료하고 노획물을 수집해 보상을 해제할 수 있습니다. 대기 구역에 있는 다카쉬 그림레저와 대화하십시오.|n|n|cff00ff00%d 레벨 달성 시 다음 보상 증정:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,영예,3
 51838,WOWLABS_READY_GAME,준비,3
 51840,WOWLABS_SUB_REQUIRED,이 기능을 이용하려면 계정에 게임 시간이 활성화된 상태여야 합니다.,3
 51841,WOWLABS_SUBSCRIBE_NOW,지금 구매하기,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,다른 플레이어를 기다리는 중...,2
+51843,STABLE_PET_COUNTER,%1d/%2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[대기실 파티]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[대기실 파티]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,대기실 파티:\32,3
@@ -22118,14 +22155,77 @@ ID,BaseTag,TagText_lang,Flags
 51850,EXPANSION_SEASON_NAME,%s %d 시즌,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,부활 가능,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,동료의 시체에 다가가 부활시킬 수 있습니다.,1
+51859,QUEST_SESSION_ABANDON_WARNING,"파티 동기화 참여 시 아래 퀘스트가 포기 처리될 수도 있습니다.
+%s",1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,수집한 노획물 총합,3
 51867,LIMITED_TIME_EVENT,특정 기간|n이벤트,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,약탈폭풍,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,상호작용,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,전투 중에는 재사용 대기 상태인 주문을 교체할 수 없습니다.,1
+51881,GROUPMANAGER_GROUND_MARKER,지상,1
+51882,GROUPMANAGER_UNIT_MARKER,유닛,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"팀이 전멸하기 전에 나가면 이 경기에서 획득한 노획물을 모두 잃습니다.|n|n정말 나가시겠습니까?
 ",1
+51888,COUNTDOWN,초읽기,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,드레나이 및 빛벼림 드레나이 캐릭터만 이 아이템을 사용할 수 있습니다.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h|1이;가; 초읽기를 시작했습니다.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,처치당하기 전에 나가면 이 경기에서 획득한 노획물을 모두 잃습니다.|n|n정말 나가시겠습니까?,1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,일반,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,일반 캐릭터를 생성하여 월드 오브 워크래프트를 플레이합니다.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,시간질주자 캐릭터를 생성하여 WoW 리믹스: 판다리아의 안개 이벤트에 참여하고 전용 보상을 획득합니다.|n|n이벤트 종료 시 해당 시간질주자 캐릭터는 일반 캐릭터로 전환됩니다.,2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,시간질주자,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,신호 권한:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,공격대장,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,지원공격 담당,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,방어 담당/치유 담당,1
+51908,TIMERUNNING_CHOICE_SELECT,선택,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,퀘스트 & 공격대,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"모든 판다리아 퀘스트와 시나리오, 던전 및 공격대를 플레이할 수 있습니다.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,새로운 아이템과 메커니즘,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,완전히 새로운 아이템 시스템과 독특한 주문 보석을 통해 새로운 게임 플레이를 경험할 수 있습니다.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,고유 보상,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"업적을 획득해 새로운 탈것과 전투 애완동물, 형상변환 등 계정 공유 보상을 해제할 수 있습니다.",2
+51915,TIMERUNNING_POPUP_CREATE,시간질주자 만들기,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h|1이;가; 초읽기를 취소했습니다.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s 노획물,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,약탈폭풍에 연결하지 못했습니다. 나중에 다시 시도해 주십시오.,2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,현행 확장팩 전용,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW 리믹스: 판다리아의 안개,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r 남음,2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,시간질주 캐릭터,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,이 캐릭터는 WoW 리믹스: 판다리아의 안개 이벤트에 참여 중입니다. 다른 시간질주자하고만 파티를 맺을 수 있습니다.,2
+51946,KEY_OEM1,;,1
+51947,KEY_OEM2,/,1
+51948,KEY_OEM3,`,1
+51949,KEY_OEM4,[,1
+51950,KEY_OEM5,\,1
+51951,KEY_OEM6,],1
+51952,KEY_OEM7,',1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,관전,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,시간질주자는 경매장을 이용할 수 없습니다.,5
+51961,TIMERUNNING_CHOICE_WARNING,시간질주는 고난이도 콘텐츠입니다. 정말 시간질주 캐릭터를 생성하시겠습니까?,2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,시간질주자를 생성해 판다리아의 안개를 색다르고 기상천외한 방식을 경험해 보십시오!,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,참여하려면 게임 시간이 필요합니다.,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,시간질주자는 판다리아 외부로 순간이동할 수 없습니다.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,기존의 전체화면 렌더링만 활용하는 계단 현상 방지 기법입니다.,3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,FXAA - 낮음: 단순화된 산출 기법으로 명암 기반 테두리만을 부드럽게 처리합니다.,3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,FXAA - 낮음: 좀 더 정확한 산출 기법으로 명암 기반 테두리와 그 외 여러 지점을 부드럽게 처리합니다.,3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,CMAA: 훨씬 더 정밀한 산출 기법으로 다양한 테두리 감지 기법을 활용해 테두리를 부드럽게 처리합니다.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"CMAA 2: CMAA에서 한층 더 발전한 첨단 기법입니다. (""멀티샘플 기법"" 사용 시 선호되는 방식입니다.)",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,게임의 해상도를 설정합니다.,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,이용 가능 재료 부족,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,이 인스턴스에서는 플레이어를 추방할 수 없습니다.,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,내 캐릭터 아래의 생명력 막대와 상태 막대를 숨깁니다.,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,내 캐릭터 아래에 중요 주문의 재사용 대기시간을 표시합니다.,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,내 캐릭터 아래에 아군 강화 효과를 표시합니다.,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,이 캐릭터로는 길드 은행 이용이 불가능합니다.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,전투가 시작되어 초읽기가 취소되었습니다.,1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,일반 캐릭터와 시간질주자는 같은 파티에 소속될 수 없습니다.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,이곳에 무한한 가능성의 망토로 얻은 힘이 표시됩니다.,1
+52059,TIMERUNNING_DISABLED_TOOLTIP,시간질주자가 일시적으로 비활성화되었습니다.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,전투 애니메이션,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,탈것 특수 애니메이션,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,맞춤 설정을 위해서는 개인 휘장을 보유해야 합니다. 물론 자유롭게 둘러볼 수 있습니다.,7

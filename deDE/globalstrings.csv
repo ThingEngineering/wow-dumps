@@ -140,7 +140,7 @@ ID,BaseTag,TagText_lang,Flags
 9743,PET_WAIT,Bleiben,1
 9744,PET_FOLLOW,Folgen,1
 9745,PET_ATTACK,Angreifen,5
-9746,PET_ABANDON,Zurücklassen,1
+9746,PET_ABANDON,Freilassen,1
 9747,PET_DISMISS,Freigeben,1
 9748,PET_RENAME,Umbenennen,1
 9763,ERR_ONLY_ONE_QUIVER,Ihr könnt immer nur einen Köcher anlegen.,1
@@ -1939,7 +1939,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 11820,CHAT_MONSTER_WHISPER_GET,%s flüstert:\32,1
 11822,TOOLTIP_TALENT_PREREQ,Benötigt %1$d |4Punkt:Punkte; in %2$s,1
 11823,GUILD_INVITATION,lädt Euch in die Gilde ein:,1
-11824,ABANDON_PET,Wollt Ihr Euren Begleiter dauerhaft zurücklassen? Ihr werdet diesen Begleiter nie wieder beschwören können.,1
+11824,ABANDON_PET,Wollt Ihr Euren Begleiter dauerhaft freilassen? Ihr werdet diesen Begleiter nie wieder beschwören können.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,Ihr erhaltet Beute: %s,1
 11828,POTION_TIMER,Das könnt Ihr noch nicht.,1
@@ -2082,7 +2082,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 11987,ERR_PETITION_DECLINED_S,"%s hat abgelehnt, Eure Petition zu unterzeichnen.",1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,Ihr könnt hier nicht aufsitzen.,1
 11991,HEALTH_COST_PER_TIME,"%s Gesundheit, plus %s pro Sek.",1
-11993,ERR_GUILDEMBLEM_SUCCESS,Gildenemblem gespeichert.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,Emblem gespeichert.,1
 11994,ERR_GUILD_LEADER_LEAVE,"Ihr müsst mit /gmeister einen neuen Gildenmeister einsetzen, bevor Ihr die Gilde verlasst.",1
 11996,ERR_IGNORING_YOU_S,%s ignoriert Euch.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,Eure Waffe muss gezogen sein,1
@@ -4201,7 +4201,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 14607,NEWBIE_TOOLTIP_UNIT_PET_DISMISS,Gibt Euren dämonischen Diener frei.,1
 14608,NEWBIE_TOOLTIP_UNIT_PET_PAPERDOLL,"Informationen über Euren Begleiter, einschließlich dessen Werte, Zauberwiderstände und Ernährung.",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,Gibt dem Begleiter einen vom Spieler bestimmten neuen Namen. Ein Begleiter kann nur einmal umbenannt werden.,1
-14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Gibt den Begleiter frei und lässt ihn in die Wildnis zurückkehren. Wenn ein Begleiter einmal freigegeben wurde, kann der Spieler dessen Gesellschaft nie mehr wiedererlangen.",1
+14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Gibt den Begleiter frei und lässt ihn in die Wildnis zurückkehren. Wenn ein Begleiter einmal freigelassen wurde, kann der Spieler dessen Gesellschaft nie mehr wiedererlangen.",1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,"Die derzeitige Gesundheit des Charakters. Wenn die Gesundheit bei Null angekommen ist, stirbt der Charakter. Die Gesundheit regeneriert sich automatisch, sobald ein Spieler sich nicht mehr im Kampf befindet.",1
 14612,NEWBIE_TOOLTIP_MANABAR0,"Das derzeitige Mana eines Spielers. Spieler benötigen Mana, um Zauber zu wirken. Mana regeneriert sich automatisch, wenn der Spieler innerhalb der letzten fünf Sekunden keinen Zauber gewirkt hat.",1
 14613,NEWBIE_TOOLTIP_MANABAR1,"Krieger (und Druiden in Bärengestalt) benötigen Wut, um ihre Fähigkeiten benutzen zu können.",1
@@ -5951,8 +5951,8 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 17534,LOOT,Beute,1
 17535,ERR_VOICESESSION_FULL,Die von Euch gewünschte Voicechat-Sitzung ist bereits voll.,1
 17536,BINDING_NAME_TOGGLECHATTAB,Chatfenster ein/aus,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Erfahrenes Reiten',1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Gekonntes Reiten',1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Benötigt Stufe %d,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Benötigt Stufe %d,1
 17540,TALENT_POINTS,Talente,1
 17541,GUILD_BANK_MONEY_LOG,Geldlog,1
 17542,USE_GUILDBANK_REPAIR,Möchtet Ihr die Reparatur mit dem Geld Eurer Gilde bezahlen?,1
@@ -8664,7 +8664,6 @@ anzeigen",1
 20489,LOOT_ROLL_INELIGIBLE_REASON3,Dieser Gegenstand kann nicht entzaubert werden.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,Es befindet sich kein Verzauberer mit einer Fertigkeitsstufe von %d in Eurer Gruppe.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,"Benötigt einstufige Trägerraketen. Kehrt zu Hobart Wurfhammer zurück, um mehr zu bekommen.",1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,Im Kampf oder kurz nach einem Kampf können keine Spieler per Ausschlusswahl entfernt werden.,1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,Nach Abschluss der Instanz können keine Spieler per Ausschlusswahl entfernt werden.,1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,Während der Beuteverteilung können keine Spieler per Ausschlusswahl entfernt werden.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,Sie können sich während eines Kampfes nicht aus dem Dungeon teleportieren.,1
@@ -11572,9 +11571,9 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,"Diese Fähigkeit ist nicht verfügbar, da Ihr Euch in einem Kampf befindet.",1
 23673,BATTLE_PET_NEW_PET,%s wurde in Euren Haustierführer aufgenommen!,1
 23674,BATTLE_PET_TOOLTIP_SUMMON,%s beschwören oder freigeben,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Unerfahrenes Reiten',1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Geübtes Reiten',1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Meisterhaftes Reiten',1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Benötigt Stufe %d,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Benötigt Stufe %d,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Benötigt Stufe %d,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Fluglizenz',1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,Benötigt die Fähigkeit 'Kaltwetterflug',1
 23680,UNITNAME_SUMMON_TITLE19,Herzerwärmer von %s,1
@@ -15446,7 +15445,7 @@ Abenteuerführer ausblenden",1
 34950,SPELL_FAILED_CUSTOM_ERROR_302,Ein unbekanntes Phänomen verhindert die Verbindung mit der Leylinie.,1
 34951,GARRISON_TALENT_ORDER_ADVANCEMENT,Ordensaufstieg,1
 34952,GARRISON_TALENT_RESEARCH_COMPLETE,Forschung abgeschlossen,5
-34953,ERR_CANNOT_ABANDON_LAST_PET,Ihr könnt Euren letzten Begleiter nicht freigeben.,1
+34953,ERR_CANNOT_ABANDON_LAST_PET,Letzter Begleiter kann nicht freigelassen werden,1
 34954,IGNORED_QUEST_DISPLAY,|cff000000%s (ignoriert)|r,1
 34955,SPELL_FAILED_CUSTOM_ERROR_303,Der Alptraum beeinträchtigt Euer Sehvermögen.,1
 34956,SPELL_FAILED_YOU_CANNOT_USE_THAT_IN_PVP_INSTANCE,Das könnt Ihr in einer PvP-Instanz nicht verwenden.,1
@@ -18845,7 +18844,7 @@ Abenteuerführer ausblenden",1
 42636,WEEKLY_REWARDS_CONFIRM_SELECT,"Ihr könnt diese Belohnung nicht mehr ändern, nachdem Ihr sie ausgewählt habt.|n|nWollt Ihr diesen Gegenstand wirklich auswählen?",1
 42637,WEEKLY_REWARDS_THRESHOLD_RAID,Daten in DisplaySeason nicht vorhanden,0
 42638,WEEKLY_REWARDS_THRESHOLD_MYTHIC,Schließt %d |4Dungeon:Dungeons; auf Mythisch+ ab,1
-42639,WEEKLY_REWARDS_THRESHOLD_PVP,Verdient %d Ehre aus gewertetem PvP,1
+42639,WEEKLY_REWARDS_THRESHOLD_PVP,Verdient %d Ehre aus gewertetem PvP oder Blitzschlachtfeldern,1
 42640,WEEKLY_REWARDS_SELECT_REWARD,Belohnung auswählen,1
 42641,MYTHIC_DUNGEONS,Mythische Dungeons,1
 42642,SOULBIND_CONDUIT_ACTIVATE_UNAVAIL,"Besucht die Schmiede der Bande in Eurem Paktsanktum, um diesen Mediumsplatz zu aktivieren",1
@@ -18911,9 +18910,9 @@ Abenteuerführer ausblenden",1
 42703,CANNOT_UNEQUIP_TORGHAST,Ausrüstungsstatus kann in Torghast nicht geändert werden,1
 42704,NOT_IN_TORGHAST,"Das ist in Torghast, Turm der Verdammten, nicht möglich",1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,"Ausrüstungsstatus kann nicht geändert werden, solange ein mythischer Schlüsselstein aktiviert ist",1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Er kann in Eure Phase gelangen, indem er eine Zuflucht wie beispielsweise Oribos besucht.",1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Ihr könnt in seine Phase gelangen, indem Ihr eine Zuflucht wie beispielsweise Oribos besucht.",1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Um in derselben Phase zu erscheinen, müsst Ihr beide eine Zuflucht wie beispielsweise Oribos besuchen.",1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Er kann in Eure Phase gelangen, indem er eine Zuflucht wie beispielsweise Valdrakken, Oribos oder Dalaran besucht.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Ihr könnt in seine Phase gelangen, indem Ihr eine Zuflucht wie beispielsweise Valdrakken, Oribos oder Dalaran besucht.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"Ihr könnt diesen Spielercharakter nicht sehen, weil er sich in einer anderen Phase befindet. Um in derselben Phase zu erscheinen, müsst Ihr beide eine Zuflucht wie beispielsweise Valdrakken, Oribos oder Dalaran besuchen.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,"Alle Spielercharaktere müssen diese Quest haben: Torghast, Turm der Verdammten.",1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,"Setzt die Kampagne fort, um %s freizuschalten",1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,"Seht Euch hier Eure Seelenbandboni an, wenn Ihr Euch außerhalb der Schmiede der Bande befindet",1
@@ -18941,7 +18940,7 @@ Abenteuerführer ausblenden",1
 42734,JAILERS_TOWER_CURRENCY_REWARD_FORMAT,|T%1$s:20:20|t %2$s %3$s,1
 42735,JAILERS_TOWER_CURRENCY_REWARD_CONTAINER,|T%1$s:20:20|t %2$s,1
 42736,JAILERS_TOWER_REWARDS_TITLE,Belohnungen,1
-42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,"Verdient Ehre aus gewertetem PvP, um Belohnungen in der Großen Schatzkammer freizuschalten. Die Gegenstandsstufe Eurer Belohnungen ergibt sich aus Eurem höchsten Spartensieg dieser Woche.\n\n%s/%s Belohnungen freigeschaltet.",1
+42737,RATED_PVP_WEEKLY_VAULT_TOOLTIP,"Verdient Ehre aus gewertetem PvP oder Blitzschlachtfeldern, um Belohnungen in der Großen Schatzkammer freizuschalten. Die Gegenstandsstufe Eurer Belohnungen ergibt sich aus Eurem höchsten Spartensieg dieser Woche.\n\n%s/%s Belohnungen freigeschaltet.",1
 42739,SPELL_FAILED_CUSTOM_ERROR_494,Benötigt Ingenieurskunst der Schattenlande,1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,Wasser nicht tief genug.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Benötigt das Trinkwasser des Ardenwalds oder der Bastion,1
@@ -18991,7 +18990,7 @@ Abenteuerführer ausblenden",1
 42786,SHAKE_INTENSITY_NONE,Ohne,1
 42787,SHAKE_INTENSITY_REDUCED,Verringert,1
 42788,SHAKE_INTENSITY_FULL,Voll,1
-42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,"Verdient Ehre aus gewertetem PvP, um Belohnungen in der Großen Schatzkammer freizuschalten. Die Gegenstandsstufe Eurer Belohnungen ergibt sich aus Eurem höchsten Spartensieg dieser Woche.\n\n%s/%s Belohnungen freigeschaltet.",1
+42789,RATED_PVP_WEEKLY_VAULT_TOOLTIP_NO_REWARDS,"Verdient Ehre aus gewertetem PvP oder Blitzschlachtfeldern, um Belohnungen in der Großen Schatzkammer freizuschalten. Die Gegenstandsstufe Eurer Belohnungen ergibt sich aus Eurem höchsten Spartensieg dieser Woche.\n\n%s/%s Belohnungen freigeschaltet.",1
 42790,UI_AZERITE_ITEM_DISABLED,"Das Herz von Azeroth ruht, während seine Verbindung zu Azeroth getrennt ist.",1
 42791,SPELL_FAILED_CUSTOM_ERROR_499,"Ihr wisst nicht, wie man Wolkenschlangen zähmt.",1
 42792,SPELL_FAILED_CUSTOM_ERROR_500,"Ihr wisst nicht, wie man untote Kreaturen zähmt.",1
@@ -22039,12 +22038,39 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Angriffszauber 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Unterstützungszauber 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Unterstützungszauber 2,1
+51665,RELEASE_PET_BUTTON_LABEL,Freilassen,1
+51666,RELEASE_PET,Wollt Ihr Euren Begleiter dauerhaft freilassen? Ihr werdet diesen Begleiter nie wieder beschwören können.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,Dieser Gegenstand kann in der aktuellen Saison nicht genutzt werden.,1
+51668,STABLE_PET_BUTTON_LABEL,In den Stall schicken,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,Aktivieren,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%s %s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,Familie: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,%s-Familie,1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,Aktiv,1
+51674,STABLE_SUMMONED_PET_LABEL,Aktuell beschworener Begleiter,1
+51675,STABLE_STABLED_PET_LIST_LABEL,Stall,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,"Ihr müsst %s nutzen, bevor Ihr diesen Begleiter umbenennen könnt.",1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,Dieser Begleiter ist aktuell beschworen.,1
+51678,STABLE_HELP_STABLED_PETS,"Im Stall findet Ihr alle Begleiter, die ihr gezähmt habt und die nicht mit Euch durch die Welt reisen.|n|nKlickt auf einen Begleiter, um Informationen über seine Spezialisierung und Fähigkeiten zu sehen.",1
+51679,STABLE_HELP_ACTIVE_PETS,Aktive Begleiter begleiten und helfen Euch in der Welt. Ihr könnt immer nur einen von ihnen gleichzeitig beschwören und unterschiedliche Boni für unterschiedliche Situationen erhalten.,1
+51680,STABLE_HELP_SECONDARY_PET,"Ein sekundärer Begleiter kann Eurem aktiven Begleiter folgen, um mehr Schaden zu verursachen.",1
+51681,STABLE_FILTER_BUTTON_LABEL,Sortieren,1
+51682,STABLE_SORT_NAME_LABEL,Name (A-Z),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,Spezialisierung,1
+51684,STABLE_SORT_TYPE_LABEL,Familie,1
+51685,STABLE_SECONDARY_PET_DISABLED,Erfordert das Talent 'Tierbegleiter' der Tierherrschaftsspezialisierung,1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,Ihr könnt nur Euren aktuell beschworenen Begleiter freilassen.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,Spezielle Fähigkeiten,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,Empfänger kann keine Post erhalten.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,Name (Z-A),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Schwierigkeitsgrad %s,1
 51699,LEVEL_UP_NO_LINK,Glückwunsch! Ihr habt |cffFF4E00Stufe %d|r erreicht!,1
 51700,SPECTATE,Zuschauen,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Ihr erhaltet folgende Gegenstände:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Spielercharaktere,1
+51713,STABLE_EXOTIC_TYPE_LABEL,Exotisch,1
+51714,STABLE_FILTER_LABEL_TYPE,Typ,1
+51715,STABLE_FILTER_SORT_BY_LABEL,Sortieren nach,1
 51719,WOW_LABS_REMATCH,Partie verlassen,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Bestleistung für Dungeon,1
 51721,LFG_LIST_BEST_RUN,Bester Durchlauf,1
@@ -22053,12 +22079,15 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Gebt eine Spanne für präzise Ergebnisse ein, wie zum Beispiel 14-16 oder 15-15.",1
 51726,MEMBERS_COLON,Mitglieder:,1
 51727,WOW_ERROR_337,Für den Zugang zu diesem Realm ist ein Account mit einer gültigen Zugangslizenz erforderlich.,2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Gebt den BattleNet-Namen eures Freundes inklusive der Ziffern ein:,3
 51738,GLUE_LEAVE_PARTY,Gruppe verlassen,3
 51739,GLUE_REMOVE_FROM_PARTY,Aus Gruppe entfernen,3
 51740,LFG_LIST_NEEDS_TANK,Benötigt Tank,1
-51749,LFG_LIST_CLASS_AVAILABLE,Benötigt meine Klasse,1
+51744,TRANSMOG_SOURCE_7,Handelsposten,1
+51746,STABLE_PET_UNCATEGORIZED,Nicht kategorisiert,1
+51749,LFG_LIST_CLASS_AVAILABLE,%s als Klasse in der Gruppe verfügbar,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s hat zu viel Ruf für diese Quest.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Der Versuch von %s, die Quest ""%s"" zu teilen, ist fehlgeschlagen. Ihr habt zu viel Ruf für diese Quest.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Abhängigkeit nicht verfügbar,3
@@ -22091,7 +22120,8 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51795,WOWLABS_GAMEMODE_DESC,"Piraten treffen in einem großen Battle Royale aufeinander.\n\nIhr könnt Euch alleine oder mit einem Freund zusammen in die Schlange einreihen.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,Ihr müsst zuerst den Umhang des ewigen Potenzials anlegen.,1
 51804,WOWLABS_FIND_GAME_SOLO,Solospiel finden,3
 51805,WOWLABS_FIND_GAME_DUO,Duospiel finden,3
 51806,WOWLABS_FIND_GAME_TRIO,Triospiel finden,3
@@ -22099,10 +22129,15 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,"Ihr könnt immer noch von einem Teammitglied wiederbelebt werden.|n|nSeid Ihr sicher, dass Ihr die Partie verlassen möchtet?",1
 51809,FRONT_END_LOBBY_SOLOS,Solos,2
 51810,FRONT_END_LOBBY_DUOS,Duos,2
+51814,LFG_LIST_MINIMUM_RATING,Mindestwertung für Mythisch+,1
 51815,WOWLABS_INVITE_FRIEND,Kontakt einladen,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Komplett aufgewertet,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Aufwertung:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Abklingzeit verringert und Schaden erhöht (falls zutreffend),1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,"Ihr habt nicht genug Bronze, um diesen Handel durchzuführen.",1
+51829,STABLE_PET_SPEC_CUNNING,Gerissenheit,1
+51830,STABLE_PET_SPEC_FEROCITY,Wildheit,1
+51831,STABLE_PET_SPEC_TENACITY,Hartnäckigkeit,1
 51832,WOWLABS_GAME_BASICS_TITLE,Grundlagen von Plunderstorm,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Wer am Ende noch steht, gewinnt.
 
@@ -22111,12 +22146,14 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 |cffffffff3.|r Das Plündern weiterer Kopien eines Zaubers lässt diesen besser werden.
 
 |cffffffff4.|r Nutzt bei niedriger Gesundheit Eure Heilungsfähigkeit.",3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Benötigt Drachenreiten.,1
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Schließt Quests ab und sammelt Beute, um Belohnungen freizuschalten. Besucht Da'kash Grimjoch im Wartebereich.|n|n|cff00ff00Nächste Belohnung bei Stufe %d:|r",3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Ruhm,3
 51838,WOWLABS_READY_GAME,Bereit,3
 51840,WOWLABS_SUB_REQUIRED,Zugang zu diesem Feature erfordert einen Account mit Spielzeit oder aktivem Abonnement.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Jetzt abonnieren,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Warte auf andere Spielercharaktere...,2
+51843,STABLE_PET_COUNTER,%1d/%2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobbygruppe]|h %s\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobbygruppe]|h %s\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobbygruppe:\32,3
@@ -22125,14 +22162,77 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51850,EXPANSION_SEASON_NAME,Saison %2$d von %1$s,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Wiederbelebbar,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,"Belebt Euer Besatzungsmitglied wieder, indem Ihr Euch in die Nähe des Leichnams stellt.",1
+51859,QUEST_SESSION_ABANDON_WARNING,"Die folgenden Quests werden durch die Gruppensynchronisierung möglicherweise abgebrochen: 
+%s",1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Gesamtbeute gesammelt,3
 51867,LIMITED_TIME_EVENT,ZEITLICH BEGRENZTES|nEREIGNIS,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interagieren,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,"Ihr könnt im Kampf keine Zauber austauschen, deren Abklingzeit aktiv ist.",1
+51881,GROUPMANAGER_GROUND_MARKER,Boden,1
+51882,GROUPMANAGER_UNIT_MARKER,Einheit,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Ihr werdet alle Beute verlieren, die Ihr in dieser Runde verdient habt, wenn Ihr geht, bevor Euer Team besiegt wurde.|n|nSeid Ihr sicher, dass Ihr gehen wollt?
 ",1
+51888,COUNTDOWN,Countdown,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,Nur Draenei und Lichtgeschmiedete Draenei können diesen Gegenstand verwenden.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h hat einen Countdown ausgelöst.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,"Ihr werdet alle Beute verlieren, die Ihr in dieser Runde verdient habt, wenn Ihr geht, bevor Ihr besiegt wurdet.|n|nSeid Ihr sicher, dass Ihr gehen wollt?",1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,Standard,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,Erstellt einen Standardcharakter für World of Warcraft.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,"Erstellt einen Zeitläufer, um am WoW Remix: Mists of Pandaria teilzunehmen und exklusive Belohnungen zu erhalten.|n|nDieser Charakter wird nach Ablauf des Ereignisses zum Standardcharakter.",2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,Zeitläufer,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,Pings beschränken auf:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,Anführer,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,Unterstützer,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,Tanks/Heiler,1
+51908,TIMERUNNING_CHOICE_SELECT,Auswählen,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,Quests & Schlachtzüge,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Alle Quests, Szenarien, Dungeons und Schlachtzüge in Pandaria sind spielbar.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,Neue Gegenstände und Mechaniken,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Völlig neues Gegenstandssystem und einzigartige Zauberedelsteine eröffnen ein ganz neues Spielerlebnis.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,Einzigartige Belohnungen,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Durch den Abschluss von Eventerfolgen werden neue Reittiere, Kampfhaustiere, Transmogs und vieles mehr für den Account freigeschaltet.",2
+51915,TIMERUNNING_POPUP_CREATE,Zeitläufer erstellen,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h hat den Countdown abgebrochen.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Beute,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Es konnte keine Verbindung zu Plunderstorm hergestellt werden. Bitte später erneut versuchen.,2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Nur aktuelle Erweiterung,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r verbleibend,2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Zeitläufercharakter,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,Dieser Charakter nimmt am WoW Remix: Mists of Pandaria teil und kann nur mit anderen Zeitläufern eine Gruppe bilden.,2
+51946,KEY_OEM1,;,1
+51947,KEY_OEM2,/,1
+51948,KEY_OEM3,+,1
+51949,KEY_OEM4,[,1
+51950,KEY_OEM5,ß,1
+51951,KEY_OEM6,],1
+51952,KEY_OEM7,Aufwärtspfeil,1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,BEOBACHTUNGSMODUS,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,Das Auktionshaus ist für Zeitläufer nicht verfügbar.,5
+51961,TIMERUNNING_CHOICE_WARNING,Dies ist ein Spielmodus für Fortgeschrittene. Möchtet Ihr wirklich einen Zeitläufercharakter erstellen?,2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Erstellt einen Zeitläufer und erlebt eine wilde Wendung von Mists of Pandaria.,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,Abonnement zur Teilnahme erforderlich,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,Zeitläufer können sich nicht aus Pandaria hinausteleportieren.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,"Antialiasing-Techniken, die nur das vorhandene Vollbild-Rendering verwenden",3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,Schnelles grobes Antialiasing - Gering: Vereinfachte Berechnung zum Weichzeichnen kontrastbasierter Kanten.,3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,Schnelles grobes Antialiasing - Hoch: Präzisere Berechnung zum Weichzeichnen kontrastbasierter Kanten und zusätzliche Verblendung.,3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,Konservatives morphologisches Antialiasing: Noch präzisere Berechnung diverser Kantenerkennungstechniken zum Weichzeichnen von Kanten.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Konservatives morphologisches Antialiasing 2: Fortgeschrittenere Version des KMAa (bevorzugte Methode bei gleichzeitiger Verwendung von ""Multisample-Techniken"")",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,Legt die Auflösung des Spiels fest,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Zu wenig verfügbar,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Spielercharaktere können aus dieser Instanz nicht entfernt werden.,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Gesundheits- und Stärkebalken unter Eurem Charakter ausblenden,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Abklingzeit wichtiger Zauber unter Eurem Charakter anzeigen,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Freundliche Stärkungszauber unter Eurem Charakter anzeigen,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,Gildenbanken sind für diesen Charakter nicht verfügbar.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,"Begegnung begonnen, Countdown abgebrochen.",1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,Gewöhnliche Charaktere und Zeitläufer können keine gemeinsame Gruppe bilden.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,"Die Macht, die der Umhang des ewigen Potenzials gewährt, wird hier angezeigt.",1
+52059,TIMERUNNING_DISABLED_TOOLTIP,Zeitläufer wurden zeitweise deaktiviert.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Kampfanimation,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Reittierspezialaktionanimation,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Ihr müsst einen persönlichen Wappenrock haben, um ihn anzupassen, aber seht Euch ruhig um.",7

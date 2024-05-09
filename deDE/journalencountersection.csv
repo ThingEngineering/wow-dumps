@@ -2863,7 +2863,7 @@ Außerdem lässt die Kohlensäuresättigung Blubberblasen entstehen.",670,11,559
 5659,Schaumig,"Yan-Zhus schaumige Beschaffenheit gewährt Spielercharakteren die Fähigkeit, besonders hoch zu springen.",670,14,5658,0,0,2,0,0,0,236171,2,0,3
 5660,Bombenlauf,"Bei 70% und 30% verbleibender Gesundheit bombardiert Bomber Ga'dok die Plattform mit Feuerbomben, deren Flammen Gegnern, die in sie hinein geraten, alle $116298t1 Sek. $116297s1 Feuerschaden zufügen.",675,3,0,0,5662,2,0,0,0,135826,0,32,-1
 5662,Unterbrecher der Krik'thik,Diese fliegende Mantis bombardieren die Plattform fortlaufend mit Säurebomben.,675,4,0,5663,5664,1,43278,0,0,0,0,0,-1
-5663,Säurebombe,Mantisvereitler bombardieren den Standort eines beliebigen Spielercharakters regelmäßig mit einer Säuerbombe und fügen Spielercharakteren im Einschlaggebiet eines Radius von $115458A1 Metern alle $115457t1 Sek. $115458s1 Naturschaden zu.,675,5,5662,0,0,2,0,0,0,136016,1,0,-1
+5663,Säurebombe,Mantisvereitler bombardieren den Standort eines zufälligen Spielercharakters regelmäßig mit einer Säurebombe und fügen Spielercharakteren innerhalb von $115458A1 Metern um den Einschlag alle $115457t1 Sek. $115458s1 Naturschaden zu.,675,5,5662,0,0,2,0,0,0,136016,1,0,-1
 5664,Schläger der Krik'thik,Mantismeuchler greifen während Bomber Ga'doks Bombenlaufs Spielercharaktere auf der Plattform an.,675,6,0,0,0,1,43278,0,0,0,0,0,-1
 5666,Zähflüssiger Schleim,"Kommandant Ri'mok sondert regelmäßig in einem Radius von $107091A1 Metern um sich einen zähflüssigen Schleim ab. Durch Berührung mit dem Schleim erhöht sich Ri'moks Schaden um $107091s1%, während sich der von hineingeratenen Spielercharakteren verursachte Schaden alle $107088t1 Sek. um $107122s1% verringert. Dieser Effekt ist bis zu 5-mal stapelbar.",676,1,0,0,5667,2,0,0,0,132104,0,32,-1
 5667,Rasender Angriff,"Ri'mok entfesselt einen rasenden Angriff, der $107120d lang sämtlichen Zielen in einem $107121a1 Meter langen kegelförmigen Bereich von 90 Grad alle $107120t1 Sek. $107121s1% seines normalen Nahkampfschadens zufügt.",676,2,0,0,5668,2,0,0,0,377283,0,1,-1
@@ -2921,10 +2921,10 @@ In Schlachtzügen für 25 Spielercharaktere wählt Gara'jal 3 weitere Spielercha
 $[!3,4 [Normal] Der Seelentrenner ist nur für das verbannte Opfer sichtbar.$]
 $[!5,6 [Heroisch] Es greifen drei Seelentrenner an. Einer dieser Seelentrenner ist nur für das verbannte Opfer sichtbar. Die anderen beiden sind für den Schlachtzug sichtbar.$]",682,14,0,5757,6698,2,0,0,0,132886,0,1,-1
 5757,Seelentrenner,"Seelentrenner versuchen, die Seelen verbannter Opfer zu zerreißen.",682,15,5756,5758,0,1,71754,0,0,0,1,0,-1
-5758,Seele zerreißen,"Wenn die Spielercharaktere nicht sämtliche Seelentrenner innerhalb von $116278t1 Sek. besiegt haben, stirbt das verbannte Opfer.",682,16,5757,0,6209,2,0,0,0,537079,0,0,-1
+5758,Seele zerreißen,"Wenn die Spielercharaktere nicht sämtliche Seelentrenner innerhalb von $116278d besiegt haben, stirbt das verbannte Opfer.",682,16,5757,0,0,2,0,0,0,537079,2,0,15
 5759,Raserei,"Bei 20% verbleibender Gesundheit verfällt Gara'jal der Geisterbinder in Raserei, sein Nahkampftempo erhöht sich um $117752m1% und er verursacht zusätzlich $117752m2% Schaden.
 
-Gara'jal der Geisterbinder hört außerdem auf, Geistertotems zu beschwören.",682,19,0,0,6813,2,0,0,0,132117,0,0,-1
+Gara'jal der Geisterbinder hört außerdem auf, Geistertotems zu beschwören.",682,18,0,0,6813,2,0,0,0,132117,0,0,-1
 5760,Schwache Seele,"Die Rückkehr aus der Geisterwelt in die reale Welt lässt Spielercharaktere $117723d lang unter schwacher Seele leiden. Wenn ein Spielercharakter es wagt, mit schwacher Seele in die Geisterwelt überzutreten, stirbt er.",682,6,5743,0,0,2,0,0,0,236226,2,24,12
 5761,Lebender Amethyst,"$116322u Aufladungen der Energie, die den Amethystwächter belebt, durchströmt Euren Körper und fügt Euch alle $116322t1 Sek. $116322s1 Schattenschaden zu. Ladungen dieser Energie können in weiße Bodenplatten abgeleitet werden, um diese zu energetisieren.",679,25,5696,0,0,2,0,0,0,425951,2,0,12
 5762,Lebender Kobaltkristall,"Die Energie, die den Kobaltwächter speist, formt sich zu einem Kristall. Spielercharaktere, die mit diesem Kristall interagieren, erhalten den Effekt 'Lebendes Kobalt'.",679,26,5694,5763,5764,0,0,0,0,0,2,0,12
@@ -3313,7 +3313,7 @@ Zusätzlich wirkt Gekkan jedes Mal, wenn jemand aus seinem Gefolge stirbt, 'Leic
 
 [Heroisch] Der Energievortex verhindert das Anvisieren von Zielen in den Nebel oder aus dem Nebel heraus.$]",726,1,0,6172,6174,0,0,0,0,0,1,32,-1
 6172,Berührung der Titanen,Der Kontakt mit dem Energievortex verwandelt das Ziel in die himmlische Form und erhöht dadurch den verursachten Schaden um $117870s1% und die erhaltene Heilung um $117870s2%.,726,2,6171,0,6173,2,0,0,0,254117,0,0,-1
-6173,Überladen,"Der Energievortex überlädt Spielercharaktere in regelmäßigen Abständen, wodurch sie zusätzlich $117878s1% Schaden erleiden. Dieser Effekt ist stapelbar.",726,3,6171,0,0,2,0,0,0,237587,0,0,-1
+6173,Überladen,"Der Energievortex überlädt Spielercharaktere in regelmäßigen Abständen, wodurch sie zusätzlich $117878s1% Schaden erleiden. Dieser Effekt ist stapelbar.",726,3,6171,0,0,2,0,0,0,237587,2,0,15
 6174,Phase 1: Verteidigungsmodus,"Elegon aktiviert den Energievortex, greift mit himmlischem Atem an und ruft himmlische Beschützer herbei, um bei der Verteidigung der Maschine von Nalak'sha zu helfen.
 
 Phase 1 endet bei 85% und 50% verbleibender Gesundheit.",726,4,0,6184,6175,0,0,0,0,0,1,0,-1
@@ -3368,7 +3368,6 @@ In 25-Spieler-Schlachtzügen trifft 'Überspringende Energie' fünf zufällig au
 Springen wirkt dem Effekt entgegen, und wenn das Ziel sich befreien kann, wird es gestärkt, was $121449d lang das Zaubertempo und die Bewegungsgeschwindigkeit um $121449s1% erhöht.",727,3,0,0,6297,2,0,0,0,451169,0,32,-1
 6206,Übertreten,"Geistertotems lassen die nächsten $116166I Spielercharaktere innerhalb von $116166A1 Metern in die Geisterwelt übertreten, wenn sie zerstört werden. Der Übertritt lässt das Opfer mit $116161m1% seiner derzeitigen Gesundheit zurück.",682,2,5742,0,6207,2,0,0,0,132886,2,0,15
 6207,Übertreten,"Spielercharaktere benutzen Geistertotems, um in die Geisterwelt überzutreten, wo sie $116260d verbleiben, bevor sie in die reale Welt zurückkehren und die Fähigkeit der Seelenrückkehr erlangen.",682,3,5742,6655,5743,2,0,0,0,132886,2,0,16
-6209,Seelenexplosion,Die immense spirituelle Energie des Seelentrenners entlädt sich auf einen beliebigen Spielercharakter in der realen Welt. Diese Seelenexplosion fügt dem Ziel und allen Spielercharakteren in einem Radius von $120637A Metern um es $120637s1 Schattenschaden zu.,682,17,5757,0,0,2,0,0,0,136201,2,8,0
 6214,Schössling,"Schösslinge heilen Warpzweig, wenn sie ihn erreichen.",562,4,5478,0,0,1,9590,0,0,0,0,0,-1
 6216,Spalten,Blutwache Porung setzt 'Spalten' ein und fügt einem Spielercharakter sowie dessen Verbündeten in unmittelbarer Nähe körperlichen Schaden zu.,728,1,0,0,6662,2,0,0,0,132338,3,0,2
 6217,Rachsüchtiges Phantom,Die Unverziehene wird von vier rachsüchtigen Phantomen begleitet.,450,2,0,6463,0,1,146,0,0,0,1,1,-1
@@ -3686,7 +3685,7 @@ In Schlachtzügen für 25 Spieler wirkt Shek'zeer 'Sha-Energie' auf fünf zufäl
 6555,Tollkühnheit,"Wenn Windfürst Mel'jarak sieht, dass eine Gruppe seiner Krieger im Kampf fällt, wird er $125873d lang rücksichtsloser. Dies erhöht seinen verursachten Schaden um $125873s1% und seinen erlittenen Schaden um $125873s2%.",741,7,0,0,6299,2,0,0,0,132352,2,8,12
 6562,Gemeinsame Fähigkeiten,Alle vier Wächter können diese Fähigkeiten einsetzen.,679,17,0,5785,5694,0,0,0,0,0,1,8,-1
 6563,Deaktivieren,"Wenn den Wächtern 75% oder 40% Gesundheit verbleiben, schaltet einer von ihnen die aufgeladenen Bodenplatten im Raum ab, um zu verhindern, dass die Spielercharaktere die Energie nutzen.",679,20,6562,0,0,2,0,0,0,133018,3,8,12
-6564,Katastrophale Anomalie,"Ohne Ziele, um die überschüssige Energie von 'Totale Vernichtung' zu absorbieren, explodiert die Maschine von Nalak'sha und fügt dem gesamten Schlachtzug $127341s1 Arkanschaden zu.",726,15,6186,0,0,2,0,0,0,465875,2,16,12
+6564,Katastrophale Anomalie,"Ohne Ziele, um die überschüssige Energie von 'Totale Vernichtung' zu absorbieren, explodiert die Maschine von Nalak'sha und fügt dem gesamten Schlachtzug $127341s1 Arkanschaden zu.",726,15,6186,0,0,2,0,0,0,465875,2,24,12
 6565,Greifende Energietentakel,"Ohne Ziele in Nahkampfreichweite greift Elegon alle Gegner und zieht sie zu sich, wobei er ihnen $127362s2 Arkanschaden zufügt.",726,16,6174,0,6192,2,0,0,0,537022,0,0,-1
 6566,Echos der Macht,"Auf dem Schwierigkeitsgrad 'Heroisch' lässt der kaiserliche Wesir Zor'lok auf dein ersten beiden von ihm betretenen Plattformen Kopien von sich zurück. In der zweiten Phase der Begegnung beschwört er zufällig Echos der Macht, die ihm im Kampf beistehen.
 Echos der Macht erhalten eine der Fähigkeiten des kaiserlichen Wesirs Zor'lok und setzen diese Macht ein, bis sie bezwungen werden.",745,15,0,6568,0,0,0,0,0,0,2,8,12
@@ -3697,13 +3696,13 @@ Echos der Macht erhalten eine der Fähigkeiten des kaiserlichen Wesirs Zor'lok u
 6575,Heldenhafter Sprung,"Waffenmeister Harlan springt in die Mitte seiner Kammer und fügt allen Zielen innerhalb von $111218A1 Metern vom Einschlagspunkt 100% Waffenschaden als körperlichen Schaden zu. Waffenmeister Harlan beginnt anschließend sofort, 'Klingen des Lichts' zu wirken.",654,1,0,5376,5377,2,0,0,0,132326,0,0,-1
 6576,Klingenorkan,"Klingenfürt Ta'yak dreht seine Klinge schnell, zieht alle Gegner zu sich und verursacht alle $125310t1 Sek. $125312s1 körperlichen Schaden.",744,6,0,0,6350,2,0,0,0,132369,2,8,12
 6577,Gesang der Kaiserin,"Wann immer der kaiserliche Wesir Zor'lok einen Übergang beendet, erhebt er seine Stimme zu Ehren der Kaiserin. Greift man ihn dann nicht mit Nahkampfangriffen an, erleiden alle Spielercharaktere im Bereich körperlichen Schaden bis sie sterben. Ein Nahkampfangriff beendet diesen Effekt.",745,14,0,0,6566,0,0,0,0,0,0,16,-1
-6578,Gesang der Kaiserin,"Alle vom kaiserlichen Wesir Zor'lok beschworenen Echos setzen 'Gesang der Kaiserin' ein, wenn sie nicht aktiv eine der anderen Fähigkeiten einsetzen oder sich im Nahkampf befinden. Wie auch beim kaiserlichen Wesir Zor'lok beendet auch bei den Echos ein Nahkampfangriff den Effekt.",745,18,6566,0,0,0,0,0,0,0,2,8,12
+6578,Gesang der Kaiserin,"Alle vom kaiserlichen Wesir Zor'lok beschworenen Echos setzen 'Gesang der Kaiserin' ein, wenn sie nicht aktiv eine der anderen Fähigkeiten einsetzen oder sich im Nahkampf befinden. Wie auch beim kaiserlichen Wesir Zor'lok beendet auch bei den Echos ein Nahkampfangriff den Effekt.",745,18,6566,0,0,0,0,0,0,0,2,0,12
 6579,Ausatmen,"Der kaiserliche Wesir Zor'lok wählt einen zufälligen Spielercharakter aus, schreit ihn an und fügt ihm $122761d lang körperlichen Schaden zu. Der erste Spielercharakter zwischen dem kaiserlichen Wesir Zor'lok und dem ursprünglichen Ziel erleidet alle $122761t1 Sek. zusätzlichen körperlichen Schaden.",745,3,0,0,6428,2,0,0,0,136184,2,0,16
 6581,Beschleunigen,"Die Schreckensbrut erhält in regelmäßigen Abständen $128419s1% Bewegungsgeschwindigkeit. Dieser Effekt ist bis zu $128419u-mal stapelbar, wird aber zurückgesetzt, wenn ein neuer Champion des Lichts ausgewählt wird.",709,31,6107,0,0,2,0,0,0,135788,2,0,12
 6625,Blitzende Fäuste,"Feng rammt eine mit Blitzenergie aufgeladene Faust in den Boden, verursacht $116295s3 Naturschaden und sendet 3 Schockwellenimpulse vor ihm aus. Die Schockwelle verursacht $116374s1 Naturschaden und betäubt alle Ziele in ihrem Weg.",689,7,5874,0,5876,2,0,0,0,237587,2,8,12
 6633,Sha-Kugel,"Kugeln aus Sha-Energie strömen aus den besessenen Armbrustschützen, wenn sie Gesundheit verlieren. Wird eine Kugel berührt, wird sie verzehrt, verursacht $129189s1 Schattenschaden, aber füllt die Primärressource des Spielercharakters mit der Zeit wieder auf. Wird die Kugel nicht innerhalb von $129178s1 Sek. verzehrt, kehrt sie zum Armbrustschützen zurück und heilt ihn um $129190s1% seiner maximalen Gesundheit.",709,16,6089,0,6101,2,0,0,0,348536,0,0,-1
 6634,Bierblitz,"Hefige Braubierelementare können eine schwächere Version von 'Bierblitz' wirken, die $116155s1 Frostschaden verursacht.",670,9,5654,0,0,2,0,0,0,623961,2,0,3
-6638,Leis Hoffnung,"Das Licht auf der Terrasse scheint heller zu leuchten, nachdem die Spielercharaktere das Sha zum Rückzug zur Schreckensweite zwingen. Das Angriffs- und Zaubertempo werden bei anschließenden Versuchen auf der Terrasse des Endlosen Frühlings um $129368s1% erhöht.",709,11,6086,0,0,2,0,0,0,627684,2,0,12
+6638,Leis Hoffnung,"Das Licht auf der Terrasse scheint heller zu leuchten, nachdem die Spielercharaktere das Sha zum Rückzug zur Schreckensweite zwingen. Das Angriffs- und Zaubertempo werden bei anschließenden Versuchen auf der Terrasse des Endlosen Frühlings um $129368s1% erhöht.",709,11,6086,0,0,2,0,0,0,627684,2,8,12
 6639,Schwindendes Licht,"Die letzten Schimmer des Lichts auf der Terrasse heilen Spielercharaktere, während sie erlöschen, und stellen im Verlauf von $129378d $129378o1% Gesundheit und Mana wieder her. Zusätzlich werden alle Abklingzeiten der Spielercharaktere zurückgesetzt.",709,19,6090,0,6110,2,0,0,0,135948,2,0,12
 6648,Mönch,,190,62,2716,6649,0,0,0,0,0,0,2,0,14
 6649,Tritt der aufgehenden Sonne,"Malacrass tritt nach oben, verursacht $127734s1% seines normalen Nahkampfangriffschadens und erhöht $127734d lang den von seinem Ziel erlittenen Schaden um $127734s2%.",190,63,6648,0,6650,2,0,0,0,458974,2,0,14
@@ -3735,25 +3734,25 @@ Eine aktive Windbombe bleibt bis zum Ende der Begegnung bestehen oder bis sie ex
 - Rechte Gerade
 - Linker Haken
 
-Diese Angriffe fügen dem Ziel Schattenschaden zu und umgehen alle Absorptionseffekte.",682,18,0,0,5759,0,0,0,0,0,0,0,-1
+Diese Angriffe fügen dem Ziel Schattenschaden zu und umgehen alle Absorptionseffekte.",682,17,0,0,5759,0,0,0,0,0,0,0,-1
 6699,Hauen,Das Sha schlägt bei jedem vierten Angriff $131996s1-mal zu.,709,4,6086,0,6093,2,0,0,0,651090,0,1,-1
 6700,Schreckenshiebe,Das Sha schlägt bei jedem vierten 'Hauen' $132007s1-mal zu.,709,22,6090,0,6102,2,0,0,0,425957,2,33,12
 6714,Prozession des Königs,"Die Geisterkönige werden der Reihe nach wiederbelebt, wobei jeweils ein König die Spielercharaktere angreift, bis er besiegt wird, danach folgt der nächste. Bezwungene Könige werden gänzlich körperlos, steuern aber in regelmäßigen Abständen eine ihrer mächtigen Fähigkeiten bei.$[!5,6
 
 [Heroisch] Der nächste Geisterkönig wird wiederbelebt und betritt den Kampf, wenn sein Vorgänger unter 30% seiner maximalen Gesundheit fällt.$]",687,1,0,0,5841,0,0,0,0,0,1,0,-1
-6715,Destabilisierende Energien,"'Totale Vernichtung' bewirkt langandauernde negative Nachwirkungen, wodurch Gegner betäubt werden und alle $132222t1 Sek. $132222s1 Arkanschaden erleiden, bis sie auf 80% ihrer maximalen Gesundheit geheilt werden.",726,13,6186,6716,6564,2,0,0,0,610472,2,20,12
-6716,Destabilisiert,"Wenn es von 'Totale Vernichtung' getroffen wird, wird das Ziel von starken Energieströmen durchzuckt und es wird anfälliger gegenüber den schädlichen Effekten von 'Totale Vernichtung'. Spielercharaktere sterben sofort, wenn ihnen 'Totale Vernichtung' zusätzlichen Schaden zufügt.",726,14,6715,0,0,2,0,0,0,538565,2,16,12
+6715,Destabilisierende Energien,"'Totale Vernichtung' bewirkt langandauernde negative Nachwirkungen, wodurch Gegner betäubt werden und alle $132222t1 Sek. $132222s1 Arkanschaden erleiden, bis sie auf 80% ihrer maximalen Gesundheit geheilt werden.",726,13,6186,6716,6564,2,0,0,0,610472,2,28,12
+6716,Destabilisiert,"Wenn es von 'Totale Vernichtung' getroffen wird, wird das Ziel von starken Energieströmen durchzuckt und es wird anfälliger gegenüber den schädlichen Effekten von 'Totale Vernichtung'. Spielercharaktere sterben sofort, wenn ihnen 'Totale Vernichtung' zusätzlichen Schaden zufügt.",726,14,6715,0,0,2,0,0,0,538565,2,24,12
 6717,Verbundene Fokusse,"Ein himmlischer Fokus deaktiviert sich erst, wenn sowohl er selbst als auch der verbundene Fokus 0% Gesundheit erreicht haben.",726,27,6193,0,0,2,0,0,0,135734,2,0,15
 6718,Nullifikationsbarriere,"Spielercharaktere mit dieser geraubten Steinessenz können sich $115817d lang mit einer kanalisierten Nullifikationsbarriere umgeben. Die Barriere neutralisiert jegliche auf Spielercharaktere innerhalb der Barriere gewirkten schädlichen Effekte.
 
-Die Barriere macht außerdem schädliche Umgebungseffekte wie 'Wildfeuer', 'Schattenschild' und 'Blitzladung' unwirksam.",689,24,5881,0,5883,2,0,0,0,136116,2,1,12
+Die Barriere macht außerdem schädliche Umgebungseffekte wie 'Wildfeuer', 'Schattenschild' und 'Blitzladung' unwirksam.",689,24,5881,0,5883,2,0,0,0,136116,2,9,12
 6719,Dunkelheit ansammeln,"Die Großkaiserin Shek'zeer webt Schatten um einen zufälligen Spielercharakter und fügt ihm $124844s1 Schattenschaden zu. Dieser Effekt trifft alle 2 Sek. einen weiteren Spielercharakter, bis schließlich alle Gegner der Großkaiserin betroffen sind.",743,27,6341,0,6720,2,0,0,0,136202,2,0,26
 6720,Dunkelheit ansammeln,"Die Großkaiserin Shek'zeer webt Schatten um einen zufälligen Spielercharakter und fügt ihm $124844s1 Schattenschaden zu. Dieser Effekt trifft alle 6 Sek. einen weiteren Spielercharakter, bis schließlich alle Gegner der Großkaiserin betroffen sind.",743,28,6341,0,6488,2,0,0,0,136202,2,0,5
 6781,Todesvisionen,"Die Kaiserin zeigt fünf zufälligen Spielercharakteren eine Vision ihres eigenen Ablebens. Die Vision offenbart sich den Spielercharakteren nach $124862d, sie werden dann $124863d lang mit Furcht erfüllt und fügen allen Verbündeten im Umkreis von $124868A1 Metern alle $124863t2 Sek. $124868s1 Schattenschaden zu.",743,30,6341,0,6489,2,0,0,0,237298,2,128,26
 6797,Konvertieren,"Der kaiserliche Wesir Zor'lok benutzt die reine Stimme der Kaiserin, um die Loyalität von drei zufällig ausgewählten Spielercharakteren zu beeinflussen, sodass sie für die Mantis kämpfen. 'Konvertieren' hält an, bis die Gesundheit des Opfers auf 50% gesunken ist.",745,11,6428,0,0,2,0,0,0,0,2,2,16
 6812,Berserkerwut,"Wenn Waffenmeister Harlan 50% verbleibende Gesundheit erreicht, verfällt er in Berserkerwut. Danach erhöht sich Waffenmeister Harlans Schaden alle $111221t1 Sek. um ${$111220m1*2}%.",654,8,0,0,0,0,0,0,0,0,0,2048,-1
-6813,Endstation,Nach 6 Min. wird Gara'jal zum Berserker und wirkt 'Endstation'. 'Endstation' tötet sofort alle Spielercharaktere.,682,20,0,0,6814,2,0,0,0,237557,2,32,15
-6814,Endstation,Nach 15 Min. wird Gara'jal zum Berserker und wirkt 'Endstation'. 'Endstation' tötet sofort alle Spielercharaktere.,682,21,0,0,0,2,0,0,0,237557,2,32,16
+6813,Endstation,Nach 6 Min. wird Gara'jal zum Berserker und wirkt 'Endstation'. 'Endstation' tötet sofort alle Spielercharaktere.,682,19,0,0,6814,2,0,0,0,237557,2,32,15
+6814,Endstation,Nach 15 Min. wird Gara'jal zum Berserker und wirkt 'Endstation'. 'Endstation' tötet sofort alle Spielercharaktere.,682,20,0,0,0,2,0,0,0,237557,2,32,16
 6860,Bogennova,Ein elektrischer Energieimpuls fügt Spielercharakteren innerhalb von $136338A1 Metern $136338s1 Naturschaden zu und stößt sie zurück.,814,1,0,0,6861,2,0,0,0,136116,0,16,-1
 6861,Blitzverbindung,"Nalak kettet mehrere Spielercharaktere an sich und fügt ihnen alle $136339t1 Sek. $136353s1 Naturschaden zu sowie zusätzlich $136349s1 Naturschaden, wenn sie sich weiter als 30 Meter von ihm entfernen. Hält $136339d lang an.",814,2,0,0,6862,2,0,0,0,136050,0,32,-1
 6862,Statischer Schild,"Energieansammlungen, die Nalak umgeben, fügen einem zufälligen Spielercharakter alle $136341t1 Sek. $136343s1 Naturschaden zu.",814,3,0,0,6863,2,0,0,0,136051,0,0,-1
@@ -3808,9 +3807,9 @@ $[!5,6 [Heroisch] Wenn die 'Lichtspektrum'-Sequenz nicht innerhalb von 80 Sek. a
 6901,Schandfleck,Schandflecken fügen Zielen in ihrem Effektbereich pro Sekunde $134755s1 Arkanschaden zu.,818,7,6883,0,0,2,0,0,0,135728,0,0,-1
 6902,Strenges Auge,"Strenge Augen entstehen als Teil des Labyrinthmusters des schielenden Auges entlang der Peripherie von Durumus Plattform. Strenge Augen starren direkt auf Durumu zurück und fokussieren sich auf Spielercharaktere in einem umgekehrten kegelförmigen Bereich (30°) vor ihnen. Der Kegel ist am Rand der Plattform am breitesten und läuft auf einen Punkt bei Durumus Standpunkt in der Mitte der Plattform spitz zu.
 
-Die nächsten Spielercharaktere innerhalb dieses Bereichs werden Opfer von 'Strenger Blick'.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,0
-6903,Strenger Blick,"Strenge Augen fügen den nächsten 5 Spielercharakteren, basierend auf deren Entfernung zum strengen Auge, Arkanschaden zu.",818,9,6902,0,6904,2,0,0,0,237299,2,0,0
-6904,Strenger Blick,"Strenge Augen fügen den nächsten 2 Spielercharakteren, basierend auf deren Entfernung zum strengen Auge, Arkanschaden zu.",818,10,6902,0,0,2,0,0,0,237299,2,0,0
+Die nächsten Spielercharaktere innerhalb dieses Bereichs werden Opfer von 'Strenger Blick'.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,12
+6903,Strenger Blick,"Strenge Augen fügen den nächsten 5 Spielercharakteren, basierend auf deren Entfernung zum strengen Auge, Arkanschaden zu.",818,9,6902,0,6904,2,0,0,0,237299,2,8,12
+6904,Strenger Blick,"Strenge Augen fügen den nächsten 2 Spielercharakteren, basierend auf deren Entfernung zum strengen Auge, Arkanschaden zu.",818,10,6902,0,0,2,0,0,0,237299,2,8,12
 6905,Willensstärke,"Das geistige Auge fokussiert sich unverwandt auf einen zufälligen Spielercharakter. Spielercharaktere, die sich im Blick des geistigen Auges befinden, wenn 'Willensstärke' endet, werden zurückgestoßen.",818,32,6884,0,7859,2,0,0,0,613397,2,0,15
 6906,Lebensentzug,"Das hungrige Auge richtet seinen Blick auf einen zufälligen Spielercharakter und beginnt, ihm seine Lebensenergie zu entziehen, wobei er $133795d lang betäubt wird.
 
@@ -3834,7 +3833,7 @@ Dieser Effekt ist stapelbar. Spielercharaktere mit $137669s3 Stapeln werden voll
 6919,Zyklon entzünden,"Der eiserne Qon entzündet einen zufälligen Zyklon, sodass dieser allen Spielercharakteren alle $136159t4 Sek. $136925s1 Feuerschaden zufügt.",817,31,6868,0,6920,2,0,0,0,525024,0,0,-1
 6920,Zyklon einfrieren,"Der eiserne Qon friert einen zufälligen Zyklon ein, sodass dieser Spielercharaktere bei Berührung in ein Eisgrab einschließt. In Eis eingeschlossene Ziele erleiden alle $136892t2 Sek. Schaden in Höhe von $136892s2% ihrer maximalen Gesundheit.",817,32,6868,0,0,2,0,0,0,135840,0,0,-1
 6947,Urzeitlicher Stoß,Primordius schlägt mit den Klauen nach seinem aktuellen Ziel und fügt allen Spielercharakteren in einem kegelförmigen Bereich von $136037A1 Metern $136037s1 körperlichen Schaden zu.,820,1,0,0,6948,2,0,0,0,370770,0,1,-1
-6948,Missgebildetes Blut,"Das schwer mutierte Blut von Primordius breitet sich auf sein aktuelles Ziel aus, verursacht alle $136050t2 Sek. $136050s2 Naturschaden und lässt die Angriffe des betroffenen Spielercharakters den Effekt 'Blutgerinnung' hervorrufen, sodass er lebendiger Flüssigkeit und zähflüssigem Horror $136050s1 zusätzlichen Naturschaden zufügt. Dieser Effekt hält $136050d lang an und ist stapelbar.",820,2,0,0,7829,2,0,0,0,538040,0,1,-1
+6948,Missgebildetes Blut,"Das schwer mutierte Blut von Primordius breitet sich auf sein aktuelles Ziel aus, verursacht alle $136050t2 Sek. $136050s2 Naturschaden und lässt die Angriffe des betroffenen Spielercharakters den Effekt 'Blutgerinnung' hervorrufen, sodass er lebendiger Flüssigkeit und zähflüssigem Horror zusätzlichen Naturschaden zufügt. Dieser Effekt hält $136050d lang an und ist stapelbar.",820,2,0,0,7829,2,0,0,0,538040,0,1,-1
 6949,Evolution,"Wenn Primordius, zusätzlich zu seiner natürlich ablaufenden Mutationsrate, ausreichend lebendige Flüssigkeit und Mutagenpfützen absorbiert hat, entwickelt er sich weiter. Evolution erhöht sämtlichen von Primordius verursachten Schaden um $136209s1% und verleiht ihm eine neue Mutation. Dieser Effekt ist stapelbar. Primordius kann nur 3 Mutationen gleichzeitig haben.$[!5,6
 
 [Heroisch] Primordius kann 4 Mutationen haben.$]",820,4,0,6950,6956,2,0,0,0,538039,0,0,-1
@@ -3860,8 +3859,8 @@ Wenn ein mutierter Spielercharakter gebannt wird, werden alle Mutationen entfern
 6967,Hilfreiche Mutation: Scharfe Sicht,"Die Sehkraft des Spielercharakters wird außergewöhnlich stark, wodurch seine kritische Trefferchance um $136180s1% erhöht wird.",820,22,6960,0,6968,2,0,0,0,237298,0,0,-1
 6968,Schädliche Mutation: Schwache Sicht,"Die Sehkraft des Spielercharakters wird außergewöhnlich schlecht, wodurch seine kritische Trefferchance um $136181s1% verringert wird.",820,23,6960,0,0,2,0,0,0,237299,0,0,-1
 6969,Zähflüssiger Horror,"Eine stark mutierte Kreatur, die aus derselben Flüssigkeit besteht, aus der Primordius entstanden ist.",820,28,0,6970,0,1,36107,0,0,0,2,8,12
-6970,Schwarzes Blut,"Der zähflüssige Horror breitet sein mutiertes Blut auf sein aktuelles Ziel aus, verursacht alle $137000t2 Sek. $137000s2 Naturschaden und führt dazu, dass die Angriffe des betroffenen Spielercharakters dessen Gegner mit schwarzem Blut überziehen, was Primordius $137000s1 zusätzlichen Naturschaden zufügt. Dieser Effekt hält $137000d lang an und ist stapelbar.",820,29,6969,0,6971,2,0,0,0,576309,2,9,12
-6971,Tödliches Mutagen,"Kommt ein zähflüssiger Horror Primordius nahe, lässt die Mischung mutativer Energien ihn explodieren, was allen Spielercharakteren $136995s1 Naturschaden zufügt.",820,30,6969,0,0,2,0,0,0,134438,2,24,12
+6970,Schwarzes Blut,"Der zähflüssige Horror breitet sein mutiertes Blut auf sein aktuelles Ziel aus, verursacht alle $137000t2 Sek. $137000s2 Naturschaden und führt dazu, dass die Angriffe des betroffenen Spielercharakters dessen Gegner mit schwarzem Blut überziehen, was Primordius $137000s1 zusätzlichen Naturschaden zufügt. Dieser Effekt hält $137000d lang an und ist stapelbar.",820,29,6969,0,6971,2,0,0,0,576309,2,1,12
+6971,Tödliches Mutagen,"Kommt ein zähflüssiger Horror Primordius nahe, lässt die Mischung mutativer Energien ihn explodieren, was allen Spielercharakteren $136995s1 Naturschaden zufügt.",820,30,6969,0,0,2,0,0,0,134438,2,16,12
 6972,Geschmolzenes Inferno,Ro'shak erzeugt geschmolzene Flammen und fügt allen Spielercharakteren $134664s1 Feuerschaden zu. Dies entzieht Ro'shak 10 geschmolzene Macht.,817,5,6865,0,6973,2,0,0,0,252268,0,0,-1
 6973,Geschmolzene Überladung,"Erreicht er die maximale geschmolzene Macht, überlädt Ro'shak und geht in Flammen auf, wobei er alle $137221t1 Sek. 'Geschmolzenes Inferno' wirkt, bis er über keine geschmolzene Macht mehr verfügt. Dieser Effekt erhöht seinen verursachten Schaden kurzfristig um $137221s2%.",817,6,6865,0,6870,2,0,0,0,615339,0,32,-1
 6974,Entfesselte Flamme,"Ro'shak entzündet die größte Gruppe von Gegnern, die er finden kann und verursacht $134628s1 Feuerschaden, der gleichmäßig auf Ziele im Umkreis von $134628A1 Metern verteilt wird. Diese Flamme freizugeben kostet Ro'shak 30 geschmolzene Macht.
@@ -3919,7 +3918,7 @@ Die Köpfe spucken eine Säurekugel auf einen zufälligen Spielercharakter, die 
 
 [Heroisch] Megaeras giftige Köpfe spucken drei Säurekugeln gleichzeitig.$]",821,15,7004,0,7012,2,0,0,0,132108,0,0,-1
 7012,Rüstungsfraß,"Megaeras giftige Köpfe sprühen korrosives Gas auf alle Spielercharaktere vor ihnen und fügen diesen $139838d lang pro Sekunde $139839s1 Naturschaden zu. Spielercharaktere, die von 'Rüstungsfraß' betroffen sind, erleiden $139840d lang $139840s1% mehr Schaden. Dieser Effekt ist stapelbar.",821,16,7004,0,0,2,0,0,0,236271,0,0,-1
-7015,Diffusion,"Megaeras arkane Köpfe hauchen arkane Energien auf alle Spielercharaktere vor ihnen und fügen diesen $139991d lang pro Sekunde $139992s1 Arkanschaden zu. 'Diffusion' lenkt $139993s1% der gesamten erhaltenen Heilung der betroffenen Spielercharaktere auf Verbündete um, die nicht von 'Diffusion' betroffen sind und sich in einem Umkreis von $139994A1 Metern befinden. Dieser Effekt ist stapelbar.",821,22,7005,0,0,2,0,0,0,135739,2,8,12
+7015,Diffusion,"Megaeras arkane Köpfe hauchen arkane Energien auf alle Spielercharaktere vor ihnen und fügen diesen $139991d lang pro Sekunde $139992s1 Arkanschaden zu. 'Diffusion' lenkt $139993s1% der gesamten erhaltenen Heilung der betroffenen Spielercharaktere auf Verbündete um, die nicht von 'Diffusion' betroffen sind und sich in einem Umkreis von $139994A1 Metern befinden. Dieser Effekt ist stapelbar.",821,22,7005,0,0,2,0,0,0,135739,2,0,12
 7024,Kampfhaltung,,597,3,0,7025,7029,0,0,0,0,0,1,0,-1
 7025,Tödlicher Stoß,"General Bjarngrim fügt einem Spielercharakter körperlichen Schaden zu und verwundet ihn, wodurch die Wirksamkeit seiner gesamten erhaltenen Heilung $16856d lang um $16856s2% verringert wird.",597,4,7024,0,7026,2,0,0,0,132355,0,0,-1
 7026,Zerschmettern,General Bjarngrim zerschmettert einen Spielercharakter und verursacht körperlichen Schaden.,597,5,7024,0,7027,2,0,0,0,132340,0,0,-1
@@ -4011,7 +4010,7 @@ Wenn der Geist nach $137395d noch am Leben ist, springt er sofort zu seinem Ziel
 
 Sie entreißt zwei zufälligen Spielercharakteren ihre Seelen und verbindet sie miteinander. Jede Seele verfolgt die Seele, mit der sie verbunden ist, und fügt allen Spielercharakteren alle $137975t1 Sek. $137972s1 Schattenschaden zu. Der Schaden von 'Übles Schicksal' wird verringert, je weiter die Seelen voneinander entfernt sind.
 
-Wenn eine Seele stirbt und die Verbindung zur anderen Seele unterbrochen wird, beginnt die verbleibende Seele, alle $137986t2 Sek. $137986s1 Schattenschaden zu verursachen.",816,29,7050,0,0,2,0,0,0,460699,2,26,12
+Wenn eine Seele stirbt und die Verbindung zur anderen Seele unterbrochen wird, beginnt die verbleibende Seele, alle $137986t2 Sek. $137972s1 Schattenschaden zu verursachen.",816,29,7050,0,0,2,0,0,0,460699,2,26,12
 7074,Seelenfragment,"Jedes zweite Mal, wenn der Geist von Gara'jal aus einem Ratsmitglied gezwungen wird, hinterlässt er ein Seelenfragment.
 
 Seelenfragmente ergreifen Besitz von einem zufälligen Spielercharakter und fügen ihm alle $137641t2 Sek. $137641s2 Schattenschaden zu, bis das Seelenfragment an einen anderen Spielercharakter weitergegeben wird. Zusätzlich belegt das Seelenfragment jedes Mal, wenn es Schaden verursacht, den aktuellen Spielercharakter mit dem Effekt 'Verdunkelte Seele'.$[!6
@@ -4092,7 +4091,7 @@ Seelenfragmente ergreifen Besitz von einem zufälligen Spielercharakter und füg
 7162,Elementarblut der Megaera,"Wenn Megaera ein Kopf jeglichen Typs nachwächst, erhöht ihr Elementarblut den Schaden aller Köpfe des gleichen Typs um $139586s1% für jeden weiteren Kopf dieses Typs. Dieser Effekt ist stapelbar.",821,5,0,0,7808,2,0,0,0,576309,0,0,-1
 7171,Kristallpanzer,"Der Kristall reagiert, wenn er angegriffen wird und hüllt den Angreifer in einen Panzer, der eintreffenden Schaden sowie Heilung absorbiert. Anfangs kann der Panzer bis zu $137633s2% der maximalen Gesundheit vom Schaden absorbieren. Vom Panzer absorbierte Heilung wird aber dieser Gesamtsumme bis zu einem Maximum von $137648s2% addiert. Der Panzer bricht, wenn er keinen weiteren Schaden mehr absorbieren kann.",825,14,0,0,0,2,0,0,0,132775,2,12,12
 7176,Nur heroisch,Ra-den ist ausschließlich auf der heroischen Schwierigkeitsstufe verfügbar.,831,1,0,0,7251,0,0,0,0,0,2,0,19
-7177,Verdunkelte Seele,Sämtlicher erlittener Schaden ist für den Rest des Kampfes um $137650s1% erhöht. Dieser Effekt ist stapelbar.,816,5,7074,0,0,2,0,0,0,460700,3,8,12
+7177,Verdunkelte Seele,Sämtlicher erlittener Schaden ist für den Rest des Kampfes um $137650s1% erhöht. Dieser Effekt ist stapelbar.,816,5,7074,0,0,2,0,0,0,460700,3,0,12
 7178,Phase 1: Von Donner gerührt!,"Lei Shen legt seine Axt ""Donner"" an, die er mit tödlicher Genauigkeit zu werfen weiß, was an ihren Landepunkten Blitze erzeugt. Außerdem lädt er alle Leitungen in seiner Nähe auf.",832,8,0,7179,7186,0,0,0,0,0,1,0,-1
 7179,Entladene Energie,"Wenn Lei Shen keine Leitung auflädt, entlädt er stattdessen Elektrizität, die allen Spielercharakteren alle $134821t1 Sek. ansteigenden Naturschaden zufügt.",832,9,7178,0,7181,2,0,0,0,136075,0,32,-1
 7181,Enthaupten,"Lei Shen wirft seine Axt mit übernatürlicher Kraft, verursacht $134916s1 körperlichen Schaden und belegt das Ziel mit 'Enthaupten', wodurch es $134916d lang $134916s2% mehr Schaden erleidet. Der verursachte Schaden nimmt mit steigender Entfernung von Lei Shen ab.",832,10,7178,0,7182,2,0,0,0,839975,0,17,-1
@@ -4154,7 +4153,7 @@ Der Schaden von 'Sprungblitz' erhöht sich mit zunehmender Energie und Stufe der
 7248,Spannungstrichter,Der Spannungstrichter verursacht alle $136853t1 Sek. $136853s1 Naturschaden. Dieser Schaden kann durch Hinüberspringen vermieden werden.,832,22,7197,0,0,2,0,0,0,839977,0,0,-1
 7249,Tosende Windböen,Lei Shen öffnet die Wände seiner Kammer und ruft tosende Windböen von außen herein. Der Wind drückt Spielercharaktere in eine bestimmte Richtung und verursacht alle $136889t1 Sek. $136889s1 Naturschaden sowie 'Windbrand'.,832,28,7209,7871,7212,2,0,0,0,236154,0,0,-1
 7250,Spannungstrichter,Der Spannungstrichter verursacht alle $136853t1 Sek. $136853s1 Naturschaden. Dieser Schaden kann durch Hinüberspringen vermieden werden.,832,34,7220,0,0,2,0,0,0,839977,0,0,-1
-7251,Geheimnisumwittert,"Kein Gelehrter hat je eine Erzählung oder Wiedergabe von Ra-dens Kräften gefunden. Vielleicht wurden diese Erinnerungen vom Lauf der Zeit verwischt - oder aber es gibt niemanden, der jemals einen Kampf mit dem Hüter der Stürme überlebt hätte und so eine Aufzeichnung darüber hinterlassen konnte, was er erlebte...",831,2,0,0,0,0,0,0,0,0,2,0,12
+7251,Geheimnisumwittert,"Kein Gelehrter hat je eine Erzählung oder Wiedergabe von Ra-dens Kräften gefunden. Vielleicht wurden diese Erinnerungen vom Lauf der Zeit verwischt - oder aber es gibt niemanden, der jemals einen Kampf mit dem Hüter der Stürme überlebt hätte und so eine Aufzeichnung darüber hinterlassen konnte, was er erlebte...",831,2,0,0,0,0,0,0,0,0,2,8,12
 7252,Statische Überladung,"Ionar lädt einen Gegner statisch auf. Das Ziel erleidet im Verlauf von $52658d Naturschaden und fügt seinen nahen Verbündeten regelmäßig Naturschaden zu. Nach Ablauf von $52658d wird eine elektrische Explosion ausgelöst, die allen Spielercharakteren im Umkreis von $53337A Metern Naturschaden zufügt und sie zurückstößt.",599,1,0,0,7253,2,0,0,0,136050,1,0,-1
 7253,Kugelblitz,Ionar schleudert einen Kugelblitz auf einen zufälligen Spielercharakter und verursacht Naturschaden.,599,2,0,0,7254,2,0,0,0,135990,1,0,-1
 7254,Dispersion,"Sobald Ionar 50% Gesundheit erreicht, löst er sich in Funken von Ionar auf, die Spielercharaktere 15 Sek. lang verfolgen.",599,3,0,7255,0,2,0,0,0,136111,1,0,-1
@@ -4593,7 +4592,7 @@ Während Lu'lin diesen Effekt kanalisiert, wird sowohl ihre Distanzangriffs- und
 7655,"Suen, Herrin des Zorns","Wenn Suen stirbt endet die Dämmerung und es wird wieder Nacht. Mondlotus werden blühen, Alptraumbestien werden erscheinen.",829,24,7633,7656,0,1,46974,0,0,0,0,0,-1
 7656,Nukleares Inferno,"Suen kanalisiert ein nukleares Inferno, das allen Spielercharakteren alle $137491t1 Sek. $137492s1 Schaden zufügt.
 
-Während Suen diesen Effekt kanalisiert, wird sowohl ihre Distanzangriffs- und Zauberabwehr um $137531s3% als auch ihre Ausweichchance um $137531s5% erhöht.",829,25,7655,0,0,2,0,0,0,0,2,40,12
+Während Suen diesen Effekt kanalisiert, wird sowohl ihre Distanzangriffs- und Zauberabwehr um $137531s3% als auch ihre Ausweichchance um $137531s5% erhöht.",829,25,7655,0,0,2,0,0,0,451164,2,40,12
 7657,Niuzao: Seelenstärke des Ochsen,"Der Geist von Niuzao kann herbeirufen werden, indem sein verblichenes Abbild aktiviert wird. Ist dies geschehen, muss der Spielercharakter das Sternbild Niuzaos nachziehen.
 
 Bei Fertigstellung des Sternbildes erscheint Niuzao und segnet alle Spielercharaktere mit 'Seelenstärke des Ochsen', wodurch sich ihre maximale Gesundheit erhöht. Wenn der Effekt endet, geht die Gesundheit verloren. Hält $138300d lang an.",829,27,7651,0,7658,1,47675,0,0,0,0,0,-1
@@ -4717,8 +4716,8 @@ Zusätzlich elektrisiert der Gewittersturm leitfähiges Wasser.",827,13,0,7749,7
 7760,Riesiger Animagolem,,824,9,0,7761,7762,1,47650,0,0,0,0,0,-1
 7761,Materientausch,"Destabilisiert die Materie des anvisierten Gegners. Wird dieser Effekt entfernt, tauscht das Ziel seinen Standort mit seinem am weitesten entfernten Verbündeten, und beide erleiden gleichmäßig zwischen ihnen verteilten Arkanschaden in Höhe der maximalen Gesundheit des Ziels. Der Anteil des Gesamtschadens, der auf den Verbündeten des Ziels übertragen wird, erhöht sich mit jeder Sekunde.",824,10,7760,0,7770,2,0,0,0,136054,0,132,-1
 7762,Dunkler Animus,,824,12,0,7806,0,1,47527,0,0,0,0,0,-1
-7763,Ionisierung,"Jin'rokh der Zerstörer ionisiert gegnerische Spielercharaktere und zieht im Verlauf von $138732d Sturmenergien an. Wenn 'Ionisierung' entfernt wird, erleiden alle Spielercharaktere innerhalb von $138733A1 Metern $138732s1 Naturschaden.",827,16,0,7764,0,2,0,0,0,136014,2,136,12
-7764,Leitfähig,"Der Schaden der Ionisierung wird von leitfähigem Wasser geleitet, wodurch Spielercharaktere, die sich in diesem leitfähigen Wasser aufhalten, $138732s1 Naturschaden erleiden.",827,17,7763,0,0,2,0,0,0,237587,2,16,12
+7763,Ionisierung,"Jin'rokh der Zerstörer ionisiert gegnerische Spielercharaktere und zieht im Verlauf von $138732d Sturmenergien an. Fügt Spielercharakteren innerhalb von $138733A1 Metern $138743s1 Naturschaden zu, wenn der Effekt abläuft oder gebannt wird.",827,16,0,7764,0,2,0,0,0,136014,2,136,12
+7764,Leitfähig,"Ionisierungsschaden wird von leitfähigem Wasser geleitet, sodass Spielercharaktere, die in leitfähigem Wasser stehen, $138733s1 Naturschaden erleiden.",827,17,7763,0,0,2,0,0,0,237587,2,16,12
 7765,Beschleunigungsverbindung,"Animagolems, die nah beieinander sind, verbinden sich, wodurch das Angriffstempo jedes einzelnen Golems um $138453s1% und dessen Schaden um $138453s2% erhöht wird. Darüber hinaus erhöht sich die Bewegungsgeschwindigkeit verbundener Golems um $138453s3% und sie werden immun gegen bewegungseinschränkende Effekte.",824,5,7758,0,7860,2,0,0,0,531507,2,32,15
 7766,Heftige Detonation,"Der gebündelte Blitz löst beim Auftreffen auf leitfähiges Wasser eine heftige Detonation aus, die allen Spielercharakteren im Umkreis von $138990A1 Metern $138990s1 Naturschaden zufügt.",827,12,7741,0,0,2,0,0,0,458976,0,16,-1
 7767,Animaquell,"Beim Erreichen von 50 Anima gewinnt der dunkle Animus die Fähigkeit hinzu, ein Ziel, das bereits mit dem Effekt 'Berührung des Animus' belegt ist, weiter zu verderben. Der betroffene Spielercharakter speit alle $138691t1 Sek. Animageschosse auf Positionen in der Nähe. Von den Geschossen getroffene Gegner erleiden $138707s1 Feuerschaden.",824,18,7762,0,7863,2,0,0,0,524305,0,0,-1
@@ -4733,9 +4732,9 @@ Zusätzlich elektrisiert der Gewittersturm leitfähiges Wasser.",827,13,0,7749,7
 Durch das Bezwingen eines Animagolems jeglicher Größe wird seine Restanima in den nächsten Golem mit genügend Speicherkapazität übertragen.",824,1,0,0,7837,2,0,0,0,132996,2,32,16
 7775,Schwer beschädigt,"Auf den Schwierigkeitsstufen für 10 Spieler sind einige der Animagolems schwer beschädigt. Diese Golems können weiterhin Anima absorbieren, jedoch weder agieren noch Fähigkeiten benutzen.",824,3,0,0,7758,2,0,0,0,132997,2,0,5
 7776,Berührung des Animus,Der dunkle Animus verderbt in regelmäßigen Abständen einen Spielercharakter. Für den Rest der Begegnung erleidet dieses Ziel alle $138659t1 Sek. $138659s1 Feuerschaden.,824,15,7762,0,7769,2,0,0,0,838814,0,0,-1
-7777,Den Sturmrufer rufen: Quet'zal,Auf dem heroischen Schwierigkeitsgrad steht Quet'zal Ro'shak im Kampf bei. Er wirkt aus der Luft 'Gewittersturm' auf zufällige Spielercharaktere.,817,12,6865,7780,0,1,46629,0,0,0,2,0,12
-7778,Das Eis brechen: Dam'ren,Auf dem heroischen Schwierigkeitsgrad steht Dam'ren Quet'zal im Kampf bei. Er friert zufällige Spielercharaktere aus der Luft heraus ein und zerschmettert sie.,817,19,6866,7781,0,1,0,0,0,0,2,0,12
-7779,Funke der Geschmolzenen Flamme: Ro'shak,"Auf dem heroischen Schwierigkeitsgrad steht Ro'shak Dam'ren im Kampf bei. Er wirkt 'Entfesselte Flamme' auf die größte Gruppe zusammenstehender Spielercharaktere, die er finden kann. Kann er keine zusammenstehenden Ziele finden, wirkt er den Zauber stattdessen auf ein zufälliges Ziel.",817,27,6867,0,0,1,46628,0,0,0,2,0,12
+7777,Den Sturmrufer rufen: Quet'zal,Auf dem heroischen Schwierigkeitsgrad steht Quet'zal Ro'shak im Kampf bei. Er wirkt aus der Luft 'Gewittersturm' auf zufällige Spielercharaktere.,817,12,6865,7780,0,1,46629,0,0,0,2,8,12
+7778,Das Eis brechen: Dam'ren,Auf dem heroischen Schwierigkeitsgrad steht Dam'ren Quet'zal im Kampf bei. Er friert zufällige Spielercharaktere aus der Luft heraus ein und zerschmettert sie.,817,19,6866,7781,0,1,0,0,0,0,2,8,12
+7779,Funke der Geschmolzenen Flamme: Ro'shak,"Auf dem heroischen Schwierigkeitsgrad steht Ro'shak Dam'ren im Kampf bei. Er wirkt 'Entfesselte Flamme' auf die größte Gruppe zusammenstehender Spielercharaktere, die er finden kann. Kann er keine zusammenstehenden Ziele finden, wirkt er den Zauber stattdessen auf ein zufälliges Ziel.",817,27,6867,0,0,1,46628,0,0,0,2,8,12
 7780,Wirbelnde Winde,Quet'zal beschwört einen gewaltigen Windwirbel und lässt ihn frontal von sich fortwehen. Der Wirbel fügt Spielercharakteren bei Berührung $139167s1 Naturschaden zu.,817,13,7777,0,0,2,0,0,0,136022,2,0,12
 7781,Froststachel,"Dam'ren beschwört Froststacheln, die unter zufälligen Spielercharakteren aus dem Boden ausbrechen, $139180s1 Frostschaden verursachen und feindliche Ziele im Umkreis von $139180A1 Metern in die Luft schleudern.",817,20,7778,0,0,2,0,0,0,135845,2,0,12
 7783,Tschirpen,Das Küken schreit mit all seiner Macht sein aktuelles Ziel an und verursacht $139296s1 körperlichen Schaden.,828,4,7350,0,0,2,0,0,0,648726,0,0,-1
@@ -4747,15 +4746,15 @@ Durch das Bezwingen eines Animagolems jeglicher Größe wird seine Restanima in 
 7809,Hydrenraserei,"Jedes Mal, wenn einer von Megaeras Köpfen getötet wird, werden die verbliebenen Köpfe, die sich außerhalb des verbergenden Nebels befinden, komplett geheilt und greifen $139942s1% schneller an. Dieser Effekt ist stapelbar.",821,4,0,0,7162,2,0,0,0,132166,0,0,-1
 7810,Netherriss,"Megaeras arkane Köpfe wenden diese Fähigkeit an, während sie sich im verbergenden Nebel befinden.
 
-Die Köpfe öffnen einen Riss zum Nether, wodurch sie $140138d lang alle $140138t1 Sek. einen Netherwyrm freigeben.",821,18,7005,7816,7015,2,0,0,0,429383,2,8,12
+Die Köpfe öffnen einen Riss zum Nether, wodurch sie $140138d lang alle $140138t1 Sek. einen Netherwyrm freigeben.",821,18,7005,7816,7015,2,0,0,0,429383,2,0,12
 7811,Infrarotlicht,"Wenn sich kein Spielercharakter im Kegel des roten Auges befindet, fügt es allen Spielercharakteren $133733s1 Feuerschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, teilen diese sich alle 2 Sek. $133732s1 Feuerschaden.",818,15,6891,0,7820,2,0,0,0,463282,2,0,15
 7812,Helles Licht,"Wenn sich kein Spielercharakter im Kegel des gelben Auges befindet, fügt es allen Spielercharakteren $133739s1 Naturschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, teilen diese sich alle 2 Sek. $133738s1 Naturschaden.",818,17,6891,0,7821,2,0,0,0,460954,2,0,15
 7813,Blaue Strahlen,"Wenn sich kein Spielercharakter im Kegel des blauen Auges befindet, fügt es allen Spielercharakteren $133678s1 Frostschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, teilen diese sich alle 2 Sek. $133677s1 Frostschaden.",818,19,6891,0,6892,2,0,0,0,463280,2,0,15
 7814,Helm des Befehls,Lei Shen drängt das Ziel mithilfe seines Helms des Befehls von der Plattform. Verursacht $139011d lang alle $139011t1 Sek. $139011s1 Naturschaden.,832,15,7186,0,0,2,0,0,0,133833,3,24,12
 7815,Helm des Befehls,Lei Shen drängt das Ziel mithilfe seines Helms des Befehls von der Plattform. Verursacht $139011d lang alle $139011t1 Sek. $139011s1 Naturschaden.,832,25,7202,0,0,2,0,0,0,133833,2,24,12
-7816,Netherwyrm,,821,19,7810,7817,0,1,48092,0,0,0,3,8,12
-7817,Netherstachel,Netherwyrms schleudern geballte Netherenergie auf einen zufälligen Spielercharakter und verursachen $140178s1 Arkanschaden.,821,20,7816,0,7818,2,0,0,0,610471,2,72,12
-7818,Unterdrückung,Netherwyrms kanalisieren Netherenergie auf den Geist eines zufälligen Spielercharakters und betäubt ihn $140179d lang.,821,21,7816,0,0,2,0,0,0,610679,2,200,12
+7816,Netherwyrm,,821,19,7810,7817,0,1,48092,0,0,0,3,0,12
+7817,Netherstachel,Netherwyrms schleudern geballte Netherenergie auf einen zufälligen Spielercharakter und verursachen $140178s1 Arkanschaden.,821,20,7816,0,7818,2,0,0,0,610471,2,64,12
+7818,Unterdrückung,Netherwyrms kanalisieren Netherenergie auf den Geist eines zufälligen Spielercharakters und betäubt ihn $140179d lang.,821,21,7816,0,0,2,0,0,0,610679,2,192,12
 7819,Infrarotlicht,"Wenn sich kein Spielercharakter im Kegel des roten Auges befindet, fügt es allen Spielercharakteren $133733s1 Feuerschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, erleiden diese alle 2 Sek. $133732s1 Feuerschaden.",818,14,6891,0,7811,2,0,0,0,463282,2,0,16
 7820,Helles Licht,"Wenn sich kein Spielercharakter im Kegel des gelben Auges befindet, fügt es allen Spielercharakteren $133739s1 Naturschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, erleiden diese alle 2 Sek. $133738s1 Naturschaden.",818,16,6891,0,7812,2,0,0,0,460954,2,0,16
 7821,Blaue Strahlen,"Wenn sich kein Spielercharakter im Kegel des blauen Auges befindet, fügt es allen Spielercharakteren $133678s1 Frostschaden zu. Befinden sich jedoch Spielercharaktere im Kegel, erleiden diese alle 2 Sek. $133677s1 Frostschaden.",818,18,6891,0,7813,2,0,0,0,463280,2,0,16
@@ -4792,9 +4791,9 @@ $[!3,5 Im 10-Spieler-Modus wird 1 Spielercharakter zufällig ausgewählt.$]$[!4,
 7865,Auslöschen,"Durumu tötet alle Spielercharaktere, wenn er nicht innerhalb von 10 Min. besiegt wird.
 
 $[!5,6 [Heroisch] Durumu setzt 'Auslöschen' ein, wenn es den Spielercharakteren nicht gelingt, die 'Lichtspektrum'-Sequenz innerhalb von 80 Sek. abzuschließen.$]",818,45,0,0,0,2,0,0,0,425958,0,2064,-1
-7866,Terrorhorngeist,Horridons 'Terrorgebrüll' erweckt einen Terrorhorngeist.,819,5,7093,7868,0,1,47383,0,0,0,2,40,12
-7867,Schwache Bindung,Die Bindung des Terrorhorngeistes an Pandaria ist schwach. Jeder Angriff gegen den Geist wird ihn zurückstoßen.,819,7,7866,0,0,2,0,0,0,631503,2,8,12
-7868,Terrorfixierung,Der Terrorhorngeist fixiert sich auf einen Spielercharakter. Nur der fixierte Spielercharakter kann den Terrorhorngeist sehen und mit ihm interagieren.,819,6,7866,0,7867,2,0,0,0,237298,2,8,12
+7866,Terrorhorngeist,Horridons 'Terrorgebrüll' erweckt einen Terrorhorngeist.,819,5,7093,7868,0,1,47383,0,0,0,2,32,12
+7867,Schwache Bindung,Die Bindung des Terrorhorngeistes an Pandaria ist schwach. Jeder Angriff gegen den Geist wird ihn zurückstoßen.,819,7,7866,0,0,2,0,0,0,631503,2,0,12
+7868,Terrorfixierung,Der Terrorhorngeist fixiert sich auf einen Spielercharakter. Nur der fixierte Spielercharakter kann den Terrorhorngeist sehen und mit ihm interagieren.,819,6,7866,0,7867,2,0,0,0,237298,2,0,12
 7871,Windbrand,Erhöht den von 'Tosende Windböen' verursachten Schaden um $140208s1%. Stapelbar.,832,29,7249,0,0,2,0,0,0,136018,0,0,-1
 7872,Uraltes Miasma,"Ein uraltes Miasma breitet sich im Raum aus, das sämtliche Heilung absorbiert, dafür aber eine uralte Barriere erzeugt, die Schaden in Höhe der absorbierten Heilung absorbiert. Dieser Schild kann maximal nur 100% der Gesamtgesundheit betragen. Außerdem verursacht das Miasma alle $142906t1 Sek. $142906s1 Schattenschaden.",846,5,0,7873,7874,2,0,0,0,571320,1,36,-1
 7873,Uralte Barriere,"Immer wenn 'Uraltes Miasma' Heilung absorbiert, erhält das Ziel der Heilung 'Uralte Barriere'. Dieser Schild absorbiert Schaden in Höhe der ursprünglich absorbierten Heilung. Der von 'Uralte Barriere' absorbierte Schaden kann 100% der Gesamtgesundheit des Spielercharakters nicht übersteigen.
@@ -4814,23 +4813,23 @@ Wenn 'Verdrängte Energie' endet, explodiert die Energie und fügt allen Zielen 
 7883,Bogenhieb,"Malkorok wendet sich einem zufälligen Spielercharakter zu und entfesselt einen vernichtenden Angriff, der allen Spielercharakteren innerhalb eines $142815A1 Meter großen Kegels vor ihm $142815s1 körperlichen Schaden zufügt.",846,13,7896,0,7884,2,0,0,0,451165,0,0,-1
 7884,Seismischer Schlag,Malkorok schlägt auf den Boden und verursacht innerhalb von $142849A1 Metern um einen zufälligen Spielercharakter $142849s2 körperlichen Schaden. Dabei werden alle betroffenen Ziele in die Luft geschleudert.,846,14,7896,7952,7895,2,0,0,0,136025,0,0,-1
 7885,Rook Steinzeh,,849,6,0,7956,7889,1,48918,0,0,0,0,1,-1
-7886,Verderbnistritt,"Der Zaubernde dreht sich schnell im Kreis, bleibt dabei auf der Stelle stehen und fügt allen Zielen innerhalb von $143009A1 Metern $143007D lang pro Sekunde $143009s1 körperlichen Schaden zu. Außerdem werden getroffene Ziele gequält, wodurch sie $143010D lang alle 2 Sek. $143010s1 Schattenschaden erleiden.",849,20,7888,0,0,2,0,0,0,651098,0,0,-1
+7886,Verderbnistritt,"Der Zaubernde dreht sich schnell im Kreis, bleibt dabei auf der Stelle stehen und fügt allen Zielen innerhalb von $143009A1 Metern $143007D lang pro Sekunde $143009s1 körperlichen Schaden zu. Außerdem werden getroffene Ziele gequält, wodurch sie $143010D lang alle 2 Sek. $143010s1 Schattenschaden erleiden.",849,19,7888,0,0,2,0,0,0,651098,0,0,-1
 7887,Verderbtes Gebräu,"Rook Steinzeh schleudert ein Fass voller verderbtem Gebräu auf ein entferntes Ziel, das Gegnern innerhalb von $143023A1 Metern $143023s1 Schattenschaden zufügt und betroffene Ziele für $143023d um $143023s2% verlangsamt.$[!16
 
-[Mythisch] Bei jedem zweiten Wirken verringert sich die Zeit bis zum Aufprall um 0,5 Sek. Dieser Effekt wird zurückgesetzt, sobald Rook Steinzeh beginnt, 'Verzweifelte Maßnahmen' zu wirken.$]",849,18,7885,0,7888,2,0,0,0,651085,0,0,-1
+[Mythisch] Bei jedem zweiten Wirken verringert sich die Zeit bis zum Aufprall um 0,5 Sek. Dieser Effekt wird zurückgesetzt, sobald Rook Steinzeh beginnt, 'Verzweifelte Maßnahmen' zu wirken.$]",849,17,7885,0,7888,2,0,0,0,651085,0,0,-1
 7888,Aufprall,"Rook Steinzeh und einer seiner Gegner stürmen aufeinander zu und prallen auf halber Strecke aufeinander. Rook Steinzeh setzt unmittelbar danach 'Verderbnistritt' ein.$[!14,15,17
 
-[Alle außer Mythisch] 'Aufprall' wird nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,19,7885,7886,0,2,0,0,0,628134,0,0,-1
-7889,Hee Samtfuß,,849,21,0,7940,7904,1,48917,0,0,0,0,1,-1
+[Alle außer Mythisch] 'Aufprall' wird nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,18,7885,7886,0,2,0,0,0,628134,0,0,-1
+7889,Hee Samtfuß,,849,20,0,7940,7904,1,48917,0,0,0,0,1,-1
 7892,Meister der Gifte,"Hee Samtfuß ist ein Meister der Gifte und überzieht seine Waffen von Zeit zu Zeit mit verschiedenen Giften.$[!16
 
 [Mythisch] 'Meister der Gifte'-Fähigkeiten werden auch von 'Erdrosseln' und 'Fixieren' ausgelöst.$]$[!14,15,17
 
-[Alle außer Mythisch] 'Meister der Gifte'-Fähigkeiten werden nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,28,7889,7893,0,0,0,0,0,0,0,0,-1
+[Alle außer Mythisch] 'Meister der Gifte'-Fähigkeiten werden nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,27,7889,7893,0,0,0,0,0,0,0,0,-1
 7893,Zersetzendes Gift,"Hee Samtfuß überzieht seine Waffe mit zersetzendem Gift, das erfolgreiche Nahkampfangriffe Giftpfützen auf dem Boden erzeugen lässt. Die Pfützen verursachen pro Sekunde $144367s1 Naturschaden und können übersprungen werden.
 
-Dieser Effekt wird entfernt, sobald Hee Samtfuß beginnt, 'Verzweifelte Maßnahmen' zu wirken.",849,29,7892,0,7894,2,0,0,0,236271,0,0,-1
-7894,Sofort wirkendes Gift,"Hee Samtfuß überzieht seine Waffe mit sofort wirkendem Gift, das bei erfolgreichen Nahkampfangriffen $143224s1 zusätzlichen Naturschaden verursacht.",849,30,7892,0,0,2,0,0,0,132106,0,0,-1
+Dieser Effekt wird entfernt, sobald Hee Samtfuß beginnt, 'Verzweifelte Maßnahmen' zu wirken.",849,28,7892,0,7894,2,0,0,0,236271,0,0,-1
+7894,Sofort wirkendes Gift,"Hee Samtfuß überzieht seine Waffe mit sofort wirkendem Gift, das bei erfolgreichen Nahkampfangriffen $143224s1 zusätzlichen Naturschaden verursacht.",849,29,7892,0,0,2,0,0,0,132106,0,0,-1
 7895,Hauch von Y'Shaarj,"Malkorok kanalisiert die Macht von Y'Shaarj, wodurch er Bereiche, die zuvor von 'Bogenhieb' getroffen wurden, zum Explodieren bringt und $142816s1 Schattenschaden verursacht.",846,17,7896,0,7897,2,0,0,0,136194,0,0,-1
 7896,Macht der Kor'kron,,846,12,0,7883,0,0,0,0,0,0,1,0,-1
 7897,Implodierende Energie,"Malkoroks Verderbnis öffnet Risse dunkler Energie, die nach $144069d allen Spielercharakteren innerhalb von $142986A1 Metern $142986s1 Schattenschaden zufügen.
@@ -4840,16 +4839,16 @@ Falls 'Implodierende Energie' keinen Spielercharakter trifft, erleiden stattdess
 7899,Fataler Stoß,Malkoroks Nahkampfangriffe verwunden sein Ziel schwer und erhöhen $142990d lang jeglichen erlittenen Schaden um $142990s2%.,846,19,7896,0,7951,2,0,0,0,589119,0,1,-1
 7901,Erdrosseln,"Hee Samtfuß schleicht durch die Schatten und erdrosselt Ziele, indem er ihnen alle $143198T1 Sek. $143198s1 körperlichen Schaden zufügt.
 
-Dieser Effekt wird entfernt, sobald Hee Samtfuß beginnt, 'Verzweifelte Maßnahmen' zu wirken.",849,26,7889,0,7902,2,0,0,0,132297,0,4,-1
-7902,Solarplexus,"Hee Samtfuß macht ein ihm zugewandtes Ziel $143301D lang handlungsunfähig. Hee Samtfuß fixiert sich daraufhin auf ein zufälliges Ziel, bis er verspottet wird. Wenn das Ziel Hee Samtfuß den Rücken zugewandt hat, stößt 'Solarplexus' das Ziel stattdessen eine kurze Distanz zurück.",849,27,7889,0,7892,2,0,0,0,132155,0,1,-1
-7904,Sun Zartherz,,849,31,0,7942,0,1,48919,0,0,0,0,0,-1
-7905,Sha-Explosion,"Verursacht eine Explosion von Schattenmagie um das Ziel herum, die allen Gegnern innerhalb von $143424A2 Metern um das Ziel mit jeder Sekunde ansteigenden Schattenschaden zufügt.",849,36,7904,0,7906,2,0,0,0,237565,0,64,-1
-7906,Schattenwort: Unheil,"Belegt mehrere Ziele mit einem Wort des Elends, was ihnen $143434d lang alle $143434T2 Sek. $143434s2 Schattenschaden zufügt. Jedes Mal, wenn dieser Effekt Schaden verursacht, springt er auf ein weiteres Ziel über, insgesamt bis zu $143434s1-mal.",849,37,7904,0,7907,2,0,0,0,136211,0,128,-1
+Dieser Effekt wird entfernt, sobald Hee Samtfuß beginnt, 'Verzweifelte Maßnahmen' zu wirken.",849,25,7889,0,7902,2,0,0,0,132297,0,4,-1
+7902,Solarplexus,"Hee Samtfuß macht ein ihm zugewandtes Ziel $143301D lang handlungsunfähig. Hee Samtfuß fixiert sich daraufhin auf ein zufälliges Ziel, bis er verspottet wird. Wenn das Ziel Hee Samtfuß den Rücken zugewandt hat, stößt 'Solarplexus' das Ziel stattdessen eine kurze Distanz zurück.",849,26,7889,0,7892,2,0,0,0,132155,0,1,-1
+7904,Sun Zartherz,,849,30,0,7942,0,1,48919,0,0,0,0,0,-1
+7905,Sha-Explosion,"Verursacht eine Explosion von Schattenmagie um das Ziel herum, die allen Gegnern innerhalb von $143424A2 Metern um das Ziel mit jeder Sekunde ansteigenden Schattenschaden zufügt.",849,35,7904,0,7906,2,0,0,0,237565,0,64,-1
+7906,Schattenwort: Unheil,"Belegt mehrere Ziele mit einem Wort des Elends, was ihnen $143434d lang alle $143434T2 Sek. $143434s2 Schattenschaden zufügt. Jedes Mal, wenn dieser Effekt Schaden verursacht, springt er auf ein weiteres Ziel über, insgesamt bis zu $143434s1-mal.",849,36,7904,0,7907,2,0,0,0,136211,0,128,-1
 7907,Katastrophe,"Beschwört eine schreckliche Katastrophe herauf, die allen Spielercharakteren $143493s1% ihrer maximalen Gesundheit als Schattenschaden zufügt und 'Schattenwort: Unheil' von allen Zielen entfernt.$[!16
 
 [Mythisch] Jedes Mal, wenn 'Katastrophe' gewirkt wird, vergrößert sich der Effekt um zusätzliche $143493s2% der maximalen Gesundheit. Dieser Effekt wird zurückgesetzt, wenn Sun Zartherz beginnt, 'Verzweifelte Maßnahmen' zu wirken.$]$[!14,15,17
 
-[Alle außer Mythisch] 'Katastrophe' wird nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,38,7904,0,0,2,0,0,0,632353,0,0,-1
+[Alle außer Mythisch] 'Katastrophe' wird nicht in einer Phase von 'Verzweifelte Maßnahmen' gewirkt.$]",849,37,7904,0,0,2,0,0,0,632353,0,0,-1
 7908,Zerreißender Schlag,"Ein mächtiger Schlag verursacht $143494s1 körperlichen Schaden und zerreißt die Rüstung des Ziels, wodurch diese $143494d lang um $143494s2% verringert wird. Erzeugt $143494s3 Wut sowie zusätzlich $143494s3 Wut pro Stapel von 'Zerreißender Schlag' auf dem Ziel.",850,5,0,0,7919,2,0,0,0,132363,0,1,-1
 7909,Wut,"Einige der Fähigkeiten General Nazgrims benötigen Wut, die er durch das Einsetzen verschiedener Fähigkeiten im Kampf erlangt.
 
@@ -4900,15 +4899,15 @@ Kostet 100 Wut.",850,17,7909,0,7937,2,0,0,0,132442,0,16,-1
 Bei 66% und 33% verbleibender Gesundheit wendet jeder der Beschützer 'Verzweifelte Maßnahmen' an, um die Geister gefallener Verbündeter zu manifestieren, die dem Schlachtzug neue mächtige Angriffe entgegenwerfen, bis sie vernichtet werden.",849,1,0,10136,8017,3,0,0,0,0,1,0,-1
 7940,Verzweifelte Maßnahmen,"Bei 66% und 33% verbleibender Gesundheit ruft Hee Samtfuß eine böse Manifestation seines Bruders herbei, die Ausgeburt der Pein. Dieser Geist konzentriert sich auf das Schlachtzugsmitglied, das das 'Mal der Pein' trägt.
 
-Wenn der Geist besiegt wurde, greift Hee Samtfuß wieder Spielercharaktere an.",849,22,7889,7941,7901,0,0,0,0,0,0,0,-1
+Wenn der Geist besiegt wurde, greift Hee Samtfuß wieder Spielercharaktere an.",849,21,7889,7941,7901,0,0,0,0,0,0,0,-1
 7941,Mal der Pein,"'Mal der Pein' verursacht pro Sekunde Schattenschaden und macht sein Ziel bewegungsunfähig. Der vom Mal betroffene Spielercharakter kann das Mal an einen anderen verbündeten Spielercharakter abgeben, der sich im Umkreis von $143842R Metern befindet.
 
-Die Ausgeburt der Pein wendet ihren Blick einem zufälligen Ziel zu, wenn ihr aktuelles Ziel stirbt.",849,23,7940,0,7966,2,0,0,0,458726,1,32,-1
+Die Ausgeburt der Pein wendet ihren Blick einem zufälligen Ziel zu, wenn ihr aktuelles Ziel stirbt.",849,22,7940,0,7966,2,0,0,0,458726,1,32,-1
 7942,Verzweifelte Maßnahmen,"Bei 66% und 33% verbleibender Gesundheit ruft Sun Zartherz böse Manifestationen ihrer Beschützer herbei, die Ausgeburt der Verzweiflung und die Ausgeburt der Resignation.
 
-Wenn diese Geister besiegt wurden, greift Sun Zartherz wieder Spielercharaktere an.",849,32,7904,7954,7905,0,0,0,0,0,0,32,-1
-7943,Manifestierte Emotionen,"Die Ausgeburt der Verzweiflung und die Ausgeburt der Resignation bündeln ihre negativen Emotionen und erschaffen so Manifestationen des Sha, die die Spielercharaktere angreifen. Jeglicher von diesen manifestierten Emotionen erlittene Schaden wird ebenso von dem Wesen erlitten, das sie erschaffen hat.",849,34,7942,0,7944,1,47163,0,0,0,0,0,-1
-7944,Meditationsstachel,"Sun Zartherz verschießt regelmäßig Blitze aus dunkler Energie, die beim Auftreffen Gegnern innerhalb von $143602A1 Metern $143602s1 Schattenschaden zufügen.",849,35,7942,0,0,2,0,0,0,651088,0,9,-1
+Wenn diese Geister besiegt wurden, greift Sun Zartherz wieder Spielercharaktere an.",849,31,7904,7954,7905,0,0,0,0,0,0,32,-1
+7943,Manifestierte Emotionen,"Die Ausgeburt der Verzweiflung und die Ausgeburt der Resignation bündeln ihre negativen Emotionen und erschaffen so Manifestationen des Sha, die die Spielercharaktere angreifen. Jeglicher von diesen manifestierten Emotionen erlittene Schaden wird ebenso von dem Wesen erlitten, das sie erschaffen hat.",849,33,7942,0,7944,1,47163,0,0,0,0,0,-1
+7944,Meditationsstachel,"Sun Zartherz verschießt regelmäßig Blitze aus dunkler Energie, die beim Auftreffen Gegnern innerhalb von $143602A1 Metern $143602s1 Schattenschaden zufügen.",849,34,7942,0,0,2,0,0,0,651088,0,9,-1
 7946,Heckenschütze der Kor'kron,,850,36,7920,7947,0,1,49118,0,0,0,2,4096,0
 7947,Mal des Jägers,"Heckenschützen der Kor'kron fixieren sich auf Ziele, die keine Tanks sind.",850,37,7946,0,7948,2,0,0,0,841383,0,0,-1
 7948,Schießen,Schießt auf einen Spielercharakter und fügt ihm $143884s1% Waffenschaden zu.,850,38,7946,0,7949,2,0,0,0,133580,0,0,-1
@@ -4918,14 +4917,14 @@ Wenn diese Geister besiegt wurden, greift Sun Zartherz wieder Spielercharaktere 
 Falls ein Spielercharakter mit einer Kugel in Berührung kommt, verliert dieser 'Uralte Barriere' und erleidet $143857s1 Schattenschaden. Die Kugel wird hierbei aufgezehrt.",846,7,7872,0,0,2,0,0,0,236296,2,4096,0
 7951,Eradikation,"Malkorok tötet alle Spielercharaktere, wenn er nicht innerhalb von $143916s1 Min. besiegt wird.",846,20,7896,0,0,2,0,0,0,607852,0,16,-1
 7952,Lebende Verderbnis,"'Seismischer Schlag' bewirkt, dass 'Lebende Verderbnis' aus dem Boden entweicht und Spielercharaktere angreift.",846,15,7884,7953,0,1,49124,0,0,0,3,4096,0
-7953,Ermatten,"'Lebende Verderbnis' schwächt alle Spielercharaktere innerhalb von 8 Metern, wodurch deren Bewegungsgeschwindigkeit und Zaubertempo um $143919s1% verringert wird.",846,16,7952,0,0,2,0,0,0,460857,3,4096,0
-7954,Dunkle Meditation,"Sun Zartherz beginnt eine 'Dunkle Meditation' und fügt so allen Gegnern alle 0,5 Sek. Schattenschaden zu. Spielercharaktere erleiden $143564s1% weniger Schaden durch 'Dunkle Meditation', wenn sie sich innerhalb des Meditationsfelds befinden.",849,33,7942,0,7943,2,0,0,0,236170,0,4,-1
+7953,Ermatten,"'Lebende Verderbnis' schwächt alle Spielercharaktere innerhalb von 8 Metern, wodurch deren Bewegungsgeschwindigkeit und Zaubertempo um $143919s1% verringert wird.",846,16,7952,0,0,2,0,0,0,460857,3,0,0
+7954,Dunkle Meditation,"Sun Zartherz beginnt eine 'Dunkle Meditation' und fügt so allen Gegnern alle 0,5 Sek. Schattenschaden zu. Spielercharaktere erleiden $143564s1% weniger Schaden durch 'Dunkle Meditation', wenn sie sich innerhalb des Meditationsfelds befinden.",849,32,7942,0,7943,2,0,0,0,236170,0,4,-1
 7956,Verzweifelte Maßnahmen,"Bei 66% und 33% verbleibender Gesundheit ruft Rook Steinzeh böse Manifestationen seiner besten Freunde herbei, die Ausgeburt des Elends, die Ausgeburt des Kummers und die Ausgeburt des Trübsinns.
 
 Wenn diese Geister besiegt wurden, greift Rook Steinzeh wieder Spielercharaktere an.",849,7,7885,8395,8145,0,0,0,0,0,0,0,-1
-7957,Verderbnisschock,"Die Ausgeburt des Trübsinns schleudert verderbte Blitze auf mehrere Positionen, die allen Gegnern innerhalb von $144018A1 Metern $144018s1 Naturschaden zufügen.",849,14,8397,0,8330,2,0,0,0,136050,1,64,-1
+7957,Verderbnisschock,"Die Ausgeburt des Trübsinns schleudert verderbte Blitze auf mehrere Positionen, die allen Gegnern innerhalb von $144018A1 Metern $144018s1 Naturschaden zufügen.",849,13,8397,0,8330,2,0,0,0,136050,1,64,-1
 7958,Geschändeter Boden,"Die Ausgeburt des Elends zerschmettert den Boden mit voller Kraft, fügt ihrem aktuellen Ziel $143961s1 körperlichen Schaden zu und stößt es zurück. Dieser Effekt brennt sich in den Boden ein und verursacht $144357s1 Schattenschaden pro Sekunde.",849,9,8395,0,0,2,0,0,0,463566,1,0,-1
-7959,Infernostoß,"Die Ausgeburt des Kummers wirkt einen Zauber auf ein zufälliges Ziel, der massiven Feuerschaden verursacht. 'Infernostoß' verursacht ${$143962m2*$143962m1} Feuerschaden, der gleichmäßig auf alle Ziele verteilt wird, die sich im Umkreis von $143962A2 Metern befinden.",849,11,8396,8414,0,2,0,0,0,132863,1,32,-1
+7959,Infernostoß,"Die Ausgeburt des Kummers wirkt einen Zauber auf ein zufälliges Ziel, der massiven Feuerschaden verursacht. 'Infernostoß' verursacht ${$143962m2*$143962m1} Feuerschaden, der gleichmäßig auf alle Ziele verteilt wird, die sich im Umkreis von $143962A2 Metern befinden.",849,11,8396,0,0,2,0,0,0,132863,1,32,-1
 7960,Phase 1: Ein Klagen in der Dunkelheit,,851,5,0,7962,7961,0,0,0,0,0,1,0,-1
 7961,Phase 2: Blutraserei!,"Durch den starken Blutgeruch in der Luft verfällt Thok in Blutraserei!$[!17
 
@@ -4934,7 +4933,7 @@ Wenn diese Geister besiegt wurden, greift Rook Steinzeh wieder Spielercharaktere
 7963,Ohrenbetäubendes Kreischen,"Wenn er volle Energie erreicht, stößt Thok ein schrilles Kreischen aus, das allen Feinden $143343s1 körperlichen Schaden zufügt und das Wirken von Zaubern unterbricht. Jedes Mal, wenn Thok schreit, erhöht sich seine Energieregenerationsrate.",851,7,7960,0,7964,2,0,0,0,252188,0,32,-1
 7964,Schwanzpeitscher,"Thoks gewaltiger Schwanz trifft alle Feinde, die sich hinter ihm befinden, fügt ihnen $143428s1 körperlichen Schaden zu und betäubt sie $143428d lang.",851,8,7960,0,7965,2,0,0,0,132109,0,0,-1
 7965,Schockschlag,Elektrische Entladungen und Schläge gehen von Thoks Halsband aus und fügen zufälligen Feinden $143707s1 Naturschaden zu.,851,9,7960,0,7967,2,0,0,0,839974,0,0,-1
-7966,Sensibilisierung,"Wenn ein Ziel von einer Ausgeburt der Pein getroffen wird, belegt sie es mit 'Sensibilisierung'. Dieser Effekt erhöht den durch 'Mal der Pein' verursachten Schaden. Wenn 'Mal der Pein' von einem Spielercharakter an einen anderen Spielercharakter übergeben wird, werden alle Schlachtzugsmitglieder mit 'Sensibilisierung' belegt. Dieser Effekt ist stapelbar.",849,24,7940,0,8415,2,0,0,0,651086,0,0,-1
+7966,Sensibilisierung,"Wenn ein Ziel von einer Ausgeburt der Pein getroffen wird, belegt sie es mit 'Sensibilisierung'. Dieser Effekt erhöht den durch 'Mal der Pein' verursachten Schaden. Wenn 'Mal der Pein' von einem Spielercharakter an einen anderen Spielercharakter übergeben wird, werden alle Schlachtzugsmitglieder mit 'Sensibilisierung' belegt. Dieser Effekt ist stapelbar.",849,23,7940,0,8415,2,0,0,0,651086,0,0,-1
 7967,Klaffende Wunden,"Wenn Spielercharaktere nur noch über weniger als 50% ihrer Gesundheit verfügen, kann Thok der Blutrünstige ihr Blut riechen. Wenn mindestens die Hälfte aller Schlachtzugsmitglieder innerhalb von 10 Metern voneinander 'Klaffende Wunden' haben, wird der Geruch des Blutes überwältigend und Thok verfällt in 'Blutraserei'.",851,10,7960,0,0,2,0,0,0,236305,2,0,0
 7968,Wärter der Kor'kron,"Wenn er in Blutraserei verfällt, erregt Thoks mächtiges Brüllen die Aufmerksamkeit eines nahen Wärters. Er verfügt unter Umständen über einen Schlüssel zu einer der nahen Zellen, in denen Garroshs Gefangene festgehalten werden.",851,14,7961,0,8581,1,49082,0,0,0,0,0,-1
 7969,Kriegsgefangene,"Garrosh hat während seiner Kampagne in Pandaria Gefangene gemacht, die wie Wildtiere in Käfige gesperrt wurden und hoffen, dass jemand sie aus ihrer Gefangenschaft befreit.",851,20,0,8283,0,0,0,0,0,0,0,0,-1
@@ -5003,13 +5002,13 @@ In 10-Spieler-Schlachtzügen beläuft sich die maximale Anzahl von Spielercharak
 
 In 25-Spieler-Schlachtzügen beläuft sich die maximale Anzahl von Spielercharakteren, die den Schaden unter sich aufteilen können, auf 3.$]",853,54,8036,0,8039,2,0,0,0,878218,2,0,0
 8039,Katalysierte Reaktion: Gelb,"Wenn dieses Toxin mit einem gelben Katalysator reagiert, erzeugt es eine Wolke aus giftigen Dämpfen, die $142737d lang bestehen bleibt. Spielercharaktere, die in die Wolke geraten, erleiden pro Sekunde $142797s1 Naturschaden, solange sie sich in ihr aufhalten.",853,55,8036,0,8040,2,0,0,0,878224,2,0,0
-8040,Katalysierte Reaktion: Orange,"Wenn entweder ein gelbes oder ein rotes Toxin mit diesem Katalysator reagiert, explodiert es in einem sich ausbreitenden Ring aus Feuer. Spielercharaktere können den Ring, der sich zu ihren eigenen Füßen formt, nicht sehen und brauchen auch nicht darauf zu reagieren. Allerdings müssen sie den Ringen ausweichen, die von ihren Verbündeten ausgehen.",853,56,8036,0,8041,2,0,0,0,878220,2,0,0
-8041,Katalysierte Reaktion: Violett,"Wenn entweder ein blaues oder ein rotes Toxin mit diesem Katalysator reagiert, wird das Opfer dazu gezwungen, vorwärts zu rennen, und hinterlässt dabei eine Spur aus Feuer, die $143575d lang bestehen bleibt. Spielercharaktere, die diesen Bereich betreten, erleiden pro Sekunde $143576s1 Feuerschaden, solange sie sich in ihm aufhalten.",853,57,8036,0,8042,2,0,0,0,878221,2,0,0
+8040,Katalysierte Reaktion: Orange,"Wenn entweder ein gelbes oder ein rotes Toxin mit diesem Katalysator reagiert, explodiert es in einem sich ausbreitenden Ring aus Feuer. Spielercharaktere können den Ring, der sich zu ihren eigenen Füßen formt, nicht sehen und brauchen auch nicht darauf zu reagieren. Allerdings müssen sie den Ringen ausweichen, die von ihren Verbündeten ausgehen.",853,56,8036,0,8041,2,0,0,0,878220,2,4096,0
+8041,Katalysierte Reaktion: Violett,"Wenn entweder ein blaues oder ein rotes Toxin mit diesem Katalysator reagiert, wird das Opfer dazu gezwungen, vorwärts zu rennen, und hinterlässt dabei eine Spur aus Feuer, die $143575d lang bestehen bleibt. Spielercharaktere, die diesen Bereich betreten, erleiden pro Sekunde $143576s1 Feuerschaden, solange sie sich in ihm aufhalten.",853,57,8036,0,8042,2,0,0,0,878221,2,4096,0
 8042,Katalysierte Reaktion: Grün,"Wenn entweder ein blaues oder ein gelbes Toxin mit diesem Katalysator reagiert, formt sich eine Wolke schaurigen Nebels, die in zufällige Richtungen wandert. Spielercharaktere, die in den Nebel geraten, erleiden $142945d lang pro Sekunde $142945s1 Naturschaden.
 
 Wenn Spielercharaktere in den Nebel geraten, werden sie durchgefroren. Dadurch erhöht sich der Schaden, den ihnen der schaurige Nebel zufügt, $144216d lang um $144216s1%.
 
-Jedes Mal, wenn ein Spielercharakter den Nebel betritt, wird dieser kleiner und verschwindet nach der dritten Verkleinerung.",853,58,8036,0,0,2,0,0,0,878219,2,0,0
+Jedes Mal, wenn ein Spielercharakter den Nebel betritt, wird dieser kleiner und verschwindet nach der dritten Verkleinerung.",853,58,8036,0,0,2,0,0,0,878219,2,4096,0
 8043,Hungrige Kunchongs,"Diese hungrigen Kunchongs werden von Kaz'tik dem Manipulator herbeigerufen. Jedes Mal, wenn ein Kunchong stirbt, ruft Kaz'tik ein weiteres herbei.",853,61,8010,8044,8050,1,44532,0,0,0,2,0,0
 8044,Verschlingen,"Sobald Kaz'tik der Manipulator 'Hypnotisieren' gegen einen Spielercharakter einsetzt, wird ein hungriger Kunchong ausgewählt, um sich an ihm satt zu fressen. Während der Kunchong frisst, erleidet das Ziel $142649s1 körperlichen Schaden und der Kunchong erhält pro Sekunde $142645s1 Energie. Wenn der Kunchong in der Zeit seiner Fütterung Schaden in Höhe von 30% seiner Maximalgesundheit erleidet, wird diese beendet und das Ziel ist nicht mehr von 'Hypnotisieren' betroffen.",853,62,8043,0,8045,2,0,0,0,615987,0,34,-1
 8045,Verschlingen,"Hungrige Kunchongs töten sofort jeden Spielercharakter, der ihnen zu nahe kommt. Dieser Vorgang füllt ihre Energiereserven komplett auf.",853,63,8043,0,8046,2,0,0,0,252996,0,16,-1
@@ -5110,7 +5109,7 @@ Nachdem Hisek das Anvisieren abgeschlossen hat, feuert er einen Strahl ab, der a
 Jede der Fähigkeiten der Getreuen kann nur von bestimmten Klassen verwendet werden.",853,9,8001,0,0,0,0,0,0,0,0,32,-1
 8075,Schnitt,"Spielercharaktere in einer Schadensrolle können diese Fähigkeit erhalten. Das Aktivieren der Fähigkeit lässt den Zaubernden eine bestimmte Entfernung nach vorne springen und alle Feinde im Umkreis von $142272A1 Metern des Einschlagsortes erleiden körperlichen Schaden.$[!14,15,16
 
-Wenn sich ein hungriger Kunchong mit einem dicken Panzer am Einschlagsort befindet, wird sein dicker Panzer neutralisiert.$]",853,77,8004,0,0,2,0,0,0,646377,2,2,0
+Wenn sich ein hungriger Kunchong mit einem dicken Panzer am Einschlagsort befindet, wird sein dicker Panzer neutralisiert.$]",853,77,8004,0,0,2,0,0,0,646377,2,4098,0
 8076,Medizinische Koryphäe,"Spielercharaktere in einer Heilerrolle können diese Fähigkeit erhalten. Sobald 'Medizinische Koryphäe' aktiviert wurde, hinterlässt jede Heilung in den nächsten $142598d einen 'Instabilen Umschlag' auf dem Ziel, der dem geheilten Wert entspricht. Das nächste Mal, wenn das Ziel Schaden nimmt, gibt der 'Instabile Umschlag' die gespeicherte Heilung frei und heilt das Ziel.",853,59,8009,0,0,2,0,0,0,878223,0,4,-1
 8077,Marionettenspieler,"Spielercharaktere in einer beliebigen Rolle können diese Fähigkeit erhalten. Sobald sie aktiviert wird, wird ein Kunchongjungtier herbeigerufen, das $146890d lang an der Seite des Spielers kämpft.",853,70,8010,0,0,2,0,0,0,878214,0,0,-1
 8078,Bernmeister,"Spielercharaktere in einer Schutzrolle können diese Fähigkeit erhalten. Wenn 'Bernmeister' aktiviert wird, umschließt sich der Zaubernde $142618d lang mit Bern. Solange ihn der Bern umschließt, ist er immun gegen jeglichen Schaden.",853,41,8011,0,0,2,0,0,0,516338,0,1,-1
@@ -5151,7 +5150,7 @@ Geschleuderter Bern zerstört den Bern, den Korven beschworen hat, um sich oder 
 8142,Rostiges Eisentotem,"Rostige Eisentotems verleihen Erdbrecher Haromm die Fähigkeit 'Eisengrab' und Wellenbinderin Kardris die Fähigkeit 'Eisengefängnis'. Die Dunkelschamanen stellen rostige Eisentotems auf, wenn ihre Gesundheit auf 95% fällt.",856,14,8124,0,0,1,49185,0,0,0,2,4096,0
 8143,Eisengrab,Erzeugt ein Eisengrab und fügt allen Spielercharakteren im Umkreis von $144334A2 Metern $144334s2 körperlichen Schaden zu. Diese Fähigkeit wird vom Rostigen Eisentotem gewährt.,856,21,8128,0,0,2,0,0,0,134385,2,4096,0
 8144,Eisengefängnis,"Schließt einen Spielercharakter in einem Eisengefängnis ein, das ihn langsam erstickt und ihm nach $144330d $144331s1% der maximalen Gesundheit als körperlichen Schaden zufügt. Diese Fähigkeit wird vom Rostigen Eisentotem gewährt.",856,30,8134,0,0,2,0,0,0,644388,2,4096,0
-8145,Rachsüchtige Schläge,Rook Steinzeh nimmt eine offensive Haltung ein. Er betäubt sein Ziel und verursacht in einem kegelförmigen Bereich vor sich $144396D lang zweimal pro Sekunde $144397s2 körperlichen Schaden.,849,17,7885,0,7887,2,0,0,0,651092,0,1,-1
+8145,Rachsüchtige Schläge,Rook Steinzeh nimmt eine offensive Haltung ein. Er betäubt sein Ziel und verursacht in einem kegelförmigen Bereich vor sich $144396D lang zweimal pro Sekunde $144397s2 körperlichen Schaden.,849,16,7885,0,7887,2,0,0,0,651092,0,1,-1
 8150,Inspirierender Gesang,"Chi-Ji singt ein inspirierendes Lied, das $144468d lang alle $144468t2 Sek. $144468s2% der maximalen Gesundheit heilt.",857,1,0,0,8151,2,0,0,0,237540,0,64,-1
 8151,Feuersturm,"Beschwört einen lodernden Wirbelsturm, der herumwandert und allen Spielercharakteren im Umkreis von $144462A1 Metern alle $144463t1 Sek. $144462s1 Feuerschaden zufügt.",857,2,0,0,8152,2,0,0,0,237588,0,0,-1
 8152,Flamme der Hoffnung,Chi-Ji erwählt einen Spielercharakter zur 'Flamme der Hoffnung'. Verringert $144473d lang den erlittenen Schaden für Verbündete in einem Umkreis von $144475A1 Metern um die 'Flamme der Hoffnung' um $144475s1%.,857,3,0,8153,8154,2,0,0,0,236247,0,32,-1
@@ -5387,8 +5386,8 @@ Wenn Garrosh 100 Energie erreicht, kann er statt 'Fesselnde Verzweiflung' jetzt 
 8329,Ausgeburt der Verzweiflung,"Die Ausgeburten der Verzweiflung sind im Tempel des Roten Kranichs zu finden. Sobald beide Ausgeburten der Verzweiflung besiegt sind, lässt Y'Shaarjs Schutz von Garrosh nach.",869,30,8305,8479,0,1,44651,0,0,0,0,0,-1
 8330,Verderbniskette,"Auf dem Schwierigkeitsgrad 'Heroisch' wird 'Verderbnisschock' durch 'Verderbniskette' ersetzt.
 
-Die Ausgeburt des Trübsinns schleudert einen verderbten Blitz auf einen Gegner. Der Blitz verursacht $145631s1 Naturschaden und springt auf Gegner im Umkreis von 10 Metern über.",849,15,8397,0,0,2,0,0,0,135990,3,72,0
-8331,Geteilte Qual,"Die Ausgeburt des Elends, die Ausgeburt des Kummers und die Ausgeburt des Trübsinns teilen sich ihre Gesundheit.",849,16,7956,0,0,2,0,0,0,236170,2,4096,0
+Die Ausgeburt des Trübsinns schleudert einen verderbten Blitz auf einen Gegner. Der Blitz verursacht $145631s1 Naturschaden und springt auf Gegner im Umkreis von 10 Metern über.",849,14,8397,0,0,2,0,0,0,135990,3,72,0
+8331,Geteilte Qual,"Die Ausgeburt des Elends, die Ausgeburt des Kummers und die Ausgeburt des Trübsinns teilen sich ihre Gesundheit.",849,15,7956,0,0,2,0,0,0,236170,2,4096,0
 8333,Eisige Angst,Das Amalgam fügt Spielercharakteren alle $145733t1 Sek. $145735s1 Frostschaden zu. Dieser Schaden erhöht sich mit sinkender Gesundheit des Amalgams.,866,14,8216,0,8413,2,0,0,0,636332,0,4,-1
 8334,Zusammenfassung,"Immerseus beginnt mit 100 Verderbnis, was als Ressourcenbalken angezeigt wird. Das Ziel der Begegnung ist, ihn zu reinigen, indem man seine Verderbnis auf 0 bringt. Jedes Mal, wenn Immerseus' Gesundheit 0 beträgt, wirkt er 'Teilung' und zerteilt sich in dunkle Sha-Tropfen und wässrige verseuchte Tropfen. Nach jeder Teilung wird sich Immerseus mit reduzierter Gesundheit und Verderbnis neu formen. Sein neuer Verderbniswert hängt davon ab, wie erfolgreich der Schlachtzug sich um die zwei Arten von Tropfen gekümmert hat. 
 
@@ -5461,7 +5460,7 @@ Die Explosion dieser Bomben kann andere Bomben, die am Boden liegen, entzünden 
 Diese Statue schlägt regelmäßig auf den Boden. Dadurch fügt sie allen Zielen in einem kegelförmigen Bereich vor ihr $145523s1 körperlichen Schaden zu und betäubt sie $145523D lang. Bleibt bestehen, bis sie getötet wird.",870,8,8352,0,8393,2,0,0,0,458241,1,32,-1
 8395,Ausgeburt des Elends,,849,8,7956,7958,8396,1,48920,0,0,0,0,1,-1
 8396,Ausgeburt des Kummers,,849,10,7956,7959,8397,1,48926,0,0,0,0,0,-1
-8397,Ausgeburt des Trübsinns,,849,13,7956,7957,8331,1,48922,0,0,0,0,0,-1
+8397,Ausgeburt des Trübsinns,,849,12,7956,7957,8331,1,48922,0,0,0,0,0,-1
 8398,Hebehaken,"Spielercharaktere können die Haken zum Heben von Kisten dazu verwenden, während des Kampfes vom unteren Stockwerk des Lagerhauses zur Hauptplattform zu gelangen.",870,69,0,0,0,2,0,0,0,134226,0,0,-1
 8399,Blütenpfad,"Stürmt auf ein entferntes Ziel zu und hinterlässt eine Spur feuriger Blüten, die bei Kontakt explodieren und allen Feinden im Umkreis von $146257A1 Metern $146257s1 Feuerschaden zufügen. Die Blüten bleiben für $146255D bestehen.
 
@@ -5479,18 +5478,17 @@ Jeder Spielercharakter, der durch 'Aura des Stolzes' Schaden erleidet, erhält 5
 8409,Überladener Raketenturm,"Wenn ein Erschütterungsraketenturm überladen ist, feuert er Erschütterungsraketen ab, die so lange aktiv bleiben und die Plattform mit Bohrern und seismischer Energie bearbeiten, bis sie von Spielercharakteren zerstört werden.",865,23,8204,0,0,2,0,0,0,839983,2,4096,0
 8410,Überladener Laserturm,"Wenn die Lasertürme von Belagerungsingenieur Rußschmied überladen sind, feuern sie einen geteilten Strahl ab, der drei konzentrische Kreise supererhitzten Bodens hinterlässt.",865,26,8208,0,0,2,0,0,0,839983,2,4096,0
 8411,Überladener Elektromagnet,"Wenn der Elektromagnet überladen ist, kehrt er regelmäßig seine Polarität um, wodurch er Spielercharaktere sowie Sägeblätter abwechselnd anzieht und wegstößt.",865,29,8210,0,0,2,0,0,0,839983,2,4096,0
-8412,Überladene Kriecherminen,"Wenn die Kriecherminen überladen sind, aktivieren sie eine Konstruktionsmatrix in ihrem Gehäuse. Diese Konstruktionsmatrix ermöglicht es ihnen, zwei neue Kriecherminen zu erschaffen, wenn sie zerstört werden.",865,34,8212,0,0,2,0,0,0,839983,2,0,0
+8412,Überladene Kriecherminen,"Wenn die Kriecherminen überladen sind, aktivieren sie eine Konstruktionsmatrix in ihrem Gehäuse. Diese Konstruktionsmatrix ermöglicht es ihnen, zwei neue Kriecherminen zu erschaffen, wenn sie zerstört werden.",865,34,8212,0,0,2,0,0,0,839983,2,4096,0
 8413,Zerfetzt,"Bei noch 50% verbleibender Gesundheit und jedes Mal, wenn es weitere 10% Gesundheit verloren hat, setzt das Amalgam der Verderbnis eine entfesselte Manifestation der Verderbnis frei.",866,15,8216,0,0,2,0,0,0,897135,0,32,-1
-8414,Brandverletzungen,Sekundärziele sind von Brandverletzungen betroffen und erleiden $144007d lang um $144007s1% erhöhten Schaden durch 'Infernostoß'.,849,12,7959,0,0,2,0,0,0,429590,3,8,0
-8415,Entkräftung,Das Mal der Pein schwächt Feinde und verringert ihre Rüstung $147383D lang um $147383s1%.,849,25,7940,0,0,2,0,0,0,651095,0,0,-1
+8415,Entkräftung,Das Mal der Pein schwächt Feinde und verringert ihre Rüstung $147383D lang um $147383s1%.,849,24,7940,0,0,2,0,0,0,651095,0,0,-1
 8417,Phase 1: Schießt sie ab!,"Kriegsfürstin Zaela schickt die besten Soldaten des Drachenmals in den Kampf. Zwei Wächter beschützen die Luftabwehrgeschütze in den Türmen. Wenn Spielercharaktere diese Wächter bezwingen, können sie sich der Luftabwehrgeschütze bemächtigen.
 
 Zwei gut abgepasste Schüsse mit den Luftabwehrgeschützen können Galakras vom Himmel holen.",868,5,0,8421,8418,0,0,0,0,0,1,0,-1
-8418,"Phase 2: Galakras, der Letzte seiner Art",,868,38,0,8420,0,0,0,0,0,0,1,0,-1
-8419,Pulsierende Flammen,Aus Galakras bricht glühender Zorn hervor und fügt allen Spielercharakteren $147043s1 Feuerschaden zu. Jeder Impuls erhöht den durch Galakras verursachten Feuerschaden um $147043s2%.,868,40,8418,0,0,2,0,0,0,524795,0,0,-1
+8418,"Phase 2: Galakras, der Letzte seiner Art",,868,37,0,8420,0,0,0,0,0,0,1,0,-1
+8419,Pulsierende Flammen,Aus Galakras bricht glühender Zorn hervor und fügt allen Spielercharakteren $147043s1 Feuerschaden zu. Jeder Impuls erhöht den durch Galakras verursachten Feuerschaden um $147043s2%.,868,39,8418,0,0,2,0,0,0,524795,0,0,-1
 8420,Flammen von Galakrond,"Galakras speit die 'Flammen von Galakrond' auf einen zufälligen Spielercharakter. Jeder Spielercharakter, den die Flammen berühren, erleidet alle $147029t1 Sek. $147029s1 Feuerschaden. Aber auf diese Weise schwindet nach und nach die Kraft der Flammen, so dass sich der verursachte Schaden mit jedem weiteren Spielercharakter verringert.
 
-Wenn die Flammenkugel ihr Ziel erreicht, explodiert sie und fügt allen Spielercharakteren $146992s1 Feuerschaden zu. Dieser Schaden wird ebenfalls durch jeden Spielercharakter verringert, der die Flammen berührt.",868,39,8418,0,8419,2,0,0,0,135822,0,32,-1
+Wenn die Flammenkugel ihr Ziel erreicht, explodiert sie und fügt allen Spielercharakteren $146992s1 Feuerschaden zu. Dieser Schaden wird ebenfalls durch jeden Spielercharakter verringert, der die Flammen berührt.",868,38,8418,0,8419,2,0,0,0,135822,0,32,-1
 8421,Hochrangige Offiziere,,868,6,8417,8422,8427,0,0,0,0,0,0,0,-1
 8422,Meisterkanonierin Dagryn,,868,7,8421,8446,8423,1,49341,0,0,0,0,0,-1
 8423,Generalleutnant Krugruk,,868,10,8421,8448,8424,1,51351,0,0,0,0,0,-1
@@ -5500,9 +5498,8 @@ Wenn die Flammenkugel ihr Ziel erreicht, explodiert sie und fügt allen Spielerc
 8427,Fußsoldaten,,868,21,8417,8428,8484,0,0,0,0,0,0,0,-1
 8428,Knochenbrecher des Drachenmals,"Diese tödlichen Krieger stürmen auf einen entfernten Fraktionsanführer zu und betäuben ihn. Während er betäubt ist, entfesseln sie eine Abfolge tödlicher Angriffe auf das Ziel.",868,22,8427,8488,8431,1,50968,0,0,0,0,33,-1
 8429,Flammenschütze des Drachenmals,"Diese treffsicheren Bogenschützen schießen mit brennenden Pfeilen auf zufällige Spielercharaktere. Der Effekt verursacht beim Einschlag Feuerschaden und verbrennt anschließend den Boden sowie alle Spielercharaktere, die sich in den Flammen aufhalten.",868,26,8427,0,8430,1,50970,0,0,0,0,0,-1
-8430,Grunzer des Drachenmals,Grunzer des Drachenmals stürzen sich in den Kampf und zerschmettern ihre Gegner mit verheerenden Schlägen. Außerdem schleudern sie gewaltige Äxte nach entfernten Gegnern.,868,27,8427,0,8432,1,50984,0,0,0,0,0,-1
+8430,Grunzer des Drachenmals,Grunzer des Drachenmals stürzen sich in den Kampf und zerschmettern ihre Gegner mit verheerenden Schlägen. Außerdem schleudern sie gewaltige Äxte nach entfernten Gegnern.,868,27,8427,0,8586,1,50984,0,0,0,0,0,-1
 8431,Gezeitenschamane des Drachenmals,"Die Gezeitenschamanen des Drachenmals heilen ihre Verbündeten und beschwören tosende Flutwellen herauf, die ihren Gegnern Schaden zufügen.",868,24,8427,8489,8429,1,50988,0,0,0,0,96,-1
-8432,Windhäscher des Drachenmals,Vom Rücken ihrer Protodrachen aus schleudern die Windhäscher des Drachenmals Äxte auf zufällige Spielercharaktere und fügen ihnen körperlichen Schaden zu. Sie werfen außerdem Netze auf zufällige Spielercharaktere und machen sie bewegungsunfähig.,868,28,8427,0,8586,1,50990,0,0,0,0,0,-1
 8433,Instabile Verderbnis,"Die Energie des Sha öffnet alle $147183t1 Sek. Verderbnisrisse. Jeder Riss verschießt alle $147389t1 Sek. einen Verderbnisblitz auf die Position eines zufälligen Spielercharakters. Spielercharaktere, die von einem Blitz getroffen werden, erleiden $147198s1 Schattenschaden und ihr Stolz erhöht sich um 5.
 
 Spielercharaktere können die Risse schließen, wodurch diese explodieren und allen Spielercharakteren im Umkreis von $147388A1 Metern $147388s1 Schattenschaden zufügen.
@@ -5547,7 +5544,7 @@ Spielercharaktere in einer Schutzrolle, die ihre aktiven Mitigationsfähigkeiten
 [Heroisch] Mutierte Opfer müssen diese Fähigkeit anwenden oder 'Fehlgeschlagene Mutation' endet tödlich.$]",853,24,8068,8473,0,2,0,0,0,236197,0,2,-1
 8473,Fehlgeschlagene Mutation,"[Heroisch] Mutierte Opfer erleiden eine 'Fehlgeschlagene Mutation'. Die Opfer sterben, wenn sie 'Beute' nicht auf einen Bernparasiten anwenden können, bevor 'Fehlgeschlagene Mutation' abläuft.",853,25,8472,0,0,2,0,0,0,878216,2,4112,0
 8474,Schnellfeuer,"Hisek feuert mehrere Salven in schneller Folge ab. Mit jeder weiteren Salve bewegen sich die Projektile etwas schneller. Spielercharaktere, die von Salven getroffen werden, erleiden pro Sekunde, die sie sich in einer Salve aufhalten, $143240s1 körperlichen Schaden.",853,29,8016,0,8073,2,0,0,0,132208,2,4096,0
-8475,Schnitt,"Kil'ruk springt auf einen zufälligen Spielercharakter zu und dreht sich auf der Stelle. Dadurch werden alle Spielercharaktere zu Kil'ruk gezogen und erleiden $148676d lang körperlichen Schaden. Der Schaden, den jeder Spielercharakter erleidet, solange 'Schnitt' gewirkt wird, verringert sich mit zunehmender Distanz von Kil'ruk.",853,76,8004,0,8075,2,0,0,0,132369,2,1,0
+8475,Schnitt,"Kil'ruk springt auf einen zufälligen Spielercharakter zu und dreht sich auf der Stelle. Dadurch werden alle Spielercharaktere zu Kil'ruk gezogen und erleiden $148676d lang körperlichen Schaden. Der Schaden, den jeder Spielercharakter erleidet, solange 'Schnitt' gewirkt wird, verringert sich mit zunehmender Distanz von Kil'ruk.",853,76,8004,0,8075,2,0,0,0,132369,2,4097,0
 8476,Aufgeladene Verteidigungsmatrix,"Falls es drei Waffen über das Fabrikationsband in Rußschmieds Montagemaschine schaffen, überlädt diese und verwendet die überschüssige Energie, um die Verteidigungssysteme von Rußschmieds Anzug zu aktivieren und so den von ihm erlittenen Schaden $148990d lang um $148990s1% zu verringern.",865,12,8194,0,0,2,0,0,0,252184,3,0,0
 8477,Verschlungener Mut,Das Bezwingen einer Ausgeburt der Angst setzt 'Mut' frei. 'Mut' verringert den erlittenen Schaden um $148983s1%.,869,25,8327,0,8577,2,0,0,0,135939,0,0,-1
 8478,Verschlungene Zuversicht,Das Bezwingen einer Ausgeburt des Zweifels setzt 'Zuversicht' frei. 'Zuversicht' verringert den erlittenen Schaden um $148994s1%. Dieser Effekt ist stapelbar.,869,28,8328,0,8578,2,0,0,0,135939,0,0,-1
@@ -5555,17 +5552,17 @@ Spielercharaktere in einer Schutzrolle, die ihre aktiven Mitigationsfähigkeiten
 8480,Ätherische Verderbnis,"Im verderbten Reich des Sha lauert 'Ätherische Verderbnis'. Jeder Spielercharakter, der damit in Berührung kommt, wird sofort getötet.",867,23,8259,0,0,2,0,0,0,897134,0,16,-1
 8481,Pheromonwolke,"Verursacht pro Sekunde $148760s1 Naturschaden, solange der Zaubernde am Leben ist.",870,21,8353,0,0,2,0,0,0,135867,1,0,-1
 8482,Üble Verbindung,"Kreaturen, die durch die Prüfung der Gelassenheit freigesetzt werden, duplizieren ihren Schaden auf das Amalgam der Verderbnis.",866,33,8231,0,8232,2,0,0,0,607854,1,0,-1
-8484,Verbündete,,868,32,8417,8485,0,0,0,0,0,0,0,0,-1
-8485,Fürstin Sylvanas Windläufer,"Fürstin Sylvanas Windläufer schießt zielgenau auf ihre Feinde und erweckt gelegentlich Tote zum Leben, die ihr im Kampf zur Seite stehen.",868,33,8484,0,8486,1,50181,0,0,0,0,0,-1
-8486,Erzmagier Aethas Sonnenhäscher,,868,34,8484,8487,8490,1,51607,0,0,0,0,32,-1
-8487,Flammenstoß,"Aethas löst einen Flammenschlag aus, der $148848d lang anhält und Gegnern im Zielgebiet alle $146787t1 Sek. $147431s1 Feuerschaden zufügt.",868,35,8486,0,0,2,0,0,0,451164,0,32,-1
+8484,Verbündete,,868,31,8417,8485,0,0,0,0,0,0,0,0,-1
+8485,Fürstin Sylvanas Windläufer,"Fürstin Sylvanas Windläufer schießt zielgenau auf ihre Feinde und erweckt gelegentlich Tote zum Leben, die ihr im Kampf zur Seite stehen.",868,32,8484,0,8486,1,50181,0,0,0,0,0,-1
+8486,Erzmagier Aethas Sonnenhäscher,,868,33,8484,8487,8490,1,51607,0,0,0,0,32,-1
+8487,Flammenstoß,"Aethas löst einen Flammenschlag aus, der $148848d lang anhält und Gegnern im Zielgebiet alle $146787t1 Sek. $147431s1 Feuerschaden zufügt.",868,34,8486,0,0,2,0,0,0,451164,0,32,-1
 8488,Fraktur,"Der Knochenbrecher des Drachenmals stürmt auf einen Fraktionsanführer zu, betäubt ihn und fügt ihm alle $t1 Sek. Schaden in Höhe von $146901s1% seiner Gesundheit zu.",868,23,8428,0,0,2,0,0,0,132152,0,33,-1
 8489,Totem der Heilungsflut,"Der Gezeitenschamane des Drachenmals beschwört ein Totem zu seinen Füßen, das Verbündete in der Nähe $146754d lang alle $146754t1 Sek. um $146755s1% ihrer maximalen Gesundheit heilt.",868,25,8431,0,0,2,0,0,0,538569,0,32,-1
-8490,Lor'themar Theron,"Lor'themar kämpft leidenschaftlich und bedrängt Feinde mit seiner Klinge, dem Großschwert der Sin'dorei. Versprengte Feinde nimmt er mit seinem verzauberten Bogen aufs Korn.",868,36,8484,0,8535,1,17122,0,0,0,0,0,-1
-8532,Flaggenträger des Drachenmals,"Flaggenträger des Drachenmals inspirieren alle Verbündeten innerhalb von 15 Metern, indem sie ein Banner aufstellen, das das Nahkampfangriffs-, Distanzangriffs- und Zaubertempo um $146735s1% erhöht. Weiterhin erhöht es den verursachten Schaden aller Verbündeten im Umkreis von 15 Metern um $146735s3%. Diese Effekte halten $146735d lang an.",868,30,8427,0,8533,1,50979,0,0,0,0,0,-1
-8533,Verwüster der Kor'kron,"Kriegsfürstin Zaela setzt ihre Belagerungsmaschinen gegen ihre eigenen Türme ein und bombardiert alle, die sich in ihnen befinden. 'Bombardieren' verursacht $148311s1 körperlichen Schaden und stößt Spielercharaktere innerhalb des bombardierten Turms zu Boden.",868,31,8427,0,0,1,51007,0,0,0,0,0,-1
+8490,Lor'themar Theron,"Lor'themar kämpft leidenschaftlich und bedrängt Feinde mit seiner Klinge, dem Großschwert der Sin'dorei. Versprengte Feinde nimmt er mit seinem verzauberten Bogen aufs Korn.",868,35,8484,0,8535,1,17122,0,0,0,0,0,-1
+8532,Flaggenträger des Drachenmals,"Flaggenträger des Drachenmals inspirieren alle Verbündeten innerhalb von 15 Metern, indem sie ein Banner aufstellen, das das Nahkampfangriffs-, Distanzangriffs- und Zaubertempo um $146735s1% erhöht. Weiterhin erhöht es den verursachten Schaden aller Verbündeten im Umkreis von 15 Metern um $146735s3%. Diese Effekte halten $146735d lang an.",868,29,8427,0,8533,1,50979,0,0,0,0,0,-1
+8533,Verwüster der Kor'kron,"Kriegsfürstin Zaela setzt ihre Belagerungsmaschinen gegen ihre eigenen Türme ein und bombardiert alle, die sich in ihnen befinden. 'Bombardieren' verursacht $148311s1 körperlichen Schaden und stößt Spielercharaktere innerhalb des bombardierten Turms zu Boden.",868,30,8427,0,0,1,51007,0,0,0,0,0,-1
 8534,Blutrote Säure,"Fügt den Pfützen von 'Blutrote Rekonstitution' eine aggressive Säure hinzu. Alle Spielercharaktere, die in den Pfützen verweilen, erleiden pro Sekunde $149280s1 Feuerschaden.",870,27,8372,0,0,0,0,0,0,0,3,4096,0
-8535,Sprengtrupp,"Der Sprengtrupp wird versuchen, die Zugänge zu den Luftabwehrtürmen freizumachen. Wenn sie nicht beschützt werden, kann das Aufsprengen der Türen gestoppt werden.",868,37,8484,0,0,1,51428,0,0,0,2,4096,0
+8535,Sprengtrupp,"Der Sprengtrupp wird versuchen, die Zugänge zu den Luftabwehrtürmen freizumachen. Wenn sie nicht beschützt werden, kann das Aufsprengen der Türen gestoppt werden.",868,36,8484,0,0,1,51428,0,0,0,2,4096,0
 8537,Phase 1: Schießt sie ab!,"Kriegsfürstin Zaela schickt die besten Soldaten des Drachenmals in den Kampf. Zwei Wächter beschützen die Luftabwehrgeschütze in den Türmen. Wenn Spielercharaktere diese Wächter bezwingen, können sie sich der Luftabwehrgeschütze bemächtigen.
 
 Zwei gut abgepasste Schüsse mit den Luftabwehrgeschützen können Galakras vom Himmel holen.",881,5,0,8538,8573,0,0,0,0,0,1,0,-1
@@ -5592,34 +5589,33 @@ Anschließend bäumt sich Thranok auf, um einen wilden Angriff, 'Schädelspalter
 8556,Gezeitenschamane des Drachenmals,"Die Gezeitenschamanen des Drachenmals heilen ihre Verbündeten und beschwören tosende Flutwellen herauf, die ihren Gegnern Schaden zufügen.",881,24,8553,8557,8558,1,50988,0,0,0,0,96,-1
 8557,Totem der Heilungsflut,"Der Gezeitenschamane des Drachenmals beschwört ein Totem zu seinen Füßen, das Verbündete in der Nähe $146754d lang alle $146754t1 Sek. um $146755s1% ihrer maximalen Gesundheit heilt.",881,25,8556,0,0,2,0,0,0,538569,0,32,-1
 8558,Flammenschütze des Drachenmals,"Diese treffsicheren Bogenschützen schießen mit brennenden Pfeilen auf zufällige Spielercharaktere. Der Effekt verursacht beim Einschlag Feuerschaden und verbrennt anschließend den Boden sowie alle Spielercharaktere, die sich in den Flammen aufhalten.",881,26,8553,0,8559,1,50970,0,0,0,0,0,-1
-8559,Grunzer des Drachenmals,Grunzer des Drachenmals waten in den Kampf und zerschmettern ihre Gegner mit verheerenden Schlägen. Außerdem schleudern sie eine gewaltige Axt nach entfernten Gegnern.,881,27,8553,0,8560,1,50984,0,0,0,0,0,-1
-8560,Windhäscher des Drachenmals,Vom Rücken ihrer Protodrachen aus schleudern die Windhäscher des Drachenmals Äxte auf zufällige Spielercharaktere und fügen ihnen körperlichen Schaden zu. Sie werfen außerdem Netze auf zufällige Spielercharaktere und machen sie bewegungsunfähig.,881,28,8553,0,8587,1,50990,0,0,0,0,0,-1
-8561,Flaggenträger des Drachenmals,"Flaggenträger des Drachenmals inspirieren alle Verbündeten innerhalb von 15 Metern, indem sie ein Banner aufstellen, das das Nahkampfangriffs-, Distanzangriffs- und Zaubertempo um $146735s1% erhöht. Weiterhin erhöht es den verursachten Schaden aller Verbündeten im Umkreis von 15 Metern um $146735s3%. Diese Effekte halten $146735d lang an.",881,30,8553,0,8562,1,50979,0,0,0,0,0,-1
-8562,Verwüster der Kor'kron,"Kriegsfürstin Zaela setzt ihre Belagerungsmaschinen gegen ihre eigenen Türme ein und bombardiert alle, die sich in ihnen befinden. 'Bombardieren' verursacht $148311s1 körperlichen Schaden und stößt Spielercharaktere innerhalb des bombardierten Turms zu Boden.",881,31,8553,0,0,1,51007,0,0,0,0,0,-1
-8563,Verbündete,,881,32,8537,8568,0,0,0,0,0,0,0,0,-1
-8568,Lady Jaina Prachtmeer,,881,33,8563,8569,8570,1,51610,0,0,0,1,32,-1
-8569,Blizzard,"Jaina ruft einen Blizzard herbei, der $147431d lang anhält und Gegnern im Zielgebiet alle $147431t1 Sek. $147431s1 Frostschaden zufügt.",881,34,8568,0,0,2,0,0,0,135857,0,32,-1
-8570,Vereesa Windläufer,Vereesa Windläufer schießt zielgenau auf ihre Feinde und trifft dabei gelegentlich mehrere Ziele.,881,35,8563,0,8571,1,51609,0,0,0,0,0,-1
-8571,König Varian Wrynn,"König Varian Wrynn verheert seine Feinde mit einem Schwerthagel. Gelegentlich verspottet er seine Feinde, um sie in einen Kampf Angesicht zu Angesicht zu verwickeln.",881,36,8563,0,8572,1,28127,0,0,0,0,0,-1
-8572,Sprengtrupp,"Der Sprengtrupp wird versuchen, die Zugänge zu den Luftabwehrtürmen freizumachen. Wenn sie nicht beschützt werden, kann das Aufsprengen der Türen gestoppt werden.",881,37,8563,0,0,1,51383,0,0,0,2,4096,0
-8573,"Phase 2: Galakras, der Letzte seiner Art",,881,38,0,8574,0,0,0,0,0,0,1,0,-1
+8559,Grunzer des Drachenmals,Grunzer des Drachenmals waten in den Kampf und zerschmettern ihre Gegner mit verheerenden Schlägen. Außerdem schleudern sie eine gewaltige Axt nach entfernten Gegnern.,881,27,8553,0,8587,1,50984,0,0,0,0,0,-1
+8561,Flaggenträger des Drachenmals,"Flaggenträger des Drachenmals inspirieren alle Verbündeten innerhalb von 15 Metern, indem sie ein Banner aufstellen, das das Nahkampfangriffs-, Distanzangriffs- und Zaubertempo um $146735s1% erhöht. Weiterhin erhöht es den verursachten Schaden aller Verbündeten im Umkreis von 15 Metern um $146735s3%. Diese Effekte halten $146735d lang an.",881,29,8553,0,8562,1,50979,0,0,0,0,0,-1
+8562,Verwüster der Kor'kron,"Kriegsfürstin Zaela setzt ihre Belagerungsmaschinen gegen ihre eigenen Türme ein und bombardiert alle, die sich in ihnen befinden. 'Bombardieren' verursacht $148311s1 körperlichen Schaden und stößt Spielercharaktere innerhalb des bombardierten Turms zu Boden.",881,30,8553,0,0,1,51007,0,0,0,0,0,-1
+8563,Verbündete,,881,31,8537,8568,0,0,0,0,0,0,0,0,-1
+8568,Lady Jaina Prachtmeer,,881,32,8563,8569,8570,1,51610,0,0,0,1,32,-1
+8569,Blizzard,"Jaina ruft einen Blizzard herbei, der $147431d lang anhält und Gegnern im Zielgebiet alle $147431t1 Sek. $147431s1 Frostschaden zufügt.",881,33,8568,0,0,2,0,0,0,135857,0,32,-1
+8570,Vereesa Windläufer,Vereesa Windläufer schießt zielgenau auf ihre Feinde und trifft dabei gelegentlich mehrere Ziele.,881,34,8563,0,8571,1,51609,0,0,0,0,0,-1
+8571,König Varian Wrynn,"König Varian Wrynn verheert seine Feinde mit einem Schwerthagel. Gelegentlich verspottet er seine Feinde, um sie in einen Kampf Angesicht zu Angesicht zu verwickeln.",881,35,8563,0,8572,1,28127,0,0,0,0,0,-1
+8572,Sprengtrupp,"Der Sprengtrupp wird versuchen, die Zugänge zu den Luftabwehrtürmen freizumachen. Wenn sie nicht beschützt werden, kann das Aufsprengen der Türen gestoppt werden.",881,36,8563,0,0,1,51383,0,0,0,2,4096,0
+8573,"Phase 2: Galakras, der Letzte seiner Art",,881,37,0,8574,0,0,0,0,0,0,1,0,-1
 8574,Flammen von Galakrond,"Galakras speit die 'Flammen von Galakrond' auf einen zufälligen Spielercharakter. Jeder Spielercharakter, den die Flammen berühren, erleidet alle $147029t1 Sek. $147029s1 Feuerschaden. Aber auf diese Weise schwindet nach und nach die Kraft der Flammen, sodass sich der verursachte Schaden mit jedem weiteren Spielercharakter verringert.
 
-Wenn die Flammenkugel ihr Ziel erreicht, explodiert sie und fügt allen Spielercharakteren $146992s1 Feuerschaden zu. Dieser Schaden wird ebenfalls durch jeden Spielercharakter verringert, der die Flammen berührt.",881,39,8573,0,8575,2,0,0,0,135822,0,32,-1
-8575,Pulsierende Flammen,Aus Galakras bricht glühender Zorn hervor und fügt allen Spielercharakteren $147043s1 Feuerschaden zu. Jeder Impuls erhöht den durch Galakras verursachten Feuerschaden um $147043s2%.,881,40,8573,0,0,2,0,0,0,524795,0,0,-1
+Wenn die Flammenkugel ihr Ziel erreicht, explodiert sie und fügt allen Spielercharakteren $146992s1 Feuerschaden zu. Dieser Schaden wird ebenfalls durch jeden Spielercharakter verringert, der die Flammen berührt.",881,38,8573,0,8575,2,0,0,0,135822,0,32,-1
+8575,Pulsierende Flammen,Aus Galakras bricht glühender Zorn hervor und fügt allen Spielercharakteren $147043s1 Feuerschaden zu. Jeder Impuls erhöht den durch Galakras verursachten Feuerschaden um $147043s2%.,881,39,8573,0,0,2,0,0,0,524795,0,0,-1
 8576,Entschlossenheit der Getreuen,"Jedes Mal, wenn ein Getreuer der Klaxxi besiegt wurde, werden alle anderen aktiven Getreuen der Klaxxi komplett geheilt.
-Alle aktiven Getreuen erhalten einen stapelbaren Bonus, der ihren Schaden alle 50 Sek. um $143482s1% erhöht.",853,7,8001,0,8003,2,0,0,0,646377,2,0,0
-8577,Zermürbende Angst,In der Terrasse des Endlosen Frühlings werden zufällige Feinde mit 'Zermürbende Angst' belegt. 'Zermürbende Angst' verursacht $147324s1 Schattenschaden und versetzt Gegner innerhalb von $147324A1 Metern für $147324d in Angst und Schrecken.,869,26,8327,0,0,2,0,0,0,651097,2,0,0
-8578,Ausgeburt des Zweifels,Jede Ausgeburt des Zweifels im Tempel der Jadeschlange wirkt 'Ausgeburt des Zweifels' und fügt so allen Gegnern im Reich von Y'Shaarj $149347s1 Schattenschaden zu. Erhöht den durch die Ausgeburt des Zweifels erlittenen Schaden um $149347s2%. Dieser Effekt ist stapelbar.,869,29,8328,0,0,2,0,0,0,651092,2,0,0
-8579,Ultimative Verzweiflung,"Das Bezwingen einer Ausgeburt der Verzweiflung führt dazu, dass die verbleibenden Ausgeburten 'Ultimative Verzweiflung' wirken. Verursacht $147342s1 Schattenschaden und erhöht den durch 'Ultimative Verzweiflung' erlittenen Schaden um $147342s2%. Dieser Effekt ist stapelbar.",869,32,8329,0,0,2,0,0,0,895887,2,0,0
+Alle aktiven Getreuen erhalten einen stapelbaren Bonus, der ihren Schaden alle 50 Sek. um $143482s1% erhöht.",853,7,8001,0,8003,2,0,0,0,646377,2,4096,0
+8577,Zermürbende Angst,In der Terrasse des Endlosen Frühlings werden zufällige Feinde mit 'Zermürbende Angst' belegt. 'Zermürbende Angst' verursacht $147324s1 Schattenschaden und versetzt Gegner innerhalb von $147324A1 Metern für $147324d in Angst und Schrecken.,869,26,8327,0,0,2,0,0,0,651097,2,4096,0
+8578,Ausgeburt des Zweifels,Jede Ausgeburt des Zweifels im Tempel der Jadeschlange wirkt 'Ausgeburt des Zweifels' und fügt so allen Gegnern im Reich von Y'Shaarj $149347s1 Schattenschaden zu. Erhöht den durch die Ausgeburt des Zweifels erlittenen Schaden um $149347s2%. Dieser Effekt ist stapelbar.,869,29,8328,0,0,2,0,0,0,651092,2,4096,0
+8579,Ultimative Verzweiflung,"Das Bezwingen einer Ausgeburt der Verzweiflung führt dazu, dass die verbleibenden Ausgeburten 'Ultimative Verzweiflung' wirken. Verursacht $147342s1 Schattenschaden und erhöht den durch 'Ultimative Verzweiflung' erlittenen Schaden um $147342s2%. Dieser Effekt ist stapelbar.",869,32,8329,0,0,2,0,0,0,895887,2,4096,0
 8580,Blutraserei,"'Blutraserei' bringt die Kriegshetzer der Kor'kron dazu, Feinde in der Nähe anzugreifen.",869,12,8292,0,0,2,0,0,0,135726,2,4096,0
 8581,Er hat sich losgerissen!,,851,15,7961,8582,0,0,0,0,0,0,2,4096,0
 8582,Ausgehungerter Yeti,,851,16,8581,8583,8584,1,51403,0,0,0,0,0,-1
 8583,Abrissbirne,"Der ausgehungerte Yeti stürmt auf einen zufälligen Bereich zu. Dabei fügt er allen Spielercharakteren, die sich in seinem Weg befinden, $148143s1 körperlichen Schaden zu und stößt sie zurück.",851,17,8582,0,0,2,0,0,0,252185,0,0,-1
 8584,Gefangene Höhlenfledermaus,,851,18,8581,8585,0,1,51444,0,0,0,0,0,-1
 8585,Vampirraserei,Eine zufällige Höhlenfledermaus gerät in eine Vampirraserei. Dabei fügt sie allen Feinden $147978s1 körperlichen Schaden zu. Ein Teil dieses Schadens wird dem Zaubernden als Gesundheit zugeführt.,851,19,8584,0,0,2,0,0,0,136231,1,0,-1
-8586,Protodrache des Drachenmals,Protodrachen des Drachenmals kanalisieren in einem kegelförmigen Bereich vor sich Flammen auf ihre Gegner.,868,29,8427,0,8532,1,51501,0,0,0,0,0,-1
-8587,Protodrache des Drachenmals,Protodrachen des Drachenmals kanalisieren in einem kegelförmigen Bereich vor sich Flammen auf ihre Gegner.,881,29,8553,0,8561,1,51501,0,0,0,0,0,-1
+8586,Protodrache des Drachenmals,Protodrachen des Drachenmals kanalisieren in einem kegelförmigen Bereich vor sich Flammen auf ihre Gegner.,868,28,8427,0,8532,1,51501,0,0,0,0,0,-1
+8587,Protodrache des Drachenmals,Protodrachen des Drachenmals kanalisieren in einem kegelförmigen Bereich vor sich Flammen auf ihre Gegner.,881,28,8553,0,8561,1,51501,0,0,0,0,0,-1
 8620,Gog'duh,,893,6,9292,8630,0,1,51923,0,0,0,1,0,-1
 8621,Magmolatus,Magmolatus greift Spielercharaktere mit einer wilden Kombination aus Erde und Feuer an.,893,16,9293,8634,0,1,52033,0,0,0,1,0,-1
 8622,"Verwüstung, Diener der Erde",,893,8,8620,8624,8626,1,17461,0,0,0,1,0,-1

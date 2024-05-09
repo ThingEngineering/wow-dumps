@@ -3423,7 +3423,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 每次使用傷害提高[FormatDamage(5*AttackBonus())]點。最高為[FormatDamage(30 *AttackBonus())]點[School()]傷害。",461859,6,0,0,0
 2378,聖光光束,"[StandardAccuracy(1,1)] |cffffffff命中機率|r
 
-對敵方的前排寵物造成[StandardDamage(1,1)]點[School()]傷害，並且對敵方的後排寵物造成[StandardDamage(1,2)]點[School()]傷害。對所有盟友回復[StandardHealing(1,1)]點生命力。",525026,5,4,0,0
+對敵方啟用的寵物造成[StandardDamage(1,1)]點[School()]傷害，並對敵方後排寵物造成[StandardDamage(1,2)]點[School()]傷害。為所有盟友回復[StandardHealing(1,1)]點生命力。",525026,5,4,0,0
 2379,知識盤旋 - 光環,格擋接下來2次攻擊，但施法者會被鎖在原地做研究，持續1回合。,134917,5,0,1179,2
 2380,留步聽故事,"[StandardAccuracy(1,1)] |cffffffff命中機率|r
 
@@ -3573,7 +3573,7 @@ Apply an aura of reflection to the enemy team, causing them to suffar damage equ
 對敵人發射彈幕1-2次，每次擊中造成[StandardDamage(1,1)]點[School()]傷害。
 
 若使用者先發動攻擊，再額外打擊一次。",236221,5,0,0,0
-2435,法力閃焰,"每次你受到直接傷害時，會對敵人造成[StandardDamage(1,1,944)]點[School()]傷害。
+2435,法力閃焰,"每次你受到直接傷害時，會對敵人造成[StandardDamage(1,1,2436)]點[School()]傷害。
 
 持續[duration(1,1)]輪。",136115,5,3,0,0
 2436,法力閃焰,"每次你受到直接傷害時，會對敵人造成[FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]點[School()]傷害。",136115,5,0,0,0

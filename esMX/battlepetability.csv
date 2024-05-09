@@ -3430,7 +3430,7 @@ Azota al enemigo con luz sagrada que inflige [StandardDamage(1,1)] p. de daño [
 El daño aumenta [FormatDamage(5*AttackBonus())] p. cada vez que se usa. Puede infligir un máximo de [FormatDamage(30 *AttackBonus())] p. de daño [School()].",461859,6,0,0,0
 2378,Rayos de luz,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Inflige [StandardDamage(1,1)] p. de daño [School()] a la mascota activa del enemigo y [StandardDamage(1,2)] p. de daño [School()] mascotas de reserva del enemigo. Restaura [StandardHealing(1,1)] p. de salud a todos los aliados.",525026,5,4,0,0
+Inflige [StandardDamage(1,1)] p. de daño [School()] a la mascota activa del enemigo y [StandardDamage(1,2)] p. de daño [School()] a las mascotas de reserva del enemigo. Restaura [StandardHealing(1,1)] p. de salud a todos los aliados.",525026,5,4,0,0
 2379,Conocimiento abrumador - Aura,"Bloquea los próximos 2 ataques, pero el taumaturgo queda inmovilizado investigando durante 1 turno.",134917,5,0,1179,2
 2380,Quédate aquí y escucha,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
@@ -3578,7 +3578,7 @@ Un ataque vengativo que inflige un daño de [petTypeName(abilityPetType())] equi
 Golpea al enemigo 1-2 veces y le inflige [StandardDamage(1,1)] p. de daño [School()] por golpe.
 
 Golpea una vez más si el usuario ataca primero.",236221,5,0,0,0
-2435,Bengala de maná,"Inflige [StandardDamage(1,1,944)] p. de daño [School()] cada vez que recibes daño directo.
+2435,Bengala de maná,"Inflige [StandardDamage(1,1,2436)] p. de daño [School()] cada vez que recibes daño directo.
 
 Dura [duration(1,1)] |4ronda:rondas;.",136115,5,3,0,0
 2436,Bengala de maná,"Inflige [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] p. de daño de [School()] cada vez que recibes daño directo.",136115,5,0,0,0
