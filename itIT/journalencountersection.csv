@@ -3776,12 +3776,12 @@ Quando la tempesta termina, restano alcuni Venti Impetuosi.",817,16,6866,6878,69
 6880,Ferita Grave,Le vittime di Ferita Grave ricevono cure ridotte del $133767s1% per accumulo.,818,2,6879,0,6881,2,0,0,0,236158,0,4,-1
 6881,Taglio Arterioso,Le vittime di Taglio Arterioso subiscono $133768s1 danni fisici ogni secondo finché non ne viene rigenerata al massimo la salute.,818,3,6879,0,0,2,0,0,0,136124,0,4,-1
 6882,Raggio Disintegratore,"Durumu concentra il suo sguardo in un raggio di pura distruzione di fronte a sé. I personaggi colpiti dal raggio muoiono all'istante. Mentre si concentra, Durumu si volta lentamente in una direzione casuale e il suo Occhio Incrociato crea una nebbia scura sulla piattaforma.",818,5,0,6883,6889,2,0,0,0,463521,0,16,-1
-6883,Occhio Incrociato,"L'Occhio Incrociato di Durumu, quando canalizza Raggio Disintegratore, crea una nebbia scura sulla piattaforma.",818,6,6882,6901,6902,1,47498,0,0,0,0,0,-1
-6884,Occhio della Mente,Durumu evoca un Occhio della Mente che lancia periodicamente Forza di Volontà.,818,31,0,6905,6885,1,47498,0,0,0,0,0,-1
-6885,Occhio Bramoso,Durumu evoca un Occhio Bramoso che lancia Risucchio di Vita sui personaggi.,818,34,0,6906,6886,1,47498,0,0,0,0,0,-1
-6886,Occhio Malvagio,L'Occhio Malvagio di Durumu lancia periodicamente Parassita Oscuro sui personaggi.,818,36,0,6907,6887,1,47498,0,0,0,2,12,12
-6887,Occhio Scrutatore,Durumu evoca un Occhio Scrutatore che lancia Sguardo Persistente sui personaggi.,818,41,0,6911,7865,1,47498,0,0,0,0,0,-1
-6889,Mura di Ghiaccio,Durumu evoca tre muri di ghiaccio per bloccare i personaggi che cercano di muoversi sulla piattaforma. Le singole sezioni di mura di ghiaccio condividono la salute e si frantumeranno se danneggiate a sufficienza.,818,12,0,0,6891,2,0,0,0,517161,2,8,12
+6883,Occhio Incrociato,"L'Occhio Incrociato di Durumu, quando canalizza Raggio Disintegratore, crea una nebbia scura sulla piattaforma.",818,6,6882,6901,7858,1,47498,0,0,0,0,0,-1
+6884,Occhio della Mente,Durumu evoca un Occhio della Mente che lancia periodicamente Forza di Volontà.,818,28,0,6905,6885,1,47498,0,0,0,0,0,-1
+6885,Occhio Bramoso,Durumu evoca un Occhio Bramoso che lancia Risucchio di Vita sui personaggi.,818,31,0,6906,6886,1,47498,0,0,0,0,0,-1
+6886,Occhio Malvagio,L'Occhio Malvagio di Durumu lancia periodicamente Parassita Oscuro sui personaggi.,818,33,0,6907,6887,1,47498,0,0,0,2,12,12
+6887,Occhio Scrutatore,Durumu evoca un Occhio Scrutatore che lancia Sguardo Persistente sui personaggi.,818,38,0,6911,7865,1,47498,0,0,0,0,0,-1
+6889,Mura di Ghiaccio,Durumu evoca tre muri di ghiaccio per bloccare i personaggi che cercano di muoversi sulla piattaforma. Le singole sezioni di mura di ghiaccio condividono la salute e si frantumeranno se danneggiate a sufficienza.,818,9,0,0,6891,2,0,0,0,517161,2,8,12
 6890,Sguardo,"Se Durumu non ha un bersaglio a portata di mischia, lancia Sguardo su tutti i personaggi, infliggendo il $134029s1% dei danni dell'arma come danni fisici.",818,4,0,0,6882,2,0,0,0,132284,0,0,-1
 6891,Spettro Cromatico,"Durumu genera un Occhio Blu, un Occhio Rosso e un Occhio Giallo che lanciano tre raggi colorati su dei personaggi casuali. Una volta che i raggi iniziali sono terminati, l'Occhio Blu e l'Occhio Rosso concentrano un cono di luce sullo stesso bersaglio iniziale per tutta la durata della sequenza di Spettro Cromatico. L'Occhio Giallo ignora il suo bersaglio iniziale e muove il suo cono di luce in una direzione casuale.
 
@@ -3791,33 +3791,28 @@ Ogni cono rivela una creatura specifica, normalmente invisibile.
 
 $[!3,4,5,6 I coni persistono finché i personaggi non hanno individuato e sconfitto tutte le Nebbie Cremisi.$]$[!7 In modalità Ricerca delle Incursioni, i coni persistono finché i personaggi non hanno individuato e sconfitto una Nebbia di ciascun colore.$]
 
-$[!5,6 In modalità Eroica, se i personaggi non riescono a completare la sequenza di Spettro Cromatico in 80 s, Durumu lancia Disintegrazione.$]",818,13,0,7819,6884,2,0,0,0,134139,0,32,-1
-6892,Nebbia Cremisi,Le Nebbie Cremisi sono individuabili solo con il cono di Luce Rossa dell'Occhio Rosso.,818,20,6891,6894,6895,1,47140,0,0,0,0,2,-1
-6893,Fiore Cremisi,"Se una Nebbia Cremisi lascia il cono di Luce Rossa, lancia Fiore Cremisi, infliggendo $136122s1 danni da fuoco a tutti i personaggi.",818,22,6892,0,0,2,0,0,0,135265,0,0,-1
-6894,Aculeo Corrosivo,"Le Nebbie Cremisi, mentre sono individuate dal cono di Luce Rossa, lanciano Aculeo Corrosivo su un personaggio casuale, infliggendo $136154s1 danni fisici.",818,21,6892,0,6893,2,0,0,0,629526,0,0,-1
-6895,Nebbia d'Ambra,Le Nebbie d'Ambra sono individuabili solo con il cono di Luce Gialla dell'Occhio Gialla.,818,23,6891,6896,6898,1,47141,0,0,0,2,2,28
-6896,Rappresaglia d'Ambra,"Le Nebbie d'Ambra lanciano Rappresaglia d'Ambra ogni 10% di salute persa, infliggendo $136175s1 danni da natura a tutti i personaggi entro il cono di Luce Gialla.",818,24,6895,0,6897,2,0,0,0,629527,0,4,-1
-6897,Esplosione d'Ambra,"Se una Nebbia d'Ambra lascia il cono di Luce Gialla, lancia Esplosione d'Ambra, infliggendo $136123s1 danni da natura a tutti i personaggi.",818,25,6895,0,0,2,0,0,0,646670,0,4,-1
-6898,Nebbia Azzurra,Le Nebbie Azzurre sono individuabili solo con il cono di Luce Blu dell'Occhio Blu.,818,26,6891,6899,0,1,47142,0,0,0,0,2,-1
-6899,Morsa Ghiacciata,"Le Nebbie Azzurre, mentre sono individuate dal cono di Luce Blu, infliggono danni da gelo crescenti a tutti i personaggi entro il cono di Luce Blu.",818,27,6898,0,7804,2,0,0,0,429385,0,2,-1
-6900,Gelo Pungente,"Le Nebbie Azzurre, dopo essere state uccise, ricompaiono in un'altra posizione casuale della piattaforma.",818,30,6898,0,0,2,0,0,0,236208,2,2,15
+$[!5,6 In modalità Eroica, se i personaggi non riescono a completare la sequenza di Spettro Cromatico in 80 s, Durumu lancia Disintegrazione.$]",818,10,0,7819,6884,2,0,0,0,134139,0,32,-1
+6892,Nebbia Cremisi,Le Nebbie Cremisi sono individuabili solo con il cono di Luce Rossa dell'Occhio Rosso.,818,17,6891,6894,6895,1,47140,0,0,0,0,2,-1
+6893,Fiore Cremisi,"Se una Nebbia Cremisi lascia il cono di Luce Rossa, lancia Fiore Cremisi, infliggendo $136122s1 danni da fuoco a tutti i personaggi.",818,19,6892,0,0,2,0,0,0,135265,0,0,-1
+6894,Aculeo Corrosivo,"Le Nebbie Cremisi, mentre sono individuate dal cono di Luce Rossa, lanciano Aculeo Corrosivo su un personaggio casuale, infliggendo $136154s1 danni fisici.",818,18,6892,0,6893,2,0,0,0,629526,0,0,-1
+6895,Nebbia d'Ambra,Le Nebbie d'Ambra sono individuabili solo con il cono di Luce Gialla dell'Occhio Gialla.,818,20,6891,6896,6898,1,47141,0,0,0,2,2,28
+6896,Rappresaglia d'Ambra,"Le Nebbie d'Ambra lanciano Rappresaglia d'Ambra ogni 10% di salute persa, infliggendo $136175s1 danni da natura a tutti i personaggi entro il cono di Luce Gialla.",818,21,6895,0,6897,2,0,0,0,629527,0,4,-1
+6897,Esplosione d'Ambra,"Se una Nebbia d'Ambra lascia il cono di Luce Gialla, lancia Esplosione d'Ambra, infliggendo $136123s1 danni da natura a tutti i personaggi.",818,22,6895,0,0,2,0,0,0,646670,0,4,-1
+6898,Nebbia Azzurra,Le Nebbie Azzurre sono individuabili solo con il cono di Luce Blu dell'Occhio Blu.,818,23,6891,6899,0,1,47142,0,0,0,0,2,-1
+6899,Morsa Ghiacciata,"Le Nebbie Azzurre, mentre sono individuate dal cono di Luce Blu, infliggono danni da gelo crescenti a tutti i personaggi entro il cono di Luce Blu.",818,24,6898,0,7804,2,0,0,0,429385,0,2,-1
+6900,Gelo Pungente,"Le Nebbie Azzurre, dopo essere state uccise, ricompaiono in un'altra posizione casuale della piattaforma.",818,27,6898,0,0,2,0,0,0,236208,2,2,15
 6901,Irritazione Oculare,Le Irritazioni Oculari infliggono $134755s1 danni da arcano ai bersagli all'interno dell'area d'effetto ogni secondo.,818,7,6883,0,0,2,0,0,0,135728,0,0,-1
-6902,Occhio Severo,"Gli Occhi Severi sono una parte del dedalo creato dall'Occhio Incrociato intorno alla piattaforma di Durumu. Gli Occhi Severi guardano dietro Durumu, concentrandosi sui personaggi che si trovano all'interno di un cono rovesciato di 30 gradi di fronte a loro. Il cono è più largo sul bordo della piattaforma e si restringe avvicinandosi a dove si trova Durumu, al centro della piattaforma.
-
-I personaggi più vicini all'interno di quest'area subiscono Sguardo Severo.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,12
-6903,Sguardo Severo,"Gli Occhi Severi infliggono danni da arcano ai 5 personaggi più vicini, in base alla loro distanza.",818,9,6902,0,6904,2,0,0,0,237299,2,8,12
-6904,Sguardo Severo,"Gli Occhi Severi infliggono danni da arcano ai 2 personaggi più vicini, in base alla loro distanza.",818,10,6902,0,0,2,0,0,0,237299,2,8,12
-6905,Forza di Volontà,"L'Occhio della Mente si concentra su un personaggio casuale, respingendo indietro qualsiasi personaggio che rimanga nello sguardo dell'Occhio al termine di Forza di Volontà.",818,32,6884,0,7859,2,0,0,0,613397,2,0,15
+6905,Forza di Volontà,"L'Occhio della Mente si concentra su un personaggio casuale, respingendo indietro qualsiasi personaggio che rimanga nello sguardo dell'Occhio al termine di Forza di Volontà.",818,29,6884,0,7859,2,0,0,0,613397,2,0,15
 6906,Risucchio di Vita,"L'Occhio Bramoso si concentra su un personaggio casuale e inizia a risucchiarne la forza vitale, stordendolo per $133795d. La salute risucchiata aumenta la salute di Durumu.
 
-Più a lungo l'Occhio Bramoso resterà concentrato, più vita sarà risucchiata alla vittima. Gli Occhi Bramosi risucchiano la vita del personaggio più vicino tra loro e il bersaglio iniziale.",818,35,6885,0,0,2,0,0,0,136169,0,0,-1
+Più a lungo l'Occhio Bramoso resterà concentrato, più vita sarà risucchiata alla vittima. Gli Occhi Bramosi risucchiano la vita del personaggio più vicino tra loro e il bersaglio iniziale.",818,32,6885,0,0,2,0,0,0,136169,0,0,-1
 6907,Parassita Oscuro,"Parassiti Oscuri attraversano la vittima, infliggendo danni da ombra ogni secondo. I danni aumentano quanto più a lungo il parassita resta a infestare la vittima.
 
-Dissolvere i parassiti dalla vittima li trasforma nella Piaga Oscura.",818,37,6886,6908,0,2,0,0,0,136138,2,132,12
-6908,Piaga Oscura,"Quando dei Parassiti Oscuri vengono dissolti, si trasformano in una Piaga Oscura. La durata di Piaga Oscura è pari alla durata restante dei Parassiti Oscuri quando sono stati dissolti e genera un Occhio Errante ogni 3 s.",818,38,6907,6909,0,2,0,0,0,136082,2,4,12
-6909,Occhio Errante,Gli Occhi Erranti sono generati dalle vittime di Piaga Oscura e attaccano un personaggio casuale.,818,39,6908,6910,0,1,47498,0,0,0,2,0,12
-6910,Voracità,Gli Occhi Erranti infliggono $134010s1 danni da ombra al bersaglio più vicino ogni 2 s. Qualsiasi danno inflitto all'Occhio Errante viene inflitto anche al suo bersaglio.,818,40,6909,0,0,2,0,0,0,252996,2,0,12
-6911,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 2 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo e la loro velocità di movimento si riduce del $134040s2%.",818,42,6887,0,7750,2,0,0,0,237297,2,0,5
+Dissolvere i parassiti dalla vittima li trasforma nella Piaga Oscura.",818,34,6886,6908,0,2,0,0,0,136138,2,132,12
+6908,Piaga Oscura,"Quando dei Parassiti Oscuri vengono dissolti, si trasformano in una Piaga Oscura. La durata di Piaga Oscura è pari alla durata restante dei Parassiti Oscuri quando sono stati dissolti e genera un Occhio Errante ogni 3 s.",818,35,6907,6909,0,2,0,0,0,136082,2,4,12
+6909,Occhio Errante,Gli Occhi Erranti sono generati dalle vittime di Piaga Oscura e attaccano un personaggio casuale.,818,36,6908,6910,0,1,47498,0,0,0,2,0,12
+6910,Voracità,Gli Occhi Erranti infliggono $134010s1 danni da ombra al bersaglio più vicino ogni 2 s. Qualsiasi danno inflitto all'Occhio Errante viene inflitto anche al suo bersaglio.,818,37,6909,0,0,2,0,0,0,252996,2,0,12
+6911,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 2 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo e la loro velocità di movimento si riduce del $134040s2%.",818,39,6887,0,7750,2,0,0,0,237297,2,0,5
 6912,Lancia Ardente: Braci Fiammeggianti,Ro'shak sputa della lava fusa sulla lancia di Qon il Tenace. Magma ardente erompe dal terreno e infligge $137668s2 danni da fuoco istantaneamente e $137668s1 danni da fuoco aggiuntivi ogni $137668t1 s a tutti i personaggi che rimangono nell'area d'effetto.,817,11,6865,0,7777,2,0,0,0,237003,0,0,-1
 6913,Lancia Folgorante: Nube della Tempesta,"Quet'zal invoca dei fulmini sulla lancia di Qon il Tenace. Una tempesta violenta folgora i personaggi, infliggendo $137669s2 danni da natura. Si accumula.
 
@@ -4696,8 +4691,8 @@ Dell'Acqua Conduttiva fuoriesce dalla statua distrutta, formando una pozza sul t
 
 Inoltre, la tempesta elettrifica l'Acqua Conduttiva.",827,13,0,7749,7763,2,0,0,0,237589,0,0,-1
 7749,Assalto Folgorante,"Durante Tempesta di Fulmini, gli Assalti Folgoranti colpiscono diverse posizioni nella stanza, infliggendo $137647s1 danni da natura ai personaggi vicini. Ogni Assalto Folgorante poi si disperde, infliggendo $137905s1 danni da natura a tutti i personaggi in linea retta.",827,14,7748,0,7737,2,0,0,0,458976,2,8,12
-7750,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 5 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo e la loro velocità di movimento si riduce del $134040s2%.",818,43,6887,0,7751,2,0,0,0,237297,2,0,10
-7751,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 3 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo.",818,44,6887,0,0,2,0,0,0,237297,2,0,16
+7750,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 5 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo e la loro velocità di movimento si riduce del $134040s2%.",818,40,6887,0,7751,2,0,0,0,237297,2,0,10
+7751,Sguardo Persistente,"L'Occhio Scrutatore scaglia un missile d'ombra contro 3 personaggi casuali. Quando il missile colpisce il terreno, esplode, infliggendo $133793s2 danni da ombra a tutti i personaggi entro $133793A2 m e creando un'area che persiste fino alla fine dello scontro. I personaggi che entrano nell'area subiscono $140495s1 danni da ombra ogni secondo.",818,41,6887,0,0,2,0,0,0,237297,2,0,16
 7753,Conduzione,"Se una Fessura Fulminante entra in contatto con l'Acqua Conduttiva, la Fessura Fulminante scompare, infliggendo $138133s2 danni da natura ai personaggi che si trovano dentro l'Acqua Conduttiva.",827,10,7743,0,7744,2,0,0,0,237587,0,0,-1
 7754,Conduzione,"I danni della detonazione di Fulmine Concentrato passano attraverso l'Acqua Conduttiva, infliggendo $137530s1 danni da natura a tutti i personaggi che vi si trovano dentro.",827,8,7741,0,7743,2,0,0,0,237587,0,0,-1
 7755,Passo del Tempo,"Il Cronosignore Epocus viaggia nel tempo, caricando un personaggio casuale e infliggendo danni fisici.",613,2,0,0,7372,2,0,0,0,132337,0,0,-1
@@ -4730,8 +4725,8 @@ Sconfiggere i Golem dell'Anima di qualsiasi dimensione sposterà le cariche d'An
 7780,Venti Turbinanti,"Quet'zal evoca un immenso turbine d'aria e lo lancia di fronte a sé, infliggendo $139167s1 danni da natura a tutti i personaggi che colpisce.",817,13,7777,0,0,2,0,0,0,136022,2,0,12
 7781,Aculeo Gelido,"Dam'ren evoca degli aculei gelidi che compaiono sotto dei personaggi casuali, infliggendo $139180s1 danni da gelo e scagliando in aria i nemici entro $139180A1 m.",817,20,7778,0,0,2,0,0,0,135845,2,0,12
 7783,Pigolio,"Il Pulcino di Fenice grida con tutte le forze contro il bersaglio attuale, infliggendo $139296s1 danni fisici.",828,4,7350,0,0,2,0,0,0,648726,0,0,-1
-7804,Prigione di Ghiaccio,"Se una Nebbia Azzurra lascia un cono di Luce Blu, esplode, infliggendo $136124s1 danni da gelo a tutti i personaggi.",818,28,6898,0,7805,2,0,0,0,464484,2,4,16
-7805,Prigione di Ghiaccio,"Se una Nebbia Azzurra lascia un cono di Luce Blu, esplode, infliggendo $136124s1 danni da gelo a tutti i personaggi. Le Nebbie Azzurre lanciano questo incantesimo anche ogni volta che muoiono.",818,29,6898,0,6900,2,0,0,0,464484,2,4,15
+7804,Prigione di Ghiaccio,"Se una Nebbia Azzurra lascia un cono di Luce Blu, esplode, infliggendo $136124s1 danni da gelo a tutti i personaggi.",818,25,6898,0,7805,2,0,0,0,464484,2,4,16
+7805,Prigione di Ghiaccio,"Se una Nebbia Azzurra lascia un cono di Luce Blu, esplode, infliggendo $136124s1 danni da gelo a tutti i personaggi. Le Nebbie Azzurre lanciano questo incantesimo anche ogni volta che muoiono.",818,26,6898,0,6900,2,0,0,0,464484,2,4,15
 7806,Sequenza d'Attivazione,L'Animus Oscuro deve passare attraverso la sequenza d'attivazione prima di poter attaccare o usare le sue abilità. La sequenza dura $139537d.,824,13,7762,0,7772,2,0,0,0,133859,2,0,16
 7807,Furia,"Megaera s'infuria per 20 s ogni volta che una delle sue teste viene decapitata, infliggendo $139548s1 danni elementali a tutti i personaggi ogni secondo. I danni inflitti da un particolare elemento aumentano del $139458s1% per ogni testa aggiuntiva di quell'elemento attiva.",821,3,0,0,7809,2,0,0,0,463493,0,0,-1
 7808,Rabbia di Megaera,"Le teste di Megaera al di fuori della Nebbia d'Ombra cominciano a sputare sui bersagli, quando non ce ne sono a portata di mischia, infliggendo $139765s1 danni elementali a tutti i nemici entro $139765A1 m dal punto d'impatto.",821,6,0,0,6998,2,0,0,0,800829,0,16,-1
@@ -4739,17 +4734,17 @@ Sconfiggere i Golem dell'Anima di qualsiasi dimensione sposterà le cariche d'An
 7810,Squarcio Fatuo,"Le Teste Arcane di Megaera usano questa abilità quando si trovano all'interno della Nebbia d'Ombra.
 
 Le Teste Arcane aprono uno squarcio nel Fatuo, evocando un Dragone Fatuo ogni $140138t1 s per $140138d.",821,18,7005,7816,7015,2,0,0,0,429383,2,0,12
-7811,Luce Rossa,"Se non ci sono personaggi nel cono di Luce Rossa, l'Occhio infligge $133733s1 danni da fuoco a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Rossa subiscono $133732s1 danni da fuoco suddivisi equamente ogni 2 s.",818,15,6891,0,7820,2,0,0,0,463282,2,0,15
-7812,Luce Gialla,"Se non ci sono personaggi nel cono di Luce gialla, l'Occhio infligge $133739s1 danni da natura a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Gialla subiscono $133738s1 danni da natura suddivisi equamente ogni 2 s.",818,17,6891,0,7821,2,0,0,0,460954,2,0,15
-7813,Luce Blu,"Se non ci sono personaggi nel cono di Luce Blu, l'Occhio infligge $133678s1 danni da gelo a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Blu subiscono $133677s1 danni da gelo suddivisi equamente ogni 2 s.",818,19,6891,0,6892,2,0,0,0,463280,2,0,15
+7811,Luce Rossa,"Se non ci sono personaggi nel cono di Luce Rossa, l'Occhio infligge $133733s1 danni da fuoco a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Rossa subiscono $133732s1 danni da fuoco suddivisi equamente ogni 2 s.",818,12,6891,0,7820,2,0,0,0,463282,2,0,15
+7812,Luce Gialla,"Se non ci sono personaggi nel cono di Luce gialla, l'Occhio infligge $133739s1 danni da natura a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Gialla subiscono $133738s1 danni da natura suddivisi equamente ogni 2 s.",818,14,6891,0,7821,2,0,0,0,460954,2,0,15
+7813,Luce Blu,"Se non ci sono personaggi nel cono di Luce Blu, l'Occhio infligge $133678s1 danni da gelo a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Blu subiscono $133677s1 danni da gelo suddivisi equamente ogni 2 s.",818,16,6891,0,6892,2,0,0,0,463280,2,0,15
 7814,Elmo del Comando,"Lei Shen caccia il bersaglio dalla piattaforma con Elmo del Comando, infliggendo $139011s1 danni da natura ogni $139011t1 s per $139011d.",832,15,7186,0,0,2,0,0,0,133833,3,24,12
 7815,Elmo del Comando,"Lei Shen caccia il bersaglio dalla piattaforma con Elmo del Comando, infliggendo $139011s1 danni da natura ogni $139011t1 s per $139011d.",832,25,7202,0,0,2,0,0,0,133833,2,24,12
 7816,Dragone Fatuo,,821,19,7810,7817,0,1,48092,0,0,0,3,0,12
 7817,Aculeo Fatuo,"I Dragoni Fatui colpiscono un personaggio casuale con l'energia fatua, infliggendo $140178s1 danni da arcano.",821,20,7816,0,7818,2,0,0,0,610471,2,64,12
 7818,Soppressione,"I Dragoni Fatui canalizzano l'energia fatua sulla mente di un personaggio casuale, stordendolo per $140179d.",821,21,7816,0,0,2,0,0,0,610679,2,192,12
-7819,Luce Rossa,"Se non ci sono personaggi nel cono di Luce Rossa, l'Occhio infligge $133733s1 danni da fuoco a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Rossa subiscono $133732s1 danni da fuoco ogni 2 s.",818,14,6891,0,7811,2,0,0,0,463282,2,0,16
-7820,Luce Gialla,"Se non ci sono personaggi nel cono di Luce Gialla, l'Occhio infligge $133739s1 danni da natura a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Gialla subiscono $133738s1 danni da natura ogni 2 s.",818,16,6891,0,7812,2,0,0,0,460954,2,0,16
-7821,Luce Blu,"Se non ci sono personaggi nel cono di Luce Blu, l'Occhio infligge $133678s1 danni da gelo a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Blu subiscono $133677s1 danni da gelo ogni 2 s.",818,18,6891,0,7813,2,0,0,0,463280,2,0,16
+7819,Luce Rossa,"Se non ci sono personaggi nel cono di Luce Rossa, l'Occhio infligge $133733s1 danni da fuoco a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Rossa subiscono $133732s1 danni da fuoco ogni 2 s.",818,11,6891,0,7811,2,0,0,0,463282,2,0,16
+7820,Luce Gialla,"Se non ci sono personaggi nel cono di Luce Gialla, l'Occhio infligge $133739s1 danni da natura a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Gialla subiscono $133738s1 danni da natura ogni 2 s.",818,13,6891,0,7812,2,0,0,0,460954,2,0,16
+7821,Luce Blu,"Se non ci sono personaggi nel cono di Luce Blu, l'Occhio infligge $133678s1 danni da gelo a tutti i personaggi. Altrimenti, tutti i personaggi nel cono di Luce Blu subiscono $133677s1 danni da gelo ogni 2 s.",818,15,6891,0,7813,2,0,0,0,463280,2,0,16
 7822,Acqua Conduttiva,"Quando Jin'rokh distrugge una statua con Lancio Tonante, l'acqua che ne fuoriesce forma una pozza che s'allarga nel tempo. Le pozze sono essenziali per la battaglia, perché potenziano i personaggi con Fluidità, ma li rendono anche più esposti ai danni da natura di Conduzione.",827,2,0,7735,7738,2,0,0,0,132852,1,32,-1
 7826,Calcio al Guscio,"È possibile calciare una Testuggine Vorticante sconfitta per la stanza. È sufficiente avvicinarsi al guscio, posizionarsi in modo che si trovi tra sé e il bersaglio e poi prendere la mira. I nemici colpiti subiscono l'effetto Concussione del Guscio.",825,5,7129,0,7134,2,0,0,0,839976,0,32,-1
 7827,Guardiani del Nido,"In modalità eroica, alcuni dei nidi di Ji-Kun sono difesi dai Guardiani del Nido, che attaccano qualsiasi personaggio si avvicini.",828,11,7348,7828,0,1,47883,0,0,0,2,9,12
@@ -4773,8 +4768,8 @@ Sconfiggere i Golem dell'Anima di qualsiasi dimensione sposterà le cariche d'An
 7857,Nutrimento Primordiale,"Riuscire ad afferrare a mezz'aria uno dei boli di cibo che Ji-Kun lancia ai suoi piccoli aumenta i danni inflitti del $140741s2% e le cure fornite del $140741s1% per $140741d. Nutrimento Primordiale aumenta i danni inflitti e le cure fornite del 10% ogni volta che si accumula, fino a un massimo del 200%.",828,18,7354,0,0,2,0,0,0,655706,0,0,-1
 7858,Pugnali Mentali,"Ogni Occhio attivo, eccetto l'Occhio Incrociato, infligge $139107s1 danni da arcano a personaggi casuali dell'incursione.
 
-$[!3,5 In modalità da 10 giocatori, viene scelto 1 personaggio casuale.$]$[!4,6,7 In modalità da 25 giocatori, vengono scelti 3 giocatori casuali.$]",818,11,6882,0,0,2,0,0,0,610679,0,4,-1
-7859,Forza di Volontà,"L'Occhio della Mente si concentra su un personaggio casuale, facendo cadere qualsiasi personaggio che rimanga nello sguardo dell'Occhio al termine di Forza di Volontà.",818,33,6884,0,0,2,0,0,0,613397,2,0,16
+$[!3,5 In modalità da 10 giocatori, viene scelto 1 personaggio casuale.$]$[!4,6,7 In modalità da 25 giocatori, vengono scelti 3 giocatori casuali.$]",818,8,6882,0,0,2,0,0,0,610679,0,4,-1
+7859,Forza di Volontà,"L'Occhio della Mente si concentra su un personaggio casuale, facendo cadere qualsiasi personaggio che rimanga nello sguardo dell'Occhio al termine di Forza di Volontà.",818,30,6884,0,0,2,0,0,0,613397,2,0,16
 7860,Sfuggente,I Golem dell'Anima subiscono danni ridotti del $140759s1% da tutti gli attacchi ad area d'effetto.,824,6,7758,0,0,2,0,0,0,132178,2,0,15
 7861,Resilienza Congelata,Dam'ren è protetto da uno strato di ghiaccio lucente che riflette all'attaccante il $135144s2% dei danni subiti.,817,23,6867,0,7862,2,0,0,0,132123,2,0,15
 7862,Resilienza Congelata,Dam'ren è protetto da uno strato di ghiaccio lucente che riflette all'attaccante il $135144s3% dei danni subiti.,817,24,6867,0,6915,2,0,0,0,132123,2,0,16
@@ -4782,7 +4777,7 @@ $[!3,5 In modalità da 10 giocatori, viene scelto 1 personaggio casuale.$]$[!4,6
 7864,Scossa Ostacolante,"Quando raggiunge 75 cariche d'Anima, l'Animus Oscuro rilascia un'esplosione di energia, infliggendo $139867s1 danni da natura e interrompendo il lancio d'incantesimi di tutti i personaggi.",824,21,7762,0,7773,2,0,0,0,136050,2,4,12
 7865,Disintegrazione,"Durumu ucciderà tutti i personaggi se non verrà sconfitto entro i primi 10 minuti.
 
-$[!5,6 In difficoltà Eroica, se i personaggi non riescono a completare la sequenza di Spettro Cromatico in 80 s, Durumu lancia Disintegrazione.$]",818,45,0,0,0,2,0,0,0,425958,0,2064,-1
+$[!5,6 In difficoltà Eroica, se i personaggi non riescono a completare la sequenza di Spettro Cromatico in 80 s, Durumu lancia Disintegrazione.$]",818,42,0,0,0,2,0,0,0,425958,0,2064,-1
 7866,Spirito di Cornofurente,Il Ruggito Furente di Horridon evoca uno Spirito di Cornofurente.,819,5,7093,7868,0,1,47383,0,0,0,2,32,12
 7867,Legame Debole,Il legame tra lo Spirito di Cornofurente e Pandaria è debole. Qualsiasi attacco contro lo spirito lo respinge indietro.,819,7,7866,0,0,2,0,0,0,631503,2,0,12
 7868,Ossessione Furente,Lo Spirito di Cornofurente si fissa su un personaggio. Solo il personaggio preso di mira può vedere o interagire con lo spirito.,819,6,7866,0,7867,2,0,0,0,237298,2,0,12
@@ -5136,7 +5131,7 @@ $[!3,4,5,6,7,14 L'ambra lanciata distrugge l'ambra evocata dai Korven per rigene
 8163,Fermezza dello Yak,"Niuzao mette alla prova la fermezza del nemico, aumentando la salute di tutti i personaggi del $144607s1% e i danni inflitti da lui stesso del $144606s1% per accumulo per $144607d. Si accumula.",859,2,0,0,8164,2,0,0,0,615340,0,0,-1
 8164,Scossa Sismica Massiccia,Infligge $144612s1 danni fisici ogni $144611t1 s per $144611d.,859,3,0,0,8165,2,0,0,0,136025,0,4,-1
 8165,Carica,"Quando raggiunge il 66% e il 33% di salute restante, Niuzao carica, infliggendo $144609s1 danni fisici ai personaggi entro $144609A1 m ogni $144611t1 s.",859,4,0,0,0,2,0,0,0,628134,0,16,-1
-8166,Spazzata Spettrale,"Xuen colpisce i personaggi in un cono di $144638A1 m, infliggendo $144638s1 danni fisici e riducendone l'armatura del $144638s2% per $144638d.",860,1,0,0,8167,2,0,0,0,135853,0,1,-1
+8166,Spazzata Spettrale,"Xuen colpisce i personaggi in un cono di $144638A1 m, infliggendo $144638s1 danni fisici e riducendone l'armatura del $444333s1% per $444333d.",860,1,0,0,8167,2,0,0,0,135853,0,1,-1
 8167,Balzo,"Balza su un personaggio, effettuando una Spazzata Spettrale all'atterraggio.",860,2,0,0,8168,2,0,0,0,236171,0,0,-1
 8168,Fulmine Crepitante,Infligge $144633s1 danni da natura ai personaggi ogni $144635t1 s e colpisce fino a un massimo di $144633x1 bersagli vicini.,860,3,0,0,8169,2,0,0,0,136050,0,32,-1
 8169,Raffica di Chi,"Lancia una raffica di energia chi, infliggendo $144644s1 danni da natura ai personaggi entro $144644A1 m dal punto d'impatto.",860,4,0,0,8170,2,0,0,0,613397,0,16,-1
