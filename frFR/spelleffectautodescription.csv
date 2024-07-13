@@ -32,7 +32,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 31,Inflige $s@effectindex points de dégâts des Arcanes à un ennemi toutes les $t@effectindex s pendant $d.,$s@effectindex points de dégâts des Arcanes infligés toutes les $t@effectindex s.,6,3,1,3,64,50,50
 32,Inflige $s@effectindex points de dégâts du Chaos à un ennemi toutes les $t@effectindex s pendant $d.,$s@effectindex points de dégâts du Chaos infligés toutes les $t@effectindex s.,6,3,1,3,127,50,50
 33,Étourdit un ennemi. Il est incapable de se déplacer et d’attaquer pendant $d.,Étourdi.,6,12,0,3,0,0,0
-34,Augmente la Hâte des alliés à moins de $A@effectindex mètres de l’impact de $s@effectindex% pendant $d.,Hâte augmentée de $s@effectindex%.,6,193,1,6,0,0,0
+34,Augmente les vitesses d’attaque et d’incantation des personnages alliés à moins de $A@effectindex m de l’impact de $s@effectindex % pendant $d.,Vitesses d’attaque et d’incantation augmentées de $s@effectindex %.,6,193,1,6,0,0,0
 35,Étourdit les ennemis à moins de $A@effectindex mètres. Ils sont incapables de se déplacer et d’attaquer pendant $d.,Étourdi.,6,12,0,7,0,0,0
 36,Étourdit les ennemis à moins de $A@effectindex mètres de l’impact. Ils sont incapables de se déplacer et d’attaquer pendant $d.,Étourdi.,6,12,0,5,0,0,0
 37,Soigne un allié pour $s@effectindex% de son maximum de points de vie.,,136,0,1,2,0,0,0
@@ -68,12 +68,12 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 70,Inflige des dégâts de Givre à un ennemi toutes les $t@effectindex s pendant $d.,Dégâts de Givre infligés toutes les $t@effectindex s.,6,70,1,1,16,50,50
 71,Inflige des dégâts des Arcanes à un ennemi toutes les $t@effectindex s pendant $d.,Dégâts des Arcanes infligés toutes les $t@effectindex s.,6,70,1,1,64,50,50
 72,Inflige des dégâts du Chaos à un ennemi toutes les $t@effectindex s pendant $d.,Dégâts du Chaos infligés toutes les $t@effectindex s.,6,70,1,1,127,50,50
-83,Rend au lanceur de sorts $s@effectindex% de son maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,1,0,0,0
+83,Rend $s@effectindex % de son maximum de points de vie au lanceur ou à la lanceuse toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,1,0,0,0
 85,Rend au lanceur de sorts $s@effectindex% de son maximum de points de vie.,,136,0,1,1,0,0,0
-91,Interrompt les incantations des ennemis à moins de $A@effectindex mètres pendant $d.,,68,0,0,7,0,30,0
-92,Interrompt les incantations d’un ennemi pendant $d.,,68,0,1,3,1,30,0
+91,Interrompt les incantations de toutes les cibles adverses à moins de $A@effectindex mètres pendant $d.,,68,0,0,7,0,30,0
+92,Interrompt les incantations d’une cible adverse pendant $d.,,68,0,1,3,1,30,0
 93,Rend un ennemi muet et l’empêche d’incanter des sorts pendant $d.,Incapable de lancer des sorts.,6,27,0,3,0,30,0
-94,Réduit la Hâte de $s@effectindex% pendant $d.,Hâte réduite de $s@effectindex%.,6,193,2,3,0,0,0
+94,Réduit les vitesses d’attaque et d’incantation de $s@effectindex % pendant $d,Vitesses d’attaque et d’incantation réduites de $s@effectindex %.,6,193,2,3,0,0,0
 96,Fait tomber un ennemi à la renverse.,,98,0,1,3,0,0,0
 97,Entoure le lanceur de sorts d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex de tous les points de dégâts.,Absorbe $s@effectindex points de dégâts.,6,69,1,1,127,0,0
 98,Entoure le lanceur de sorts d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts physiques.,Absorbe $s@effectindex points de dégâts physiques.,6,69,1,1,1,0,0
@@ -83,8 +83,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 102,Entoure le lanceur de sorts d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts de Givre.,Absorbe $s@effectindex points de dégâts de Givre.,6,69,1,1,16,0,0
 103,Entoure le lanceur de sorts d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts d’Ombre.,Absorbe $s@effectindex points de dégâts d’Ombre.,6,69,1,1,32,0,0
 104,Entoure le lanceur de sorts d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts des Arcanes.,Absorbe $s@effectindex points de dégâts des Arcanes.,6,69,1,1,64,0,0
-105,Augmente la Hâte du lanceur de $s@effectindex% pendant $d.,Hâte augmentée de $s@effectindex%.,6,193,1,1,0,10,0
-106,Réduit la Hâte de $s@effectindex% pendant $d.,Hâte réduite de $s@effectindex%.,6,193,2,1,0,0,0
+105,Augmente les vitesses d’attaque et d’incantation du lanceur ou de la lanceuse de $s@effectindex % pendant $d.,Vitesses d’attaque et d’incantation augmentées de $s@effectindex %.,6,193,1,1,0,10,0
+106,Réduit les vitesses d’attaque et d’incantation de $s@effectindex % pendant $d.,Vitesses d’attaque et d’incantation réduites de $s@effectindex %.,6,193,2,1,0,0,0
 107,Réduit la vitesse de déplacement de $s@effectindex%.,Vitesse de déplacement réduite de $s@effectindex%.,6,33,1,1,0,0,0
 108,Inflige des dégâts physiques aux ennemis à moins de $A@effectindex mètres du point d’impact.,,31,0,1,5,1,50,50
 109,Inflige des dégâts du Sacré aux ennemis à moins de $A@effectindex mètres de l’impact.,,31,0,1,5,2,50,50
@@ -177,8 +177,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 302,Inflige des dégâts de Feu aux ennemis se trouvant à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,4,50,50
 303,Augmente les dégâts de Feu infligés aux ennemis à moins de $A@effectindex mètres de l’impact toutes les $t@effectindex s pendant $d.,Dégâts de Feu infligés toutes les $t@effectindex s.,6,70,1,5,4,50,50
 304,Réduit la vitesse de déplacement de la cible de $s@effectindex% pendant $d.,Vitesse de déplacement réduite de $s@effectindex%.,6,33,2,3,0,0,0
-305,Rend au lanceur de sorts et aux alliés à moins de $A@effectindex mètres $s@effectindex% de leur maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,4,0,0,0
-306,Rend au lanceur de sorts et aux alliés à moins de $A@effectindex mètres $s@effectindex% de leur maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,6,0,0,0
+305,Rend au lanceur de sorts et aux alliés à moins de $A@effectindex mètres $s@effectindex % de leur maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,4,0,0,0
+306,Rend au lanceur de sorts et aux alliés à moins de $A@effectindex mètres $s@effectindex % de leur maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,6,0,0,0
 308,Inflige des dégâts de Nature aux ennemis à moins de $A@effectindex mètres.,,2,0,1,4,8,50,50
 309,Inflige des dégâts d’Ombre aux ennemis à moins de $A@effectindex mètres de la cible toutes les $t@effectindex s pendant $d.,Dégâts d’Ombre infligés toutes les $t@effectindex s.,6,70,1,7,32,50,50
 310,Inflige des dégâts de Nature aux ennemis à moins de $A@effectindex mètres toutes les $t@effectindex s pendant $d.,Dégâts de Nature infligés toutes les $t@effectindex s.,6,70,1,7,8,50,50
@@ -343,16 +343,16 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 499,Réduit la vitesse d’attaque des ennemis en face du lanceur de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,9,2,9,0,0,0
 500,Réduit la vitesse d’attaque des ennemis à moins de $A@effectindex mètres du lanceur de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,9,2,7,0,0,0
 501,Réduit la vitesse d’attaque des ennemis à moins de $A@effectindex mètres de l’impact de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,9,2,5,0,0,0
-502,Réduit la hâte des sorts des ennemis à moins de $A@effectindex mètres de l’impact de $s@effectindex% pendant $d.,Hâte des sorts réduite de $s@effectindex%.,6,65,2,5,0,0,0
-503,Réduit la hâte des sorts des ennemis à moins de $A@effectindex mètres du lanceur de $s@effectindex% pendant $d.,Hâte des sorts réduite de $s@effectindex%.,6,65,2,7,0,0,0
-504,Réduit la hâte des sorts des ennemis en face du lanceur de $s@effectindex% pendant $d.,Hâte des sorts réduite de $s@effectindex%.,6,65,2,9,0,0,0
-505,Réduit la hâte des sorts de $s@effectindex% pendant $d.,Hâte des sorts réduite de $s@effectindex%.,6,65,2,3,0,0,0
-506,Réduit la hâte des sorts de $s@effectindex% pendant $d.,Hâte des sorts réduite de $s@effectindex%.,6,65,2,1,0,0,0
-507,Augmente la hâte des sorts des alliés en face du lanceur de $s@effectindex% pendant $d.,Hâte des sorts augmentée de $s@effectindex%.,6,65,1,8,0,0,0
-508,Augmente la hâte des sorts des alliés à moins de $A@effectindex mètres du lanceur de $s@effectindex% pendant $d.,Hâte des sorts augmentée de $s@effectindex%.,6,65,1,6,0,0,0
-509,Augmente la hâte des sorts des alliés à moins de $A@effectindex mètres de l’impact de $s@effectindex% pendant $d.,Hâte des sorts augmentée de $s@effectindex%.,6,65,1,4,0,0,0
-510,Augmente la hâte des sorts de la cible de $s@effectindex% pendant $d.,Hâte des sorts augmentée de $s@effectindex%.,6,65,1,2,0,0,0
-511,Augmente la hâte des sorts du lanceur de $s@effectindex% pendant $d.,Hâte des sorts augmentée de $s@effectindex%.,6,65,1,1,0,10,0
+502,Réduit la vitesse d’incantation des adversaires à moins de $A@effectindex m de l’impact de $s@effectindex % pendant $d.,Vitesse d’incantation réduite de $s@effectindex %.,6,65,2,5,0,0,0
+503,Réduit la vitesse d’incantation des adversaires à moins de $A@effectindex m du lanceur ou de la lanceuse de $s@effectindex % pendant $d.,Vitesse d’incantation réduite de $s@effectindex %.,6,65,2,7,0,0,0
+504,Réduit la vitesse d’incantation des adversaires en face du lanceur ou de la lanceuse de $s@effectindex % pendant $d.,Vitesse d’incantation réduite de $s@effectindex %.,6,65,2,9,0,0,0
+505,Réduit la vitesse d’incantation de $s@effectindex % pendant $d.,Vitesse d’incantation réduite de $s@effectindex %.,6,65,2,3,0,0,0
+506,Réduit la vitesse d’incantation de $s@effectindex % pendant $d.,Vitesse d’incantation réduite de $s@effectindex %.,6,65,2,1,0,0,0
+507,Augmente la vitesse d’incantation des personnages alliés devant le lanceur ou la lanceuse de $s@effectindex % pendant $d.,Vitesse d’incantation augmentée de $s@effectindex %.,6,65,1,8,0,0,0
+508,Augmente la vitesse d’incantation des personnages alliés à moins de $A@effectindex m du lanceur ou de la lanceuse de $s@effectindex % pendant $d.,Vitesse d’incantation augmentée de $s@effectindex %.,6,65,1,6,0,0,0
+509,Augmente la vitesse d’incantation des personnages alliés à moins de $A@effectindex m de l’impact de $s@effectindex % pendant $d.,Vitesse d’incantation augmentée de $s@effectindex %.,6,65,1,4,0,0,0
+510,Augmente la vitesse d’incantation de la cible de $s@effectindex % pendant $d.,Vitesse d’incantation augmentée de $s@effectindex %.,6,65,1,2,0,0,0
+511,Augmente la vitesse d’incantation du lanceur ou de la lanceuse de $s@effectindex % pendant $d.,Vitesse d’incantation augmentée de $s@effectindex %.,6,65,1,1,0,10,0
 512,Augmente les dégâts des Arcanes subis de $s@effectindex% pendant $d.,Dégâts des Arcanes subis augmentés de $s@effectindex%.,6,101,2,3,64,1,1
 513,Les ennemis à moins de $A@effectindex mètres ratent $s@effectindex% de leurs attaques pendant $d.,Chances de toucher réduites de $s@effectindex%.,6,54,2,7,0,0,0
 514,Les ennemis à moins de $A@effectindex mètres ratent $s@effectindex% de leurs sorts pendant $d.,Chances de toucher avec les sorts réduites de $s@effectindex%.,6,55,2,7,0,0,0
@@ -393,11 +393,11 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 549,Inflige $s@effectindex points de dégâts cosmiques à un ennemi toutes les $t@effectindex s pendant $d.,$s@effectindex points de dégâts cosmiques infligés toutes les $t@effectindex s.,6,3,1,1,106,50,50
 550,Pacifie une cible ennemie et l’empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,3,0,30,0
 551,Pacifie les adversaires à moins de $A@effectindex mètres et les empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,7,0,0,0
-552,"Réduit au silence une cible ennemie et la pacifie, ce qui l’empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,3,0,30,0
-553,"Réduit au silence et pacifie les adversaires à moins de $A@effectindex mètres, ce qui les empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,7,0,0,0
-554,Rend une cible ennemie muette et l’empêche de lancer des sorts pendant $d.,Incapable de lancer des sorts.,6,27,0,1,0,30,0
+552,"Réduit au silence et pacifie une cible adverse, empêchant toute attaque et incantation pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,3,0,30,0
+553,"Réduit au silence et pacifie toutes les cibles adverses à moins de $A@effectindex mètres, empêchant toute attaque et incantation pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,7,0,0,0
+554,"Réduit au silence une cible adverse, empêchant toute incantation pendant $d.",Incapable de lancer des sorts.,6,27,0,1,0,30,0
 555,Pacifie une cible ennemie et l’empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,1,0,30,0
-556,"Réduit au silence une cible ennemie et la pacifie, ce qui l’empêche d’attaquer et de lancer des sorts pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,1,0,30,0
+556,"Réduit au silence et pacifie une cible adverse, empêchant toute attaque et incantation pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,1,0,30,0
 557,Inflige $s@effectindex points de dégâts d’ombreflamme à un adversaire.,,2,0,1,1,36,50,50
 558,Inflige des dégâts d’ombreflamme aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,36,50,50
 559,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,36,50,50

@@ -2317,9 +2317,9 @@ Este efecto no se puede eliminar. Las curianas, cucarachas y alfazaques siempre 
 Este efecto no se puede eliminar.",425960,4,0,240,3
 1367,Apocalipsis superior,"Invoca tres meteoritos que caerán dentro de [duration(1,1)] |4ronda:rondas; y matarán al instante al equipo enemigo.",425960,4,20,0,2
 1368,Trampa draénica,Intenta atrapar una mascota con menos de un 35% de salud. La probabilidad de captura aumenta un 45% cada vez que fracasas.,986484,0,0,0,6
-1369,Aguijoneador con púas,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+1369,Aguijoneador con púas,"|cffffffffProbabilidad de golpe: [StandardAccuracy(1,1)]|r
 
-Inflige al instante [StandardDamage(1,1)] p. de daño de [School()], y tiene un [StandardAccuracy(1,2)] de probabilidad de |cFF1EFF00envenenar|r al objetivo e infligirle [StandardDamage(1,1,379)] p. de daño de [School(379)] extra por ronda durante [duration(1,2)] |4ronda:rondas;.",136068,7,0,0,0
+Inflige al instante [StandardDamage(1,1)] p. de daño de [School()] y tiene un 20% de probabilidades de |cFF1EFF00envenenar|r al objetivo, que recibirá [StandardDamage(1,1,379)] p. más de daño de [School(379)] por ronda durante [duration(1,2)] |4ronda:rondas;.",136068,7,0,0,0
 1370,Garfa de indómito,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Azota con violencia e inflige [StandardDamage(1, 1)] p. de daño de [School()].",136063,2,0,0,0

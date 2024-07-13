@@ -252,7 +252,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 390,%s il Calcanebbia,%s la Calcanebbia,255,0
 391,%s il Mietitore Oscuro,%s la Mietitrice Oscura,256,0
 392,%s il Boscaiolo,%s la Boscaiola,257,0
-393,%s il Signore del Legno,%s la Signora del Legno,258,0
+393,Cercaechi %s,Cercaechi %s,258,0
 394,%s il Supertaglialegna,%s la Supertaglialegna,259,0
 395,Architetto %s,Architetta %s,260,0
 397,Campione del Sangue %s,Campionessa del Sangue %s,261,0
@@ -351,7 +351,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 508,Gladiatore Maligno %s,Gladiatrice Maligna %s,359,0
 509,Gladiatore Feroce %s,Gladiatrice Feroce %s,360,0
 510,Signore delle Ere %s,Signora delle Ere %s,361,0
-511,Incursore della Tomba %s,Incursore della Tomba %s,362,0
+511,Incursore della Tomba %s,Incursora della Tomba %s,362,0
 512,Gladiatore Violento %s,Gladiatrice Violenta %s,363,0
 513,%s il Flagello dei Titani,%s il Flagello dei Titani,364,0
 514,%s il Collezionista,%s la Collezionista,365,4
@@ -364,8 +364,8 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 521,%s il Postino,%s la Postina,372,0
 522,Prospettore %s,Prospettrice %s,373,0
 524,%s Giustiziere di G'huun,%s Giustiziera di G'huun,374,0
-625,%s l'Assassino dell'Orda,%s l'Assassina dell'Orda,375,0
-626,%s l'Assassino dell'Alleanza,%s l'Assassina dell'Alleanza,376,0
+625,"%s, l'Assassino dell'Orda","%s, l'Assassina dell'Orda",375,0
+626,"%s, l'Assassino dell'Alleanza","%s, l'Assassina dell'Alleanza",376,0
 627,%s il Conquistatore di Azeroth,%s la Conquistatrice di Azeroth,377,0
 628,Inquisitore %s,Inquisitrice %s,378,0
 629,%s lo Stimato,%s la Stimata,379,0
@@ -437,7 +437,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 705,"%s, Flagello della Regina Banshee","%s, Flagello della Regina Banshee",448,0
 708,Vincitore della Sfida %s,Vincitrice della Sfida %s,449,0
 709,"%s, Terrore della Torre","%s, Terrore della Torre",450,0
-710,"%s, l'Eroe Tormentato","%s, Eroina Tormentata",451,0
+710,"%s, l'Eroe Tormentato","%s, l'Eroina Tormentata",451,0
 712,Gladiatore Cosmico %s,Gladiatrice Cosmica %s,452,0
 713,%s the [PH] TBD Title,%s the [PH] TBD Title,453,0
 714,"%s, Giustiziere dell'Esiliato","%s, Giustiziera dell'Esiliato",454,0
@@ -452,7 +452,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 723,Squarciavelo %s,Squarciavelo %s,463,0
 724,"%s, l'Eroe Predestinato","%s, Eroina Predestinata",464,0
 725,%s l'Ammantato,%s l'Ammantato,465,0
-727,"%s, l'Eroe Ammantato","%s, l'Eroe Ammantato",466,0
+727,"%s, l'Eroe Ammantato","%s, l'Eroina Ammantata",466,0
 728,"%s, Driade Onoraria","%s, Driade Onoraria",467,0
 729,Gladiatore Cremisi %s,Gladiatrice Cremisi %s,468,0
 730,"%s, il Devastamondi","%s, la Devastamondi",469,0
@@ -532,7 +532,26 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 818,Bucaniere %s,Bucaniera %s,545,0
 819,Primo Ufficiale %s,Prima Ufficiale %s,546,0
 821,"%s, Campione degli Stormi dei Draghi","%s, Campionessa degli Stormi dei Draghi",547,0
+822,"%s, the [PH] Hero","%s, the [PH] Hero",548,0
+823,"%s, Speleologo Immortale","%s, Speleologa Immortale",549,0
+824,Gran Esploratore %s,Gran Esploratrice %s,550,0
 825,Corridore nel Tempo %s,Corritrice nel Tempo %s,551,0
 826,"%s, Eccellenza delle Nebbie","%s, Eccellenza delle Nebbie",552,0
 827,"%s, Artiglio di Eternus","%s, Artiglio di Eternus",553,0
+828,Stratega %s,Stratega %s,539,0
+829,Signore della Guerra Forgiato %s,Signora della Guerra Forgiata %s,554,0
+830,Maresciallo Forgiato %s,Marescialla Forgiata %s,555,0
+831,%s lo Sterminatore di Regine,%s la Sterminatrice di Regine,556,0
 832,"%s, Eroe Risvegliato","%s, Eroina Risvegliata",557,0
+833,Gladiatore Forgiato %s,Gladiatrice Forgiata %s,558,0
+834,Leggenda Forgiata %s,Leggenda Forgiata %s,559,0
+835,Sventa-ascensione %s,Sventa-ascensione %s,560,0
+836,"%s, Giustiziere di Ansurek","%s, Giustiziera di Ansurek",561,0
+837,"%s, Carnefice delle Profondità","%s, Carnefice delle Profondità",562,0
+838,Esploratore di Cavafonda %s,Esploratrice di Cavafonda %s,563,0
+839,Sussurratore delle Macchine %s,Sussurratrice delle Macchine %s,564,0
+840,Membro Onorario del Concilio %s,Membro Onorario del Concilio %s,565,0
+841,Lampionaio %s,Lampionaia %s,566,0
+842,Tessitore dei Fili %s,Tessitrice dei Fili %s,567,0
+843,"%s, Custode delle Macchine","%s, Custode delle Macchine",568,0
+845,"%s, Cercatore di Bottino","%s, Cercatrice di Bottino",570,0

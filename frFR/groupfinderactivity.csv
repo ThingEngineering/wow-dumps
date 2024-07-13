@@ -125,7 +125,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 132,Salles des Reflets (héroïque),Héroïque,2,0,53,98,0,0,668,2,0,5,1,0,0
 133,Trône des marées (normal),Normal,2,0,54,98,0,0,643,1,0,5,1,0,0
 134,Cavernes de Rochenoire (normal),Normal,2,0,55,98,0,0,645,1,0,5,1,0,0
-135,Grim Batol (normal),Normal,2,0,56,98,0,0,670,1,0,5,1,0,0
+135,Grim Batol (normal),Normal,2,1,56,99,0,0,670,1,0,5,1,0,0
 136,Salles de l’Origine (normal),Normal,2,0,57,98,0,0,644,1,0,5,1,0,0
 137,Le Cœur-de-Pierre (normal),Normal,2,0,58,98,0,0,725,1,0,5,1,0,0
 138,La cime du Vortex (normal),Normal,2,8,59,98,0,0,657,1,0,5,1,0,0
@@ -133,7 +133,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 140,La cime du Vortex (héroïque),Héroïque,2,8,59,98,0,0,657,2,0,5,1,0,0
 141,Le Cœur-de-Pierre (héroïque),Héroïque,2,0,58,98,0,0,725,2,0,5,1,0,0
 142,Salles de l’Origine (héroïque),Héroïque,2,0,57,98,0,0,644,2,0,5,1,0,0
-143,Grim Batol (héroïque),Héroïque,2,0,56,98,0,0,670,2,0,5,1,0,0
+143,Grim Batol (héroïque),Héroïque,2,2,56,99,567,127178,670,2,0,5,1,0,0
 144,Cavernes de Rochenoire (héroïque),Héroïque,2,0,55,98,0,0,645,2,0,5,1,0,0
 146,Trône des marées (héroïque),Héroïque,2,0,54,98,0,0,643,2,0,5,1,0,0
 147,Cité perdue des Tol’vir (héroïque),Héroïque,2,0,60,98,0,0,755,2,0,5,1,0,0
@@ -474,9 +474,9 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 530,Manoir Malvoie (clé mythique),Mythique +,2,4,145,194,60,98005,1862,8,0,5,1,0,0
 531,Manoir Malvoie (héroïque),Héroïque,2,2,145,99,60,0,1862,2,0,5,1,0,0
 532,Siège de Boralus (normal),Normal,2,1,146,611,0,21439,1822,1,0,5,1,0,0
-533,Siège de Boralus (mythique),Mythique,2,3,146,611,60,65318,1822,23,0,5,1,0,0
-534,Siège de Boralus (clé mythique),Mythique +,2,4,146,706,60,65318,1822,8,0,5,1,0,0
-535,Siège de Boralus (héroïque),Héroïque,2,1,146,611,60,0,1822,2,0,5,1,0,0
+533,Siège de Boralus (mythique),Mythique,2,3,146,611,60,5793,1822,23,0,5,1,0,0
+534,Siège de Boralus (clé mythique),Mythique +,2,4,146,706,60,5793,1822,8,0,5,1,0,0
+535,Siège de Boralus (héroïque),Héroïque,2,1,146,611,567,127178,1822,2,0,5,1,0,0
 536,Manoir Malvoie (normal),Normal,2,1,145,99,57,63909,1862,1,0,5,1,0,0
 537,Tol Dagor (normal),Normal,2,1,144,99,0,0,1771,1,0,5,1,0,0
 538,Sanctuaire des Tempêtes (normal),Normal,2,1,143,99,57,0,1864,1,0,5,1,0,0
@@ -498,8 +498,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 654,Île aléatoire (héroïque),Héroïque,111,0,249,34,60,85364,0,39,0,3,4,0,0
 655,Île aléatoire (mythique),Mythique,111,0,249,34,60,85364,0,40,0,3,4,0,0
 657,Boss hors instance (Battle for Azeroth),Boss hors instance,3,0,0,803,0,21439,0,0,0,40,0,0,0
-658,Siège de Boralus (mythique),Mythique,2,3,146,611,60,65319,1822,23,0,5,1,0,0
-659,Siège de Boralus (clé mythique),Mythique +,2,4,146,706,60,65319,1822,8,0,5,1,0,0
+658,Siège de Boralus (mythique),Mythique,2,3,146,611,0,127178,1822,23,0,5,1,0,0
+659,Siège de Boralus (clé mythique),Mythique +,2,4,146,706,0,98007,1822,8,0,5,1,0,0
 660,Repos des rois (mythique),Mythique,2,3,141,99,60,65321,1762,23,0,5,1,0,0
 661,Repos des rois (clé mythique),Mythique +,2,4,141,194,60,65321,1762,8,0,5,1,0,0
 662,Île aléatoire (JcJ),JcJ,111,0,249,38,60,85364,0,45,0,3,4,0,0
@@ -538,8 +538,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 698,Salles de l’Expiation (mythique),Mythique,2,3,261,99,115,85644,2287,23,0,5,1,0,0
 699,Salles de l’Expiation (clé mythique),Mythique +,2,4,261,194,184,97994,2287,8,0,5,1,0,0
 700,Brumes de Tirna Scithe (normal),Normal,2,1,262,99,0,85644,2290,1,0,5,1,0,0
-701,Brumes de Tirna Scithe (héroïque),Héroïque,2,2,262,99,115,85644,2290,2,0,5,1,0,0
-702,Brumes de Tirna Scithe (mythique),Mythique,2,3,262,99,115,85644,2290,23,0,5,1,0,0
+701,Brumes de Tirna Scithe (héroïque),Héroïque,2,2,262,99,567,127178,2290,2,0,5,1,0,0
+702,Brumes de Tirna Scithe (mythique),Mythique,2,3,262,99,0,127178,2290,23,0,5,1,0,0
 703,Brumes de Tirna Scithe (clé mythique),Mythique +,2,4,262,194,184,97993,2290,8,0,5,1,0,0
 704,Profondeurs Sanguines (normal),Normal,2,1,263,99,0,85644,2284,1,0,5,1,0,0
 705,Profondeurs Sanguines (clé mythique),Mythique +,2,4,263,194,184,97998,2284,8,0,5,1,0,0
@@ -551,8 +551,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 711,Flèches de l’Ascension (héroïque),Héroïque,2,2,264,99,115,85644,2285,2,0,5,1,0,0
 712,Sillage nécrotique (normal),Normal,2,1,265,99,0,85644,2286,1,0,5,1,0,0
 713,Sillage nécrotique (clé mythique),Mythique +,2,4,265,194,184,97991,2286,8,0,5,1,0,0
-714,Sillage nécrotique (mythique),Mythique,2,3,265,99,115,85644,2286,23,0,5,1,0,0
-715,Sillage nécrotique (héroïque),Héroïque,2,2,265,99,115,85644,2286,2,0,5,1,0,0
+714,Sillage nécrotique (mythique),Mythique,2,3,265,99,0,127178,2286,23,0,5,1,0,0
+715,Sillage nécrotique (héroïque),Héroïque,2,2,265,99,567,127178,2286,2,0,5,1,0,0
 716,Théâtre de la Souffrance (normal),Normal,2,1,266,99,0,85644,2293,1,0,5,1,0,0
 717,Théâtre de la Souffrance (clé mythique),Mythique +,2,4,266,194,184,97996,2293,8,0,5,1,0,0
 718,Théâtre de la Souffrance (mythique),Mythique,2,3,266,99,115,85644,2293,23,0,5,1,0,0
@@ -752,8 +752,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1237,Aberrus (mythique),Mythique,3,3,313,35,420,108665,2569,16,0,20,0,0,0
 1243,Grotte de Zaralek,Grotte de Zaralek,1,0,284,258,0,0,0,0,14022,0,4,0,0
 1244,Aube de l’Infini (mythique),Mythique,2,3,315,99,480,99866,2579,23,0,5,1,0,0
-1245,Repos de Galakrond – Aube de l’Infini (héroïque),Héroïque,2,2,316,194,330,99866,2579,2,0,5,1,0,0
-1246,Cime de Murozond – Aube de l’Infini (héroïque),Héroïque,2,2,317,194,330,99866,2579,2,0,5,1,0,0
+1245,Repos de Galakrond – Aube de l’Infini (héroïque),Héroïque,2,2,316,99,330,99866,2579,2,0,5,1,0,0
+1246,Cime de Murozond – Aube de l’Infini (héroïque),Héroïque,2,2,317,99,330,99866,2579,2,0,5,1,0,0
 1247,Repos de Galakrond – Aube de l’Infini (mythique),Mythique +,2,4,316,194,415,114533,2579,8,0,5,1,0,463
 1248,Cime de Murozond – Aube de l’Infini (mythique),Mythique +,2,4,317,194,415,114534,2579,8,0,5,1,0,464
 1249,Rêve d’émeraude,Rêve d’émeraude,1,0,284,258,0,0,0,0,14529,0,4,0,0
@@ -761,6 +761,42 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1252,Amirdrassil (héroïque),Héroïque,3,2,319,35,446,114446,2549,15,0,30,0,0,0
 1253,Amirdrassil (mythique),Mythique,3,3,319,35,459,115330,2549,16,0,20,0,0,0
 1274,Trône des marées (clé mythique),Mythique +,2,8,54,194,385,112699,643,8,0,5,1,0,0
+1275,Faille de Flamme-Noire (normal),Normal,2,1,322,99,0,114336,2651,1,0,5,1,0,0
+1276,Faille de Flamme-Noire (héroïque),Héroïque,2,2,322,99,567,115171,2651,2,0,5,1,0,0
+1277,Faille de Flamme-Noire (mythique),Mythique,2,3,322,99,330,120231,2651,23,0,5,1,0,0
+1278,"Ara-Kara, la cité des Échos (normal)",Normal,2,1,323,99,0,114336,2660,1,0,5,1,0,0
+1279,"Ara-Kara, la cité des Échos (héroïque)",Héroïque,2,2,323,99,567,115171,2660,2,0,5,1,0,0
+1280,"Ara-Kara, la cité des Échos (mythique)",Mythique,2,3,323,99,330,124938,2660,23,0,5,1,0,0
+1281,Prieuré de la Flamme sacrée (clé mythique),Mythique +,2,9,324,194,50,120230,2649,8,0,5,1,0,0
+1282,Faille de Flamme-Noire (clé mythique),Mythique +,2,3,322,99,330,120231,2651,8,0,5,1,0,0
+1283,La colonie (clé mythique),Mythique +,2,4,325,99,330,120232,2648,8,0,5,1,0,0
+1284,"Ara-Kara, la cité des Échos (clé mythique)",Mythique +,2,4,323,99,330,120233,2660,8,0,5,1,0,0
+1285,Le Brise-Aube (clé mythique),Mythique +,2,4,326,99,330,120234,2662,8,0,5,1,0,0
+1286,Hydromellerie de Brassecendre (clé mythique),Mythique +,2,3,327,99,330,120235,2661,8,0,5,1,0,0
+1287,La Cavepierre (clé mythique),Mythique +,2,4,328,99,330,120236,2652,8,0,5,1,0,0
+1288,Cité des Fils (clé mythique),Mythique +,2,4,329,99,0,120237,2669,8,0,5,1,0,0
+1289,Boss hors instance (The War Within),Boss hors instance,3,0,0,803,0,99866,2444,0,0,40,0,0,0
+1290,Grim Batol (clé mythique),Mythique +,2,4,56,99,0,120783,670,8,0,5,1,0,0
+1291,Le Brise-Aube (mythique),Mythique,2,3,326,99,330,124935,2662,23,0,5,1,0,0
+1292,La Cavepierre (mythique),Mythique,2,3,328,99,330,124932,2652,23,0,5,1,0,0
+1293,Cité des Fils (mythique),Mythique,2,3,329,99,0,123668,2669,23,0,5,1,0,0
+1294,Grim Batol (mythique),Mythique,2,3,56,99,0,127178,670,23,0,5,1,0,0
+1295,Folie fongique,Niveau 1,121,1,331,162,0,118387,2664,208,14957,5,4,0,0
+1296,Repos de Kriegval,Niveau 1,121,1,332,162,0,118387,2681,208,15000,5,4,0,0
+1297,Mines de Rampeterre,Niveau 1,121,1,333,162,0,118387,2680,208,14999,5,4,0,0
+1298,Tanière de Zekvir,Niveau ?,121,1,334,162,0,121468,2682,208,15001,5,4,0,0
+1299,Le moulin à eau,Niveau 1,121,1,335,162,0,118387,2683,208,15002,5,4,0,0
+1300,La fosse de l’Effroi,Niveau 1,121,1,336,162,0,118387,2684,208,15003,5,4,0,0
+1301,Sanctuaire Crépusculaire,Niveau 1,121,1,337,162,0,118387,2686,208,15005,5,4,0,0
+1302,Grotte de Mycomancie,Niveau 1,121,1,338,162,0,118387,2679,208,14998,5,4,0,0
+1303,Le Puisard,Niveau 1,121,1,339,162,0,118387,2687,208,15175,5,4,0,0
+1304,Brèche Grouillante,Niveau 1,121,1,340,162,0,118387,2685,208,15004,5,4,0,0
+1305,Le donjon de l’Abîme,Niveau 1,121,1,341,162,0,118387,2690,208,15009,5,4,0,0
+1306,Abysse de Tak-Rethan,Niveau 1,121,1,342,162,0,118387,2689,208,15327,5,4,0,0
+1307,La Trame spiralée,Niveau 1,121,1,343,162,0,118387,2688,208,15007,5,4,0,0
+1308,La colonie (normal),Normal,2,1,325,99,0,114336,2648,1,0,5,1,0,0
+1309,La colonie (héroïque),Héroïque,2,2,325,99,567,115171,2648,2,0,5,1,0,0
+1310,La colonie (mythique),Mythique,2,3,325,99,330,120232,2648,23,0,5,1,0,0
 1311,Forêt de Jade,Forêt de Jade,1,0,71,258,0,0,0,0,5785,0,4,0,0
 1312,Vallée des Quatre vents,Vallée des Quatre vents,1,0,71,258,0,0,0,0,5805,0,4,0,0
 1313,Étendues sauvages de Krasarang,Étendues sauvages de Krasarang,1,0,71,258,0,0,0,0,6134,0,4,0,0
@@ -828,3 +864,140 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1376,Le sombre cœur de la Pandarie (héroïque),Héroïque,5,0,106,34,0,0,1144,11,0,3,1,0,0
 1377,Les secrets de Ragefeu (normal),Normal,5,0,108,34,0,0,1131,12,0,3,1,0,0
 1378,Les secrets de Ragefeu (héroïque),Héroïque,5,0,108,34,0,0,1131,11,0,3,1,0,0
+1382,Cité des Fils (normal),Normal,2,1,329,99,0,117312,2669,1,0,5,1,0,0
+1383,Cité des Fils (héroïque),Héroïque,2,2,329,99,567,123301,2669,2,0,5,1,0,0
+1384,Folie fongique,Niveau 2,121,2,331,162,0,121491,2664,208,14957,5,4,0,0
+1385,Repos de Kriegval,Niveau 2,121,2,332,162,0,121491,2681,208,15000,5,4,0,0
+1386,Mines de Rampeterre,Niveau 2,121,2,333,162,0,121491,2680,208,14999,5,4,0,0
+1387,Le moulin à eau,Niveau 2,121,2,335,162,0,121491,2683,208,15002,5,4,0,0
+1388,La fosse de l’Effroi,Niveau 2,121,2,336,162,0,121491,2684,208,15003,5,4,0,0
+1389,Sanctuaire Crépusculaire,Niveau 2,121,2,337,162,0,121491,2686,208,15005,5,4,0,0
+1390,Grotte de Mycomancie,Niveau 2,121,2,338,162,0,121491,2679,208,14998,5,4,0,0
+1391,Le Puisard,Niveau 2,121,2,339,162,0,121491,2687,208,15175,5,4,0,0
+1392,Brèche Grouillante,Niveau 2,121,2,340,162,0,121491,2685,208,15004,5,4,0,0
+1393,Le donjon de l’Abîme,Niveau 2,121,2,341,162,0,121491,2690,208,15009,5,4,0,0
+1394,Abysse de Tak-Rethan,Niveau 2,121,2,342,162,0,121491,2689,208,15327,5,4,0,0
+1395,La Trame spiralée,Niveau 2,121,2,343,162,0,121491,2688,208,15007,5,4,0,0
+1396,Folie fongique,Niveau 3,121,3,331,162,0,118382,2664,208,14957,5,4,0,0
+1397,Repos de Kriegval,Niveau 3,121,3,332,162,0,118382,2681,208,15000,5,4,0,0
+1398,Mines de Rampeterre,Niveau 3,121,3,333,162,0,118382,2680,208,14999,5,4,0,0
+1399,Le moulin à eau,Niveau 3,121,3,335,162,0,118382,2683,208,15002,5,4,0,0
+1400,La fosse de l’Effroi,Niveau 3,121,3,336,162,0,118382,2684,208,15003,5,4,0,0
+1401,Sanctuaire Crépusculaire,Niveau 3,121,3,337,162,0,118382,2686,208,15005,5,4,0,0
+1402,Grotte de Mycomancie,Niveau 3,121,3,338,162,0,118382,2679,208,14998,5,4,0,0
+1403,Le Puisard,Niveau 3,121,3,339,162,0,118382,2687,208,15175,5,4,0,0
+1404,Brèche Grouillante,Niveau 3,121,3,340,162,0,118382,2685,208,15004,5,4,0,0
+1405,Le donjon de l’Abîme,Niveau 3,121,3,341,162,0,118382,2690,208,15009,5,4,0,0
+1406,Abysse de Tak-Rethan,Niveau 3,121,3,342,162,0,118382,2689,208,15327,5,4,0,0
+1407,La Trame spiralée,Niveau 3,121,3,343,162,0,118382,2688,208,15007,5,4,0,0
+1408,Folie fongique,Niveau 4,121,4,331,162,0,118383,2664,208,14957,5,4,0,0
+1409,Repos de Kriegval,Niveau 4,121,4,332,162,0,118383,2681,208,15000,5,4,0,0
+1410,Mines de Rampeterre,Niveau 4,121,4,333,162,0,118383,2680,208,14999,5,4,0,0
+1411,Le moulin à eau,Niveau 4,121,4,335,162,0,118383,2683,208,15002,5,4,0,0
+1412,La fosse de l’Effroi,Niveau 4,121,4,336,162,0,118383,2684,208,15003,5,4,0,0
+1413,Sanctuaire Crépusculaire,Niveau 4,121,4,337,162,0,118383,2686,208,15005,5,4,0,0
+1414,Grotte de Mycomancie,Niveau 4,121,4,338,162,0,118383,2679,208,14998,5,4,0,0
+1415,Le Puisard,Niveau 4,121,4,339,162,0,118383,2687,208,15175,5,4,0,0
+1416,Brèche Grouillante,Niveau 4,121,4,340,162,0,118383,2685,208,15004,5,4,0,0
+1417,Le donjon de l’Abîme,Niveau 4,121,4,341,162,0,118383,2690,208,15009,5,4,0,0
+1418,Abysse de Tak-Rethan,Niveau 4,121,4,342,162,0,118383,2689,208,15327,5,4,0,0
+1419,La Trame spiralée,Niveau 4,121,4,343,162,0,118383,2688,208,15007,5,4,0,0
+1420,Folie fongique,Niveau 5,121,5,331,162,0,118384,2664,208,14957,5,4,0,0
+1421,Repos de Kriegval,Niveau 5,121,5,332,162,0,118384,2681,208,15000,5,4,0,0
+1422,Mines de Rampeterre,Niveau 5,121,5,333,162,0,118384,2680,208,14999,5,4,0,0
+1423,Le moulin à eau,Niveau 5,121,5,335,162,0,118384,2683,208,15002,5,4,0,0
+1424,La fosse de l’Effroi,Niveau 5,121,5,336,162,0,118384,2684,208,15003,5,4,0,0
+1425,Sanctuaire Crépusculaire,Niveau 5,121,5,337,162,0,118384,2686,208,15005,5,4,0,0
+1426,Grotte de Mycomancie,Niveau 5,121,5,338,162,0,118384,2679,208,14998,5,4,0,0
+1427,Le Puisard,Niveau 5,121,5,339,162,0,118384,2687,208,15175,5,4,0,0
+1428,Brèche Grouillante,Niveau 5,121,5,340,162,0,118384,2685,208,15004,5,4,0,0
+1429,Le donjon de l’Abîme,Niveau 5,121,5,341,162,0,118384,2690,208,15009,5,4,0,0
+1430,Abysse de Tak-Rethan,Niveau 5,121,5,342,162,0,118384,2689,208,15327,5,4,0,0
+1431,La Trame spiralée,Niveau 5,121,5,343,162,0,118384,2688,208,15007,5,4,0,0
+1432,Folie fongique,Niveau 6,121,6,331,162,0,118385,2664,208,14957,5,4,0,0
+1433,Repos de Kriegval,Niveau 6,121,6,332,162,0,118385,2681,208,15000,5,4,0,0
+1434,Mines de Rampeterre,Niveau 6,121,6,333,162,0,118385,2680,208,14999,5,4,0,0
+1435,Le moulin à eau,Niveau 6,121,6,335,162,0,118385,2683,208,15002,5,4,0,0
+1436,La fosse de l’Effroi,Niveau 6,121,6,336,162,0,118385,2684,208,15003,5,4,0,0
+1437,Sanctuaire Crépusculaire,Niveau 6,121,6,337,162,0,118385,2686,208,15005,5,4,0,0
+1438,Grotte de Mycomancie,Niveau 6,121,6,338,162,0,118385,2679,208,14998,5,4,0,0
+1439,Le Puisard,Niveau 6,121,6,339,162,0,118385,2687,208,15175,5,4,0,0
+1440,Brèche Grouillante,Niveau 6,121,6,340,162,0,118385,2685,208,15004,5,4,0,0
+1441,Le donjon de l’Abîme,Niveau 6,121,6,341,162,0,118385,2690,208,15009,5,4,0,0
+1442,Abysse de Tak-Rethan,Niveau 6,121,6,342,162,0,118385,2689,208,15327,5,4,0,0
+1443,La Trame spiralée,Niveau 6,121,6,343,162,0,118385,2688,208,15007,5,4,0,0
+1444,Folie fongique,Niveau 7,121,7,331,162,0,118386,2664,208,14957,5,4,0,0
+1445,Repos de Kriegval,Niveau 7,121,7,332,162,0,118386,2681,208,15000,5,4,0,0
+1446,Mines de Rampeterre,Niveau 7,121,7,333,162,0,118386,2680,208,14999,5,4,0,0
+1447,Le moulin à eau,Niveau 7,121,7,335,162,0,118386,2683,208,15002,5,4,0,0
+1448,La fosse de l’Effroi,Niveau 7,121,7,336,162,0,118386,2684,208,15003,5,4,0,0
+1449,Sanctuaire Crépusculaire,Niveau 7,121,7,337,162,0,118386,2686,208,15005,5,4,0,0
+1450,Grotte de Mycomancie,Niveau 7,121,7,338,162,0,118386,2679,208,14998,5,4,0,0
+1451,Le Puisard,Niveau 7,121,7,339,162,0,118386,2687,208,15175,5,4,0,0
+1452,Brèche Grouillante,Niveau 7,121,7,340,162,0,118386,2685,208,15004,5,4,0,0
+1453,Le donjon de l’Abîme,Niveau 7,121,7,341,162,0,118386,2690,208,15009,5,4,0,0
+1454,Abysse de Tak-Rethan,Niveau 7,121,7,342,162,0,118386,2689,208,15327,5,4,0,0
+1455,La Trame spiralée,Niveau 7,121,7,343,162,0,118386,2688,208,15007,5,4,0,0
+1456,Folie fongique,Niveau 8,121,8,331,162,0,121446,2664,208,14957,5,4,0,0
+1457,Repos de Kriegval,Niveau 8,121,8,332,162,0,121446,2681,208,15000,5,4,0,0
+1458,Mines de Rampeterre,Niveau 8,121,8,333,162,0,121446,2680,208,14999,5,4,0,0
+1459,Le moulin à eau,Niveau 8,121,8,335,162,0,121446,2683,208,15002,5,4,0,0
+1460,La fosse de l’Effroi,Niveau 8,121,8,336,162,0,121446,2684,208,15003,5,4,0,0
+1461,Sanctuaire Crépusculaire,Niveau 8,121,8,337,162,0,121446,2686,208,15005,5,4,0,0
+1462,Grotte de Mycomancie,Niveau 8,121,8,338,162,0,121446,2679,208,14998,5,4,0,0
+1463,Le Puisard,Niveau 8,121,8,339,162,0,121446,2687,208,15175,5,4,0,0
+1464,Brèche Grouillante,Niveau 8,121,8,340,162,0,121446,2685,208,15004,5,4,0,0
+1465,Le donjon de l’Abîme,Niveau 8,121,8,341,162,0,121446,2690,208,15009,5,4,0,0
+1466,Abysse de Tak-Rethan,Niveau 8,121,8,342,162,0,121446,2689,208,15327,5,4,0,0
+1467,La Trame spiralée,Niveau 8,121,8,343,162,0,121446,2688,208,15007,5,4,0,0
+1468,Folie fongique,Niveau 9,121,9,331,162,0,121447,2664,208,14957,5,4,0,0
+1469,Repos de Kriegval,Niveau 9,121,9,332,162,0,121447,2681,208,15000,5,4,0,0
+1470,Mines de Rampeterre,Niveau 9,121,9,333,162,0,121447,2680,208,14999,5,4,0,0
+1471,Le moulin à eau,Niveau 9,121,9,335,162,0,121447,2683,208,15002,5,4,0,0
+1472,La fosse de l’Effroi,Niveau 9,121,9,336,162,0,121447,2684,208,15003,5,4,0,0
+1473,Sanctuaire Crépusculaire,Niveau 9,121,9,337,162,0,121447,2686,208,15005,5,4,0,0
+1474,Grotte de Mycomancie,Niveau 9,121,9,338,162,0,121447,2679,208,14998,5,4,0,0
+1475,Le Puisard,Niveau 9,121,9,339,162,0,121447,2687,208,15175,5,4,0,0
+1476,Brèche Grouillante,Niveau 9,121,9,340,162,0,121447,2685,208,15004,5,4,0,0
+1477,Le donjon de l’Abîme,Niveau 9,121,9,341,162,0,121447,2690,208,15009,5,4,0,0
+1478,Abysse de Tak-Rethan,Niveau 9,121,9,342,162,0,121447,2689,208,15327,5,4,0,0
+1479,La Trame spiralée,Niveau 9,121,9,343,162,0,121447,2688,208,15007,5,4,0,0
+1480,Folie fongique,Niveau 10,121,10,331,162,0,121448,2664,208,14957,5,4,0,0
+1481,Repos de Kriegval,Niveau 10,121,10,332,162,0,121448,2681,208,15000,5,4,0,0
+1482,Mines de Rampeterre,Niveau 10,121,10,333,162,0,121448,2680,208,14999,5,4,0,0
+1483,Le moulin à eau,Niveau 10,121,10,335,162,0,121448,2683,208,15002,5,4,0,0
+1484,La fosse de l’Effroi,Niveau 10,121,10,336,162,0,121448,2684,208,15003,5,4,0,0
+1485,Sanctuaire Crépusculaire,Niveau 10,121,10,337,162,0,121448,2686,208,15005,5,4,0,0
+1486,Grotte de Mycomancie,Niveau 10,121,10,338,162,0,121448,2679,208,14998,5,4,0,0
+1487,Le Puisard,Niveau 10,121,10,339,162,0,121448,2687,208,15175,5,4,0,0
+1488,Brèche Grouillante,Niveau 10,121,10,340,162,0,121448,2685,208,15004,5,4,0,0
+1489,Le donjon de l’Abîme,Niveau 10,121,10,341,162,0,121448,2690,208,15009,5,4,0,0
+1490,Abysse de Tak-Rethan,Niveau 10,121,10,342,162,0,121448,2689,208,15327,5,4,0,0
+1491,La Trame spiralée,Niveau 10,121,10,343,162,0,121448,2688,208,15007,5,4,0,0
+1492,Folie fongique,Niveau 11,121,11,331,162,0,121468,2664,208,14957,5,4,0,0
+1493,Repos de Kriegval,Niveau 11,121,11,332,162,0,121468,2681,208,15000,5,4,0,0
+1494,Mines de Rampeterre,Niveau 11,121,11,333,162,0,121468,2680,208,14999,5,4,0,0
+1495,Le moulin à eau,Niveau 11,121,11,335,162,0,121468,2683,208,15002,5,4,0,0
+1496,La fosse de l’Effroi,Niveau 11,121,11,336,162,0,121468,2684,208,15003,5,4,0,0
+1497,Sanctuaire Crépusculaire,Niveau 11,121,11,337,162,0,121468,2686,208,15005,5,4,0,0
+1498,Grotte de Mycomancie,Niveau 11,121,11,338,162,0,121468,2679,208,14998,5,4,0,0
+1499,Le Puisard,Niveau 11,121,11,339,162,0,121468,2687,208,15175,5,4,0,0
+1500,Brèche Grouillante,Niveau 11,121,11,340,162,0,121468,2685,208,15004,5,4,0,0
+1501,Le donjon de l’Abîme,Niveau 11,121,11,341,162,0,121468,2690,208,15009,5,4,0,0
+1502,Abysse de Tak-Rethan,Niveau 11,121,11,342,162,0,121468,2689,208,15327,5,4,0,0
+1503,La Trame spiralée,Niveau 11,121,11,343,162,0,121468,2688,208,15007,5,4,0,0
+1504,Palais des Nérub’ar (mythique),Mythique,3,3,362,35,597,122606,2657,16,0,20,0,0,0
+1505,Palais des Nérub’ar (normal),Normal,3,1,362,35,571,122606,2657,14,0,30,0,0,0
+1506,Palais des Nérub’ar (héroïque),Héroïque,3,2,362,35,584,122606,2657,14,0,30,0,0,0
+1507,Hydromellerie de Brassecendre (normal),Normal,2,1,327,99,0,117308,2661,1,0,5,0,0,0
+1508,Hydromellerie de Brassecendre (héroïque),Héroïque,2,2,327,99,567,117308,2661,2,0,5,1,0,0
+1509,Hydromellerie de Brassecendre (mythique),Mythique,2,3,327,99,0,120235,2661,23,0,5,1,0,0
+1510,Prieuré de la Flamme sacrée (normal),Normal,2,1,324,99,0,114336,2649,1,0,5,1,0,0
+1511,Prieuré de la Flamme sacrée (héroïque),Héroïque,2,2,324,99,567,115171,2649,2,0,5,1,0,0
+1512,Prieuré de la Flamme sacrée (mythique),Mythique,2,3,324,99,330,120230,2649,23,0,5,1,0,0
+1513,Les abîmes Retentissants,Les abîmes Retentissants,1,0,363,258,0,0,0,0,14795,0,4,0,0
+1518,Le Brise-Aube (normal),Normal,2,1,326,99,0,117309,2662,1,0,5,1,0,0
+1519,Le Brise-Aube (héroïque),Héroïque,2,2,326,99,567,123300,2662,2,0,5,1,0,0
+1520,Tanière de Zekvir,Niveau 8,121,1,334,162,0,121446,2682,208,15001,5,4,0,0
+1521,La Cavepierre (héroïque),Héroïque,2,2,328,99,567,123297,2652,2,0,5,1,0,0
+1535,La Cavepierre (normal),Normal,2,1,328,99,0,117306,2652,1,0,5,1,0,0

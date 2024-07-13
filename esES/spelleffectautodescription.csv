@@ -32,7 +32,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 31,Inflige $s@effectindex p. de daño Arcano a un enemigo cada $t@effectindex s durante $d.,$s@effectindex p. de daño Arcano infligidos cada $t@effectindex s.,6,3,1,3,64,50,50
 32,Inflige $s@effectindex p. de daño de Caos a un enemigo cada $t@effectindex s durante $d.,$s@effectindex p. de daño de Caos infligidos cada $t@effectindex s.,6,3,1,3,127,50,50
 33,"Aturde al enemigo, lo que le impide moverse o atacar durante $d.",Aturdido.,6,12,0,3,0,0,0
-34,Aumenta un $s@effectindex% la celeridad de todos los aliados en un radio de $A@effectindex m del impacto durante $d.,Celeridad aumentada un $s@effectindex%.,6,193,1,6,0,0,0
+34,Aumenta un $s@effectindex% la velocidad de ataque y de lanzamiento de todos los aliados en un radio de $A@effectindex m del impacto durante $d.,Velocidad de ataque y de lanzamiento aumentada un $s@effectindex%.,6,193,1,6,0,0,0
 35,"Aturde a todos los enemigos en un radio de $A@effectindex m, lo que les impide moverse o atacar durante $d.",Aturdido.,6,12,0,7,0,0,0
 36,"Aturde a todos los enemigos en un radio de $A@effectindex m del impacto, lo que les impide moverse o atacar durante $d.",Aturdido.,6,12,0,5,0,0,0
 37,Sana a un aliado un $s@effectindex% de su salud máxima.,,136,0,1,2,0,0,0
@@ -70,10 +70,10 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 72,Inflige daño de Caos a un enemigo cada $t@effectindex s durante $d.,Daño de Caos infligido cada $t@effectindex s.,6,70,1,1,127,50,50
 83,Sana al taumaturgo un $s@effectindex% de su salud máxima cada $t@effectindex s durante $d.,Sana un $s@effectindex% de la salud máxima cada $t@effectindex s.,6,20,1,1,0,0,0
 85,Sana al taumaturgo un $s@effectindex% de su salud máxima.,,136,0,1,1,0,0,0
-91,Interrumpe el lanzamiento de hechizos de todos los enemigos en un radio de $A@effectindex m durante $d.,,68,0,0,7,0,30,0
+91,Interrumpe el lanzamiento de hechizos a todos los enemigos en un radio de $A@effectindex m durante $d.,,68,0,0,7,0,30,0
 92,Interrumpe el lanzamiento de hechizos de un enemigo durante $d.,,68,0,1,3,1,30,0
 93,"Silencia a un enemigo, lo que le impide lanzar hechizos durante $d.",Incapaz de lanzar hechizos.,6,27,0,3,0,30,0
-94,Reduce la celeridad un $s@effectindex% durante $d.,Celeridad reducida un $s@effectindex%.,6,193,2,3,0,0,0
+94,Reduce un $s@effectindex% la velocidad de ataque y de lanzamiento durante $d.,Velocidad de ataque y de lanzamiento reducida un $s@effectindex%.,6,193,2,3,0,0,0
 96,Repele a un enemigo.,,98,0,1,3,0,0,0
 97,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de todo el daño.,Absorbe $s@effectindex p. de daño.,6,69,1,1,127,0,0
 98,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño físico.,Absorbe $s@effectindex p. de daño físico.,6,69,1,1,1,0,0
@@ -83,8 +83,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 102,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño de Escarcha.,Absorbe $s@effectindex p. de daño de Escarcha.,6,69,1,1,16,0,0
 103,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño de las Sombras.,Absorbe $s@effectindex p. de daño de las Sombras.,6,69,1,1,32,0,0
 104,Rodea al taumaturgo con un escudo que dura $d y puede absorber un máximo de $s@effectindex p. de daño Arcano.,Absorbe $s@effectindex p. de daño Arcano.,6,69,1,1,64,0,0
-105,Aumenta un $s@effectindex% la celeridad del taumaturgo durante $d.,Celeridad aumentada un $s@effectindex%.,6,193,1,1,0,10,0
-106,Reduce la celeridad un $s@effectindex% durante $d.,Celeridad reducida un $s@effectindex%.,6,193,2,1,0,0,0
+105,Aumenta un $s@effectindex% la velocidad de ataque y de lanzamiento del taumaturgo durante $d.,Velocidad de ataque y de lanzamiento aumentada un $s@effectindex%.,6,193,1,1,0,10,0
+106,Reduce un $s@effectindex% la velocidad de ataque y de lanzamiento durante $d.,Velocidad de ataque y de lanzamiento reducida un $s@effectindex%.,6,193,2,1,0,0,0
 107,Reduce la velocidad de movimiento un $s@effectindex%.,Velocidad de movimiento reducida un $s@effectindex%.,6,33,1,1,0,0,0
 108,Inflige daño físico a todos los enemigos en un radio de $A@effectindex m del impacto.,,31,0,1,5,1,50,50
 109,Inflige daño Sagrado a todos los enemigos en un radio de $A@effectindex m del impacto.,,31,0,1,5,2,50,50
@@ -177,8 +177,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 302,Inflige daño de Fuego a los enemigos en un radio de $A@effectindex m del impacto.,,165,0,1,5,4,50,50
 303,Provoca que todos los enemigos en un radio de $A@effectindex m del impacto reciban daño de Fuego cada $t@effectindex s durante $d.,Daño de Fuego infligido cada $t@effectindex s.,6,70,1,5,4,50,50
 304,Reduce un $s@effectindex% la velocidad de movimiento del objetivo durante $d.,Velocidad de movimiento reducida un $s@effectindex%.,6,33,2,3,0,0,0
-305,Sana al taumaturgo y a todos los aliados en un radio de $A@effectindex m un $s@effectindex% de su salud máxima cada $t@effectindex s durante $d.,Sana un $s@effectindex% de la salud máxima cada $t@effectindex s.,6,20,1,4,0,0,0
-306,Sana al taumaturgo y a todos los aliados en un radio de $A@effectindex m un $s@effectindex% de su salud máxima cada $t@effectindex s durante $d.,Sana un $s@effectindex% de la salud máxima cada $t@effectindex s.,6,20,1,6,0,0,0
+305,Sana un $s@effectindex% de la salud máxima del taumaturgo y de todos los aliados en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Sana un $s@effectindex% de la salud máxima cada $t@effectindex s.,6,20,1,4,0,0,0
+306,Sana un $s@effectindex% de la salud máxima del taumaturgo y de todos los aliados en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Sana un $s@effectindex% de la salud máxima cada $t@effectindex s.,6,20,1,6,0,0,0
 308,Inflige daño de Naturaleza a todos los enemigos en un radio de $A@effectindex m.,,2,0,1,4,8,50,50
 309,Inflige daño de las Sombras a todos los enemigos en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Daño de las Sombras infligido cada $t@effectindex s.,6,70,1,7,32,50,50
 310,Inflige daño de Naturaleza a todos los enemigos en un radio de $A@effectindex m cada $t@effectindex s durante $d.,Daño de Naturaleza infligido cada $t@effectindex s.,6,70,1,7,8,50,50
@@ -343,16 +343,16 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 499,Reduce un $s@effectindex% la velocidad de ataque de todos los enemigos frente al taumaturgo durante $d.,Velocidad de ataque reducida un $s@effectindex%.,6,9,2,9,0,0,0
 500,Reduce un $s@effectindex% la velocidad de ataque de todos los enemigos en un radio de $A@effectindex m del taumaturgo durante $d.,Velocidad de ataque reducida un $s@effectindex%.,6,9,2,7,0,0,0
 501,Reduce un $s@effectindex% la velocidad de ataque de todos los enemigos en un radio de $A@effectindex m del impacto durante $d.,Velocidad de ataque reducida un $s@effectindex%.,6,9,2,5,0,0,0
-502,Reduce un $s@effectindex% la celeridad con hechizos de todos los enemigos en un radio de $A@effectindex m del impacto durante $d.,Celeridad con hechizos reducida un $s@effectindex%.,6,65,2,5,0,0,0
-503,Reduce un $s@effectindex% la celeridad con hechizos de todos los enemigos en un radio de $A@effectindex m del taumaturgo durante $d.,Celeridad con hechizos reducida un $s@effectindex%.,6,65,2,7,0,0,0
-504,Reduce un $s@effectindex% la celeridad con hechizos de todos los enemigos frente al taumaturgo durante $d.,Celeridad con hechizos reducida un $s@effectindex%.,6,65,2,9,0,0,0
-505,Reduce un $s@effectindex% la celeridad con hechizos durante $d.,Celeridad con hechizos reducida un $s@effectindex%.,6,65,2,3,0,0,0
-506,Reduce un $s@effectindex% la celeridad con hechizos durante $d.,Celeridad con hechizos reducida un $s@effectindex%.,6,65,2,1,0,0,0
-507,Aumenta un $s@effectindex% la celeridad con hechizos de todos los aliados frente al taumaturgo durante $d.,Celeridad con hechizos aumentada un $s@effectindex%.,6,65,1,8,0,0,0
-508,Aumenta un $s@effectindex% la celeridad con hechizos de todos los aliados en un radio de $A@effectindex m del taumaturgo durante $d.,Celeridad con hechizos aumentada un $s@effectindex%.,6,65,1,6,0,0,0
-509,Aumenta un $s@effectindex% la celeridad con hechizos de todos los aliados en un radio de $A@effectindex m del impacto durante $d.,Celeridad con hechizos aumentada un $s@effectindex%.,6,65,1,4,0,0,0
-510,Aumenta un $s@effectindex% la celeridad con hechizos del objetivo durante $d.,Celeridad con hechizos aumentada un $s@effectindex%.,6,65,1,2,0,0,0
-511,Aumenta un $s@effectindex% la celeridad con hechizos del taumaturgo durante $d.,Celeridad con hechizos aumentada un $s@effectindex%.,6,65,1,1,0,10,0
+502,Reduce un $s@effectindex% la velocidad de lanzamiento de todos los enemigos en un radio de $A@effectindex m del impacto durante $d.,Velocidad de lanzamiento reducida un $s@effectindex%.,6,65,2,5,0,0,0
+503,Reduce un $s@effectindex% la velocidad de lanzamiento de todos los enemigos en un radio de $A@effectindex m del taumaturgo durante $d.,Velocidad de lanzamiento reducida un $s@effectindex%.,6,65,2,7,0,0,0
+504,Reduce un $s@effectindex% la velocidad de lanzamiento de todos los enemigos frente al taumaturgo durante $d.,Velocidad de lanzamiento reducida un $s@effectindex%.,6,65,2,9,0,0,0
+505,Reduce la velocidad de lanzamiento un $s@effectindex% durante $d.,Velocidad de lanzamiento reducida un $s@effectindex%.,6,65,2,3,0,0,0
+506,Reduce la velocidad de lanzamiento un $s@effectindex% durante $d.,Velocidad de lanzamiento reducida un $s@effectindex%.,6,65,2,1,0,0,0
+507,Aumenta un $s@effectindex% la velocidad de lanzamiento de todos los aliados frente al taumaturgo durante $d.,Velocidad de lanzamiento aumentada un $s@effectindex%.,6,65,1,8,0,0,0
+508,Aumenta un $s@effectindex% la velocidad de lanzamiento de todos los aliados en un radio de $A@effectindex m del taumaturgo durante $d.,Velocidad de lanzamiento aumentada un $s@effectindex%.,6,65,1,6,0,0,0
+509,Aumenta un $s@effectindex% la velocidad de lanzamiento de todos los aliados en un radio de $A@effectindex m del impacto durante $d.,Velocidad de lanzamiento aumentada un $s@effectindex%.,6,65,1,4,0,0,0
+510,Aumenta un $s@effectindex% la velocidad de lanzamiento del objetivo durante $d.,Velocidad de lanzamiento aumentada un $s@effectindex%.,6,65,1,2,0,0,0
+511,Aumenta un $s@effectindex% la velocidad de lanzamiento del taumaturgo durante $d.,Velocidad de lanzamiento aumentada un $s@effectindex%.,6,65,1,1,0,10,0
 512,Aumenta un $s@effectindex% el daño Arcano recibido durante $d.,Daño Arcano recibido aumentado un $s@effectindex%.,6,101,2,3,64,1,1
 513,Provoca que todos los enemigos en un radio de $A@effectindex m fallen un $s@effectindex% de los ataques durante $d.,Probabilidad de golpear reducida un $s@effectindex%.,6,54,2,7,0,0,0
 514,Provoca que todos los enemigos en un radio de $A@effectindex m fallen un $s@effectindex% de los hechizos durante $d.,Probabilidad de golpear con hechizos reducida un $s@effectindex%.,6,55,2,7,0,0,0
@@ -393,11 +393,11 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 549,Inflige $s@effectindex p. de daño Cósmico a un enemigo cada $t@effectindex s durante $d.,$s@effectindex p. de daño Cósmico infligido cada $t@effectindex s.,6,3,1,1,106,50,50
 550,Pacifica a un enemigo e impide que ataque durante $d.,Incapaz de atacar.,6,25,0,3,0,30,0
 551,Pacifica a todos los enemigos en un radio de $A@effectindex m e impide que ataquen durante $d.,Incapaz de atacar.,6,25,0,7,0,0,0
-552,Silencia y pacifica a un enemigo e impide que ataque y lance hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,3,0,30,0
-553,Silencia y pacifica a todos los enemigos en un radio de $A@effectindex m e impide que ataquen o lancen hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,7,0,0,0
-554,"Silencia a un enemigo, lo que le impide lanzar hechizos durante $d.",Incapaz de lanzar hechizos.,6,27,0,1,0,30,0
+552,"Silencia y pacifica a un enemigo, lo que impide que ataque y que lance hechizos durante $d.",Incapaz de atacar o lanzar hechizos.,6,60,0,3,0,30,0
+553,"Silencia y pacifica a todos los enemigos en un radio de $A@effectindex m, lo que impide que ataquen o lancen hechizos durante $d.",Incapaz de atacar o lanzar hechizos.,6,60,0,7,0,0,0
+554,"Silencia a un enemigo, lo que impide que lance hechizos durante $d.",Incapaz de lanzar hechizos.,6,27,0,1,0,30,0
 555,Pacifica a un enemigo e impide que ataque durante $d.,Incapaz de atacar.,6,25,0,1,0,30,0
-556,Silencia y pacifica a un enemigo e impide que ataque y lance hechizos durante $d.,Incapaz de atacar o lanzar hechizos.,6,60,0,1,0,30,0
+556,"Silencia y pacifica a un enemigo, lo que impide que ataque y que lance hechizos durante $d.",Incapaz de atacar o lanzar hechizos.,6,60,0,1,0,30,0
 557,Inflige $s@effectindex p. de daño de Pirosombra a un enemigo.,,2,0,1,1,36,50,50
 558,Inflige daño de Pirosombra a todos los enemigos en un cono frente al taumaturgo.,,165,0,1,9,36,50,50
 559,Inflige daño de Pirosombra a los enemigos en un radio de $A@effectindex m del punto de impacto.,,165,0,1,5,36,50,50

@@ -125,7 +125,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 132,Sale dei Riflessi (Eroica),Eroica,2,0,53,98,0,0,668,2,0,5,1,0,0
 133,Trono delle Maree (Normale),Normale,2,0,54,98,0,0,643,1,0,5,1,0,0
 134,Caverne di Roccianera (Normale),Normale,2,0,55,98,0,0,645,1,0,5,1,0,0
-135,Grim Batol (Normale),Normale,2,0,56,98,0,0,670,1,0,5,1,0,0
+135,Grim Batol (Normale),Normale,2,1,56,99,0,0,670,1,0,5,1,0,0
 136,Sale della Creazione (Normale),Normale,2,0,57,98,0,0,644,1,0,5,1,0,0
 137,Nucleo di Pietra (Normale),Normale,2,0,58,98,0,0,725,1,0,5,1,0,0
 138,Pinnacolo del Vortice (Normale),Normale,2,8,59,98,0,0,657,1,0,5,1,0,0
@@ -133,7 +133,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 140,Pinnacolo del Vortice (Eroica),Eroica,2,8,59,98,0,0,657,2,0,5,1,0,0
 141,Nucleo di Pietra (Eroica),Eroica,2,0,58,98,0,0,725,2,0,5,1,0,0
 142,Sale della Creazione (Eroica),Eroica,2,0,57,98,0,0,644,2,0,5,1,0,0
-143,Grim Batol (Eroica),Eroica,2,0,56,98,0,0,670,2,0,5,1,0,0
+143,Grim Batol (Eroica),Eroica,2,2,56,99,567,127178,670,2,0,5,1,0,0
 144,Caverne di Roccianera (Eroica),Eroica,2,0,55,98,0,0,645,2,0,5,1,0,0
 146,Trono delle Maree (Eroica),Eroica,2,0,54,98,0,0,643,2,0,5,1,0,0
 147,Città Perduta dei Tol'vir (Eroica),Eroica,2,0,60,98,0,0,755,2,0,5,1,0,0
@@ -474,9 +474,9 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 530,Maniero dei Crestabianca (Mitica+),Mitica+,2,4,145,194,60,98005,1862,8,0,5,1,0,0
 531,Maniero dei Crestabianca (Eroica),Eroica,2,2,145,99,60,0,1862,2,0,5,1,0,0
 532,Assedio di Boralus (Normale),Normale,2,1,146,611,0,21439,1822,1,0,5,1,0,0
-533,Assedio di Boralus (Mitica),Mitica,2,3,146,611,60,65318,1822,23,0,5,1,0,0
-534,Assedio di Boralus (Mitica+),Mitica+,2,4,146,706,60,65318,1822,8,0,5,1,0,0
-535,Assedio di Boralus (Eroica),Eroica,2,1,146,611,60,0,1822,2,0,5,1,0,0
+533,Assedio di Boralus (Mitica),Mitica,2,3,146,611,60,5793,1822,23,0,5,1,0,0
+534,Assedio di Boralus (Mitica+),Mitica+,2,4,146,706,60,5793,1822,8,0,5,1,0,0
+535,Assedio di Boralus (Eroica),Eroica,2,1,146,611,567,127178,1822,2,0,5,1,0,0
 536,Maniero dei Crestabianca (Normale),Normale,2,1,145,99,57,63909,1862,1,0,5,1,0,0
 537,Tol Dagor (Normale),Normale,2,1,144,99,0,0,1771,1,0,5,1,0,0
 538,Santuario della Tempesta (Normale),Normale,2,1,143,99,57,0,1864,1,0,5,1,0,0
@@ -498,8 +498,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 654,Isola Casuale (Eroica),Eroica,111,0,249,34,60,85364,0,39,0,3,4,0,0
 655,Isola Casuale (Mitica),Mitica,111,0,249,34,60,85364,0,40,0,3,4,0,0
 657,Boss esterni (Battle for Azeroth),Boss esterni,3,0,0,803,0,21439,0,0,0,40,0,0,0
-658,Assedio di Boralus (Mitica),Mitica,2,3,146,611,60,65319,1822,23,0,5,1,0,0
-659,Assedio di Boralus (Mitica+),Mitica+,2,4,146,706,60,65319,1822,8,0,5,1,0,0
+658,Assedio di Boralus (Mitica),Mitica,2,3,146,611,0,127178,1822,23,0,5,1,0,0
+659,Assedio di Boralus (Mitica+),Mitica+,2,4,146,706,0,98007,1822,8,0,5,1,0,0
 660,Requie dei Re (Mitica),Mitica,2,3,141,99,60,65321,1762,23,0,5,1,0,0
 661,Requie dei Re (Mitica+),Mitica+,2,4,141,194,60,65321,1762,8,0,5,1,0,0
 662,Isola Casuale (PvP),PvP,111,0,249,38,60,85364,0,45,0,3,4,0,0
@@ -538,8 +538,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 698,Sale della Redenzione (Mitica),Mitica,2,3,261,99,115,85644,2287,23,0,5,1,0,0
 699,Sale della Redenzione (Mitica+),Mitica+,2,4,261,194,184,97994,2287,8,0,5,1,0,0
 700,Nebbie di Tirna Falcis (Normale),Normale,2,1,262,99,0,85644,2290,1,0,5,1,0,0
-701,Nebbie di Tirna Falcis (Eroica),Eroica,2,2,262,99,115,85644,2290,2,0,5,1,0,0
-702,Nebbie di Tirna Falcis (Mitica),Mitica,2,3,262,99,115,85644,2290,23,0,5,1,0,0
+701,Nebbie di Tirna Falcis (Eroica),Eroica,2,2,262,99,567,127178,2290,2,0,5,1,0,0
+702,Nebbie di Tirna Falcis (Mitica),Mitica,2,3,262,99,0,127178,2290,23,0,5,1,0,0
 703,Nebbie di Tirna Falcis (Mitica+),Mitica+,2,4,262,194,184,97993,2290,8,0,5,1,0,0
 704,Profondità Sanguigne (Normale),Normale,2,1,263,99,0,85644,2284,1,0,5,1,0,0
 705,Profondità Sanguigne (Mitica+),Mitica+,2,4,263,194,184,97998,2284,8,0,5,1,0,0
@@ -551,8 +551,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 711,Guglie dell'Ascensione (Eroica),Eroica,2,2,264,99,115,85644,2285,2,0,5,1,0,0
 712,Scia Necrotica (Normale),Normale,2,1,265,99,0,85644,2286,1,0,5,1,0,0
 713,Scia Necrotica (Mitica+),Mitica+,2,4,265,194,184,97991,2286,8,0,5,1,0,0
-714,Scia Necrotica (Mitica),Mitica,2,3,265,99,115,85644,2286,23,0,5,1,0,0
-715,Scia Necrotica (Eroica),Eroica,2,2,265,99,115,85644,2286,2,0,5,1,0,0
+714,Scia Necrotica (Mitica),Mitica,2,3,265,99,0,127178,2286,23,0,5,1,0,0
+715,Scia Necrotica (Eroica),Eroica,2,2,265,99,567,127178,2286,2,0,5,1,0,0
 716,Teatro del Dolore (Normale),Normale,2,1,266,99,0,85644,2293,1,0,5,1,0,0
 717,Teatro del Dolore (Mitica+),Mitica+,2,4,266,194,184,97996,2293,8,0,5,1,0,0
 718,Teatro del Dolore (Mitica),Mitica,2,3,266,99,115,85644,2293,23,0,5,1,0,0
@@ -752,8 +752,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1237,Aberrus (Mitica),Mitica,3,3,313,35,420,108665,2569,16,0,20,0,0,0
 1243,Caverna di Zaralek,Caverna di Zaralek,1,0,284,258,0,0,0,0,14022,0,4,0,0
 1244,Alba degli Infiniti (Mitica),Mitica,2,3,315,99,480,99866,2579,23,0,5,1,0,0
-1245,Caduta di Galakrond - Alba degli Infiniti (Eroica),Eroica,2,2,316,194,330,99866,2579,2,0,5,1,0,0
-1246,Ascesa di Murozond - Alba degli Infiniti (Eroica),Eroica,2,2,317,194,330,99866,2579,2,0,5,1,0,0
+1245,Caduta di Galakrond - Alba degli Infiniti (Eroica),Eroica,2,2,316,99,330,99866,2579,2,0,5,1,0,0
+1246,Ascesa di Murozond - Alba degli Infiniti (Eroica),Eroica,2,2,317,99,330,99866,2579,2,0,5,1,0,0
 1247,Caduta di Galakrond - Alba degli Infiniti (Mitica+),Mitica+,2,4,316,194,415,114533,2579,8,0,5,1,0,463
 1248,Ascesa di Murozond - Alba degli Infiniti (Mitica+),Mitica+,2,4,317,194,415,114534,2579,8,0,5,1,0,464
 1249,Sogno di Smeraldo,Sogno di Smeraldo,1,0,284,258,0,0,0,0,14529,0,4,0,0
@@ -761,6 +761,42 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1252,Amirdrassil (Eroica),Eroica,3,2,319,35,446,114446,2549,15,0,30,0,0,0
 1253,Amirdrassil (Mitica),Mitica,3,3,319,35,459,115330,2549,16,0,20,0,0,0
 1274,Trono delle Maree (Mitica+),Mitica+,2,8,54,194,385,112699,643,8,0,5,1,0,0
+1275,Faglia di Fiammoscura (Normale),Normale,2,1,322,99,0,114336,2651,1,0,5,1,0,0
+1276,Faglia di Fiammoscura (Eroica),Eroica,2,2,322,99,567,115171,2651,2,0,5,1,0,0
+1277,Faglia di Fiammoscura (Mitica),Mitica,2,3,322,99,330,120231,2651,23,0,5,1,0,0
+1278,"Ara-Kara, Città degli Echi (Normale)",Normale,2,1,323,99,0,114336,2660,1,0,5,1,0,0
+1279,"Ara-Kara, Città degli Echi (Eroica)",Eroica,2,2,323,99,567,115171,2660,2,0,5,1,0,0
+1280,"Ara-Kara, Città degli Echi (Mitica)",Mitica,2,3,323,99,330,124938,2660,23,0,5,1,0,0
+1281,Prioria della Fiamma Sacra (Mitica+),Mitica+,2,9,324,194,50,120230,2649,8,0,5,1,0,0
+1282,Faglia di Fiammoscura (Mitica+),Mitica+,2,3,322,99,330,120231,2651,8,0,5,1,0,0
+1283,Corveria (Mitica+),Mitica+,2,4,325,99,330,120232,2648,8,0,5,1,0,0
+1284,"Ara-Kara, Città degli Echi (Mitica+)",Mitica+,2,4,323,99,330,120233,2660,8,0,5,1,0,0
+1285,Alba Infranta (Mitica+),Mitica+,2,4,326,99,330,120234,2662,8,0,5,1,0,0
+1286,Idromelificio Cinereo (Mitica+),Mitica+,2,3,327,99,330,120235,2661,8,0,5,1,0,0
+1287,Volta di Pietra (Mitica+),Mitica+,2,4,328,99,330,120236,2652,8,0,5,1,0,0
+1288,Città dei Fili (Mitica+),Mitica+,2,4,329,99,0,120237,2669,8,0,5,1,0,0
+1289,Boss Esterni (The War Within),Boss esterni,3,0,0,803,0,99866,2444,0,0,40,0,0,0
+1290,Grim Batol (Mitica+),Mitica+,2,4,56,99,0,120783,670,8,0,5,1,0,0
+1291,Alba Infranta (Mitica),Mitica,2,3,326,99,330,124935,2662,23,0,5,1,0,0
+1292,Volta di Pietra (Mitica),Mitica,2,3,328,99,330,124932,2652,23,0,5,1,0,0
+1293,Città dei Fili (Mitica),Mitica,2,3,329,99,0,123668,2669,23,0,5,1,0,0
+1294,Grim Batol (Mitica),Mitica,2,3,56,99,0,127178,670,23,0,5,1,0,0
+1295,Follia Fungina,Grado 1,121,1,331,162,0,118387,2664,208,14957,5,4,0,0
+1296,Requie di Kriegval,Grado 1,121,1,332,162,0,118387,2681,208,15000,5,4,0,0
+1297,Miniere Strisciaterra,Grado 1,121,1,333,162,0,118387,2680,208,14999,5,4,0,0
+1298,Antro di Zekvir,Grado ??,121,1,334,162,0,121468,2682,208,15001,5,4,0,0
+1299,Acquedotto,Grado 1,121,1,335,162,0,118387,2683,208,15002,5,4,0,0
+1300,Fossa del Terrore,Grado 1,121,1,336,162,0,118387,2684,208,15003,5,4,0,0
+1301,Santuario del Tramonto,Grado 1,121,1,337,162,0,118387,2686,208,15005,5,4,0,0
+1302,Caverna del Micomante,Grado 1,121,1,338,162,0,118387,2679,208,14998,5,4,0,0
+1303,Voragine,Grado 1,121,1,339,162,0,118387,2687,208,15175,5,4,0,0
+1304,Breccia Brulicante,Grado 1,121,1,340,162,0,118387,2685,208,15004,5,4,0,0
+1305,Sottoforte,Grado 1,121,1,341,162,0,118387,2690,208,15009,5,4,0,0
+1306,Abisso di Tak-Rethan,Grado 1,121,1,342,162,0,118387,2689,208,15327,5,4,0,0
+1307,Trama a Spirale,Grado 1,121,1,343,162,0,118387,2688,208,15007,5,4,0,0
+1308,Corveria (Normale),Normale,2,1,325,99,0,114336,2648,1,0,5,1,0,0
+1309,Corveria (Eroica),Eroica,2,2,325,99,567,115171,2648,2,0,5,1,0,0
+1310,Corveria (Mitica),Mitica,2,3,325,99,330,120232,2648,23,0,5,1,0,0
 1311,Foresta di Giada,Foresta di Giada,1,0,71,258,0,0,0,0,5785,0,4,0,0
 1312,Valle dei Quattro Venti,Valle dei Quattro Venti,1,0,71,258,0,0,0,0,5805,0,4,0,0
 1313,Giungla di Krasarang,Giungla di Krasarang,1,0,71,258,0,0,0,0,6134,0,4,0,0
@@ -828,3 +864,140 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1376,Cuore Oscuro di Pandaria (Eroica),Eroica,5,0,106,34,0,0,1144,11,0,3,1,0,0
 1377,Segreti di Fiamma Furente (Normale),Normale,5,0,108,34,0,0,1131,12,0,3,1,0,0
 1378,Segreti di Fiamma Furente (Eroica),Eroica,5,0,108,34,0,0,1131,11,0,3,1,0,0
+1382,Città dei Fili (Normale),Normale,2,1,329,99,0,117312,2669,1,0,5,1,0,0
+1383,Città dei Fili (Eroica),Eroica,2,2,329,99,567,123301,2669,2,0,5,1,0,0
+1384,Follia Fungina,Grado 2,121,2,331,162,0,121491,2664,208,14957,5,4,0,0
+1385,Requie di Kriegval,Grado 2,121,2,332,162,0,121491,2681,208,15000,5,4,0,0
+1386,Miniere Strisciaterra,Grado 2,121,2,333,162,0,121491,2680,208,14999,5,4,0,0
+1387,Acquedotto,Grado 2,121,2,335,162,0,121491,2683,208,15002,5,4,0,0
+1388,Fossa del Terrore,Grado 2,121,2,336,162,0,121491,2684,208,15003,5,4,0,0
+1389,Santuario del Tramonto,Grado 2,121,2,337,162,0,121491,2686,208,15005,5,4,0,0
+1390,Caverna del Micomante,Grado 2,121,2,338,162,0,121491,2679,208,14998,5,4,0,0
+1391,Voragine,Grado 2,121,2,339,162,0,121491,2687,208,15175,5,4,0,0
+1392,Breccia Brulicante,Grado 2,121,2,340,162,0,121491,2685,208,15004,5,4,0,0
+1393,Sottoforte,Grado 2,121,2,341,162,0,121491,2690,208,15009,5,4,0,0
+1394,Abisso di Tak-Rethan,Grado 2,121,2,342,162,0,121491,2689,208,15327,5,4,0,0
+1395,Trama a Spirale,Grado 2,121,2,343,162,0,121491,2688,208,15007,5,4,0,0
+1396,Follia Fungina,Grado 3,121,3,331,162,0,118382,2664,208,14957,5,4,0,0
+1397,Requie di Kriegval,Grado 3,121,3,332,162,0,118382,2681,208,15000,5,4,0,0
+1398,Miniere Strisciaterra,Grado 3,121,3,333,162,0,118382,2680,208,14999,5,4,0,0
+1399,Acquedotto,Grado 3,121,3,335,162,0,118382,2683,208,15002,5,4,0,0
+1400,Fossa del Terrore,Grado 3,121,3,336,162,0,118382,2684,208,15003,5,4,0,0
+1401,Santuario del Tramonto,Grado 3,121,3,337,162,0,118382,2686,208,15005,5,4,0,0
+1402,Caverna del Micomante,Grado 3,121,3,338,162,0,118382,2679,208,14998,5,4,0,0
+1403,Voragine,Grado 3,121,3,339,162,0,118382,2687,208,15175,5,4,0,0
+1404,Breccia Brulicante,Grado 3,121,3,340,162,0,118382,2685,208,15004,5,4,0,0
+1405,Sottoforte,Grado 3,121,3,341,162,0,118382,2690,208,15009,5,4,0,0
+1406,Abisso di Tak-Rethan,Grado 3,121,3,342,162,0,118382,2689,208,15327,5,4,0,0
+1407,Trama a Spirale,Grado 3,121,3,343,162,0,118382,2688,208,15007,5,4,0,0
+1408,Follia Fungina,Grado 4,121,4,331,162,0,118383,2664,208,14957,5,4,0,0
+1409,Requie di Kriegval,Grado 4,121,4,332,162,0,118383,2681,208,15000,5,4,0,0
+1410,Miniere Strisciaterra,Grado 4,121,4,333,162,0,118383,2680,208,14999,5,4,0,0
+1411,Acquedotto,Grado 4,121,4,335,162,0,118383,2683,208,15002,5,4,0,0
+1412,Fossa del Terrore,Grado 4,121,4,336,162,0,118383,2684,208,15003,5,4,0,0
+1413,Santuario del Tramonto,Grado 4,121,4,337,162,0,118383,2686,208,15005,5,4,0,0
+1414,Caverna del Micomante,Grado 4,121,4,338,162,0,118383,2679,208,14998,5,4,0,0
+1415,Voragine,Grado 4,121,4,339,162,0,118383,2687,208,15175,5,4,0,0
+1416,Breccia Brulicante,Grado 4,121,4,340,162,0,118383,2685,208,15004,5,4,0,0
+1417,Sottoforte,Grado 4,121,4,341,162,0,118383,2690,208,15009,5,4,0,0
+1418,Abisso di Tak-Rethan,Grado 4,121,4,342,162,0,118383,2689,208,15327,5,4,0,0
+1419,Trama a Spirale,Grado 4,121,4,343,162,0,118383,2688,208,15007,5,4,0,0
+1420,Follia Fungina,Grado 5,121,5,331,162,0,118384,2664,208,14957,5,4,0,0
+1421,Requie di Kriegval,Grado 5,121,5,332,162,0,118384,2681,208,15000,5,4,0,0
+1422,Miniere Strisciaterra,Grado 5,121,5,333,162,0,118384,2680,208,14999,5,4,0,0
+1423,Acquedotto,Grado 5,121,5,335,162,0,118384,2683,208,15002,5,4,0,0
+1424,Fossa del Terrore,Grado 5,121,5,336,162,0,118384,2684,208,15003,5,4,0,0
+1425,Santuario del Tramonto,Grado 5,121,5,337,162,0,118384,2686,208,15005,5,4,0,0
+1426,Caverna del Micomante,Grado 5,121,5,338,162,0,118384,2679,208,14998,5,4,0,0
+1427,Voragine,Grado 5,121,5,339,162,0,118384,2687,208,15175,5,4,0,0
+1428,Breccia Brulicante,Grado 5,121,5,340,162,0,118384,2685,208,15004,5,4,0,0
+1429,Sottoforte,Grado 5,121,5,341,162,0,118384,2690,208,15009,5,4,0,0
+1430,Abisso di Tak-Rethan,Grado 5,121,5,342,162,0,118384,2689,208,15327,5,4,0,0
+1431,Trama a Spirale,Grado 5,121,5,343,162,0,118384,2688,208,15007,5,4,0,0
+1432,Follia Fungina,Grado 6,121,6,331,162,0,118385,2664,208,14957,5,4,0,0
+1433,Requie di Kriegval,Grado 6,121,6,332,162,0,118385,2681,208,15000,5,4,0,0
+1434,Miniere Strisciaterra,Grado 6,121,6,333,162,0,118385,2680,208,14999,5,4,0,0
+1435,Acquedotto,Grado 6,121,6,335,162,0,118385,2683,208,15002,5,4,0,0
+1436,Fossa del Terrore,Grado 6,121,6,336,162,0,118385,2684,208,15003,5,4,0,0
+1437,Santuario del Tramonto,Grado 6,121,6,337,162,0,118385,2686,208,15005,5,4,0,0
+1438,Caverna del Micomante,Grado 6,121,6,338,162,0,118385,2679,208,14998,5,4,0,0
+1439,Voragine,Grado 6,121,6,339,162,0,118385,2687,208,15175,5,4,0,0
+1440,Breccia Brulicante,Grado 6,121,6,340,162,0,118385,2685,208,15004,5,4,0,0
+1441,Sottoforte,Grado 6,121,6,341,162,0,118385,2690,208,15009,5,4,0,0
+1442,Abisso di Tak-Rethan,Grado 6,121,6,342,162,0,118385,2689,208,15327,5,4,0,0
+1443,Trama a Spirale,Grado 6,121,6,343,162,0,118385,2688,208,15007,5,4,0,0
+1444,Follia Fungina,Grado 7,121,7,331,162,0,118386,2664,208,14957,5,4,0,0
+1445,Requie di Kriegval,Grado 7,121,7,332,162,0,118386,2681,208,15000,5,4,0,0
+1446,Miniere Strisciaterra,Grado 7,121,7,333,162,0,118386,2680,208,14999,5,4,0,0
+1447,Acquedotto,Grado 7,121,7,335,162,0,118386,2683,208,15002,5,4,0,0
+1448,Fossa del Terrore,Grado 7,121,7,336,162,0,118386,2684,208,15003,5,4,0,0
+1449,Santuario del Tramonto,Grado 7,121,7,337,162,0,118386,2686,208,15005,5,4,0,0
+1450,Caverna del Micomante,Grado 7,121,7,338,162,0,118386,2679,208,14998,5,4,0,0
+1451,Voragine,Grado 7,121,7,339,162,0,118386,2687,208,15175,5,4,0,0
+1452,Breccia Brulicante,Grado 7,121,7,340,162,0,118386,2685,208,15004,5,4,0,0
+1453,Sottoforte,Grado 7,121,7,341,162,0,118386,2690,208,15009,5,4,0,0
+1454,Abisso di Tak-Rethan,Grado 7,121,7,342,162,0,118386,2689,208,15327,5,4,0,0
+1455,Trama a Spirale,Grado 7,121,7,343,162,0,118386,2688,208,15007,5,4,0,0
+1456,Follia Fungina,Grado 8,121,8,331,162,0,121446,2664,208,14957,5,4,0,0
+1457,Requie di Kriegval,Grado 8,121,8,332,162,0,121446,2681,208,15000,5,4,0,0
+1458,Miniere Strisciaterra,Grado 8,121,8,333,162,0,121446,2680,208,14999,5,4,0,0
+1459,Acquedotto,Grado 8,121,8,335,162,0,121446,2683,208,15002,5,4,0,0
+1460,Fossa del Terrore,Grado 8,121,8,336,162,0,121446,2684,208,15003,5,4,0,0
+1461,Santuario del Tramonto,Grado 8,121,8,337,162,0,121446,2686,208,15005,5,4,0,0
+1462,Caverna del Micomante,Grado 8,121,8,338,162,0,121446,2679,208,14998,5,4,0,0
+1463,Voragine,Grado 8,121,8,339,162,0,121446,2687,208,15175,5,4,0,0
+1464,Breccia Brulicante,Grado 8,121,8,340,162,0,121446,2685,208,15004,5,4,0,0
+1465,Sottoforte,Grado 8,121,8,341,162,0,121446,2690,208,15009,5,4,0,0
+1466,Abisso di Tak-Rethan,Grado 8,121,8,342,162,0,121446,2689,208,15327,5,4,0,0
+1467,Trama a Spirale,Grado 8,121,8,343,162,0,121446,2688,208,15007,5,4,0,0
+1468,Follia Fungina,Grado 9,121,9,331,162,0,121447,2664,208,14957,5,4,0,0
+1469,Requie di Kriegval,Grado 9,121,9,332,162,0,121447,2681,208,15000,5,4,0,0
+1470,Miniere Strisciaterra,Grado 9,121,9,333,162,0,121447,2680,208,14999,5,4,0,0
+1471,Acquedotto,Grado 9,121,9,335,162,0,121447,2683,208,15002,5,4,0,0
+1472,Fossa del Terrore,Grado 9,121,9,336,162,0,121447,2684,208,15003,5,4,0,0
+1473,Santuario del Tramonto,Grado 9,121,9,337,162,0,121447,2686,208,15005,5,4,0,0
+1474,Caverna del Micomante,Grado 9,121,9,338,162,0,121447,2679,208,14998,5,4,0,0
+1475,Voragine,Grado 9,121,9,339,162,0,121447,2687,208,15175,5,4,0,0
+1476,Breccia Brulicante,Grado 9,121,9,340,162,0,121447,2685,208,15004,5,4,0,0
+1477,Sottoforte,Grado 9,121,9,341,162,0,121447,2690,208,15009,5,4,0,0
+1478,Abisso di Tak-Rethan,Grado 9,121,9,342,162,0,121447,2689,208,15327,5,4,0,0
+1479,Trama a Spirale,Grado 9,121,9,343,162,0,121447,2688,208,15007,5,4,0,0
+1480,Follia Fungina,Grado 10,121,10,331,162,0,121448,2664,208,14957,5,4,0,0
+1481,Requie di Kriegval,Grado 10,121,10,332,162,0,121448,2681,208,15000,5,4,0,0
+1482,Miniere Strisciaterra,Grado 10,121,10,333,162,0,121448,2680,208,14999,5,4,0,0
+1483,Acquedotto,Grado 10,121,10,335,162,0,121448,2683,208,15002,5,4,0,0
+1484,Fossa del Terrore,Grado 10,121,10,336,162,0,121448,2684,208,15003,5,4,0,0
+1485,Santuario del Tramonto,Grado 10,121,10,337,162,0,121448,2686,208,15005,5,4,0,0
+1486,Caverna del Micomante,Grado 10,121,10,338,162,0,121448,2679,208,14998,5,4,0,0
+1487,Voragine,Grado 10,121,10,339,162,0,121448,2687,208,15175,5,4,0,0
+1488,Breccia Brulicante,Grado 10,121,10,340,162,0,121448,2685,208,15004,5,4,0,0
+1489,Sottoforte,Grado 10,121,10,341,162,0,121448,2690,208,15009,5,4,0,0
+1490,Abisso di Tak-Rethan,Grado 10,121,10,342,162,0,121448,2689,208,15327,5,4,0,0
+1491,Trama a Spirale,Grado 10,121,10,343,162,0,121448,2688,208,15007,5,4,0,0
+1492,Follia Fungina,Grado 11,121,11,331,162,0,121468,2664,208,14957,5,4,0,0
+1493,Requie di Kriegval,Grado 11,121,11,332,162,0,121468,2681,208,15000,5,4,0,0
+1494,Miniere Strisciaterra,Grado 11,121,11,333,162,0,121468,2680,208,14999,5,4,0,0
+1495,Acquedotto,Grado 11,121,11,335,162,0,121468,2683,208,15002,5,4,0,0
+1496,Fossa del Terrore,Grado 11,121,11,336,162,0,121468,2684,208,15003,5,4,0,0
+1497,Santuario del Tramonto,Grado 11,121,11,337,162,0,121468,2686,208,15005,5,4,0,0
+1498,Caverna del Micomante,Grado 11,121,11,338,162,0,121468,2679,208,14998,5,4,0,0
+1499,Voragine,Grado 11,121,11,339,162,0,121468,2687,208,15175,5,4,0,0
+1500,Breccia Brulicante,Grado 11,121,11,340,162,0,121468,2685,208,15004,5,4,0,0
+1501,Sottoforte,Grado 11,121,11,341,162,0,121468,2690,208,15009,5,4,0,0
+1502,Abisso di Tak-Rethan,Grado 11,121,11,342,162,0,121468,2689,208,15327,5,4,0,0
+1503,Trama a Spirale,Grado 11,121,11,343,162,0,121468,2688,208,15007,5,4,0,0
+1504,Palazzo dei Nerub'ar (Mitica),Mitica,3,3,362,35,597,122606,2657,16,0,20,0,0,0
+1505,Palazzo dei Nerub'ar (Normale),Normale,3,1,362,35,571,122606,2657,14,0,30,0,0,0
+1506,Palazzo dei Nerub'ar (Eroica),Eroica,3,2,362,35,584,122606,2657,14,0,30,0,0,0
+1507,Idromelificio Cinereo (Normale),Normale,2,1,327,99,0,117308,2661,1,0,5,0,0,0
+1508,Idromelificio Cinereo (Eroica),Eroica,2,2,327,99,567,117308,2661,2,0,5,1,0,0
+1509,Idromelificio Cinereo (Mitica),Mitica,2,3,327,99,0,120235,2661,23,0,5,1,0,0
+1510,Prioria della Fiamma Sacra (Normale),Normale,2,1,324,99,0,114336,2649,1,0,5,1,0,0
+1511,Prioria della Fiamma Sacra (Eroica),Eroica,2,2,324,99,567,115171,2649,2,0,5,1,0,0
+1512,Prioria della Fiamma Sacra (Mitica),Mitica,2,3,324,99,330,120230,2649,23,0,5,1,0,0
+1513,Profondità Risonanti,Profondità Risonanti,1,0,363,258,0,0,0,0,14795,0,4,0,0
+1518,Alba Infranta (Normale),Normale,2,1,326,99,0,117309,2662,1,0,5,1,0,0
+1519,Alba Infranta (Eroica),Eroica,2,2,326,99,567,123300,2662,2,0,5,1,0,0
+1520,Antro di Zekvir,Grado 8,121,1,334,162,0,121446,2682,208,15001,5,4,0,0
+1521,Volta di Pietra (Eroica),Eroica,2,2,328,99,567,123297,2652,2,0,5,1,0,0
+1535,Volta di Pietra (Normale),Normale,2,1,328,99,0,117306,2652,1,0,5,1,0,0

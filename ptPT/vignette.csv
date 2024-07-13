@@ -5138,6 +5138,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5745,Revoada de Fyrakk,108249,0,1019,70,0,0,0,0,780
 5746,Revoada de Fyrakk,109874,0,1019,70,0,0,0,0,780
 5748,Goblin do Tesouro,0,0,1021,1346,0,0,0,0,0
+5749,Brann Barbabronze,0,0,1022,66,0,0,0,0,0
 5750,Solucionado!,0,76405,918,0,30,-30,0,0,0
 5751,Sonho do Despertar,0,0,1044,66626,0,0,0,0,0
 5752,Assistente de Guarda-tempo Bronze,0,0,890,1026,0,0,0,0,0
@@ -5178,11 +5179,14 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5791,Baú de Sementes do Sonho,112768,77509,88,2,0,0,0,0,0
 5792,Baú de Sementes do Sonho,112769,77509,88,2,0,0,0,0,0
 5793,Baú de Sementes do Sonho,112771,77517,88,0,0,0,0,0,0
+5794,Tesouro Secreto,0,0,1010,0,0,0,0,0,0
 5795,Aniquilador Planiciano,0,0,92,0,0,0,0,0,0
 5796,Cinzanga Aliado,0,0,92,0,0,0,0,0,0
+5797,Pedra de Encontro Abandonada,0,0,1039,0,0,0,0,0,0
 5798,Ascendente Chamasa,0,0,92,0,0,0,0,0,0
 5799,Mariposa do Sonho Enorme,0,0,89,0,0,0,0,0,0
 5800,Estátua em Local Estranho,0,0,88,0,0,0,0,0,0
+5801,Refém,0,0,1041,512,0,0,0,0,0
 5802,Grande Demônio Ferreiro,0,77816,92,0,0,0,0,0,0
 5803,Baú de Ferraria Grande,0,77817,613,0,0,0,0,0,0
 5804,Modelo,0,65941,89,1024,0,0,0,0,0
@@ -5217,6 +5221,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5833,Somnoz Pequena,113450,0,918,0,0,0,0,0,0
 5834,Somnoz Abarrotada,114813,0,918,0,0,0,0,0,0
 5835,Incendiária Fystia,112718,78015,1037,1126,0,0,0,78015,913
+5836,Rainha da Montanha,0,0,89,0,0,0,0,0,0
 5837,Balboano,113684,78039,89,32,0,0,0,0,0
 5838,Baú de Sementes do Sonho,112460,77396,88,2,0,0,0,0,0
 5839,Baú de Sementes do Sonho,112459,77396,88,0,0,0,0,0,0
@@ -5285,23 +5290,27 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5903,Rohzor Esmagaforja,103742,0,902,66626,0,0,0,0,0
 5904,"Rasnar, o Abolidor de Guerras",103742,0,902,66626,0,0,0,0,0
 5905,Turboris,103742,0,902,66626,0,0,0,0,0
+5906,Pena de Centelha,0,0,88,0,0,0,0,0,0
 5907,Bênção de Ursol,0,78209,88,0,0,0,0,0,0
 5908,"Moragh, o Preguiçoso",0,78210,89,1024,0,0,0,0,0
 5909,Cian Olhovivo,0,78211,89,1024,0,0,0,0,0
 5910,Sonambulante Ori,0,78212,89,1024,0,0,0,0,0
 5911,Matriarca Keevah,0,78213,89,1024,0,0,0,0,0
 5912,Mikanji Voraz,0,78214,89,1024,0,0,0,0,0
+5915,Santuário da Luz da Vela,0,0,1058,0,0,0,0,0,0
 5916,Poção do Sono sem Sonhos pela Metade,100251,78264,88,0,30,-30,0,0,0
 5917,Poção Borrifante da Narcolepsia,100251,78269,88,0,30,-30,0,0,0
 5918,Raiz do Problema,100251,78275,88,0,30,-30,0,0,0
 5919,Apanhador de Sonhos Experimental,100249,78278,88,0,30,-30,0,0,0
 5920,Insoniatron,100249,78279,88,0,30,-30,0,0,0
+5921,Cera,0,0,180,0,0,0,0,0,0
 5922,Pilha Choca,100249,78281,88,0,30,-30,0,0,0
 5923,Esperança Petrificada,100246,78282,88,0,30,-30,0,0,0
 5924,Nódoa Tosca,100246,78283,88,0,30,-30,0,0,0
 5925,Pedra dos Sonhos Coalescida,100246,78285,88,0,30,-30,0,0,0
 5926,Florada Mágica,114573,78005,88,0,0,0,0,0,0
 5927,Florada Mágica,114575,78005,88,0,0,0,0,0,0
+5928,Brann Barbabronze (Inconsciente),0,0,1059,0,0,0,0,0,0
 5929,Tufo de Pelo de Sabre-do-sonho,100245,78298,88,0,30,-30,0,0,0
 5930,Escamas de Muda de Dragoleta,100245,78299,88,0,30,-30,0,0,0
 5931,Garra de Somnigarra,100245,78305,88,0,30,-30,0,0,0
@@ -5312,6 +5321,9 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5936,Estátua da Senhora do Céu,0,78360,88,0,0,0,0,0,0
 5937,Estátua do Grande Lobo,0,78361,88,0,0,0,0,0,0
 5938,Estátua do Cervo Branco,0,78362,88,0,0,0,0,0,0
+5939,Memórias de Murlocs,0,0,1156,66626,0,0,0,0,0
+5940,Ragnaros Lembrado,0,0,1150,66630,0,0,0,0,0
+5941,Memórias de Mosh,0,0,1156,66626,0,0,0,0,0
 5942,Círculo de Corrida,0,0,1062,17730,0,0,0,0,0
 5943,Observações do Puff sobre a Flora e a Fauna,100247,78411,88,0,30,-30,0,0,0
 5944,Pilar do Guardião do Bosque,100247,78412,88,0,30,-30,0,0,0
@@ -5328,16 +5340,53 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 5955,Eco Indesperto,0,78551,88,0,0,0,0,0,0
 5956,Eco Indesperto,0,78552,88,0,0,0,0,0,0
 5957,O Amor Está no Ar,924,0,90,1026,0,0,0,0,0
+5958,Mam'ethk,0,0,1113,1060,80,0,0,0,0
+5959,Capelo-titânico Rustul,0,78619,1114,1060,0,0,0,0,0
+5960,Fígado de Javali Extremamente Raro de Perfeição Imaculada,0,0,1156,66626,0,0,0,0,0
+5961,Memórias de Suturino,0,0,1156,66626,0,0,0,0,0
+5962,Abóboras Envenenadas,0,0,1156,66626,0,0,0,0,0
+5963,Memórias de Hogger,0,0,1156,66626,0,0,0,0,0
+5964,Memórias de Hakkar,0,0,1156,66626,0,0,0,0,0
+5965,Costa Sul x Serraria Tarren,0,0,1156,66626,0,0,0,0,0
+5967,Rabo-de-galo Escaldante,0,0,1156,66626,0,0,0,0,0
+5968,Gnomobliteração Leprosa,0,0,1156,66626,0,0,0,0,0
 5969,Gessi Ganancioso,112718,77982,1037,1126,0,0,0,77982,907
+5970,Área do Grande Espinhaço,0,0,1156,66626,0,0,0,0,0
 5971,Dádiva Esmeralda,0,0,1048,1122,200,0,0,0,1005
+5973,Ahg'zagall,0,78905,1114,4,30,-30,0,0,0
+5974,Bandanas Défias!,115685,0,156,4,0,0,0,0,0
+5976,Cartas de Amor de Mabel!,115685,0,156,4,0,0,0,0,0
+5977,Pó de Ouro!,115685,0,156,4,0,0,0,0,0
+5978,"Ixkreten, a Inquebrável",126575,0,1074,9286,0,0,0,0,0
+5979,Executus Lembrado,0,0,559,66630,0,0,0,0,0
+5980,Vinheta de Ferraria,0,0,88,0,0,0,0,0,0
 5981,Floraluz Cristalina,0,77950,88,0,0,0,3,0,0
+5982,Baú Raro com Vinheta,0,0,0,0,0,0,0,0,0
+5983,Vinheta de Cristais Brilhosos,116407,78836,13,0,0,0,0,0,0
+5984,Micélio Radiante-retorcido,0,0,1114,4,0,0,0,0,0
 5986,Jorrocerto,0,79254,1092,66626,0,0,0,0,0
+5988,Lamesguicho,0,79271,1114,1060,0,0,0,0,0
+5989,Baú Coberto de Esporos,0,79275,1140,0,0,0,0,0,0
+5990,Elite Raro Nerubiano,0,79294,1114,4,0,0,0,0,0
+5991,Tesouro Único,0,79296,1158,0,0,0,0,0,0
+5992,Ganho de nível raro 1,0,0,89,0,0,0,0,0,0
+5993,Perfurador Gigante,0,79307,89,0,0,0,0,0,0
+5994,Mochila Enredada,0,79308,1140,0,0,0,0,0,0
 5995,Lorde Harlbrand,0,79315,1092,66626,0,0,0,0,0
 5996,Ceifador Defeituoso,0,79316,1092,66626,0,0,0,0,0
 5997,Morkus Mechatroz,0,79317,1092,66626,0,0,0,0,0
 5998,Narla Casco do Trovão,0,79318,1092,66626,0,0,0,0,0
 5999,Feruja Frenética,0,79319,1092,66626,0,0,0,0,0
 6000,Gorthak Presatroz,0,79320,1092,66626,0,0,0,0,0
+6001,Lembranças Coaguladas,0,0,1145,66630,0,0,0,0,0
+6002,Chama-chave do Campo Fúngico,120203,0,1095,9248,0,0,0,0,0
+6003,Chama-chave Exuberante da Luz,120203,0,1095,9248,0,0,0,0,0
+6004,Chama-chave do Campo Sibilante,120203,0,1095,9248,0,0,0,0,0
+6005,Chama-chave da Lagoa das Águas Paradas,120203,0,1095,9248,0,0,0,0,0
+6006,Chama-chave da Mina Luz da Tocha,120203,0,1095,9248,0,0,0,0,0
+6007,Chama-chave da Costa Desvanecida,120203,0,1095,9248,0,0,0,0,0
+6008,Chama-chave da Areia Desolada,120203,0,1095,9248,0,0,0,0,0
+6009,Duskrise Acreage Keyflame,120203,0,1095,9248,0,0,0,0,0
 6010,Bolsa Kaldorei,117649,82821,88,0,0,0,0,0,0
 6011,Lança Kaldorei,117709,82823,88,0,0,0,0,0,0
 6012,Escudo Kaldorei,117716,82829,88,0,0,0,0,0,0
@@ -5349,15 +5398,534 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6018,Adaga Kaldorei,117713,82826,88,0,0,0,0,0,0
 6019,Luneta Kaldorei,117717,82830,88,0,0,0,0,0,0
 6020,Arco Lunar Kaldorei,117744,82831,88,0,0,0,0,0,0
+6021,Suprimentos da Liga dos Exploradores,0,0,1096,0,0,0,0,0,0
 6024,Portal Funesto,0,0,1021,1346,0,0,0,0,0
+6025,Porta da Sala do Tesouro,0,0,13,512,0,0,0,0,0
+6026,"Arenius, o Porta-Relíquias",0,79685,1114,1060,0,0,0,0,0
+6027,Vela Encantada,0,0,1098,0,0,0,0,0,0
 6028,"Da'kash, Intendente de Renome",0,0,1101,0,0,0,0,0,0
-6039,Bazar Infinito,114839,0,1123,1091,0,0,0,0,0
+6029,Baú de Suprimentos Desvanecido,118596,79964,1140,0,15,-30,0,0,0
+6031,Devoterra Perturbada,0,80003,1113,4,0,0,0,0,0
+6032,"Ixlorb, a Fiandeira",0,80006,1114,1060,0,0,0,0,0
+6033,Capataz,0,80009,1114,1060,0,0,0,0,0
+6034,Soturnumbra,0,80010,1114,1060,0,0,0,0,0
+6035,Demônio das Profundezas Azellix,0,80011,1114,1060,0,0,0,0,0
+6039,Bazar Infinito,114839,0,1104,1091,0,0,0,0,0
 6040,Peças de Ódio,0,80183,1092,66626,0,0,0,0,0
+6043,Bolhescaldante,0,81892,1114,1060,0,0,0,0,0
+6044,Altricórnio,0,81894,1114,1060,0,0,0,0,0
+6045,Gorjassangue,0,81893,1114,1060,0,0,0,0,0
+6046,Imperador Covatusco,0,81895,1114,1060,0,0,0,0,0
+6047,Veado Pestilento,0,81897,1114,1060,0,0,0,0,0
+6048,Gar'loc,0,81899,1114,1060,0,0,0,0,0
+6049,Degolador Fugido,0,81907,1114,1060,0,0,0,0,0
+6050,Lorde da Tormenta Incarnus,0,81901,1114,1060,0,0,0,0,0
+6051,"Kronolith, Poder da Montanha",0,81902,1114,1060,0,0,0,0,0
+6052,"Concha-rasa, o Estalador",0,81903,1114,1060,0,0,0,0,0
+6053,"Ferra-dois, o Ignóbil",0,81904,1114,1060,0,0,0,0,0
+6054,Guardachamas Graz',0,81905,1114,1060,0,0,0,0,0
+6055,Alunira,0,82196,1113,1060,0,0,0,0,0
+6058,Zovex,0,82203,1113,1060,0,0,0,0,0
 6060,Tripulante Assassinado,0,0,1105,83010,0,0,0,0,0
+6061,Baú Esquecido,0,80302,1140,0,15,-30,0,0,0
+6062,Ventos de Dorn,97609,0,935,0,0,0,0,0,0
+6064,Ponto de Gancho de Escalada,119606,0,1106,0,0,0,0,0,0
 6065,Recompensa não recuperada,0,0,1107,4,0,0,0,0,0
 6066,Caixote de Suprimentos de Guerra,0,0,305,66630,0,0,0,0,0
 6067,Caixote de Suprimentos de Guerra,924,0,1108,66626,0,0,0,0,0
 6068,Caixote de Suprimentos de Guerra,923,0,1108,66626,0,0,0,0,0
 6069,Ninho de Pato Grande,924,0,90,1090,0,0,0,0,0
 6070,Ninho de Pato Grande,923,0,90,1090,0,0,0,0,0
+6071,Caixote de Colheita,0,80420,1140,0,15,-30,0,0,0
+6072,Balista Nerubiana,0,0,1110,0,0,0,0,0,0
+6073,Pináculo Defeituoso,0,81891,1114,1060,0,0,0,0,0
+6074,Tesouro Esquecido,0,80485,1158,0,0,0,0,0,0
+6075,Cortessal,0,80486,1114,4,0,0,0,0,0
+6076,Veículo,0,0,1112,0,0,0,0,0,0
+6077,Cofre Perdido,0,0,0,0,0,0,3,0,0
+6078,Pétala da Morte,0,0,1113,1060,0,0,0,0,0
+6079,Zilthara,0,80506,1114,4,0,0,0,0,0
+6080,Capitão Voavela,0,80505,1114,4,0,0,0,0,0
+6081,Terror da Forja,0,80507,1114,4,0,0,0,0,0
+6082,Prolemadre Azorrague,0,80536,1113,1060,0,0,0,0,0
+6083,Baú Encharcado,0,80537,1140,0,15,-30,0,0,0
+6084,Pisoteador de Sapos,0,0,1113,1060,0,0,0,0,0
+6085,Farpatana Maressangre,0,0,1113,1060,0,0,0,0,0
+6086,Caixa de Suprimentos dos Pescadores,0,80541,1140,0,15,-30,0,0,0
+6087,Memorial Abandonado,125476,80688,1143,1056,0,0,3,0,0
+6088,Rei Borrifo,0,80547,1114,4,0,0,0,0,0
+6089,Aquellion,0,80557,1114,4,0,0,0,0,0
+6090,Pedregundo,0,80560,1114,4,0,0,0,0,0
+6091,Depósito de Aracninha,120423,0,918,0,0,0,0,0,0
+6092,Depósito de Lavrador,0,80590,1140,0,15,-30,0,0,0
+6093,Nome da Criatura,0,66076,1114,1060,0,0,0,0,0
+6094,Nome da Criatura,0,80674,1114,1060,0,0,0,0,0
+6095,Nome da Criatura,0,80675,1113,1126,0,0,0,0,0
+6096,Saque do Alívio Inabalável,0,80686,1140,0,15,-30,0,0,0
+6097,Memorial Abandonado,125478,81467,1143,1056,0,0,3,0,0
+6098,Maleta Iluminada,0,81468,1140,0,0,0,0,0,0
+6099,Lamaçalga,0,81485,1114,4,0,0,0,0,0
+6100,Mercador Desencaminhado,120559,0,918,0,0,0,0,0,0
+6101,Monstruosidade Coalescida,0,81511,1114,4,0,0,0,0,0
+6102,Bronco Rocha,0,81515,89,0,0,0,0,0,0
+6103,Bolsa do Pescador,0,81518,1140,0,15,-30,0,0,0
+6104,Mandafogo,0,81562,1114,1060,0,0,0,0,0
+6105,Praga Descontrolada,0,81563,1114,4,0,0,0,0,0
+6106,Carcaça Atada à Morte,0,81566,1114,4,0,0,0,0,0
+6107,Memorial Abandonado,125480,81572,1143,1056,0,0,3,0,0
+6108,Fundos Discricionários da Capitã Lancecata,0,81612,1140,0,15,-30,0,0,0
+6109,Grânulo de Fogo,0,0,180,0,0,0,0,0,0
+6110,Tocaieiro das Profundezas,0,81633,1113,4,0,0,0,0,0
+6111,O Jardineiro,0,81634,1114,4,0,0,0,0,0
+6112,Clastenas,0,81923,1113,1060,0,0,0,0,0
+6113,"Docentelha, o Gosmento",0,81922,1113,1060,0,0,0,0,0
+6114,Matriarca Crestafúria,0,81921,1113,1060,0,0,0,0,0
+6115,Quebrapata K'zithix,0,81920,1113,1060,0,0,0,0,0
+6116,Suprimentos da Liga dos Exploradores,0,0,105,0,0,0,0,0,0
+6117,Escafedobô 7000,120803,0,166,0,0,0,0,0,0
+6118,Cria de Beledar,0,81763,1113,1060,80,0,0,0,0
+6119,Famélico das Profundezas,0,81648,1113,4,0,0,0,0,0
+6120,Batedor de Repolhos Doido,0,0,1113,1060,80,0,0,0,0
+6121,Asaxisto Imbuído em Esporos,0,81652,1113,4,0,0,0,0,0
+6122,Umbrocaso,0,0,89,6,80,0,0,0,0
+6123,Trevaspinho,0,0,1113,1060,80,0,0,0,0
+6124,Assolante,0,0,1113,1060,80,0,0,0,0
+6125,Croquito,0,0,1113,38,80,0,0,0,0
+6126,Trungal,0,80574,1114,4,0,0,0,0,0
+6127,Saída,0,0,1117,0,0,0,0,0,0
+6128,Automaxor,0,81674,1114,1060,0,0,0,0,0
+6129,Devorador Abissal,0,81695,1114,4,0,0,0,0,0
+6130,Batedores do Baluarte,0,81694,1114,36,0,0,0,0,0
+6131,XT-Detonador 8700,0,81703,1114,4,0,0,0,0,0
+6132,Asatorpe,0,81700,1114,4,0,0,0,0,0
+6133,Xishorr,0,81701,1114,4,0,0,0,0,0
+6134,Transportador de Seda Kaheti,0,81702,1114,4,0,0,0,0,0
+6135,Falateias Grik'ik,0,81699,1114,4,0,0,0,0,0
+6136,Cha'tak,0,81704,1114,4,0,0,0,0,0
+6137,Lasharoth Monstruoso,0,81705,1114,4,0,0,0,0,0
+6138,Bombardeiro de Cerco Enlouquecido,0,81706,1114,4,0,0,0,0,0
+6139,Caracalha Perpétuo,0,81707,1114,4,0,0,0,0,0
+6140,Nome da Criatura,120885,81711,1113,1126,0,0,0,81711,1111
+6141,Delícias Anormais,0,0,1156,66626,0,0,0,0,0
 6142,Constructo Fendessol Enlouquecido,0,0,977,65636,0,0,0,0,0
+6143,Sejam purificados pelo fogo!,0,0,1156,66626,0,0,0,0,0
+6144,Profeta de Sseratus,0,0,1156,66626,0,0,0,0,0
+6145,"Navalume, o Perdido",0,81756,1114,1060,0,0,0,0,0
+6146,Fatiatroz,123766,81761,1114,1060,0,0,0,0,0
+6147,Memórias do Rei Gordok,0,0,1156,66626,0,0,0,0,0
+6148,Memórias de Gahz'rilla,0,0,1156,66626,0,0,0,0,0
+6149,Onyxia Lembrada,0,0,1150,66630,0,0,0,0,0
+6150,Olhos de aranha de Olho de Lama,0,0,1156,66626,0,0,0,0,0
+6151,O Pai do Poleiro,0,81791,1114,1060,0,0,0,0,0
+6152,Terror dos Baixios,0,81836,1114,1060,0,0,0,0,0
+6153,Força de Beledar,0,81849,1114,1060,0,0,0,0,0
+6154,Dom Alasto Purofogo,0,81853,1114,1060,0,0,0,0,0
+6155,Eliminar Javatuscos,0,0,1156,66626,0,0,0,0,0
+6156,Mortmar,0,81880,1113,1060,0,0,0,0,0
+6157,Fungarinha,0,81881,1114,1060,0,0,0,0,0
+6158,Poder do Cristal,0,0,1156,66626,0,0,0,0,0
+6159,Orgulho de Beledar,0,81882,1114,1060,0,0,0,0,0
+6160,Provações dos Argênteos,0,0,1156,66626,0,0,0,0,0
+6161,Peões preguiçosos,0,0,1156,66626,0,0,0,0,0
+6162,Espólios Desvinculados,71941,0,1108,66626,0,0,0,0,0
+6163,Nas montanhas!,0,0,1156,66626,0,0,0,0,0
+6164,O comando de Zenn,0,0,1156,66626,0,0,0,0,0
+6165,Primeira Lâmina Escurno,121196,0,1120,1028,0,0,0,0,0
+6166,Executor Nizrek,0,0,1121,37954,0,0,0,0,0
+6167,Talinhet,121196,0,1120,1028,0,0,0,0,0
+6168,Nablya,121196,0,1120,1028,0,0,0,0,0
+6169,"Gong'tze, o Lenharrio",121196,0,1120,1028,0,0,0,0,0
+6170,Zíben e Zíllix,121196,0,1120,1028,0,0,0,0,0
+6171,Distúrbios Estranhos,0,0,89,0,0,0,0,0,0
+6172,Espólios Desvinculados,0,0,1109,66630,0,0,0,0,0
+6173,Espada digna de um campeão,0,0,1156,66626,0,0,0,0,0
+6174,Joia dos Penhascos,0,81971,1140,1056,0,0,0,0,0
+6175,Algibeira Varrida pelo Vento,0,81972,1140,1056,0,0,0,0,0
+6176,Dom Finlei Mrrggltone,0,0,1122,2,0,0,0,0,0
+6177,Lembrança Perdida,0,81978,1140,1056,0,0,0,0,0
+6178,Algibeira da Fazenda,0,81988,1140,0,15,-30,0,0,0
+6179,Baú de Ferramentas Esquecido,0,81989,1140,0,15,-30,0,0,0
+6181,Baú Afundado,121438,82005,1140,1056,0,0,0,0,0
+6182,Édito de Galana,121471,82038,1141,1032,0,0,0,0,0
+6183,"Jix'ak, a Enlouquecida",0,82034,1113,4,0,0,0,0,0
+6184,O Gosmakhan,0,82035,1113,4,0,0,0,0,0
+6185,Ceifador Qixt,0,82036,1113,4,0,0,0,0,0
+6186,Noitarra Matra,0,82037,1113,4,0,0,0,0,0
+6187,Console Titânico,121493,82045,1141,1032,0,0,0,0,0
+6188,Pedra dos Desvinculados,121496,82046,1141,1032,0,0,0,0,0
+6189,Vigia do Norte,121499,82047,1141,1032,0,0,0,0,0
+6190,Vigia do Sul,121500,82048,1141,1032,0,0,0,0,0
+6191,Caveira numa placa,121503,82049,1141,1032,0,0,0,0,0
+6192,Alerta: túnel desmoronado,121505,82051,1141,1032,0,0,0,0,0
+6193,Placa submersa,121507,82052,1141,1032,0,0,0,0,0
+6194,Placa banhada de cera,121508,82053,1141,1032,0,0,0,0,0
+6195,Placa desgastada,121510,82054,1141,1032,0,0,0,0,0
+6196,Último voo do Confiável,121522,82061,1141,1032,0,0,0,0,0
+6197,Diário desgastado,121523,82063,1141,1032,0,0,0,0,0
+6198,Um tomo surrado,121535,82064,1141,1032,0,0,0,0,0
+6199,Carta esfarrapada,121535,82065,1141,1032,0,0,0,0,0
+6200,Diário do batedor,121553,82066,1141,1032,0,0,0,0,0
+6201,Nerubiana Louca,121560,82067,1141,1032,0,0,0,0,0
+6202,Kah'teht,121575,82069,1141,1032,0,0,0,0,0
+6203,Abismeira Tx'kesh,0,82077,1113,4,0,0,0,0,0
+6204,Guarda-lâmina Kaheti,0,82078,1113,4,0,0,0,0,0
+6205,Lança-sombras Esquecido,121594,82079,1141,1032,0,0,0,0,0
+6206,Lança-sombras Desgastado,121595,82082,1141,1032,0,0,0,0,0
+6207,Lança-sombras Negligenciado,121602,82085,1141,1032,0,0,0,0,0
+6208,Elemental da Água Fatigado,121670,82134,88,1034,0,0,0,0,0
+6209,"U'llort, o Autoexilado",121703,82142,88,1034,0,0,0,0,0
+6210,Cascanguejo Perolado,121738,82160,1158,1034,0,0,0,0,0
+6211,DEBUG Treasure Location,121739,0,1131,2,0,0,0,0,0
+6212,Limolã Desgarrada,121703,82145,88,1034,0,0,0,0,0
+6214,Bufo Inchado,0,0,89,0,0,0,0,0,0
+6215,Kereke,0,82204,1113,1060,0,0,0,0,0
+6216,Putrissoco,0,82205,1113,1060,0,0,0,0,0
+6217,Aqu'yinra,121196,0,1120,1028,0,0,0,0,0
+6218,"Yoh'nath, o Encerrador",121196,0,1120,1028,0,0,0,0,0
+6219,Yor'sith,121196,0,1120,1028,0,0,0,0,0
+6220,"Bor'zal, o Espreitador",121196,0,1120,1028,0,0,0,0,0
+6221,Terra Perturbada,121792,0,88,0,0,0,0,0,0
+6222,Ascendente Vis'coxria,126573,0,1074,9286,0,0,0,0,0
+6223,Gritamortes Iken'tak,126574,0,1074,9286,0,0,0,0,0
+6224,Lionel,121882,82212,88,1034,0,0,0,0,0
+6225,Campeão Ankoano Utaari,121196,0,1120,1028,0,0,0,0,0
+6226,"Utmoth, o Viramar",121196,0,1120,1028,0,0,0,0,0
+6227,"Gurl, o Glutão",121196,0,1120,1028,0,0,0,0,0
+6228,Mão de Azshara,121196,0,1120,1028,0,0,0,0,0
+6229,"Zaniga, o Rastreador",121196,0,1120,1028,0,0,0,0,0
+6230,Cofre Terrano,0,0,1140,0,0,0,0,0,0
+6231,Baú do Tesouro Mágico,122090,83243,1140,1034,0,0,0,0,0
+6232,Picareta Amaldiçoada,124125,82230,1140,1056,0,0,0,0,0
+6233,Depósito Esquecido de Munderut,0,82235,1140,1056,0,0,0,0,0
+6235,Caixa de Ferramentas Descartada,0,82239,1140,1056,0,0,0,0,0
+6236,Thak Caolho,122226,82245,88,1034,0,0,0,0,0
+6237,Tesouro de Thak,122233,82246,88,1034,0,0,0,0,0
+6238,Flor de Limolã,121779,82251,1140,1034,0,0,0,0,0
+6239,Orbe Misterioso,122262,83244,1140,1034,0,0,0,0,0
+6240,Chapéu de Cogumelo,122265,83245,1140,1034,0,0,0,0,0
+6241,Máquina de Jaka'Cola,0,0,1158,0,0,0,0,0,0
+6242,Baú do Guardião,0,0,1140,0,0,0,0,0,0
+6243,Geodo Elemental,0,0,1140,0,0,0,0,0,0
+6244,Tartaruga do Esgoto de Dalaran,117836,79585,1158,1034,0,0,0,0,0
+6245,Tartaruga do Esgoto de Dalaran,117837,79586,1158,1034,0,0,0,0,0
+6246,Tartaruga do Esgoto de Dalaran,117862,82255,1158,1034,0,0,0,0,0
+6247,Tor'go,121196,0,1120,1028,0,0,0,0,0
+6248,Nalo'xic,121196,0,1120,1028,0,0,0,0,0
+6249,"Tengi, a Mãe-da-guerra",121196,0,1120,1028,0,0,0,0,0
+6250,"Kiji, o Pisoteador",121196,0,1120,1028,0,0,0,0,0
+6251,Pterrordaxus,121196,0,1120,1028,0,0,0,0,0
+6252,Terrafúria Fragor,121196,0,1120,1028,0,0,0,0,0
+6253,Rompechamas Minerix,121196,0,1120,1028,0,0,0,0,0
+6254,Senhor da Caverna Fundâmbulo,121196,0,1120,1028,0,0,0,0,0
+6255,Viscerador das Chamas Ignes,121196,0,1120,1028,0,0,0,0,0
+6256,Presardente Corefundo,121196,0,1120,1028,0,0,0,0,0
+6257,Batemuro Min'cho,121196,0,1120,1028,0,0,0,0,0
+6258,Senhor da Tempestade Kao'dor,121196,0,1120,1028,0,0,0,0,0
+6259,"Toaka, o Explorador",121196,0,1120,1028,0,0,0,0,0
+6260,Campeão Or'sosh,121196,0,1120,1028,0,0,0,0,0
+6261,Fomentadora da Guerra Ogli,121196,0,1120,1028,0,0,0,0,0
+6262,Pérola de Jade,0,82287,1158,0,0,0,0,0,0
+6263,Tesouro Escondido dos Arathi,0,0,1140,1024,0,0,0,0,0
+6264,Baú Ritualístico Kobyss,0,0,1140,1024,0,0,0,0,0
+6265,Tka'ktath,0,82289,1113,1060,0,0,0,0,0
+6266,Aquele que Restou,0,82290,1113,1060,0,0,0,0,0
+6267,"Spiz'na, a Traidora",121196,0,1120,1028,0,0,0,0,0
+6268,A Rainha Rebelde,121196,0,1120,1028,0,0,0,0,0
+6269,"Vil'vim, o Viramentes",121196,0,1120,1028,0,0,0,0,0
+6270,"Vin'ris, o Corruptor",121196,0,1120,1028,0,0,0,0,0
+6271,"S'toth, o Insaciável",121196,0,1120,1028,0,0,0,0,0
+6272,Armadilha de Brann Barbabronze,0,0,1133,0,0,0,0,0,0
+6273,Picareta de Kobold,0,82325,1158,0,0,0,0,0,0
+6274,Nenúfar Opalino Cintilante,0,82326,1158,0,0,0,0,0,0
+6275,Tesouro coberto de teias,0,0,1140,0,0,0,0,0,0
+6276,Carretel da Urdidura do Destino,122577,0,938,1024,0,0,0,0,0
+6277,Baú de Escuridão Assustadora,0,82818,1158,0,0,0,0,0,0
+6278,Caixa-forte Sureki,0,0,1140,0,0,0,0,0,0
+6279,Sombra concentrada,0,0,1140,1024,0,0,0,0,0
+6280,Solo Remexido,0,82718,1158,0,0,0,0,0,0
+6281,Oferendas nerubianas,0,82720,1158,0,0,0,0,0,0
+6282,Estoque farim,0,82721,1158,0,0,0,0,0,0
+6283,Mochila dos batedores perdidos,0,82722,1158,0,0,0,0,0,0
+6284,Consumo Bloqueado,0,0,1158,0,0,0,0,0,0
+6285,Suprimentos Fiados em Seda,0,82719,1158,0,0,0,0,0,0
+6286,Baú de Prospector Empoeirado,0,0,1158,0,0,0,0,0,0
+6287,Depósito de memória,0,82520,1158,0,0,0,0,0,0
+6288,Contrabando escondido,0,82525,1158,0,0,0,0,0,0
+6289,"""Suprimentos de tecelagem""",0,82527,1158,0,0,0,0,0,0
+6290,Tesouro com armadilha,0,82727,1158,0,0,0,0,0,0
+6291,Ovo do ninho,0,82529,1158,0,0,0,0,0,0
+6292,Cinzagris Imbuído,0,0,1158,0,0,0,0,0,0
+6293,Machado Envolto em Teias,0,0,1158,0,0,0,0,0,0
+6294,Pilha de Refugo,0,0,1140,1024,0,0,0,0,0
+6295,Rumor de Recompensa,126925,82581,1136,1024,0,0,0,0,0
+6296,Rumor de Recompensa,126924,82616,1136,1024,0,0,0,0,0
+6297,Corretor de Informações,0,82617,1136,1024,0,0,0,0,0
+6298,Lich Rei Lembrado,0,0,1150,66630,0,0,0,0,0
+6299,Rumor de Recompensa,126920,82640,1136,1024,0,0,0,0,0
+6300,Rumor de Recompensa,126922,82641,1136,1024,0,0,0,0,0
+6301,Rumor de Recompensa,126923,82642,1136,1024,0,0,0,0,0
+6302,Rumor de Recompensa,126926,82643,1136,1024,0,0,0,0,0
+6303,Rumor de Recompensa,126927,82644,1136,1024,0,0,0,0,0
+6304,Rumor de Recompensa,126928,82645,1136,1024,0,0,0,0,0
+6305,Rumor de Recompensa,126929,82646,1136,1024,0,0,0,0,0
+6306,Rumor de Recompensa,126930,82647,1136,1024,0,0,0,0,0
+6307,Rumor de Recompensa,126931,82648,1136,1024,0,0,0,0,0
+6308,Rumor de Recompensa,126932,82649,1136,1024,0,0,0,0,0
+6309,Essa não! Os girinos!,0,0,1156,66626,0,0,0,0,0
+6310,O Chamado dos Campeões!,0,0,1156,66626,0,0,0,0,0
+6311,Borrabile e Efervalma,121196,0,1120,1028,0,0,0,0,0
+6312,Estilhaço de Gorribal,121196,0,1120,1028,0,0,0,0,0
+6313,Viuvalma,121196,0,1120,1028,0,0,0,0,0
+6314,Cristalização de Azerita,121196,0,1120,1028,0,0,0,0,0
+6315,Crestapeito,121196,0,1120,1028,0,0,0,0,0
+6316,[MODELO] TESOURO,0,82617,1143,1024,0,0,3,0,0
+6317,Memorial Abandonado,125482,82873,1143,1056,0,0,3,0,0
+6318,Memorial Abandonado,125484,82874,1143,1056,0,0,3,0,0
+6319,Memorial Abandonado,125486,82875,1143,1056,0,0,3,0,0
+6320,Memorial Abandonado,125488,82876,1143,1056,0,0,3,0,0
+6321,Memorial Abandonado,125490,82877,1143,1056,0,0,3,0,0
+6322,Memorial Abandonado,125498,82878,1143,1056,0,0,3,0,0
+6323,Memorial Abandonado,125500,82879,1143,1056,0,0,3,0,0
+6324,Memorial Abandonado,125502,82880,1143,1056,0,0,3,0,0
+6325,Memorial Abandonado,125504,82881,1143,1056,0,0,3,0,0
+6326,Artefato Kaheti,125545,81567,1143,1056,0,0,3,0,0
+6327,Artefato Kaheti,125548,81569,1143,1056,0,0,3,0,0
+6328,Artefato Kaheti,125550,82863,1143,1056,0,0,3,0,0
+6329,Artefato Kaheti,125552,82864,1143,1056,0,0,3,0,0
+6330,Artefato Kaheti,125554,82865,1143,1056,0,0,3,0,0
+6331,Artefato Kaheti,125556,82866,1143,1056,0,0,3,0,0
+6332,Artefato Kaheti,125558,82867,1143,1056,0,0,3,0,0
+6333,Artefato Kaheti,125560,82868,1143,1056,0,0,3,0,0
+6334,Artefato Kaheti,125562,82869,1143,1056,0,0,3,0,0
+6335,Artefato Kaheti,125564,82870,1143,1056,0,0,3,0,0
+6336,Artefato Kaheti,125566,82871,1143,1056,0,0,3,0,0
+6337,Artefato Kaheti,125568,82872,1143,1056,0,0,3,0,0
+6338,Estoque de Fofocandeiro,125402,80559,1143,1056,0,0,3,0,0
+6339,Estoque de Fofocandeiro,125404,80579,1143,1056,0,0,3,0,0
+6340,Estoque de Fofocandeiro,125427,80580,1143,1056,0,0,3,0,0
+6341,Estoque de Fofocandeiro,125428,82854,1143,1056,0,0,3,0,0
+6342,Estoque de Fofocandeiro,125429,82855,1143,1056,0,0,3,0,0
+6343,Estoque de Fofocandeiro,125430,82856,1143,1056,0,0,3,0,0
+6344,Estoque de Fofocandeiro,125431,82857,1143,1056,0,0,3,0,0
+6345,Estoque de Fofocandeiro,125432,82858,1143,1056,0,0,3,0,0
+6346,Estoque de Fofocandeiro,125433,82859,1143,1056,0,0,3,0,0
+6347,Estoque de Fofocandeiro,125434,82860,1143,1056,0,0,3,0,0
+6348,Estoque de Fofocandeiro,125435,82861,1143,1056,0,0,3,0,0
+6349,Estoque de Fofocandeiro,125436,82862,1143,1056,0,0,3,0,0
+6350,Cruzados Enredados,0,0,1156,66626,0,0,0,0,0
+6351,Amálgama de horrores,0,0,90,66626,0,0,0,0,1
+6352,Lancheira de Montelmo,0,82996,1140,0,15,-30,0,0,0
+6353,Porquinho,123750,0,1140,0,15,-30,0,0,0
+6354,Objeto Estranho,0,0,105,0,0,0,0,0,0
+6355,Transpositor,125088,0,93,66624,0,0,0,0,0
+6356,Lixo Encharcado,0,83030,1140,1056,0,0,0,0,0
+6357,Emissário Rebelde,0,0,1136,1024,0,0,0,0,0
+6358,Memória da Alma do Mundo,0,0,1005,0,0,0,0,0,0
+6359,Cria de Beledar,123893,81763,1113,1638,0,0,0,0,0
+6360,Anub'ikkaj,127672,0,1144,9282,340,0,0,0,0
+6361,Parasidioso,0,0,1113,1060,0,0,0,0,0
+6362,Pesquisadora de Sabores,0,0,106,5184,0,0,0,0,0
+6363,Relicário do Mensageiro Mecânico,0,0,1140,1024,0,0,0,0,0
+6364,Algibeira Perdida nas Profundezas,0,0,1140,1024,0,0,0,0,0
+6365,,0,0,159,0,0,0,0,0,0
+6366,Tesouro do Lince Remexido,124237,83263,1158,0,0,0,0,0,0
+6367,Gaespar,124239,83263,1158,0,0,0,0,0,0
+6368,Gaespar,124240,83263,1158,0,0,0,0,0,0
+6369,Purificador de Ar,0,0,105,0,0,0,0,0,0
+6370,Tesouro do Contrabandista,0,83273,1158,0,0,0,0,0,0
+6371,Ritual das Trevas,0,83284,1158,0,0,0,0,0,0
+6372,Ritual das Trevas,124318,83284,1158,0,0,0,0,0,0
+6373,Mestre Historiador Arathi,0,83298,1158,0,0,0,0,0,0
+6374,Códice de Estrutura Dimensional de Palawltar,0,83309,1141,0,0,0,0,0,0
+6375,Cuidado e Alimentação do Lince Imperial,124333,83310,1141,0,0,0,0,0,0
+6376,Normas do Toque de Recolher das Sombras,124378,83311,1141,0,0,0,0,0,0
+6377,Beledar – A Visão do Imperador,124395,83312,1141,0,0,0,0,0,0
+6378,A Canção do Renilace,124396,83313,1141,0,0,0,0,0,0
+6379,Enciclopédia de Expressões Arathi,124397,83314,1141,0,0,0,0,0,0
+6380,Coleção de madeira,0,0,1156,66626,0,0,0,0,0
+6381,Memórias Perenes,0,0,1156,66626,0,0,0,0,0
+6382,Saque Guardado,0,0,88,0,0,0,0,0,0
+6383,Baú de Fios Tramados,0,0,88,0,0,0,0,0,0
+6385,Suprimentos de Batalha Posicionados,0,0,938,1024,0,0,0,0,0
+6386,Pináculo Laçaventos Posicionado,0,0,938,1024,0,0,0,0,0
+6387,Barrilete de Recuperação Posicionado,0,0,938,1024,0,0,0,0,0
+6388,Estoque de Fofocandeiro,125403,80559,1143,66658,0,0,3,0,0
+6389,Estoque de Fofocandeiro,125405,80579,1143,328802,0,0,3,0,0
+6390,Estoque de Fofocandeiro,125406,80580,1143,66658,0,0,3,0,0
+6391,Estoque de Fofocandeiro,125417,82854,1143,66658,0,0,3,0,0
+6392,Estoque de Fofocandeiro,125418,82855,1143,66658,0,0,3,0,0
+6393,Estoque de Fofocandeiro,125419,82856,1143,66658,0,0,3,0,0
+6394,Estoque de Fofocandeiro,125421,82857,1143,66658,0,0,3,0,0
+6395,Estoque de Fofocandeiro,125422,82858,1143,66658,0,0,3,0,0
+6396,Estoque de Fofocandeiro,125423,82859,1143,66658,0,0,3,0,0
+6397,Estoque de Fofocandeiro,125424,82860,1143,66658,0,0,3,0,0
+6398,Estoque de Fofocandeiro,125425,82861,1143,66658,0,0,3,0,0
+6399,Estoque de Fofocandeiro,125426,82862,1143,66658,0,0,3,0,0
+6400,Memorial Abandonado,125477,80688,1143,66658,0,0,3,0,0
+6401,Memorial Abandonado,125479,81467,1143,66658,0,0,3,0,0
+6402,Memorial Abandonado,125481,81572,1143,66658,0,0,3,0,0
+6403,Memorial Abandonado,125483,82873,1143,66658,0,0,3,0,0
+6404,Memorial Abandonado,125485,82874,1143,66658,0,0,3,0,0
+6405,Memorial Abandonado,125487,82875,1143,66658,0,0,3,0,0
+6406,Memorial Abandonado,125489,82876,1143,66658,0,0,3,0,0
+6407,Memorial Abandonado,125497,82877,1143,66658,0,0,3,0,0
+6408,Memorial Abandonado,125499,82878,1143,66658,0,0,3,0,0
+6409,Memorial Abandonado,125501,82879,1143,66658,0,0,3,0,0
+6410,Memorial Abandonado,125503,82880,1143,66658,0,0,3,0,0
+6411,Memorial Abandonado,125505,82881,1143,66658,0,0,3,0,0
+6413,Artefato Kaheti,125546,81567,1143,66658,0,0,3,0,0
+6414,Artefato Kaheti,125549,81569,1143,66658,0,0,3,0,0
+6415,Artefato Kaheti,125551,82863,1143,328802,0,0,3,0,0
+6416,Artefato Kaheti,125553,82864,1143,66658,0,0,3,0,0
+6417,Artefato Kaheti,125555,82865,1143,66658,0,0,3,0,0
+6418,Artefato Kaheti,125557,82866,1143,66658,0,0,3,0,0
+6419,Artefato Kaheti,125559,82867,1143,66658,0,0,3,0,0
+6420,Artefato Kaheti,125561,82868,1143,66658,0,0,3,0,0
+6421,Artefato Kaheti,125563,82869,1143,66658,0,0,3,0,0
+6422,Artefato Kaheti,125565,82870,1143,66658,0,0,3,0,0
+6423,Artefato Kaheti,125567,82871,1143,66658,0,0,3,0,0
+6424,Artefato Kaheti,125569,82872,1143,66658,0,0,3,0,0
+6425,Pó de Ferro Terrano,125903,83840,88,0,30,-30,0,0,0
+6426,Quadro Metálico de Dornogal,125903,83841,88,0,30,-30,0,0,0
+6427,Béquer Reforçado,125903,83842,88,0,30,-30,0,0,0
+6428,Cajado Mexedor Entalhado,125903,83843,88,0,30,-30,0,0,0
+6429,Água Purificada do Químico,125903,83844,88,0,30,-30,0,0,0
+6430,Almofariz e Pilão Santificados,125903,83845,88,0,30,-30,0,0,0
+6431,Sais de Mistura Nerubianos,125903,83846,88,0,30,-30,0,0,0
+6432,Ampola do Boticário Sombrio,125903,83847,88,0,30,-30,0,0,0
+6433,Bigorna Terrana Ancestral,125904,83848,88,0,30,-30,0,0,0
+6434,Martelo de Dornogal,125904,83849,88,0,30,-30,0,0,0
+6435,Torno do Martelo Sonante,125904,83850,88,0,30,-30,0,0,0
+6436,Cinzéis Terranos,125904,83851,88,0,30,-30,0,0,0
+6437,Forja de Chama Sagrada,125904,83852,88,0,30,-30,0,0,0
+6438,Tenazes Radiantes,125904,83853,88,0,30,-30,0,0,0
+6439,Kit do Ferreiro Nerubiano,125904,83854,88,0,30,-30,0,0,0
+6440,Escova de Aço da Aranita,125904,83855,88,0,30,-30,0,0,0
+6441,Gema Terrana Moída,125902,83856,88,0,30,-30,0,0,0
+6442,Bastão de Prata de Dornogal,125902,83859,88,0,30,-30,0,0,0
+6443,Orbe Coberto de Fuligem,125902,83860,88,0,30,-30,0,0,0
+6444,Poeira de Encantamento Animada,125902,83861,88,0,30,-30,0,0,0
+6445,Essência de Fogo Sagrado,125902,83862,88,0,30,-30,0,0,0
+6446,Pergaminho Arathi Encantado,125902,83863,88,0,30,-30,0,0,0
+6447,Livro de Magia Negra,125902,83864,88,0,30,-30,0,0,0
+6448,Estilhaço do Caos,125902,83865,88,0,30,-30,0,0,0
+6449,Chave de Boca do Engenheiro de Pedra,125901,83866,88,0,30,-30,0,0,0
+6450,Óculos de Dornogal,125901,83867,88,0,30,-30,0,0,0
+6451,Bomba de Mineração Inerte,125901,83868,88,0,30,-30,0,0,0
+6452,Projeto de Constructo Terrano,125901,83869,88,0,30,-30,0,0,0
+6453,Fogos de Artifício Sagrados Falhados,125901,83870,88,0,30,-30,0,0,0
+6454,Luvas de Segurança Arathi,125901,83871,88,0,30,-30,0,0,0
+6455,Aranha Mecânica Fantoche,125901,83872,88,0,30,-30,0,0,0
+6456,Lata de Veneno Vazia,125901,83873,88,0,30,-30,0,0,0
+6457,Flor Antiga,123659,83874,88,0,30,-30,0,0,0
+6458,Foice de Jardinagem de Dornogal,123659,83875,88,0,30,-30,0,0,0
+6459,Forcado Terrano,123659,83876,88,0,30,-30,0,0,0
+6460,Faca do Fatiador Fungoriano,123659,83877,88,0,30,-30,0,0,0
+6461,Pá de Jardim Arathi,123659,83878,88,0,30,-30,0,0,0
+6462,Tesoura de Poda Arathi,123659,83879,88,0,30,-30,0,0,0
+6463,Lótus Emaranhado em Teias,123659,83880,88,0,30,-30,0,0,0
+6464,Pá do Escavador,123659,83881,88,0,30,-30,0,0,0
+6465,Pena do Escriba de Dornogal,125900,83882,88,0,30,-30,0,0,0
+6466,Pena de Caligrafia do Historiador,125900,83883,88,0,30,-30,0,0,0
+6467,Pergaminho Rúnico,125900,83884,88,0,30,-30,0,0,0
+6468,Corante Azul Terrano,125900,83885,88,0,30,-30,0,0,0
+6469,Caneta Tinteiro do Informante,125900,83886,88,0,30,-30,0,0,0
+6470,Marcador Chanfrado do Calígrafo,125900,83887,88,0,30,-30,0,0,0
+6471,Textos Nerubianos,125900,83888,88,0,30,-30,0,0,0
+6472,Tinteiro do Venomante,125900,83889,88,0,30,-30,0,0,0
+6473,Martelo de Joalheria Delicado,125899,83890,88,0,30,-30,0,0,0
+6474,Alicate de Gemas Terrano,125899,83891,88,0,30,-30,0,0,0
+6475,Lima de Pedra Entalhada,125899,83892,88,0,30,-30,0,0,0
+6476,Perfuratriz Delicada do Joalheiro,125899,83893,88,0,30,-30,0,0,0
+6477,Medidor de Tamanho Arathi,125899,83894,88,0,30,-30,0,0,0
+6478,Lente de Aumento do Bibliotecário,125899,83895,88,0,30,-30,0,0,0
+6479,Cristal do Lançador Ritualístico,125899,83896,88,0,30,-30,0,0,0
+6480,Blocos de Armeiro Nerubianos,125899,83897,88,0,30,-30,0,0,0
+6481,Ferramentas de Trançado Terranas,125898,83898,88,0,30,-30,0,0,0
+6482,Faca Plana do Artesão de Dornogal,125898,83899,88,0,30,-30,0,0,0
+6483,Composto de Afiação Subterrâneo,125898,83900,88,0,30,-30,0,0,0
+6484,Furador Terrano,125898,83901,88,0,30,-30,0,0,0
+6485,Kit de Chanfragem Arathi,125898,83902,88,0,30,-30,0,0,0
+6486,Brunidor de Couro Arathi,125898,83903,88,0,30,-30,0,0,0
+6487,Marreta de Curtimento Nerubiana,125898,83904,88,0,30,-30,0,0,0
+6488,Faca Curva de Esfolamento Nerubiana,125898,83905,88,0,30,-30,0,0,0
+6489,Martelete do Minerador Terrano,123924,83906,88,0,30,-30,0,0,0
+6490,Cinzel de Dornogal,123924,83907,88,0,30,-30,0,0,0
+6491,Pá do Escavador Terrano,123924,83908,88,0,30,-30,0,0,0
+6492,Minério Regenerativo,123924,83909,88,0,30,-30,0,0,0
+6493,Perfuratriz de Precisão Arathi,123924,83910,88,0,30,-30,0,0,0
+6494,Escavador do Arqueólogo Devoto,123924,83911,88,0,30,-30,0,0,0
+6495,Esmagador de Aranhas Pesado,123924,83912,88,0,30,-30,0,0,0
+6496,Vagonete de Mineração Nerubiano,123924,83913,88,0,30,-30,0,0,0
+6497,Faca de Entalhar de Dornogal,123703,83914,88,0,30,-30,0,0,0
+6498,Vigas do Trabalhador Terrano,123703,83915,88,0,30,-30,0,0,0
+6499,Faca de Entalhe do Artífice,123703,83916,88,0,30,-30,0,0,0
+6500,Tanino Rico do Fungoriano,123703,83917,88,0,30,-30,0,0,0
+6501,Agente de Curtimento Arathi,123703,83918,88,0,30,-30,0,0,0
+6502,Plaina do Artesão Arathi,123703,83919,88,0,30,-30,0,0,0
+6503,Polidor de Ferro do Nerubiano,123703,83920,88,0,30,-30,0,0,0
+6504,Lustra-carapaças,123703,83921,88,0,30,-30,0,0,0
+6505,Descosturador de Dornogal,125897,83922,88,0,30,-30,0,0,0
+6506,Fita Métrica Terrana,125897,83923,88,0,30,-30,0,0,0
+6507,Alfinetes Rúnicos Terranos,125897,83924,88,0,30,-30,0,0,0
+6508,Tesoura do Suturador Terrano,125897,83925,88,0,30,-30,0,0,0
+6509,Cortador Circular Arathi,125897,83926,88,0,30,-30,0,0,0
+6510,Transferidor do Provedor Real,125897,83927,88,0,30,-30,0,0,0
+6511,Manta Nerubiana,125897,83928,88,0,30,-30,0,0,0
+6512,Alfineteiro do Nerubiano,125897,83929,88,0,30,-30,0,0,0
+6513,Incubadora de Espalhador,0,0,166,0,0,0,0,0,0
+6516,Elemental de Tesouro,121196,0,1120,1028,0,0,0,0,0
+6521,Resistentes de Mereldar,126570,0,1154,9282,0,0,0,0,0
+6522,Resistentes de Mereldar,126571,0,1154,9282,0,0,0,0,0
+6523,Resistentes de Mereldar,126572,0,1154,9282,0,0,0,0,0
+6532,Colosso Tóxico,121196,0,1120,1028,0,0,0,0,0
+6533,Depósito de Ajudante do Campo,0,84337,1140,0,15,-30,0,0,0
+6534,Caixote Velho em Decomposição,0,84339,1140,0,15,-30,0,0,0
+6535,Suprimentos Deslocados,0,84340,1140,0,15,-30,0,0,0
+6536,Caixa do Topógrafo,0,84341,1140,0,15,-30,0,0,0
+6537,Suprimentos do Catador de Caranguejo,0,84342,1140,0,15,-30,0,0,0
+6539,Ponto de Escavação,126897,0,776,512,0,0,0,0,0
+6540,Profeta Sombrio Grshol,121196,0,1120,1028,0,0,0,0,0
+6541,Rumor de Espionagem,126932,82649,1136,1024,0,0,0,0,0
+6542,Rumor de Espionagem,126931,82648,1136,1024,0,0,0,0,0
+6543,Rumor de Espionagem,126930,82647,1136,1024,0,0,0,0,0
+6544,Rumor de Espionagem,126929,82646,1136,1024,0,0,0,0,0
+6545,Rumor de Espionagem,126928,82645,1136,1024,0,0,0,0,0
+6546,Rumor de Espionagem,126927,82644,1136,1024,0,0,0,0,0
+6547,Rumor de Espionagem,126926,82643,1136,1024,0,0,0,0,0
+6548,Rumor de Espionagem,126925,82581,1136,1024,0,0,0,0,0
+6549,Rumor de Espionagem,126924,82616,1136,1024,0,0,0,0,0
+6550,Rumor de Espionagem,126923,82642,1136,1024,0,0,0,0,0
+6551,Rumor de Espionagem,126922,82641,1136,1024,0,0,0,0,0
+6552,Rumor de Espionagem,126920,82640,1136,1024,0,0,0,0,0
+6553,Rumor de Disrupção,126932,82649,1136,1024,0,0,0,0,0
+6554,Rumor de Disrupção,126931,82648,1136,1024,0,0,0,0,0
+6555,Rumor de Disrupção,126930,82647,1136,1024,0,0,0,0,0
+6556,Rumor de Disrupção,126929,82646,1136,1024,0,0,0,0,0
+6557,Rumor de Disrupção,126928,82645,1136,1024,0,0,0,0,0
+6558,Rumor de Disrupção,126927,82644,1136,1024,0,0,0,0,0
+6559,Rumor de Disrupção,126926,82643,1136,1024,0,0,0,0,0
+6560,Rumor de Disrupção,126925,82581,1136,1024,0,0,0,0,0
+6561,Rumor de Disrupção,126924,82616,1136,1024,0,0,0,0,0
+6562,Rumor de Disrupção,126923,82642,1136,1024,0,0,0,0,0
+6563,Rumor de Disrupção,126922,82641,1136,1024,0,0,0,0,0
+6564,Rumor de Disrupção,126920,82640,1136,1024,0,0,0,0,0
+6565,Coletor de Sucata Mecânico,121196,0,1120,1028,0,0,0,0,0
+6566,Chama-chave da Exuberância da Luz,120203,0,1160,9248,0,0,0,0,0
+6567,Chama-chave do Campo Sibilante,120203,0,1160,9248,0,0,0,0,0
+6568,Duskrise Acreage Keyflame,120203,0,1160,9248,0,0,0,0,0
+6569,Chama-chave da Lagoa das Águas Paradas,120203,0,1160,9248,0,0,0,0,0
+6570,Chama-chave da Mina Luz da Tocha,120203,0,1160,9248,0,0,0,0,0
+6571,Chama-chave da Costa Desvanecida,120203,0,1160,9248,0,0,0,0,0
+6572,Chama-chave da Areia Desolada,120203,0,1160,9248,0,0,0,0,0
+6573,Local de Reaparecimento,127217,0,1162,9282,0,0,0,0,0
+6574,Local de Reaparecimento,127218,0,1162,8258,0,0,0,0,0
+6575,Chama-chave do Campo Fúngico,120203,0,1160,9248,0,0,0,0,0
+6576,Nome da Criatura,120885,84589,1113,1126,0,0,0,0,0
+6579,Turtle's Thanks,122293,0,1158,1034,0,0,0,0,0
+6583,The Dawnbreaker,127589,0,1165,9282,0,0,0,0,0
+6584,The Dawnbreaker,127224,0,1165,9282,0,0,0,0,0
+6585,Renown Quartermaster,0,0,1167,0,0,0,0,0,0
+6586,Renown Quartermaster,0,0,1168,0,0,0,0,0,0
+6587,Renown Quartermaster,0,0,1169,0,0,0,0,0,0
+6588,Renown Quartermaster,0,0,1170,0,0,0,0,0,0

@@ -125,7 +125,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 132,Cámaras de Reflexión (Heroico),Heroico,2,0,53,98,0,0,668,2,0,5,1,0,0
 133,Trono de las Mareas (Heroico),Normal,2,0,54,98,0,0,643,1,0,5,1,0,0
 134,Cavernas Roca Negra (Heroico),Normal,2,0,55,98,0,0,645,1,0,5,1,0,0
-135,Grim Batol (Normal),Normal,2,0,56,98,0,0,670,1,0,5,1,0,0
+135,Grim Batol (Normal),Normal,2,1,56,99,0,0,670,1,0,5,1,0,0
 136,Cámaras de los Orígenes (Normal),Normal,2,0,57,98,0,0,644,1,0,5,1,0,0
 137,El Núcleo Pétreo (Normal),Normal,2,0,58,98,0,0,725,1,0,5,1,0,0
 138,La Cumbre del Vórtice (Normal),Normal,2,8,59,98,0,0,657,1,0,5,1,0,0
@@ -133,7 +133,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 140,La Cumbre del Vórtice (Heroico),Heroico,2,8,59,98,0,0,657,2,0,5,1,0,0
 141,El Núcleo Pétreo (Heroico),Heroico,2,0,58,98,0,0,725,2,0,5,1,0,0
 142,Cámaras de los Orígenes (Heroico),Heroico,2,0,57,98,0,0,644,2,0,5,1,0,0
-143,Grim Batol (Heroico),Heroico,2,0,56,98,0,0,670,2,0,5,1,0,0
+143,Grim Batol (Heroico),Heroico,2,2,56,99,567,127178,670,2,0,5,1,0,0
 144,Cavernas Roca Negra (Heroico),Heroico,2,0,55,98,0,0,645,2,0,5,1,0,0
 146,Trono de las Mareas (Heroico),Heroico,2,0,54,98,0,0,643,2,0,5,1,0,0
 147,Ciudad Perdida de los Tol'vir (Heroico),Heroico,2,0,60,98,0,0,755,2,0,5,1,0,0
@@ -474,9 +474,9 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 530,Mansión Tarjasenda (piedra angular mítica),Mítico+,2,4,145,194,60,98005,1862,8,0,5,1,0,0
 531,Mansión Tarjasenda (heroico),Heroico,2,2,145,99,60,0,1862,2,0,5,1,0,0
 532,Asedio de Boralus (normal),Normal,2,1,146,611,0,21439,1822,1,0,5,1,0,0
-533,Asedio de Boralus (mítico),Mítico,2,3,146,611,60,65318,1822,23,0,5,1,0,0
-534,Asedio de Boralus (piedra angular mítica),Mítico+,2,4,146,706,60,65318,1822,8,0,5,1,0,0
-535,Asedio de Boralus (heroico),Heroico,2,1,146,611,60,0,1822,2,0,5,1,0,0
+533,Asedio de Boralus (mítico),Mítico,2,3,146,611,60,5793,1822,23,0,5,1,0,0
+534,Asedio de Boralus (piedra angular mítica),Mítico+,2,4,146,706,60,5793,1822,8,0,5,1,0,0
+535,Asedio de Boralus (heroico),Heroico,2,1,146,611,567,127178,1822,2,0,5,1,0,0
 536,Mansión Tarjasenda (normal),Normal,2,1,145,99,57,63909,1862,1,0,5,1,0,0
 537,Tol Dagor (normal),Normal,2,1,144,99,0,0,1771,1,0,5,1,0,0
 538,Santuario de la Tormenta (normal),Normal,2,1,143,99,57,0,1864,1,0,5,1,0,0
@@ -498,8 +498,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 654,Isla aleatoria (heroico),Heroico,111,0,249,34,60,85364,0,39,0,3,4,0,0
 655,Isla aleatoria (mítico),Mítico,111,0,249,34,60,85364,0,40,0,3,4,0,0
 657,Jefes de mundo (Battle for Azeroth),Jefes del mundo,3,0,0,803,0,21439,0,0,0,40,0,0,0
-658,Asedio de Boralus (mítico),Mítico,2,3,146,611,60,65319,1822,23,0,5,1,0,0
-659,Asedio de Boralus (piedra angular mítica),Mítico+,2,4,146,706,60,65319,1822,8,0,5,1,0,0
+658,Asedio de Boralus (mítico),Mítico,2,3,146,611,0,127178,1822,23,0,5,1,0,0
+659,Asedio de Boralus (piedra angular mítica),Mítico+,2,4,146,706,0,98007,1822,8,0,5,1,0,0
 660,Reposo de los Reyes (mítico),Mítico,2,3,141,99,60,65321,1762,23,0,5,1,0,0
 661,Reposo de los Reyes (piedra angular mítica),Mítico+,2,4,141,194,60,65321,1762,8,0,5,1,0,0
 662,Isla aleatoria (JcJ),JcJ,111,0,249,38,60,85364,0,45,0,3,4,0,0
@@ -538,8 +538,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 698,Salones de Expiación (Mítico),Mítico,2,3,261,99,115,85644,2287,23,0,5,1,0,0
 699,Salones de Expiación (Piedra angular mítica),Mítico+,2,4,261,194,184,97994,2287,8,0,5,1,0,0
 700,Nieblas de Tirna Scithe (Normal),Normal,2,1,262,99,0,85644,2290,1,0,5,1,0,0
-701,Nieblas de Tirna Scithe (Heroico),Heroico,2,2,262,99,115,85644,2290,2,0,5,1,0,0
-702,Nieblas de Tirna Scithe (Mítico),Mítico,2,3,262,99,115,85644,2290,23,0,5,1,0,0
+701,Nieblas de Tirna Scithe (Heroico),Heroico,2,2,262,99,567,127178,2290,2,0,5,1,0,0
+702,Nieblas de Tirna Scithe (Mítico),Mítico,2,3,262,99,0,127178,2290,23,0,5,1,0,0
 703,Nieblas de Tirna Scithe (Piedra angular mítica),Mítico+,2,4,262,194,184,97993,2290,8,0,5,1,0,0
 704,Profundidades Sanguíneas (Normal),Normal,2,1,263,99,0,85644,2284,1,0,5,1,0,0
 705,Profundidades Sanguíneas (Piedra angular mítica),Mítico+,2,4,263,194,184,97998,2284,8,0,5,1,0,0
@@ -551,8 +551,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 711,Torres de Ascensión (Heroico),Heroico,2,2,264,99,115,85644,2285,2,0,5,1,0,0
 712,La Destrucción Necrótica (Normal),Normal,2,1,265,99,0,85644,2286,1,0,5,1,0,0
 713,La Destrucción Necrótica (Piedra angular mítica),Mítico+,2,4,265,194,184,97991,2286,8,0,5,1,0,0
-714,La Destrucción Necrótica (Mítico),Mítico,2,3,265,99,115,85644,2286,23,0,5,1,0,0
-715,La Destrucción Necrótica (Heroico),Heroico,2,2,265,99,115,85644,2286,2,0,5,1,0,0
+714,La Destrucción Necrótica (Mítico),Mítico,2,3,265,99,0,127178,2286,23,0,5,1,0,0
+715,La Destrucción Necrótica (Heroico),Heroico,2,2,265,99,567,127178,2286,2,0,5,1,0,0
 716,Teatro del Dolor (Normal),Normal,2,1,266,99,0,85644,2293,1,0,5,1,0,0
 717,Teatro del Dolor (Piedra angular mítica),Mítico+,2,4,266,194,184,97996,2293,8,0,5,1,0,0
 718,Teatro del Dolor (Mítico),Mítico,2,3,266,99,115,85644,2293,23,0,5,1,0,0
@@ -752,8 +752,8 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1237,Aberrus (Mítico),Mítico,3,3,313,35,420,108665,2569,16,0,20,0,0,0
 1243,Caverna Zaralek,Caverna Zaralek,1,0,284,258,0,0,0,0,14022,0,4,0,0
 1244,El Alba del Infinito (Mítico),Mítico,2,3,315,99,480,99866,2579,23,0,5,1,0,0
-1245,Caída de Galakrond - El Alba del Infinito (Heroico),Heroico,2,2,316,194,330,99866,2579,2,0,5,1,0,0
-1246,El Ascenso de Murozond - El Alba del Infinito (Heroico),Heroico,2,2,317,194,330,99866,2579,2,0,5,1,0,0
+1245,Caída de Galakrond - El Alba del Infinito (Heroico),Heroico,2,2,316,99,330,99866,2579,2,0,5,1,0,0
+1246,El Ascenso de Murozond - El Alba del Infinito (Heroico),Heroico,2,2,317,99,330,99866,2579,2,0,5,1,0,0
 1247,Caída de Galakrond - El Alba del Infinito (Piedra angular mítica),Mítico+,2,4,316,194,415,114533,2579,8,0,5,1,0,463
 1248,El Ascenso de Murozond - El Alba del Infinito (Piedra angular mítica),Mítico+,2,4,317,194,415,114534,2579,8,0,5,1,0,464
 1249,Sueño Esmeralda,Sueño Esmeralda,1,0,284,258,0,0,0,0,14529,0,4,0,0
@@ -761,6 +761,42 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1252,Amirdrassil (Heroico),Heroico,3,2,319,35,446,114446,2549,15,0,30,0,0,0
 1253,Amirdrassil (Mítico),Mítico,3,3,319,35,459,115330,2549,16,0,20,0,0,0
 1274,Trono de las Mareas (Piedra angular mítica),Mítico+,2,8,54,194,385,112699,643,8,0,5,1,0,0
+1275,Grieta Llama Oscura (Normal),Normal,2,1,322,99,0,114336,2651,1,0,5,1,0,0
+1276,Grieta Llama Oscura (Heroico),Heroico,2,2,322,99,567,115171,2651,2,0,5,1,0,0
+1277,Grieta Llama Oscura (Mítico),Mítico,2,3,322,99,330,120231,2651,23,0,5,1,0,0
+1278,"Ara-Kara, Ciudad de los Ecos (Normal)",Normal,2,1,323,99,0,114336,2660,1,0,5,1,0,0
+1279,"Ara-Kara, Ciudad de los Ecos (Heroico)",Heroico,2,2,323,99,567,115171,2660,2,0,5,1,0,0
+1280,"Ara-Kara, Ciudad de los Ecos (Mítico)",Mítico,2,3,323,99,330,124938,2660,23,0,5,1,0,0
+1281,Priorato de la Llama Sagrada (Piedra angular mítica),Mítico+,2,9,324,194,50,120230,2649,8,0,5,1,0,0
+1282,Grieta Llama Oscura (Piedra angular mítica),Mítico+,2,3,322,99,330,120231,2651,8,0,5,1,0,0
+1283,El Corvento (Piedra angular mítica),Mítico+,2,4,325,99,330,120232,2648,8,0,5,1,0,0
+1284,"Ara-Kara, Ciudad de los Ecos (Piedra angular mítica)",Mítico+,2,4,323,99,330,120233,2660,8,0,5,1,0,0
+1285,El Rompealbas (Piedra angular mítica),Mítico+,2,4,326,99,330,120234,2662,8,0,5,1,0,0
+1286,Hidromielería Cinérea (Piedra angular mítica),Mítico+,2,3,327,99,330,120235,2661,8,0,5,1,0,0
+1287,La Bóveda de Piedra (Piedra angular mítica),Mítico+,2,4,328,99,330,120236,2652,8,0,5,1,0,0
+1288,Ciudad de los Hilos (Piedra angular mítica),Mítico+,2,4,329,99,0,120237,2669,8,0,5,1,0,0
+1289,Jefes de mundo (War Within),Jefes de mundo,3,0,0,803,0,99866,2444,0,0,40,0,0,0
+1290,Grim Batol (Piedra angular mítica),Mítico+,2,4,56,99,0,120783,670,8,0,5,1,0,0
+1291,El Rompealbas (Mítico),Mítico,2,3,326,99,330,124935,2662,23,0,5,1,0,0
+1292,La Bóveda de Piedra (Mítico),Mítico,2,3,328,99,330,124932,2652,23,0,5,1,0,0
+1293,Ciudad de los Hilos (Mítico),Mítico,2,3,329,99,0,123668,2669,23,0,5,1,0,0
+1294,Grim Batol (Mítico),Mítico,2,3,56,99,0,127178,670,23,0,5,1,0,0
+1295,Extravagancia Fúngica,Nivel 1,121,1,331,162,0,118387,2664,208,14957,5,4,0,0
+1296,Descanso de Kriegval,Nivel 1,121,1,332,162,0,118387,2681,208,15000,5,4,0,0
+1297,Minas Repterráneas,Nivel 1,121,1,333,162,0,118387,2680,208,14999,5,4,0,0
+1298,Guarida de Zekvir,Nivel ??,121,1,334,162,0,121468,2682,208,15001,5,4,0,0
+1299,Las Vías Acuáticas,Nivel 1,121,1,335,162,0,118387,2683,208,15002,5,4,0,0
+1300,La Fosa Siniestra,Nivel 1,121,1,336,162,0,118387,2684,208,15003,5,4,0,0
+1301,Sagrario del Ocaso,Nivel 1,121,1,337,162,0,118387,2686,208,15005,5,4,0,0
+1302,Caverna Micomántica,Nivel 1,121,1,338,162,0,118387,2679,208,14998,5,4,0,0
+1303,El Sumidero,Nivel 1,121,1,339,162,0,118387,2687,208,15175,5,4,0,0
+1304,Grieta Arácnida,Nivel 1,121,1,340,162,0,118387,2685,208,15004,5,4,0,0
+1305,La Subfortaleza,Nivel 1,121,1,341,162,0,118387,2690,208,15009,5,4,0,0
+1306,Sima Tak-Rethan,Nivel 1,121,1,342,162,0,118387,2689,208,15327,5,4,0,0
+1307,El Tejido Descendente,Nivel 1,121,1,343,162,0,118387,2688,208,15007,5,4,0,0
+1308,El Corvento (Normal),Normal,2,1,325,99,0,114336,2648,1,0,5,1,0,0
+1309,El Corvento (Heroico),Heroico,2,2,325,99,567,115171,2648,2,0,5,1,0,0
+1310,El Corvento (Mítico),Mítico,2,3,325,99,330,120232,2648,23,0,5,1,0,0
 1311,El Bosque de Jade,El Bosque de Jade,1,0,71,258,0,0,0,0,5785,0,4,0,0
 1312,Valle de los Cuatro Vientos,Valle de los Cuatro Vientos,1,0,71,258,0,0,0,0,5805,0,4,0,0
 1313,Espesura Krasarang,Espesura Krasarang,1,0,71,258,0,0,0,0,6134,0,4,0,0
@@ -828,3 +864,140 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1376,Corazón Oscuro de Pandaria (Heroico),Heroico,5,0,106,34,0,0,1144,11,0,3,1,0,0
 1377,Los Secretos de Sima Ígnea (Normal),Normal,5,0,108,34,0,0,1131,12,0,3,1,0,0
 1378,Los Secretos de Sima Ígnea (Heroico),Heroico,5,0,108,34,0,0,1131,11,0,3,1,0,0
+1382,Ciudad de los Hilos (Normal),Normal,2,1,329,99,0,117312,2669,1,0,5,1,0,0
+1383,Ciudad de los Hilos (Heroico),Heroico,2,2,329,99,567,123301,2669,2,0,5,1,0,0
+1384,Extravagancia Fúngica,Nivel 2,121,2,331,162,0,121491,2664,208,14957,5,4,0,0
+1385,Descanso de Kriegval,Nivel 2,121,2,332,162,0,121491,2681,208,15000,5,4,0,0
+1386,Minas Repterráneas,Nivel 2,121,2,333,162,0,121491,2680,208,14999,5,4,0,0
+1387,Las Vías Acuáticas,Nivel 2,121,2,335,162,0,121491,2683,208,15002,5,4,0,0
+1388,La Fosa Siniestra,Nivel 2,121,2,336,162,0,121491,2684,208,15003,5,4,0,0
+1389,Sagrario del Ocaso,Nivel 2,121,2,337,162,0,121491,2686,208,15005,5,4,0,0
+1390,Caverna Micomántica,Nivel 2,121,2,338,162,0,121491,2679,208,14998,5,4,0,0
+1391,El Sumidero,Nivel 2,121,2,339,162,0,121491,2687,208,15175,5,4,0,0
+1392,Grieta Arácnida,Nivel 2,121,2,340,162,0,121491,2685,208,15004,5,4,0,0
+1393,La Subfortaleza,Nivel 2,121,2,341,162,0,121491,2690,208,15009,5,4,0,0
+1394,Fosa Tak-Rethan,Nivel 2,121,2,342,162,0,121491,2689,208,15327,5,4,0,0
+1395,El Tejido Descendente,Nivel 2,121,2,343,162,0,121491,2688,208,15007,5,4,0,0
+1396,Extravagancia Fúngica,Nivel 3,121,3,331,162,0,118382,2664,208,14957,5,4,0,0
+1397,Descanso de Kriegval,Nivel 3,121,3,332,162,0,118382,2681,208,15000,5,4,0,0
+1398,Minas Repterráneas,Nivel 3,121,3,333,162,0,118382,2680,208,14999,5,4,0,0
+1399,Las Vías Acuáticas,Nivel 3,121,3,335,162,0,118382,2683,208,15002,5,4,0,0
+1400,La Fosa Siniestra,Nivel 3,121,3,336,162,0,118382,2684,208,15003,5,4,0,0
+1401,Sagrario del Ocaso,Nivel 3,121,3,337,162,0,118382,2686,208,15005,5,4,0,0
+1402,Caverna Micomántica,Nivel 3,121,3,338,162,0,118382,2679,208,14998,5,4,0,0
+1403,El Sumidero,Nivel 3,121,3,339,162,0,118382,2687,208,15175,5,4,0,0
+1404,Grieta Arácnida,Nivel 3,121,3,340,162,0,118382,2685,208,15004,5,4,0,0
+1405,La Subfortaleza,Nivel 3,121,3,341,162,0,118382,2690,208,15009,5,4,0,0
+1406,Fosa Tak-Rethan,Nivel 3,121,3,342,162,0,118382,2689,208,15327,5,4,0,0
+1407,El Tejido Descendente,Nivel 3,121,3,343,162,0,118382,2688,208,15007,5,4,0,0
+1408,Extravagancia Fúngica,Nivel 4,121,4,331,162,0,118383,2664,208,14957,5,4,0,0
+1409,Descanso de Kriegval,Nivel 4,121,4,332,162,0,118383,2681,208,15000,5,4,0,0
+1410,Minas Repterráneas,Nivel 4,121,4,333,162,0,118383,2680,208,14999,5,4,0,0
+1411,Las Vías Acuáticas,Nivel 4,121,4,335,162,0,118383,2683,208,15002,5,4,0,0
+1412,La Fosa Siniestra,Nivel 4,121,4,336,162,0,118383,2684,208,15003,5,4,0,0
+1413,Sagrario del Ocaso,Nivel 4,121,4,337,162,0,118383,2686,208,15005,5,4,0,0
+1414,Caverna Micomántica,Nivel 4,121,4,338,162,0,118383,2679,208,14998,5,4,0,0
+1415,El Sumidero,Nivel 4,121,4,339,162,0,118383,2687,208,15175,5,4,0,0
+1416,Grieta Arácnida,Nivel 4,121,4,340,162,0,118383,2685,208,15004,5,4,0,0
+1417,La Subfortaleza,Nivel 4,121,4,341,162,0,118383,2690,208,15009,5,4,0,0
+1418,Fosa Tak-Rethan,Nivel 4,121,4,342,162,0,118383,2689,208,15327,5,4,0,0
+1419,El Tejido Descendente,Nivel 4,121,4,343,162,0,118383,2688,208,15007,5,4,0,0
+1420,Extravagancia Fúngica,Nivel 5,121,5,331,162,0,118384,2664,208,14957,5,4,0,0
+1421,Descanso de Kriegval,Nivel 5,121,5,332,162,0,118384,2681,208,15000,5,4,0,0
+1422,Minas Repterráneas,Nivel 5,121,5,333,162,0,118384,2680,208,14999,5,4,0,0
+1423,Las Vías Acuáticas,Nivel 5,121,5,335,162,0,118384,2683,208,15002,5,4,0,0
+1424,La Fosa Siniestra,Nivel 5,121,5,336,162,0,118384,2684,208,15003,5,4,0,0
+1425,Sagrario del Ocaso,Nivel 5,121,5,337,162,0,118384,2686,208,15005,5,4,0,0
+1426,Caverna Micomántica,Nivel 5,121,5,338,162,0,118384,2679,208,14998,5,4,0,0
+1427,El Sumidero,Nivel 5,121,5,339,162,0,118384,2687,208,15175,5,4,0,0
+1428,Grieta Arácnida,Nivel 5,121,5,340,162,0,118384,2685,208,15004,5,4,0,0
+1429,La Subfortaleza,Nivel 5,121,5,341,162,0,118384,2690,208,15009,5,4,0,0
+1430,Fosa Tak-Rethan,Nivel 5,121,5,342,162,0,118384,2689,208,15327,5,4,0,0
+1431,El Tejido Descendente,Nivel 5,121,5,343,162,0,118384,2688,208,15007,5,4,0,0
+1432,Extravagancia Fúngica,Nivel 6,121,6,331,162,0,118385,2664,208,14957,5,4,0,0
+1433,Descanso de Kriegval,Nivel 6,121,6,332,162,0,118385,2681,208,15000,5,4,0,0
+1434,Minas Repterráneas,Nivel 6,121,6,333,162,0,118385,2680,208,14999,5,4,0,0
+1435,Las Vías Acuáticas,Nivel 6,121,6,335,162,0,118385,2683,208,15002,5,4,0,0
+1436,La Fosa Siniestra,Nivel 6,121,6,336,162,0,118385,2684,208,15003,5,4,0,0
+1437,Sagrario del Ocaso,Nivel 6,121,6,337,162,0,118385,2686,208,15005,5,4,0,0
+1438,Caverna Micomántica,Nivel 6,121,6,338,162,0,118385,2679,208,14998,5,4,0,0
+1439,El Sumidero,Nivel 6,121,6,339,162,0,118385,2687,208,15175,5,4,0,0
+1440,Grieta Arácnida,Nivel 6,121,6,340,162,0,118385,2685,208,15004,5,4,0,0
+1441,La Subfortaleza,Nivel 6,121,6,341,162,0,118385,2690,208,15009,5,4,0,0
+1442,Fosa Tak-Rethan,Nivel 6,121,6,342,162,0,118385,2689,208,15327,5,4,0,0
+1443,El Tejido Descendente,Nivel 6,121,6,343,162,0,118385,2688,208,15007,5,4,0,0
+1444,Extravagancia Fúngica,Nivel 7,121,7,331,162,0,118386,2664,208,14957,5,4,0,0
+1445,Descanso de Kriegval,Nivel 7,121,7,332,162,0,118386,2681,208,15000,5,4,0,0
+1446,Minas Repterráneas,Nivel 7,121,7,333,162,0,118386,2680,208,14999,5,4,0,0
+1447,Las Vías Acuáticas,Nivel 7,121,7,335,162,0,118386,2683,208,15002,5,4,0,0
+1448,La Fosa Siniestra,Nivel 7,121,7,336,162,0,118386,2684,208,15003,5,4,0,0
+1449,Sagrario del Ocaso,Nivel 7,121,7,337,162,0,118386,2686,208,15005,5,4,0,0
+1450,Caverna Micomántica,Nivel 7,121,7,338,162,0,118386,2679,208,14998,5,4,0,0
+1451,El Sumidero,Nivel 7,121,7,339,162,0,118386,2687,208,15175,5,4,0,0
+1452,Grieta Arácnida,Nivel 7,121,7,340,162,0,118386,2685,208,15004,5,4,0,0
+1453,La Subfortaleza,Nivel 7,121,7,341,162,0,118386,2690,208,15009,5,4,0,0
+1454,Fosa Tak-Rethan,Nivel 7,121,7,342,162,0,118386,2689,208,15327,5,4,0,0
+1455,El Tejido Descendente,Nivel 7,121,7,343,162,0,118386,2688,208,15007,5,4,0,0
+1456,Extravagancia Fúngica,Nivel 8,121,8,331,162,0,121446,2664,208,14957,5,4,0,0
+1457,Descanso de Kriegval,Nivel 8,121,8,332,162,0,121446,2681,208,15000,5,4,0,0
+1458,Minas Repterráneas,Nivel 8,121,8,333,162,0,121446,2680,208,14999,5,4,0,0
+1459,Las Vías Acuáticas,Nivel 8,121,8,335,162,0,121446,2683,208,15002,5,4,0,0
+1460,La Fosa Siniestra,Nivel 8,121,8,336,162,0,121446,2684,208,15003,5,4,0,0
+1461,Sagrario del Ocaso,Nivel 8,121,8,337,162,0,121446,2686,208,15005,5,4,0,0
+1462,Caverna Micomántica,Nivel 8,121,8,338,162,0,121446,2679,208,14998,5,4,0,0
+1463,El Sumidero,Nivel 8,121,8,339,162,0,121446,2687,208,15175,5,4,0,0
+1464,Grieta Arácnida,Nivel 8,121,8,340,162,0,121446,2685,208,15004,5,4,0,0
+1465,La Subfortaleza,Nivel 8,121,8,341,162,0,121446,2690,208,15009,5,4,0,0
+1466,Fosa Tak-Rethan,Nivel 8,121,8,342,162,0,121446,2689,208,15327,5,4,0,0
+1467,El Tejido Descendente,Nivel 8,121,8,343,162,0,121446,2688,208,15007,5,4,0,0
+1468,Extravagancia Fúngica,Nivel 9,121,9,331,162,0,121447,2664,208,14957,5,4,0,0
+1469,Descanso de Kriegval,Nivel 9,121,9,332,162,0,121447,2681,208,15000,5,4,0,0
+1470,Minas Repterráneas,Nivel 9,121,9,333,162,0,121447,2680,208,14999,5,4,0,0
+1471,Las Vías Acuáticas,Nivel 9,121,9,335,162,0,121447,2683,208,15002,5,4,0,0
+1472,La Fosa Siniestra,Nivel 9,121,9,336,162,0,121447,2684,208,15003,5,4,0,0
+1473,Sagrario del Ocaso,Nivel 9,121,9,337,162,0,121447,2686,208,15005,5,4,0,0
+1474,Caverna Micomántica,Nivel 9,121,9,338,162,0,121447,2679,208,14998,5,4,0,0
+1475,El Sumidero,Nivel 9,121,9,339,162,0,121447,2687,208,15175,5,4,0,0
+1476,Grieta Arácnida,Nivel 9,121,9,340,162,0,121447,2685,208,15004,5,4,0,0
+1477,La Subfortaleza,Nivel 9,121,9,341,162,0,121447,2690,208,15009,5,4,0,0
+1478,Fosa Tak-Rethan,Nivel 9,121,9,342,162,0,121447,2689,208,15327,5,4,0,0
+1479,El Tejido Descendente,Nivel 9,121,9,343,162,0,121447,2688,208,15007,5,4,0,0
+1480,Extravagancia Fúngica,Nivel 10,121,10,331,162,0,121448,2664,208,14957,5,4,0,0
+1481,Descanso de Kriegval,Nivel 10,121,10,332,162,0,121448,2681,208,15000,5,4,0,0
+1482,Minas Repterráneas,Nivel 10,121,10,333,162,0,121448,2680,208,14999,5,4,0,0
+1483,Las Vías Acuáticas,Nivel 10,121,10,335,162,0,121448,2683,208,15002,5,4,0,0
+1484,La Fosa Siniestra,Nivel 10,121,10,336,162,0,121448,2684,208,15003,5,4,0,0
+1485,Sagrario del Ocaso,Nivel 10,121,10,337,162,0,121448,2686,208,15005,5,4,0,0
+1486,Caverna Micomántica,Nivel 10,121,10,338,162,0,121448,2679,208,14998,5,4,0,0
+1487,El Sumidero,Nivel 10,121,10,339,162,0,121448,2687,208,15175,5,4,0,0
+1488,Grieta Arácnida,Nivel 10,121,10,340,162,0,121448,2685,208,15004,5,4,0,0
+1489,La Subfortaleza,Nivel 10,121,10,341,162,0,121448,2690,208,15009,5,4,0,0
+1490,Fosa Tak-Rethan,Nivel 10,121,10,342,162,0,121448,2689,208,15327,5,4,0,0
+1491,El Tejido Descendente,Nivel 10,121,10,343,162,0,121448,2688,208,15007,5,4,0,0
+1492,Extravagancia Fúngica,Nivel 11,121,11,331,162,0,121468,2664,208,14957,5,4,0,0
+1493,Descanso de Kriegval,Nivel 11,121,11,332,162,0,121468,2681,208,15000,5,4,0,0
+1494,Minas Repterráneas,Nivel 11,121,11,333,162,0,121468,2680,208,14999,5,4,0,0
+1495,Las Vías Acuáticas,Nivel 11,121,11,335,162,0,121468,2683,208,15002,5,4,0,0
+1496,La Fosa Siniestra,Nivel 11,121,11,336,162,0,121468,2684,208,15003,5,4,0,0
+1497,Sagrario del Ocaso,Nivel 11,121,11,337,162,0,121468,2686,208,15005,5,4,0,0
+1498,Caverna Micomántica,Nivel 11,121,11,338,162,0,121468,2679,208,14998,5,4,0,0
+1499,El Sumidero,Nivel 11,121,11,339,162,0,121468,2687,208,15175,5,4,0,0
+1500,Grieta Arácnida,Nivel 11,121,11,340,162,0,121468,2685,208,15004,5,4,0,0
+1501,La Subfortaleza,Nivel 11,121,11,341,162,0,121468,2690,208,15009,5,4,0,0
+1502,Fosa Tak-Rethan,Nivel 11,121,11,342,162,0,121468,2689,208,15327,5,4,0,0
+1503,El Tejido Descendente,Nivel 11,121,11,343,162,0,121468,2688,208,15007,5,4,0,0
+1504,Palacio Nerub-ar (Mítico),Mítico,3,3,362,35,597,122606,2657,16,0,20,0,0,0
+1505,Palacio Nerub-ar (Normal),Normal,3,1,362,35,571,122606,2657,14,0,30,0,0,0
+1506,Palacio Nerub-ar (Heroico),Heroico,3,2,362,35,584,122606,2657,14,0,30,0,0,0
+1507,Hidromielería Cinérea (Normal),Normal,2,1,327,99,0,117308,2661,1,0,5,0,0,0
+1508,Hidromielería Cinérea (Heroico),Heroico,2,2,327,99,567,117308,2661,2,0,5,1,0,0
+1509,Hidromielería Cinérea (Mítico),Mítico,2,3,327,99,0,120235,2661,23,0,5,1,0,0
+1510,Priorato de la Llama Sagrada (Normal),Normal,2,1,324,99,0,114336,2649,1,0,5,1,0,0
+1511,Priorato de la Llama Sagrada (Heroico),Heroico,2,2,324,99,567,115171,2649,2,0,5,1,0,0
+1512,Priorato de la Llama Sagrada (Mítico),Mítico,2,3,324,99,330,120230,2649,23,0,5,1,0,0
+1513,Las Minas Resonantes,Las Minas Resonantes,1,0,363,258,0,0,0,0,14795,0,4,0,0
+1518,El Rompealbas (Normal),Normal,2,1,326,99,0,117309,2662,1,0,5,1,0,0
+1519,El Rompealbas (Heroico),Heroico,2,2,326,99,567,123300,2662,2,0,5,1,0,0
+1520,Guarida de Zekvir,Nivel 8,121,1,334,162,0,121446,2682,208,15001,5,4,0,0
+1521,La Bóveda de Piedra (Heroico),Heroico,2,2,328,99,567,123297,2652,2,0,5,1,0,0
+1535,La Bóveda de Piedra (Normal),Normal,2,1,328,99,0,117306,2652,1,0,5,1,0,0

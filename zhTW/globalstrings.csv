@@ -3500,7 +3500,7 @@ ID,BaseTag,TagText_lang,Flags
 13654,VOICEMACRO_14_Dw_1,當然。,1
 13655,VOICEMACRO_14_Dw_2,是的。,1
 13656,VOICEMACRO_20_Hu_5,「我有一個拍電影的好點子。內容是有關兩個地精找到了一條充滿魔力手鐲的故事，他們得要帶著手鐲穿越燃燒平原然後把它放進大熔爐裡的故事。他們兩個組成了手鐲王的團隊。路途中，有一個對手鐲著魔，叫做狗蛋的魚人，以及九個手鐲妖怪不斷跟蹤他們。這可以設計成三部曲，叫做「手鐲統治者」。第一部叫做「手鐲現身」、「數城奇謀」以及最後的高潮結尾「嘿，王者又來嚕」。,1
-13657,OPTION_TOOLTIP_USE_UISCALE,勾選後可調整使用者介面的縮放比例，取消勾選則會使用系統的預設值。,1
+13657,OPTION_TOOLTIP_USE_UISCALE,勾選後可調整使用者介面的縮放比例，取消勾選則會使用系統的預設值。,3
 13658,VOICEMACRO_19_Or_4_FEMALE,不要說話，只要跟著我。,1
 13659,VOICEMACRO_20_Or_1_FEMALE,搞笑語音,1
 13660,VOICEMACRO_20_Or_5_FEMALE,搞笑語音,1
@@ -3689,8 +3689,8 @@ ID,BaseTag,TagText_lang,Flags
 13861,OPTION_TOOLTIP_PET_NAMEPLATES,切換你的寵物、圖騰和守護者的名條。,1
 13863,ERR_ATTACK_CHARMED,當被魅惑的時候無法攻擊。,1
 13864,SPELL_FAILED_NOT_ON_TAXI,你正在飛行,1
-13865,UI_SCALE,使用者介面縮放,1
-13866,OPTION_TOOLTIP_UI_SCALE,改變使用者介面的尺寸。,1
+13865,UI_SCALE,使用者介面縮放,3
+13866,OPTION_TOOLTIP_UI_SCALE,改變使用者介面的尺寸。,3
 13867,WORLD_APPEARANCE,世界外觀,3
 13868,OPTION_TOOLTIP_ENVIRONMENT_DETAIL,控制物件的可視距離。降低這個數值可以提高效能。,3
 13869,CINEMATIC_SUBTITLES,動畫字幕,3
@@ -3765,7 +3765,7 @@ ID,BaseTag,TagText_lang,Flags
 13957,REMOVE_CHAT_DELAY_TEXT,移除對話視窗的彈出延遲,1
 13958,OPTION_TOOLTIP_REMOVE_CHAT_DELAY,選擇後當滑鼠移動到對話視窗之後視窗會立即顯示。,1
 13959,INSTANCE_BOOT_TIMER,你不在此副本的隊伍中。你將在%d%s後被傳送至最近的墓地。,1
-13962,USE_UISCALE,使用者介面縮放,1
+13962,USE_UISCALE,使用者介面縮放,3
 13963,WINDOWED_MODE,視窗模式,3
 13964,OPTION_TOOLTIP_WINDOWED_MODE,勾選此選項可在非全螢幕的視窗下進行遊戲。\n\n如勾選此選項，遊戲畫面將會以你的桌面gamma值為準，並且你將無法從下方來進行調整。,3
 13967,PVP_RANK_8_1,上士,1
@@ -5658,7 +5658,7 @@ ID,BaseTag,TagText_lang,Flags
 17218,MOVIE_RECORDING_COMPRESSING,壓縮,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,這樣會提早結束壓縮。你將會失去尚未壓縮的部分。已經壓縮的部分則會存入你的硬碟。,1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,取消壓縮,1
-17221,MAC_OPTIONS,Mac選項,1
+17221,MAC_OPTIONS,Mac選項,3
 17223,MOVIE_RECORDING_ENABLE_GUI,記錄使用者介面,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,勾選此項，你將會在影片中看見使用者介面。無論勾選與否，你都會在遊戲中看見使用者介面。,1
 17225,MOVIE_RECORDING_ENABLE_SOUND,錄音,1
@@ -6552,7 +6552,7 @@ ID,BaseTag,TagText_lang,Flags
 18163,SHOW_RAID_RANGE_TEXT,團隊介面距離,1
 18164,OPTION_TOOLTIP_SHOW_RAID_RANGE,當團隊成員距離過遠時，生命條將會呈現半透明狀態。,1
 18165,SLASH_GUILD_LEADER_REPLACE1,/greplace,1
-18166,ERR_NOT_SAME_ACCOUNT,你只能將帳號綁定物品寄給自己的角色。,1
+18166,ERR_NOT_SAME_ACCOUNT,戰隊綁定物品只能交給你戰隊中的其他角色。,1
 18167,INTERFACE_OPTIONS,介面選項,1
 18168,ADDONS,插件,3
 18169,STATUSTEXT_LABEL,狀態文字,1
@@ -7304,7 +7304,7 @@ ID,BaseTag,TagText_lang,Flags
 19037,FUEL,加油,1
 19038,RURU,俄羅斯,5
 19039,LINK_TRADESKILL_TOOLTIP,點擊這裡以製造一個你專業技能的連結。,1
-19040,ACHIEVEMENT_TITLE,成就點數,1
+19040,ACHIEVEMENT_TITLE,戰隊成就點數,1
 19041,ITEM_LEVEL_RANGE_CURRENT,需要等級%d至%d(%d),1
 19042,STRING_SCHOOL_FLAMESTRIKE,焰擊,5
 19043,STRING_SCHOOL_FROSTSTRIKE,霜擊,5
@@ -7622,7 +7622,7 @@ ID,BaseTag,TagText_lang,Flags
 19376,STATISTICS,統計,1
 19377,SPELL_FAILED_TARGET_NO_RANGED_WEAPONS,目標沒有裝備遠程武器。,1
 19378,ERR_INVITED_ALREADY_IN_GROUP_SS,|Hplayer:%s|h[%s]|h邀請你加入一個隊伍，但你無法接受。因為你已經在一個隊伍中。,1
-19379,ITEM_ACCOUNTBOUND,帳號綁定,5
+19379,ITEM_ACCOUNTBOUND,戰隊綁定,5
 19380,CALENDAR_EVENT_REMOVED_MAIL_SUBJECT,%s已取消。,1
 19381,CALENDAR_EVENT_REMOVED_MAIL_BODY,%s取消了%s。(%s),1
 19382,ACTION_SPELL_AURA_APPLIED_BUFF_FULL_TEXT_NO_SOURCE,%4$s獲得%2$s。,1
@@ -7693,7 +7693,7 @@ ID,BaseTag,TagText_lang,Flags
 19449,SHOW_NUMERIC_THREAT,顯示觸怒百分比,1
 19450,ERR_QUEST_PUSH_TIMER_EXPIRED_S,任務共用時限已到期。,1
 19451,ERR_QUEST_PUSH_NOT_IN_PARTY_S,你不在隊伍中。,1
-19452,ITEM_BIND_TO_ACCOUNT,帳號綁定,5
+19452,ITEM_BIND_TO_ACCOUNT,戰隊綁定,5
 19453,SPELL_FAILED_CUSTOM_ERROR_45,需要一個鄰近目標。,1
 19454,SHADOW_QUALITY,陰影品質,3
 19455,OPTION_TOOLTIP_SHADOW_QUALITY,控制陰影的顯示方式和品質。降低此數值可能會大量提高效能。,3
@@ -7891,7 +7891,7 @@ ID,BaseTag,TagText_lang,Flags
 19664,CHANGE_OPACITY,改變透明度,1
 19665,TRANSFER_ABORT_NEED_GROUP,傳輸失敗：你必須加入團隊才能進入這個副本。,1
 19666,IGNORE_DIALOG,忽略,1
-19667,OBJECTIVES_WATCH_TOO_MANY,你的空間不足以追蹤更多目標，請暫停追蹤其他目標。,1
+19667,OBJECTIVES_WATCH_TOO_MANY,你無法追蹤更多任務。,1
 19668,ACTIVATE,啟用,5
 19669,POWER_DISPLAY_COST,%s%s,1
 19670,POWER_DISPLAY_COST_PER_TIME,%s%s，加上每秒%s,1
@@ -8261,7 +8261,7 @@ ID,BaseTag,TagText_lang,Flags
 20070,BATTLEFIELD_IN_QUEUE_SIMPLE,你加入了%s的佇列,1
 20071,BATTLEFIELD_QUEUE_CONFIRM_SIMPLE,你可以進入%s了,1
 20072,QUEST_INTERMEDIATE_ITEMS_NEEDED,%s：(%d),1
-20073,OBJECTIVES_SHOW_QUEST_MAP,顯示任務地圖,1
+20073,OBJECTIVES_SHOW_QUEST_MAP,打開任務地圖,1
 20074,ERR_MAIL_LIMITED_DURATION_ITEM,你無法郵寄擁有時間限制的物品,1
 20075,TRANSFER_ABORT_MAP_NOT_ALLOWED,現在無法進入地圖。,1
 20076,SLASH_SET_TITLE1,/settitle,1
@@ -9932,8 +9932,8 @@ ID,BaseTag,TagText_lang,Flags
 21882,MINIMAP_TRACKING_NONE,無,1
 21883,GUILDCONTROL_OPTION19,修改銀行欄頁,1
 21884,CONFIRM_SAVE_EQUIPMENT_SET,你想要儲存裝備設定「%s」嗎？,1
-21885,ITEM_BNETACCOUNTBOUND,暴雪帳號綁定,5
-21886,ITEM_BIND_TO_BNETACCOUNT,暴雪帳號綁定,5
+21885,ITEM_BNETACCOUNTBOUND,戰隊綁定,5
+21886,ITEM_BIND_TO_BNETACCOUNT,戰隊綁定,5
 21887,AUCTION_MAIL_ITEM_STACK,%s(%d),1
 21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,配合「ALT」鍵從鎖定的快捷列上拖曳技能圖示。,1
 21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,配合「CTRL」鍵從鎖定的快捷列上拖曳技能圖示。,1
@@ -10242,7 +10242,7 @@ ID,BaseTag,TagText_lang,Flags
 22210,GUILD_MOVE_STARTING,你的公會正處於轉移過程中。在轉移結束之前暫時無法使用公會銀行。,1
 22211,GUILD_MOVE_COMPLETE,公會轉移過程已結束。,1
 22212,GUILD_RENAMED,你的公會會長變更了公會名稱。,1
-22213,TALENT_SPEC_AND_CLASS,%1$s%2$s,1
+22213,TALENT_SPEC_AND_CLASS,%1$s%2$s,3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,開啟冒險指南,1
 22215,ENCOUNTER_JOURNAL,地城導覽手冊,1
 22216,ENCOUNTER_JOURNAL_SEARCH_RESULTS,"\""%s\""的搜尋結果:共(%d)項",1
@@ -10354,8 +10354,8 @@ ID,BaseTag,TagText_lang,Flags
 22343,MAC_DISABLE_OS_SHORTCUTS,關閉作業系統鍵盤快捷鍵,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,為避免在遊戲時意外啟動作業系統快捷鍵，請事先關閉。,3
 22345,REQ_LEVEL_ABBR,Lv,1
-22346,MAC_OPTIONS_MISC,雜項,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,若想使用「Command」鍵而非「CTRL」鍵來設定按鍵，請使用此選項。,1
+22346,MAC_OPTIONS_MISC,雜項,3
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,若想使用「Command」鍵而非「CTRL」鍵來設定按鍵，請使用此選項。,3
 22349,SCROLL_OF_RESURRECTION,重返榮耀,1
 22350,ENTER_EMAIL_OR_CHARACTER,請輸入電子郵件或角色 - 伺服器名稱,1
 22351,SEND_SCROLL_OF_RESURRECTION,寄送重返榮耀邀請,1
@@ -10472,7 +10472,7 @@ ID,BaseTag,TagText_lang,Flags
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,你的佇列暫時被暫停了。你將會保留佇列中的位置。,1
 22466,RF_REWARD_EXPLANATION2,每星期第一次勝利之後的每場勝利將會讓你獲得：,1
 22467,RF_REWARD_EXPLANATION1,每週的第一次完成將會讓你獲得：,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"為了使用此選項必須先開啟輔助功能。請勾選輔助使用偏好內的\""允許使用輔助設備\""選項。你是否現在要開啟系統偏好設定？",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"為了使用此選項必須先開啟輔助功能。請勾選輔助使用偏好內的\""允許使用輔助設備\""選項。你是否現在要開啟系統偏好設定？",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,無法填滿你隊伍中可使用的角色類型,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,你無法加入正在進行的副本,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,目標已經受到星塵2號的影響。,1
@@ -10849,7 +10849,7 @@ ID,BaseTag,TagText_lang,Flags
 22869,INCLUDED_SCENARIOS_EMPTY,隊伍成員的等級差距過大，無法加入隨機事件。,1
 22870,LFG_TYPE_RANDOM_SCENARIO,隨機事件,1
 22871,SCENARIO_RANDOM_EXPLANATION,完成隨機事件將會給予你額外的獎勵。,1
-22872,ACHIEVEMENT_EARNED_BY,獲得者：|cffffffff%s|r,1
+22872,ACHIEVEMENT_EARNED_BY,透過戰隊獲得。|n完成者：|cffffffff%s|r,1
 22873,ACHIEVEMENT_PROGRESSED,成就進度,1
 22874,ENTER_SCENARIO,進入事件,1
 22875,RANDOM_SCENARIO,隨機事件,1
@@ -11286,7 +11286,7 @@ ID,BaseTag,TagText_lang,Flags
 23368,INVITATION_XREALM,%s邀請你加入隊伍。\n\n接受邀請可能會將你轉換至其他伺服器。,1
 23369,GUILD_CHALLENGE_TYPE4,事件,1
 23370,GUILD_CHALLENGE_TYPE5,傳奇鑰石難度地城,1
-23372,ACCOUNT_WIDE_ACHIEVEMENT,你所有角色的進度\n都會計入此成就。,1
+23372,ACCOUNT_WIDE_ACHIEVEMENT,戰隊中的所有角色都能\n推進此成就的進度。,1
 23373,AUCTION_TIME_LEFT0,已完成！,1
 23374,AUCTION_TIME_LEFT0_DETAIL,已完成拍賣。,1
 23375,WOW_FRIEND,魔獸世界好友,1
@@ -11321,7 +11321,7 @@ ID,BaseTag,TagText_lang,Flags
 23418,REPORT_BATTLEPET_NAME_CONFIRMATION,你確定要檢舉%s使用不當的戰寵名稱嗎？,1
 23419,BATTLENET_ADD_FRIEND_INFO,使用電子郵件地址新增好友將會對他們顯示你的真實姓名(你也將成為對方的Real ID好友)。\n\n使用BattleTag新增好友只會對他們顯示你的BattleTag名稱。新增BattleTag好友時必須包含#符號以及之後的數字。,3
 23420,REPORT_PET_NAME_CONFIRMATION,你確定要檢舉%s使用不當的寵物名稱嗎？,1
-23422,ACCOUNT_LEVEL_MOUNT,帳號等級坐騎,1
+23422,ACCOUNT_LEVEL_MOUNT,戰隊坐騎,1
 23423,PARTY_IN_PUBLIC_GROUP_MESSAGE,該玩家目前在副本隊伍裡。,1
 23425,GUILD_CHALLENGE_TOOLTIP4,在公會隊伍中完成任何對應等級的事件。,1
 23426,GUILD_CHALLENGE_TOOLTIP5,在公會隊伍中，於啟動傳奇鑰石後完成目前資料片的任何地城。,1
@@ -11345,7 +11345,7 @@ ID,BaseTag,TagText_lang,Flags
 23445,MAIN_HELP_BUTTON_TOOLTIP,點選此處來開啟/關閉此頁面的說明系統。,3
 23446,CR_RANGED_EXPERTISE_TOOLTIP,使你的攻擊被目標閃躲的機率降低%s\n熟練%s點(+%.2F%%熟練),1
 23447,ADD_CHARACTER_FRIEND,新增角色好友,1
-23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,本成就可由你所有的角色\n共同達成。,1
+23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,透過戰隊獲得。,1
 23449,ERR_PETBATTLE_NO_ACCOUNT_LOCK,寵物日誌已被此帳號的另一位使用者鎖定,1
 23450,CATCH_PET_CONDITION,你必須擁有一隻等級3的戰寵。,1
 23451,SLASH_WHISPER1,/cw,1
@@ -11418,12 +11418,12 @@ ID,BaseTag,TagText_lang,Flags
 23523,BATTLE_PET_ABILITY_TEXT_OBJECT_BOOMBOT,321炸彈機器人,1
 23524,PET_BATTLE_TRAP_UPGRADE,解鎖新的陷阱！,1
 23525,ACHIEVEMENT_FILTER_ALL_EXPLANATION,顯示所有成就,1
-23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,顯示你的帳號已達成的成就,1
+23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,顯示戰隊已完成的成就,1
 23527,ACHIEVEMENT_FILTER_INCOMPLETE_EXPLANATION,顯示目前角色能完成的成就,1
 23528,ACHIEVEMENT_FILTER_TITLE,成就過濾,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,另一隻寵物加入了戰鬥！,1
 23530,ACHIEVEMENT_COMPLETED_BY,完成者：|cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cffff2020未完成者：|r|cffffffff%s|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s依舊可以完成。|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,你現在加入了寵物對戰佇列。,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,你已經在寵物對戰佇列中。,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,無法加入寵物對戰佇列。,1
@@ -11554,8 +11554,8 @@ ID,BaseTag,TagText_lang,Flags
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,放入籠子(戰寵欄位),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,放入籠子(生命力),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,從左側的清單選擇一隻寵物。,1
-23664,MAC_USE_COMMAND_AS_CONTROL,使用Command鍵取代Control鍵,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,使用Command鍵來代替Control鍵。,1
+23664,MAC_USE_COMMAND_AS_CONTROL,使用Command鍵取代Control鍵,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,使用Command鍵來代替Control鍵。,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,以Commnad + 滑鼠左鍵取代滑鼠右鍵,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,按住Command鍵與滑鼠左鍵，以模擬滑鼠右鍵的功能。,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,無法將夥伴加入你的帳號,1
@@ -12229,7 +12229,7 @@ ID,BaseTag,TagText_lang,Flags
 24437,BLIZZARD_CHALLENGE_CANCEL,取消,3
 24438,ADVANCED_COMBAT_LOGGING,進階戰鬥紀錄,3
 24439,OPTION_TOOLTIP_ADVANCED_COMBAT_LOGGING,開啟額外的紀錄資料並將其一併寫入純文字檔案。使用對話命令「戰鬥紀錄」時，可能會占用額外的網路流量。,3
-24440,MAC_OPEN_UNIVERSAL_ACCESS1090,如要使用此功能，你必須先同意系統設定內安全與隱私設定的%s存取資料。你是否現在就要開啟系統設定？,1
+24440,MAC_OPEN_UNIVERSAL_ACCESS1090,如要使用此功能，你必須先同意系統設定內安全與隱私設定的%s存取資料。你是否現在就要開啟系統設定？,3
 24441,BLIZZARD_STORE_ERROR_TITLE_ALREADY_OWNED,已經擁有,3
 24442,BLIZZARD_STORE_ERROR_MESSAGE_ALREADY_OWNED,你已經擁有此產品！,3
 24443,ITEM_SET_BONUS_NO_VALID_SPEC,根據玩家的專精給予不同的獎勵效果。,1
@@ -12417,7 +12417,7 @@ ID,BaseTag,TagText_lang,Flags
 24632,BAG_FILTER_CLEANUP,清理,1
 24633,BAG_FILTER_EQUIPMENT,裝備,5
 24634,BAG_FILTER_CONSUMABLES,消耗品,5
-24635,BAG_FILTER_TRADE_GOODS,商品,5
+24635,BAG_FILTER_PROFESSION_GOODS,專業技能物品,5
 24636,BAG_FILTER_JUNK,垃圾,1
 24637,BAG_FILTER_IGNORE,忽視這個背包,1
 24638,REWARD_FOR_SPECFIC_PVP_WIN,獲勝獎勵：擲骰,1
@@ -12461,7 +12461,7 @@ ID,BaseTag,TagText_lang,Flags
 24676,TOY_PROGRESS_FORMAT,%d/%d,1
 24677,STAT_TOOLTIP_BONUS_AP_SP,提高你的攻擊與技能的威力,1
 24678,COLLECTION_PAGE_NUMBER,第%d/%d頁,1
-24679,COLLECTIONS,收藏,1
+24679,COLLECTIONS,戰隊收藏,1
 24681,GARRISON_BUILDING_IN_PROGRESS,正在建造,1
 24682,GARRISON_UPGRADE_IN_PROGRESS,正在升級,1
 24683,GARRISON_BUILDING_LOCKED,建築已鎖定,1
@@ -13361,7 +13361,7 @@ ID,BaseTag,TagText_lang,Flags
 25625,ERR_YELL_RESTRICTED_TRIAL,體驗帳號無法大喊。|cffffd000|Hstorecategory:gametime|h[點擊以進行升級]|h|r,1
 25626,ERR_PETITION_RESTRICTED_ACCOUNT_TRIAL,體驗帳號無法簽署公會登記表。|cffffd000|Hstorecategory:gametime|h[點擊以進行升級]|h|r,1
 25627,ERR_CHAT_RESTRICTED_TRIAL,體驗帳號不能無限制的發送對話，在你發送對話給更多玩家前必須等待。|cffffd000|Hstorecategory:gametime|h[點擊以進行升級]|h|r,1
-25628,CAP_REACHED_TRIAL,已達體驗帳號的上限。,1
+25628,CAP_REACHED_TRIAL,已達體驗帳號的上限。,3
 25629,CAPPED_MONEY_TRIAL,已達體驗帳號的金錢上限。,1
 25630,CAPPED_LEVEL_TRIAL,已達體驗帳號等級上限。,1
 25631,LEVEL_CAP_REACHED_TRIAL,你的角色已經到達體驗帳號的等級上限。|cffffd000|Hstorecategory:gametime|h[點擊這裡]|h|r來升級你的帳號！,1
@@ -13890,16 +13890,16 @@ ID,BaseTag,TagText_lang,Flags
 32224,BOOST2_MAGEFROST_REMIND_FROSTBOLT,使用|cFFFFFFFF寒冰箭|r。,1
 32225,ERR_TALENT_FAILED_CANT_REMOVE_TALENT,你不能在%s冷卻的期間更改天賦。,1
 32226,BOOST2_MAGEFROST_FROZENORB,使用|cFFFFFFFF冰霜之球|r。,1
-32227,SELF_HIGHLIGHT_OPTION,團隊醒目標示,1
+32227,SELF_HIGHLIGHT_OPTION,自我醒目標示,1
 32228,SELF_HIGHLIGHT_MODE_CIRCLE,圓圈,1
-32229,SELF_HIGHLIGHT_MODE_CIRCLE_AND_OUTLINE,圓圈和輪廓,1
+32229,SELF_HIGHLIGHT_MODE_CIRCLE_AND_OUTLINE,圓圈和外框,1
 32230,SELF_HIGHLIGHT_ON,開啟醒目標示,1
 32231,SELF_HIGHLIGHT_OFF,關閉醒目標示,1
 32236,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID,在團隊中以更醒目的方式標示出自己的角色。,1
 32237,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID_COMBAT,只在戰鬥中以醒目方式標示出自己的角色。,1
 32238,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG,在戰場中以更醒目的方式標示出自己的角色。,1
 32239,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG_COMBAT,只在戰鬥中以醒目方式標示出自己的角色。,1
-32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,在團隊和戰場中以更醒目的方式標示出自己的角色。,1
+32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,新增醒目標示，這樣更容易看到你的角色。,1
 32241,LFG_LIST_TOOLTIP_HONOR_LEVEL,需要榮譽等級：|cffffffff%d|r,1
 32242,CONFIRM_LEARN_SPEC_COST,啟用這項專精需要花費%s。你確定要學習這項專精嗎？,1
 32243,PRIMARY_SPEC_CHANGE_AT_CLASS_TRAINER,你可以透過職業訓練師變更你的主要專精。,1
@@ -13924,7 +13924,7 @@ ID,BaseTag,TagText_lang,Flags
 32268,AUCTION_CATEGORY_ITEM_ENHANCEMENT,物品附魔,1
 32269,AUCTION_CATEGORY_CONSUMABLES,消耗品,1
 32270,AUCTION_CATEGORY_GLYPHS,雕紋,1
-32271,AUCTION_CATEGORY_TRADE_GOODS,商品,1
+32271,AUCTION_CATEGORY_TRADE_GOODS,材料,1
 32272,AUCTION_CATEGORY_RECIPES,配方,1
 32273,AUCTION_CATEGORY_BATTLE_PETS,戰寵,1
 32274,AUCTION_CATEGORY_QUEST_ITEMS,任務物品,1
@@ -14334,7 +14334,7 @@ ID,BaseTag,TagText_lang,Flags
 33778,ACCOUNT_CREATE_FAILED,帳號建立失敗,2
 33779,ACCOUNT_CREATE_IN_PROGRESS,建立帳號,2
 33780,ACCOUNT_CREATE_SUCCESS,帳號建立成功,2
-33781,ACCOUNT_CREATE_URL,https://tw.battle.net/account/activation/landing.html?superButton&product=WOW,2
+33781,ACCOUNT_CREATE_URL,https://account.battle.net,2
 33782,ACCOUNT_MESSAGE_BODY_NO_READ_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBodyUnread.xml,2
 33783,ACCOUNT_MESSAGE_BODY_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBody.xml,2
 33784,ACCOUNT_MESSAGE_BUTTON_READ,標記為已讀,2
@@ -14388,7 +14388,7 @@ ID,BaseTag,TagText_lang,Flags
 香港地區:396-54666",2
 33834,AUTH_LOGIN_SERVER_NOT_FOUND,無效的登入伺服器,2
 33835,AUTH_NO_TIME,您的魔獸世界已經到期了。您需要重新啟用您的帳號。要重新啟用帳號，請至http://tw.battle.net/獲取更多資訊。,2
-33836,AUTH_NO_TIME_URL,http://zhTW.nydus.battle.net/WOW/zhTW/client/manage_account,2
+33836,AUTH_NO_TIME_URL,https://account.battle.net,2
 33837,AUTH_OK,驗證成功,2
 33838,AUTH_PARENTAL_CONTROL,該帳號的使用許可已受到家長監護。你可以在你的線上帳號資料中變更控制設定。,2
 33839,AUTH_PARENTAL_CONTROL_URL,http://tw.battle.net/zh/?login,2
@@ -14509,13 +14509,13 @@ ID,BaseTag,TagText_lang,Flags
 33952,CHARACTER_UPGRADE_CHARACTER_LIST_CHANGED_ERROR,發生錯誤。請重新操作角色直升流程。,2
 33953,CHARACTER_UPGRADE_CHARACTER_LIST_LABEL,角色直升,2
 33954,CHARACTER_UPGRADE_COMPLETE_LABEL,角色直升成功！,2
-33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,你確定要為這名角色進行直升嗎？一經確定即無法更改。,3
+33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:你確定要為這名角色進行|r直升|cnHIGHLIGHT_FONT_COLOR:嗎？一經確定即無法更改。|r,3
 33956,CHARACTER_UPGRADE_FINISH_LABEL,升級！,6
 33957,CHARACTER_UPGRADE_FREE_100_POPUP_DESCRIPTION,《魔獸世界：軍臨天下》附贈一次角色100級直升服務。你可以選擇把它用在既有的角色身上，試玩新的職業後再使用，或是關掉這個視窗，以後再決定。,2
 33958,CHARACTER_UPGRADE_FREE_100_POPUP_TITLE,歡迎加入《軍臨天下》！,2
 33959,CHARACTER_UPGRADE_FREE_90_POPUP_DESCRIPTION,感謝你加入《德拉諾之霸》！\n這是提供給你一個角色使用的升級服務。,2
 33960,CHARACTER_UPGRADE_FREE_90_POPUP_TITLE,角色直升90級,2
-33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT,確定要直升這個角色？如果你點選了「升級」按鈕，你將無法進行退費。,2
+33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT, |cnHIGHLIGHT_FONT_COLOR:確定要|r直升|cnHIGHLIGHT_FONT_COLOR:這個角色？如果你點選了「升級！」按鈕，你將無法進行退費。|r,2
 33962,CHARACTER_UPGRADE_KRW_STATIC_WARNING,你可以在交易日起算的7天內取消這筆消費。但是如果你已經完成了直升角色的所有步驟，就算還沒超過7天，也無法進行退費。,2
 33963,CHARACTER_UPGRADE_NO_VETERAN_BONUS,沒有老手獎勵,2
 33964,CHARACTER_UPGRADE_POPUP_GET_STARTED,立即開始,2
@@ -14562,7 +14562,7 @@ ID,BaseTag,TagText_lang,Flags
 34004,CHAR_DECLINE_IN_PROGRESS,更新角色...,2
 34005,CHAR_DELETE_FAILED,角色刪除失敗,2
 34006,CHAR_DELETE_FAILED_ARENA_CAPTAIN,這個角色目前為競技場隊長，在其職位交接給另一名角色之前無法刪除這名角色。,2
-34007,CHAR_DELETE_FAILED_GUILD_LEADER,這名角色是公會會長。必須先將職位交接給另一名角色之後才能刪除這名角色。,2
+34007,CHAR_DELETE_FAILED_GUILD_LEADER,這名角色是公會會長。必須先將職位交接給另一名角色或解散公會之後才能刪除這名角色。,2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,該角色的信箱內還有郵件，因此無法刪除。,2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,此角色無法刪除，因在背包、郵箱或拍賣場尚有魔獸代幣。,2
 34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,角色服務進行中，無法刪除此角色。,2
@@ -14802,7 +14802,7 @@ ID,BaseTag,TagText_lang,Flags
 34244,COMMUNITY_URL,http://www.warcraft.tw,2
 34245,CONFIRM_CHAR_DELETE,您確認要刪除\n|cffffffff%s 等級%d%s|r？,2
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,請在下方輸入「DELETE」來確認刪除。,2
-34247,CONFIRM_DISABLE_ADDONS,如果您安裝了新版本的插件，就必須重新開啟這些插件。您確定要關閉所有插件嗎?\n\n|cffffffff您可以使用左下角的「插件」按鈕來重新開啟那些插件。|r,2
+34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,點擊「確定」將會離開遊戲畫面，並在瀏覽器中開啟以下連結:\n%s,2
 34249,CONFIRM_LOAD_ADDONS,如果您不升級插件版本的話，遊戲可能無法正常運行。您確定要載入所有插件嗎?\n\n|cffffffff您可以使用左下角的「插件」按鈕來選擇載入哪些插件。|r,2
 34250,CONFIRM_PAID_SERVICE,你確定角色變更設定完畢了嗎？,2
@@ -14844,7 +14844,7 @@ ID,BaseTag,TagText_lang,Flags
 34286,DEMONHUNTER_DISABLED,需要《軍臨天下》和70級以上的角色。,2
 34287,DEMON_HUNTER_RESTRICTED_HAS_DEMON_HUNTER,你在每個伺服器只能擁有一個惡魔獵人角色。,2
 34288,DEMON_HUNTER_RESTRICTED_NEED_LEVEL_70,你在這個伺服器必須擁有一個70級以上的角色。,2
-34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">你的顯示卡與遊戲不相容，或是有可能效能降低。請見<a href=""http://nydus.battle.net/WoW/zhTW/launcher/video-unsupported"">http://nydus.battle.net/WoW/zhTW/launcher/video-unsupported</a>瞭解更多訊息。</p></body></html>",2
+34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34290,DIALOG_HELP_MORE_INFO,其他資訊,2
 34291,DISCONNECTED,與伺服器中斷連線。,6
 34292,DISCONNECT_REASON_BAN,該帳號因違反使用者條約協議 - http://tw.blizzard.com/zh-tw/company/legal/wow_tou.html而被停權。必須等待%d天%d小時又%d分鐘後方可繼續進行遊戲。請檢查你的電子郵件，或至https://tw.battle.net/support/zh/ticket/submit聯繫我們的客服部門以獲得更多資訊。,2
@@ -14854,8 +14854,8 @@ ID,BaseTag,TagText_lang,Flags
 34296,DOWNLOAD_SUCCESSFUL_TEXT,請按下方的重新啟動鍵退出\n魔獸世界並下載新版本。,2
 34297,DPS,每秒傷害,2
 34298,DRAENEI_DISABLED,需要燃燒的遠征,2
-34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">你的顯示卡驅動程式與遊戲不相容。請見<a href=""http://nydus.battle.net/WoW/zhTW/launcher/driver-unsupported"">http://nydus.battle.net/WoW/zhTW/launcher/driver-unsupported</a>瞭解更多訊息。</p></body></html>",2
-34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">你的顯示卡驅動程式過舊。請見<a href=""http://nydus.battle.net/WoW/zhTW/launcher/driverupdates"">http://nydus.battle.net/WoW/zhTW/launcher/driverupdates</a>瞭解更多訊息。</p></body></html>",2
+34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
+34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
 34301,DRUID_DISABLED,你必須選擇不同的種族才能玩這個職業。,2
 34302,EMAIL_ADDRESS,電子郵件地址,2
 34303,ENABLED_FOR_SOME,此插件僅供部份角色啟用。,3
@@ -14875,7 +14875,7 @@ ID,BaseTag,TagText_lang,Flags
 34317,FACTION_INFO_ALLIANCE,聯盟由五個種族組成：高尚的人類、堅毅的矮人、神秘的夜精靈、機靈的地精和正直的德萊尼。由於對世界上的各種邪惡勢力深惡痛絕，他們聯合起來，為了重建這個飽受戰爭創傷的世界而努力。,2
 34318,FACTION_INFO_HORDE,部落由五個種族組成：率直的獸人、陰暗的不死族、愛好自然的牛頭人、敏捷的食人妖和積極的血精靈。這些種族都有著為數眾多的敵人，為了在這個世界上繼續生存，他們組成了強大的部落。,2
 34319,FINISH,完成,2
-34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">魔獸世界無法支援這張顯示卡。請見<a href=""http://nydus.battle.net/WoW/zhTW/launcher/fixedfunction-unsupported"">http://nydus.battle.net/WoW/zhTW/launcher/fixedfunction-unsupported</a>了解更多訊息。</p></body></html>",2
+34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34321,GAMETYPE_NORMAL,普通,2
 34322,GAMETYPE_PVE,普通,2
 34323,GAMETYPE_PVE_TEXT,這些伺服器讓你在探索世界、消滅怪物的同時，還能選擇是否要與其他玩家作戰。,2
@@ -15051,9 +15051,9 @@ otice.htm",2
 34496,RANDOMIZE,隨機選擇,2
 34497,REACTIVATE_ACCOUNT_NOW,重新啟用,2
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,你已中斷與暴雪網路服務的連線。需要重新登入以變更伺服器。,2
-34499,REALMLIST_NUMCHARACTERS_TOOLTIP,你在此伺服器已創建的\n角色數量。,2
+34499,REALMLIST_NUMCHARACTERS_TOOLTIP,無論伺服器為何，所有角色都會顯示在你的\n角色列表中。,2
 34500,REALMLIST_POPULATION_TOOLTIP,「新」的伺服器將帶給你最棒的遊戲體驗。\n「滿」的伺服器是最擁塞的，你會常常\n經歷一段等待時間才能進入遊戲。,2
-34501,REALMLIST_REALMNAME_TOOLTIP,請確認你的朋友目前位於哪個伺服器!,2
+34501,REALMLIST_REALMNAME_TOOLTIP,你所選的伺服器會影響某些功能，像是\n交易、公會與進行傳奇副本。,2
 34502,REALMLIST_TYPE_TOOLTIP,普通 = 此伺服器沒有特殊規則。\nRP = 角色扮演伺服器。,2
 34503,REALM_CHARACTERS,角色,6
 34504,REALM_DESCRIPTION,請選擇伺服器,2
@@ -15118,7 +15118,7 @@ otice.htm",2
 34565,SELECT_ACCOUNT,選擇一個帳號,2
 34566,SELECT_CHARACTER,選擇角色,2
 34567,SELECT_CHARACTER_ACTIVE_LABEL,選擇你右側的角色,2
-34568,SELECT_CHARACTER_RESULTS_FORMAT,|c%s%s(等級%d%s)|r,2
+34568,SELECT_CHARACTER_RESULTS_FORMAT,%s\n等級%d%s,2
 34569,SELECT_CHARACTER_RESULTS_LABEL,角色：,2
 34570,SELECT_FACTION_ACTIVE_LABEL,選擇你的陣營：,2
 34571,SELECT_FACTION_RESULTS_FORMAT,|c%s%s|r,2
@@ -15154,7 +15154,7 @@ otice.htm",2
 34601,STREAMING_BUILD,串流,2
 34602,SUGGESTED_REALM_TEXT,|cffffffff您被分配到了|r%s|cffffffff伺服器。|r,2
 34603,SUGGEST_REALM,推薦伺服器,2
-34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">魔獸世界未來的新版本將無法支援此作業系統。請見<a href=""http://nydus.battle.net/WoW/zhTW/launcher/sse1-unsupported"">http://nydus.battle.net/WoW/zhTW/launcher/sse1-unsupported</a>瞭解更多訊息。</p></body></html>",2
+34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34605,TAIWAN,台灣,7
 34606,TECH_SUPPORT,技術支援,2
 34607,TECH_SUPPORT_URL,http://tw.battle.net/support/zh/,2
@@ -15182,7 +15182,7 @@ otice.htm",2
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,成功恢復角色。\n你的舊名已有其他角色使用，因此請在登入時取一個新的名字。,2
 34630,UNDELETE_TOOLTIP,回復已刪除角色,2
 34631,UNDELETE_TOOLTIP_COOLDOWN,必須再過%s才能回復其他已刪除的角色。,2
-34632,UNDELETE_TOOLTIP_DISABLED,「回復已刪除角色」功能暫時無法使用。請稍後再試。,2
+34632,UNDELETE_TOOLTIP_DISABLED,Restoring a Deleted Character is temporarily unavailable. Your patience is appreciated while we work on a resolution.,2
 34633,UNKNOWN_ZONE,未知區域,2
 34634,UNLOCK_TEXT,解開史詩級的功能：,2
 34635,UPGRADE_ACCOUNT,升級正式帳號,2
@@ -15219,21 +15219,21 @@ otice.htm",2
 34666,VIDEO_OPTIONS_RESET,你的影像設定已變更。,2
 34667,VIEW_ALL_REALMS,顯示伺服器列表,2
 34668,VIRTUAL_KEYPAD_OKAY,確定,2
-34669,VISITABLE_URL1,http://zhTW.nydus.battle.net/WOW/zhTW/client/in_game_mail_link_1?r=TW&l=%s&sr=%u&c=%x%x,2
-34670,VISITABLE_URL10,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=TW,2
-34671,VISITABLE_URL11,https://nydus.battle.net/WoW/zhTW/client/add-payment?targetRegion=TW,2
-34672,VISITABLE_URL12,https://nydus.battle.net/WoW/enUS/client/support/recruit-a-friend-basics?targetRegion=US,2
-34673,VISITABLE_URL13,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=KR,2
-34674,VISITABLE_URL14,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=US,2
-34675,VISITABLE_URL15,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=US,2
-34676,VISITABLE_URL16,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=EU,2
-34677,VISITABLE_URL17,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=EU,2
-34678,VISITABLE_URL18,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=CN,2
-34679,VISITABLE_URL19,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=CN,2
-34680,VISITABLE_URL2,https://tw.battle.net/shop/zh/product/world-of-warcraft-game-time-asia,2
-34681,VISITABLE_URL20,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=TW,2
-34682,VISITABLE_URL21,https://nydus.battle.net/WoW/%s/client/choose-payment-method?targetRegion=EU,2
-34683,VISITABLE_URL22,http://nydus.battle.net/WoW/%s/client/gametime-purchase?targetRegion=%s,2
+34669,VISITABLE_URL1,https://shop.battle.net/product/world-of-warcraft-service-guild-services,2
+34670,VISITABLE_URL10,https://blizzard.com/tos,2
+34671,VISITABLE_URL11,https://account.battle.net/payment,2
+34672,VISITABLE_URL12,https://support.blizzard.com/article/11009,2
+34673,VISITABLE_URL13,https://blizzard.com/privacy,2
+34674,VISITABLE_URL14,https://blizzard.com/tos,2
+34675,VISITABLE_URL15,https://blizzard.com/privacy,2
+34676,VISITABLE_URL16,https://blizzard.com/tos,2
+34677,VISITABLE_URL17,https://blizzard.com/privacy,2
+34678,VISITABLE_URL18,https://legal.battlenet.com.cn/tos,2
+34679,VISITABLE_URL19,https://legal.battlenet.com.cn/privacy,2
+34680,VISITABLE_URL2,https://shop.battle.net/family/world-of-warcraft#games,2
+34681,VISITABLE_URL20,https://blizzard.com/privacy,2
+34682,VISITABLE_URL21,https://account.battle.net/payment,2
+34683,VISITABLE_URL22,https://us.shop.battle.net/product/world-of-warcraft-subscription,2
 34684,VISITABLE_URL23,https://battle.net/support/article/22231,3
 34685,VISITABLE_URL24,https://battle.net/support/article/23684,3
 34686,VISITABLE_URL25,https://battle.net/support/article/24517,3
@@ -15241,17 +15241,17 @@ otice.htm",2
 34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,3
 34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,3
 34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,3
-34691,VISITABLE_URL3,http://zhTW.nydus.battle.net/wow/zhTW/client/item-restoration,2
+34691,VISITABLE_URL3,https://support.blizzard.com/restoration,2
 34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,3
 34693,VISITABLE_URL31,https://battle.net/support/article/34787,3
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,3
-34695,VISITABLE_URL4,http://zhTW.nydus.battle.net/wow/zhTW/client/challenge/%d/%d,2
+34695,VISITABLE_URL4,https://shop.battle.net,2
 34696,VISITABLE_URL5,https://tw.battle.net/support/zh/games/wow?loc,2
 34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
 34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
-34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
-34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
-34701,VISITABLE_URL_GENERIC,http://zhTW.nydus.battle.net/WOW/zhTW/client/in_game_mail_link_%d,2
+34699,VISITABLE_URL8,https://support.blizzard.com/article/75828,2
+34700,VISITABLE_URL9,https://blizzard.com/tos,2
+34701,VISITABLE_URL_GENERIC,https://shop.battle.net,2
 34702,WARLOCK_DISABLED,你必須選擇不同的種族才能玩這個職業。,2
 34703,WARLORDS_OF_DRAENOR,德拉諾之霸,2
 34704,WARRIOR_DISABLED,你必須選擇不同的種族才能玩這個職業。,2
@@ -15326,7 +15326,7 @@ otice.htm",2
 34813,BOSS_INFO_STRING_TWO,首領：%s，%s,1
 34814,BOSS_INFO_STRING_MANY,首領：%s與其他,1
 34815,SPELL_FAILED_CUSTOM_ERROR_292,需要一個鄰近的靈魂碎片。,1
-34817,VISITABLE_URL33,https://nydus.battle.net/WoW/zhCN/client/support/faq-101?targetRegion=CN,2
+34817,VISITABLE_URL33,https://support.battlenet.com.cn/games/wow,2
 34828,CHARACTER_UPGRADE_POPUP_BOOST_EXISTING_CHARACTER,直升既有的角色,2
 34829,CHARACTER_UPGRADE_POPUP_TRY_NEW_CLASS,嘗試新的職業,2
 34830,LOOT_JOURNAL_LEGENDARIES,傳說級物品,1
@@ -15822,7 +15822,7 @@ otice.htm",2
 35356,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON4,客房,1
 35357,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON5,歌劇大廳露臺,1
 35358,ERR_VOID_STORAGE_INVALID_ITEM,你不能將這個物品存放在虛空倉庫。,1
-35359,WORLD_QUEST_REWARD_FILTERS_TITLE,世界任務獎勵,1
+35359,WORLD_QUEST_REWARD_FILTERS_TITLE,獎勵：,1
 35360,WORLD_QUEST_REWARD_FILTERS_PROFESSION_MATERIALS,專業技能材料,5
 35361,WORLD_QUEST_REWARD_FILTERS_ORDER_RESOURCES,大廳資源,5
 35362,WORLD_QUEST_REWARD_FILTERS_GOLD,金幣,1
@@ -16051,14 +16051,14 @@ otice.htm",2
 35610,SURRENDER_ARENA,投降,1
 35611,CONTRIBUTION_REWARD_TOOLTIP_TITLE,獎勵,1
 35612,CONTRIBUTION_REWARD_TOOLTIP_TEXT,貢獻物資建造此建築，可以獲得以下獎勵：,1
-35613,VISITABLE_URL35,https://nydus.battle.net/WoW/zhTW/client/character-unlock?targetRegion=TW,2
-35614,VISITABLE_URL36,https://nydus.battle.net/WoW/zhCN/client/character-unlock?targetRegion=CN,2
+35613,VISITABLE_URL35,https://support.blizzard.com/help/product/wow/,2
+35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,在此檢視目前職業所能收集的所有外觀套裝。,1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,在此檢視並套用已收集完成的外觀套裝。,1
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,聲望崇拜後，繼續提高該聲望以獲得獎勵。,1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,解鎖！,2
-35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,你確定要解鎖這個職業試玩角色嗎？點擊「解鎖！」之後將無法退換。,2
-35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,你確定要解鎖這個職業試玩角色嗎？執行這個步驟之後，你將無法變更選擇。,2
+35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:你確定要|r解鎖|cnHIGHLIGHT_FONT_COLOR:這個職業試玩角色嗎？點擊「解鎖！」之後將無法退換。|r,2
+35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:你確定要|r解鎖|cnHIGHLIGHT_FONT_COLOR:這個職業試玩角色嗎？執行這個步驟之後，你將無法變更選擇。|r,2
 35621,SPELL_FAILED_CUSTOM_ERROR_331,魔巡號不在此區域巡邏。,1
 35622,GARRISON_FOLLOWER_QUALITY6_DESC,傳奇,1
 35623,SPELL_FAILED_CUSTOM_ERROR_332,魔巡號無法立刻開啟另一個傳送門。,1
@@ -16091,7 +16091,7 @@ otice.htm",2
 35652,FOURTH_NUMBER,兆,1
 35653,SPELL_FAILED_CUSTOM_ERROR_333,這個物品無法使你獲得額外的聲望。,1
 35654,SPELL_FAILED_CUSTOM_ERROR_334,不能在鬼魂之狼型態下那樣做,1
-35655,PLAYER_V_PLAYER_SEASON,玩家對玩家(巨龍崛起第%d賽季),1
+35655,PLAYER_V_PLAYER_SEASON,玩家對玩家(地心之戰第%d季),1
 35656,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON1,月之殿堂,1
 35657,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON2,暮光森林,1
 35658,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON3,翡翠圖書館,1
@@ -16441,8 +16441,8 @@ otice.htm",2
 36041,SPELL_FAILED_CUSTOM_ERROR_353,上面有東西阻擋你前進。,1
 36042,STORE_CATEGORY_TRIAL_DISABLED_TOOLTIP,體驗帳號無法使用,3
 36043,SPELL_FAILED_CUSTOM_ERROR_354,需要100塊小鬼肉。,1
-36044,VISITABLE_URL39,https://nydus.battle.net/WoW/%s/client/product-requirements?targetRegion=%s,3
-36045,VISITABLE_URL40,https://nydus.battle.net/WoW/%s/client/product-requirements-expac?targetRegion=%s,3
+36044,VISITABLE_URL39,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
+36045,VISITABLE_URL40,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36046,TRIAL_UPGRADE_LOGOUT_WARNING,為了完成此筆交易，系統會在%d秒後將你登出遊戲。,3
 36047,GXAPI_D3D12,DirectX 12,3
 36048,BLIZZARD_STORE_BUNDLE_DISCOUNT_BANNER,立即省下%d%%,3
@@ -16506,7 +16506,7 @@ otice.htm",2
 36107,BACKPACK_AUTHENTICATOR_DIALOG_DESCRIPTION,使用Battle.net驗證器及SMS簡訊安全通知保護你的《魔獸世界》帳號，就可以為你的背包增加4個空格。|n|nBattle.net驗證器是免費、便於使用的服務，可以保護你的帳號不被盜用，SMS簡訊安全通知會在你的帳號有重大變更時發送通知。|n|n點選「啟用」以開啟帳號安全設定網頁。,1
 36108,BACKPACK_AUTHENTICATOR_EXTRA_SLOTS_ADDED,你的帳號使用了驗證器和SMS簡訊安全通知，背包增加4個空格。,1
 36109,BACKPACK_AUTHENTICATOR_FULL_INVENTORY,你的物品欄已滿。請騰出空間才能領取遺失的物品。,1
-36110,VISITABLE_URL41,https://nydus.battle.net/App/%s/client/support/authenticator?targetRegion=%s,3
+36110,VISITABLE_URL41,https://support.blizzard.com/article/battle-net-authenticator-faq,3
 36111,ITEM_LEGACY_INACTIVE_EFFECTS,舊物品：效果已取消,1
 36112,POWER_TYPE_FUNGAL_SKELETON_POWER,真菌之力,1
 36113,COMMUNITIES_CREATE_CHANNEL,建立頻道,1
@@ -16709,7 +16709,7 @@ otice.htm",2
 36320,ABILITY_INFO_LIGHTFORGEDDRAENEI5,- 死亡時爆發神聖傷害。,2
 36321,CLASS_TRIAL_CHOOSE_BOOST_LOGOUT_PROMPT_TEXT,如果要使用角色直升服務，請先回到角色選擇畫面。,1
 36322,CHARACTER_UPGRADE_UNREVOKE_CHARACTER_FINISH_LABEL,解鎖,2
-36323,VISITABLE_URL42,https://nydus.battle.net/WoW/%s/client/product-requirements-presale?targetRegion=%s,3
+36323,VISITABLE_URL42,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36325,BOOST_ALLIED_RACE_HERITAGE_ARMOR_WARNING_CN,"<html><body><p align=""CENTER"">如果使用直升服務，這個角色將無法得到%s傳承護甲套裝。<a href=""https://www.battlenet.com.cn/support/zh/article/2905"">點擊此處</a>以獲取更多資訊。|n|n你確定要直升這個角色嗎？|n</p></body></html>",2
 36326,ITEM_AZERITE_EMPOWERED_VIEWABLE,<按下Shift+右鍵以檢視艾澤萊晶岩之力>,1
 36327,AZERITE_ITEM_LEVELED_UP_TOAST,能力提升至等級%d,1
@@ -16751,8 +16751,8 @@ otice.htm",2
 36367,PVP_LABEL_WAR_MODE,戰爭模式,1
 36368,PVP_LABEL_PVP_TALENTS,PvP天賦,1
 36369,PVP_WAR_MODE_DESCRIPTION,加入戰爭模式，啟用世界PvP，任務和經驗值獎勵最高可提高10% ，並且可以在野外使用PvP天賦。,1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,必須位在暴風城或沃卓肯才能開啟戰爭模式。,1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,必須位在奧格瑪或沃卓肯才能開啟戰爭模式。,1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,必須位在暴風城、沃卓肯或多恩諾加才能開啟戰爭模式。,1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,必須位在奧格瑪、沃卓肯或多恩諾加才能開啟戰爭模式。,1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,正在等待語音伺服器回應。請稍後再試一次。,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,你必須在離開前先將擁有權交接給其他成員,5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,確定要離開並且刪除群組？,1
@@ -17344,7 +17344,7 @@ otice.htm",2
 40885,PVP_RANK_2_NEXT_RANK_DESC,達到1400以上積分可獲得：|n-挑戰者稱號|n-精英PvP套裝外觀：手套|n-精英PvP套裝外觀：腳部,1
 40886,PVP_RANK_7_NEXT_RANK_DESC,達到1600以上積分可獲得：|n-精英PvP套裝外觀：胸部|n-精英PvP套裝外觀：腰帶,1
 40887,PVP_RANK_3_NEXT_RANK_DESC,達到1800以上積分可獲得：|n-競爭者稱號|n-精英PvP套裝外觀：頭部|n-精英PvP套裝外觀：肩部,1
-40888,VISITABLE_URL43,https://nydus.battle.net/WoW/%s/client/buy/bfa?targetRegion=%s,3
+40888,VISITABLE_URL43,https://support.blizzard.com,3
 40889,GUILD_VIEW_RECIPES_LINK,[檢視],1
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,群組設定,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,通知設定,1
@@ -17389,7 +17389,7 @@ otice.htm",2
 40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s：%s,1
 40949,COMMUNITIES_CALENDAR_TODAY,今天,1
 40950,COMMUNITIES_CALENDAR_CLICK_TO_ADD_INSTRUCTIONS,<點擊添加社群活動>,1
-40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,3
+40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40955,BLIZZARD_STORE_DISCLAIMER_GUILD_FACTION_CHANGE,這個程序可能需花費%s才能完成。|n|HurlIndex:44|h|cff006995常見問題|r|h,3
 40957,RACIAL_TRAITS,種族特長：,3
 40959,BLIZZARD_STORE_DISCLAIMER_GUILD_NAME_CHANGE,這個程序可能需花費%s才能完成。|n|HurlIndex:44|h|cff006995常見問題|r|h,3
@@ -17444,8 +17444,8 @@ otice.htm",2
 41016,NEW_SEASON_YAY,全新賽季！,1
 41017,PVP_GEAR_REWARD_CHANCE,獲得物品等級%d的額外機會。,1
 41018,PVP_GEAR_REWARD_CHANCE_LONG,獲勝則有機會獲得物品等級%d的裝備。,1
-41019,VISITABLE_URL45,https://nydus.battle.net/WoW/%s/client/gametime?targetRegion=%s,3
-41020,VISITABLE_URL46,https://nydus.battle.net/WoW/%s/client/product-requirements-complete?targetRegion=%s,3
+41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
+41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
 41021,SPELL_FAILED_CUSTOM_ERROR_381,只能用來升級恐懼鬥士裝備。,1
 41022,AZERITE_EMPOWERED_ITEM_FULLY_UPGRADED,完全升級,1
 41023,NEW_PVP_SEASON_REWARD_PREVIEW,新賽季坐騎！,1
@@ -17507,8 +17507,8 @@ otice.htm",2
 41081,SOCIAL_ITEM_REMOVE_BUTTON,移除物品,1
 41082,MYTHIC_PLUS_OVERTIME_SEASON_BEST,超時最佳紀錄,1
 41083,PVP_WAR_MODE_DESCRIPTION_FORMAT,加入戰爭模式，啟用世界PvP，任務和經驗值獎勵最高可提高%1$d%% ，並且可以在野外使用PvP天賦。,1
-41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,可在任何休息區關閉戰爭模式，但只能於暴風城或沃卓肯開啟。,1
-41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,可在任何休息區關閉戰爭模式，但只能於奧格瑪或沃卓肯開啟。,1
+41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,可在任何休息區關閉戰爭模式，但只能於暴風城、沃卓肯或多恩諾加開啟。,1
+41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,可在任何休息區關閉戰爭模式，但只能於奧格瑪、沃卓肯或多恩諾加開啟。,1
 41086,PVP_MATCH_READY_ERROR,對戰即將開始，無法離開佇列。,1
 41087,GARRISON_MISSION_ENVIRONMENT_COUNTERED,可反制,1
 41089,COMBAT_TEXT_BLOCK_REDUCED,%s(格擋),1
@@ -17618,8 +17618,8 @@ otice.htm",2
 41208,WAYPOINT_OBJECTIVE_FORMAT_OPTIONAL,0/1 %s(非必要),1
 41209,SPELL_FAILED_CUSTOM_ERROR_399,你一定要在聖壇裡才能向羅亞獻上供品。,1
 41210,SPELL_FAILED_CUSTOM_ERROR_400,需要翡翠強化。,1
-41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
-41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
+41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
+41212,VISITABLE_URL48,https://account.battle.net/transactions,3
 41213,ERR_AZERITE_ESSENCE_SELECTION_FAILED_NOT_AT_FORGE,你必須在心之熔爐才能這麼做,1
 41215,PVP_RATING_PREVIOUS,前次積分：%s,1
 41216,PVP_RATING_GAINED,獲得積分：%s,1
@@ -18485,7 +18485,7 @@ otice.htm",2
 42250,SPELL_FAILED_CUSTOM_ERROR_462,馴犬者洛克希正在忙碌中。,1
 42251,CHROMIE_TIME_TITLE_TEXT,我們有很多時間，什麼都辦得到！選擇你想要體驗的劇情戰役。,1
 42252,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_TITLE,時光漫遊戰役,1
-42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,重溫最喜歡的劇情，解決過去的挑戰，而且難度會隨著角色等級動態調整，範圍為10到60級！|n|n挑選一段劇情戰役，然後展開冒險！,1
+42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,重溫最喜歡的劇情，解決過去的挑戰，而且難度會隨著角色等級動態調整，範圍為10到70級！|n|n挑選一段劇情戰役，然後展開冒險！,1
 42254,SOULBIND_ACTIVATE_BUTTON,啟動,1
 42255,VIDEO_OPTIONS_DYNAMIC,動態,3
 42256,VIDEO_OPTIONS_EVERYTHING,全部,3
@@ -18569,7 +18569,7 @@ otice.htm",2
 42338,NPEV2_MONK_BUILDER,按下|cFF00FFFF%s|r使用%s,1
 42339,NPEV2_DRUID_SPENDER,按下|cFF00FFFF%s|r，重置敵人身上的%s,1
 42340,NPEV2_DRUID_BUILDER,按下|cFF00FFFF%s|r，在敵人受月火術影響時使用%s,1
-42341,POWER_TYPE_SHADOW_ENERGY,能量,1
+42341,POWER_TYPE_SHADOW_ENERGY,暗影能量,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200在周圍移動一下|r,1
 42343,NPEV2_INTRO_MOVE_HORDE,使用|cFF00FFFF移動控制鍵|r接近|cFF00FFFF督軍布瑞卡‧嚴斧|r。,1
 42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,與督軍布瑞卡‧嚴斧|cFFFFD200談話|r,1
@@ -18949,7 +18949,7 @@ otice.htm",2
 42748,GAMEMENU_SUPPORT,客服支援,1
 42749,JAILERS_TOWER_REWARD_LOCKED,未解鎖,1
 42750,SPELL_FAILED_CUSTOM_ERROR_498,特拉馬尼克傳承的詛咒使你的坐騎無視你的呼喚。,1
-42751,PAGED_LIST_PAGING_FORMAT,%s / %s 頁,1
+42751,PAGED_LIST_PAGING_FORMAT,%s / %s 頁,3
 42752,MOTION_SICKNESS_CHARACTER_CENTERED,讓角色保持置中,1
 42753,RUNEFORGE_LEGENDARY_ERROR_INSUFFICIENT_NO_UPGRADE_ITEM_AVAILABLE,你沒有物品等級比你的傳說級物品還高的基底物品,1
 42754,RUNEFORGE_LEGENDARY_ERROR_NO_LEGENDARY_AVAILABLE,沒有可升級的傳說級物品,1
@@ -19050,7 +19050,7 @@ otice.htm",2
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,完成%1$d個傳奇等級%2$d或更高難度的地城以改善你的獎勵。,1
 42850,GREAT_VAULT_REWARDS_WAITING,寶庫有獎勵等著你領取。,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,你或隊伍成員必須先通關上一區,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,獲得征服點數即可在沃卓肯購買積分PvP物品。,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,獲得征服點數即可購買積分PvP物品。,1
 42855,GAIN_MAW_POWER,%s獲得了靈魄能力：%s,1
 42856,MAW_POWER_DESCRIPTION,靈魄能力,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,劇情戰役完成,1
@@ -19065,7 +19065,7 @@ otice.htm",2
 42866,COVENANT_MISSIONS_MISSION_PROGRESS,你可以在這裡查看冒險進度。,1
 42867,COVENANT_MISSIONS_ADVENTURER_GAINED,獲得夥伴,1
 42868,LIFETIME_HONOR,生涯榮譽值,1
-42869,LIFETIME_HONOR_DESC,所有角色獲得的榮譽值加總。,1
+42869,LIFETIME_HONOR_DESC,整個戰隊共用榮譽值。,1
 42870,COVENANT_MISSIONS_FOLLOWER_ADDED_UPGRADED_TOAST,獲得升級的夥伴,1
 42871,JAILERS_TOWER_LEVEL_TOAST_TWISTING_CORRIDORS,扭曲迴廊,1
 42872,JAILERS_TOWER_LEVEL_TOAST_SKOLDUS_HALLS,斯寇德斯刑牢,1
@@ -19196,8 +19196,8 @@ otice.htm",2
 42998,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_WITH_COUNT_FORMAT,|T%1$s:30:30|t %2$s %3$s,1
 42999,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_FORMAT,|T%1$s:30:30|t %2$s,1
 43000,SPELL_FAILED_CUSTOM_ERROR_512,你的管家已經在餘燼宴會的某處。,1
-43001,MAC_MIC_PREMISSIONS_NOTIFICATION,如要使用語音聊天功能，你必須先在系統偏好設定內的安全性與隱私，為%s開啟允許「麥克風」選項。,1
-43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,系統偏好,1
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,如要使用語音聊天功能，你必須先在系統偏好設定內的安全性與隱私，為%s開啟允許「麥克風」選項。,3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,系統偏好,3
 43003,COVENANT_SANCTUM_TALENT_REQUIRES_PREVIOUS_TIER,需要前一級,1
 43004,NPEV2_CHAT_GUIDE_FRAME_ERROR_ACCOUNT_MUTED,由於家長監護設定，你無法成為指導者。,1
 43005,COVENANT_SANCTUM_RENOWN_REWARD_TITLE_COMPLETE,最高名望,1
@@ -19730,7 +19730,7 @@ otice.htm",2
 44150,DDD_STREAK_01,跳得好,1
 44151,DDD_STREAK_02,太棒了,1
 44152,DDD_STREAK_03,傳奇舞步,1
-44154,ITEM_COSMETIC_LEARN,使用：將此外觀新增到你的收藏。,1
+44154,ITEM_COSMETIC_LEARN,使用：將此外觀新增到你的戰隊收藏。,1
 44155,ERR_COSMETIC_KNOWN,已經學會,1
 44156,SPELL_FAILED_CUSTOM_ERROR_613,你未加入該隊伍，無法為石頭湯貢獻材料！,1
 44157,GRAPHICS_SUBTEXT,Graphics description placeholder,3
@@ -19748,8 +19748,8 @@ otice.htm",2
 44169,PVP_RANK_8_NAME,競爭者II,1
 44170,PVP_RANK_4_NAME,決鬥者,1
 44171,PVP_RANK_5_NAME,精英,1
-44172,PVP_RANK_8_NEXT_RANK_DESC,達到1950以上積分可獲得：|n-PvP物品升級等級,1
-44173,PVP_RANK_4_NEXT_RANK_DESC,達到2100以上積分可獲得：|n- 決鬥者頭銜|n- 精英PvP物品套裝外觀：巔峰披風|n- 精英PvP武器附魔,1
+44172,PVP_RANK_8_NEXT_RANK_DESC,Achieve a rating of 1950 or higher to earn:|n- Elite PvP Weapon Enchant,1
+44173,PVP_RANK_4_NEXT_RANK_DESC,達到2100以上積分可獲得：|n- 決鬥者頭銜|n- 精英PvP物品套裝外觀：巔峰披風,1
 44174,PVP_RANK_5_NEXT_RANK_DESC,達到2400以上積分可獲得：|n- 精英頭銜|n- 精英PvP物品套裝外觀：外袍,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,語音聊天聽寫,1
@@ -20024,7 +20024,7 @@ otice.htm",2
 44492,EMOTE626_CMD2,/幹得好,1
 44493,PROFESSIONS_CRAFTING,製作,1
 44494,PCT_FLOW_CANCEL_LABEL,取消,2
-44495,PCT_FLOW_FINISH_BODY_TEXT,你確定嗎？選擇之後無法改變。,2
+44495,PCT_FLOW_FINISH_BODY_TEXT,|cnHIGHLIGHT_FONT_COLOR:你確定要進行這次|r角色轉移|cnHIGHLIGHT_FONT_COLOR:嗎？選擇之後無法改變。|r,2
 44496,SPELL_FAILED_CUSTOM_ERROR_629,需要額外的宇宙能量。,1
 44497,ITEM_UPGRADE_PVP_ITEM_LEVEL_STAT_FORMAT,PvP物品等級%d,1
 44498,ITEM_UPGRADE_PVP_ITEM_LEVEL_BONUS_STAT_FORMAT,PvP物品等級|cff20ff20%1$d (+%2$d)|r,1
@@ -20169,7 +20169,7 @@ otice.htm",2
 48771,SL_SET_CONVERSION_RECHARGE_TIME,育籃正在充能，將在%s之後恢復。,1
 48772,GREAT_VAULT_CLASS_SET_TUTORIAL,職業套裝物品可能出現在寶庫九格獎勵中的任何一格,1
 48774,LFG_LIST_CROSS_FACTION,僅限%s,1
-48775,LFG_LIST_CROSS_FACTION_TOOLTIP,只有%s玩家能看見你的隊伍。|n|n這樣會減少你收到的申請者數量。,1
+48775,LFG_LIST_CROSS_FACTION_TOOLTIP,只有%s名玩家能看見你的隊伍。|n|n這樣會減少你收到的申請者數量。,1
 48776,GROUP_FINDER_CROSS_FACTION_LISTING_WITH_PLAYSTLE,僅限%s - %s,1
 48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- 先完成新手教學體驗,3
 48778,BLIZZARD_STORE_VAS_ERROR_CHARACTER_INELIGIBLE_FOR_THIS_SERVICE,- 角色不適用於這項服務,3
@@ -20260,7 +20260,7 @@ otice.htm",2
 48877,HUD_EDIT_MODE_RENAME_OR_COPY_LAYOUT,重新命名或複製版面設定,1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,即將改成：,2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,你可以在下一步驟自訂你的角色。,2
-48880,PFC_CUSTOMIZE_DIALOG_TEXT,你現在可以選擇新種族和自訂角色。此程序結束後，你的陣營轉換會永久生效。,2
+48880,PFC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:你現在可以選擇新種族和自訂角色。此程序結束後，你的|r陣營轉換|cnHIGHLIGHT_FONT_COLOR:會永久生效。|r,2
 48881,HUD_EDIT_MODE_RENAME_LAYOUT,變更名稱,1
 48882,HUD_EDIT_MODE_NAME_LAYOUT_DIALOG_TITLE,為新版面設定命名,1
 48883,PFC_FLOW_FINISH_LABEL,接受,2
@@ -20444,7 +20444,7 @@ otice.htm",2
 49115,POWER_TYPE_WINDENERGY,能量,1
 49117,SPELL_FAILED_CUSTOM_ERROR_794,你無法將難捉的生物引誘往城鎮。,1
 49118,SPELL_FAILED_CUSTOM_ERROR_795,這個區域沒有值得引誘的生物。,1
-49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,飛龍騎術,1
+49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,天空騎術,1
 49122,MYTHIC_DUNGEON_SEASON,傳奇鑰石難度地城(%s第%d賽季),1
 49123,FINISHING_REAGENT_TOOLTIP_TITLE,最後加工材料：%s,1
 49124,FINISHING_REAGENT_TOOLTIP_CLICK_TO_ADD,<點擊左鍵來添加最後加工材料>,1
@@ -20631,7 +20631,7 @@ otice.htm",2
 49328,ICON_SELECTION_CLICK,點擊以在列表中查看,1
 49329,ICON_SELECTION_TITLE_CUSTOM,自訂圖示,1
 49330,ICON_SELECTION_NOTINLIST,此圖示不在列表裡,1
-49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,飛龍騎術坐騎會列在清單最上方。|n|n將其「加入最愛」以使用「隨機召喚最喜愛的坐騎」來召喚他們。,1
+49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,天空騎術坐騎會列在清單最上方。|n|n將其「加入最愛」以使用「隨機召喚最喜愛的坐騎」來召喚他們。,1
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,你已經有一個尚未回覆的邀請,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,你已經有一個尚未回覆的隊伍推薦,1
 49336,SPELL_FAILED_CUSTOM_ERROR_799,不可對非玩家角色施放。,1
@@ -20643,7 +20643,7 @@ otice.htm",2
 49344,HUD_EDIT_MODE_EXPAND_OPTIONS,擴展選項 |A:editmode-down-arrow:16:11:0:-7|a,1
 49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,目標與專注目標,1
 49346,UNITNAME_SUMMON_TITLE51,%s的秘法複製體,1
-49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,你的PvP裝備物品等級不足，無法加入佇列。|n(需要：%2$d。目前%3$d。),1
+49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,你的PvP裝備物品等級不足，無法加入佇列。|n(需要：%1$d。目前%2$d。),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:點擊左鍵來替換這個裝備|r,1
 49349,ERR_SOLO_MIN_ITEM_LEVEL,你的PvP裝備物品等級不足。,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,施法條,1
@@ -20653,8 +20653,8 @@ otice.htm",2
 49354,SPELL_FAILED_CUSTOM_ERROR_801,這個調整對你來說太複雜了。,1
 49355,DRAGONFLIGHT_LANDING_PAGE_TITLE,巨龍群島摘要,1
 49356,DRAGONFLIGHT_LANDING_PAGE_TOOLTIP,點擊以檢視巨龍群島摘要,1
-49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,飛龍騎術技能樹已解鎖,1
-49358,LANDING_DRAGONRIDING_PANEL_TITLE,飛龍騎術,1
+49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,天空騎術技能樹已解鎖,1
+49358,LANDING_DRAGONRIDING_PANEL_TITLE,天空騎術,1
 49359,LANDING_DRAGONRIDING_TREE_BUTTON,檢視,1
 49360,ERR_TAXIINCOMBAT,你無法在戰鬥的同時選擇飛行路線。,1
 49361,PROFESSION_EQUIPMENT_LOCATION_HELPTIP,可以在這裡裝備你的專業技能工具與用具。,1
@@ -20713,7 +20713,7 @@ otice.htm",2
 49434,HUD_EDIT_MODE_EXIT,退出,1
 49435,HUD_EDIT_MODE_SAVE_AND_SWITCH,儲存並切換,1
 49436,HUD_EDIT_MODE_SWITCH,開關,1
-49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,尚未解鎖飛龍騎術技能,1
+49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,尚未解鎖天空騎術技能,1
 49438,DRAGONFLIGHT_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,巨龍群島摘要,1
 49439,DRAGONFLIGHT_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,主要陣營已解鎖,1
 49440,RENOWN_LEVEL_UP_SKIP_BUTTON,跳過,5
@@ -20952,7 +20952,7 @@ otice.htm",2
 49698,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE_FORMAT,確定要花費%s解鎖這個天賦嗎？,1
 49699,GENERIC_TRAIT_FRAME_EDGE_REQUIREMENTS_BUTTON_TOOLTIP,需要解鎖先前的所有天賦,1
 49700,TALENTS_INSPECT_FORMAT,天賦 - %s,1
-49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,飛龍騎術,1
+49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,天空騎術,1
 49702,GENERIC_TRAIT_FRAME_INTERNAL_ERROR,內部錯誤。請稍候再試。,1
 49703,ENABLE_INTERACT_TEXT,啟用互動鍵,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,可透過按鍵與NPC和物件互動,1
@@ -21087,7 +21087,7 @@ otice.htm",2
 49835,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,你必須擁有一個至少55級或以上的既存角色，才能在任意伺服器中創建一名死亡騎士。,2
 49836,SPELL_FAILED_CUSTOM_ERROR_815,你不能在水下這麼做。,1
 49837,EQUIP_CONTAINER_REAGENT,裝備材料袋,1
-49838,GREAT_VAULT_RETIRE_WARNING,本週之後無法賺取新獎勵。|n|n在%s啟動之後，任何未領取的獎勵都會消失。,1
+49838,GREAT_VAULT_RETIRE_WARNING,本週之後無法賺取新獎勵。|n在%s啟動之後，任何未領取的獎勵都會消失。,1
 49839,TUTORIAL_REAGENT_BAG_STEP_1,你已獲得一個材料袋！|n|n開啟你的材料袋。,1
 49840,TUTORIAL_REAGENT_BAG_STEP_2,裝備你新的材料袋！|n|n任何你拾起的製作材料都會收到這個材料袋中。,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,選擇配置,1
@@ -21211,6 +21211,7 @@ otice.htm",2
 49963,ERR_OUT_OF_ESSENCE,龍能不足,1
 49964,ERR_SPELL_FAILED_CANT_FLY_HERE,你不能在這裡飛行。,1
 49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,你有未使用的專業技能專精知識。,1
+49966,EXPANSION_NAME10,地心之戰,3
 49967,PROFESSIONS_OUTPUT_INSPIRED_CREATION,獲得靈感！,1
 49968,WORLD_MAP_ACTIVITY_TRACKER_LIST_INTRO,從清單中選擇對應項目，在地圖上追蹤現有的主要陣營活動。,1
 49969,WORLD_MAP_ACTIVITY_TRACKER_RING_TOOLTIP,<點擊左鍵以切換現有活動>|n<點擊右鍵以取消追蹤陣營>,1
@@ -21218,7 +21219,7 @@ otice.htm",2
 49971,SPELL_FAILED_CUSTOM_ERROR_819,你不知道如何修復這件物品。,1
 49972,ERR_CRAFTING_HOUSE_DISABLED,工匠聯盟目前未開放接受製作訂單。|n請稍後再試！,1
 49973,CRAFTING_ORDER_RECIPE_PROFESSION_FMT,%s配方,1
-49974,DRAGON_RIDING_CURRENCY_TUTORIAL,找到龍之雕紋並飛越它們，以獲得可用於技能樹的點數。,1
+49974,DRAGON_RIDING_CURRENCY_TUTORIAL,你會隨著等級提升而獲得天空騎術能力。,1
 49975,PROFESSIONS_ORDER_RECRAFT_TITLE_FMT,重新製作：%s,1
 49976,ERR_TALENT_FAILED_IN_COMBAT,無法在戰鬥中變更天賦,1
 49977,ERR_TALENT_FAILED_IN_PVP_MATCH,一旦比賽開始，就無法變更天賦,1
@@ -21228,7 +21229,7 @@ otice.htm",2
 49981,CRAFTING_ORDER_NOT_YET_CLAIMED,尚未領取,1
 49982,PROFESSIONS_CRAFTER_CANT_CLAIM_OWN,你無法接下自己的訂單。,1
 49983,DRAGON_RIDING_SKILLS_TUTORIAL,完成巨龍群島戰役任務可解鎖新技能。,1
-49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,可以將一般技能新增至飛龍騎術快捷列，以便更快解除坐騎並開戰。,1
+49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,可以將一般技能新增至天空騎術快捷列，以便更快解除坐騎並開戰。,1
 49985,PROFESSIONS_CRAFTING_ORDER_MAIL_REPORT_WARNING,此玩家持有你尚未領取的物品。在領取前檢舉此玩家將會失去這些物品。,1
 49986,INTERACT_KEY_TUTORIAL,|cnNORMAL_FONT_COLOR:互動鍵|n|r|cnHIGHLIGHT_FONT_COLOR:按下|r|cnNORMAL_FONT_COLOR:%s|r|cnHIGHLIGHT_FONT_COLOR:可與附近的NPC和物件互動|r|n|n|cnNORMAL_FONT_COLOR:%d/2 - 與NPC或物件互動|r,1
 49987,INTERACT_KEY_TUTORIAL_NO_INTERACT_KEY_ASSIGNED,|cnHIGHLIGHT_FONT_COLOR：|r|cnNORMAL_FONT_COLOR:互動鍵|r|cnHIGHLIGHT_FONT_COLOR:可透過按鍵與NPC和物件互動|n|n|r|cnRED_FONT_COLOR:在控制選項下指派互動鍵綁定|r,1
@@ -21312,7 +21313,7 @@ otice.htm",2
 50049,CRAFTING_ORDERS_NUM_PERSONAL_FMT,有%d份個人訂單可接。,1
 50050,MONTHLY_ACTIVITIES_THRESHOLD_TOOLTIP_REWARDS,"獎勵：
 |cnHIGHLIGHT_FONT_COLOR:%d|r%s",1
-50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,請在%s內前往貿易站領取你的獎勵！,1
+50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visit the Trading Post in %s or Dornogal to collect your rewards!,1
 50052,MONTHLY_ACTIVITIES_UPDATED,旅行者日誌已更新,1
 50054,TALENT_BUTTON_TOOLTIP_PVP_TALENT_REQUIREMENT_ERROR,由於你不具備必要天賦，因此這項PvP天賦已失效。,1
 50055,TALENT_FRAME_CONFIRM_LEAVE_DEFAULT_LOADOUT,如果不先儲存起來，你會永遠失去目前的天賦配置。|n|n是否要繼續？,1
@@ -21427,15 +21428,15 @@ otice.htm",2
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,裝備耐久度,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,大小,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,旅行者日誌進度,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,拜訪%s的貿易站以使用旅行者日誌。,1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visit the Trading Post in %s or Dornogal to access the Traveler's Log.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,開始|nMMV,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"完成每個月的旅行者活動，就能從收藏箱獲取標幣和特別獎勵。
 
-進度為帳號通用。",1
+進度為戰隊共用。",1
 50203,MONTHLY_ACTIVITIES_HELP_2,按住Shift鍵點擊活動可進行追蹤。,1
 50204,MONTHLY_ACTIVITIES_HELP_3,"完成每個月的旅行者活動，就能從收藏箱獲取標幣和特別獎勵。
 
-進度為帳號通用。",1
+進度為戰隊共用。",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,你正在嘗試重新製作的這個物品具備獨特裝備效果限制。先卸下這件物品再進行重新製作。,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,可用製作次數：%i / %i。%s後恢復製作次數。,1
 50208,MOTION_SICKNESS_DRAGONRIDING,畫面暈眩,1
@@ -21444,9 +21445,9 @@ otice.htm",2
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,聚焦圈,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,暗化與聚焦圈,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,景觀暗化,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"有助於減輕騎乘飛龍時產生的畫面暈眩。
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"有助於減輕使用天空騎術時產生的畫面暈眩。
 
-|cffffffff景觀暗化：|r玩家騎乘飛龍時，於畫面外圍加上暗化的效果。
+|cffffffff景觀暗化：|r於畫面外圍加上暗化的效果。
 
 |cffffffff聚焦圈：|r在畫面中央加上聚焦圈準星。",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,你有%d份個人%s訂單。,1
@@ -21476,8 +21477,8 @@ otice.htm",2
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,現在離開配對會使你遺失至少|cnORANGE_FONT_COLOR:%d|r點積分，並且會受到%s的%s。|n|n如果現在離開，你無法獲得已完成回合的榮譽點數或征服點數。|n|n確定要離開配對嗎？,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,這個配方目前無法使用。請稍後再試。,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3f%s的訊息可能有不當內容。|h|cffffff00|Hcensoredmessage:%d|h |W[顯示訊息]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,動態飛行速度效果,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,關閉視覺速度效果可能有助於緩和騎乘飛龍時產生的畫面暈眩。,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,天空騎術速度效果,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,關閉視覺速度效果可能有助於緩和使用天空騎術時產生的畫面暈眩。,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,開啟資料夾,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,關閉,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,請將這個檔案複製到安全的位置以便未來使用：,2
@@ -21529,7 +21530,7 @@ otice.htm",2
 50333,101_CutsceneName_Ref,納茲烏洛,1
 50334,TALENTS_LINK_FORMAT,連結的天賦(%s%s),1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,正在佇列,3
-50336,PRC_CUSTOMIZE_DIALOG_TEXT,你現在可以選擇新種族和自訂角色。此程序結束後，你的種族變更會永久生效。,2
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:你現在可以選擇新種族和自訂角色。此程序結束後，你的|r種族變更|cnHIGHLIGHT_FONT_COLOR:會永久生效。|r,2
 50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,在聊天中張貼,1
 50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,複製到剪貼簿|cnNORMAL_FONT_COLOR:(以便線上分享)|r,1
 50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,提升等級：%s %d/%d,1
@@ -21592,6 +21593,8 @@ otice.htm",2
 50428,SPELL_FAILED_CUSTOM_ERROR_832,需要彈力石。 ,1
 50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,使用進階選項查看更多使用者介面項目,1
 50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,增益與減益效果,1
+50431,SPELL_FAILED_CUSTOM_ERROR_833,你未騎乘滾動坐騎。,1
+50433,SPELL_FAILED_CUSTOM_ERROR_834,你未滾動。,1
 50434,10_1_5_TIME_RIFTS_MINIGAME_01_WRONG_ELEMENT,尋找來自錯誤時間線的生物！,1
 50435,HUD_EDIT_MODE_PET_FRAME_LABEL,寵物框架,1
 50436,SELF_CAST,自我施法,1
@@ -21670,13 +21673,13 @@ otice.htm",2
 50512,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_THREE,3v3,1
 50513,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_FIVE,5v5,1
 50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,這次升級花費的%s較少，因為你這個欄位已曾取得更高物品等級(%d)的物品。,1
-50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,這次升級花費的%s較少，因為你另一個角色的這個欄位已曾取得更高物品等級(%d)的物品。,1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,這次升級花費的%s較少，因為你戰隊的其中一個角色的這個欄位曾取得更高物品等級(%d)的物品。,1
 50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,這次升級花費的%1$s較少，因為你已曾取得兩個更高物品等級(%3$d)的%2$s。,1
-50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,這次升級花費的%1$s較少，因為你另一個角色已曾取得兩個更高物品等級(%3$d)的%2$s。,1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,這次升級花費的%s較少，因為你戰隊的其中一個角色曾取得兩件%s，其有更高的物品等級(%d)。,1
 50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,這次升級花費的%s較少，因為你已曾取得兩把更高物品等級(%d)的單手武器。,1
-50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,這次升級花費的%s較少，因為你另一個角色已曾取得兩把更高物品等級(%d)的單手武器。,1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,這次升級花費的%s較少，因為你戰隊的其中一個角色曾取得更高物品等級(%d)的武器套裝。,1
 50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,%s折扣,1
-50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,帳號通用,1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,戰隊共用,1
 50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,飾品,1
 50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,戒指,1
 50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,單手武器,1
@@ -21730,8 +21733,9 @@ otice.htm",2
 51197,ICON_FILTER_ALL,所有圖示,1
 51198,ICON_FILTER_SPELL,法術,1
 51199,ICON_FILTER_ITEM,物品,1
+51200,SPELL_FAILED_CUSTOM_ERROR_853,你需要影根握爪。,1
 51201,RPE_TOOLTIP_LINE1,裝備可更新！,3
-51202,RPE_TOOLTIP_LINE2,- 需要等級10-60,3
+51202,RPE_TOOLTIP_LINE2,- Requires level 10-70,3
 51203,RPE_TOOLTIP_LINE3,- 過期時間：%s,3
 51204,RPE_GEAR_UPDATE_GREEN,|cffaaffaa裝備更新|r,3
 51205,BATTLE_PET_SOURCE_12,貿易站,1
@@ -21744,7 +21748,7 @@ otice.htm",2
 51213,RPE_INFO_TEXT2,清除任務紀錄,3
 51214,RPE_INFO_TEXT3,傳送至你的主城,3
 51215,RPE_INFO_TEXT4,隨時重置你的天賦！,3
-51216,RPE_CHARACTER_LVL,等級%d |cFFFFA500%s|r,3
+51216,RPE_CHARACTER_LVL,等級%d%s,3
 51217,LOOT_TTS_LABEL,戰利品,1
 51218,MONEY_TTS_LABEL,拾取金錢,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,開啟或關閉成就物品獲得訊息,1
@@ -21786,9 +21790,9 @@ otice.htm",2
 51256,WARDROBE_SHORTCUTS_TUTORIAL_3,追蹤或取消追蹤物品|n,1
 51257,WARDROBE_TRACKING_TUTORIAL,你尚未取得此外觀！按住Shift鍵點擊可開始追蹤此外觀。,1
 51259,TRAINER_CANNOT_EXCEED_MAX_PROFESSIONS,你只能學習兩項主要專業技能,1
-51260,RPE_UPGRADE_CONFIRMATION,你確定要更新這名角色嗎？,3
+51260,RPE_UPGRADE_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:你確定要將這名角色的專精|r更新|cnHIGHLIGHT_FONT_COLOR:為：%s？|r,3
 51261,PROF_ORDER_CANT_REPORT_IN_PROGRESS,在訂單取消或完成之前，無法舉報此玩家。,1
-51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,需要飛龍騎術飛行技能。,1
+51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,需要天空騎術技能,1
 51264,ADVENTURES_COMBAT_LOG_SPELL_RANGE_DAMAGE,{caster}對{target}施放{spellName}，造成{damage}點{element}傷害。,5
 51265,RPE_SKIP_UPGRADE_CONFIRMATION,你確定要進入世界嗎？你將無法獲得免費的裝備更新。,3
 51266,SPELL_FAILED_CUSTOM_ERROR_1002,此玩家並非敵對陣營。,1
@@ -21827,9 +21831,9 @@ otice.htm",2
 51317,PING_SUBJECT_TYPE_WARNING_UNIT,|Hplayer:%s|h[%s]|h%s|A:ping_chat_warning:0:0:0:0|a注意：%s,1
 51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,|Hplayer:%s|h[%s]|h%s|A:ping_chat_threat:0:0:0:0|a威脅警報：%s,1
 51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]：|h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
-51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,你有尚未使用的飛龍騎術雕紋,1
+51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,你有尚未使用的天空騎術精通點數。,1
 51321,SPELL_FAILED_CUSTOM_ERROR_857,只有被遺忘者能展示此榮譽。,1
-51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,你想要清除你的任務紀錄\n來重新開始嗎？,3
+51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:你想要清除你的|r任務紀錄|cnHIGHLIGHT_FONT_COLOR:\n來重新開始嗎？|r,3
 51323,RPE_CLEAR_QUESTS,清除任務,3
 51324,RPE_KEEP_QUESTS,保留任務,3
 51326,CONFIRM_AZEROTHIANARCHIVES_PUBLICEVENT_CONTRIBUTION,這會消耗你所選取的資源。要繼續嗎？,1
@@ -21838,6 +21842,7 @@ otice.htm",2
 51337,PING,指示,1
 51338,ERR_PERKS_PROGRAM_COMMUNICATION_ERROR,"貿易站連線至伺服器時發生問題。
 |n當連線恢復以後，你可以從收藏箱當中取得待處理的購買項目。",1
+51339,REPUTATION_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<點擊查看選項>,1
 51340,BINDING_NAME_TOGGLEPINGLISTENER,指示,1
 51341,PING_TYPE_ASSIST,協助,1
 51342,PING_TYPE_ATTACK,攻擊,1
@@ -21851,10 +21856,11 @@ otice.htm",2
 51350,SPELL_FAILED_CUSTOM_ERROR_1005,冷卻重置,1
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,你可以在下一步驟自訂你的角色。,2
 51352,PNC_FLOW_FINISH_LABEL,接受,2
+51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorers' League Supplies (PH UI),1
 51354,SLASH_PING1,/指示,1
 51355,SLASH_PING2,/ping,1
-51356,PNC_CUSTOMIZE_DIALOG_TEXT,此程序結束後，你的角色更名會永久生效。,2
-51357,PNC_FLOW_NEW_NAME_LABEL,新名稱,2
+51356,PNC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:此程序結束後，你的|r角色更名|cnHIGHLIGHT_FONT_COLOR:會永久生效。|r,2
+51357,PNC_FLOW_NEW_NAME_LABEL,新名稱：,2
 51359,PNC_FLOW_SLECT_NAME_ACTIVE,選擇新名稱,2
 51360,PNC_FLOW_SLECT_NAME_RESULTS,新名稱：,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200名稱：%s,2
@@ -21865,6 +21871,7 @@ otice.htm",2
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]：|h|A:ping_chat_assist:0:0:0:0|a協助,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]：|h|A:ping_chat_attack:0:0:0:0|a攻擊,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]：|h|A:ping_chat_onmyway:0:0:0:0|a行動中,1
+51369,CURRENCY_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<點擊查看選項>,1
 51373,SPELL_FAILED_CUSTOM_ERROR_1010,你不知道如何採集這個。,1
 51374,ENABLE_PING_SOUNDS,指示音效,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,開關指示音效,1
@@ -21888,6 +21895,7 @@ otice.htm",2
 51393,SLASH_TEXTTOSPEECH_HELP_PING,開啟或關閉指示訊息,1
 51394,PING_FAILED_DISABLED_BY_SETTINGS,無法發送指示：已在設定中停用指示功能。,1
 51395,PING_SYSTEM_SETTINGS,指示系統設定,1
+51396,TALENT_FRAME_TAB_LABEL_SPELLBOOK,法術書,1
 51398,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<按住Shift鍵點擊來開啟瀏覽器閱覽常見問題>|r,3
 51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,這個程序可能需花費%s才能完成。|n|HurlIndex:44|h|cff006995常見問題|r|h,3
 51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,出售垃圾物品,1
@@ -21900,6 +21908,13 @@ otice.htm",2
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,按下指示快捷鍵，然後點擊你想要的指示以便展開相關指示，或點擊並拖曳，來開啟指示環。,1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,按下再放開指示快捷鍵以便展開相關指示，或按住來開啟指示環。,1
 51421,SPELL_FAILED_CUSTOM_ERROR_840,如果你想受邀參加下一場派對，就不該吃太多甜點。,1
+51422,11_0_0_DELVES_MINIGAME_01,小遊戲,1
+51423,CHARACTER_SELECT_ALL_CHARACTERS,戰隊角色列表,2
+51424,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER,建立角色,2
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,遊戲商城,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,選單,2
+51427,CHARACTER_SELECT_TESTING_CONTROLS,測試中,2
+51428,CHARACTER_SELECT_BACK,Back,2
 51429,SPELL_FAILED_TARGETS_NOT_PROFESSION,目標不具備正確的專業技能。,1
 51433,PING_FAILED_SQUELCHED,無法發送指示：暫時中止聊天權限。,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:按下|r指示鍵來快速下達指示。,1
@@ -21921,31 +21936,50 @@ otice.htm",2
 51452,PERKS_PROGRAM_FROZEN,"|cffffffff凍結|r
 ",1
 51455,SPELL_FAILED_CUSTOM_ERROR_841,只有在愛就在身邊期間才能使用,1
+51456,POWER_TYPE_WAX,蠟,1
 51457,MAP_FILTER,地圖篩選條件,1
+51458,LFG_TYPE_FOLLOWER_DUNGEON,追隨者地城,1
+51459,LFD_FOLLOWER_EXPLANATION,和NPC隊友一同完成地城,1
+51460,REPUTATION_STATUS_BAR_LABEL_ACCOUNT_WIDE,(戰隊),1
+51461,REPUTATION_TOOLTIP_ACCOUNT_WIDE_LABEL,戰隊聲望,1
+51463,FACTION_STANDING_INCREASED_ACCOUNT_WIDE,戰隊的%s聲望提高%d點。,1
 51465,SPELL_FAILED_CUSTOM_ERROR_842,附近聞不到任何氣味！,1
+51466,FRIENDSHIP_STANDING_CHANGED_ACCOUNT_WIDE,戰隊與%s的關係現在為%s。,1
+51467,FACTION_STANDING_CHANGED_ACCOUNT_WIDE,戰隊與%s現在為%s。,1
+51468,FACTION_STANDING_INCREASED_GENERIC_ACCOUNT_WIDE,戰隊的%s聲望提高。,1
+51469,FACTION_STANDING_DECREASED_GENERIC_ACCOUNT_WIDE,戰隊的%s聲望降低。,1
+51470,FACTION_STANDING_DECREASED_ACCOUNT_WIDE,戰隊的%s聲望降低%d點。,1
+51471,FACTION_STANDING_INCREASED_ACH_BONUS_ACCOUNT_WIDE,戰隊的%s聲望提高%d點。(額外+%.1f點),1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,你的活力已滿,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,需要補充這片土壤的養分，才能繼續種植。,1
+51475,CONFIRM_BUY_ACCOUNT_BANK_TAB,是否要購買下列戰隊銀行分頁：,1
+51476,BAG_CLEANUP_ACCOUNT_BANK,清理戰隊銀行,1
+51477,ACCOUNT_BANK_PANEL_TITLE,戰隊銀行,1
+51478,ACCOUNT_BANK_TAB_PURCHASE_PROMPT,戰隊銀行可存放戰隊全體成員共有的物品。|n|n是否要購買此分頁？,1
+51479,ACCOUNT_BANK_DEPOSIT_BUTTON_LABEL,存入所有戰隊綁定物品,1
 51480,PERSONALTABARDVENDORGREETING,你好！請選擇個人外袍的圖案和顏色。,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,僅限隊長下達指示,1
-51493,LFG_TYPE_FOLLOWER_DUNGEON,追隨者地城,1
-51494,LFD_FOLLOWER_EXPLANATION,和NPC隊友一同完成地城,1
+51490,REPUTATION_SORT_TYPE_SHOW_ALL,全部,1
+51491,REPUTATION_SORT_TYPE_ACCOUNT,戰隊,1
+51492,REPUTATION_CHECKBOX_SHOW_LEGACY_REPUTATIONS,顯示舊陣營聲望,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,該目標已經被拔了一些羽毛。再繼續拔就太失禮了。,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,完成%d個英雄、傳奇或時光漫遊地城,1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,你只能在夢中開啟這個寶箱。,1
 51499,PING_CHAT_SETTINGS,聊天設定,1
+51500,DELVES_DIFFICULTY_PICKER_ENTER,進入,1
 51503,ADV_FLY_PITCH_CONTROL,傾斜控制,1
 51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,前進/仰轉,1
 51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,後退/仰轉,1
-51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"能幫助你使用飛龍騎術時調整行動控制。
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"能幫助你使用天空騎術時調整行動控制。
 
-|cffffffff後退/仰轉：|r在使用飛龍騎術時，能在按下「後退」時上仰，在按下「前進」時下傾。
+|cffffffff後退/仰轉：|r在使用天空騎術時，能在按下「後退」時上仰，在按下「前進」時下傾。
 
-|cffffffff前進/仰轉：|r在使用飛龍騎術時，能在按下「前進」時上仰，在按下「後退」時下傾。",1
+|cffffffff前進/仰轉：|r在使用天空騎術時，能在按下「前進」時上仰，在按下「後退」時下傾。",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,這個生物最近已經同調過了。,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,你目前無法持有更多這個種類的紋章。,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
 51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,你在近期內進入追隨者地城的次數過多。,1
-51516,ACCESSIBILITY_ADV_FLY_LABEL,動態飛行,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,天空騎術,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,最低鍵盤傾斜速度,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,最高鍵盤傾斜速度,1
 51519,ADV_FLY_MINIMUM_TURN_TEXT,最低鍵盤轉動速度,1
@@ -21958,8 +21992,9 @@ otice.htm",2
 51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,鍵盤傾斜鏡頭跟隨,1
 51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,當玩家使用「前進」和「後退」輸入來控制傾斜時，調整跟隨玩家之鏡頭的傾斜速度。,1
 51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,防誤觸傾斜輸入,1
-51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,若啟用這項設定並使用「前進」和「後退」來控制傾斜時，玩家在地面上和使用飛龍騎術之間轉換會需要再次按下按鍵來調整傾斜。,1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,若啟用這項設定並使用「前進」和「後退」來控制傾斜時，玩家在地面上和使用天空騎術之間轉換會需要再次按下按鍵來調整傾斜。 ,1
 51530,ACCESSIBILITY_MOUNT_LABEL,坐騎,1
+51534,RENOWN_REWARD_ACCOUNT_UNLOCK_LABEL,戰隊獎勵,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,貿易站連線至伺服器時發生問題。請稍後再試。,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,無法購買,1
 51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,無法退還,1
@@ -21972,6 +22007,9 @@ otice.htm",2
 並將他的烈焰擴散至整個艾澤拉斯。",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,夢境守護者,1
 51543,KIOSK_ENTER,進入魔獸世界,2
+51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,靈魂綁定的物品無法存放在戰隊銀行中。,1
+51545,NO_ACCOUNT_INVENTORY_LOCK,你的角色無法完成此動作。,1
+51546,TOO_MANY_ACCOUNT_BANK_TABS,你購買的分頁數量已達上限。,1
 51547,PERKS_PROGRAM_PENDING,等待中,1
 51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,處理你的購買過程需要的時間比較長。處理完畢後會立刻寄送此物品。,1
 51549,PERKS_PROGRAM_PURCHASE_PENDING,交易處理中,1
@@ -21990,30 +22028,71 @@ otice.htm",2
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,完成%1$d個傳奇難度的地城來獲得更好的獎勵。,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,你還沒向這個靈魂證明你自己。,1
+51569,BANK_WITHDRAW_MONEY_BUTTON_LABEL,提領,1
+51570,BANK_DEPOSIT_MONEY_BUTTON_LABEL,存入,1
+51571,BANK_MONEY_WITHDRAW_PROMPT,提領金額：,1
+51572,BANK_MONEY_DEPOSIT_PROMPT,存入金額：,1
 51573,CANNOT_UNEQUIP_ERR,目前無法改變裝備狀態,1
+51574,ACCOUNT_BANK_ERROR_NO_LOCK,You cannot access the Warband Bank at the same time as another character,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,你有足夠的灰燼耀光微粒。,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,你的角色無法改變此物品的外形。,1
+51577,ACCOUNT_BANK_TAB_NAME_PROMPT,輸入戰隊銀行分頁名稱：,1
 51579,COLOR_PICKER_HEX,十六進位碼,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,敵對陣營玩家無法成為公會會長。,1
 51583,FRONT_END_LOBBY_SOLO,單人,2
 51584,FRONT_END_LOBBY_DUO,雙人組,2
 51585,FRONT_END_LOBBY_TRIOS,三排,2
+51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,包括可交易的材料,1
+51589,ACCOUNT_BANK_LOCKED_PROMPT,戰隊的其他成員正在使用銀行。,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,自訂角色,3
 51591,WOWLABS_JOIN_GAME,加入遊戲,3
 51592,WOWLABS_MAINLINE,現行版本,3
+51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,銀行分頁已鎖定。,1
+51596,BANK_TAB_INVALID_NAME,銀行分頁名稱無效。,1
+51597,BANK_TAB_INVALID_TEXT,銀行分頁說明無效。,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,佇列時間：%s,2
-51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,動態飛行畫面效果,1
+51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,此獎勵只能由你戰隊中第一個登入的角色領取。,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,天空騎術螢幕效果,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,關閉畫面效果可能有助於緩和畫面暈眩。,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,啟用畫面暈眩設定之後可減少鏡頭移動程度，使你的角色維持在畫面中心。,1
+51605,BAG_FILTER_REAGENTS,材料,1
+51606,BANK_TAB_DEPOSIT_SETTINGS_HEADER,指定至分頁：,1
+51607,BANK_TAB_ASSIGN_EQUIPMENT_CHECKBOX,裝備,1
+51608,BANK_TAB_ASSIGN_CONSUMABLES_CHECKBOX,消耗品,1
+51609,BANK_TAB_ASSIGN_PROFESSION_GOODS_CHECKBOX,專業技能物品,1
+51610,BANK_TAB_ASSIGN_JUNK_CHECKBOX,垃圾,1
+51611,BANK_TAB_ASSIGN_EXPANSION_HEADER,資料片：,1
+51612,BANK_TAB_CLEANUP_SETTINGS_HEADER,清理：,1
+51613,BANK_TAB_IGNORE_IN_CLEANUP_CHECKBOX,忽視這個分頁,1
+51614,BANK_TAB_EXPANSION_FILTER_ALL,全部,1
+51615,BANK_TAB_EXPANSION_FILTER_CURRENT,僅限當前,1
+51616,BANK_TAB_EXPANSION_FILTER_LEGACY,僅限經典,1
+51617,ACCOUNT_BANK_CONFIRM_CLEANUP_PROMPT,確定要自動分類物品嗎？|n這會影響所有戰隊分頁。,1
+51618,BANK_TAB_ASSIGN_REAGENTS_CHECKBOX,材料,1
+51619,BAG_FILTER_CURRENT_EXPANSION,僅限當前,5
+51620,BAG_FILTER_LEGACY_EXPANSION,僅限經典,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,隨時可拖曳另一件物品來取代封存的物品,1
+51622,SPELL_FAILED_CUSTOM_1100,已在附近顯示泡泡。,1
+51623,SPELL_FAILED_CUSTOM_ERROR,,1
+51624,SPELL_FAILED_CUSTOM_ERROR_861,探究強化不足。,1
 51628,NPE_UNBOUND_KEYBIND,[未設定],1
 51631,TOAST_NEW_FRIEND_INVITE_WOWLABS,你收到了新朋友邀請。,3
 51632,TOAST_NEW_PARTY_INVITE_WOWLABS,你收到了新隊伍邀請。,3
+51633,SPELL_FAILED_CUSTOM_ERROR_1012,你沒有任何輻光殘骸。,1
 51634,WOWLABS_FRIENDS_GLUE,好友,2
+51635,UNDISCOVERED_FACTION_FLIGHTPOINT,尚未發現%s飛行點,1
+51636,UNDISCOVERED_NEUTRAL_FLIGHTPOINT,尚未發現飛行點,1
+51637,DISCOVERED_HORDE_FLIGHTPOINT,解鎖部落飛行點,1
+51638,DISCOVERED_NEUTRAL_FLIGHTPOINT,解鎖飛行點,1
+51639,DISCOVERED_ALLIANCE_FLIGHTPOINT,解鎖聯盟飛行點,1
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s-%s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,設為最愛,3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,移除最愛,3
 51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,剩餘時間：%s,1
+51646,SELF_HIGHLIGHT_UNIT_FRAME,自我醒目標示,1
+51647,SELF_HIGHLIGHT_CIRCLE,圓圈,1
+51648,SELF_HIGHLIGHT_OUTLINE,外框,1
+51649,SELF_HIGHLIGHT_ICON,圖示,1
 51650,BN_BLOCK_FRIEND,封鎖,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,此活動尚未開始,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,此活動已結束,1
@@ -22027,6 +22106,8 @@ otice.htm",2
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,攻擊法術2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,通用法術1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,通用法術2,1
+51663,SPELL_FAILED_CUSTOM_ERROR_892,你已經擁有一瓶以上的召喚精煉藥劑。,1
+51664,SPELL_FAILED_CUSTOM_ERROR_893,脫離戰鬥後，才能變更作用中的精煉藥劑。,1
 51665,RELEASE_PET_BUTTON_LABEL,釋放,1
 51666,RELEASE_PET,你確定要永遠釋放你的寵物嗎？你將再也無法召喚這隻寵物。,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,當前賽季無法使用此物品。,1
@@ -22055,14 +22136,24 @@ otice.htm",2
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,%s難度,1
 51699,LEVEL_UP_NO_LINK,恭喜，你達到|cffFF4E00等級%d了！|r,1
 51700,SPECTATE,觀戰,1
+51701,SPELL_FAILED_CUSTOM_ERROR_871,你在團隊中時無法進入探究。,1
+51702,SPELL_FAILED_CUSTOM_ERROR_845,你已經擁有召喚精煉藥劑。,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,你會獲得下列物品：,1
+51706,SPELL_FAILED_CUSTOM_ERROR_900,在搶先體驗期間無法製作。,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d玩家,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,伺服器,2
+51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,%s伺服器,2
+51710,SPELL_FAILED_CUSTOM_ERROR_846,你已經擁有一些召喚藥水。,1
+51711,SPELL_FAILED_CUSTOM_ERROR_837,夥伴陷入昏迷！,1
+51712,SPELL_FAILED_CUSTOM_ERROR_838,需要夥伴。,1
 51713,STABLE_EXOTIC_TYPE_LABEL,奇異,1
 51714,STABLE_FILTER_LABEL_TYPE,類型,1
 51715,STABLE_FILTER_SORT_BY_LABEL,分類方式為,1
+51718,SPELL_FAILED_CUSTOM_ERROR_839,,1
 51719,WOW_LABS_REMATCH,離開比賽,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,地城最佳,1
 51721,LFG_LIST_BEST_RUN,最佳紀錄,1
+51722,CHARACTER_SELECT_LIST_HEADER,戰隊成員,2
 51723,SPELL_FAILED_CUSTOMERROR_1011,已達到最大。,1
 51724,ITEM_ALREADY_MAX_QUALITY,物品已達到最高品級。,1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,輸入一個範圍以取得精準結果，例如5-8或7-7。,1
@@ -22070,13 +22161,22 @@ otice.htm",2
 51727,WOW_ERROR_337,此伺服器需要一個有可用存取授權的帳號才能存取。,2
 51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
+51734,SPELL_FAILED_CUSTOM_ERROR_872,你的夥伴正在戰鬥。,1
 51735,ADD_BATTLENET_FRIEND_LABEL,輸入好友的BattleNet名稱(包含數字)：,3
 51738,GLUE_LEAVE_PARTY,離開隊伍,3
 51739,GLUE_REMOVE_FROM_PARTY,從隊伍中移除,3
-51740,LFG_LIST_NEEDS_TANK,需要坦克,1
+51740,LFG_LIST_NEEDS_TANK,坦克角色可加入,1
+51741,SPELL_FAILED_CUSTOM_ERROR_1013,目標的戒指已與其他玩家綁定。,1
+51743,SPELL_FAILED_CUSTOM_ERROR_1014,目標並未佩戴此戒指。,1
 51744,TRANSMOG_SOURCE_7,貿易站,1
+51745,SPELL_FAILED_CUSTOM_ERROR_1015,只能用於鑲嵌適用的《地心之戰》資料片PvP物品。,1
 51746,STABLE_PET_UNCATEGORIZED,未分類,1
+51748,UNITNAME_SUMMON_TITLE53,%s的傳送門,1
 51749,LFG_LIST_CLASS_AVAILABLE,隊伍中尚無%s,1
+51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,圓圈和圖示,1
+51751,SELF_HIGHLIGHT_MODE_OUTLINE_AND_ICON,外框和圖示,1
+51752,SELF_HIGHLIGHT_MODE_CIRCLE_OUTLINE_AND_ICON,圓圈、外框和圖示,1
+51753,SELF_HIGHLIGHT_MODE_ICON,圖示,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s的聲望太高了無法接此任務。,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,%s嘗試分享「%s」任務失敗。你的聲望太高了無法接此任務。,1
 51756,ADDON_DEP_NOT_AVAILABLE,附屬物無法使用,3
@@ -22092,13 +22192,16 @@ otice.htm",2
 51766,ADDON_DEP_WRONG_LOAD_PHASE,附屬物的載入階段錯誤,3
 51767,ADDON_USER_ADDONS_DISABLED,使用者插件停用,3
 51768,ADDON_DEP_USER_ADDONS_DISABLED,附屬物使用者插件停用,3
-51771,LFG_LIST_NEEDS_HEALER,需要治療者,1
-51772,LFG_LIST_NEEDS_DAMAGE,需要傷害輸出,1
+51769,SPELL_FAILED_CUSTOM_ERROR_1016,收割機器人已啟動。,1
+51771,LFG_LIST_NEEDS_HEALER,治療者角色可加入,1
+51772,LFG_LIST_NEEDS_DAMAGE,傷害輸出角色可加入,1
 51773,LFG_LIST_HAS_TANK,有坦克,1
 51774,LFG_LIST_HAS_HEALER,有治療者,1
 51775,LFG_LIST_DIFFICULTY,難度,1
 51776,LFG_LIST_REQUIRE,需要,1
-51780,DRAGONRIDING_RACES_MAP_TOGGLE,飛龍騎術競賽,1
+51778,SPELL_FAILED_CUSTOM_ERROR_1017,無懼號飛船已啟動。,1
+51780,DRAGONRIDING_RACES_MAP_TOGGLE,天空騎術競賽,1
+51781,ERR_COSMETIC_CLASS_RESTRICTED,你的職業無法收集此外觀。,1
 51784,WOW_LABS_ATTACK_TOOLTIP,進攻,1
 51785,WOW_LABS_HEAL_TOOLTIP,治療,1
 51786,WOW_LABS_UTILITY_TOOLTIP,通用,1
@@ -22118,11 +22221,21 @@ otice.htm",2
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,你的隊友可以復活你。|n|n你確定要離開對戰嗎？,1
 51809,FRONT_END_LOBBY_SOLOS,單排,2
 51810,FRONT_END_LOBBY_DUOS,雙排,2
+51811,INSIGNIFICANT_QUEST_DISPLAY,%s(%s),1
+51812,ACCOUNT_COMPLETED_QUEST_LABEL,戰隊完成,1
+51813,TRIVIAL_QUEST_LABEL,低等級,1
 51814,LFG_LIST_MINIMUM_RATING,最低傳奇鑰石分數,1
 51815,WOWLABS_INVITE_FRIEND,邀請好友,3
+51818,ERR_TRANSMOGRIFY_INVALID_RACE,你的種族無法使用此外觀,1
+51819,ERR_TRANSMOGRIFY_INVALID_FACTION,你的陣營無法使用此外觀,1
+51820,ERR_TRANSMOGRIFY_INVALID_CLASS,你的職業無法使用此外觀,1
+51821,TRANSMOG_SHOW_ALL_RACES,所有種族,1
+51822,TRANSMOG_SHOW_ALL_FACTIONS,所有陣營,1
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,已達升級上限,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,升級：,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,縮短冷卻時間與提高傷害(如果適用)。,1
+51826,CONVERT_TO_BIND_TO_ACCOUNT_CONFIRM,|cnRED_FONT_COLOR:你無法裝備這項物品。|r|n|n該物品的外觀會添加到你的收藏中，在裝備前也會維持戰隊綁定。,1
+51827,ACCOUNT_LEVEL_PET,戰隊寵物,1
 51828,SPELL_FAILED_CUSTOM_ERROR_1028,青銅不足，無法完成此次交易。,1
 51829,STABLE_PET_SPEC_CUNNING,靈巧,1
 51830,STABLE_PET_SPEC_FEROCITY,凶暴,1
@@ -22135,29 +22248,39 @@ otice.htm",2
 |cffffffff3.|r透過搜刮更多相同的法術來將其升級。
 
 |cffffffff4.|r在生命力低下時使用你的治療技能。",3
-51834,SPELL_FAILED_CUSTOM_ERROR_1029,需要飛龍騎術。,1
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,需要學會天空騎術,1
+51835,CHARACTER_SELECT_PROFESSIONS,%1$s，%2$s,2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,完成任務並收集劫掠品來解鎖獎勵。在等待區域拜訪達卡許‧嚴帳。|n|n|cff00ff00下一個可獲得獎勵的等級%d：|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,名望,3
 51838,WOWLABS_READY_GAME,準備完成,3
+51839,SPELL_FAILED_CUSTOM_ERROR_1030,你已經使這個採集節點超載了。,1
 51840,WOWLABS_SUB_REQUIRED,此功能需要一個有遊戲時間的帳號才能使用。,3
 51841,WOWLABS_SUBSCRIBE_NOW,立即購買,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,正在等待其他玩家…,2
 51843,STABLE_PET_COUNTER,%1d/%2d,1
+51844,SPELL_FAILED_CUSTOM_ERROR_1031,你不知道要怎麼使這個採集節點超載。,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[大廳隊伍]|h %s：\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[大廳隊伍]|h %s：\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,大廳隊伍：\32,3
 51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,大廳隊伍,3
 51849,WOW_LABS_VIEW_REWARDS,查看獎勵,1
 51850,EXPANSION_SEASON_NAME,%s賽季%d,1
+51851,ACCOUNT_LEVEL_TOY,戰隊玩具,1
+51854,SPELL_FAILED_CUSTOM_ERROR_873,此探究不開放測試。請稍後再回來確認！,1
+51855,ITEM_BIND_TO_ACCOUNT_UNTIL_EQUIP,裝備之前為戰隊綁定,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,可復活,1
+51857,ITEM_ACCOUNTBOUND_UNTIL_EQUIP,裝備之前為戰隊綁定,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,站在船員的屍體附近即可復活他們,1
 51859,QUEST_SESSION_ABANDON_WARNING,"加入隊伍同步時，將放棄下列任務：
 %s",1
+51864,CHARACTER_SELECT_LIST_GROUP_HEADER,最愛,2
+51865,SPELL_FAILED_CUSTOM_ERROR_1009,你已經準備了一些肥料，請先使用現有的肥料。,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,收集到的劫掠品總數,3
 51867,LIMITED_TIME_EVENT,限時|n活動,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,強襲風暴,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,互動,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,你不能在戰鬥中調換冷卻中的法術。,1
+51880,TRACKER_ALL_OBJECTIVES,所有目標,1
 51881,GROUPMANAGER_GROUND_MARKER,地面,1
 51882,GROUPMANAGER_UNIT_MARKER,單位,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"如果你在你的團隊被淘汰之前離開，你將會失去在本場賽局中獲得的所有劫掠品。|n|n你確定要離開嗎？
@@ -22187,10 +22310,25 @@ otice.htm",2
 51917,WOWLABS_CURRENCY_PICKUP,+%s劫掠品,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,無法連線至強襲風暴。請稍後再試一次。,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,僅限當前資料片,1
+51921,UNITNAME_SUMMON_TITLE54,%s先祖,1
+51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,不用擔心選錯。你達到80級時就會學到所有天賦。,1
 51926,TIMERUNNING_BANNER_PANDARIA_HEADER,《魔獸世界》混搭再造：潘達利亞之謎！,2
 51927,TIMERUNNING_BANNER_TIME_LEFT,剩餘|cnNORMAL_FONT_COLOR:%s|r,2
+51928,ACCOUNT_COMPLETED_QUEST_NOTICE,你的戰隊已完成這項任務。,1
+51929,WORLD_MAP_FILTER_LABEL_SHOW,顯示：,1
+51930,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU,世界任務,1
+51931,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU_TYPE,類型：,1
+51932,SHOW_WORLD_QUESTS_ON_MAP_TEXT,世界任務,1
+51933,HERO_TALENTS_CHOOSE_1,選擇你的,1
+51934,HERO_TALENTS_CHOOSE_2,英雄天賦,1
+51935,HERO_TALENTS_LOCKED_1,英雄天賦,1
+51936,HERO_TALENTS_LOCKED_2,達到%d級後解鎖,1
+51937,HERO_TALENTS_POINTS_LABEL,可用點數,1
 51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,時光奔走角色,2
 51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,這個角色正在參與《魔獸世界》混搭再造：潘達利亞之謎，只能與其他時光奔走者組隊。,2
+51943,HERO_TALENTS_POINTS_AMOUNT,%d,1
+51944,PROFESSIONS_BUTTON,專業技能,1
+51945,PLAYERSPELLS_BUTTON,天賦與法術書,1
 51946,KEY_OEM1,;,1
 51947,KEY_OEM2,/,1
 51948,KEY_OEM3,`,1
@@ -22200,10 +22338,16 @@ otice.htm",2
 51952,KEY_OEM7,',1
 51953,KEY_OEMCOMMA,",",1
 51954,KEY_OEMPERIOD,.,1
+51955,ERR_SOCKETING_REQUIRES_FRAGRANCE_GEM,這個欄位需要一顆香氛寶石。,1
+51956,ERR_SOCKETING_FRAGRANCE_GEM_ONLY_IN_FRAGRANCESLOT,香氛寶石只能置於香氛插槽中。,1
 51957,SPECTATING,觀戰,1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,時光奔走者無法使用拍賣場。,5
+51959,EMPTY_SOCKET_FRAGRANCE,香氛插槽,1
+51960,TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY,%s,1
 51961,TIMERUNNING_CHOICE_WARNING,這是進階遊戲方式。確定要建立時光奔走角色嗎？,2
 51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,創建時光奔走者，體驗不同於以往的《潘達利亞之謎》。,2
+51963,ACCOUNT_FIRST_TIME_QUEST_BONUS_TOOLTIP,這是一次性的戰隊獎勵。,1
+51964,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_BONUS_TOOLTIP,這是先前完成此任務的戰隊獎勵。,1
 51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,需要有遊戲時間才能參與,2
 51966,SPELL_FAILED_CUSTOM_ERROR_1032,時光奔走者無法傳送至潘達利亞以外的地方。,1
 51967,OPTION_TOOLTIP_ANTIALIASING_IB,僅使用現有的全螢幕渲染的反鋸齒技術,3
@@ -22213,16 +22357,358 @@ otice.htm",2
 51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,形態保真反鋸齒2：進階版CMAA(同時使用「多重採樣技術」時，建議使用)。,3
 51972,OPTION_TOOLTIP_WINDOW_SIZE,調整遊戲解析度,3
 51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,部分材料不足,1
+51974,INSTANCE_WALK_IN_LEAVE,離開探究,1
+51976,SPELL_FAILED_CUSTOM_ERROR_1033,進一步修飾或改正你匆匆寫下的筆跡，讓筆記更容易理解。,1
+51977,SPELL_FAILED_CUSTOM_ERROR_1034,沒有什麼東西可以發明，你也無法被其他事情說動。,1
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,無法將玩家踢出此副本,1
+51979,BANK_TAB_TOOLTIP_CLICK_INSTRUCTION,<點擊右鍵以設定>,1
 51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,隱藏角色下方的生命條和能量條,1
 51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,在角色下方顯示重要法術的冷卻時間,1
 51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,在角色下方顯示友軍增益效果,1
+51983,BANK_TAB_DEPOSIT_ASSIGNMENTS,指定給：|cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51984,BANK_TAB_EXPANSION_ASSIGNMENT,資料片：|cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51985,SPELL_FAILED_CUSTOM_ERROR_1035,隊伍中的一名玩家尚未解鎖此階級。,1
 51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51987,ARACHNOPHOBIA_MODE_CHECKBOX,蜘蛛恐懼症模式,1
+51988,ARACHNOPHOBIA_MODE_CHECKBOX_TOOLTIP,以其他生物來取代蜘蛛。這不會影響遊戲體驗或難度。,1
 51989,ERR_GUILD_BANK_NOT_AVAILABLE,這個角色無法使用公會銀行。,1
+51990,CHARACTER_SELECT_HEADER_INFO,%d級,2
 51992,COUNTDOWN_CANCEL_ENCOUNTER_START,遭遇戰開始，倒數計時器已取消。,1
+51993,VISITABLE_URL61,https://support.blizzard.com/article/000358199,2
+51994,ARACHNOPHOBIA_MODE_SUBTEXT,如需更多資訊，請參閱我們的|cff00aaff|HurlIndex:61|h蜘蛛恐懼症頁面|h|r,1
+52023,11_0_Z_1_WQ_MINIGAME_01_ARCANE_LOCK,打開秘法鎖！,1
+52024,ITEM_MOD_INGENUITY_SHORT,精妙,1
+52025,FLIGHT_MODE_TOGGLE_TOOLTIP_SUBTEXT,你可以把它拖曳到快捷列,1
+52027,POWER_DISPLAY_LABEL_ANGER,憤怒,1
+52028,SPELL_FAILED_CUSTOM_ERROR_1036,你沒有任何璀璨回音。,1
 52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,普通角色與時光奔走者無法組成同一隊伍。,1
+52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,可以取得的任務：,1
+52032,QUEST_HUB_TOOLTIP_MORE_QUESTS_REMAINING,額外+%d,1
+52033,ERR_SOLO_RBG_WARGAME_GROUP_COMP,每個8人隊伍中需要有正好2名治療者與最多1名坦克，才能進行戰場閃擊戰戰爭比賽,1
+52034,ERR_SOLO_RBG_WARGAME_GROUP_SIZE,需要有正好16名非觀戰者玩家，才能進行戰場閃擊戰戰爭比賽。,1
+52035,SPELL_FAILED_CUSTOM_ERROR_648,你已經使用過這個奈幽訓練物品了。,1
+52036,SLASH_SOLORBG_WARGAME1,/battlegroundblitzwargame,1
+52037,SLASH_SOLORBG_WARGAME2,/bgbwg,1
+52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/invitespectatorbattlegroundblitzmatch,1
+52039,SHOW_SILHOUETTE_OPTION,遮蔽時顯示剪影,1
+52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,當你的角色被遊戲物件遮住時顯示其剪影。,1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Don't worry, you'll learn all these talents by level 80.",1
+52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,專注：,1
+52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,文字大小,1
+52056,SPELL_FAILED_CUSTOM_ERROR_1037,需要解鎖《地心之戰》探路者才能在這個區域中使用。,1
 52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,這裡顯示的是恆龍潛力披風賦予的力量。,1
+52058,MINIMAP_TRACKING_ACCOUNT_COMPLETED_QUESTS,戰隊已完成的任務,1
 52059,TIMERUNNING_DISABLED_TOOLTIP,時光奔走者已被暫時停用。,2
+52060,ACCOUNT_QUEST_LABEL,戰隊,1
+52061,SHOW_ACCOUNT_COMPLETED_QUESTS_BUTTON_LABEL,戰隊已完成任務,1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,戰鬥動畫,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,坐騎特殊動畫,1
+52064,PREFIX_SOLO_RBG,戰場閃擊戰：%s,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,你必須擁有個人外袍才能客製化，不過歡迎瀏覽。,7
+52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,你的戰隊獲得了貨幣：%sx%d,1
+52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,你的戰隊獲得了貨幣：%sx%d(獎勵目標),1
+52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,你的戰隊獲得了貨幣：%sx%d(你戰隊獲得的%s已達上限),1
+52070,ACCOUNT_LEVEL_CURRENCY,戰隊貨幣,1
+52071,ACCOUNT_TRANSFERRABLE_CURRENCY,戰隊可轉移物品,1
+52072,CURRENCY_TRANSFER_LOSS,|cnNORMAL_FONT_COLOR:轉移時失去的數量：|r|cnHIGHLIGHT_FONT_COLOR:%d%%|r ,1
+52073,UNITNAME_SUMMON_TITLE55,%s的發明,1
+52074,ERR_NO_ACCOUNT_BANK_HERE,You are too far away from a Warband Bank.,1
+52075,DELVES_LEVEL_PICKER_LEADER_ERROR,你現在不是隊長。,1
+52076,DELVES_ENTRANCE_LEVEL_REQUIREMENT_ERROR,只有%d級以上的玩家才能進入探究副本。,1
+52077,DELVES_COMPANION_VIEW_ABILITIES,瀏覽技能,1
+52078,DELVES_CURIO_LOCKED,未解鎖,1
+52079,DELVES_CURIO_SLOT_EMPTY,無階,1
+52080,DELVES_CONFIG_SLOT_LABEL_COMBAT_ROLE,戰鬥角色,1
+52081,DELVES_CONFIG_SLOT_UTILITY_CURIO,通用珍品,1
+52082,DELVES_CONFIG_SLOT_COMBAT_CURIO,戰鬥珍品,1
+52083,DELVES_COMPANION_ABILITY_LIST_TITLE,夥伴技能,1
+52084,DELVES_ABILITY_RANK_LABEL,等級%d,1
+52085,DELVES_ABILITY_LIST_DROPDOWN_OPTION_LABEL,%s %s,1
+52086,DELVES_ABILITY_LIST_CURRENT_PAGE,第%d/%d頁,1
+52087,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON,套用%s,1
+52088,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF,取消%s,1
+52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,%s不足,1
+52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,施加%d點專注即可確保此配方達到下一階品質。,1
+52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,從此配方移除%d點專注。,1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,專注可以在製作時用來保證更高階的品質。專注會緩慢恢復，且會在製品觸發精妙時返還一部分。,1
+52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,專注已滿。,1
+52095,SPELL_FAILED_CUSTOM_ERROR_1039,只能在戰鬥中使用。,1
+52096,SPELL_FAILED_CUSTOM_ERROR_1040,你的等級不足以進入探究。,1
+52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,|cnHIGHLIGHT_FONT_COLOR:%d/%d|r,1
+52098,PROFESSIONS_CRAFTING_CURRENCY_TOOLTIP_FORMAT,%d/%d,1
+52099,PROFESSIONS_CRAFTING_STAT_CONCENTRATION,專注,1
+52100,PROFESSIONS_CRAFTING_STAT_CONCENTRATION_DESCRIPTION,此配方所需的專注值。,1
+52101,PROFESSIONS_CRAFTING_EXPECTED_QUALITY_WITH_CONCENTRATION,|cnHIGHLIGHT_FONT_COLOR:預期品質：|r%s|n|n施加專注效果後，你接下來的品質必為：%s,1
+52102,RATED_BG_BLITZ_SIZE,單人,1
+52103,PVP_RATED_BG_BLITZ,積分戰場閃擊戰,1
+52104,RATED_BG_BLITZ_MODE_DESCRIPTION,節奏加快的8對8戰場。單人佇列，僅限治療者可雙排。,1
+52105,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE,無法套用%s,1
+52106,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE_DESC,此配方已達到品質上限。,1
+52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,Patron,1
+52108,POWER_TYPE_BLACK_BLOOD,黑血,1
+52109,CURRENCY_TRANSFER_TOGGLE_BUTTON_LABEL,轉移,1
+52110,CURRENCY_TRANSFER_MENU_TITLE,轉移貨幣 - %s,1
+52111,CURRENCY_TRANSFER_CONFIRM_BUTTON_LABEL,確定,1
+52112,CURRENCY_TRANSFER_CANCEL_BUTTON_LABEL,取消,1
+52113,CURRENCY_TRANSFER_AMOUNT_LABEL,轉移數量,1
+52114,CURRENCY_TRANSFER_SOURCE,來自於,1
+52115,CURRENCY_TRANSFER_DESTINATION,到%s,1
+52116,CURRENCY_TRANSFER_NEW_BALANCE_PREVIEW,%s的新餘額,1
+52117,CURRENCY_TRANSFER_COST_TOOLTIP,轉移會失去%d個貨幣。,1
+52118,CURRENCY_TRANSFER_DISABLED_MAX_QUANTITY,你無法攜帶更多這種貨幣了。,1
+52120,SPELL_FAILED_CUSTOM_ERROR_1041,基於某些原因，神奇的智慧球沒有反應。,1
+52121,ERR_REMIX_INVALID_TRANSFER_REQUEST,你不能去那邊。,1
+52124,CRF_EDIT_MODE,編輯模式,1
+52125,CRF_SETTINGS,設定,1
+52126,CRF_HIDE_GROUPS,隱藏隊伍,1
+52127,CRF_DIFFICULTY,難度,1
+52128,CRF_READY_CHECK,準備確認,1
+52129,CRF_ROLE_POLL,角色投票,1
+52130,CRF_COUNTDOWN,倒數,1
+52131,CRF_ALL_ASSIST,所有人都是助力,1
+52132,CHINA_RELEASE_BUILD,中國版,2
+52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,對未成年人有害,3
+52134,DELVES_INSTANCE_RESET_WARNING,此一探究副本將會於%s後重置。,1
+52135,DAILY_RESET_INSTANCE_WELCOME,歡迎來到%s。每日重置預定在%s進行，並會重置此副本。,1
+52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r|cnHIGHLIGHT_FONT_COLOR:轉移了%sx%d至|r|cnNORMAL_FONT_COLOR:%s。|r,1
+52137,CHINA_GM_BUILD,中國GM,2
+52138,WAR_WITHIN_LANDING_PAGE_TITLE,卡茲阿爾加摘要,1
+52139,WAR_WITHIN_LANDING_PAGE_TOOLTIP,點擊以顯示卡茲阿爾加摘要,1
+52140,DELVES_LABEL,探究,1
+52141,DELVES_DASHBOARD_SEASON_TITLE,%s(%s第%s季),1
+52142,CURRENCY_TRANSFER_LOG_TITLE,轉移紀錄,1
+52143,CURRENCY_TRANSFER_LOG_CURRENCY_FORMAT,%s %s,1
+52144,CURRENCY_TRANSFER_LOG_TIME_FORMAT,%s以前,1
+52146,DELVES_REPUTATION_BAR_TITLE,探究旅程(%s賽季%s),1
+52147,DELVES_COMPANION_LABEL,探究夥伴,1
+52148,DELVES_CONFIGURE_BUTTON,設定,1
+52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,完成探究來獲取每週獎勵,1
+52150,DELVES_GREAT_VAULT_LABEL,寶庫,1
+52151,DYNAMIC_FLIGHT,天空騎術,1
+52152,DELVES_GREAT_VAULT_TOOLTIP,完成探究來獲取每週獎勵。\n\n%s/%s獎勵已解鎖。 ,1
+52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,寶庫只在賽季期間開放。,1
+52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,技能和解鎖,1
+52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,(賽季期間開放),1
+52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,透過多恩島劇情戰役中的「探究地底」任務解鎖。,1
+52157,SEARCH_QUEST_LOG,搜尋任務日誌,1
+52158,QUEST_LOG_NO_QUESTS,沒有可以執行的任務|n|n與頭上有|TInterface\\GossipFrame\\AvailableQuestIcon:16:16|t的角色對話即可接受任務。,1
+52159,QUEST_LOG_NO_RESULTS,找不到結果,1
+52162,DELVES_REPUTATION_BAR_TITLE_NO_SEASON,探究旅程(賽季期間開放),1
+52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,你的戰隊這種貨幣不足，無法轉移給你。,1
+52165,TIMERUNNING_WARBAND_BANK_DISABLED,時光奔走者無法使用戰隊銀行。,1
+52166,RACE_INFO_EARTHENDWARF,卡茲阿爾加土靈近期從律令的束縛中重獲自由，並前往艾澤拉斯冒險。他們將憑著無限的好奇心探索一切事物，並希冀將獲得的所有經歷都帶回文庫。,3
+52167,REWARD_QUESTLINE_UNLOCK,這個任務線能解鎖：,1
+52168,REWARD_QUESTLINE_REWARD,這個任務線的最終獎勵：,1
+52169,REWARD_QUESTLINE_UNLOCK_PART,這個任務線有助於解鎖：,1
+52170,UNITNAME_SUMMON_TITLE56,%s的知己,1
+52171,SPELL_FAILED_CUSTOM_ERROR_2001,此一紋章不存有魔法。,1
+52172,QUEST_LOG_SHOW_OBJECTIVES,顯示任務目標,1
+52173,QUEST_LOG_TRACK_ALL,全部追蹤,1
+52174,QUEST_LOG_UNTRACK_ALL,全部停止追蹤,1
+52175,SUPER_TRACK_QUEST,專注任務目標,1
+52176,SPELLBOOK_SEARCH_INSTRUCTIONS,搜尋技能、關鍵字,1
+52177,SPELLBOOK_SEARCH_NOT_ON_ACTIONBAR,不在快捷列上,1
+52178,SPELLBOOK_FILTER_PASSIVES,隱藏被動效果,1
+52179,11_0_Z_1_MAX_CAMPAIGN_MINIGAME_REWIRE,重接主機電路板,1
+52180,SPELLBOOK_SEARCH_HEADER_EXACT,精確搜尋,1
+52181,SPELLBOOK_SEARCH_HEADER_RELATED,相關搜尋,1
+52182,SPELLBOOK_SEARCH_HEADER_NAME,名稱搜尋,1
+52183,SPELLBOOK_SEARCH_HEADER_DESCRIPTION,說明搜尋,1
+52184,SPELLBOOK_SEARCH_HEADER_GENERIC,對戰,1
+52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,搜尋時，隱藏被動效果便會停用,1
+52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,卡茲阿爾加摘要已解鎖,1
+52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,主要陣營已解鎖,1
+52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,%d級時解鎖,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,You must be near an Explorers' League supply crate to change this.,1
+52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,這會包括一個戰隊的一次性獎勵(%d|cnGREEN_FONT_COLOR:+%d|r聲望),1
+52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,這會包括一個戰隊的一次性獎勵(%d|cnGREEN_FONT_COLOR:+%d|r貨幣),1
+52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,這是先前完成此任務的戰隊獎勵(%d|cnGREEN_FONT_COLOR:+%d|r聲望),1
+52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLTIP,這是先前完成此任務的戰隊獎勵(%d|cnGREEN_FONT_COLOR:+%d|r貨幣),1
+52194,RACE_INFO_EARTHENDWARF_FEMALE,卡茲阿爾加土靈近期從律令的束縛中重獲自由，並前往艾澤拉斯冒險。他們將憑著無限的好奇心探索一切事物，並希冀將獲得的所有經歷都帶回文庫。,3
+52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,在本週再完成%1$d個探究或世界任務以解鎖寶庫獎勵。世界活動會當作級別0計算。|n|n獎勵的物品等級會依照你本週的最佳通關紀錄而定。,1
+52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,在本週再完成%1$d個探究或世界任務即可解鎖第二個寶庫獎勵。世界活動會當作級別0計算。,1
+52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,在本週再完成%1$d個探究或世界任務即可解鎖第三個寶庫獎勵。世界活動會當作級別0計算。,1
+52198,WEEKLY_REWARDS_THRESHOLD_WORLD,完成%d個探究或世界任務,1
+52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:這是|r|cnNORMAL_FONT_COLOR:戰隊|r|cnHIGHLIGHT_FONT_COLOR:陣營。你的所有角色會共享這個陣營獲得的聲望。|r,1
+52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:有些貨幣是|r|n|cnNORMAL_FONT_COLOR:戰隊可轉移物品。|r|n|cnHIGHLIGHT_FONT_COLOR:點擊一種貨幣來開始轉移給其他角色。|r,1
+52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,|cnNORMAL_FONT_COLOR:戰隊綁定|r|cnHIGHLIGHT_FONT_COLOR:裝備可共享給其他角色。|n|n一旦裝備後，這項裝備就會變成|r|cnNORMAL_FONT_COLOR:靈魂綁定。|r,1
+52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Quests you have already completed with another character are hidden from the map and their NPC quest indicators are faded in the world.|n|nYou can change this setting here.|r,1
+52204,GREAT_VAULT_WORLD_TIER,級別%s,1
+52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,物品等級%1$d(級別%2$d),1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,完成%1$d或更高級別的探究副本，以提高此獎勵的物品等級。,1
+52207,SPELL_FAILED_CUSTOM_ERROR_1042,你已經收集到這個珍品。,1
+52218,POWER_TYPE_ACID,酸蝕力量,1
+52219,PROF_CRAFTING_ORDER_TYPE_NPC,npc,1
+52220,DELVE_LABEL,探究,1
+52221,UNITNAME_SUMMON_TITLE57,由%s放置,1
+52228,PHOTOSENSITIVITY_WARNING_TITLE,光敏感警示,2
+52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,有少部分人就算沒有相關病史，在觀看特定光線、圖樣或圖片時可能會突然癲癇發作。|n|n開始遊玩前，若你或你的家人有癲癇症狀，請先諮詢醫師。|n|n若你在遊玩時突然頭昏眼花、看到幻覺、眼部或臉部抽搐、失去意識、迷失方向感、手腳痙攣或抽搐，請立即停止遊玩，並立即就醫。,2
+52235,PHOTOSENSITIVITY_WARNING_CONTINUE,按下任一按鍵繼續,2
+52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,此一成就會追蹤各個角色的進度。,1
+52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12需要2019年11月Windows 10或更近期的更新檔,3
+52259,SPELL_FAILED_CUSTOM_1101,附近已經興建了一座充電站。,1
+52260,SPELL_FAILED_CUSTOM_1102,附近已經興建了一座馭風站。,1
+52261,SPELL_FAILED_CUSTOM_1103,附近已經興建了一座恢復站。,1
+52262,SPELL_FAILED_CUSTOM_1104,太靠近另一個站了。,1
+52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,對未成年人有害的資訊,5
+52264,CHARACTER_CREATE_REALM_TOOLTIP,會在選取的伺服器建立角色,2
+52265,CHARACTER_CREATE_REALM,%s伺服器,2
+52266,CHARACTER_SELECT_REALM_TOOLTIP,%s伺服器,2
+52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,對未成年人有害,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map visibility and fade NPC quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52269,DELVES_NEW_CURIO,新,1
+52271,STOP_SUPER_TRACK_QUEST,移除專注任務目標,1
+52272,HERO_TALENTS_COLLAPSE,最小化,1
+52273,HERO_TALENTS_EXPAND,最大化,1
+52274,SPELL_FAILED_CUSTOM_ERROR_1051,你已經揭露或找到今天所有的合約地點。,1
+52275,CURRENCY_TRANSFER_LOG_EMPTY,找不到轉移紀錄。,1
+52276,ERR_CURRENCY_TRANSFER_INVALID_CHARACTER,無法從此角色轉移貨幣。,1
+52277,ERR_CURRENCY_TRANSFER_CHARACTER_LOGGED_IN,在此角色處於登入狀態時，無法從此角色轉移貨幣。,1
+52278,ERR_CURRENCY_TRANSFER_INSUFFICIENT_CURRENCY,這個角色的貨幣不足，無法轉移給你。,1
+52279,ERR_CURRENCY_TRANSFER_MAX_QUANTITY,你無法攜帶更多這種貨幣了。,1
+52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,這種貨幣不是戰隊可轉移物品。,1
+52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,戰隊的這種貨幣不足，無法轉移給你。,1
+52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,發生錯誤。請再試一次。,1
+52285,RPE_GEAR_UPDATE_CHARACTER,角色：,2
+52286,RPE_GEAR_UPDATE_SELECT_SPEC,選擇你的專精：,2
+52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,此次選擇將會影響戰隊裡的所有角色。|n|n|cffffd200要繼續嗎？|r,1
+52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,你尚未達到使用這個貨幣所需的條件。,1
+52289,INSPECT_GUILD_REALM,伺服器：%s,1
+52290,CLUB_FINDER_REALM_NAME,伺服器：|cffffffff%s|r,1
+52296,MAP_LEGEND_CAMPAIGN,戰役,1
+52297,MAP_LEGEND_CAMPAIGN_TOOLTIP,能繼續主線故事的任務,1
+52298,MAP_LEGEND_IMPORTANT,重要,1
+52299,MAP_LEGEND_IMPORTANT_TOOLTIP,能解鎖重要功能與獎勵，或教導主要機制的任務,1
+52300,MAP_LEGEND_LEGENDARY,傳說,1
+52301,MAP_LEGEND_LEGENDARY_TOOLTIP,給予傳說獎勵的任務,1
+52302,MAP_LEGEND_META,主任務,1
+52303,MAP_LEGEND_META_TOOLTIP,能給予貴重遊戲終局獎勵的限時任務,1
+52304,MAP_LEGEND_LOCALSTORY,當地故事,1
+52305,MAP_LEGEND_LOCALSTORY_TOOLTIP,能探索當地文化與支線冒險的任務,1
+52306,MAP_LEGEND_INPROGRESS,進行中,1
+52307,MAP_LEGEND_INPROGRESS_TOOLTIP,進行中的任務,1
+52308,MAP_LEGEND_TURNIN,回報,1
+52309,MAP_LEGEND_TURNIN_TOOLTIP,能進行回報的任務,1
+52310,MAP_LEGEND_WORLDQUEST,世界任務,1
+52312,MAP_LEGEND_WORLDQUEST_TOOLTIP,能給予多樣獎勵的開放世界活動 ,1
+52313,MAP_LEGEND_WORLDBOSS,世界首領,1
+52314,MAP_LEGEND_WORLDBOSS_TOOLTIP,會掉落貴重戰利品的高難度開放世界首領，主要給群體玩家挑戰,1
+52315,MAP_LEGEND_BONUSOBJECTIVE,獎勵目標,1
+52316,MAP_LEGEND_BONUSOBJECTIVE_TOOLTIP,能給予經驗值與多樣獎勵的額外開放世界活動,1
+52317,MAP_LEGEND_EVENT,事件,1
+52318,MAP_LEGEND_EVENT_TOOLTIP,多種版本限定的活動，還會給予貴重獎勵,1
+52319,MAP_LEGEND_RARE,稀有生物,1
+52320,MAP_LEGEND_RARE_TOOLTIP,一種能給予多樣獎勵的特殊生物,1
+52321,MAP_LEGEND_RAREELITE,稀有精英生物,1
+52322,MAP_LEGEND_RAREELITE_TOOLTIP,一種稀有的特殊生物，還有機率掉落貴重戰利品,1
+52323,MAP_LEGEND_DUNGEON,地城,1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,專為五名冒險者設計的遊戲內容，還會給予戰利品,1
+52325,MAP_LEGEND_RAID,團隊副本,1
+52326,MAP_LEGEND_RAID_TOOLTIP,專為大型玩家團隊設計的挑戰性內容，還會給予貴重戰利品,1
+52327,MAP_LEGEND_HUB,中心,1
+52328,MAP_LEGEND_HUB_TOOLTIP,附有NPC、活動與可進行任務的玩家中心,1
+52329,MAP_LEGEND_DIGSITE,挖掘場,1
+52330,MAP_LEGEND_DIGSITE_TOOLTIP,一個能挖掘文物的考古場所,1
+52331,MAP_LEGEND_PETBATTLE,寵物對戰,1
+52332,MAP_LEGEND_PETBATTLE_TOOLTIP,與NPC來場寵物對戰,1
+52334,MAP_LEGEND_FRAME_LABEL,地圖圖示,1
+52335,MAP_LEGEND_CATEGORY_QUESTS,任務,1
+52336,MAP_LEGEND_CATEGORY_LTA,限時活動,1
+52337,MAP_LEGEND_CATEGORY_ACTIVITIES,活動,1
+52338,MAP_LEGEND_CATEGORY_MOVEMENT,移動,1
+52339,MAP_LEGEND_TELEPORT,傳送點,1
+52340,MAP_LEGEND_TELEPORT_TOOLTIP,可讓你傳送至不同地區,1
+52341,MAP_LEGEND_CAVE,洞穴入口,1
+52342,MAP_LEGEND_CAVE_TOOLTIP,洞穴或不同區域的入口,1
+52343,MAP_LEGEND_FLIGHTPOINT,飛行點,1
+52344,MAP_LEGEND_FLIGHTPOINT_TOOLTIP,可讓你傳送至同一地區中的不同區域,1
+52346,VRN_COMPAT_MODE,因相容性設定而停用,3
+52347,COMPATIBILITY_SETTINGS,相容性設定,3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,相容性設定能協助診斷，並解決多種遊戲崩壞、圖像錯誤與效能問題。在多數情況下，停用這些功能會降低效能，並引起當機與/或降低圖像品質。如果你遇到特定問題，才能試著停用這些功能。,3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,非必要的GPU功能,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,同步資源創造,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,框架重疊,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,多線程渲染,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,允許使用較新的GPU功能。如果停用，遊戲會以GPU支援最少必要功能的狀態下進行。這樣會停用多項圖像功能，遊戲的多項視覺效果品質也可能會被降低。這有助於解決硬碟錯誤，或其他較新GPU功能會遇到的問題。,3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,允許非同步地創造素材與著色器等GPU資源。停用這個功能可能會引發當機，但有助於解決遊戲崩潰，或老舊硬碟與硬體上的視覺效果問題。,3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,允許CPU同時在2個框架下運行。停用這個功能會使遊戲一致性降低或降低幀率，但能避免特定硬體、硬碟與作業系統組合的崩潰問題。 ,3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,允許遊戲利用多個CPU執行緒來為遊戲渲染。停用這個功能可能會大幅降低幀率，但在某些情況下可解決遊戲崩潰或圖像錯誤。 ,3
+52358,QUEST_CLASSIFICATION_CALLING,使命任務,1
+52360,QUEST_CLASSIFICATION_IMPORTANT,重要,1
+52361,QUEST_CLASSIFICATION_CAMPAIGN,戰役,1
+52362,QUEST_CLASSIFICATION_LEGENDARY,傳說,1
+52363,QUEST_CLASSIFICATION_META,主任務,1
+52364,QUEST_CLASSIFICATION_RECURRING,可重複,1
+52365,QUEST_CLASSIFICATION_QUESTLINE,故事線,1
+52366,QUEST_CLASSIFICATION_QUESTLINE_WITH_NAME,故事線(%s),1
+52367,DELVES_ERR_SELECT_TIER,你必須選擇一個級別。,1
+52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,必須為此一帳號購買至少一次遊戲時間，才得以用金幣購買魔獸代幣。,1
+52373,ERR_CURRENCY_TRANSFER_UNMET_REQUIREMENTS,你尚未達到使用這個貨幣所需的條件。,1
+52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,%s伺服器,2
+52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,僅會顯示當前伺服器的刪除的角色。切換伺服器以查看其他的刪除的角色。,2
+52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,可退款的物品無法存放在戰隊銀行中。,1
+52377,NPEV2_SELECT_SPEC_TAB,選擇|cFF00FFFF專精|r分頁,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Talents,1
+52380,ERR_DELVE_IN_PROGRESS,正在進行一場%s探究,1
+52381,ACCOUNT_CONVERSION_IN_PROGRESS,你的帳號正在更新戰隊功能。請稍候片刻。,2
+52382,ERR_BANK_NOT_ACCESSIBLE,該角色無法使用這個銀行。,1
+52383,WOW_ERROR_338,該魔獸世界帳號已被禁止參與Beta測試。,2
+52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this tier,1
+52386,HARMFUL_TO_MINORS_DISABLED_TOOLTIP,必須選擇一個以上可用的名稱選項。,1
+52387,SPELL_FAILED_CUSTOM_ERROR_1053,時光奔走者無法施放該法術。,1
+52388,MOUNT_JOURNAL_FILTER_RIDEALONG,共乘,1
+52389,RPE_UPGRADE_COMPLETE_WARNING,你必須先登入才能完成角色直升。,3
+52390,DELVES_SHOW_ENTRACES_ON_MAP_TEXT,探究入口,1
+52391,SPELL_FAILED_CUSTOM_ERROR_1043,在鑑定新的原型之前，你必須先選擇如何處理當前的原型。,1
+52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
+52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
+52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,進階工作遞交,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,允許多個複雜的代碼線程將電腦工作傳輸到GPU上。停用此功能會使遊戲一致性降低或降低幀率，但能避免特定硬體、驅動程式與作業系統組合的崩潰問題。 ,3
+52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
+52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly over time.,1
+52400,PREFIX_RATED_SOLO_RGB,積分%s,1
+52401,ERR_NO_OPEN_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot open this while it is in the Warband Bank.,1
+52402,ERR_NO_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot place that in the Warband Bank.,1
+52403,NOT_BEST_ARMOR_TYPE_WARNING,|cnRED_FONT_COLOR:這不是你偏好的護甲類型。|r,1
+52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- 該角色在另一個伺服器。,2
+52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,- Switch realms to use a service or upgrade this character.,2
+52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,錯誤。請解決這個問題：,2
+52407,REMIX_END_OF_EVENT_NOTICE,"The Timerunning event has ended.  You have been transported back to your home timeline.
+
+Items from the event have been removed.
+",1
+52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,可重複(剩下%s),1
+52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,所有角色都會顯示在跨伺服器的戰隊角色列表中。,2
+52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,當地故事,1
+52411,SPELL_FAILED_CUSTOM_ERROR_1044,你本週已使用卡茲阿爾加合約。,1
+52412,DUNGEON_MAP_PIN_FALLBACK_NAME,地城,1
+52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,<右鍵點擊以開啟冒險指南>,1
+52414,CREATE_CHARACTER_REALM_CONFIRM_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:你的角色將會誕生在|r%s伺服器|cnHIGHLIGHT_FONT_COLOR:。若要切換伺服器，請點擊「伺服器」按鈕。|r,2
+52415,MOUNT_JOURNAL_STEADY_FLIGHT_ONLY,僅穩速飛行,1
+52416,PROFESSIONS_OUTPUT_INGENUITY,源源不絕的創意！,1
+52417,PROFESSIONS_OUTPUT_INGENUITY_TITLE,精妙,1
+52418,PROFESSIONS_OUTPUT_INGENUITY_DESC,你有源源不絕的創意，並在此製品上返還%d點專注。,1
+52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband Bank to be deleted.,1
+52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<右鍵點擊以顯示地圖>,1
+52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,關閉任務詳情,1
+52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,You can minimize the Spellbook here,1
+52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Switch to this character's realm to update.,2
+52426,DELVES_TIER_SELECT_HELPTIP,Select a tier of difficulty,1
+52427,MAP_LEGEND_REPEATABLE,Repeatable,1
+52428,MAP_LEGEND_REPEATABLE_TOOLTIP,Time gated quests,1
+52429,SPELL_FAILED_CUSTOM_ERROR_2223,A Trial is already being undergone nearby.,1
+52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Patron Name,1
+52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Patron Orders|r|nCharacters met on your travels may now send you crafting orders. Fulfill these for profession skill, knowledge, and more!",1
+52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Once all requirements are satisfied, you can craft the order. Some orders may require you to provide your own reagents.",1
+52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Hide Warband Completed Quests,1
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Trivial Quests,1
+52435,QUEST_SETTINGS_LABEL,Quests,1
+52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,You cannot deposit items into void storage from the Warband Bank.,1
+52438,WOW_ERROR_500,你的戰隊資料轉換失敗。請重新登入你的帳號再試一次。,2
+52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,其他伺服器的玩家無法成為公會會長。,1
+52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Rewards:,1
+52441,GENERIC_TRAIT_FRAME_THE_WEAVER_TITLE,Pact: The Weaver,1
+52442,GENERIC_TRAIT_FRAME_THE_GENERAL_TITLE,Pact: The General,1
+52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,Pact: The Vizier,1

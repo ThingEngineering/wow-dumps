@@ -2321,9 +2321,9 @@ Este efecto no puede eliminarse. Las cucarachas y escarabajos siempre sobreviven
 Este efecto no puede eliminarse.",425960,4,0,240,3
 1367,Apocalipsis superior,"Invoca tres meteoritos que se estrellarán en [duration(1,1)] |4ronda:rondas; a partir de ahora y matarán al equipo enemigo al instante.",425960,4,20,0,2
 1368,Trampa draénica,Intenta atrapar una mascota con menos del 35% de salud. La probabilidad de captura aumenta un 45% cada vez que fallas.,986484,0,0,0,6
-1369,Aguijón con púas,"[StandardAccuracy(1,1)] |cffffffffde probabilidad de golpe|r 
+1369,Aguijón con púas,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
-Inflige al instante [StandardDamage(1,1)] p. de daño de [School()] y tiene una probabilidad de [StandardAccuracy(1,2)] de |cFF1EFF00envenenar|r al objetivo con [StandardDamage(1,1,379)] p. de daño de [School(379)] extra por ronda durante [duration(1,2)] |4ronda:rondas;.",136068,7,0,0,0
+Inflige [StandardDamage(1,1)] p. de daño [School()] al instante y tiene un 20% de probabilidad de |cFF1EFF00envenenar|r al objetivo, lo que inflige [StandardDamage(1,1,379)] p. más de daño [School(379)] por ronda durante [duration(1,2)] |4ronda:rondas;.",136068,7,0,0,0
 1370,Garfa de indómito,"[StandardAccuracy(1,1)] |cffffffffde probabilidad de golpe|r
 
 Raja salvajemente e inflige [StandardDamage(1, 1)] p. de daño de [School()].",136063,2,0,0,0
@@ -2555,7 +2555,7 @@ Clobbers the enemy with a nerf, dealing [StandardDamage(1, 1)] [School()] p. de 
 1721,Subyugado,"Daño aumentado un [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 207 ))] %.",648206,-1,0,320,2
 1722,Esquivar cola,"Aumenta un [abs(abilityStateMod( 73, 311 ))]% tu probabilidad de esquivar ataques.
 
-Dura[duration(1,1)]|4 ronda:rondas;.",136056,0,4,0,2
+Dura[duration(1,1)]| 4 ronda:rondas;.",136056,0,4,0,2
 1723,Esquivar cola,"Aumenta tu probabilidad de esquivar ataques un [abs(abilityStateMod( 73, 311 ))] %.",136205,-1,0,924,2
 1724,Transmutar: enemigo a ardiendo,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 

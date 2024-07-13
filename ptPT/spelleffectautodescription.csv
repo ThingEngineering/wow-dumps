@@ -32,7 +32,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 31,Causa $s@effectindex de dano Arcano a um inimigo a cada $t@effectindex s por $d.,$s@effectindex de dano Arcano causado a cada $t@effectindex s.,6,3,1,3,64,50,50
 32,Causa $s@effectindex de dano de Caos a um inimigo a cada $t@effectindex s por $d.,$s@effectindex de dano de Caos causado a cada $t@effectindex s.,6,3,1,3,127,50,50
 33,"Atordoa um inimigo, impedindo-o de atacar e de andar por $d.",Atordoado.,6,12,0,3,0,0,0
-34,Aumenta em $s@effectindex% a Aceleração de todos os aliados em um raio de $A@effectindex m do ponto de impacto por $d.,Aceleração aumentada em $s@effectindex%.,6,193,1,6,0,0,0
+34,Aumenta em $s@effectindex% as velocidades de ataque e de lançamento de todos os aliados em um raio de $A@effectindex m do ponto de impacto por $d.,Velocidades de ataque e de lançamento aumentadas em $s@effectindex%.,6,193,1,6,0,0,0
 35,"Atordoa todos os inimigos em um raio de $A@effectindex m, impedindo-os de atacar e de andar por $d.",Atordoado.,6,12,0,7,0,0,0
 36,"Atordoa todos os inimigos em um raio de $A@effectindex m do ponto de impacto, impedindo-os de atacar e de andar por $d.",Atordoado.,6,12,0,5,0,0,0
 37,Cura $s@effectindex% do máximo de pontos de vida de um aliado.,,136,0,1,2,0,0,0
@@ -68,12 +68,12 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 70,Causa dano de Gelo a um inimigo a cada $t@effectindex s por $d.,Dano de Gelo causado a cada $t@effectindex s.,6,70,1,1,16,50,50
 71,Causa dano Arcano a um inimigo a cada $t@effectindex s por $d.,Dano Arcano causado a cada $t@effectindex s.,6,70,1,1,64,50,50
 72,Causa dano de Caos a um inimigo a cada $t@effectindex s por $d.,Dano de Caos causado a cada $t@effectindex s.,6,70,1,1,127,50,50
-83,Cura $s@effectindex% do máximo de pontos de vida do lançador a cada $t@effectindex por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,1,0,0,0
+83,Cura $s@effectindex% do máximo de pontos de vida do lançador a cada $t@effectindex s por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,1,0,0,0
 85,Cura $s@effectindex% do máximo de pontos de vida do lançador.,,136,0,1,1,0,0,0
-91,Interrompe o lançamento de feitiços de todos os inimigos em um raio de $A@effectindex m por $d.,,68,0,0,7,0,30,0
-92,Interrompe o lançamento de feitiços de um inimigo por $d.,,68,0,1,3,1,30,0
+91,Interrompe lançamento de feitiços de todos os inimigos em um raio de $A@effectindex m por $d.,,68,0,0,7,0,30,0
+92,Interrompe lançamento de feitiços de um inimigo por $d.,,68,0,1,3,1,30,0
 93,"Silencia um inimigo, impedindo-o de lançar feitiços por $d.",Incapaz de lançar feitiços.,6,27,0,3,0,30,0
-94,Reduz em $s@effectindex% a Aceleração por $d.,Aceleração reduzida em $s@effectindex%.,6,193,2,3,0,0,0
+94,Reduz as velocidades de ataque e de lançamento em $s@effectindex% por $d.,Velocidades de ataque e de lançamento reduzidas em $s@effectindex%.,6,193,2,3,0,0,0
 96,Repele um inimigo.,,98,0,1,3,0,0,0
 97,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de todo o dano recebido.,Absorve $s@effectindex de dano.,6,69,1,1,127,0,0
 98,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano Físico.,Absorve $s@effectindex de dano Físico.,6,69,1,1,1,0,0
@@ -83,8 +83,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 102,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano de Gelo.,Absorve $s@effectindex de dano de Gelo.,6,69,1,1,16,0,0
 103,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano de Sombra.,Absorve $s@effectindex de dano de Sombra.,6,69,1,1,32,0,0
 104,Envolve o lançador em um escudo que dura $d e absorve até $s@effectindex de dano Arcano.,Absorve $s@effectindex de dano Arcano.,6,69,1,1,64,0,0
-105,Aumenta em $s@effectindex% a Aceleração do lançador por $d.,Aceleração aumentada em $s@effectindex%.,6,193,1,1,0,10,0
-106,Reduz em $s@effectindex% a Aceleração por $d.,Aceleração reduzida em $s@effectindex%.,6,193,2,1,0,0,0
+105,Aumenta em $s@effectindex% as velocidades de ataque e de lançamento do lançador por $d.,Velocidades de ataque e de lançamento aumentadas em $s@effectindex%.,6,193,1,1,0,10,0
+106,Reduz as velocidades de ataque e de lançamento em $s@effectindex% por $d.,Velocidades de ataque e de lançamento reduzidas em $s@effectindex%.,6,193,2,1,0,0,0
 107,Reduz em $s@effectindex% a velocidade de movimento.,Velocidade de movimento reduzida em $s@effectindex%.,6,33,1,1,0,0,0
 108,Causa dano Físico a todos os inimigos em um raio de $A@effectindex m do ponto de impacto.,,31,0,1,5,1,50,50
 109,Causa dano Sagrado a todos os inimigos em um raio de $A@effectindex m do ponto de impacto.,,31,0,1,5,2,50,50
@@ -177,8 +177,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 302,Causa dano de Fogo aos inimigos em um raio de $A@effectindex m do ponto de impacto.,,165,0,1,5,4,50,50
 303,Faz com que todos os inimigos em um raio de $A@effectindex m do ponto de impacto recebam dano de Fogo a cada $t@effectindex s por $d.,Dano de Fogo causado a cada $t@effectindex s.,6,70,1,5,4,50,50
 304,Reduz em $s@effectindex% a velocidade de movimento do alvo por $d.,Velocidade de movimento reduzida em $s@effectindex%.,6,33,2,3,0,0,0
-305,Cura o lançador e todos os aliados em um raio de $A@effectindex m em $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,4,0,0,0
-306,Cura o lançador e todos os aliados em um raio de $A@effectindex m em $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,6,0,0,0
+305,O lançador e todos os aliados em um raio de $A@effectindex m recuperam $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,4,0,0,0
+306,O lançador e todos os aliados em um raio de $A@effectindex m recuperam $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s por $d.,Cura $s@effectindex% do máximo de pontos de vida a cada $t@effectindex s.,6,20,1,6,0,0,0
 308,Causa dano de Natureza a todos os inimigos em um raio de $A@effectindex.,,2,0,1,4,8,50,50
 309,Causa dano de Sombra a todos os inimigos em um raio de $A@effectindex m a cada $t@effectindex s por $d.,Dano de Sombra causado a cada $t@effectindex s.,6,70,1,7,32,50,50
 310,Causa dano de Natureza a todos os inimigos em um raio de $A@effectindex m a cada $t@effectindex s por $d.,Dano de Natureza causado a cada $t@effectindex s.,6,70,1,7,8,50,50
@@ -343,16 +343,16 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 499,Reduz em $s@effectindex% a velocidade de ataque de todos os inimigos à frente do lançador por $d.,Velocidade de ataque reduzida em $s@effectindex%.,6,9,2,9,0,0,0
 500,Reduz em $s@effectindex% a velocidade de ataque de todos os inimigos em um raio de $A@effectindex m do lançador por $d.,Velocidade de ataque reduzida em $s@effectindex%.,6,9,2,7,0,0,0
 501,Reduz em $s@effectindex% a velocidade de ataque de todos os inimigos em um raio de $A@effectindex m do ponto de impacto por $d.,Velocidade de ataque reduzida em $s@effectindex%.,6,9,2,5,0,0,0
-502,Reduz em $s@effectindex% a Aceleração de Feitiço de todos os inimigos em um raio de $A@effectindex m do ponto de impacto por $d.,Aceleração de Feitiço reduzida em $s@effectindex%.,6,65,2,5,0,0,0
-503,Reduz em $s@effectindex% a Aceleração de Feitiço de todos os inimigos em um raio de $A@effectindex m do lançador por $d.,Aceleração de Feitiço reduzida em $s@effectindex%.,6,65,2,7,0,0,0
-504,Reduz em $s@effectindex% a Aceleração de Feitiço de todos os inimigos à frente do lançador por $d.,Aceleração de Feitiço reduzida em $s@effectindex%.,6,65,2,9,0,0,0
-505,Reduz em $s@effectindex% a Aceleração de Feitiço por $d.,Aceleração de Feitiço reduzida em $s@effectindex%.,6,65,2,3,0,0,0
-506,Reduz em $s@effectindex% a Aceleração de Feitiço por $d.,Aceleração de Feitiço reduzida em $s@effectindex%.,6,65,2,1,0,0,0
-507,Aumenta em $s@effectindex% a Aceleração de Feitiço de todos os aliados à frente do lançador por $d.,Aceleração de Feitiço aumentada em $s@effectindex%.,6,65,1,8,0,0,0
-508,Aumenta em $s@effectindex% a Aceleração de Feitiço de todos os aliados em um raio de $A@effectindex m do lançador por $d.,Aceleração de Feitiço aumentada em $s@effectindex%.,6,65,1,6,0,0,0
-509,Aumenta em $s@effectindex% a Aceleração de Feitiço de todos os aliados em um raio de $A@effectindex m do ponto de impacto por $d.,Aceleração de Feitiço aumentada em $s@effectindex%.,6,65,1,4,0,0,0
-510,Aumenta em $s@effectindex% a Aceleração de Feitiço do alvo por $d.,Aceleração de Feitiço aumentada em $s@effectindex%.,6,65,1,2,0,0,0
-511,Aumenta em $s@effectindex% a Aceleração de Feitiço do lançador por $d.,Aceleração de Feitiço aumentada em $s@effectindex%.,6,65,1,1,0,10,0
+502,Reduz em $s@effectindex% a velocidade de lançamento de todos os inimigos em um raio de $A@effectindex m do ponto de impacto por $d.,Velocidade de lançamento reduzida em $s@effectindex%.,6,65,2,5,0,0,0
+503,Reduz em $s@effectindex% a velocidade de lançamento de todos os inimigos em um raio de $A@effectindex m do lançador por $d.,Velocidade de lançamento reduzida em $s@effectindex%.,6,65,2,7,0,0,0
+504,Reduz em $s@effectindex% a velocidade de lançamento de todos os inimigos à frente do lançador por $d.,Velocidade de lançamento reduzida em $s@effectindex%.,6,65,2,9,0,0,0
+505,Reduz em $s@effectindex% a velocidade de lançamento por $d.,Velocidade de lançamento reduzida em $s@effectindex%.,6,65,2,3,0,0,0
+506,Reduz em $s@effectindex% a velocidade de lançamento por $d.,Velocidade de lançamento reduzida em $s@effectindex%.,6,65,2,1,0,0,0
+507,Aumenta em $s@effectindex% a velocidade de lançamento de todos os aliados à frente do lançador por $d.,Velocidade de lançamento aumentada em $s@effectindex%.,6,65,1,8,0,0,0
+508,Aumenta em $s@effectindex% a velocidade de lançamento de todos os aliados em um raio de $A@effectindex m do lançador por $d.,Velocidade de lançamento aumentada em $s@effectindex%.,6,65,1,6,0,0,0
+509,Aumenta em $s@effectindex% a velocidade de lançamento de todos os aliados em um raio de $A@effectindex m do ponto de impacto por $d.,Velocidade de lançamento aumentada em $s@effectindex%.,6,65,1,4,0,0,0
+510,Aumenta em $s@effectindex% a velocidade de lançamento do alvo por $d.,Velocidade de lançamento aumentada em $s@effectindex%.,6,65,1,2,0,0,0
+511,Aumenta em $s@effectindex% a velocidade de lançamento do lançador por $d.,Velocidade de lançamento aumentada em $s@effectindex%.,6,65,1,1,0,10,0
 512,Aumenta em $s@effectindex% o dano Arcano recebido por $d.,Dano Arcano recebido aumentado em $s@effectindex%.,6,101,2,3,64,1,1
 513,Faz com que todos os inimigos em um raio de $A@effectindex m errem $s@effectindex% dos ataques por $d.,Chance de acerto reduzida em $s@effectindex%.,6,54,2,7,0,0,0
 514,Faz com que todos os inimigos em um raio de $A@effectindex m errem $s@effectindex% dos feitiços por $d.,Chance de acerto com feitiços reduzida em $s@effectindex%.,6,55,2,7,0,0,0
@@ -394,7 +394,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 550,Acalma um inimigo impedindo ataques por $d,Incapaz de atacar.,6,25,0,3,0,30,0
 551,"Acalma todos os inimigos em um raio de $A@effectindex metros, impedindo-os de atacar por $d.",Incapaz de atacar.,6,25,0,7,0,0,0
 552,"Silencia e acalma um inimigo, impedindo-o de atacar e lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,3,0,30,0
-553,"Silencia e acalma todos os inimigos em um raio de $A@effectindex metros, impedindo-os de atacar ou lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,7,0,0,0
+553,"Silencia e acalma todos os inimigos em um raio de $A@effectindex m, impedindo-os de atacar ou lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,7,0,0,0
 554,"Silencia um inimigo, impedindo-o de lançar feitiços por $d.",Incapaz de lançar feitiços.,6,27,0,1,0,30,0
 555,"Acalma um inimigo, impedindo ataques por $d.",Incapaz de atacar.,6,25,0,1,0,30,0
 556,"Silencia e acalma um inimigo, impedindo-o de atacar e lançar feitiços por $d.",Incapaz de atacar e de lançar feitiços.,6,60,0,1,0,30,0

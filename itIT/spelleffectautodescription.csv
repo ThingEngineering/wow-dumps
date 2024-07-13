@@ -32,7 +32,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 31,Infligge $s@effectindex danni da arcano a un nemico ogni $t@effectindex s per $d.,$s@effectindex danni da arcano subiti ogni $t@effectindex s.,6,3,1,3,64,50,50
 32,Infligge $s@effectindex danni da caos a un nemico ogni $t@effectindex s per $d.,$s@effectindex danni da caos subiti ogni $t@effectindex s.,6,3,1,3,127,50,50
 33,"Stordisce un nemico, impedendogli di muoversi e attaccare per $d.",Stordito.,6,12,0,3,0,0,0
-34,Aumenta la celerità di tutti gli alleati entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Celerità aumentata del $s@effectindex%.,6,193,1,6,0,0,0
+34,Aumenta la velocità d'attacco e di lancio d'incantesimi di tutti gli alleati entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Velocità d'attacco e di lancio d'incantesimi aumentate del $s@effectindex%.,6,193,1,6,0,0,0
 35,"Stordisce tutti i nemici entro $A@effectindex m, impedendo loro di muoversi o attaccare per $d.",Stordito.,6,12,0,7,0,0,0
 36,"Stordisce tutti i nemici entro $A@effectindex m dal punto d'impatto, impedendo loro di muoversi o attaccare per $d.",Stordito.,6,12,0,5,0,0,0
 37,Cura un alleato del $s@effectindex% della sua salute massima.,,136,0,1,2,0,0,0
@@ -73,7 +73,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 91,Interrompe il lancio d'incantesimi di tutti i nemici entro $A@effectindex m per $d.,,68,0,0,7,0,30,0
 92,Interrompe il lancio d'incantesimi di un nemico per $d.,,68,0,1,3,1,30,0
 93,"Silenzia un nemico, impedendogli di lanciare incantesimi per $d.",Impossibile lanciare incantesimi.,6,27,0,3,0,30,0
-94,Riduce la celerità del $s@effectindex% per $d.,Celerità ridotta del $s@effectindex%.,6,193,2,3,0,0,0
+94,Riduce la velocità d'attacco e di lancio d'incantesimi del $s@effectindex% per $d.,Velocità d'attacco e di lancio d'incantesimi ridotte del $s@effectindex%.,6,193,2,3,0,0,0
 96,Respinge indietro un nemico.,,98,0,1,3,0,0,0
 97,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni subiti.,$s@effectindex danni subiti assorbiti.,6,69,1,1,127,0,0
 98,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni fisici subiti.,$s@effectindex danni fisici subiti assorbiti.,6,69,1,1,1,0,0
@@ -83,8 +83,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 102,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni da gelo subiti.,$s@effectindex danni da gelo subiti assorbiti.,6,69,1,1,16,0,0
 103,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni da ombra subiti.,$s@effectindex danni da ombra subiti assorbiti.,6,69,1,1,32,0,0
 104,Circonda l'incantatore con uno scudo che dura $d e può assorbire fino a $s@effectindex danni da arcano subiti.,$s@effectindex danni da arcano subiti assorbiti.,6,69,1,1,64,0,0
-105,Aumenta la celerità dell'incantatore del $s@effectindex% per $d.,Celerità aumentata del $s@effectindex%.,6,193,1,1,0,10,0
-106,Riduce la celerità del $s@effectindex% per $d.,Celerità ridotta del $s@effectindex%.,6,193,2,1,0,0,0
+105,Aumenta la velocità d'attacco e di lancio d'incantesimi dell'incantatore del $s@effectindex% per $d.,Velocità d'attacco e di lancio d'incantesimi aumentate del $s@effectindex%.,6,193,1,1,0,10,0
+106,Riduce la velocità d'attacco e di lancio d'incantesimi del $s@effectindex% per $d.,Velocità d'attacco e di lancio d'incantesimi ridotte del $s@effectindex%.,6,193,2,1,0,0,0
 107,Riduce la velocità di movimento del $s@effectindex%.,Velocità di movimento ridotta del $s@effectindex%.,6,33,1,1,0,0,0
 108,Infligge danni fisici a tutti i nemici entro $A@effectindex m dal punto d'impatto.,,31,0,1,5,1,50,50
 109,Infligge danni da sacro a tutti i nemici entro $A@effectindex m dal punto d'impatto.,,31,0,1,5,2,50,50
@@ -343,16 +343,16 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 499,Riduce la velocità d'attacco di tutti i nemici frontali del $s@effectindex% per $d.,Velocità d'attacco ridotta del $s@effectindex%.,6,9,2,9,0,0,0
 500,Riduce la velocità d'attacco di tutti i nemici entro $A@effectindex m dall'incantatore del $s@effectindex% per $d.,Velocità d'attacco ridotta del $s@effectindex%.,6,9,2,7,0,0,0
 501,Riduce la velocità d'attacco di tutti i nemici entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Velocità d'attacco ridotta del $s@effectindex%.,6,9,2,5,0,0,0
-502,Riduce la celerità di tutti i nemici entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Celerità magica ridotta del $s@effectindex%.,6,65,2,5,0,0,0
-503,Riduce la celerità magica di tutti i nemici entro $A@effectindex m dall'incantatore del $s@effectindex% per $d.,Celerità magica ridotta del $s@effectindex%.,6,65,2,7,0,0,0
-504,Riduce la celerità magica di tutti i nemici frontali del $s@effectindex% per $d.,Celerità magica ridotta del $s@effectindex%.,6,65,2,9,0,0,0
-505,Riduce la celerità magica del $s@effectindex% per $d.,Celerità magica ridotta del $s@effectindex%.,6,65,2,3,0,0,0
-506,Riduce la celerità magica del $s@effectindex% per $d.,Celerità magica ridotta del $s@effectindex%.,6,65,2,1,0,0,0
-507,Aumenta la celerità magica di tutti gli alleati frontali del $s@effectindex% per $d.,Celerità magica aumentata del $s@effectindex%.,6,65,1,8,0,0,0
-508,Aumenta la celerità magica di tutti gli alleati entro $A@effectindex m dall'incantatore del $s@effectindex% per $d.,Celerità magica aumentata del $s@effectindex%.,6,65,1,6,0,0,0
-509,Aumenta la celerità magica di tutti gli alleati entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Celerità magica aumentata del $s@effectindex%.,6,65,1,4,0,0,0
-510,Aumenta la celerità magica del bersaglio del $s@effectindex% per $d.,Celerità magica aumentata del $s@effectindex%.,6,65,1,2,0,0,0
-511,Aumenta la celerità magica dell'incantatore del $s@effectindex% per $d.,Celerità magica aumentata del $s@effectindex%.,6,65,1,1,0,10,0
+502,Riduce la velocità di lancio d'incantesimi di tutti i nemici entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Velocità di lancio d'incantesimi ridotta del $s@effectindex%.,6,65,2,5,0,0,0
+503,Riduce la velocità di lancio d'incantesimi di tutti i nemici entro $A@effectindex m dall'incantatore del $s@effectindex% per $d.,Velocità di lancio d'incantesimi ridotta del $s@effectindex%.,6,65,2,7,0,0,0
+504,Riduce la velocità di lancio d'incantesimi di tutti i nemici frontali del $s@effectindex% per $d.,Velocità di lancio d'incantesimi ridotta del $s@effectindex%.,6,65,2,9,0,0,0
+505,Riduce la velocità di lancio d'incantesimi del $s@effectindex% per $d.,Velocità di lancio d'incantesimi ridotta del $s@effectindex%.,6,65,2,3,0,0,0
+506,Riduce la velocità di lancio d'incantesimi del $s@effectindex% per $d.,Velocità di lancio d'incantesimi ridotta del $s@effectindex%.,6,65,2,1,0,0,0
+507,Aumenta la velocità di lancio d'incantesimi di tutti gli alleati frontali del $s@effectindex% per $d.,Velocità di lancio d'incantesimi aumentata del $s@effectindex%.,6,65,1,8,0,0,0
+508,Aumenta la velocità di lancio d'incantesimi di tutti gli alleati entro $A@effectindex m dall'incantatore del $s@effectindex% per $d.,Velocità di lancio d'incantesimi aumentata del $s@effectindex%.,6,65,1,6,0,0,0
+509,Aumenta la velocità di lancio d'incantesimi di tutti gli alleati entro $A@effectindex m dal punto d'impatto del $s@effectindex% per $d.,Velocità di lancio d'incantesimi aumentata del $s@effectindex%.,6,65,1,4,0,0,0
+510,Aumenta la velocità di lancio d'incantesimi del bersaglio del $s@effectindex% per $d.,Velocità di lancio d'incantesimi aumentata del $s@effectindex%.,6,65,1,2,0,0,0
+511,Aumenta la velocità di lancio d'incantesimi dell'incantatore del $s@effectindex% per $d.,Velocità di lancio d'incantesimi aumentata del $s@effectindex%.,6,65,1,1,0,10,0
 512,Aumenta i danni da arcano subiti del $s@effectindex% per $d.,Danni da arcano subiti aumentati del $s@effectindex%.,6,101,2,3,64,1,1
 513,Fa sì che tutti i nemici entro $A@effectindex m manchino il $s@effectindex% degli attacchi per $d.,Probabilità d'impatto ridotta del $s@effectindex%.,6,54,2,7,0,0,0
 514,Fa sì che tutti i nemici entro $A@effectindex m manchino il $s@effectindex% degli incantesimi per $d.,Probabilità d'impatto con gli incantesimi ridotta del $s@effectindex%.,6,55,2,7,0,0,0

@@ -12,11 +12,11 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 17,Frascos duram mais,44,2939,0,0,0
 27,Bem Alimentado dura mais,11,3000,0,0,0
 30,Causa dano de Fogo ao inimigo,17,3070,0,0,0
-32,Define Nvl de Item em 29 e Nvl Requerido em 15.,18,3204,0,0,0
-34,Define Nvl de Item em 65 e Nvl Requerido em 25.,30,3205,0,0,0
-36,Define Nvl de Item em 94 e Nvl Requerido em 35.,31,3206,0,0,0
-38,Define Nível de Item em 127 e o Nível Requerido em 45.,32,3207,0,0,0
-39,Define Nível de Item em 163 e o Nível Requerido em 55.,33,3208,0,0,0
+32,Define nível de item em $ev1 e o nível requerido em $ev2.,18,3204,0,0,0
+34,Define nível de item em $ev1 e o nível requerido em $ev2.,30,3205,0,0,0
+36,Define nível de item em $ev1 e o nível requerido em $ev2.,31,3206,0,0,0
+38,Define nível de item em $ev1 e o nível requerido em $ev2.,32,3207,0,0,0
+39,Define nível de item em $ev1 e o nível requerido em $ev2.,33,3208,0,0,0
 58,Reduz o dano de queda,41,3147,0,0,0
 59,Aumenta um pouco a velocidade de movimento,42,3148,0,0,0
 61,Aumenta a velocidade de nado,40,3152,0,0,0
@@ -107,7 +107,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 152,,122,0,0,0,0
 153,,123,0,0,0,0
 154,,124,0,0,0,0
-155,Aumenta a Perícia de Inspiração bônus em $ev1%.,125,0,1,0,0
+155,Aumenta a Concentração restaurada de descobertas engenhosas em $ev1%.,125,0,1,0,0
 156,Aumenta $en1 em $ev1 e $en2 em $ev2%.,126,0,1,0,0
 157,"Você tem $ev1% a mais de chance de melhorar em sua profissão, mas a Dificuldade da Receita aumentou em $ev2.",127,0,0,0,0
 158,Aumenta $en1 em $ev1 e $en2 em $ev2.,128,0,0,0,0
@@ -146,7 +146,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 194,,155,0,0,0,0
 195,,163,0,0,0,0
 196,"Você tem $ev1% a mais de chance de melhorar em Escrivania, mas a Dificuldade da Receita aumenta em $ev2.",152,0,0,0,0
-197,Aumenta em $ev1% e $en2 em $ev2 a Perícia de Inspiração bônus.,153,0,0,0,0
+197,Aumenta a Concentração restaurada de descobertas engenhosas em $ev1% e $en2 em $ev2.,153,0,0,0,0
 198,,170,0,0,0,0
 199,,171,0,0,0,0
 200,,172,0,0,0,0
@@ -154,9 +154,9 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 203,,175,0,0,0,0
 204,,176,0,0,0,0
 205,"Você tem $ev1% a mais de chance de melhorar em Joalheria, mas a Dificuldade da Receita aumentou em $ev2.",364,0,1,0,0
-206,Aumenta em $ev1% e $en2 em $ev2 a Perícia de Inspiração bônus.,365,0,0,0,0
+206,Aumenta a Concentração restaurada de descobertas engenhosas em $ev1% e $en2 em $ev2.,365,0,0,0,0
 207,"Você tem $ev1% a mais de chance de melhorar em Alfaiataria, mas a Dificuldade da Receita aumentou em $ev2.",366,0,0,0,0
-208,Aumenta a Perícia de Inspiração bônus em $ev1% e $en2 em $ev2%.,367,0,0,0,0
+208,Aumenta a Concentração restaurada de descobertas engenhosas em $ev1% e $en2 em $ev2%.,367,0,0,0,0
 209,Aumenta em $ev1% os reagentes salvos com Desenvoltura.,368,0,0,0,0
 210,,369,0,0,0,0
 211,,370,0,0,0,0
@@ -211,10 +211,10 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 261,,418,0,0,0,0
 262,,419,0,0,0,0
 263,,420,0,0,0,0
-264,Substitui Atributo Aleatório por Inspiração.,429,3810,0,0,0
+264,Substitui Atributo Aleatório por Engenhosidade.,429,3810,0,0,0
 265,,430,0,0,0,0
 266,,431,0,0,0,0
-267,Reduz em 15% a probabilidade de mau funcionamento do faz-tudo dese dispositivo.,432,3811,0,0,0
+267,Reduz em 15% a probabilidade de a gambiarra desse dispositivo dar defeito. Não acumula com bônus de especialização similares.,432,3811,0,0,0
 268,Gambiarras colocadas neste dispositivo não podem mais dar defeitos catastróficos.,433,3812,0,0,0
 269,A gambiarra encaixada neste dispositivo às vezes desaloja a bateria em vez de dar defeito.,434,3815,0,0,0
 270,Aloca os atributos secundários de óculos ou braçadeiras criados por Engenharia para Acerto Crítico.,435,3878,0,0,0
@@ -284,9 +284,22 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 339,Aumenta o nível do item para 489 em Arenas e Campos de Batalha.,497,4235,0,0,0
 340,Aumenta o nível do item para 489 em Arenas e Campos de Batalha.,499,4235,0,0,0
 341,Concede Acerto Crítico cumulativo acima de 70% da vida. Adiciona Único-equipado: Adornado (2).,500,4237,0,0,0
+342,"Certifica equipamentos para batalhas JxJ, permitindo que cheguem até nvl-i 606.|n|nNecessários vários para concluir uma criação.",502,4273,0,0,0
+343,"Certifica equipamentos para batalhas JxJ, permitindo que cheguem até nvl-i 619.|n|nNecessários vários para concluir uma criação.",503,4272,0,0,0
+344,"Certifica equipamentos para batalhas JxJ, permitindo que cheguem até nvl-i 632.|n|nNecessários vários para concluir uma criação.",504,4274,0,0,0
 345,,505,4281,0,0,0
 346,,505,4214,0,0,0
 347,"Suas habilidades de cura têm chance de vincular você a um aliado, concedendo Versatilidade a ambos, dependendo da distância. Também adiciona Único-equipado: Embelezado (2).",507,4290,0,0,0
+348,Micoflorescência,508,0,0,0,0
+349,Gotisca,509,0,0,0,0
+350,Orbinídea,510,0,0,0,0
+351,Flor da Bênção,511,0,0,0,0
+352,Lança de Arathor,512,0,0,0,0
+353,Minério Comum,513,0,0,0,0
+354,Minério Raro 01,514,0,0,0,0
+355,Minério Raro 02,515,0,0,0,0
+357,Define nvl-i inicial pela qualidade da criação (584–597) e marca como Criação com Agouro.,517,4321,0,0,0
+358,Define nvl-i inicial pela qualidade da criação (564–577) e marca como Criação de Iniciante.,519,4337,0,0,0
 359,Define nvl-i inicial pela qualidade da criação (489–502) e marca como Criação Desperta.,520,4339,0,0,0
 360,Aumenta o nível do item para 528 em Arenas e Campos de Batalha.,524,4342,0,0,0
 361,Aumenta o nível do item para 528 em Arenas e Campos de Batalha.,522,4342,0,0,0
@@ -294,6 +307,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 363,Aumenta o nível do item para 515 em Arenas e Campos de Batalha.,525,4343,0,0,0
 364,Aumenta o nível do item para 515 em Arenas e Campos de Batalha.,526,4343,0,0,0
 365,Aumenta o nível do item para 515 em Arenas e Campos de Batalha.,527,4343,0,0,0
+366,,528,0,0,100,0
 367,Define nvl-i pela qualidade de criação (473–486).,400,4367,0,0,0
 368,Define nvl-i pela qualidade de criação (502–515).,521,4368,0,0,0
 369,Define nvl-i pela qualidade de criação (512–525).,521,4369,0,0,0
@@ -303,5 +317,144 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 373,Aumenta o nível de item para 476 em Arenas e Campos de Batalha.,532,4405,0,0,0
 374,Aumenta o nível de item para 476 em Arenas e Campos de Batalha.,533,4405,0,0,0
 375,Aumenta o nível de item para 476 em Arenas e Campos de Batalha.,534,4405,0,0,0
+376,,535,0,0,0,0
+377,,536,0,0,0,0
+378,,537,0,0,0,0
+379,,538,0,0,0,0
+380,,539,0,0,0,0
+381,,0,0,0,0,0
+383,,542,0,0,0,0
+384,,543,0,0,0,0
+385,,544,0,0,0,0
+386,,545,0,0,0,0
+387,,546,0,0,0,0
+388,Aumenta $en2 em $ev2 e em $ev1% o rendimento de Desenvoltura.,547,0,0,0,0
+389,Aumenta $en1 em $ev1.,548,0,0,0,0
+390,Seus feitiços e habilidades têm chance de causar dano elemental. A escola escolhida é baseada nas gemas engastadas. $@spelldesc437127,549,4449,0,0,0
+391,$@spelldesc435992 $@spelldesc437127,550,4446,0,0,0
+392,"Ao receber dano com poucos pontos de vida, lance Luz Estelar para se proteger. A frequência com que isso pode ocorrer aumentar com as gemas engastadas. $@spelldesc437127",551,4456,0,0,0
+393,Concede mais $ev1 de $en1 e aumenta em $ev2% sua chance de ganhar um Ponto de Perícia ao cortar gemas.,552,0,0,0,0
+394,,553,0,0,0,0
+395,,554,0,0,0,0
+396,,555,0,0,0,0
+397,,556,0,0,0,0
 398,,557,4640,0,0,0
 399,,557,4461,0,0,0
+400,"Causar dano a um alvo tem chance de abençoar sua arma, aumentando seu atributo secundário mais alto. O efeito desvanece lentamente ao longo do tempo. Também adiciona Único-equipado: Embelezado (2).",559,4681,0,0,0
+401,Aceita as trevas. Dobra os efeitos positivos e negativos de seu outro item embelezado nerubiano. Também adiciona Único-equipado: Embelezado (2).,560,4682,0,0,0
+402,,561,0,0,0,0
+403,,562,0,0,0,0
+404,,563,0,0,0,0
+405,,564,0,0,0,0
+406,,565,0,0,0,0
+407,,566,0,0,0,0
+408,,567,0,0,0,0
+409,,568,0,0,0,0
+410,Pó da Tempestade,569,0,0,0,0
+411,Estilhaço Rebrilhante,570,0,0,0,0
+412,Cristal Refulgente,571,0,0,0,0
+421,,580,0,0,0,0
+422,,581,0,0,0,0
+423,,582,0,0,0,0
+424,,583,0,0,0,0
+425,,584,0,0,0,0
+426,,585,0,0,0,0
+427,,586,0,0,0,0
+428,Add Unique-Equipped: Embellished (2).|n|nImbue your crafted equipment with a portion this Darkmoon Deck's power.,587,4839,0,0,0
+429,Add Unique-Equipped: Embellished (2).|n|nImbue your crafted equipment with a portion this Darkmoon Deck's power.,588,4767,0,0,0
+430,Add Unique-Equipped: Embellished (2).|n|nImbue your crafted equipment with a portion this Darkmoon Deck's power.,589,4768,0,0,0
+431,Add Unique-Equipped: Embellished (2).|n|nImbue your crafted equipment with a portion this Darkmoon Deck's power.,590,4769,0,0,0
+432,Punhado de Parafusos de Bismuto,594,0,0,0,0
+433,Fiação Extravagante,595,0,0,0,0
+434,Engrenagem Girante,596,0,0,0,0
+435,Chave de Segurança,597,0,0,0,0
+436,Circuito do Caos,598,0,0,0,0
+437,Amplificador de Entropia,599,0,0,0,0
+438,Aloca o atributo secundário de óculos ou braçadeiras criados por Engenharia para Acerto Crítico.,600,4683,0,0,0
+439,Aloca o atributo secundário de óculos ou braçadeiras criados por Engenharia para Aceleração.,601,4685,0,0,0
+440,Aloca o atributo secundário de óculos ou braçadeiras criados por Engenharia para Maestria.,602,4684,0,0,0
+441,Aloca o atributo secundário de óculos ou braçadeiras criados por Engenharia para Versatilidade.,603,4686,0,0,0
+442,Reduz em 15% a probabilidade de a gambiarra desse dispositivo dar defeito. Não acumula com bônus de especialização similares.,604,4723,0,0,0
+443,"Sempre que a gambiarra deste dispositivo der defeito, você tem grande chance de redirecionar as consequências para o jogador inimigo mais próximo.",605,4734,0,0,0
+444,$@spelldesc454468,606,4736,0,0,0
+445,$@spelldesc454455,607,4735,0,0,0
+446,"Chance de lançar uma granada de bolso, causando dano dividido entre os inimigos. $@spelldesc437127",608,4724,0,0,0
+447,"Quando fica com poucos pontos de vida, você arma minas em volta para desacelerar e causar dano a inimigos que pisarem nelas. $@spelldesc437127",609,4727,0,0,0
+448,,610,4740,0,0,0
+449,DNT does something awesome,649,0,0,0,0
+450,DNT does something awesome,650,0,0,0,0
+451,DNT does something awesome,651,0,0,0,0
+452,DNT does something awesome,652,0,0,0,0
+453,DNT does something awesome,653,0,0,0,0
+454,DNT does something awesome,654,0,0,0,0
+455,Você ganha $ev1 de Engenhosidade ao criar itens consumíveis.,655,0,0,0,0
+456,Você ganha $ev1 de Multicriação ao criar itens consumíveis.,656,0,0,0,0
+457,Você ganha $ev1 de Desenvoltura ao criar itens consumíveis.,704,0,0,0,0
+458,DNT does something awesome,658,0,0,0,0
+459,DNT does something awesome,659,0,0,0,0
+460,Guarantee Versatility and Haste.,660,3742,1,0,0
+461,Guarantee Mastery and Haste.,661,3743,1,0,0
+462,Guarantee Critical Strike and Haste.,662,3725,1,0,0
+463,Guarantee Versatility and Mastery.,663,3744,1,0,0
+464,Guarantee Critical Strike and Mastery.,664,3741,1,0,0
+465,Guarantee Versatility and Critical Strike.,665,3745,1,0,0
+466,DNT does something awesome,666,0,0,0,0
+467,DNT does something awesome,667,0,0,0,0
+468,DNT does something awesome,668,0,0,0,0
+469,DNT does something awesome,669,0,0,0,0
+470,Substitui Atributo Aleatório por Engenhosidade.,670,4784,0,0,0
+471,Substitui Atributo Aleatório por Desenvoltura.,671,3881,0,0,0
+472,Substitui Atributo Aleatório por Multicriação.,672,3882,0,0,0
+473,Substitui Atributo Aleatório por Velocidade de Criação.,673,3883,0,0,0
+474,Substitui Atributo Aleatório por Finesse.,674,3884,0,0,0
+475,Substitui Atributo Aleatório por Percepção.,675,3885,0,0,0
+476,Substitui Atributo Aleatório por Destreza.,676,3886,0,0,0
+477,,677,0,0,0,0
+478,,678,0,0,0,0
+479,,679,0,0,0,0
+480,,680,0,0,0,0
+481,,681,0,0,0,0
+482,,682,0,0,0,0
+483,"Acima de 80% dos pontos de vida, ganha Acerto Crítico. Também adiciona Único-equipado: Adornado (2).",683,4770,0,0,0
+484,"Acima de 80% dos pontos de vida, ganha Versatilidade. Também adiciona Único-equipado: Adornado (2).",684,4771,0,0,0
+486,Multicriação rende $ev1% a mais ao criar itens consumíveis.,686,0,0,0,0
+488,Você ganha $ev1 de Desenvoltura ao criar mercadorias de Joalheria de Khaz Algar.,685,0,0,0,0
+489,Define nvl-i pela qualidade de criação (577–590).,689,4700,0,0,0
+490,Define nvl-i pela qualidade de criação (606–619).,591,4701,0,0,0
+491,Define nvl-i pela qualidade de criação (616–629).,591,4702,0,0,0
+492,Você usa $ev1% menos Concentração ao se Concentrar numa criação.,690,0,0,0,0
+493,Você ganha $ev1 de Multicriação ao criar itens consumíveis.,691,0,0,0,0
+494,,692,0,0,0,0
+495,Poção do Guepardo Renascido,693,0,0,0,0
+496,Poção de Cura Algari,694,0,0,0,0
+497,Alegria do Explorador de Cavernas,695,0,0,0,0
+498,Poção Temperada,696,0,0,0,0
+499,,697,0,0,0,0
+500,,698,0,0,0,0
+501,,699,0,0,0,0
+502,,700,0,0,0,0
+503,,701,0,0,0,0
+504,,702,0,0,0,0
+505,,703,0,0,0,0
+506,You gain $ev1 Ingenuity when crafting consumable items.,687,0,0,0,0
+508,Você reembolsa $ev1% a mais de reagentes ao criar mercadorias de Alfaiataria de Khaz Algar.,688,0,0,0,0
+510,Finaliza sua receita com uma colher deste ingrediente secreto para aumentar a quantidade de porções.,706,0,0,0,0
+511,Adiciona um pouco deste ingrediente secreto para aumentar a quantidade de porções produzidas.,706,0,0,0,0
+512,Concede $ev1 de $en1.,708,0,0,0,0
+513,Aumenta em $ev1% a chance de ganhar um Ponto de Perícia.,709,0,0,0,0
+514,,711,4396,0,0,0
+515,,711,4777,0,0,0
+516,Aumenta $en1 em $ev1 nesta criação.,713,0,0,0,0
+517,Aumenta $en1 em $ev1 nesta criação.,714,0,0,0,0
+518,Aumenta $en1 em $ev1 nesta criação.,715,0,0,0,0
+519,Aumenta $en1 em $ev1 nesta criação.,716,0,0,0,0
+520,Define nvl-i em $ev1 e nível requerido em $ev2. Usa com Reagentes Opcionais para potencializar equipamentos.,717,4797,0,0,0
+521,,718,0,0,0,0
+522,,719,0,0,0,0
+523,,720,0,0,0,0
+524,"Define nvl-i pela qualidade de criação (545 - 558), adiciona Vinculado à Alma e nível requerido 74.",721,4799,0,0,0
+525,"Define nvl-i pela qualidade de criação (561 - 574), adiciona Vinculado à Alma e nível requerido 80.",722,4800,0,0,0
+526,Define nível de item em $ev1 e o nível requerido em $ev2.,723,4801,0,0,0
+527,Aumenta em $ev1 a Desenvoltura.,724,0,0,0,0
+528,Aumenta em $ev1 a Multicriação.,725,0,0,0,0
+529,"Concede a seus equipamentos criados uma melhoria imperceptível, mas completamente real.",726,4877,0,0,0

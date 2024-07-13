@@ -3518,7 +3518,7 @@ Riduzione del danno da un attaccante di livello %d: %.1f%%",1
 13654,VOICEMACRO_14_Dw_1,Sicuro.,1
 13655,VOICEMACRO_14_Dw_2,Certo.,1
 13656,VOICEMACRO_20_Hu_5,"Senti, ho un'idea per un film spettacolare. Parla di due Gnomi che trovano un bracciale del potere e lo devono portare alle Steppe Ardenti per lanciarlo nella Caldera Magmatica. Formano la Fratellanza del Bracciale. Lungo la strada, sono inseguiti da un Murloc chiamato Gottom che è ossessionato dal bracciale e da altri nove tizi con altrettanti bracciali magici. Potrebbe essere un'opera in tre parti, magari chiamata ""Il Signore dei Bracciali"". Il primo atto potrebbe chiamarsi ""La Fratellanza del Bracciale"", seguito da ""Un Paio di Torri"", con un finale strepitoso chiamato ""Ehi, il Re è Tornato"".",1
-13657,OPTION_TOOLTIP_USE_UISCALE,"Attiva questa opzione per attivare la barra della dimensione dell'interfaccia, disattiva per utilizzare le proporzioni predefinite.",1
+13657,OPTION_TOOLTIP_USE_UISCALE,"Attiva questa opzione per attivare la barra della dimensione dell'interfaccia, disattiva per utilizzare le proporzioni predefinite.",3
 13658,VOICEMACRO_19_Or_4_FEMALE,"Non parlare, seguimi e basta.",1
 13659,VOICEMACRO_20_Or_1_FEMALE,"Non ho rispetto per la gente con dei piercing insignificanti. Se lo fai, vai fino in fondo: ficcati una lancia in testa.",1
 13660,VOICEMACRO_20_Or_5_FEMALE,"Accidenti, quello stufato di cinghiale mi sta tornando su. Devo trovare una tazza in fretta. Qualcuno ha una Pietra del Ritorno da prestarmi?",1
@@ -3708,8 +3708,8 @@ permanente di questo messaggio.",1
 13861,OPTION_TOOLTIP_PET_NAMEPLATES,"Mostra/Nasconde il nome dei tuoi famigli, totem e guardiani.",1
 13863,ERR_ATTACK_CHARMED,Non puoi attaccare quando sei ammaliato.,1
 13864,SPELL_FAILED_NOT_ON_TAXI,Sei in volo.,1
-13865,UI_SCALE,Dimensione interfaccia,1
-13866,OPTION_TOOLTIP_UI_SCALE,Modifica la dimensione dell'interfaccia di gioco.,1
+13865,UI_SCALE,Dimensione interfaccia,3
+13866,OPTION_TOOLTIP_UI_SCALE,Modifica la dimensione dell'interfaccia di gioco.,3
 13867,WORLD_APPEARANCE,Aspetto del mondo,3
 13868,OPTION_TOOLTIP_ENVIRONMENT_DETAIL,Modifica la distanza massima a cui sono visibili gli oggetti. Riduci questo valore per aumentare le prestazioni.,3
 13869,CINEMATIC_SUBTITLES,Sottotitoli dei filmati,3
@@ -3788,7 +3788,7 @@ che fuori dal combattimento.",1
 13957,REMOVE_CHAT_DELAY_TEXT,Finestra di chat istantanea,1
 13958,OPTION_TOOLTIP_REMOVE_CHAT_DELAY,Mostra immediatamente la finestra di chat quando ci passi sopra il puntatore.,1
 13959,INSTANCE_BOOT_TIMER,Non sei più in un gruppo d'istanza. Verrai teletrasportato al cimitero più vicino in %d %s.,1
-13962,USE_UISCALE,Attiva dimensione interfaccia,1
+13962,USE_UISCALE,Attiva dimensione interfaccia,3
 13963,WINDOWED_MODE,Modalità in finestra,3
 13964,OPTION_TOOLTIP_WINDOWED_MODE,"Attiva questa opzione per giocare in finestra.
 
@@ -5742,7 +5742,7 @@ missione solo facendo spazio all'interno del registro.",1
 17218,MOVIE_RECORDING_COMPRESSING,Compressione,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,"Annulla la compressione prima della fine. Perderai la parte non compressa, mentre quella compressa verrà salvata su disco.",1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,Annulla compressione,1
-17221,MAC_OPTIONS,Opzioni Mac,1
+17221,MAC_OPTIONS,Opzioni Mac,3
 17223,MOVIE_RECORDING_ENABLE_GUI,Registra l'interfaccia utente,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,"Attiva questa opzione per mostrare l'interfaccia utente nel filmato. Indipendentemente dalle impostazioni, vedrai sempre l'interfaccia utente mentre giochi.",1
 17225,MOVIE_RECORDING_ENABLE_SOUND,Registra il sonoro,1
@@ -6638,7 +6638,7 @@ Indice di perizia: %s [+%.2F%% perizia]",1
 18163,SHOW_RAID_RANGE_TEXT,Distanza nell'interfaccia di incursione,1
 18164,OPTION_TOOLTIP_SHOW_RAID_RANGE,Mostra la distanza dei membri dell'incursione riducendo l'intensità della loro barra della salute quando sono lontani.,1
 18165,SLASH_GUILD_LEADER_REPLACE1,/greplace,1
-18166,ERR_NOT_SAME_ACCOUNT,Gli oggetti vincolati all'account possono essere usati solo dai tuoi personaggi.,1
+18166,ERR_NOT_SAME_ACCOUNT,Gli oggetti vincolati alla Brigata possono essere assegnati solo a personaggi della Brigata.,1
 18167,INTERFACE_OPTIONS,Opzioni dell'interfaccia,1
 18168,ADDONS,Add-on,3
 18169,STATUSTEXT_LABEL,Testo di stato,1
@@ -7393,7 +7393,7 @@ Riduci questo valore per migliorare le prestazioni.",3
 19037,FUEL,Benzina,1
 19038,RURU,Russo,5
 19039,LINK_TRADESKILL_TOOLTIP,Clicca qui per creare un collegamento alla tua professione.,1
-19040,ACHIEVEMENT_TITLE,Punti impresa,1
+19040,ACHIEVEMENT_TITLE,Punti impresa della Brigata,1
 19041,ITEM_LEVEL_RANGE_CURRENT,Richiede un livello da %d a %d (%d),1
 19042,STRING_SCHOOL_FLAMESTRIKE,(Fuocofuria),5
 19043,STRING_SCHOOL_FROSTSTRIKE,(Gelofuria),5
@@ -7711,7 +7711,7 @@ Riduci questo valore per migliorare le prestazioni.",3
 19376,STATISTICS,Statistiche,1
 19377,SPELL_FAILED_TARGET_NO_RANGED_WEAPONS,Il bersaglio non sta utilizzando armi a distanza.,1
 19378,ERR_INVITED_ALREADY_IN_GROUP_SS,"|Hplayer:%s|h[%s]|h ti ha invitato in un gruppo, ma non hai potuto accettare perché sei già in un gruppo.",1
-19379,ITEM_ACCOUNTBOUND,Vincolato all'account,5
+19379,ITEM_ACCOUNTBOUND,Vincolato alla Brigata,5
 19380,CALENDAR_EVENT_REMOVED_MAIL_SUBJECT,%s annullato.,1
 19381,CALENDAR_EVENT_REMOVED_MAIL_BODY,%s ha annullato %s. (%s),1
 19382,ACTION_SPELL_AURA_APPLIED_BUFF_FULL_TEXT_NO_SOURCE,%4$s ottiene %2$s.,1
@@ -7783,7 +7783,7 @@ Stai per essere rimosso dalla coda.",1
 19449,SHOW_NUMERIC_THREAT,Mostra la percentuale di minaccia,1
 19450,ERR_QUEST_PUSH_TIMER_EXPIRED_S,Tempo d'attesa scaduto per la Condivisione delle Missioni.,1
 19451,ERR_QUEST_PUSH_NOT_IN_PARTY_S,Non sei in un gruppo.,1
-19452,ITEM_BIND_TO_ACCOUNT,Si vincola all'account,5
+19452,ITEM_BIND_TO_ACCOUNT,Si vincola alla Brigata,5
 19453,SPELL_FAILED_CUSTOM_ERROR_45,Richiede un bersaglio vicino.,1
 19454,SHADOW_QUALITY,Qualità delle ombre,3
 19455,OPTION_TOOLTIP_SHADOW_QUALITY,"Modifica la qualità e la quantità delle ombre. Riducendo questo valore, le prestazioni potrebbero nettamente migliorare.",3
@@ -7969,7 +7969,7 @@ Stai per essere rimosso dalla coda.",1
 19650,WATCHFRAME_LOCK,Blocca riquadro degli obiettivi,1
 19651,OPTION_TOOLTIP_OBJECTIVES_IGNORE_CURSOR,Blocca il riquadro degli obiettivi e impedisce che venga visualizzato sotto al puntatore.,1
 19652,OBJECTIVES_VIEW_IN_QUESTLOG,Apri i dettagli della missione,1
-19653,OBJECTIVES_STOP_TRACKING,Interrompi tracciamento,1
+19653,OBJECTIVES_STOP_TRACKING,Non tracciare,1
 19654,OBJECTIVES_VIEW_IN_ACHIEVEMENTS,Apri le imprese,1
 19655,CALENDAR_ERROR_INVALID_SIGNUP,Non puoi iscriverti a questo evento.,5
 19656,OBJECTIVES_VIEW_ACHIEVEMENT,Apri l'impresa,1
@@ -7981,7 +7981,7 @@ Stai per essere rimosso dalla coda.",1
 19664,CHANGE_OPACITY,Cambia opacità,1
 19665,TRANSFER_ABORT_NEED_GROUP,"Trasferimento annullato, devi essere in un'incursione per poter entrare in questa istanza.",1
 19666,IGNORE_DIALOG,Ignora,1
-19667,OBJECTIVES_WATCH_TOO_MANY,"Non puoi seguire altri obiettivi, devi prima smettere di tracciarne qualcuno.",1
+19667,OBJECTIVES_WATCH_TOO_MANY,Non puoi seguire altre missioni.,1
 19668,ACTIVATE,Attiva,5
 19669,POWER_DISPLAY_COST,%s %s,1
 19670,POWER_DISPLAY_COST_PER_TIME,"%s %s, più %s al s",1
@@ -8352,7 +8352,7 @@ valutazione",1
 20070,BATTLEFIELD_IN_QUEUE_SIMPLE,Sei in coda per %s,1
 20071,BATTLEFIELD_QUEUE_CONFIRM_SIMPLE,"Ora puoi entrare a ""%s"".",1
 20072,QUEST_INTERMEDIATE_ITEMS_NEEDED,%s: (%d),1
-20073,OBJECTIVES_SHOW_QUEST_MAP,Mostra la mappa della missione,1
+20073,OBJECTIVES_SHOW_QUEST_MAP,Apri la mappa della missione,1
 20074,ERR_MAIL_LIMITED_DURATION_ITEM,Non puoi spedire oggetti con una durata limitata.,1
 20075,TRANSFER_ABORT_MAP_NOT_ALLOWED,Non è possibile inserire una mappa in questo momento.,1
 20076,SLASH_SET_TITLE1,/settitle,1
@@ -10060,8 +10060,8 @@ Richiede: %s%d-%d giocatori.|r",1
 21882,MINIMAP_TRACKING_NONE,Nessuno,1
 21883,GUILDCONTROL_OPTION19,Modifica le schede,1
 21884,CONFIRM_SAVE_EQUIPMENT_SET,"Vuoi salvare il set di equipaggiamento ""%s""?",1
-21885,ITEM_BNETACCOUNTBOUND,Vincolato all'account Blizzard,5
-21886,ITEM_BIND_TO_BNETACCOUNT,Si vincola all'account Blizzard,5
+21885,ITEM_BNETACCOUNTBOUND,Vincolato alla Brigata,5
+21886,ITEM_BIND_TO_BNETACCOUNT,Si vincola alla Brigata,5
 21887,AUCTION_MAIL_ITEM_STACK,%s (%d),1
 21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,"Tieni premuto ""ALT"" per prendere/trascinare gli incantesimi dalle barre delle azioni bloccate.",1
 21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,"Tieni premuto ""CTRL"" per prendere/trascinare gli incantesimi dalle barre delle azioni bloccate.",1
@@ -10383,7 +10383,7 @@ Richiede: %s2, 3 o 5 giocatori.|r",1
 22210,GUILD_MOVE_STARTING,La tua gilda è in fase di spostamento. La banca di gilda sarà inaccessibile finché lo spostamento non sarà completato.,1
 22211,GUILD_MOVE_COMPLETE,Lo spostamento della gilda è completo.,1
 22212,GUILD_RENAMED,Il tuo Capogilda ha cambiato il nome della tua gilda.,1
-22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,1
+22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Guida alle avventure,1
 22215,ENCOUNTER_JOURNAL,Diario delle istanze,1
 22216,ENCOUNTER_JOURNAL_SEARCH_RESULTS,"Risultati della ricerca per ""%s""(%d)",1
@@ -10498,8 +10498,8 @@ Aumenta la potenza magica di %s.",1
 22343,MAC_DISABLE_OS_SHORTCUTS,Disattiva le scorciatoie da tastiera del sistema operativo,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disattiva le scorciatoie da tastiera del sistema operativo. Attiva questa opzione se non vuoi accidentalmente attivare una scorciatoia del sistema operativo mentre giochi.,3
 22345,REQ_LEVEL_ABBR,Liv,1
-22346,MAC_OPTIONS_MISC,Varie,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Attiva questa opzione per utilizzare il tasto Command invece del tasto Control come modificatore per l'assegnazione dei tasti.,1
+22346,MAC_OPTIONS_MISC,Varie,3
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Attiva questa opzione per utilizzare il tasto Command invece del tasto Control come modificatore per l'assegnazione dei tasti.,3
 22349,SCROLL_OF_RESURRECTION,Pergamena della Resurrezione,1
 22350,ENTER_EMAIL_OR_CHARACTER,Digita l'indirizzo e-mail o il nome del personaggio e il reame,1
 22351,SEND_SCROLL_OF_RESURRECTION,Invia la Pergamena della Resurrezione,1
@@ -10619,7 +10619,7 @@ equipaggiamento vincolato.",1
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,"La tua coda è stata temporaneamente sospesa, ma manterrai la posizione acquisita.",1
 22466,RF_REWARD_EXPLANATION2,Ogni vittoria successiva alla prima settimanale ti farà guadagnare:,1
 22467,RF_REWARD_EXPLANATION1,Il tuo primo completamento settimanale ti farà guadagnare:,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"Per usare questa opzione devi attivare l'accessibilità. Attiva l'opzione""Abilità l'accesso a dispositivi di assistenza"" nel pannello di Preferenze di Sistema dell'Accesso Universale. Vuoi aprire le Preferenze di Sistema ora?",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"Per usare questa opzione devi attivare l'accessibilità. Attiva l'opzione""Abilità l'accesso a dispositivi di assistenza"" nel pannello di Preferenze di Sistema dell'Accesso Universale. Vuoi aprire le Preferenze di Sistema ora?",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,Incompatibilità con il ruolo richiesto per il gruppo.,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,Non sei riuscito a unirti all'istanza in corso.,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,Il bersaglio è già affetto da Polvere Stellare n. 2.,1
@@ -11034,7 +11034,7 @@ Prova a controllare in un altro momento.",1
 22869,INCLUDED_SCENARIOS_EMPTY,Il livello dei personaggi nel tuo gruppo è insufficiente per qualsiasi scenario casuale.,1
 22870,LFG_TYPE_RANDOM_SCENARIO,Scenario casuale,1
 22871,SCENARIO_RANDOM_EXPLANATION,Completare gli scenari casuali fornisce ricompense aggiuntive.,1
-22872,ACHIEVEMENT_EARNED_BY,Compiuta da: |cffffffff%s|r,1
+22872,ACHIEVEMENT_EARNED_BY,Compiuta dalla Brigata.|nCompletata da: |cffffffff%s|r,1
 22873,ACHIEVEMENT_PROGRESSED,Progresso impresa,1
 22874,ENTER_SCENARIO,Entra,1
 22875,RANDOM_SCENARIO,Scenario casuale,1
@@ -11497,8 +11497,7 @@ Dovresti assicurarti che siano tutte presenti sulla tua barra delle azioni.",1
 Accettare l'invito potrebbe trasferirti su un altro reame.",1
 23369,GUILD_CHALLENGE_TYPE4,Scenari,1
 23370,GUILD_CHALLENGE_TYPE5,Spedizione Mitica+,1
-23372,ACCOUNT_WIDE_ACHIEVEMENT,"I progressi ottenuti con qualsiasi personaggio
-contribuiranno a questa impresa.",1
+23372,ACCOUNT_WIDE_ACHIEVEMENT,Qualsiasi personaggio nella Brigata può fare progressi\nper compiere questa impresa.,1
 23373,AUCTION_TIME_LEFT0,Terminata!,1
 23374,AUCTION_TIME_LEFT0_DETAIL,Asta terminata.,1
 23375,WOW_FRIEND,Amico di World of Warcraft,1
@@ -11535,7 +11534,7 @@ contribuiranno a questa impresa.",1
 
 Invitare un amico utilizzando il BattleTag mostrerà solo il tuo BattleTag. Devi aggiungere il simbolo # e il seguente numero per aggiungere il BattleTag di un amico.",3
 23420,REPORT_PET_NAME_CONFIRMATION,Vuoi davvero segnalare %s per un nome del famiglio inappropriato?,1
-23422,ACCOUNT_LEVEL_MOUNT,Cavalcatura vincolata all'account Battle.net,1
+23422,ACCOUNT_LEVEL_MOUNT,Cavalcatura della Brigata,1
 23423,PARTY_IN_PUBLIC_GROUP_MESSAGE,Questo personaggio è già in un gruppo di istanza.,1
 23425,GUILD_CHALLENGE_TOOLTIP4,Completa uno scenario di livello appropriato mentre sei in un gruppo di gilda.,1
 23426,GUILD_CHALLENGE_TOOLTIP5,Completa una qualsiasi spedizione dell'attuale espansione dopo avere attivato una Mitica+ con un gruppo di gilda.,1
@@ -11562,8 +11561,7 @@ di un campo di battaglia casuale.",1
 23446,CR_RANGED_EXPERTISE_TOOLTIP,"Riduce la probabilità che i propri colpi vengano schivati di %s.
 Indice di perizia: %s [+%.2F%% perizia]",1
 23447,ADD_CHARACTER_FRIEND,Aggiungi personaggio come amico,1
-23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,"Il compimento di questa impresa
-verrà attribuito a tutti i tuoi personaggi.",1
+23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,Compiuta dalla Brigata.,1
 23449,ERR_PETBATTLE_NO_ACCOUNT_LOCK,Il diario delle mascotte è bloccato da un altro utente su questo account.,1
 23450,CATCH_PET_CONDITION,Devi avere una mascotte da combattimento di livello 3.,1
 23451,SLASH_WHISPER1,/cw,1
@@ -11636,12 +11634,12 @@ verrà attribuito a tutti i tuoi personaggi.",1
 23523,BATTLE_PET_ABILITY_TEXT_OBJECT_BOOMBOT,Bombabot 321,1
 23524,PET_BATTLE_TRAP_UPGRADE,Hai sbloccato una nuova trappola!,1
 23525,ACHIEVEMENT_FILTER_ALL_EXPLANATION,Mostra tutte le imprese,1
-23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,Mostra le imprese compiute con l'account,1
+23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,Mostra le imprese compiute con la Brigata,1
 23527,ACHIEVEMENT_FILTER_INCOMPLETE_EXPLANATION,Mostra le imprese che questo personaggio può compiere,1
 23528,ACHIEVEMENT_FILTER_TITLE,Filtro imprese,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Un'altra mascotte si unisce alla battaglia.,1
 23530,ACHIEVEMENT_COMPLETED_BY,Completata da: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cffff2020Non compiuta da:|r |cffffffff%s|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s può ancora completarla.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,Sei ora in coda per uno scontro tra mascotte.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,Sei già in coda per uno scontro tra mascotte.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Impossibile unirsi alla coda per uno scontro tra mascotte.,1
@@ -11779,8 +11777,8 @@ Puoi anche visitare uno Stalliere in citta se l'abilità non è disponibile.",1
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,Metti in gabbia (scomparto mascotte),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,Metti in gabbia (salute),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,Seleziona una mascotte dall'elenco a sinistra.,1
-23664,MAC_USE_COMMAND_AS_CONTROL,Usa il tasto Command come tasto Control,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Usa il tasto Command o il tasto Control per la stessa funzione.,1
+23664,MAC_USE_COMMAND_AS_CONTROL,Usa il tasto Command come tasto Control,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Usa il tasto Command o il tasto Control per la stessa funzione.,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,Command e pulsante sinistro per pulsante destro,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,Tieni premuto Command e premi il pulsante sinistro per simulare il pulsante destro del mouse.,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,Impossibile aggiungere mascotte al tuo account.,1
@@ -12489,7 +12487,7 @@ Indice d'elusione: %s [+%.2f%% elusione]",1
 24437,BLIZZARD_CHALLENGE_CANCEL,Annulla,3
 24438,ADVANCED_COMBAT_LOGGING,Cronologia di combattimento avanzata,3
 24439,OPTION_TOOLTIP_ADVANCED_COMBAT_LOGGING,"Attiva la registrazione di informazioni aggiuntive quando il registro di combattimento viene salvato su un file di testo. Ciò potrebbe causare ritardi alla connessione quando viene utilizzato il comando di chat ""/regcomb"".",3
-24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"Per usare questa opzione, devi permettere l'accesso a %s dal pannello Sicurezza nelle Preferenze di Sistema. Vuoi aprire adesso le Preferenze di Sistema?",1
+24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"Per usare questa opzione, devi permettere l'accesso a %s dal pannello Sicurezza nelle Preferenze di Sistema. Vuoi aprire adesso le Preferenze di Sistema?",3
 24441,BLIZZARD_STORE_ERROR_TITLE_ALREADY_OWNED,Già in tuo possesso,3
 24442,BLIZZARD_STORE_ERROR_MESSAGE_ALREADY_OWNED,Possiedi già questo prodotto!,3
 24443,ITEM_SET_BONUS_NO_VALID_SPEC,Gli effetti bonus variano a seconda della specializzazione del personaggio.,1
@@ -12680,7 +12678,7 @@ Indice di critico: %s [+%.2f%% probabilità di critico]",1
 24632,BAG_FILTER_CLEANUP,Riordinamento,1
 24633,BAG_FILTER_EQUIPMENT,Equipaggiamento,5
 24634,BAG_FILTER_CONSUMABLES,Consumabili,5
-24635,BAG_FILTER_TRADE_GOODS,Beni commerciali,5
+24635,BAG_FILTER_PROFESSION_GOODS,Beni delle Professioni,5
 24636,BAG_FILTER_JUNK,Cianfrusaglie,1
 24637,BAG_FILTER_IGNORE,Ignora questa sacca,1
 24638,REWARD_FOR_SPECFIC_PVP_WIN,Ricompensa per la vittoria: Tiro per il bottino,1
@@ -12724,7 +12722,7 @@ Indice di critico: %s [+%.2f%% probabilità di critico]",1
 24676,TOY_PROGRESS_FORMAT,%d/%d,1
 24677,STAT_TOOLTIP_BONUS_AP_SP,Aumenta gli effetti degli attacchi e delle abilità,1
 24678,COLLECTION_PAGE_NUMBER,Pagina %d/%d,1
-24679,COLLECTIONS,Collezioni,1
+24679,COLLECTIONS,Collezioni della Brigata,1
 24681,GARRISON_BUILDING_IN_PROGRESS,In costruzione,1
 24682,GARRISON_UPGRADE_IN_PROGRESS,In aggiornamento,1
 24683,GARRISON_BUILDING_LOCKED,Edificio bloccato,1
@@ -13684,7 +13682,7 @@ Consigliamo che tutti i membri del gruppo scelgano lo stesso edificio per questa
 25625,ERR_YELL_RESTRICTED_TRIAL,Gli account di prova gratuita non possono urlare. |cffffd000|Hstorecategory:gametime|h[Clicca per aggiornare l'account.]|h|r,1
 25626,ERR_PETITION_RESTRICTED_ACCOUNT_TRIAL,Gli account di prova gratuita non possono firmare la licenza di gilda. |cffffd000|Hstorecategory:gametime|h[Clicca per aggiornare l'account.]|h|r,1
 25627,ERR_CHAT_RESTRICTED_TRIAL,Gli account di prova gratuita non possono inviare messaggi infiniti. Devi attendere prima di poter inviare messaggi ad altri giocatori. |cffffd000|Hstorecategory:gametime|h[Clicca qui per aggiornare l'account.]|h|r,1
-25628,CAP_REACHED_TRIAL,Livello massimo dell'account di prova gratuito raggiunto.,1
+25628,CAP_REACHED_TRIAL,Livello massimo dell'account di prova gratuito raggiunto.,3
 25629,CAPPED_MONEY_TRIAL,Quantità massima d'oro per l'account di prova gratuito raggiunta.,1
 25630,CAPPED_LEVEL_TRIAL,Hai raggiunto il livello massimo della prova gratuita.,1
 25631,LEVEL_CAP_REACHED_TRIAL,Hai raggiunto il livello massimo possibile per un account di prova gratuita. |cffffd000|Hstorecategory:gametime|h[Clicca qui per aggiornare l'account.]|h|r,1
@@ -14233,7 +14231,7 @@ onorevoli aumentato del %d%%.|r",1
 32237,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID_COMBAT,Evidenzia il tuo personaggio solo in combattimento.,1
 32238,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG,Evidenzia il tuo personaggio nei campi di battaglia.,1
 32239,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG_COMBAT,Evidenzia il tuo personaggio solo in combattimento.,1
-32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Evidenzia il tuo personaggio nelle incursioni e nei campi di battaglia.,1
+32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Aggiungi un effetto di evidenziazione per rendere più facile vedere il tuo personaggio.,1
 32241,LFG_LIST_TOOLTIP_HONOR_LEVEL,Livello Onore richiesto: |cffffffff%d|r,1
 32242,CONFIRM_LEARN_SPEC_COST,Attivare questa specializzazione costa %s. Vuoi davvero apprenderla?,1
 32243,PRIMARY_SPEC_CHANGE_AT_CLASS_TRAINER,Puoi cambiare la specializzazione primaria parlando con un istruttore della tua classe.,1
@@ -14258,7 +14256,7 @@ onorevoli aumentato del %d%%.|r",1
 32268,AUCTION_CATEGORY_ITEM_ENHANCEMENT,Potenziamenti oggetto,1
 32269,AUCTION_CATEGORY_CONSUMABLES,Consumabili,1
 32270,AUCTION_CATEGORY_GLYPHS,Glifi,1
-32271,AUCTION_CATEGORY_TRADE_GOODS,Beni commerciali,1
+32271,AUCTION_CATEGORY_TRADE_GOODS,Reagenti,1
 32272,AUCTION_CATEGORY_RECIPES,Ricette,1
 32273,AUCTION_CATEGORY_BATTLE_PETS,Mascotte da combattimento,1
 32274,AUCTION_CATEGORY_QUEST_ITEMS,Oggetti di missione,1
@@ -14705,7 +14703,7 @@ Rapporto Missione",1
 33778,ACCOUNT_CREATE_FAILED,Creazione account fallita,2
 33779,ACCOUNT_CREATE_IN_PROGRESS,Creazione account,2
 33780,ACCOUNT_CREATE_SUCCESS,Account creato,2
-33781,ACCOUNT_CREATE_URL,https://eu.battle.net/account/management/,2
+33781,ACCOUNT_CREATE_URL,https://account.battle.net,2
 33782,ACCOUNT_MESSAGE_BODY_NO_READ_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBodyUnread.xml,2
 33783,ACCOUNT_MESSAGE_BODY_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBody.xml,2
 33784,ACCOUNT_MESSAGE_BUTTON_READ,Segna come già letto,2
@@ -14760,7 +14758,7 @@ Vuoi riattivare adesso l'abbonamento e continuare da dove avevi lasciato?",2
 33833,AUTH_LOCKED_ENFORCED,Hai bloccato il tuo account. Puoi cambiare questa impostazione telefonando al numero di sblocco dell'account.,2
 33834,AUTH_LOGIN_SERVER_NOT_FOUND,Server di connessione non valido,2
 33835,AUTH_NO_TIME,Il tuo abbonamento a World of Warcraft è scaduto. Per poter giocare devi riattivare il tuo account. Per maggiori informazioni vai su www.worldofwarcraft.com/account.,2
-33836,AUTH_NO_TIME_URL,https://eu.battle.net/account/management/,2
+33836,AUTH_NO_TIME_URL,https://account.battle.net,2
 33837,AUTH_OK,Autenticazione completata,2
 33838,AUTH_PARENTAL_CONTROL,L'accesso a questo account è attualmente limitato dal controllo parentale. Puoi cambiare le impostazioni dalla schermata di gestione online del tuo account.,2
 33839,AUTH_PARENTAL_CONTROL_URL,http://www.wow-europe.com/account,2
@@ -14887,7 +14885,7 @@ Tempo previsto: calcolo in corso...",2
 33952,CHARACTER_UPGRADE_CHARACTER_LIST_CHANGED_ERROR,Qualcosa è andato storto. Riavvio del processo di potenziamento.,2
 33953,CHARACTER_UPGRADE_CHARACTER_LIST_LABEL,Potenziamento istantaneo,2
 33954,CHARACTER_UPGRADE_COMPLETE_LABEL,Potenziamento istantaneo completato!,2
-33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,Vuoi davvero completare il potenziamento di questo personaggio? In seguito non sarà più possibile cambiare.,3
+33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:Vuoi davvero completare il |rpotenziamento|cnHIGHLIGHT_FONT_COLOR: di questo personaggio? In seguito non sarà più possibile cambiare.|r,3
 33956,CHARACTER_UPGRADE_FINISH_LABEL,Nuovo livello!,6
 33957,CHARACTER_UPGRADE_FREE_100_POPUP_DESCRIPTION,"World of Warcraft: Legion include un potenziamento istantaneo al livello 100. Puoi decidere di potenziare un personaggio già esistente, provare una nuova classe su cui usare il potenziamento o chiudere la finestra e usare il potenziamento più avanti.",2
 33958,CHARACTER_UPGRADE_FREE_100_POPUP_TITLE,Benvenuto a Legion!,2
@@ -14895,7 +14893,7 @@ Tempo previsto: calcolo in corso...",2
 Ecco il potenziamento istantaneo incluso
 nell'acquisto di Warlords of Draenor.",2
 33960,CHARACTER_UPGRADE_FREE_90_POPUP_TITLE,Potenziamento al Livello 90,2
-33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT,"Vuoi davvero completare il potenziamento di questo personaggio? Cliccando su ""Procedi!"", non potrai più richiedere un rimborso.",2
+33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT," |cnHIGHLIGHT_FONT_COLOR:Vuoi davvero completare il |rpotenziamento|cnHIGHLIGHT_FONT_COLOR: di questo personaggio? Cliccando su ""Nuovo livello!"", non potrai più richiedere un rimborso.|r",2
 33962,CHARACTER_UPGRADE_KRW_STATIC_WARNING,"Puoi annullare questo ordine entro 7 giorni dalla data d'acquisto. Ciò nonostante, dopo aver completato il potenziamento del personaggio non sarà più possibile ricevere il rimborso, anche se richiesto entro i tempi stabiliti.",2
 33963,CHARACTER_UPGRADE_NO_VETERAN_BONUS,Nessun bonus veterano,2
 33964,CHARACTER_UPGRADE_POPUP_GET_STARTED,Attiva subito,2
@@ -14941,7 +14939,7 @@ nell'acquisto di Warlords of Draenor.",2
 34004,CHAR_DECLINE_IN_PROGRESS,Aggiornamento personaggio...,2
 34005,CHAR_DELETE_FAILED,Eliminazione del personaggio fallita,2
 34006,CHAR_DELETE_FAILED_ARENA_CAPTAIN,Questo personaggio è il capitano di una squadra d'arena e non può essere eliminato finché tale ruolo non viene trasferito a un altro personaggio.,2
-34007,CHAR_DELETE_FAILED_GUILD_LEADER,Questo personaggio è il capogilda e non può essere eliminato finché tale ruolo non viene trasferito a un altro personaggio.,2
+34007,CHAR_DELETE_FAILED_GUILD_LEADER,Questo personaggio è il capogilda e non può essere eliminato finché tale ruolo non viene trasferito a un altro personaggio o la gilda non viene sciolta.,2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,Questo personaggio ha dei messaggi di posta e non può essere eliminato.,2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,"Questo personaggio non può essere eliminato fintanto che ha un Gettone WoW nell'inventario, nella Cassetta della Posta o nella Casa d'Aste.",2
 34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,Questo personaggio non può essere eliminato mentre è in corso un servizio per il personaggio.,2
@@ -15186,9 +15184,7 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 34245,CONFIRM_CHAR_DELETE,"Vuoi eliminare
 |cffffffff%1$s   %3$s   Livello %2$d|r?",2
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,"Digita ""ELIMINA"" per confermare.",2
-34247,CONFIRM_DISABLE_ADDONS,"Dovrai riattivare le modifiche una volta installata la versione aggiornata. Vuoi davvero disattivarle?
-
-|cffffffffPotrai riattivarle con il pulsante ""Add-on"" in basso a sinistra.|r",2
+34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"Cliccando su ""OK"" uscirai dal gioco e aprirai automaticamente il sito internet:
 %s",2
 34249,CONFIRM_LOAD_ADDONS,"Il gioco potrebbe non funzionare correttamente se non verranno aggiornate tutte le modifiche. Vuoi davvero provare a caricarle?
@@ -15233,7 +15229,7 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 34286,DEMONHUNTER_DISABLED,Richiede Legion e un personaggio di livello 70.,2
 34287,DEMON_HUNTER_RESTRICTED_HAS_DEMON_HUNTER,Puoi avere un solo Cacciatore di Demoni per reame.,2
 34288,DEMON_HUNTER_RESTRICTED_NEED_LEVEL_70,Devi avere almeno un personaggio di livello 70 in questo reame.,2
-34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">La tua scheda video non è compatibile o potrebbe funzionare con basse prestazioni. Per ulteriori informazioni, visita il sito <a href=""http://nydus.battle.net/WoW/itIT/launcher/video-unsupported"">http://nydus.battle.net/WoW/itIT/launcher/video-unsupported</a>.</p></body></html>",2
+34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34290,DIALOG_HELP_MORE_INFO,Altre info,2
 34291,DISCONNECTED,Sei stato disconnesso dal server.,6
 34292,DISCONNECT_REASON_BAN,"Questo account è stato sospeso temporaneamente per violazione delle Condizioni d'uso http://eu.blizzard.com/it-it/company/legal/wow_tou.html. La sospensione scadrà fra %d |4giorno:giorni;, %d |4ora:ore;, %d |4minuto:minuti;. Consulta l'e-mail che ti è stata inviata per ulteriori dettagli sulla violazione e sulla procedura d'appello.",2
@@ -15244,8 +15240,8 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 World of Warcraft e scaricare la patch.",2
 34297,DPS,DPS,2
 34298,DRAENEI_DISABLED,Richiede The Burning Crusade,2
-34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Un driver delle tue periferiche video non è compatibile. Per ulteriori informazioni, visita il sito <a href="" http://nydus.battle.net/WoW/itIT/launcher/driver-unsupported"">http://nydus.battle.net/WoW/itIT/launcher/driver-unsupported</a>.</p></body></html>",2
-34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Il driver video non è aggiornato. Per ulteriori informazioni, visita il sito <a href=""http://nydus.battle.net/WoW/itIT/launcher/driverupdates"">http://nydus.battle.net/WoW/itIT/launcher/driverupdates</a>.</p></body></html>",2
+34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
+34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
 34301,DRUID_DISABLED,"Devi scegliere una razza diversa
 per giocare questa classe.",2
 34302,EMAIL_ADDRESS,Indirizzo e-mail,2
@@ -15266,7 +15262,7 @@ per giocare questa classe.",2
 34317,FACTION_INFO_ALLIANCE,"        L'Alleanza è composta da cinque razze: i nobili Umani, gli avventurosi Nani, gli enigmatici Elfi della Notte, gli ingegnosi Gnomi e i nobili Draenei. Uniti nell'odio verso tutto ciò che è demoniaco, combattono per ripristinare l'ordine in questo mondo devastato dalla guerra.",2
 34318,FACTION_INFO_HORDE,"        L'Orda è composta da cinque razze: i brutali Orchi, i sinistri Non Morti, gli spirituali Tauren, gli arguti Troll e i motivati Elfi del Sangue. Circondate dai nemici su tutti i fronti, queste razze emarginate si sono unite per assicurarsi reciprocamente la sopravvivenza.",2
 34319,FINISH,Fine,2
-34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">Questa scheda video non è supportata da World of Warcraft. Per ulteriori informazioni, visita il sito <a href=""http://nydus.battle.net/WoW/itIT/launcher/fixedfunction-unsupported"">http://nydus.battle.net/WoW/itIT/launcher/fixedfunction-unsupported</a>.</p></body></html>",2
+34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34321,GAMETYPE_NORMAL,Normale,2
 34322,GAMETYPE_PVE,Normale,2
 34323,GAMETYPE_PVE_TEXT,"Questi reami permettono di concentrarsi sull'avventura e sul combattimento contro i mostri, lasciando libera scelta sulle modalità di scontro con gli altri giocatori.",2
@@ -15460,12 +15456,10 @@ Tempo previsto: analisi in corso...",2
 34496,RANDOMIZE,Casuale,2
 34497,REACTIVATE_ACCOUNT_NOW,Riattiva ora,2
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,Sei stato disconnesso dai servizi Blizzard. Devi riconnetterti per poter cambiare reame.,2
-34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"Il numero di personaggi che
-hai creato in questo reame.",2
+34499,REALMLIST_NUMCHARACTERS_TOOLTIP,Tutti i personaggi vengono mostrati\nnell'elenco personaggi a prescindere dal reame.,2
 34500,REALMLIST_POPULATION_TOOLTIP,"I reami segnalati con ""Nuovi giocatori"" offrono la miglior esperienza di gioco.
 Quelli ""Pieni"" sono i più affollati e potresti dover aspettare per giocare.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,"Assicurati di scegliere il reame
-nel quale giocano i tuoi amici!",2
+34501,REALMLIST_REALMNAME_TOOLTIP,"Il reame che scegli influenza alcune funzioni tra\ncui il commercio, le gilde e le incursioni Mitiche.",2
 34502,REALMLIST_TYPE_TOOLTIP,Normale = nessuna regola speciale.\nGdR = reame Gioco di Ruolo.,2
 34503,REALM_CHARACTERS,Personaggi,6
 34504,REALM_DESCRIPTION,Scegli un reame,2
@@ -15535,7 +15529,7 @@ per giocare questa classe.",2
 34565,SELECT_ACCOUNT,Seleziona un account,2
 34566,SELECT_CHARACTER,Seleziona un personaggio,2
 34567,SELECT_CHARACTER_ACTIVE_LABEL,Scegli il personaggio sulla destra,2
-34568,SELECT_CHARACTER_RESULTS_FORMAT,|c%s%s (livello %d %s)|r,2
+34568,SELECT_CHARACTER_RESULTS_FORMAT,%1$s\n%3$s di livello %2$d,2
 34569,SELECT_CHARACTER_RESULTS_LABEL,Personaggio:,2
 34570,SELECT_FACTION_ACTIVE_LABEL,Fazione scelta,2
 34571,SELECT_FACTION_RESULTS_FORMAT,|c%s%s|r,2
@@ -15575,7 +15569,7 @@ per giocare questa classe.",2
 34601,STREAMING_BUILD,Streaming,2
 34602,SUGGESTED_REALM_TEXT,|cffffffffSei stato assegnato al reame|r %s |cffffffff.|r,2
 34603,SUGGEST_REALM,Reame suggerito,2
-34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">Questo sistema non verrà supportato dalle prossime versioni di World of Warcraft. Per ulteriori informazioni, visita il sito <a href=""http://nydus.battle.net/WoW/itIT/launcher/sse1-unsupported"">http://nydus.battle.net/WoW/itIT/launcher/sse1-unsupported</a>.</p></body></html>",2
+34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34605,TAIWAN,Taiwan,7
 34606,TECH_SUPPORT,Assistenza Tecnica,2
 34607,TECH_SUPPORT_URL,http://www.blizzard.com/support/wow/,2
@@ -15605,7 +15599,7 @@ Il vecchio nome non è più disponibile, dovrai sceglierne uno nuovo quando ti c
 34630,UNDELETE_TOOLTIP,Ripristina personaggio eliminato,2
 34631,UNDELETE_TOOLTIP_COOLDOWN,"Devi attendere %s prima di poter
 ripristinare un altro personaggio eliminato.",2
-34632,UNDELETE_TOOLTIP_DISABLED,Il ripristino dei personaggi eliminati non è momentaneamente disponibile. Riprova più tardi.,2
+34632,UNDELETE_TOOLTIP_DISABLED,Restoring a Deleted Character is temporarily unavailable. Your patience is appreciated while we work on a resolution.,2
 34633,UNKNOWN_ZONE,Zona sconosciuta,2
 34634,UNLOCK_TEXT,per sbloccare queste epiche caratteristiche:,2
 34635,UPGRADE_ACCOUNT,Aggiorna l'account alla versione completa,2
@@ -15643,21 +15637,21 @@ ripristinare un altro personaggio eliminato.",2
 34666,VIDEO_OPTIONS_RESET,Le tue impostazioni video sono cambiate.,2
 34667,VIEW_ALL_REALMS,Visualizza elenco reami,2
 34668,VIRTUAL_KEYPAD_OKAY,OK,2
-34669,VISITABLE_URL1,http://itIT.nydus.battle.net/WOW/itIT/client/in_game_mail_link_1?r=EU&amp;l=%s&amp;sr=%u&amp;c=%x%x,2
-34670,VISITABLE_URL10,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=TW,2
-34671,VISITABLE_URL11,https://nydus.battle.net/WoW/itIT/client/add-payment?targetRegion=EU,2
-34672,VISITABLE_URL12,https://nydus.battle.net/WoW/itIT/client/support/recruit-a-friend-basics?targetRegion=EU,2
-34673,VISITABLE_URL13,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=KR,2
-34674,VISITABLE_URL14,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=US,2
-34675,VISITABLE_URL15,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=US,2
-34676,VISITABLE_URL16,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=EU,2
-34677,VISITABLE_URL17,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=EU,2
-34678,VISITABLE_URL18,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=CN,2
-34679,VISITABLE_URL19,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=CN,2
-34680,VISITABLE_URL2,http://itIT.nydus.battle.net/WOW/itIT/client/trial_restriction_error_1?region=EU&amp;accountName=%s,2
-34681,VISITABLE_URL20,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=TW,2
-34682,VISITABLE_URL21,https://nydus.battle.net/WoW/%s/client/choose-payment-method?targetRegion=EU,2
-34683,VISITABLE_URL22,http://nydus.battle.net/WoW/%s/client/subscription-setup?targetRegion=%s,2
+34669,VISITABLE_URL1,https://shop.battle.net/product/world-of-warcraft-service-guild-services,2
+34670,VISITABLE_URL10,https://blizzard.com/tos,2
+34671,VISITABLE_URL11,https://account.battle.net/payment,2
+34672,VISITABLE_URL12,https://support.blizzard.com/article/11009,2
+34673,VISITABLE_URL13,https://blizzard.com/privacy,2
+34674,VISITABLE_URL14,https://blizzard.com/tos,2
+34675,VISITABLE_URL15,https://blizzard.com/privacy,2
+34676,VISITABLE_URL16,https://blizzard.com/tos,2
+34677,VISITABLE_URL17,https://blizzard.com/privacy,2
+34678,VISITABLE_URL18,https://legal.battlenet.com.cn/tos,2
+34679,VISITABLE_URL19,https://legal.battlenet.com.cn/privacy,2
+34680,VISITABLE_URL2,https://shop.battle.net/family/world-of-warcraft#games,2
+34681,VISITABLE_URL20,https://blizzard.com/privacy,2
+34682,VISITABLE_URL21,https://account.battle.net/payment,2
+34683,VISITABLE_URL22,https://us.shop.battle.net/product/world-of-warcraft-subscription,2
 34684,VISITABLE_URL23,https://battle.net/support/article/22231,3
 34685,VISITABLE_URL24,https://eu.battle.net/support/it/article/23684,3
 34686,VISITABLE_URL25,https://battle.net/support/article/24517,3
@@ -15665,17 +15659,17 @@ ripristinare un altro personaggio eliminato.",2
 34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,3
 34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,3
 34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,3
-34691,VISITABLE_URL3,http://itIT.nydus.battle.net/wow/itIT/client/item-restoration,2
+34691,VISITABLE_URL3,https://support.blizzard.com/restoration,2
 34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,3
 34693,VISITABLE_URL31,https://battle.net/support/article/34787,3
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,3
-34695,VISITABLE_URL4,http://itIT.nydus.battle.net/wow/itIT/client/challenge/%d/%d,2
+34695,VISITABLE_URL4,https://shop.battle.net,2
 34696,VISITABLE_URL5,https://eu.battle.net/support/it/games/wow?loc,2
 34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
 34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
-34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
-34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
-34701,VISITABLE_URL_GENERIC,http://itIT.nydus.battle.net/WOW/itIT/client/in_game_mail_link_%d,2
+34699,VISITABLE_URL8,https://support.blizzard.com/article/75828,2
+34700,VISITABLE_URL9,https://blizzard.com/tos,2
+34701,VISITABLE_URL_GENERIC,https://shop.battle.net,2
 34702,WARLOCK_DISABLED,"Devi scegliere una razza diversa
 per giocare questa classe.",2
 34703,WARLORDS_OF_DRAENOR,Warlords of Draenor,2
@@ -15752,7 +15746,7 @@ per giocare questa classe.",2
 34813,BOSS_INFO_STRING_TWO,"Boss: %s, %s",1
 34814,BOSS_INFO_STRING_MANY,Boss: %s e altri,1
 34815,SPELL_FAILED_CUSTOM_ERROR_292,Richiede un Frammento dell'Anima vicino.,1
-34817,VISITABLE_URL33,https://nydus.battle.net/WoW/zhCN/client/support/faq-101?targetRegion=CN,2
+34817,VISITABLE_URL33,https://support.battlenet.com.cn/games/wow,2
 34828,CHARACTER_UPGRADE_POPUP_BOOST_EXISTING_CHARACTER,Potenziamento personaggio esistente,2
 34829,CHARACTER_UPGRADE_POPUP_TRY_NEW_CLASS,Prova una nuova classe,2
 34830,LOOT_JOURNAL_LEGENDARIES,Leggendari,1
@@ -16251,7 +16245,7 @@ Consentire script personalizzati?",1
 35356,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON4,Camere degli Ospiti,1
 35357,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON5,Balconata del Teatro,1
 35358,ERR_VOID_STORAGE_INVALID_ITEM,Non puoi depositare l'oggetto in una Banca Eterea.,1
-35359,WORLD_QUEST_REWARD_FILTERS_TITLE,Ricompense missione mondiale,1
+35359,WORLD_QUEST_REWARD_FILTERS_TITLE,Ricompense:,1
 35360,WORLD_QUEST_REWARD_FILTERS_PROFESSION_MATERIALS,Reagenti d'artigianato,5
 35361,WORLD_QUEST_REWARD_FILTERS_ORDER_RESOURCES,Risorse per l'Enclave,5
 35362,WORLD_QUEST_REWARD_FILTERS_GOLD,Oro,1
@@ -16480,14 +16474,14 @@ Consentire script personalizzati?",1
 35610,SURRENDER_ARENA,Abbandona incontro,1
 35611,CONTRIBUTION_REWARD_TOOLTIP_TITLE,Ricompensa,1
 35612,CONTRIBUTION_REWARD_TOOLTIP_TEXT,Contribuire a questo edificio ti fornirà la seguente ricompensa:,1
-35613,VISITABLE_URL35,https://nydus.battle.net/WoW/itIT/client/character-unlock?targetRegion=EU,2
-35614,VISITABLE_URL36,https://nydus.battle.net/WoW/zhCN/client/character-unlock?targetRegion=CN,2
+35613,VISITABLE_URL35,https://support.blizzard.com/help/product/wow/,2
+35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,Qui puoi visualizzare tutti i set aspetto disponibili per la tua classe.,1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,Qui puoi vedere e applicare i set aspetto dei set completi.,1
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,Continua a guadagnare reputazione con fazioni con le quali sei Osannato per ricevere delle ricompense.,1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,Sblocca!,2
-35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"Vuoi davvero sbloccare questo personaggio di prova? Cliccando su ""Sblocca!"", non potrai più richiedere un rimborso.",2
-35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,Vuoi davvero sbloccare questo personaggio di prova? In seguito non sarà più possibile cambiare.,2
+35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Vuoi davvero |rsbloccare|cnHIGHLIGHT_FONT_COLOR: questo personaggio di prova? Cliccando su ""Sblocca!"", non potrai più richiedere un rimborso.|r",2
+35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:Vuoi davvero |rsbloccare|cnHIGHLIGHT_FONT_COLOR: questo personaggio di prova? In seguito non sarà più possibile cambiare.|r,2
 35621,SPELL_FAILED_CUSTOM_ERROR_331,La Sentinax non sta pattugliando quest'area.,1
 35622,GARRISON_FOLLOWER_QUALITY6_DESC,Titolato,1
 35623,SPELL_FAILED_CUSTOM_ERROR_332,La Sentinax non può aprire un altro portale al momento.,1
@@ -16520,7 +16514,7 @@ Consentire script personalizzati?",1
 35652,FOURTH_NUMBER,|7bilione:bilioni;,1
 35653,SPELL_FAILED_CUSTOM_ERROR_333,Non puoi ottenere altra reputazione con questo oggetto.,1
 35654,SPELL_FAILED_CUSTOM_ERROR_334,Non puoi farlo mentre sei in forma di Lupo Spettrale.,1
-35655,PLAYER_V_PLAYER_SEASON,Personaggio vs Personaggio (Stagione %d di Dragonflight),1
+35655,PLAYER_V_PLAYER_SEASON,PvP (Stagione %d di The War Within),1
 35656,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON1,Sala della Luna,1
 35657,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON2,Bosco del Crepuscolo,1
 35658,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON3,Archivi di Smeraldo,1
@@ -16870,8 +16864,8 @@ Consentire script personalizzati?",1
 36041,SPELL_FAILED_CUSTOM_ERROR_353,Una struttura sopra di te ti sta bloccando.,1
 36042,STORE_CATEGORY_TRIAL_DISABLED_TOOLTIP,Non disponibile per gli account di prova gratuita,3
 36043,SPELL_FAILED_CUSTOM_ERROR_354,Richiede 100 pezzi di Carne di Imp.,1
-36044,VISITABLE_URL39,https://nydus.battle.net/WoW/%s/client/product-requirements?targetRegion=%s,3
-36045,VISITABLE_URL40,https://nydus.battle.net/WoW/%s/client/product-requirements-expac?targetRegion=%s,3
+36044,VISITABLE_URL39,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
+36045,VISITABLE_URL40,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36046,TRIAL_UPGRADE_LOGOUT_WARNING,"Per completare la transazione, verrai disconnesso dal gioco tra %d secondi.",3
 36047,GXAPI_D3D12,DirectX 12,3
 36048,BLIZZARD_STORE_BUNDLE_DISCOUNT_BANNER,Risparmi %d%%,3
@@ -16935,7 +16929,7 @@ Consentire script personalizzati?",1
 36107,BACKPACK_AUTHENTICATOR_DIALOG_DESCRIPTION,"Ottieni 4 scomparti aggiuntivi per lo zaino proteggendo il tuo account con il Battle.net Authenticator e gli avvisi sul cellulare.|n|nIl Battle.net Authenticator è gratuito, facile da utilizzare e protegge il tuo account da accessi indesiderati; inoltre, la funzione di avvisi sul cellulare ti avverte quando vengono eseguite modifiche importanti al tuo account.|n|nClicca su ""Attiva"" per passare al sito web delle impostazioni sulla sicurezza dell'account.",1
 36108,BACKPACK_AUTHENTICATOR_EXTRA_SLOTS_ADDED,Hai ottenuto 4 scomparti aggiuntivi per lo zaino collegando un Authenticator e il servizio di avvisi sul cellulare al tuo account.,1
 36109,BACKPACK_AUTHENTICATOR_FULL_INVENTORY,Spazio insufficiente nel tuo zaino. Libera dello spazio per ricevere gli oggetti mancanti.,1
-36110,VISITABLE_URL41,https://nydus.battle.net/App/%s/client/support/authenticator?targetRegion=%s,3
+36110,VISITABLE_URL41,https://support.blizzard.com/article/battle-net-authenticator-faq,3
 36111,ITEM_LEGACY_INACTIVE_EFFECTS,Oggetto Classico: gli effetti sono inattivi.,1
 36112,POWER_TYPE_FUNGAL_SKELETON_POWER,Potenza fungina,1
 36113,COMMUNITIES_CREATE_CHANNEL,Crea canale,1
@@ -17138,7 +17132,7 @@ Consentire script personalizzati?",1
 36320,ABILITY_INFO_LIGHTFORGEDDRAENEI5,- Capacità di scatenare un'esplosione di energia sacra alla morte.,2
 36321,CLASS_TRIAL_CHOOSE_BOOST_LOGOUT_PROMPT_TEXT,"Per applicare questo potenziamento istantaneo, disconnettiti e raggiungi la schermata di selezione del personaggio.",1
 36322,CHARACTER_UPGRADE_UNREVOKE_CHARACTER_FINISH_LABEL,Sblocca,2
-36323,VISITABLE_URL42,https://nydus.battle.net/WoW/%s/client/product-requirements-presale?targetRegion=%s,3
+36323,VISITABLE_URL42,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36325,BOOST_ALLIED_RACE_HERITAGE_ARMOR_WARNING_CN,"<html><body><p align=""CENTER"">Potenziare questo personaggio lo renderà inadatto a ricevere il set Armatura Retaggio %s. <a href=""https://www.battlenet.com.cn/support/zh/article/2905"">Clicca qui</a> per ulteriori informazioni.|n|nVuoi davvero potenziare questo personaggio?|n</p></body></html>",2
 36326,ITEM_AZERITE_EMPOWERED_VIEWABLE,<MAIUSC+pulsante destro per vedere le abilità d'Azerite>,1
 36327,AZERITE_ITEM_LEVELED_UP_TOAST,Potere aumentato al livello %d,1
@@ -17180,8 +17174,8 @@ Consentire script personalizzati?",1
 36367,PVP_LABEL_WAR_MODE,Modalità Guerra,1
 36368,PVP_LABEL_PVP_TALENTS,Talenti PvP,1
 36369,PVP_WAR_MODE_DESCRIPTION,"Passa alla modalità Guerra e abilita il PvP nel mondo di gioco, aumentando le ricompense delle missioni e l'esperienza fino al 10% e attivando i Talenti PvP.",1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,Devi essere a Roccavento o Valdrakken per poter attivare la modalità Guerra.,1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,Devi essere a Orgrimmar o Valdrakken per poter attivare la modalità Guerra.,1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"Devi essere a Roccavento, Valdrakken o Dornogal per poter attivare la modalità Guerra.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"Devi essere a Orgrimmar, Valdrakken o Dornogal per poter attivare la modalità Guerra.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,In attesa di risposta dal server di chat vocale. Riprova fra qualche minuto.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,"Per poter abbandonare la comunità, devi prima trasferirne la proprietà.",5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Vuoi abbandonare ed eliminare questo gruppo?,1
@@ -17773,7 +17767,7 @@ Consentire script personalizzati?",1
 40885,PVP_RANK_2_NEXT_RANK_DESC,Ottieni un indice di 1.400 o superiore per ottenere:|n- Titolo Sfidante|n- Aspetto Set PvP Élite: Mani|n- Aspetto Set PvP Élite: Piedi,1
 40886,PVP_RANK_7_NEXT_RANK_DESC,Ottieni un indice di 1.600 o superiore per ottenere:|n- Aspetto Set PvP Élite: Torso|n- Aspetto Set PvP Élite: Fianchi,1
 40887,PVP_RANK_3_NEXT_RANK_DESC,Ottieni un indice di 1.800 o superiore per ottenere:|n- Titolo Rivale|n- Aspetto Set PvP Élite: Testa|n- Aspetto Set PvP Élite: Spalle,1
-40888,VISITABLE_URL43,https://nydus.battle.net/WoW/%s/client/buy/bfa?targetRegion=%s,3
+40888,VISITABLE_URL43,https://support.blizzard.com,3
 40889,GUILD_VIEW_RECIPES_LINK,[Visualizza],1
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Impostazioni gruppo,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Impostazioni di notifica,1
@@ -17818,7 +17812,7 @@ Consentire script personalizzati?",1
 40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s alle %s,1
 40949,COMMUNITIES_CALENDAR_TODAY,Oggi,1
 40950,COMMUNITIES_CALENDAR_CLICK_TO_ADD_INSTRUCTIONS,<Clicca per aggiungere un evento della comunità>,1
-40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,3
+40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40955,BLIZZARD_STORE_DISCLAIMER_GUILD_FACTION_CHANGE,Questo processo potrebbe richiedere %s. |HurlIndex:44|h|cff006995Domande frequenti|r|h,3
 40957,RACIAL_TRAITS,Abilità razziali:,3
 40959,BLIZZARD_STORE_DISCLAIMER_GUILD_NAME_CHANGE,Questo processo potrebbe richiedere %s. |HurlIndex:44|h|cff006995Domande frequenti|r|h,3
@@ -17873,8 +17867,8 @@ Consentire script personalizzati?",1
 41016,NEW_SEASON_YAY,NUOVA STAGIONE!,1
 41017,PVP_GEAR_REWARD_CHANCE,Probabilità di ricevere equipaggiamento di livello oggetto %d.,1
 41018,PVP_GEAR_REWARD_CHANCE_LONG,Vincere fornirà una probabilità di ricevere equipaggiamento di livello oggetto %d.,1
-41019,VISITABLE_URL45,https://nydus.battle.net/WoW/%s/client/gametime?targetRegion=%s,3
-41020,VISITABLE_URL46,https://nydus.battle.net/WoW/%s/client/product-requirements-complete?targetRegion=%s,3
+41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
+41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
 41021,SPELL_FAILED_CUSTOM_ERROR_381,"Per potenziare, devi selezionare un oggetto Gladiatore Terrificante.",1
 41022,AZERITE_EMPOWERED_ITEM_FULLY_UPGRADED,Potenziamento massimo,1
 41023,NEW_PVP_SEASON_REWARD_PREVIEW,Nuova cavalcatura stagionale!,1
@@ -17936,8 +17930,8 @@ Consentire script personalizzati?",1
 41081,SOCIAL_ITEM_REMOVE_BUTTON,Rimuovi oggetto,1
 41082,MYTHIC_PLUS_OVERTIME_SEASON_BEST,Miglior tempo oltre il limite,1
 41083,PVP_WAR_MODE_DESCRIPTION_FORMAT,"Passa alla modalità Guerra e abilita il PvP nel mondo di gioco, aumentando le ricompense delle missioni e l'esperienza del %1$d%% e attivando i Talenti PvP.",1
-41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Roccavento o Valdrakken.",1
-41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Orgrimmar o Valdrakken.",1
+41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Roccavento, Valdrakken o Dornogal.",1
+41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Orgrimmar, Valdrakken o Dornogal.",1
 41086,PVP_MATCH_READY_ERROR,Non puoi abbandonare la coda perché la partita è pronta.,1
 41087,GARRISON_MISSION_ENVIRONMENT_COUNTERED,Contrastato,1
 41089,COMBAT_TEXT_BLOCK_REDUCED,Blocco di %s,1
@@ -18047,8 +18041,8 @@ Consentire script personalizzati?",1
 41208,WAYPOINT_OBJECTIVE_FORMAT_OPTIONAL,0/1 %s (Opzionale),1
 41209,SPELL_FAILED_CUSTOM_ERROR_399,Devi trovarti in un santuario per fare un'offerta a un Loa.,1
 41210,SPELL_FAILED_CUSTOM_ERROR_400,Richiede un Potenziamento di Smeraldo.,1
-41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
-41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
+41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
+41212,VISITABLE_URL48,https://account.battle.net/transactions,3
 41213,ERR_AZERITE_ESSENCE_SELECTION_FAILED_NOT_AT_FORGE,Devi trovarti alla Forgia del Cuore per farlo,1
 41215,PVP_RATING_PREVIOUS,Indice precedente: %s,1
 41216,PVP_RATING_GAINED,Indice ottenuto: %s,1
@@ -18914,7 +18908,7 @@ Consentire script personalizzati?",1
 42250,SPELL_FAILED_CUSTOM_ERROR_462,Il Maestro dei Segugi Loksey è occupato.,1
 42251,CHROMIE_TIME_TITLE_TEXT,"Con il tempo dalla nostra parte, possiamo fare qualsiasi cosa! Scegli una campagna che vorresti rivivere.",1
 42252,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_TITLE,Campagne nel Tempo,1
-42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,Rivivi la tua storia preferita e affronta le sfide del passato adatte a personaggi di livello 10-60!|n|nScegli una campagna e corri all'avventura!,1
+42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,Rivivi la tua storia preferita e affronta le sfide del passato adatte a personaggi di livello 10-70!|n|nScegli una campagna e corri all'avventura!,1
 42254,SOULBIND_ACTIVATE_BUTTON,Attivazione,1
 42255,VIDEO_OPTIONS_DYNAMIC,Dinamico,3
 42256,VIDEO_OPTIONS_EVERYTHING,Tutti,3
@@ -18998,7 +18992,7 @@ Consentire script personalizzati?",1
 42338,NPEV2_MONK_BUILDER,Premi |cFF00FFFF%s|r per usare %s,1
 42339,NPEV2_DRUID_SPENDER,Premi |cFF00FFFF%s|r per rinnovare l'effetto di %s sul tuo nemico,1
 42340,NPEV2_DRUID_BUILDER,Premi |cFF00FFFF%s|r per usare %s mentre il tuo nemico è affetto da Fuoco Lunare.,1
-42341,POWER_TYPE_SHADOW_ENERGY,Energia,1
+42341,POWER_TYPE_SHADOW_ENERGY,Energia dell'Ombra,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200Muoviti intorno|r,1
 42343,NPEV2_INTRO_MOVE_HORDE,Usa i tuoi |cFF00FFFFcontrolli di movimento|r per avvicinarti alla |cFF00FFFFSignora della Guerra Breka Asciatetra|r.,1
 42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Parla|r con la Signora della Guerra Breka Asciatetra.,1
@@ -19378,7 +19372,7 @@ Consentire script personalizzati?",1
 42748,GAMEMENU_SUPPORT,Assistenza,1
 42749,JAILERS_TOWER_REWARD_LOCKED,Chiuso,1
 42750,SPELL_FAILED_CUSTOM_ERROR_498,La Maledizione dell'Eredità di Teramanik impedisce alle tue cavalcature di rispondere alla tua chiamata.,1
-42751,PAGED_LIST_PAGING_FORMAT,Pagina %s/%s,1
+42751,PAGED_LIST_PAGING_FORMAT,Pagina %s/%s,3
 42752,MOTION_SICKNESS_CHARACTER_CENTERED,Mantieni il personaggio al centro,1
 42753,RUNEFORGE_LEGENDARY_ERROR_INSUFFICIENT_NO_UPGRADE_ITEM_AVAILABLE,Non hai un oggetto di base che abbia un livello più alto del tuo leggendario,1
 42754,RUNEFORGE_LEGENDARY_ERROR_NO_LEGENDARY_AVAILABLE,Non hai alcun oggetto leggendario da potenziare,1
@@ -19479,7 +19473,7 @@ Consentire script personalizzati?",1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Completa %1$d spedizioni Mitiche+ di livello %2$d o più alto per migliorare la tua ricompensa.,1
 42850,GREAT_VAULT_REWARDS_WAITING,Delle ricompense ti attendono alla Gran Banca.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,Tu o un membro del gruppo dovete completare il blocco precedente,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ottieni Punti Conquista per acquistare oggetti del PvP classificato a Valdrakken.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Ottieni Punti Conquista per acquistare oggetti del PvP classificato.,1
 42855,GAIN_MAW_POWER,%s ha ottenuto il Potere d'Animum: %s,1
 42856,MAW_POWER_DESCRIPTION,Potere d'Animum,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campagna completata,1
@@ -19494,7 +19488,7 @@ Consentire script personalizzati?",1
 42866,COVENANT_MISSIONS_MISSION_PROGRESS,Puoi vedere i progressi della tua avventura qui.,1
 42867,COVENANT_MISSIONS_ADVENTURER_GAINED,Avventuriero ottenuto,1
 42868,LIFETIME_HONOR,Onore totale,1
-42869,LIFETIME_HONOR_DESC,Onore guadagnato tra tutti i personaggi.,1
+42869,LIFETIME_HONOR_DESC,Punti Onore guadagnati con la Brigata.,1
 42870,COVENANT_MISSIONS_FOLLOWER_ADDED_UPGRADED_TOAST,Avventuriero potenziato ottenuto,1
 42871,JAILERS_TOWER_LEVEL_TOAST_TWISTING_CORRIDORS,Corridoi Contorti,1
 42872,JAILERS_TOWER_LEVEL_TOAST_SKOLDUS_HALLS,Sala di Skoldus,1
@@ -19625,8 +19619,8 @@ Consentire script personalizzati?",1
 42998,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_WITH_COUNT_FORMAT,|T%1$s:30:30|t %2$s %3$s,1
 42999,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_FORMAT,|T%1$s:30:30|t %2$s,1
 43000,SPELL_FAILED_CUSTOM_ERROR_512,Il tuo maggiordomo è già presente da qualche parte nella Corte delle Braci.,1
-43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"Per usare la chat vocale, devi fornire i permessi ""Microfono"" a %s dal pannello Sicurezza e Privacy nelle Preferenze di Sistema.",1
-43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,Preferenze di Sistema,1
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"Per usare la chat vocale, devi fornire i permessi ""Microfono"" a %s dal pannello Sicurezza e Privacy nelle Preferenze di Sistema.",3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,Preferenze di Sistema,3
 43003,COVENANT_SANCTUM_TALENT_REQUIRES_PREVIOUS_TIER,Richiede il Grado precedente,1
 43004,NPEV2_CHAT_GUIDE_FRAME_ERROR_ACCOUNT_MUTED,Non soddisfi i requisiti per essere una guida a causa del controllo parentale.,1
 43005,COVENANT_SANCTUM_RENOWN_REWARD_TITLE_COMPLETE,Fama Completa,1
@@ -20159,7 +20153,7 @@ Consentire script personalizzati?",1
 44150,DDD_STREAK_01,OTTIMO,1
 44151,DDD_STREAK_02,GRANDE,1
 44152,DDD_STREAK_03,LEGGENDARIO,1
-44154,ITEM_COSMETIC_LEARN,Usa: Aggiungi questo aspetto alla tua collezione.,1
+44154,ITEM_COSMETIC_LEARN,Usa: Aggiungi questo aspetto alla collezione della Brigata.,1
 44155,ERR_COSMETIC_KNOWN,Già appreso,1
 44156,SPELL_FAILED_CUSTOM_ERROR_613,Non sei nel gruppo corretto per contribuire alla Zuppa di Sassi!,1
 44157,GRAPHICS_SUBTEXT,Graphics description placeholder,3
@@ -20177,8 +20171,8 @@ Consentire script personalizzati?",1
 44169,PVP_RANK_8_NAME,Rivale II,1
 44170,PVP_RANK_4_NAME,Duellante,1
 44171,PVP_RANK_5_NAME,Élite,1
-44172,PVP_RANK_8_NEXT_RANK_DESC,Ottieni un indice di 1.950 o superiore per ottenere:|n- Aumento grado oggetto PvP,1
-44173,PVP_RANK_4_NEXT_RANK_DESC,Ottieni un indice di 2.100 o superiore per ottenere:|n- Titolo Duellante|n- Aspetto Set PvP Élite: Mantello del Prestigio|n- Incantamento Arma PvP Élite,1
+44172,PVP_RANK_8_NEXT_RANK_DESC,Achieve a rating of 1950 or higher to earn:|n- Elite PvP Weapon Enchant,1
+44173,PVP_RANK_4_NEXT_RANK_DESC,Ottieni un indice di 2.100 o superiore per ottenere:|n- Titolo Duellante|n- Aspetto Set PvP Élite: Mantello del Prestigio,1
 44174,PVP_RANK_5_NEXT_RANK_DESC,Ottieni un indice di 2.400 o superiore per ottenere:|n- Titolo Élite|n- Aspetto Set PvP Élite: Insegna,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,Trascrizione Chat Vocale,1
@@ -20453,7 +20447,7 @@ Consentire script personalizzati?",1
 44492,EMOTE626_CMD2,/magnificent,1
 44493,PROFESSIONS_CRAFTING,Artigianato,1
 44494,PCT_FLOW_CANCEL_LABEL,Annulla,2
-44495,PCT_FLOW_FINISH_BODY_TEXT,Vuoi davvero procedere? In seguito non sarà più possibile cambiare idea.,2
+44495,PCT_FLOW_FINISH_BODY_TEXT,|cnHIGHLIGHT_FONT_COLOR:Vuoi davvero procedere con il |rtrasferimento del personaggio|cnHIGHLIGHT_FONT_COLOR:? In seguito non sarà più possibile cambiare.|r,2
 44496,SPELL_FAILED_CUSTOM_ERROR_629,Richiede Energia Cosmica aggiuntiva.,1
 44497,ITEM_UPGRADE_PVP_ITEM_LEVEL_STAT_FORMAT,Livello oggetti PvP: %d,1
 44498,ITEM_UPGRADE_PVP_ITEM_LEVEL_BONUS_STAT_FORMAT,Livello oggetti PvP: |cff20ff20%1$d (+%2$d)|r,1
@@ -20548,7 +20542,7 @@ Consentire script personalizzati?",1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,Hai troppi potenziamenti temporanei.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,Hai altri modi per evocare Pocopoc mentre sei a Zereth Mortis.,1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
-48720,REWARD_QUEST,Questa serie di missioni sblocca :,1
+48720,REWARD_QUEST,Questa serie di missioni sblocca:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Massimo precedente: %s |cff808080(Stagione %d),1
 48722,ERR_CROSS_FACTION_GROUP_JOINED,"Questo ora è un gruppo per istanze multi-fazione. Potete svolgere queste attività insieme: spedizioni e incursioni (senza coda), Torgast, PvP classificato",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Non puoi commerciare un oggetto specifico della tua fazione con qualcuno della fazione opposta,1
@@ -20689,7 +20683,7 @@ Consentire script personalizzati?",1
 48877,HUD_EDIT_MODE_RENAME_OR_COPY_LAYOUT,Rinomina/copia interfaccia,1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,Sarà cambiato in:,2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,Potrai personalizzare il tuo personaggio nel prossimo passo.,2
-48880,PFC_CUSTOMIZE_DIALOG_TEXT,Ora potrai scegliere la tua nuova razza e personalizzare il tuo personaggio. Il cambio di fazione verrà applicato in modo permanente al termine di questo processo.,2
+48880,PFC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:Ora potrai scegliere la tua nuova razza e personalizzare il tuo personaggio. Il |rcambio di fazione|cnHIGHLIGHT_FONT_COLOR: verrà applicato in modo permanente al termine del processo.|r,2
 48881,HUD_EDIT_MODE_RENAME_LAYOUT,Cambio Nome,1
 48882,HUD_EDIT_MODE_NAME_LAYOUT_DIALOG_TITLE,Nome nuova interfaccia,1
 48883,PFC_FLOW_FINISH_LABEL,Accetta,2
@@ -20873,7 +20867,7 @@ Consentire script personalizzati?",1
 49115,POWER_TYPE_WINDENERGY,Energia,1
 49117,SPELL_FAILED_CUSTOM_ERROR_794,Non puoi attirare una creatura elusiva verso una città.,1
 49118,SPELL_FAILED_CUSTOM_ERROR_795,Non ci sono creature interessanti da attirare in quest'area.,1
-49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,Volo Draconico,1
+49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,Volo Dinamico,1
 49122,MYTHIC_DUNGEON_SEASON,Spedizioni Mitiche+ (%s Stagione %d),1
 49123,FINISHING_REAGENT_TOOLTIP_TITLE,Reagente di Finitura: %s,1
 49124,FINISHING_REAGENT_TOOLTIP_CLICK_TO_ADD,Clicca col pulsante sinistro per aggiungere un Reagente di Finitura,1
@@ -20991,7 +20985,7 @@ Consentire script personalizzati?",1
 49238,PROFESSIONS_FAVORITES_SEARCH_TOOLTIP_TITLE,Preferiti,1
 49239,PROFESSIONS_CRAFTING_FORM_OUTPUT_LOG_RESOURCES_RETURNED,Materiali recuperati!,1
 49240,PROFESSIONS_TRACKING_VIEW_RECIPE,Visualizza ricetta,1
-49241,PROFESSIONS_UNTRACK_RECIPE,Interrompi tracciamento,1
+49241,PROFESSIONS_UNTRACK_RECIPE,Non tracciare,1
 49242,PROFESSIONS_TRACKER_HEADER_PROFESSION,Professione,1
 49243,PROFESSIONS_TRACKER_REAGENT_FORMAT,%s %s,1
 49244,PROFESSIONS_TRACKER_REAGENT_COUNT_FORMAT,%s/%d,1
@@ -21060,7 +21054,7 @@ La qualità deriva dalla competenza di base nella professione, dalle specializza
 49328,ICON_SELECTION_CLICK,Clicca per consultare l'elenco,1
 49329,ICON_SELECTION_TITLE_CUSTOM,Icona personalizzata,1
 49330,ICON_SELECTION_NOTINLIST,Quest'icona non è nella lista,1
-49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,Le cavalcature per il Volo Draconico si trovano in cima alla lista.|n|nImpostane una come Preferita per usarla con l'Evocazione Cavalcatura Preferita Casuale.,1
+49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,Le cavalcature per il Volo Dinamico si trovano in cima alla lista.|n|nImpostane una come Preferita per usarla con l'Evocazione Cavalcatura Preferita Casuale.,1
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,Hai già una richiesta di invito in sospeso,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,Hai già un una raccomandazione per un gruppo in sospeso,1
 49336,SPELL_FAILED_CUSTOM_ERROR_799,Non si può lanciare su un personaggio non giocante.,1
@@ -21072,7 +21066,7 @@ La qualità deriva dalla competenza di base nella professione, dalle specializza
 49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Espandi opzioni |A:editmode-down-arrow:16:11:0:-7|a,1
 49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,Bersaglio e Focus,1
 49346,UNITNAME_SUMMON_TITLE51,Clone Arcano di %s,1
-49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,Devi avere un valore medio del livello PvP degli oggetti più alto. (Richiesto: %2$d. Attuale: %3$d.),1
+49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,Devi avere un valore medio del livello PvP degli oggetti più alto.|n(Richiesto: %1$d. Attuale: %2$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:Clicca col pulsante sinistro per sostituire questo Equipaggiamento|r,1
 49349,ERR_SOLO_MIN_ITEM_LEVEL,Devi avere un valore medio del livello degli oggetti PvP più alto.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Barra degli incantesimi,1
@@ -21082,8 +21076,8 @@ La qualità deriva dalla competenza di base nella professione, dalle specializza
 49354,SPELL_FAILED_CUSTOM_ERROR_801,Questa modifica è troppo complicata per te.,1
 49355,DRAGONFLIGHT_LANDING_PAGE_TITLE,Panoramica sulle Isole dei Draghi,1
 49356,DRAGONFLIGHT_LANDING_PAGE_TOOLTIP,Clicca per mostrare la Panoramica sulle Isole dei Draghi,1
-49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,Percorso dei talenti del Volo Draconico sbloccato,1
-49358,LANDING_DRAGONRIDING_PANEL_TITLE,VOLO DRACONICO,1
+49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,Percorso dei talenti del Volo Dinamico sbloccato,1
+49358,LANDING_DRAGONRIDING_PANEL_TITLE,VOLO DINAMICO,1
 49359,LANDING_DRAGONRIDING_TREE_BUTTON,Visualizza,1
 49360,ERR_TAXIINCOMBAT,Non puoi prendere il volo mentre sei in combattimento.,1
 49361,PROFESSION_EQUIPMENT_LOCATION_HELPTIP,Qui puoi equipaggiare i tuoi Attrezzi della Professione e gli accessori.,1
@@ -21142,7 +21136,7 @@ Per raggiungere una qualità maggiore, prova a utilizzare reagenti di qualità p
 49434,HUD_EDIT_MODE_EXIT,Esci,1
 49435,HUD_EDIT_MODE_SAVE_AND_SWITCH,Salva e cambia,1
 49436,HUD_EDIT_MODE_SWITCH,Interruttore,1
-49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,Le abilità del Volo Draconico non sono ancora state sbloccate.,1
+49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,Le abilità del Volo Dinamico non sono ancora state sbloccate,1
 49438,DRAGONFLIGHT_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Riepilogo delle Isole dei Draghi sbloccato,1
 49439,DRAGONFLIGHT_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Fazione principale sbloccata,1
 49440,RENOWN_LEVEL_UP_SKIP_BUTTON,Salta,5
@@ -21381,7 +21375,7 @@ Tutte le configurazioni che hanno questa opzione attivata condivideranno le stes
 49698,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE_FORMAT,Vuoi davvero spendere %s per sbloccare questo talento?,1
 49699,GENERIC_TRAIT_FRAME_EDGE_REQUIREMENTS_BUTTON_TOOLTIP,Richiede tutti i talenti precedenti,1
 49700,TALENTS_INSPECT_FORMAT,Talenti - %s,1
-49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,Volo Draconico,1
+49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,Volo Dinamico,1
 49702,GENERIC_TRAIT_FRAME_INTERNAL_ERROR,Errore interno. Riprova più tardi.,1
 49703,ENABLE_INTERACT_TEXT,Attiva tasto interazione,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Ti permette di interagire con i PNG e gli oggetti con la pressione di un tasto,1
@@ -21516,7 +21510,7 @@ Tutte le configurazioni che hanno questa opzione attivata condivideranno le stes
 49835,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,Devi avere almeno un personaggio di livello 55 su un qualsiasi reame per creare un Cavaliere della Morte.,2
 49836,SPELL_FAILED_CUSTOM_ERROR_815,Non puoi farlo mentre sei sott'acqua.,1
 49837,EQUIP_CONTAINER_REAGENT,Equipaggia Borsa dei Reagenti,1
-49838,GREAT_VAULT_RETIRE_WARNING,Impossibile ottenere nuove ricompense dopo questa settimana.|n|nLe ricompense non reclamate andranno perse dopo il lancio di %s.,1
+49838,GREAT_VAULT_RETIRE_WARNING,Impossibile ottenere nuove ricompense dopo questa settimana.|nLe ricompense non riscattate andranno perse dopo il lancio di %s.,1
 49839,TUTORIAL_REAGENT_BAG_STEP_1,Hai ottenuto una Borsa dei Reagenti!|n|nApri la borsa.,1
 49840,TUTORIAL_REAGENT_BAG_STEP_2,Equipaggia la nuova Borsa dei Reagenti!|n|nI materiali d'artigianato raccolti andranno in questa borsa.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Applica configurazione,1
@@ -21640,6 +21634,7 @@ Tutte le configurazioni che hanno questa opzione attivata condivideranno le stes
 49963,ERR_OUT_OF_ESSENCE,Essenza insufficiente,1
 49964,ERR_SPELL_FAILED_CANT_FLY_HERE,In questo luogo non puoi volare.,1
 49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,Hai della Conoscenza delle Specializzazioni delle Professioni non assegnata.,1
+49966,EXPANSION_NAME10,The War Within,3
 49967,PROFESSIONS_OUTPUT_INSPIRED_CREATION,Ispirazione!,1
 49968,WORLD_MAP_ACTIVITY_TRACKER_LIST_INTRO,Traccia le attività delle fazioni principali disponibili selezionandole dall'elenco.,1
 49969,WORLD_MAP_ACTIVITY_TRACKER_RING_TOOLTIP,<Clicca col tasto sinistro per ruotare tra le attività disponibili>|n<Clicca col tasto destro per smettere di tracciare una fazione>,1
@@ -21647,7 +21642,7 @@ Tutte le configurazioni che hanno questa opzione attivata condivideranno le stes
 49971,SPELL_FAILED_CUSTOM_ERROR_819,Non sai come riparare quest'oggetto,1
 49972,ERR_CRAFTING_HOUSE_DISABLED,Il Consorzio degli Artigiani non accetta Ordini d'Artigianato al momento.|nRitorna più tardi.,1
 49973,CRAFTING_ORDER_RECIPE_PROFESSION_FMT,Ricetta di %s,1
-49974,DRAGON_RIDING_CURRENCY_TUTORIAL,Trova Glifi del Drago e volaci attraverso per accumulare punti da assegnare nel percorso dei talenti.,1
+49974,DRAGON_RIDING_CURRENCY_TUTORIAL,Otterrai potenza del Volo Dinamico aggiuntiva salendo di livello.,1
 49975,PROFESSIONS_ORDER_RECRAFT_TITLE_FMT,Ricrea: %s,1
 49976,ERR_TALENT_FAILED_IN_COMBAT,Non puoi cambiare talenti mentre sei in combattimento,1
 49977,ERR_TALENT_FAILED_IN_PVP_MATCH,Non puoi cambiare talenti una volta iniziato lo scontro,1
@@ -21657,7 +21652,7 @@ Tutte le configurazioni che hanno questa opzione attivata condivideranno le stes
 49981,CRAFTING_ORDER_NOT_YET_CLAIMED,Non ancora riscattato,1
 49982,PROFESSIONS_CRAFTER_CANT_CLAIM_OWN,Non puoi riscattare il tuo stesso ordine.,1
 49983,DRAGON_RIDING_SKILLS_TUTORIAL,Sblocca nuove abilità completando le missioni della campagna delle Isole dei Draghi.,1
-49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,Puoi aggiungere abilità normale alla barra del Volo Draconico per scendere dalla cavalcatura più rapidamente per il combattimento.,1
+49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,Puoi aggiungere abilità normali alla barra del Volo Dinamico per scendere dalla cavalcatura più rapidamente per il combattimento.,1
 49985,PROFESSIONS_CRAFTING_ORDER_MAIL_REPORT_WARNING,Devi ancora riscattare degli oggetti da questo personaggio. Li perderai tutti se lo segnalerai prima di averli riscattati.,1
 49986,INTERACT_KEY_TUTORIAL,|cnNORMAL_FONT_COLOR:Interact Key|n|r|cnHIGHLIGHT_FONT_COLOR:Premi |r|cnNORMAL_FONT_COLOR:%s|r|cnHIGHLIGHT_FONT_COLOR: per interagire con i PNG e gli oggetti vicini|r|n|n|cnNORMAL_FONT_COLOR:%d/2 - Interagisci con un PNG o un oggetto|r,1
 49987,INTERACT_KEY_TUTORIAL_NO_INTERACT_KEY_ASSIGNED,|cnHIGHLIGHT_FONT_COLOR:Il |r|cnNORMAL_FONT_COLOR:Tasto interazione|r|cnHIGHLIGHT_FONT_COLOR: ti permette di interagire con i PNG e gli oggetti con la pressione di un tasto|n|n|r|cnRED_FONT_COLOR:Assegna un Tasto interazione dalle opzioni dei comandi|r,1
@@ -21742,7 +21737,7 @@ Vuoi davvero piazzare quest'ordine?",1
 50049,CRAFTING_ORDERS_NUM_PERSONAL_FMT,Hai %d $lOrdine Personale:Ordini Personali; disponibili.,1
 50050,MONTHLY_ACTIVITIES_THRESHOLD_TOOLTIP_REWARDS,"Ricompense: 
 |cnHIGHLIGHT_FONT_COLOR:%d|r %s",1
-50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visita l'Emporio a %s per ottenere le ricompense!,1
+50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visit the Trading Post in %s or Dornogal to collect your rewards!,1
 50052,MONTHLY_ACTIVITIES_UPDATED,Diario del Viaggiatore aggiornato,1
 50054,TALENT_BUTTON_TOOLTIP_PVP_TALENT_REQUIREMENT_ERROR,Questo Talento PvP è inattivo perché ti manca un talento richiesto,1
 50055,TALENT_FRAME_CONFIRM_LEAVE_DEFAULT_LOADOUT,Perderai definitivamente la tua configurazione talenti attuale se non la salverai.|n|nVuoi davvero continuare?,1
@@ -21858,15 +21853,15 @@ per completare le attività e ottenere ricompense all'Emporio",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Integrità equipaggiamento,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Dimensioni,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Progresso Diario del Viaggiatore,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visita l'Emporio a %s per accedere al Diario del Viaggiatore.,1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visit the Trading Post in %s or Dornogal to access the Traveler's Log.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Inizio|nMMV,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Completa le Attività del Viaggiatore ogni mese per guadagnare monete e una ricompensa speciale nella Cassa del Collezionista.
 
-I progressi sono condivisi da tutto l'account.",1
+I progressi sono condivisi da tutta la Brigata.",1
 50203,MONTHLY_ACTIVITIES_HELP_2,MAIUSC+pulsante sinistro sulle attività per tenerne traccia,1
 50204,MONTHLY_ACTIVITIES_HELP_3,"Completa le Attività del Viaggiatore ogni mese per guadagnare monete e una ricompensa speciale nella Cassa del Collezionista.
 
-I progressi sono condivisi da tutto l'account.",1
+I progressi sono condivisi da tutta la Brigata.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,Stai cercando di ricreare un oggetto con la limitazione: Unico equipaggiabile. Rimuovilo dall'equipaggiamento prima di ricrearlo.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Creazioni disponibili: %i / %i. Creazione aggiuntiva tra %s.,1
 50208,MOTION_SICKNESS_DRAGONRIDING,Chinetosi,1
@@ -21875,9 +21870,9 @@ I progressi sono condivisi da tutto l'account.",1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,Cerchio focale,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,Oscuramento e cerchio,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,Oscuramento del paesaggio,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Aiuta a risolvere problemi di chinetosi durante il Volo Draconico.
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Aiuta a risolvere problemi di chinetosi durante il Volo Dinamico.
 
-|cffffffffOscuramento del paesaggio:|r applica un effetto di oscuramento alla cornice dello schermo quando il personaggio usa il Volo Draconico.
+|cffffffffOscuramento del paesaggio:|r applica un effetto di oscuramento alla cornice dello schermo.
 
 |cffffffffCerchio focale:|r aggiunge un reticolo circolare focale al centro dello schermo.",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,Hai %d |4ordine personale:ordini personali; di %s.,1
@@ -21907,8 +21902,8 @@ I progressi sono condivisi da tutto l'account.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Abbandonare la partita ora ti farà perdere almeno |cnORANGE_FONT_COLOR:%d|r punteggio e subirai %s di %s.|n|nAbbandonando ora, non riceverai Punti Onore o Conquista per i turni completati.|n|nVuoi davvero uscire da questa partita?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Questa ricetta è attualmente disattivata. Riprova più tardi.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fUn messaggio da %s potrebbe essere inappropriato.|h|cffffff00|Hcensoredmessage:%d|h |W[Mostra messaggio]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti di velocità del Volo Dinamico,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabilitare gli effetti visivi della velocità può aiutare con la chinetosi durante il Volo Draconico.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Effetti velocità del Volo Dinamico,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabilitare gli effetti visivi della velocità può aiutare con la chinetosi durante il Volo Dinamico.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Apri cartella,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Chiudi,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Copia questo file in un luogo sicuro per il futuro:,2
@@ -21960,7 +21955,7 @@ Caricamento fallito. Nuovo tentativo al prossimo riavvio.",3
 50333,101_CutsceneName_Ref,Nasz'uro,1
 50334,TALENTS_LINK_FORMAT,Talenti collegati (%2$s - %1$s),1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,In coda,3
-50336,PRC_CUSTOMIZE_DIALOG_TEXT,Ora potrai scegliere la tua nuova razza e personalizzare il tuo personaggio. Il cambio di razza verrà applicato in modo permanente al termine di questo processo.,2
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:Ora potrai scegliere la tua nuova razza e personalizzare il tuo personaggio. Il |rcambio di razza|cnHIGHLIGHT_FONT_COLOR: verrà applicato in modo permanente al termine del processo.|r,2
 50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Pubblica nella chat,1
 50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Copia negli appunti |cnNORMAL_FONT_COLOR:(per condividere online)|r,1
 50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,Livello di potenziamento: %s %d/%d,1
@@ -22023,6 +22018,8 @@ Caricamento fallito. Nuovo tentativo al prossimo riavvio.",3
 50428,SPELL_FAILED_CUSTOM_ERROR_832,Richiede una Pietra Resiliente. ,1
 50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,Usa le opzioni avanzate per visualizzare altri elementi dell'interfaccia,1
 50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Benefici e penalità,1
+50431,SPELL_FAILED_CUSTOM_ERROR_833,Non sei su una cavalcatura in movimento.,1
+50433,SPELL_FAILED_CUSTOM_ERROR_834,Non tirerai.,1
 50434,10_1_5_TIME_RIFTS_MINIGAME_01_WRONG_ELEMENT,Trova la creatura della linea temporale sbagliata!,1
 50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Riquadro del famiglio,1
 50436,SELF_CAST,Lancio su se stessi,1
@@ -22101,13 +22098,13 @@ Non puoi affrontare contenuti esterni o in coda con questo personaggio.",1
 50512,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_THREE,3v3,1
 50513,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_FIVE,5v5,1
 50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,Questo potenziamento costa meno %s perché hai già un oggetto con un livello oggetto superiore (%d) in questo scomparto.,1
-50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un tuo personaggio su questo account ha già un oggetto con un livello oggetto superiore (%d) in questo scomparto.,1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un personaggio della tua Brigata ha già un oggetto con un livello oggetto superiore (%d) in questo scomparto.,1
 50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,Questo potenziamento costa meno %s perché hai già due %s con un livello oggetto superiore (%d).,1
-50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un tuo personaggio su questo account ha già due %s con un livello oggetto superiore (%d).,1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un personaggio della tua Brigata ha già due %s con un livello oggetto superiore (%d).,1
 50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,Questo potenziamento costa meno %s perché hai già un'arma con un livello oggetto superiore (%d).,1
-50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un tuo personaggio su questo account ha già un'arma con un livello oggetto superiore (%d).,1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,Questo potenziamento costa meno %s perché un personaggio della tua Brigata ha già un'arma con un livello oggetto superiore (%d).,1
 50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,Sconto su %s,1
-50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,A livello di account,1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,A livello di Brigata,1
 50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,monili,1
 50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,anelli,1
 50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,armi a una mano,1
@@ -22161,8 +22158,9 @@ Non puoi affrontare contenuti esterni o in coda con questo personaggio.",1
 51197,ICON_FILTER_ALL,Tutte le icone,1
 51198,ICON_FILTER_SPELL,Incantesimi,1
 51199,ICON_FILTER_ITEM,Oggetti,1
+51200,SPELL_FAILED_CUSTOM_ERROR_853,Hai bisogno dei Guanti della Radicombra.,1
 51201,RPE_TOOLTIP_LINE1,Aggiornamento equipaggiamento disponibile!,3
-51202,RPE_TOOLTIP_LINE2,- Richiede il livello 10-60,3
+51202,RPE_TOOLTIP_LINE2,- Requires level 10-70,3
 51203,RPE_TOOLTIP_LINE3,- Termina il %s,3
 51204,RPE_GEAR_UPDATE_GREEN,|cffaaffaaAggiornamento Equipaggiamento|r,3
 51205,BATTLE_PET_SOURCE_12,Emporio,1
@@ -22175,7 +22173,7 @@ Non puoi affrontare contenuti esterni o in coda con questo personaggio.",1
 51213,RPE_INFO_TEXT2,Pulisci il Registro missioni,3
 51214,RPE_INFO_TEXT3,Ti teletrasporti nella tua capitale,3
 51215,RPE_INFO_TEXT4,Reimposta i tuoi talenti in qualsiasi momento!,3
-51216,RPE_CHARACTER_LVL,Livello %d |cFFFFA500%s|r,3
+51216,RPE_CHARACTER_LVL,Level %d %s,3
 51217,LOOT_TTS_LABEL,Bottino (oggetto),1
 51218,MONEY_TTS_LABEL,Predazione denaro,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Attiva o disattiva i messaggi delle imprese sui bottini in oggetti,1
@@ -22217,9 +22215,9 @@ Non puoi affrontare contenuti esterni o in coda con questo personaggio.",1
 51256,WARDROBE_SHORTCUTS_TUTORIAL_3,Traccia o non traccia un oggetto|n,1
 51257,WARDROBE_TRACKING_TUTORIAL,Non hai ancora ottenuto questo aspetto! MAIUSC+pulsante sinistro per tracciarlo.,1
 51259,TRAINER_CANNOT_EXCEED_MAX_PROFESSIONS,Puoi apprendere solo due professioni primarie,1
-51260,RPE_UPGRADE_CONFIRMATION,Vuoi davvero aggiornare questo personaggio?,3
+51260,RPE_UPGRADE_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Vuoi davvero |raggiornare|cnHIGHLIGHT_FONT_COLOR: questo personaggio a: %s?|r,3
 51261,PROF_ORDER_CANT_REPORT_IN_PROGRESS,Non puoi segnalare questo personaggio finché l'ordine non è stato annullato o completato.,1
-51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Richiede la competenza in Volo Draconico.,1
+51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Richiede la competenza Volo Dinamico,1
 51264,ADVENTURES_COMBAT_LOG_SPELL_RANGE_DAMAGE,"{caster} ha lanciato {spellName} contro {target}, infliggendo {damage} danni di tipo {element}.",5
 51265,RPE_SKIP_UPGRADE_CONFIRMATION,Vuoi davvero entrare nel mondo di gioco? Non potrai più ricevere l'Aggiornamento Equipaggiamento.,3
 51266,SPELL_FAILED_CUSTOM_ERROR_1002,Questo personaggio non è della fazione opposta.,1
@@ -22258,9 +22256,9 @@ Vuoi davvero procedere?",1
 51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aAttenzione: %s,1
 51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aAvvertimento minaccioso: %s,1
 51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
-51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,Hai dei Glifi del Volo Draconico non assegnati,1
+51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,Hai dei punti Competenza del Volo Dinamico non assegnati.,1
 51321,SPELL_FAILED_CUSTOM_ERROR_857,Solo i Reietti possono mostrare questo simbolo d'onore.,1
-51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,Vuoi cancellare il Registro missioni\nper un nuovo inizio?,3
+51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Vuoi cancellare il |rRegistro missioni|cnHIGHLIGHT_FONT_COLOR: \nper un nuovo inizio?|r,3
 51323,RPE_CLEAR_QUESTS,Rimuovi missioni,3
 51324,RPE_KEEP_QUESTS,Mantieni missioni,3
 51326,CONFIRM_AZEROTHIANARCHIVES_PUBLICEVENT_CONTRIBUTION,Così consumerai la risorsa scelta. Vuoi davvero continuare?,1
@@ -22269,6 +22267,7 @@ Vuoi davvero procedere?",1
 51337,PING,Segnale,1
 51338,ERR_PERKS_PROGRAM_COMMUNICATION_ERROR,"L'Emporio sta avendo dei problemi di comunicazione con il server.
 |nGli acquisti in sospeso potranno essere recuperati dalla Cassa del Collezionista una volta che la connessione sarà stata ripristinata.",1
+51339,REPUTATION_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<Clicca per vedere le opzioni>,1
 51340,BINDING_NAME_TOGGLEPINGLISTENER,Segnale,1
 51341,PING_TYPE_ASSIST,Aiuto,1
 51342,PING_TYPE_ATTACK,Attacco,1
@@ -22282,10 +22281,11 @@ Vuoi davvero procedere?",1
 51350,SPELL_FAILED_CUSTOM_ERROR_1005,Azzeramento Tempo di Recupero,1
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,Potrai personalizzare il tuo personaggio nel prossimo passo.,2
 51352,PNC_FLOW_FINISH_LABEL,Accetta,2
+51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorers' League Supplies (PH UI),1
 51354,SLASH_PING1,/segnale,1
 51355,SLASH_PING2,/ping,1
-51356,PNC_CUSTOMIZE_DIALOG_TEXT,Il cambio di nome sarà permanente una volta che avrai accettato.,2
-51357,PNC_FLOW_NEW_NAME_LABEL,Nuovo nome,2
+51356,PNC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:Il |rcambio di nome|cnHIGHLIGHT_FONT_COLOR: sarà permanente una volta che avrai accettato.|r,2
+51357,PNC_FLOW_NEW_NAME_LABEL,Nuovo nome:,2
 51359,PNC_FLOW_SLECT_NAME_ACTIVE,Seleziona nuovo nome,2
 51360,PNC_FLOW_SLECT_NAME_RESULTS,Nuovo nome:,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200Nome: %s,2
@@ -22296,6 +22296,7 @@ Vuoi davvero procedere?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAiuto,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttacco,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aArrivo,1
+51369,CURRENCY_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<Clicca per vedere le opzioni>,1
 51373,SPELL_FAILED_CUSTOM_ERROR_1010,Non sai come raccoglierlo.,1
 51374,ENABLE_PING_SOUNDS,Suoni segnali,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Attiva o disattiva i suoni dei segnali,1
@@ -22319,6 +22320,7 @@ Vuoi davvero procedere?",1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Attiva o disattiva i segnali,1
 51394,PING_FAILED_DISABLED_BY_SETTINGS,Impossibile inviare il segnale: disabilitati nelle impostazioni.,1
 51395,PING_SYSTEM_SETTINGS,Impostazioni dei segnali,1
+51396,TALENT_FRAME_TAB_LABEL_SPELLBOOK,Grimorio,1
 51398,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Clicca col pulsante sinistro per visualizzare le domande frequenti sul tuo browser>|r,3
 51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,Questo processo potrebbe richiedere %s. |HurlIndex:44|h|cff006995Domande frequenti|r|h,3
 51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,Vendi cianfrusaglie,1
@@ -22331,6 +22333,13 @@ Vuoi davvero procedere?",1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"Quando premi il tasto associato al segnale, clicca per un segnale contestuale o clicca e trascina per attivare il menu radiale dei segnali.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,Premi e rilascia il tasto associato al segnale per un segnale contestuale o tieni premuto per attivare il menu radiale dei segnali.,1
 51421,SPELL_FAILED_CUSTOM_ERROR_840,Non dovresti mangiare troppi dolci se vuoi ricevere un invito alla prossima festa.,1
+51422,11_0_0_DELVES_MINIGAME_01,Minigioco,1
+51423,CHARACTER_SELECT_ALL_CHARACTERS,ELENCO PERSONAGGI BRIGATA,2
+51424,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER,CREA UN PERSONAGGIO,2
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,NEGOZIO,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,MENU,2
+51427,CHARACTER_SELECT_TESTING_CONTROLS,PROVA,2
+51428,CHARACTER_SELECT_BACK,Back,2
 51429,SPELL_FAILED_TARGETS_NOT_PROFESSION,Il bersaglio non conosce la professione corretta.,1
 51433,PING_FAILED_SQUELCHED,Impossibile inviare il segnale: la chat è temporaneamente sospesa.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Premi|r il tasto Segnale per inviare segnali veloci nel mondo.,1
@@ -22352,26 +22361,45 @@ Vuoi davvero procedere?",1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffCongelato|r
 ",1
 51455,SPELL_FAILED_CUSTOM_ERROR_841,Utilizzabile solo durante Amore nell'Aria,1
+51456,POWER_TYPE_WAX,Cera,1
 51457,MAP_FILTER,Filtro mappa,1
+51458,LFG_TYPE_FOLLOWER_DUNGEON,Spedizioni con Seguace,1
+51459,LFD_FOLLOWER_EXPLANATION,Completa le spedizioni con PNG alleati,1
+51460,REPUTATION_STATUS_BAR_LABEL_ACCOUNT_WIDE,(Brigata),1
+51461,REPUTATION_TOOLTIP_ACCOUNT_WIDE_LABEL,Reputazione della Brigata,1
+51463,FACTION_STANDING_INCREASED_ACCOUNT_WIDE,"La reputazione della Brigata con ""%s"" è aumentata di %d.",1
 51465,SPELL_FAILED_CUSTOM_ERROR_842,Nessun odore nelle vicinanze!,1
+51466,FRIENDSHIP_STANDING_CHANGED_ACCOUNT_WIDE,"La reputazione della Brigata con ""%s"" è ora %s.",1
+51467,FACTION_STANDING_CHANGED_ACCOUNT_WIDE,"La tua Brigata è ora %s con ""%s"".",1
+51468,FACTION_STANDING_INCREASED_GENERIC_ACCOUNT_WIDE,"La reputazione della tua Brigata con ""%s"" è aumentata.",1
+51469,FACTION_STANDING_DECREASED_GENERIC_ACCOUNT_WIDE,"La reputazione della tua Brigata con ""%s"" è diminuita.",1
+51470,FACTION_STANDING_DECREASED_ACCOUNT_WIDE,"La reputazione della Brigata con ""%s"" è diminuita di %d.",1
+51471,FACTION_STANDING_INCREASED_ACH_BONUS_ACCOUNT_WIDE,"La reputazione della Brigata con ""%s"" è aumentata di %d. (+%.1f bonus)",1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,Sei già al massimo di Vigore,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,I nutrienti di questo terreno devono ripristinarsi prima di poter crescere ulteriormente.,1
+51475,CONFIRM_BUY_ACCOUNT_BANK_TAB,Vuoi davvero acquistare una scheda della Banca della Brigata per:,1
+51476,BAG_CLEANUP_ACCOUNT_BANK,Riordina la Banca della Brigata,1
+51477,ACCOUNT_BANK_PANEL_TITLE,Banca della Brigata,1
+51478,ACCOUNT_BANK_TAB_PURCHASE_PROMPT,La Banca della Brigata è condivisa con tutti i membri della tua Brigata.|n|nVuoi acquistare questa scheda?,1
+51479,ACCOUNT_BANK_DEPOSIT_BUTTON_LABEL,Deposita tutti gli oggetti vincolati alla Brigata,1
 51480,PERSONALTABARDVENDORGREETING,Saluti! Scegli il simbolo e i colori per la tua insegna personale.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Limita i segnali al capo,1
-51493,LFG_TYPE_FOLLOWER_DUNGEON,Spedizioni con Seguace,1
-51494,LFD_FOLLOWER_EXPLANATION,Completa le spedizioni con PNG alleati,1
+51490,REPUTATION_SORT_TYPE_SHOW_ALL,Tutto,1
+51491,REPUTATION_SORT_TYPE_ACCOUNT,Brigata,1
+51492,REPUTATION_CHECKBOX_SHOW_LEGACY_REPUTATIONS,Mostra reputazioni del passato,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,Al bersaglio sono già state tolte delle piume. Sarebbe maleducato prenderne altre.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Completa %d |4Spedizione:Spedizioni in modalità Eroica, Mitica o Viaggio nel Tempo",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,Puoi aprire questo forziere solo nei tuoi sogni.,1
 51499,PING_CHAT_SETTINGS,Impostazioni chat,1
+51500,DELVES_DIFFICULTY_PICKER_ENTER,Entra,1
 51503,ADV_FLY_PITCH_CONTROL,Controllo del beccheggio,1
 51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,Avanti/Su,1
 51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,Indietro/Su,1
-51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Aiuta a controllare il movimento manuale durante il Volo Draconico.
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Aiuta a controllare il movimento manuale durante il Volo Dinamico.
 
-|cffffffffIndietro/Su|r Fa sì che durante il Volo Draconico l'input per il movimento all'indietro faccia anche alzare il draco e l'input per il movimento in avanti lo faccia abbassare.
+|cffffffffIndietro/Su|r Fa sì che durante il Volo Dinamico l'input per il movimento all'indietro faccia anche alzare la cavalcatura e l'input per il movimento in avanti la faccia abbassare.
 
-|cffffffffAvanti/Su|r Fa sì che durante il Volo Draconico l'input per il movimento in avanti faccia anche alzare il draco e l'input per il movimento all'indietro lo faccia abbassare.",1
+|cffffffffAvanti/Su|r Fa sì che durante il Volo Dinamico l'input per il movimento in avanti faccia anche alzare la cavalcatura e l'input per il movimento all'indietro la faccia abbassare.",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,Questa creatura è già stata sintonizzata di recente.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,Non puoi possedere altri emblemi di questo tipo al momento.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
@@ -22389,8 +22417,9 @@ Vuoi davvero procedere?",1
 51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,Visuale beccheggio su tastiera,1
 51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,Modifica la velocità del beccheggio della visuale quando segue il personaggio che usa i comandi Avanti e Indietro per controllare il beccheggio.,1
 51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,Antirimbalzo comando beccheggio,1
-51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"Se abilitata quando si usano i comandi Avanti e Indietro per controllare il beccheggio, questa impostazione richiede che quei comandi vengano premuti di nuovo durante la transizione tra il movimento a terra e il Volo Draconico. ",1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"Se abilitata quando si usano i comandi Avanti e Indietro per controllare il beccheggio, questa impostazione richiede che quei comandi vengano premuti di nuovo durante la transizione tra il movimento a terra e il Volo Dinamico. ",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Cavalcature,1
+51534,RENOWN_REWARD_ACCOUNT_UNLOCK_LABEL,Ricompensa della Brigata,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,L'Emporio sta avendo difficoltà a comunicare con il server. Riprova più tardi.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Acquisto non disponibile,1
 51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Rimborso non disponibile,1
@@ -22403,6 +22432,9 @@ per conquistare il cuore dell'albero
 e diffondere le sue fiamme su tutta Azeroth.",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Guardiani del Sogno,1
 51543,KIOSK_ENTER,Entra nel mondo,2
+51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,Gli oggetti vincolati non possono essere conservati nella Banca della Brigata.,1
+51545,NO_ACCOUNT_INVENTORY_LOCK,Il tuo personaggio non può completare questa azione.,1
+51546,TOO_MANY_ACCOUNT_BANK_TABS,Hai già acquistato la quantità massima di schede.,1
 51547,PERKS_PROGRAM_PENDING,In sospeso,1
 51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,L'elaborazione del tuo acquisto sta richiedendo più tempo del solito. Questo oggetto verrà consegnato una volta terminato il processo.,1
 51549,PERKS_PROGRAM_PURCHASE_PENDING,Acquisto in sospeso,1
@@ -22421,30 +22453,71 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Completa %1$d spedizioni in modalità Mitica per migliorare la ricompensa.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Non hai dimostrato il tuo valore a questo spirito.,1
+51569,BANK_WITHDRAW_MONEY_BUTTON_LABEL,Prelievo,1
+51570,BANK_DEPOSIT_MONEY_BUTTON_LABEL,Deposito,1
+51571,BANK_MONEY_WITHDRAW_PROMPT,Prelievo di:,1
+51572,BANK_MONEY_DEPOSIT_PROMPT,Deposito di:,1
 51573,CANNOT_UNEQUIP_ERR,Non puoi cambiare lo stato dell'equipaggiamento in questo momento,1
+51574,ACCOUNT_BANK_ERROR_NO_LOCK,You cannot access the Warband Bank at the same time as another character,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,Possiedi Macchie di Cenere Radiosa a sufficienza.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,Questo oggetto non può essere trasformato dal tuo personaggio.,1
+51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Digita il nome della scheda della Banca della Brigata:,1
 51579,COLOR_PICKER_HEX,Esadecimale,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,I giocatori della fazione opposta non possono essere promossi a capogilda.,1
 51583,FRONT_END_LOBBY_SOLO,In solitaria,2
 51584,FRONT_END_LOBBY_DUO,Duo,2
 51585,FRONT_END_LOBBY_TRIOS,Trio,2
+51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Includi i reagenti commerciabili,1
+51589,ACCOUNT_BANK_LOCKED_PROMPT,Un altro membro della tua Brigata sta usando la banca.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Personalizza personaggio,3
 51591,WOWLABS_JOIN_GAME,Unisciti alla partita,3
 51592,WOWLABS_MAINLINE,Linea principale,3
+51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,La scheda della banca è bloccata.,1
+51596,BANK_TAB_INVALID_NAME,Nome della scheda della banca non valido.,1
+51597,BANK_TAB_INVALID_TEXT,Descrizione della scheda della banca non valida.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,Tempo in coda: %s,2
+51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,Questa ricompensa può essere ottenuta solo dal primo personaggio della tua Brigata che si connette.,1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Effetti dello schermo del Volo Dinamico,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabilitare gli effetti dello schermo può aiutare con la chinetosi.,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Attivare l'impostazione Chinetosi riduce il movimento della visuale e mantiene il personaggio al centro.,1
+51605,BAG_FILTER_REAGENTS,Reagenti,1
+51606,BANK_TAB_DEPOSIT_SETTINGS_HEADER,Assegna alla scheda:,1
+51607,BANK_TAB_ASSIGN_EQUIPMENT_CHECKBOX,Equipaggiamento,1
+51608,BANK_TAB_ASSIGN_CONSUMABLES_CHECKBOX,Consumabili,1
+51609,BANK_TAB_ASSIGN_PROFESSION_GOODS_CHECKBOX,Beni delle Professioni,1
+51610,BANK_TAB_ASSIGN_JUNK_CHECKBOX,Cianfrusaglie,1
+51611,BANK_TAB_ASSIGN_EXPANSION_HEADER,Espansione:,1
+51612,BANK_TAB_CLEANUP_SETTINGS_HEADER,Pulizia:,1
+51613,BANK_TAB_IGNORE_IN_CLEANUP_CHECKBOX,Ignora questa scheda,1
+51614,BANK_TAB_EXPANSION_FILTER_ALL,Tutto,1
+51615,BANK_TAB_EXPANSION_FILTER_CURRENT,Solo attuale,1
+51616,BANK_TAB_EXPANSION_FILTER_LEGACY,Solo del passato,1
+51617,ACCOUNT_BANK_CONFIRM_CLEANUP_PROMPT,Vuoi davvero ordinare automaticamente gli oggetti?|nQuesta modifica influenzerà tutte le schede della Brigata.,1
+51618,BANK_TAB_ASSIGN_REAGENTS_CHECKBOX,Reagenti,1
+51619,BAG_FILTER_CURRENT_EXPANSION,Solo attuale,5
+51620,BAG_FILTER_LEGACY_EXPANSION,Solo del passato,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Sostituisci l'oggetto congelato trascinando qui un altro oggetto in qualsiasi momento,1
+51622,SPELL_FAILED_CUSTOM_1100,Una bolla si sta già manifestando nelle vicinanze.,1
+51623,SPELL_FAILED_CUSTOM_ERROR,,1
+51624,SPELL_FAILED_CUSTOM_ERROR_861,Potenziamenti Scorribanda insufficienti.,1
 51628,NPE_UNBOUND_KEYBIND,[Non vincolato],1
 51631,TOAST_NEW_FRIEND_INVITE_WOWLABS,Hai un nuovo invito di un amico.,3
 51632,TOAST_NEW_PARTY_INVITE_WOWLABS,Hai un nuovo invito al gruppo.,3
+51633,SPELL_FAILED_CUSTOM_ERROR_1012,Non hai alcun Residuo Radioso.,1
 51634,WOWLABS_FRIENDS_GLUE,Amici,2
+51635,UNDISCOVERED_FACTION_FLIGHTPOINT,"Punto di Volo ""%s"" non scoperto",1
+51636,UNDISCOVERED_NEUTRAL_FLIGHTPOINT,Punto di Volo non scoperto,1
+51637,DISCOVERED_HORDE_FLIGHTPOINT,Punto di Volo dell'Orda sbloccato,1
+51638,DISCOVERED_NEUTRAL_FLIGHTPOINT,Punto di Volo sbloccato,1
+51639,DISCOVERED_ALLIANCE_FLIGHTPOINT,Punto di Volo dell'Alleanza sbloccato,1
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,Aggiungi ai preferiti,3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,Rimuovi dai preferiti,3
 51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Tempo restante: %s,1
+51646,SELF_HIGHLIGHT_UNIT_FRAME,Evidenziazione personaggio,1
+51647,SELF_HIGHLIGHT_CIRCLE,Cerchio,1
+51648,SELF_HIGHLIGHT_OUTLINE,Contorno,1
+51649,SELF_HIGHLIGHT_ICON,Icona,1
 51650,BN_BLOCK_FRIEND,Blocca,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,L'attività non è ancora iniziata,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,L'attività è terminata,1
@@ -22458,6 +22531,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Incantesimo Offensivo 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Incantesimo d'Utilità 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Incantesimo d'Utilità 2,1
+51663,SPELL_FAILED_CUSTOM_ERROR_892,Hai già almeno un tonico evocato.,1
+51664,SPELL_FAILED_CUSTOM_ERROR_893,I tonici attivi possono essere cambiati solo fuori dal combattimento.,1
 51665,RELEASE_PET_BUTTON_LABEL,Rilascia,1
 51666,RELEASE_PET,Vuoi davvero rilasciare permanentemente il famiglio? Non potrai più evocare questo specifico famiglio.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,Questo oggetto non può essere usato nella stagione attuale.,1
@@ -22486,14 +22561,24 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,Difficoltà %s,1
 51699,LEVEL_UP_NO_LINK,"Congratulazioni, hai raggiunto il |cffFF4E00livello %d!|r",1
 51700,SPECTATE,Osserva,1
+51701,SPELL_FAILED_CUSTOM_ERROR_871,Non si può entrare in una Scorribanda mentre si è in un gruppo d'incursione.,1
+51702,SPELL_FAILED_CUSTOM_ERROR_845,Hai già un tonico evocato.,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,Riceverai i seguenti oggetti:,1
+51706,SPELL_FAILED_CUSTOM_ERROR_900,Non può essere creato durante l'accesso anticipato.,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d giocatori,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,REAMI,2
+51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,Reame: %s,2
+51710,SPELL_FAILED_CUSTOM_ERROR_846,Hai già delle pozioni evocate.,1
+51711,SPELL_FAILED_CUSTOM_ERROR_837,Il compagno è privo di sensi!,1
+51712,SPELL_FAILED_CUSTOM_ERROR_838,Richiede un compagno.,1
 51713,STABLE_EXOTIC_TYPE_LABEL,Esotico,1
 51714,STABLE_FILTER_LABEL_TYPE,Tipo,1
 51715,STABLE_FILTER_SORT_BY_LABEL,Ordina per,1
+51718,SPELL_FAILED_CUSTOM_ERROR_839,,1
 51719,WOW_LABS_REMATCH,Abbandona partita,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Migliore per spedizione,1
 51721,LFG_LIST_BEST_RUN,Miglior tentativo,1
+51722,CHARACTER_SELECT_LIST_HEADER,Membri della Brigata,2
 51723,SPELL_FAILED_CUSTOMERROR_1011,Già al massimo.,1
 51724,ITEM_ALREADY_MAX_QUALITY,Oggetto già alla massima qualità.,1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Inserisci un intervallo per risultati precisi, come 5-8 o 7-7.",1
@@ -22501,13 +22586,22 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51727,WOW_ERROR_337,L'accesso a questo reame richiede un account con una licenza di accesso valida.,2
 51730,MOUNT_ABILITY_TYPE_FORMAT,%2$s %1$s,1
 51733,GROUPFINDER_PLUS,+,1
+51734,SPELL_FAILED_CUSTOM_ERROR_872,Il tuo compagno è in combattimento.,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Inserisci il nome Battle.net del tuo amico (incluso il numero):,3
 51738,GLUE_LEAVE_PARTY,Abbandona gruppo,3
 51739,GLUE_REMOVE_FROM_PARTY,Rimuovi dal gruppo,3
-51740,LFG_LIST_NEEDS_TANK,Difensore necessario,1
+51740,LFG_LIST_NEEDS_TANK,Ruolo da difensore disponibile,1
+51741,SPELL_FAILED_CUSTOM_ERROR_1013,L'anello del bersaglio è già vincolato a un altro personaggio.,1
+51743,SPELL_FAILED_CUSTOM_ERROR_1014,Anche il bersaglio non indossa questo anello.,1
 51744,TRANSMOG_SOURCE_7,Emporio,1
+51745,SPELL_FAILED_CUSTOM_ERROR_1015,Utilizzabile solo su oggetti PvP idonei con incavi per l'espansione The War Within.,1
 51746,STABLE_PET_UNCATEGORIZED,Senza categoria,1
+51748,UNITNAME_SUMMON_TITLE53,Portale di %s,1
 51749,LFG_LIST_CLASS_AVAILABLE,%s non presente in gruppo,1
+51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Cerchio e icona,1
+51751,SELF_HIGHLIGHT_MODE_OUTLINE_AND_ICON,Contorno e icona,1
+51752,SELF_HIGHLIGHT_MODE_CIRCLE_OUTLINE_AND_ICON,"Cerchio, contorno e icona",1
+51753,SELF_HIGHLIGHT_MODE_ICON,Icona,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,La reputazione di %s è troppo alta per questa missione.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"Il tentativo di %s di condividere la missione ""%s"" è fallito. La tua reputazione è troppo alta per questa missione.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Dipendenza non disponibile,3
@@ -22523,13 +22617,16 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51766,ADDON_DEP_WRONG_LOAD_PHASE,La dipendenza ha una fase di caricamento errata,3
 51767,ADDON_USER_ADDONS_DISABLED,Add-on utente disattivati,3
 51768,ADDON_DEP_USER_ADDONS_DISABLED,Dipendenze degli add-on utente disattivate,3
-51771,LFG_LIST_NEEDS_HEALER,Guaritore necessario,1
-51772,LFG_LIST_NEEDS_DAMAGE,Assaltatore necessario,1
+51769,SPELL_FAILED_CUSTOM_ERROR_1016,I Mietibot sono già attivi.,1
+51771,LFG_LIST_NEEDS_HEALER,Ruolo da guaritore disponibile,1
+51772,LFG_LIST_NEEDS_DAMAGE,Ruolo da assaltatore disponibile,1
 51773,LFG_LIST_HAS_TANK,Ha un difensore,1
 51774,LFG_LIST_HAS_HEALER,Ha un guaritore,1
 51775,LFG_LIST_DIFFICULTY,Difficoltà,1
 51776,LFG_LIST_REQUIRE,Richiede,1
-51780,DRAGONRIDING_RACES_MAP_TOGGLE,Corse di Volo Draconico,1
+51778,SPELL_FAILED_CUSTOM_ERROR_1017,L'aeronave Impavida è già attiva.,1
+51780,DRAGONRIDING_RACES_MAP_TOGGLE,Razze del Volo Dinamico,1
+51781,ERR_COSMETIC_CLASS_RESTRICTED,La tua classe non può ottenere questo aspetto.,1
 51784,WOW_LABS_ATTACK_TOOLTIP,Attacco Base,1
 51785,WOW_LABS_HEAL_TOOLTIP,Cura,1
 51786,WOW_LABS_UTILITY_TOOLTIP,Utilità,1
@@ -22549,11 +22646,21 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Il tuo compagno di squadra può ancora resuscitarti.|n|nVuoi davvero abbandonare la partita?,1
 51809,FRONT_END_LOBBY_SOLOS,Solo,2
 51810,FRONT_END_LOBBY_DUOS,Duo,2
+51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
+51812,ACCOUNT_COMPLETED_QUEST_LABEL,Brigata completata,1
+51813,TRIVIAL_QUEST_LABEL,livello basso,1
 51814,LFG_LIST_MINIMUM_RATING,Punteggio Mitica+ minimo,1
 51815,WOWLABS_INVITE_FRIEND,Invita un amico,3
+51818,ERR_TRANSMOGRIFY_INVALID_RACE,Questo aspetto non può essere usato dalla tua razza.,1
+51819,ERR_TRANSMOGRIFY_INVALID_FACTION,Questo aspetto non può essere usato dalla tua fazione.,1
+51820,ERR_TRANSMOGRIFY_INVALID_CLASS,Questo aspetto non può essere usato dalla tua classe.,1
+51821,TRANSMOG_SHOW_ALL_RACES,Tutte le razze,1
+51822,TRANSMOG_SHOW_ALL_FACTIONS,Tutte le fazioni,1
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Potenziamento massimo,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Potenziamento:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Tempo di recupero ridotto e danni inflitti aumentati (se applicabile).,1
+51826,CONVERT_TO_BIND_TO_ACCOUNT_CONFIRM,|cnRED_FONT_COLOR:Non puoi equipaggiare quest'oggetto.|r|n|nIl suo aspetto sarà aggiunto alla Collezione e diventerà Vincolato alla Brigata finché non sarà equipaggiato.,1
+51827,ACCOUNT_LEVEL_PET,Mascotte della Brigata,1
 51828,SPELL_FAILED_CUSTOM_ERROR_1028,Bronzo insufficiente per fare questo scambio.,1
 51829,STABLE_PET_SPEC_CUNNING,Scaltrezza,1
 51830,STABLE_PET_SPEC_FEROCITY,Ferocia,1
@@ -22566,29 +22673,39 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 |cffffffff3.|r Potenzia gli incantesimi saccheggiandone più copie.
 
 |cffffffff4.|r Usa le tue abilità di cura quando hai poca salute.",3
-51834,SPELL_FAILED_CUSTOM_ERROR_1029,Richiede il Volo Draconico.,1
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Richiede il Volo Dinamico,1
+51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Completa le missioni e raccogli Bottino per sbloccare le ricompense. Fai visita a Da'kash Mastrotetro nell'area d'attesa.|n|n|cff00ff00Prossima ricompensa al livello %d:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Fama,3
 51838,WOWLABS_READY_GAME,Pronto,3
+51839,SPELL_FAILED_CUSTOM_ERROR_1030,Hai già sovraccaricato questo nodo di raccolta.,1
 51840,WOWLABS_SUB_REQUIRED,L'accesso a questa funzionalità richiede un account con una sottoscrizione attiva o del tempo di gioco.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Abbonati,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,In attesa di altri giocatori...,2
 51843,STABLE_PET_COUNTER,%1d di %2d,1
+51844,SPELL_FAILED_CUSTOM_ERROR_1031,Non sai come sovraccaricare questo nodo di raccolta.,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Gruppo Lobby]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Gruppo Lobby]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Gruppo Lobby:\32,3
 51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Gruppo Lobby,3
 51849,WOW_LABS_VIEW_REWARDS,Visualizza ricompense,1
 51850,EXPANSION_SEASON_NAME,%s Stagione %d,1
+51851,ACCOUNT_LEVEL_TOY,Giocattolo della Brigata,1
+51854,SPELL_FAILED_CUSTOM_ERROR_873,Questa Scorribanda non è disponibile per il test. Torna più tardi!,1
+51855,ITEM_BIND_TO_ACCOUNT_UNTIL_EQUIP,Si vincola alla Brigata fino all'equipaggiamento,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resuscitabile,1
+51857,ITEM_ACCOUNTBOUND_UNTIL_EQUIP,Vincolato alla Brigata fino all'equipaggiamento,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,Rianima il tuo compagno di squadra stando accanto al suo cadavere,1
 51859,QUEST_SESSION_ABANDON_WARNING,"Le seguenti missioni potrebbero essere abbandonate unendosi alla Sincronia di Gruppo:
 %s",1
+51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Preferiti,2
+51865,SPELL_FAILED_CUSTOM_ERROR_1009,Hai già del concime pronto. Utilizza prima quello.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Bottino totale raccolto,3
 51867,LIMITED_TIME_EVENT,EVENTO A TEMPO|nLIMITATO,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interazione,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,Non si può scambiare incantesimi in tempo di recupero quando si è in combattimento.,1
+51880,TRACKER_ALL_OBJECTIVES,Tutti gli obiettivi,1
 51881,GROUPMANAGER_GROUND_MARKER,Terreno,1
 51882,GROUPMANAGER_UNIT_MARKER,Unità,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"Perderai tutto il Bottino ottenuto in questa partita, se abbandoni prima che la tua squadra sia eliminata.|n|nVuoi davvero abbandonare?
@@ -22617,10 +22734,25 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Bottino,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Impossibile connettersi a Plunderstorm. Riprova più tardi.,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Solo espansione attuale,1
+51921,UNITNAME_SUMMON_TITLE54,Antenato di %s,1
+51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Non avere paura di scegliere male. Al livello 80 avrai imparato tutti i talenti.,1
 51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
 51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r |4restante:restanti;,2
+51928,ACCOUNT_COMPLETED_QUEST_NOTICE,La tua Brigata ha completato questa missione in precedenza.,1
+51929,WORLD_MAP_FILTER_LABEL_SHOW,Mostra:,1
+51930,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU,Missioni mondiali,1
+51931,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU_TYPE,Tipo:,1
+51932,SHOW_WORLD_QUESTS_ON_MAP_TEXT,Missioni mondiali,1
+51933,HERO_TALENTS_CHOOSE_1,SCEGLI I TUOI,1
+51934,HERO_TALENTS_CHOOSE_2,TALENTI EROICI,1
+51935,HERO_TALENTS_LOCKED_1,TALENTI EROICI,1
+51936,HERO_TALENTS_LOCKED_2,SBLOCCATI AL LIVELLO %d,1
+51937,HERO_TALENTS_POINTS_LABEL,PUNTI DISPONIBILI,1
 51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Personaggio delle Corse nel Tempo,2
 51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,Questo personaggio partecipa all'evento WoW Remix: Mists of Pandaria e può creare gruppi solo con altri personaggi Corridori nel Tempo.,2
+51943,HERO_TALENTS_POINTS_AMOUNT,%d,1
+51944,PROFESSIONS_BUTTON,Professioni,1
+51945,PLAYERSPELLS_BUTTON,Talenti e Grimorio,1
 51946,KEY_OEM1,ò,1
 51947,KEY_OEM2,-,1
 51948,KEY_OEM3,\,1
@@ -22630,10 +22762,16 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51952,KEY_OEM7,',1
 51953,KEY_OEMCOMMA,",",1
 51954,KEY_OEMPERIOD,.,1
+51955,ERR_SOCKETING_REQUIRES_FRAGRANCE_GEM,Questo scomparto richiede una gemma Fragranza.,1
+51956,ERR_SOCKETING_FRAGRANCE_GEM_ONLY_IN_FRAGRANCESLOT,Le gemme Fragranza possono essere inserite solo negli incavi Fragranza.,1
 51957,SPECTATING,MODALITÀ SPETTATORE,1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,La Casa d'Aste non è disponibile per i Corridori nel Tempo.,5
+51959,EMPTY_SOCKET_FRAGRANCE,Incavo Fragranza,1
+51960,TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY,%s,1
 51961,TIMERUNNING_CHOICE_WARNING,Questa è una modalità di gioco avanzata. Vuoi davvero creare un personaggio delle Corse nel Tempo?,2
 51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Vivi una nuova e avvincente avventura di Mists of Pandaria creando un Corridore nel Tempo.,2
+51963,ACCOUNT_FIRST_TIME_QUEST_BONUS_TOOLTIP,Questo è un bonus Brigata unico.,1
+51964,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_BONUS_TOOLTIP,Questo è un bonus Brigata per aver completato questa missione in precedenza.,1
 51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,È richiesto un abbonamento per partecipare,2
 51966,SPELL_FAILED_CUSTOM_ERROR_1032,I Corridori nel Tempo non possono teletrasportarsi fuori da Pandaria.,1
 51967,OPTION_TOOLTIP_ANTIALIASING_IB,Tecniche di anti-aliasing che utilizzano solo le renderizzazioni a schermo intero esistenti,3
@@ -22643,16 +22781,358 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Anti-aliasing morfologico conservativo 2: versione avanzata di CMAA (metodo da preferirsi in caso si usino anche le ""Tecniche multisample"").",3
 51972,OPTION_TOOLTIP_WINDOW_SIZE,Modifica la risoluzione del gioco,3
 51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Disponibilità insufficiente,1
+51974,INSTANCE_WALK_IN_LEAVE,Abbandona Scorribanda,1
+51976,SPELL_FAILED_CUSTOM_ERROR_1033,Specializzati ulteriormente o migliora la tua grafia frettolosa per riuscire a capire questi appunti.,1
+51977,SPELL_FAILED_CUSTOM_ERROR_1034,Non resta altro da inventare e nessuno può convincerti del contrario.,1
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Non è possibile espellere i personaggi da questa istanza,1
+51979,BANK_TAB_TOOLTIP_CLICK_INSTRUCTION,<Clicca col pulsante destro per le impostazioni>,1
 51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Nascondi le barre della salute e delle risorse sotto il tuo personaggio,1
 51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Mostra i tempi di recupero degli incantesimi importanti sotto il tuo personaggio,1
 51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Mostra i benefici sotto il tuo personaggio,1
+51983,BANK_TAB_DEPOSIT_ASSIGNMENTS,Assegnata a: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51984,BANK_TAB_EXPANSION_ASSIGNMENT,Espansione: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51985,SPELL_FAILED_CUSTOM_ERROR_1035,Un personaggio nel tuo gruppo non ha sbloccato questo grado.,1
 51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51987,ARACHNOPHOBIA_MODE_CHECKBOX,Modalità Aracnofobia,1
+51988,ARACHNOPHOBIA_MODE_CHECKBOX_TOOLTIP,Sostituisce i ragni con creature alternative. Non influisce sulla dinamica o sulla modalità di gioco.,1
 51989,ERR_GUILD_BANK_NOT_AVAILABLE,La Banca di Gilda non è disponibile per questo personaggio.,1
+51990,CHARACTER_SELECT_HEADER_INFO,Livello %d,2
 51992,COUNTDOWN_CANCEL_ENCOUNTER_START,Scontro iniziato. Conto alla rovescia annullato.,1
+51993,VISITABLE_URL61,https://support.blizzard.com/article/000358199,2
+51994,ARACHNOPHOBIA_MODE_SUBTEXT,Ulteriori informazioni disponibili alla nostra |cff00aaff|HurlIndex:61|hPagina Aracnofobia|h|r,1
+52023,11_0_Z_1_WQ_MINIGAME_01_ARCANE_LOCK,Apri la serratura arcana!,1
+52024,ITEM_MOD_INGENUITY_SHORT,Ingegno,1
+52025,FLIGHT_MODE_TOGGLE_TOOLTIP_SUBTEXT,Puoi mettere questa abilità nella tua barra delle azioni,1
+52027,POWER_DISPLAY_LABEL_ANGER,Rabbia,1
+52028,SPELL_FAILED_CUSTOM_ERROR_1036,Non hai alcuna Eco Radiosa.,1
 52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,Nello stesso gruppo non possono esserci un personaggio normale e uno Corridore nel Tempo.,1
+52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,Missioni disponibili:,1
+52032,QUEST_HUB_TOOLTIP_MORE_QUESTS_REMAINING,Ancora %d,1
+52033,ERR_SOLO_RBG_WARGAME_GROUP_COMP,Devono essere presenti esattamente 2 guaritori e massimo 1 difensore in una squadra da 8 persone per iniziare una Prova di Guerra del Blitz nel Campo di Battaglia.,1
+52034,ERR_SOLO_RBG_WARGAME_GROUP_SIZE,Devono essere presenti esattamente 16 personaggi non spettatori per iniziare una Prova di Guerra del Blitz nel Campo di Battaglia.,1
+52035,SPELL_FAILED_CUSTOM_ERROR_648,Hai già usato questo oggetto da addestramento Nerubiano.,1
+52036,SLASH_SOLORBG_WARGAME1,/battlegroundblitzwargame,1
+52037,SLASH_SOLORBG_WARGAME2,/bgbwg,1
+52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/invitespectatorbattlegroundblitzmatch,1
+52039,SHOW_SILHOUETTE_OPTION,Mostra sagoma se oscurato,1
+52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,Evidenzia la sagoma del tuo personaggio quando viene bloccato dagli oggetti in gioco,1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Don't worry, you'll learn all these talents by level 80.",1
+52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,Concentrazione:,1
+52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Dimensioni testo,1
+52056,SPELL_FAILED_CUSTOM_ERROR_1037,Richiede l'aver sbloccato Ricognizione di The War Within per l'utilizzo in quest'area.,1
 52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,Il potere fornito dal Mantello del Potenziale Infinito è mostrato qui.,1
+52058,MINIMAP_TRACKING_ACCOUNT_COMPLETED_QUESTS,Missioni Brigata completate,1
 52059,TIMERUNNING_DISABLED_TOOLTIP,I Corridori nel Tempo sono stati disattivati temporaneamente.,2
+52060,ACCOUNT_QUEST_LABEL,Brigata,1
+52061,SHOW_ACCOUNT_COMPLETED_QUESTS_BUTTON_LABEL,Missioni Brigata completate,1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Animazione combattimento,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Animazione speciale cavalcatura,1
+52064,PREFIX_SOLO_RBG,Blitz nel Campo di Battaglia: %s,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Per procedere alla personalizzazione, devi possedere un'Insegna Personale, ma puoi comunque dare un'occhiata.",7
+52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,La tua Brigata riceve valuta: %sx%d,1
+52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,La tua Brigata riceve valuta: %sx%d (obiettivo bonus),1
+52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,La tua Brigata riceve valuta: %sx%d (la tua Brigata ha ottenuto la quantità massima di %s),1
+52070,ACCOUNT_LEVEL_CURRENCY,Valuta Brigata,1
+52071,ACCOUNT_TRANSFERRABLE_CURRENCY,Trasferibile nella Brigata,1
+52072,CURRENCY_TRANSFER_LOSS,|cnNORMAL_FONT_COLOR:Quantità persa col trasferimento:|r |cnHIGHLIGHT_FONT_COLOR:%d%%|r ,1
+52073,UNITNAME_SUMMON_TITLE55,Invenzione di %s,1
+52074,ERR_NO_ACCOUNT_BANK_HERE,You are too far away from a Warband Bank.,1
+52075,DELVES_LEVEL_PICKER_LEADER_ERROR,Non sei il capogruppo.,1
+52076,DELVES_ENTRANCE_LEVEL_REQUIREMENT_ERROR,Per poter entrare in una Scorribanda devi essere almeno di livello %d.,1
+52077,DELVES_COMPANION_VIEW_ABILITIES,Visualizza abilità,1
+52078,DELVES_CURIO_LOCKED,Bloccato,1
+52079,DELVES_CURIO_SLOT_EMPTY,Vuoto,1
+52080,DELVES_CONFIG_SLOT_LABEL_COMBAT_ROLE,Ruolo di Combattimento,1
+52081,DELVES_CONFIG_SLOT_UTILITY_CURIO,Reperto di Utilità,1
+52082,DELVES_CONFIG_SLOT_COMBAT_CURIO,Reperto di Combattimento,1
+52083,DELVES_COMPANION_ABILITY_LIST_TITLE,Abilità del Compagno,1
+52084,DELVES_ABILITY_RANK_LABEL,Grado %d,1
+52085,DELVES_ABILITY_LIST_DROPDOWN_OPTION_LABEL,%s %s,1
+52086,DELVES_ABILITY_LIST_CURRENT_PAGE,Pagina %d/%d,1
+52087,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON,Applica %s,1
+52088,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF,Annulla %s,1
+52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,%s insufficiente.,1
+52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Applica %d Concentrazione per garantire la qualità successiva per questa ricetta.,1
+52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Rimuovi %d Concentrazione da questa ricetta.,1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,La Concentrazione si usa per garantire una qualità maggiore durante la creazione. La Concentrazione si rigenera lentamente nel tempo e in parte viene ripristinata quando una creazione attiva l'Ingegno.,1
+52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Concentrazione piena.,1
+52095,SPELL_FAILED_CUSTOM_ERROR_1039,Utilizzabile solo quando si è in combattimento.,1
+52096,SPELL_FAILED_CUSTOM_ERROR_1040,Non sei di livello abbastanza alto per entrare in una Scorribanda.,1
+52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,|cnHIGHLIGHT_FONT_COLOR:%d/%d|r,1
+52098,PROFESSIONS_CRAFTING_CURRENCY_TOOLTIP_FORMAT,%d/%d,1
+52099,PROFESSIONS_CRAFTING_STAT_CONCENTRATION,Concentrazione,1
+52100,PROFESSIONS_CRAFTING_STAT_CONCENTRATION_DESCRIPTION,La quantità di Concentrazione richiesta per questa ricetta.,1
+52101,PROFESSIONS_CRAFTING_EXPECTED_QUALITY_WITH_CONCENTRATION,"|cnHIGHLIGHT_FONT_COLOR:Qualità prevista:|r %s|n|nCon l'attuale applicazione di Concentrazione, garantirai la qualità successiva: %s",1
+52102,RATED_BG_BLITZ_SIZE,In solitaria,1
+52103,PVP_RATED_BG_BLITZ,Blitz nel Campo di Battaglia classificato,1
+52104,RATED_BG_BLITZ_MODE_DESCRIPTION,Campi di battaglia 8 contro 8 a un ritmo accelerato. Coda in solitaria. Solo i guaritori possono mettersi in coda in coppia.,1
+52105,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE,%s non applicabile,1
+52106,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE_DESC,Questa ricetta è già alla qualità massima.,1
+52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,Patron,1
+52108,POWER_TYPE_BLACK_BLOOD,Sangue Nero,1
+52109,CURRENCY_TRANSFER_TOGGLE_BUTTON_LABEL,Trasferisci,1
+52110,CURRENCY_TRANSFER_MENU_TITLE,Trasferimento valuta - %s,1
+52111,CURRENCY_TRANSFER_CONFIRM_BUTTON_LABEL,Conferma,1
+52112,CURRENCY_TRANSFER_CANCEL_BUTTON_LABEL,Annulla,1
+52113,CURRENCY_TRANSFER_AMOUNT_LABEL,Quantità da trasferire,1
+52114,CURRENCY_TRANSFER_SOURCE,Da,1
+52115,CURRENCY_TRANSFER_DESTINATION,A %s,1
+52116,CURRENCY_TRANSFER_NEW_BALANCE_PREVIEW,Nuovo saldo di %s,1
+52117,CURRENCY_TRANSFER_COST_TOOLTIP,Il trasferimento farà perdere %d valuta.,1
+52118,CURRENCY_TRANSFER_DISABLED_MAX_QUANTITY,Non puoi portare altra valuta,1
+52120,SPELL_FAILED_CUSTOM_ERROR_1041,Per qualche motivo il Globo della Saggezza Incredibile non risponde.,1
+52121,ERR_REMIX_INVALID_TRANSFER_REQUEST,Non ti è permesso andarci,1
+52124,CRF_EDIT_MODE,Modalità modifica,1
+52125,CRF_SETTINGS,Impostazioni,1
+52126,CRF_HIDE_GROUPS,Nascondi gruppi,1
+52127,CRF_DIFFICULTY,Difficoltà,1
+52128,CRF_READY_CHECK,Appello,1
+52129,CRF_ROLE_POLL,Sondaggio ruoli,1
+52130,CRF_COUNTDOWN,Conto alla Rovescia,1
+52131,CRF_ALL_ASSIST,Tutti sono assistenti,1
+52132,CHINA_RELEASE_BUILD,Pubblicazione in Cina,2
+52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Dannoso per i minori,3
+52134,DELVES_INSTANCE_RESET_WARNING,La Scorribanda sarà reimpostata tra %s.,1
+52135,DAILY_RESET_INSTANCE_WELCOME,Ti do il benvenuto presso: %s. L'azzeramento giornaliero avverrà tra %s e reimposterà questa istanza.,1
+52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:ha trasferito %sx%d a|r |cnNORMAL_FONT_COLOR:%s.|r,1
+52137,CHINA_GM_BUILD,GM Cina,2
+52138,WAR_WITHIN_LANDING_PAGE_TITLE,Panoramica di Khaz Algar,1
+52139,WAR_WITHIN_LANDING_PAGE_TOOLTIP,Clicca per mostrare una panoramica di Khaz Algar,1
+52140,DELVES_LABEL,Scorribande,1
+52141,DELVES_DASHBOARD_SEASON_TITLE,%s (%s Stagione %s),1
+52142,CURRENCY_TRANSFER_LOG_TITLE,Storico trasferimenti,1
+52143,CURRENCY_TRANSFER_LOG_CURRENCY_FORMAT,%s %s,1
+52144,CURRENCY_TRANSFER_LOG_TIME_FORMAT,%s fa,1
+52146,DELVES_REPUTATION_BAR_TITLE,Viaggi nelle Scorribande (%s Stagione %s),1
+52147,DELVES_COMPANION_LABEL,Compagno delle Scorribande,1
+52148,DELVES_CONFIGURE_BUTTON,Configura,1
+52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Completa le Scorribande per ottenere ricompense settimanali,1
+52150,DELVES_GREAT_VAULT_LABEL,Gran Banca,1
+52151,DYNAMIC_FLIGHT,Volo Dinamico,1
+52152,DELVES_GREAT_VAULT_TOOLTIP,Completa le Scorribande per ottenere ricompense settimanali.\n\n%s/%s ricompense sbloccate. ,1
+52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,La Gran Banca è disponibile solo quando è in corso una stagione.,1
+52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Abilità,1
+52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,Disponibile durante la stagione,1
+52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"Si sblocca con la missione ""Nelle profondità della terra"" durante la campagna dell'Isola di Dorn.",1
+52157,SEARCH_QUEST_LOG,Ricerca nel registro missioni,1
+52158,QUEST_LOG_NO_QUESTS,Nessuna missione disponibile|n|nAccetta missioni parlando con i personaggi con un |TInterface\\GossipFrame\\AvailableQuestIcon:16:16|t sulla testa.,1
+52159,QUEST_LOG_NO_RESULTS,Nessun risultato trovato,1
+52162,DELVES_REPUTATION_BAR_TITLE_NO_SEASON,Viaggi nelle Scorribande (disponibile durante la stagione),1
+52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,La tua Brigata non ha abbastanza valuta da trasferirti.,1
+52165,TIMERUNNING_WARBAND_BANK_DISABLED,I personaggi Corridori nel Tempo non hanno accesso alla Banca della Brigata.,1
+52166,RACE_INFO_EARTHENDWARF,"I Terrigeni di Khaz Algar, da poco liberati dai loro Editti, si avventurano per Azeroth. Portano con sé una curiosità sconfinata e il desiderio di riportare a loro archivio tutte le esperienze vissute.",3
+52167,REWARD_QUESTLINE_UNLOCK,Questa serie di missioni sblocca:,1
+52168,REWARD_QUESTLINE_REWARD,La fine di questa serie di missioni offre come ricompensa:,1
+52169,REWARD_QUESTLINE_UNLOCK_PART,Questa serie di missioni fa parte dello sblocco di:,1
+52170,UNITNAME_SUMMON_TITLE56,Confidente di %s,1
+52171,SPELL_FAILED_CUSTOM_ERROR_2001,L'emblema non ha magia conservata.,1
+52172,QUEST_LOG_SHOW_OBJECTIVES,Mostra obiettivi di missione,1
+52173,QUEST_LOG_TRACK_ALL,Traccia tutto,1
+52174,QUEST_LOG_UNTRACK_ALL,Smetti di tracciare tutto,1
+52175,SUPER_TRACK_QUEST,Focus,1
+52176,SPELLBOOK_SEARCH_INSTRUCTIONS,"Cerca abilità, parole chiave",1
+52177,SPELLBOOK_SEARCH_NOT_ON_ACTIONBAR,Non presente sulla barra delle azioni,1
+52178,SPELLBOOK_FILTER_PASSIVES,Nascondi abilità passive,1
+52179,11_0_Z_1_MAX_CAMPAIGN_MINIGAME_REWIRE,Cabla nuovamente la scheda elettronica dell'elaboratore,1
+52180,SPELLBOOK_SEARCH_HEADER_EXACT,Corrispondenze esatte,1
+52181,SPELLBOOK_SEARCH_HEADER_RELATED,Corrispondenze correlate,1
+52182,SPELLBOOK_SEARCH_HEADER_NAME,Corrispondenze di nomi,1
+52183,SPELLBOOK_SEARCH_HEADER_DESCRIPTION,Corrispondenze di descrizioni,1
+52184,SPELLBOOK_SEARCH_HEADER_GENERIC,Risultati,1
+52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,"""Nascondi abilità passive"" è disattivato durante la ricerca",1
+52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Panoramica di Khaz Algar sbloccata,1
+52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Fazione principale sbloccata,1
+52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,Si sblocca al livello %d,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,You must be near an Explorers' League supply crate to change this.,1
+52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,Include un bonus unico della Brigata (%d - |cnGREEN_FONT_COLOR:+%d|r reputazione),1
+52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,Include un bonus unico della Brigata (%d|cnGREEN_FONT_COLOR: - +%d|r valuta),1
+52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,Questo è un bonus Brigata per aver completato questa missione in precedenza (%d - |cnGREEN_FONT_COLOR:+%d|r reputazione),1
+52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLTIP,Questo è un bonus Brigata per aver completato questa missione in precedenza (%d - |cnGREEN_FONT_COLOR:+%d|r valuta),1
+52194,RACE_INFO_EARTHENDWARF_FEMALE,"I Terrigeni di Khaz Algar, da poco liberati dai loro Editti, si avventurano per Azeroth. Portano con sé una curiosità sconfinata e il desiderio di riportare a loro archivio tutte le esperienze vissute.",3
+52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,Completa %1$d |4altra Scorribanda:altre Scorribande; o attività nel mondo questa settimana per sbloccare una ricompensa della Gran Banca. Le attività nel mondo contano come Grado 0.|n|nIl livello oggetto della ricompensa si basa sulla spedizione di livello più alto di questa settimana.,1
+52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,Completa %1$d |4altra Scorribanda:altre Scorribande; o attività nel mondo questa settimana per sbloccare una seconda ricompensa della Gran Banca. Le attività nel mondo contano come Grado 0.,1
+52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,Completa %1$d |4altra Scorribanda:altre Scorribande; o attività nel mondo questa settimana per sbloccare una terza ricompensa della Gran Banca. Le attività nel mondo contano come Grado 0.,1
+52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Completa %1$d |4Scorribanda:Scorribande; o attività nel mondo,1
+52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Questa è una fazione della|r |cnNORMAL_FONT_COLOR:Brigata|r|cnHIGHLIGHT_FONT_COLOR:. La reputazione ottenuta con questa fazione è condivisa tra tutti i tuoi personaggi.|r,1
+52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Certe valute sono|r|n|cnNORMAL_FONT_COLOR:Trasferibili nella Brigata.|r|n|cnHIGHLIGHT_FONT_COLOR:Clicca su una valuta per iniziare il trasferimento da un altro personaggio.|r,1
+52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,"|cnHIGHLIGHT_FONT_COLOR:L'equipaggiamento|r |cnNORMAL_FONT_COLOR:Vincolato alla Brigata|r |cnHIGHLIGHT_FONT_COLOR:può essere condiviso con gli altri tuoi personaggi.|n|nUna volta equipaggiato, l'oggetto diventa|r |cnNORMAL_FONT_COLOR:Vincolato.|r",1
+52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Quests you have already completed with another character are hidden from the map and their NPC quest indicators are faded in the world.|n|nYou can change this setting here.|r,1
+52204,GREAT_VAULT_WORLD_TIER,Grado %s,1
+52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Livello Oggetto %1$d (Grado %2$d),1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,Completa una Scorribanda di Grado %1$d o superiore per aumentare il livello oggetto di questa ricompensa.,1
+52207,SPELL_FAILED_CUSTOM_ERROR_1042,Hai già questo Reperto nella tua collezione.,1
+52218,POWER_TYPE_ACID,Potenza Acida,1
+52219,PROF_CRAFTING_ORDER_TYPE_NPC,png,1
+52220,DELVE_LABEL,Scorribanda,1
+52221,UNITNAME_SUMMON_TITLE57,Messo da %s,1
+52228,PHOTOSENSITIVITY_WARNING_TITLE,AVVISO SULLA FOTOSENSIBILITÀ,2
+52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"Una ridotta percentuale di individui potrebbe mostrare segni di epilessia dovuti a certe luci, elementi o immagini, persino in assenza di episodi pregressi.|n|nPrima di giocare, se tu o qualcuno nella tua famiglia avete sofferto di epilessia, consulta un medico.|n|nSe durante il gioco ti capita di avere capogiri, visione alterata, spasmi, perdita di coscienza, sensazione di smarrimento, movimenti involontari o convulsioni, smetti immediatamente di giocare e contatta il medico.",2
+52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Premi un tasto per continuare,2
+52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Tutti i personaggi contribuiscono ai progressi di quest'impresa.,1
+52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 richiede l'aggiornamento di novembre 2019 di Windows 10 o più recente,3
+52259,SPELL_FAILED_CUSTOM_1101,È già stata costruita una Stazione di Carica nelle vicinanze.,1
+52260,SPELL_FAILED_CUSTOM_1102,È già stata costruita una Stazione Cattura-Vento nelle vicinanze.,1
+52261,SPELL_FAILED_CUSTOM_1103,È già stata costruita una Stazione di Recupero nelle vicinanze.,1
+52262,SPELL_FAILED_CUSTOM_1104,Troppo vicino a un'altra stazione.,1
+52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Informazioni dannose per i minori,5
+52264,CHARACTER_CREATE_REALM_TOOLTIP,Il personaggio verrà creato nel reame selezionato,2
+52265,CHARACTER_CREATE_REALM,Reame: %s,2
+52266,CHARACTER_SELECT_REALM_TOOLTIP,Reame: %s,2
+52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Dannoso per i minori,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map visibility and fade NPC quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52269,DELVES_NEW_CURIO,NUOVO,1
+52271,STOP_SUPER_TRACK_QUEST,Rimuovi focus,1
+52272,HERO_TALENTS_COLLAPSE,Minimizza,1
+52273,HERO_TALENTS_EXPAND,Massimizza,1
+52274,SPELL_FAILED_CUSTOM_ERROR_1051,Hai rivelato o trovato tutti i luoghi del Patto di oggi.,1
+52275,CURRENCY_TRANSFER_LOG_EMPTY,Nessun trasferimento trovato.,1
+52276,ERR_CURRENCY_TRANSFER_INVALID_CHARACTER,Impossibile trasferire valuta da questo personaggio.,1
+52277,ERR_CURRENCY_TRANSFER_CHARACTER_LOGGED_IN,Impossibile trasferire valuta da questo personaggio finché resta connesso.,1
+52278,ERR_CURRENCY_TRANSFER_INSUFFICIENT_CURRENCY,Questo personaggio non ha abbastanza valuta da trasferirti.,1
+52279,ERR_CURRENCY_TRANSFER_MAX_QUANTITY,Non puoi portare altra valuta.,1
+52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,Questa valuta non è Trasferibile nella Brigata.,1
+52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,La tua Brigata non ha abbastanza valuta da trasferirti.,1
+52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,Si è verificato un errore. Riprova.,1
+52285,RPE_GEAR_UPDATE_CHARACTER,Personaggio:,2
+52286,RPE_GEAR_UPDATE_SELECT_SPEC,Scegli la specializzazione:,2
+52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,Questa scelta influenzerà tutti i personaggi nella tua Brigata. |n|n|cffffd200Continuare?|r,1
+52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,Non soddisfi i requisiti per usare questa valuta.,1
+52289,INSPECT_GUILD_REALM,Reame: %s,1
+52290,CLUB_FINDER_REALM_NAME,Reame: |cffffffff%s|r,1
+52296,MAP_LEGEND_CAMPAIGN,Campagna,1
+52297,MAP_LEGEND_CAMPAIGN_TOOLTIP,Missioni che continuano la storia principale,1
+52298,MAP_LEGEND_IMPORTANT,Importante,1
+52299,MAP_LEGEND_IMPORTANT_TOOLTIP,"Missioni che sbloccano funzionalità importanti e ricompense, o che danno informazioni su meccaniche importanti",1
+52300,MAP_LEGEND_LEGENDARY,Leggendaria,1
+52301,MAP_LEGEND_LEGENDARY_TOOLTIP,Missioni che offrono ricompense leggendarie,1
+52302,MAP_LEGEND_META,Meta,1
+52303,MAP_LEGEND_META_TOOLTIP,Missioni a tempo che offrono preziose ricompense di fine gioco,1
+52304,MAP_LEGEND_LOCALSTORY,Storia locale,1
+52305,MAP_LEGEND_LOCALSTORY_TOOLTIP,Missioni che esplorano culture locali e avventure secondarie,1
+52306,MAP_LEGEND_INPROGRESS,In corso,1
+52307,MAP_LEGEND_INPROGRESS_TOOLTIP,Missioni attualmente in corso,1
+52308,MAP_LEGEND_TURNIN,Consegna,1
+52309,MAP_LEGEND_TURNIN_TOOLTIP,Missioni pronte per la consegna,1
+52310,MAP_LEGEND_WORLDQUEST,Missione mondiale,1
+52312,MAP_LEGEND_WORLDQUEST_TOOLTIP,Attività del mondo esterno che offrono varie ricompense ,1
+52313,MAP_LEGEND_WORLDBOSS,Boss esterno,1
+52314,MAP_LEGEND_WORLDBOSS_TOOLTIP,"Un impegnativo boss del mondo esterno che rilascia bottino prezioso, destinato a grandi gruppi di personaggi",1
+52315,MAP_LEGEND_BONUSOBJECTIVE,Obiettivo bonus,1
+52316,MAP_LEGEND_BONUSOBJECTIVE_TOOLTIP,Attività bonus del mondo esterno che offrono esperienza e varie quantità di ricompense,1
+52317,MAP_LEGEND_EVENT,Evento,1
+52318,MAP_LEGEND_EVENT_TOOLTIP,Varie attività specifiche della patch che offrono ricompense preziose,1
+52319,MAP_LEGEND_RARE,Raro,1
+52320,MAP_LEGEND_RARE_TOOLTIP,Una creatura speciale che offre varie ricompense,1
+52321,MAP_LEGEND_RAREELITE,Élite raro,1
+52322,MAP_LEGEND_RAREELITE_TOOLTIP,Una creatura speciale e rara che ha una probabilità di rilasciare bottino prezioso,1
+52323,MAP_LEGEND_DUNGEON,Spedizione,1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,Contenuto progettato per un gruppo di cinque avventurieri che offre bottino,1
+52325,MAP_LEGEND_RAID,Incursione,1
+52326,MAP_LEGEND_RAID_TOOLTIP,"Contenuto impegnativo, ideato per grandi gruppi di giocatori e che offre bottino prezioso",1
+52327,MAP_LEGEND_HUB,Centro,1
+52328,MAP_LEGEND_HUB_TOOLTIP,"Un luogo centrale con PNG, attività e missioni disponibili",1
+52329,MAP_LEGEND_DIGSITE,Scavo,1
+52330,MAP_LEGEND_DIGSITE_TOOLTIP,Un sito archeologico dove puoi scavare in cerca di manufatti,1
+52331,MAP_LEGEND_PETBATTLE,Scontro tra mascotte,1
+52332,MAP_LEGEND_PETBATTLE_TOOLTIP,Sfida i PNG in uno scontro tra mascotte,1
+52334,MAP_LEGEND_FRAME_LABEL,Legenda mappa,1
+52335,MAP_LEGEND_CATEGORY_QUESTS,Missioni,1
+52336,MAP_LEGEND_CATEGORY_LTA,Attività a tempo limitato,1
+52337,MAP_LEGEND_CATEGORY_ACTIVITIES,Attività,1
+52338,MAP_LEGEND_CATEGORY_MOVEMENT,Movimento,1
+52339,MAP_LEGEND_TELEPORT,Punto di teletrasporto,1
+52340,MAP_LEGEND_TELEPORT_TOOLTIP,Ti teletrasporta in un'altra regione,1
+52341,MAP_LEGEND_CAVE,Entrata della caverna,1
+52342,MAP_LEGEND_CAVE_TOOLTIP,L'entrata di una caverna o di un'altra zona,1
+52343,MAP_LEGEND_FLIGHTPOINT,Punto di Volo,1
+52344,MAP_LEGEND_FLIGHTPOINT_TOOLTIP,Ti trasporta in un'altra area della stessa regione,1
+52346,VRN_COMPAT_MODE,Disattivato per via delle impostazioni di compatibilità,3
+52347,COMPATIBILITY_SETTINGS,Impostazioni di compatibilità,3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Le impostazioni di compatibilità vengono offerte per aiutare a diagnosticare e a risolvere vari arresti anomali, problemi grafici e di prestazioni. Nella maggior parte dei casi, disattivare queste funzionalità ridurrà le prestazioni, introdurrà rallentamenti e/o ridurrà la qualità grafica. Vanno disattivate soltanto se si verificano problemi specifici.",3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,Funzionalità GPU opzionali,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,Creazione di risorse asincrona,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,Sovrapposizione frame,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,Rendering a thread multipli,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Consente l'uso di funzionalità delle GPU più recenti. Disattivando questa opzione, il gioco si comporterà come se la GPU supportasse solo le funzionalità minime richieste. Diverse funzionalità grafiche verranno disattivate e la qualità grafica del gioco verrà probabilmente ridotta. Questo potrebbe aiutare a risolvere bug relativi ai driver o altri problemi con funzionalità delle GPU più recenti.",3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,"Consente la creazione asincrona di risorse per la GPU come texture e shader. Disattivare questa opzione probabilmente introdurrà dei rallentamenti, ma potrebbe aiutare a risolvere arresti anomali o problemi grafici su hardware o driver molto vecchi.",3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Permette alla CPU di lavorare su due frame alla volta. Disattivare questa opzione potrebbe generare un framerate meno regolare o minore, ma potrebbe aiutare a evitare alcuni tipi di arresti anomali per certe combinazioni di hardware, driver e sistema operativo. ",3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Consente al gioco di usare thread CPU multipli per il rendering. Disattivare questa opzione ridurrà probabilmente di molto il framerate, ma potrebbe risolvere i problemi di arresti anomali o bug grafici in alcuni casi. ",3
+52358,QUEST_CLASSIFICATION_CALLING,Chiamata,1
+52360,QUEST_CLASSIFICATION_IMPORTANT,Importante,1
+52361,QUEST_CLASSIFICATION_CAMPAIGN,Campagna,1
+52362,QUEST_CLASSIFICATION_LEGENDARY,Leggendaria,1
+52363,QUEST_CLASSIFICATION_META,Meta,1
+52364,QUEST_CLASSIFICATION_RECURRING,Ripetibile,1
+52365,QUEST_CLASSIFICATION_QUESTLINE,Gruppo di missioni,1
+52366,QUEST_CLASSIFICATION_QUESTLINE_WITH_NAME,Gruppo di missioni (%s),1
+52367,DELVES_ERR_SELECT_TIER,Devi scegliere un grado.,1
+52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,È necessario acquistare del tempo di gioco almeno una volta su questo account per poter acquistare un Gettone WoW con l'oro.,1
+52373,ERR_CURRENCY_TRANSFER_UNMET_REQUIREMENTS,Non soddisfi i requisiti per usare questa valuta.,1
+52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,Reame: %s,2
+52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,Vengono mostrati solo i personaggi cancellati dal reame attuale. Cambia reame per vedere gli altri personaggi cancellati.,2
+52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,Gli oggetti rimborsabili non possono essere conservati nella Banca della Brigata.,1
+52377,NPEV2_SELECT_SPEC_TAB,Seleziona la scheda |cFF00FFFFSpecializzazione|r,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Talents,1
+52380,ERR_DELVE_IN_PROGRESS,È in corso una Scorribanda di %s,1
+52381,ACCOUNT_CONVERSION_IN_PROGRESS,Account in aggiornamento per implementare la funzionalità della Brigata. Attendi.,2
+52382,ERR_BANK_NOT_ACCESSIBLE,Questo personaggio non ha accesso a questa banca.,1
+52383,WOW_ERROR_338,Questo account di World of Warcraft è stato sospeso dalla beta.,2
+52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this tier,1
+52386,HARMFUL_TO_MINORS_DISABLED_TOOLTIP,È necessario selezionare una o più opzioni Nome disponibili,1
+52387,SPELL_FAILED_CUSTOM_ERROR_1053,I Corridori nel Tempo non possono lanciare questo incantesimo.,1
+52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Cavalcata,1
+52389,RPE_UPGRADE_COMPLETE_WARNING,Devi connetterti per completare il potenziamento istantaneo.,3
+52390,DELVES_SHOW_ENTRACES_ON_MAP_TEXT,Ingressi delle Scorribande,1
+52391,SPELL_FAILED_CUSTOM_ERROR_1043,Devi scegliere cosa fare con il prototipo attuale prima di identificarne di nuovi.,1
+52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
+52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
+52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,Invia lavoro avanzato,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Permette a percorsi del codice più complessi di inviare carichi di lavoro alla GPU. Disabilitarlo potrebbe generare un framerate meno regolare o minore, ma potrebbe aiutare a evitare alcuni tipi di arresti anomali per certe combinazioni di hardware, driver e sistema operativo. ",3
+52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
+52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly over time.,1
+52400,PREFIX_RATED_SOLO_RGB,Classificato - %s,1
+52401,ERR_NO_OPEN_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot open this while it is in the Warband Bank.,1
+52402,ERR_NO_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot place that in the Warband Bank.,1
+52403,NOT_BEST_ARMOR_TYPE_WARNING,|cnRED_FONT_COLOR:Questo non è il tuo tipo di armatura preferito.|r,1
+52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- Il personaggio è in un altro reame.,2
+52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,- Switch realms to use a service or upgrade this character.,2
+52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,Errore. È necessario risolvere il seguente problema:,2
+52407,REMIX_END_OF_EVENT_NOTICE,"The Timerunning event has ended.  You have been transported back to your home timeline.
+
+Items from the event have been removed.
+",1
+52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,Ripetibile (ancora %s),1
+52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,I tuoi personaggi in tutti i reami vengono mostrati nell'Elenco personaggi Brigata.,2
+52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,Storie locali,1
+52411,SPELL_FAILED_CUSTOM_ERROR_1044,Hai già usato un contratto di Khaz Algar questa settimana.,1
+52412,DUNGEON_MAP_PIN_FALLBACK_NAME,Spedizione,1
+52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,<Pulsante destro per aprire la Guida alle Avventure>,1
+52414,CREATE_CHARACTER_REALM_CONFIRM_DIALOG_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Il tuo personaggio verrà creato nel|r Reame %s|cnHIGHLIGHT_FONT_COLOR:. Per cambiare reame, clicca sul pulsante ""Reami"".|r",2
+52415,MOUNT_JOURNAL_STEADY_FLIGHT_ONLY,Solo Volo Statico,1
+52416,PROFESSIONS_OUTPUT_INGENUITY,Scoperta geniale!,1
+52417,PROFESSIONS_OUTPUT_INGENUITY_TITLE,Ingegno,1
+52418,PROFESSIONS_OUTPUT_INGENUITY_DESC,"Hai fatto una scoperta geniale, ripristinando %d Concentrazione per questa creazione.",1
+52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband Bank to be deleted.,1
+52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<Pulsante destro per mostrare la mappa>,1
+52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Chiudi i dettagli della missione,1
+52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,You can minimize the Spellbook here,1
+52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Switch to this character's realm to update.,2
+52426,DELVES_TIER_SELECT_HELPTIP,Select a tier of difficulty,1
+52427,MAP_LEGEND_REPEATABLE,Repeatable,1
+52428,MAP_LEGEND_REPEATABLE_TOOLTIP,Time gated quests,1
+52429,SPELL_FAILED_CUSTOM_ERROR_2223,A Trial is already being undergone nearby.,1
+52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Patron Name,1
+52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Patron Orders|r|nCharacters met on your travels may now send you crafting orders. Fulfill these for profession skill, knowledge, and more!",1
+52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Once all requirements are satisfied, you can craft the order. Some orders may require you to provide your own reagents.",1
+52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Hide Warband Completed Quests,1
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Trivial Quests,1
+52435,QUEST_SETTINGS_LABEL,Quests,1
+52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,You cannot deposit items into void storage from the Warband Bank.,1
+52438,WOW_ERROR_500,La conversione di dati per la tua Brigata non è andata a buon fine. Connetti nuovamente l'account e riprova.,2
+52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,I personaggi di altri reami non possono essere promossi a capogilda.,1
+52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Rewards:,1
+52441,GENERIC_TRAIT_FRAME_THE_WEAVER_TITLE,Pact: The Weaver,1
+52442,GENERIC_TRAIT_FRAME_THE_GENERAL_TITLE,Pact: The General,1
+52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,Pact: The Vizier,1
