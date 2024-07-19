@@ -14355,7 +14355,7 @@ ID,BaseTag,TagText_lang,Flags
 33795,ACCOUNT_REACTIVATE_DESC_MINUTES,월드 오브 워크래프트 계정에 게임 시간 2700분이 추가됩니다. 이 게임 시간은 환불받을 수 없습니다.,2
 33796,ACCOUNT_REACTIVATE_EXPIRATION,새로운 계정 만료일: |cffffffff%s/%s/%s|r,2
 33797,ACCOUNT_REACTIVATE_EXPIRATION_MINUTES,갱신된 잔여 게임 시간: |cffffffff%s|r,2
-33798,ACCOUNT_REACTIVATE_GOLD_DESC,게임 내 골드로 30일의 게임 시간을 구입할 수 있습니다. 해당 골드는 이 서버 내의 캐릭터들에게서 고르게 차감됩니다.,2
+33798,ACCOUNT_REACTIVATE_GOLD_DESC,"You can buy 30 days of game time using your in-game gold. This amount will be deducted evenly from your characters on this realm.\n\nAlternatively, check your other realms to see if you already have a Game Time token available.",2
 33800,ACCOUNT_REACTIVATE_GOLD_PRICE,가격: |cffffffff%s|r,2
 33801,ACCOUNT_REACTIVATE_GOLD_REMAINING,남는 골드: |cffffffff%s|r,2
 33802,ACCOUNT_REACTIVATE_GOLD_TITLE,골드로 계정 활성화,2
@@ -14363,7 +14363,7 @@ ID,BaseTag,TagText_lang,Flags
 33804,ACCOUNT_REACTIVATE_OPTION_UNAVAILABLE,지금은 게임 시간을 선택할 수 없습니다.,2
 33805,ACCOUNT_REACTIVATE_SUBSCRIPTION,계정 활성화,2
 33806,ACCOUNT_REACTIVATE_SUCCESS,계정이 다시 활성화되었습니다!,2
-33807,ACCOUNT_REACTIVATE_TEXT,20 레벨 이상의 캐릭터를 플레이하려면 계정을 활성화해야 합니다.\n\n지금 계정을 활성화하고 모험을 계속하시겠습니까?,2
+33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 20.\n\nCheck your other realms to see if you have a Game Time token available.\n\nWould you like to reactivate now and continue where you left off?,2
 33808,ACCOUNT_REACTIVATE_TOKEN_ACCEPT,WoW 토큰 사용,2
 33809,ACCOUNT_REACTIVATE_TOKEN_DESC,사용하지 않은 WoW 토큰이 있습니다. 지금 바로 사용하여 게임 시간 30일을 추가할 수 있습니다.,2
 33811,ACCOUNT_REACTIVATE_TOKEN_TITLE,WoW 토큰으로 계정 활성화,2
@@ -14804,7 +14804,7 @@ ID,BaseTag,TagText_lang,Flags
 34244,COMMUNITY_URL,http://kr.battle.net/wow,2
 34245,CONFIRM_CHAR_DELETE,정말 이 캐릭터를 삭제하겠습니까?\n|cffffffff%s (%d 레벨 %s)|r,2
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,"캐릭터 삭제 확인을 위해 ""지금삭제""를 입력해 주시기 바랍니다.",2
-34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
+34247,CONFIRM_DISABLE_ADDONS,"차후에 새 버전의 애드온을 설치한 뒤에 다시 활성화해야 합니다. 애드온을 비활성화하시겠습니까?\n\n|cffffffff화면 상단의 ""메뉴 > 애드온""에서 애드온을 선택해 다시 활성화할 수 있습니다.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"""확인""을 누르면 게임이 종료되고 다음 홈페이지로 이동합니다:\n%s",2
 34249,CONFIRM_LOAD_ADDONS,애드온 버전을 업데이트하지 않으면 게임이 정상적으로 작동하지 않을 수 있습니다. 그래도 버전을 무시하고 사용하시겠습니까?\n\n|cffffffff좌측 하단의 애드온 목록을 클릭하여 사용 여부를 결정할 수 있습니다.|r,2
 34250,CONFIRM_PAID_SERVICE,"캐릭터 변경을 모두 마치시겠습니까?
@@ -14848,7 +14848,7 @@ ID,BaseTag,TagText_lang,Flags
 34286,DEMONHUNTER_DISABLED,군단 확장팩 및 70 레벨 이상의 캐릭터 필요,2
 34287,DEMON_HUNTER_RESTRICTED_HAS_DEMON_HUNTER,서버당 하나의 악마사냥꾼만 생성할 수 있습니다.,2
 34288,DEMON_HUNTER_RESTRICTED_NEED_LEVEL_70,이 서버의 최고 레벨 캐릭터가 70 레벨 이상이어야 합니다.,2
-34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
+34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">비디오 장치 드라이버가 호환되지 않습니다. 자세한 내용은 다음 <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> 페이지에서 확인하시기 바랍니다.</p></body></html>",2
 34290,DIALOG_HELP_MORE_INFO,자세한 정보,2
 34291,DISCONNECTED,서버와 연결이 끊어졌습니다.,6
 34292,DISCONNECT_REASON_BAN,해당 계정은 이용 약관(http://www.blizzard.com/company/legal/wow_tou.html)을 위반하여 일시적으로 사용이 정지되었습니다. %d일 %d시간 %d분 후에 사용이 재개됩니다. 전송된 이메일을 통해 자세한 위반 내역과 이의 제기 방법을 확인하시기 바랍니다.,2
@@ -14858,8 +14858,8 @@ ID,BaseTag,TagText_lang,Flags
 34296,DOWNLOAD_SUCCESSFUL_TEXT,재시작 버튼을 눌러 월드 오브 워크래프트를\n재시작한 후 패치를 다운로드 받으십시오.,2
 34297,DPS,초공,2
 34298,DRAENEI_DISABLED,불타는 성전 필요,2
-34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
-34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
+34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">장치 드라이버가 호환되지 않습니다. 자세한 내용은 다음 <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> 페이지에서 확인하시기 바랍니다.</p></body></html>",2
+34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">장치 드라이버가 업데이트되지 않았습니다. 자세한 내용은 다음 <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> 페이지에서 확인하시기 바랍니다.</p></body></html>",2
 34301,DRUID_DISABLED,이 직업으로 플레이하려면 다른 종족을 선택해야 합니다.,2
 34302,EMAIL_ADDRESS,이메일 주소,2
 34303,ENABLED_FOR_SOME,이 애드온은 특정 캐릭터만 사용하도록 설정되었습니다.,3
@@ -14879,7 +14879,7 @@ ID,BaseTag,TagText_lang,Flags
 34317,FACTION_INFO_ALLIANCE,"        얼라이언스는 고귀한 인간, 모험을 좋아하는 드워프, 신비한 나이트 엘프, 재주가 많은 노움, 명예를 중시하는 드레나이 등 총 다섯 가지 종족으로 구성되어 있습니다. 악마와 관련된 모든 것을 혐오하는 마음으로 하나가 된 이들은 전쟁의 상흔으로 폐허가 된 세계에 질서를 되살리기 위해 싸웁니다.",2
 34318,FACTION_INFO_HORDE,"        호드는 잔혹한 오크, 음침한 언데드, 영적인 타우렌, 재치 있는 트롤, 투지가 불타는 블러드 엘프 등 총 다섯 가지 종족으로 구성되어 있습니다. 사방의 적으로부터 괴롭힘을 받는 이들 추방자는 서로의 생존을 위해 하나가 되었습니다.",2
 34319,FINISH,완료,2
-34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
+34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">월드 오브 워크래프트는 이 비디오 카드를 지원하지 않습니다. 자세한 내용은 다음 <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> 페이지에서 확인하시기 바랍니다.</p></body></html>",2
 34321,GAMETYPE_NORMAL,일반,2
 34322,GAMETYPE_PVE,일반 서버,2
 34323,GAMETYPE_PVE_TEXT,"일반 서버는 세계를 모험하고 몬스터와의 전투를 즐기고 싶으신 분들을 위한 서버입니다. 또한, 자신의 의사에 따라 연합 간의 전투도 자유롭게 참여하실 수 있습니다.",2
@@ -15155,7 +15155,7 @@ ID,BaseTag,TagText_lang,Flags
 34601,STREAMING_BUILD,스트리밍,2
 34602,SUGGESTED_REALM_TEXT,|cffffffff가장 쾌적한 플레이를 즐길 수 있는 곳은|r %s |cffffffff서버입니다.|r,2
 34603,SUGGEST_REALM,추천 서버,2
-34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
+34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">향후 월드 오브 워크래프트의 새로운 버전은 이 시스템을 지원하지 않습니다. 자세한 내용은 다음 <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> 페이지에서 확인하시기 바랍니다.</p></body></html>",2
 34605,TAIWAN,대만,7
 34606,TECH_SUPPORT,고객지원,2
 34607,TECH_SUPPORT_URL,http://www.blizzard.com/support/wow/,2
@@ -15183,7 +15183,7 @@ ID,BaseTag,TagText_lang,Flags
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,"캐릭터가 성공적으로 복구되었습니다.\n기존 이름이 사용 중이므로, 로그인할 때 새로운 이름을 결정해야 합니다.",2
 34630,UNDELETE_TOOLTIP,삭제한 캐릭터 복구,2
 34631,UNDELETE_TOOLTIP_COOLDOWN,삭제한 다른 캐릭터를 복구하려면 %s|1을;를; 기다려야 합니다.,2
-34632,UNDELETE_TOOLTIP_DISABLED,Restoring a Deleted Character is temporarily unavailable. Your patience is appreciated while we work on a resolution.,2
+34632,UNDELETE_TOOLTIP_DISABLED,일시적으로 삭제한 캐릭터 복구 서비스를 이용할 수 없습니다. 해결책을 모사하고 있사오니 너른 마음으로 양해해 주시면 감사하겠습니다.,2
 34633,UNKNOWN_ZONE,알 수 없는 지역,2
 34634,UNLOCK_TEXT,다음과 같은 멋진 기능을 사용할 수 있습니다:,2
 34635,UPGRADE_ACCOUNT,정식판으로 업그레이드,2
@@ -19682,7 +19682,7 @@ ID,BaseTag,TagText_lang,Flags
 44097,TEXT_TO_SPEECH_DEFAULTS,텍스트 음성 변환 기본값,1
 44098,GAMEMENU_OPTIONS,설정,3
 44099,TEXT_TO_SPEECH_NARRATE_MY_MESSAGES,내 메시지 소리 내어 읽기,1
-44100,ORIBOS_GREAT_VAULT_POI_TOOLTIP_INSTRUCTIONS,위대한 금고를 미리 살펴보려면 클릭하십시오.,1
+44100,ORIBOS_GREAT_VAULT_POI_TOOLTIP_INSTRUCTIONS,Right Click to preview the Great Vault,1
 44101,LEVEL_UP_BATTLEGROUND_WITH_LINK,새로운 전장을 이용할 수 있습니다: |cff66bbff|Hbattleground:%d|h[%s]|h|r,1
 44103,CHAT_HELP_TEXT_LINE17,/tts - 내 메시지 소리 내어 읽기 켜기/끄기,3
 44104,HELP_TEXT_LINE16,"- 텍스트 음성 변환 명령어 목록을 확인하시려면 ""/tts 도움""을 입력하세요",1
@@ -19750,7 +19750,7 @@ ID,BaseTag,TagText_lang,Flags
 44169,PVP_RANK_8_NAME,승부사 II,1
 44170,PVP_RANK_4_NAME,결투사,1
 44171,PVP_RANK_5_NAME,정예병,1
-44172,PVP_RANK_8_NEXT_RANK_DESC,Achieve a rating of 1950 or higher to earn:|n- Elite PvP Weapon Enchant,1
+44172,PVP_RANK_8_NEXT_RANK_DESC,"평점 1,950점 이상 달성:|n- 정예 플레이어 간 전투 무기 마법부여",1
 44173,PVP_RANK_4_NEXT_RANK_DESC,평점 2100점 이상 달성:|n- 결투사 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 영예 망토,1
 44174,PVP_RANK_5_NEXT_RANK_DESC,평점 2400점 이상 달성:|n- 정예병 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 휘장,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
@@ -21318,7 +21318,7 @@ ID,BaseTag,TagText_lang,Flags
 50049,CRAFTING_ORDERS_NUM_PERSONAL_FMT,%d건의 개인 주문 제작 의뢰를 진행할 수 있습니다.,1
 50050,MONTHLY_ACTIVITIES_THRESHOLD_TOOLTIP_REWARDS,"보상:
 |cnHIGHLIGHT_FONT_COLOR:%d|r %s",1
-50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visit the Trading Post in %s or Dornogal to collect your rewards!,1
+50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,%s 교역소 또는 도르노갈을 방문하여 보상을 수령하십시오!,1
 50052,MONTHLY_ACTIVITIES_UPDATED,여행자의 기록 갱신,1
 50054,TALENT_BUTTON_TOOLTIP_PVP_TALENT_REQUIREMENT_ERROR,필요 특성을 배우지 않아 이 플레이어 간 전투 특성은 비활성화되었습니다.,1
 50055,TALENT_FRAME_CONFIRM_LEAVE_DEFAULT_LOADOUT,저장하지 않았을 경우 현재 특성 빌드를 영구적으로 잃습니다.|n|n정말 진행하시겠습니까?,1
@@ -21433,7 +21433,7 @@ ID,BaseTag,TagText_lang,Flags
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,장비 내구도,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,크기,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,여행자의 기록 진행 상황,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visit the Trading Post in %s or Dornogal to access the Traveler's Log.,1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,여행자의 기록을 이용하려면 %s 교역소 또는 도르노갈을 방문하십시오.,1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,시작|n평점,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"매달 여행자의 활동을 완료하면 수집가의 보관함에서 인장과 특별한 보상을 획득할 수 있습니다.
 
@@ -21739,7 +21739,7 @@ ID,BaseTag,TagText_lang,Flags
 51199,ICON_FILTER_ITEM,아이템,1
 51200,SPELL_FAILED_CUSTOM_ERROR_853,어둠뿌리 움켜쥠 장갑이 필요합니다.,1
 51201,RPE_TOOLTIP_LINE1,장비 업데이트 가능!,3
-51202,RPE_TOOLTIP_LINE2,- Requires level 10-70,3
+51202,RPE_TOOLTIP_LINE2,- 10~70 레벨 필요,3
 51203,RPE_TOOLTIP_LINE3,- %s에 만료,3
 51204,RPE_GEAR_UPDATE_GREEN,|cffaaffaa장비 업데이트|r,3
 51205,BATTLE_PET_SOURCE_12,교역소,1
@@ -21918,7 +21918,7 @@ ID,BaseTag,TagText_lang,Flags
 51425,CHARACTER_SELECT_NAV_BAR_SHOP,블리자드 샵,2
 51426,CHARACTER_SELECT_NAV_BAR_MENU,메뉴,2
 51427,CHARACTER_SELECT_TESTING_CONTROLS,테스트 중,2
-51428,CHARACTER_SELECT_BACK,Back,2
+51428,CHARACTER_SELECT_BACK,뒤로,2
 51429,SPELL_FAILED_TARGETS_NOT_PROFESSION,대상이 알맞은 전문 기술을 배우고 있지 않습니다.,1
 51433,PING_FAILED_SQUELCHED,신호를 보내지 못했습니다. 일시적으로 대화가 금지된 상태입니다.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,신호 단축키를 |cnTUTORIAL_BLUE_FONT_COLOR:눌러|r 간편 신호를 오픈 월드에 배치할 수 있습니다.,1
@@ -22395,7 +22395,7 @@ ID,BaseTag,TagText_lang,Flags
 52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/전장대공세경기관전자초대,1
 52039,SHOW_SILHOUETTE_OPTION,가려졌을 때 윤곽선 표시,1
 52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,게임 내 물체로 내 캐릭터가 가려졌을 때 윤곽선을 표시합니다.,1
-52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Don't worry, you'll learn all these talents by level 80.",1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,걱정하지 마십시오. 80 레벨을 달성할 시점이면 모든 특성을 습득하게 됩니다.,1
 52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,집중:,1
 52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,텍스트 크기,1
 52056,SPELL_FAILED_CUSTOM_ERROR_1037,이 지역에서 사용하려면 내부 전쟁 길잡이를 해제해야 합니다.,1
@@ -22447,7 +22447,7 @@ ID,BaseTag,TagText_lang,Flags
 52104,RATED_BG_BLITZ_MODE_DESCRIPTION,빠른 속도로 진행되는 8 대 8 전장입니다. 치유 담당을 제외하고 혼자서 2인 대기열 등록이 가능합니다.,1
 52105,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE,%s 적용 불가,1
 52106,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE_DESC,이 제작법은 이미 최대 품질에 도달한 상태입니다.,1
-52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,Patron,1
+52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,손님,1
 52108,POWER_TYPE_BLACK_BLOOD,검은 피,1
 52109,CURRENCY_TRANSFER_TOGGLE_BUTTON_LABEL,이전,1
 52110,CURRENCY_TRANSFER_MENU_TITLE,화폐 이전 - %s,1
@@ -22535,7 +22535,7 @@ ID,BaseTag,TagText_lang,Flags
 52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:이 진영은|r |cnNORMAL_FONT_COLOR:전투부대|r |cnHIGHLIGHT_FONT_COLOR:진영입니다. 이 진영에 대해 획득하는 평판은 모든 캐릭터가 공유합니다.|r,1
 52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:일부 화폐는 |r|n|cnNORMAL_FONT_COLOR:전투부대 이전이 가능합니다.|r|n|cnHIGHLIGHT_FONT_COLOR:다른 캐릭터에게 화폐를 이전하려면 해당 화폐를 클릭하십시오.|r,1
 52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,|cnNORMAL_FONT_COLOR:전투귀속|r |cnHIGHLIGHT_FONT_COLOR:장비는 다른 캐릭터와 공유할 수 있습니다.|n|n전투귀속 장비를 착용하면 |r |cnNORMAL_FONT_COLOR:귀속|r으로 전환됩니다.,1
-52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Quests you have already completed with another character are hidden from the map and their NPC quest indicators are faded in the world.|n|nYou can change this setting here.|r,1
+52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:다른 캐릭터로 완료한 퀘스트는 지도에서 숨김 처리되며 NPC 퀘스트 표시기도 월드에서 사라집니다.|n|n여기서 해당 설정을 변경할 수 있습니다.|r,1
 52204,GREAT_VAULT_WORLD_TIER,%s 레벨,1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,아이템 레벨 %1$d - (%2$d 레벨),1
 52206,WEEKLY_REWARDS_COMPLETE_WORLD,%1$d 레벨 이상의 구렁을 완료하면 이 보상의 아이템 레벨이 증가합니다.,1
@@ -22558,7 +22558,7 @@ ID,BaseTag,TagText_lang,Flags
 52265,CHARACTER_CREATE_REALM,%s 서버,2
 52266,CHARACTER_SELECT_REALM_TOOLTIP,%s 서버,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,미성년자 유해 정보,1
-52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map visibility and fade NPC quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,이전에 다른 캐릭터로 완료한 퀘스트의 지도 내 표시 여부를 전환하고 월드 내 NPC 퀘스트 표시기를 숨기거나 표시합니다.|n|n현재 용군단 및 내부 전쟁을 지원합니다.,1
 52269,DELVES_NEW_CURIO,신규,1
 52271,STOP_SUPER_TRACK_QUEST,집중 제거,1
 52272,HERO_TALENTS_COLLAPSE,최소화,1
@@ -22651,12 +22651,12 @@ ID,BaseTag,TagText_lang,Flags
 52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,현재 서버에서 삭제된 캐릭터만 표시됩니다. 다른 삭제된 캐릭터를 보려면 서버를 변경하십시오.,2
 52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,환불 가능 아이템은 전투부대 은행에 보관할 수 없습니다.,1
 52377,NPEV2_SELECT_SPEC_TAB,|cFF00FFFF전문화|r 탭 선택,1
-52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Talents,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,영웅 특성 선택,1
 52380,ERR_DELVE_IN_PROGRESS,%s 구렁 진행 중,1
 52381,ACCOUNT_CONVERSION_IN_PROGRESS,전투부대 기능 이용을 위해 계정 업데이트 중입니다. 잠시 기다려 주십시오.,2
 52382,ERR_BANK_NOT_ACCESSIBLE,이 캐릭터는 해당 은행 이용이 불가능합니다.,1
 52383,WOW_ERROR_338,해당 계정은 베타 이용이 정지되었습니다.,2
-52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this tier,1
+52385,DELVES_ERR_TIER_INELIGIBLE,해당 레벨을 공략하는 데 필요한 조건을 갖추지 않았습니다.,1
 52386,HARMFUL_TO_MINORS_DISABLED_TOOLTIP,이용 가능한 이름 옵션 중 하나 이상을 선택해야 합니다.,1
 52387,SPELL_FAILED_CUSTOM_ERROR_1053,시간질주자는 이 주문을 시전하지 못합니다.,1
 52388,MOUNT_JOURNAL_FILTER_RIDEALONG,같이 타기,1
@@ -22670,7 +22670,7 @@ ID,BaseTag,TagText_lang,Flags
 52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"작업을 GPU에 제출할 때 복잡한 코드 경로를 방지할 수 있습니다. 비활성화 시 안정성이 저해되거나 프레임률이 감소할 수 있지만 특정 하드웨어 및 드라이버, OS 조합에서 일부 충돌을 방지하는 데 도움이 될 수 있습니다. ",3
 52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
-52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly over time.,1
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:집중력|r|n은 다음 제작품 제작 시 높은 품질을 보장합니다. 시간의 흐름에 따라 서서히 회복됩니다.,1
 52400,PREFIX_RATED_SOLO_RGB,평점제 %s,1
 52401,ERR_NO_OPEN_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot open this while it is in the Warband Bank.,1
 52402,ERR_NO_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot place that in the Warband Bank.,1
@@ -22678,9 +22678,9 @@ ID,BaseTag,TagText_lang,Flags
 52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- 이 캐릭터는 다른 서버에 있습니다.,2
 52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,- Switch realms to use a service or upgrade this character.,2
 52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,오류가 발생했습니다. 다음 문제를 해결하십시오:,2
-52407,REMIX_END_OF_EVENT_NOTICE,"The Timerunning event has ended.  You have been transported back to your home timeline.
+52407,REMIX_END_OF_EVENT_NOTICE,"시간질주 이벤트는 종료되었으며 원래 시간의 길로 돌아왔습니다.
 
-Items from the event have been removed.
+이벤트에서 획득한 아이템은 삭제되었습니다.
 ",1
 52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,반복 가능 (%s 남음),1
 52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,전 서버를 통틀어 보유 중인 모든 캐릭터가 전투부대 캐릭터 목록에 표시됩니다.,2
@@ -22696,15 +22696,15 @@ Items from the event have been removed.
 52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband Bank to be deleted.,1
 52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<지도를 표시하려면 오른쪽 클릭>,1
 52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,퀘스트 상세 정보 닫기,1
-52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,You can minimize the Spellbook here,1
-52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Switch to this character's realm to update.,2
+52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,여기서 마법책을 최소화할 수 있습니다.,1
+52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,업데이트하려면 해당 캐릭터의 서버로 전환하십시오.,2
 52426,DELVES_TIER_SELECT_HELPTIP,Select a tier of difficulty,1
-52427,MAP_LEGEND_REPEATABLE,Repeatable,1
-52428,MAP_LEGEND_REPEATABLE_TOOLTIP,Time gated quests,1
-52429,SPELL_FAILED_CUSTOM_ERROR_2223,A Trial is already being undergone nearby.,1
-52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Patron Name,1
-52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Patron Orders|r|nCharacters met on your travels may now send you crafting orders. Fulfill these for profession skill, knowledge, and more!",1
-52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Once all requirements are satisfied, you can craft the order. Some orders may require you to provide your own reagents.",1
+52427,MAP_LEGEND_REPEATABLE,반복 가능,1
+52428,MAP_LEGEND_REPEATABLE_TOOLTIP,시간 제한 퀘스트,1
+52429,SPELL_FAILED_CUSTOM_ERROR_2223,이미 주변에서 시험을 진행 중입니다.,1
+52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,손님 이름,1
+52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,|cnNORMAL_FONT_COLOR:손님 의뢰|r|n이제 여행 중 만난 캐릭터에게 의뢰를 수주할 수 있습니다. 완료 시 전문 기술 숙련도와 지식 등을 획득합니다.,1
+52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,모든 요구 조건을 충족시키면 의뢰 물품을 제작할 수 있습니다. 특정 의뢰의 경우 직접 재료를 마련해야 합니다.,1
 52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Hide Warband Completed Quests,1
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Trivial Quests,1
 52435,QUEST_SETTINGS_LABEL,Quests,1
@@ -22715,3 +22715,7 @@ Items from the event have been removed.
 52441,GENERIC_TRAIT_FRAME_THE_WEAVER_TITLE,Pact: The Weaver,1
 52442,GENERIC_TRAIT_FRAME_THE_GENERAL_TITLE,Pact: The General,1
 52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,Pact: The Vizier,1
+52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Awards a one-time Warband reputation bonus,1
+52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,This is a one-time Warband reputation bonus,1
+52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,주문 제작의 경우 전투부대 은행에 있는 재료를 사용할 수 없습니다.,1
+52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Not enough gold on current realm,2
