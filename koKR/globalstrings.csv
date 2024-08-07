@@ -6556,7 +6556,7 @@ ID,BaseTag,TagText_lang,Flags
 18163,SHOW_RAID_RANGE_TEXT,공격대 인터페이스에 거리 표시,1
 18164,OPTION_TOOLTIP_SHOW_RAID_RANGE,공격대원의 거리가 멀어지면 생명력바를 희미하게 표시합니다.,1
 18165,SLASH_GUILD_LEADER_REPLACE1,/길드장교체,1
-18166,ERR_NOT_SAME_ACCOUNT,전쟁결속 아이템은 전투부대에 속한 다른 캐릭터에게만 줄 수 있습니다.,1
+18166,ERR_NOT_SAME_ACCOUNT,전투귀속 아이템은 전투부대에 속한 다른 캐릭터에게만 줄 수 있습니다.,1
 18167,INTERFACE_OPTIONS,인터페이스 설정,1
 18168,ADDONS,애드온,3
 18169,STATUSTEXT_LABEL,상태 숫자,1
@@ -9936,7 +9936,7 @@ ID,BaseTag,TagText_lang,Flags
 21882,MINIMAP_TRACKING_NONE,없음,1
 21883,GUILDCONTROL_OPTION19,은행 보관함 변경,1
 21884,CONFIRM_SAVE_EQUIPMENT_SET,"장비 구성을 \""%s\""|1으로;로; 저장하시겠습니까?",1
-21885,ITEM_BNETACCOUNTBOUND,전쟁결속,5
+21885,ITEM_BNETACCOUNTBOUND,전투귀속,5
 21886,ITEM_BIND_TO_BNETACCOUNT,전투부대 귀속,5
 21887,AUCTION_MAIL_ITEM_STACK,%s (%d),1
 21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,"""ALT"" 키를 함께 누르면 잠긴 행동 단축바에서 주문이나 기술 아이콘을 빼낼 수 있습니다.",1
@@ -11826,7 +11826,7 @@ ID,BaseTag,TagText_lang,Flags
 23981,ITEM_CHARGEUP_TOTAL_SEC,(%d초 필요),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,선혈의 궁정 관문 근처에 있어야 합니다.,1
 23984,ERR_BN_FRIEND_LIST_FULL,블리자드 친구를 더 등록할 수 없습니다.,3
-23985,GMSS_CHAT_DEFAULT_RESPONSE,"해당 GM과 대화를 할 수 없습니다. 대기표 아이콘이 아직 남아있다면 문의를 종료하거나 수정하지 마십시오. 추가적인 도움이 필요하지만 대기표 아이콘이 사라진 상태라면, 다시 문의를 접수해 주시기 바랍니다. 감사합니다.",1
+23985,GMSS_CHAT_DEFAULT_RESPONSE,This GM is currently unavailable for chat.,1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - %d%% 완료,1
 23988,BONUS_REPUTATION_TITLE,평판 보너스,1
 23989,BONUS_REPUTATION_TOOLTIP,이 계정은 해당 진영의 평판 보너스를 받고 있습니다.,1
@@ -22055,7 +22055,7 @@ ID,BaseTag,TagText_lang,Flags
 51596,BANK_TAB_INVALID_NAME,은행 보관함 이름이 유효하지 않습니다.,1
 51597,BANK_TAB_INVALID_TEXT,은행 보관함 설명이 유효하지 않습니다.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,경과 대기시간: %s,2
-51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,이 보상은 전투부대 첫 번째 캐릭터로 접속해야지만 획득할 수 있습니다.,1
+51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,이 보상은 접속한 첫 전투부대 캐릭터로만 획득할 수 있습니다.,1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,하늘비행 화면 효과,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,화면 효과를 비활성화하면 멀미를 완화할 수 있습니다.,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,멀미 방지 설정을 활성화하면 카메라 움직임이 완화되고 캐릭터가 중앙에 정렬됩니다.,1
@@ -22517,7 +22517,7 @@ ID,BaseTag,TagText_lang,Flags
 52181,SPELLBOOK_SEARCH_HEADER_RELATED,관련 항목 일치,1
 52182,SPELLBOOK_SEARCH_HEADER_NAME,이름 일치,1
 52183,SPELLBOOK_SEARCH_HEADER_DESCRIPTION,설명 일치,1
-52184,SPELLBOOK_SEARCH_HEADER_GENERIC,경기,1
+52184,SPELLBOOK_SEARCH_HEADER_GENERIC,일치,1
 52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,검색 중에는 지속효과 숨기기 기능이 비활성화됩니다.,1
 52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,카즈 알가르 개요 잠금 해제,1
 52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,주요 진영 잠금 해제,1
@@ -22534,7 +22534,7 @@ ID,BaseTag,TagText_lang,Flags
 52198,WEEKLY_REWARDS_THRESHOLD_WORLD,구렁 또는 야외 활동을 %d회 완료해야 합니다.,1
 52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:이 진영은|r |cnNORMAL_FONT_COLOR:전투부대|r |cnHIGHLIGHT_FONT_COLOR:진영입니다. 이 진영에 대해 획득하는 평판은 모든 캐릭터가 공유합니다.|r,1
 52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:일부 화폐는 |r|n|cnNORMAL_FONT_COLOR:전투부대 이전이 가능합니다.|r|n|cnHIGHLIGHT_FONT_COLOR:다른 캐릭터에게 화폐를 이전하려면 해당 화폐를 클릭하십시오.|r,1
-52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,|cnNORMAL_FONT_COLOR:전투귀속|r |cnHIGHLIGHT_FONT_COLOR:장비는 다른 캐릭터와 공유할 수 있습니다.|n|n전투귀속 장비를 착용하면 |r |cnNORMAL_FONT_COLOR:귀속|r으로 전환됩니다.,1
+52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,|cnNORMAL_FONT_COLOR:전투귀속|r |cnHIGHLIGHT_FONT_COLOR:장비는 다른 캐릭터와 공유할 수 있습니다.|n|n전투귀속 장비를 착용하면|r |cnNORMAL_FONT_COLOR:귀속|r으로 전환됩니다.,1
 52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:다른 캐릭터로 완료한 퀘스트는 지도에서 숨김 처리되며 NPC 퀘스트 표시기도 월드에서 사라집니다.|n|n여기서 해당 설정을 변경할 수 있습니다.|r,1
 52204,GREAT_VAULT_WORLD_TIER,%s 레벨,1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,아이템 레벨 %1$d - (%2$d 레벨),1
@@ -22717,15 +22717,19 @@ ID,BaseTag,TagText_lang,Flags
 52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,서약: 재상,1
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,전투부대 평판 추가 보상은 한 번만 증정됩니다.,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,이 전투부대 평판 추가 보상은 한 번만 증정됩니다.,1
-52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,주문 제작의 경우 전투부대 은행에 있는 재료를 사용할 수 없습니다.,1
+52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,현재 주문 제작 중 전투부대 은행에 있는 재료를 사용할 수 없습니다. 해당 재료를 사용하려면 가방이나 재료 은행에 보관해야 합니다.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,현재 서버에 보유 중인 골드가 부족합니다.,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,해당 퀘스트는 현재 레벨보다 훨씬 낮으며 경험치를 제공하지 않을 것입니다.,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,전투부대 은행에 있는 아이템은 교환할 수 없습니다.,1
 52452,MAP_LEGEND_DELVE,구렁,1
 52453,MAP_LEGEND_DELVE_TOOLTIP,전투 역할에 상관없이 최대 5인의 모험가 파티를 고려해 설계됐으며 보상을 제공하는 콘텐츠,1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,이야기 모드에서는 사용 불가,1
-52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,You have unclaimed rewards! Return to the Great Vault in Dornogal to make your selection.,1
-52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h cannot join your Tier %d delve (Tier %d unlocked).,1
-52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,You cannot join your party's Tier %d delve (Tier %d unlocked).,1
+52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,아직 받지 않은 보상이 있습니다. 도르노갈에 있는 위대한 금고로 돌아가 보상을 선택하십시오.,1
+52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h|1은;는; 당신의 %d 레벨 구렁에 참여할 수 없습니다. (%d 레벨 해제),1
+52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,파티의 %d 레벨 구렁에 참여할 수 없습니다. (%d 레벨 해제),1
 52458,TEST_STRING_IGNORE_1,Test,1
-52459,SPELL_FAILED_CUSTOM_ERROR_2224,You cannot use a Vantus Rune in Story Mode.,1
+52459,SPELL_FAILED_CUSTOM_ERROR_2224,이야기 모드에서는 반투스 룬을 사용할 수 없습니다.,1
+52460,ERR_GUILD_BANK_WARBANDS_BANK_SOURCE,전투부대 은행에서 길드 은행으로 바로 아이템을 옮기는 것은 불가능합니다.,1
+52461,WARWITHIN_TITLE2,내부 전쟁: 저 아래의 어둠,2
+52462,SPELL_FAILED_CUSTOM_ERROR_2425,토석인은 일반적인 형태의 음식이나 음료를 섭취하지 못합니다.,1
+52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s|1이;가; 이 레벨을 해제하지 않았습니다.,1

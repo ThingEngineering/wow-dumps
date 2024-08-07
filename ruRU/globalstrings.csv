@@ -9241,8 +9241,8 @@ ID,BaseTag,TagText_lang,Flags
 21130,DISPLAY_MT_AND_MA,Показывать главного танка и наводчика,1
 21131,OPTION_TOOLTIP_DISPLAY_MT_AND_MA,"Отображать в отдельных полях игроков, которых лидер рейда обозначил \""Главный танк\"" или \""Наводчик\"".",1
 21132,OPTION_TOOLTIP_KEEP_GROUPS_TOGETHER,Отображать все группы вашего рейда в отдельных полях.,1
-21133,PET_MODE_SUBTEXT,Поведение питомца/прислужника,1
-21134,PET_ACTION_SUBTEXT,Управление питомцем/прислужником,1
+21133,PET_MODE_SUBTEXT,Поведение питомца,1
+21134,PET_ACTION_SUBTEXT,Управление питомцем,1
 21135,PET_ACTION_ATTACK_TOOLTIP,Приказывает питомцу или прислужнику атаковать вашу текущую цель.,1
 21136,PET_ACTION_FOLLOW_TOOLTIP,Приказывает питомцу или прислужнику следовать за вами.,1
 21137,PET_ACTION_MOVE_TO_TOOLTIP,Приказывает питомцу или прислужнику переместиться в указанную точку.,1
@@ -11824,7 +11824,7 @@ ID,BaseTag,TagText_lang,Flags
 23981,ITEM_CHARGEUP_TOTAL_SEC,(Требуется %d сек.),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,Вы должны находиться рядом с окровавленными воротами.,1
 23984,ERR_BN_FRIEND_LIST_FULL,В вашем списке нет места для новых друзей в сети Blizzard.,3
-23985,GMSS_CHAT_DEFAULT_RESPONSE,"Этот гейм-мастер недоступен для общения. Если у Вас есть открытый запрос, не закрывайте и не редактируйте его. Если иконки открытого запроса нет, пожалуйста, откройте новый запрос. Спасибо.",1
+23985,GMSS_CHAT_DEFAULT_RESPONSE,This GM is currently unavailable for chat.,1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - завершено %d%%,1
 23988,BONUS_REPUTATION_TITLE,Бонус к репутации,1
 23989,BONUS_REPUTATION_TOOLTIP,Все персонажи данной учетной записи теперь могут зарабатывать дополнительную репутацию с этой фракцией.,1
@@ -22715,15 +22715,19 @@ ID,BaseTag,TagText_lang,Flags
 52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,Пакт: визирь,1
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Позволяет получить однократный бонус к репутации отряда,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,Однократный бонус к репутации отряда,1
-52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,При выполнении заказа вы не можете использовать реагенты из банка отряда.,1
+52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,Вы пока не можете использовать реагенты из банка отряда при выполнении заказа. Переместите их в ваши сумки или в банк материалов.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Недостаточно золота в текущем игровом мире,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,"Уровень этих заданий значительно ниже, чем ваш собственный. Выполнив их, вы не получите опыта.",1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,Предметы из банка отряда не продаются и не покупаются.,1
 52452,MAP_LEGEND_DELVE,Вылазка,1
 52453,MAP_LEGEND_DELVE_TOOLTIP,"Контент, созданный для группы максимум из 5 искателей приключений любой роли и дающий добычу",1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,Недоступно в сюжетном режиме,1
-52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,You have unclaimed rewards! Return to the Great Vault in Dornogal to make your selection.,1
-52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h cannot join your Tier %d delve (Tier %d unlocked).,1
-52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,You cannot join your party's Tier %d delve (Tier %d unlocked).,1
+52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,"Остались неполученные награды! Вернитесь к Великому хранилищу в Дорногале, чтобы их выбрать.",1
+52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h не может присоединиться к вашей вылазке %d-го уровня (открыт %d-й уровень).,1
+52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,"Вы не можете присоединиться к вылазке %d-го уровня, в которой участвует ваша группа (открыт %d-й уровень).",1
 52458,TEST_STRING_IGNORE_1,Test,1
-52459,SPELL_FAILED_CUSTOM_ERROR_2224,You cannot use a Vantus Rune in Story Mode.,1
+52459,SPELL_FAILED_CUSTOM_ERROR_2224,Нельзя использовать вантийские руны в сюжетном режиме.,1
+52460,ERR_GUILD_BANK_WARBANDS_BANK_SOURCE,Нельзя напрямую перемещать предметы из банка отряда в гильдейский банк.,1
+52461,WARWITHIN_TITLE2,The War Within: Тени из Глубин,2
+52462,SPELL_FAILED_CUSTOM_ERROR_2425,Земельники не могут употреблять обычную еду и напитки.,1
+52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,Данный уровень не открыт у игрока %s,1
