@@ -2322,9 +2322,9 @@ Cet effet ne peut pas être retiré. Seuls les cafards et les hannetons surviven
 Cet effet ne peut pas être retiré.",425960,4,0,240,3
 1367,Apocalypse supérieure,"Invoque tois météores qui tomberont dans [duration(1,1)] |4tour:tours; et tueront instantanément toute l’équipe adverse.",425960,4,20,0,2
 1368,Piège draenique,Tentative pour capturer une mascotte disposant de moins de 35% de points de vie. Chances de capture augmentées de 45% à chaque essai raté.,986484,0,0,0,6
-1369,Aiguillonneur acéré,"[StandardAccuracy(1,1)] |cffffffffChances de toucher :|r
+1369,Aiguillonneur acéré,"[StandardAccuracy(1,1)] |cffffffffchances de toucher|r
 
-Inflige instantanément [StandardDamage(1,1)] |4point:points; de dégâts |2[School()], et 20 % de chances d’|cFF1EFF00empoisonner|r la cible en lui infligeant [StandardDamage(1,1,379)] |4point supplémentaire:points supplémentaires; de dégâts |2[School(379)] par tour pendant [duration(1,2)] |4tour:tours;.",136068,7,0,0,0
+Inflige instantanément [StandardDamage(1,1)] |4point:points; de dégâts [School()], et 20 % de chances d’|cFF1EFF00empoisonner|r la cible en lui infligeant [StandardDamage(1,1,379)] |4point supplémentaire:points supplémentaires; de dégâts [School(379)] par tour pendant [duration(1,2)] |4tour:tours;.",136068,7,0,0,0
 1370,Serre sauvage,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Donne de féroces coups de serres, infligeant [StandardDamage(1, 1)] points de dégâts [School()].",136063,2,0,0,0
@@ -3431,7 +3431,7 @@ Frappe l’ennemi avec une décharge de lumière sacrée qui lui inflige [Standa
 Les dégâts augmentent de [FormatDamage(5*AttackBonus())] à chaque utilisation, jusqu’à un maximum de [FormatDamage(30 *AttackBonus())] points de dégâts [School()].",461859,6,0,0,0
 2378,Rayons lumineux,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
-Inflige [StandardDamage(1,1)] points de dégâts [School()] à la mascotte adverse active et [StandardDamage(1,2)] points de dégâts [School()] aux mascottes adverses en retrait. Rend [StandardHealing(1,1)] points de vie aux alliés.",525026,5,4,0,0
+Inflige [StandardDamage(1,1)] |4point:points; de dégâts [School()] à la mascotte adverse active et [StandardDamage(1,2)] |4point:points; de dégâts [School()] aux mascottes adverses en retrait. Rend [StandardHealing(1,1)] |4point:points; de vie aux alliés.",525026,5,4,0,0
 2379,Savoir tourbillonnant – Aura,"Bloque les 2 prochaines attaques, mais immobilise le lanceur pendant 1 tour.",134917,5,0,1179,2
 2380,Écoute prolongée,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
@@ -3581,7 +3581,7 @@ Une attaque vengeresse qui inflige des dégâts [petTypeName(abilityPetType())] 
 Lance 1 ou 2 tirs de barrage sur l’adversaire, infligeant [StandardDamage(1,1)] points de dégâts [School()] par coup.
 
 Un coup supplémentaire est infligé si le lanceur attaque en premier.",236221,5,0,0,0
-2435,Embrasement de mana,"Inflige [StandardDamage(1,1,2436)] points de dégâts [School()] à chaque fois que votre mascotte subit des dégâts directs.
+2435,Embrasement de mana,"Inflige [StandardDamage(1,1,2436)] |4point:points; de dégâts [School()] à chaque fois que votre mascotte subit des dégâts directs.
 
 Dure [duration(1,1)] |4tour:tours;.",136115,5,3,0,0
 2436,Embrasement de mana,"Inflige [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] points de dégâts [School()] chaque fois que vous subissez des dégâts directs.",136115,5,0,0,0
