@@ -700,8 +700,8 @@ Travolge la mascotte nemica con un soffio draconico, infliggendo [StandardDamage
 Colpisce il nemico 1-2 volte, infliggendo [StandardDamage(1,1)] danni [School()] per colpo.
 
 Colpisce una volta aggiuntiva se la mascotte attacca per prima.",134218,6,0,0,0
-395,Nebbie del Sollievo,"[StandardDamage(1,1,395)] salute rigenerata a ogni turno.",606550,-1,0,635,0
-396,Nebbie del Sollievo,"Rigenera [StandardDamage(1,1,395)] salute alla mascotte attiva a ogni turno per [duration(1,1)] |4turno:turni;. Prosegue anche in caso di sostituzione della mascotte.",606550,6,0,0,2
+395,Nebbie del Sollievo,"[StandardHealing(1,1,395)] salute rigenerata a ogni turno.",606550,6,0,635,0
+396,Nebbie del Sollievo,"Rigenera [StandardHealing(1,1,395)] salute alla mascotte attiva a ogni turno per [duration(1,1)] |4turno:turni;. Prosegue anche in caso di sostituzione della mascotte.",606550,6,0,0,2
 397,Sferzata Avvelenata,"Infligge [StandardDamage(1,1)] danni [School()] a ogni turno.
 
 |cFF1EFF00Avvelenata|r",134208,6,0,25,0
@@ -3794,3 +3794,9 @@ Questa abilità attacca sempre per prima.",132852,8,1,0,0
 2520,Bagliore,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
 Confonde i bersagli con una sfera luminosa. Infligge [StandardDamage(1,1)] danni [School()] e rende la mascotte avversaria |cff9933FFAccecata|r, riducendone la probabilità d'impatto del [abs(abilityStateMod( 41 , 462 ))]% per [duration(1,2)] |4turno:turni;.",133836,0,4,0,0
+2522,Lama del Cataclisma,"|cffffffffProbabilità d'impatto:|r[StandardAccuracy(1,1)]
+
+La sua piccola Lama del Cataclisma tagliuzza l'avversario, infliggendo [StandardDamage(1, 1)] danni [School()].",135378,0,0,0,0
+2523,Raffica di Dardi d'Ombra,"|cffffffffProbabilità d'impatto:|r[StandardAccuracy(1,1)]
+
+Scaglia dardi d'ombra contro la squadra nemica, infliggendo [StandardDamage(1, 1)] danni [School()] alla squadra nemica.",136197,5,3,0,0

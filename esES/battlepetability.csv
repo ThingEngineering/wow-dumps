@@ -699,8 +699,8 @@ Abruma al enemigo con un aliento dracónico que inflige [StandardDamage(1, 1)] p
 Golpea al enemigo 1-2 veces, lo que inflige [StandardDamage(1,1)] p. de daño de [School()] por golpe.
 
 Golpea una vez extra si el usuario ataca primero.",134218,6,0,0,0
-395,Niebla reconfortante,"Restaura [StandardDamage(1,1,395)] p. de salud cada ronda.",606550,-1,0,635,0
-396,Niebla reconfortante,"Restaura [StandardDamage(1,1,395)] p. de salud a tu mascota activa cada ronda durante [duration(1,1)] |4ronda:rondas;. Persiste tras el cambio de mascotas.",606550,6,0,0,2
+395,Niebla reconfortante,"Restaura [StandardHealing(1,1,395)] p. de salud cada ronda.",606550,6,0,635,0
+396,Niebla reconfortante,"Restaura [StandardHealing(1,1,395)] p. de salud a tu mascota activa cada ronda durante [duration(1,1)] |4ronda:rondas;. Persiste tras el cambio de mascotas.",606550,6,0,0,2
 397,Latigazo venenoso,"Inflige [StandardDamage(1,1)] p. de daño de [School()] cada ronda.
 
 |cFF1EFF00Envenenado.|r",134208,6,0,25,0
@@ -3801,3 +3801,9 @@ Este movimiento siempre va en primer lugar.",132852,8,1,0,0
 2520,Fulgor,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Deslumbra a tus enemigos con una bola luminosa. Inflige [StandardDamage(1,1)] p. de daño de [School()] y |cff9933FFciega|r al objetivo, lo que reduce un [abs(abilityStateMod( 41 , 462 ))]% su precisión durante [duration(1,2)] |4ronda:rondas;.",133836,0,4,0,0
+2522,Filo de cataclismos,"|cffffffffProbabilidad de golpe: [StandardAccuracy(1,1)] |r
+
+Asesta tajos con su pequeño Filo de cataclismos, que inflige [StandardDamage(1, 1)] p. de daño de [School()].",135378,0,0,0,0
+2523,Salva de descarga de las Sombras,"|cffffffffProbabilidad de golpe: [StandardAccuracy(1,1)] |r
+
+Lanza una descarga de las Sombras al equipo enemigo, que recibe [StandardDamage(1, 1)] p. de daño de [School()].",136197,5,3,0,0

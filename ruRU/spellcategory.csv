@@ -242,7 +242,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1231,Контузящий выстрел,0,0,0,0,0
 1232,Предмет - карты Новолуния,0,0,0,0,0
 1233,Оружие неистовства ветра,0,0,0,0,0
-1234,Праздник - стол на день Благодарения,0,0,0,0,0
+1234,Holiday - Pilgrim's Bounty Table,0,0,0,0,0
 1235,Бомбардировщик Ледяной Короны - смена мест,0,0,0,0,0
 1236,Darkmoon - Ride Items,0,0,0,0,0
 1237,Буйный рост,0,0,0,0,0
@@ -262,7 +262,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1251,Временное здоровье,0,0,0,0,0
 1252,Гоблинский реактивный пояс,0,0,0,0,0
 1253,Зимний горн,0,0,0,0,0
-1254,Class - Shaman - Stormstrike,0,0,0,12000,1
+1254,Class - Shaman - Stormstrike,0,0,1,7500,1
 1255,Задание - транспорт,0,0,0,0,0
 1256,Test - Ron's test,8,7,5,10000,0
 1257,Тревожный рев,0,0,0,0,0
@@ -277,7 +277,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1266,Страх (чернокнижник),0,0,0,0,0
 1267,Поддельные документы,8,0,0,0,0
 1268,Жрец - архангел,0,0,0,0,0
-1269,Огненная сфера,0,0,0,60000,0
+1269,Огненная сфера,0,0,1,60000,0
 1271,Обмен душ,0,0,0,0,0
 1272,Гнев деревьев,0,0,0,0,0
 1273,Начертание - поддельные документы,8,0,0,0,0
@@ -502,7 +502,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1566,Solar Flare,16,0,2,12000,0
 1568,Class - Druid - Frenzied Regeneration,0,0,1,36000,1
 1569,Class - Shaman - Healing Stream Totem,0,0,0,30000,1
-1570,Class - Paladin - Hammer of the Righteous,0,0,2,6000,1
+1570,Class - Paladin - Hammer of the Righteous,0,0,2,5000,1
 1571,Class - Monk - Mistwalk,0,0,1,45000,1
 1572,Fire/Storm Elemental,48,0,1,150000,1
 1574,Inter-Dalaran Wormhole,0,0,5,60000,0
@@ -543,7 +543,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1613,Rogue - Create Crimson Vial,0,0,3,60000,0
 1614,Class - Death Knight - Empower Rune Weapon,16,0,0,120000,1
 1615,Class - Rogue - Shadow Dance,48,0,1,60000,1
-1616,Class - Hunter - Butchery,0,0,3,9000,1
+1616,Class - Hunter - Butchery,0,0,1,15000,1
 1618,Class - Warrior - Defensive Stance,0,0,0,0,1
 1619,Demon Hunter - Fel Barrage,0,0,5,30000,0
 1620,Class - Hunter - Explosive Round Detonation,0,0,0,0,1
@@ -584,11 +584,11 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1656,Class - Hunter - Sentinel,0,0,2,30000,1
 1657,Item - 7.0 - Trinket - Eyasu's Mulligan,0,0,0,120000,0
 1658,Item - 7.0 - Trinket - Eyasu's Mulligan (Self),0,0,0,1000,0
-1659,Class - Paladin - Blessed Hammer,0,0,3,6000,1
+1659,Class - Paladin - Blessed Hammer,0,0,3,5000,1
 1660,Void Bolt,0,0,0,0,0
 1661,zzOldClass - Paladin - Divine Steed,0,0,1,45000,9
 1662,Class - Paladin - Divine Steed,0,0,1,45000,9
-1663,Class - Paladin - Judgment,0,0,1,12000,37
+1663,Class - Paladin - Judgment,0,0,1,11000,37
 1664,7.1 Dalaran - Toy - Wand of Simulated Life,0,0,1,600000,0
 1665,7.0 Professions - Fishing - Undercurrent,0,0,0,0,0
 1666,Item - 7.1 - Karazhan - Ring of Collapsing Futures,0,0,0,0,0
@@ -600,7 +600,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1672,Class - Warrior - Raging Blow,0,0,1,8000,1
 1673,Priest - Holy Word: Serenity,0,0,1,60000,1
 1674,Class - Hunter - Dire Beast,0,0,2,12000,1
-1675,Class - Hunter - Barbed Shot,0,0,2,12000,1
+1675,Class - Hunter - Barbed Shot,0,0,2,18000,1
 1676,Demon Hunter - Immolation Aura,0,0,1,30000,1
 1677,Teleport - Brawler's Guild (Ring),0,0,0,0,0
 1680,Class - Warrior - Overpower,0,0,1,12000,1
@@ -983,7 +983,12 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2314,Ominous Conch,0,0,0,0,0
 2316,Skyriding Abilities,0,0,0,0,0
 2317,11.0 Delves - AI Companion - Major Ability,0,0,1,90000,0
+2318,11.0.5 20th Anniversary - Scenario - Floating Projections Jumpad 2. Knockback,0,0,0,0,0
+2324,Enhancement - Frost Shock,0,0,0,6000,0
+2327,11.0.5 20th Anniversary - Social Corner - Audience Interaction Group Cooldown,0,0,0,0,0
+2328,Class - Druid - Celestial Alignment / Incarnation,0,0,1,180000,0
 2329,11 Encounter - Ulgrax - Feed,0,0,0,0,0
 2335,11.0 Delves - Brann Bronzebeard - Dwarven Medicine,0,0,0,0,0
+2336,Druid - Restoration - Nature's Swiftness,0,0,1,60000,1
 2338,11.0 Delves - EvolvedNerubians - Trinket - Concoction: Kiss of Death - OMNI - 01 On-Use,0,0,0,0,0
 2339,11.0 Delves - Uber Boss - Major Interruptible Cast,0,0,0,0,0

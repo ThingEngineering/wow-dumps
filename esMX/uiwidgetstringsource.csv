@@ -8701,7 +8701,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 16429,,394,5846
 16430,Recibirás visiones de los recuerdos de Azeroth durante 5 minutos.,212,5847
 16431,Visión de Azeroth,277,5847
-16432,Obtendrás |cFFFFFFFF5x|r la cantidad normal de fragmentos de llave de cofre.,212,5848
+16432,Obtendrás |cFFFFFFFF5x|r la cantidad normal de fragmentos de llave de arca.,212,5848
 16433,Recompensas quintuplicadas,277,5848
 16434,"El alma del mundo se defenderá por reflejo de tu presencia, y la muerte te desplazará |cFFFFFFFFinmediatamente|r de la visión.",212,5849
 16435,Desafío mítico,277,5849
@@ -8836,6 +8836,14 @@ ID,Value_lang,ReqID,ParentWidgetID
 16765,Recursos para atajos,19,5987
 16766,,273,5987
 16767,Dona los minerales que tienes para ayudar a construir un atajo temporal para ti y tus compañeros mensajeros,208,5987
+16768,%0ss,433,5988
+16769,Tiempo para el siguiente paso:,434,5988
+16773,%0ss,433,5986
+16774,Tiempo para el siguiente paso:,434,5986
+16775,%0ss,433,5990
+16776,Tiempo para el siguiente paso:,434,5990
+16777,%0ss,433,5991
+16778,Tiempo para el final:,434,5991
 16779,,621,5992
 16780,,622,5992
 16781,,627,5992
@@ -8862,6 +8870,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16802,,627,5999
 16803,Desbloqueo de la fase de aportes actual:,52,6000
 16804,,394,6000
+16805,Theme: [PH],52,6001
+16806,,394,6001
 16807,Tiempo restante: %26210ht,52,6002
 16808,,394,6002
 16809,Recompensas:,52,6003
@@ -8904,6 +8914,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16849,,598,6020
 16850,,204,6021
 16851,,205,6021
+16852,,212,6023
+16853,,277,6023
 16854,|Hspell:456037|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 1|r,212,6029
 16855,0,277,6029
 16856,"Completa ""Forja un pacto"" para acceder a las misiones de mundo en Azj-Kahet.",52,6031
@@ -8922,6 +8934,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16872,,208,6036
 16884,¡Prepárate para el enjambre skardyn!,52,6041
 16885,,394,6041
+16888,StatusBar: Text,19,6042
+16889,,273,6042
+16890,Mata enemigos,208,6042
 16891,Tiempo hasta que finalice la oferta actual:,19,6043
 16892,,208,6043
 16893,,273,6043
@@ -9124,7 +9139,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 17304,,277,6180
 17305,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Tiempo restante: %25434ha|r|n|n%453315sd,212,6181
 17306,,277,6181
-17307,Derrota a los enemigos dentro del recuerdo para obtener:|n- |TInterface\ICONS\INV_Gizmo_HardenedAdamantiteTube.blp:15|t |cFF0091F2[Fragmentos de llave de cofre]|r|n- |TInterface\ICONS\INV_Valorstone_Base.BLP:15|t |cFF0091F2[Piedras de valor]|r,52,6182
+17307,Derrota a los enemigos dentro del recuerdo para obtener:|n- |TInterface\ICONS\INV_Gizmo_HardenedAdamantiteTube.blp:15|t |cFF0091F2[Fragmentos de llave de arca]|r|n- |TInterface\ICONS\INV_Valorstone_Base.BLP:15|t |cFF0091F2[Piedras de valor]|r,52,6182
 17308,,394,6182
 17309,%ss,677,6183
 17310,%24429w,679,6183
@@ -9174,8 +9189,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17357,"Progreso actual en Despertar de la Máquina. Cada vez que completes 5 oleadas, recibirás una mejora de recompensa.",208,6187
 17358,,204,6188
 17359,,205,6188
-17360,Habilidades de patrocinador,584,6191
-17361,El patrocinador de tu pacto te otorgará nuevas habilidades y beneficios para usar en Khaz Algar.,585,6191
+17360,Habilidades de mecenas,584,6191
+17361,El mecenas de tu pacto te otorgará nuevas habilidades y beneficios para usar en Khaz Algar.,585,6191
 17362,,598,6191
 17363,,204,6192
 17364,,205,6192
@@ -9355,6 +9370,53 @@ ID,Value_lang,ReqID,ParentWidgetID
 17651,Los Ecos radiantes estarán activos durante:,19,6148
 17652,,273,6148
 17653,,208,6148
-17959,,584,6365
-17960,Completa abismos abundantes para aumentar el poder de Brann en combate durante la temporada.|n|nProgreso actual: |cnWHITE_FONT_COLOR:%40859e/%40860e|r,585,6365
+17711,|TInterface/RAIDFRAME/ReadyCheck-NotReady.blp:27|t,52,6312
+17712,,394,6312
+17713,|TInterface/RAIDFRAME/ReadyCheck-Ready.blp:27|t,52,6313
+17714,,394,6313
+17869,,708,6334
+17870,,709,6334
+17871,,710,6334
+17872,,711,6334
+17873,,718,6334
+17874,,719,6334
+17875,,720,6334
+17876,Montura: %27301w / %27300w,677,6334
+17877,,679,6334
+17878,,680,6334
+17879,,681,6334
+17886,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Montamanía,52,6337
+17887,Exhibe las monturas que has conseguido. Comienza en menos de 15 minutos.,394,6337
+17888,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Montamanía,52,6338
+17889,Exhibe las monturas que has conseguido. Comienza en menos de 5 minutos.,394,6338
+17890,|cnHIGHLIGHT_FONT_COLOR:Evento activo:|r Montamanía,52,6339
+17891,¡Exhibe las monturas que has conseguido!,394,6339
+17892,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Hora del cuento,52,6340
+17893,Escucha las historias del pasado narradas por el eremita Cho. El evento comienza en menos de 15 minutos.,394,6340
+17894,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Hora del cuento,52,6341
+17895,Escucha las historias del pasado narradas por el eremita Cho. El evento comienza en menos de 5 minutos.,394,6341
+17896,|cnHIGHLIGHT_FONT_COLOR:Evento activo:|r Hora del cuento,52,6342
+17897,Escucha las historias del pasado narradas por el eremita Cho. En curso.,394,6342
+17898,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Frenesí de la moda,52,6343
+17899,Exhibe tus mejores atuendos basándote en una temática sorpresa en el Frenesí de la moda. Comienza en menos de 15 minutos.,394,6343
+17900,|cnHIGHLIGHT_FONT_COLOR:Próximo evento:|r Frenesí de la moda,52,6344
+17901,Exhibe tus mejores atuendos basándote en una temática sorpresa en el Frenesí de la moda. Comienza en menos de 5 minutos.,394,6344
+17902,|cnHIGHLIGHT_FONT_COLOR:Evento activo:|r Frenesí de la moda,52,6345
+17903,Exhibe tus mejores atuendos basándote en una temática sorpresa en el Frenesí de la moda.,394,6345
+17913,|cnHIGHLIGHT_FONT_COLOR:Montura:|r %27301w / %27300w,52,6349
+17914,,394,6349
+17915,Contador de monturas,19,6350
+17916,,273,6350
+17917,,208,6350
+17959,%2640fn,584,6365
+17960,Completa abismos abundantes en dificultad 4 o superior para aumentar el poder de Brann en combate durante la temporada.|n|nProgreso actual: |cnWHITE_FONT_COLOR:%40859e/%40860e|r,585,6365
 17961,,598,6365
+18013,,19,6577
+18014,%2605fn,273,6577
+18015,Reputación actual con el General.,208,6577
+18016,,19,6578
+18017,%2607fn,273,6578
+18018,Reputación actual con el Visir.,208,6578
+18019,,19,6579
+18020,%2601fn,273,6579
+18021,Reputación actual con la Tejedora.,208,6579

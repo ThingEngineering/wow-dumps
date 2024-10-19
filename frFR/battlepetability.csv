@@ -704,8 +704,8 @@ Engloutit l’adversaire dans un souffle draconique et lui inflige [StandardDama
 Fouette l’adversaire 1 à 2 fois, lui infligeant [StandardDamage(1,1)] points de dégâts [School()] par coup de fouet.
 
 Un coup de fouet supplémentaire si le lanceur attaque en premier.",134218,6,0,0,0
-395,Brumes apaisantes,"Rend [StandardDamage(1,1,395)] points de vie par tour.",606550,-1,0,635,0
-396,Brumes apaisantes,"Rend [StandardDamage(1,1,395)] points de vie par tour à votre mascotte active pendant [duration(1,1)] |4tour:tours;. Persiste malgré les changements de mascottes.",606550,6,0,0,2
+395,Brumes apaisantes,"Rend [StandardHealing(1,1,395)] |4point:points; de vie par tour.",606550,6,0,635,0
+396,Brumes apaisantes,"Rend [StandardHealing(1,1,395)] |4point:points; de vie par tour à votre mascotte active pendant [duration(1,1)] |4tour:tours;. Persiste malgré les changements de mascottes.",606550,6,0,0,2
 397,Fouet empoisonné,"Inflige [StandardDamage(1,1)] points de dégâts [School()] par tour.
 
 |cFF1EFF00Empoisonné.|r",134208,6,0,25,0
@@ -3805,3 +3805,9 @@ Cette attaque passe toujours en premier.",132852,8,1,0,0
 2520,Éblouissement,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Éblouit vos adversaires avec une balle scintillante. Inflige [StandardDamage(1,1)] |4point:points; de dégâts [School()] et |cff9933FFaveugle|r la cible, réduisant ses chances de toucher de [abs(abilityStateMod( 41 , 462 ))] % pendant [duration(1,2)] |4tour:tours;.",133836,0,4,0,0
+2522,Trancheuse du cataclysme,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Porte un coup tranchant avec sa Trancheuse du cataclysme miniature et inflige [StandardDamage(1, 1)] |4point:points; de dégâts [School()].",135378,0,0,0,0
+2523,Salve de traits de l’ombre,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Projette des traits de l’ombre sur l’équipe ennemie et lui inflige [StandardDamage(1, 1)] |4point:points; de dégâts [School()].",136197,5,3,0,0

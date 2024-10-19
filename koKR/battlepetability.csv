@@ -701,8 +701,8 @@ ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisua
 적을 1~2번 채찍질 해서 매 타격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
 
 먼저 공격하면 채찍질 횟수가 증가합니다.",134218,6,0,0,0
-395,촉촉한 안개,"매 라운드마다 [StandardDamage(1,1,395)]의 생명력을 회복합니다.",606550,-1,0,635,0
-396,촉촉한 안개,"[duration(1,1)]라운드 동안 현재 애완동물의 생명력을 매 라운드마다 [StandardDamage(1,1,395)]만큼 회복시킵니다. 이 기술은 애완동물을 교체해도 유지됩니다.",606550,6,0,0,2
+395,촉촉한 안개,"매 라운드마다 [StandardHealing(1,1,395)]의 생명력을 회복합니다.",606550,6,0,635,0
+396,촉촉한 안개,"[duration(1,1)]라운드 동안 현재 애완동물의 생명력을 매 라운드마다 [StandardHealing(1,1,395)]만큼 회복시킵니다. 이 기술은 애완동물을 교체해도 유지됩니다.",606550,6,0,0,2
 397,독 채찍,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
 
 |cFF1EFF00중독|r되었습니다.",134208,6,0,25,0
@@ -3801,3 +3801,9 @@ Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(Simpl
 2520,눈부심,"|cffffffff적중률|r [StandardAccuracy(1,1)]
 
 찬란하게 번쩍이는 구체로 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cff9933FF눈을 멀게|r 합니다. [duration(1,2)]라운드 동안 대상의 적중률이 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소합니다.",133836,0,4,0,0
+2522,대재앙의 칼날,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+작은 대재앙의 칼날로 베어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135378,0,0,0,0
+2523,연발 어둠의 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 어둠의 화살을 날려 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",136197,5,3,0,0

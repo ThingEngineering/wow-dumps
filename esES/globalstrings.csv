@@ -13600,7 +13600,7 @@ min",1
 25901,GARRISON_BONUS_EFFECT_TIME_LEFT,|cffffd200Tiempo restante:|r |cffffffff%s|r,1
 25902,CANNOT_DO_THIS_WHILE_PVP_QUEUING,No puedes hacer eso mientras estás en cola para un campo de batalla o una arena.,1
 25903,CANNOT_DO_THIS_WHILE_PVE_QUEUING,"No puedes hacer eso mientras estás en cola para una mazmorra, banda o gesta.",1
-25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,"El paseo en el tiempo te enviará a mazmorras de nivel inferior y ajustará el poder de tu personaje al nivel adecuado, pero los jefes soltarán un botín mejorado que se adaptará a tu nivel actual.",1
+25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,Paseo en el tiempo te permite volver a visitar mazmorras de niveles inferiores que adaptan su dificultad y sus recompensas a tu nivel.,1
 25905,LFG_TYPE_RANDOM_TIMEWALKER_DUNGEON,Mazmorra de Paseo en el tiempo,1
 25906,INCLUDED_DUNGEONS_TIMEWALKER_EMPTY,Los miembros de tu grupo no reúnen los requisitos de nivel necesarios para ninguna mazmorra aleatoria de Paseo en el tiempo.,1
 25907,GARRISON_SKIP_ANIMATION_LABEL,Pulsa la barra espaciadora para omitir|nlas animaciones del parte de misión.,1
@@ -14803,7 +14803,7 @@ min",1
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,"Escribe ""BORRAR"" en el campo para confirmar.",2
 34247,CONFIRM_DISABLE_ADDONS,"Tendrás que volver a activar las modificaciones tras instalar las versiones actualizadas. ¿Seguro que quieres desactivarlas?\n\n|cffffffffPuedes volver a activarlas seleccionando ""Menú > Addons"" en la parte superior de la pantalla.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"""Haz clic en Aceptar para salir del juego y abrir el siguiente vínculo en un navegador de internet:\n%s""",2
-34249,CONFIRM_LOAD_ADDONS,"""Puede que el juego no se ejecute correctamente si no has actualizado todas las modificaciones. ¿Seguro que quieres intentar cargarlas?\n\n|cffffffffPuedes hacer los cambios con el botón Addons que encontrarás en la parte inferior izquierda de la pantalla.|r""",2
+34249,CONFIRM_LOAD_ADDONS,"Puede que el juego no se ejecute correctamente si no has actualizado todas las modificaciones. ¿Seguro que quieres intentar cargarlas?\n\n|cffffffffPuedes volver a activarlas seleccionando ""Menú > Addons"" en la parte superior de la pantalla.|r",2
 34250,CONFIRM_PAID_SERVICE,¿Seguro que has terminado de cambiar tu personaje?,2
 34251,CONFIRM_PFC,¿Seguro que has terminado de cambiar tu personaje?,2
 34252,CONFIRM_TEMP,¿Seguro que has terminado?,2
@@ -15173,7 +15173,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34623,UNDELETE_FAILED_ERROR,Se ha producido un error al restaurar el personaje borrado. Vuelve a intentarlo más tarde.,2
 34624,UNDELETE_LABEL,Personajes eliminados,2
 34625,UNDELETE_NAME_TAKEN,Ya tienes un personaje activo con ese nombre. No puedes restaurar este personaje en este momento.,2
-34626,UNDELETE_NO_CHARACTERS,No tienes personajes borrados que restaurar.,2
+34626,UNDELETE_NO_CHARACTERS,En este reino no hay personajes borrados que se puedan restaurar. Cambia de reino para intentarlo de nuevo.,2
 34627,UNDELETE_SERVICE_TOOLTIP,Restaurar este personaje,2
 34628,UNDELETE_SUCCESS,Personaje restaurado con éxito.,2
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,"Personaje restaurado con éxito.\nTu antiguo nombre ya estaba en uso, así que tendrás que elegir otro cuando inicies sesión.",2
@@ -18701,7 +18701,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42492,COVENANT_MISSIONS_REWARDS_EARNED,Has ganado,1
 42493,COVENANT_MISSIONS_REWARDS_FOLLOWER_PROGRESS,Progreso de compañero,5
 42494,NPEV2_HUNTER_TAME_ANIMAL,Selecciona a un animal cercano como objetivo.\n\nAbre Utensilios para mascotas y usa |cFF00FFFFDomesticar bestia|r.\n\n¡No te muevas durante el lanzamiento!,1
-42495,NPEV2_HUNTER_STABLE_PET,Mover una mascota activa al establo te permite domesticar más mascotas,1
+42495,NPEV2_HUNTER_STABLE_PET,Colocar una mascota activa en el establo te permite domesticar más mascotas,1
 42496,GROUP_FINDER_DELIST_WARNING_SUBTEXT,|n%s hasta eliminar de la lista automáticamente,1
 42497,GROUP_FINDER_DELIST_WARNING_TITLE,Te han ascendido a líder|TInterface\\GroupFrame\\UI-Group-LeaderIcon:0:0:0:-1|t |n|n|cffffd200Quieres rehacer el grupo:|r|n%s|n,1
 42498,SPELL_FAILED_CUSTOM_ERROR_472,Requiere Demostración de pureza.,1
@@ -22399,6 +22399,7 @@ y propagar su llama por todo Azeroth.",1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Animación de combate,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Animación especial de montura,1
 52064,PREFIX_SOLO_RBG,Campo de batalla relámpago: %s,1
+52065,SPELL_FAILED_CUSTOM_ERROR_1038,No tienes esa montura.,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Debes poseer un tabardo personal para personalizarlo, pero puedes echar un vistazo.",7
 52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,Tu banda guerrera recibe moneda: %s x%d,1
 52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Tu banda guerrera recibe moneda: %s x%d (objetivo de bonificación),1
@@ -22532,17 +22533,57 @@ y propagar su llama por todo Azeroth.",1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Nivel de objeto %1$d - (Nivel %2$d),1
 52206,WEEKLY_REWARDS_COMPLETE_WORLD,Completa una profundidad de nivel %1$d o superior para aumentar el nivel de objeto de esta recompensa.,1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,Ya tienes este bibelot en tu colección.,1
+52208,20th_ANNIVERSARY_THEME_01_01,Tema: Traje cataclísmico,1
+52209,20th_ANNIVERSARY_THEME_01_02,Tema: Comienzos humildes,1
+52210,20th_ANNIVERSARY_THEME_01_03,Tema: Alianza contra Horda,1
+52211,20th_ANNIVERSARY_THEME_01_04,Tema: Peligro y destrucción,1
+52212,20th_ANNIVERSARY_THEME_01_05,Tema: Con Ragnaros hemos topado,1
+52213,20th_ANNIVERSARY_THEME_02_01,Tema: Paseo por Draenor,1
+52214,20th_ANNIVERSARY_THEME_02_02,Tema: Rumbo a Terrallende,1
+52215,20th_ANNIVERSARY_THEME_02_03,Tema: Safari en Nagrand,1
+52216,20th_ANNIVERSARY_THEME_02_04,Tema: Viles y furiosos,1
+52217,20th_ANNIVERSARY_THEME_02_05,Tema: Señor de la Guerra,1
 52218,POWER_TYPE_ACID,Poder ácido,1
 52219,PROF_CRAFTING_ORDER_TYPE_NPC,PNJ,1
 52220,DELVE_LABEL,Profundidad,1
 52221,UNITNAME_SUMMON_TITLE57,Colocado por %s,1
+52222,20th_ANNIVERSARY_THEME_03_01,Tema: Relax en Corona de Hielo,1
+52223,20th_ANNIVERSARY_THEME_03_02,Tema: Estilo osuno,1
+52224,20th_ANNIVERSARY_THEME_03_03,Tema: Vestimentas vrykul,1
+52225,20th_ANNIVERSARY_THEME_03_04,Tema: De muerte y caballeros,1
+52226,20th_ANNIVERSARY_THEME_03_05,Tema: Renegados de la moda,1
 52228,PHOTOSENSITIVITY_WARNING_TITLE,ADVERTENCIA DE FOTOSENSIBILIDAD,2
 52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"Un pequeño porcentaje de personas puede sufrir convulsiones debido a la exposición a determinadas luces, patrones o imágenes aunque no tengan antecedentes de epilepsia.|n|nAntes de jugar, si tú o algún familiar padecéis epilepsia, ponte en contacto con un profesional médico.|n|nDeja de jugar y pide consejo médico si sientes mareos, contracciones en los ojos o músculos, pérdida de conciencia, desorientación, movimientos involuntarios o convulsiones mientras juegas.",2
+52230,20th_ANNIVERSARY_THEME_04_01,Tema: Atuendo tranquilo,1
+52231,20th_ANNIVERSARY_THEME_04_02,Tema: Granja grandiosa,1
+52232,20th_ANNIVERSARY_THEME_04_03,Tema: Salero pandaren,1
+52233,20th_ANNIVERSARY_THEME_04_04,Tema: Jubileo de jade,1
+52234,20th_ANNIVERSARY_THEME_04_05,Tema: Por qué luchamos,1
 52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Pulsa cualquier botón para continuar,2
+52236,20th_ANNIVERSARY_THEME_05_01,Tema: A toda mecha,1
+52237,20th_ANNIVERSARY_THEME_05_02,Tema: Teñido de verde,1
+52238,20th_ANNIVERSARY_THEME_05_03,Tema: Caza de demonios,1
+52239,20th_ANNIVERSARY_THEME_05_04,Tema: Estilo de Suramar,1
+52240,20th_ANNIVERSARY_THEME_05_05,Tema: Extraterrestre,1
+52241,20th_ANNIVERSARY_THEME_06_01,Tema: La vida pirata,1
+52242,20th_ANNIVERSARY_THEME_06_02,Tema: Galas de Kul Tiras,1
+52243,20th_ANNIVERSARY_THEME_06_03,Tema: Vanidad de vulpera,1
+52244,20th_ANNIVERSARY_THEME_06_04,Tema: Mecalocos,1
+52245,20th_ANNIVERSARY_THEME_06_05,Tema: Combinaciones insólitas,1
+52246,20th_ANNIVERSARY_THEME_07_01,Tema: Oscuro y mortal,1
+52247,20th_ANNIVERSARY_THEME_07_02,Tema: Galas de Ardenweald,1
+52248,20th_ANNIVERSARY_THEME_07_03,Tema: Curia cautivadora,1
+52249,20th_ANNIVERSARY_THEME_07_04,Tema: Furor de Bastión,1
+52250,20th_ANNIVERSARY_THEME_07_05,Tema: Gala fantasmal,1
+52251,20th_ANNIVERSARY_THEME_08_01,Tema: Alzar el vuelo,1
+52252,20th_ANNIVERSARY_THEME_08_02,Tema: Indumentaria de los Aspectos,1
+52253,20th_ANNIVERSARY_THEME_08_03,"Tema: ¡Sí, chef!",1
+52254,20th_ANNIVERSARY_THEME_08_04,Tema: A la caza,1
+52255,20th_ANNIVERSARY_THEME_08_05,Tema: Superfloración,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Se hace un seguimiento del progreso para conseguir este logro para cada personaje.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requiere Windows 10 actualizado a noviembre de 2019 o posterior,3
 52259,SPELL_FAILED_CUSTOM_1101,Ya se ha construido una estación de carga cerca.,1
-52260,SPELL_FAILED_CUSTOM_1102,Ya se ha construido una estación a prueba de viento cerca.,1
+52260,SPELL_FAILED_CUSTOM_1102,Ya se ha construido una estación canalizadora de viento cerca.,1
 52261,SPELL_FAILED_CUSTOM_1103,Ya se ha construido una estación de recuperación cerca.,1
 52262,SPELL_FAILED_CUSTOM_1104,Demasiado cerca de otra estación.,1
 52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Información perjudicial para menores,5
@@ -22597,7 +22638,7 @@ y propagar su llama por todo Azeroth.",1
 52321,MAP_LEGEND_RAREELITE,Élite poco común,1
 52322,MAP_LEGEND_RAREELITE_TOOLTIP,Una criatura élite poco común que puede otorgar un botín valioso,1
 52323,MAP_LEGEND_DUNGEON,Mazmorra,1
-52324,MAP_LEGEND_DUNGEON_TOOLTIP,Contenido diseñado para grupos de cinco aventureros que otorga botín,1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,"Contenido de instancia que recompensa con botín, pensado para grupos de hasta cinco aventureros",1
 52325,MAP_LEGEND_RAID,Banda,1
 52326,MAP_LEGEND_RAID_TOOLTIP,Contenido exigente diseñado para grupos grandes de jugadores que otorga un botín valioso,1
 52327,MAP_LEGEND_HUB,Asentamiento,1
@@ -22696,8 +22737,8 @@ Se han eliminado los objetos del evento.",1
 52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Nombre de cliente,1
 52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Pedidos de clientes|r|nLos personajes que conozcas en tus viajes ahora pueden hacerte pedidos de fabricación. ¡Complétalos para mejorar tu habilidad profesional, conseguir conocimiento y más!",1
 52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Cuando hayas cumplido todos los requisitos, podrás fabricar el pedido. En algunos pedidos, puede que tengas que aportar tus propios componentes.",1
-52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Ocultar las misiones de banda guerrera completadas,1
-52434,SETTINGS_TRIVIAL_QUEST_FILTER,Ocultar misiones de nivel bajo,1
+52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Mostrar misiones de banda guerrera completadas,1
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Mostrar misiones de nivel bajo,1
 52435,QUEST_SETTINGS_LABEL,Misiones,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,No puedes meter objetos en el depósito del Vacío desde el banco de la banda guerrera.,1
 52438,WOW_ERROR_500,La conversión de datos de tu banda guerrera ha fallado. Vuelve a iniciar sesión en tu cuenta para intentarlo de nuevo.,2
@@ -22709,11 +22750,12 @@ Se han eliminado los objetos del evento.",1
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Otorga un bonus único de reputación de la banda guerrera,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,Esto es un bonus único de reputación de la banda guerrera.,1
 52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,No puedes usar componentes del banco de la banda guerrera en un pedido de fabricación. Colócalos en tus bolsas o en el banco de componentes para usarlos en este pedido.,1
+52447,SPELL_FAILED_CUSTOM_ERROR_1045,Bloqueado.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,No tienes suficiente oro en este reino,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,Estas misiones tienen un nivel bastante más bajo al que tienes actualmente y no te otorgarán experiencia.,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,No puedes comerciar con un objeto del banco de la banda guerrera.,1
 52452,MAP_LEGEND_DELVE,Profundidad,1
-52453,MAP_LEGEND_DELVE_TOOLTIP,Contenido diseñado para grupos de hasta cinco aventureros de cualquier función. Otorga botín,1
+52453,MAP_LEGEND_DELVE_TOOLTIP,"Contenido de instancia que recompensa con botín, pensado para grupos de hasta cinco aventureros de cualquier función",1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,No disponible en el modo historia,1
 52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,¡Tienes recompensas sin recoger! Regresa a la gran cámara de Dornogal para llevar a cabo tu selección.,1
 52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h no puede unirse a la profundidad de nivel %d en la que estás (nivel %d desbloqueado).,1
@@ -22724,4 +22766,26 @@ Se han eliminado los objetos del evento.",1
 52461,WARWITHIN_TITLE2,The War Within: Sombras bajo la superficie,2
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Los terráneos no pueden consumir la comida y la bebida tradicionales.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s no ha desbloqueado este nivel.,1
+52464,SPELL_FAILED_CUSTOM_ERROR_1054,No se puede usar aquí.,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Para cambiarlo, ve a los ajustes de tu cuenta de Battle.net y: \n- Activa la opción del chat de texto en la configuración de privacidad y comunicación.\n- Desactiva la opción de silenciar cuenta en el control parental.",1
+52477,ERR_WARBAND_HEARTHSTONE,No puedes utilizar este objeto.,1
+52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,Estas a punto de depositar objetos reembolsables en el banco.|n|n|cnRED_FONT_COLOR:Se eliminarán los temporizadores de todos los objetos ligados a la banda guerrera.|r|n|n¿Quieres continuar?,1
+52479,SPELL_FAILED_HEARTHSTONE,No puedes utilizar este objeto.,1
+52480,SPELL_FAILED_CUSTOM_ERROR_1056,No puedes utilizar este objeto.,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,No volver a mostrar,1
+52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Máx,1
+52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,Ese personaje ya tiene una transacción en curso.,1
+52485,TOGGLE_VISIBILITY_TOOLTIP,Mostrar/ocultar la visibilidad de la interfaz de usuario,2
+52501,ERR_GUILD_BANK_REALM_MISMATCH,"No se pueden depositar, retirar ni combinar objetos apilables de diferentes reinos.",1
+52503,MAP_TOOLTIP_TIME_LEFT,Tiempo restante: %s,1
+52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<Mayús+clic para dejar de rastrear>,1
+52517,SPELL_FAILED_CUSTOM_ERROR_1057,"Para prender el blandón de Forjatiniebla, hace falta una antorcha de Forjatiniebla.",1
+52518,SPELL_FAILED_CUSTOM_ERROR_1058,Este blandón de Forjatiniebla ya está ardiendo.,1
+52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Nivel %d,2
+52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Alcanza el nivel 10 para desbloquear esta raza,2
+52605,PLAYER_DIFFICULTY_STORY_RAID,Historia de banda,1
+52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Derrota a %d |4jefe:jefes; de %s esta semana para desbloquear esta recompensa.|n|nEl nivel de objeto de la recompensa variará en función de la dificultad de la banda.,1
+52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Derrota a %d |4jefe:jefes; más de %s esta semana para desbloquear esta recompensa.|n|nEl nivel de objeto de la recompensa variará en función de la dificultad de la banda.,1
+52609,CURRENCY_FILTER_TYPE_CHARACTER,Solo %s,1
+52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,Ttodo lo transferible a banda guerrera,1
+52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Incluye monedas de otros personajes de tu banda guerrera,1

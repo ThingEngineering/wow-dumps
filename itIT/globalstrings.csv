@@ -13920,7 +13920,7 @@ Esempio di ricompensa:",1
 25901,GARRISON_BONUS_EFFECT_TIME_LEFT,|cffffd200Tempo restante:|r |cffffffff%s|r,1
 25902,CANNOT_DO_THIS_WHILE_PVP_QUEUING,Non puoi farlo mentre sei in coda per un campo di battaglia o uno scontro d'arena.,1
 25903,CANNOT_DO_THIS_WHILE_PVE_QUEUING,"Non puoi farlo mentre sei in coda per una spedizione, un'incursione o uno scenario.",1
-25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,"I Viaggi nel Tempo ti permettono di affrontare nuovamente spedizioni di basso livello, riducendo proporzionalmente la potenza del tuo personaggio. I boss rilasceranno comunque bottini adatti al tuo livello attuale.",1
+25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,"I Viaggi nel Tempo ti permettono di rivisitare le spedizioni di livello basso, le cui difficoltà e ricompense vengono adeguate al tuo livello.",1
 25905,LFG_TYPE_RANDOM_TIMEWALKER_DUNGEON,Spedizione casuale: Viaggio nel Tempo,1
 25906,INCLUDED_DUNGEONS_TIMEWALKER_EMPTY,Il livello dei personaggi nel tuo gruppo è insufficiente per qualsiasi spedizione Viaggio nel Tempo casuale.,1
 25907,GARRISON_SKIP_ANIMATION_LABEL,Premi la barra spaziatrice per saltare|nle animazioni del rapporto missione.,1
@@ -15185,9 +15185,7 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 34247,CONFIRM_DISABLE_ADDONS,"Dovrai riattivare le modifiche una volta installata la versione aggiornata. Vuoi davvero disattivarle?\n\n|cffffffffPotrai riattivarle selezionando ""Menu"" > ""Add-on"" nella parte alta dello schermo.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"Cliccando su ""OK"" uscirai dal gioco e aprirai automaticamente il sito internet:
 %s",2
-34249,CONFIRM_LOAD_ADDONS,"Il gioco potrebbe non funzionare correttamente se non verranno aggiornate tutte le modifiche. Vuoi davvero provare a caricarle?
-
-|cffffffffI cambiamenti possono essere effettuati usando il pulsante ""Add-on"" in basso a sinistra.|r",2
+34249,CONFIRM_LOAD_ADDONS,"Il gioco potrebbe non funzionare correttamente se non verranno aggiornate tutte le modifiche. Vuoi davvero provare a caricarle?\n\n|cffffffffPotrai riattivarle selezionando ""Menu"" > ""Add-on"" nella parte alta dello schermo.|r",2
 34250,CONFIRM_PAID_SERVICE,Confermi di aver completato i cambiamenti del tuo personaggio?,2
 34251,CONFIRM_PFC,Confermi di aver completato i cambiamenti del tuo personaggio?,2
 34252,CONFIRM_TEMP,Confermi di aver finito?,2
@@ -15589,7 +15587,7 @@ per giocare questa classe.",2
 34623,UNDELETE_FAILED_ERROR,È stato rilevato un problema con il ripristino del personaggio eliminato. Riprova più tardi.,2
 34624,UNDELETE_LABEL,Personaggi eliminati,2
 34625,UNDELETE_NAME_TAKEN,Hai già un personaggio attivo con questo nome. Al momento non puoi ripristinare questo personaggio.,2
-34626,UNDELETE_NO_CHARACTERS,Nessun personaggio eliminato da ripristinare.,2
+34626,UNDELETE_NO_CHARACTERS,Nessun personaggio eliminato da ripristinare in questo reame. Cambia reame per riprovare.,2
 34627,UNDELETE_SERVICE_TOOLTIP,Ripristina questo personaggio,2
 34628,UNDELETE_SUCCESS,Personaggio ripristinato con successo.,2
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,"Personaggio ripristinato con successo.
@@ -19122,7 +19120,7 @@ Consentire script personalizzati?",1
 42492,COVENANT_MISSIONS_REWARDS_EARNED,Hai ottenuto,1
 42493,COVENANT_MISSIONS_REWARDS_FOLLOWER_PROGRESS,Progresso Avventuriero,5
 42494,NPEV2_HUNTER_TAME_ANIMAL,Seleziona un animale nelle vicinanze.\n\nApri Gestione Famiglio e usa |cFF00FFFFAddomesticamento|r.\n\nNon muoverti durante il lancio!,1
-42495,NPEV2_HUNTER_STABLE_PET,Trascinare un famiglio attivo alle scuderie ti permette di addomesticarne altri,1
+42495,NPEV2_HUNTER_STABLE_PET,Mettere un famiglio attivo nella stalla permette di addomesticarne altri,1
 42496,GROUP_FINDER_DELIST_WARNING_SUBTEXT,|n%s alla rimozione automatica,1
 42497,GROUP_FINDER_DELIST_WARNING_TITLE,Sei stato promosso a Capogruppo|TInterface\\GroupFrame\\UI-Group-LeaderIcon:0:0:0:-1|t |n|n|cffffd200Vuoi rimettere in lista il gruppo:|r|n%s|n,1
 42498,SPELL_FAILED_CUSTOM_ERROR_472,Richiede Prova della Purezza,1
@@ -22826,6 +22824,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Animazione combattimento,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Animazione speciale cavalcatura,1
 52064,PREFIX_SOLO_RBG,Blitz nel Campo di Battaglia: %s,1
+52065,SPELL_FAILED_CUSTOM_ERROR_1038,Non possiedi quella cavalcatura.,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Per procedere alla personalizzazione, devi possedere un'Insegna Personale, ma puoi comunque dare un'occhiata.",7
 52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,La tua Brigata riceve valuta: %sx%d,1
 52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,La tua Brigata riceve valuta: %sx%d (obiettivo bonus),1
@@ -22959,13 +22958,53 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Livello Oggetto %1$d (Grado %2$d),1
 52206,WEEKLY_REWARDS_COMPLETE_WORLD,Completa una Scorribanda di Grado %1$d o superiore per aumentare il livello oggetto di questa ricompensa.,1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,Hai già questo Reperto nella tua collezione.,1
+52208,20th_ANNIVERSARY_THEME_01_01,Tema: Costume Cataclismico,1
+52209,20th_ANNIVERSARY_THEME_01_02,Tema: Umili Origini,1
+52210,20th_ANNIVERSARY_THEME_01_03,Tema: Alleanza Contro Orda,1
+52211,20th_ANNIVERSARY_THEME_01_04,Tema: Pericoloso e Distruttivo,1
+52212,20th_ANNIVERSARY_THEME_01_05,Tema: Dagli Stracci a Ragnaros,1
+52213,20th_ANNIVERSARY_THEME_02_01,Tema: Capi di Draenor,1
+52214,20th_ANNIVERSARY_THEME_02_02,Tema: Verso le Terre Esterne,1
+52215,20th_ANNIVERSARY_THEME_02_03,Tema: Grandiosità di Nagrand,1
+52216,20th_ANNIVERSARY_THEME_02_04,Tema: Il Vile s'ha da Fare,1
+52217,20th_ANNIVERSARY_THEME_02_05,Tema: Signore della Guerra,1
 52218,POWER_TYPE_ACID,Potenza Acida,1
 52219,PROF_CRAFTING_ORDER_TYPE_NPC,png,1
 52220,DELVE_LABEL,Scorribanda,1
 52221,UNITNAME_SUMMON_TITLE57,Messo da %s,1
+52222,20th_ANNIVERSARY_THEME_03_01,Tema: Brividi alla Corona di Ghiaccio,1
+52223,20th_ANNIVERSARY_THEME_03_02,Tema: Stile da Grizzly,1
+52224,20th_ANNIVERSARY_THEME_03_03,Tema: Vesti da Vrykul,1
+52225,20th_ANNIVERSARY_THEME_03_04,Tema: Morte e Cavalieri,1
+52226,20th_ANNIVERSARY_THEME_03_05,Tema: Reietti Regali,1
 52228,PHOTOSENSITIVITY_WARNING_TITLE,AVVISO SULLA FOTOSENSIBILITÀ,2
 52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"Una ridotta percentuale di individui potrebbe mostrare segni di epilessia dovuti a certe luci, elementi o immagini, persino in assenza di episodi pregressi.|n|nPrima di giocare, se tu o qualcuno nella tua famiglia avete sofferto di epilessia, consulta un medico.|n|nSe durante il gioco ti capita di avere capogiri, visione alterata, spasmi, perdita di coscienza, sensazione di smarrimento, movimenti involontari o convulsioni, smetti immediatamente di giocare e contatta il medico.",2
+52230,20th_ANNIVERSARY_THEME_04_01,Tema: Completo Tranquillo,1
+52231,20th_ANNIVERSARY_THEME_04_02,Tema: Agricoltura con Stile,1
+52232,20th_ANNIVERSARY_THEME_04_03,Tema: Eleganza dei Pandaren,1
+52233,20th_ANNIVERSARY_THEME_04_04,Tema: Giubileo di Giada,1
+52234,20th_ANNIVERSARY_THEME_04_05,Tema: Perché Combattiamo,1
 52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Premi un tasto per continuare,2
+52236,20th_ANNIVERSARY_THEME_05_01,Tema: Tutto deve Bruciare,1
+52237,20th_ANNIVERSARY_THEME_05_02,Tema: Vedo Verde,1
+52238,20th_ANNIVERSARY_THEME_05_03,Tema: A Caccia di Demoni,1
+52239,20th_ANNIVERSARY_THEME_05_04,Tema: Stile di Suramar,1
+52240,20th_ANNIVERSARY_THEME_05_05,Tema: Ultraterreno,1
+52241,20th_ANNIVERSARY_THEME_06_01,Tema: Vita Piratesca,1
+52242,20th_ANNIVERSARY_THEME_06_02,Tema: Fascino di Kul Tiras,1
+52243,20th_ANNIVERSARY_THEME_06_03,Tema: Vanità dei Vulpera,1
+52244,20th_ANNIVERSARY_THEME_06_04,Tema: Meccamatti,1
+52245,20th_ANNIVERSARY_THEME_06_05,Tema: Combinazioni Insolite,1
+52246,20th_ANNIVERSARY_THEME_07_01,Tema: Scuro e letale,1
+52247,20th_ANNIVERSARY_THEME_07_02,Tema: Fascino di Selvarden,1
+52248,20th_ANNIVERSARY_THEME_07_03,Tema: Congreghe Accattivanti,1
+52249,20th_ANNIVERSARY_THEME_07_04,Tema: Il Meglio del Bastione,1
+52250,20th_ANNIVERSARY_THEME_07_05,Tema: Gala Spettrale,1
+52251,20th_ANNIVERSARY_THEME_08_01,Tema: Spiccare il volo,1
+52252,20th_ANNIVERSARY_THEME_08_02,Tema: Completo degli Aspetti,1
+52253,20th_ANNIVERSARY_THEME_08_03,"Tema: Sì, Chef!",1
+52254,20th_ANNIVERSARY_THEME_08_04,Tema: A Caccia,1
+52255,20th_ANNIVERSARY_THEME_08_05,Tema: Superfioritura,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Tutti i personaggi contribuiscono ai progressi di quest'impresa.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 richiede l'aggiornamento di novembre 2019 di Windows 10 o più recente,3
 52259,SPELL_FAILED_CUSTOM_1101,È già stata costruita una Stazione di Carica nelle vicinanze.,1
@@ -23024,7 +23063,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52321,MAP_LEGEND_RAREELITE,Élite raro,1
 52322,MAP_LEGEND_RAREELITE_TOOLTIP,Una creatura speciale e rara che ha una probabilità di rilasciare bottino prezioso,1
 52323,MAP_LEGEND_DUNGEON,Spedizione,1
-52324,MAP_LEGEND_DUNGEON_TOOLTIP,Contenuto progettato per un gruppo di cinque avventurieri che offre bottino,1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,"Contenuto istanziato che offre bottino, progettato per un gruppo di massimo cinque avventurieri",1
 52325,MAP_LEGEND_RAID,Incursione,1
 52326,MAP_LEGEND_RAID_TOOLTIP,"Contenuto impegnativo, ideato per grandi gruppi di giocatori e che offre bottino prezioso",1
 52327,MAP_LEGEND_HUB,Centro,1
@@ -23078,7 +23117,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52385,DELVES_ERR_TIER_INELIGIBLE,Non soddisfi i requisiti per questo grado,1
 52386,HARMFUL_TO_MINORS_DISABLED_TOOLTIP,È necessario selezionare una o più opzioni Nome disponibili,1
 52387,SPELL_FAILED_CUSTOM_ERROR_1053,I Corridori nel Tempo non possono lanciare questo incantesimo.,1
-52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Cavalcata,1
+52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Viaggio in Compagnia,1
 52389,RPE_UPGRADE_COMPLETE_WARNING,Devi connetterti per completare il potenziamento istantaneo.,3
 52390,DELVES_SHOW_ENTRACES_ON_MAP_TEXT,Ingressi delle Scorribande,1
 52391,SPELL_FAILED_CUSTOM_ERROR_1043,Devi scegliere cosa fare con il prototipo attuale prima di identificarne di nuovi.,1
@@ -23124,8 +23163,8 @@ Gli oggetti dell'evento sono stati rimossi.
 52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Nome cliente,1
 52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Ordini dei clienti|r|nI personaggi incontrati durante i tuoi viaggi possono ora inviarti Ordini d'Artigianato. Completali per ottenere punti competenza, conoscenza e molto altro!",1
 52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Una volta soddisfatti tutti i requisiti, potrai creare l'ordine. Alcuni ordini potrebbero richiedere di fornire i tuoi reagenti.",1
-52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Nascondi missioni Brigata completate,1
-52434,SETTINGS_TRIVIAL_QUEST_FILTER,Nascondi missioni di basso livello,1
+52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Mostra missioni Brigata completate,1
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Mostra missioni di basso livello,1
 52435,QUEST_SETTINGS_LABEL,Missioni,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,Non puoi depositare oggetti nella Banca Eterea dalla Banca della Brigata.,1
 52438,WOW_ERROR_500,La conversione di dati per la tua Brigata non è andata a buon fine. Connetti nuovamente l'account e riprova.,2
@@ -23137,11 +23176,12 @@ Gli oggetti dell'evento sono stati rimossi.
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Conferisce un bonus di reputazione di Brigata unico,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,Questo è un bonus di reputazione di Brigata unico,1
 52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,Non puoi usare reagenti depositati nella Banca della Brigata per un Ordine d'Artigianato. Spostali nelle tue borse o usa la Banca dei reagenti per usarli in questo ordine.,1
+52447,SPELL_FAILED_CUSTOM_ERROR_1045,Bloccato.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Oro insufficiente nel reame attuale,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,Queste missioni sono di livello significativamente inferiore rispetto al tuo e non forniranno esperienza.,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,Non puoi commerciare un oggetto dalla Banca della Brigata.,1
 52452,MAP_LEGEND_DELVE,Scorribanda,1
-52453,MAP_LEGEND_DELVE_TOOLTIP,Contenuto progettato per un gruppo di massimo cinque avventurieri di qualsiasi ruolo di combattimento che offre bottino,1
+52453,MAP_LEGEND_DELVE_TOOLTIP,"Contenuto istanziato che offre bottino, progettato per un gruppo di massimo cinque avventurieri di qualsiasi ruolo di combattimento",1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,Non disponibile in modalità Storia,1
 52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,Hai ricompense non riscattate! Torna alla Gran Banca a Dornogal per effettuare la tua scelta.,1
 52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h non può unirsi alla tua Scorribanda di grado %d (grado %d sbloccato).,1
@@ -23152,4 +23192,26 @@ Gli oggetti dell'evento sono stati rimossi.
 52461,WARWITHIN_TITLE2,The War Within: Ombre nel Profondo,2
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,I Terrigeni non possono mangiare né bere alimenti o bevande comuni.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s non ha sbloccato questo grado,1
+52464,SPELL_FAILED_CUSTOM_ERROR_1054,Non può essere utilizzato qui.,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Per fare questo cambio, prima vai sulle impostazioni del tuo account Battle.net e assicurati che: \n- Privacy -> l'opzione Chat di testo sia abilitata\n- Controllo parentale -> l'opzione Silenziamento account sia disabilitata",1
+52477,ERR_WARBAND_HEARTHSTONE,Non hai i requisiti per usare questo oggetto.,1
+52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,Stai per depositare nella banca degli oggetti rimborsabili.|n|n|cnRED_FONT_COLOR:Gli oggetti vincolati alla Brigata depositati non avranno più l'indicazione della durata della rimborsabilità.|r|n|nVuoi davvero continuare?,1
+52479,SPELL_FAILED_HEARTHSTONE,Non hai i requisiti per usare questo oggetto.,1
+52480,SPELL_FAILED_CUSTOM_ERROR_1056,Non hai i requisiti per usare questo oggetto.,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Non mostrare più,1
+52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Max,1
+52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,Il personaggio ha già una transazione in corso.,1
+52485,TOGGLE_VISIBILITY_TOOLTIP,Attiva/Disattiva la visibilità dell'interfaccia utente,2
+52501,ERR_GUILD_BANK_REALM_MISMATCH,"Non è possibile depositare, prelevare o combinare pile di oggetti di reami diversi.",1
+52503,MAP_TOOLTIP_TIME_LEFT,Tempo restante: %s,1
+52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<MAIUSC+pulsante sinistro per smettere di tracciare>,1
+52517,SPELL_FAILED_CUSTOM_ERROR_1057,Per accendere il Braciere di Forgiascura è necessaria una Torcia di Forgiascura.,1
+52518,SPELL_FAILED_CUSTOM_ERROR_1058,Questo Braciere di Forgiascura è già acceso.,1
+52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Livello %d,2
+52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Raggiungi il livello 10 per sbloccare questa razza,2
+52605,PLAYER_DIFFICULTY_STORY_RAID,Storia dell'incursione,1
+52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Sconfiggi %d boss dell'incursione %s questa settimana per sbloccare questa ricompensa.|n|nIl livello oggetto della ricompensa si basa sulla modalità dell'incursione affrontata.,1
+52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Sconfiggi %d |4altro:altri; boss dell'incursione %s questa settimana per sbloccare questa ricompensa.|n|nIl livello oggetto della ricompensa si basa sulla modalità dell'incursione affrontata.,1
+52609,CURRENCY_FILTER_TYPE_CHARACTER,Solo %s,1
+52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,Trasferibili in tutta la Brigata,1
+52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Include le valute possedute dagli altri membri della tua Brigata,1

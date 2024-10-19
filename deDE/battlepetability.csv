@@ -701,8 +701,8 @@ Rammt das Ziel und fügt ihm [StandardDamage(1,1)] [School()]schaden zu.",252187
 Schlägt den Gegner 1- bis 2-mal und verursacht mit jedem Angriff [StandardDamage(1,1)] [School()]schaden.
 
 Trifft ein zusätzliches Mal, wenn der Benutzer zuerst angreift.",134218,6,0,0,0
-395,Beruhigende Nebel,"Stellt [StandardDamage(1,1,395)] Gesundheit pro Runde wieder her.",606550,-1,0,635,0
-396,Beruhigende Nebel,"Heilt Euer aktives Haustier [duration(1,1)] |4Runde:Runden; lang pro Runde um [StandardDamage(1,1,395)] Gesundheit. Bricht nicht ab, wenn Haustiere ausgewechselt werden.",606550,6,0,0,2
+395,Beruhigende Nebel,"Stellt pro Runde [StandardHealing(1,1,395)] Gesundheit wieder her.",606550,6,0,635,0
+396,Beruhigende Nebel,"Heilt Euer aktives Haustier [duration(1,1)] |4Runde:Runden; lang pro Runde um [StandardHealing(1,1,395)] Gesundheit. Bricht nicht ab, wenn Haustiere ausgewechselt werden.",606550,6,0,0,2
 397,Giftpeitsche,"Verursacht in jeder Runde [StandardDamage(1,1)] [School()]schaden.
 
 |cFF1EFF00Vergiftet|r.",134208,6,0,25,0
@@ -3793,3 +3793,9 @@ Diese Aktion wird immer zuerst ausgeführt.",132852,8,1,0,0
 2520,Schillern,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
 Ihr verwirrt den Gegner mit einer schillernden Kugel und verursacht [StandardDamage(1,1)] [School()]schaden, |cff9933FFblendet|r das Ziel und verringert dessen Trefferchance [duration(1,2)] |4Runde:Runden; lang um [abs(abilityStateMod( 41 , 462 ))]%.",133836,0,4,0,0
+2522,Schneide der Verheerung,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Schlitzt mit seiner Minischneide der Verheerung und verursacht [StandardDamage(1, 1)] [School()]schaden.",135378,0,0,0,0
+2523,Schattenblitzsalve,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Schleudert Schattenblitze auf das gegnerische Team, die [StandardDamage(1, 1)] [School()]schaden verursachen.",136197,5,3,0,0

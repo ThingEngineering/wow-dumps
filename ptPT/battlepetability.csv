@@ -700,8 +700,8 @@ Cobre o inimigo com um sopro dracônico, causando [StandardDamage(1, 1)] de dano
 Ataca o inimigo 1-2 vezes, causando [StandardDamage(1,1)] de dano tipo [School()] por acerto.
 
 Acerta outra vez se o usuário for o primeiro a atacar.",134218,6,0,0,0
-395,Bruma Calmante,"Restaura [StandardDamage(1,1,395)] pontos de vida por rodada.",606550,-1,0,635,0
-396,Bruma Calmante,"Restaura [StandardDamage(1,1,395)] pontos de vida por rodada à sua mascote ativa durante [duration(1,1)] |4rodada:rodadas;. Persiste mesmo com a troca de mascotes.",606550,6,0,0,2
+395,Bruma Calmante,"Restaura [StandardHealing(1,1,395)] pontos de vida por rodada.",606550,6,0,635,0
+396,Bruma Calmante,"Restaura [StandardHealing(1,1,395)] pontos de vida por rodada à sua mascote ativa durante [duration(1,1)] |4rodada:rodadas;. Persiste mesmo com a troca de mascotes.",606550,6,0,0,2
 397,Açoite Venenoso,"Causa [StandardDamage(1,1)] de dano tipo [School()] por rodada.
 
 |cFF1EFF00Envenenado|r.",134208,6,0,25,0
@@ -3799,3 +3799,9 @@ Esse movimento sempre tem prioridade.",132852,8,1,0,0
 2520,Ofuscamento,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
 Ofusca os inimigos com uma esfera faiscante. Causa [StandardDamage(1,1)] de dano tipo [School()] e |cff9933FFCega|r o alvo, reduzindo em [abs(abilityStateMod( 41 , 462 ))]% sua chance de acerto durante [duration(1,2)] |4rodada:rodadas;.",133836,0,4,0,0
+2522,Gume do Cataclismo,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Golpeia com o Minigume do Cataclismo, causando [StandardDamage(1, 1)] de dano tipo [School()].",135378,0,0,0,0
+2523,Salva de Setas Sombrias,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Lança setas de sombra contra a equipe inimiga, causando [StandardDamage(1, 1)] de dano tipo [School()] à equipe inimiga.",136197,5,3,0,0

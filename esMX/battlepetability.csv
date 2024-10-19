@@ -703,8 +703,8 @@ Apabulla al enemigo con aliento dracónico e inflige [StandardDamage(1, 1)] p. d
 Azota al enemigo 1-2 veces, lo que inflige [StandardDamage(1,1)] p. de daño de [School()] por latigazo.
 
 Golpea una vez más si el usuario ataca primero.",134218,6,0,0,0
-395,Niebla reconfortante,"Restaura [StandardDamage(1,1,395)] p. de salud cada ronda.",606550,-1,0,635,0
-396,Niebla reconfortante,"Restaura [StandardDamage(1,1,395)] p. de salud a tu mascota activa por ronda durante [duration(1,1)] |4ronda:rondas;. Se mantiene con el cambio de mascotas.",606550,6,0,0,2
+395,Niebla reconfortante,"Restaura [StandardHealing(1,1,395)] p. de salud en cada ronda.",606550,6,0,635,0
+396,Niebla reconfortante,"Restaura [StandardHealing(1,1,395)] p. de salud a tu mascota activa en cada ronda durante [duration(1,1)] |4ronda:rondas. Persiste tras el cambio de mascotas.",606550,6,0,0,2
 397,Latigazo venenoso,"Inflige [StandardDamage(1,1)] p. de daño de [School()] cada ronda.
 
 |cFF1EFF00Envenenado.|r",134208,6,0,25,0
@@ -3408,7 +3408,7 @@ Doble electrocución tiene un [StandardAccuracy(1,3)]% de probabilidad de aplica
 Margarita acumula poder lentamente durante las primeras dos rondas y recibe un [abs(abilityStateMod(24,2371))]% menos de daño.
 
 En la tercera ronda, Daisy golpea al enemigo con fuerza lenta pero imparable, lo que inflige [StandardDamage(3,1)] p. de daño [School()] al objetivo y hace que |cFF970000Sangre|r [StandardDamage(1,1,2369)] p. de daño [School(2369)] por ronda durante [duration(3,2)] rondas.",451161,7,0,0,0
-2371,Lenta pero segura,"Daisy se prepara muy lentamente para lanzar un ataque poderoso. Recibe un [abs(abilityStateMod(24,2371))]% menos de daño.",3150958,-1,0,0,0
+2371,Lenta pero segura,"Margarita se prepara muy lentamente para lanzar un ataque poderoso. Recibe un [abs(abilityStateMod(24,2371))]% menos de daño.",3150958,-1,0,0,0
 2372,Descarga de elementium,"Detona después de [numTurns()-1] |4ronda:rondas;, inflige [StandardDamage(3,1)] p. de daño [School()] a la mascota enemiga actual y aturde al objetivo durante [duration(3,2)] |4ronda:rondas;.
 
 |cffffffffProbabilidad de golpe:|r [StandardAccuracy(3,1)]",575536,1,0,0,8
@@ -3802,3 +3802,9 @@ Este movimiento siempre va primero.",132852,8,1,0,0
 2520,Fulgor,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
 Deslumbra a tus enemigos con una bola destellante. Inflige [StandardDamage(1,1)] p. de daño de [School()] y |cff9933FFciega|r al objetivo, lo que reduce su precisión un [abs(abilityStateMod( 41 , 462 ))]% durante [duration(1,2)] |4ronda:rondas;.",133836,0,4,0,0
+2522,Filo de cataclismo,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe|r
+
+Corta con los minifilos de cataclismo e inflige [StandardDamage(1, 1)] p. de daño de [School()].",135378,0,0,0,0
+2523,Salva de descarga de las sombras,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe|r
+
+Lanza descargas de sombras e inflige [StandardDamage(1, 1)] p. de daño de [School()] al equipo enemigo.",136197,5,3,0,0

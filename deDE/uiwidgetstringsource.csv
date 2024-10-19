@@ -8836,6 +8836,14 @@ ID,Value_lang,ReqID,ParentWidgetID
 16765,Abkürzungsressourcen,19,5987
 16766,,273,5987
 16767,"Spendet Erz, um zum Bau einer temporären Abkürzung für Euch und alle anderen Kuriere beizutragen.",208,5987
+16768,%0ss,433,5988
+16769,Zeit bis zum nächsten Schritt:,434,5988
+16773,%0ss,433,5986
+16774,Zeit bis zum nächsten Schritt:,434,5986
+16775,%0ss,433,5990
+16776,Zeit bis zum nächsten Schritt:,434,5990
+16777,%0ss,433,5991
+16778,Zeit bis zum Ende:,434,5991
 16779,,621,5992
 16780,,622,5992
 16781,,627,5992
@@ -8862,6 +8870,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16802,,627,5999
 16803,Freischalten aktueller Beitragsphase:,52,6000
 16804,,394,6000
+16805,Theme: [PH],52,6001
+16806,,394,6001
 16807,Verbleibende Zeit: %26210ht,52,6002
 16808,,394,6002
 16809,Belohnungen:,52,6003
@@ -8895,7 +8905,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 16840,,204,6017
 16841,,205,6017
 16842,Quests vom verbündeten Volk der Irdenen verfügbar,584,6018
-16843,"Schließt den Erfolg Verbündete Völker: Irdene ab, um die Irdenen für Eure Kriegsmeute zu rekrutieren.",585,6018
+16843,"Schließt den Erfolg ""Verbündete Völker: Irdene"" ab, um die Irdenen für Eure Kriegsmeute zu rekrutieren.",585,6018
 16844,,598,6018
 16845,,204,6019
 16846,,205,6019
@@ -8904,6 +8914,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16849,,598,6020
 16850,,204,6021
 16851,,205,6021
+16852,,212,6023
+16853,,277,6023
 16854,|Hspell:456037|h|n|cnWHITE_FONT_COLOR:Betroffene Gegnergruppen: 1|r,212,6029
 16855,0,277,6029
 16856,"Schließt ""Einen Pakt schmieden"" ab, um Zugriff auf die Weltquests in Azj-Kahet zu erhalten.",52,6031
@@ -8922,6 +8934,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16872,,208,6036
 16884,Bereitet Euch auf den Skardynschwarm vor!,52,6041
 16885,,394,6041
+16888,Statusleiste: Text,19,6042
+16889,,273,6042
+16890,Tötet Gegner,208,6042
 16891,Zeit bis Verkaufsende:,19,6043
 16892,,208,6043
 16893,,273,6043
@@ -9355,6 +9370,53 @@ ID,Value_lang,ReqID,ParentWidgetID
 17651,Strahlende Echos sind aktiv für:,19,6148
 17652,,273,6148
 17653,,208,6148
-17959,,584,6365
-17960,"Schließt großzügige Tiefen ab, um Branns Kraft im Kampf während der Saison zu erhöhen.|n|nAktueller Fortschritt: |cnWHITE_FONT_COLOR:%40859e/%40860e|r",585,6365
+17711,|TInterface/RAIDFRAME/ReadyCheck-NotReady.blp:27|t,52,6312
+17712,,394,6312
+17713,|TInterface/RAIDFRAME/ReadyCheck-Ready.blp:27|t,52,6313
+17714,,394,6313
+17869,,708,6334
+17870,,709,6334
+17871,,710,6334
+17872,,711,6334
+17873,,718,6334
+17874,,719,6334
+17875,,720,6334
+17876,Reittier: %27301w / %27300w,677,6334
+17877,,679,6334
+17878,,680,6334
+17879,,681,6334
+17886,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Reittierrausch,52,6337
+17887,"Führt die Reittiere vor, die Ihr gesammelt habt. Beginnt in weniger als 15 Minuten.",394,6337
+17888,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Reittierrausch,52,6338
+17889,"Führt die Reittiere vor, die Ihr gesammelt habt. Beginnt in weniger als 5 Minuten.",394,6338
+17890,|cnHIGHLIGHT_FONT_COLOR:Aktives Ereignis:|r Reittierrausch,52,6339
+17891,"Führt die Reittiere vor, die Ihr gesammelt habt!",394,6339
+17892,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Geschichtenzeit,52,6340
+17893,Lauscht den Geschichten aus der Vergangenheit mit Lehrensucher Cho. Das Ereignis beginnt in weniger als 15 Minuten.,394,6340
+17894,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Geschichtenzeit,52,6341
+17895,Lauscht den Geschichten aus der Vergangenheit mit Lehrensucher Cho. Das Ereignis beginnt in weniger als 5 Minuten.,394,6341
+17896,|cnHIGHLIGHT_FONT_COLOR:Aktives Ereignis:|r Geschichtenzeit,52,6342
+17897,Lauscht den Geschichten aus der Vergangenheit mit Lehrensucher Cho. Gerade im Gange.,394,6342
+17898,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Moderausch,52,6343
+17899,Zeigt beim Moderausch Eure schönsten Kleidungsstücke zu einem überraschenden Thema. Beginnt in weniger als 15 Minuten.,394,6343
+17900,|cnHIGHLIGHT_FONT_COLOR:Nächstes Ereignis:|r Moderausch,52,6344
+17901,Zeigt beim Moderausch Eure schönsten Kleidungsstücke zu einem überraschenden Thema. Beginnt in weniger als 5 Minuten.,394,6344
+17902,|cnHIGHLIGHT_FONT_COLOR:Aktives Ereignis:|r Moderausch,52,6345
+17903,Zeigt beim Moderausch Eure schönsten Kleidungsstücke zu einem überraschenden Thema.,394,6345
+17913,|cnHIGHLIGHT_FONT_COLOR:Reittier:|r %27301w / %27300w,52,6349
+17914,,394,6349
+17915,Anzahl Reittiere,19,6350
+17916,,273,6350
+17917,,208,6350
+17959,%2640fn,584,6365
+17960,"Schließt großzügige Tiefen auf Schwierigkeitsstufe 4 oder höher ab, um Branns Kraft im Kampf während der Saison zu erhöhen.|n|nAktueller Fortschritt: |cnWHITE_FONT_COLOR:%40859e/%40860e|r",585,6365
 17961,,598,6365
+18013,,19,6577
+18014,%2605fn,273,6577
+18015,Aktueller Ruf beim General.,208,6577
+18016,,19,6578
+18017,%2607fn,273,6578
+18018,Aktueller Ruf beim Wesir.,208,6578
+18019,,19,6579
+18020,%2601fn,273,6579
+18021,Aktueller Ruf bei der Weberin.,208,6579
