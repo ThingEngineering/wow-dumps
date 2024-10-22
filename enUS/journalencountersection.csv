@@ -2707,7 +2707,7 @@ The Swarm also inflicts $111644s1 damage every $111643t1 sec. to enemies within 
 5496,Arcane Bolt,"Nether Wraiths hurl magical bolts at a player, inflicting Arcane damage.",565,8,5495,0,0,2,0,0,0,135753,1,64,-1
 5497,Shadow Cleave,"Grand Warlock Nethekurse inflicts Shadow damage to a player and their nearest allies, affecting up to $30495x1 targets.",566,1,0,0,29956,2,0,0,0,132338,0,0,-1
 5498,Death Coil,"Grand Warlock Nethekurse causes a player to cower in horror for $30500d, inflicting $30500s1 Shadow damage. Nethekurse gains 100% of the damage caused in health.",566,3,0,0,5499,2,0,0,0,136145,0,0,-1
-5499,Lesser Shadow Fissure,"Grand Warlock Nethekurse creates a fissure under a player, inflicting $30498s1 Shadow damage every $30497t1 sec while they are inside of the fissure.",566,4,0,0,5500,2,0,0,0,132886,0,16,-1
+5499,Lesser Shadow Fissure,"Grand Warlock Nethekurse creates a fissure of Consumption under a player, inflicting $30498s1 Shadow damage every $30498t1 sec while they are inside of the fissure.",566,4,0,0,5500,2,0,0,0,132886,0,16,-1
 5500,Dark Spin,"When Grand Warlock Nethekurse reaches 25% health, he enters a Dark Spin of shadow and steel. Dark Spin inflicts Physical damage to all players within $30508A1 yards and hurls bolts of dark magic every $30502t1 sec that inflict $30505s1 Shadow damage to a random player.",566,5,0,0,0,2,0,0,0,136202,0,38,-1
 5501,Serpent Dance,Liu Flameheart rapidly assaults players with three Serpent martial arts attacks.,658,1,0,5502,5505,2,0,0,0,0,1,0,-1
 5502,Serpent Strike,,658,2,5501,0,5503,2,0,0,106823,135817,0,128,-1
@@ -24033,7 +24033,7 @@ $bullet;Run over |cFF2959D3|Hspell:273716|h[Heavy Ordnance]|h|r to prevent them 
 30707,Volcanic Upheaval,,2663,18,0,0,0,2,0,0,462317,135830,1,4,-1
 30722,Overview,"Lord Roccor casts |cFF2959D3|Hspell:462351|h[Roiling Magma]|h|r on his target, inflicting damage and providing the raw material to |cFF2959D3|Hspell:463674|h[Crystallize]|h|r his obsidian progeny.
 
-When Lord Roccor reaches 90% health and every 20% damage suffered thereafter, he will cast |cFF2959D3|Hspell:462322|h[Eruption]|h|r, filling the room with |cFF2959D3|Hspell:462351|h[Roiling Magma]|h|r. Each |cFF2959D3|Hspell:462351|h[Living Magma]|h|r that reaches its destination will increase the power of the elemental created by |cFF2959D3|Hspell:462320|h[Igneous Crystallization]|h|r.
+When Lord Roccor reaches 95% health and every 20% damage suffered thereafter, he will cast |cFF2959D3|Hspell:462322|h[Eruption]|h|r, filling the room with |cFF2959D3|Hspell:462351|h[Roiling Magma]|h|r. Each |cFF2959D3|Hspell:462346|h[Living Magma]|h|r that reaches its destination will increase the power of the elemental created by |cFF2959D3|Hspell:462320|h[Igneous Crystallization]|h|r.
 
 Upon reaching 100 energy, Roccor casts |cFF2959D3|Hspell:462317|h[Volcanic Upheaval]|h|r, inflicting huge damage to all players.",2663,1,0,30726,30706,3,0,0,0,0,0,0,-1
 30726,Tanks,"$bullet; |cFF2959D3|Hspell:462351|h[Roiling Magma]|h|r is cast on Lord Roccor's primary target and inflicts Fire damage to enemies in the area.
@@ -24110,7 +24110,7 @@ $bullet; Players paired by |cFF2959D3|Hspell:463847|h[Lethal Attraction]|h|r mus
 30757,Section 5,,2666,16,30789,30987,30790,2,0,0,463829,0,0,0,-1
 30758,Section 5,,2666,18,30757,0,0,2,0,0,464485,0,0,0,-1
 30759,Section 5,,2666,12,30787,30989,30788,2,0,0,467919,0,0,0,-1
-30760,Section 5,,2666,26,0,0,30796,2,0,0,463852,0,1,32,-1
+30760,Section 5,,2666,26,0,0,30988,2,0,0,463852,0,1,32,-1
 30761,Section 5,,2666,25,30792,0,0,2,0,0,463847,0,0,48,-1
 30762,Overview,"The Seven alternate between manifesting fully in the physical realm and returning to their ghostly state becoming Corporeal or Incorporeal. While Corporeal, each member of the Seven inflicts and suffers full damage and has access to more powerful abilities. Anger'rel and Gloom'rel will remain Corporeal through the entire encounter while the third Corporeal member of the Seven changes as the encounter progresses. When a member of the Seven reaches full energy, they will use their most powerful ability.",2667,1,0,30763,30766,3,0,0,0,0,0,0,-1
 30763,Tanks,"$bullet; Gloom'rel and Anger'rel will remain |cFF2959D3|Hspell:464371|h[Corporeal]|h|r through the entire encounter.
@@ -24162,7 +24162,6 @@ $bullet; The pillars within the Lyceum can be used to avoid |cFF2959D3|Hspell:46
 30793,Section 5,,2666,22,30792,0,30794,2,0,0,463820,0,0,0,-1
 30794,Section 5,,2666,23,30792,30795,30761,2,0,0,467926,0,0,132,-1
 30795,Section 5,,2666,24,30794,0,0,2,0,0,467930,0,0,0,-1
-30796,Section 5,,2666,27,0,0,30988,2,0,0,468246,0,3,40,0
 30800,Section 12,,2667,6,30766,0,30801,2,0,0,464347,0,0,0,-1
 30801,Section 12,,2667,7,30766,0,30802,2,0,0,464348,0,0,4,-1
 30802,Section 12,,2667,8,30766,0,0,2,0,0,465652,0,0,32,-1
@@ -24227,7 +24226,7 @@ When Ambassador Flamelash reaches maximum energy, he casts |cFF2959D3|Hspell:470
 $bullet;  Firestarter's |cFF2959D3|Hspell:464918|h[Explosive Impact]|h|r inflicts heavy Physical damage.
 $bullet;  Flamewalkers are a powerful melee combatant that is also capable of casting |cFF2959D3|Hspell:470164|h[Magma Infusion]|h|r.",2669,2,30859,0,30861,3,0,0,0,0,0,1,-1
 30861,Damage Dealers,"$bullet; Firestarters should be lured away from the raid. The explosion from |cFF2959D3|Hspell:464983|h[Torch]|h|r is large and inflicts high damage.
-$bullet; Flamewalkers cast |cFF2959D3|Hspell:470203|h[Magma Infusion]|h|r until they are defeated, making it more difficult to navigate the Iron Hall.
+$bullet; Flamewalkers cast |cFF2959D3|Hspell:470164|h[Magma Infusion]|h|r until they are defeated, making it more difficult to navigate the Iron Hall.
 $bullet; Players should destroy portal anchors as quickly as possible while ensuring Burning Spirits do not successfully cast |cFF2959D3|Hspell:464769|h[Fury of the Firelands]|h|r.",2669,3,30859,0,30862,3,0,0,0,0,0,2,-1
 30862,Healers,"$bullet; Healers should quickly dispel |cFF2959D3|Hspell:470363|h[Cremation]|h|r from players that split the damage of |cFF2959D3|Hspell:470203|h[Cremate]|h|r.
 $bullet; Tanks afflicted by |cFF2959D3|Hspell:470207|h[Flamelash]|h|r will suffer increased Fire damage.
@@ -24235,17 +24234,17 @@ $bullet; When a Flamewalker is killed, it will depart with an |cFF2959D3|Hspell:
 $bullet; Incoming damage can quickly become overwhelming during |cFF2959D3|Hspell:464372|h[Open Firelands Portals]|h|r unless the raid manages every threat successfully.",2669,4,30859,0,0,3,0,0,0,0,0,4,-1
 30887,Burning Spirit,,2669,20,0,30889,0,2,0,0,464372,0,1,38,-1
 30889,Section 11,,2669,21,30887,0,30898,2,0,0,464998,0,0,4,-1
-30890,Section 13,,2669,10,0,30896,30984,2,0,0,470244,0,1,0,-1
-30894,Flamewalker,,2669,16,30984,30895,0,1,122591,0,0,0,0,0,-1
-30895,Section 18,,2669,17,30894,30985,30986,2,0,0,470164,0,0,0,-1
-30896,Firestarter,,2669,11,30890,30981,0,1,122593,0,0,0,1,0,-1
+30890,Section 13,,2669,9,0,30896,30984,2,0,0,470244,0,1,0,-1
+30894,Flamewalker,,2669,15,30984,30895,0,1,122591,0,0,0,0,0,-1
+30895,Section 18,,2669,16,30894,30985,31073,2,0,0,470164,0,0,0,-1
+30896,Firestarter,,2669,10,30890,30981,0,1,122593,0,0,0,1,0,-1
 30898,Burning Spirit,,2669,22,30887,30899,0,1,122592,0,0,0,0,2,-1
 30899,Section 12,,2669,23,30898,0,0,2,0,0,464769,0,0,64,-1
 30900,Overview,"Emperor Dagran Thaurissan and Princess Moira Bronzebeard are both formidable combatants. Moira's |cFF2959D3|Hspell:466504|h[Shadow Word: Nemesis]|h|r and |cFF2959D3|Hspell:470599|h[Shadow Word: Necrosis]|h|r must be managed carefully or they will overwhelm the raid. Moira will attempt to heal Dagran with |cFF2959D3|Hspell:470605|h[Radiant Infusion]|h|r. 
 
 Dagran is a dangerous melee combatant that will |cFF2959D3|Hspell:465077|h[Call Imperial Guard]|h|r and |cFF2959D3|Hspell:465079|h[Call Twilight's Hammer Ambassadors]|h|r to repel the invaders. When Moira is defeated, Dagran will transform into a powerful |cFF2959D3|Hspell:465069|h[Avatar of Flame]|h|r, empowering all his abilities.
 
-When he becomes deperate, Dagran willl |cFF2959D3|Hspell:466332|h[Beseech The Firelord]|h|r to save him. The Avatar of Ragnaros unleashes devastation that will slowly consume the entire room in molten fire until Dagran is defeated. Dagran will no longer call Imperial Guard or Twilight's Hammer Ambassadors to his side once Ragnaros joins the battle.",2670,1,0,30901,30904,3,0,0,0,0,0,0,-1
+When he becomes desperate, Dagran willl |cFF2959D3|Hspell:466332|h[Beseech The Firelord]|h|r to save him. The Avatar of Ragnaros unleashes devastation that will slowly consume the entire room in molten fire until Dagran is defeated. Dagran will no longer call Imperial Guard or Twilight's Hammer Ambassadors to his side once Ragnaros joins the battle.",2670,1,0,30901,30904,3,0,0,0,0,0,0,-1
 30901,Tanks,"$bullet; Moira and Dagran's abilities are more difficult to avoid if they are near one another.
 $bullet; |cFF2959D3|Hspell:465077|h[Imperial Guards]|h|r will arrive in mole machines on both ends of the room.
 $bullet; |cFF2959D3|Hspell:465060|h[Ironfoe's]|h|r multiattack inflicts bursts of physical damage to Dagran's tank.
@@ -24292,19 +24291,18 @@ $bullet; Once the Avatar of Ragnaros is summoned, the damage to the raid will sp
 30948,Section 12,,2664,10,30737,0,0,2,0,0,463891,0,0,32,-1
 30969,Flame Geyser,,2665,8,30747,30748,0,1,122227,0,0,0,0,0,-1
 30970,Section 12,,2665,12,30750,0,0,2,0,0,463499,0,0,17,-1
-30976,Section 20,,2669,5,0,30977,30979,2,0,0,470203,0,1,16,-1
-30977,Section 21,,2669,6,30976,0,30978,2,0,0,470363,0,0,132,-1
-30978,Section 22,,2669,7,30976,0,0,2,0,0,470207,0,0,33,-1
-30979,Section 18,,2669,8,0,30980,30890,2,0,0,470164,0,0,0,-1
-30980,Section 19,,2669,9,30979,0,0,2,0,0,464379,0,0,0,-1
-30981,Section 23,,2669,12,30896,0,30982,2,0,0,464981,0,0,0,-1
-30982,Section 24,,2669,13,30896,0,30983,2,0,0,464382,0,0,1,-1
-30983,Section 25,,2669,14,30896,0,0,2,0,0,464983,0,0,32,-1
-30984,Section 22,,2669,15,0,30894,30887,2,0,0,464377,0,0,1,-1
-30985,Section 23,,2669,18,30895,0,0,2,0,0,464379,0,0,0,-1
-30986,Section 24,,2669,19,30894,0,0,2,0,0,470330,0,0,4,-1
+30976,Section 20,,2669,5,0,30978,30979,2,0,0,470203,0,1,16,-1
+30978,Section 22,,2669,6,30976,0,0,2,0,0,470207,0,0,33,-1
+30979,Section 18,,2669,7,0,30980,30890,2,0,0,470164,0,0,0,-1
+30980,Section 19,,2669,8,30979,0,0,2,0,0,464379,0,0,0,-1
+30981,Section 23,,2669,11,30896,0,30982,2,0,0,464981,0,0,0,-1
+30982,Section 24,,2669,12,30896,0,30983,2,0,0,464382,0,0,1,-1
+30983,Section 25,,2669,13,30896,0,0,2,0,0,464983,0,0,32,-1
+30984,Section 22,,2669,14,0,30894,30887,2,0,0,464377,0,0,1,-1
+30985,Section 23,,2669,17,30895,0,0,2,0,0,464379,0,0,0,-1
+30986,Section 24,,2669,19,30894,0,0,2,0,0,408509,0,0,32,-1
 30987,Section 26,,2666,17,30757,0,30758,2,0,0,464489,0,0,0,-1
-30988,Section 27,,2666,28,0,0,0,2,0,0,470654,0,2,0,0
+30988,Section 27,,2666,27,0,0,0,2,0,0,470654,0,0,0,-1
 30989,Section 28,,2666,13,30759,0,0,2,0,0,470655,0,0,1,-1
 30990,Section 32,,2670,26,30929,0,30927,2,0,0,470602,0,0,0,-1
 30991,Section 33,,2670,29,30905,0,30992,2,0,0,470609,0,0,16,-1
@@ -24323,3 +24321,4 @@ $bullet; Once the Avatar of Ragnaros is summoned, the damage to the raid will sp
 31045,Section 16,,2663,8,31040,0,0,2,0,0,400279,0,0,192,-1
 31046,Section 17,,2663,13,31041,0,0,2,0,0,400279,0,0,192,-1
 31047,Section 18,,2663,15,31042,0,0,2,0,0,400279,0,0,192,-1
+31073,Section 24,,2669,18,30894,0,30986,2,0,0,470330,0,0,4,-1
