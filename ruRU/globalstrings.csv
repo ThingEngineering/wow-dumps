@@ -2432,7 +2432,7 @@ ID,BaseTag,TagText_lang,Flags
 12391,SLASH_CAST3,/cast,1
 12392,SLASH_CAST4,/spell,1
 12393,EMOTE147_CMD2,/growl,1
-12394,ZONE_UNDER_ATTACK,|cffffff00|3-8(%s) под нападением!|r,1
+12394,ZONE_UNDER_ATTACK,|cffffff00|%s под нападением!|r,1
 12395,SEND_MAIL_COST,Стоимость:,1
 12396,HELP_TEXT_LINE2,- x – чтобы сесть или встать,1
 12397,ERR_CANT_USE_DISARMED,Нельзя использовать обезвреженный предмет.,1
@@ -9014,7 +9014,7 @@ ID,BaseTag,TagText_lang,Flags
 20871,ERR_BN_BROADCAST_THROTTLE,"Пожалуйста, подождите несколько секунд перед тем, как еще раз обновить рассылку.",3
 20872,INTERNAL_STRING_ERROR,Внутренняя ошибка строки: %d,1
 20873,BLOCK_INVITES_TOOLTIP,Удалить приглашение и заблокировать все последующие приглашения от этого игрока.,1
-20875,RID_FRIEND_REQUEST_INFO,"Это человек, которого вы знаете в реальной жизни. Добавив его в список друзей, вы сможете общаться с ним независимо от того, в какую игру вы играете. Если вы примете предложение дружбы, все его друзья смогут увидеть ваше настоящее имя.",1
+20875,RID_FRIEND_REQUEST_INFO,"Это человек, которого вы знаете в реальной жизни. Добавив его в список друзей, вы сможете общаться с ним независимо от того, в какую игру вы играете. Если вы примете предложение дружбы, все его друзья смогут увидеть ваше настоящее имя.",3
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,Вы не дали достаточного количества предметов для применения этого заклинания.,1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,Вы дали слишком много предметов для применения этого заклинания.,1
 20879,BN_BROADCAST_TOOLTIP,Отправить рассылку всем друзьям в сети Blizzard и по BattleTag.,3
@@ -18174,7 +18174,7 @@ ID,BaseTag,TagText_lang,Flags
 41834,ERR_ACCOUNT_SILENCED,Вы заблокированы в чате и не можете этого сделать.,1
 41836,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC_WITH_ROLE,%1$s|t %3$s (|3-8(%2$s)),1
 41837,QUEST_SESSION_HELP_TEXT_WAITING,Ожидание участников группы...,1
-41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
+41838,VISITABLE_URL49,https://worldofwarcraft.com/game/recruit-a-friend,3
 41839,CLUB_FINDER_NEW_APPLICANT_TUTORIAL,"Вы получили новую заявку. Щелкните здесь, чтобы увидеть ее.",1
 41840,CLUB_FINDER_NEW_FEATURE_TUTORIAL,Новый поиск гильдий и сообществ. Щелкните здесь и попробуйте сами!,1
 41841,CLUB_FINDER_TUTORIAL_ROSTER,Заявки можно изучить в разделе списков.|nИщите отметку в видее оранжевого ромба.,1
@@ -19075,7 +19075,7 @@ ID,BaseTag,TagText_lang,Flags
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Приключение ковенанта,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Вы не можете покинуть канал чата: %s,1
 42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к специальным возможностям. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42883,MAC_INPUT_MONITORING1015,"Чтобы включать голосовой чат нажатием клавиши, когда World of Warcraft не является основным приложением, вы должны предоставить программе %s доступ к функциям мониторинга ввода. Они находятся в настройках защиты и безопасности в разделе системных настроек. Открыть системные настройки?",3
 42884,BINDING_NAME_CENTERCAMERA,Удерживание в центре камеры,1
@@ -20107,7 +20107,7 @@ ID,BaseTag,TagText_lang,Flags
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Пригласить в группу для прохождения подземелья,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Предложить игрока для прохождения подземелья,1
 48706,REQUEST_INVITE_CROSS_FACTION,Подать заявку в группу для прохождения подземелья,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.\n\n|cffffffffДля совместной игры доступны:|r\n- подземелья (участие без системы очереди)\n- рейды (участие без системы очереди)\n- рейтинговые PvP-бои\n- Торгаст\n\n|cffffffffДля совместной игры недоступен:|r\n- контент вне помещений",1
+48707,CROSS_FACTION_INVITE_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.\n\n|cffffffffДля совместной игры доступны:|r\n- подземелья (заранее собранные группы)\n- рейды (участие без системы очереди)\n- нерейтинговые и рейтинговые PvP-бои\n- Торгаст\n\n|cffffffffДля совместной игры недоступен:|r\n- контент вне помещений",1
 48708,CROSS_FACTION_INVITE_HELPTIP,Приглашайте друзей из противоположной фракции и вместе проходите контент в специальных областях,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,"Отключите режим синхронизации, чтобы пригласить данного игрока",1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Требуется более высокий силлабический потенциал.,1
@@ -20119,7 +20119,7 @@ ID,BaseTag,TagText_lang,Flags
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Награда за прохождение:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Предыдущий рекорд: %s |cff808080(%d-й сезон),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Вы состоите в межфракционной группе. С участниками группы можно проходить подземелья и рейды (участие без системы очереди), исследовать Торгаст и сражаться в рейтинговых PvP-боях.",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Вы состоите в межфракционной группе. С участниками группы можно проходить подземелья (заранее собранные группы) и рейды (участие без системы очереди), исследовать Торгаст и сражаться в нерейтинговых и рейтинговых PvP-боях.",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Вы не можете передать уникальный для фракции предмет герою другой фракции.,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,"Вы встали в очередь на потасовку ""%s"" в роли ""%s"".",1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,Данное действие недоступно для межфракционных групп,1
@@ -20187,11 +20187,11 @@ ID,BaseTag,TagText_lang,Flags
 48792,ANTIALIASING_CMAA2,CMAA 2,3
 48793,COMMUNITIES_EDIT_DIALOG_CROSS_FACTION,Все фракции,1
 48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,"|cffffd200Предмет категории ""%1$s"".|n|nЕдиновременно можно использовать только один предмет с такой меткой.|r",1
-48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,"Недоступно в межфракционной группе. Вы можете проходить подземелья и рейды с группой, созданной без системы очереди.",1
-48796,CROSS_FACTION_PVP_ERROR,Недоступно в межфракционной группе. Вы можете участвовать в боях на рейтинговых аренах и полях боя.,1
+48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,"Недоступно в межфракционной группе. Вы можете проходить рейды с группой, созданной без системы очереди.",1
+48796,CROSS_FACTION_PVP_ERROR,Недоступно в межфракционной группе.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,%2$S-%3$s %1$d-го уровня (%4$s),1
 48798,ERR_LFG_FARM_LIMIT,"Вы или другой участник группы за последнее время вошли в слишком большое количество подземелий. Пожалуйста, подождите немного, прежде чем пробовать снова.",1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.|n|cffffffffДля совместной игры доступны:|r|n- подземелья (участие без системы очереди)|n- рейды (участие без системы очереди)|n- рейтинговые PvP-бои|n- Торгаст|n|cffffffffДля совместной игры недоступен:|r|n- контент вне помещений",1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.|n|cffffffffДля совместной игры доступны:|r|n- подземелья (заранее собранные группы)|n- рейды (участие без системы очереди)|n- нерейтинговые и рейтинговые PvP-бои|n- Торгаст|n|cffffffffДля совместной игры недоступен:|r|n- контент вне помещений",1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Игрок из фракции %1$s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Игрок из другой фракции. Для совместной игры выберите режим ""Все фракции"" в настройках сообщества.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Позволяет приглашать в группу игроков из другой фракции.,1
@@ -21859,7 +21859,7 @@ ID,BaseTag,TagText_lang,Flags
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,Далее вы сможете персонализировать героя.,2
 51352,PNC_FLOW_FINISH_LABEL,Принять,2
 51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorers' League Supplies (PH UI),1
-51354,SLASH_PING1,/отметка,1
+51354,SLASH_PING1,/ping,1
 51355,SLASH_PING2,/отметка,1
 51356,PNC_CUSTOMIZE_DIALOG_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Когда вы |rпримете изменения|cnHIGHLIGHT_FONT_COLOR:, вернуться к прежнему имени будет нельзя.|r",2
 51357,PNC_FLOW_NEW_NAME_LABEL,Новое имя:,2
@@ -21925,7 +21925,7 @@ ID,BaseTag,TagText_lang,Flags
 51437,PING_SYSTEM_TUTORIAL_MACRO_1,|cnTUTORIAL_BLUE_FONT_COLOR:Создавайте макросы|r с отметками.,1
 51438,PING_SYSTEM_TUTORIAL_MACRO_2,Наберите |cnNORMAL_FONT_COLOR:/макро|r в чате,1
 51439,PING_SYSTEM_TUTORIAL_MACRO_3,Макрос:,1
-51440,PING_SYSTEM_TUTORIAL_MACRO_4,|cnNORMAL_FONT_COLOR:/отм [@цель] Тип отметки,1
+51440,PING_SYSTEM_TUTORIAL_MACRO_4,|cnNORMAL_FONT_COLOR:/отметка [@цель] Тип отметки|r,1
 51441,PING_SYSTEM_TUTORIAL_TOOLTIP,О системе отметок,1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Система отметок,1
 51443,INSPECT_REQUIREMENTS,<Ctrl+щелчок – посмотреть требования>,1
@@ -22041,9 +22041,9 @@ ID,BaseTag,TagText_lang,Flags
 51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Введите название сейфа отряда:,1
 51579,COLOR_PICKER_HEX,HEX-код,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Нельзя назначить главой гильдии игрока из противоположной фракции.,1
-51583,FRONT_END_LOBBY_SOLO,Соло,2
-51584,FRONT_END_LOBBY_DUO,Дуэт,2
-51585,FRONT_END_LOBBY_TRIOS,Трио,2
+51583,FRONT_END_LOBBY_SOLO,Соло,3
+51584,FRONT_END_LOBBY_DUO,Дуэт,3
+51585,FRONT_END_LOBBY_TRIOS,Трио,3
 51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Включить реагенты,1
 51589,ACCOUNT_BANK_LOCKED_PROMPT,Другой участник отряда сейчас использует банк.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Настроить персонажа,3
@@ -22052,7 +22052,7 @@ ID,BaseTag,TagText_lang,Flags
 51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,Сейф недоступен.,1
 51596,BANK_TAB_INVALID_NAME,Некорректное название сейфа.,1
 51597,BANK_TAB_INVALID_TEXT,Некорректное описание сейфа.,1
-51598,FRONT_END_LOBBY_QUEUE_TIME,Время ожидания: %s,2
+51598,FRONT_END_LOBBY_QUEUE_TIME,Время ожидания: %s,3
 51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,"Эту награду может получить только первый персонаж в отряде, который войдет в игру.",1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Визуальные эффекты высшего пилотажа,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Отключение визуальных эффектов экрана поможет избежать укачивания.,1
@@ -22221,8 +22221,8 @@ ID,BaseTag,TagText_lang,Flags
 51806,WOWLABS_FIND_GAME_TRIO,"Поиск игры ""Трио""",3
 51807,WOW_LABS_STAY,Остаться,1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Товарищ по команде все еще может вас оживить.|n|nВы действительно хотите покинуть матч?,1
-51809,FRONT_END_LOBBY_SOLOS,Соло,2
-51810,FRONT_END_LOBBY_DUOS,Дуэты,2
+51809,FRONT_END_LOBBY_SOLOS,Соло,3
+51810,FRONT_END_LOBBY_DUOS,Дуэты,3
 51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
 51812,ACCOUNT_COMPLETED_QUEST_LABEL,Завершено персонажем из отряда,1
 51813,TRIVIAL_QUEST_LABEL,низкий уровень,1
@@ -22249,7 +22249,9 @@ ID,BaseTag,TagText_lang,Flags
 
 |cffffffff3.|r Улучшайте заклинания, собирая их копии.
 
-|cffffffff4.|r Не забывайте использовать исцеляющую способность, если у вашего персонажа мало здоровья.",3
+|cffffffff4.|r Не забывайте использовать исцеляющую способность, если у вашего персонажа мало здоровья.
+
+|cffffffff5.|r Открывайте награды в пиратской лавке, тратя награбленную добычу.",3
 51834,SPELL_FAILED_CUSTOM_ERROR_1029,Требуется навык высшего пилотажа,1
 51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Выполняйте задания и собирайте награбленное, чтобы открывать новые награды у Да'каша Мракочета. Его можно найти в зоне ожидания.|n|n|cff00ff00Награда за %1$d-й уровень:|r",3
@@ -22278,7 +22280,7 @@ ID,BaseTag,TagText_lang,Flags
 51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Избранное,2
 51865,SPELL_FAILED_CUSTOM_ERROR_1009,Вы уже подготовили немного мульчи. Сначала используйте ее.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Всего награбленного:,3
-51867,LIMITED_TIME_EVENT,ВРЕМЕННОЕ|nСОБЫТИЕ,3
+51867,LIMITED_TIME_EVENT,ВРЕМЕННОЕ СОБЫТИЕ,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Пиратская буря,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Взаимодействие,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,Нельзя сменить восстанавливающееся заклинание в ходе боя.,1
@@ -22432,7 +22434,7 @@ ID,BaseTag,TagText_lang,Flags
 52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Недостаточно валюты (%s),1
 52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,"Направить %d ед. концентрации на этот рецепт, чтобы в следующий раз гарантированно создать предмет с высоким уровнем качества.",1
 52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,"Убрать %d ед. концентрации, направленных на этот рецепт.",1
-52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Концентрацию можно использовать, чтобы гарантированно создавать предметы более высокого качества. Концентрация медленно восстанавливается сама по себе, а также частично возвращается при срабатывании эффекта изобретательности.",1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Концентрацию можно использовать, чтобы гарантированно создавать предметы более высокого качества. Вы восстанавливаете по 250 ед. концентрации в сутки, а также она частично возвращается при срабатывании эффекта изобретательности.",1
 52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Достигнут максимальный уровень концентрации.,1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Можно использовать только в бою.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,Ваш уровень недостаточно высок для участия в вылазке.,1
@@ -22583,7 +22585,7 @@ ID,BaseTag,TagText_lang,Flags
 52250,20th_ANNIVERSARY_THEME_07_05,Тема: призрачная гала,1
 52251,20th_ANNIVERSARY_THEME_08_01,Тема: одеваемся в полет,1
 52252,20th_ANNIVERSARY_THEME_08_02,Тема: ансамбль Аспектов,1
-52253,20th_ANNIVERSARY_THEME_08_03,"""Тема: """"Да, шеф!""""""",1
+52253,20th_ANNIVERSARY_THEME_08_03,"Тема: ""Да, шеф!""",1
 52254,20th_ANNIVERSARY_THEME_08_04,Тема: охотничий стиль,1
 52255,20th_ANNIVERSARY_THEME_08_05,Тема: великое цветение,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Для этого достижения засчитывается прогресс всех персонажей.,1
@@ -22611,6 +22613,7 @@ ID,BaseTag,TagText_lang,Flags
 52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,Эту валюту нельзя передавать между участниками отряда.,1
 52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,У вашего отряда недостаточно этого типа валюты для передачи.,1
 52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,"Произошла ошибка. Пожалуйста, повторите попытку.",1
+52284,SPELL_FAILED_CUSTOM_ERROR_1052,У вас нет ядер из черной стали.,1
 52285,RPE_GEAR_UPDATE_CHARACTER,Персонаж:,2
 52286,RPE_GEAR_UPDATE_SELECT_SPEC,Выберите специализацию:,2
 52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,Ваш выбор повлияет на всех персонажей в отряде.|n|n|cffffd200Продолжить?|r,1
@@ -22748,6 +22751,7 @@ ID,BaseTag,TagText_lang,Flags
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Показывать задания низкого уровня,1
 52435,QUEST_SETTINGS_LABEL,Задания,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,Вы не можете перемещать предметы из банка отряда в Хранилище Бездны.,1
+52437,11_0_7_kirintor_bomb,Перенастроить матрицу мана-бомбы,1
 52438,WOW_ERROR_500,"Конвертация данных для вашего отряда не удалась. Пожалуйста, заново войдите в свою учетную запись, чтобы попробовать снова.",2
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Нельзя назначить главой гильдии игрока из другого игрового мира.,1
 52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Награды:,1
@@ -22774,26 +22778,125 @@ ID,BaseTag,TagText_lang,Flags
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Земельники не могут употреблять обычную еду и напитки.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,Данный уровень не открыт у игрока %s,1
 52464,SPELL_FAILED_CUSTOM_ERROR_1054,Это нельзя использовать здесь.,1
+52466,POWER_SHREDDER_FUEL,Топливо для крошшера,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Для изменения этих настроек перейдите на страницу параметров вашей учетной записи Battle.net и убедитесь, что: \nВ разделе ""Конфиденциальность"" включен текстовый чат.\nВ разделе ""Родительский контроль"" отключена функция ""Заблокировать чат учетной записи"".",1
+52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Заменить,1
+52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Взять,1
+52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Назначить сюда: [%s],1
 52477,ERR_WARBAND_HEARTHSTONE,Вы еще не можете использовать этот предмет.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,"Вы собираетесь положить в банк предметы, за которые можно вернуть средства.|n|n|cnRED_FONT_COLOR:После этого вы не сможете вернуть средства за предметы, привязанные к отряду.|r|n|nПродолжить?",1
 52479,SPELL_FAILED_HEARTHSTONE,Вы еще не можете использовать этот предмет.,1
 52480,SPELL_FAILED_CUSTOM_ERROR_1056,Вы еще не можете использовать этот предмет.,1
-52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Больше не показывать,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Больше не показывать,3
 52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Макс.,1
 52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,Этот персонаж уже совершает обмен.,1
-52485,TOGGLE_VISIBILITY_TOOLTIP,Настройка отображения интерфейса пользователя,2
+52485,TOGGLE_VISIBILITY_TOOLTIP,Отображение интерфейса пользователя,2
+52486,ERR_SOCKETING_REQUIRES_SINGING_THUNDER_GEM,В это гнездо можно вставить только поющий громовой самоцвет.,1
+52487,ERR_SOCKETING_REQUIRES_SINGING_SEA_GEM,В это гнездо можно вставить только поющий морской самоцвет.,1
+52488,ERR_SOCKETING_REQUIRES_SINGING_WIND_GEM,В это гнездо можно вставить только поющий ветряной самоцвет.,1
+52489,ERR_SOCKETING_SINGINGTHUNDER_GEM_ONLY_IN_SINGINGTHUNDERSLOT,Поющие громовые самоцветы можно вставлять только в подходящие гнезда.,1
+52490,ERR_SOCKETING_SINGINGSEA_GEM_ONLY_IN_SINGINGSEASLOT,Поющие морские самоцветы можно вставлять только в подходящие гнезда.,1
+52491,ERR_SOCKETING_SINGINGWIND_GEM_ONLY_IN_SINGINGWINDSLOT,Поющие ветряные самоцветы можно вставлять только в подходящие гнезда.,1
 52501,ERR_GUILD_BANK_REALM_MISMATCH,"Вы не можете складывать, забирать и объединять связки предметов из разных других игровых миров.",1
 52503,MAP_TOOLTIP_TIME_LEFT,Осталось: %s,1
 52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,"<Щелкните, удерживая Shift, чтобы прекратить отслеживать>",1
 52517,SPELL_FAILED_CUSTOM_ERROR_1057,"Чтобы зажечь огонь в жаровне Тенегорна, требуется факел Тенегорна.",1
 52518,SPELL_FAILED_CUSTOM_ERROR_1058,В этой жаровне Тенегорна уже горит огонь.,1
 52539,CHARACTER_SELECT_LEVEL_TOOLTIP,%d-го уровня,2
+52545,EMPTY_SOCKET_SINGINGTHUNDER,Гнездо поющего грома,1
+52546,EMPTY_SOCKET_SINGINGSEA,Гнездо поющего моря,1
+52547,EMPTY_SOCKET_SINGINGWIND,Гнездо поющего ветра,1
+52550,NAVIGATION_DESTINATION_REACHED_MESSAGE,Пункт назначения достигнут,1
+52551,WOW_LABS_MATCH_DETAILS_STANDING,Стойка,1
+52552,WOW_LABS_MATCH_DETAILS_KILLS,Побед,1
+52553,WOW_LABS_MATCH_DETAILS_TOTAL_PLUNDER,Всего добычи,1
+52554,WOW_LABS_RETURN_TO_MATCH_DETAILS,К характеристикам,1
+52555,WOW_LABS_MATCH_COMPLETE,МАТЧ ЗАВЕРШЕН,1
+52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,"Сыграйте еще, чтобы накопить больше добычи!",1
+52557,WOW_LABS_GO_AGAIN,Попробуйте еще раз!,1
+52558,WOW_LABS_ACCOUNT_STORE,Пиратская лавка,1
+52572,DELVES_SEASON_PROGRESS,Сезонный прогресс: |cffffd200%s/%s|r,1
+52573,DELVES_SEASON_REWARD_PROGRESS,До следующей награды: |cffffd200%s|r,1
+52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Диверсия,5
+52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,"+%u |4новый игрок:новых игрока:новых игроков; за последние %u мин.! Если у вас есть какие-нибудь вопросы, задавайте.",1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,"Достигните 10-го уровня, чтобы открыть эту расу.",2
 52605,PLAYER_DIFFICULTY_STORY_RAID,Режим истории,1
+52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,Улучшение,1
 52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,"Чтобы получить эту награду, победите %d |4босса:боссов:боссов; в рейде ""%s"" на этой неделе.|n|nУровень предметов будет соответствовать сложности рейда.",1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,"Чтобы получить эту награду, победите еще %d |4босса:боссов:боссов; на этой неделе.|n|nУровень предметов будет соответствовать сложности рейда.",1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,Только %s,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,Доступно всему отряду,1
 52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,"Валюта, которая есть у остальных представителей вашего отряда.",1
+52612,WOW_LABS_REQUEUE,Попробуйте еще раз!,1
+52613,TRAINING_LOBBY_QUEUE_TITLE,Присоединиться к матчу,1
+52614,WOW_LABS_QUEUE_SELECT,Выбор очереди,1
+52615,FRONT_END_LOBBY_PRACTICE,Тренировка,3
+52616,PLUNDERSTORM_PLUNDER_STORE_TITLE,Пиратская лавка,3
+52617,PLUNDERSTORE_PURCHASE_CONFIRMATION_FORMAT,"Вы хотите приобрести товар ""%s"" за %s?",3
+52618,PLUNDERSTORE_REFUND_BUTTON_TEXT,Вернуть,3
+52619,PLUNDERSTORE_REFUNDABLE_TOOLTIP,"Щелкните, чтобы вернуть",3
+52620,PLUNDERSTORE_ALREADY_OWNED_TOOLTIP,Уже имеется,3
+52621,PLUNDERSTORE_INSUFFICIENT_FUNDS_TOOLTIP,"Соберите больше награбленного, чтобы приобрести",3
+52622,PERKS_PROGRAM_SALE_PERCENT,-%d%%,1
+52637,FPS_COUNTER_GPU_BOUND,%.1f Предел возможностей видеокарты,1
+52638,FPS_COUNTER_CPU_BOUND,%.1f Предел возможностей ЦП,1
+52640,WOW_LABS_START_QUEUE,Начать поиск,1
+52641,ERR_ACCOUNT_MONEY_LOCKED,Сейчас вы не можете забрать или положить золото в банк отряда. Повторите попытку позже.,1
+52642,PING_TYPE_THREAT,Угроза,1
+52643,PING_TYPE_NOT_THREAT,Внимание,1
+52652,CHAT_TAB_RIGHT_CLICK,"<Щелкните ПКМ, чтобы показать настройки вкладок>",1
+52653,CHAT_TAB_NAME,Вкладка %s,1
+52654,UNIT_POPUP_RIGHT_CLICK,"<Щелкните ПКМ, чтобы показать настройки рамок>",1
+52656,PROFESSIONS_BLACKSMITHING_DRAGONFLIGHT_HAMMER_REPAIR,Молот мастера можно использовать для починки предметов только из дополнения Dragonflight.,1
+52661,ACCOUNT_STORE_REFUND_TEXT_FORMAT,Оставшееся время на возврат: |cffffffff%s|r,3
+52662,ACCOUNT_STORE_REFUND_CONFIRMATION_FORMAT,"Вы хотите вернуть товар ""%s"" за %s?",3
+52667,PLUNDER_DISPLAY_LABEL,Награбленное,3
+52668,WOWLABS_MODE_NAV_BUTTON,РЕЖИМ,2
+52669,WOWLABS_NO_GAME_MODES_FOUND,Новые режимы игры – уже скоро!,2
+52670,WOWLABS_PLUNDERSTORE_NAV_LABEL,ПИРАТСКАЯ ЛАВКА,2
+52691,ACCOUNT_STORE_PAGE_WIDGET_FORMAT,Стр. %d/%d,3
+52695,WOW_LABS_MATCH_WON,ПОБЕДА!,1
+52696,WOW_LABS_MATCH_LOST,%d-Е МЕСТО,1
+52699,ACCOUNT_STORE_NONREFUNDABLE_TOOLTIP,Этот предмет не подлежит возврату.,3
+52710,WOW_LABS_PLUNDER_HEADER,Награбленное,1
+52711,WOW_LABS_PLUNDER_LFG_DESC,Собирайте награбленное и заглядывайте в пиратскую лавку за новыми наградами!,1
+52712,WOW_LABS_PLUNDERSTORM_CATEGORY,Пиратская буря,1
+52716,CROSS_FACTION_RAID_DUNGEON_FINDER_NOT_ENOUGH_MEMBERS_ERROR,"Недостаточно участников, чтобы встать в очередь с межфракционной группой.",1
+52717,MAJOR_FACTION_BUTTON_TOOLTIP_OPEN_MAP,<ПКМ для перехода к карте>,1
+52720,ERR_PLUNDERSTORM_CANNOT_QUEUE,"Сейчас вы не можете встать в очередь на ""Пиратскую бурю"".",1
+52721,ERR_QUEUED_PLUNDERSTORM,"Вы встали в очередь на ""Пиратскую бурю"".",1
+52722,PLUNDERSTORM_QUEUE_TOOLTIP_ERROR,"Вы не можете встать в очередь на ""Пиратскую бурю"", пока находитесь в другой очереди.",1
+52723,PLUNDERSTORM_LOGOUT_TEXT,"%d сек. до выхода из игры и перехода в ""Пиратскую бурю""",1
+52724,CONQUEST_BRACKET_NAME_2V2,Арена 2 на 2,1
+52725,CONQUEST_BRACKET_NAME_3V3,Арена 3 на 3,1
+52726,CONQUEST_BRACKET_NAME_RBG,Рейтинговые поля боя,1
+52727,CONQUEST_BRACKET_NAME_SOLO_SHUFFLE,"Рейтинговая ""Соло-суматоха""",1
+52728,CONQUEST_BRACKET_NAME_BATTLEGROUND_BLITZ,Рейтинговый блиц по полям боя,1
+52729,PLUNDERSTORM_CUSTOMIZE_BUTTON_TOOLTIP,Поставить точку маршрута к Да'кашу Мракочету для изменения внешнего вида,1
+52740,WOW_LABS_JOIN_QUEUE,Встать в очередь,1
+52741,WOW_LABS_LEAVE_QUEUE,Выйти из очереди,1
+52743,TUTORIAL_SUPERTRACK_STEP_1,"Щелкните по значку задания, чтобы его закрепить",1
+52744,ERR_WOW_LABS_SET_WOW_LABS_AREA_ID_FAILED,Не удалось выбрать область.,1
 52753,SPELL_FAILED_CUSTOM_ERROR_1059,Полные сумки,1
+52758,WOWLABS_AREA_MAP_AUTO_SELECT,Автовыбор,1
+52759,WOWLABS_AREA_MAP_CONFIRM_SELECTION,Подтвердить выбор,1
+52765,PLUNDERSTORM_DROP_MAP_BUTTON_TOOLTIP,Выберите начальную область,1
+52766,PLUNDERSTORM_DROP_MAP_BUTTON_DISABLED_TOOLTIP,Лидер группы выбирает начальную область,1
+52767,ACCOUNT_STORE_CURRENCY_MAX_TOOLTIP_FORMAT,"Достигнут лимит валюты ""%s""",3
+52768,ACCOUNT_STORE_CURRENCY_APPROACHING_MAX_TOOLTIP_FORMAT,"Лимит валюты ""%s"" почти достигнут",3
+52769,ACCOUNT_STORE_CURRENCY_TOTAL_TOOLTIP_FORMAT,%s / %s,3
+52770,LIFETIME_PLUNDER_TOOLTIP_FORMAT,Всего: %s,3
+52773,ERR_LFG_NO_CROSS_FACTION_PARTIES_MULTIPLE,Один или несколько выбранных сценариев недоступны для межфракционных групп.,1
+52778,BINDING_NAME_WOWLABS_SWAP_UTLITIES,Порядок вспомогательных заклинаний,1
+52779,BINDING_NAME_WOWLABS_SWAP_OFFENSIVES,Порядок атакующих заклинаний,1
+52780,WOW_LABS_PLUNDERSTORM_FORMED,Найдено лобби:,1
+52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,"Вы не можете встать в очередь на другой контент, пока состоите в очереди на ""Пиратскую бурю"".",1
+52791,SPELL_CURIO,Диковинка,1
+52794,WOW_ERROR_501,При восстановлении персонажа произошла ошибка. Зайдите в игру повторно и попробуйте еще раз.,2
+52858,ACCOUNT_STORE_UNAVAILABLE,Временно недоступно. Повторите попытку позже.,3
+52859,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT,- Уничтожьте цель: %s,1
+52860,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT_SHOW_HEALTH,- Уничтожьте цель: %s (%s здоровья),1
+52861,VIGNETTE_SUGGESTED_GROUP_NUM_RANGE,Рекомендуется игроков [%d-%d],1
+52864,VIGNETTE_SUGGESTED_GROUP_NUM,Рекомендуется игроков [%d],1
+52876,ERR_LFG_LOREWALKING,"Путешествие по истории продолжится, когда вы покинете зону этого сценария.",1
+52969,TW_FRAUD_WARNING_TEXT,System message,2

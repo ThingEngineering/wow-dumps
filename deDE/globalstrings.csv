@@ -359,8 +359,8 @@ ID,BaseTag,TagText_lang,Flags
 9998,SLASH_GUILD_LEADER1,/gmeister,1
 9999,SLASH_GUILD_LEAVE1,/gverlassen,1
 10000,SLASH_GUILD_LEAVE2,/gildeverlassen,1
-10001,SLASH_GUILD_MOTD1,/gmotd,1
-10002,SLASH_GUILD_MOTD2,/guildmotd,1
+10001,SLASH_GUILD_MOTD1,/gndt,1
+10002,SLASH_GUILD_MOTD2,/gildenndt,1
 10003,SLASH_HELP1,/h,1
 10004,SLASH_HELP2,/Hilfe,1
 10005,SLASH_HELP3,/?,1
@@ -483,7 +483,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 10141,GUILD_HELP_TEXT_LINE1,"Um eine Gilde zu erstellen, gebt Ihr im Interface 'guildcreate <Gildenname>' ein.",1
 10142,GUILD_HELP_TEXT_LINE4,'/o <Nachricht>' schickt eine Chatnachricht an alle Offiziere in Eurer Gilde.,1
 10143,GUILD_HELP_TEXT_LINE5,'/ginvite <Spieler>' lädt einen anderen Spieler in Eure Gilde ein.,1
-10144,GUILD_HELP_TEXT_LINE9,'/gmotd <Nachricht>' legt die Gildennachricht des Tages fest.,1
+10144,GUILD_HELP_TEXT_LINE9,'/gndt <Nachricht>' legt die Gildennachricht des Tages fest.,1
 10145,SPELL_FAILED_UNKNOWN,Unbekannter Grund,1
 10146,SPELL_FAILED_ERROR,Interner Fehler,1
 10147,SPELL_FAILED_BAD_TARGETS,Ungültiges Ziel,1
@@ -1556,7 +1556,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 11406,TRAINER_COST_TP,|cffffffff%d|r Talente,1
 11407,LOOT_FREE_FOR_ALL,Plündern: Jeder gegen Jeden,1
 11408,CHAT_GUILD_GET,|Hchannel:GUILD|h[Gilde]|h %s:\32,1
-11409,CHAT_GUILD_MOTD_SEND,Gilden-MOTD:,1
+11409,CHAT_GUILD_MOTD_SEND,Gilden-NDT:,1
 11410,CHAT_CHANNEL_JOIN_GET,%s ist dem Channel beigetreten.,1
 11412,SLASH_JOIN4,/beitreten,1
 11413,SLASH_LEAVE4,/verlassen,1
@@ -1880,7 +1880,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 11756,GUILDCONTROL_OPTION4,Offizierchat spr.,1
 11757,GUILDCONTROL_OPTION6,Rückstufen,1
 11758,GUILDCONTROL_OPTION8,Mitglied entfernen,1
-11759,GUILDCONTROL_OPTION9,MOTD einstellen,1
+11759,GUILDCONTROL_OPTION9,NDT einstellen,1
 11760,GUILDCONTROL_OPTION11,Offiziersnotiz ans.,1
 11761,GUILDCONTROL_ALLOWRANK,Dieser Rang darf:,1
 11762,GUILDCONTROL_RANKLABEL,Rang:,1
@@ -1906,7 +1906,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 11784,SLASH_CHAT_HELP4,/chat,1
 11785,SLASH_JOIN5,/beitreten,1
 11786,SLASH_GUILD_PROMOTE3,/gpromote,1
-11787,SLASH_GUILD_MOTD3,/gmotd,1
+11787,SLASH_GUILD_MOTD3,/gndt,1
 11788,SLASH_GUILD_LEAVE3,/gquit,1
 11789,ITEM_SUFFIX_TEMPLATE,%1$s %2$s,5
 11790,CONFIRM_XP_LOSS,"Wenn Ihr Euren Leichnam findet, könnt Ihr ohne Abzug wiederauferstehen. Wenn ich Euch wiederbelebe, müsst Ihr einen Haltbarkeitsschaden von 50%% an all Euren Gegenständen (angelegte und im Inventar) in Kauf nehmen und Ihr werdet %s lang an |cff71d5ff|Hspell:15007|h[Wiederbelebungsnachwirkungen]|h|r leiden.",1
@@ -2525,7 +2525,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 12495,SLASH_GUILD_DISBAND4,/guilddisband,1
 12496,SLASH_GUILD_LEADER4,/Gildenmeister,1
 12497,SLASH_GUILD_LEAVE4,/guildquit,1
-12498,SLASH_GUILD_MOTD4,/Gildenmotd,1
+12498,SLASH_GUILD_MOTD4,/Gildenndt,1
 12499,SLASH_HELP6,/help,1
 12500,SLASH_INSPECT3,/ins,1
 12501,SLASH_INSPECT4,/inspect,1
@@ -9015,7 +9015,7 @@ anzeigen",1
 20871,ERR_BN_BROADCAST_THROTTLE,"Bitte warten Sie einige Sekunden, bevor Sie Ihre Statusnachricht erneut aktualisieren.",3
 20872,INTERNAL_STRING_ERROR,Interner String-Fehler %d,1
 20873,BLOCK_INVITES_TOOLTIP,Diese Einladung entfernen und alle weiteren Einladungen dieses Spielers blockieren.,1
-20875,RID_FRIEND_REQUEST_INFO,"Das sollte jemand sein, den Sie außerhalb des Spiels gut kennen und dem Sie vertrauen. Sie werden mit dieser Person in jedem Blizzard-Spiel chatten können. Sobald Sie akzeptieren, können alle Freunde dieser Person Ihren echten Namen sehen.",1
+20875,RID_FRIEND_REQUEST_INFO,"Das sollte jemand sein, den Sie außerhalb des Spiels gut kennen und dem Sie vertrauen. Sie werden mit dieser Person in jedem Blizzard-Spiel chatten können. Sobald Sie akzeptieren, können alle Freunde dieser Person Ihren echten Namen sehen.",3
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,"Ihr habt nicht genügend Gegenstände bereitgestellt, um diesen Zauber zu wirken.",1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,"Ihr habt zu viele Gegenstände bereitgestellt, um diesen Zauber zu wirken.",1
 20879,BN_BROADCAST_TOOLTIP,Sendet eine Statusnachricht an Freunde und BattleTag-Freunde.,3
@@ -18179,7 +18179,7 @@ Abenteuerführer ausblenden",1
 41834,ERR_ACCOUNT_SILENCED,"Unmöglich, während Ihrem Account die Sprachrechte entzogen wurden",1
 41836,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC_WITH_ROLE,%1$s|t %3$s (%2$s),1
 41837,QUEST_SESSION_HELP_TEXT_WAITING,Warte auf Gruppenmitglieder...,1
-41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
+41838,VISITABLE_URL49,https://worldofwarcraft.com/game/recruit-a-friend,3
 41839,CLUB_FINDER_NEW_APPLICANT_TUTORIAL,"Ihr habt einen neuen Bewerber. Klickt hier, um Details zu erfahren.",1
 41840,CLUB_FINDER_NEW_FEATURE_TUTORIAL,Neuer Gilden- und Communitybrowser. Hier klicken und ausprobieren!,1
 41841,CLUB_FINDER_TUTORIAL_ROSTER,Bewerber können in der Mitgliederübersicht angesehen werden.|nHaltet nach dem orangefarbenen Diamanten Ausschau.,1
@@ -19080,7 +19080,7 @@ Abenteuerführer ausblenden",1
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Paktabenteuer,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Manuelles Verlassen dieses Chat-Channels nicht möglich: %s,1
 42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Um Push-to-Talk nutzen zu können, wenn World of Warcraft nicht im Vordergrund ist, müssen Sie %s Zugriff auf ""Bedienungshilfen"" in den Sicherheitsoptionen gewähren, die Sie in den Systemeinstellungen finden. Möchten Sie die Systemeinstellungen jetzt öffnen?",3
 42883,MAC_INPUT_MONITORING1015,"Um Push-to-Talk nutzen zu können, wenn World of Warcraft nicht im Vordergrund ist, müssen Sie %s Zugriff auf ""Input-Monitoring"" in den Sicherheitsoptionen gewähren, die Sie in den Systemeinstellungen finden. Möchten Sie die Systemeinstellungen jetzt öffnen?",3
 42884,BINDING_NAME_CENTERCAMERA,Kamera zentrieren,1
@@ -20112,7 +20112,7 @@ Abenteuerführer ausblenden",1
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Zu Instanzgruppe einladen,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Einladung zu Instanzgruppe vorschlagen,1
 48706,REQUEST_INVITE_CROSS_FACTION,Einladung zu Instanzgruppe erbitten,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,Ihr könnt Euch mit diesem Spieler der %s zu einer Gruppe zusammenschließen und viele instanziierte Aktivitäten gemeinsam spielen.\n\n|cffffffffMöglich:|r\n- Dungeons (nicht über Warteschlange)\n- Schlachtzüge (nicht über Warteschlange)\n- Gewertetes PvP\n- Torghast\n\n|cffffffffNicht möglich:|r\n- Nicht instanziierte Inhalte,1
+48707,CROSS_FACTION_INVITE_TOOLTIP,Ihr könnt Euch mit diesem Spieler der %s zu einer Gruppe zusammenschließen und viele instanziierte Aktivitäten gemeinsam spielen.\n\n|cffffffffMöglich:|r\n- Dungeons (organisierte Gruppen)\n- Schlachtzüge (nicht über Warteschlange)\n- Gewertetes und nicht gewertetes PvP\n- Torghast\n\n|cffffffffNicht möglich:|r\n- Nicht instanziierte Inhalte,1
 48708,CROSS_FACTION_INVITE_HELPTIP,"Ihr könnt Freunde, die der gegnerischen Fraktion angehören, zu instanziierten Inhalten einladen",3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,"Deaktiviert die Gruppensynchronisierung, um diesen Spieler einzuladen",1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Benötigt weitere Silbenerinnerungen.,1
@@ -20124,7 +20124,7 @@ Abenteuerführer ausblenden",1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Diese Questreihe schaltet Folgendes frei:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Letzte Bestleistung: %s |cff808080(Saison %d),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Dies ist nun eine fraktionsübergreifende Instanzgruppe. Ihr könnt folgende Aktivitäten gemeinsam spielen: Dungeons und Schlachtzüge (nicht über die Warteschlange), Torghast, gewertetes PvP",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Dies ist nun eine fraktionsübergreifende Instanzgruppe. Ihr könnt folgende Aktivitäten gemeinsam spielen: Dungeons (organisierte Gruppen), Schlachtzüge (nicht über die Warteschlange), Torghast, gewertetes und nicht gewertetes PvP",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Ihr könnt fraktionsspezifische Gegenstände nicht mit der gegnerischen Fraktion tauschen,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,Ihr seid der Warteschlange für %s als %s beigetreten.,1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,In fraktionsübergreifenden Gruppen nicht möglich,1
@@ -20193,11 +20193,11 @@ Abenteuerführer ausblenden",1
 48793,COMMUNITIES_EDIT_DIALOG_CROSS_FACTION,"Fraktions-
 übergreifend",1
 48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,"|cffffd200Dieser Gegenstand ist ""%s"".|n|nIhr könnt nur einen Gegenstand dieser Art gleichzeitig ausrüsten.|r",1
-48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Das ist in einer fraktionsübergreifenden Gruppe nicht möglich. Ihr könnt Dungeons und Schlachtzüge ohne Warteschlange spielen.,1
-48796,CROSS_FACTION_PVP_ERROR,Das ist in einer fraktionsübergreifenden Gruppe nicht möglich. Ihr könnt gewertete Arenas und Schlachtfelder spielen.,1
+48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Das ist in einer fraktionsübergreifenden Gruppe nicht möglich. Ihr könnt Dungeons ohne Warteschlange spielen.,1
+48796,CROSS_FACTION_PVP_ERROR,Das ist in einer fraktionsübergreifenden Gruppe nicht möglich.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,"Stufe %d - %s, %s (%s)",1
 48798,ERR_LFG_FARM_LIMIT,Ihr oder jemand in Eurer Gruppe hat in letzter Zeit zu viele Instanzen betreten. Bitte wartet eine Weile und versucht es erneut.,1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Ihr könnt Euch mit diesem Spieler der %s zu einer Gruppe zusammenschließen und viele instanziierte Aktivitäten gemeinsam spielen.|n|cffffffffMöglich:|r|n- Dungeons (nicht über Warteschlange)|n- Schlachtzüge (nicht über Warteschlange)|n- Gewertetes PvP|n- Torghast|n|cffffffffNicht möglich:|r|n- Nicht instanziierte Inhalte,1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Ihr könnt Euch mit diesem Spieler der %s zu einer Gruppe zusammenschließen und viele instanziierte Aktivitäten gemeinsam spielen.|n|cffffffffMöglich:|r|n- Dungeons (organisierte Gruppen)|n- Schlachtzüge (nicht über Warteschlange)|n- Gewertetes und nicht gewertetes PvP|n- Torghast|n|cffffffffNicht möglich:|r|n- Nicht instanziierte Inhalte,1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Spieler der %s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Spieler gehört zur falschen Fraktion. Aktiviert ""Fraktionsübergreifend"" in den Communityeinstellungen.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,"Ermöglicht Euch, Mitglieder der gegnerischen Fraktion einzuladen.",1
@@ -22050,9 +22050,9 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Namen für Kriegsmeutenbankfach eingeben:,1
 51579,COLOR_PICKER_HEX,Hex,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Spielercharaktere der gegnerischen Fraktion können nicht zum Gildenmeister befördert werden.,1
-51583,FRONT_END_LOBBY_SOLO,Solo,2
-51584,FRONT_END_LOBBY_DUO,Duo,2
-51585,FRONT_END_LOBBY_TRIOS,Trios,2
+51583,FRONT_END_LOBBY_SOLO,Solo,3
+51584,FRONT_END_LOBBY_DUO,Duo,3
+51585,FRONT_END_LOBBY_TRIOS,Trios,3
 51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Handelbare Reagenzien einbeziehen,1
 51589,ACCOUNT_BANK_LOCKED_PROMPT,Ein anderes Mitglied der Kriegsmeute greift bereits auf die Bank zu.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Charakter anpassen,3
@@ -22061,7 +22061,7 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,Das Bankfach ist gesperrt.,1
 51596,BANK_TAB_INVALID_NAME,Der Name für das Bankfach ist ungültig.,1
 51597,BANK_TAB_INVALID_TEXT,Die Beschreibung für das Bankfach ist ungültig.,1
-51598,FRONT_END_LOBBY_QUEUE_TIME,Zeit in Warteschlange: %s,2
+51598,FRONT_END_LOBBY_QUEUE_TIME,Zeit in Warteschlange: %s,3
 51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,"Diese Belohnung kann nur mit dem ersten Charakter der Kriegsmeute eingesammelt werden, der angemeldet wird.",1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Bildschirmeffekte beim Himmelsreiten,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Das Deaktivieren von Bildschirmeffekten kann gegen Bewegungskrankheit helfen.,1
@@ -22230,8 +22230,8 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51806,WOWLABS_FIND_GAME_TRIO,Triospiel finden,3
 51807,WOW_LABS_STAY,Bleiben,1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,"Ihr könnt immer noch von einem Teammitglied wiederbelebt werden.|n|nSeid Ihr sicher, dass Ihr die Partie verlassen möchtet?",1
-51809,FRONT_END_LOBBY_SOLOS,Solos,2
-51810,FRONT_END_LOBBY_DUOS,Duos,2
+51809,FRONT_END_LOBBY_SOLOS,Solos,3
+51810,FRONT_END_LOBBY_DUOS,Duos,3
 51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
 51812,ACCOUNT_COMPLETED_QUEST_LABEL,Kriegsmeute vervollständigt,1
 51813,TRIVIAL_QUEST_LABEL,niedrigstufig,1
@@ -22251,14 +22251,16 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51829,STABLE_PET_SPEC_CUNNING,Gerissenheit,1
 51830,STABLE_PET_SPEC_FEROCITY,Wildheit,1
 51831,STABLE_PET_SPEC_TENACITY,Hartnäckigkeit,1
-51832,WOWLABS_GAME_BASICS_TITLE,Grundlagen von Plunderstorm,3
+51832,WOWLABS_GAME_BASICS_TITLE,Grundlagen,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Wer am Ende noch steht, gewinnt.
 
 |cffffffff2.|r Durch das Töten von Kreaturen und Gegnern können Stufen erklommen und Zauber erhalten werden.
 
 |cffffffff3.|r Das Plündern weiterer Kopien eines Zaubers lässt diesen besser werden.
 
-|cffffffff4.|r Nutzt bei niedriger Gesundheit Eure Heilungsfähigkeit.",3
+|cffffffff4.|r Nutzt bei niedriger Gesundheit Eure Heilungsfähigkeit.
+
+|cffffffff5.|r Mit Beute lassen sich im Beuteladen Belohnungen freischalten.",3
 51834,SPELL_FAILED_CUSTOM_ERROR_1029,Benötigt 'Himmelsreiten',1
 51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,"Schließt Quests ab und sammelt Beute, um Belohnungen freizuschalten. Besucht Da'kash Grimjoch im Wartebereich.|n|n|cff00ff00Nächste Belohnung bei Stufe %d:|r",3
@@ -22287,7 +22289,7 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Favoriten,2
 51865,SPELL_FAILED_CUSTOM_ERROR_1009,Ihr habt bereits etwas Mulch vorbereitet. Verwendet Euren aktuellen Mulch zuerst.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Gesamtbeute gesammelt,3
-51867,LIMITED_TIME_EVENT,ZEITLICH BEGRENZTES|nEREIGNIS,3
+51867,LIMITED_TIME_EVENT,ZEITLICH BEGRENZTES EREIGNIS,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interagieren,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,"Ihr könnt im Kampf keine Zauber austauschen, deren Abklingzeit aktiv ist.",1
@@ -22441,7 +22443,7 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Nicht genügend %s,1
 52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,"Wendet %d Konzentration an, um die nächsthöhere Qualität für dieses Rezept zu garantieren.",1
 52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Entfernt %d Konzentration von diesem Rezept.,1
-52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Konzentration kann eingesetzt werden, um bei der Herstellung eine höhere Qualität zu gewährleisten. Konzentration regeneriert sich langsam und wird teilweise erstattet, wenn bei der Herstellung Genialität ausgelöst wird.",1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Konzentration kann eingesetzt werden, um bei der Herstellung eine höhere Qualität zu gewährleisten. Konzentration regeneriert sich im Verlauf jedes Tages um 250 Punkte und wird teilweise erstattet, wenn bei der Herstellung Genialität ausgelöst wird.",1
 52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Konzentration ist voll.,1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Kann nur im Kampf benutzt werden.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,"Eure Stufe ist nicht hoch genug, um eine Tiefe zu betreten.",1
@@ -22620,6 +22622,7 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,Diese Währung lässt sich nicht innerhalb der Kriegsmeute überweisen.,1
 52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,"Eure Kriegsmeute hat nicht genug von dieser Währung, um sie Euch zu überweisen.",1
 52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,Es ist ein Fehler aufgetreten. Bitte versucht es noch einmal.,1
+52284,SPELL_FAILED_CUSTOM_ERROR_1052,Ihr habt keine Schwarzstahlkanonenkugeln.,1
 52285,RPE_GEAR_UPDATE_CHARACTER,Charakter:,2
 52286,RPE_GEAR_UPDATE_SELECT_SPEC,Spezialisierung wählen:,2
 52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,Diese Entscheidung wirkt sich auf alle Charaktere in Eurer Kriegsmeute aus. |n|n|cffffd200Fortfahren?|r,1
@@ -22757,6 +22760,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Niedrigstufige Quests anzeigen,1
 52435,QUEST_SETTINGS_LABEL,Quests,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,Ihr könnt aus der Kriegsmeutenbank keine Gegenstände im Leerenlager ablegen.,1
+52437,11_0_7_kirintor_bomb,Manabombenmatrix neu ausrichten,1
 52438,WOW_ERROR_500,Die Datenumrechnung für die Kriegsmeute ist fehlgeschlagen. Bitte erneut bei dem Account anmelden und noch einmal versuchen.,2
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Spielercharaktere von anderen Realms können nicht zum Gildenmeister befördert werden.,1
 52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Belohnungen:,1
@@ -22783,26 +22787,125 @@ Gegenstände von dem Ereignis wurden entfernt.
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Irdene können keine gewöhnlichen Speisen oder Getränke zu sich nehmen.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s hat diese Stufe nicht freigeschaltet,1
 52464,SPELL_FAILED_CUSTOM_ERROR_1054,Das kann hier nicht eingesetzt werden.,1
+52466,POWER_SHREDDER_FUEL,Schreddertreibstoff,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Um das zu ändern, müssen zunächst die Einstellungen des Battle.net-Accounts aufgerufen und sichergestellt werden, dass: \n- die Option ""Textchat"" im Reiter ""Privatsphäre"" aktiviert ist \n- die Stummschaltung des Accounts im Bereich ""Elterliche Freigabe"" deaktiviert ist",1
+52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Wechseln,1
+52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Aufheben,1
+52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,An [%s] zuweisen,1
 52477,ERR_WARBAND_HEARTHSTONE,"Ihr seid nicht berechtigt, diesen Gegenstand einzusetzen.",1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,"Ihr steht kurz davor, erstattbare Gegenstände in der Bank abzulegen.|n|n|cnRED_FONT_COLOR:Alle kriegsmeutengebundenen Gegenstände verlieren dadurch ihren Erstattungstimer.|r|n|nMöchtet Ihr fortfahren?",1
 52479,SPELL_FAILED_HEARTHSTONE,"Ihr seid nicht berechtigt, diesen Gegenstand einzusetzen.",1
 52480,SPELL_FAILED_CUSTOM_ERROR_1056,"Ihr seid nicht berechtigt, diesen Gegenstand einzusetzen.",1
-52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Nicht erneut anzeigen,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Nicht erneut anzeigen,3
 52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Maximum,1
 52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,Dieser Charakter befindet sich bereits in einer Transaktion.,1
 52485,TOGGLE_VISIBILITY_TOOLTIP,Sichtbarkeit der Benutzeroberfläche ein-/ausschalten,2
+52486,ERR_SOCKETING_REQUIRES_SINGING_THUNDER_GEM,Dieser Platz benötigt einen Edelstein des singenden Donners.,1
+52487,ERR_SOCKETING_REQUIRES_SINGING_SEA_GEM,Dieser Platz benötigt einen Edelstein der singenden See.,1
+52488,ERR_SOCKETING_REQUIRES_SINGING_WIND_GEM,Dieser Platz benötigt einen Edelstein des singenden Windes.,1
+52489,ERR_SOCKETING_SINGINGTHUNDER_GEM_ONLY_IN_SINGINGTHUNDERSLOT,Edelsteine des singenden Donners können nur in Plätze des singenden Donners eingesetzt werden.,1
+52490,ERR_SOCKETING_SINGINGSEA_GEM_ONLY_IN_SINGINGSEASLOT,Edelsteine der singenden See können nur in Plätze der singenden See eingesetzt werden.,1
+52491,ERR_SOCKETING_SINGINGWIND_GEM_ONLY_IN_SINGINGWINDSLOT,Edelsteine des singenden Windes können nur in Plätze des singenden Windes eingesetzt werden.,1
 52501,ERR_GUILD_BANK_REALM_MISMATCH,"Geteilte Stapel von Gegenständen aus anderen Realms können nicht gelagert, entnommen oder kombiniert werden.",1
 52503,MAP_TOOLTIP_TIME_LEFT,Verbleibende Zeit: %s,1
 52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,"<Umschalt-Klick, um Verfolgung zu beenden>",1
 52517,SPELL_FAILED_CUSTOM_ERROR_1057,Zum Entzünden der Schattenschmiedekohlenpfanne wird eine Schattenschmiedefackel benötigt.,1
 52518,SPELL_FAILED_CUSTOM_ERROR_1058,Diese Schattenschmiedekohlenpfanne brennt bereits.,1
 52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Stufe %d,2
+52545,EMPTY_SOCKET_SINGINGTHUNDER,Platz des singenden Donners,1
+52546,EMPTY_SOCKET_SINGINGSEA,Platz der singenden See,1
+52547,EMPTY_SOCKET_SINGINGWIND,Platz des singenden Windes,1
+52550,NAVIGATION_DESTINATION_REACHED_MESSAGE,Ziel erreicht,1
+52551,WOW_LABS_MATCH_DETAILS_STANDING,Platzierung,1
+52552,WOW_LABS_MATCH_DETAILS_KILLS,Siege,1
+52553,WOW_LABS_MATCH_DETAILS_TOTAL_PLUNDER,Gesamte Beute,1
+52554,WOW_LABS_RETURN_TO_MATCH_DETAILS,Zurück zur Statistik,1
+52555,WOW_LABS_MATCH_COMPLETE,KAMPF ABGESCHLOSSEN,1
+52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,"Spielt erneut, um Euch mehr Beute zu schnappen!",1
+52557,WOW_LABS_GO_AGAIN,Noch einmal!,1
+52558,WOW_LABS_ACCOUNT_STORE,Beuteladen,1
+52572,DELVES_SEASON_PROGRESS,Saisonfortschritt: |cffffd200%s/%s|r,1
+52573,DELVES_SEASON_REWARD_PROGRESS,Bis zur nächsten Belohnung: |cffffd200%s|r,1
+52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Störung,5
+52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,"Es sind %u neue Spielercharaktere in den letzten %u Minuten beigetreten! Vergesst nicht, nachzufragen, wenn Ihr etwas wissen möchtet.",1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,"Erreicht Stufe 10, um dieses Volk freizuschalten",2
 52605,PLAYER_DIFFICULTY_STORY_RAID,Schlachtzugsgeschichte,1
+52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,Aufwerten,1
 52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Besiegt diese Woche %d |4Boss:Bosse; von %s um diese Belohnung freizuschalten.|n|nDie Gegenstandsstufe dieser Belohnung basiert auf der Schwierigkeitsstufe des Schlachtzugs.,1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,"Besiegt diese Woche noch %d |4Boss:Bosse;, um diese Belohnung freizuschalten.|n|nDie Gegenstandsstufe dieser Belohnung basiert auf der Schwierigkeitsstufe des Schlachtzugs.",1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,Nur %s,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,Jede überweisbare Währung (Kriegsmeute),1
 52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Schließt Währungen im Besitz von anderen Mitgliedern Eurer Kriegsmeute ein,1
+52612,WOW_LABS_REQUEUE,Noch einmal!,1
+52613,TRAINING_LOBBY_QUEUE_TITLE,Runde beitreten,1
+52614,WOW_LABS_QUEUE_SELECT,Warteschlangenauswahl,1
+52615,FRONT_END_LOBBY_PRACTICE,Übung,3
+52616,PLUNDERSTORM_PLUNDER_STORE_TITLE,Beuteladen,3
+52617,PLUNDERSTORE_PURCHASE_CONFIRMATION_FORMAT,"Seid Ihr sicher, dass Ihr %s für %s kaufen möchtet?",3
+52618,PLUNDERSTORE_REFUND_BUTTON_TEXT,Rückerstatten,3
+52619,PLUNDERSTORE_REFUNDABLE_TOOLTIP,Zum Rückerstatten klicken,3
+52620,PLUNDERSTORE_ALREADY_OWNED_TOOLTIP,Bereits erworben,3
+52621,PLUNDERSTORE_INSUFFICIENT_FUNDS_TOOLTIP,"Erhaltet mehr Beute, um einzukaufen",3
+52622,PERKS_PROGRAM_SALE_PERCENT,-%d%%,1
+52637,FPS_COUNTER_GPU_BOUND,%.1f GPU-gebunden,1
+52638,FPS_COUNTER_CPU_BOUND,%.1f CPU-gebunden,1
+52640,WOW_LABS_START_QUEUE,In die Warteschl.,1
+52641,ERR_ACCOUNT_MONEY_LOCKED,Ihr könnt gerade kein Gold aus der Kriegsmeutenbank abheben oder dort einlagern. Versucht es bitte später erneut.,1
+52642,PING_TYPE_THREAT,Bedrohen,1
+52643,PING_TYPE_NOT_THREAT,Ansehen,1
+52652,CHAT_TAB_RIGHT_CLICK,<Mit Rechtsklick die Reiter-Einstellungen aufrufen>,1
+52653,CHAT_TAB_NAME,%s-Reiter,1
+52654,UNIT_POPUP_RIGHT_CLICK,<Mit Rechtsklick die Rahmen-Einstellungen aufrufen>,1
+52656,PROFESSIONS_BLACKSMITHING_DRAGONFLIGHT_HAMMER_REPAIR,Der Meisterhammer kann nur Ausrüstung aus Dragonflight reparieren.,1
+52661,ACCOUNT_STORE_REFUND_TEXT_FORMAT,Verbleibende Zeit für Rückerstattung: |cffffffff%s|r,3
+52662,ACCOUNT_STORE_REFUND_CONFIRMATION_FORMAT,"Seid Ihr sicher, dass Ihr für %s %s rückerstattet haben möchtet?",3
+52667,PLUNDER_DISPLAY_LABEL,Beute,3
+52668,WOWLABS_MODE_NAV_BUTTON,MODUS,2
+52669,WOWLABS_NO_GAME_MODES_FOUND,Bald erscheinen neue Spielmodi!,2
+52670,WOWLABS_PLUNDERSTORE_NAV_LABEL,BEUTELADEN,2
+52691,ACCOUNT_STORE_PAGE_WIDGET_FORMAT,Seite %d / %d,3
+52695,WOW_LABS_MATCH_WON,GEWONNEN!,1
+52696,WOW_LABS_MATCH_LOST,IHR HABT DEN %d. PLATZ ERZIELT,1
+52699,ACCOUNT_STORE_NONREFUNDABLE_TOOLTIP,Dieser Gegenstand kann nicht rückerstattet werden.,3
+52710,WOW_LABS_PLUNDER_HEADER,Beute,1
+52711,WOW_LABS_PLUNDER_LFG_DESC,Sammelt Beute und kauft Euch Belohnungen im Beuteladen!,1
+52712,WOW_LABS_PLUNDERSTORM_CATEGORY,Plunderstorm,1
+52716,CROSS_FACTION_RAID_DUNGEON_FINDER_NOT_ENOUGH_MEMBERS_ERROR,"Ihr habt nicht genug Mitglieder, um Euch als fraktionsübergreifende Gruppe in die Warteschlange einzureihen.",1
+52717,MAJOR_FACTION_BUTTON_TOOLTIP_OPEN_MAP,<Zum Anzeigen auf der Karte rechtsklicken>,1
+52720,ERR_PLUNDERSTORM_CANNOT_QUEUE,Ihr könnt Euch gerade nicht für Plunderstorm in die Warteschlange einreihen.,1
+52721,ERR_QUEUED_PLUNDERSTORM,Ihr befindet Euch jetzt in der Warteschlange für Plunderstorm.,1
+52722,PLUNDERSTORM_QUEUE_TOOLTIP_ERROR,"Ihr könnt Euch nicht in die Warteschlange für Plunderstorm einreihen, während Ihr Euch in einer anderen Warteschlange befindet.",1
+52723,PLUNDERSTORM_LOGOUT_TEXT,"%d Sekunden, bis Ihr aus Plunderstorm ausgeloggt werdet",1
+52724,CONQUEST_BRACKET_NAME_2V2,Arena: 2vs2,1
+52725,CONQUEST_BRACKET_NAME_3V3,Arenas: 3vs3,1
+52726,CONQUEST_BRACKET_NAME_RBG,Gewertete Schlachtfelder,1
+52727,CONQUEST_BRACKET_NAME_SOLO_SHUFFLE,Gewertetes gemischtes Einzel,1
+52728,CONQUEST_BRACKET_NAME_BATTLEGROUND_BLITZ,Gewertetes Blitzschlachtfeld,1
+52729,PLUNDERSTORM_CUSTOMIZE_BUTTON_TOOLTIP,Weg zu Da'kash Grimjoch für Anpassungen anzeigen,1
+52740,WOW_LABS_JOIN_QUEUE,Warteschlange beitreten,1
+52741,WOW_LABS_LEAVE_QUEUE,Warteschlange verlassen,1
+52743,TUTORIAL_SUPERTRACK_STEP_1,"Fokussiert Euch auf eine Quest, indem Ihr auf dieses Symbol klickt",1
+52744,ERR_WOW_LABS_SET_WOW_LABS_AREA_ID_FAILED,Bereichsauswahl fehlgeschlagen.,1
 52753,SPELL_FAILED_CUSTOM_ERROR_1059,Volle Taschen,1
+52758,WOWLABS_AREA_MAP_AUTO_SELECT,Automatische Auswahl,1
+52759,WOWLABS_AREA_MAP_CONFIRM_SELECTION,Auswahl bestätigen,1
+52765,PLUNDERSTORM_DROP_MAP_BUTTON_TOOLTIP,Wählt Euren Startbereich aus,1
+52766,PLUNDERSTORM_DROP_MAP_BUTTON_DISABLED_TOOLTIP,Euer Gruppenanführer wählt einen Startbereich aus,1
+52767,ACCOUNT_STORE_CURRENCY_MAX_TOOLTIP_FORMAT,Maximum erreicht (%s),3
+52768,ACCOUNT_STORE_CURRENCY_APPROACHING_MAX_TOOLTIP_FORMAT,Maximum bald erreicht (%s),3
+52769,ACCOUNT_STORE_CURRENCY_TOTAL_TOOLTIP_FORMAT,%s / %s,3
+52770,LIFETIME_PLUNDER_TOOLTIP_FORMAT,Gesamt: %s,3
+52773,ERR_LFG_NO_CROSS_FACTION_PARTIES_MULTIPLE,Fraktionsübergreifende Gruppen können sich nicht für eine oder mehrere dieser Instanzen in die Warteschlange einreihen.,1
+52778,BINDING_NAME_WOWLABS_SWAP_UTLITIES,Reihenfolge der Unterstützungszauber wechseln,1
+52779,BINDING_NAME_WOWLABS_SWAP_OFFENSIVES,Reihenfolge der Angriffszauber wechseln,1
+52780,WOW_LABS_PLUNDERSTORM_FORMED,Eine Lobby wurde gefunden für:,1
+52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,"Ihr könnt Euch in keine anderen Warteschlangen einreihen, während Ihr Euch in einer Plunderstorm-Warteschlange befindet.",1
+52791,SPELL_CURIO,Kuriosität,1
+52794,WOW_ERROR_501,Es ist ein Fehler beim Wiederherstellen Eures Charakters aufgetreten. Bitte loggt Euch ein und versucht es erneut.,2
+52858,ACCOUNT_STORE_UNAVAILABLE,Vorübergehend nicht verfügbar. Versucht es später erneut.,3
+52859,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT,- Besiegt %s,1
+52860,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT_SHOW_HEALTH,- Besiegt %s (Aktuelle Gesundheit: %s),1
+52861,VIGNETTE_SUGGESTED_GROUP_NUM_RANGE,Empfohlene Spieleranzahl [%d - %d],1
+52864,VIGNETTE_SUGGESTED_GROUP_NUM,Empfohlene Spieleranzahl [%d],1
+52876,ERR_LFG_LOREWALKING,"Die Geschichtenwanderung geht weiter, sobald Ihr die Instanz verlasst.",1
+52969,TW_FRAUD_WARNING_TEXT,System message,2

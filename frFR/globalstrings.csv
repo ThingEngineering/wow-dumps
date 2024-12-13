@@ -3511,7 +3511,7 @@ ID,BaseTag,TagText_lang,Flags
 13667,HELP_TEXT_LINE15,- Pour obtenir de l'aide sur les nouveaux types de macro IU /macrohelp,1
 13668,MACRO_HELP_TEXT_LINE4,"- pour créer une macro qui permet de lancer un sort, utilisez la syntaxe : /cast <nom> (<sous-texte>)",1
 13669,ERR_QUEST_PUSH_ACCEPTED_S,%s a accepté votre quête.,1
-13670,ERR_QUEST_ADD_KILL_SII,%s tué : %d/%d,1
+13670,ERR_QUEST_ADD_KILL_SII,%s tué(e) : %d/%d,1
 13671,CHAT_HELP_TEXT_LINE3,"/discussion, /aidedisc - ce message d'aide sur les commandes de messagerie",3
 13672,EMOTE43_CMD2,/disappointed,1
 13673,EMOTE22_CMD2,/flap,1
@@ -9013,7 +9013,7 @@ de la discipline.",1
 20871,ERR_BN_BROADCAST_THROTTLE,Veuillez attendre quelques secondes avant de remettre à jour votre annonce.,3
 20872,INTERNAL_STRING_ERROR,Erreur interne sur la chaîne de caractères %d,1
 20873,BLOCK_INVITES_TOOLTIP,Supprime cette invitation et bloque toutes les invitations de ce joueur.,1
-20875,RID_FRIEND_REQUEST_INFO,"Il devrait s’agir d’une personne que vous connaissez et à qui vous faites confiance dans le monde réel. Vous pourrez discuter avec elle quel que soit le jeu Blizzard auquel vous jouez. Une fois que vous aurez accepté sa demande pour devenir amis, votre nom réel sera visible de tous ses amis.",1
+20875,RID_FRIEND_REQUEST_INFO,"Il devrait s’agir d’une personne que vous connaissez et à qui vous faites confiance dans le monde réel. Vous pourrez discuter avec elle quel que soit le jeu Blizzard auquel vous jouez. Une fois que vous aurez accepté sa demande pour devenir amis, votre nom réel sera visible de tous ses amis.",3
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,Vous n'avez pas fourni suffisamment d'objets pour lancer ce sort.,1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,Vous avez fourni trop d'objets pour lancer ce sort.,1
 20879,BN_BROADCAST_TOOLTIP,Envoyez une annonce à vos amis (nom réel et BattleTag).,3
@@ -18171,7 +18171,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 41834,ERR_ACCOUNT_SILENCED,Impossible tant que votre compte est réduit au silence,1
 41836,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC_WITH_ROLE,%1$s|t %3$s %2$s,1
 41837,QUEST_SESSION_HELP_TEXT_WAITING,En attente des membres du groupe…,1
-41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
+41838,VISITABLE_URL49,https://worldofwarcraft.com/game/recruit-a-friend,3
 41839,CLUB_FINDER_NEW_APPLICANT_TUTORIAL,Vous avez un nouveau candidat. Cliquez ici pour voir sa candidature.,1
 41840,CLUB_FINDER_NEW_FEATURE_TUTORIAL,Nouvelle recherche de guilde et de communauté. Cliquez ici pour la découvrir !,1
 41841,CLUB_FINDER_TUTORIAL_ROSTER,Examinez la liste de candidats via la page des membres.|nCherchez le losange orange.,1
@@ -19072,7 +19072,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Aventure de congrégation,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Impossible de quitter manuellement le canal de discussion : %s.,1
 42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"Pour utiliser l’option Appuyer pour parler lorsque World of Warcraft n’est plus au premier plan, vous devez autoriser l’Accessibilité pour %s dans vos préférences Sécurité et confidentialité, sous Préférences Système. Souhaitez-vous ouvrir le menu Préférences Système ?",3
 42883,MAC_INPUT_MONITORING1015,"Pour utiliser l’option Appuyer pour parler lorsque World of Warcraft n’est plus au premier plan, vous devez autoriser la Surveillance de l’entrée pour %s dans vos préférences Sécurité et confidentialité, sous Préférences Système. Souhaitez-vous ouvrir le menu Préférences Système ?",3
 42884,BINDING_NAME_CENTERCAMERA,Centrer la caméra,1
@@ -20104,7 +20104,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Inviter dans le groupe d’instance,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Suggestion d’invitation dans le groupe d’instance,1
 48706,REQUEST_INVITE_CROSS_FACTION,Demander à intégrer le groupe d’instance,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,Vous pouvez vous allier à cette personne membre de la faction %s afin d’effectuer conjointement diverses activités d’instance.\n\n|cffffffffActivités accessibles :|r\n- Donjons (hors file d’attente)\n- Raids (hors file d’attente)\n- JcJ coté\n- Tourment\n\n|cffffffffActivités exclues :|r\n- Contenu extérieur,1
+48707,CROSS_FACTION_INVITE_TOOLTIP,Vous pouvez vous allier à cette personne membre de la faction %s afin d’effectuer conjointement diverses activités d’instance.\n\n|cffffffffActivités accessibles :|r\n– donjons (groupes préconstitués) ;\n– raids (hors file d’attente) ;\n– JcJ coté ou non coté ;\n– Tourment.\n\n|cffffffffActivités exclues :|r\n– contenu extérieur.,1
 48708,CROSS_FACTION_INVITE_HELPTIP,Vous pouvez inviter des membres de la faction opposée pour vous atteler conjointement au contenu d’instance.,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Désactivez la synchronisation pour inviter cette personne.,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Nécessite plus de Rappels syllabiques.,1
@@ -20116,7 +20116,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Cette suite de quêtes débloquera :,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Record précédent : %s |cff808080(Saison %d),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Votre groupe est désormais un groupe d’instance interfactions. Voici la liste des activités qui lui sont accessibles : donjons et raids (hors file d’attente), Tourment, JcJ coté.",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Votre groupe est désormais un groupe d’instance interfactions. Voici la liste des activités qui lui sont accessibles : donjons (groupes préconstitués), raids (hors file d’attente), Tourment, JcJ coté et non coté.",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Vous ne pouvez pas céder un objet propre à une faction à un membre de la faction opposée.,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,Vous avez rejoint la file d’attente pour %s en tant que %s.,1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,Action impossible dans un groupe interfactions.,1
@@ -20184,11 +20184,11 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 48792,ANTIALIASING_CMAA2,CMAA 2,3
 48793,COMMUNITIES_EDIT_DIALOG_CROSS_FACTION,Interfactions,1
 48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,|cffffd200Cet objet est « %s ».|n|nVous ne pouvez vous équiper que d’un seul objet de ce type.|r,1
-48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Cette action est impossible avec un groupe interfactions. Vous pouvez néanmoins accéder aux donjons et aux raids hors file d’attente.,1
-48796,CROSS_FACTION_PVP_ERROR,Cette action est impossible avec un groupe interfactions. Vous pouvez néanmoins accéder aux arènes et aux champs de bataille côtés.,1
+48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Cette action est impossible avec un groupe interfactions. Vous pouvez néanmoins accéder aux raids hors file d’attente.,1
+48796,CROSS_FACTION_PVP_ERROR,Cette action est impossible avec un groupe interfactions.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,%3$s %2$s de niveau %1$d (%4$s),1
 48798,ERR_LFG_FARM_LIMIT,Vous ou une personne membre de votre groupe avez rejoint trop d’instances dernièrement. Veuillez réessayer ultérieurement.,1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Vous pouvez vous allier à cette personne membre de la faction %s afin d’effectuer conjointement diverses activités d’instance.|n|cffffffffActivités accessibles :|r|n- donjons (hors file d’attente) ;|n- raids (hors file d’attente) ;|n- JcJ coté ;|n- Tourment.|n|cffffffffActivités exclues :|r|n- contenu extérieur.,1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Vous pouvez vous allier à cette personne membre de la faction %s afin d’effectuer conjointement diverses activités d’instance.|n|cffffffffActivités accessibles :|r|n– donjons (groupes préconstitués) ;|n– raids (hors file d’attente) ;|n– JcJ coté ou non coté ;|n– Tourment.|n|cffffffffActivités exclues :|r|n– contenu extérieur.,1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Faction du joueur ou de la joueuse : %s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,Cette personne n’appartient pas à la bonne faction. Veuillez activer le mode « Interfactions » dans les paramètres de communauté.,1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Vous permet d’inviter des membres de la faction opposée.,1
@@ -22036,9 +22036,9 @@ et répandre sa flamme partout sur Azeroth.",1
 51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Saisir un nom d’onglet de banque de bataillon :,1
 51579,COLOR_PICKER_HEX,Code hexadécimal,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Impossible de nommer un personnage-joueur de la faction opposée comme chef de guilde.,1
-51583,FRONT_END_LOBBY_SOLO,Solo,2
-51584,FRONT_END_LOBBY_DUO,Duo,2
-51585,FRONT_END_LOBBY_TRIOS,Trios,2
+51583,FRONT_END_LOBBY_SOLO,Solo,3
+51584,FRONT_END_LOBBY_DUO,Duo,3
+51585,FRONT_END_LOBBY_TRIOS,Trios,3
 51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Comprend des composants échangeables,1
 51589,ACCOUNT_BANK_LOCKED_PROMPT,La banque est en cours d’utilisation par un autre membre de votre bataillon.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Personnaliser le personnage,3
@@ -22047,7 +22047,7 @@ et répandre sa flamme partout sur Azeroth.",1
 51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,Cet onglet de banque est verrouillé.,1
 51596,BANK_TAB_INVALID_NAME,Ce nom d’onglet n’est pas valide.,1
 51597,BANK_TAB_INVALID_TEXT,Cette description d’onglet n’est pas valide.,1
-51598,FRONT_END_LOBBY_QUEUE_TIME,Temps passé en file : %s,2
+51598,FRONT_END_LOBBY_QUEUE_TIME,Temps passé en file : %s,3
 51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,Cette récompense ne peut être collectée que par le premier personnage de votre bataillon à se connecter.,1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Effets visuels de vol,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Désactiver les effets d’écran peut soulager la cinétose.,1
@@ -22216,8 +22216,8 @@ et répandre sa flamme partout sur Azeroth.",1
 51806,WOWLABS_FIND_GAME_TRIO,Trouver des parties en trio,3
 51807,WOW_LABS_STAY,Rester,1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,Vous pouvez encore vous faire ressusciter par votre coéquipier ou coéquipière.|n|nVoulez-vous vraiment quitter la partie ?,1
-51809,FRONT_END_LOBBY_SOLOS,Solos,2
-51810,FRONT_END_LOBBY_DUOS,Duos,2
+51809,FRONT_END_LOBBY_SOLOS,Solos,3
+51810,FRONT_END_LOBBY_DUOS,Duos,3
 51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
 51812,ACCOUNT_COMPLETED_QUEST_LABEL,Terminé par le bataillon,1
 51813,TRIVIAL_QUEST_LABEL,bas niveau,1
@@ -22238,13 +22238,15 @@ et répandre sa flamme partout sur Azeroth.",1
 51830,STABLE_PET_SPEC_FEROCITY,Férocité,1
 51831,STABLE_PET_SPEC_TENACITY,Ténacité,1
 51832,WOWLABS_GAME_BASICS_TITLE,Bases de Plunderstorm,3
-51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Gagnez en étant le dernier personnage-joueur debout.
+51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Gagnez en étant le dernier personnage-joueur à survivre.
 
 |cffffffff2.|r Tuez des créatures et des adversaires pour gagner des niveaux et des sorts.
 
-|cffffffff3.|r Améliorez vos sorts en pillant davantage d’exemplaires.
+|cffffffff3.|r Améliorez vos sorts en en pillant davantage d’exemplaires.
 
-|cffffffff4.|r Utilisez votre technique de soins lorsqu’il vous reste peu de points de vie.",3
+|cffffffff4.|r Utilisez votre technique de soins lorsqu’il vous reste peu de points de vie.
+
+|cffffffff5.|r Dépensez vos unités de pillage dans la boutique du pillage pour débloquer des récompenses.",3
 51834,SPELL_FAILED_CUSTOM_ERROR_1029,Vol requis,1
 51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Accomplissez des quêtes et récupérez du pillage pour débloquer des récompenses. Allez voir Da’kash Vilcomptable dans la zone d’attente.|n|n|cff00ff00Prochaine récompense au niveau %d :|r,3
@@ -22273,7 +22275,7 @@ et répandre sa flamme partout sur Azeroth.",1
 51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Favoris,2
 51865,SPELL_FAILED_CUSTOM_ERROR_1009,Vous avez déjà du paillis préparé. Utilisez d’abord votre paillis.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Nombre total de pillages effectués,3
-51867,LIMITED_TIME_EVENT,ÉVÈNEMENT|nEXCEPTIONNEL,3
+51867,LIMITED_TIME_EVENT,DURÉE LIMITÉE,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interagir,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,Vous ne pouvez pas remplacer les sorts en cours de recharge pendant le combat.,1
@@ -22402,9 +22404,9 @@ et répandre sa flamme partout sur Azeroth.",1
 52064,PREFIX_SOLO_RBG,Champ de bataille Blitz : %s,1
 52065,SPELL_FAILED_CUSTOM_ERROR_1038,Vous ne possédez pas cette monture.,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"Vous devez posséder un tabard personnel pour le personnaliser, mais n’hésitez pas à regarder.",7
-52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,Votre bataillon reçoit la monnaie : %s x%d,1
-52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Votre bataillon reçoit la monnaie : %s x%d (objectif bonus),1
-52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,Votre bataillon reçoit la monnaie : %s x%d (votre bataillon a gagné le montant maximum de %s),1
+52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,Votre bataillon reçoit la monnaie : %s ×%d,1
+52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Votre bataillon reçoit la monnaie : %s ×%d (objectif bonus),1
+52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,Votre bataillon reçoit la monnaie : %s ×%d (votre bataillon a gagné le montant maximum de %s),1
 52070,ACCOUNT_LEVEL_CURRENCY,Monnaie de bataillon,1
 52071,ACCOUNT_TRANSFERRABLE_CURRENCY,Monnaie de bataillon transférable,1
 52072,CURRENCY_TRANSFER_LOSS,|cnNORMAL_FONT_COLOR:Montant perdu dans le transfert :|r |cnHIGHLIGHT_FONT_COLOR:%d %%|r ,1
@@ -22427,7 +22429,7 @@ et répandre sa flamme partout sur Azeroth.",1
 52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Pas assez de %s,1
 52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Appliquez %d |4point:points; de concentration afin de garantir le niveau de qualité suivant pour cette recette.,1
 52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Retirez %d |4point:points; de concentration de cette recette.,1
-52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Vous pouvez utiliser la concentration pour garantir une qualité supérieure lors de la fabrication. La concentration se régénère lentement, et est en partie remboursée lorsqu’une fabrication déclenche votre Inventivité.",1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,"Vous pouvez utiliser la concentration pour garantir une qualité supérieure lors de la fabrication. La concentration se régénère de 250 points au fil d’une journée, et est en partie remboursée lorsqu’une fabrication déclenche votre Inventivité.",1
 52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,La concentration est pleine.,1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Utilisable uniquement en combat.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,Votre niveau est insuffisant pour entrer dans un Gouffre.,1
@@ -22467,7 +22469,7 @@ et répandre sa flamme partout sur Azeroth.",1
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Nuit aux personnes mineures,3
 52134,DELVES_INSTANCE_RESET_WARNING,Cette instance de Gouffre se réinitialisera dans %s.,1
 52135,DAILY_RESET_INSTANCE_WELCOME,Bienvenue à %s. La réinitialisation quotidienne aura lieu dans %s et réinitialisera cette instance.,1
-52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:a transféré %s x%d à|r |cnNORMAL_FONT_COLOR:%s.|r,1
+52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:a transféré %s ×%d à|r |cnNORMAL_FONT_COLOR:%s.|r,1
 52137,CHINA_GM_BUILD,MJ de Chine,2
 52138,WAR_WITHIN_LANDING_PAGE_TITLE,Résumé de Khaz Algar,1
 52139,WAR_WITHIN_LANDING_PAGE_TOOLTIP,Cliquez pour afficher le résumé de Khaz Algar.,1
@@ -22525,8 +22527,8 @@ et répandre sa flamme partout sur Azeroth.",1
 52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,Terminez encore %1$d |4Gouffre:Gouffres; ou |4activité:activités; cette semaine pour débloquer une récompense de la grande chambre forte. Les activités comptent comme un niveau 1.|n|nLe niveau de cette récompense dépend du niveau de vos 2 sessions les plus faibles de la semaine.,1
 52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,Terminez encore %1$d |4Gouffre:Gouffres; ou |4activité:activités; cette semaine pour débloquer une deuxième récompense de la grande chambre forte. Les activités comptent comme un niveau 1.|n|nLe niveau de cette récompense dépend du niveau de vos 4 sessions les plus faibles de la semaine.,1
 52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,Terminez encore %1$d |4Gouffre:Gouffres; ou |4activité:activités; cette semaine pour débloquer une troisième récompense de la grande chambre forte. Les activités comptent comme un niveau 1.|n|nLe niveau de cette récompense dépend du niveau de vos 8 sessions les plus faibles de la semaine.,1
-52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Terminez %d |4Goufre:Goufres; ou |4activité:activités;,1
-52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Ceci est une faction de |r |cnNORMAL_FONT_COLOR:bataillon|r |cnHIGHLIGHT_FONT_COLOR:. La réputation gagnée auprès de cette faction est partagée par tous vos personnages.|r,1
+52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Terminez %d |4Gouffre:Gouffres; ou |4activité:activités;,1
+52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Ceci est une faction de |r |cnNORMAL_FONT_COLOR:bataillon|r|cnHIGHLIGHT_FONT_COLOR:. La réputation gagnée auprès de cette faction est partagée par tous vos personnages.|r,1
 52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Certaines monnaies sont |r|n|cnNORMAL_FONT_COLOR:transférables au bataillon.|r|n|cnHIGHLIGHT_FONT_COLOR:Cliquez sur une monnaie pour la transférer depuis un autre personnage.|r,1
 52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,"|cnHIGHLIGHT_FONT_COLOR:L’équipement de |cnNORMAL_FONT_COLOR:bataillon|r |cnHIGHLIGHT_FONT_COLOR:peut être partagé avec tous vos personnages.|n|nUne fois qu’un de vos personnages s’en équipe, cet équipement devient|r |cnNORMAL_FONT_COLOR:lié.|r",1
 52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Les quêtes que vous avez déjà accomplies avec un autre personnage sont cachées sur la carte et leurs indicateurs de quête sur les PNJ sont atténués dans l’environnement.|n|nVous pouvez changer ce paramètre ici.|r,1
@@ -22606,6 +22608,7 @@ et répandre sa flamme partout sur Azeroth.",1
 52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,Cette monnaie n’est pas transférable au bataillon.,1
 52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,Votre bataillon ne dispose pas d’une quantité suffisante de cette monnaie pour vous en transférer.,1
 52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,Une erreur s’est produite. Veuillez réessayer plus tard.,1
+52284,SPELL_FAILED_CUSTOM_ERROR_1052,Vous n’avez pas de boulet de canon en noiracier.,1
 52285,RPE_GEAR_UPDATE_CHARACTER,Personnage :,2
 52286,RPE_GEAR_UPDATE_SELECT_SPEC,Choisissez votre spécialisation :,2
 52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,Ce choix affectera tous les personnages de votre bataillon. |n|n|cffffd200Continuer ?|r,1
@@ -22743,6 +22746,7 @@ Les objets de l’évènement ont été supprimés.
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Montrer les quêtes de bas niveau,1
 52435,QUEST_SETTINGS_LABEL,Quêtes,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,Vous ne pouvez pas déposer d’objets dans la chambre du Vide depuis la banque de bataillon.,1
+52437,11_0_7_kirintor_bomb,Réaligner la matrice de la bombe de mana,1
 52438,WOW_ERROR_500,La conversion des données de votre bataillon a échoué. Veuillez vous reconnecter à votre compte pour réessayer.,2
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Impossible de nommer un personnage-joueur d’un autre royaume chef de guilde.,1
 52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Récompenses :,1
@@ -22769,26 +22773,125 @@ Les objets de l’évènement ont été supprimés.
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Les Terrestres ne peuvent pas consommer des boissons ou des aliments traditionnels.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s n’a pas débloqué ce niveau.,1
 52464,SPELL_FAILED_CUSTOM_ERROR_1054,Impossible d’utiliser ceci ici.,1
+52466,POWER_SHREDDER_FUEL,Carburant pour déchiqueteur,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"Pour changer ceci, vous devez d’abord vous rendre dans les paramètres de votre compte Battle.net et vous assurer que :\n– Confidentialité -> Discussion écrite est activée ;\n– Contrôle parental -> Compte muet est désactivé.",1
+52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Échanger,1
+52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Ramasser,1
+52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Attribuer à [%s],1
 52477,ERR_WARBAND_HEARTHSTONE,Vous ne pouvez pas encore utiliser cet objet.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,Vous êtes sur le point de déposer des objets remboursables dans votre banque.|n|n|cnRED_FONT_COLOR:Tous les objets liés au bataillon verront leur option de remboursement disparaître.|r|n|nVoulez-vous continuer ?,1
 52479,SPELL_FAILED_HEARTHSTONE,Vous ne pouvez pas encore utiliser cet objet.,1
 52480,SPELL_FAILED_CUSTOM_ERROR_1056,Vous ne pouvez pas encore utiliser cet objet.,1
-52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Ne plus afficher,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Ne plus afficher,3
 52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Max,1
 52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,Une transaction est déjà en cours pour ce personnage.,1
 52485,TOGGLE_VISIBILITY_TOOLTIP,Activer la visibilité de l’interface utilisateur,2
+52486,ERR_SOCKETING_REQUIRES_SINGING_THUNDER_GEM,Cet emplacement requiert une gemme de tonnerre chantant.,1
+52487,ERR_SOCKETING_REQUIRES_SINGING_SEA_GEM,Cet emplacement requiert une gemme de mer chantante.,1
+52488,ERR_SOCKETING_REQUIRES_SINGING_WIND_GEM,Cet emplacement requiert une gemme de vent chantant.,1
+52489,ERR_SOCKETING_SINGINGTHUNDER_GEM_ONLY_IN_SINGINGTHUNDERSLOT,Les gemmes de tonnerre chantant ne peuvent être placées que dans les châsses du même nom.,1
+52490,ERR_SOCKETING_SINGINGSEA_GEM_ONLY_IN_SINGINGSEASLOT,Les gemmes de mer chantante ne peuvent être placées que dans les châsses du même nom.,1
+52491,ERR_SOCKETING_SINGINGWIND_GEM_ONLY_IN_SINGINGWINDSLOT,Les gemmes de vent chantant ne peuvent être placées que dans les châsses du même nom.,1
 52501,ERR_GUILD_BANK_REALM_MISMATCH,"Impossible de déposer, retirer ou combiner des objets empilés provenant de royaumes différents.",1
 52503,MAP_TOOLTIP_TIME_LEFT,Temps restant : %s,1
 52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<Maj+clic pour cesser le suivi>,1
 52517,SPELL_FAILED_CUSTOM_ERROR_1057,Vous avez besoin de la torche ombreforge pour allumer le brasero d’Ombreforge.,1
 52518,SPELL_FAILED_CUSTOM_ERROR_1058,Le brasero d’Ombreforge est déjà allumé.,1
 52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Niveau %d,2
+52545,EMPTY_SOCKET_SINGINGTHUNDER,Châsse de tonnerre chantant,1
+52546,EMPTY_SOCKET_SINGINGSEA,Châsse de mer chantante,1
+52547,EMPTY_SOCKET_SINGINGWIND,Châsse de vent chantant,1
+52550,NAVIGATION_DESTINATION_REACHED_MESSAGE,Destination atteinte,1
+52551,WOW_LABS_MATCH_DETAILS_STANDING,Position debout,1
+52552,WOW_LABS_MATCH_DETAILS_KILLS,Victimes,1
+52553,WOW_LABS_MATCH_DETAILS_TOTAL_PLUNDER,Pillage total,1
+52554,WOW_LABS_RETURN_TO_MATCH_DETAILS,Retour aux statistiques,1
+52555,WOW_LABS_MATCH_COMPLETE,MATCH TERMINÉ,1
+52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,Jouez à nouveau pour gagner plus d’unités de pillage !,1
+52557,WOW_LABS_GO_AGAIN,Nouveau match !,1
+52558,WOW_LABS_ACCOUNT_STORE,Boutique du pillage,1
+52572,DELVES_SEASON_PROGRESS,Avancée de la saison : |cffffd200%s/%s|r,1
+52573,DELVES_SEASON_REWARD_PROGRESS,Prochaine récompense : |cffffd200%s|r,1
+52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Perturbation,5
+52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,%u |4nouveau personnage-joueur s’est inscrit:nouveaux personnages-joueurs se sont inscrits; dans les %u dernières minutes ! N’oubliez pas de poser vos questions si vous en avez.,1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Niveau 10 nécessaire pour débloquer cette race.,2
 52605,PLAYER_DIFFICULTY_STORY_RAID,Histoire du raid,1
+52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,Amélioration,1
 52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Venez à bout de %d boss du raid %s cette semaine pour débloquer cette récompense.|n|nLe niveau d’objet de cette récompense dépendra de la difficulté du raid.,1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Venez à bout de %d boss |4supplémentaire:supplémentaires; cette semaine pour débloquer cette récompense.|n|nLe niveau d’objet de cette récompense dépendra de la difficulté du raid.,1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,%s uniquement,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,Toutes les monnaies de bataillon transférables,1
 52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Comprend les monnaies possédées par d’autres membres de votre bataillon.,1
+52612,WOW_LABS_REQUEUE,Nouveau match !,1
+52613,TRAINING_LOBBY_QUEUE_TITLE,Rejoindre le match,1
+52614,WOW_LABS_QUEUE_SELECT,Sélection de file,1
+52615,FRONT_END_LOBBY_PRACTICE,Entraînement,3
+52616,PLUNDERSTORM_PLUNDER_STORE_TITLE,Boutique du pillage,3
+52617,PLUNDERSTORE_PURCHASE_CONFIRMATION_FORMAT,Voulez-vous vraiment acheter %s pour %s ?,3
+52618,PLUNDERSTORE_REFUND_BUTTON_TEXT,Rembourser,3
+52619,PLUNDERSTORE_REFUNDABLE_TOOLTIP,Cliquer pour rembourser,3
+52620,PLUNDERSTORE_ALREADY_OWNED_TOOLTIP,Déjà en votre possession,3
+52621,PLUNDERSTORE_INSUFFICIENT_FUNDS_TOOLTIP,Obtenez davantage de butin pour acheter,3
+52622,PERKS_PROGRAM_SALE_PERCENT,-%d %%,1
+52637,FPS_COUNTER_GPU_BOUND,%.1f lié au processeur graphique,1
+52638,FPS_COUNTER_CPU_BOUND,%.1f lié au processeur,1
+52640,WOW_LABS_START_QUEUE,Rejoindre la file,1
+52641,ERR_ACCOUNT_MONEY_LOCKED,Vous ne pouvez pour l’instant pas retirer ou déposer d’or dans la banque de bataillon. Veuillez réessayer ultérieurement.,1
+52642,PING_TYPE_THREAT,Menace,1
+52643,PING_TYPE_NOT_THREAT,Regarder,1
+52652,CHAT_TAB_RIGHT_CLICK,<Clic droit pour les paramètres d’onglet.>,1
+52653,CHAT_TAB_NAME,Onglet %s,1
+52654,UNIT_POPUP_RIGHT_CLICK,<Clic droit pour les paramètres de bordure.>,1
+52656,PROFESSIONS_BLACKSMITHING_DRAGONFLIGHT_HAMMER_REPAIR,Le marteau de maître ne peut réparer que l’équipement de Dragonflight.,1
+52661,ACCOUNT_STORE_REFUND_TEXT_FORMAT,Temps de remboursement restant : |cffffffff%s|r,3
+52662,ACCOUNT_STORE_REFUND_CONFIRMATION_FORMAT,Voulez-vous vraiment vous faire rembourser %s pour %s ?,3
+52667,PLUNDER_DISPLAY_LABEL,Pillage,3
+52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
+52669,WOWLABS_NO_GAME_MODES_FOUND,Nouveaux modes de jeu prochainement !,2
+52670,WOWLABS_PLUNDERSTORE_NAV_LABEL,BOUTIQUE DU PILLAGE,2
+52691,ACCOUNT_STORE_PAGE_WIDGET_FORMAT,Page %d/%d,3
+52695,WOW_LABS_MATCH_WON,VOUS AVEZ GAGNÉ !,1
+52696,WOW_LABS_MATCH_LOST,VOTRE PLACE : %d,1
+52699,ACCOUNT_STORE_NONREFUNDABLE_TOOLTIP,Cet objet n’est pas remboursable.,3
+52710,WOW_LABS_PLUNDER_HEADER,Pillage,1
+52711,WOW_LABS_PLUNDER_LFG_DESC,Obtenez des unités de pillage et achetez des récompenses dans la boutique du pillage.,1
+52712,WOW_LABS_PLUNDERSTORM_CATEGORY,Plunderstorm,1
+52716,CROSS_FACTION_RAID_DUNGEON_FINDER_NOT_ENOUGH_MEMBERS_ERROR,Vous n’avez pas assez de membres pour rejoindre la file d’attente en tant que groupe interfactions.,1
+52717,MAJOR_FACTION_BUTTON_TOOLTIP_OPEN_MAP,<Faites un clic droit pour afficher sur la carte>,1
+52720,ERR_PLUNDERSTORM_CANNOT_QUEUE,Vous ne pouvez pas rejoindre la file d’attente pour Plunderstorm pour le moment.,1
+52721,ERR_QUEUED_PLUNDERSTORM,Vous avez rejoint la file d’attente pour Plunderstorm.,1
+52722,PLUNDERSTORM_QUEUE_TOOLTIP_ERROR,Vous ne pouvez pas rejoindre la file d’attente pour Plunderstom tant que vous vous trouvez dans une autre file d’attente.,1
+52723,PLUNDERSTORM_LOGOUT_TEXT,%d s avant la déconnexion pour Plunderstorm.,1
+52724,CONQUEST_BRACKET_NAME_2V2,Arène 2c2,1
+52725,CONQUEST_BRACKET_NAME_3V3,Arènes 3c3,1
+52726,CONQUEST_BRACKET_NAME_RBG,Champs de bataille cotés,1
+52727,CONQUEST_BRACKET_NAME_SOLO_SHUFFLE,Brassage solo coté,1
+52728,CONQUEST_BRACKET_NAME_BATTLEGROUND_BLITZ,Champ de bataille Blitz coté,1
+52729,PLUNDERSTORM_CUSTOMIZE_BUTTON_TOOLTIP,Affiche les points de passage vers Da’kash Vilcomptable pour obtenir les personnalisations,1
+52740,WOW_LABS_JOIN_QUEUE,Rejoindre la file,1
+52741,WOW_LABS_LEAVE_QUEUE,Quitter la file,1
+52743,TUTORIAL_SUPERTRACK_STEP_1,Concentrez-vous sur une quête en cliquant sur son icône.,1
+52744,ERR_WOW_LABS_SET_WOW_LABS_AREA_ID_FAILED,Échec de la sélection de zone.,1
 52753,SPELL_FAILED_CUSTOM_ERROR_1059,Sacs pleins,1
+52758,WOWLABS_AREA_MAP_AUTO_SELECT,Sélection automatique,1
+52759,WOWLABS_AREA_MAP_CONFIRM_SELECTION,Confirmer la sélection,1
+52765,PLUNDERSTORM_DROP_MAP_BUTTON_TOOLTIP,Choisissez votre zone de départ.,1
+52766,PLUNDERSTORM_DROP_MAP_BUTTON_DISABLED_TOOLTIP,Le chef de votre groupe choisit une zone de départ.,1
+52767,ACCOUNT_STORE_CURRENCY_MAX_TOOLTIP_FORMAT,Vous avez atteint le maximum de %s,3
+52768,ACCOUNT_STORE_CURRENCY_APPROACHING_MAX_TOOLTIP_FORMAT,Maximum de %s bientôt atteint,3
+52769,ACCOUNT_STORE_CURRENCY_TOTAL_TOOLTIP_FORMAT,%s / %s,3
+52770,LIFETIME_PLUNDER_TOOLTIP_FORMAT,À vie : %s,3
+52773,ERR_LFG_NO_CROSS_FACTION_PARTIES_MULTIPLE,Les groupes interfactions ne peuvent pas rejoindre la file d’attente pour au moins une de ces instances.,1
+52778,BINDING_NAME_WOWLABS_SWAP_UTLITIES,Changer l’ordre des sorts utilitaires,1
+52779,BINDING_NAME_WOWLABS_SWAP_OFFENSIVES,Changer l’ordre des sorts offensifs,1
+52780,WOW_LABS_PLUNDERSTORM_FORMED,Une salle d’attente a été trouvée pour :,1
+52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,Vous ne pouvez pas rejoindre d’autres files d’attente tout en étant dans une file d’attente de Plunderstorm.,1
+52791,SPELL_CURIO,Bibelot,1
+52794,WOW_ERROR_501,Une erreur a eu lieu lors de la récupération de votre personnage. Veuillez vous reconnecter pour réessayer.,2
+52858,ACCOUNT_STORE_UNAVAILABLE,Temporairement indisponible. Veuillez réessayer ultérieurement.,3
+52859,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT,– Défaite %s,1
+52860,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT_SHOW_HEALTH,– Défaite %s (points de vie actuels : %s),1
+52861,VIGNETTE_SUGGESTED_GROUP_NUM_RANGE,Joueurs suggérés [%d - %d],1
+52864,VIGNETTE_SUGGESTED_GROUP_NUM,Joueurs suggérés [%d],1
+52876,ERR_LFG_LOREWALKING,La chronique reprendra lorsque vous quitterez l’instance.,1
+52969,TW_FRAUD_WARNING_TEXT,System message,2

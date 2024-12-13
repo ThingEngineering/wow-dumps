@@ -2324,7 +2324,7 @@ Cet effet ne peut pas être retiré.",425960,4,0,240,3
 1368,Piège draenique,Tentative pour capturer une mascotte disposant de moins de 35% de points de vie. Chances de capture augmentées de 45% à chaque essai raté.,986484,0,0,0,6
 1369,Aiguillonneur acéré,"[StandardAccuracy(1,1)] |cffffffffchances de toucher|r
 
-Inflige instantanément [StandardDamage(1,1)] |4point:points; de dégâts [School()], et 20 % de chances d’|cFF1EFF00empoisonner|r la cible en lui infligeant [StandardDamage(1,1,379)] |4point supplémentaire:points supplémentaires; de dégâts [School(379)] par tour pendant [duration(1,2)] |4tour:tours;.",136068,7,0,0,0
+Inflige instantanément [StandardDamage(1,1)] |4point:points; de dégâts [School()], et 20 % de chances |cFF1EFF00d’empoisonner|r la cible en lui infligeant [StandardDamage(1,1,379)] |4point supplémentaire:points supplémentaires; de dégâts [School(379)] par tour pendant [duration(1,2)] |4tour:tours;.",136068,7,0,0,0
 1370,Serre sauvage,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Donne de féroces coups de serres, infligeant [StandardDamage(1, 1)] points de dégâts [School()].",136063,2,0,0,0
@@ -3811,3 +3811,7 @@ Porte un coup tranchant avec sa Trancheuse du cataclysme miniature et inflige [S
 2523,Salve de traits de l’ombre,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Projette des traits de l’ombre sur l’équipe ennemie et lui inflige [StandardDamage(1, 1)] |4point:points; de dégâts [School()].",136197,5,3,0,0
+2524,Spores séductrices,"Inflige [StandardDamage(1,1)] $lpoint:points; de dégâts [School()] par tour.",5929575,6,0,0,0
+2525,Spores séductrices,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Recouvre l’équipe adverse d’arômes enivrants et lui inflige instantanément [StandardDamage(1,1)] $lpoint:points; de dégâts [School()], plus [StandardDamage(1,1,639)] $lpoint:points; de dégâts [School()] par tour pendant [duration(1,2)] |4tour:tours;. Persiste malgré les changements de mascotte.",5929575,6,0,0,0
