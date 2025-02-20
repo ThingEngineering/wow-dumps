@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,,19,1914
+4531,Valore Dati Giocatore: %37pdc,19,1914
 4532,,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -4246,7 +4246,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 7308,,200,2002
 7309,,201,2002
 7310,%1731ss,428,2002
-7311,La Corte,433,2903
+7311,Titolo,433,2903
 7312,,200,1752
 7313,,201,1752
 7314,Titolo,428,1752
@@ -8541,9 +8541,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16030,,394,5674
 16031,Risvegliato,52,5675
 16032,,394,5675
-16033,La Stagione 1 inizierà tra:,19,5676
+16033,La Stagione 2 inizierà tra:,19,5676
 16034,,273,5676
-16035,"La Stagione 1 delle Scorribande inizierà presto, con nuove sfide e ricompense! Esamina la Bacheca Scorribande per ulteriori informazioni.",208,5676
+16035,"La Stagione 2 delle Scorribande inizierà presto, con nuove sfide, Reperti e ricompense di livello oggetto più alto!",208,5676
 16041,Completa %43671e |4missione mondiale:missioni mondiali; nell'Isola di Dorn per sbloccare,52,5678
 16042,,394,5678
 16061,Salute aumentata|nDanni inflitti dalle abilità aumentati,52,5683
@@ -8642,8 +8642,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16249,0,277,5758
 16250,,212,5759
 16251,0,277,5759
-16252,,212,5760
-16253,0,277,5760
 16256,"Visione dell'Anima del Mondo|n|nQueste caverne un tempo erano la casa di feroci creature, intrappolate in un ciclo predatorio che infine portò alla loro estinzione.",52,5762
 16257,,394,5762
 16258,Tempo restante,19,5763
@@ -9110,8 +9108,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17247,,248,6154
 17248,,239,6154
 17249,,249,6154
-17272,Scenario di prova,677,6166
-17273,3 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6166
+17272,Test Delve,677,6166
+17273,3,679,6166
 17274,|Hspell:458103|h|nMorti totali: %26215w,680,6166
 17275,8,681,6166
 17278,|TInterface\ICONS\Spell_Holy_PureOfHeart.blp:15|t |cFF0091F2[Eco Radiosa]|r: |cFFFFFFFF%220520ic|r,52,6168
@@ -9319,6 +9317,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17486,,621,6267
 17487,,622,6267
 17488,"Contiene materiali per potenziare l'equipaggiamento, oro e altro ancora.",627,6267
+17489,%0ss,433,6268
+17490,[DNT] Scenario Time Remaining,434,6268
 17491,Tempo restante: %25452xa,52,5542
 17492,,394,5542
 17493,Tempo restante: %25453xa,52,5543
@@ -9335,6 +9335,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17506,,394,5561
 17507,Tempo restante: %25709xa,52,5562
 17508,,394,5562
+17520,Depositi di Armi derubati: %26994w/%26995w,52,6270
+17521,Deruba i Depositi di Armi per ottenere l'equipaggiamento necessario a entrare nella diga.,394,6270
 17530,|TInterface/ICONS/inv_misc_chest_azerite.BLP:16:16|t |cFFFFD200Punteggio del Ricordo dell'Anima del Mondo: |r%3115c,52,6272
 17531,Sconfiggi ricordi delle minacce di Azeroth per aumentare il punteggio e ottenere più |TInterface/ICONS/INV_Valorstone_Base.BLP:18:18|t Pietre del Valore e |TInterface/ICONS/INV_Gizmo_HardenedAdamantiteTube.blp:18:18|t Schegge di Chiave dello Scrigno!,394,6272
 17534,|nRicompensa settimanale:,52,6274
@@ -9352,6 +9354,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17546,Esplosivi,19,6279
 17547,,273,6279
 17548,,208,6279
+17549,[DNT] Content Steps Progress,19,6280
+17550,,273,6280
+17551,,208,6280
+17552,[DNT] Player Rewards Progress,19,6281
+17553,,273,6281
+17554,,208,6281
 17555,Scavo,19,6282
 17556,,273,6282
 17557,,208,6282
@@ -9360,14 +9368,33 @@ ID,Value_lang,ReqID,ParentWidgetID
 17560,Bombardamento,19,6284
 17561,,273,6284
 17562,,208,6284
+17563,[DNT] Total Time Remaining: %44535e,52,6285
+17564,,394,6285
+17565,%0ss,433,6286
+17566,[DNT] Content Time Remaining,434,6286
+17567,%0ss,433,6287
+17568,[DNT] Climax Time Remaining,434,6287
+17569,%0ss,433,6288
+17570,[DNT] Shutdown Time Remaining,434,6288
+17571,%0ss,433,6289
+17572,[DNT] Rally Time Remaining,434,6289
 17573,Torna all'Alba Infranta.,52,6290
 17574,Torna all'Alba Infranta.,394,6290
+17575,Spazzatura spalata,19,6291
+17576,,273,6291
+17577,Quantità di spazzatura spalata.,208,6291
+17578,,19,6292
+17579,,273,6292
+17580,,208,6292
 17584,Attivazione evento,19,6294
 17585,Contribuisci a finanziare l'evento,208,6294
 17586,,273,6294
 17590,Attivazione evento,19,6296
 17591,Contribuisci a finanziare l'evento,208,6296
 17592,,273,6296
+17606,,19,6298
+17607,,273,6298
+17608,,208,6298
 17609,,19,6064
 17610,,273,6064
 17611,,208,6064
@@ -9377,6 +9404,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 17615,,19,6068
 17616,,273,6068
 17617,,208,6068
+17622,Tempo restante: %8529k,2,6300
+17623,,3,6300
+17624,,4,6300
+17625,Squadra Viola: %3600w giocatori restanti,2,6301
+17626,,3,6301
+17627,,4,6301
+17628,Squadra Oro: %3601w giocatori restanti,2,6302
+17629,,3,6302
+17630,,4,6302
+17631,,19,6303
+17632,%2673fn,273,6303
+17633,Reputazione attuale con il Cartello degli Acqualorda.,208,6303
+17634,,19,6304
+17635,%2677fn,273,6304
+17636,Reputazione attuale con il Cartello degli Spargifumo.,208,6304
+17637,,19,6305
+17638,%2675fn,273,6305
+17639,Reputazione attuale con il Cartello degli Acquanera.,208,6305
+17640,,19,6306
+17641,%2671fn,273,6306
+17642,Reputazione attuale con la S.P.R. & Co.,208,6306
 17645,Gli Echi Radiosi resteranno attivi per:,19,6147
 17646,,273,6147
 17647,,208,6147
@@ -9409,6 +9457,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 17748,,394,6322
 17752,|nRicompensa settimanale:,52,6323
 17753,,394,6323
+17754,"Quando tutti i personaggi sono sul lato della stanza di Mug o di Zee, la testa corrispondente prende il comando e diventa Honcho Capo.",642,6315
+17755,"Quando tutti i personaggi sono dalla parte di Zee, Zee diventa Honcho Capo!",645,6315
+17756,"Quando tutti i personaggi sono dalla parte di Mug, Mug diventa Honcho Capo!",646,6315
 17757,|nRicompensa settimanale:,52,6324
 17758,,394,6324
 17759,,621,6325
@@ -9429,6 +9480,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17778,,394,6332
 17779,Entra nella caverna e sconfiggi le minacce all'interno.,52,6333
 17780,,394,6333
+17781,%27217w/%27218w                                                    %27216w/%27218w,52,6330
+17782,,394,6330
 17869,,708,6334
 17870,,709,6334
 17871,,710,6334
@@ -9547,6 +9600,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17992,Cariche rimaste,19,6382
 17993,,273,6382
 17994,,208,6382
+18007,,19,6575
+18008,|Hspell:471749|h,208,6575
+18009,,273,6575
+18010,Batteria Termale,19,6576
+18011,|Hspell:471749|h,208,6576
+18012,,273,6576
 18013,,19,6577
 18014,%2605fn,273,6577
 18015,Reputazione attuale con il Generale.,208,6577
@@ -9556,6 +9615,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 18019,,19,6579
 18020,%2601fn,273,6579
 18021,Reputazione attuale con la Tessitrice.,208,6579
+18022,,204,6580
+18023,,205,6580
+18024,,204,6581
+18025,,205,6581
+18026,,204,6582
+18027,,205,6582
+18028,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Tempo restante: %27158ha|r|n|n%453315sd,212,6583
+18029,,277,6583
+18030,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Tempo restante: %27158ha|r|n|n%453315sd,212,6584
+18031,,277,6584
+18032,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Tempo restante: %27317ha|r|n|n%453315sd,212,6585
+18033,,277,6585
+18034,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Tempo restante: %27317ha|r|n|n%453315sd,212,6586
+18035,,277,6586
+18036,Questa Scorribanda contiene una cassa del tesoro aggiuntiva che può essere aperta con una Chiave dello Scrigno Ripristinata.|nTempo restante: %27158ha|n|n%453315sd,52,6589
+18037,,394,6589
+18038,Questa Scorribanda contiene una cassa del tesoro aggiuntiva che può essere aperta con una Chiave dello Scrigno Ripristinata.|nTempo restante: %27317ha|n|n%453315sd,52,6590
+18039,,394,6590
+18040,Inquinanti in quarantena,19,6591
+18041,,273,6591
+18042,Quantità di inquinanti messi in quarantena.,208,6591
 18046,"Completa ""Ira del serpente"" per sbloccare.",52,6593
 18047,,394,6593
 18048,,621,6594
@@ -9569,11 +9649,187 @@ ID,Value_lang,ReqID,ParentWidgetID
 18059,,394,6598
 18060,"Completa ""Retaggio dei Vrykul"" per sbloccare.",52,6599
 18061,,394,6599
+18069,Completa %45197e |4missione mondiale:missioni mondiali; a Cavafonda per sbloccare,52,6602
+18070,,394,6602
+18071,Tempo restante: %27248ht,52,6603
+18072,,394,6603
+18073,Completa %45198e |4missione mondiale:missioni mondiali; a Cavafonda per sbloccare,52,6604
+18074,,394,6604
+18075,Tempo restante: %27249ht,52,6605
+18076,,394,6605
+18077,Potenza dell'Impianto di Trivellazione,19,6606
+18078,Riporta le batterie rubate in questo punto,208,6606
+18079,,273,6606
+18080,Potenza dell'Impianto di Trivellazione,19,6607
+18081,Riporta le batterie rubate in questo punto,208,6607
+18082,,273,6607
+18083,Potenza dell'Impianto di Trivellazione,19,6608
+18084,Riporta le batterie rubate in questo punto,208,6608
+18085,,273,6608
+18086,Monete inserite,19,6609
+18087,,273,6609
+18088,Contribuisci con dell'oro per attivare lo S.C.A.R.T.O. Bot.,208,6609
 18089,Torna da Khadgar tra:,19,6610
 18090,,273,6610
 18091,,208,6610
+18097,Spala spazzatura per trovare i tesori!,52,6612
+18098,,394,6612
+18104,Parla con Carlo Tritagrassi per iniziare il lavoro.,52,6614
+18105,,394,6614
+18108,Progresso,19,6616
+18109,,273,6616
+18110,Quantità di clienti aiutati.,208,6616
+18111,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Gruppi nemici affetti: 1|r,212,6617
+18112,0,277,6617
+18113,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Gruppi nemici affetti: 2|r,212,6618
+18114,0,277,6618
+18115,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Gruppi nemici affetti: 3|r,212,6619
+18116,0,277,6619
+18117,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Gruppi nemici affetti: 3|r,212,6620
+18118,0,277,6620
+18119,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Gruppi nemici affetti: 4|r,212,6621
+18120,0,277,6621
+18121,Progresso,19,6622
+18122,,273,6622
+18123,Quantità di scarti assemblati.,208,6622
 18164,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t %3011c Bottino (1.%27601wx),584,6638
 18165,,585,6638
 18166,Bottino totale raccolto in questo scontro. Ottenuto quando la tua squadra viene eliminata o vince. Il Bottino ottenuto aumenta durante l'Impeto del Saccheggio.,598,6638
+18167,,19,6639
+18168,Serbatoio,273,6639
+18169,,208,6639
+18177,,19,6640
+18178,Serbatoio,273,6640
+18179,Serbatoio,208,6640
+18203,Tempo restante: %27582x,52,6613
+18204,,394,6613
+18205,,19,6649
+18206,,208,6649
+18207,,273,6649
+18208,Carica accumulata,19,6650
+18209,,273,6650
+18210,Numero di cristalli lavorati.,208,6650
+18211,Alimentato a Trivella,19,6651
+18212,,273,6651
+18213,Carica aggiunta alla Trivella di Krazzik,208,6651
+18240,,19,6658
+18241,,273,6658
+18242,,208,6658
+18243,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6659
+18244,0,277,6659
+18245,,19,6660
+18246,,273,6660
+18247,,208,6660
+18248,,19,6661
+18249,,273,6661
+18250,,208,6661
+18251,,19,6662
+18252,,273,6662
+18253,,208,6662
+18256,,19,6664
+18257,,273,6664
+18258,,208,6664
+18259,,19,6665
+18260,,273,6665
+18261,,208,6665
+18262,,19,6666
+18263,,273,6666
+18264,,208,6666
+18265,,19,6667
+18266,,273,6667
+18267,,208,6667
+18268,,19,6668
+18269,,208,6668
+18270,,273,6668
 18304,%0ss,433,6682
 18305,,434,6682
+18324,"C'è chi ha problemi con i metodi attraverso cui la S.P.R. & Co. si procura le risorse, ma nessun settore può funzionare senza materiali. Se non vi stanno bene, trovatevi un club del libro. Ma se volete costruire qualcosa, la S.P.R. & Co. ha quello che vi serve.",52,6690
+18325,,394,6690
+18326,"I pirati Acquanera saranno anche un cartello nato da poco, ma stanno già smuovendo le acque nel settore delle spedizioni e delle vacanze di lusso. Possono trasportare ogni tipo di carico, ovunque e in qualsiasi momento, e ora è tutto perfettamente legale. Be', quasi del tutto.",52,6692
+18327,,394,6692
+18328,"Gli Spargifumo sono il cartello più grande e più antico di Cavafonda e hanno le mani in quasi tutti i settori di Azeroth e non solo. Ma negli ultimi tempi, sotto Granstrippo, si concentrano principalmente sull'alchimia di prima qualità.",52,6695
+18329,,394,6695
+18330,"Da brillanti inventori a geni esplosivi, gli Acqualorda hanno tra le loro fila alcuni tra i più ingegnosi Goblin della storia. Hanno fatto scalpore unendosi all'Orda, ma a Cavafonda accetteranno qualsiasi aiuto riusciranno a trovare.",52,6697
+18331,,394,6697
+18341,,19,6701
+18342,,273,6701
+18343,Sei una sfera quasi inarrestabile di pura spazzatura. Travolgi gli oggetti sul tuo percorso per aumentare di dimensioni!,208,6701
+18344,,19,6702
+18345,,273,6702
+18346,Sei una sfera quasi inarrestabile di pura spazzatura!,208,6702
+18382,Completati: %45862e/4,52,6717
+18383,,394,6717
+18384,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6718
+18385,0,277,6718
+18386,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6719
+18387,0,277,6719
+18388,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6720
+18389,0,277,6720
+18390,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6721
+18391,0,277,6721
+18392,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6722
+18393,0,277,6722
+18394,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6723
+18395,,277,6723
+18396,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6724
+18397,0,277,6724
+18398,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6725
+18399,0,277,6725
+18400,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6726
+18401,0,277,6726
+18402,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6727
+18403,0,277,6727
+18404,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6728
+18405,0,277,6728
+18406,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6729
+18407,0,277,6729
+18412,,621,6732
+18413,,622,6732
+18414,,627,6732
+18415,Prossima ricompensa:,52,6733
+18416,,394,6733
+18417,,621,6734
+18418,,622,6734
+18419,,627,6734
+18420,,621,6735
+18421,,622,6735
+18422,,627,6735
+18423,Spedizione e Gestione:,19,6736
+18424,,273,6736
+18425,L'Aumento dei Prezzi è ora attivo. Ottieni ricompense aggiuntive completando lavori di Spedizione e Gestione allo stesso momento degli altri personaggi.,208,6736
+18426,Completati: %39pdc/4,52,6737
+18427,,394,6737
+18428,,212,6738
+18429,,277,6738
+18430,,212,6739
+18431,,277,6739
+18432,,212,6740
+18433,,277,6740
+18454,Convincere Sparachiodi:,19,6745
+18455,,273,6745
+18456,Sparachiodi e Renzik stanno discutendo dei prossimi passi dopo la fuga di Gallywix dalla Sala del Gruzzolo e dopo che gli Eterei hanno preso il Cuore Oscuro.,208,6745
+18560,Serie di Lavori,19,6758
+18561,,273,6758
+18562,Completa 10 lavori di fila per ottenere ricompense aggiuntive!,208,6758
+18639,,212,6785
+18640,,277,6785
+18641,,212,6786
+18642,,277,6786
+18643,,212,6787
+18644,,277,6787
+18645,,212,6788
+18646,,277,6788
+18647,,212,6789
+18648,,277,6789
+18649,,212,6790
+18650,,277,6790
+18651,,212,6791
+18652,,277,6791
+18653,,212,6792
+18654,,277,6792
+18667,"|cnWHITE_FONT_COLOR:Scorta Dorata|r|nSe si completa una Scorribanda con delle vite rimaste, nella Stanza del Tesoro compare una Scorta Dorata che contiene 7 Emblemi Dorati.|n|n|cnWHITE_FONT_COLOR:Scorte Dorate depredate: %35pdc/3 |nSi azzera ogni settimana.",212,6794
+18668,0,277,6794
+18693,,212,6807
+18694,,277,6807
+18734,,212,6825
+18735,,277,6825

@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,,19,1914
+4531,Valor de datos del jugador: %37pdc,19,1914
 4532,Test Widget Tooltip,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -4246,7 +4246,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 7308,,200,2002
 7309,,201,2002
 7310,%1731ss,428,2002
-7311,La corte,433,2903
+7311,Texto de cabecera,433,2903
 7312,,200,1752
 7313,,201,1752
 7314,Texto de cabecera,428,1752
@@ -8541,9 +8541,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16030,,394,5674
 16031,Despierta,52,5675
 16032,,394,5675
-16033,La temporada 1 comenzará dentro de:,19,5676
+16033,La temporada 2 comenzará dentro de:,19,5676
 16034,,273,5676
-16035,¡La temporada 1 de las profundidades comenzará pronto y traerá consigo nuevos desafíos y recompensas! Consulta el panel de las profundidades para informarte.,208,5676
+16035,"¡La temporada 2 de las profundidades comenzará pronto y traerá consigo nuevos desafíos, bibelots y recompensas de mayor nivel de objeto!",208,5676
 16041,Completa %43671e |4misión del mundo:misiones del mundo; en la Isla de Dorn para desbloquear esto.,52,5678
 16042,,394,5678
 16061,Tu salud ha aumentado|nEl daño de tus facultades ha aumentado,52,5683
@@ -8642,8 +8642,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16249,0,277,5758
 16250,,212,5759
 16251,0,277,5759
-16252,,212,5760
-16253,0,277,5760
 16256,"Visión del alma-mundo|n|nEstas cavernas fueron antaño el hogar de feroces criaturas atrapadas en un ciclo de depredación que, al final, desembocó en su propia extinción.",52,5762
 16257,,394,5762
 16258,Tiempo restante,19,5763
@@ -9110,8 +9108,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17247,,248,6154
 17248,,239,6154
 17249,,249,6154
-17272,Gesta de prueba,677,6166
-17273,3 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6166
+17272,Test Delve,677,6166
+17273,3,679,6166
 17274,|Hspell:458103|h|nMuertes totales: %26215w,680,6166
 17275,8,681,6166
 17278,|TInterface\ICONS\Spell_Holy_PureOfHeart.blp:15|t |cFF0091F2[Eco radiante]|r: |cFFFFFFFF%220520ic|r,52,6168
@@ -9319,6 +9317,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17486,,621,6267
 17487,,622,6267
 17488,"Contiene materiales de mejora de equipo, oro y más cosas.",627,6267
+17489,%0ss,433,6268
+17490,[DNT] Scenario Time Remaining,434,6268
 17491,Tiempo restante: %25452xa,52,5542
 17492,,394,5542
 17493,Tiempo restante: %25453xa,52,5543
@@ -9335,6 +9335,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17506,,394,5561
 17507,Tiempo restante: %25709xa,52,5562
 17508,,394,5562
+17520,Reservas de armas birladas: %26994w/%26995w,52,6270
+17521,Birla reservas de armas para obtener el equipo necesario para entrar en la presa.,394,6270
 17530,|TInterface/ICONS/inv_misc_chest_azerite.BLP:16:16|t |cFFFFD200Puntuación de recuerdo del Alma-mundo: |r%3115c,52,6272
 17531,Derrota a los recuerdos de amenazas para Azeroth para aumentar tu puntuación y conseguir más |TInterface/ICONS/INV_Valorstone_Base.BLP:18:18|t piedras de valor y |TInterface/ICONS/INV_Gizmo_HardenedAdamantiteTube.blp:18:18|t fragmentos de llave de arca.,394,6272
 17534,|nRecompensa semanal:,52,6274
@@ -9352,6 +9354,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17546,Explosivos,19,6279
 17547,,273,6279
 17548,,208,6279
+17549,[DNT] Content Steps Progress,19,6280
+17550,,273,6280
+17551,,208,6280
+17552,[DNT] Player Rewards Progress,19,6281
+17553,,273,6281
+17554,,208,6281
 17555,Excavación,19,6282
 17556,,273,6282
 17557,,208,6282
@@ -9360,14 +9368,33 @@ ID,Value_lang,ReqID,ParentWidgetID
 17560,Bombardeo,19,6284
 17561,,273,6284
 17562,,208,6284
+17563,[DNT] Total Time Remaining: %44535e,52,6285
+17564,,394,6285
+17565,%0ss,433,6286
+17566,[DNT] Content Time Remaining,434,6286
+17567,%0ss,433,6287
+17568,[DNT] Climax Time Remaining,434,6287
+17569,%0ss,433,6288
+17570,[DNT] Shutdown Time Remaining,434,6288
+17571,%0ss,433,6289
+17572,[DNT] Rally Time Remaining,434,6289
 17573,Vuelve al Rompealbas.,52,6290
 17574,Vuelve al Rompealbas.,394,6290
+17575,Basura recogida,19,6291
+17576,,273,6291
+17577,La cantidad de basura recogida,208,6291
+17578,,19,6292
+17579,,273,6292
+17580,,208,6292
 17584,Activar evento,19,6294
 17585,Contribuye al evento con fondos,208,6294
 17586,,273,6294
 17590,Activar evento,19,6296
 17591,Contribuye al evento con fondos,208,6296
 17592,,273,6296
+17606,,19,6298
+17607,,273,6298
+17608,,208,6298
 17609,,19,6064
 17610,,273,6064
 17611,,208,6064
@@ -9377,6 +9404,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 17615,,19,6068
 17616,,273,6068
 17617,,208,6068
+17622,Tiempo restante: %8529k,2,6300
+17623,,3,6300
+17624,,4,6300
+17625,Equipo morado: %3600w jugadores restantes,2,6301
+17626,,3,6301
+17627,,4,6301
+17628,Equipo dorado: %3601w jugadores restantes,2,6302
+17629,,3,6302
+17630,,4,6302
+17631,,19,6303
+17632,%2673fn,273,6303
+17633,Reputación actual con el Cártel Pantoque.,208,6303
+17634,,19,6304
+17635,%2677fn,273,6304
+17636,Reputación actual con el Cártel Bonvapor.,208,6304
+17637,,19,6305
+17638,%2675fn,273,6305
+17639,Reputación actual con el Cártel Aguasnegras.,208,6305
+17640,,19,6306
+17641,%2671fn,273,6306
+17642,Reputación actual con Ventura y Cía.,208,6306
 17645,Los ecos radiantes estarán activos durante:,19,6147
 17646,,273,6147
 17647,,208,6147
@@ -9409,6 +9457,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 17748,,394,6322
 17752,|nRecompensa semanal:,52,6323
 17753,,394,6323
+17754,Mug o Zee tomarán el mando y se convertirán en mandamás cuando todos los jugadores estén en su lado de la sala.,642,6315
+17755,"Cuando todos los jugadores están en el bando de Zee, ¡se convierte en líder!",645,6315
+17756,"Cuando todos los jugadores están en el bando de Mug, ¡se convierte en líder!",646,6315
 17757,|nRecompensa semanal:,52,6324
 17758,,394,6324
 17759,,621,6325
@@ -9429,6 +9480,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17778,,394,6332
 17779,Entra en la cueva y derrota a las amenazas de su interior.,52,6333
 17780,,394,6333
+17781,%27217w/%27218w                                                    %27216w/%27218w,52,6330
+17782,,394,6330
 17869,,708,6334
 17870,,709,6334
 17871,,710,6334
@@ -9547,6 +9600,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17992,Cargas restantes,19,6382
 17993,,273,6382
 17994,,208,6382
+18007,,19,6575
+18008,|Hspell:471749|h,208,6575
+18009,,273,6575
+18010,Batería térmica,19,6576
+18011,|Hspell:471749|h,208,6576
+18012,,273,6576
 18013,,19,6577
 18014,%2605fn,273,6577
 18015,Reputación actual con el general.,208,6577
@@ -9556,6 +9615,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 18019,,19,6579
 18020,%2601fn,273,6579
 18021,Reputación actual con la Tejedora.,208,6579
+18022,,204,6580
+18023,,205,6580
+18024,,204,6581
+18025,,205,6581
+18026,,204,6582
+18027,,205,6582
+18028,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Tiempo restante: %27158ha|r|n|n%453315sd,212,6583
+18029,,277,6583
+18030,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Tiempo restante: %27158ha|r|n|n%453315sd,212,6584
+18031,,277,6584
+18032,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Tiempo restante: %27317ha|r|n|n%453315sd,212,6585
+18033,,277,6585
+18034,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Tiempo restante: %27317ha|r|n|n%453315sd,212,6586
+18035,,277,6586
+18036,Esta profundidad contiene una arqueta extra que puede abrirse con una llave de arca restaurada.|nTiempo restante: %27158ha|n|n%453315sd,52,6589
+18037,,394,6589
+18038,Esta profundidad contiene una arqueta extra que puede abrirse con una llave de arca restaurada.|nTiempo restante: %27317ha|n|n%453315sd,52,6590
+18039,,394,6590
+18040,Sustancias contaminantes en cuarentena,19,6591
+18041,,273,6591
+18042,Cantidad de sustancias contaminantes en cuarentena.,208,6591
 18046,"Completa ""Cólera de serpiente"" para desbloquear esto.",52,6593
 18047,,394,6593
 18048,,621,6594
@@ -9569,11 +9649,187 @@ ID,Value_lang,ReqID,ParentWidgetID
 18059,,394,6598
 18060,"Completa ""El legado de los vrykuls"" para desbloquear esto.",52,6599
 18061,,394,6599
-18089,Vuelve con Khadgar en:,19,6610
+18069,Completa %45197e |4misión del mundo:misiones del mundo; en Minahonda para desbloquear esto.,52,6602
+18070,,394,6602
+18071,Tiempo restante: %27248ht,52,6603
+18072,,394,6603
+18073,Completa %45198e |4misión del mundo:misiones del mundo; en Minahonda para desbloquear esto.,52,6604
+18074,,394,6604
+18075,Tiempo restante: %27249ht,52,6605
+18076,,394,6605
+18077,Potencia del equipo de excavación,19,6606
+18078,Devuelve las baterías robadas a esta ubicación,208,6606
+18079,,273,6606
+18080,Potencia del equipo de excavación,19,6607
+18081,Devuelve las baterías robadas a esta ubicación,208,6607
+18082,,273,6607
+18083,Potencia del equipo de excavación,19,6608
+18084,Devuelve las baterías robadas a esta ubicación,208,6608
+18085,,273,6608
+18086,Monedas insertadas,19,6609
+18087,,273,6609
+18088,Contribuye con oro a activar el Robot de C.H.A.T.A.R.R.A.,208,6609
+18089,Vuelve con Khadgar dentro de:,19,6610
 18090,,273,6610
 18091,,208,6610
+18097,¡Recoge basura para encontrar tesoros!,52,6612
+18098,,394,6612
+18104,Habla con Carlo Muelegrasa para empezar el trabajo.,52,6614
+18105,,394,6614
+18108,Progreso,19,6616
+18109,,273,6616
+18110,Cantidad de clientes atendidos.,208,6616
+18111,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 1|r,212,6617
+18112,0,277,6617
+18113,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 2|r,212,6618
+18114,0,277,6618
+18115,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 3|r,212,6619
+18116,0,277,6619
+18117,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 3|r,212,6620
+18118,0,277,6620
+18119,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Grupos enemigos afectados: 4|r,212,6621
+18120,0,277,6621
+18121,Progreso,19,6622
+18122,,273,6622
+18123,Cantidad de chatarra reunida.,208,6622
 18164,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c de pillaje (1.%27601wx),584,6638
 18165,,585,6638
 18166,Total de pillaje obtenido en este encuentro. Se otorga cuando tu tripulación vence o cae eliminada. El pillaje obtenido aumenta durante el aluvión de pillaje.,598,6638
+18167,,19,6639
+18168,Tanque de aceite,273,6639
+18169,,208,6639
+18177,,19,6640
+18178,Tanque de aceite,273,6640
+18179,Tanque de aceite,208,6640
+18203,Tiempo restante: %27582x,52,6613
+18204,,394,6613
+18205,,19,6649
+18206,,208,6649
+18207,,273,6649
+18208,Carga acumulada,19,6650
+18209,,273,6650
+18210,Cantidad de cristales procesados.,208,6650
+18211,Taladro potenciado,19,6651
+18212,,273,6651
+18213,Carga añadida al taladro de Krazzik,208,6651
+18240,,19,6658
+18241,,273,6658
+18242,,208,6658
+18243,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6659
+18244,0,277,6659
+18245,,19,6660
+18246,,273,6660
+18247,,208,6660
+18248,,19,6661
+18249,,273,6661
+18250,,208,6661
+18251,,19,6662
+18252,,273,6662
+18253,,208,6662
+18256,,19,6664
+18257,,273,6664
+18258,,208,6664
+18259,,19,6665
+18260,,273,6665
+18261,,208,6665
+18262,,19,6666
+18263,,273,6666
+18264,,208,6666
+18265,,19,6667
+18266,,273,6667
+18267,,208,6667
+18268,,19,6668
+18269,,208,6668
+18270,,273,6668
 18304,%0ss,433,6682
 18305,,434,6682
+18324,"Algunos podrían discrepar con la forma en que Ventura y Cía. adquiere sus recursos, pero la industria no puede funcionar sin materiales. Si quieres algo bonito, apúntate a un club de lectura. Pero si quieres construir algo, llama a Ventura y Cía.",52,6690
+18325,,394,6690
+18326,"Puede que el de los piratas de Aguasnegras sea un cártel formado recientemente, pero ya causa sensación en los sectores del transporte marítimo y las vacaciones de lujo. Pueden mover cualquier carga a cualquier lugar y en cualquier momento, ¡y ahora de manera legal! Bueno, casi.",52,6692
+18327,,394,6692
+18328,"El Cártel Bonvapor, el más grande y antiguo de Minahonda, ha estado presente en casi todas las industrias de Azeroth y más allá. Pero ahora, bajo el mando de Marin Tragonublo, su especialidad es la alquimia de calidad impoluta.",52,6695
+18329,,394,6695
+18330,"El cártel de Pantoque es el hogar de algunos de los goblins más brillantes de Azeroth, de brillantes inventores a genios de los explosivos. Puede que hayan tenido éxito al unirse a la Horda, pero en Minahonda necesitarán todos los amigos que puedan encontrar.",52,6697
+18331,,394,6697
+18341,,19,6701
+18342,,273,6701
+18343,Eres una esfera de basura pura casi imparable. ¡Arrolla objetos para aumentar tu tamaño!,208,6701
+18344,,19,6702
+18345,,273,6702
+18346,¡Eres una esfera de basura pura casi imparable!,208,6702
+18382,Completado %45862e/4,52,6717
+18383,,394,6717
+18384,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6718
+18385,0,277,6718
+18386,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6719
+18387,0,277,6719
+18388,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6720
+18389,0,277,6720
+18390,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6721
+18391,0,277,6721
+18392,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6722
+18393,0,277,6722
+18394,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6723
+18395,,277,6723
+18396,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6724
+18397,0,277,6724
+18398,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6725
+18399,0,277,6725
+18400,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6726
+18401,0,277,6726
+18402,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6727
+18403,0,277,6727
+18404,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6728
+18405,0,277,6728
+18406,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6729
+18407,0,277,6729
+18412,,621,6732
+18413,,622,6732
+18414,,627,6732
+18415,Siguiente recompensa:,52,6733
+18416,,394,6733
+18417,,621,6734
+18418,,622,6734
+18419,,627,6734
+18420,,621,6735
+18421,,622,6735
+18422,,627,6735
+18423,Envíos y Portes:,19,6736
+18424,,273,6736
+18425,El evento Aumento de precio está activo. Consigue recompensas extras por completar trabajos de Envíos y Portes a la vez que otros jugadores.,208,6736
+18426,Completado %39pdc/4,52,6737
+18427,,394,6737
+18428,,212,6738
+18429,,277,6738
+18430,,212,6739
+18431,,277,6739
+18432,,212,6740
+18433,,277,6740
+18454,Convencer a Gazlowe:,19,6745
+18455,,273,6745
+18456,Gazlowe y Renzik están discutiendo sus siguientes pasos tras la fuga de Gallywix de la Sala de Acopio y el robo del corazón oscuro por parte de los etéreos.,208,6745
+18560,Racha de trabajos,19,6758
+18561,,273,6758
+18562,¡Completa 10 trabajos seguidos para ganar recompensas extras!,208,6758
+18639,,212,6785
+18640,,277,6785
+18641,,212,6786
+18642,,277,6786
+18643,,212,6787
+18644,,277,6787
+18645,,212,6788
+18646,,277,6788
+18647,,212,6789
+18648,,277,6789
+18649,,212,6790
+18650,,277,6790
+18651,,212,6791
+18652,,277,6791
+18653,,212,6792
+18654,,277,6792
+18667,"|cnWHITE_FONT_COLOR:Alijo dorado|r|nAl completar una profundidad con vidas restantes, aparecerá un alijo dorado con 7 blasones dorados en la sala del tesoro.|n|n|cnWHITE_FONT_COLOR:Alijo dorado saqueado: %35pdc/3|nSe restablece cada semana.",212,6794
+18668,0,277,6794
+18693,,212,6807
+18694,,277,6807
+18734,,212,6825
+18735,,277,6825

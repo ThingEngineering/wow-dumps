@@ -3814,4 +3814,9 @@ Projette des traits de l’ombre sur l’équipe ennemie et lui inflige [Standar
 2524,Spores séductrices,"Inflige [StandardDamage(1,1)] $lpoint:points; de dégâts [School()] par tour.",5929575,6,0,0,0
 2525,Spores séductrices,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
-Recouvre l’équipe adverse d’arômes enivrants et lui inflige instantanément [StandardDamage(1,1)] $lpoint:points; de dégâts [School()], plus [StandardDamage(1,1,639)] $lpoint:points; de dégâts [School()] par tour pendant [duration(1,2)] |4tour:tours;. Persiste malgré les changements de mascotte.",5929575,6,0,0,0
+Recouvre l’équipe adverse d’arômes enivrants et lui inflige instantanément [StandardDamage(1,1)] $lpoint:points; de dégâts [School()], plus [StandardDamage(1,1,2524)] $lpoint:points; de dégâts [School()] par tour pendant [duration(1,2)] |4tour:tours;. Persiste malgré les changements de mascotte.",5929575,6,0,0,0
+2526,Perforateur à percussion,"|cffffffffChances de toucher :|r [StandardAccuracy(1,2)]
+
+Inflige [StandardDamage(1,2)*4] $lpoint:points; de dégâts [School()] à la mascotte adverse.
+
+Le perforateur à percussion brise tous les effets de réduction des dégâts fixes sur la cible ennemie.",1278390,9,0,0,0
