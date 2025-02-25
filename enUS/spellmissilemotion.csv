@@ -27551,3 +27551,11 @@ local minAlpha = 0.25
 if progress > alphaThreshold then	--last x% fades slightly
 	colorA = math.min(1,minAlpha + (((1 - progress)/alphaThreshold) * (1 - minAlpha)))
 end",0,3
+4869,11.1 Raid - Undermine - Boss - Refinery - Conveyor Weapon Spawn Visual - Magnet - CHTL,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+scale = 0.2 + (0.8 * progress)",0,1
