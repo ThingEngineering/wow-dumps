@@ -27559,3 +27559,13 @@ transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 
 scale = 0.2 + (0.8 * progress)",0,1
+4882,11.1 Raid - Undermine - Gallywix - BBBB Mech Shoot Tank Missile (Directed) v2,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 5
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+local spinRate = 30
+local initPitch = -60
+modelPitch = initPitch + (time * spinRate)",0,1
