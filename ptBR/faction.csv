@@ -1,0 +1,819 @@
+ID,ReputationRaceMask[0],ReputationRaceMask[1],ReputationRaceMask[2],ReputationRaceMask[3],Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,FriendshipRepID,Flags,ParagonFactionID,RenownFactionID,RenownCurrencyID,ReputationClassMask[0],ReputationClassMask[1],ReputationClassMask[2],ReputationClassMask[3],ReputationFlags[0],ReputationFlags[1],ReputationFlags[2],ReputationFlags[3],ReputationBase[0],ReputationBase[1],ReputationBase[2],ReputationBase[3],ReputationMax[0],ReputationMax[1],ReputationMax[2],ReputationMax[3],ParentFactionMod[0],ParentFactionMod[1],ParentFactionCap[0],ParentFactionCap[1]
+1,0,0,0,0,"JOGADOR, Humano",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2,0,0,0,0,"JOGADOR, Orc",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+3,0,0,0,0,"JOGADOR, Anão",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+4,0,0,0,0,"JOGADOR, Elfo Noturno",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+5,0,0,0,0,"JOGADOR, Morto-vivo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+6,0,0,0,0,"JOGADOR, Tauren",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+7,0,0,0,0,Criatura,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+8,0,0,0,0,"JOGADOR, Gnomo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+9,0,0,0,0,"JOGADOR, Troll",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+14,0,0,0,0,Monstro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+15,0,0,0,0,Irmandade Défias,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+16,0,0,0,0,Gnoll - Pata Molhada,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+17,0,0,0,0,Gnoll - Cristarrubra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+18,0,0,0,0,Gnoll - Umbrapele,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+19,0,0,0,0,Murloc,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+20,0,0,0,0,"Morto-vivo, Flagelo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+21,-1,0,0,0,Angra do Butim,"Esta promissora cidade costeira é comandada pelo Barão Rezingada, integrante dos Saqueadores de Aguanegra. São inimigos mortais dos Bucaneiros da Vela Sangrenta e fazem parte do Cartel Bondebico.",1,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5
+22,0,0,0,0,Fera - Aranha,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+23,0,0,0,0,Fera - Javali,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+24,0,0,0,0,Worgen,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+25,0,0,0,0,Kobold,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+26,0,0,0,0,"Troll, Sanguescalpo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+27,0,0,0,0,"Troll, Rachacrânio",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+28,0,0,0,0,Presa,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+29,0,0,0,0,Fera - Lobo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+30,0,0,0,0,Traidor da Irmandade Défias,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+31,0,0,0,0,"Respeitado, Escondido",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+32,0,0,0,0,Trogg,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+33,0,0,0,0,"Troll, Jubafria",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+34,0,0,0,0,"Orc, Rocha Negra",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+35,0,0,0,0,Vilão,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+36,0,0,0,0,Vítima,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+37,0,0,0,0,Fera - Urso,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+38,0,0,0,0,Ogro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+39,0,0,0,0,Mercenários de Kurzen,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+40,0,0,0,0,Escoltado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+41,0,0,0,0,Empreendimentos S.A.,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+42,0,0,0,0,Fera - Raptor,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+43,0,0,0,0,Basilisco,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+44,0,0,0,0,Revoada Dragônica Verde,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+45,0,0,0,0,Os Perdidos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+46,-1,0,0,0, Ferraria - Forja de Armaduras,,29,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3000,0,0,0,1,1,5,5
+47,2972009545,-6184943489809468494,2052,0,Altaforja,Esta capital da Aliança é o orgulho dos anões de Dun Morogh. Lar do Rei Magni.,20,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+48,0,0,0,0,Anões Ferro Negro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+49,0,0,0,0,"Humano, Vigília Noturna",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+50,0,0,0,0,Revoada Dragônica Vermelha,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+51,0,0,0,0,Gnoll - Pelemusgo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+52,0,0,0,0,"Orc, Presa do Dragão Vil",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+53,0,0,0,0,Gnomo - Leproso,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+54,2971995149,-6184943489809468494,16448,0,Gnomeregan,"Os antigos habitantes de Gnomeregan, que agora vivem na Vila da Gambiarra, associados à Aliança.",18,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+55,0,0,0,0,Leopardo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+56,0,0,0,0,Cruzada Escarlate,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+57,0,0,0,0,Gnoll - Putricouro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+58,0,0,0,0,Fera - Gorila,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+59,-1,0,0,0,Irmandade do Tório,Os anões da Irmandade do Tório valorizam a excelência como artesãos e se dedicam a desvendar os segredos da Montanha Rocha Negra.,4,1118,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+60,0,0,0,0,Naga,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+61,0,0,0,0,Dalaran,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+62,0,0,0,0,Espírito Desamparado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+63,0,0,0,0,Uivonegro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+64,0,0,0,0,Capeta,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+65,0,0,0,0,Pelurso,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+66,0,0,0,0,Genérico da Horda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+67,-6184943489809468494,6130900294268439629,0,0,Horda,,12,1118,0,0,0,0,0,0,0,0,0,0,25,14,0,0,3500,-42000,0,0,42000,-42000,0,0,0,0,5,5
+68,1308799394,6130900294268439629,16,512,Cidade Baixa,"Comandados por Sylvana Correventos, os Renegados se juntaram à Horda, em uma tênue aliança, e estabeleceram sua capital abaixo das Ruínas de Lordaeron.",17,67,0,0,0,0,0,0,0,0,0,0,273,6,17,17,500,-42000,4000,3100,42000,-42000,42000,42000,1,0.25,4,7
+69,2972011589,-6184943489809468494,8,0,Darnassus,Esta capital da Aliança é habitada por Elfos Noturnos e está localizada na Ilha de Teldrassil. É comandada pela Sacerdotisa da Lua Tyrande Murmuréolo.,21,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+70,-1,0,0,0,Camarilha,"Uma organização criminosa composta em grande parte por humanos, que opera principalmente nas Montanhas Alterac e no Contraforte de Eira dos Montes.",6,1118,0,0,0,0,0,0,0,0,0,0,2,0,0,0,-10000,0,0,0,0,0,0,0,0,0,5,5
+71,0,0,0,0,Milícia de Eira dos Montes,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+72,824527948,-6184943489809468494,2147483649,0,Ventobravo,"Um dos últimos bastiões do poder dos humanos, esta capital da Aliança é comandada pelo sábio, embora jovem, rei Anduin Wrynn.",19,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+73,0,0,0,0,Demônio,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+74,0,0,0,0,Elemental,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+75,0,0,0,0,Espírito,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+76,1308791200,6130900294268439629,8194,528,Orgrimmar,"Fundada por Thrall, esta capital da Horda é o lar de muitos dos orgulhosos clãs de orcs de Durotar.",14,67,0,0,0,0,0,0,0,0,0,0,273,6,17,17,3100,-42000,4000,500,42000,-42000,42000,42000,1,0.25,4,7
+77,0,0,0,0,Tesouro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+78,0,0,0,0,Gnoll - Fuçalama,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+79,0,0,0,0,"Eira dos Montes, Prefeito de Costa Sul",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+80,0,0,0,0,Revoada Dragônica Negra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+81,1174581634,6130900294268439629,528,134217760,Penhasco do Trovão,"Baine Casco Sangrento lidera seu povo, os orgulhosos Taurens, nesta poderosa capital da Horda.",16,67,0,0,0,0,0,0,0,0,0,0,273,6,17,17,3100,-42000,500,4000,42000,-42000,42000,42000,1,0.25,4,7
+82,0,0,0,0,"Troll, Cascasseca",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+83,-1,0,0,0,Couraria - Elemental,,23,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,2999,0,0,0,3000,0,0,0,1,1,5,5
+84,0,0,0,0,"Javatusco, Crinavalha",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+85,0,0,0,0,"Javatusco, Costagulha",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+86,-1,0,0,0,Couraria - Escama de Dragão,,22,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,2999,0,0,0,3000,0,0,0,1,1,5,5
+87,-1,0,0,0,Bucaneiros da Vela Sangrenta,Estes piratas sedentos de sangue são responsáveis pela ruína de muitos mercadores dos mares. Inimigos declarados da Angra do Butim.,0,1118,0,0,0,0,0,0,0,0,0,0,2,0,0,0,-6500,0,0,0,42000,0,0,0,0,0,5,5
+88,0,0,0,0,Profundezas Negras,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+89,0,0,0,0,Makrura,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+90,0,0,0,0,"Centauro, Kolkar",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+91,0,0,0,0,"Centauro, Galath",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+92,-1,0,0,0,Clã dos Centauros Gelkis,Estes centauros estabeleceram seu lar na região sul de Desolação. Inimigos mortais dos Centauros Magram.,2,1118,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2000,0,0,0,42000,0,0,0,0,0,5,5
+93,-1,0,0,0,Clã dos Centauros Magram,Estes centauros estabeleceram seu lar na região leste de Desolação. Inimigos mortais dos Centauros Gelkis.,3,1118,0,0,0,0,0,0,0,0,0,0,2,0,0,0,2000,0,0,0,42000,0,0,0,0,0,5,5
+94,0,0,0,0,Maraudino,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+108,0,0,0,0,Theramore,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+109,0,0,0,0,"Javatusco, Cortacharco",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+110,0,0,0,0,"Javatusco, Crinavalha 2",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+111,0,0,0,0,"Javatusco, Pontafatal",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+128,0,0,0,0,Inimigo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+148,0,0,0,0,Ambiente,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+168,0,0,0,0,Caravana de Etergarde,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+169,-1,0,0,0,Cartel Bondebico,,10,1118,0,0,0,0,0,0,0,0,0,0,12,0,0,0,500,0,0,0,42000,0,0,0,0,0,5,5
+189,0,0,0,0,Genérico da Aliança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+209,0,0,0,0,Etergarde,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+229,0,0,0,0,Caverna Ululante,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+249,0,0,0,0,Silitídeo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+269,0,0,0,0,Remanescentes de Luaprata,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+270,-1,0,0,0,Tribo Zandalar,Esses trolls vieram para a Ilha Yojamba com o intuito de conseguir ajuda contra o Deus Sanguinário ressuscitado e seus Sacerdotes Atal'ai em Zul'Gurub.,51,1118,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+289,-1,0,0,0, Ferraria - Forja de Armas,,30,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3000,0,0,0,1,1,5,5
+309,0,0,0,0,Escorpídeo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+310,0,0,0,0,Fera - Morcego,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+311,0,0,0,0,Titã,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+329,0,0,0,0,Capataz Arruela,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+349,-1,0,0,0,Corvoforte,Esta guilda de ladrões e assassinos abre os braços somente para aqueles mostram extraordinário valor. Inimigos declarados da Camarilha.,5,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+369,-1,0,0,0,Geringontzan,"Capital do Cartel Bondebico e lar dos mais exímios engenheiros, alquimistas e mercadores goblins.",7,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5
+389,0,0,0,0,Inseto de Gnomeregan,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+409,0,0,0,0,Harpia,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+429,0,0,0,0,Lâmina Ardente,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+449,0,0,0,0,Larápio de Sedanera,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+450,0,0,0,0,Aranha Ardente,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+469,6130900294268439629,-6184943489809468494,0,0,Aliança,,11,1118,0,0,0,0,0,0,0,0,0,0,25,14,0,0,3300,-42000,0,0,42000,-42000,0,0,0,0,5,5
+470,-1,0,0,0,Vila Catraca,"Braço do Cartel Bondebico, esta cidade goblin proporciona um refúgio neutro para aqueles que desejam comercializar produtos e serviços nos Sertões.",9,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5
+489,0,0,0,0,"Goblin, Cliente do Bar Ferro Negro",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+509,6130900294268439629,-6184943489809468494,0,0,A Liga de Arathor,A Liga de Arathor luta para retomar a terra perdida da Bacia Arathi para seus benfeitores em Ventobravo.,53,891,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+510,-6184943489809468494,6130900294268439629,0,0,Os Profanadores,Os Profanadores lutam para tomar os valiosos recursos da Bacia Arathi para a Horda.,52,892,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+511,0,0,0,0,Gigante,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+529,-1,0,0,0,Aurora Argêntea,Uma organização com foco em proteger Azeroth da ameaça do Flagelo. Suas fortalezas estão localizadas nas Terras Pestilentas Ocidentais e Orientais.,13,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,0,0,0,42000,0,0,0,0,0,5,5
+530,235057442,6130900294268439629,528,1073741952,Trolls Lançanegra,"Essa tribo de trolls exilados reuniu forças com Thrall e a Horda. Seu lar, hoje, é Durotar, ao lado de seus aliados orcs.",15,67,0,0,0,0,0,0,0,0,0,0,273,6,17,17,3100,-42000,500,4000,42000,-42000,42000,42000,1,0.25,4,7
+531,0,0,0,0,Revoada Dragônica Bronze,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+532,0,0,0,0,Revoada Dragônica Azul,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+549,-1,0,0,0,Couraria - Tribal,,24,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,2999,0,0,0,3000,0,0,0,1,1,5,5
+550,-1,0,0,0,Engenharia - Goblin,,26,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,2999,0,0,0,3000,0,0,0,1,1,5,5
+551,-1,0,0,0,Engenharia - Gnômica,,25,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,2999,0,0,0,3000,0,0,0,1,1,5,5
+569,-1,0,0,0,Ferraria - Forja de Martelos,,33,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3000,0,0,0,1,1,5,5
+570,-1,0,0,0,Ferraria - Forja de Machados,,31,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3000,0,0,0,1,1,5,5
+571,-1,0,0,0,Ferraria - Forja de Espadas,,32,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3000,0,0,0,1,1,5,5
+572,0,0,0,0,"Troll, Ramavil",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+573,0,0,0,0,Os Flibusteiros dos Mares do Sul,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+574,-1,0,0,0,Caer Darrow,,34,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,1,1,5,5
+575,0,0,0,0,"Pelurso, não corrompido",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+576,-1,0,0,0,Domínio dos Presamatos,"Sendo a último tribo não corrompida de pelursos, os Presamatos lutam por preservar suas tradições espirituais e acabar com o sofrimento de seus confrades.",35,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,5,5
+577,-1,0,0,0,Visteterna,Este posto comercial é comandado pelos goblins do Cartel Bondebico e situa-se na encruzilhada das principais rotas de comércio de Hibérnia.,28,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5
+589,-6184943489809468494,6130900294268439629,0,0,Treinadores de Sabres-do-inverno,Este pequeno grupo de solitários elfos noturnos cria e adestra sabres-do-inverno em Hibérnia.,27,1118,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,5,5
+609,-1,3416260776,0,0,Círculo Cenariano,"Os druidas do Círculo Cenariano, guardiões da natureza, vivem em seu plácido lar, a Clareira da Lua.",36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5
+629,0,0,0,0,Trolls Lança Partida,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+630,0,0,0,0,Treinadores de Ravassauros,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+649,0,0,0,0,Senescal Executus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+669,0,0,0,0,Fera - Ave Carniceira,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+670,0,0,0,0,Fera - Gato,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+671,0,0,0,0,Fera - Caranguejo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+672,0,0,0,0,Fera - Crocolisco,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+673,0,0,0,0,Fera - Hiena,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+674,0,0,0,0,Fera - Coruja,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+675,0,0,0,0,Fera - Escorpídeo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+676,0,0,0,0,Fera - Moa,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+677,0,0,0,0,Fera - Tartaruga,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+678,0,0,0,0,Fera - Serpente Alada,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+679,0,0,0,0,Boneco de Treinamento,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+689,0,0,0,0,Revoada Dragônica Negra - Isca,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+709,0,0,0,0,Campo de Batalha Neutro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+729,-6184943489809468494,6130900294268439629,0,0,Clã Lobo do Gelo,O Clã Lobo do Gelo luta para expulsar os anões da Expedição Lançatroz do Vale Alterac.,41,892,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+730,6130900294268439629,-6184943489809468494,0,0,Guarda de Lançatroz,"Os anões Lançatroz estabeleceram residência no Vale Alterac, onde lutam obstinadamente contra os orcs Lobo do Gelo.",40,891,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+749,-1,0,0,0,Senhores das Águas Hidraxianos,Esses elementais se abrigaram nas ilhas da parte leste de Azshara. Inimigos jurados do exército de Ragnaros.,42,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+750,0,0,0,0,Senhores do Fogo de Sulfuron,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+769,0,0,0,0,Boneco de Bugitranca,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+770,0,0,0,0,Amuleto de Bugitranca,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+771,0,0,0,0,Bugitranca,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+789,0,0,0,0,Moro'gai,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+790,0,0,0,0,Espírito-guia - Aliança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+809,-1,0,0,0,Shen'dralar,"Remanescentes dos poderosos elfos que viviam no Gládio Cruel, ainda sábios e detentores de grandes segredos.",44,1118,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+829,0,0,0,0,Ogro (Capitão Kebrapaw),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+849,0,0,0,0,Espírito-guia - Horda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+869,0,0,0,0,Jaedenar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+889,-6184943489809468494,6130900294268439629,0,0,Pioneiros do Brado Guerreiro,"Bravos orcs do Clã Brado Guerreiro, em constante batalha contra as Sentinelas da Asa de Prata na Ravina Brado Guerreiro.",46,892,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,7,7
+890,6130900294268439629,-6184943489809468494,0,0,Sentinelas da Asa de Prata,"Leais defensoras de Ashenvale, em constante batalha contra os Pioneiros do Brado Guerreiro na Ravina Brado Guerreiro.",45,891,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,7,7
+891,6130900294268439629,-6184943489809468494,0,0,Forças da Aliança,,47,1118,0,0,0,0,0,0,0,0,0,0,24,14,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+892,-6184943489809468494,6130900294268439629,0,0,Forças da Horda,,48,1118,0,0,0,0,0,0,0,0,0,0,24,14,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+893,0,0,0,0,Trolls Revatusco,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+909,-1,0,0,0,Feira de Negraluna,Um evento cujas atrações são o estranho e o extraordinário. Acontece em uma ilha misteriosa acessível apenas na primeira semana de cada mês.,50,1118,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+910,-1,0,0,0,Prole de Nozdormu,Os descendentes da Revoada Dragônica Bronze são guardiões do tempo e não se importam com as frivolidades das raças mortais.,54,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,5,5
+911,1308799394,6130900294268439629,512,16,Luaprata,"A capital de Quel'thalas, lar dos elfos sangrentos. Embora no passado tenha sido praticamente destruída pelo ataque de Arthas contra a Nascente do Sol, Luaprata hoje se reergue como uma próspera cidade.",55,67,0,0,0,0,0,0,0,0,0,0,273,6,17,17,400,-42000,4000,3100,42000,-42000,42000,42000,1,0.25,4,7
+912,0,0,0,0,Poder de Kalimdor,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+914,0,0,0,0,"JOGADOR, Elfo Sangrento",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+915,0,0,0,0,Exércitos de C'Thun,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+916,0,0,0,0,Atacantes Silitídeos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+917,0,0,0,0,A Brigada de Altaforja,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+918,0,0,0,0,RC Enemies,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+919,0,0,0,0,RC Objects,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+920,0,0,0,0,Vermelho,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+921,0,0,0,0,Azul,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+922,-6184943489809468494,6130900294268439629,0,0,Tranquillien,"Antiga cidade dos altos elfos, Tranquillien foi abandonada após a invasão de Quel'thalas pelo Flagelo. Hoje, retomada pelos elfos sangrentos e pelos Renegados, luta para expulsar o Flagelo da Terra Fantasma.",56,980,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+923,0,0,0,0,Andarilhos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+925,0,0,0,0,Andassois,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+926,0,0,0,0,Guilda dos Magísteres,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+927,0,0,0,0,"JOGADOR, Draenei",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+928,0,0,0,0,Invasores do Flagelo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+929,0,0,0,0,Clã Malho Sangrento,,-1,469,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3
+930,2435139661,-6184943489809468494,536871936,0,Exodar,"A nave naaru que trouxe os draeneis para Azeroth. Embora encalhada nas Ilhas Névoa Lazúli, serve de lar para esta nobre raça.",49,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+932,3752327679,536871936,512,0,Os Aldor,"Antiga ordem de sacerdotes draeneis que era liderada por Velen, os Aldor hoje respondem à Alta-sacerdotisa Ishanah. Servem aos naarus da cidade de Shattrath, conhecidos como Sha'tar. Rivais dos Áugures.",58,936,0,0,0,0,0,0,0,0,0,0,80,80,80,0,0,3500,-3500,0,42000,42000,42000,0,-1.1,1,7,7
+933,-1,0,0,0,O Consórcio,"Liderado pelo Príncipe do Nexus Haramad, o Consórcio é uma organização de contrabandistas, comerciantes e ladrões etéreos que vieram a Terralém explorar suas riquezas.",60,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,7,7
+934,3752327679,536871936,512,0,Os Áugures,"Voren'thal, o Vidente, lidera os elfos sangrentos dissidentes que renegaram o caminho do poder de Kael'thas e se juntaram aos naarus de Shattrath, consternando os Aldor.",62,936,0,0,0,0,0,0,0,0,0,0,80,80,80,0,0,-3500,3500,0,42000,42000,42000,0,-1.1,1,7,7
+935,-1,0,0,0,Os Sha'tar,"Os Sha'tar são um grupo de poderosos naarus que controla a cidade reconstruída de Shattrath. Com a ajuda dos Aldor e dos Áugures, lideram a batalha contra Illidan e a Legião Ardente.",39,936,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0.5,0,4,3
+936,-1,0,0,0,Shattrath,,59,980,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,42000,0,0,0,0,0,7,7
+937,0,0,0,0,"Troll, Floresta",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+938,0,0,0,0,Os Omenai,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+940,0,0,0,0,Os Filhos de Lothar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+941,-6184943489809468494,6130900294268439629,0,0,Os Mag'har,"Este solitário grupo de orcs de pele marrom conseguiu escapar de todo tipo de corrupção demoníaca. Eles mantêm seu tradicional estilo de vida, mesmo com as grandes mudanças em Terralém.",61,980,0,0,0,0,0,0,0,0,0,0,16,6,0,0,-500,-42000,0,0,42000,-42000,0,0,0,0,5,5
+942,-1,0,0,0,Expedição Cenariana,Uma frente exploratória enviada a Terralém pelo Círculo Cenariano para estudar as formas de vida sobreviventes. A Expedição Cenariana rapidamente se fortaleceu desde a abertura do Portal Negro.,64,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+943,0,0,0,0,Orc Vil,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+944,0,0,0,0,Fantasma de Orc Vil,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+945,0,0,0,0,Filhos dos Fantasmas de Lothar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+946,6130900294268439629,-6184943489809468494,0,0,Fortaleza da Honra,"Os veteranos da primeira expedição da Aliança em Draenor, últimos sobreviventes dos Filhos de Lothar, resistiram bravamente neste posto de Fogo do Inferno. Hoje, são aliados dos exércitos de Ventobravo e de Altaforja.",38,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+947,-6184943489809468494,6130900294268439629,0,0,Thrallmar,A expedição que Thrall enviou para o Portal Negro construiu uma fortaleza na Península Fogo do Inferno. Thrallmar serve como base de operações para grande parte das atividades da Horda em Terralém.,37,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+948,58732543,0,0,0,Test Faction 2,,86,949,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,42000,0,0,0,1,1,5,5
+949,-1,0,0,0,Test Faction 1,,85,0,0,184,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,62000,0,0,0,1,1,5,5
+950,0,0,0,0,ToWoW - Flag,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+951,0,0,0,0,ToWoW - Flag Trigger Alliance (DND),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+952,-1,0,0,0,Test Faction 3,,87,948,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,1,1,5,5
+954,0,0,0,0,ToWoW - Flag Trigger Horde (DND),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+955,0,0,0,0,Degradado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+956,0,0,0,0,Etéreum,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+957,0,0,0,0,"Elemental, Terra",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+958,0,0,0,0,Robôs Guerreiros,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+959,0,0,0,0,Ator Bom,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+960,0,0,0,0,Ator Mau,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+961,0,0,0,0,Pelurso Pinhoquieto,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+962,0,0,0,0,Corujante Enlouquecido,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+963,0,0,0,0,Xadrez da Aliança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+964,0,0,0,0,Xadrez da Horda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+965,0,0,0,0,Monstro de Treino,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+966,0,0,0,0,Monstro Parceiro de Treino,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+967,-1,0,0,0,O Olho Violeta,"Uma seita secreta do Kirin Tor, fundada para espionar Medivh e suas atividades.",63,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+968,0,0,0,0,Falconélius,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+969,0,0,0,0,Mão de Argus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+970,-1,0,0,0,Sporeggar,Os Sporeggar são uma pacífica raça de homens-cogumelos nativa de Terralém. Seu lar está localizado nos brejos ao sul do Pântano Zíngaro.,65,980,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2500,0,0,0,42000,0,0,0,0,0,5,5
+971,0,0,0,0,Gigante do Limo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+972,0,0,0,0,Quirósporo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+973,0,0,0,0,"Monstro, Predador",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+974,0,0,0,0,"Monstro, Presa",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+975,0,0,0,0,Anomalia do Caos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+976,0,0,0,0,Defensores de Hyjal,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+977,0,0,0,0,Invasores de Hyjal,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+978,6130900294268439629,-6184943489809468494,0,0,Kurenai,"Em Draenei, significa ""redimidos"". Estes Degradados escaparam das garras de diversos feitores em Terralém. e estabeleceram seu lar em Nagrand. É lá que procuram redescobrir seu destino.",66,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,-1200,-42000,0,0,42000,-42000,0,0,0,0,5,5
+979,0,0,0,0,"Harmonia Telúrica, Velho Mundo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+980,-1,0,0,0,The Burning Crusade,,43,0,1,0,0,0,0,0,0,0,0,0,4120,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5
+981,0,0,0,0,Arakkoa,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+982,0,0,0,0,Estandarte do Pântano Zíngaro (Aliança),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+983,0,0,0,0,Estandarte do Pântano Zíngaro (Horda),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+984,0,0,0,0,Estandarte do Pântano Zíngaro (Neutro),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+985,0,0,0,0,Cavernas do Tempo - Thrall,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+986,0,0,0,0,Cavernas do Tempo - Forte do Desterro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+987,0,0,0,0,Cavernas do Tempo - Guardas da Costa Sul,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+988,0,0,0,0,Esconderijo do Concílio das Sombras,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+989,-1,0,0,0,Defensores do Tempo,Os Defensores do Tempo são dragões de bronze escolhidos a dedo por Nozdormu para proteger as Cavernas do Tempo.,67,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+990,-1,0,0,0,A Escama das Areias,"Um restrito subgrupo da Revoada Dragônica Bronze, liderado por Soridormi, primeira consorte de Nozdormu.",57,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+991,0,0,0,0,"Defensor do Portal Negro, Aliança",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+992,0,0,0,0,"Defensor do Portal Negro, Horda",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+993,0,0,0,0,"Atacante do Portal Negro, Legião",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+994,0,0,0,0,Gatilho do Incitador,"Usado no evento de Nerocordius, o Incitador.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+995,0,0,0,0,Gatilho do Incitador 3,"Usado no evento de Nerocordius, o Incitador.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+996,0,0,0,0,Gatilho do Incitador 4,"Usado no evento de Nerocordius, o Incitador.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+997,0,0,0,0,Gatilho do Incitador 5,"Usado no evento de Nerocordius, o Incitador.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+998,0,0,0,0,Gatilho do Incitador 6,"Usado no evento de Nerocordius, o Incitador.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+999,0,0,0,0,Criatura de Mana,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1000,0,0,0,0,Serviçal de Hadggar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1001,0,0,0,0,Clã Giralança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1002,0,0,0,0,Parceiro de Briga Etéreum,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1003,0,0,0,0,Protetorado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1004,0,0,0,0,Arcane Annihilator (DNR),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1005,-1,0,0,0,"Respeitado, Escondido",,68,0,0,0,0,0,0,0,-1,0,0,0,20,0,0,0,3000,0,0,0,30000,0,0,0,1,1,5,5
+1006,0,0,0,0,Kirin'Var - Dathric,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1007,0,0,0,0,Kirin'Var - Belmara,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1008,0,0,0,0,Kirin'Var - Luminrath,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1009,0,0,0,0,Kirin'Var - Cohlien,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1010,0,0,0,0,Serviçal de Illidan,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1011,-1,0,0,0,Bairro Inferior,Os refugiados de Shattrath têm histórias e antepassados diversos. Histórias sobre aqueles que ajudam se espalham rapidamente entre os cidadãos do Bairro Inferior.,69,936,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,3,3
+1012,-1,0,0,0,Devotos da Morte Grislíngua,"A elite da tribo dos Degradados, conhecida como Grislíngua, oficialmente aliada a Illidan. Os Devotos são os tenentes mais confiáveis de Akama e têm acesso aos planos mais secretos de seu líder.",70,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,3,3
+1013,0,0,0,0,Espíritos da Lua Negra 1,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1014,0,0,0,0,Espíritos da Lua Negra 2,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1015,-1,0,0,0,Asa Etérea,"Esta prole incomum de dragões nasceu da infusão de puras energias etéreas em ovos da revoada dragônica negra do Asa da Morte. Hoje, lutam para encontrar sua identidade além das sombras da herança de destruição de seu pai.",71,980,0,0,0,0,0,0,-1,0,0,0,2,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,5,5
+1016,0,0,0,0,Seita das Serpes,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1017,0,0,0,0,Arvoroso,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1018,0,0,0,0,Demônio de Leóteras I,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1019,0,0,0,0,Demônio de Leóteras II,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1020,0,0,0,0,Demônio de Leóteras III,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1021,0,0,0,0,Demônio de Leóteras IV,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1022,0,0,0,0,Demônio de Leóteras V,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1023,0,0,0,0,Azaloth,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1024,0,0,0,0,Esfola-pedra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1025,0,0,0,0,Caçador Rancapele,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1026,0,0,0,0,Vulto da Lua Negra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1027,0,0,0,0,Comunicador da Legião,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1028,0,0,0,0,Ancestrais da Selva da Rapina,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1029,0,0,0,0,"Xadrez, Respeitado com todo Xadrez",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1030,0,0,0,0,Portões do Templo Negro - Illidari,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1031,-1,0,0,0,Guarda Aérea Sha'tari,Uma força militar aérea criada pela cidade de Shattrath para lidar com as ameaças existentes nos pontos mais altos de Terralém.,72,936,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1032,0,0,0,0,Área 52,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1033,0,0,0,0,Maiev,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1034,0,0,0,0,Arakkoa Sombria de Skettis,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1035,0,0,0,0,Arakkoa de Skettis,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1036,0,0,0,0,Inimigo da Presa do Dragão,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1037,6130900294268439629,-6184943489809468494,0,0,Vanguarda da Aliança,"A combinação das forças da Aliança em Nortúndria, liderada pela Expedição Valentia, e também grupos civis, como a Liga dos Exploradores.",88,1097,0,0,0,0,0,0,0,0,0,0,136,6,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1038,-1,0,0,0,Ogri'la,Os cidadãos esclarecidos de Ogri'la estabeleceram sua residência na região oeste das Montanhas da Lâmina Afiada. A proximidade com os cristais apexis fez com que eles transcendessem sua natureza bruta dos ogros.,73,980,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1039,0,0,0,0,Assolador,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1040,0,0,0,0,REUSE,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1041,0,0,0,0,Frenesi,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1042,0,0,0,0,Inimigo da Guarda Aérea,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1043,0,0,0,0,"Gambá, Petunia",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1044,0,0,0,0,Desertor de Theramore,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1045,0,0,0,0,Vraikal,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1046,0,0,0,0,Pirata do Mar Norte,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1047,0,0,0,0,Morsano,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1048,0,0,0,0,UNUSED,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1049,0,0,0,0,"Troll, Amani",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1050,6130900294268439629,-6184943489809468494,0,0,Expedição Valentia,"Os principais exércitos da Aliança em Nortúndria, lutando contra o Flagelo, unidos sob o comando do Rei Varian Wrynn.",74,1037,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1051,0,0,0,0,UNUSED,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1052,-6184943489809468494,6130900294268439629,0,0,Expedição da Horda,"As forças unidas da Horda em Nortúndria, encabeçadas pela Ofensiva Brado Guerreiro.",75,1097,0,0,0,0,0,0,0,0,0,0,152,0,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,5,5
+1053,0,0,0,0,Guarda Oeste,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1054,0,0,0,0,Grifo Pintado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1055,0,0,0,0,Cão Pestilento Adestrado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1056,0,0,0,0,Vraikal (Espírito Ancestral 1),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1057,0,0,0,0,Vraikal (Espírito Ancestral 2),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1058,0,0,0,0,Vraikal (Espírito Ancestral 3),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1059,0,0,0,0,CAB - Bandeira - Aliança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1060,0,0,0,0,Test,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1061,0,0,0,0,vraikal,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1062,0,0,0,0,Gladiador Vraikal,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1063,0,0,0,0,Combatente de Valgarde,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1064,-6184943489809468494,6130900294268439629,0,0,Os Taunka,"Este povo robusto, primo dos Taurens, tornou-se um valioso aliado para os exércitos da Horda na marcha para o norte.",76,1052,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1065,0,0,0,0,"Monstro, Reação da Zona de Força 1",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1066,0,0,0,0,"Monstro, Reação da Zona de Força 2",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1067,-6184943489809468494,6130900294268439629,0,0,A Mão da Vingança,"Os Renegados, incumbidos por Sylvana Correventos de espalhar a última estirpe da Peste, conseguindo, assim, a vingança da Cidade Baixa contra Arthas.",77,1052,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1068,6130900294268439629,-6184943489809468494,0,0,Liga dos Exploradores,Esta organização busca descobrir a origem da raça enânica coletando artefatos dos Titãs. Sua pesquisa mais recente os levou a vários sítios arqueológicos em Nortúndria.,78,1037,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1069,0,0,0,0,Ram Racing Powerup DND,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1070,0,0,0,0,Ram Racing Trap DND,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1071,0,0,0,0,Esquilos do Craig,Uma facção de teste.,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1072,0,0,0,0,[DNT] AC Major Faction Child Renown Test,,407,2503,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1073,-1,0,0,0,Os Kalu'ak,"Os morsanos, um povo forte mas pacífico, dedicam suas vidas à pesca e à caça de baleias. Devido aos recentes ataques às suas colônias, procuram auxílio de qualquer aliado disposto a ajudá-los.",79,1097,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1074,0,0,0,0,Feriado - Barril d'Água,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1075,0,0,0,0,Feriado - Genérico,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1076,0,0,0,0,Anões de Ferro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1077,-1,0,0,0,Ofensiva Sol Partido,A investida final de Shattrath contra as operações do Príncipe Kael'thas na Nascente do Sol.,80,936,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1078,0,0,0,0,Mascote de Companhia de Luta,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1079,0,0,0,0,"Murlocs, Falésia Invernal",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1080,0,0,0,0,"Amigável, Forçar Reação 1",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1081,0,0,0,0,"Objeto, Forçar Reação",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1083,0,0,0,0,REUSE,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1084,0,0,0,0,"Vraikal, Mar",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1085,6130900294268439629,-6184943489809468494,0,0,Ofensiva Brado Guerreiro,Garrosh Grito Infernal comanda as principais forças expedicionárias da Horda nas investidas em Nortúndria contra Arthas e os exércitos do Flagelo.,81,1052,0,0,0,0,0,0,0,0,0,0,6,16,0,0,-42000,0,0,0,-42000,42000,0,0,0.5,0.5,7,7
+1086,0,0,0,0,Larápio,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1087,0,0,0,0,Monstro do Feriado,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1088,0,0,0,0,"Pelurso, Presa Vermelha",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1089,0,0,0,0,"Pelurso, Patálgida",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1090,6130900294268439629,-6184943489809468494,6130900294268439629,-6184943489809468494,Kirin Tor,"Os magos e arquimagos que comandam Dalaran. Devido à crescente ameaça da Revoada Dragônica Azul e do Flagelo, eles transportaram a cidade para o coração de Nortúndria.",84,1097,0,0,0,0,0,0,8063,8063,128,128,16,16,16,16,0,0,3000,3000,42000,42000,42000,42000,0,0,5,5
+1091,-1,0,0,0,A Aliança do Repouso das Serpes,"Com a violenta revolta da Revoada Dragônica Azul contra todos os mortais usuários de magia, os dragões remanescentes se uniram sob o comando da Revoada Dragônica Vermelha para combater seus arredios parentes.",83,1097,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1092,0,0,0,0,Azjol-Nerub,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1093,0,0,0,0,REUSE,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1094,6130900294268439629,-6184943489809468494,0,0,O Pacto de Prata,"Um núcleo militar formado por altos elfos que não aceitam a admissão dos elfos sangrentos no Kirin Tor. Sob o estandarte de Vereesa Correventos, uniram-se às forças da Aliança em Nortúndria.",90,1037,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1095,0,0,0,0,Coureador da Serra Gris,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1096,0,0,0,0,REUSE,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1097,-1,0,0,0,Wrath of the Lich King,,89,0,2,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5
+1098,0,0,0,0,Cavaleiros da Lâmina de Ébano,"Antigos Cavaleiros da Mortes, libertos das garras do Lich Rei, que se reagruparam contra ele sob o comando do Grão-lorde Dárion Mograine.",91,1097,0,0,0,0,0,0,32,8159,0,0,16,16,0,0,3200,0,0,0,42000,42000,0,0,1,1,5,5
+1099,0,0,0,0,Flagelo do Portão da Ira,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1100,0,0,0,0,Aliança do Portão da Ira,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1101,0,0,0,0,Horda do Portão da Ira,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1102,0,0,0,0,CAB - Bandeira - Horda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1103,0,0,0,0,CAB - Bandeira - Neutro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1104,-1,0,0,0,Tribo Feralma,"Expulsos de suas terras pelo Flagelo, esta feroz tribo de guaxinantes luta por estabelecer sua nova moradia na Bacia Sholazar. Sua natureza agressiva gerou um conflito com as várias tribos de gorlocs, conhecidas como os Oráculos.",92,1117,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,-2.2,1,7,7
+1105,-1,0,0,0,Os Oráculos,Os gorlocs da Bacia Sholazar são criaturas rasteiras que se intitulam guardiões da tecnologia dos Titãs existente na região (embora pouco entendam sobre isso). Estão em uma crescente guerra territorial contra os guaxinantes.,93,1117,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,-2.2,1,7,7
+1106,-1,0,0,0,Cruzada Argêntea,"Comandada por Tirion Fordring, a Cruzada Argêntea reúne a então reformada Ordem da Prata e a Aurora Argêntea em uma investida final contra as forças do Lich Rei.",94,1097,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1107,0,0,0,0,"Troll, Drakkari",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1108,0,0,0,0,CdT Arthas,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1109,0,0,0,0,CdT Cidadão de Stratholme,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1110,0,0,0,0,CdT Flagelo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1111,0,0,0,0,Freya,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1112,0,0,0,0,Montaria - Táxi - Aliança,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1113,0,0,0,0,Montaria - Táxi - Horda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1114,0,0,0,0,Montaria - Táxi - Neutro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1115,0,0,0,0,"Elemental, Água",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1116,0,0,0,0,"Elemental, Ar",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1117,-1,0,0,0,Bacia Sholazar,,95,1097,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1118,-1,0,0,0,Clássico,,96,0,0,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5
+1119,-1,0,0,0,Os Filhos de Hodir,Os gigantes de gelo dos Picos Tempestuosos são um povo guerreiro que vive em Dun Niffelem.,97,1097,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,5,5
+1120,0,0,0,0,Gigantes de Ferro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1121,0,0,0,0,Vraikal Gélido,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1122,0,0,0,0,Terrano dos Picos Tempestuosos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1123,0,0,0,0,Árbitro de Monstro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1124,-6184943489809468494,6130900294268439629,0,0,Os Fendessol,"Após ter sido expulsa de Dalaran, a Horda foi aceita de volta graças aos esforços do Arquimago Aethas Fendessol. Seus seguidores adotaram seu nome e guardam o distrito conhecido como o Santuário Fendessol.",98,1052,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1125,0,0,0,0,Tornehylde,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1126,6130900294268439629,-6184943489809468494,0,0,Os Gelonatos,"Esta misteriosa raça de anões do gelo vive nos Picos Tempestuosos. Recentemente, tornaram-se amigos dos membros da Liga dos Exploradores, aceitando membros da Aliança em seus assentamentos.",99,1037,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,-42000,0,0,42000,-42000,0,0,0.5,0.5,7,7
+1128,0,0,0,0,Martelo do Crepúsculo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1129,0,0,0,0,"Pelurso, Bosquenero",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1130,0,0,0,0,"Cervo, Costa Negra",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1131,0,0,0,0,"Urso, Costa Negra",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1132,0,0,0,0,"Espreitaluna, Costa Negra",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1133,-6184943489809468494,6130900294268439629,0,0,Cartel Borraquilha,"Comandado pelo insensível Príncipe Mercador Gallywix, o Cartel Borraquilha é a companhia de comércio mais poderosa da Ilha de Kezan. De seu quartel general no Porto Borraquilha, o cartel domina o comércio de todos os Mares do Sul.",105,67,0,0,0,0,0,0,0,0,0,0,273,6,0,0,3100,-42000,0,0,42000,-42000,0,0,1,0.25,4,7
+1134,2969914445,-6184943489809468494,2097152,0,Guilnéas,"O povo de Guilnéas é formado por sobreviventes. Após terem se isolado do resto da humanidade, têm que enfrentar, agora, ameaças internas.",106,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,0,-42000,3000,0,42000,-42000,42000,0,1,0.25,4,7
+1135,-1,0,0,0,Harmonia Telúrica,Essa união dos mais poderosos xamãs de Azeroth luta por manter o equilíbrio entre as forças elementais do mundo. Seu principal foco durante o cataclismo tem sido reparar e estabilizar o dano causado pela chegada do Asa da Morte.,110,1162,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1136,-1,0,0,0,Conversão de Tranquillien,,100,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1137,-1,0,0,0,Conversão de Sabres-do-inverno,,101,0,0,0,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1138,0,0,0,0,Cataclysm - Nova Reputação Neutra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1142,0,0,0,0,Remanescente de Magram,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1143,0,0,0,0,Filhos de Gelkis,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1144,0,0,0,0,REUSE,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1145,0,0,0,0,Odeia tudo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1152,0,0,0,0,"JOGADOR, Goblin",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1153,0,0,0,0,"JOGADOR, Worgen",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1154,-1,0,0,0,Conversão de Pacto de Prata,,102,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1155,-1,0,0,0,Conversão de Fendessol,,103,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1156,-1,0,0,0,Veredito Cinzento,"Sob o pacto entre Tirion Fordring e Dárion Mograine, a Cruzada Argêntea e os Cavaleiros da Lâmina de Ébano deixaram suas diferenças de lado durante a invasão da Cidadela da Coroa de Gelo, até que o Lich Rei seja morto.",104,1097,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1157,0,0,0,0,Pigmeu,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1158,-1,0,0,0,Guardiões de Hyjal,"Em contrapartida à iminente devastação do Monte Hyjal, os integrantes mais poderosos do Círculo Cenariano se juntaram aos aliados da Revoada Dragônica Esmeralda com a intenção de expulsar as hordas de elementais de Ragnaros e o Martelo do Crepúsculo.",113,1162,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1159,0,0,0,0,CAB - Bandeira - Aliança 2,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1160,0,0,0,0,CAB - Bandeira - Horda 3,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1161,0,0,0,0,Temível Totem,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1162,-1,0,0,0,Cataclysm,,111,0,3,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1168,-1,0,0,0,Guilda,É a sua posição atual com a sua guilda e serve de requisito para compra de recompensas de guilda. Sua reputação da guilda é aumentada automaticamente quando você ganha experiência de guilda.,114,1169,0,0,2,0,0,0,0,0,0,0,528,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1169,-1,0,0,0,Guilda,,115,0,0,0,0,0,0,0,0,0,0,0,4120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1171,-1,0,0,0,Therazane,"O plano elemental da terra, o Geodomo, é governado por Therazane e seus filhos, os Senhores da Pedra. Após testemunhar a devastação que o Asa da Morte e os seguidores dele provocaram em seu reino, Therazane se tornou hostil a todos os forasteiros.",116,1162,0,0,0,0,0,0,0,0,0,0,64,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,0,0
+1172,-6184943489809468494,6130900294268439629,0,0,Clã Presa do Dragão,"Este clã de orcs renegados já foi liderado pelo próprio Asa da Morte para escravizar os dragões vermelhos, incluindo Alexstrasza. Hoje, em menor número e menos poderosos, vivem no Planalto do Crepúsculo.",117,1162,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1173,-1,0,0,0,Ramkahen,"O povo gato de Ramkahen é descendente de Tol'vir, guardiões de Uldum. Embora tenham perdido seus corpos de pedra, proteger os segredos dos titãs continua sendo uma característica de sua rigorosa tradição.",118,1162,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1174,6130900294268439629,-6184943489809468494,0,0,Clã Martelo Feroz,"Os anões do Martelo Feroz são conhecidos por sua temerária coragem e insuperável habilidade em cavalgar grifos. Após perderem seu lar em Grim Batol para uma maldição do Ferro Negro, espalharam-se por todo o Planalto do Crepúsculo.",119,1162,0,0,0,0,0,0,0,0,0,0,16,4,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1177,6130900294268439629,-6184943489809468494,0,0,Protetores de Baradin,"Liderados no passado pelo Duque Reginald Baradin II, este violento exército está historicamente ligado à ilha-fortaleza de Tol Barad. Juntaram-se às forças da Aliança na luta para expulsar os invasores da Horda e ganhar o controle desta estratégica ilha.",122,1162,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1178,6130900294268439629,-6184943489809468494,0,0,Punho de Grito Infernal,"Elite do regimento da Horda, composta inteiramente por veteranos de muitas incursões em serviço. Escolhidos a dedo pelo próprio Garrosh, receberam ordens de tomar por completo Tol Barad. Falhar não é uma opção.",123,1162,0,0,0,0,0,0,0,0,0,0,6,16,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,0,0
+1179,0,0,0,0,Visgo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1181,0,0,0,0,"Respeitado, Novo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1189,0,0,0,0,K3,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1204,-1,0,0,0,Vingadores de Hyjal,"Enfurecido pela a destruição causada por Ragnaros, o Senhor das Chamas, o Círculo Cenariano toma a iniciativa, contra-atacando e invadindo o coração das Terras do Fogo.",127,1162,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1216,58720256,0,0,0,Academia de Shang Xi,"Há quase três gerações, o estimado Shang Xi preparou os heróis de Pandária para viver grandes aventuras.",131,1245,0,0,0,0,0,0,0,0,0,0,81,0,0,0,3000,0,0,0,42000,0,0,0,0,0,0,0
+1228,-6184943489809468494,6130900294268439629,0,0,Hozens da Floresta,"Uma raça de homens-macacos animados, violentos e de vida curta",144,1245,0,0,0,0,0,0,0,0,0,0,2,2,0,0,-42000,-42000,0,0,42000,-42000,0,0,0,0,5,5
+1233,0,0,0,0,CdT Nascente da Eternidade – Illidan,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1234,0,0,0,0,CdT Nascente da Eternidade – Elfos Altaneiros,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1235,0,0,0,0,CdT Nascente da Eternidade – Illidan (Furtividade),,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1237,0,0,0,0,CdT Nascente da Eternidade – Demônios,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1240,0,0,0,0,CdT Nascente da Eternidade – Bolas Demoníacas,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1241,0,0,0,0,CdT Nascente da Eternidade – Espreitadores de Caça,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1242,6130900294268439629,-6184943489809468494,0,0,Jinyus Barbatana de Pérola,Uma raça metódica e reservada de homens-peixes.,143,1245,0,0,0,0,0,0,-1,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1243,-6184943489809468494,0,0,0,Hozen,Uma tribo nobre e animada de homens-macacos.,-1,1245,0,0,0,0,0,0,2047,0,0,0,2,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,0,0
+1245,-1,0,0,0,Mists of Pandaria,,145,0,4,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1249,0,0,0,0,"JOGADOR, Expansão 4 Neutro",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1252,0,0,0,0,Sha,Os espíritos do mal que permeiam a terra.,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1253,0,0,0,0,Guardiões do Templo do Leste,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1265,0,0,0,0,Shen'dralar,"Remanescentes dos poderosos elfos que viviam no Gládio Cruel, ainda sábios e detentores de grandes segredos.",-1,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1268,0,0,0,0,Mogus,"Os Mogu são antigos progenitores desta terra. Eles odeiam todo e qualquer competidor, inclusive os Pandarens arrogantes.",-1,1245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1269,-1,0,0,0,Lótus Dourado,Esta misteriosa sociedade de Pandarens pretende resolver o problema dos Mogus de uma vez por todas.,167,1245,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1270,-1,0,0,0,Shado-pan,Os protetores obscuros dos templos de Pandária são envoltos em mistérios.,182,1245,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1271,-1,0,0,0,Ordem da Serpente das Nuvens,Guardiões do Templo do Leste,154,1245,0,0,1,0,0,0,-1,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,0,0
+1272,-1,0,0,0,Os Lavradores,Os Lavradores são pandarens pacíficos e produtivos que trabalham a terra para alimentar o grande apetite de seu povo.,171,1245,0,0,1,0,0,0,-1,0,0,0,152,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1273,-1,0,0,0,"Be Bum, o Ébrio",É fácil encontrar Jogu: ele está sempre contemplando o fundo de uma garrafa da cerveja mais barata dos Malte do Trovão.,156,1272,0,21,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1275,-1,0,0,0,Ella,"Ella quer ser uma cervejeira famosa, mas ainda tem muito caminho pela frente!",158,1272,0,17,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1276,-1,0,0,0,Velho Pata do Monte,O Velho Pata do Monte é o maior criador de galinhas da região.,159,1272,0,22,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1277,-1,0,0,0,Tchi Tchi,"Se você quiser saber qualquer coisa sobre ovelhas, Tchi Tchi saberá responder.",160,1272,0,16,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1278,-1,0,0,0,Sho,"Um orgulhoso e robusto defensor das fazendas, Sho está sempre por perto quando você precisa de um punho forte.",161,1272,0,23,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1279,-1,0,0,0,Haohan Garra de Barro,"Líder respeitado dos Lavradores, Haohan Garra de Barro vive cheio de responsabilidades.",162,1272,0,20,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1280,-1,0,0,0,Tina Garra de Barro,Tina Garra de Barro adora as coisas delicadas da vida.,163,1272,0,24,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1281,-1,0,0,0,Gina Garra de Barro,Gerenciar o Mercado de Meia Colina deixa Gina Garra de Barro muito estressada!,164,1272,0,19,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1282,-1,0,0,0,Peixe Cana Alta,Peixe Cana Alta sabe mais sobre a história desta terra do que o resto da cidade já esqueceu.,165,1272,0,18,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1283,-1,0,0,0,Fazendeiro Fung,O Fazendeiro Fung planta os maiores vegetais do Coração da Terra!,166,1272,0,2,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1286,0,0,0,0,Guardiões do Garça Vermelha,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1302,-1,0,0,0,Os Pescadores,Os Pescadores são um grupo de Pandarens que tentam alimentar seu povo e acumular conhecimento sobre pescaria.,172,1245,0,0,1,0,0,0,0,0,0,0,152,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1336,0,0,0,0,O Enxame Mantídeo,Os bandos vorazes de Mantídeos rondam as Estepes Taolong e o Ermo do Medo destruindo tudo que encontrarem em seu caminho.,-1,1245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1337,-1,0,0,0,Os Klaxxi,Estes Anciãos Mantídeos não foram atingidos pela corrupção e insanidade que dominou o resto do Enxame Mantídeo. Eles tentam trabalhar com as outras raças de Pandária para retornar sua Rainha à glória.,181,1245,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1338,0,0,0,0,Mogus Gurthan,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1339,0,0,0,0,Mogus Harthak,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1340,0,0,0,0,Mogus Korgesh,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1341,-1,0,0,0,Os Celestiais Majestosos,Estes bravos Pandarens defendem os templos de Pandária contra os males do Sha.,183,1245,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1345,-1,0,0,0,Os Andarilhos das Lendas,"Essas bravas almas que cuidam dos mistérios de Pandária andam por todo o continente, a fim de aprender sua história.",184,1245,0,0,1,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1351,-1,0,0,0,Os Mestres Cervejeiros,"Esses nobres Pandarens guardam os segredos das cervejas hereditárias, enfrentando árduas provações para criar suas potentes bebidas.",186,1245,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1352,-6184943489809468494,6130900294268439629,0,0,Pandarens Huojin,"Liderados pelo intrépido Ji Pata de Fogo, os Pandarens Huojin são rápidos para agir e ainda mais rápidos para lutar pelo que acreditam.",187,67,0,0,0,0,0,0,0,0,0,0,273,6,0,0,3100,-42000,0,0,42000,-42000,0,0,1,0.25,4,7
+1353,2969914445,-6184943489809468494,2097152,0,Pandarens Tushui,"Liderados pela resoluta Aysa Canta Nuvens, os Pandarens Tsushui acreditam na contemplação e em ações bem pensadas.",188,469,0,0,0,0,0,0,0,0,0,0,273,6,17,0,3100,-42000,3000,0,42000,-42000,42000,0,1,0.25,4,7
+1357,-1,0,0,0,Nomi,5.0 Culinária - Esta é uma facção escondida usada para passar de nível com Nomi.,191,0,0,25,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1358,-1,0,0,0,Nat Pagle,"Pescador lendário e amante da boa bebida, o exterior irascível de Nat esconde um grande amor pelo ensino.",192,1302,0,26,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1359,-1,0,0,0,O Príncipe Negro,O Príncipe Negro Wrathion é o último dos dragões negros. Sabe-se que ele recompensa regiamente aqueles que conquistam sua confiança e apoiam seus esforços.,193,1245,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,2800,0,0,0,42000,0,0,0,0,0,0,0
+1364,0,0,0,0,"Amigável, Forçar Reação 2",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1366,0,0,0,0,"Amigável, Forçar Reação 3",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1367,0,0,0,0,"Amigável, Forçar Reação 4",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1368,0,0,0,0,"Amigável, Forçar Reação 5",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1369,0,0,0,0,"Amigável, Forçar Reação 6",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1370,0,0,0,0,"Amigável, Forçar Reação 7",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1371,0,0,0,0,Aldeia Pata'don,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1372,0,0,0,0,Aldeia do Mel,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1374,-6184943489809468494,0,0,0,Arena de Brig'ga Fea (Temporada 1),A primeira temporada da Guilda dos Brigões da Horda ocorreu durante a campanha de Pandária.,197,892,0,171,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,9000,0,0,0,0,0,0,0
+1375,-6184943489809468494,6130900294268439629,0,0,Ofensiva de Dominância,"Forças da Horda em Pandária posicionadas no Ponto de Dominação, que fica na Selva de Krasarang.",198,1245,0,0,1,0,0,0,0,0,0,0,144,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1376,6130900294268439629,-6184943489809468494,0,0,Operação: Muralha de Escudos,"Forças da Aliança em Pandária posicionadas no Ancoradouro do Leão, que fica na Selva de Krasarang.",199,1245,0,0,1,0,0,0,0,0,0,0,144,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1387,6130900294268439629,-6184943489809468494,0,0,Ofensiva do Kirin Tor,"Impulsionada pela fúria de Jaina, a Ofensiva do Kirin Tor planeja dominar a Ilha do Trovão pela glória da Aliança!",207,1245,0,0,1,0,0,0,0,0,0,0,144,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1388,-6184943489809468494,6130900294268439629,0,0,Investida Fendessol,"Após serem expulsos de Dalaran, os membros da Investida Fendessol lutam para obterem poderosos artefatos mogus em meio às ruínas da Ilha do Trovão e resguardarem seu futuro, caso a Horda caia em anarquia.",208,1245,0,0,1,0,0,0,0,0,0,0,144,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1416,-1,0,0,0,Confiança de Akama,"Akama não confia em Bruxos depois de testemunhar a ruína de Illidan, provocada pela própria corrupção, seguida da invasão do Templo Negro por Bruxos depois do Cataclismo.",221,1245,4,0,0,0,0,0,-1,0,0,0,0,0,0,0,500,0,0,0,1000,0,0,0,1,1,0,0
+1419,6130900294268439629,0,0,0,Bar Brigalhada do Bizmo (Temporada 1),A primeira temporada da Guilda dos Brigões da procura por grupo ocorreu durante a campanha de Pandária.,220,891,0,172,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,9000,0,0,0,0,0,0,0
+1433,-1,0,0,0,"Monstro, neutro forçado para forçar reação",,227,0,0,0,0,0,0,0,-1,0,0,0,20,0,0,0,100,0,0,0,100,0,0,0,0,0,0,0
+1435,-1,0,0,0,Ataque Shado-Pan,Esses nobres Shado-pans invadirão o Trono do Trovão para acabar com o mal que nele habita e impor justiça após séculos de escravidão sob o regime do Rei Trovão.,228,1245,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1440,-1,0,0,0,Rebelião dos Lançanegra,"Vol'jin declarou franca rebelião contra Garrosh Grito Infernal. Com a ajuda das forças da Horda e da Aliança, ele está reunindo recursos para atacar a própria Orgrimmar.",229,1245,0,72,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,10000,0,0,0,0,0,0,0
+1443,0,0,0,0,Kor'kron,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1444,-1,0,0,0,Warlords of Draenor,,230,0,5,0,0,0,0,0,0,0,0,0,4120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1445,-6184943489809468494,6130900294268439629,0,0,Orcs Lobo do Gelo,"Os orcs Lobo do Gelo da Serra Fogofrio são uma família de guerreiros brutais, muito bem equipada para lidar com as realidades selvagens de Draenor.",231,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1447,0,0,0,0,Trolls Lançanegra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1457,0,0,0,0,Frentídeos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1483,0,0,0,0,Comedores de Frentídeos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1491,0,0,0,0,Os Andarilhos do Tempo,"Os Andarilhos do Tempo guardam os caminhos do tempo daqueles que desejam se aproveitar da mortalidade da Revoada Dragônica Bronze; em geral, são aventureiros ou eruditos que trabalharam com os Defensores do Tempo anteriormente.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1492,-1,0,0,0,Imperador Shaohao,"Shaohao, o imperador dos pandarens perdido há muito, é uma figura digna de profundo respeito.",241,1245,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1496,0,0,0,0,Ogros de Fogofrio,"Ogros de Fogofrio não são interessantes, mas eles adoram discutir.",-1,1444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1500,0,0,0,0,Fantasma Vermelho,O poder de Ordos corrompeu você e fez com que investisse contra amigos e inimigos num estado de fúria incontrolável.,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1508,0,0,0,0,Orcs da Lua Negra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1509,0,0,0,0,Os Pálidos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1514,0,0,0,0,Seguidores de Rukhmar,"Adoradores de Rukhmar, deus do medo, essa escória vil busca manchar o mundo com o sangue dos seus inimigos.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1515,-1,0,0,0,Arakkoas Proscritos,"Agindo das sombras, os Arakkoas Proscritos buscam um futuro menos sombrio.",247,1444,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1520,0,0,0,0,Exilados da Lua Negra,,205,1444,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1521,0,0,0,0,Concílio das Sombras,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1591,0,0,0,0,"Draenei, Draenor",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1617,0,0,0,0,Primevo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1618,0,0,0,0,Rachador,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1623,0,0,0,0,A Horda de Ferro,"Uma tênue aliança entre vários clãs órquicos de Draenor, sob a liderança de Grommash Grito Infernal.",-1,1245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1665,0,0,0,0,Os Sargerei,"Draeneis corrompidos pelos serviços que prestaram ao Concílio das Sombras, eles sacrificaram muito em sua busca por poder.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1674,0,0,0,0,Esporos de Draenor,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1679,0,0,0,0,Operação: Aardvark,,251,1444,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,10000,0,0,0,0,0,0,0
+1680,0,0,0,0,Malho Imponente,Ogros Malho Imponente gostam de togas e lutas de gladiador.,-1,1444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1681,-6184943489809468494,6130900294268439629,0,0,Lança de Vol'jin,"Forças da Horda em Ashran, posicionadas na Lança de Guerra.",252,892,0,0,0,0,0,0,0,0,0,0,16,18,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1682,6130900294268439629,-6184943489809468494,0,0,Vanguarda de Wrynn,"Forças da Aliança em Ashran, posicionadas no Escudo Tonante.",253,891,0,0,0,0,0,0,0,0,0,0,16,18,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1687,0,0,0,0,Goren de Gorgrond,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1690,-6184943489809468494,0,0,0,Arena de Brig'ga Fea (Temporada 2),A segunda temporada da Guilda dos Brigões da Horda ocorreu durante a campanha de Draenor.,136,892,0,212,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+1691,6130900294268439629,0,0,0,Bar Brigalhada do Bizmo (Temporada 2),A segunda temporada da Guilda dos Brigões da Aliança ocorreu durante a campanha de Draenor.,135,891,0,210,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+1708,-6184943489809468494,6130900294268439629,0,0,Orcs Cargaveira,O clã Gargaveira têm como os ermos mais selvagens de Draenor. Eles gargalham feito maníacos para a aniquilação que se aproxima deles de todos os cantos.,107,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1710,6130900294268439629,-6184943489809468494,0,0,Defesa Sha'tari,"Os defensores de Shattrath lutam para retomar o controle de sua capital, tendo sido traídos por alguém de dentro.",121,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1711,-1,0,0,0,Sociedade de Preservação de Bondebico,Os goblins da Sociedade de Preservação de Bondebico procuram liberar as relíquias dos ogros de Nagrand com a nobre intenção de vendê-las pelo maior lance.,124,1444,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1712,-1,0,0,0,GarInvasion_IronHorde,,125,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1713,-1,0,0,0,GarInvasion_ShadowCouncil,,126,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1714,-1,0,0,0,GarInvasion_Ogres,,128,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1715,-1,0,0,0,GarInvasion_Primals,,129,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1716,-1,0,0,0,GarInvasion_Breakers,,132,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1717,-1,0,0,0,GarInvasion_ThunderLord,,133,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1718,-1,0,0,0,GarInvasion_Shadowmoon,,134,1444,0,0,0,0,0,0,0,0,0,0,1028,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1731,6130900294268439629,-6184943489809468494,0,0,Conselho de Exarcas,"Sob a liderança de cinco poderosos exarcas, os draeneis de Draenor prosperaram em um mundo selvagem.",254,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1732,-1,0,0,0,Expedição a Draenor de Bondebico,Draenor é uma terra de oportunidades infinitas e muito pouca competição.,138,1444,0,0,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1733,6130900294268439629,0,0,0,Delvar Punho de Ferro,"É seu guardacostas, e fica postado em seu quartel. é possível aumentar sua amizade com Delvar convidando-o para lutar ao seu lado.",255,1735,0,164,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1735,0,0,0,0,Guarda-costas do Quartel,Posicione guardacostas em seu quartel,242,1444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1736,-1,0,0,0,Tormmok,"É seu guardacostas, e fica postado em seu quartel. É possível aumentar sua amizade com Tormmok convidando-o para lutar ao seu lado.",243,1735,0,160,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1737,-1,0,0,0,Sacerdote da Garra Ishaal,"É seu guardacostas, e fica postado em seu quartel. É possível aumentar sua amizade com Ishaal convidando-o para lutar ao seu lado.",244,1735,0,166,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1738,6130900294268439629,0,0,0,Defensora Illona,"É sua guarda-costas, a postos no quartel. É possível aumentar sua amizade com Illona convidando-a para lutar ao seu lado.",245,1735,0,162,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1739,-6184943489809468494,0,0,0,Vivianne,É sua guarda-costas e fica postada em seu quartel. É possível aumentar sua amizade com Vivianne convidando-a para lutar ao seu lado.,246,1735,0,165,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1740,-6184943489809468494,0,0,0,Aeda Brilhalvo,"É seu guardacostas, e fica postado em seu quartel. É possível aumentar sua amizade com Aeda convidando-o para lutar ao seu lado.",248,1735,0,163,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1741,-1,0,0,0,Leorajh,"É seu guardacostas, e fica postado em seu quartel. É possível aumentar sua amizade com Leorajh convidando-o para lutar ao seu lado.",137,1735,0,167,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,0
+1746,0,0,0,0,Gronn de Nagrand,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1747,0,0,0,0,Tesouro do Coliseu,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+1756,0,0,0,0,LVA_Looters,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1757,0,0,0,0,LVA_Preservers,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1758,0,0,0,0,LVA_Naturalists,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1759,0,0,0,0,LVA_Machines,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1760,0,0,0,0,Gladiadores do Malho Imponente,Os ogros do Malho Imponente gostam de togas e de lutas de gladiadores.,-1,1444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1786,0,0,0,0,Invasores da Legião Ardente,Demônios de lugares desconhecidos e poder inigualável.,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1815,-1,0,0,0,Sobreviventes Guilneanos,,140,1834,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1828,4154982399,134217728,0,0,Tribo Alta Montanha," A Tribo de Alta Montanha diminuiu em número nos últimos anos e com a ameaça drogbar por perto, eles buscam novos aliados para salvar o lar deles.",141,1834,0,0,0,2085,0,0,0,0,0,0,16,17,0,0,0,3000,0,0,42000,42000,0,0,0,0,5,5
+1833,0,0,0,0,Destronados,"Se precisa perguntar, já está morto.",-1,1834,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1834,-1,0,0,0,Legião,,146,0,6,0,0,0,0,0,0,0,0,0,4120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1847,6130900294268439629,-6184943489809468494,0,0,Mão do Profeta,"Yrel reuniu os Exarcas restantes e está convocando uma cruzada no nome de Velen. Juntos, eles estão trabalhando para estabelecer uma base na Selva de Tanaan para derrubar Gul'dan.",147,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1848,-6184943489809468494,6130900294268439629,0,0,Caçadores de Cabeças de Vol'jin,"Buscando proteger Azeroth com uma vitória decisiva em Draenor, o Chefe Guerreiro Vol'jin está reunindo uma equipe de elite de campeões para estabelecer uma base na Selva de Tanaan e derrubar Gul'dan.",148,1444,0,0,0,0,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+1849,-1,0,0,0,Ordem dos Despertos,"Sobreviventes de uma guerra civil terrível, esses arakkoanos sitiados esperam que a retomada dos artefatos apexis seja chave para a reconstrução pacífica de sua civilização.",149,1444,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1850,-1,0,0,0,Os Espreitapresa,"As matas perigosas da Selva de Tanaan atraíram os mais habilidosos caçadores de Azeroth e de Draenor. Para derrotar as feras de Tanaan, é necessário se tornar uma fera.",150,1444,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1859,6130900294268439629,1241691058,67108864,0,Os Noctívoros,Esses elfos Filhos da Noite exilados sofrem de abstinência ao serem separados da Nascente da Noite. Eles são contra a aliança de seu povo com a Legião e lutam por algum tipo de redenção.,151,1834,0,0,0,2089,0,0,0,0,0,0,16,16,17,0,0,0,42000,0,42000,42000,42000,0,0,0,5,5
+1860,-1,0,0,0,Sede Arcana (Thalyssra),Primeira Arcanista Thalyssra,152,1859,0,181,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0
+1861,-1,0,0,0,Arcane Thirst (Silgryn) DEPRECATED,DEPRECATED,153,1859,0,182,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1862,-1,0,0,0,Sede Arcana (Oculeth),Chefe Telemante Oculeth,155,1859,0,183,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0
+1883,-1,0,0,0,Tece-sonhos,Os druidas e seus aliados em Val'sharah protegem o Sonho Esmeralda desde o início dos tempos.,157,1834,0,0,0,2088,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1888,-1,0,0,0,Vraikal Jandvik,,168,1834,0,0,0,0,0,0,-1,0,0,0,6,0,0,0,-42000,0,0,0,42000,0,0,0,0,0,0,0
+1894,-1,0,0,0,As Guardiãs,"Depois que as forças da Legião invadiram a Câmara das Guardiãs com a ajuda de Gul'dan, as poucas Guardiãs que restaram estão determinadas a reconstruir a prisão e caçar as bestas terríveis que foram soltas quando ela foi destruída.",169,1834,0,0,0,2090,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1899,-1,0,0,0,Guarda da Lua,The Night Time is the Right Time [PH],176,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1900,-1,0,0,0,Corte de Farondis,A fantasmagórica Corte de Farondis e seus aliados continuam a luta contra um exército de invasores na ilha amaldiçoada de Azsuna.,177,1834,0,0,0,2087,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+1905,0,0,0,0,Druida do Bosque Onírico,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1910,0,0,0,0,Drogbar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1911,0,0,0,0,Fantasmas Kvaldir,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1912,0,0,0,0,Kvaldir,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1913,0,0,0,0,Filhos da Noite,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1914,0,0,0,0,Fenecidos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1919,-1,0,0,0,Sede Arcana (Valtrois),Arcanista Valtrois,178,1859,0,185,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0
+1920,0,0,0,0,Guarda da Lua,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1947,0,0,0,0,Illidari,"Elfos que juraram lutar contra a Legião Ardente, custe o que custar.",195,1834,0,0,0,0,0,0,2048,2047,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0
+1948,6130900294268439629,-6184943489809468494,0,0,Valarjares,"Estes são os guerreiros escolhidos de Odyn, que juraram servi-lo na vida ou na morte.",196,1834,0,0,0,2086,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5
+1953,0,0,0,0,Pesadelo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1962,0,0,0,0,Civil Filho da Noite,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1975,-1,0,0,0,Conjurador Margoss,"Um ex-aluno do Kirin Tor, Margoss passou a se dedicar à pesca para aliviar a sua vida estressante.",200,1834,0,193,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+1984,0,0,0,0,Os Primeiros Respondentes,"No alto de sua cidade flutuante, Dalaran, Olisarra e Angelique tratam os doentes e feridos de morte. Elas também vendem mercadorias para viajantes que precisam de suprimentos médicos.",201,1834,0,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+1989,-1,0,0,0,Guarda da Lua,,142,1834,0,0,0,0,0,0,0,0,0,0,4,0,0,0,42000,0,0,0,42000,0,0,0,0,0,0,0
+2010,-6184943489809468494,0,0,0,Arena de Brig'ga Fea (Temporada 3),A terceira temporada da Guilda dos Brigões da Horda ocorreu durante a campanha das Ilhas Partidas.,206,892,0,340,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+2011,6130900294268439629,0,0,0,Bar Brigalhada do Bizmo (Temporada 3),A terceira temporada da Guilda dos Brigões da Aliança ocorreu durante a campanha das Ilhas Partidas.,209,891,0,339,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+2012,0,0,0,0,Filhos da Noite Rebeldes,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2018,-1,0,0,0,Vingança da Garra,Aliados da semideusa Aviana e protetores das criaturas aladas das Ilhas Partidas.,211,1834,0,0,2,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2040,0,0,0,0,Vingança da Garra,Aliados da semideusa Aviana e protetores das criaturas aladas das Ilhas Partidas.,-1,1834,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2045,-1,0,0,0,Exércitos da Queda da Legião,Aliança de ordens empenhadas em derrotar a Legião na Tumba de Sargeras e na Costa Partida.,212,1834,0,0,0,2091,0,0,0,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,5,5
+2063,0,0,0,0,Arne Test - Paragon Reputation Stormwind,"Um dos últimos bastiões do poder dos humanos, esta capital da Aliança é comandada pelo pródigo rei Varian Wrynn.",214,0,0,0,0,2062,0,0,0,0,0,0,276,6,20,4,3100,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+2085,-1,0,0,0,Tribo Alta Montanha (Paragão),"A Tribo Alta Montanha diminuiu em número nos últimos anos e, com a ameaça drogbar por perto, eles buscam novos aliados para salvar o lar deles.",235,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2086,6130900294268439629,-6184943489809468494,0,0,Valarjar (Paragão),"Estes são os guerreiros escolhidos de Odyn, que juraram servi-lo na vida ou na morte.",236,1834,0,0,0,0,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5
+2087,-1,0,0,0,Corte de Farondis (Paragão),A fantasmagórica Corte de Farondis e seus aliados continuam a luta contra um exército de invasores na ilha amaldiçoada de Azsuna.,237,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2088,-1,0,0,0,Tece-sonhos (Paragão),Os druidas e seus aliados em Val'sharah protegem o Sonho Esmeralda desde o início dos tempos.,238,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2089,6130900294268439629,-6184943489809468494,0,0,Os Noctívoros (Paragão),Esses elfos Filhos da Noite exilados sofrem de abstinência ao serem separados da Nascente da Noite. Eles são contra a aliança de seu povo com a Legião e lutam por algum tipo de redenção.,239,1834,0,0,0,0,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5
+2090,-1,0,0,0,As Guardiãs (Paragão),"Depois que as forças da Legião invadiram a Câmara das Guardiãs com a ajuda de Gul'dan, as poucas Guardiãs que restaram estão determinadas a reconstruir a prisão e caçar as bestas terríveis que foram soltas quando ela foi destruída.",240,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2091,-1,0,0,0,Exércitos da Queda da Legião (Paragão),Aliança de ordens empenhadas em derrotar a Legião na Tumba de Sargeras e na Costa Partida.,249,1834,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2097,-1,0,0,0,Ilyssia das Águas,Guardiã ancestral do Lago Real em Azsuna.,256,1834,0,199,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2098,-1,0,0,0,Guardiã Raynae,A protetora dos peixes de Val'sharah.,257,1834,0,204,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2099,-1,0,0,0,Akule Chifre do Rio,Mestre do rio e dos peixes que nele vivem.,258,1834,0,200,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2100,-1,0,0,0,Corbyn,Um corvo com olhos inteligentes e brilhantes. Adora peixe.,259,1834,0,208,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2101,-1,0,0,0,Sha'leth,Uma misteriosa fenecida que vive nas proximidades das cachoeiras.,260,1834,0,206,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2102,-1,0,0,0,Diabrius,"Evocado de muito, muito longe, Diabrius coleciona conchas na esperança de criar um ""portal mágico"" e voltar para casa.",261,1834,0,202,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2103,235058098,6130900294268439629,1073741824,0,Império Zandalari,"Império mais antigo de Azeroth, os Zandalari são poderosos trolls que barganham com os temíveis loas. Nenhuma esquadra está à altura da Zandalari no Grande Oceano.",262,2104,0,0,0,2378,0,0,0,0,0,0,16,6,17,0,0,-42000,9000,0,42000,-42000,42000,0,0,0,0,0
+2104,-1,0,0,0,Battle for Azeroth,,263,0,7,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2105,0,0,0,0,Nazmani,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2111,6130900294268439629,-6184943489809468494,0,0,Dinossauros Zandalari,,264,2104,0,0,0,0,0,0,0,0,0,0,6,2,0,0,-42000,-42000,0,0,-42000,42000,0,0,0,0,0,0
+2120,824527949,-6184943489809468494,2147483648,0,Kul Tiraz - Tiragarde,A ilha-nação de Kul Tiraz deu origem aos melhores marinheiros de Azeroth.,266,2160,0,0,0,0,0,0,0,0,0,0,20,6,20,0,0,-42000,9000,0,42000,-42000,42000,0,1,0,7,0
+2121,0,0,0,0,Corsários do Grande Oceano,"O povo livre do Grande Oceano. Não são leais a ninguém, a não ser à própria tripulação.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2122,0,0,0,0,Saqueadores Maré-férrea,"Um bando de piratas inclementes que atua na Angra do Facão, na região do Estreito Tiragarde.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2135,-1,0,0,0,Crona,"Chronormu (Crona, para os íntimos) sempre figurou entre os dragões brônzeos mais ativos e mais acessíveis. Quanto mais forte o vínculo entre vocês, maior será o poder dela no cenário As Mortes de Crona.",265,1834,0,209,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,15100,0,0,0,0,0,0,0
+2155,0,0,0,0,Trolls Sangrentos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2156,-6184943489809468494,6130900294268439629,0,0,Expedição de Talanji,A Princesa Talanji e seus aliados lutam para proteger Zandalar de um massacre pelas mãos dos Trolls Sangrentos.,267,2104,0,0,0,2380,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2157,-6184943489809468494,6130900294268439629,0,0,Brigada da Honra,Um destacamento do exército da Horda cujo foco é o atravancamento das operações da Aliança em Kul Tiraz.,268,2104,0,0,0,2385,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2158,1308795826,6130900294268439629,4096,0,Voldunai,"Consistindo em exilados e catadores, os Voldunai lançam mão do conhecimento que têm das areias para se sobressair onde outros definham e morrem.",269,2104,0,0,0,2382,0,0,0,0,0,0,16,20,17,0,0,-3000,9000,0,42000,-3000,42000,0,0,0,0,0
+2159,6130900294268439629,-6184943489809468494,0,0,7ª Legião,Um destacamento de forças especiais de elite da Aliança empenhado em atravancar as operações da Horda em Zandalar.,270,2104,0,0,0,2384,0,0,0,0,0,0,16,2,0,0,3000,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2160,824527949,-6184943489809468494,2147483648,0,Almirantado Proudmore,"Mestres dos mares e comandantes da melhor força naval de Azeroth, a famosa família Proudmore liderou Kul Tiraz durante décadas de sua poderosa capital, em Boralus.",271,2104,0,0,0,2379,0,0,0,0,0,0,16,2,17,0,0,-42000,9000,0,42000,-42000,42000,0,0,0,0,0
+2161,6130900294268439629,-6184943489809468494,0,0,Ordem das Brasas,"Antiga ordem kultirena ressuscitada para enfrentar a ameaça imposta pela bruxaria, a Ordem das Brasas luta com o conhecimento guiando suas lâminas.",272,2104,0,0,0,2383,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2162,6130900294268439629,-6184943489809468494,0,0,Rastro da Tempestade,"Lar de fazendeiros, artesãos, soldados e dos misteriosos sábios das marés, o Rastro da Tempestade almeja dominar o Vale Trovamare e assegurar um lugar ao sol em Kul Tiraz.",273,2104,0,0,0,2381,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2163,-1,0,0,0,Peregrinos Tortollanos,"Cruzando o mundo, os Peregrinos Tortollanos lançam mão de sua imensa riqueza para catalogar e preservar conhecimento proibido.",274,2104,0,0,0,2387,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2164,-1,0,0,0,Campeões de Azeroth,"Recrutados por Magni Barbabronze, os Campeões de Azeroth almejam curar as feridas causadas pela lâmina ardente de Sargeras e salvar um mundo agonizante.",275,2104,0,0,0,2386,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2165,3752329215,536870912,0,0,Exército da Luz,"Após a queda de Argus, os melhores guerreiros draeneis seguiram a naaru primeva Xi'ra por todo o cosmos, na eterna luta para acabar com a Legião. Desde então, outros sobreviventes da Cruzada Ardente se juntaram aos exércitos dos Forjados a Luz.",276,1834,0,0,0,2166,0,0,0,0,0,0,16,17,0,0,3000,6000,0,0,42000,42000,0,0,0,0,0,0
+2166,-1,0,0,0,Exército da Luz (Paragão),,277,1834,6,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2167,-1,0,0,0,Casta Argussiana (Paragão),,278,1893,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2170,4020764671,268435456,0,0,Casta Argussiana,"Embora muitos tenham lutado contra a tomada de Argus pela Legião Ardente, nem todos conseguiram escapar. Encorajados pela chegada de novos aliados, esses párias e refugiados se uniram na missão de retomar o que um dia chamaram de lar.",279,1834,6,0,0,2167,0,0,0,0,0,0,16,17,0,0,0,3000,0,0,42000,42000,0,0,0,0,0,0
+2176,0,0,0,0,"Neutral, Force Reaction 1",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2177,0,0,0,0,"Neutral, Force Reaction 2",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2178,0,0,0,0,"Neutral, Force Reaction 3",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2179,0,0,0,0,"Neutral, Force Reaction 4",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2185,0,0,0,0,Ratos de Porão,"Uma tripulação incomum, composta por raças ""mestiças"", que atua na Angra do Facão, que fica no Estreito Tiragarde.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2186,0,0,0,0,Rufiões Dentenegro,"Um grupo de brutamontes que nunca fogem da raia. Um dos vários grupos de piratas que atuam na área da Angra do Facão, no Estreito Tiragarde.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2187,0,0,0,0,Corsários Corta-água,"Um bando de mercenários astutos que matam para quem pagar mais. Entre um contrato e outro, eles aportam na Angra do Facão, no Estreito Tiragarde.",-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2192,0,0,0,0,Companhia de Comércio Grimpagris,Companhia de navegação e manufatureira baseada em Boralus. Boatos na capital kultirena sugerem que essa empresa respeitável é uma fachada para um império criminoso sinistro.,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2218,0,0,0,0,8.0 Hidden Object - Red,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2219,0,0,0,0,8.0 Hidden Object - Withered - Red,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2220,0,0,0,0,8.0 Hidden Object - Withered - Blue,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2221,0,0,0,0,8.0 Hidden Object - Withered - Green,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2222,0,0,0,0,8.0 Hidden Object - Withered - Yellow,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2227,0,0,0,0,Fera – Abelha,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2228,0,0,0,0,Fera – Wendigo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2229,0,0,0,0,"PLAYER, Void Elf",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2230,0,0,0,0,"PLAYER, Highmountain Tauren",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2231,0,0,0,0,"PLAYER, Nightborne",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2232,0,0,0,0,"PLAYER, Lightforged Draenei",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2233,-1,0,0,0,Treinamento de Dinossauro - Pterrordax,,282,2104,0,213,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2258,0,0,0,0,Wendigo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2259,0,0,0,0,Abelhas,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2264,6130900294268439629,-6184943489809468494,0,0,Kul Tiraz - Drustvar,A ilha-nação de Kul Tiraz deu origem aos melhores marinheiros de Azeroth.,285,2161,0,0,0,0,0,0,0,0,0,0,20,6,0,0,0,-42000,0,0,42000,-42000,0,0,1,0,7,0
+2265,6130900294268439629,-6184943489809468494,0,0,Kul Tiraz - Trovamare,A ilha-nação de Kul Tiraz deu origem aos melhores marinheiros de Azeroth.,286,2162,0,0,0,0,0,0,0,0,0,0,20,6,0,0,0,-42000,0,0,42000,-42000,0,0,1,0,7,0
+2370,-1,0,0,0,Treinamento de Dinossauro - Escornante,,288,2104,0,315,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2371,6130900294268439629,0,0,0,Bar Brigalhada do Bizmo,Um grupo de brigões sedentos de ação juntou criaturas de todas as partes para criar uma arena de combates mortais contra os heróis da Aliança.,289,891,0,43,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+2372,-6184943489809468494,0,0,0,Arena de Brig'ga Fea,Criaturas foram capturadas por todas as partes para criar uma arena de combates mortais contra os heróis da Horda.,290,892,0,28,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0
+2373,-6184943489809468494,6130900294268439629,0,0,Os Libertos,"Oprimidos pelas nagas, esses refugiados se uniram para lutar e alcançar a liberdade.",291,2104,0,0,0,2374,0,0,-1,0,0,0,16,20,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2374,-6184943489809468494,6130900294268439629,0,0,Os Libertos (Paragão),"Oprimidos pelas nagas, esses refugiados se uniram para lutar e alcançar a liberdade.",292,2104,0,0,0,0,0,0,-1,0,0,0,16,20,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2375,6130900294268439629,0,0,0,Caçador Akana,O Caçador Akana é um caçador experiente com habilidades de sobrevivência incomparáveis.,293,2104,0,316,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2376,6130900294268439629,0,0,0,Clarividente Ori,O Clarividente Ori é um xamã formidável com poder sobre os elementos.,294,2104,0,317,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2377,6130900294268439629,0,0,0,Espadachim Inowari,O Espadachim Inowari é um guerreiro veterano que detém o respeito do povo ankoano.,295,2104,0,318,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2378,-6184943489809468494,6130900294268439629,0,0,Império Zandalari (Paragão),"Império mais antigo de Azeroth, os Zandalari são poderosos trolls que barganham com os temíveis loas. Nenhuma esquadra está à altura da Zandalari no Grande Oceano.",296,2104,0,0,0,0,0,0,0,0,0,0,16,6,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2379,6130900294268439629,-6184943489809468494,0,0,Almirantado Proudmore (Paragão),"Mestres dos mares e comandantes da melhor força naval de Azeroth, a famosa família Proudmore liderou Kul Tiraz durante décadas de sua poderosa capital, Boralus.",297,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2380,-6184943489809468494,6130900294268439629,0,0,Expedição de Talanji (Paragão),A Princesa Talanji e seus aliados lutam para proteger Zandalar de um massacre pelas mãos dos Trolls Sangrentos.,298,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2381,6130900294268439629,-6184943489809468494,0,0,Rastro da Tempestade (Paragão),"Lar de fazendeiros, artesãos, soldados e dos misteriosos sábios das marés, o Rastro da Tempestade almeja retomar o Vale Trovamare e assegurar um lugar ao sol em Kul Tiraz.",299,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2382,-6184943489809468494,6130900294268439629,0,0,Voldunai (Paragão),Os Voldunai são um grupo de exilados e catadores que lançam mão do conhecimento sobre as areias para se sobressair onde outros definham e morrem.,300,2104,0,0,0,0,0,0,0,0,0,0,16,20,0,0,0,-3000,0,0,42000,-3000,0,0,0,0,0,0
+2383,6130900294268439629,-6184943489809468494,0,0,Ordem das Brasas (Paragão),"Antiga ordem kultirena ressuscitada para enfrentar a ameaça imposta pela bruxaria, a Ordem das Brasas luta com o conhecimento guiando suas lâminas.",301,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2384,6130900294268439629,-6184943489809468494,0,0,7ª Legião (Paragão),Um destacamento de forças especiais de elite da Aliança empenhado em atravancar as operações da Horda em Zandalar.,302,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2385,-6184943489809468494,6130900294268439629,0,0,Brigada da Honra (Paragão),Um destacamento do exército da Horda cujo foco é o atravancamento das operações da Aliança em Kul Tiraz.,303,2104,0,0,0,0,0,0,0,0,0,0,16,2,0,0,0,-42000,0,0,42000,-42000,0,0,0,0,0,0
+2386,-1,0,0,0,Campeões de Azeroth (Paragão),"Recrutados por Magni Barbabronze, os Campeões de Azeroth almejam curar as feridas causadas pela lâmina ardente de Sargeras e salvar um mundo agonizante.",304,2104,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2387,-1,0,0,0,Peregrinos Tortollanos (Paragão),"Cruzando o mundo, os Peregrinos Tortollanos lançam mão de sua imensa riqueza para catalogar e preservar conhecimento proibido.",305,2104,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2388,-6184943489809468494,0,0,0,Xablau Guelbraque,Facção da Horda 1,306,2104,0,323,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2389,-6184943489809468494,0,0,0,Neri Pinafiada,Facção da Horda 2,307,2104,0,320,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2390,-6184943489809468494,0,0,0,Vim Salcárdio,Facção da Horda 3,308,2104,0,324,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2391,4289183743,16384,0,0,Resistência Ferrúgia,A Resistência Ferrúgia compõe a linha de frente contra o Rei Gnomecan e seus planos malignos.,309,2104,0,0,0,2392,0,0,0,0,0,0,16,17,0,0,0,9000,0,0,42000,42000,0,0,0,0,0,0
+2392,-1,0,0,0,Resistência Ferrúgia (Paragão),A Resistência Ferrúgia compõe a linha de frente contra o Rei Gnomecan e seus planos malignos.,310,2104,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2394,0,0,0,0,Caranguejos-ermitões,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2395,6130900294268439629,-6184943489809468494,0,0,Colmeia Meleira,"Uma espécie de abelha conhecida pelo tamanho exagerado. Embora tenham acabado de chegar no Vale Trovamare, sua presença foi notada sem demora pelos aventureiros e admiradores de insetos.",312,2104,0,0,0,0,0,0,-1,-1,0,0,16,20,0,0,0,0,0,0,42000,42000,0,0,1,1,0,0
+2396,-1,0,0,0,Zangão Meleiro,,313,0,0,326,0,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,1,1,0,0
+2397,-1,0,0,0,Matriarca-da-colmeia Meleira,,314,0,0,327,0,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,1,1,0,0
+2398,-1,0,0,0,Coletora Meleira,,315,0,0,325,0,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,1,1,0,0
+2400,6130900294268439629,-6184943489809468494,0,0,Ankoano Lamionda,Os ankoanos Lamionda são uma espécie ancestral de guerreiros do mar profundo que atravessam as áreas mais perigosas do oceano.,317,2104,0,0,0,2401,0,0,-1,0,0,0,16,20,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2401,6130900294268439629,-6184943489809468494,0,0,Ankoano Lamionda (Paragão),Os ankoanos Lamionda são uma espécie ancestral de guerreiros do mar profundo que atravessam as áreas mais perigosas do oceano.,318,2104,0,0,0,0,0,0,-1,0,0,0,16,20,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2404,0,0,0,0,Casa dos Constructos,TBD,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2405,0,0,0,0,Casa dos Rituais,TBD,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2406,0,0,0,0,Casa dos Escolhidos,,-1,2414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2407,-1,0,0,0,Os Ascendidos,"Kyrianos que completam o árduo processo para purgar os fardos da vida mortal são considerados dignos de ascensão, recebendo as asas e jurando serviço eterno à Arconte.",333,2414,0,0,0,2441,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2408,0,0,0,0,Kyrianos Sombrios,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2410,-1,0,0,0,O Exército Imorredouro,"Há muito tempo, o Prócer estabeleceu as cinco casas de Maldraxxus para criar as forças armadas supremas. Por meio do poder, inteligência e astúcia, essa força implacável jurou defender as Terras Sombrias contra todas as ameaças.",332,2414,0,0,0,2440,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2411,0,0,0,0,Legião de Pedra,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2412,0,0,0,0,Pecádia,,-1,2414,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2413,-1,0,0,0,Corte dos Ceifadores,"Depois de incontáveis eras sob o reinado de Sir Denathrius, a autoridade em Revendreth agora reside com a Corte dos Ceifadores. Esses nobres venthyr conduzem o dever sagrado de redimir almas orgulhosas.",321,2414,0,0,0,2442,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2414,-1,0,0,0,Terras Sombrias,,322,0,8,0,0,0,0,0,0,0,0,0,4104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2415,-1,0,0,0,Rajani,"Um grupo de mogus leais ao Guardião Titânico Ra, encarregado de defender o Engenho de Nalak'sha dos lacaios de N'Zoth.",323,2104,0,0,0,2416,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2416,-1,0,0,0,Rajani (Paragão),"Um grupo de mogus leais ao Guardião Titânico Ra, encarregado de defender o Engenho de Nalak'sha dos lacaios de N'Zoth.",324,2104,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2417,-1,0,0,0,Acordo de Uldum,"Uma coalizão não muito coesa de aliados liderados pelos tol'vir, o Acordo de Uldum foi fundado para proteger a Forja Primordial das forças inimigas.",325,2104,0,0,0,2418,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2418,-1,0,0,0,Acordo de Uldum (Paragão),"Uma coalizão não muito coesa de aliados liderados pelos tol'vir, o Acordo de Uldum foi fundado para proteger a Forja Primordial das forças inimigas.",326,2104,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2419,0,0,0,0,N'Zoth,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2422,-1,0,0,0,Feérios Noturnos,"Convocada para servir a Rainha Invernal em momentos difíceis, a Caçada Selvagem reúne os melhores caçadores e caçadoras de toda Ardena. Diante da seca e invasões, a Caçada Selvagem está pronta para defender a floresta.",328,2465,0,0,0,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,1,1,7,7
+2427,-1,0,0,0,Filhote de Aqir,,329,2104,0,365,0,0,0,0,-1,0,0,0,4,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2431,2969651200,1308635136,0,0,Owen Test,,330,0,0,0,0,0,0,0,4095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2432,-1,0,0,0,Ve'nari,"Ve'nari sabe mais sobre a Gorja que qualquer um, e ela poder dividir o que sabe com você se você conquistar a simpatia dela.",331,2414,0,366,0,2474,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2437,0,0,0,0,Thanator - Guarda,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2438,0,0,0,0,Thanator - Prisioneiro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2439,-1,0,0,0,Os Confessos,"Profundamente devotados à Acusadora, os Arquivistas almejam restaurar e catalogar as pedras de pecado fragmentadas pelo Lorde Camarista e seus Inquisidores.",334,2414,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2440,-1,0,0,0,O Exército Imorredouro (Paragão),"Há muito tempo, o Prócer estabeleceu as cinco casas de Maldraxxus para criar as forças armadas supremas. Por meio do poder, inteligência e astúcia, essa força implacável jurou defender as Terras Sombrias contra todas as ameaças.",320,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2441,-1,0,0,0,Os Ascendidos (Paragão),"Kyrianos que completam o árduo processo para purgar os fardos da vida mortal são considerados dignos de ascensão, recebendo asas e jurando serviço eterno à Arconte.",335,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2442,-1,0,0,0,Corte dos Ceifadores (Paragão),"Depois de incontáveis eras sob o reinado de Sir Denathrius, a autoridade em Revendreth agora reside com a Corte dos Ceifadores. Esses nobres venthyr conduzem o dever sagrado de redimir almas orgulhosas.",336,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2444,-1,0,0,0,A Caçada Selvagem (Paragão),"Convocada para servir a Rainha Invernal em momentos difíceis, a Caçada Selvagem reúne os melhores caçadores e caçadoras de toda Ardena. Diante da seca e invasões, a Caçada Selvagem está pronta para defender a floresta.",338,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2445,-1,0,0,0,A Corte das Brasas,"Uma nova corte se abriu em Revendreth, onde o Príncipe Renathal tenta unir aliados de todas as Terras Sombrias e aumentar a influência do pacto dele.",339,2414,0,0,0,0,0,0,-1,0,0,0,152,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2446,-1,0,0,0,Baronesa Vashj,A liderança incansável das nagas observa e julga.,340,2445,0,367,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2447,-1,0,0,0,Lady Lunamora,"Membro inconstante da Corte da Noite, Lady Lunamora é famosa tanto pelos truques quanto pela influência.",341,2445,0,368,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2448,-1,0,0,0,Mikâniko,"Como Primeiro Forjalita do Bastião, Mikâniko está sempre trabalhando em novas invenções.",342,2445,0,370,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2449,-1,0,0,0,A Condessa,A anfitriã e socialite mais proeminente de Revendreth tem uma influência enorme na percepção pública.,343,2445,0,371,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2450,-1,0,0,0,Alexandros Mograine,"O Cremador passou vidas inteiras na guerra, sem jamais receber o descanso final.",344,2445,0,372,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2451,-1,0,0,0,Capitã de Caça Korayn,"Guerreira destemida, a Capitã de Caça Korayn tem paciência curta para cerimônias.",345,2445,0,373,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2452,-1,0,0,0,Polemarco Adrestes,"Sempre em serviço, este estoico ascendido precisa que alguém lhe ordene que se divirta, mesmo em uma festa.",346,2445,0,375,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2453,-1,0,0,0,Rasgão e Cara-de-clava,Trabalhadores empenhados merecem reconhecimento. E poucos trabalham por Pecádia com mais empenho que Rasgão e Cara-de-clava.,347,2445,0,376,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2454,-1,0,0,0,Xufa,"Xufa e seus amigos são bichos festeiros, no amplo sentido do termo.",348,2445,0,377,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2455,-1,0,0,0,Guardião da Cripta Kassir,"Obstinado e cheio de princípios, o Guardião da Cripta Kassir sempre luta por aquilo em que acredita.",349,2445,0,379,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2456,-1,0,0,0,Droman Aliothe,"Aliothe, a grande ursa, é uma deusa selvagem, porém não é primitiva.",350,2445,0,381,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2457,-1,0,0,0,Grão-mestre Vole,A dedicação de Vole à supervisão do Teatro da Dor é inegável.,351,2445,0,382,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2458,-1,0,0,0,Kleia e Pelagos,"Essas almas vinculadas são mais fortes quando estão juntas, e seus amigos venthyr ficarão felizes em vê-las de novo.",352,2445,0,383,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2459,-1,0,0,0,Sika,Essa comissária é quem faz o Bastião girar.,353,2445,0,384,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2460,-1,0,0,0,Cabeça-de-pedra,Nosso amiguinho singelo ao sul é quem controla o acesso ao Reduto das Brasas.,354,2445,0,385,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2461,-1,0,0,0,Arquiteto da Peste Marileth,"Os experimentos dele até fazem uma lambança, mas o mestre cientista de visgo de Maldraxxus sempre encontra uma solução.",355,2445,0,387,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2462,-1,0,0,0,Mestres-das-suturas,"Os Mestres-das-suturas são conhecidos pela habilidade de fundir carne, osso e ânima em constructos, sendo assim poderosos aliados em Maldraxxus. Eles se estabeleceram no Bloco dos Açougueiros depois de abandonar a traiçoeira Casa dos Constructos.",356,2414,0,389,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2463,-1,0,0,0,Marasmius,"Um habitante fúngico impossivelmente antigo de Ardena, Marasmius é parte integral do ecossistema do reino. Sua disposição em ajudar amoleceu qualquer que seja a parte dele que serve de coração, e há sempre muito trabalho a ser feito.",357,2414,0,390,0,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2464,-1,0,0,0,Corte da Noite,"A seca de ânima e a invasão drusta consomem a atenção da Rainha Invernal e da Caçada Selvagem, deixando aos Dromans da Corte da Noite a tarefa de proteger as sementes selvagens e defender os bosques.",358,2414,0,391,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2465,-1,0,0,0,A Caçada Selvagem,"Convocada para servir à Rainha Invernal em momentos difíceis, a Caçada Selvagem reúne os melhores caçadores e caçadoras de toda Ardena. Diante da seca e invasões, a Caçada Selvagem está pronta para defender a floresta.",359,2414,0,0,0,2444,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2468,0,0,0,0,Korthia,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2469,-1,0,0,0,Conhecimento Fractal,Revele os segredos da criação.,360,2414,0,392,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,15000,0,0,0,0,0,0,0
+2470,-1,0,0,0,Avanço da Morte,"O poderio combinado dos pactos das Terras Sombrias, reunido para invadir o Sacrário da Dominação.",361,2414,0,0,0,2471,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2471,-1,0,0,0,Avanço da Morte (Paragão),"O poderio combinado dos pactos das Terras Sombrias, reunido para invadir o Sacrário da Dominação.",362,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2472,-1,0,0,0,O Códice dos Arquivistas,"Os atendentes korthianos devotam a existência a pesquisar relíquias de todas as partes das Terras Sombrias. Liderados por um Arquivista, eles se dedicam a recuperar relíquias espalhadas por Korthia após a invasão górjura.",363,2414,0,393,0,2473,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,41000,0,0,0,0,0,0,0
+2473,-1,0,0,0,O Códice dos Arquivistas (Paragão),"Os atendentes korthianos devotam a existência a pesquisar relíquias de todas as partes das Terras Sombrias. Liderados por um Arquivista, eles se dedicam a recuperar relíquias espalhadas por Korthia após a invasão górjura.",364,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2474,-1,0,0,0,Ve'nari (Paragão),"Ve'nari sabe mais sobre a Gorja que qualquer um, e ela poder dividir o que sabe com você se você conquistar a simpatia dela.",365,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2478,-1,0,0,0,Os Iluminados,"Outrora membros do Cartel Al, os Iluminados abandonaram a busca por lucro e glória por devoção aos Primogênitos. Angariando a simpatia deles, os corretores podem se dispor a compartilhar o conhecimento que reuniram.",284,2414,0,0,0,2479,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2479,-1,0,0,0,Os Iluminados (Paragão),"Outrora membros do Cartel Al, os Iluminados abandonaram a busca por lucro e glória por devoção aos Primogênitos. Angariando a simpatia deles, os corretores podem se dispor a compartilhar o conhecimento que reuniram.",368,2414,0,0,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2480,0,0,0,0,Automa,,-1,2414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2502,0,0,0,0,Monstros Capturados em Zereth Mortis,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2503,-1,0,0,0,Centauro Maruuk,"Clãs de centauros vagam pela Chapada Ohn'ahrana, onde seguem o chamado do vento e buscam a emoção da caçada.",401,2506,9,0,6,2504,0,2002,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2504,-1,0,0,0,Centauros Maruuk (Paragão),"Clãs de centauros vagam pela Chapada Ohn'ahrana, onde seguem o chamado do vento e buscam a emoção da caçada.",373,2506,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2506,-1,0,0,0,Revoada Dragônica,,374,0,9,0,0,0,0,0,0,0,0,0,4120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2507,-1,0,0,0,Expedição Escama de Dragão,"Este grupo destemido de aventureiros, eruditos e artesãos constitui uma expedição conjunta da Liga dos Exploradores e do Relicário que busca desvendar os muitos mistérios das Ilhas do Dragão.",369,2506,9,0,6,2508,0,2021,-1,0,0,0,152,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2508,-1,0,0,0,Expedição Escama de Dragão (Paragão),"Este grupo destemido de aventureiros, eruditos e artesãos constitui uma expedição conjunta da Liga dos Exploradores e do Relicário que busca desvendar os muitos mistérios das Ilhas do Dragão.",375,2506,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2509,-1,0,0,0,Clã Shikaar,,376,2503,9,0,0,0,0,0,-1,0,0,0,2068,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2510,-1,0,0,0,Acordo de Valdrakken,"Centrado em sua cidade mais antiga, o Acordo de Valdrakken é o poder unificado de toda a raça dragônica, e busca proteger não só sua ilha natal, mas toda Azeroth.",377,2506,9,0,6,2552,0,2088,-1,0,0,0,152,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2511,-1,0,0,0,Morsanos de Iskaara,"Os Morsanos de Iskaara estão nas Ilhas do Dragão há gerações, vivendo em harmonia e contando histórias do mundo que os rodeia.",378,2506,9,0,6,2551,0,2087,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2512,-1,0,0,0,Clã Aylaag,,379,2503,9,0,0,0,0,0,-1,0,0,0,2068,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2513,-1,0,0,0,Clã Ohn’ir,,380,2503,9,0,0,0,0,0,-1,0,0,0,2068,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2514,0,0,0,0,Primevistas,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2516,0,0,0,0,Djaradins,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2517,-1,0,0,0,Wrathion,"O olhar de Wrathion, que passou muito tempo focado em proteger Azeroth, agora se voltou para o futuro da Revoada Dragônica Negra... e o destino dele.",381,2510,9,396,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2518,-1,0,0,0,Sabellian,Sabellian estabeleceu uma nova geração de dragões negros íntegros e trabalha para protegê-la a todo custo.,382,2510,9,397,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2519,0,0,0,0,Recuperadores,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2520,-1,0,0,0,Clã Nokhid,,414,2506,0,0,0,0,0,0,-1,0,0,0,2054,0,0,0,-40000,0,0,0,42000,0,0,0,0,0,0,0
+2521,-1,0,0,0,Clã Nogud (Paragão),,384,2506,9,0,0,0,0,0,-1,0,0,0,2068,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2522,-1,0,0,0,Clã Teerai,,385,2503,9,0,0,0,0,0,-1,0,0,0,2068,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2523,1308767154,6130900294268439629,32768,0,Garras Sombrias,"Liderados pelo corajoso Comandante-de-escama Cinzamalho, os Garras Sombrias foram treinados para serem a arma secreta da Revoada Dragônica Negra. Hoje, esses dracthyrs usam suas perícias para mudar o rumo de qualquer batalha, independentemente de estarem em menor número.",386,67,9,0,0,0,0,0,-1,-1,-1,0,16,2,17,0,0,-42000,3000,0,42000,-42000,42000,0,0,0,0,0
+2524,2971946061,-6184943489809468494,65536,0,Guardadores Obsidianos,"Liderados pelo vigoroso Comandante-de-escama Lazulathel, os Guardadores Obsidianos foram treinados para serem o escudo da Revoada Dragônica Negra. Hoje, esses dracthyrs usam essas perícias para defender os que mais precisam de ajuda contra as adversidades.",387,469,9,0,0,0,0,0,-1,-1,-1,0,16,2,273,0,0,-42000,3000,0,42000,-42000,42000,0,0,0,0,0
+2525,0,0,0,0,"Elemental, Fogo",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2526,-1,0,0,0,Pelursos Pelagem Invernal,Os Pelursos Couro da Neve falam um idioma que ninguém parece entender. Talvez se descubra mais no futuro.,411,2506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,0,0
+2542,-1,0,0,0,Clã Ukhel,,372,2506,0,0,0,0,0,0,-1,0,0,0,2054,0,0,0,-42000,0,0,0,-42000,0,0,0,0,0,0,0
+2544,-1,0,0,0,Consórcio do Artífice – Filial das Ilhas do Dragão,,402,2510,0,398,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2550,-1,0,0,0,Junção Cobáltica,"A Junção Cobáltica já foi um lugar onde os dragões azuis conjuravam criações maravilhosas com magia arcana. Agora ela caiu nas mãos da Chama Partida, que pretende usar sua magia em guerras.",408,2510,0,400,4,0,0,0,-1,0,0,0,16,0,0,0,100,0,0,0,42000,0,0,0,0,0,0,0
+2551,-1,0,0,0,Morsanos de Iskaara (Paragão),"Os Morsanos de Iskaara estão nas Ilhas do Dragão há gerações, vivendo em harmonia e contando histórias do mundo que os rodeia.",409,2506,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2552,-1,0,0,0,Acordo de Valdrakken (Paragão),"Centrado em sua cidade mais antiga, o Acordo de Valdrakken é o poder unificado de toda a raça dragônica, e busca proteger não só sua ilha natal, mas toda Azeroth.",410,2506,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2553,-1,0,0,0,Soridormi,"Os andarilhos do tempo de Soridormi viajam pelos percursos temporais, defendendo nosso mundo contra alternativas ilimitadas. Quando a nossa linha temporal sofre um ataque temporal ou se deteriora, Soridormi é a comandante que mantém tudo no lugar.",432,2510,9,411,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2554,-1,0,0,0,Clã Toghus,,412,2503,0,0,0,0,0,0,-1,0,0,0,2052,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2555,-1,0,0,0,Clã Kaighan,,413,2506,0,0,0,0,0,0,-1,0,0,0,2054,0,0,0,-6000,0,0,0,42000,0,0,0,0,0,0,0
+2564,-1,0,0,0,Farins de Argília,"Debaixo das Ilhas do Dragão, nas profundezas da Caverna Zaralek, está a cidade farim de Argília. Os comerciantes amistosos de lá são conhecidos pela hospitalidade, faro aguçado e sistema de comércio peculiar, baseado em trocas.",421,2506,9,0,6,2565,0,2402,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2565,-1,0,0,0,Farins de Argília (Paragão),"Debaixo das Ilhas do Dragão, nas profundezas da Caverna Zaralek, está a cidade farim de Argília. Os comerciantes amistosos de lá são conhecidos pela hospitalidade, faro aguçado e sistema de comércio peculiar, baseado em trocas.",422,2506,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2568,-1,0,0,0,Corredor de Lumerogg,Briggul não deixa o Rei da Pista ficar com qualquer um. Você pode provar que é capaz de treinar um caracol?,425,2506,0,408,0,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,2800,0,0,0,0,0,0,0
+2569,-1,0,0,0,The War Within,,383,0,10,0,0,0,0,0,-1,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2570,-1,0,0,0,Arathi de Pouso Santo,"Os Arathi da Expedição de Pouso Santo protegem a estrela Beledar das muitas ameaças encontradas em Khaz Algar. Isolados de seu império além-mar, construíram um novo lar com a força da fé na Chama Sagrada.",426,2569,10,0,4,2611,0,2901,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2574,-1,0,0,0,Guardiões do Sonho,Uma coalizão de várias raças prontas para defender o Sonho Esmeralda contra todas as ameaças.,430,2506,9,0,6,2575,0,2653,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2575,0,0,0,0,Guardiões do Sonho (Paragão),Uma coalizão de várias raças prontas para defender o Sonho Esmeralda contra todas as ameaças.,431,2506,9,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2576,0,0,0,0,Druidas da Chama,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2590,-1,0,0,0,Conselho de Dornogal,"Governando na Câmara do Fundamento sob a liderança do Guarda do Conselho Merrix, o Conselho de Dornogal toma decisões que afetam todos os terranos da Ilha de Dorn.",442,2569,10,0,4,2612,0,2900,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2593,-1,0,0,0,Tripulação de Barrileiros,Uma tripulação de espíritos livres e desajustados fazendo baderna sob a bandeira do Capitão Barrileiro.,203,0,9,0,38,0,0,2814,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2594,-1,0,0,0,A Assembleia do Fosso,"Em todo o Fosso Ressonante, máquinas negligenciadas aguardam conserto. Enquanto os Mensageiros Mecânicos emprestam sua perspicácia tecnológica, kobolds buscam peças deixadas para trás. Qualquer pessoa que queira explorar e reconstruir pode ajudar.",444,2569,10,0,6,2613,0,2898,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2595,0,0,0,0,Ordem da Noite,,-1,2569,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2596,-1,0,0,0,Os Fios Cortados (Paragão),O tumultuado reinado da Rainha Ansurek não está livre de detratores. Os Fios Cortados trabalham de forma inteligente e silenciosa nos bastidores para desfiar a tapeçaria do governo implacável de Ansurek.,445,2569,10,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,7500,0,0,0,0,0,0,0
+2600,-1,0,0,0,Os Fios Cortados,O tumultuado reinado da Rainha Ansurek não está livre de detratores. Os Fios Cortados trabalham de forma inteligente e silenciosa nos bastidores para desfiar a tapeçaria do governo implacável de Ansurek.,446,2569,10,0,6,2596,0,2904,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2601,-1,0,0,0,A Fiandeira,"Outrora Fiandeira Real, a Viúva Arak'nai agora observa atentamente sua antiga casa com olhar crítico. Com uma rede de fofocandeiros e espiões à disposição, quase nada passa despercebido por ela.",447,2600,10,416,6,2648,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,7
+2602,0,0,0,0,Bazar do Umbral,Controla o comportamento das criaturas no Bazar do Umbral e a Cidade das Tramas.,-1,2600,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2604,-1,0,0,0,Tripulação de Barrileiros (Paragão),Uma tripulação de espíritos livres e desajustados fazendo baderna sob a bandeira do Capitão Barrileiro.,202,0,9,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2605,-1,0,0,0,O General,"Outrora líder militar mais renomado de Azj-Kahet, Anub'azal foi preterido em favor de um dos queridos Ascendidos de Ansurek. Isso não será tolerado.",449,2600,10,417,6,2649,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,7
+2606,0,0,0,0,Altagrota,Controla o comportamento das criaturas na Altagrota da Cidade das Tramas,-1,2600,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2607,-1,0,0,0,O Vizir,"Na posição mais perigosa de todas, o Executor Nizrek passa os dias como conselheiro mais leal da Rainha Ansurek. Felizmente, Ansurek ainda não descobriu que ele usa o restante de seu tempo para acabar com o reinado dela.",451,2600,10,418,6,2647,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,20000,0,0,0,0,0,0,7
+2609,0,0,0,0,As Furnas,Controla o comportamento das criaturas nas Furnas da Cidade das Tramas.,-1,2600,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2610,0,0,0,0,Nerubiano de Azj-Kaheti (sempre hostil) (oculto),"Controla o comportamento das criaturas para Nerubianos sempre hostis. Age como Monstro, mas outros Nerubianos não atacam (mesmo se forem aliados do jogador). Use na maioria dos inimigos nerubianos.",-1,2600,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2611,-1,0,0,0,Arathi de Pouso Santo (Paragão),"Os Arathi da Expedição de Pouso Santo protegem a estrela Beledar das muitas ameaças encontradas em Khaz Algar. Isolados de seu império além-mar, construíram um novo lar com a força da fé na Chama Sagrada.",453,2569,10,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2612,-1,0,0,0,Conselho de Dornogal (Paragão),"Governando na Câmara do Fundamento sob a liderança do Guarda do Conselho Merrix, o Conselho de Dornogal toma decisões que afetam todos os terranos da Ilha de Dorn.",454,2569,10,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2613,-1,0,0,0,A Assembleia do Fosso (Paragão),"Em todo o Fosso Ressonante, máquinas negligenciadas aguardam conserto. Enquanto os Mensageiros Mecânicos emprestam sua perspicácia tecnológica, kobolds buscam peças deixadas para trás. Qualquer pessoa que queira explorar e reconstruir pode ajudar.",455,2569,10,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2614,0,0,0,0,Forte do Cerco,Controls creature behavior in the Siegehold POI of Azj-Kahet.  ONLY USED IN LEVEL UP CAMPAIGN CH 2.,-1,2600,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2615,-1,0,0,0,Arquivo Azerothiano,Um grupo de eruditos da Expedição Escama de Dragão dedicado à preservação das antiguidades para as futuras gerações.,457,2507,9,419,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2616,0,0,0,0,Espancador de Barrileiros,,-1,2506,9,0,0,2604,0,2814,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2635,0,0,0,0,As Meadas,Controla o comportamento das criaturas nas Meadas da Cidade das Tramas.,-1,2600,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2637,0,0,0,0,"JOGADOR, Terrano da Aliança",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2638,0,0,0,0,"JOGADOR, Terrano da Horda",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5
+2640,-1,0,0,0,Brann Barbabronze,Companheiro de Imersão Confiável,448,2569,0,412,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,8989497,0,0,0,0,0,0,0
+2644,-1,0,0,0,Imersões: Série 1,,456,2569,10,0,70,0,0,3022,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0
+2645,-1,0,0,0,Terrano,,467,2590,9,0,4,0,0,0,-1,0,0,0,2068,0,0,0,3000,0,0,0,42000,0,0,0,100,0,0,0
+2647,-1,0,0,0,O Vizir (Paragão),"Na posição mais perigosa de todas, o Executor Nizrek passa os dias como conselheiro mais leal da Rainha Ansurek. Felizmente, Ansurek ainda não descobriu que ele usa o restante de seu tempo para acabar com o reinado dela.",468,2600,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2648,-1,0,0,0,A Fiandeira (Paragão),"Outrora Fiandeira Real, a Viúva Arak'nai agora observa atentamente sua antiga casa com olhar crítico. Com uma rede de fofocandeiros e espiões à disposição, quase nada passa despercebido por ela.",469,2600,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2649,-1,0,0,0,O General (Paragão),"Outrora líder militar mais renomado de Azj-Kahet, Anub'azal foi preterido em favor de um dos queridos Ascendidos de Ansurek. Isso não será tolerado.",470,2600,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2652,0,0,0,0,Impositores Sombrafuso,"Mercenários empregados por Jastor Gallywix para ""proteger"" o povo e os ativos da Inframina.",-1,2653,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,7,5
+2653,-1,0,0,0,Cartéis da Inframina,"A Inframina não é como outras cidades. Não há reis nem chefes, só cartéis. Todos querem fazer parte dos cartéis. É até melhor que ser rei, porque rei geralmente só dá pra ter um. Mas a Inframina tem vários cartéis, e todos precisam de quem feche com eles.",478,2569,10,0,6,2667,0,3120,-1,0,0,0,152,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7
+2667,-1,0,0,0,Cartéis da Inframina (Paragão),"A Inframina não é como outras cidades. Não há reis nem chefes, só cartéis. Todos querem fazer parte dos cartéis. É até melhor que ser rei, porque rei geralmente só dá pra ter um. Mas a Inframina tem vários cartéis, e todos precisam de quem feche com eles.",479,2569,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7
+2668,-1,0,0,0,Soluções Sombrafuso (Paragão),"As Soluções Sombrafuso não fizeram muitos amigos trabalhando com Gallywix, mas eles são goblins e não desistem nunca. Eles estão de volta com uma nova marca, uma nova atitude e... olha, era só negócios, né?",480,2653,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2669,-1,0,0,0,Soluções Sombrafuso,"As Soluções Sombrafuso não fizeram muitos amigos trabalhando com Gallywix, mas eles são goblins e não desistem nunca. Eles estão de volta com uma nova marca, uma nova atitude e... olha, era só negócios, né?",481,2653,10,0,6,2668,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,1,7
+2670,-1,0,0,0,Empreendimentos S.A. (Paragão),"A Empreendimentos S.A. não tem a melhor das reputações na cidade, mas ninguém extrai, minera nem perfura mais rápido. Quer simpatia? Vai pro clube. Quer matéria prima? É com a Empreendimentos.",482,2653,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2671,-1,0,0,0,Empreendimentos S.A.,"A Empreendimentos S.A. não tem a melhor das reputações na cidade, mas ninguém extrai, minera nem perfura mais rápido. Quer simpatia? Vai pro clube. Quer matéria prima? É com a Empreendimentos.",483,2653,10,0,6,2670,0,0,-1,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,3,7
+2672,-1,0,0,0,Cartel Borraquilha (Paragão),"O Cartel Borraquilha já teve mais altos e baixos que a maioria, mas ninguém constrói nem inventa como eles. De cidades a brinquedos de piscina, passando por [CONFIDENCIAL], pensou bom, pensou Borraquilha.",484,2653,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2673,-1,0,0,0,Cartel Borraquilha,"O Cartel Borraquilha já teve mais altos e baixos que a maioria, mas ninguém constrói nem inventa como eles. De cidades a brinquedos de piscina, passando por [CONFIDENCIAL], pensou bom, pensou Borraquilha.",485,2653,10,0,6,2672,0,0,-1,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,3,7
+2674,-1,0,0,0,Cartel Aguanegra (Paragão),"O Cartel Aguanegra, que já assolou os mares com a pirataria, é novo no ramo. No entanto, eles já estão dando o que falar com seus fretes e férias luxuosas. Eles levam qualquer carga pra qualquer lugar a qualquer hora, e agora é tudo legalizado.",486,2653,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,7,7
+2675,-1,0,0,0,Cartel Aguanegra,"O Cartel Aguanegra, que já assolou os mares com a pirataria, é novo no ramo. No entanto, eles já estão dando o que falar com seus fretes e férias luxuosas. Eles levam qualquer carga pra qualquer lugar a qualquer hora, e agora é tudo legalizado.",487,2653,10,0,6,2674,0,0,-1,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,3,7
+2676,-1,0,0,0,Cartel Bondebico (Paragão),"Os Bondebico podem ser o maior e mais antigo cartel da Inframina. Eles já se envolveram na maioria das indústrias, e suas operações estão por toda Azeroth e além. Atualmente, com a ascensão de Nublacuca, a alquimia é seu carro chefe.",488,2653,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,5,5
+2677,-1,0,0,0,Cartel Bondebico,"Os Bondebico podem ser o maior e mais antigo cartel da Inframina. Eles já se envolveram na maioria das indústrias, e suas operações estão por toda Azeroth e além. Atualmente, com a ascensão de Nublacuca, a alquimia é seu carro chefe.",489,2653,10,0,6,2676,0,0,-1,0,0,0,16,0,0,0,3000,0,0,0,42000,0,0,0,0,0,3,7
+2682,0,0,0,0,,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2683,-1,0,0,0,Imersões: Série 2,,493,2569,10,0,70,0,0,3130,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0
+2684,-1,0,0,0,Clube de Recompensas de Fidelidade do Gallagio (Paragão),"O Gallagio está sob nova direção. Bom... logo estará. E, quando estiver, você quer estar de bem com eles, não quer? Então faça novos amigos e faça do Gallagio um lugar melhor.",494,2653,10,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0
+2685,-1,0,0,0,Clube de Recompensas de Fidelidade do Gallagio,"O Gallagio está sob nova direção. Bom... logo estará. E, quando estiver, você quer estar de bem com eles, não quer? Então faça novos amigos e faça do Gallagio um lugar melhor.",495,2653,10,0,38,2684,0,3137,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7
+2692,0,0,0,0,Empreendimentos S.A.,11.1 NPC/CREATURE ONLY,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,7,7
+2693,-1,0,0,0,Jornada do Imersor (Série 1),,498,2569,10,0,70,0,0,0,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0
+2695,824527948,-6184943489809468494,2147483649,0,Test Account Wide Stormwind (DNT),Testing faction-restricted account wide factions (DNT),500,469,0,0,4,0,0,0,0,0,0,0,276,6,20,0,3000,-42000,4000,0,42000,-42000,42000,0,1,0.25,4,7
+2697,6130900294268439629,0,0,0,Chase's test faction (DNT),Testing for AVU (DNT),504,0,0,0,52,0,0,3254,-1,0,0,0,4,0,0,0,300,0,0,0,40000,0,0,0,1,1,4,7

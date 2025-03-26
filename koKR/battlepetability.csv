@@ -1,0 +1,3818 @@
+ID,Name_lang,Description_lang,IconFileDataID,PetTypeEnum,Cooldown,BattlePetVisualID,Flags
+7,알렉산더의 주먹,적에게 달려들어 피해를 입힙니다.,132109,2,0,0,0
+70,뒷줄 치료 테스트,"뒷줄 치료 50, 하지만 2라운드 대기시간을 가집니다.",135915,0,2,0,0
+71,피해 테스트,,135807,6,0,0,0
+72,광역 효과 테스트,,135817,0,0,0,0
+73,여러 턴 테스트,"대상을 물어뜯어 [StandardDamage(1,1)]의 피해를 즉시 입히고, 다음 라운드에 [StandardDamage(2,1)]의 피해를 입힙니다.
+
+[numTurns()]라운드 동안 지속됩니다.",0,1,0,0,0
+74,광역 효과 그리고 여러 턴 테스트,,0,1,0,0,0
+77,강력한 덫,생명력이 35% 미만인 애완동물을 사로잡습니다. 실패할 때마다 포획 확률이 25%씩 증가합니다.,646380,0,0,0,6
+78,지속 피해 적용 테스트,,0,0,5,0,0
+79,오라 피해10 테스트,,0,-1,0,0,0
+80,Apply Aura Test,,237179,0,0,0,0
+81,오라 폭탄 75 테스트,,0,0,0,0,0
+82,지속 피해 취소 전까지 적용 테스트,,0,6,0,0,0
+83,장판 효과 적용 테스트,,460858,2,0,0,0
+84,장판 오라 테스트,,132325,-1,0,104,0
+85,기절 적용 테스트,,135891,1,0,0,0
+86,기절 오라 테스트,ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄹ,135906,-1,0,103,0
+87,교체 불능 적용,,460694,9,0,0,0
+88,교체 불능 오라,,132089,-1,0,0,0
+97,충격탄,,0,6,0,0,0
+110,물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 물어서 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132127,7,0,0,0
+111,주먹질,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132298,0,0,0,0
+112,쪼기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날카로운 부리로 적을 쪼아 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133707,2,0,0,0
+113,태우기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 화염으로 태워 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132839,6,0,0,0
+114,빛줄기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘을 한 줄기로 쏘아 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",135189,5,0,0,0
+115,용숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 용숨결에 휩싸이게 해서 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135807,1,0,0,0
+116,감전,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 전기를 방출해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136099,9,0,0,0
+117,감염된 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 병균이 득실대는 발톱을 휘둘러 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237390,3,0,0,0
+118,물 분출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 물줄기를 쏘아 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",463570,8,0,0,0
+119,긁기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 긁어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",611425,4,0,0,0
+120,울부짖는 한파,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF0070DD얼어붙은|r 대상의 팀에는 [StandardDamage(1,4)]의 추가 피해를 입힙니다.",135833,6,3,0,0
+121,죽음의 고리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 언데드 피해를 입히고, 입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",136145,3,0,0,0
+122,꼬리 휩쓸기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,2)]의 [School()] 피해를 입히거나, 마지막에 공격하면 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237407,1,0,0,0
+123,치유의 물결,"생명력을 [StandardDamage(1,1)]만큼 회복합니다.",136042,8,3,0,2
+124,광란,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+광란하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+[numTurns()]라운드 동안 지속됩니다.",132176,7,3,0,0
+125,기절 테스트 2.0,테스트: 패티 맥 테스트,460857,3,0,0,0
+131,기절 오라 테스트 2.0,,0,-1,0,3,0
+132,커스텀 스크립트 효과 테스트,,132090,0,0,0,0
+133,오라 - 피해 보호막 2.0,,0,-1,0,2,0
+134,피해 보호막 2.0 테스트,,0,0,0,0,0
+135,온전한 덫,생명력이 35% 미만인 애완동물을 사로잡습니다. 실패할 때마다 포획 확률이 30%씩 증가합니다.,638662,0,0,0,6
+149,치유 테스트 2.0,,538569,4,0,0,0
+150,커스텀 스크립트 턴 테스트,,236216,4,0,0,0
+151,독송곳니,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독되었습니다|r.",136067,7,0,25,1
+152,독송곳니,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF1EFF00중독|r시켜 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",136067,7,0,0,0
+153,공격력 감소,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 153 ))]%만큼 감소합니다.",653219,-1,0,334,3
+154,속도 감소,"속도가 [abs(abilityStateMod(25,154))]%만큼 감소합니다.",653221,-1,0,316,3
+155,쉭쉭,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",132211,7,3,0,0
+156,흉포한 송곳니,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 적중할 때마다 피해량이 [FormatDamage (pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage (pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",236177,7,0,0,0
+157,제이콥의 테스트 기술,"대상은 [abilityName(220)]를 지니고 [cond(unitHasAura(220, ENEMY), ""있습니다."", ""있지 않습니다."")]",132311,2,0,0,2
+158,반격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이번 라운드에 공격을 받았다면 추가로 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",132269,0,2,0,0
+159,숨기,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+땅 밑으로 숨어 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",136025,7,4,0,0
+160,먹어치우기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",136214,3,1,0,0
+161,아드레날린,"속도가 [abs(abilityStateMod(25,161))]%만큼 증가합니다.",648208,-1,0,113,2
+162,아드레날린 촉진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도가 [abs(abilityStateMod(25,161))]%만큼 증가합니다.",132307,4,0,0,0
+163,동물 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+쇄도를 시작해 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+쇄도에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",134060,4,0,0,0
+164,웅크리기,"받는 피해가 [abs(abilityStateMod(24,164))]%만큼 감소합니다.",132118,-1,0,27,2
+165,웅크리기,"최대한 몸을 낮춰서 [duration(1,2)]라운드 동안 받는 피해를 50%만큼 감소시킵니다.",132118,4,4,0,2
+166,도토리 세례,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",134057,4,0,0,0
+167,도토리 세례,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+도토리를 던져 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를 입힙니다.
+
+도토리는 적의 현재 애완동물 위로 계속 떨어지며 [duration(1,4)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 166)]의 [School()] 피해를 입힙니다.",134057,4,1,0,0
+168,회복의 불길,"생명력을 [StandardDamage(1,1)]만큼 회복하고 마지막으로 받은 피해의 절반을 복구합니다.",135794,1,3,0,2
+169,깊은 숨결,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 깊게 숨을 들이쉽니다.
+
+다음 라운드에 가공할 만한 입김을 내뿜어 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",135826,1,0,0,0
+170,비상,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+높이 날아올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",132128,2,4,0,0
+171,불타는 대지,"매 라운드마다 양 팀의 앞 줄에 있는 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+모든 애완동물은 |cFFFF2020불타는|r 상태로 간주됩니다.",237588,1,0,172,0
+172,불타는 대지,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대지를 불태워 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 매 라운드마다 현재 모든 애완동물에게 [StandardDamage(1,1,171)]의 [School(171)] 피해를 입힙니다.
+
+모든 애완동물은 |cFFFF2020불타는|r 상태로 간주됩니다.",237588,1,3,0,0
+173,지지기,"생명력을 [StandardDamage(1,1)]만큼 회복하고 마지막으로 받은 피해의 절반을 복구합니다.",236218,6,3,0,2
+174,기절,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,103,3
+175,화산,"1라운드 뒤에 땅이 2라운드 동안 솟아나, 현재 대상에게 [StandardDamage(3,1,175)]의 [School()] 피해를 입히고 25% 확률로 대상을 [duration(3,3,175)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",524305,6,0,288,1
+176,화산,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 발밑의 땅을 요동치게 합니다.
+
+1라운드 뒤부터 2라운드 동안 땅이 솟아나 현재 대상에게 [StandardDamage(3,1,175)]의 [School()] 피해를 입히고 25% 확률로 다음 1라운드 동안 기절시킵니다.",524305,6,5,0,0
+177,제물,"매 라운드마다 [StandardDamage(1,1)]의 원소 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",135817,6,0,28,0
+178,제물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 추가로 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,177)]의 [School()] 피해를 입힙니다.",135817,6,0,0,0
+179,점화,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 대상에게는 [StandardDamage(1,3)]의 추가 [School()] 피해를 입힙니다.",135827,6,4,0,0
+184,날개짓,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 1~2개의 깃털을 날려 깃털 적중할 때마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 깃털을 날리는 횟수가 증가합니다.",132924,2,0,0,0
+185,무모한 공격,"받는 피해가 [abs(abilityStateMod( 24, 185 ))]%만큼 증가합니다.",464973,-1,0,530,3
+186,무모한 공격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히지만, [duration(1,3)]라운드 동안 자신이 받는 피해가 [abs(abilityStateMod(24, 185 ))]%만큼 증가합니다.",132158,2,1,0,0
+187,정확도,"적중률이 [abs(abilityStateMod(41,187))]%만큼 증가합니다.",132212,-1,0,0,2
+188,정확도,"4라운드 동안 우리 팀의 적중률이 [abs(abilityStateMod(41,187))]%만큼 증가합니다.",132212,2,0,0,2
+189,회오리바람,"매 라운드마다 우리 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",136018,2,0,225,0
+190,회오리바람,"회오리바람을 발생시켜 상대 팀에 매 라운드마다 [accuracy(1,1,189)]% 확률로 [StandardDamage(1,1,189)]의 [School()] 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136018,2,5,0,0
+193,휩쓸기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 휩쓸어 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 휩쓰는 횟수가 증가합니다.",537468,4,0,0,0
+194,대사 촉진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 자신의 속도가 [abs(abilityStateMod( 25, 195 ))]%만큼 증가합니다.",132307,5,0,0,0
+195,대사 촉진,"속도가 [abs(abilityStateMod( 25, 195 ))]%만큼 증가합니다.",648208,-1,0,26,2
+196,아드레날린 분비,"치명타율이 [abs(abilityStateMod( 40, 196 ))]%만큼 증가합니다.
+공격의 정확도가 [abs(abilityStateMod( 41, 196 ))]%만큼 감소합니다.",134339,-1,0,0,2
+197,아드레날린 분비,"[duration(1,1)]라운드 동안 치명타 및 극대화율이 [abs(abilityStateMod(40, 841))]%만큼 증가합니다.",134339,5,0,0,2
+198,저글링 돌진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+저글링 돌진을 시작해 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+저글링 돌진에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",136217,5,0,0,0
+202,난타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+거칠게 적을 1~2번 가격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",451161,7,0,0,0
+203,번개 폭풍,"모든 애완동물이 공격할 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT ),1)]의 추가 [School()] 피해를 입힙니다.
+
+기계 기술은 25%의 추가 피해를 입힙니다.",463562,9,0,169,2
+204,번개 부르기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 번개 폭풍을 불러냅니다.
+
+번개 폭풍이 몰아치는 중에는 모든 애완동물이 공격할 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT, 203 ),1,203)]의 추가 [School(203)] 피해를 입히고, 기계 기술은 25%의 추가 피해를 입힙니다.",463562,9,5,0,0
+205,눈보라,"정령 기술이 [abs(abilityStateMod(87,205))]%의 추가 피해를 입힙니다.
+
+모든 애완동물이 |cFF0070DD얼어붙은|r 상태로 간주됩니다.",135857,6,0,170,2
+206,눈보라 부름,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 눈보라를 일으킵니다.
+
+눈보라가 내리치는 중에는 모든 애완동물이 |cFF0070DD얼어붙은|r 상태로 간주되며, 정령 기술이 [abs(abilityStateMod(87,205))]%의 추가 피해를 입힙니다.",135857,6,3,0,0
+207,초자력 충전,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 207 ))]%만큼 증가합니다.",648206,-1,0,320,2
+208,초자력 충전,"[duration(1,1)]라운드 안에 하는 다음 공격으로 입히는 피해가 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 207 ))]%만큼 증가합니다.",135769,9,3,0,2
+209,강철 대포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 기계 피해를 입힙니다. 사용 후에는 2라운드 동안 장전이 필요합니다.
+
+장전 중에는 다른 어떤 행동도 할 수 없습니다.",132207,9,5,0,0
+210,어둠 베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+어둠의 에너지로 대상을 베어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237244,3,0,0,0
+211,생명력 착취,"매 라운드마다 [StandardDamage(1,1)]의 언데드 피해를 입힙니다. 오라의 시전자는 자신의 생명력을 [StandardHealing(1,2)]만큼 회복합니다.",136188,3,0,0,0
+212,생명력 착취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,211)]의 [School()] 피해를 입히고 자신의 생명력을 [StandardHealing(1,2,211)]만큼 회복합니다.",136188,3,0,0,0
+213,죽음과 부패,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 언데드 피해를 입힙니다.",136144,3,0,104,0
+214,죽음과 부패,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,213)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",136144,3,0,0,0
+215,통찰력,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 215 ))]%만큼 증가합니다.",135934,-1,0,320,2
+216,통찰력,"1라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 215 ))]%만큼 증가합니다.",135934,5,1,0,2
+217,파멸의 저주,"효과가 끝날 때 [StandardDamage(5,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(5,1)]",136122,3,0,0,0
+218,파멸의 저주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[numTurns(217)-1]라운드 뒤에 [StandardDamage(5,1,217)]의 [School()] 피해를 입힙니다.",136122,3,5,0,0
+219,지르기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 잽싸게 가격해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",574572,0,0,0,0
+220,자콥의 테스트 오라,"받는 치유량이 [abilityStateMod(66)]%만큼 증가합니다.
+
+[remainingDuration()]라운드 동안 지속됩니다.
+
+교체되어 들어오는 애완동물은 [StandardDamage(getProcIndex(PROC_ON_SWAP_IN), 1)]의 피해를 입습니다.",237161,-1,0,0,1
+221,밀치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 쓰러뜨려서 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF808080기절한|r 대상에게는 두 배의 피해를 입힙니다.",628134,0,0,0,0
+222,기 집중,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 222 ))]%만큼 증가합니다.",648206,-1,0,320,2
+223,기 집중,"[duration(1,1)]라운드 안에 하는 다음 공격의 피해가 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 222 ))]%만큼 증가합니다.",572034,0,1,0,2
+224,휘청걸음,"받는 피해가 [abs(abilityStateMod( 24, 224 ))]%만큼 감소합니다.",574577,-1,0,27,2
+225,휘청걸음,오는 공격을 흘려서 2라운드 동안 받는 모든 피해를 50%만큼 감소시킵니다.,574577,0,3,0,2
+226,일천 주먹의 분노,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+[accuracy(1,1)]%의 확률로 |cff9933FF눈이 먼|r 대상을 [duration(1,3)]라운드 동안 기절시킵니다.",574573,0,4,0,0
+227,후려차기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 [duration(1,1)]라운드 동안 기절시킵니다.",574575,0,5,0,2
+228,혀 채찍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 핥아 혀가 닿을 때마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 핥는 횟수가 증가합니다.",350575,4,0,0,0
+229,정화의 비,"적의 지속 피해 효과가 한 라운드 일찍 끝납니다.
+
+물 기술의 공격력이 25%만큼 증가합니다.",132852,8,0,177,2
+230,정화의 비,"우리 팀 애완동물 모두의 생명력을 [StandardHealing(1,1)]만큼 회복시키고 [duration(1,4)]라운드 동안 정화의 비를 내리게 합니다.
+
+정화의 비가 내리는 동안에는 적의 지속 피해 효과의 지속시간이 1라운드 줄어들고, 물 기술의 공격력이 25%만큼 증가합니다.",132852,8,3,0,2
+231,곤충 떼,"현재 대상에게 매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136128,4,0,219,0
+232,곤충 떼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+곤충 떼가 상대 팀의 현재 애완동물을 습격하여 [duration(1,1)] |4라운드:라운드; 동안 매 라운드마다 [StandardDamage(1,1,231)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",136128,4,0,0,0
+233,개구리 입맞춤,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 개구리로 변하게 합니다.
+
+사용할 때마다 개구리 입맞춤으로 입히는 피해가 [FormatDamage(10*AttackBonus())]씩 증가하며, 최대 [FormatDamage(30 *AttackBonus())]의 [School()] 피해를 입힙니다.",136209,8,1,0,0
+234,자콥의 테스트 오라,"피해를 받을 때마다 받은 피해의 [points(getProcIndex(PROC_ON_DAMAGE_TAKEN), 1)]%만큼 회복합니다. 공격할 때마다 준 피해의 [points(getProcIndex(PROC_ON_DAMAGE_DEALT), 1)]%만큼 자신이 피해를 받습니다.",319458,-1,0,0,0
+235,자콥의 테스트 오라 3,영원히 빨라집니다.,136072,-1,0,0,0
+236,동물,"|cFFFFFFFF지속효과:|r
+동물은 기절, 발 묶임, 수면 효과에 면역입니다.
+
+|cFFFFFFFF받는 피해|r
+야수 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+정령 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618973,4,0,0,6
+237,야수,"|cFFFFFFFF지속효과:|r
+야수는 생명력이 절반 이하로 떨어지면 공격력이 25%만큼 증가합니다.
+
+|cFFFFFFFF받는 피해|r
+기계 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+인간형 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618972,7,0,44,6
+238,인간형,"|cFFFFFFFF지속효과:|r
+인간형은 이번 라운드에 피해를 입혔다면 최대 생명력의 [percentage(1,1,726)]%만큼 생명력을 회복합니다.
+
+|cFFFFFFFF받는 피해|r
+언데드 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+동물 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618977,0,0,0,6
+239,비행,"|cFFFFFFFF지속효과:|r
+비행 애완동물은 생명력이 50% 이상이면 속도가 50%만큼 증가합니다.
+
+|cFFFFFFFF받는 피해|r
+마법 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+야수 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618976,2,0,0,6
+240,물,"|cFFFFFFFF지속효과: 순수|r
+물 애완동물이 받는 지속 피해 효과의 지속시간이 50%만큼 감소합니다.
+
+물 애완동물의 지속 피해 효과의 공격력이 25%만큼 증가합니다.
+
+|cFFFFFFFF받는 피해|r
+비행 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+언데드 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618981,8,0,0,10
+241,정령,"|cFFFFFFFF지속효과:|r
+정령은 모든 부정적인 날씨 효과를 무시합니다.
+
+|cFFFFFFFF받는 피해|r
+물 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+기계 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618975,6,0,0,6
+242,언데드,"|cFFFFFFFF지속효과:|r
+언데드 애완동물은 죽으면 되살아나, 한 라운드 동안 무적이 됩니다. 하지만 공격력은 25%만큼 감소합니다.
+
+|cFFFFFFFF받는 피해|r
+동물 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+용족 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618980,3,0,0,6
+243,마법,"|cFFFFFFFF지속효과:|r
+마법 애완동물에게는 한 번의 공격으로 최대 생명력의 35%를 초과하는 피해를 입힐 수 없습니다.
+
+|cFFFFFFFF받는 피해|r
+용족 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+물 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618978,5,0,0,6
+244,기계,"|cFFFFFFFF지속효과:|r
+싸움에서 한 번, 20%의 생명력을 가지고 되살아납니다.
+
+|cFFFFFFFF받는 피해|r
+정령 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+마법 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618979,9,0,0,6
+245,용족,"|cFFFFFFFF지속효과:|r
+용족은 대상의 생명력이 50% 이하로 떨어지면 50%의 추가 피해를 입힙니다.
+
+|cFFFFFFFF받는 피해|r
+인간형 기술 50% |TInterface\PetBattles\BattleBar-AbilityBadge-Strong.blp:24|t
+비행 기술 33% |TInterface\PetBattles\BattleBar-AbilityBadge-Weak.blp:24|t",618974,1,0,0,6
+246,겨울잠,"겨울잠이 들었습니다.
+매 라운드마다 생명력을 점점 더 많이 회복합니다.",132156,-1,0,45,2
+247,겨울잠,"급하게 잠을 청해 첫 번째 라운드에 생명력을 [StandardHealing(1,1,246)]만큼 회복하고 두 번째 라운드에 [StandardHealing(2,1,246)]만큼, 세 번째 라운드에 [StandardHealing(3,1, 246)]만큼 회복합니다.
+
+겨울잠 중에는 애완동물을 교체할 수 없습니다.",132156,7,5,0,2
+248,묶임,이 애완동물은 교체할 수 없습니다.,136091,-1,0,166,3
+249,손아귀,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 움켜쥐어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+대상은 [duration(1,2)]라운드 동안 교체할 수 없습니다.",135834,8,0,0,0
+250,새끼거미 떼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+새끼거미 떼가 적을 습격해 [FormatDamage(SimpleDamage(1,1)*2)]의 [School()] 피해를 입힙니다.
+
+|cffffffff거미줄|r에 걸린 대상에게는 두 배의 피해를 입힙니다.",136045,7,3,0,0
+251,묘한 행운,"적중률이 [abs(abilityStateMod(41,251))]%만큼 증가합니다.
+치명타 및 극대화율이 [abs(abilityStateMod(40,251))]%만큼 증가합니다.",135725,-1,0,320,2
+252,묘한 행운,"[duration(1,1)]라운드 동안 팀 모두의 적중률이 [abs(abilityStateMod(41,251))]%만큼 증가하고 치명타 및 극대화율이 [abs(abilityStateMod(40,251))]%만큼 증가합니다.",135725,4,0,0,2
+253,되받아치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+애완동물의 생명력이 대상보다 낮으면 추가로 [StandardDamage(1,2)]의 피해를 입힙니다.",132214,4,0,0,0
+254,평온,"평화로움으로 가득차, 매 라운드마다 현재 애완동물의 생명력을 [StandardHealing(1,1,255)]만큼 회복시킵니다.
+
+[duration(1,1)]회 동안 지속됩니다. 이 기술은 애완동물을 교체해도 유지됩니다.",136107,4,0,0,2
+255,평온,"매 라운드마다 생명력을 [StandardHealing(1,1)]만큼 회복합니다.",136107,-1,0,142,0
+256,어둠 소환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전장에 어둠을 퍼뜨려 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 날씨를 어둡게 바꿉니다.
+
+어둠이 퍼진 동안에는 모든 애완동물이 |cff9933FF눈이 먼|r 상태로 간주되고 모든 받는 치유 효과가 [abs(abilityStateMod(66,257))]%만큼 감소합니다.",136223,0,5,0,0
+257,어둠,"받는 치유 효과가 [abs(abilityStateMod(66,257))]%만큼 감소합니다.
+공격의 정확도가 [abs(abilityStateMod(41,257))]%만큼 감소합니다.
+
+어둠에 의해 |cff9933FF눈이 먼|r 상태가 됩니다.",136223,-1,0,450,2
+258,별똥별,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 우리 팀의 생명력을 [SimpleDamage(1,4)]만큼 회복시킵니다. [duration(1,7)]라운드 동안 날씨를 달빛이 비치게 바꿉니다.
+
+달빛 아래서는 모든 애완동물의 받는 치유 효과가 25%만큼 증가하고 마법 유형 기술로 10%의 추가 피해를 입힙니다.",236168,1,4,0,0
+259,투명화,2라운드 뒤에 모습을 감춥니다. 1라운드 동안 투명화되어 상대의 공격을 받지 않습니다.,132220,5,4,0,0
+260,사라지는 중,보이지 않게 됩니다...,135994,-1,0,0,0
+261,투명화,"보이지 않습니다.
+일반 공격에 면역입니다.",132220,-1,0,370,0
+262,수정 과부하,"공격력이 100%만큼 증가합니다.
+다음에 상대를 공격하면 자신도 [FormatDamage(SimpleDamage(1,1)*2)]의 [School()] 피해를 입습니다.",463517,6,0,320,2
+263,수정 과부하,"[duration(1,1)]라운드 안에 하는 다음 공격이 두 배의 피해를 입히지만 자신도 [FormatDamage(SimpleDamage(1,1,262)+SimpleDamage(1,1,262))]의 [School()] 피해를 입습니다.",463517,6,1,0,2
+264,지상,지상에 있습니다.,348539,-1,0,0,3
+265,바위 던지기,"[StandardDamage(1,2)]의 [School()] 피해를 입힙니다.
+
+비행 애완동물을 공격할 수 있으며, 공격받은 대상은 2라운드 동안 지상에 머뭅니다.",237477,6,0,0,0
+267,광합성,"생명력을 매 라운드마다 [StandardDamage(1,1,267)]만큼 회복합니다.
+
+화창한 날씨에는 효과가 두 배로 증가합니다.",136085,-1,0,0,0
+268,광합성,"생명력을 매 라운드마다 [StandardDamage(1,1,267)]만큼 회복합니다. [duration(1,1)]라운드 동안 지속됩니다.
+
+화창한 날씨에는 효과가 두 배로 증가합니다.",136085,6,0,0,2
+270,불타는 독,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+매 라운드마다 대상의 최대 생명력의 [points(1,1,271)]%에 해당하는 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132273,2,0,0,2
+271,불타는 독,"매 라운드마다 대상 최대 생명력의 [points(1,1)]%만큼의 피해를 입힙니다.",132273,2,0,386,3
+273,소원,"다음 라운드에, 현재 애완동물의 생명력이 전체 생명력의 50%만큼 회복됩니다.",645203,5,5,0,2
+274,소원,"다음 라운드에, 현재 애완동물의 생명력이 전체 생명력의 50%만큼 회복됩니다.",645203,-1,0,0,0
+275,저하,"[StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+자신의 생명력이 낮으면 대상에게 두 배의 피해를 입힙니다.",252282,8,0,0,0
+276,통째로 삼키기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+생명력이 25% 미만인 대상에게는 두 배의 피해를 입힙니다.",463487,8,0,0,0
+277,생명 교환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+자신과 적 대상의 생명력을 똑같이 맞춥니다.
+
+이 기술로 얻는 생명력은 자신의 최대 생명력을 넘길 수 없습니다.",237586,5,5,0,2
+278,수리,"2라운드 동안 완전히 수리에 집중하여 수리 외에는 아무런 행동도 하지 않고 [StandardHealing(3,1)]의 생명력을 회복합니다.",132281,9,5,0,2
+279,상심,"다음 라운드에 받는 피해가 [abs(abilityStateMod( 24 , 280 ))]%만큼 증가하며, 피해를 받으면 [duration(getProcIndex(PROC_ON_DAMAGE_TAKEN,280),1,280)]라운드 동안 공격력이 [abs(abilityStateMod( 23 , 281 ))]%만큼 증가합니다.",135767,9,2,0,2
+280,과부하,"받는 피해가 [abs(abilityStateMod( 24 , 280 ))]%만큼 증가합니다. 
+피해를 받으면 [duration(getProcIndex(PROC_ON_DAMAGE_TAKEN),1)]라운드 동안 공격력이 [abs(abilityStateMod( 23 , 281 ))]%만큼 증가합니다.",136050,-1,0,483,2
+281,부서진 심장,"공격력이 [abs(abilityStateMod( 23 , 281 ))]%만큼 증가합니다.",648206,-1,0,320,2
+282,폭파,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자가 즉시 죽으며 현재 대상에게 자신의 총 생명력의 [FormatDamage(points(1,1))]%만큼 피해를 입힙니다.
+
+시전자가 폭파를 사용하면 안전장치 기술을 가동할 수 없습니다.",133035,9,0,0,2
+283,생존,"다음 라운드 끝까지 생명력이 1 미만으로 떨어지지 않고 견뎌냅니다.
+
+생존 효과를 받는 애완동물은 종말 공격을 받아도 살아남습니다.",237525,4,3,0,2
+284,생존 본능,죽지 않습니다.,237525,-1,0,65,2
+285,패드 오라 테스트 2.0,,0,-1,0,52,0
+286,패드 테스트 2.0,테스트: 패티 맥 기절,460857,3,0,0,0
+287,날씨 테스트 2.0,테스트: 패티 맥 기절,236170,3,0,0,0
+288,날씨 오라 테스트 2.0,,0,-1,0,54,0
+289,비축,"받는 피해가 10%만큼 감소합니다.
+최대 생명력이 20만큼 증가합니다.
+사용하면 생명력을 회복합니다.",132812,-1,0,0,0
+290,비축,"실시시드 꿀을 비축해 둡니다. 받는 피해가 10%만큼 감소하고 최대 생명력이 20%만큼 증가합니다.
+
+다시 사용하면 저장한 꿀을 먹어 생명력을 [StandardDamage(1,1)]만큼 회복합니다.",132812,4,0,0,0
+291,애완동물 대전 시작기,오라와 생명력을 활성화합니다.,134400,9,0,0,0
+292,GM 기절,대상을 기절시키고 피해에 면역으로 만듭니다.,294482,0,0,0,0
+293,로켓 발사,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 로켓을 조립합니다.
+
+2단계 사용: 로켓을 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132262,9,0,0,0
+294,로켓 준비,로켓이 발사 대기 중입니다.,511727,9,0,151,0
+295,GM 치유,생명력이 가득 찼습니다.,135915,0,0,0,0
+296,수압 대기,"공격력이 10%만큼 증가합니다.
+격류를 방출할 준비가 되었습니다.",136037,-1,0,0,2
+297,수압,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 공격력이 10%만큼 증가합니다.
+
+2단계 사용: 격류가 대상에게 휘몰아쳐 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136037,8,0,0,0
+298,정령의 노래,"정기를 솟게 하는 노래를 불러 우리 팀 애완동물의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",237540,6,3,0,2
+299,신비한 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",136116,5,0,0,0
+300,조준됨,적의 강력한 공격에 대상이 되었습니다.,236203,-1,0,55,0
+301,조준,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 대상을 조준합니다.
+
+2단계 사용: 대상에게 발사하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",236203,9,0,0,0
+302,뿌리 내림,"도망갈 수 없습니다.
+영양분 흡수 중입니다. 
+(현재 상태: [unitState(state(1,1))])",134188,6,0,0,2
+303,뿌리심기,"활성: 뿌리를 땅에 내려 영양분을 흡수합니다. 뿌리심기 동안에는 애완동물을 교체할 수 없습니다.
+
+비활성: 뿌리를 내리고 있었던 횟수당 생명력을 [StandardHealing(1,1)]만큼 회복합니다.",134188,6,0,0,2
+304,자학,"자기 스스로 [StandardDamage(1,1)]의 [School()] 피해를 입습니다.",294482,0,0,0,0
+305,상처 노출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,306))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",236158,7,0,0,2
+306,상처 노출,"대상에게 매 공격마다 [abs(abilityStateMod(71,306))*AttackBonus()]의 추가 피해를 입힙니다.",236158,-1,0,530,3
+307,발차기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+먼저 공격하면 [StandardDamage(1,1)]의 [School()] 피해를 입히고 기절시킵니다.",132219,0,3,0,0
+308,마법 차단,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+우리 팀이 먼저 공격할 경우 상대의 공격을 1라운드 동안 중단시킵니다.",135856,5,2,0,0
+309,껍질 방패,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]까지 감소시킵니다.",134967,-1,0,660,2
+310,껍질 방패,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]만큼 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134967,7,0,0,2
+311,회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.",136205,-1,0,468,2
+312,회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136056,0,4,0,2
+313,짓이기기,"대상에게 매 공격마다 [abs(abilityStateMod(71,313))*AttackBonus()]의 추가 피해를 입힙니다.",132133,-1,0,530,3
+314,짓이기기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,313))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132133,7,0,0,2
+315,뾰족한 외피,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,316))*AttackBonus()]까지 줄이고, 직접 피해를 입을 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_TAKEN,316),1,316)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",237488,1,0,0,0
+316,뾰족한 외피,"공격당할 때마다 자신이 받는 피해를 최대 [abs(abilityStateMod(71,316))*AttackBonus()]까지 줄이고, 직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",237488,1,0,0,0
+317,가시,"직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",136104,6,0,56,0
+318,가시,"직접 피해를 입을 때마다 [StandardDamage(1,1,317)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136104,6,0,0,0
+319,마그마의 물결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+상대 팀과 우리 팀의 모든 생성물을 파괴합니다.",524795,6,0,0,0
+320,부정한 희생,"받는 모든 피해가 [abs(abilityStateMod(24,320))]%만큼 증가합니다.
+
+겁에 질렸습니다.",236295,-1,0,0,0
+321,부정한 희생,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+남은 생명력과 맞바꾸어 상대 팀을 겁에 질리게 합니다. 겁에 질린 대상은 [duration(1,1)]라운드 동안 받는 피해가 [abs(abilityStateMod(24,320))]%만큼 증가합니다.",236295,3,0,0,2
+322,공중 부양,"공중에 떠올라 도망칠 수 없습니다.
+
+비행 중",135928,-1,0,166,0
+323,중력,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 바닥으로 내동댕이쳐 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+같은 대상에게 연속으로 사용하면 대상은 [duration(1,1)]라운드 동안 공중에 떠 도망칠 수 없게 됩니다.",135729,5,1,0,0
+324,중력,"중력으로 다시 공격당하면, 대상은 공중에 떠올라 2라운드 동안 도망칠 수 없습니다.",135729,-1,0,0,0
+325,비버 댐,나무로 댐을 지어 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,136064,4,5,0,2
+326,비버 댐,두 번의 공격을 막습니다.,136064,4,0,157,2
+327,새끼,바닥에 3개의 알을 둡니다. 3라운드 뒤에 알이 부화해 적을 공격합니다.,132834,1,5,0,0
+328,알,바닥에 둔 알이 곧 부화해 적을 공격합니다.,132834,1,0,501,0
+329,새끼,"매 라운드마다 적을 공격해 [FormatDamage(SimpleDamage(1,1)*3)]의 [School()] 피해를 입힙니다.",132835,1,0,501,0
+330,화염의 자손,"용암 속으로 사라져 [duration(1,1)]라운드 동안 공격당하지 않습니다. 대신 화염의 자손이 상대를 공격해 매 라운드마다 [StandardDamage(1,1,332)]의 [School(332)] 피해를 입힙니다.",135819,6,8,0,0
+331,땅속 숨기,용암 속으로 사라졌습니다.,135831,6,0,423,0
+332,화염의 자손,"적 애완동물에게 매 라운드마다 두 번씩 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",135819,6,0,429,0
+333,미끼,두 번의 공격을 막습니다.,132762,9,0,237,2
+334,미끼,나무로 미끼를 만들어 두 번의 공격으로부터 우리 팀을 보호합니다.,132762,9,8,0,2
+338,거미줄,"이 애완동물은 교체할 수 없습니다.
+
+|cffffffff거미줄|r에 걸렸습니다.",136113,-1,0,166,3
+339,끈적이는 거미줄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 끈적이는 |cffffffff거미줄|r을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 도망칠 수 없게 합니다.",136113,7,0,0,0
+340,땅파기,"땅을 파고 들어갑니다.
+공격당하지 않습니다.",451165,-1,0,60,0
+341,비행,"높게 날아 오릅니다.
+공격당하지 않습니다.",132128,-1,0,66,2
+345,맹타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+난폭한 맹타를 날려 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중인 대상에게는 [StandardDamage(1,3)]의 추가 피해를 입힙니다.",132136,7,3,0,0
+347,포효,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+사나운 함성을 내질러 [StandardDamage (1,1)]의 [School()] 피해를 입히고, 고무되어 [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",463283,7,0,0,0
+348,가격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",132114,7,5,0,2
+349,강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+강하게 타격해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132318,7,0,0,0
+350,흠씬 패기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",629484,0,5,0,2
+351,바나나 세례,"현재 대상에게 매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132159,7,0,0,0
+352,바나나 세례,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+바나나를 적에게 던져 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3)+SimpleDamage(1,4))]의 [School()] 피해를 입힙니다.
+
+바나나는 적의 현재 애완동물에게 계속 떨어지며 [duration(1,5)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 351)]의 [School()] 피해를 입힙니다.",132159,7,1,0,0
+353,통 준비,통을 던질 준비가 되었습니다.,594274,-1,0,1151,2
+354,통 던지기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 통을 위험한 것들로 채웁니다.
+
+2단계 사용: 통을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",594274,7,0,0,0
+355,삼단 후려치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+난폭하게 적을 1~3번 휘갈겨 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237389,7,0,0,0
+356,후려치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 휘갈겨 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133708,7,0,0,0
+357,비명,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 놀라게 해서 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",458967,7,0,0,0
+358,독침,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독|r되었습니다.",132274,7,0,25,0
+359,독침,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 |cFF1EFF00중독|r시켜 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,358)]의 [School()] 피해를 입힙니다.",132274,7,0,0,0
+360,질풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 빠르게 1~2번 때려 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",134294,4,0,0,0
+362,야수 울음,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+섬뜩한 울음소리로 대상을 겁먹게 해, [duration(1,1)]라운드 동안 다음 공격으로 대상이 받는 피해를 100%만큼 증가시킵니다.",538568,7,3,0,2
+364,도약,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod( 25, 544 ))]%만큼 증가시킵니다.",236171,7,0,0,0
+365,현란한 춤,"팀 전체의 속도가 [abs(abilityStateMod(25,365))]%만큼 증가합니다.",648208,-1,0,113,0
+366,현란한 춤,"[duration(1,1)]라운드 동안 우리 팀의 속도가 [abs(abilityStateMod(25,365))]%만큼 증가합니다.",608954,4,0,0,2
+367,깨물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 깨물어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132139,4,0,0,0
+368,산성 찐득이,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+받는 피해가 [abs(abilityStateMod(24,368))]%만큼 증가합니다.
+
+|cFF1EFF00중독|r되었습니다.",134437,4,0,25,1
+369,산성 찐득이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 |cFF1EFF00독성|r 찐득이를 뱉어 매 라운드마다 [StandardDamage(1,1,368)]의 [School()] 피해를 입히고, [duration(1,1)]라운드 동안 대상이 받는 피해를 [abs(abilityStateMod(24,368))]%만큼 증가시킵니다.",134437,4,0,0,0
+370,끈적이,이 애완동물은 교체할 수 없습니다.,468265,-1,0,250,3
+371,끈적이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 끈적이를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",468265,6,0,0,0
+375,나팔 소리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+사용자를 고무시킵니다. [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",237398,7,0,0,0
+376,박치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",132248,7,4,0,0
+377,밟아 뭉개기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 깔아 뭉개 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상 생명력의 [points(1,2)]%에 해당하는 추가 피해를 입힙니다.",132254,7,0,0,0
+378,때리기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 때려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",132282,7,0,0,0
+379,중독,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독|r되었습니다.",136067,6,0,25,1
+380,독액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF1EFF00중독|r시켜, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",132104,7,0,0,0
+381,유리 거미줄,"공격할 때마다 [StandardDamage(1,1)]의 [School()] 피해를 입습니다.
+
+|cffffffff거미줄|r에 걸렸습니다.",135822,7,0,0,1
+382,유리 거미줄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 유리 |cffffffff거미줄|r로 감싸 대상이 공격할 때마다 [StandardDamage(1,1,381)]의 [School()] 피해를 입게 합니다. [duration(1,2)]라운드 동안 지속됩니다.",135822,7,0,0,0
+383,생명력 흡착,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+자신의 생명력을 [StandardHealing(getProcIndex(PROC_ON_DAMAGE_DEALT),2)]만큼 회복합니다. 대상이 |cffffffff거미줄|r에 걸려 있으면 생명력 회복량이 두 배로 증가합니다.",538440,3,1,0,0
+384,강철 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 가격해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133832,9,0,0,0
+385,XE-321 폭탄로봇,"폭탄로봇이 곧 폭발해 [StandardDamage(4,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(4,1)]",133712,9,0,216,0
+386,XE-321 폭탄로봇,"폭탄로봇이 생성되어 3라운드 뒤에 폭발합니다. [StandardDamage(4,1,385)]의 [School()] 피해를 입힙니다.
+
+한 팀 당 하나의 폭탄로봇만 생성해둘 수 있습니다.",133712,9,3,0,0
+387,격분의 땅울림,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+땅을 두들겨 대상에게 [FormatDamage(SimpleDamage(1,1)*2)]의 [School()] 피해를 입히고 대기 중인 애완동물들에게도 절반의 피해를 입힙니다.
+
+땅울림은 [numTurns()]라운드 동안 지속되고 땅 밑에 있는 적에게도 영향을 줍니다.",254104,9,4,0,0
+389,고출력,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+주 동력핵을 급가동시켜 [StandardDamage(1,1) ]의 [School()] 피해를 입히고 속도를 [duration(1,2)]라운드 동안 [abs(abilityStateMod( 25, 544 ))]%만큼 증가시킵니다.",132997,9,0,0,0
+390,파괴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 향해 돌진해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",252187,9,0,0,0
+391,표면 강화,"받는 피해가 [abs(abilityStateMod(24,391))]%만큼 감소합니다.",134518,-1,0,27,2
+392,표면 강화,"겉으로 드러난 표면을 강화하여 [duration(1,2)]라운드 동안 받는 피해를 50%만큼 감소시킵니다.",134518,9,4,0,2
+393,암흑불길,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 용의 숨결을 뿜어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",425954,1,0,0,0
+394,채찍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 채찍질 해서 매 타격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 채찍질 횟수가 증가합니다.",134218,6,0,0,0
+395,촉촉한 안개,"매 라운드마다 [StandardHealing(1,1,395)]의 생명력을 회복합니다.",606550,6,0,635,0
+396,촉촉한 안개,"[duration(1,1)]라운드 동안 현재 애완동물의 생명력을 매 라운드마다 [StandardHealing(1,1,395)]만큼 회복시킵니다. 이 기술은 애완동물을 교체해도 유지됩니다.",606550,6,0,0,2
+397,독 채찍,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독|r되었습니다.",134208,6,0,25,0
+398,독 채찍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF1EFF00중독|r시켜, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",134208,6,0,0,0
+399,휘감는 뿌리,"이 효과가 끝날 때 [StandardDamage(2,1)]의 [School()] 피해를 입고 [duration(2,2)]라운드 동안 도망치지 못합니다.
+
+|cffffffff적중률|r [StandardAccuracy(2,1)]",136100,6,0,0,1
+400,휘감는 뿌리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+살아있는 덩굴 더미가 상대 팀 근처에서 자라나게 합니다.
+
+다음 라운드에 상대는 [StandardDamage(2,1,399)]의 [School()] 피해를 입고, [duration(2,2,399)]라운드 동안 발이 묶입니다.",136100,6,3,0,0
+401,실신 씨앗,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(3,1)]의 원소 피해를 입히고 1라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",464030,6,0,0,0
+402,실신 씨앗,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 씨앗을 심습니다.
+
+2라운드 뒤에 씨앗이 터지면서 현재 상대 애완동물에게 [StandardDamage(3,1,401)]의 [School()] 피해를 입히고 [duration(3,2,401)]라운드 동안 기절시킵니다.",464030,6,5,0,0
+403,화창한 날,"모든 애완동물의 최대 생명력을 [abs(abilityStateMod(99,403))]%만큼 증가시킵니다.
+
+치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",535593,6,0,179,2
+404,햇살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+태양 광선이 모든 적을 강렬히 비춰 [StandardDamage(1,1)]의 [School()] 피해를 입히고 날씨를 [duration(1,4)]라운드 동안 화창한 날로 바꿉니다.
+
+화창한 날씨에는 모든 애완동물의 최대 생명력이 [abs(abilityStateMod(99,403))]%만큼 증가하고 치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",535593,6,5,0,0
+405,강제 우위,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+자신의 생명력이 낮으면 두 배의 피해를 입힙니다.",237538,6,3,0,0
+406,묵사발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 으스러뜨려 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",236316,0,0,0,0
+407,유성 충돌,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+공중으로 높이 떠올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 지상에 충돌하여 대상에게 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",517112,5,4,0,0
+408,불태우기,"매 라운드마다 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",460698,6,0,566,0
+409,불태우기,"자신을 화염으로 감싸, 매 라운드마다 현재 대상에게 [StandardDamage(1,1,408)]의 [School()] 피해를 입힙니다. [duration(1,1)]라운드 동안 지속됩니다.",460698,6,0,0,0
+410,나무갈갈이,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중입니다.",442743,7,0,25,0
+411,나무갈갈이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF970000출혈|r하게 하여 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",442743,7,0,0,0
+412,물어뜯기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 먼저 공격하면 추가로 [StandardDamage(1,3)]의 피해를 입힙니다.",135437,7,0,0,0
+413,얼음창,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+냉기 서린 공격으로 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF0070DD얼어붙은|r 상태인 대상에게는 [StandardDamage(1,2)]의 추가 피해를 입힙니다.",135844,6,0,0,0
+414,얼음 회오리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.
+
+발이 묶인 대상은 |cFF0070DD얼어붙은|r 상태로 간주됩니다.",135848,6,3,0,0
+415,냉기 충격,"속도가 [abs(abilityStateMod(25,415))]%만큼 감소합니다.
+
+|cFF0070DD얼어붙었습니다|r.",653221,-1,0,316,3
+416,냉기 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 |cFF0070DD얼어붙게|r 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",135849,6,0,0,0
+417,간헐천,"[numTurns()-1]라운드 뒤에 솟구쳐 올라 현재 상대 애완동물에게 [StandardDamage(4,1,417)]의 [School(417)] 피해를 입히고 [duration(4,2)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(4,1)]",135845,6,0,0,1
+418,간헐천,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 땅 밑에 간헐천이 흐르게 합니다.
+
+[duration(1,1)]라운드 뒤에 간헐천이 솟구쳐 현재 대상에게 [StandardDamage(4,1,417)]의 [School(417)] 피해를 입히고 [duration(4,2,417)]라운드 동안 기절시킵니다.",135845,6,5,0,0
+419,해일,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+상대 팀과 우리 팀의 모든 생성물을 파괴합니다.",237590,8,0,0,0
+420,칼날 바람,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날카로운 바람으로 적을 1~3번 공격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",463565,2,0,0,0
+421,비전 작렬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘이 쇄도하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 비전 작렬로 입히는 피해가 [FormatDamage(5*AttackBonus())]씩 증가하며, 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",135735,5,0,0,0
+422,암흑 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+어둠의 에너지로 충격을 가해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",136181,3,0,0,0
+423,핏물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중인 대상에게는 항상 적중합니다.",294472,8,3,0,0
+424,꼬리치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+꼬리를 휘둘러 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",134324,8,0,0,0
+425,집중,"속도가 [abs(abilityStateMod(25, 425))]%만큼 증가합니다.
+적중률이 [abs(abilityStateMod(41, 425))]%만큼 증가합니다.
+치명타 및 극대화율이 [abs(abilityStateMod(40, 425))]%만큼 증가합니다.",574570,-1,0,0,2
+426,집중,"온 신경을 집중하여 [duration(1,1)]라운드 동안 속도, 적중률, 치명타 및 극대화율이 [abilityStateMod(41, 425)]%만큼 증가합니다.",574570,0,0,0,2
+427,엉성한 덫,생명력이 35% 미만인 애완동물을 사로잡습니다. 실패할 때마다 포획 확률이 20%씩 증가합니다.,646379,0,0,0,6
+429,발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 발톱으로 할퀴어 [StandardDamage(1, 1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",134296,7,0,0,0
+430,비취 갑옷,"각각의 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,430))*AttackBonus()]까지 감소시킵니다.",132773,-1,0,660,2
+431,비취 갑옷,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,430))*AttackBonus()]까지 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132773,5,0,0,2
+432,비취 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비취 발톱으로 적을 할퀴어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",606551,5,0,0,0
+433,비취 장벽,비취 벽을 생성해 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,463518,5,5,0,2
+434,비취 장벽,두 번의 공격을 막습니다.,463518,-1,0,512,2
+435,돌가죽,"각각의 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,435))*AttackBonus()]까지 감소시킵니다.",132772,-1,0,660,2
+436,돌가죽,"매 공격으로부터 받는 피해가 최대 [abs(abilityStateMod(71,435))*AttackBonus()]만큼 감소합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132772,5,0,0,2
+437,마노 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+마노 이빨로 적을 물어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237149,5,0,0,0
+438,마노 장벽,두 번의 공격을 막습니다.,134455,-1,0,514,2
+439,마노 장벽,돌로 이루어진 벽을 생성해 두 번의 공격을 막습니다. 하지만 적을 공격할 수도 없습니다.,134455,5,5,0,2
+440,희미한 존재,"안개 속으로 자취를 감춰 회피율을 100%만큼 높입니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",236222,5,4,0,2
+441,분쇄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+난폭하게 적을 1~2번 할퀴어 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 할퀴는 횟수가 증가합니다.",132141,7,0,0,0
+442,정령의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+야수 정령의 힘으로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cff9933FF눈이 먼|r 대상에게는 항상 적중합니다.",132294,5,3,0,0
+443,오색 방벽,두 번의 공격을 막습니다.,132881,-1,0,510,2
+444,오색 방벽,오색 벽을 생성해 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,132881,5,5,0,2
+445,수액 접촉,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 수액을 뿜어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136157,5,0,0,0
+446,부식,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+받는 피해가 최대 [abs(abilityStateMod(71,446))*AttackBonus()]만큼 증가합니다.",132108,5,0,386,1
+447,부식,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 부식성 산을 뿌려 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 매 라운드마다 [StandardDamage(1,1,446)]의 [School()] 피해를 입히며 [duration(1,2)]라운드 동안 받는 피해를 최대 [abs(abilityStateMod(71,446))*AttackBonus()]만큼 증가시킵니다.",132108,5,0,0,0
+448,끈적이는 수액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 |cFF1EFF00독성|r 수액으로 뒤덮어 [StandardDamage(1,1)]의 [School()] 피해를 입히고 추가로 매 라운드마다 [StandardDamage(1,1,781)]의 피해를 입힙니다. 최대 [duration(1,2)]라운드 동안 지속됩니다.",132107,8,0,0,0
+449,흡수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,2)]%만큼 회복합니다.",132100,3,0,0,0
+450,유출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132099,5,3,0,0
+451,분리,"자기 생명력의 절반을 소모해 [duration(1,4)]라운드 동안 전투를 돕는 분신을 만들어 냅니다.
+
+분신은 한 팀에 하나만 만들 수 있습니다.",610610,5,8,0,2
+452,빗자루,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 세차게 때려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",655994,0,0,0,0
+453,모래폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 날씨를 바꿔 [duration(1,2)]라운드 동안 먼지바람이 불게 만듭니다.
+
+먼지바람이 부는 동안에는 모든 애완동물이 받는 피해가 [AttackBonus()*5]만큼 감소하고 공격의 정확도가 10%만큼 감소합니다.",463521,2,5,0,0
+454,모래폭풍,"모든 애완동물이 받는 피해가 최대 [AttackBonus()*5]만큼 감소합니다.
+
+공격의 정확도가 10%만큼 감소합니다.",463521,4,0,175,2
+455,두들기기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 두들겨 패서 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 두들기는 횟수가 증가합니다.",133477,9,0,0,0
+456,청소 끝,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히고 모든 생성물을 싸움터에서 제거합니다.",132146,5,3,0,0
+457,쓸어내기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 높은 애완동물로 교체되게 합니다.",136010,5,5,0,0
+458,태엽 감기,"공격력이 10%만큼 증가합니다.
+공격을 쏟아부을 준비가 되었습니다.",132996,9,0,0,2
+459,태엽 감기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 공격력을 10%만큼 증가시킵니다.
+
+2단계 사용: 한바탕 공격을 퍼부어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132996,9,0,0,0
+460,조명,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 날씨를 화창한 날로 바꿉니다.
+
+화창한 날 동안에는 모든 애완동물의 최대 생명력이 [abs(abilityStateMod(99,403))]%만큼 증가하고 치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",571554,5,5,0,0
+461,빛,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+환한 빛으로 대상을 감싸 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cff9933FF눈이 먼|r 대상에게는 두 배의 피해를 입힙니다.",461859,5,3,0,0
+462,순간적 시력 상실,"적중률이 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소합니다.
+
+|cff9933FF눈이 먼|r 상태입니다.",132284,-1,0,384,3
+463,섬광,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+찬란한 섬광이 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cff9933FF눈을 멀게|r 합니다. [duration(1,2)]라운드 동안 대상의 적중률이 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소합니다.",612968,5,3,0,0
+464,환영 장벽,두 번의 공격을 막습니다.,237510,-1,0,508,2
+465,환영 장벽,환영을 생성해 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,237510,5,5,0,2
+466,황천문,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 교체되게 합니다.",607512,5,5,0,0
+467,마력 분신,"상대와 동일한 분신을 만들어 [duration(1,3)]라운드 동안 공격하게 합니다.",575586,5,5,0,2
+468,고통,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 고통을 가해 매 라운드마다 [School()] 피해를 입힙니다. 피해는 [duration(1,1)]라운드 동안 증가합니다.",136139,3,0,0,0
+469,고통,매 라운드마다 점점 증가하는 피해를 입힙니다.,136139,3,0,0,0
+470,무력화,"공격력이 [abs(abilityStateMod(23,470))]%만큼 감소합니다.
+속도가 [abs(abilityStateMod(25,470))]%만큼 감소합니다.",653219,-1,0,0,3
+471,무력화,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,470))]%만큼, 공격력을 [abs(abilityStateMod(23,470))]%만큼 감소시킵니다.",136138,5,1,0,0
+472,증오 표출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이번 라운드에 먼저 공격당했으면 [StandardDamage(1,2)]의 추가 피해를 입힙니다.",136088,5,0,0,0
+473,고밀도 빛줄기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘을 한줄기로 모아 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 피해량이 [FormatDamage(pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage(pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",135730,5,0,0,0
+474,방해의 시선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+우리 팀이 먼저 공격할 경우 상대의 공격을 1라운드 동안 중단시킵니다.",294482,5,3,0,0
+475,응시,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",236407,5,4,0,0
+476,썩음,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+대상의 피부를 썩게 하여 [StandardDamage(1,2)]의 [School()] 피해를 입히고 [duration(1,3)]라운드 동안 대상을 [School()] 유형으로 변화시킵니다.",136134,3,3,0,0
+477,눈뭉치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+눈을 뭉쳐 적에게 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132387,6,0,0,0
+478,마술 모자,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모자를 적에게 날려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",133102,5,0,0,0
+479,얼음 장벽,얼음으로 이루어진 벽을 생성해 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,458718,6,5,0,2
+480,얼음 장벽,두 번의 공격을 막습니다.,458718,6,0,505,2
+481,동결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.
+
+|cFF0070DD얼어붙은|r 대상은 항상 기절시킵니다.",236214,6,4,0,0
+482,광선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘을 집중시켜 내보내 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",463282,5,0,0,0
+483,정신 분쇄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상의 정신을 제압하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+비전 바람이 부는 날씨에는 [StandardDamage(1,2)]의 추가 피해를 입힙니다.",457655,5,1,0,0
+484,역순환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 마나 덩어리가 쇄도하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135728,5,0,0,0
+485,공격력 증가,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",648206,-1,0,320,2
+486,기력 흡수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 또한 [duration(1,2)]라운드 동안 상대 팀 애완동물의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 153 ))]%만큼 감소시키고, [duration(1,3)]라운드 동안 우리 팀 애완동물의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가시킵니다.",135738,5,4,0,0
+487,마력 증폭,"공격력을 [abs(abilityStateMod( 23, 487 ))]%만큼 증가시킵니다.",648206,-1,0,320,2
+488,마력 증폭,"[duration(1,1)]라운드 동안 우리 팀 현재 애완동물의 공격력을 [abs(abilityStateMod( 23, 487 ))]%만큼 증가시킵니다.",136006,5,3,0,2
+489,마력의 폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입힙니다. 날씨가 비전 바람일 때는 [StandardDamage(1,3)]의 추가 피해를 입힙니다.
+
+[numTurns()]라운드 동안 지속됩니다.",135734,5,3,0,0
+490,튕겨내기,"기술을 사용한 라운드 동안 적의 공격을 모두 피합니다.
+
+이 기술은 항상 먼저 사용됩니다.",458412,0,3,0,2
+491,출혈,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중입니다.",132155,7,0,557,1
+492,할퀴기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상의 다음 공격을 50%만큼 약화시킵니다.",132140,7,2,0,0
+493,발굽,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 짓밟아 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132368,4,0,0,0
+494,공격력 감소,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 494 ))]%만큼 감소합니다.",653219,-1,0,334,3
+496,나른함,눈꺼풀이 무겁습니다... 피해를 입지 않으면 다음 라운드에 잠에 빠집니다.,575587,-1,0,89,3
+497,달래기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+몸이 나른해지는 노래를 부릅니다.
+
+나른해진 대상은 공격당하지 않으면 다음 라운드가 끝날 때 잠이 듭니다.",136090,4,4,0,2
+498,잠듦,"이 애완동물에게는 명령을 내릴 수 없습니다.
+피해를 받으면 깨어납니다.",132156,-1,0,78,3
+499,감염된 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 감염시켜 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132101,3,0,0,0
+500,화염 숨결,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",135807,1,0,28,1
+501,화염 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다. 적은 
+|cFFFF2020불타는|r 상태가 되어, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,500)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",135807,1,0,0,0
+502,화염방사기,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",236216,6,0,426,0
+503,화염방사기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+싸움터를 활활 타오르는 불바다로 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+불은 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 502)]의 [School()] 피해를 입힙니다.",236216,6,0,0,0
+504,선제 공격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+사정없이 공격해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 먼저 공격하면 추가로 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",132172,2,0,0,0
+505,누에고치,"자신을 향한 다음 공격을 막아냅니다.
+속도가 [abs(abilityStateMod(25,505))]%만큼 감소합니다.",132907,-1,0,111,2
+506,누에고치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 공격을 막아낼 확률을 100%만큼 증가시킵니다.
+
+[duration(1,2)]라운드 동안 지속됩니다.",132907,2,3,0,0
+507,나방 인분,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 진한 향기의 페로몬을 발사해 각각 최대 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [accuracy(1,5)]%의 확률로 [duration(1,5)]라운드 동안 대상의 이동 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",132891,2,1,0,0
+508,나방 분진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 잠에 빠지게 합니다.",237286,2,3,0,0
+509,물결 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+굽이치는 물결이 적을 삼켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",237006,8,0,0,0
+510,소생의 안개,"매 라운드마다 [StandardHealing(1,1,510)]의 생명력을 회복합니다.",627487,-1,0,142,0
+511,소생의 안개,"기분좋은 안개가 내려앉아 매 라운드마다 앞 줄에 있는 애완동물의 생명력을 [StandardHealing(1,1,510)]만큼 회복시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다. 이 기술은 애완동물을 교체해도 유지됩니다.",627487,8,0,0,2
+512,소용돌이,"|cffffffff적중률|r [StandardAccuracy(3,1)]
+
+이 효과가 끝날 때 [StandardDamage(3,1)]의 [School()] 피해를 입고 [duration(3,2)]라운드 동안 도망치지 못합니다.",571588,8,0,135,0
+513,소용돌이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+소용돌이를 적 애완동물 밑에 생성합니다.
+
+2라운드 동안 상대 애완동물은 [StandardDamage(3,1,512)]의 [School()] 피해를 입고 [duration(3,2,512)]라운드 동안 발이 묶입니다.",571588,8,3,0,0
+514,야생의 바람,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날카로운 돌풍으로 [StandardDamage(1,1)]의 [School()] 피해를 즉시 입히고, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,677)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",132845,2,0,0,0
+515,저공 비행,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상이 받는 피해를 [abs(abilityStateMod( 24,516))]%만큼 증가시킵니다.",648840,2,0,0,0
+516,약해진 방어,"받는 피해가 [abs(abilityStateMod( 24,516))]%만큼 증가합니다.",464973,-1,0,530,3
+517,야밤의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cff9933FF눈이 먼|r 대상에게는 항상 적중합니다.",458226,2,3,0,0
+518,포식자의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+생명력이 25% 미만인 대상에게는 2배의 피해를 입힙니다.",132138,2,4,0,0
+519,종말,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+운석을 소환합니다. 운석은 [duration(1,1)]라운드 후에 떨어지며 현재 애완동물을 모두 죽입니다.
+
+바퀴벌레와 딱정벌레는 이 공격에서 항상 살아남습니다.",535592,4,20,0,2
+520,매의 눈,"치명타 및 극대화율이 [abs(abilityStateMod(40,520))]%만큼 증가합니다.",132177,-1,0,320,0
+521,매의 눈,"[duration(1,1)]라운드 동안 치명타 및 극대화율이 [abs(abilityStateMod(40,520))]%만큼 증가합니다.",132177,2,0,0,2
+522,엄금,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 애완동물이 사용하는 다음 기술을 [points(1,1,738)]라운드 동안 봉인합니다.",132372,2,10,0,2
+524,꽥꽥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시끄럽게 울어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상의 공격력을 25%만큼 감소시킵니다.",132200,2,0,0,0
+525,에메랄드 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+에메랄드 이빨로 적을 물어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237150,5,0,0,0
+526,악취,적중률이 25%만큼 감소합니다.,236549,-1,0,645,3
+527,악취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 상대 팀 전체의 적중률을 [abs(abilityStateMod(41,526))]%%만큼 감소시킵니다.",236549,4,0,0,2
+528,서리 뿜기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+얼음 섞인 바람을 불어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135846,6,0,0,0
+529,배 미끄럼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+눈보라가 치는 날씨에는 먼저 공격합니다.",327502,6,0,0,0
+532,몸통 박치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 큰 충격을 가해 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신도 [SimpleDamage(1,3)]의 [School()] 피해를 입습니다.",458974,0,1,0,0
+533,재조립,"부서진 애완동물을 수리합니다. 자신의 생명력을 [StandardDamage(1,1)]만큼 회복시키고, 우리 팀의 다른 기계 애완동물의 생명력을 그 절반만큼 회복시킵니다.",465878,9,3,0,2
+535,암습,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 달려들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 먼저 공격하면 추가로 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",132142,7,0,0,0
+536,어슬렁,"속도가 30%만큼 감소하지만, [duration(1,1)]라운드 안에 하는 다음 공격의 위력이 150%만큼 증가합니다.",514640,7,5,0,2
+537,공격력 감소,"다음 공격의 공격력이 [abs(abilityStateMod( 23, 537 ))]%만큼 감소합니다.",653219,-1,0,334,3
+538,삼키기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+적을 삼키기로 처치하면 생명력을 [StandardHealing(1,2)]만큼 회복합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",132131,7,1,0,0
+539,요를레이,"힘이 나는 노래를 불러 우리 팀 전체의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",575588,4,4,0,2
+540,풀뜯기,"풀을 뜯기 시작합니다. 다 뜯어 먹으면 [StandardDamage(2,2)]의 [School()] 피해를 입힙니다.",136071,4,0,0,0
+541,풀뜯기,"풀을 뜯어 꼭꼭 씹어먹습니다. 다음 라운드 공격에 [StandardDamage(2,2,540)]의 [School()] 피해가 추가됩니다.
+
+풀뜯기를 사용하면 뒷 열에서도 피해를 입힐 수 있습니다.",136071,4,1,0,0
+542,기진맥진,"받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.",132358,-1,0,530,3
+543,어슬렁,"속도가 30%만큼 감소합니다.
+공격력이 150%만큼 증가합니다.",514640,-1,0,320,2
+544,속도 증가,"속도가 [abs(abilityStateMod( 25, 544 ))]%만큼 증가합니다.",648208,-1,0,113,2
+546,얼음 회오리,"이 애완동물은 교체할 수 없습니다.
+
+|cFF0070DD얼어붙었습니다|r.",135848,-1,0,95,0
+549,GM 함정,,638662,0,0,0,4
+562,GM 처치,대상을 죽입니다. 비겁자.,236363,1,0,0,0
+563,선공,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",132301,4,0,0,0
+564,첨벙,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+잠수해서 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",133151,8,4,0,0
+565,땅파기,"땅을 파고 들어갑니다.
+공격당하지 않습니다.",451165,-1,0,60,0
+566,공굴리기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 굴러가 [StandardDamage(1,1)]의 [School()] 피해를 입히고 속도가 [statechange(1,2)]%만큼 증가합니다.
+
+공굴리기를 쓸 때마다 속도는 계속 증가합니다.",133836,4,0,0,0
+567,질주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 향해 달려 [StandardDamage(1,1)]의 [School()] 피해를 입히고 다음 라운드에 먼저 공격합니다.",132337,7,0,0,0
+568,죽은 척하기,죽은 흉내를 내서 상대 팀의 공격을 피합니다. 곧바로 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.,132293,7,8,0,2
+569,수정 감옥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+수정으로 대상을 가둬 [duration(1,1)]라운드 동안 기절시킵니다.",348537,7,5,0,2
+570,빗자루 날기,"마법 빗자루를 타고 적에게 돌진하여 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 적의 다른 애완동물로 교체시킵니다.",236547,5,0,0,0
+571,뿔박기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+자신이 대상보다 빠르면 [accuracy(1,3)]% 확률로 밟아 뭉개, 상대의 턴을 지나가게 합니다.",135705,7,1,0,0
+572,산사태,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+산사태를 일으켜 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 우중충한 날씨로 바꿉니다. 
+
+우중충한 날씨로 인해 3라운드 동안 애완동물 교체가 불가능해지고, 모든 치명타 및 극대화 공격력이 [abs(abilityStateMod(314,718))]%만큼 증가합니다.",463566,4,4,0,0
+573,자연의 손길,"생명력을 [StandardDamage(1,1)]만큼 회복합니다.",136043,4,3,0,2
+574,자연의 수호,"[duration(1,2)]라운드 동안 매 라운드마다 생명력을 [StandardHealing(1,1,820)]만큼 회복합니다.
+
+회복하는 동안에는 [School()] 애완동물로 간주됩니다.",136094,6,0,0,2
+575,미끄러운 얼음,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+얼음 조각을 빠르게 날려보내 [StandardDamage(1,1)]의 [School()] 피해를 입히고 적 근처 바닥을 얼려버립니다.
+
+미끄러운 빙판이 적을 |cFF0070DD얼어붙은|r 상태로 만들고 적의 적중률을 20%만큼 감소시킵니다. [duration(1,2)]라운드 동안 지속됩니다. 이 효과는 애완동물을 교체해도 유지됩니다.",612394,6,0,0,0
+576,넘치는 체력,"생명력을 [StandardHealing(1,5)]만큼 회복하고 [duration(1,1)]라운드 동안 우리 팀 현재 애완동물의 최대 생명력을 레벨당 [points(1,1,577)]만큼 증가시킵니다.",413589,4,3,0,2
+577,튼튼,최대 생명력이 레벨당 5씩 증가합니다.,648207,-1,0,376,2
+578,땅속의 보물,"뼈를 발굴해서 생명력을 [percentage(1,1)]%만큼 회복합니다.",133718,4,3,0,2
+579,걸신들린 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도가 50%만큼 증가합니다.",250626,4,0,0,0
+580,식곤증,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 잠에 빠뜨립니다.",309187,4,5,0,2
+581,무리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 무리를 지어 몰려들어 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다. [numTurns()]라운드 동안 지속됩니다.
+
+무리 공격에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.",135996,2,0,0,0
+583,맹렬,"다음 공격이 추가 피해를 입힙니다.
+
+추가 피해는 공격할 때마다 줄어듭니다.",648206,-1,0,0,2
+584,겨울의 정기,"차가운 바람을 불어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135833,6,0,0,0
+585,축배,"[StandardDamage(1,1)]의 [School()] 피해를 입히고 4라운드 동안 속도가 [abs(abilityStateMod(25,161))]%만큼 증가합니다.",574615,0,0,0,0
+586,겨울맞이 축제 선물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133202,5,5,0,0
+588,압도,"높이 날아올라 한 턴 동안 공격당하지 않습니다.
+
+다음 턴에 공격하여 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",574571,1,4,0,0
+589,비전 폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입히고 날씨를 [duration(1,2)]라운드 동안 비전 바람이 불게 바꿉니다. 비전 바람이 이미 불고 있다면 추가 피해를 입힙니다.
+
+비전 바람이 부는 동안 모든 애완동물은 기절하거나 발이 묶이지 않습니다.",135739,5,3,0,0
+590,비전 바람,애완동물이 기절하거나 발이 묶이지 않습니다.,135739,-1,0,595,2
+591,마법 폭주,"대상에게 매 공격마다 최대 [abs(abilityStateMod(71,591))*AttackBonus()]의 추가 피해를 입힙니다.",252267,-1,0,0,3
+592,마법 폭주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,591))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",252267,5,0,0,2
+593,마력의 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 시전 후에는 2라운드 동안 충전이 필요합니다.
+
+충전 중에는 다른 어떤 행동도 할 수 없습니다.",429383,5,5,0,0
+594,수면 가스,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 잠들게 합니다.
+
+사용할 때마다 수면 가스로 입히는 피해가 [FormatDamage(10*AttackBonus())]씩 증가하며, 최대 [FormatDamage(30 *AttackBonus())]의 [School()] 피해를 입힙니다.",463877,1,1,0,0
+595,달빛섬광,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 날씨를 [duration(1,2)]라운드 동안 달빛이 비추게 바꿉니다.
+
+달빛 아래서는 모든 애완동물의 받는 치유 효과가 25%만큼 증가하고 마법 유형 기술로 10%의 추가 피해를 입힙니다.",136096,5,3,0,0
+596,달빛,"받는 치유 효과가 25%만큼 증가합니다.
+
+마법 유형 기술로 10%의 추가 피해를 입힙니다.",136057,5,0,181,2
+597,에메랄드 형상,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,823))*AttackBonus()]까지 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134104,1,0,0,2
+598,에메랄드의 꿈,"잠에 빠져들어 첫 라운드에 생명력을 [StandardHealing(1,1,246)]만큼 회복하고 두 번째 라운드에 [StandardHealing(2,1,246)]만큼, 세 번째 라운드에 [StandardHealing(3,1, 246)]만큼 회복합니다.
+
+에메랄드의 꿈에 빠진 동안에는 애완동물을 교체할 수 없습니다.",135745,1,5,0,2
+599,에메랄드의 꿈,"꿈을 꿉니다.
+매 라운드마다 생명력을 회복합니다.",135745,-1,0,78,0
+600,시간 정지,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 [duration(1,1)]라운드 동안 기절시킵니다.",136106,5,5,0,2
+601,시한 폭탄,"3라운드 뒤에 폭발해 [StandardDamage(4,1)]의 마법 피해를 입히고 대상을 1라운드 동안 기절시킵니다.",237538,5,0,0,1
+602,시한 폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 발밑에 일시적인 균열을 생성합니다. 
+
+3라운드 뒤에 균열이 폭발하여 현재 대상에게 [StandardDamage(4,1,601)]의 [School()] 피해를 입히고 [duration(4,2,601)]라운드 동안 기절시킵니다.",237538,5,5,0,0
+603,일탈,"우리 팀의 공격력이 [duration(1,1)]라운드 동안 두 배로 증가합니다.",609811,1,20,0,2
+604,비정상적인 힘,"우리 팀의 공격이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]%의 추가 피해를 입힙니다.",648206,-1,0,0,2
+605,엘레멘티움 화살,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(1,1,2372)]의 [School()] 피해를 입히고 [duration(3,2)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",575536,1,0,0,0
+606,엘레멘티움 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 엘레멘티움 화살을 쏩니다.
+
+[duration(1,1)]라운드 뒤에 화살이 도달하여 현재 대상에게 [StandardDamage(1,1,2372)]의 [School()] 피해를 입히고 [duration(3,2,605)]라운드 동안 기절시킵니다.",575536,1,5,0,0
+607,대격변,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 파멸을 고해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",409545,1,1,0,0
+608,황천 작렬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘이 쇄도하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 피해량이 [FormatDamage(pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage(pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",237016,5,0,0,0
+609,불안정성,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",575534,1,1,0,0
+610,고대의 축복,"최대 생명력이 레벨당 [abs(abilityStateMod(2,610))/100]씩 증가합니다.",648207,-1,0,376,2
+611,고대의 축복,"자신의 생명력을 [StandardHealing(1,5)]만큼 회복하고 [duration(1,1)]라운드 동안 우리 팀 현재 애완동물의 최대 생명력을 레벨당 [points(1,1,610)]만큼 증가시킵니다.",642418,1,3,0,2
+612,최초의 일격,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+높이 날아올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",236233,1,4,0,0
+613,경쟁심,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가합니다.",648206,-1,0,320,2
+614,경쟁심,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가합니다.",236686,5,0,0,0
+615,자료 오류,"그 무엇보다 희귀한 애완동물에게서만 찾아볼 수 있는 미지의 능력으로, 의도가 낳은 산물은 결코 아닙니다. 어떤 효과를 발휘하는지 아무도 모릅니다.",134400,5,0,0,0
+616,점멸의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 향해 점멸하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",135736,5,0,0,0
+617,불꽃,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+불꽃을 적에게 1~2번 발사해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",348560,6,0,0,0
+621,돌멩이 메치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 큰 충격을 가해 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신도 [SimpleDamage(1,3)]의 [School()] 피해를 입습니다.",237002,6,1,0,0
+623,얼음 무덤,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(3,1)]의 원소 피해를 입히고 1라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",609814,6,0,0,0
+624,얼음 무덤,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 얼어붙은 서리 보주를 쏩니다.
+
+2라운드 뒤에 얼음이 작렬해 현재 대상에게 [StandardDamage(3,1,623)]의 [School()] 피해를 입히고 [duration(3,2,623)]라운드 동안 기절시킵니다.",609814,6,5,0,0
+625,얼음 쐐기,"대상을 꿰뚫어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 빗나갈 확률이 높습니다.",135855,6,0,0,0
+626,찌르기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 찔러 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",134321,4,0,0,0
+627,바위 세례,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135236,6,0,0,1
+628,바위 세례,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+바위를 날려보내 최대 [FormatDamage(SimpleDamage(1,1)*4)]의 [School()] 피해를 입힙니다.
+
+바위는 적의 현재 애완동물 위로 계속 떨어지며 [duration(1,5)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 627)]의 [School()] 피해를 입힙니다.",135236,6,2,0,0
+630,독가지,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대상을 |cFF1EFF00중독|r시켜 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",132106,6,0,0,0
+631,초강력 끈적이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 끈적이를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",468265,6,0,0,0
+632,혼돈의 독침,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 독침으로 찌릅니다. [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,633)]의 [School(633)] 피해를 입힙니다.
+
+독침에 찔린 대상은 공격할 때마다 [accuracy(getProcIndex(PROC_ON_DAMAGE_DEALT,633),1,633)]%의 확률로 자신도 피해를 입고 |cFF1EFF00중독|r됩니다.",136093,2,0,0,0
+633,혼돈의 독침,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+공격 시 [accuracy(getProcIndex(PROC_ON_DAMAGE_DEALT),1)]% 확률로 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT), 1)]의 [School()] 피해를 입습니다.
+
+|cFF1EFF00중독|r되었습니다.",136093,2,0,25,1
+634,지뢰밭,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 뒤쪽에 지뢰밭을 형성합니다. 교체되어 들어오는 상대 팀 애완동물에게 [StandardDamage(1,1,635)]의 [School()] 피해를 입힙니다.",133717,9,5,0,0
+635,지뢰밭,"교체되어 들어오는 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 줍니다.",133717,9,0,161,0
+636,접착탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 접착탄을 날립니다.
+
+접착탄은 3라운드 뒤에 폭발하여 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED , 637),1,637)]의 [School()] 피해를 입힙니다.
+
+적 애완동물은 동시에 하나의 접착탄에만 영향을 받습니다.",463550,9,0,0,0
+637,접착탄,"대상에게 접착탄을 날립니다. 접착탄은 3라운드 뒤에 폭발하여 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED),1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(2,1)]",463550,9,0,0,1
+639,독성 구름,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136182,9,0,0,0
+640,독성 구름,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+독성 구름이 상대 팀을 뒤덮어 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,639)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",136182,9,0,0,0
+641,계란 세례,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 동물 피해를 입힙니다.",132832,-1,0,0,0
+642,알 세례,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+알을 던져 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3)+SimpleDamage(1,4))]의 [School()] 피해를 입힙니다.
+
+알은 적의 현재 애완동물 위로 계속 떨어지며 3라운드 동안 매 라운드마다 [StandardDamage(1,1, 641)]의 [School()] 피해를 입힙니다.",132832,4,1,0,0
+643,도토리 폭탄 [NYI],"적 근처에 도토리 폭탄을 놓아둡니다. [duration(1,1)]라운드 뒤에 폭발하여 현재 대상에게 피해를 입힙니다.",0,5,0,0,0
+644,지진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+땅을 울려 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 절반의 피해를 적의 대기 중인 애완동물에게 입힙니다.
+
+지진은 [numTurns()]라운드 동안 지속되면서 공격력이 점차 증가하고, 땅 밑에 있는 적에게도 피해를 입힙니다.",451165,9,2,0,0
+645,발진,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+공중으로 솟구쳐 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",133029,9,4,0,0
+646,충격과 공포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.",252188,9,4,0,0
+647,폭격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 폭격을 요청합니다.
+
+[duration(1,2)]라운드 뒤에 폭탄이 도착하여, 현재 대상에게 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 819),1,819)]의 [School()] 피해를 입힙니다.",463515,9,3,0,0
+648,해골 물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 물어서 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133726,3,0,0,0
+649,뼈폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전체 생명력의 [points(1,4)]%를 소모해서 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",342917,3,3,0,0
+650,뼈 감옥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",133719,3,0,0,0
+651,가위바위보 [NYI],"[StandardDamage(1,1)]만큼의 피해를 무작위 유형으로 입힙니다.",0,3,0,0,0
+652,유령 출몰,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+부정한 영혼이 되어 대상 몸 안으로 들어갑니다. 매 라운드마다 [StandardDamage(1,1,653)]의 [School()] 피해를 입힙니다.
+
+대상의 몸 안에 있는 동안에는 자신은 죽은 것으로 간주됩니다.",236298,3,4,0,0
+653,유령 출몰,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",236298,3,0,0,0
+654,귀신 물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신은 [duration(1,2)]라운드 동안 기절합니다.",236548,3,3,0,0
+655,으스스한 소리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+으스스하고 불쾌한 소리를 내 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237524,3,0,0,0
+657,오염된 혈액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 [duration(1,2)]라운드 동안 오염시킵니다.
+
+오염된 대상을 공격하는 애완동물은 자신의 생명력을 회복합니다.",538561,3,0,0,0
+658,오염된 혈액,피해를 입으면 공격자의 생명력이 회복됩니다.,538561,3,0,0,3
+659,질병 전이,"[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상에게 전염병을 주입합니다. 전염병은 [StandardDamage(1,1,123)]의 [School()] 피해를 두 번 입히고 대상 팀의 다른 애완동물에게로 옮겨갑니다. 최대 3번까지 옮겨갑니다.",0,3,4,0,0
+660,질병 전이,"매 라운드마다 [StandardDamage(1,1)]의 피해를 입힙니다.
+
+효과가 끝나면 우리 팀 다른 애완동물에게 전이됩니다.",0,-1,0,0,0
+661,질병 전이,"매 라운드마다 [StandardDamage(1,1)]의 피해를 입힙니다.
+
+효과가 끝나면 우리 팀 다른 애완동물에게 전이됩니다.",0,-1,0,0,0
+662,질병 전이,"매 라운드마다 [StandardDamage(1,1)]의 피해를 입힙니다.",0,-1,0,0,0
+663,시체 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자가 즉시 죽으며 적에게 자신의 생명력의 [points(1,1)]%에 해당하는 [School()] 피해를 입히고 감염시킵니다.
+
+감염된 대상은 [duration(1,2)]라운드 동안 매 라운드마다 자신의 최대 생명력의 [points(1,1,664)]%에 해당하는 [School()] 피해를 입습니다.",237521,3,0,0,2
+664,시체 폭발,"매 라운드마다 대상 생명력의 [points(1,1)]%만큼의 [School()] 피해를 입힙니다.
+
+|cFFAAFFAA중독|r되었습니다.",237521,3,0,25,0
+665,시체 먹기,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+우리 팀 애완동물의 시체를 주워 먹어 전체 생명력의 [points(1,2)]%만큼을 회복합니다.
+
+시체 하나를 한 번만 먹을 수 있습니다.",237524,3,3,0,2
+666,광기의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 [duration(1,2)]라운드 동안 광기에 빠지게 합니다.
+
+광기에 빠진 동안에는 공격력이 25%만큼 증가하지만 50%만큼 추가 피해를 받습니다.",132103,3,0,0,0
+667,숙성된 노른자위,시전자의 모든 강화 효과와 약화 효과를 제거합니다.,236549,0,2,0,18
+668,끔찍한 입냄새,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+끔찍한 독기를 끊임없이 내뿜어 [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입힙니다. 정화의 비가 오는 날씨에는 추가 피해를 입힙니다.
+
+애완동물은 [numTurns()]라운드 동안 공격에 집중합니다.",344804,0,0,0,0
+669,공중제비,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+제비를 넘어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 상대 팀의 라운드를 방해합니다.",642415,0,3,0,0
+670,쥐덫,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+쥐덫을 땅에 놓아둡니다. 덫은 상대 팀이 공격할 때마다 일정 확률로 발동됩니다.
+
+덫에 걸린 대상은 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED,671),1,671)]의 [School()] 피해를 입고 [duration(getProcIndex(PROC_ON_AURA_REMOVED,671),2,671)]라운드 동안 적을 공격할 수 없게 됩니다.",461122,9,5,0,0
+671,쥐덫,"공격 시 일정 확률로 덫이 작동하여 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED,671),1)]의 [School()] 피해를 입히고 [duration(getProcIndex(PROC_ON_AURA_REMOVED,671),2)]라운드 동안 공격하지 못하게 만듭니다.
+
+|cffffffff적중률|r [StandardAccuracy(2,1)]",461122,9,0,255,0
+677,야생의 바람,"현재 애완동물에게 매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132845,2,0,627,1
+681,전투와 휴식,전투가 종료되어 애완동물이 잃은 생명력의 일정량을 회복합니다.,463526,0,0,0,2
+682,종말,"뒤틀린 황천에서 운석이 떨어집니다. 운석이 충돌하면 모든 현재 애완동물이 죽습니다.
+
+이 효과는 제거할 수 없습니다. 바퀴벌레와 딱정벌레는 이 공격을 받아도 항상 살아남습니다.",535592,4,0,240,3
+683,종말,"뒤틀린 황천에서 운석이 떨어집니다. 운석이 충돌하면 모든 현재 애완동물이 죽습니다.
+
+이 효과는 제거할 수 없습니다. 바퀴벌레와 딱정벌레는 이 공격을 받아도 항상 살아남습니다.",535592,4,0,240,3
+684,GM 자살,시전자를 죽입니다. 벌써 포기하는 건가요?,236363,3,0,0,0
+706,떼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+떼를 지어 몰려들어 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+떼 공격에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",538518,4,0,0,0
+710,포탑 건설,"포탑을 지어 상대 팀의 앞 줄에 있는 애완동물을 공격합니다. 매 라운드마다 [FormatDamage(SimpleDamage(1,1,711)*3)]의 [School()] 피해를 입힙니다.
+
+포탑 하나당 [duration(1,1)]라운드 동안 지속됩니다.",133013,9,2,0,0
+711,포탑,"매 라운드마다 상대 팀의 앞 줄에 있는 애완동물에게 [FormatDamage(SimpleDamage(1,1)*3)]의 [School()] 피해를 입힙니다.",133013,9,0,153,0
+712,초전자포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+자기력으로 투사체를 발사해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",133037,6,0,0,0
+713,대공세,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 가격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",458970,0,0,0,0
+714,GM 부활,애완동물을 부활시킵니다.,136080,0,0,0,0
+717,추방됨,추방당한 애완동물은 효과가 끝날 때까지 전투로 돌아올 수 없습니다.,136135,-1,0,165,0
+718,산사태,"전투 지역으로 들어오는 모든 애완동물의 발을 [duration(1,1)]라운드 동안 묶습니다. 또한 모든 치명타 및 극대화 공격력이 [abs(abilityStateMod(314,718))]%만큼 증가합니다.
+
+발이 묶인 애완동물은 교체할 수 없습니다.",463566,4,0,171,0
+720,분신,분신이 생성되어 매 라운드마다 추가 공격을 합니다.,610610,5,0,183,2
+721,미끄러운 얼음,"공격의 정확도가 20%만큼 감소합니다.
+
+모든 애완동물은 |cFF0070DD얼어붙은|r 상태로 간주됩니다.",612394,6,0,191,2
+722,GM 무적,죽지 않습니다.,236370,0,0,0,0
+723,안전장치,"싸움에서 한 번, 20%의 생명력을 가지고 되살아납니다.",618979,9,0,0,6
+724,저주받은 자,"언데드 애완동물은 죽으면 되살아나, 한 라운드 동안 무적이 됩니다.",618980,3,0,0,6
+725,GM 무적,"어이 거기, 나 좀 봐.",236370,-1,0,0,3
+726,자생력,"이번 라운드 안에 대상에게 피해를 입히면, 인간형 애완동물은 최대 생명력의 [percentage(1,1,726)]%를 회복합니다.",618977,0,0,0,6
+728,GM 패스,"너 먼저.
+
+아니, 아니, 너 먼저.",134392,0,0,0,0
+733,GM 원거리 처치,"대상 생명력을 [percentage(1,1)]%로 설정합니다.",236367,1,0,0,0
+734,수정 감옥,"기절했습니다.
+
+이 애완동물에게 명령을 내릴 수 없습니다.",348537,-1,0,205,3
+735,속도 증가,"속도가 [abs(abilityStateMod( 25, 735 ))]%만큼 증가합니다.",648208,-1,0,113,2
+737,유성,"높게 날아 오릅니다.
+공격당하지 않습니다.",517112,-1,0,241,2
+738,엄금,"애완동물의 다음 기술이 [points(1,1)]라운드 동안 봉인됩니다.",132372,2,0,0,3
+739,광란,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 739 ))]%만큼 증가합니다.",648206,-1,0,320,3
+740,광란심장의 양조주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+독한 술기운 때문에 공격에 힘이 실려 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 739 ))]%만큼 증가합니다.",236698,0,0,0,0
+741,돌개바람,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+세차게 회전하며 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.",132369,0,3,0,0
+742,음침한 진균,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+달빛 아래서는 추가 피해를 입힙니다.",134052,3,0,0,0
+743,음침한 진균,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+음침한 진균이 대상을 감염시켜 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,742)]의 [School()] 피해를 입힙니다.
+
+달빛 아래서는 추가 피해를 입힙니다.",134052,3,0,0,0
+744,착취의 씨앗,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 오라의 시전자는 입힌 피해의 [points(1,2)]%만큼 회복합니다.",134201,6,0,0,1
+745,착취의 씨앗,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 씨앗을 심어 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신의 생명력을 [StandardHealing(1,2)]만큼 회복합니다. 씨앗은 [duration(1,3)]라운드 동안 지속됩니다.
+
+매 라운드마다 씨앗은 [StandardDamage(1,1,744)]의 [School(744)] 피해를 입히고 입힌 피해만큼 시전자의 생명력을 회복시킵니다.",134201,6,4,0,0
+746,포자 버섯,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 근처에 버섯을 심습니다. 버섯은 2라운드 동안 자라난 후 포자 구름을 터뜨립니다.
+
+포자 구름은 앞 줄에 있는 애완동물을 감염시켜 [duration(3,1,747)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 748)]의 [School(748)] 피해를 입힙니다.",132371,6,2,0,0
+747,포자 버섯,"포자 구름이 터져나와 [duration(3,1)]라운드 동안 현재 대상을 감염시킵니다.",132371,6,0,262,0
+748,포자 폭발,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132371,6,0,263,1
+750,영혼의 수호,한 번의 공격을 막습니다.,425952,0,0,0,2
+751,영혼의 수호,강력한 수호 마법으로 몸을 감싸 다음 공격을 막습니다.,425952,0,3,0,2
+752,영혼 공세,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",136213,5,4,0,0
+753,태양 광선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 화창한 날씨에서는 [StandardDamage(1,3)]의 추가 피해를 입힙니다. 이 능력을 사용한 후 2라운드 동안 재충전이 필요합니다.
+
+재충전 중에는 어떠한 행동도 할 수 없습니다.",135981,6,0,0,0
+754,톱니바퀴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]%확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.",531507,9,1,0,0
+755,산성액,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136030,8,0,386,1
+756,산성액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+산성액이 대상을 부식시켜 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,755)]의 [School()] 피해를 입힙니다.",136030,8,0,0,0
+757,행운의 춤,"[duration(1,1)]라운드 동안 우리 팀의 적중률이 [abs(abilityStateMod(41,251))]%만큼, 치명타 및 극대화율이 [abs(abilityStateMod(40,251))]%만큼 증가합니다.",133847,4,0,0,2
+758,아옳옳옳옳옳,"자기 생명력의 절반을 희생해 도움을 요청합니다. 아기 멀록이 나타나 [duration(1,4)]라운드 동안 전투를 돕습니다.
+
+분신은 한 팀에 한 마리만 불러낼 수 있습니다.",294479,0,8,0,2
+759,막기,한 번의 공격을 막습니다.,134952,-1,0,0,2
+760,방패 막기,방패로 몸을 둘러 다음 공격을 막습니다.,134952,0,3,0,2
+761,영웅의 도약,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+높이 뛰어올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",236171,0,4,0,0
+762,비장의 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+주먹을 크게 휘둘러 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술이 빗나가면 시전자는 [duration(1,4)]라운드 동안 기절합니다.",236314,0,3,0,0
+763,마법 불태우기,시전자의 모든 강화 효과와 약화 효과를 제거합니다.,135972,5,2,0,18
+764,위상 변화,"위상을 바꾸어 회피율을 [abs(abilityStateMod( 73, 311 ))]%만큼 높입니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136164,5,4,0,2
+765,신성한 검,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+엘드루인을 휘둘러 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135277,0,0,0,0
+766,신성한 정의,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",135963,0,5,0,2
+767,신성한 폭발,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 에너지를 모은 다음, 다음 라운드에 폭발시켜 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",571558,0,3,0,0
+768,다중 베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+눈 깜짝할 사이에 적을 공격해, 상대 팀 모든 애완동물에게 [StandardDamage(1,7)]의 [School()] 피해를 입힙니다.",236263,0,0,0,0
+769,빛의 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+신성한 불꽃의 기둥으로 상대 팀을 불태워 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.
+
+날씨가 어두우면 100% 확률로 대상을 기절시킵니다.",236254,0,3,0,0
+770,복원,"시전자의 생명력을 [percentage(1,1)]%만큼 회복시킵니다. 이 기술은 항상 먼저 사용됩니다.",571555,0,3,0,2
+771,활 쏘기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+활을 쏘아 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135530,0,0,0,0
+772,사랑의 포로,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",135767,0,5,0,2
+773,꿰뚫린 심장,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 조심스럽게 조준한 뒤 다음 라운드에 발사해 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",249172,0,3,0,0
+774,속사,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+엄청난 속도로 화살을 퍼부어 상대 팀 모든 애완동물에게 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,4))]의 [School()] 피해를 입힙니다.",132208,0,0,0,0
+775,향수 뿌린 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+향수 뿌린 화살을 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]% 확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.",4254090,0,2,0,0
+776,사랑의 물약,"시전자의 생명력을 [percentage(1,1)]%만큼 회복시킵니다. 이 기술은 항상 먼저 사용됩니다.",135447,0,3,0,2
+777,유도탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 로켓을 발사해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",369278,9,0,0,0
+778,돌진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",252186,0,0,0,0
+779,벼락,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 활성화된 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.",458976,6,4,0,0
+780,죽음의 손아귀,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",237532,3,4,0,0
+781,끈적이는 수액,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독|r되었습니다.",132107,8,0,386,1
+782,냉기 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 얼려 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135781,1,0,0,0
+784,절규,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+큰 소리로 절규해 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 494 ))]%만큼 감소시킵니다.",134158,1,0,0,0
+785,냉혹한 한파,"앞 줄에 있는 애완동물이 
+|cFF0070DD얼어붙어|r, [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,787)]의 [School(787)] 피해를 입습니다
+
+이미 쌓인 냉증 효과의 지속시간이 초기화됩니다.",629077,6,0,0,3
+786,냉혹한 한파,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적 주변의 공기를 |cFF0070DD얼어붙게|r 만들어, [duration(1,1,785)]라운드 동안 매 라운드마다 적에게 냉증을 일으킵니다. 냉증의 피해량은 애완동물이 교체될 때까지 증가합니다.
+
+냉혹한 한파는 [duration(1,1)]라운드 동안 지속됩니다. 이 기술은 애완동물을 교체해도 유지됩니다.",629077,6,2,0,0
+787,냉증,"매 라운드 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 애완동물을 교체하면 이 오라가 사라집니다.
+
+|cFF0070DD얼어붙었습니다|r.",236227,6,0,0,1
+788,가우스 소총,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+총을 쏴 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",134536,0,0,0,0
+789,U-238 탄환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 우라늄 탄환을 1~2발 발사해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 발사하는 횟수가 증가합니다.",133011,9,0,0,0
+790,전투 자극제,"치명타율이 [abs(abilityStateMod( 40, 790 ))]%만큼 증가합니다.",237032,-1,0,320,2
+791,전투 자극제,"[duration(1,1)]라운드 동안 치명타 및 극대화율이 [abs(abilityStateMod(40, 790))]%만큼 증가합니다.",237032,5,0,0,2
+792,어둠불꽃,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+어두운 불꽃이 대상을 감싸 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상이 받는 치유 효과를 [abs(abilityStateMod(66,793))]%만큼 감소시킵니다.",425951,6,3,0,0
+793,치유 감소,"받는 치유 효과가 [abs(abilityStateMod(66,793))]%만큼 감소합니다.",132355,-1,0,377,3
+794,암흑의 환생,"다음 라운드에 죽으면 생명력을 모두 회복한 채로 되살아나지만, 매 라운드마다 [points(1,1,796)]%의 생명력을 잃습니다.",237570,6,5,0,2
+795,암흑의 환생,"죽으면 생명력을 모두 회복한 채로 되살아나지만, 매 회 [points(1,1,796)]%의 생명력을 잃습니다.",237570,6,0,0,0
+796,암흑의 환생,"매 라운드마다 [points(1,1)]%의 생명력을 잃습니다.",464139,6,0,0,3
+798,어둠 복제,기술 하나를 복제했습니다.,135888,3,0,0,2
+799,아옳옳옳옳옳,매 라운드 전투를 돕는 아기 멀록이 소환되었습니다.,294479,8,0,183,2
+800,꿰뚫기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+생명력이 25% 미만인 대상에게는 2배의 피해를 입힙니다.",132168,7,2,0,0
+801,돌 던지기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+돌을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,6,0,0,0
+802,약탈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+적을 약탈로 처치하면 생명력을 [StandardHealing(1,2)]만큼 회복합니다.
+
+약탈은 [numTurns()]회 동안 계속됩니다.",132152,7,1,0,0
+803,도려내기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF970000출혈|r하게 하여 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",132122,7,0,0,0
+804,죽은 척하기,공격을 피할 확률이 100%만큼 증가합니다.,132293,-1,0,356,2
+807,광견병,"[abs(abilityStateMod( 23, 807 ))]%의 추가 피해를 입힙니다.
+[abs(abilityStateMod( 24, 807 ))]%의 추가 피해를 입습니다.",136083,3,0,0,3
+809,회전,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+꼬마 데스윙이 비행하며 회전해 [StandardDamage (1,1)]의 [School()] 피해를 입히고, 고무되어 [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",574790,1,0,0,0
+810,마그마 덫,"기술이 일정 확률로 덫을 작동시켜 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED
+),1)]의 [School()] 피해를 입히고 [duration(getProcIndex(PROC_ON_AURA_REMOVED
+),2)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(2,1)]",525024,6,0,436,0
+811,마그마 덫,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+마그마 덫을 땅에 놓아둡니다. 덫은 상대 팀이 기술을 사용할 때마다 일정 확률로 발동됩니다.
+
+덫에 걸린 대상은 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED
+,810),1,810)]의 [School()] 피해를 입고 [duration(getProcIndex(PROC_ON_AURA_REMOVED
+,810),2,810)]라운드 동안 적을 공격할 수 없게 됩니다.",525024,6,5,0,0
+812,설퍼라스 강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 설퍼라스를 휘둘러 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",525025,6,0,0,0
+813,타렉고사의 분노,"자기 생명력의 절반을 소모해 [duration(1,4)]라운드 동안 지속되는 분신을 만들어 냅니다.
+
+분신은 한 팀에 하나만 만들 수 있습니다.",523897,5,8,0,2
+814,파열,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",136026,6,4,0,0
+819,폭탄,"3라운드 뒤에 현재 상대 애완동물에게 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED),1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",463515,9,0,0,1
+820,자연의 수호,"매 라운드마다 [StandardHealing(1,1)]의 생명력을 회복합니다.
+
+주기적으로 이 애완동물을 변화시켜 정령 유형인 것처럼 피해를 입게 합니다.",136094,-1,0,0,2
+822,변이됨,"개구리로 변했습니다.
+적을 공격할 수 없습니다.",237579,8,0,413,3
+823,에메랄드 형상,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,823))*AttackBonus()]까지 감소시킵니다.",134104,-1,0,660,2
+826,약화의 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+절제된 공격을 날려 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 공격으로는 적의 생명력을 1 미만으로 만들 수 없습니다.",132350,0,0,0,0
+827,뿌리의 자손,"적 애완동물에게 매 라운드마다 두 번씩 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",134221,6,0,458,0
+828,뿌리의 자손,"땅속에 숨어 [duration(1,1)]라운드 동안 공격당하지 않습니다. 그동안 뿌리의 자손이 상대방을 공격해, 매 라운드마다 [StandardDamage(1,1,827)]의 [School(827)] 피해를 입힙니다.",134221,6,8,0,0
+829,땅속 숨기,땅속으로 사라졌습니다.,236160,6,0,455,0
+830,잠수,"물속으로 사라졌습니다.
+공격당하지 않습니다.",133151,-1,0,461,0
+831,속도 증가,속도가 증가합니다.,648208,-1,0,113,2
+833,수리 중,"2라운드 동안 완전히 수리에 집중하여 수리 외에는 아무런 행동도 하지 않고, 그 이후 [StandardHealing(3,1,278)]의 생명력을 회복합니다.",132281,9,0,548,2
+835,에그노그,시전자의 모든 강화 효과와 약화 효과를 제거합니다.,132803,0,2,0,18
+836,맹독충 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자가 즉시 죽으며 현재 대상에게 자신의 총 생명력의 [FormatDamage(points(1,1))]%에 해당하는 피해를 입힙니다. 이 공격은 피하거나 막을 수 없습니다.",656595,5,0,0,0
+837,원심력 고리,"속도가 [abs(abilityStateMod( 25, 837 ))]%만큼 증가합니다.",648208,-1,0,26,2
+838,원심력 고리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도가 [abs(abilityStateMod( 25, 837 ))]%만큼 증가합니다.",237391,5,0,0,0
+839,뛰어오르기,"높이 뛰어오릅니다.
+공격당하지 않습니다.",236171,-1,0,0,2
+841,아드레날린 분비,"치명타 및 극대화율이 [abs(abilityStateMod(40, 841))]%만큼 증가합니다.",134339,-1,0,320,2
+848,얼음 회오리,"이 애완동물은 교체할 수 없습니다.
+
+|cFF0070DD얼어붙었습니다|r.",135848,-1,0,95,0
+849,크고 날카로운 이빨!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF970000출혈|r하게 하여 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",237395,7,0,0,0
+850,흉포한 열기,"속도가 [abs(abilityStateMod(25,850))]%만큼 증가합니다.",648208,-1,0,113,2
+851,흉포한 열기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도가 [abs(abilityStateMod(25,850))]%만큼 증가합니다.",458971,4,0,0,0
+852,비행,"높게 날아 오릅니다.
+공격당하지 않습니다.",132128,-1,0,639,2
+853,속도 우선 순위 - 서버 전용,,0,8,0,0,8
+860,화염방사기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+싸움터를 활활 타오르는 불바다로 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+불은 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 502)]의 [School()] 피해를 입힙니다.",236216,6,0,0,0
+869,다크문 저주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 또한 [duration(1,2)]라운드 동안 대상의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 153 ))]%만큼 감소시키고, [duration(1,3)]라운드 동안 우리 팀 애완동물의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가시킵니다.",531974,5,4,0,0
+870,저승 까마귀,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+저승 까마귀 떼가 급습해 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+저승 까마귀에게 공격당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",645217,2,0,0,0
+900,지옥 제물,"매 라운드마다 [StandardDamage(1,1)]의 원소 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",135802,6,0,678,0
+901,지옥 제물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 추가로 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,900)]의 [School()] 피해를 입힙니다.",135802,6,0,0,0
+903,튕겨내기,"회피율이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.",458412,-1,0,468,2
+904,귀여운 얼굴,"공격을 피할 확률이 [abs(abilityStateMod( 73, 904 ))]%만큼 증가합니다.",132311,-1,0,468,2
+905,귀여운 얼굴,"공격을 피할 확률이 [abs(abilityStateMod( 73, 904 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132311,7,0,0,2
+906,번개 보호막,"직접 피해를 입을 때마다 [StandardDamage(1,1,907)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136051,6,4,0,0
+907,번개 보호막,"직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",136051,6,0,681,0
+908,찌릿,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 전기를 방출해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136099,6,1,0,0
+909,마비의 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 마비의 충격을 주어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+대상은 [duration(1,2)]라운드 동안 교체할 수 없습니다.",237587,6,5,0,0
+910,모래 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+감속의 모래 화살을 대상에게 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",796637,6,0,0,0
+911,모래수렁,"속도가 [abs(abilityStateMod(25,911))]%만큼 감소합니다.",653221,6,0,686,0
+912,모래수렁,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적 애완동물 밑에 모래수렁을 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+모래는 상대 팀의 현재 애완동물의 속도를 [duration(1,2)]라운드 동안 [abs(abilityStateMod(25,911))]%만큼 감소시킵니다.",796634,6,4,0,0
+913,유령의 가시,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [accuracy(1,2)]% 확률로 대상을 |cff9933FF눈멀게|r 하여 적중률을 [duration(1,2)] 동안 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소시킵니다.",132157,5,3,0,0
+914,영혼의 가시,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,915))*AttackBonus()]까지 감소시키고, 직접 피해를 입을 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_TAKEN,316),1,915)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",135911,5,4,0,0
+915,영혼의 가시,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,915))*AttackBonus()]까지 감소시키고, 직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",135911,5,0,0,0
+916,통제 불능,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+통제 불능 상태가 되어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+[numTurns()]라운드 동안 지속됩니다.",237290,9,3,0,0
+917,피송곳니,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+적을 붉은송곳니로 처치하면 생명력을 [StandardHealing(1,3)]만큼 회복합니다.",136231,7,3,0,0
+918,검은 발톱,"대상에게 매 공격마다 [abs(abilityStateMod(71,918))*AttackBonus()]의 추가 피해를 입힙니다.",135664,-1,0,530,3
+919,검은 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,918))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",135664,7,0,0,2
+920,원시의 포효,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 놀라게 해서 상대 팀 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",236192,7,3,0,0
+921,무리 사냥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+랩터가 무리 지어 공격해 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를 입힙니다.
+
+무리 사냥에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",838684,7,4,0,0
+922,치유의 흐름,"치유의 흐름을 일으켜 자신의 생명력을 [StandardHealing(1,1)]만큼 회복시키고, 우리 팀의 다른 물 애완동물의 생명력을 그 절반만큼 회복시킵니다.",538570,8,3,0,2
+923,흐름,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135782,9,3,0,0
+924,불굴,"기절, 수면, 변이 효과에 면역이 됩니다.",135878,-1,0,696,2
+925,Resilience Test,TEST: Resilience,135878,3,0,0,2
+926,잠듦,"이 애완동물에게는 명령을 내릴 수 없습니다.
+피해를 받으면 깨어납니다.",132156,-1,0,78,3
+927,기절,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,103,3
+928,속도 감소,"속도가 [abs(abilityStateMod(25,154))]%만큼 감소합니다.",653221,-1,0,316,3
+929,스르르,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",135461,7,3,0,0
+930,거대한 송곳니,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 적중할 때마다 피해량이 [FormatDamage (pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage (pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",133723,7,1,0,0
+931,개굴개굴,"치명타 및 극대화율이 [abs(abilityStateMod(40,520))]%만큼 감소합니다.",804966,-1,0,334,0
+932,개굴개굴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 적 애완동물의 치명타 및 극대화율을 [abs(abilityStateMod(40,931))]%만큼 감소시킵니다.",804966,8,4,0,0
+933,거품,두 번의 공격을 막습니다.,512902,0,0,0,2
+934,거품,거품으로 몸을 감싸 다음 두 번의 공격을 막습니다.,512902,0,8,0,2
+935,까악,"치명타 및 극대화율이 [abs(abilityStateMod(40,935))]%만큼 증가합니다.",800879,-1,0,320,0
+936,까악,"[duration(1,1)]라운드 동안 치명타 및 극대화율이 [abs(abilityStateMod(40,935))]%만큼 증가합니다.",800879,2,0,0,2
+937,령 착취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 생명력을 회복합니다.",838812,9,3,0,0
+938,방해의 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+우리 팀이 먼저 공격할 경우 상대의 공격을 1라운드 동안 중단시킵니다.",136050,9,4,0,0
+939,원령의 손길,피해를 입으면 공격자의 생명력이 회복됩니다.,838813,9,0,0,3
+940,원령의 손길,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 [duration(1,2)]라운드 동안 오염시킵니다.
+
+오염된 대상을 공격하는 애완동물은 자신의 생명력을 회복합니다.",838813,9,4,0,0
+941,고섬유질,자신의 팀에서 모든 강화 효과와 약화 효과를 제거합니다.,645343,0,4,0,2
+942,프라이팬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [accuracy(1,3)]%확률로 대상을 [duration(1,3)]라운드 동안 기절시킵니다.",794852,9,1,0,0
+943,썰기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF970000출혈|r하게 하여 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",132417,9,0,0,0
+944,데우기,"직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",629057,6,0,0,0
+945,데우기,"직접 피해를 입을 때마다 [StandardDamage(1,1,944)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",629057,6,4,0,0
+954,눈이 멂,"적중률이 [abs(abilityStateMod( 41 , 954 ))]%만큼 감소합니다.
+
+|cff9933FF눈이 먼|r 상태입니다.",136175,-1,0,384,3
+955,적중률 감소,,612968,5,0,0,0
+956,정예,받는 모든 피해가 50%만큼 감소합니다.,236473,-1,0,0,6
+957,진화,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+진화하며 [StandardDamage (1,1)]의 [School()] 피해를 입히고, 사용자는 돌연변이를 일으킵니다. [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",801131,5,5,0,0
+958,세뿔 돌진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",791593,7,1,0,0
+959,세뿔 방패,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,959))*AttackBonus()]까지 감소시킵니다.",252184,-1,0,660,2
+960,세뿔 방패,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,959))*AttackBonus()]만큼 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",252184,7,5,0,2
+961,무쇠껍질,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]까지 감소시킵니다.",572025,-1,0,660,2
+962,무쇠껍질,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 모든 공격으로부터 대상이 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]만큼 감소시킵니다.",572025,6,0,0,0
+963,가을 바람,적중률이 25%만큼 감소합니다.,874578,-1,0,384,3
+964,가을 바람,"|cffffffff적중률|r [StandardAccuracy(1,4)]
+
+시원한 가을 바람을 일으켜 우리 팀 전체의 생명력을 [StandardHealing(1,1)]만큼 회복시키고 [duration(1,4)]라운드 동안 상대 팀 전체의 적중률을 [abs(abilityStateMod(41,963))]%만큼 감소시킵니다.",874578,6,4,0,2
+967,GM 모든 적 처치,내부용!,0,0,0,0,0
+968,언데드 표식,이 효과에 걸린 애완동물은 언데드 유형인 것처럼 피해를 입습니다.,133728,-1,0,0,2
+969,크래프티의 사악한 손길,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 두들겨 패서 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",850690,0,0,0,0
+970,야생의 분노,"공격력이 [abilityStateMod(23, 970)]%만큼, 받는 피해가 [abilityStateMod(24, 970)]%만큼 증가합니다.",132091,7,0,0,18
+971,야생의 분노,"공격력이 [abilityStateMod(23, 970)]%만큼, 받는 피해가 [abilityStateMod(24, 970)]%만큼 증가합니다.",132091,7,0,0,18
+974,영혼 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+유령 같은 발톱으로 적을 할퀴어 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+달빛 아래서는 항상 적중합니다.",132276,7,0,0,0
+975,논리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+결코 틀리지 않는 논리로 적을 공격하여 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",136055,0,1,0,0
+976,불확실성,"치명타 및 극대화율이 [abs(abilityStateMod(40, 976))]%만큼 증가합니다.
+공격의 정확도가 [abs(abilityStateMod(41, 976))]%만큼 감소합니다.",236150,-1,0,320,2
+977,불확실성,"[duration(1,1)]라운드 동안 치명타 및 극대화율이 [abs(abilityStateMod(40, 976))]%만큼 증가하지만 공격의 정확도가 [abs(abilityStateMod(41, 976))]%만큼 감소합니다.",236150,5,3,0,2
+978,달의 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비전의 힘으로 적을 물어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132266,5,0,0,0
+979,달의 눈물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 우리 팀의 생명력을 [SimpleDamage(1,4)]만큼 회복시킵니다. [duration(1,7)]라운드 동안 날씨를 달빛이 비치게 바꿉니다.
+
+달빛 아래서는 모든 애완동물의 받는 치유 효과가 25%만큼 증가하고 마법 유형 기술로 10%의 추가 피해를 입힙니다.",236168,5,4,0,0
+980,달의 춤,"[duration(1,1)]라운드 동안 우리 팀의 속도가 [abs(abilityStateMod(25,981))]%만큼 증가합니다.",132132,5,0,0,2
+981,달의 춤,"팀 전체의 속도가 [abs(abilityStateMod(25,981))]%만큼 증가합니다.",648208,-1,0,113,0
+983,찰싹때려.exe,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+""찰싹때려"" 작동규약을 실행하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 먼저 공격하면 추가로 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",132945,9,0,0,0
+985,금화를 내리소서,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대수롭지 않게 적에게 금화를 던져 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를 입힙니다.
+
+금화는 적의 현재 애완동물 위로 계속 떨어지며 [duration(1,4)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 166)]의 [School()] 피해를 입힙니다.",133784,9,1,0,0
+986,금화를 내리소서,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133784,9,0,0,0
+989,블링트론 선물 상자,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+블링트론 선물 상자를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술이 빗나가면 시전자는 [StandardDamage(1,4)]의 생명력을 회복합니다.",134140,5,3,0,0
+996,자장가,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+자장가를 불러 [duration(1,1)]라운드 동안 대상을 잠에 빠뜨립니다.",136090,4,5,0,2
+997,복수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+복수의 일격으로 시전자가 마지막으로 받은 피해와 같은 [petTypeName(abilityPetType())] 피해를 입힙니다.",132160,7,2,0,0
+998,에테리얼,"에테리얼 상태가 되어 이 기술을 사용한 라운드 동안 적의 공격을 모두 피합니다.
+
+이 기술은 항상 먼저 사용됩니다.",613397,5,3,0,2
+999,에테리얼,"회피율이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.",613397,-1,0,468,2
+1000,천신의 부름,"에테리얼 상태가 되어 [duration(1,1)]라운드 동안 공격당하지 않습니다. 그동안 다른 천신이 상대방을 공격해, 매 라운드마다 [StandardDamage(1,1,827)]의 [School(827)] 피해를 입힙니다.",656166,5,8,0,0
+1001,천신의 부름,"적 애완동물에게 매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",656166,5,0,458,0
+1002,팽창,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자의 환영을 복제하고 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+복제된 환영에게 공격당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",370211,9,0,0,0
+1003,황금의 꿈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진하여 [StandardDamage(1,1)]의 [School()] 피해를 입히고 자신도 [SimpleDamage(1,3)]의 [School()] 피해를 입습니다.",237002,6,1,0,0
+1004,황금빛 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 강타해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",463460,0,0,0,0
+1005,황금껍질,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 모든 공격으로부터 대상이 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]만큼 감소시킵니다.",134571,6,0,0,0
+1006,황금껍질,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,309))*AttackBonus()]까지 감소시킵니다.",134571,-1,0,660,2
+1007,메뚜기 떼,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+1라운드 동안 메뚜기 떼를 소환하여 적을 공격하게 합니다. [FormatDamage(SimpleDamage(2,1)*3)]의 [School()] 피해를 입힙니다.",136045,4,2,0,0
+1008,맥주 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 독한 맥주 화살을 날려 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",623962,8,0,0,0
+1009,취함,적중률이 25%만큼 감소합니다.,623775,-1,0,733,3
+1010,취함,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 상대 팀 전체의 적중률을 [abs(abilityStateMod(41,526))]%만큼 감소시킵니다.",623775,6,0,0,2
+1011,메뚜기 떼,메뚜기 떼가 모여들었습니다.,136045,-1,0,0,2
+1012,거인의 피,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+원시의 분노가 담긴 함성을 내질러 [StandardDamage (1,1)]의 생명력을 회복합니다. [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가합니다.",134837,0,3,0,2
+1013,겨울의 부름,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,7)]라운드 동안 눈보라를 일으킵니다. 이미 |cFF0070DD얼어붙은|r 대상에게는 추가 피해를 입힙니다.
+
+눈보라가 내리치는 중에는 모든 애완동물이 |cFF0070DD얼어붙은|r 상태로 간주됩니다.",538769,6,3,0,0
+1014,눈이 멂,"적중률이 [abs(abilityStateMod( 41 , 1014 ))]%만큼 감소합니다.
+
+|cff9933FF눈이 먼|r 상태입니다.",136175,-1,0,384,3
+1015,실명 가루,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+실명 가루를 대상의 눈에 뿌려 [duration(1,1)]라운드 동안 대상의 적중률을 [abs(abilityStateMod(41 ,1014))]%만큼 감소시킵니다.",133592,0,3,0,0
+1016,먹기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",236189,7,4,0,0
+1019,니우짜오의 돌격,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 힘을 모읍니다.
+
+다음 라운드에 막을 수 없는 힘으로 적에게 돌격하여 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",615340,7,4,0,0
+1020,렌즈 반사광,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+찬란한 섬광이 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cff9933FF눈을 멀게|r 합니다. [duration(1,2)]라운드 동안 대상의 적중률이 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소합니다.",134442,5,3,0,0
+1021,위상차 광선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+위상차 광선을 적에게 발사하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135619,5,0,0,0
+1022,반전,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+북극곰 여러 마리가 적을 기습하여 [FormatDamage(SimpleDamage(1,1)*3)]의 [School()] 피해를 입힙니다.",133741,7,0,0,0
+1023,재시작,"재시작 상태가 되어 2라운드 동안 아무런 행동도 하지 않고, 그 이후 [StandardHealing(3,1,1024)]의 생명력을 회복합니다.",133860,9,0,805,2
+1024,재시작,"운영 체제를 재시작하여 2라운드 동안 아무런 행동도 하지 않고, 그 이후 [StandardHealing(3,1)]의 생명력을 회복합니다.",133860,9,5,0,2
+1025,아마겟돈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대재앙을 일으켜 상대 팀의 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 시전자는 즉시 목숨을 잃습니다.
+
+시전자가 아마겟돈을 사용하면 안전장치 기술을 가동할 수 없습니다.",135821,9,0,0,0
+1026,호박석 감옥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 호박석에 가두고 기절시킵니다.",133248,0,5,0,2
+1027,화염 깃털,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 1~2개의 화염 깃털을 날려 적중할 때마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 깃털을 날리는 횟수가 증가합니다.",132919,6,0,0,0
+1028,지배,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 1028 ))]%만큼 증가합니다.",648206,-1,0,320,2
+1029,지배,"[duration(1,1)]라운드 안에 하는 다음 공격으로 입히는 피해가 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 1028 ))]%만큼 증가합니다.",627605,7,2,0,2
+1030,기절,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,743,3
+1031,비취불꽃 번개,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비취불꽃 번개를 불러내 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",606542,5,2,0,0
+1032,천신의 축복,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대지를 축복하여 다음에 교체되어 들어오는 우리 팀 애완동물이 [duration(1,2,1033)]라운드 동안 받는 피해가 [abs(abilityStateMod(24 ,1034))]%만큼 감소하게 합니다.",651728,5,0,0,2
+1033,신성한 대지,이 팀에서 다음에 교체되어 들어오는 애완동물은 천신의 축복을 받아 3라운드 동안 받는 피해가 50%만큼 감소합니다.,651728,5,0,751,0
+1034,천신의 축복,"받는 피해가 [abs(abilityStateMod( 24 , 1034 ))]%만큼 감소합니다.",135925,-1,0,27,2
+1035,영혼불 광선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135781,5,3,0,0
+1036,머리장식 작렬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 높은 애완동물로 교체되게 합니다.",136010,5,5,0,0
+1039,님부스,"적중률이 [abs(abilityStateMod(41,1039))]%만큼 증가합니다.",135894,-1,0,802,2
+1040,님부스,"9라운드 동안 우리 팀의 적중률이 [abs(abilityStateMod(41,1039))]%만큼 증가합니다.",135894,5,0,0,2
+1041,화염 분출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 화염으로 태워 [StandardDamage(1,1)]의 원소 피해를 입히고 50% 확률로 주위를 불태웁니다.
+
+주위에 불이 붙으면, 적은 
+|cFFFF2020불타는|r 상태가 되어, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,1042)]의 [School()] 피해를 입습니다.",451169,6,4,0,0
+1042,화염 분출,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",451169,6,0,426,0
+1043,피 빼기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 애완동물의 최대 생명력의 [points(1,1)]%에 해당하는 생명력을 빨아들입니다.
+
+빨아들인 생명력의 [points(1,3)]%만큼 생명력을 회복합니다.",136124,3,3,0,2
+1044,나무 껍질,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1044))*AttackBonus()]까지 감소시킵니다.",136062,-1,0,660,2
+1045,나무 껍질,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1044))*AttackBonus()]까지 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136062,6,0,0,2
+1046,뛰노는 중,"공격을 피할 확률이 [abs(abilityStateMod( 73, 1046))]%만큼 증가합니다.",237573,-1,0,468,2
+1047,뛰놀기,"넓게 춤을 추며 돌아다녀 공격을 피할 확률이 [abs(abilityStateMod(73, 1046))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",237573,0,4,0,2
+1048,눈 머는 독,"적중률이 [abs(abilityStateMod(41 ,1014 ))]%만큼 감소합니다.
+
+|cff9933FF눈이 먼|r 상태로 |cFF1EFF00중독되었습니다|r.",895885,-1,0,384,3
+1049,눈 머는 독,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상의 눈에 독을 뱉어 [duration(1,1)]라운드 동안 적중률을 [abs(abilityStateMod(41,1048))]%만큼 감소시킵니다.
+
+이 효과에 걸린 대상은 |cff9933FF눈이 먼|r 동시에 |cFF1EFF00중독된|r 상태가 됩니다.",895885,7,4,0,0
+1050,상처 꿰뚫기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 깊게 물어뜯어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독된|r 대상에게는 두 배의 피해를 입힙니다.",132105,7,3,0,0
+1051,산성 비,"구름에 산성 물질을 주입하여 모든 적 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 산성 물질은 신속하게 흩어지고 [duration(1,4)]라운드 동안 정화의 비가 내립니다.
+
+정화의 비가 내리는 동안에는 적의 지속 피해 효과의 지속시간이 1라운드 줄어들고, 물 기술의 공격력이 25%만큼 증가합니다.",136007,8,3,0,0
+1052,회오리 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",607849,0,4,0,0
+1053,심술보!,"치명타 및 극대화율이 [abs(abilityStateMod( 40, 1053 ))]%만큼 증가합니다.",458971,-1,0,320,2
+1054,심술보 터뜨리기!,"원초적인 비명을 지르며 [duration(1,1)]라운드 동안 사용자의 치명타 및 극대화율을 [abs(abilityStateMod(40,1053))]%만큼 증가시킵니다.",458971,7,3,0,2
+1055,슬픔의 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 슬픔을 내뿜어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상이 받는 치유 효과를 [abs(abilityStateMod(66,793))]%만큼 감소시킵니다.",651086,6,3,0,0
+1056,분통,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+끓어오르는 분노를 대상에게 내뿜어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",651096,6,0,0,0
+1057,악의 탄생,"물방울을 생성하여 상대 팀의 현재 애완동물을 공격합니다. 매 라운드마다 [FormatDamage(SimpleDamage(1,1,711)*3)]의 [School()] 피해를 입힙니다.
+
+각 하수인은 [duration(1,1)]라운드 동안 남아 있습니다.",651094,6,0,0,0
+1058,물방울,"매 라운드마다 상대 팀의 현재 애완동물에게 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입힙니다.",651098,6,0,770,0
+1059,치유 감소,"받는 치유 효과가 [abs(abilityStateMod(66,793))]%만큼 감소합니다.",132355,-1,0,772,3
+1060,분출하는 증기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 증기를 분출하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",651082,8,0,0,0
+1061,폭우의 춤,"적중률이 [abs(abilityStateMod(41,1061))]%만큼 증가합니다.
+치명타 및 극대화율이 [abs(abilityStateMod(40,1061))]%만큼 증가합니다.",136046,-1,0,320,2
+1062,폭우의 춤,"현재 애완동물의 생명력이 [StandardHealing(1,1)]만큼 회복되고, [duration(1,2)]라운드 동안 우리 팀의 적중률과 치명타 및 극대화율이 [abs(abilityStateMod(41,1061))]%만큼 증가합니다.",136046,8,4,0,2
+1063,페로몬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+주위에 페로몬을 뿌려 대기 중인 적 애완동물 모두에게 1라운드마다 [StandardDamage(1,1,1064)]의 [School()] 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136044,7,5,0,0
+1064,페로몬,"상대 팀의 대기 중인 애완동물 모두에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136044,7,0,803,0
+1065,두뇌 소화,"시전자의 뱃속에 있는 맛있는 두뇌를 소화하기 위해 잠시 행동을 멈춥니다. 생명력이 [StandardDamage(1,1)]만큼 회복됩니다.",136055,7,3,0,2
+1066,영혼불 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 신비한 불화살을 쏘아 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135780,5,0,0,0
+1067,불길한 예감의 저주,"대상에게 매 공격마다 [abs(abilityStateMod(71,313))*AttackBonus()]의 추가 피해를 입힙니다.",841379,-1,0,530,3
+1068,불길한 예감의 저주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,1067))*AttackBonus()]의 추가 피해를 입히고 대상의 속도를 [abs(abilityStateMod(25,1067))]%만큼 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",841379,5,0,0,2
+1069,고주망태 맥주,이 애완동물은 교체할 수 없습니다.,645193,-1,0,781,3
+1070,고주망태 맥주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 끔찍하게 독한 맥주를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",645193,7,3,0,0
+1071,폭발성 맥주,"맥주는 3라운드 뒤에 격렬하게 폭발하여 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED),1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(2,1)]",132621,6,0,0,1
+1072,폭발성 맥주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 폭발성 맥주로 적십니다.
+
+맥주는 3라운드 뒤에 폭발하여 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED , 1071),1,1071)]의 [School()] 피해를 입힙니다.
+
+적 애완동물은 동시에 하나의 폭발성 맥주에만 영향을 받습니다.",132621,6,0,0,0
+1073,가시 껍질,"직접 피해를 입을 때마다 상대에게 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_TAKEN,1074),1,1074)]의 [School()] 피해를 입힙니다. 이미 이 효과가 활성화된 상태에서 다시 사용하면 [duration(1,1)] 동안 효과가 세 배로 증가합니다.
+
+[duration(1,2)]라운드 동안 지속됩니다.",134964,8,2,0,0
+1074,가시 껍질,"직접 피해를 입을 때마다 상대에게 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 입힙니다.",134964,8,0,0,0
+1075,가시 껍질,"직접 피해를 입을 때마다 상대에게 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 입힙니다.",134964,8,0,0,0
+1076,그린치의 선물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133202,9,5,0,0
+1077,회전 발차기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+우리 팀이 먼저 공격할 경우 상대의 공격을 1라운드 동안 중단시킵니다.",651727,0,4,0,0
+1078,붕대,"생명력을 [StandardDamage(1,1)]만큼 회복하고 마지막으로 받은 피해의 절반을 복구합니다.",133687,0,3,0,2
+1079,곤봉,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133485,0,0,0,0
+1080,위장 폭탄 선물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 주위에 위장 폭탄이 담긴 선물을 원형으로 늘어놓습니다. 교체되어 들어오는 상대 팀 애완동물에게 [StandardDamage(1,1,1081)]의 [School()] 피해를 입힙니다.",134143,9,5,0,0
+1081,위장 폭탄 선물,"교체되어 들어오는 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 줍니다.",134143,9,0,790,0
+1082,비취 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비취 화염을 적에게 내뿜어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",840200,1,0,0,0
+1083,소실,공격을 피할 확률이 100%만큼 증가합니다.,136158,-1,0,792,2
+1084,소실,시전자의 몸이 희미해지며 상대의 공격을 피합니다. 시전자는 곧바로 무작위 애완동물로 교체됩니다.,136158,5,8,0,2
+1085,마법검,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+마법검을 소환하여 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 이 능력은 50%의 기본 치명타 및 극대화율이 적용됩니다.",327843,5,0,0,0
+1086,맹독 피부,"적의 공격으로 피해를 입을 때마다 공격자 최대 생명력의 [points(1,1)]%에 해당하는 피해를 공격자에게 입힙니다.",136242,8,0,0,2
+1087,맹독 피부,"[duration(1,1)]라운드 동안 시전자의 피부에서 맹독을 분비하여, 적이 당신을 공격할 때마다 공격자 최대 생명력의 5%에 해당하는 피해를 입힙니다.",136242,8,0,0,0
+1088,나이른!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+믿을 수 없는 힘으로 시전자의 이름을 외쳐 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가하여, 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",797882,4,0,0,0
+1089,우두머리,받는 모든 피해가 50%만큼 감소합니다. 우두머리 애완동물은 한 번의 공격에서 최대 생명력의 35%를 초과하는 피해를 입지 않습니다.,236472,-1,0,0,6
+1090,우두머리: 피해 감소,우두머리 애완동물은 한 번의 공격에서 최대 생명력의 35%를 초과하는 피해를 입지 않습니다.,134316,-1,0,0,6
+1091,뼈 포화,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 뼈를 쏟아부어 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를 입힙니다.
+
+뼈는 적의 현재 애완동물 위로 계속 떨어지며 [duration(1,4)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 166)]의 [School()] 피해를 입힙니다.",458717,3,1,0,0
+1092,뼈 포화,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",458717,3,0,0,0
+1093,유령 파티,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+유령 잔치를 개최하여 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+유령 잔치에 휘말린 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",307568,3,0,0,0
+1094,죽음의 무도 마라카스,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+룸바 악기로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",651165,0,0,0,0
+1095,뿔 들이받기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 들이받아 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237400,7,0,0,0
+1099,응징,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+도리깨로 적을 채찍질하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132314,0,0,0,0
+1100,축복받은 망치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+무시무시하게 회전하는 망치를 던져 [FormatDamage(SimpleDamage(1,1)*3)]의 [School()] 피해를 입힙니다.",133039,5,0,0,0
+1101,방패폭풍,"마법의 방패가 우리 팀 애완동물을 각각 감싸고 다음 번 공격을 막습니다. [duration(1,1)]라운드 동안 지속됩니다.",135874,0,6,0,2
+1103,정의로운 독려,"아군 애완동물을 독려하여 전투에 뛰어들게 합니다. 이 기술은 항상 먼저 사용됩니다.
+
+교체해 들어온 애완동물은 [duration(1,2)]라운드 동안 속도와 공격력이 2배 증가합니다. 모든 아군 애완동물이 이미 죽었다면, 자신을 독려합니다.
+
+이 능력은 재사용 대기시간이 적용된 상태로 시작됩니다.",135971,5,8,0,34
+1104,반사의 보호막,직접 공격으로 받는 피해의 50%에 해당하는 피해를 공격자에게 돌려줍니다.,132362,-1,0,27,2
+1105,반사의 보호막,"보호막에 둘러싸여 [duration(1, 2)]라운드 동안 적에게 받은 피해의 50%에 해당하는 피해를 공격자에게 되돌려줍니다.",132362,0,3,0,2
+1106,떨어지는 멀록,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+적의 머리 위로 순간이동한 후 그대로 떨어져 적을 짓밟으며 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 떨어지는 충격으로 사용자는 [duration(1,2)]라운드 동안 기절합니다.",252269,0,4,0,0
+1107,붕괴,적의 모든 강화 효과와 약화 효과를 제거합니다.,132853,5,5,0,18
+1108,울부짖기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상의 다음 공격을 [abs(abilityStateMod( 23, 1120 ))]%만큼 약화시킵니다. [duration(1, 2)]라운드 동안 지속됩니다.",461121,7,0,0,0
+1109,좋은 물건,"우리 팀의 다른 애완동물의 생명력을 각각 [StandardHealing(1,2)]만큼 회복시킵니다.",132623,7,4,0,2
+1110,눈사태,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+눈사태를 일으켜 [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입힙니다.",612394,6,5,0,0
+1111,튼튼하고 사랑스러움,"받는 피해가 [abs(abilityStateMod(24,391))]%만큼 감소합니다.",134352,-1,0,27,2
+1112,튼튼하고 사랑스러움,"사용하면 놀랄 만한 탄성이 생기고, [duration(1,2)]라운드 동안 받는 피해가 50%만큼 감소합니다.",134352,7,4,0,2
+1116,무리 소환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+공격을 돕는 늑대 무리를 소환하여 적에게 [FormatDamage(SimpleDamage(1,2)*3)]의 [School()] 피해를 입히고, [duration(1, 4)]라운드 동안 적이 받는 피해를 [abs(abilityStateMod( 24, 542 ))]%만큼 증가시킵니다.",132266,7,3,0,0
+1119,정의로운 독려,속도 및 공격력이 100%만큼 증가합니다.,135971,-1,0,813,2
+1120,공격력 감소,"다음 공격의 공격력이 [abs(abilityStateMod( 23, 1120 ))]%만큼 감소합니다.",653219,-1,0,334,3
+1121,앞서는 탐욕,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 3 라운드 동안 탐욕에 빠지게 합니다.
+
+대상이 탐욕에 빠진 동안에는 공격력이 25%만큼 증가하지만 50%만큼 추가 피해를 받습니다.",900319,5,0,0,0
+1122,탐욕,"[abs(abilityStateMod( 23, 807 ))]%의 추가 피해를 입힙니다.
+[abs(abilityStateMod( 24, 807 ))]%의 추가 피해를 입습니다.",900319,5,0,0,3
+1123,붕괴,적의 모든 강화 효과와 약화 효과를 제거합니다.,132868,5,4,0,18
+1124,차원문,공격을 피할 확률이 100%만큼 증가합니다.,519381,-1,0,833,2
+1125,차원문,마법 차원문으로 뛰어들어 상대방의 공격을 피합니다. 곧바로 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.,519381,5,8,0,2
+1128,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 1128))]%만큼 증가합니다.",132299,-1,0,0,10
+1223,잔인한 절단,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 절단하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132215,0,0,0,0
+1231,마법 삼키기,"[StandardHealing(1,5)]의 생명력을 회복하고, 시전자의 모든 강화 효과와 약화 효과를 제거합니다.",135858,5,4,0,2
+1232,안주의 축복,"안주의 힘으로 [duration(1,1)]라운드 동안 현재 애완동물의 공격력과 적중률을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485))]%만큼 증가시킵니다.",657488,2,0,0,2
+1233,검은 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 매섭게 찢어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136076,5,0,0,0
+1238,어둠의 갈퀴발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+매서운 갈퀴발톱으로 대상을 베어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",136076,5,0,0,0
+1273,회전베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+무차별 공격을 가해 [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입힙니다.",132338,3,0,0,0
+1287,물고기 소용돌이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+분노에 몸부림치는 물고기를 소환해 [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입힙니다.",133912,8,5,0,0
+1292,공격 받기,가만히 서 있습니다.,135936,9,0,0,2
+1301,먹어치우기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",533422,7,1,0,0
+1302,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 1302))]%만큼 증가합니다.",132299,-1,0,0,10
+1303,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 1303))]%만큼 증가합니다.",132299,-1,0,0,10
+1304,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 1304))]%만큼 증가합니다.",132299,-1,0,0,10
+1305,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 1305))]%만큼 증가합니다.",132299,-1,0,0,10
+1334,봉제인형 돌진,맹렬한 기세로 적에게 돌진하는 척합니다.,132121,5,0,0,2
+1335,어흥!,"자신이 진짜 엘레크라고 생각해 보고, 그게 사실일 경우 얼마만큼의 피해를 적에게 입힐 수 있는지 상상해 봅니다.",132258,5,0,0,2
+1336,봉제인형은 털실 양의 꿈을 꾸는가?,사상 최강의 동물 봉제인형이 되어 세계를 정복하는 달콤한 꿈을 꿉니다.,237554,0,0,0,2
+1337,따뜻한 품이 그리워,봉제인형을 불러들여 꼭 안아줍니다.,237428,0,0,0,2
+1338,가증스러운 귀여움,무척 귀엽습니다.,134506,4,0,0,2
+1343,숲의 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136023,6,5,0,0
+1344,도피처,"자연의 방패가 시전자와 우리 팀의 동물 유형 애완동물을 각각 감싸고 다음 번 공격을 막습니다. [duration(1,1)]라운드 동안 지속됩니다.",133208,4,6,0,2
+1345,낮잠 시간,잠깐 낮잠을 잡니다.,135900,0,0,0,2
+1346,가증스러운 귀여움,"공격을 피할 확률이 [abs(abilityStateMod(73, 1346))]%만큼 증가합니다.",134506,-1,0,0,2
+1347,가증스러운 귀여움,"무척 귀엽습니다.
+
+공격을 피할 확률이 [abs(abilityStateMod( 73, 1346))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134506,4,3,0,2
+1348,수면,"이 애완동물에게는 명령을 내릴 수 없습니다.
+피해를 받으면 깨어납니다.",132156,-1,0,857,3
+1353,비전 베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진하여 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다. 먼저 공격하면 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",236205,5,0,0,0
+1354,화염의 강아지,"한껏 사랑스러운 모습을 뽐내며 [duration(1,1)]라운드 동안 공격당하지 않습니다. 대신 화염의 강아지가 상대를 공격해 매 라운드마다 [StandardDamage(1,1,1355)]의 [School(332)] 피해를 입힙니다.",460952,6,8,0,0
+1355,화염의 강아지,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적 애완동물에게 매 라운드마다 두 번씩 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",460952,6,0,862,0
+1356,불지옥의 인도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",1027878,6,4,0,0
+1357,우렁찬 멍멍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+놀라운 힘을 담아 멍멍 짖어, 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 공격으로는 적의 생명력을 1 미만으로 만들 수 없습니다.",1027879,7,4,0,0
+1358,공격 불가,대상으로 지정되지 않습니다.,135994,-1,0,865,2
+1359,타오르는 울음소리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상의 다음 공격을 [abs(abilityStateMod( 23, 1120 ))]%만큼 약화시킵니다. [duration(1, 2)]라운드 동안 지속됩니다.",1044792,7,0,0,0
+1360,천천히 꾸준히,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 힘을 모읍니다.
+
+다음 라운드에 막을 수 없는 힘으로 적에게 돌격하여 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",134377,4,4,0,0
+1365,종말,"뒤틀린 황천에서 운석이 떨어집니다. 운석이 충돌하면 모든 현재 애완동물이 죽습니다.
+
+이 효과는 제거할 수 없습니다. 바퀴벌레와 딱정벌레는 이 공격을 받아도 항상 살아남습니다.",535592,4,0,240,3
+1366,거대한 종말,"뒤틀린 황천에서 운석이 떨어집니다. 운석이 충돌하면 우리 팀의 모든 애완동물이 죽습니다.
+
+이 효과는 제거할 수 없습니다.",425960,4,0,240,3
+1367,거대한 종말,"운석을 3개 소환합니다. 운석은 [duration(1,1)]라운드 후에 떨어지며 상대 팀의 애완동물을 모두 죽입니다.",425960,4,20,0,2
+1368,드레나이 함정,생명력이 35% 미만인 애완동물을 사로잡습니다. 실패할 때마다 포획 확률이 45%씩 증가합니다.,986484,0,0,0,6
+1369,날카로운 독침,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 20%의 확률로 대상을 |cFF1EFF00중독|r시켜 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",136068,7,0,0,0
+1370,날카로운 갈퀴발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+무자비하게 적을 베어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",136063,2,0,0,0
+1371,은밀한 공격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cff9933FF눈이 먼|r 대상에게는 추가 피해를 입힙니다.",236169,4,0,0,0
+1372,깊게 물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 깊게 물어뜯어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+능력을 사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",970834,8,0,0,0
+1377,푸짐한 식사,"이 팀은 특이한 식습관으로 인해 매 라운드마다 [StandardHealing(1,1)]의 생명력을 회복합니다.",133952,7,0,0,2
+1378,정의로운 독려,"아군 애완동물을 독려하여 전투에 뛰어들게 합니다. 이 기술은 항상 먼저 사용됩니다.
+
+교체해 들어온 애완동물은 [duration(1,2)]라운드 동안 속도와 공격력이 2배 증가합니다. 모든 아군 애완동물이 이미 죽었다면, 자신을 독려합니다.",135971,5,8,0,2
+1379,껍질 갑옷,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1379))*AttackBonus()]까지 감소시킵니다.",134969,-1,0,660,2
+1380,껍질 갑옷,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1379))*AttackBonus()]까지 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134969,7,5,0,2
+1381,죽음의 애도,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 언데드의 힘을 소환합니다.
+
+다음 라운드에 애절한 울음을 방출해 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",237396,3,8,0,0
+1382,비정상적인 식성,"이 염소는 무엇이든지 먹어치웁니다. 공격할 때마다 [StandardHealing(2, 1)]의 생명력을 회복합니다.",461131,3,0,0,2
+1387,유유상종,"이 새는 모두를 위해 바람을 일으켜 치명타 및 극대화율을 [abs(abilityStateMod(40,1387))]%만큼 증가시킵니다.",642580,2,0,320,2
+1388,유유상종,"이 새는 모두를 위해 바람을 일으켜 치명타 및 극대화율을 [abs(abilityStateMod(40,1388))]%만큼 증가시킵니다.",642580,2,0,320,2
+1389,로봇위장,주기적으로 이 팀의 애완동물을 변형시켜 동물 유형인 것처럼 피해를 입게 합니다.,254104,9,0,0,2
+1390,강철 가닥,"누더기는 [abs(abilityStateMod(191,1390))] 미만의 피해를 무시합니다.",348562,3,0,0,2
+1391,격노,"공격력을 [abilityStateMod(23, 1391)]%만큼 증가시키고 받는 피해를 [abilityStateMod(24, 1391)]%만큼 증가시킵니다.",132126,7,0,0,18
+1392,격노,"공격력을 [abilityStateMod(23, 1391)]%만큼 증가시키고 받는 피해를 [abilityStateMod(24, 1391)]%만큼 증가시킵니다.",132126,7,0,0,18
+1397,잊을 수 없는 노래,"잊을 수 없는 노래를 불러 모든 아군의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",135974,3,4,0,2
+1398,깃털 분노,"거칠게 공격해 [SimpleDamage(1,2)*0.7]에서 [SimpleDamage(1,2)*1.3]의 [School()] 피해를 입히고 [duration(1,4)]라운드 동안 분노 상태가 됩니다.
+
+분노 상태가 되어 있는 동안 공격력이 [abs(abilityStateMod(23, 1399))]%만큼 증가하고 [School()] 유형 애완동물인 것처럼 피해를 입습니다.",642580,2,3,0,0
+1399,깃털 분노,"공격력이 [abs(abilityStateMod(23, 1399))]%만큼 증가합니다.",642580,2,0,0,2
+1400,하복부 파괴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",132818,7,4,0,0
+1401,소고기가 어디갔지?,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134026,7,4,0,2
+1402,모유,"우리 팀의 다른 애완동물의 생명력을 각각 [StandardHealing(1,2)]만큼 회복시킵니다.",132817,7,4,0,2
+1407,고도 화상,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 대상에게는 두 배의 피해를 입힙니다.",135597,6,0,0,0
+1408,재연마,"잠, 재조립, 재연마가 첫 번째 라운드에 [StandardHealing(1,1,1409)]의 생명력을 회복하고, 두 번째 라운드에 [StandardHealing(2,1,1409)]의 생명력을 회복하며 세 번째 라운드에는 [StandardHealing(3,1,1409)]의 생명력을 회복합니다.
+
+재연마 중에는 애완동물을 교체할 수 없습니다.",971290,6,5,0,2
+1409,재연마,"재연마 중입니다.
+매 라운드마다 생명력이 회복됩니다.",971290,-1,0,45,2
+1410,나루의 선물,"생명력을 [StandardDamage(1,1)]만큼 회복합니다.",135923,0,4,0,2
+1411,무덤 파괴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.
+
+상대 팀과 우리 팀의 모든 생성물을 파괴합니다.",236271,3,5,0,0
+1412,엘레크가 날아오르면,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+달빛 아래서는 먼저 공격합니다.",1029585,5,0,0,0
+1417,정령의 표식,이 효과에 걸린 애완동물은 정령 유형인 것처럼 피해를 입습니다.,135824,-1,0,0,2
+1418,썩음,주기적으로 이 애완동물을 변화시켜 언데드 유형인 것처럼 피해를 입게 합니다.,136134,3,0,0,2
+1419,동물의 표식,이 효과에 걸린 애완동물은 동물 유형인 것처럼 피해를 입습니다.,647701,-1,0,0,2
+1420,비행의 표식,이 효과에 걸린 애완동물은 [School()] 유형인 것처럼 피해를 입습니다.,1029584,2,0,0,2
+1438,강력한 돌격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",970854,0,4,0,0
+1443,무리 소환,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+공격을 돕는 늑대 무리를 소환하여 적에게 [FormatDamage(SimpleDamage(1,2)*3)]의 [School()] 피해를 입히고, [duration(1, 4)]라운드 동안 적이 받는 피해를 [abs(abilityStateMod( 24, 542 ))]%만큼 증가시킵니다.",132266,7,3,0,0
+1464,가고일의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+바위 발톱으로 공격해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,3,0,0,0
+1465,가고일의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+부정한 기운으로 공격해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136197,3,0,0,0
+1466,돌 변신,"시전자가 돌이 되어 3라운드 동안 각 라운드마다 [StandardDamage(1,1)]의 생명력을 회복합니다.",136089,3,6,0,0
+1483,해골 던지기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+해골을 적에게 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",133729,3,0,0,0
+1516,지옥 타락,"공격력 50%만큼 증가
+받는 피해 50%만큼 감소",841219,-1,0,889,2
+1517,지옥 타락,"|cffffffff적중률|r [StandardAccuracy(1,4)]
+
+지옥 마력의 파동을 불러내 모든 적 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 또한 대기 중인 아군 애완동물을 강화하여 10라운드 동안 공격력을 50%만큼 증가시키고, 받는 피해를 50%만큼 감소시킵니다.",841219,6,3,0,2
+1518,발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 발톱으로 할퀴어 [StandardDamage(1, 1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",134296,7,0,0,0
+1531,사이오닉 충격파,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135782,5,0,0,0
+1532,사이오닉 폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 나누어 입히고 날씨를 [duration(1,2)]라운드 동안 비전 바람이 불게 바꿉니다. 비전 폭풍이 이미 불고 있다면 추가 피해를 입힙니다.
+
+비전 바람이 부는 동안 모든 애완동물은 기절하거나 발이 묶이지 않습니다.",839977,5,5,0,0
+1533,안광,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 안광을 발사하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+안광은 [numTurns()]라운드 동안 지속됩니다.",1117876,0,3,0,0
+1534,탈머키,"공격력이 [abs(abilityStateMod(23, 1534))]%만큼 증가합니다.
+치명타 및 극대화율이 [abs(abilityStateMod(23, 1534))]%만큼 증가합니다.",236293,-1,0,896,2
+1535,탈머키,"내면의 악마를 내보내 [duration(1,1)]라운드 동안 공격력과 치명타 및 극대화율을 [abilityStateMod(23, 1534)]%만큼 증가시킵니다.",236293,0,5,0,2
+1536,비전 질주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",1041232,5,5,0,0
+1545,재정비,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 생명력을 회복하고, [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가합니다.",642580,2,3,0,2
+1546,재정비,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가합니다.",648206,-1,0,320,2
+1555,가장 끔찍한 공포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적의 가장 끔찍한 공포를 집중시켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+대상이 |cff0099FF수면|r 또는 |cFF808080기절|r 상태일 때는 항상 적중합니다.",237569,5,3,0,0
+1556,냄새나는 액체 병,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,470))]%만큼, 공격력을 [abs(abilityStateMod(23,470))]%만큼 감소시킵니다.",1001622,0,2,0,0
+1557,꺼어억!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다. 적은 
+|cFF1EFF00중독|r 상태가 되어, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [petTypeName(abilityPetType())] 피해를 입습니다.",136182,6,4,0,0
+1558,꺼어억!,,0,6,0,903,0
+1559,마비시키는 독,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+우리 팀이 먼저 공격할 경우 상대의 공격을 1라운드 동안 중단시킵니다.",236363,7,3,0,0
+1560,육중한 돌진,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 힘을 모읍니다.
+
+다음 라운드에 막을 수 없는 힘으로 적에게 돌격하여 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",236188,7,4,0,0
+1561,육중한 돌진,적의 강력한 공격에 대상이 되었습니다.,236188,-1,0,55,0
+1570,촉수 타격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+촉수로 적을 때려 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",970835,8,0,0,0
+1571,압착,"속도가 [abs(abilityStateMod(25,911))]%만큼 감소합니다.",653221,8,0,906,0
+1572,압착,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 애완동물을 감싸 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+상대 팀의 현재 애완동물의 속도를 [duration(1,2)]라운드 동안 [abs(abilityStateMod(25,911))]%만큼 감소시킵니다.",1119937,8,4,0,0
+1573,난 브루트!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+자연의 격노로 포효하여 [StandardDamage (1,1)]의 생명력을 회복하고, [duration(1,2)]라운드 동안 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 485 ))]%만큼 증가시킵니다.",136097,6,3,0,2
+1578,뜨거운 국,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+뜨거운 국이 흘러 넘쳐 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",967511,8,0,0,0
+1583,경고!,사용자가 잔뜩 경계한 상태가 되어 상대 팀의 공격을 피한 후 곧바로 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.,237553,9,8,0,2
+1584,경고!,공격을 피할 확률이 100%만큼 증가합니다.,237553,-1,0,925,2
+1585,경보!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+다수의 기계타조로 적을 기습하여 [FormatDamage(SimpleDamage(1,1)*3)]의 [School()] 피해를 입힙니다.",132247,9,0,0,0
+1586,붕괴,이 애완동물은 10턴 동안 공격에 면역 상태로 머문 후 붕괴되어 죽습니다.,962046,6,0,0,0
+1587,강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",1006111,6,0,0,0
+1588,재에서 일어나리,헬리오서스는 죽으면 기절하고 알 형태로 되돌아갑니다. 4턴 후에 알이 부화하며 생명력을 모두 회복합니다.,237570,6,0,0,2
+1593,수수께끼의 알,"알 형태로 돌아갑니다. 4턴 후에 알이 부화하며 생명력을 모두 회복합니다.
+
+기절함",652130,-1,0,912,3
+1594,소각 안전 장치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",451169,6,0,0,0
+1595,소형 만능 골렘 전환,이 애완동물을 변화시켜 정령 유형인 것처럼 피해를 입게 합니다.,132093,-1,0,0,2
+1596,골렘 활성화,사용자가 무작위 애완동물로 교체됩니다.,892830,9,4,0,0
+1597,비전 파괴자,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+쇄도하는 비전의 힘으로 폭발을 일으켜 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+폭발에 휘말린 대상은 [duration(1,4)]라운드 동안 받는 피해가 50%만큼 증가합니다.",135735,5,0,0,0
+1598,불안정한 보호막,"직접 피해를 입을 때마다 [StandardDamage(1,1,1599)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136051,6,4,0,0
+1599,불안정한 보호막,"직접 피해를 입을 때마다 상대에게 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 입힙니다.",136051,6,0,681,0
+1625,테슬라 캐논,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 감전시켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",1320373,9,0,0,0
+1626,원시의 분노,"[duration(1,1)]라운드 동안 공격력을 [abilityStateMod(23, 1629)]%만큼 증가시키고 받는 피해를 [abilityStateMod(24, 1629)]%만큼 증가시킵니다.",1320372,0,0,0,18
+1627,방벽 생성기,"현재 애완동물이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1628))*AttackBonus()]만큼 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",1320371,0,4,0,2
+1628,방벽 생성기,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1628))*AttackBonus()]까지 감소시킵니다.",1320371,-1,0,918,2
+1629,원시의 분노,"공격력을 [abilityStateMod(23, 1629)]%만큼 증가시키고 받는 피해를 [abilityStateMod(24, 1629)]%만큼 증가시킵니다.",1320372,0,0,917,18
+1670,번개 전도체,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 전기 화살을 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+[duration(1,2)]라운드 동안 대상의 공격력을 [abs(abilityStateMod(23,153))]%만큼 감소시킵니다.",458976,9,0,0,0
+1671,기절함,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,103,3
+1672,부패의 분비물,"매 라운드마다 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136242,8,0,0,0
+1673,회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 1673))]%만큼 증가합니다.",1305150,-1,0,0,2
+1674,마법 비늘,"크로마돈이 [abs(abilityStateMod(200,1674))] 이상의 피해를 입히는 공격을 무시합니다.",134316,1,0,0,2
+1679,연막탄,"기술을 사용한 라운드 동안 우리 팀에 대한 적의 공격을 모두 피합니다.
+
+이 기술은 항상 먼저 사용됩니다.",458733,0,5,0,2
+1680,숨기,"회피율이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.",132331,-1,0,468,2
+1681,멍멍이 행진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+쇄도를 시작해 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+쇄도에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",236344,7,0,0,0
+1682,신성한 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 강타해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135969,0,0,0,0
+1687,불지옥의 인도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",1027878,6,2,0,0
+1717,방출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+남은 중첩을 모두 방출하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+잠시 동안 애완동물이 동물 유형으로 바뀝니다.",136111,6,5,0,0
+1718,방출,이 애완동물을 변화시켜 동물 유형인 것처럼 피해를 입게 합니다.,136111,6,0,920,0
+1719,포고의 망치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 마구 때려 약화시키고, [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",1405803,0,0,0,0
+1720,과부하,"[duration(1,1)]라운드 안에 하는 다음 공격으로 입히는 피해가 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 207 ))]%만큼 증가합니다.",136129,0,3,0,2
+1721,과부하,"공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 207 ))]%만큼 증가합니다.",648206,-1,0,320,2
+1722,줄줄이 회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136056,0,4,0,2
+1723,줄줄이 회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.",136205,-1,0,924,2
+1724,변환식: 불타는 적,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적의 얼굴을 불로 변환하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",132847,6,0,0,0
+1725,포효,"받는 피해가 [abs(abilityStateMod( 24, 1725 ))]%만큼 증가합니다.",538568,-1,0,530,0
+1726,약점,"받는 피해가 [abs(abilityStateMod( 24, 1726 ))]%만큼 증가합니다.",135740,-1,0,530,0
+1731,악몽,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 악몽을 불러일으켜 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상이 받는 치유 효과를 [abs(abilityStateMod(66,793))]%만큼 감소시킵니다.",1392952,5,3,0,0
+1732,치유 감소,"받는 치유 효과가 [abs(abilityStateMod(66,793))]%만큼 감소합니다.",132355,-1,0,927,3
+1733,표면 강화,"겉으로 드러난 표면을 강화하여 [duration(1,2)]라운드 동안 받는 피해를 50%만큼 감소시킵니다.",134518,9,4,0,2
+1734,표면 강화,"받는 피해가 [abs(abilityStateMod(24,391))]%만큼 감소합니다.",134518,-1,0,928,2
+1735,모험을 위하여!,"적중률이 [abs(abilityStateMod(41,251))]%만큼 증가합니다.
+치명타 및 극대화율이 [abs(abilityStateMod(40,251))]%만큼 증가합니다.",236350,-1,0,320,2
+1736,모험을 위하여!,"친구의 사기를 북돋워 모든 아군의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",236350,0,3,0,2
+1737,물고기 때리기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",1387365,8,0,0,0
+1738,혼돈의 회오리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135799,6,3,0,0
+1739,붕괴,붕괴하는 중...,962046,6,0,0,0
+1740,얼라이언스를 위하여!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 우리 팀의 앞 줄에 있는 애완동물의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가시킵니다.",132486,0,1,0,0
+1741,호드를 위하여!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 우리 팀의 앞 줄에 있는 애완동물의 공격력을 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%만큼 증가시킵니다.",132485,0,1,0,0
+1754,화염 보호막,"직접 피해를 입을 때마다 [StandardDamage(1,1,1755)]의 [School()] 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132221,6,5,0,0
+1755,화염 보호막,"직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",132221,6,0,681,0
+1756,폭풍 날개,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",135863,5,5,0,0
+1757,무쇠가죽,"각각의 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,1757))*AttackBonus()]까지 감소시킵니다.",1378702,-1,0,660,2
+1758,무쇠가죽,"매 공격으로부터 받는 피해가 최대 [abs(abilityStateMod(71,1757))*AttackBonus()]만큼 감소합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",1378702,5,4,0,2
+1759,스멀거리는 광기,"효과가 끝날 때 [StandardDamage(4,1)]의 [School()] 피해를 입힙니다.",458230,5,0,0,0
+1760,스멀거리는 광기,"|cffffffff적중률|r [StandardAccuracy(1,1)] 
+
+[numTurns(1759)-1]라운드 후에 [StandardDamage(4,1,1759)]의 [School()] 피해를 입힙니다.",458230,5,5,0,0
+1761,뼈폭풍!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전체 생명력의 [points(1,4)]%를 소모해서 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",342917,3,3,0,0
+1762,뼈폭풍!!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전체 생명력의 [points(1,4)]%를 소모해서 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",342917,3,3,0,0
+1763,수액괴물,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 수액을 뿜어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132104,3,1,0,0
+1764,우주의 강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135789,6,2,0,0
+1765,위상의 주먹,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 교체되게 합니다.",237570,5,4,0,0
+1770,부화,"자기 생명력의 절반을 소모해 [duration(1,4)]라운드 동안 전투를 돕는 분신을 만들어 냅니다.
+
+분신은 한 팀에 하나만 만들 수 있습니다.",132835,2,8,0,2
+1771,경고의 꽥꽥,"치명타 및 극대화율이 [abs(abilityStateMod(40,1771))]%만큼 증가합니다.",1332542,-1,0,320,0
+1772,경고의 꽥꽥,"우리 팀 현재 애완동물의 치명타 및 극대화율이 [abs(abilityStateMod(40,1771))]%만큼 증가합니다. [duration(1,1)]라운드 동안 지속됩니다.",1332542,2,5,0,2
+1773,팔코사우루스 떼!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+떼지어 적을 뒤덮어 1라운드마다 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를 입힙니다. [numTurns()]라운드 동안 지속됩니다.
+
+공격당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.",1332545,2,0,0,0
+1786,천둥벼락,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 활성화된 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.",132326,6,4,0,0
+1787,야성의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+무모하게 적에게 돌진하여 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 자신도 [SimpleDamage(1,3)]의 [School()] 피해를 입습니다.",304501,7,0,0,0
+1796,가족 상봉,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+저급이의 가족을 불러모아 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+쇄도에 당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",646059,4,0,0,0
+1797,쓰레기통 강하,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+높이 뛰어올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",236994,4,4,0,0
+1810,시간 이상,"[duration(1,1)]라운드 동안 상대 팀의 속도가 [abs(abilityStateMod(25,154))]%만큼 감소합니다.",237432,5,3,0,2
+1840,대공세,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 1~2번 가격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",458970,0,0,0,0
+1857,반사,"상대 애완동물이 사용하는 다음 기술이 빗나가고 내 애완동물이 대신 그 기술을 사용합니다.
+
+1라운드 동안 지속됩니다.",458412,0,4,0,2
+1858,주문 삼키기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 애완동물이 사용하는 다음 기술을 [points(1,1,738)]라운드 동안 봉인합니다.",135888,5,4,0,2
+1859,주문 삼키기,"애완동물의 다음 기술이 [points(1,1)]라운드 동안 봉인됩니다.",135888,5,0,0,3
+1860,포격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 대포를 장전합니다.
+
+2단계 사용: 대포를 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",252185,9,0,0,0
+1861,포격 준비 완료,대포가 장전되었습니다.,252185,-1,0,0,2
+1862,화염 포격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 대포를 장전합니다.
+
+2단계 사용: 대포를 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",252172,6,0,0,0
+1863,화염 포격 준비 완료,대포가 장전되었습니다.,252172,-1,0,0,2
+1864,냉기 포격 준비 완료,대포가 장전되었습니다.,132387,-1,0,0,2
+1865,냉기 포격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 대포를 장전합니다.
+
+2단계 사용: 대포를 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132387,8,0,0,0
+1866,신비한 포격 준비 완료,대포가 장전되었습니다.,135837,-1,0,0,2
+1867,신비한 포격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+1단계 사용: 대포를 장전합니다.
+
+2단계 사용: 대포를 발사해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135837,5,0,0,0
+1874,불길!,"매 라운드마다 적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",841218,6,0,951,0
+1875,불길!,"자신을 화염으로 감싸, 매 라운드마다 현재 대상에게 [StandardDamage(1,1,1874)]의 [School()] 피해를 입힙니다. [duration(1,1)]라운드 동안 지속됩니다.",841218,6,0,0,0
+1880,역병의 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+부패한 연기를 적에게 내뿜어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",840198,1,0,0,0
+1889,황혼의 불길,"매 라운드마다 [StandardDamage(1,1)]의 원소 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",425957,6,0,953,0
+1890,황혼의 화염,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 추가로 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,1889)]의 [School()] 피해를 입힙니다.",425957,6,1,0,0
+1895,냄새 맡기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히고 모든 생성물을 싸움터에서 제거합니다.",594273,4,3,0,0
+1904,시간 비틀기,다음에 교체되어 들어오는 애완동물의 모든 기술의 재사용 대기시간이 초기화됩니다.,458224,1,0,0,2
+1905,시간 비틀기,다음에 교체되어 들어오는 애완동물의 모든 기술의 재사용 대기시간이 초기화됩니다.,458224,1,6,0,18
+1906,구사일생,아군 애완동물이 죽으면 50%의 생명력을 지니고 살아나게 합니다.,236353,1,0,0,16
+1907,구사일생,,0,1,0,0,2
+1912,공허의 차원문,"공허의 차원문으로 뛰어들어가 상대의 공격을 피하는 대신, [StandardDamage(getProcIndex(PROC_ON_ROUND_START),1)]의 [School()] 피해를 입습니다. 곧바로 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.",135741,5,4,0,2
+1917,망치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 교체되게 합니다.",1405803,9,0,0,0
+1918,불폭탄,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFFFF2020불타는|r 중입니다.",514016,9,0,426,0
+1919,불폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전장을 이글거리는 불지옥으로 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+불은 계속해서 적을 |cFFFF2020태워|r [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1, 1918)]의 [School()] 피해를 입힙니다. 이 효과는 최대 9번까지 적용됩니다.",514016,9,0,0,0
+1920,죔쇠,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 죔쇠로 꼼짝 못하게 하고 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+대상은 [duration(1,2)]라운드 동안 교체할 수 없습니다.",1023428,9,4,0,0
+1921,천공기 돌진,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",134068,9,2,0,0
+1922,폭풍 감줄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 활성화된 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.",839974,9,3,0,0
+1927,금단의 모래시계,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 공격하여 [StandardDamage(1, 1)]의 [petTypeName(abilityPetType())]의 피해를 입힙니다.
+
+이 공격으로 적 애완동물이 죽으면, 살아있는 다른 애완동물의 재사용 대기시간이 초기화됩니다.",458224,1,3,0,16
+1932,금단의 모래시계,다른 애완동물의 재사용 대기시간이 초기화됩니다.,458224,1,0,0,2
+1933,시간 되돌리기,"생명력을 [StandardDamage(1,1)]만큼 회복하고, 마지막으로 받은 피해의 절반을 추가로 회복합니다.",236353,5,3,0,2
+1934,청동 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 용숨결에 휩싸이게 해서 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135807,1,0,0,0
+1935,능력교체,,590338,0,0,0,2
+1936,공간이동,공간 이동 장치를 작동시켜 상대 팀의 공격을 피합니다. 곧바로 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.,255348,9,8,0,2
+1937,지옥 연소,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 추가로 적을 |cFFFF2020불태워|r, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,177)]의 [School()] 피해를 입힙니다.",135795,9,0,0,0
+1938,혼돈 광선,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+지옥 마력 레이저를 발사하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",463281,9,0,0,0
+1939,애완동물 무리,한 무리가 몰려옵니다...,132140,-1,0,0,6
+1944,회수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 높은 애완동물로 교체되게 합니다.",1600298,7,4,0,0
+1945,핥기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",350575,7,0,0,0
+1954,독성 작동규약,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 팀을 |cFF1EFF00중독|r시켜 추가로 [duration(1,4)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",132108,7,5,0,0
+1955,순간 빙결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 |cFF0070DD얼어붙게|r 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 속도를 [abs(abilityStateMod(25,154))]%만큼 감소시킵니다.",135852,6,3,0,0
+1956,용족의 치유,"치유의 흐름을 일으켜 자신의 생명력을 [StandardHealing(1,1)]만큼 회복시키고, 우리 팀의 다른 용족 애완동물의 생명력을 그 절반만큼 회복시킵니다.",1380676,1,4,0,2
+1957,되살리기,"되살아나 3라운드 동안 매 라운드마다 생명력을 [StandardHealing(3,1)]만큼 회복합니다.",237569,3,8,0,2
+1958,강화의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+암흑 칼날을 적에게 휘둘러 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가하고, 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",1035052,3,0,0,0
+1959,엄청난 베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 베어 [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 고르게 나누어 입힙니다.",589119,3,2,0,0
+1960,황혼 유성,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+황혼 유성을 불러내, [StandardDamage(1,1)]의 [School()] 피해를 모든 적에게 고르게 나누어 입힙니다.",425959,1,5,0,0
+1961,촉수의 비수,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+공격 시 [accuracy(getProcIndex(PROC_ON_DAMAGE_DEALT),1)]% 확률로 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT), 1)]의 [School()] 피해를 입습니다.
+
+|cFF1EFF00중독|r되었습니다.",133454,5,0,25,1
+1962,촉수의 비수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 부패한 촉수로 찌릅니다. [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,1961)]의 [School(1961)] 피해를 입힙니다.
+
+중독된 대상은 공격할 때마다 [accuracy(getProcIndex(PROC_ON_DAMAGE_DEALT,1961),1,1961)]%의 확률로 자신도 피해를 입습니다.|r",133454,5,0,0,0
+1963,광풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",1029585,2,4,0,0
+1964,흑요석 물어뜯기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+흑요석 이빨로 적을 물어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",961626,6,0,0,0
+1965,광란,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+광란에 빠져 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 739 ))]%만큼 증가합니다.",236297,6,1,0,0
+1966,엄청난 독침,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀을 |cFF1EFF00중독|r시켜 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,358)]의 [School()] 피해를 입힙니다.",132290,7,4,0,0
+1967,공허 관문,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 높은 애완동물로 교체되게 합니다.",607513,5,2,0,0
+1968,안타엔 대포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 기계 피해를 입힙니다. 사용 후에는 2라운드 동안 장전이 필요합니다.
+
+장전 중에는 다른 어떤 행동도 할 수 없습니다.",1711341,9,5,0,0
+1989,껍질 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 생명력이 가장 높은 우리 팀 애완동물과 교체합니다.",839982,8,5,0,0
+1990,고대의 지식,"최대 생명력이 레벨당 [abs(abilityStateMod(2,1990))/100]씩 증가합니다.",648207,-1,0,376,2
+1991,고대의 지식,"자신의 생명력을 [StandardHealing(1,5)]만큼 회복하고 [duration(1,1)]라운드 동안 우리 팀 현재 애완동물의 최대 생명력을 레벨당 [abs(abilityStateMod(2,1990))/100]만큼 증가시킵니다.",441147,1,5,0,2
+2009,특급 배송,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",133460,0,0,0,0
+2010,달팽이 우편,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+한 라운드 동안 힘을 모읍니다.
+
+다음 라운드에 막을 수 없는 힘으로 적에게 돌격하여 [StandardDamage(2,1)]의 [School()] 피해를 입힙니다.",1387665,4,4,0,0
+2011,협박 우편,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+광란에 빠져 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 공격력이 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 739 ))]%만큼 증가합니다.",133473,0,1,0,0
+2012,반송,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 교체되게 합니다.",443375,5,5,0,2
+2013,택배 왔습니다,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 소포를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",1506461,0,0,0,0
+2023,스팸 우편,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+우편을 쏟아부어 첫 번째 라운드에 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))]의 [School()] 피해를, 두 번째 라운드에 [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))]의 [School()] 피해를, 세 번째 라운드에 [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))]의 [School()] 피해를 입힙니다.
+
+스팸 우편에 적중당한 대상은 [duration(1,4)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",133462,0,0,0,0
+2024,느린 소화,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 집어삼켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 시전자가 대상보다 느리면 150%의 추가 피해를 입힙니다.",3860419,6,3,0,0
+2025,거친 투척,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+돌을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,6,0,0,0
+2026,빠른 섭취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 집어삼켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 시전자가 대상보다 빠르면 150%의 추가 피해를 입힙니다.",3732243,6,3,0,0
+2027,회피의 걸음,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+돌을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,6,0,0,0
+2028,화끈한 공격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+돌을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,6,0,0,0
+2029,마무리 뿅,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+돌을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",237477,6,0,0,0
+2058,뱀들의 똬리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",132211,7,5,0,2
+2059,먼지 구름,"공격을 피할 확률이 [abs(abilityStateMod( 73, 2060 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",463521,7,4,0,2
+2060,회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 2060 ))]%만큼 증가합니다.",136205,-1,0,974,2
+2061,뱀들의 똬리,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,975,3
+2062,오물 분출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+오물과 쓰레기 분출물을 적 애완동물 밑에 생성합니다.
+
+2라운드 동안 상대 애완동물은 [StandardDamage(3,1,2063)]의 [School()] 피해를 입고 [duration(3,2,2063)]라운드 동안 발이 묶입니다.",236271,5,3,0,0
+2063,오물 분출,"|cffffffff적중률|r [StandardAccuracy(3,1)]
+
+이 효과가 끝날 때 [StandardDamage(3,1)]의 [School()] 피해를 입고 [duration(3,2)]라운드 동안 도망치지 못합니다.",236271,5,0,1118,0
+2064,다과회,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+눈 깜짝할 사이에 적을 공격해, 상대 팀 모든 애완동물에게 [StandardDamage(1,7)]의 [School()] 피해를 입힙니다.",132802,3,0,0,0
+2065,낮잠 시간,"잠을 청해 첫 번째 라운드에 생명력을 [StandardHealing(1,1,2066)]만큼 회복하고 두 번째 라운드에 [StandardHealing(2,1,2066)]만큼, 세 번째 라운드에 [StandardHealing(3,1,2066)]만큼 회복합니다.
+
+낮잠 중에는 애완동물을 교체할 수 없습니다.",132156,7,5,0,2
+2066,낮잠,"낮잠을 잡니다.
+매 라운드마다 생명력을 회복합니다.",132156,-1,0,45,2
+2067,꼬집기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+거대한 집게발로 상대를 꼬집어 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+사용할 때마다 피해량이 [FormatDamage(pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage(pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",1508496,8,0,0,0
+2068,얼굴 물어뜯기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대의 얼굴로 뛰어들어 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 속도가 [abs(abilityStateMod( 25, 544 ))]%만큼 증가합니다.",538039,7,0,0,0
+2069,공크의 오라,"피해를 입힐 때마다 생명력을 [StandardHealing(1,1)]만큼 회복합니다. 생명력이 [threshold(1,1)]% 이하로 떨어지면 생명력을 두 배로 회복합니다.",797327,7,0,0,18
+2070,공크의 오라,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+공크의 오라를 받아 [duration(1,1)]라운드 동안 애완동물이 피해를 입힐 때마다 생명력을 [StandardHealing(1,1,2069)]만큼 회복시킵니다. 생명력이 [threshold(1,1,2069)]% 이하로 떨어지면 치유량이 [modifier(1,1,2069)]%만큼 증가합니다.
+
+이 능력은 재사용 대기시간이 적용된 상태로 시작됩니다.",797327,7,8,0,50
+2071,죽은 자의 포효," |cffffffff적중률|r [StandardAccuracy(1,1)]
+
+뼈까지 오싹해지는 울음소리로 대상을 겁먹게 해, [duration(1,1)]라운드 동안 다음 공격으로 대상이 받는 피해를 100%만큼 증가시킵니다.",136147,3,3,0,2
+2073,Aura of Team Heal,"이번 라운드가 끝날 때, 마지막으로 입힌 피해량의 [points(1,1)]%만큼 치유합니다.",1387611,7,0,0,18
+2074,Aura of Team Heal,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Gain the Aura of Team Heal, causing your pets to heal for [StandardHealing(1,1,2069)] based on the last damage dealt at the end of the round for [duration(1,1)] rounds.",1387611,7,6,0,18
+2075,Aura of Enemy Self Reflect,"이번 라운드가 끝날 때, 마지막으로 입힌 피해량의 [points(1,1)]%를 반사합니다.",136104,7,0,0,18
+2076,Aura of Enemy Self Reflect,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Apply an aura of reflection to the enemy team, causing them to suffar damage equal to [points(1,1,2075)]% of the last damage dealt that pet dealt at the end of the round for [duration(1,1)] rounds.",136104,7,6,0,18
+2077,억센가시의 날카로운 엄니,"이번 라운드가 끝날 때, 억센가시가 마지막으로 받은 피해의 [power(1,1)]%를 반사합니다.",134172,-1,0,0,18
+2082,돌풍 베기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날카로운 돌풍으로 [StandardDamage(1,1)]의 [School()] 피해를 즉시 입히고, [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2085)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",132845,3,0,0,0
+2083,미라 감싸기,"자신을 향한 다음 공격을 막아냅니다.
+속도가 [abs(abilityStateMod(25,505))]%만큼 감소합니다.",454027,-1,0,111,2
+2084,미라 감싸기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 공격을 막아낼 확률을 100%만큼 증가시킵니다.
+
+[duration(1,2)]라운드 동안 지속됩니다.",454027,3,3,0,2
+2085,돌풍 베기,"현재 애완동물에게 매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132845,3,0,627,1
+2086,화염포,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모든 적 애완동물에게 즉시 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",135807,9,3,0,0
+2087,지진 천공기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모든 적 애완동물에게 즉시 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",132996,9,3,0,0
+2088,로켓 연발탄,"로켓닭이 하늘을 향해 통제불능의 로켓 연발탄을 퍼부어 포격에 맞는 애완동물에게 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",369278,9,0,153,0
+2089,왕폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+로켓닭이 ""왕폭탄""을 발사해 상대 팀에 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",369278,9,2,0,0
+2090,팀 전체 수리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+우리 팀 전체를 즉시 되살리고 최대 생명력의 200%로 수리합니다. ERRORDIVIDEBYZERO라운드 동안 만큼, 공격력을 500%만큼 증가시킵니다.
+
+오작동할 때가 많습니다.",369278,9,2,0,0
+2091,공포에 질림,"공격력이 [abs(abilityStateMod(23,470))]%만큼 감소합니다.
+속도가 [abs(abilityStateMod(25,470))]%만큼 감소합니다.",653219,-1,0,0,3
+2092,겁주기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상의 속도를 [abs(abilityStateMod(25,2091))]%만큼, 공격력을 [abs(abilityStateMod(23,2091))]%만큼 감소시킵니다.
+
+오작동할 때가 많습니다.",237568,9,2,0,0
+2093,마구 찌르기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+수많은 다리로 대상을 여러 차례 찔러 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",133832,9,0,0,0
+2094,감전,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모든 동력을 발산하여 대상에게 전기 화살을 쏘아 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+오작동할 때가 많습니다.",136099,9,3,0,0
+2095,Random Weather Aura Pad Effect,라운드가 끝날 때마다 날씨가 무작위로 바뀝니다.,237588,7,0,0,18
+2096,Aura of Ranzomize Weather,apply aura to the pad that ranzomizes weather at the end of the round.,1387611,7,6,0,18
+2097,아제라이트 가시,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+순수한 아제라이트로 대상을 꿰뚫어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",2032607,6,4,0,0
+2098,아제라이트 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",2032580,6,1,0,0
+2099,독침,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적의 가슴에 독침을 찔러 넣어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+그런 뒤 끔찍한 죽음을 맞이합니다.",134298,2,10,0,32
+2100,벌떼,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",2027853,4,0,219,0
+2101,벌떼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+벌떼가 상대 팀의 현재 애완동물을 공격해 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2100)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",2027853,4,0,0,0
+2102,공허의 회오리바람,"회오리바람을 발생시켜 상대 팀에 매 라운드마다 [accuracy(1,1,2103)]% 확률로 [StandardDamage(1,1,2103)]의 [School()] 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",1386548,5,5,0,0
+2103,공허의 회오리바람,"매 라운드마다 우리 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",1386548,5,0,994,0
+2104,메갈로돈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+심해에서 메갈로돈을 불러내, 상대 팀 모든 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",294472,8,4,0,0
+2105,깨지지 않는 껍데기,"치타라의 깨지지 않는 껍데기가 피해를 받을 때마다 점점 갈라집니다.
+
+치타라의 껍데기에 [abs(abilityStateMod(74,2105))]번의 공격이 가해질 때까지 받는 피해가 100%만큼 감소합니다.",134964,-1,0,660,18
+2106,치타라의 깨지지 않는 껍데기,"치타라의 껍데기가 깨뜨릴 수 없을 정도로 단단해져 받는 피해를 [abs(abilityStateMod(71,2105))]만큼 감소시킵니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134964,7,50,0,18
+2107,거의 깨지지 않는 껍데기,"거의 깨지지 않는 치타라의 껍데기가 피해를 받을 때마다 점점 갈라집니다.
+
+치타라의 껍데기에 최소 [abs(abilityStateMod(74,2107))]번의 공격이 가해질 때까지 받는 피해가 100%만큼 감소합니다.",134964,-1,0,660,18
+2108,"금이 조금 갔지만, 그래도 깨지지 않는 껍데기","금이 조금 갔지만, 그래도 깨지지 않는 치타라의 껍데기가 피해를 받을 때마다 점점 갈라집니다.
+
+치타라의 껍데기에 최소 [abs(abilityStateMod(74,2108))]번의 공격이 가해질 때까지 받는 피해가 100%만큼 감소합니다.",134964,-1,0,660,18
+2109,"부서졌지만, 그래도 깨지지 않는 껍데기","부서졌지만, 그래도 깨지지 않는 치타라의 껍데기가 피해를 받을 때마다 점점 갈라집니다.
+
+치타라의 껍데기에 최소 [abs(abilityStateMod(74,2109))]번의 공격이 가해질 때까지 받는 피해가 100%만큼 감소합니다.",134964,-1,0,660,18
+2110,"거의 산산조각 났지만, 그래도 깨지지 않는 껍데기","거의 산산조각 났지만, 그래도 깨지지 않는 치타라의 껍데기가 피해를 받을 때마다 점점 갈라집니다.
+
+치타라의 껍데기에 [abs(abilityStateMod(74,2110))]번의 공격이 가해질 때까지 받는 피해가 100%만큼 감소합니다.",134964,-1,0,660,18
+2111,깨진 껍데기,"치타라의 껍데기가 깨졌습니다!
+
+받는 피해가 [abs(abilityStateMod(24,2111))]%만큼 증가합니다.
+
+공격력이 [abs(abilityStateMod(23,2111))]%만큼 증가합니다.",451165,-1,0,44,18
+2112,맹독 상처,"지속 피해 효과를 일으켜, 피해를 입힐 때마다 [abs(abilityStateMod(202,2112))*AttackBonus()]의 피해를 추가로 입힙니다.",136067,7,0,25,3
+2113,독액 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 지속 피해 효과를 일으켜, [duration(1,2)]라운드 동안 피해를 입힐 때마다 [abs(abilityStateMod(202,2112))*AttackBonus()]의 피해를 추가로 입힙니다.",132103,7,0,0,0
+2205,야수 울음,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+섬뜩한 울음소리로 대상을 겁먹게 해, [duration(1,1)]라운드 동안 다음 공격으로 대상이 받는 피해를 100%만큼 증가시킵니다.",538568,7,3,0,2
+2206,파리 먹기,"생명력을 [StandardHealing(1,1)]만큼 회복합니다. 생명력이 [threshold(1,1)]% 이하로 떨어지면 치유량이 [modifier(1,1)]%만큼 증가합니다.",538518,8,3,0,2
+2207,진화된 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 깊게 물어뜯어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+능력을 사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(500*AttackBonus())]의 [School()] 피해를 입힙니다.",2011119,8,0,0,0
+2208,진화,"적을 처치할 시, 핏빛엄니가 생명력을 모두 회복하며, 속도는 50%만큼, 힘은 35%만큼 증가합니다.",2011119,-1,0,0,2
+2209,폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자가 즉시 죽으며 현재 대상에게 자신의 총 생명력의 [FormatDamage(points(1,1))]%만큼 피해를 입힙니다.",1029738,4,0,0,2
+2210,무고한 자 살해,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적 애완동물이 즉시 죽습니다.",1020342,5,0,0,0
+2211,쪼아서 기절시키기,이 애완동물에게 명령을 내릴 수 없습니다.,135860,-1,0,103,3
+2212,쪼아서 기절시키기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시키고 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.
+
+어째서 매번 갈매기인 걸까요?",133707,2,15,0,0
+2213,방해 포자,"덩굴손에 붙어 있는 포자가 적의 집중력을 흐트러뜨려, 각 기술을 [lockduration(1,1)] 동안 봉인해 쓸 수 없게 만듭니다.",2027888,6,0,0,2
+2214,꼬리 강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",237408,7,4,0,0
+2215,고분고분,"재머는 매우 온순해보이지만, 몇몇 공포뿔들은 생명력이 [healthpercentthreshold(1,1)]% 이하로 떨어지면 매우 난폭해진다고 합니다.",840402,6,0,0,2
+2216,공포뿔의 분노,"재머가 분노해 [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]%의 추가 피해를 입힙니다.",648206,-1,0,1100,2
+2223,무고한 자 살해,"대상에게 부정한 마법을 써 생명력의 [points(1,1)]%만큼의 피해를 입힙니다.",1020342,5,3,0,0
+2225,안녕 보호막,"시험용 안녕로봇의 방어 장치가 가동되어 뚫을 수 없는 보호막으로 뒤덮입니다. 모든 피해를 막습니다.
+
+[duration(1,1)]라운드 동안 유지됩니다.
+
+이 기술은 항상 먼저 사용됩니다.",524354,9,4,0,18
+2226,안녕 보호막,뚫을 수 없는 보호막이 시험용 안녕로봇을 감쌉니다.,524354,-1,0,1104,18
+2227,자동 수리기 마크 6001,"빻빻봇 마크 6001에는 전투 중 쓰러질 경우 생명력을 모두 회복한 상태로 자동 복구되는 시험용 놈리건 기술이 탑재되어있습니다.
+
+시험 사례가 없으니 사용에 주의해야 합니다.",465878,-1,0,0,18
+2228,음파 파열,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 음파 에너지를 방출하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",252188,9,0,0,0
+2229,음파 기폭장치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 음파 기폭장치를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 폭발하면서 다른 적들에게 추가로 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",1345087,9,3,0,0
+2230,음파 파열,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 음파 에너지를 방출하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",252188,6,0,0,0
+2231,음파 기폭장치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 음파 기폭장치를 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 폭발하면서 다른 적들에게 추가로 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",1345087,9,3,0,0
+2232,맹독 분사,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 지속 피해 효과를 일으켜, [duration(1,2)]라운드 동안 피해를 입힐 때마다 [abs(abilityStateMod(202,2112))*AttackBonus()]의 피해를 추가로 입힙니다.",132104,8,0,0,0
+2233,맹독 분사,"지속 피해 효과를 일으켜, 피해를 입힐 때마다 [abs(abilityStateMod(202,2112))*AttackBonus()]의 피해를 추가로 입힙니다.",132104,8,0,25,3
+2234,냉기 분사,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 얼려 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",135781,8,0,0,0
+2235,불안정한 기계공학,"우리 팀의 치명타 및 극대화율이 [abs(abilityStateMod(40,2235))]%만큼 증가하지만, 적중률은 [abs(abilityStateMod(41, 2235))]%만큼 감소합니다.",133035,-1,0,320,2
+2236,불안정한 기계공학,"[duration(1,1)]라운드 동안 우리 팀의 치명타 및 극대화율이 [abs(abilityStateMod(40,2235))]%만큼 증가하지만, 적중률은 [abs(abilityStateMod(41, 2235))]%만큼 감소합니다.",133035,9,0,0,2
+2237,칼날 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 매 공격마다 [abs(abilityStateMod(71,918))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132935,9,0,0,2
+2238,칼날 발톱,"대상에게 매 공격마다 [abs(abilityStateMod(71,918))*AttackBonus()]의 추가 피해를 입힙니다.",132935,-1,0,530,3
+2239,연막,"공격을 피할 확률이 [abs(abilityStateMod( 73, 2060 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",463521,9,4,0,2
+2240,꿰뚫기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 꿰뚫어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",132283,9,0,0,0
+2241,집중 구타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 양팔로 가격하여 [StandardDamage(1,1)]의 [School()] 피해를 4번까지 입힙니다.",133509,9,3,0,0
+2242,벌목기 칼날,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 치명적인 벌목기 칼날을 발사하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",134427,9,0,0,0
+2243,정기 개틀링 기관총,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+장착된 개틀링 기관총을 난사하여 [StandardDamage(1,1)*6]의 [School()] 피해를 입힙니다.",236201,8,2,0,0
+2244,나병,"극심한 나병에 걸렸습니다. 전투 중 죽으면 그 즉시 적이 치명적인 피해를 입습니다.
+
+마법, 기계 및 언데드 애완동물은 이 효과를 막을 수 없습니다.",2126350,4,0,0,2
+2245,나병,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상을 즉시 감염시켜 처치합니다.
+
+마법, 기계 및 언데드 애완동물은 이 치명적인 피해를 막을 수 없습니다.",132131,4,0,0,2
+2246,세상에서 제일 큰 망치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",1278390,9,4,0,0
+2247,착암기,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+적 애완동물에게 [StandardDamage(1,2)*4]의 [School()] 피해를 입힙니다.
+
+착암기는 적 대상의 받는 피해 감소 효과를 분쇄해 버립니다.",1278390,9,0,0,0
+2248,냉각수 쏟아내기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+주 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,4)]라운드 동안 발을 묶으며, 상대의 다른 애완동물에게는 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.
+
+상대 팀 모든 애완동물의 속도를 [duration(1,5)]라운드 동안 [abs(abilityStateMod(25, 928))]%만큼 감소시킵니다.",252174,8,2,0,0
+2249,냉각수 누출,"자동 수리기 마크 6001의 냉각수 시스템에는 누출부가 있습니다.
+
+공격자는 피해를 입힐 때마다 [StandardDamage(1,1)]의 [School()] 피해를 입습니다. 그리고 공격할 때 [StandardAccuracy(2,1)] 확률로 적 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 추가로 입힙니다.
+
+모든 공격력이 [abs(abilityStateMod(23, 2249))]%만큼 증가합니다.",135784,8,0,515,18
+2250,아쿤다의 분노,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+상대 팀의 활성화된 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입힙니다.
+
+아쿤다의 분노를 사용하는 동안, 받는 모든 피해가 [abilityStateMod(24,516)]%만큼 증가합니다.
+
+
+아쿤다의 분노는 [numTurns()]라운드 동안 유지됩니다.",839983,6,5,0,0
+2251,크라그와의 분노,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 활성화된 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 균등히 나누어 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",2399289,8,4,0,0
+2252,자동 수리기 마크 6001,"빻빻봇 마크 6001에는 전투 중 쓰러질 경우 생명력을 모두 회복한 상태로 자동 복구되는 시험용 놈리건 기술이 탑재되어있습니다.
+
+시험 사례가 없으니 사용에 주의해야 합니다.",465878,-1,0,0,10
+2253,그림자 숨기,"속도가 30%만큼 감소하지만, [duration(1,1)]라운드 안에 하는 다음 공격의 위력이 150%만큼 증가합니다.",514640,2,5,0,2
+2254,그림자 숨기,"속도가 30%만큼 감소합니다.
+공격력이 150%만큼 증가합니다.",514640,-1,0,320,2
+2255,타락한 땅,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [duration(1,1)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2256)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",651097,6,0,0,0
+2256,타락한 땅,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 원소 피해를 입힙니다.",651097,6,0,1121,0
+2257,타락의 손길,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",651090,6,0,1123,1
+2258,타락의 손길,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상이 지니고 있는 희망을 모조리 뽑아내어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 추가로 매 라운드마다 [StandardDamage(1,1,2257)]의 [School()] 피해를 입힙니다. [duration(1,2)]라운드 동안 지속됩니다.",651090,6,0,0,0
+2259,종족 공격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 치명적인 벌목기 칼날을 발사하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다. 시전자와 종족이 동일한 내 팀 애완동물 하나당 [FormatDamage(3*AttackBonus())]의 추가 피해를 입힙니다.",134427,9,0,0,0
+2260,종족 치유,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+생명력을 [StandardHealing(1, 1)]만큼 회복합니다. 시전자와 종족이 동일한 내 팀 애완동물 하나당 [FormatDamage(2*AttackBonus())]에 해당하는 생명력을 추가로 회복합니다.",134427,9,0,0,2
+2261,괴저의 손길,암흑 마력이 득세했습니다.,2576090,3,0,1146,2
+2262,괴저 재구축,"암흑 마법이 검은갈기를 악몽의 존재로 바꾸어버렸습니다.
+
+검은갈기는 이제 언데드로 간주되며, 능력이 향상됩니다.",2576090,3,0,1125,2
+2263,고문,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+최대 생명력의 [points(1,1)]%에 해당하는 피해를 모든 적에게 입힙니다. 피해량의 [points(1,2)]%만큼 자신을 치유합니다.",134427,9,0,0,2
+2264,재이동,재이동 중,651097,6,0,1121,0
+2265,되돌리기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+재이동 오라 적용",134427,9,0,0,2
+2266,heal test,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+최대 생명력의 [points(1,1)]%에 해당하는 피해를 모든 적에게 입힙니다. 피해량의 [points(1,2)]%만큼 자신을 치유합니다.",134427,9,0,0,2
+2280,test attack,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 치명적인 벌목기 칼날을 발사하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다. 시전자와 종족이 동일한 내 팀 애완동물 하나당 [FormatDamage(3*AttackBonus())]의 추가 [School()] 피해를 입힙니다.",134427,0,0,0,0
+2281,intercept aura,대전에서 승리합니다.,132090,-1,0,0,2
+2282,가로채기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대전에서 승리합니다.",134427,9,0,0,2
+2283,용의 부름,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날아올라 대상에게 날카로운 비명을 발산하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다. 시전자와 종족이 동일한 내 팀 애완동물 하나당 [FormatDamage(7*AttackBonus())]의 추가 [School()] 피해를 입힙니다.",1394891,1,3,0,0
+2284,봉쇄,도약,236171,7,0,0,2
+2285,Test Aura,,611418,-1,0,0,0
+2288,꼬꼬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시끄럽게 울어 [StandardDamage(1,1)]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 대상의 공격력을 25%만큼 감소시킵니다.",135996,2,2,0,0
+2289,고기 갈고리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",1373906,3,2,0,0
+2290,녹괴물,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독되었습니다|r.",236271,3,0,1133,0
+2291,수액 트림,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+전장을 냄새나고 끈적한 난장판으로 만들어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+산성이 계속해서 적을 |cFF1EFF00중독|r시키고, [StandardDamage(1,1, 2290)]의 [School()] 피해를 매 [duration(1,2)] 라운드 동안 입힙니다.",136182,3,1,0,0
+2292,고문,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모든 적 대상의 현재 생명력의 [points(1,1)]%만큼 피해를 입히고, 피해량의 [points(1,2)]%만큼 치유합니다.",236300,5,5,0,2
+2293,무릎 꿇어라,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)] 라운드 동안 이동 속도를 [abs(abilityStateMod(25,928))]%만큼, 공격력을 [abs(abilityStateMod(23,494))]%만큼 감소시킵니다.
+
+다른 적 애완동물에게 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",136184,5,3,0,0
+2294,영혼 강탈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 언데드 피해를 입히고, 입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",2576086,3,0,0,0
+2295,생명력 집중,모든 치유 효과가 이 유닛에게 적용됩니다.,460699,3,0,1138,2
+2296,암흑 마법,안에서 암흑 마력이 흘러나옵니다.,460699,3,0,0,2
+2297,감싸는 치유,"생명력을 [StandardDamage(1,1)]만큼 회복합니다.",960692,8,2,0,2
+2298,아군 되살리기,"해골 하수인을 소환해 상대 팀의 앞 줄에 있는 애완동물을 공격합니다. 매 라운드마다 [FormatDamage(SimpleDamage(1,1,2299))]의 [School()] 피해를 입힙니다.
+
+하수인 하나당 [duration(1,1)]라운드 동안 지속됩니다.",136119,3,2,0,0
+2299,되살아난 하수인,"매 라운드마다 상대 팀의 현재 애완동물에게 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입힙니다.",1390947,3,0,1141,0
+2300,괴저 폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 강령술 오라로 대상 지역을 더럽힙니다.
+
+[duration(1,2)]라운드 후에 대상 지역에 괴저 마력 폭발이 일어나 모든 적 애완동물에게 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 2301),1,2301)]의 [School()] 피해를 입히고, 피해량의 [points(1,2,2301)]%에 해당하는 생명력을 회복합니다.",2576095,3,3,0,0
+2301,괴저 폭탄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+3라운드 후에 모든 적 애완동물에게 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED),1)]의 [School()] 피해를 입히고, 시전자는 피해량의 [points(1,2)]%에 해당하는 생명력을 회복합니다.",2576095,3,0,0,0
+2302,발굽 강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 짓밟아 [(StandardDamage(1, 1)*2)]의 [School()] 피해를 입힙니다.",132368,7,0,0,0
+2303,날뛰는 군마,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+군마 무리가 상대 팀을 짓밟아 주 대상에게 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입히고, 대기 중인 모든 애완동물에게 [FormatDamage(SimpleDamage(1,3))]의 피해를 입힙니다.",1720723,7,3,0,0
+2304,악몽,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+Risen Nightmares이 상대 팀을 짓밟아 주 대상에게 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입히고, 대기 중인 두 애완동물에게도 [FormatDamage(SimpleDamage(1,3))]의 [School()] 피해를 입힙니다. 또한 각 적의 생명력 [points(1,2)]%에 해당하는 추가 피해를 입힙니다.",2238268,3,2,0,0
+2305,질병 구름,"매 라운드마다 현재 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",136128,3,0,219,0
+2306,역병 발굽,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 짓밟아 [(StandardDamage(1, 1)*2)]의 [School()] 피해를 입히고, 병든 곤충 무리에 감싸여 [duration(1,3)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2305)]의 피해를 받습니다. 이 기술은 애완동물을 교체해도 유지됩니다.",132103,3,0,0,0
+2307,심연 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 심연의 발톱으로 할퀴어 [StandardDamage(1, 1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",1508491,8,0,0,0
+2308,점액 자국,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+점액 흔적을 남겨 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 끈적거리는 물질로 뒤덮어 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",136007,4,0,0,0
+2309,해일 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+상대 팀과 우리 팀의 모든 생성물을 파괴합니다.",237590,8,2,0,0
+2310,삼키기 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+적을 삼키기로 처치하면 생명력을 [StandardHealing(1,2)]만큼 회복합니다.
+
+[numTurns()]라운드 동안 지속됩니다.",132131,7,3,0,0
+2311,저공 비행 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 대상이 받는 피해를 [abs(abilityStateMod( 24,516))]%만큼 증가시킵니다.",648840,2,0,0,0
+2312,소용돌이 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+소용돌이를 상대 팀 밑에 생성합니다. 
+
+2라운드 동안 상대 애완동물들은 [StandardDamage(3,1,512)]의 [School()] 피해를 받고 [duration(3,2,512)]라운드 동안 발이 묶입니다.",571588,8,3,0,0
+2313,꼬집기 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+거대한 집게발로 상대를 꼬집어 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.
+
+사용할 때마다 피해량이 [FormatDamage(pointsincreaseperuse(1,1)*AttackBonus())]씩 증가하여 최대 [FormatDamage(pointsmax(1,1)*AttackBonus())]의 [School()] 피해를 입힙니다.",1508496,8,0,0,0
+2314,거품 X,세 번의 공격을 막습니다.,512902,0,0,0,2
+2315,거품 X,거품으로 몸을 감싸 다음 세 번의 공격을 막습니다.,512902,0,5,0,2
+2316,포효 X,"받는 피해가 [abs(abilityStateMod( 24, 2316 ))]%만큼 증가합니다.",538568,-1,0,530,0
+2317,포효 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+섬뜩한 울음소리로 대상을 겁먹게 해, [duration(1,1)]라운드 동안 다음 공격으로 대상이 받는 피해를 200%만큼 증가시킵니다.",538568,7,3,0,2
+2318,환영 장벽 X,환영을 생성해 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,237510,5,3,0,2
+2319,감싸는 치유 X,"생명력을 [StandardDamage(1,1)]만큼 회복합니다.",960692,8,2,0,2
+2320,번개 폭풍 X,"모든 애완동물이 공격할 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT ),1)]의 추가 [School()] 피해를 입힙니다.
+
+기계 기술은 25%의 추가 피해를 입힙니다.",463562,9,0,169,2
+2321,번개 부르기 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 번개 폭풍을 불러냅니다.
+
+번개 폭풍이 몰아치는 중에는 모든 애완동물이 공격할 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_DEALT, 2320 ),1,2320)]의 추가 [School(2320)] 피해를 입히고, 기계 기술은 25%의 추가 피해를 입힙니다.",463562,9,5,0,0
+2322,악물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 찢어 |cFF970000출혈|r하게 하여 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",136231,8,0,0,0
+2323,뾰족한 껍질,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,2323))*AttackBonus()]까지 감소시키고, 직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",134964,8,0,0,0
+2324,뾰족한 껍질,"매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,2323))*AttackBonus()]까지 감소시키고, 직접 피해를 입을 때마다 [StandardDamage(getProcIndex(PROC_ON_DAMAGE_TAKEN,2323),1,2323)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",134964,8,3,0,0
+2325,꼬리 강타 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",237408,7,3,0,0
+2326,부식 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 부식성 산을 뿌려 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 매 라운드마다 [StandardDamage(1,1,446)]의 [School()] 피해를 입히며 [duration(1,2)]라운드 동안 받는 피해를 최대 [abs(abilityStateMod(71,446))*AttackBonus()]만큼 증가시킵니다.",132108,5,8,0,0
+2327,맹독 분사 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 지속 피해 효과를 일으켜, [duration(1,2)]라운드 동안 피해를 입힐 때마다 [abs(abilityStateMod(202,2112))*AttackBonus()]의 피해를 추가로 입힙니다.",132104,8,5,0,0
+2328,경보!!,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+다수의 기계타조로 적을 기습하여 [FormatDamage(SimpleDamage(1,1)*5)]의 [School()] 피해를 입힙니다.",132247,9,0,0,0
+2329,착취 장비,피해를 입으면 공격자의 생명력이 회복됩니다.,2902485,9,0,0,3
+2330,착취 장비,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 대상에게 [duration(1,2)]라운드 동안 착취 장비를 부착합니다. 
+
+착취 장비가 부착된 대상을 공격하는 애완동물은 자신의 생명력을 회복합니다.",2902485,9,0,0,0
+2331,핏물 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중인 대상에게는 항상 적중합니다.",294472,8,3,0,0
+2332,불꽃 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+불꽃을 적에게 1~2번 발사해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가하고 두 배의 피해를 입힙니다.",348560,6,1,0,0
+2333,비상 X,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+높이 날아올라 한 라운드 동안 공격당하지 않습니다.
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",132128,2,3,0,0
+2334,무리 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 무리지어 몰려들어 매 라운드마다 [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3)+SimpleDamage(1,4)+SimpleDamage(1,5))]의 [School()] 피해를 입힙니다. [numTurns()]라운드 동안 지속됩니다.
+
+무리 공격에 당한 대상은 [duration(1,6)]라운드 동안 받는 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.",135996,2,0,0,0
+2335,반격 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이번 라운드에 공격을 받았다면 추가로 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",132269,0,2,0,0
+2336,미끼 X,나무로 미끼를 만들어 두 번의 공격으로부터 우리 팀을 보호합니다.,132762,9,4,0,2
+2337,무리,비정상적으로 많은 들쥐와 바퀴벌레가 전투에 참여합니다.,294474,3,0,0,2
+2338,도약 하강,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+중력을 거슬러 높이 뛰어올라 한 라운드 동안 공격당하지 않습니다. 
+
+다음 라운드에 대상에게 충돌하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",901746,9,4,0,0
+2339,뛰어오르기,"높이 뛰어오릅니다.
+공격당하지 않습니다.",1001980,-1,0,0,2
+2340,동전 던지기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 동전 무더기를 던져 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",237281,9,0,0,0
+2341,파멸의 돈벼락,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+숨겨진 금고에서 거대한 돈 덩어리를 상대 팀 위로 순간이동시켜 [StandardDamage(1,1)]의 [School()] 피해를 나누어 입힙니다.",1033911,9,5,0,0
+2342,과충전,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자의 동력 핵을 과잉 조율하여 상대 애완동물에게 [StandardDamage(1,1) ]의 [School()] 피해를 입히고, [duration(1,2)]라운드 동안 시전자의 치명타 피해를 [abs(abilityStateMod(314, 2343))]%만큼 증가시킵니다.",132997,9,0,0,0
+2343,눈부신 치명타,"치명타 피해가 [abs(abilityStateMod(314, 2343))]%만큼 증가합니다.",2735955,-1,0,0,2
+2344,초강력 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 막대한 전기 충격을 방출하여 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 감전시켜 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2345)]의 [School(2345)] 피해를 입힙니다.",136099,9,0,0,0
+2345,초강력 충격,"매 라운드마다 [StandardDamage(1,1)]의 기계 피해를 입힙니다.",132997,9,0,1156,0
+2346,휘둘러치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",132143,7,0,0,0
+2347,시체 되살리기,다른 모든 아군 애완동물을 5%의 생명력을 지니고 살아나게 합니다.,136187,3,8,0,2
+2348,대규모 부활,다른 모든 아군 애완동물을 5%의 생명력을 지니고 살아나게 합니다.,413586,0,8,0,2
+2349,맹독 가스,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 날씨를 바꿔 [duration(1,2)]라운드 동안 독성 가스가 한가득 차오르게 합니다.
+
+독성 가스가 차오른 동안에는 적의 지속 피해 효과의 지속시간이 1라운드 증가하고, 모든 애완동물이 |cFF1EFF00중독|r 상태로 간주됩니다.",132104,1,3,0,0
+2350,유독 가스,"적의 지속 피해 효과의 지속시간이 추가로 1라운드 증가합니다.
+
+모든 애완동물이 |cFF1EFF00중독|r 상태로 간주됩니다.",132104,4,0,1153,2
+2351,소용돌이치는 톱니바퀴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에 [StandardDamage(1,1)]의 [School()] 피해를 입히고 현재 대상을 생명력이 가장 낮은 상대의 애완동물과 교체합니다.",134063,9,5,0,0
+2352,오물 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF1EFF00중독|r 상태인 대상에게는 두 배의 피해를 입힙니다.",132107,1,3,0,0
+2353,전염의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 대상이 |cFF1EFF00중독|r 상태일 경우 [StandardDamage(1,3)]의 추가 피해를 입힙니다.",236270,0,0,0,0
+2354,boss test ability,,2065559,9,0,0,2
+2355,boss test aura,,2065559,9,0,0,2
+2356,공허 회오리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",1386548,5,3,0,0
+2357,공허의 충돌,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(1,1,2373)]의 [School()] 피해를 입히고 [duration(3,2)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",1386551,5,0,0,0
+2358,공허의 충돌,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 거대한 공허 마력의 화살을 발사합니다. 
+
+[duration(1,1)]라운드 뒤에 화살이 도달하여 현재 대상에게 [StandardDamage(1,1,2373)]의 [School()] 피해를 입히고 [duration(3,2,605)]라운드 동안 기절시킵니다.",1386551,5,5,0,0
+2359,공허의 울림,"|cffffffff적중률|r [StandardAccuracy(3,1)]
+
+이 효과가 끝날 때 [StandardDamage(3,1)]의 [School()] 피해를 입고 [duration(3,2)]라운드 동안 도망치지 못합니다.",537022,5,0,1165,0
+2360,공허의 울림,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+공허의 울림을 적 애완동물 밑에 일으킵니다. 
+
+2라운드 동안 상대 애완동물은 [StandardDamage(3,1,2359)]의 [School()] 피해를 입고 [duration(3,2,2359)]라운드 동안 발이 묶입니다.",537022,5,3,0,0
+2361,공허의 후려치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+공허의 마력으로 적을 후려갈겨 [StandardDamage(1,1)]의 [School()] 피해를 나누어 입힙니다.",237244,5,3,0,0
+2363,불안정한 회로,"초충전된 대혼란 유발자의 회로는 전기 과부하가 걸려있습니다.
+
+피해를 받을 때마다 [StandardAccuracy(2,1)] 확률로 [StandardDamage(1,1)]의 [School()] 피해를 추가로 받습니다. 또한 공격 시 [StandardAccuracy(2,1)] 확률로 자신에게 [StandardDamage(1,1)]의 [School()] 피해를 추가로 입힙니다.",252174,9,0,0,18
+2364,연쇄 번개,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 막대한 전기를 방출하여 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",136050,9,3,0,0
+2365,초강력 방출,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 막대한 전기를 방출하여 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.
+
+모든 마력을 방출한 후 초충전된 대혼란 유발자는 [duration(1,4)]라운드 동안 취약해져 받는 모든 피해가 [abs(abilityStateMod( 24, 542 ))]%만큼 증가합니다.",136050,9,5,0,0
+2366,무자비,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비유도 로켓 다발을 공중으로 발사하여 실제로 적중하는 대상에게 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",369278,9,2,0,0
+2367,치유의 충격,피해를 입으면 공격자의 생명력이 회복됩니다.,237589,9,0,0,3
+2368,이중 충격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+양 발톱으로 전기 충격을 가해 적 애완동물에게 [StandardDamage(1,1)*2]의 [School()] 피해를 입힙니다.
+
+이중 충격 사용 시 [StandardAccuracy(1,3)] 확률로 시전자에게 [duration(1,3)]라운드 동안 치유의 충격을 부여하여 초충전된 대혼란 유발자에게 가해지는 공격이 대상을 치유하게 합니다.",2735955,9,0,0,0
+2369,출혈,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중입니다.",132155,7,0,557,1
+2370,태만의 일격,"|cffffffff적중률|r [StandardAccuracy(3,1)]
+
+데이지가 처음 2라운드 동안 서서히 힘을 모읍니다. 이 동안에는 받는 피해가 [abs(abilityStateMod(24,2371))]%만큼 감소합니다.
+
+3라운드가 되면 데이지는 느릿하지만 막을 수 없는 힘으로 적을 강타하여 [StandardDamage(3,1)]의 [School()] 피해를 입히고 |cFF970000출혈|r을 일으켜 [duration(3,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2369)]의 [School(2369)] 피해를 입힙니다.",451161,7,0,0,0
+2371,천천히 꾸준히,"데이지가 매우 느리게 막강한 공격을 준비합니다. 받는 피해가 [abs(abilityStateMod(24,2371))]%만큼 감소합니다.",3150958,-1,0,0,0
+2372,엘레멘티움 화살,"[numTurns()-1]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(3,1)]의 [School()] 피해를 입히고 [duration(3,2)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(3,1)]",575536,1,0,0,8
+2373,공허의 충돌,"[duration(1,1,2358)]라운드 뒤에 폭발해 현재 상대 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(3,2,605)]라운드 동안 기절시킵니다.
+
+|cffffffff적중률|r [StandardAccuracy(1,1)]",1386551,5,0,0,8
+2375,바늘 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF1EFF00중독|r시켜, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",1508492,8,0,0,0
+2376,희망의 빛줄기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+희망의 빛줄기를 비춰 모든 아군 애완동물의 생명력을 [StandardHealing(1,1)]만큼 회복시키고 [duration(1,4)]라운드 동안 날씨를 화창한 날로 바꿉니다.
+
+화창한 날 동안에는 모든 애완동물의 최대 생명력이 [abs(abilityStateMod(99,403))]%만큼 증가하고 치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",537227,8,5,0,0
+2377,신성한 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+성스러운 빛으로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가하고, 최대 [FormatDamage(30 *AttackBonus())]의 [School()] 피해를 입힙니다.",461859,6,0,0,0
+2378,빛줄기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다. 모든 아군의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.",525026,5,4,0,0
+2379,소용돌이치는 지식 - 오라,다음 두 번의 공격을 막습니다. 하지만 시전자가 연구에 골몰하게 되어 1라운드 동안 자리에 고정됩니다.,134917,5,0,1179,2
+2380,잠시 내 말 좀 들어보게나,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 잠에 빠뜨립니다.",458721,5,5,0,2
+2381,어두운 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+쇄도하는 어둠으로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",3565726,5,1,0,0
+2382,심층 연구,"책이 주위에 소용돌이치며 다음 두 번의 공격을 막습니다. 이후 1라운드를 연구에 소모해야 합니다.
+
+연구하는 동안에는 다른 어떤 행동도 할 수 없습니다.",134917,5,5,0,2
+2383,분쇄의 악골,"이번 라운드가 끝날 때, 턱뼈가 가공할 힘으로 적 애완동물을 물어뜯어 [abs(abilityStateMod(, 542 ))]%의 피해를 입힙니다.",1339043,8,0,0,0
+2384,망치,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 교체되게 합니다.",1405803,9,4,0,0
+2385,신성한 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",135922,6,3,0,0
+2386,어둠의 잠복꾼,라운드가 끝날 때마다 밤송곳니는 자동으로 어슬렁 효과를 얻습니다.,514640,-1,0,0,2
+2387,심리 조작,아디우스가 애완동물 팀에 저주를 내렸습니다. 팀이 어떤 고통을 받을지 선택해야 합니다!,135740,5,4,0,2
+2388,심리 조작: 생명력,"우리 팀 모두에게 현재 생명력의 [points(1,1)]%에 해당하는 피해를 입힙니다.",135740,5,0,0,2
+2389,심리 조작: 기절,"현재 활성화된 애완동물을 [duration(1,1)]라운드 동안 기절시킵니다.",135740,5,0,0,2
+2390,심리 조작: 능력 잠금,"1번 및 2번 능력 칸을 [lockduration(1,1)]라운드 동안 잠급니다.",135740,5,0,0,2
+2391,심리 조작: 재충전,아디우스의 심리 조작 능력이 재충전 중입니다...,135740,5,0,0,2
+2392,심리 조작,아디우스가 애완동물 팀에 저주를 내렸습니다. 팀이 어떤 고통을 받을지 선택해야 합니다!,135740,5,0,0,2
+2393,심리 조작,몹쓸이가 일시적으로 능력을 무덤 파괴로 교체했습니다.,135740,5,0,0,2
+2394,심리 조작,아디우스가 애완동물 팀에 저주를 내렸습니다. 팀이 어떤 고통을 받을지 선택해야 합니다!,135740,5,0,0,10
+2395,심리 조작,아디우스가 애완동물 팀에 저주를 내렸습니다. 팀이 어떤 고통을 받을지 선택해야 합니다!,135740,5,0,0,10
+2396,황폐한 아웃랜드,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+지옥 재를 대상의 눈에 뿌려 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 적중률을 [abs(abilityStateMod(41 ,1014))]%만큼 감소시킵니다.",132858,6,5,0,0
+2397,광야의 벽,두 번의 공격을 막습니다.,613602,6,0,1189,2
+2398,광야의 벽,나무로 댐을 지어 두 번의 공격을 막습니다. 상대 팀뿐 아니라 우리 팀의 공격도 포함됩니다.,613602,6,5,0,2
+2399,바람 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+몰아치는 바람을 방출하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",1029595,2,0,0,0
+2400,맹렬한 날갯짓,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+날개를 맹렬하게 펄럭여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",2103903,2,1,0,0
+2401,안면 강타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+주먹으로 적의 안면을 강타하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",135906,0,1,0,0
+2402,침착한 물기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+서서히 적을 1~2번 물어 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+나중에 공격하면 가격 횟수가 증가합니다.",1339043,8,0,0,0
+2403,생명 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",237575,6,4,0,0
+2404,갉아먹기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+부단히 달려가 적을 갉아먹어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 먼저 공격하면 상대방을 기절시킵니다.",647701,4,2,0,0
+2405,다시 안식으로,죽음의 품으로 돌아가 상대 팀의 공격을 피합니다. 곧바로 생명력이 가장 낮은 우리 팀 애완동물과 교체됩니다.,236399,3,7,0,2
+2406,진흙 갈퀴,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+산사태를 일으켜 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 우중충한 날씨로 바꿉니다. 
+
+우중충한 날씨로 인해 3라운드 동안 애완동물 교체가 불가능해지고, 모든 치명타 및 극대화 공격력이 [abs(abilityStateMod(314,718))]%만큼 증가합니다.",2101174,7,3,0,0
+2407,방울,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+수액 웅덩이로 잠수하여 한 라운드 동안 공격당하지 않습니다. 
+
+다음 라운드에 대상을 공격하여 [StandardDamage(2, 1)]의 [School()] 피해를 입힙니다.",1500943,5,5,0,0
+2408,끈끈이 웅덩이,"끈적이 웅덩이입니다. 
+공격당하지 않습니다.",1500943,-1,0,1197,0
+2409,다시 안식으로,공격을 피할 확률이 100%만큼 증가합니다.,236399,-1,0,1198,2
+2410,태양껍질,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+모든 적에게 승천의 보루의 빛을 반사하여 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,4)]라운드 동안 날씨를 화창한 날로 바꿉니다.
+
+화창한 날 동안에는 모든 애완동물의 최대 생명력이 [abs(abilityStateMod(99,403))]%만큼 증가하고 치유 효과가 [abs(abilityStateMod(65,403))]%만큼 증가합니다.",1498832,6,3,0,0
+2411,깊게 물어뜯기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 깊게 물어뜯어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+능력을 사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(200*AttackBonus())]의 [School()] 피해를 입힙니다.",133935,8,1,0,0
+2412,치유의 충돌,"생명력이 [percentage(1,1)]%만큼 회복됩니다.",135845,8,3,0,2
+2413,재빠른 포탑,"포탑을 지어 상대 팀의 앞 줄에 있는 애완동물을 공격합니다. 매 라운드마다 [FormatDamage(SimpleDamage(1,1,711)*3)]의 [School()] 피해를 입힙니다.
+
+포탑 하나당 [duration(1,1)]라운드 동안 지속됩니다.",133013,9,0,0,0
+2414,증오의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 때려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",3549051,3,2,0,0
+2415,금속 방패,공격을 막습니다.,3155390,9,0,0,2
+2416,금속 방패,육중한 금속 방패가 다음 세 번의 공격을 막습니다.,3155390,9,2,0,2
+2417,찐득한 점액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 현재 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대기 중인 적 애완동물에게도 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다.",348565,5,3,0,0
+2418,게걸충 키틴질,"대상이 매 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,2418))*AttackBonus()]까지 감소시킵니다.",3084143,-1,0,660,2
+2419,게걸충 키틴질,"[duration(1,1)]라운드 동안 각각의 공격으로부터 받는 피해를 최대 [abs(abilityStateMod(71,2418))*AttackBonus()]까지 감소시킵니다.",3084143,4,3,0,0
+2420,강력 산성 찐득이,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적 팀에 |cFF1EFF00독성|r 찐득이를 뱉어 매 라운드마다 [StandardDamage(1,1,368)]의 [School()] 피해를 입히고, [duration(1,1)]라운드 동안 받는 피해를 [abs(abilityStateMod(24,368))]%만큼 증가시킵니다.",134437,4,0,0,0
+2421,숲 잠복,"속도가 30%만큼 감소하지만, [duration(1,1)]라운드 안에 하는 다음 공격의 위력이 150%만큼 증가합니다.",514640,7,2,0,2
+2422,빠른 회피,"공격을 피할 확률이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136056,0,2,0,2
+2423,허기진 이빨,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,3)]%만큼 자신의 생명력을 회복합니다.",3072466,7,2,0,0
+2424,노출의 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 두 번 입힙니다.
+
+대상이 |cFF1EFF00중독 상태|r면 첫 번째 공격이 추가 피해를 입힙니다.
+
+대상이 |cFFFF2020불타는 상태|r면 두 번째 공격이 추가 피해를 입힙니다.",1508501,1,0,0,0
+2425,늪지 진흙,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+늪지 진흙을 내던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 우중충한 날씨로 바꿉니다. 
+
+우중충한 날씨로 인해 3라운드 동안 애완동물 교체가 불가능해지고, 모든 치명타 및 극대화 공격력이 [abs(abilityStateMod(314,718))]%만큼 증가합니다.",236845,6,1,0,0
+2426,피의 복수,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+적을 약탈로 처치하면 생명력을 [StandardHealing(1,2)]만큼 회복합니다.
+
+약탈은 [numTurns()]회 동안 계속됩니다.",1394887,7,2,0,0
+2427,재빠른 포탑,"매 라운드마다 상대 팀의 앞 줄에 있는 애완동물에게 [FormatDamage(SimpleDamage(1,1)*4)]의 [School()] 피해를 입힙니다.",133013,9,0,153,0
+2428,뾰족한 외피,"공격당할 때마다 자신이 받는 피해를 최대 [abs(abilityStateMod(71,316))*AttackBonus()]까지 줄이고, 직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",237488,1,0,0,0
+2429,대규모 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+시전자가 즉시 죽으며 상대 팀에 자신의 총 생명력의 [FormatDamage(points(1,1))]%만큼 피해를 입힙니다.
+
+시전자가 폭파를 사용하면 안전장치 기술을 가동할 수 없습니다.",132263,9,0,0,2
+2430,긁기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+크게 할퀴어 [StandardDamage(1,2)]의 [School()] 피해를 입힙니다. 먼저 공격하면 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",1029744,4,0,0,0
+2431,탐식,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+|cFF970000출혈|r 중인 대상에게는 항상 적중합니다.",132139,7,3,0,0
+2432,암울한 운명,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+복수의 일격으로 시전자가 마지막으로 받은 피해와 같은 [petTypeName(abilityPetType())] 피해를 입힙니다.",3605497,0,3,0,0
+2433,비전 탄막,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 1~2번 탄막을 퍼부어 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+먼저 공격하면 가격 횟수가 증가합니다.",236221,5,0,0,0
+2435,마나 불꽃,"직접 피해를 입을 때마다 [StandardDamage(1,1,2436)]의 [School()] 피해를 되돌려줍니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",136115,5,3,0,0
+2436,마나 불꽃,"직접 피해를 입을 때마다 [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)]의 [School()] 피해를 되돌려줍니다.",136115,5,0,0,0
+2439,창조의 빛,창조의 빛이 지속적으로 생명력을 회복시킵니다. 치유량은 서서히 감소합니다.,135980,5,0,0,0
+2440,창조의 빛,"고대 태초의 존재의 기술력으로 현재 애완동물의 부상을 치유하여 첫 번째 라운드에 [StandardHealing(1,1,2439)]의 생명력을, 두 번째 라운드에 [StandardHealing(2,1,2439)]의 생명력을, 세 번째 라운드에 [StandardHealing(3,1,2439)]의 생명력을 회복시킵니다.",135980,5,5,0,2
+2441,느릿한 해체,"매 라운드마다 대상 최대 생명력의 [points(1,1)]%만큼의 피해를 입힙니다.",132097,5,0,386,3
+2442,느릿한 해체,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+매 라운드마다 대상의 최대 생명력의 [points(1,1,271)]%에 해당하는 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",132097,5,0,0,2
+2444,기막힌 연계,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+연속 공격을 날려 [StandardDamage(1,1)], [StandardDamage(1,2)], [StandardDamage(1,4)]의 [School()] 피해를 입힙니다.
+
+마지막 공격은 항상 치명타로 적중합니다.",132116,7,0,0,0
+2445,치명타 보너스,"치명타 및 극대화율이 [abs(abilityStateMod(40, 2445))]%만큼 증가합니다.",132299,7,0,0,10
+2446,마구잡이 난타,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[duration(1,1)]라운드 동안 대상을 기절시킵니다.",132114,7,5,0,2
+2447,소용돌이,"매 라운드마다 [accuracy(1,1)]%의 확률로 현재 애완동물이 기절합니다. 성공 시 사라집니다.",136018,2,0,225,0
+2448,소용돌이 춤,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+또한, 소용돌이를 생성하여 [accuracy(1,1,2447)]%의 확률로 적 애완동물을 기절시킵니다.
+
+[duration(1,2)]라운드 동안 지속됩니다.",136018,2,4,0,0
+2449,무자비한 불꽃,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+숨결 무기로 적을 공격해 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다. 또한, 25% 확률로 대상을 불태워 3라운드 동안 각 라운드마다 [StandardDamage(1, 1, 500)]의 [School(500)] 피해를 입히며, 25% 확률로 대상을 기절시킵니다.",134153,1,4,0,0
+2450,태초의 울음,"대상에게 매 공격마다[abs(abilityStateMod(71,2450))*AttackBonus()]의 추가 피해를 입힙니다.",3731082,8,0,530,3
+2451,태초의 울음,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+등골이 서늘해지는 울음을 내질러 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입히고, [duration(2,1)]라운드 동안 대상에게 매 공격마다 [abs(abilityStateMod(71,2450))*AttackBonus()]의 추가 피해를 입힙니다.",3731082,8,3,0,2
+2452,후벼 파는 발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+발톱으로 적을 강하게 할퀴어 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",134912,4,0,0,0
+2453,원시도롱뇽 후려치기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 강타하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힌 후, 빠르게 후퇴하여 1라운드 동안 공격당하지 않습니다.",893777,8,4,0,0
+2454,약자 포식,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 또한, 대상이 |cFF1EFF00중독|r 상태일 경우 [StandardDamage(1,2)]의 추가 피해를, |cffffffff거미줄|r 상태일 경우 [StandardDamage(1,3)]의 추가 피해를 입힙니다.",1729493,7,3,0,0
+2455,의도적인 후퇴,"즉시 모든 아군의 생명력을 [StandardHealing(1,1)]만큼 회복시킵니다.
+
+이번 라운드가 끝날 때 사용자는 생명력이 가장 높은 우리 팀 애완동물과 교체됩니다.",133570,4,6,0,0
+2456,공포의 독성,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 대상을 |cFF1EFF00중독|r시켜 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 추가 [School(379)] 피해를 입힙니다.
+
+이번 라운드가 끝날 때, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",136070,7,5,0,0
+2457,피의 수확,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀의 각 애완동물에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고, 같은 양만큼 아군 애완동물을 치유합니다.",1029738,2,2,0,0
+2458,소용돌이 갈퀴발톱,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+갈퀴발톱으로 상대 팀의 애완동물을 베어, 각 애완동물을 |cFF970000출혈|r시키고 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",1508486,2,5,0,0
+2459,껍질 요새,"회피율이 [abs(abilityStateMod( 73, 311 ))]%만큼 증가합니다. 사용자는 행동 불가 상태가 됩니다.",134434,8,0,1210,2
+2460,껍질 요새,"껍질의 힘을 끌어내 현재 라운드와 다음 라운드에서 모든 공격을 막아냅니다. 보호막을 투사하는 동안 사용자는 행동 불가 상태가 됩니다.
+
+이 기술은 항상 먼저 사용됩니다.",134434,8,6,0,2
+2462,팔 대포 작렬,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+마력 광선으로 적을 강타해 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())]만큼 증가하고, 최대 [FormatDamage(25 *AttackBonus())]의 [School()] 피해를 입힙니다.",132868,9,0,0,0
+2463,강하 폭격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+비행기에 명령을 내려 적을 폭격해 [StandardDamage(1,1)]의 [School()] 피해를 나누어 입힙니다.",1141394,9,5,0,0
+2465,격분의 쇄도,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 3번 공격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술을 사용할 때마다, 이번 라운드가 끝날 때 속도가 20%만큼 증가합니다.",650636,1,0,0,0
+2468,[DNT] TRAP HELP,대상을 최대 생명력의 1%로 설정하고 기절시킵니다.,646380,5,0,0,0
+2469,수확의 갈고리,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고, 상대 애완동물이 가장 생명력이 낮은 애완동물로 교체되게 합니다.",134226,9,4,0,0
+2470,우르속의 발톱,"[StandardAccuracy(1,1)] |cffffffff적중률|r
+
+우르속의 티탄강철 발톱이 적을 공격하여 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",1129695,7,0,0,0
+2471,상처 분쇄,"[StandardAccuracy(1,1)] |cffffffff적중률|r
+
+예리한 이빨과 발톱이 적을 찢어발기고, [StandardDamage(1,1)] [School()]의 피해를 입힙니다.",132278,7,4,0,0
+2472,천둥혓바닥,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+뿔꺼비가 거대한 혓바닥을 내질러 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+뿔꺼비가 먼저 공격하면 [StandardDamage(1,2)]의 추가 피해를 입힙니다.",350575,8,2,0,0
+2473,수달 숨결,"[StandardAccuracy(1,1)] |cffffffff적중률|r
+
+적을 수달 숨결에 휩싸이게 해서 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(5*AttackBonus())] 만큼 증가하여, 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",651096,8,0,0,0
+2474,수달 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다. 적은 
+|cFFFF2020불타는|r 상태가 되어, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,500)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",135808,6,3,0,0
+2475,수달 숨결,"[StandardAccuracy(1,1)] |cffffffff적중률|r
+
+적을 수달 숨결에 휩싸이게 해서[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",840199,1,0,0,0
+2476,싸늘한 거미줄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 싸늘한 |cffffffff거미줄|r을 던져 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 도망치지 못하게 합니다.",237430,6,0,0,0
+2477,오한그물 거미 떼,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+얼음 거미 떼가 적을 습격해 [FormatDamage(SimpleDamage(1,1)*2)]의 [School()] 피해를 입힙니다. 
+
+|cffffffff거미줄|r에 걸린 대상에게는 두 배의 피해를 입힙니다.",1387708,6,3,0,0
+2478,동상의 거미줄,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 얼어붙은 |cffffffff거미줄|r로 감싸 대상이 공격할 때마다 [StandardDamage(1,1,381)]의 [School()] 피해를 입게 합니다. [duration(1,2)]라운드 동안 지속됩니다.",236227,6,0,0,0
+2479,맹독눈발 타액,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 대상을 |cFF1EFF00중독|r시켜, 추가로 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,379)]의 [School(379)] 피해를 입힙니다.",135781,6,0,0,0
+2480,온천 휴양,"편안하게 휴식을 즐깁니다. 첫 번째 라운드에 생명력을 [StandardHealing(1,1,246)]만큼 회복하고 두 번째 라운드에 [StandardHealing(2,1,246)]만큼, 세 번째 라운드에 [StandardHealing(3,1, 246)]만큼 회복합니다.
+
+휴식 중에는 애완동물을 교체할 수 없습니다.",617824,8,5,0,2
+2481,피로가 풀림,"휴식을 즐깁니다.
+매 라운드마다 생명력을 회복합니다.",617824,8,0,78,0
+2482,끈적이는 쇄도,"상대 팀과 우리 팀의 모든 생성물을 파괴합니다.
+
+[duration(1,1)]라운드 동안 상대 팀의 속도가 [abs(abilityStateMod(25,154))]%만큼 감소합니다.",3528297,5,5,0,2
+2483,모루 떨구기,"|cffffffff적중률|r [StandardAccuracy(2,1)]
+
+중력을 거슬러 높이 뛰어올라 한 라운드 동안 공격당하지 않습니다. 
+
+다음 라운드에 땅을 울려 적에게 [StandardDamage(2,1)]의 [School()] 피해를 입히고 절반의 피해를 적의 대기 중인 애완동물에게 입힙니다.",1020356,9,2,0,0
+2484,전투와 비행,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 생명력이 가장 높은 우리 팀 애완동물과 교체합니다.
+
+날아가서 싸우리에 적중당한 적은 [duration(1,2)]라운드 동안 받는 피해가 [abilityStateMod(24,516)]%만큼 증가합니다.",132295,2,5,0,0
+2489,불만의 탁자,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+암흑 덫을 땅에 놓아둡니다. 덫은 상대 팀이 기술을 사용할 때마다 일정 확률로 발동됩니다.
+
+덫에 걸린 대상은 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED
+,810),1,810)]의 [School()] 피해를 입고 [duration(getProcIndex(PROC_ON_AURA_REMOVED
+,810),2,810)]라운드 동안 적을 공격할 수 없게 됩니다.",134544,5,6,0,0
+2490,불만의 탁자,"기술이 일정 확률로 덫을 작동시켜 [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED
+),1)]의 [School()] 피해를 입히고 [duration(getProcIndex(PROC_ON_AURA_REMOVED
+),2)]라운드 동안 기절시킵니다.",134544,5,0,1242,0
+2491,영양 만점 나사,"다음 라운드가 끝날 때 현재 애완동물이 [StandardHealing(1,1,2492)]의 생명력을 회복합니다.",133944,4,5,0,0
+2492,영양 만점 나사,"다음 라운드에 현재 애완동물이 [StandardHealing(1,1)]의 생명력을 회복합니다.",133944,4,0,0,0
+2493,발광,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 5번 공격해 매 공격마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술이 적중할 때마다 이번 라운드가 끝날 때 속도가 10%만큼 증가합니다. 2라운드 동안 지속됩니다.",538536,7,3,0,0
+2494,속도 감소,"속도가 [abs(abilityStateMod(25,154))]%만큼 감소합니다.",653221,7,0,316,3
+2495,야성의 발톱 폭풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+소용돌이치며 적을 발톱으로 베어 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cFF970000출혈|r을 일으켜 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,491)]의 [School(491)] 피해를 입힙니다.",4632786,4,0,0,0
+2498,안면 강타 X,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+빠르게 있는 힘껏 적의 얼굴을 강타하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다. 
+
+사용할 때마다 공격력이 [FormatDamage(10*AttackBonus())]만큼 증가합니다. 최대 [FormatDamage(30*AttackBonus())]의 [School()] 피해를 입힙니다.",135906,0,0,0,0
+2499,양자의 일격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적을 때려 [StandardDamage(1,1)]의 [petTypeName(abilityPetType())] 피해를 입힙니다.",1392544,5,0,0,0
+2500,치명적인 꿈,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+멍서스가 잠듭니다. 그의 치명적인 꿈은 대상을 괴롭히며 매 라운드마다 [StandardDamage(1,1,653)]의 [School()] 피해를 입힙니다. 
+
+멍서스가 잠자는 동안에는 죽은 것으로 간주됩니다.",236798,3,4,0,0
+2502,[DNT] INSTADEAD,애완동물의 생명력을 0%로 설정합니다.,133728,5,0,0,0
+2503,엘룬의 은총,"엘룬이 우리 팀에 축복을 내려 모든 아군을 [StandardHealing(1,1)]만큼 치유합니다.",4640501,5,5,0,2
+2504,증오의 현신,"대상에게 매 공격마다 [abs(abilityStateMod(71,2504))*AttackBonus()]의 추가 피해를 입힙니다.",4050664,5,0,530,3
+2505,증오의 현신,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+헤아릴 수 없는 증오가 대상을 압도하여, 대상에게 매 공격마다 [abs(abilityStateMod(71,2504))*AttackBonus()]의 추가 피해를 입힙니다.
+
+[duration(1,1)]라운드 동안 지속됩니다.",4050664,5,5,0,2
+2506,공포에 항복해라,,132296,3,0,0,2
+2508,폭풍 숨결,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 번개 폭풍을 내뿜어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.
+
+날씨가 번개 폭풍일 때는 한 번 더 공격하여 [StandardDamage(1,3)]의 [School()] 피해를 입힙니다.",236392,6,0,0,0
+2509,생명력 착취,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+생명 그 자체의 힘을 조종하여 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+입힌 피해의 [points(1,2)]%만큼 자신의 생명력을 회복합니다.",136233,1,0,0,0
+2510,오만,"받는 피해가 [abs(abilityStateMod( 24, 185 ))]%만큼 증가합니다.",1390945,5,0,530,3
+2511,오만,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+방어는 생각하지 않고 마구잡이로 공격을 날립니다. 하찮은 필멸자가 발악해봤자 아니겠어요?
+
+[StandardDamage(1, 1)]의 [School()] 피해를 입히지만 [duration(1,3)]라운드 동안 받는 피해가 [abs(abilityStateMod(24, 2510 ))]%만큼 증가합니다.",1390945,5,1,0,0
+2512,빙하기,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입히고 25% 확률로 대상을 기절시킵니다.",4226156,6,5,0,0
+2513,라벤홀트의 질주,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+꼬마 래시온이 두 차례 암살자 공세를 내보내 적을 처단합니다.
+
+꼬마 래시온이 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입힙니다.
+
+각 암살자 공세는 [FormatDamage(SimpleDamage(1,2))]의 [School()] 피해를 입힙니다.",458726,0,0,0,0
+2514,[DNT] TEST,,897140,5,0,0,18
+2515,질풍,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+울부짖는 강풍의 힘으로 적을 두 번 가격합니다.
+
+적중할 때마다 [FormatDamage(SimpleDamage(1,1))]의 [School()] 피해를 입힙니다.",132845,6,0,0,0
+2518,비전의 반격,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+[StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+애완동물의 생명력이 대상보다 낮으면 추가로 [StandardDamage(1,2)]의 피해를 입힙니다.",429382,5,0,0,0
+2519,방울 폭발,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+적에게 돌진해 방울 폭발을 일으켜 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.
+
+이 기술은 항상 먼저 사용됩니다.",132852,8,1,0,0
+2520,눈부심,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+찬란하게 번쩍이는 구체로 대상에게 [StandardDamage(1,1)]의 [School()] 피해를 입히고 |cff9933FF눈을 멀게|r 합니다. [duration(1,2)]라운드 동안 대상의 적중률이 [abs(abilityStateMod( 41 , 462 ))]%만큼 감소합니다.",133836,0,4,0,0
+2522,대재앙의 칼날,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+작은 대재앙의 칼날로 베어 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",135378,0,0,0,0
+2523,연발 어둠의 화살,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+상대 팀에게 어둠의 화살을 날려 [StandardDamage(1, 1)]의 [School()] 피해를 입힙니다.",136197,5,3,0,0
+2524,매혹의 포자,"매 라운드마다 [StandardDamage(1,1)]의 [School()] 피해를 입힙니다.",5929575,6,0,0,0
+2525,매혹의 포자,"|cffffffff적중률|r [StandardAccuracy(1,1)]
+
+중독을 유발하는 향으로 상대 팀을 뒤덮어 즉시 [StandardDamage(1,1)]의 [School()] 피해를 입히고 [duration(1,2)]라운드 동안 매 라운드마다 [StandardDamage(1,1,2524)]의 [School()] 피해를 입힙니다. 이 기술은 애완동물을 교체해도 유지됩니다.",5929575,6,0,0,0
+2526,망치 굴착기,"|cffffffff적중률|r [StandardAccuracy(1,2)]
+
+적 애완동물에게 [StandardDamage(1,2)*4]의 [School()] 피해를 입힙니다.
+
+망치 굴착기는 적 대상의 받는 피해 감소 효과를 분쇄해 버립니다.",1278390,9,0,0,0
