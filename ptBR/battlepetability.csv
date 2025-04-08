@@ -3652,6 +3652,16 @@ Ordena que sua máquina voadora bombardeie os inimigos, causando [StandardDamage
 Ataca o inimigo 3 vezes, causando [StandardDamage(1,1)] de dano tipo [School()] por ataque.
 
 Toda vez que você usar esta habilidade, sua velocidade aumenta em 20% no final da rodada.",650636,1,0,0,0
+2466,Atiçar as Chamas,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Restaura [StandardHealing(1,1)] pontos de vida do usuário e muda o tempo para Terra Calcinada por [duration(1,2)] |4rodada:rodadas;.
+
+Durante a Terra Calcinada, todas as mascotes contam como |cFFFF2020Em Chamas|r e todas as mascotes ativas recebem [StandardDamage(1,1,171)] de dano tipo [School(171)] por rodada.",459027,9,3,0,2
+2467,Inferno Pessoal,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Ejeta carvão incandescente em uma explosão de chamas, causando [StandardDamage(1,1)] de dano tipo [School()].
+
+Causa o dobro de dano se o alvo estiver |cFFFF2020Em Chamas|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Deixa o alvo com 1% dos pontos de vida e atordoa o alvo.,646380,5,0,0,0
 2469,Gancho de Ceifa,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
 
@@ -3814,3 +3824,13 @@ Cobre a equipe inimiga com aromas intoxicantes, causando [StandardDamage(1,1)] d
 Causa [StandardDamage(1,2)*4] de dano tipo [School()] à mascote inimiga.
 
 Perfuratriz Martelante destroça qualquer efeito de redução de dano fixo no alvo inimigo.",1278390,9,0,0,0
+2527,Torrente de Escuridão,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Ataca o inimigo com um surto de energia de treva, causando [StandardDamage(1,1)] de dano tipo [School()], e tem [accuracy(1,3)]% de chance de atordoar o alvo por [duration(1,3)] |4rodada:rodadas;.
+
+A chance de atordoar o alvo aumenta para 100% se o tempo for Luz do Sol.",1386551,0,3,0,0
+2528,Estouro do Caos,"[StandardAccuracy(1,1)] |cffffffffde chance de acerto|r
+
+Causa instantaneamente [StandardDamage(1,1)] de dano tipo [School()], mais [StandardDamage(1,3)] de dano se o tempo for Escuridão. O usuário precisa de uma recarga de duas |4rodada:rodadas; em seguida.
+
+Enquanto recarrega, você não pode executar outras ações.",6238556,5,0,0,0

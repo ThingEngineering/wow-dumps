@@ -3647,6 +3647,16 @@ Befiehlt Eurer Flugmaschine, einen Sturzflugangriff auf Eure Gegner auszuführen
 Greift den Gegner 3-mal an und verursacht [StandardDamage(1,1)] [School()]schaden pro Angriff.
 
 Wenn Ihr diese Fähigkeit benutzt, erhöht sich die Geschwindigkeit Eures Haustiers zum Ende der Runde um 20%.",650636,1,0,0,0
+2466,Flammen schüren,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Stellt beim Benutzer [StandardHealing(1,1)] Gesundheit wieder her und ändert das Wetter für [duration(1,2)] |4Runde:Runden; zu 'Verbrannte Erde'.
+
+Während 'Verbrannte Erde' aktiv ist, gelten alle Haustiere als |cFFFF2020Brennend|r und alle aktiven Haustiere erleiden pro Runde [StandardDamage(1,1,171)] [School(171)]schaden.",459027,9,3,0,2
+2467,Persönliches Inferno,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
+
+Schleudert brennende Kohlen mit einer Stichflamme heraus und verursacht [StandardDamage(1,1)] [School()]schaden.
+
+Verursacht doppelten Schaden, wenn das Ziel |cFFFF2020Brennt|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Setzt die maximale Gesundheit des Ziels auf 1% und betäubt es.,646380,5,0,0,0
 2469,Schlitzender Haken,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
@@ -3808,3 +3818,13 @@ Hüllt das gegnerische Team in berauschende Aromen, verursacht sofort [StandardD
 Fügt dem gegnerischen Haustier [StandardDamage(1,2)*4] [School()]schaden zu.
 
 'Schlagbohrer' entfernt alle statischen Mitigationseffekte vom gegnerischen Ziel.",1278390,9,0,0,0
+2527,Woge der Dunkelheit,"|cffffffffTrefferchance:|r
+
+[StandardAccuracy(1,1)]Eine Woge dunkler Energie erfasst den Gegner, fügt ihm [StandardDamage(1,1)] der Kategorie [School()] zu und hat eine Chance von [accuracy(1,3)]%, das Ziel [duration(1,3)] |4Runde:Runden; lang zu betäuben.
+
+Die Betäubungschance beträgt 100%, wenn Sonnenlicht herrscht.",1386551,0,3,0,0
+2528,Leerenstoß,"|cffffffffTrefferchance:|r
+
+[StandardAccuracy(1,1)]Verursacht sofort [StandardDamage(1,1)] Schaden der Kategorie [School()] und zusätzlich [StandardDamage(1,3)] Schaden, wenn Dunkelheit herrscht. Der Benutzer muss sich nach Einsatz dieser Fähigkeit zwei |4Runde:Runden; lang erholen.
+
+Während der Erholungsphase können keine anderen Aktionen durchgeführt werden.",6238556,5,0,0,0

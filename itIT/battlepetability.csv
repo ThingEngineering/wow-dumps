@@ -3647,6 +3647,16 @@ Ordina alla tua macchina volante di bombardare le mascotte nemiche, infliggendo 
 Attacca il nemico 3 volte, infliggendo [StandardDamage(1,1)] danni [School()] per attacco.
 
 Ogni volta che usi quest'abilità, la tua velocità aumenta del 20% alla fine del turno.",650636,1,0,0,0
+2466,Attizzamento Fiamme,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Rigenera [StandardHealing(1,1)] salute alla mascotte e cambia l'effetto ambientale in Terra Bruciata per [duration(1,2)] |4turno:turni;.
+
+Durante Terra Bruciata, tutte le mascotte sono |cFFFF2020In Fiamme|r e tutte le mascotte attive subiscono [StandardDamage(1,1,171)] danni [School(171)] a ogni turno.",459027,9,3,0,2
+2467,Inferno Personale,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
+
+Espelle dei carboni ardenti in un ruggito di fiamme, infliggendo [StandardDamage(1,1)] danni [School()].
+
+Infligge danni doppi se il bersaglio è |cFFFF2020In Fiamme|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Imposta il bersaglio all'1% della salute massima e lo stordisce.,646380,5,0,0,0
 2469,Gancio da Mietitura,"|cffffffffProbabilità d'impatto:|r [StandardAccuracy(1,1)]
 
@@ -3809,3 +3819,13 @@ Ricopre la mascotte nemica di aromi inebrianti, infliggendo istantaneamente [Sta
 Infligge [StandardDamage(1,2)*4] danni [School()] alla mascotte nemica.
 
 Trivella Martellante frantuma qualsiasi beneficio di protezione dai danni subiti attivo sul bersaglio.",1278390,9,0,0,0
+2527,Eruzione Oscura,"|cffffffffProbabilità d'impatto:|r[StandardAccuracy(1,1)]
+
+Travolge il nemico con un'ondata di energia oscura, infliggendo [StandardDamage(1,1)] danni [School()], e ha una probabilità del [accuracy(1,3)]% di stordirlo per [duration(1,3)] |4turno:turni;.
+
+Durante Luce Solare, la probabilità di stordirlo aumenta al 100%.",1386551,0,3,0,0
+2528,Getto del Vuoto,"|cffffffffProbabilità d'impatto:|r[StandardAccuracy(1,1)]
+
+Infligge istantaneamente [StandardDamage(1,1)] danni [School()] e, durante Oscurità, [StandardDamage(1,3)] danni aggiuntivi. L'attaccante deve ricaricare per i 2 turni successivi.
+
+Non è possibile eseguire altre azioni durante la ricarica.",6238556,5,0,0,0

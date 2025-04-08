@@ -3658,6 +3658,17 @@ Vous ordonnez à votre machine volante de bombarder vos ennemis, ce qui leur inf
 Attaque l’ennemi 3 fois et lui inflige [StandardDamage(1,1)] points de dégâts [School()] par coup.
 
 Chaque utilisation de cette technique augmente votre vitesse de 20% à la fin du round.",650636,1,0,0,0
+2466,Aviver les flammes,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Rend [StandardHealing(1,1)] points de vie au lanceur et applique les conditions météo de Terre brûlée pendant [duration(1,2)] |4round:rounds;.
+
+Pendant Terre brûlée, les familiers sont considérés comme en train de |cFFFF2020brûler|r et les familiers actifs subissent [StandardDamage(1,1,171)] points de dégâts [School(171)] par round.",459027,9,3,0,2
+2467,Enfer personnel,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
+
+Crache des charbons ardents dans une gerbe de flammes, ce qui inflige [StandardDamage(1,1)] points de dégâts [School()].
+
+
+Dégâts doublés si la cible est en train de |cFFFF2020brûler|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Fixe les points de vie de la cible à 1% et l’étourdit.,646380,5,0,0,0
 2469,Crochet ravageur,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
@@ -3820,3 +3831,13 @@ Recouvre l’équipe adverse d’arômes enivrants et lui inflige instantanémen
 Inflige [StandardDamage(1,2)*4] $lpoint:points; de dégâts [School()] à la mascotte adverse.
 
 Le perforateur à percussion brise tous les effets de réduction des dégâts fixes sur la cible ennemie.",1278390,9,0,0,0
+2527,Vague de ténèbres,"[StandardAccuracy(1,1)] |cffffffffChances de toucher :|r
+
+Frappe l’adversaire avec une vague d’énergie sombre, qui inflige [StandardDamage(1,1)] $lpoint:points; de dégâts [School()] et a [accuracy(1,3)] % de chances d’étourdir la cible pendant [duration(1,3)] |4tour:tours;.
+
+Les chances d’étourdir sont augmentées à 100 % si le temps est ensoleillé.",1386551,0,3,0,0
+2528,Explosion de vide,"[StandardAccuracy(1,1)] |cffffffffChances de toucher :|r
+
+Inflige instantanément [StandardDamage(1,1)] $lpoint:points; de dégâts [School()], plus [StandardDamage(1,3)] $lpoint:points; de dégâts si le temps est aux Ténèbres. Le lanceur ou la lanceuse doit ensuite recharger pendant deux tours.
+
+Pendant qu’on recharge, on ne peut effectuer aucune autre action.",6238556,5,0,0,0

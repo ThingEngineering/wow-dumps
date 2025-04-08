@@ -3650,6 +3650,16 @@ Order your flying machine to dive bomb your enemies, dealing [StandardDamage(1,1
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
 
 Each time you use this ability, your speed increases by 20% at the end of the round.",650636,1,0,0,0
+2466,Stoke the Flames,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Restores [StandardHealing(1,1)] health to the user and changes the weather to Scorched Earth for [duration(1,2)] |4round:rounds;.
+
+During Scorched Earth, all pets count as |cFFFF2020Burning|r and all active pets take [StandardDamage(1,1,171)] [School(171)] damage per round.",459027,9,3,0,2
+2467,Personal Inferno,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Eject burning coals in a roar of flame, dealing [StandardDamage(1,1)] [School()] damage.
+
+Deals double damage if the target is |cFFFF2020Burning|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Sets target to 1% of max health and stuns it.,646380,5,0,0,0
 2469,Reaping Hook,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3812,3 +3822,13 @@ Covers the enemy team with intoxicating aromas, dealing [StandardDamage(1,1)] [S
 Deals [StandardDamage(1,2)*4] [School()] damage to the enemy pet.
 
 Hammering Drill shatters any flat damage reduction effects on the enemy target.",1278390,9,0,0,0
+2527,Surge of Darkness,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Blasts the opponent with a surge of dark energy, dealing [StandardDamage(1,1)] [School()] damage and has a [accuracy(1,3)]% chance to stun the target for [duration(1,3)] |4round:rounds;.
+
+The chance to stun is increased to 100% if the weather is Sunlight.",1386551,0,3,0,0
+2528,Void Burst,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Instantly deals [StandardDamage(1,1)] [School()] damage, plus [StandardDamage(1,3)] damage if the weather is Darkness. The user must recharge for two |4round:rounds; afterwards.
+
+While recharging, you cannot perform any other actions.",6238556,5,0,0,0

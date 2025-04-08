@@ -3656,6 +3656,16 @@ Ordena a tu máquina voladora que bombardee en picado a tus enemigos, lo que inf
 Ataca al enemigo 3 veces y le inflige [StandardDamage(1,1)] p. de daño de [School()] por ataque.
 
 Cada vez que usas esta facultad, tu velocidad aumenta un 20% al final de la ronda.",650636,1,0,0,0
+2466,Avivar las llamas,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Restaura [StandardHealing(1,1)] p. de salud al usuario y cambia el clima a Tierra agostada durante [duration(1,2)] |4ronda:rondas;.
+
+Durante Tierra agostada, se considera que todas las mascotas están |cFFFF2020ardiendo|r, y las activas reciben [StandardDamage(1,1,171)] p. de daño de [School(171)] por ronda.",459027,9,3,0,2
+2467,Infierno personal,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
+
+Eyecta unas brasas ardientes en una explosión de llamas que inflige [StandardDamage(1,1)] p. de daño de [School()].
+
+Inflige el doble de daño si el objetivo está |cFFFF2020ardiendo|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Deja al objetivo en un 1% de la salud máxima y lo aturde.,646380,5,0,0,0
 2469,Gancho segador,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
@@ -3816,3 +3826,13 @@ Cubre al equipo enemigo con un aroma tóxico que inflige al instante [StandardDa
 [StandardAccuracy(1,2)]Inflige [StandardDamage(1,2)*4] p. de daño de [School()] a la mascota enemiga.
 
 Taladro martilleante destruye cualquier efecto de reducción del daño base que tenga el objetivo enemigo.",1278390,9,0,0,0
+2527,Oleada de oscuridad,"|cffffffffProbabilidad de golpe:|r
+
+[StandardAccuracy(1,1)]Arrasa al oponente con una oleada de energía oscura que inflige [StandardDamage(1,1)] p. de daño de [School()] y tiene un [accuracy(1,3)]% de probabilidad de aturdirlo durante [duration(1,3)] |4ronda:rondas;.
+
+La probabilidad de aturdir aumenta hasta el 100% si el clima es luz solar.",1386551,0,3,0,0
+2528,Ráfaga de Vacío,"|cffffffffProbabilidad de golpe: [StandardAccuracy(1,1)]|r
+
+Inflige instantáneamente [StandardDamage(1,1)] p. de daño de [School()] más [StandardDamage(1,3)] p. de daño si el clima es oscuridad. El usuario debe recargarse durante las dos rondas siguientes.
+
+Mientras te recargas, no puedes realizar otras acciones.",6238556,5,0,0,0

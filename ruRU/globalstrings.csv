@@ -10244,7 +10244,7 @@ ID,BaseTag,TagText_lang,Flags
 22209,TRAVEL_PASS_INVITE,Пригласить в группу,1
 22210,GUILD_MOVE_STARTING,Осуществляется перенос гильдии. Гильдейский банк будет недоступен до завершения этого процесса.,1
 22211,GUILD_MOVE_COMPLETE,Процесс переноса гильдии завершен.,1
-22212,GUILD_RENAMED,Ваша гильдия была переименована ее главой.,1
+22212,GUILD_RENAMED,Ваша гильдия была переименована.,1
 22213,TALENT_SPEC_AND_CLASS,%2$s (%1$s),3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Открыть путеводитель по приключениям,1
 22215,ENCOUNTER_JOURNAL,Атлас подземелий,1
@@ -14597,21 +14597,21 @@ ID,BaseTag,TagText_lang,Flags
 34039,CHAR_LOGIN_NO_WORLD,Сервер недоступен,2
 34040,CHAR_LOGIN_SUCCESS,Вход выполнен,2
 34041,CHAR_LOGIN_TEMPORARY_GM_LOCK,"Персонаж временно недоступен. Пожалуйста, повторите попытку позже.",2
-34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,В падежах может меняться только окончание имени.,2
-34043,CHAR_NAME_FAILURE,Недопустимое имя персонажа,2
-34044,CHAR_NAME_INVALID_APOSTROPHE,Имя не должно начинаться с апострофа или заканчиваться им.,2
-34045,CHAR_NAME_INVALID_CHARACTER,Имя может содержать только буквы русского алфавита,2
-34046,CHAR_NAME_INVALID_SPACE,Имя не должно начинаться с пробела или заканчиваться им.,2
-34047,CHAR_NAME_MIXED_LANGUAGES,Имя должно состоять из букв одного языка,2
-34048,CHAR_NAME_MULTIPLE_APOSTROPHES,Вы можете использовать только один апостроф,2
-34049,CHAR_NAME_NO_NAME,Введите имя персонажа,2
-34050,CHAR_NAME_PROFANE,Имя является недопустимым.,2
-34051,CHAR_NAME_RESERVED,Это имя зарезервировано.,2
-34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,Использование двух непроизносимых букв подряд не допускается.,2
-34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,Имя не должно начинаться с непроизносимого знака или заканчиваться им.,2
-34054,CHAR_NAME_THREE_CONSECUTIVE,Вы не можете использовать один и тот же символ три раза подряд.,2
-34055,CHAR_NAME_TOO_LONG,Имя не может содержать больше 12 букв.,2
-34056,CHAR_NAME_TOO_SHORT,Имя должно содержать не менее 2 символов,2
+34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,В падежах может меняться только окончание имени.,3
+34043,CHAR_NAME_FAILURE,Некорректный набор символов,3
+34044,CHAR_NAME_INVALID_APOSTROPHE,Нельзя использовать апостроф в конце или в начале,3
+34045,CHAR_NAME_INVALID_CHARACTER,Имя может содержать только буквы русского алфавита,3
+34046,CHAR_NAME_INVALID_SPACE,Нельзя использовать пробел в конце или в начале,3
+34047,CHAR_NAME_MIXED_LANGUAGES,Имя должно состоять из букв одного языка,3
+34048,CHAR_NAME_MULTIPLE_APOSTROPHES,Допускается только один апостроф,3
+34049,CHAR_NAME_NO_NAME,Заполните поле,3
+34050,CHAR_NAME_PROFANE,Имя является недопустимым.,3
+34051,CHAR_NAME_RESERVED,Это имя зарезервировано.,3
+34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,Использование двух непроизносимых букв подряд не допускается.,3
+34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,Нельзя использовать непроизносимую букву в конце или в начале,3
+34054,CHAR_NAME_THREE_CONSECUTIVE,Нельзя использовать один и тот же символ три раза подряд,3
+34055,CHAR_NAME_TOO_LONG,Слишком длинная строка,3
+34056,CHAR_NAME_TOO_SHORT,Имя должно содержать не менее 2 символов,3
 34057,CHAR_RENAME_DESCRIPTION,Вам нужно сменить имя,2
 34058,CHAR_RENAME_FAILED,Ошибка переименования,2
 34059,CHAR_RENAME_INSTRUCTIONS,Введите новое имя,2
@@ -18187,7 +18187,7 @@ ID,BaseTag,TagText_lang,Flags
 41848,CLUB_FINDER_TUTORIAL_GUILD_LINK,"Вы можете прорекламировать свою гильдию ссылкой в чате.|nЩелкните по кнопке ""Пригласить"".",1
 41849,ERR_NAME_SPACES_DISALLOWED,Имя не должно содержать пробелов. Введите другое имя.,1
 41850,CLUB_FINDER_REAPPLY,Можно повторить через %d |4день:дня:дней;,1
-41851,CHAR_NAME_SPACES_DISALLOWED,Имя не должно содержать пробелов.,2
+41851,CHAR_NAME_SPACES_DISALLOWED,Имя не должно содержать пробелов.,3
 41852,ERR_QUEST_SESSION_RESULT_RESYNC,Задания повторно синхронизированы.,1
 41853,RAF_FIRST_MONTH,"Пригласите друзей, чтобы начать!",1
 41854,ERR_QUEST_SESSION_RESULT_QUEST_NOT_COMPLETED,"Не удалось синхронизироваться, так как один из участников группы не выполнил начальные задания.",1
@@ -18717,10 +18717,10 @@ ID,BaseTag,TagText_lang,Flags
 42511,COVENANT_MISSIONS_GO_TO_SPOILS,Перейти к добыче,5
 42512,COVENANT_MISSIONS_RETURN_TO_MISSIONS,Вернуться к приключениям,5
 42513,PLAYER_CHOICE_STACKABLE_CHOICE,|cff20ff20Эффекты|r,1
-42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cffa335eeЭпическое|r|n|n,1
-42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cff0070ddРедкое|r|n|n,1
-42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cff1eff00Необычное|r|n|n,1
-42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cffffffffОбычное|r|n|n,1
+42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cnIQ4:Эпический|r|n|n,1
+42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cnIQ3:Редкий|r|n|n,1
+42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cnIQ2:Необычный|r|n|n,1
+42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cnIQ1:Обычный|r|n|n,1
 42518,NPEV2_CHAT_USER_TAG_GUIDE,|A:newplayerchat-chaticon-guide:0:0:0:0|a|cff81b558Ментор|r,1
 42519,NPEV2_CHAT_USER_TAG_NEWCOMER,|A:newplayerchat-chaticon-newcomer:0:0:0:0|a,1
 42520,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER,Добро пожаловать в чат для новичков!,1
@@ -20107,7 +20107,7 @@ ID,BaseTag,TagText_lang,Flags
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Пригласить в группу для прохождения подземелья,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Предложить игрока для прохождения подземелья,1
 48706,REQUEST_INVITE_CROSS_FACTION,Подать заявку в группу для прохождения подземелья,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.\n\n|cffffffffДля совместной игры доступны:|r\n- подземелья (заранее собранные группы)\n- рейды (участие без системы очереди)\n- нерейтинговые и рейтинговые PvP-бои\n- Торгаст\n\n|cffffffffДля совместной игры недоступен:|r\n- контент вне помещений",1
+48707,CROSS_FACTION_INVITE_TOOLTIP,"Объединившись с этим игроком из фракции %s, вы сможете участвовать в различных сценариях.\n\n|cffffffffДля совместной игры доступны:|r\n- подземелья (заранее собранные группы)\n- рейды (участие без системы очереди)\n- нерейтинговые и рейтинговые PvP-бои\n- вылазки\n\n|cffffffffДля совместной игры недоступен:|r\n- контент вне помещений",1
 48708,CROSS_FACTION_INVITE_HELPTIP,Приглашайте друзей из противоположной фракции и вместе проходите контент в специальных областях,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,"Отключите режим синхронизации, чтобы пригласить данного игрока",1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Требуется более высокий силлабический потенциал.,1
@@ -20119,7 +20119,7 @@ ID,BaseTag,TagText_lang,Flags
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Награда за прохождение:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Предыдущий рекорд: %s |cff808080(%d-й сезон),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Вы состоите в межфракционной группе. С участниками группы можно проходить подземелья (заранее собранные группы) и рейды (участие без системы очереди), исследовать Торгаст и сражаться в нерейтинговых и рейтинговых PvP-боях.",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Вы состоите в межфракционной группе. С участниками группы можно проходить подземелья (заранее собранные группы) и рейды (участие без системы очереди), участвовать в вылазках и сражаться в нерейтинговых и рейтинговых PvP-боях.",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Вы не можете передать уникальный для фракции предмет герою другой фракции.,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,"Вы встали в очередь на потасовку ""%s"" в роли ""%s"".",1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,Данное действие недоступно для межфракционных групп,1
@@ -20191,7 +20191,7 @@ ID,BaseTag,TagText_lang,Flags
 48796,CROSS_FACTION_PVP_ERROR,Недоступно в межфракционной группе.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,%2$S-%3$s %1$d-го уровня (%4$s),1
 48798,ERR_LFG_FARM_LIMIT,"Вы или другой участник группы за последнее время вошли в слишком большое количество подземелий. Пожалуйста, подождите немного, прежде чем пробовать снова.",1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,"Объединившись с этим игроком из фракции %1$s, вы сможете участвовать в различных сценариях.|n|cffffffffДля совместной игры доступны:|r|n- подземелья (заранее собранные группы)|n- рейды (участие без системы очереди)|n- нерейтинговые и рейтинговые PvP-бои|n- Торгаст|n|cffffffffДля совместной игры недоступен:|r|n- контент вне помещений",1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,"Объединившись с этим игроком из фракции %s, вы сможете участвовать в различных сценариях.|n|cffffffffДля совместной игры доступны:|r|n- подземелья (заранее собранные группы)|n- рейды (участие без системы очереди)|n- нерейтинговые и рейтинговые PvP-бои|n- вылазки|n|cffffffffДля совместной игры недоступен:|r|n- контент вне помещений",1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Игрок из фракции %1$s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Игрок из другой фракции. Для совместной игры выберите режим ""Все фракции"" в настройках сообщества.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Позволяет приглашать в группу игроков из другой фракции.,1
@@ -22074,7 +22074,7 @@ ID,BaseTag,TagText_lang,Flags
 51619,BAG_FILTER_CURRENT_EXPANSION,Только текущее,5
 51620,BAG_FILTER_LEGACY_EXPANSION,Только старинное,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,"Вы можете заменить замороженный предмет в любой момент, перетянув на его место новый.",1
-51622,SPELL_FAILED_CUSTOM_1100,Рядом уже появился пузырь.,1
+51622,SPELL_FAILED_CUSTOM_ERROR_1100,Рядом уже появился пузырь.,1
 51623,SPELL_FAILED_CUSTOM_ERROR,,1
 51624,SPELL_FAILED_CUSTOM_ERROR_861,Недостаточный уровень усиления вылазок.,1
 51628,NPE_UNBOUND_KEYBIND,[Не назначено],1
@@ -22144,7 +22144,7 @@ ID,BaseTag,TagText_lang,Flags
 51706,SPELL_FAILED_CUSTOM_ERROR_900,Этот предмет нельзя изготовить во время раннего доступа.,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d игроков,1
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,ИГРОВЫЕ МИРЫ,2
-51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,Игровой мир %s,2
+51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,Игровой мир: %s,2
 51710,SPELL_FAILED_CUSTOM_ERROR_846,У вас уже есть сотворенные зелья.,1
 51711,SPELL_FAILED_CUSTOM_ERROR_837,Спутник без сознания!,1
 51712,SPELL_FAILED_CUSTOM_ERROR_838,Требуется спутник.,1
@@ -22590,14 +22590,14 @@ ID,BaseTag,TagText_lang,Flags
 52255,20th_ANNIVERSARY_THEME_08_05,Тема: великое цветение,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Для этого достижения засчитывается прогресс всех персонажей.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,Для поддержки DirectX 12 требуется установить обновление Windows от 10 ноября 2019 г. или более новое.,3
-52259,SPELL_FAILED_CUSTOM_1101,Неподалеку уже возведена зарядная станция.,1
-52260,SPELL_FAILED_CUSTOM_1102,Неподалеку уже возведена ветряная станция.,1
-52261,SPELL_FAILED_CUSTOM_1103,Неподалеку уже возведена станция восстановления.,1
-52262,SPELL_FAILED_CUSTOM_1104,Слишком близко к другой станции.,1
+52259,SPELL_FAILED_CUSTOM_ERROR_1101,Неподалеку уже возведена зарядная станция.,1
+52260,SPELL_FAILED_CUSTOM_ERROR_1102,Неподалеку уже возведена ветряная станция.,1
+52261,SPELL_FAILED_CUSTOM_ERROR_1103,Неподалеку уже возведена станция восстановления.,1
+52262,SPELL_FAILED_CUSTOM_ERROR_1104,Слишком близко к другой станции.,1
 52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Может причинить вред несовершеннолетним,5
 52264,CHARACTER_CREATE_REALM_TOOLTIP,Персонаж будет создан в выбранном мире,2
-52265,CHARACTER_CREATE_REALM,Игровой мир %s,2
-52266,CHARACTER_SELECT_REALM_TOOLTIP,Игровой мир %s,2
+52265,CHARACTER_CREATE_REALM,Игровой мир: %s,2
+52266,CHARACTER_SELECT_REALM_TOOLTIP,Игровой мир: %s,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Может причинить вред несовершеннолетним,1
 52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,"Позволяет скрыть на карте задания, которые уже выполнил другой ваш персонаж, а также индикаторы этих заданий над NPC.|n|nДоступно в Dragonflight и The War Within.",1
 52269,DELVES_NEW_CURIO,НОВОЕ,1
@@ -22689,7 +22689,7 @@ ID,BaseTag,TagText_lang,Flags
 52367,DELVES_ERR_SELECT_TIER,Сначала нужно выбрать уровень.,1
 52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,"Чтобы приобрести жетон WoW за золото, сначала нужно хотя бы один раз купить игровое время для этой учетной записи.",1
 52373,ERR_CURRENCY_TRANSFER_UNMET_REQUIREMENTS,"Вы не отвечаете условиям, необходимым для использования этой валюты.",1
-52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,Игровой мир %s,2
+52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,Игровой мир: %s,2
 52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,"Показаны только удаленные персонажи из текущего игрового мира. Выберите другой мир, чтобы увидеть других удаленных персонажей.",2
 52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,"Предметы, которые можно вернуть, нельзя положить в банк отряда.",1
 52377,NPEV2_SELECT_SPEC_TAB,Выберите вкладку |cFF00FFFFспециализации|r,1
@@ -22960,6 +22960,7 @@ ID,BaseTag,TagText_lang,Flags
 52937,ADDON_LIST_ENABLE_CATEGORY,Включить все модификации,3
 52938,GENERIC_TRAIT_FRAME_DRIVE_TITLE,РАЗГОН,1
 52939,EVENT_SCHEDULER_FRAME_LABEL,События,1
+52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Песочные часы жутких видений,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Достигнут максимум лагерей (%d).,2
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Завершено,1
 52963,DRIVE_TURBO_METER_HELP_TIP,"Вы можете зажать пробел во время поворота, чтобы войти в занос. Во время заноса вы восполняете шкалу турбоускорения.",1
@@ -22976,7 +22977,7 @@ ID,BaseTag,TagText_lang,Flags
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Позволяет создать новый лагерь с новыми местами у костра.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,"Позволяет изменять места у костра, которые используют ваши персонажи.",2
 53250,CHARACTER_SELECT_EDIT_GROUP_HELPTIP,"Щелкните ПКМ по названию лагеря, чтобы переименовать или удалить его.",2
-53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,В меню коллекции можно просматривать новый фон для лагерей.,1
+53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,В меню коллекции можно просматривать новые лагеря.,1
 53255,DRIVE_NORMALIZE_REVERSE_TURNING,Обычный поворот задним ходом,1
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"Если выбран этот параметр, при повороте задним ходом в режиме РАЗГОНа используется обычное управление.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,В вашу коллекцию добавлен предмет для лагеря: %s.,1
@@ -22984,6 +22985,7 @@ ID,BaseTag,TagText_lang,Flags
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Здесь можно ознакомиться с текущими и будущими событиями,1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Взаимодействие с целью – ЛКМ,1
+53317,SPELL_FAILED_CUSTOM_ERROR_1069,В миске уже есть еда,1
 53318,EVENT_SCHEDULER_CHAT_REMINDER_SOON,"Событие ""%1$s"" начнется через %2$s!",1
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,"Событие ""%s"" началось!",1
 53321,EVENT_SCHEDULER_SET_REMINDER,Напомнить,1
@@ -22995,6 +22997,25 @@ ID,BaseTag,TagText_lang,Flags
 53401,REPUTATION_BUTTON_TOOLTIP_VIEW_RENOWN_INSTRUCTION,"<Щелкните, чтобы открыть меню известности>",1
 53402,EVENT_SCHEDULER_HIDDEN_EVENTS,Скрыто %d |4событие:события:событий;,1
 53403,EVENT_SCHEDULER_NO_EVENTS,Нет доступных событий,1
+53410,HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS,Основные способности,1
+53411,HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS,Вспомогательные способности,1
+53412,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS,Отслеживаемые положительные эффекты,1
+53413,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS,Отслеживаемые полосы эффектов,1
+53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Трекер восстановления,1
+53415,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TIMER,Отобразить счетчик времени,1
+53416,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_HIDE_WHEN_INACTIVE,Скрыть во время неактивности,1
+53417,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT,Режим экрана,1
+53418,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_AND_NAME,Значок и название,1
+53419,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_ONLY,Только значок,1
+53420,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_NAME_ONLY,Только название,1
+53421,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING,Отображение,1
+53422,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION,Расположение,1
+53423,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_LEFT,Горизонтально слева,1
+53424,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_CENTER,Горизонтально по центру,1
+53425,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_RIGHT,Горизонтально справа,1
+53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Вертикально сверху,1
+53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Вертикально по центру,1
+53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Вертикально снизу,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,Сначала мегамагнит нужно зарядить!,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Необходимо выбрать целью подходящий предмет классового комплекта для головы, груди или ног.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Необходимо выбрать целью подходящий предмет классового комплекта для плеч или кистей рук.,1
@@ -23009,11 +23030,78 @@ ID,BaseTag,TagText_lang,Flags
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Прозрачность фона,3
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,"Невозможно, пока с вами орел специализации ""Стрельба"".",5
+53649,PERKS_PROGRAM_CART_ADD,В корзину,1
+53650,PERKS_PROGRAM_CART_REMOVE,Убрать из корзины,1
+53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Просмотр корзины,1
+53652,PERKS_PROGRAM_CART_CLEAR_POPUP_TEXT,Удалить %d |4товар:товара:товаров; из корзины?,1
+53653,PERKS_PROGRAM_CART_CLEAR_POPUP_CONFIRMATION,Убрать,1
+53654,PERKS_PROGRAM_CART_COLLECTION_HEADER,Комплект,1
+53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Удалить все,1
+53656,PERKS_PROGRAM_CART_TITLE_TEXT,Товары в корзине (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,Барьер не дает усилителю терять мощность.,1
 53666,RESILIENT_KEY_LEVEL,Несгораемый уровень: %d,1
+53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,Обменять %s на %d |4товар:товара:товаров;?,1
+53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Купить товары в корзине,1
 53698,DROP_CHANCE_ITEMS_ONLY,Вероятность получить:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Ваша цель уже защищена медвертушкой Мрачных Минеров.,1
+53734,COLORS_LABEL,Цвета,3
+53735,ENABLE_ADVANCED_COLORS_OPTIONS,Включить дополнительные параметры,3
+53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Показывает больше вариантов цвета.,3
+53737,COLORS_ITEM_QUALITY,Кач. предмета,3
 53742,BINDING_NAME_DRIFT,Дрифт,1
+53760,SPELL_FAILED_CUSTOM_ERROR_1090,"Требуется ""Неразрывная связь"".",1
+53762,ADVANCED_OPTIONS_LABEL,Дополнительные параметры,1
+53764,ENABLE_COOLDOWN_VIEWER,Включить трекер восстановления,1
+53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Отображает важные способности и эффекты в виде отдельных элементов интерфейса для выбранной специализации.,1
+53766,COOLDOWN_VIEWER_LABEL,Трекер восстановления,1
+53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Важные основные и вспомогательные способности, отслеживаемые эффекты и отслеживаемые полосы эффектов для каждой специализации. Сейчас трекер восстановления отключен. Чтобы включить его, откройте дополнительные параметры > трекер восстановления.",1
+53824,CHAR_NAME_CONSECUTIVE_SPACES,Нельзя использовать несколько пробелов подряд,3
+53847,GUILD_RENAME_DESCRIPTION,"Скажи, как ты хочешь назвать свою гильдию, и я проверю, не используется ли такое название кем-нибудь еще. Если вдруг передумаешь, снова переименовать гильдию можно будет через некоторое время.",1
+53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Введите новое название гильдии,1
+53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Варианты нового названия гильдии:,1
+53850,GUILD_RENAME_OPTIONS_DESCRIPTION_DISABLED,Сейчас нельзя переименовать гильдию. Попробуйте позже.,1
+53851,GUILD_RENAME_OPTIONS_REFUND,Я хочу отменить переименование гильдии и вернуть средства|n(Отмена доступна еще %s),1
+53852,GUILD_RENAME_OPTIONS_RENAME_AVAILABLE,Я хочу переименовать гильдию,1
+53853,GUILD_RENAME_OPTIONS_RENAME_COOLDOWN,Я хочу переименовать гильдию|n(следующая попытка: %s),1
+53854,GUILD_RENAME_COMMAND_DO_RENAME,Переименовать,1
+53855,GUILD_RENAME_DIALOG_TEXT,Потратить %s на переименование гильдии в <%s>?|nПереименовать гильдию снова можно будет через некоторое время.,1
+53856,GUILD_RENAME_DIALOG_CONFIRM_BUTTON,ОК,1
+53857,GUILD_RENAME_DIALOG_CANCEL_BUTTON,Отмена,1
+53858,GUILD_RENAME_REFUND_DIALOG_TEXT,Отменить переименование гильдии из |CnGREEN_FONT_COLOR:<%s>|r в |cnGREEN_FONT_COLOR:<%s>|r и вернуть %s?,1
+53859,GUILD_RENAME_REFUND_DIALOG_SUBTEXT,Время на возврат: %s,1
+53860,GUILD_RENAME_ERROR_UNKNOWN,Неизвестная ошибка,1
+53861,GUILD_RENAME_ERROR_NAME_INVALID,Некорректный набор символов,1
+53862,GUILD_RENAME_ERROR_NAME_ALREADY_EXISTS,Такое название уже существует,1
+53863,GUILD_RENAME_ERROR_NO_PERMISSION,Только глава гильдии может ее переименовать,1
+53864,GUILD_RENAME_ERROR_NOT_ENOUGH_MONEY,Недостаточно средств,1
+53865,GUILD_RENAME_ERROR_TOO_MUCH_MONEY,Возвращенные средства превысят лимит банка гильдии,1
+53866,GUILD_RENAME_ERROR_IN_COOLDOWN,После предыдущего переименования прошло недостаточно времени,1
+53867,GUILD_RENAME_ERROR_RESERVATION_EXPIRED,Срок действия заявки на переименование истек,1
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Гнездо поющего грома,1
 53879,EMPTY_SOCKET_SINGINGSEA,Гнездо поющего моря,1
 53882,EMPTY_SOCKET_SINGINGWIND,Гнездо поющего ветра,1
+53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Горизонтально,1
+53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Вертикально,1
+53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,# Ряды,1
+53935,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT_ALT,# Столбцы,1
+53936,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION,Выравнивание значков,1
+53937,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_LEFT,Слева,1
+53938,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_RIGHT,Справа,1
+53939,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_UP,Сверху,1
+53940,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_DOWN,Снизу,1
+53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Размер значков,1
+53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Отступ между значками,1
+53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Непрозрачность,1
+53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Всегда показывать,1
+53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,В бою,1
+53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Скрыть,1
+54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Этот инструмент пока непригоден для текущего класса или специализации.,1
+54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Пример названия положительного эффекта,1
+54052,SPELL_FAILED_CUSTOM_ERROR_1073,Недоступно для специализаций-танков.,1
+54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Переименовать гильдию может только ее глава.,1
+54066,GUILD_RENAME_COSTS_LABEL,Из гильдейского банка будет изъята следующая сумма:,1
+54074,GUILD_RENAME_COSTS_TOOLTIP,Нужная сумма будет изъята из гильдейского банка,1
+54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Отображать описания,1
+54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Доступные средства в гильдейском банке,1
+54088,GUILD_RENAME_TOAST_LABEL,Название гильдии изменено,1
+54095,NAME_NOT_AVAILABLE,Данное название недоступно,3

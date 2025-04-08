@@ -10382,7 +10382,7 @@ Richiede: %s2, 3 o 5 giocatori.|r",1
 22209,TRAVEL_PASS_INVITE,Invita in un gruppo,1
 22210,GUILD_MOVE_STARTING,La tua gilda è in fase di spostamento. La banca di gilda sarà inaccessibile finché lo spostamento non sarà completato.,1
 22211,GUILD_MOVE_COMPLETE,Lo spostamento della gilda è completo.,1
-22212,GUILD_RENAMED,Il tuo Capogilda ha cambiato il nome della tua gilda.,1
+22212,GUILD_RENAMED,La tua gilda è stata rinominata.,1
 22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Guida alle avventure,1
 22215,ENCOUNTER_JOURNAL,Diario delle istanze,1
@@ -14975,21 +14975,21 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 34039,CHAR_LOGIN_NO_WORLD,Server del mondo di gioco non disponibile,2
 34040,CHAR_LOGIN_SUCCESS,Connessione avvenuta con successo,2
 34041,CHAR_LOGIN_TEMPORARY_GM_LOCK,Questo personaggio non è momentaneamente disponibile. Riprova più tardi.,2
-34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,La declinazione deve corrispondere al nome originale,2
-34043,CHAR_NAME_FAILURE,Nome del personaggio non valido,2
-34044,CHAR_NAME_INVALID_APOSTROPHE,Non puoi usare un apostrofo all'inizio o alla fine del nome del tuo personaggio,2
-34045,CHAR_NAME_INVALID_CHARACTER,I nomi possono essere composti esclusivamente da lettere.,2
-34046,CHAR_NAME_INVALID_SPACE,Non puoi inserire uno spazio all'inizio o alla fine del nome del tuo personaggio,2
-34047,CHAR_NAME_MIXED_LANGUAGES,I nomi possono essere scritti in caratteri di una sola lingua.,2
-34048,CHAR_NAME_MULTIPLE_APOSTROPHES,Puoi utilizzare solo un apostrofo.,2
-34049,CHAR_NAME_NO_NAME,Digita un nome per il tuo personaggio.,2
-34050,CHAR_NAME_PROFANE,Questo nome contiene termini inappropriati.,2
-34051,CHAR_NAME_RESERVED,Questo nome non è ammesso,2
-34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,I nomi non possono contenere due simboli silenziosi di fila,2
-34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,I nomi non possono iniziare o finire con un carattere silenzioso,2
-34054,CHAR_NAME_THREE_CONSECUTIVE,I nomi non possono contenere tre caratteri uguali di fila,2
-34055,CHAR_NAME_TOO_LONG,I nomi non possono essere più lunghi di 12 caratteri,2
-34056,CHAR_NAME_TOO_SHORT,I nomi devono essere lunghi almeno 2 caratteri.,2
+34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,La declinazione deve corrispondere al nome originale,3
+34043,CHAR_NAME_FAILURE,Nome non valido,3
+34044,CHAR_NAME_INVALID_APOSTROPHE,I nomi non possono avere un apostrofo come primo o ultimo carattere,3
+34045,CHAR_NAME_INVALID_CHARACTER,I nomi possono essere composti esclusivamente da lettere.,3
+34046,CHAR_NAME_INVALID_SPACE,I nomi non possono avere uno spazio come primo o ultimo carattere,3
+34047,CHAR_NAME_MIXED_LANGUAGES,I nomi possono essere scritti in caratteri di una sola lingua.,3
+34048,CHAR_NAME_MULTIPLE_APOSTROPHES,I nomi possono avere un solo apostrofo,3
+34049,CHAR_NAME_NO_NAME,Inserisci un nome,3
+34050,CHAR_NAME_PROFANE,Questo nome contiene termini inappropriati.,3
+34051,CHAR_NAME_RESERVED,Questo nome non è ammesso,3
+34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,I nomi non possono contenere due simboli silenziosi di fila,3
+34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,I nomi non possono avere caratteri silenziosi all'inizio o alla fine,3
+34054,CHAR_NAME_THREE_CONSECUTIVE,I nomi non possono contenere tre caratteri uguali di fila,3
+34055,CHAR_NAME_TOO_LONG,Nome troppo lungo,3
+34056,CHAR_NAME_TOO_SHORT,I nomi devono essere lunghi almeno 2 caratteri.,3
 34057,CHAR_RENAME_DESCRIPTION,Il nome del tuo personaggio deve essere modificato.,2
 34058,CHAR_RENAME_FAILED,Impossibile rinominare il personaggio,2
 34059,CHAR_RENAME_INSTRUCTIONS,Digita un nuovo nome,2
@@ -18608,7 +18608,7 @@ Consentire script personalizzati?",1
 41848,CLUB_FINDER_TUTORIAL_GUILD_LINK,Puoi far conoscere la tua gilda con un collegamento nella chat.|nClicca sul pulsante d'invito.,1
 41849,ERR_NAME_SPACES_DISALLOWED,I nomi non possono contenere spazi. Digitane uno nuovo.,1
 41850,CLUB_FINDER_REAPPLY,Ricandidati tra %d giorni,1
-41851,CHAR_NAME_SPACES_DISALLOWED,I nomi non possono contenere spazi,2
+41851,CHAR_NAME_SPACES_DISALLOWED,I nomi non possono contenere spazi,3
 41852,ERR_QUEST_SESSION_RESULT_RESYNC,Le missioni sono state risincronizzate.,1
 41853,RAF_FIRST_MONTH,Recluta degli amici per cominciare!,1
 41854,ERR_QUEST_SESSION_RESULT_QUEST_NOT_COMPLETED,Sincronia di Gruppo non riuscita perché un membro del gruppo non ha completato le missioni iniziali.,1
@@ -19138,10 +19138,10 @@ Consentire script personalizzati?",1
 42511,COVENANT_MISSIONS_GO_TO_SPOILS,Vai alle spoglie,5
 42512,COVENANT_MISSIONS_RETURN_TO_MISSIONS,Ritorna alle Avventure,5
 42513,PLAYER_CHOICE_STACKABLE_CHOICE,|cff20ff20Accumuli|r,1
-42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cffa335eeEpico|r|n|n,1
-42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cff0070ddRaro|r|n|n,1
-42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cff1eff00Pregiato|r|n|n,1
-42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cffffffffComune|r|n|n,1
+42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cnIQ4:Epico|r|n|n,1
+42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cnIQ3:Raro|r|n|n,1
+42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cnIQ2:Pregiato|r|n|n,1
+42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cnIQ1:Comune|r|n|n,1
 42518,NPEV2_CHAT_USER_TAG_GUIDE,|A:newplayerchat-chaticon-guide:0:0:0:0|a|cff81b558Guida|r,1
 42519,NPEV2_CHAT_USER_TAG_NEWCOMER,|A:newplayerchat-chaticon-newcomer:0:0:0:0|a,1
 42520,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER,Ti diamo il benvenuto alla Chat Novizi!,1
@@ -20528,7 +20528,7 @@ Consentire script personalizzati?",1
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Invita in gruppo di istanza,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Suggerisci invito nel gruppo di istanza,1
 48706,REQUEST_INVITE_CROSS_FACTION,Richiedi invito nel gruppo di istanza,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,Puoi unirti in gruppo con questo personaggio dell'%s e potete svolgere molte attività istanziate insieme.\n\n|cffffffffPotete fare:|r\n- Spedizioni (gruppi organizzati)\n- Incursioni (senza coda)\n- PvP classificato e non classificato\n- Torghast\n\n|cffffffffNon potete fare:|r\n- Contenuti esterni,1
+48707,CROSS_FACTION_INVITE_TOOLTIP,Puoi unirti in gruppo con questo personaggio dell'%s e potete svolgere molte attività istanziate insieme.\n\n|cffffffffPotete fare:|r\n- Spedizioni (gruppi organizzati)\n- Incursioni (senza coda)\n- PvP classificato e non classificato\n- Scorribande\n\n|cffffffffNon potete fare:|r\n- Contenuti esterni,1
 48708,CROSS_FACTION_INVITE_HELPTIP,Puoi invitare amici dalla fazione opposta per svolgere contenuti istanziati insieme,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Disattiva la Sincronia di Gruppo per invitare questo personaggio,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Richiede altri Richiami Sillabici.,1
@@ -20540,7 +20540,7 @@ Consentire script personalizzati?",1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Questa serie di missioni sblocca:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Massimo precedente: %s |cff808080(Stagione %d),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Questo ora è un gruppo per istanze multi-fazione. Potete svolgere queste attività insieme: spedizioni (gruppi organizzati) e incursioni (senza coda), Torgast, PvP classificato e non classificato",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Questo ora è un gruppo per istanze multi-fazione. Potete svolgere queste attività insieme: spedizioni (gruppi organizzati) e incursioni (senza coda), Scorribande, PvP classificato e non classificato",1
 48723,ERR_TRADE_FACTION_SPECIFIC,Non puoi commerciare un oggetto specifico della tua fazione con qualcuno della fazione opposta,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,Sei ora in coda per %s come %s.,1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,Non puoi farlo in un gruppo multi-fazione,1
@@ -20612,7 +20612,7 @@ Consentire script personalizzati?",1
 48796,CROSS_FACTION_PVP_ERROR,Non puoi farlo in un gruppo multi-fazione.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,%3$s %2$s livello %1$d (%4$s),1
 48798,ERR_LFG_FARM_LIMIT,Tu o qualcuno del tuo gruppo siete recentemente entrati in troppe istanze. Attendi un po' e riprova.,1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Puoi unirti in gruppo con questo personaggio dell'%s e potete svolgere molte attività istanziate insieme.|n|cffffffffPotete fare:|r|n- Spedizioni (gruppi organizzati)|n- Incursioni (senza coda)|n- PvP classificato e non classificato|n|cffffffffNon potete fare:|r|n- Contenuti esterni,1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Puoi unirti in gruppo con questo personaggio dell'%s e potete svolgere molte attività istanziate insieme.|n|cffffffffPotete fare:|r|n- Spedizioni (gruppi organizzati)|n- Incursioni (senza coda)|n- PvP classificato e non classificato|n- Scorribande|n|cffffffffNon potete fare:|r|n- Contenuti esterni,1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Personaggio dell'%s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Il personaggio è della fazione sbagliata. Attiva l'opzione ""multi-fazione"" nelle Impostazioni comunità.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Permette di invitare in gruppo membri dell'altra fazione.,1
@@ -22493,7 +22493,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51619,BAG_FILTER_CURRENT_EXPANSION,Solo attuale,5
 51620,BAG_FILTER_LEGACY_EXPANSION,Solo del passato,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Sostituisci l'oggetto congelato trascinando qui un altro oggetto in qualsiasi momento,1
-51622,SPELL_FAILED_CUSTOM_1100,Una bolla si sta già manifestando nelle vicinanze.,1
+51622,SPELL_FAILED_CUSTOM_ERROR_1100,Una bolla si sta già manifestando nelle vicinanze.,1
 51623,SPELL_FAILED_CUSTOM_ERROR,,1
 51624,SPELL_FAILED_CUSTOM_ERROR_861,Potenziamenti Scorribanda insufficienti.,1
 51628,NPE_UNBOUND_KEYBIND,[Non vincolato],1
@@ -23009,10 +23009,10 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52255,20th_ANNIVERSARY_THEME_08_05,Tema: Superfioritura,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Tutti i personaggi contribuiscono ai progressi di quest'impresa.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 richiede l'aggiornamento di novembre 2019 di Windows 10 o più recente,3
-52259,SPELL_FAILED_CUSTOM_1101,È già stata costruita una Stazione di Carica nelle vicinanze.,1
-52260,SPELL_FAILED_CUSTOM_1102,È già stata costruita una Stazione Cattura-Vento nelle vicinanze.,1
-52261,SPELL_FAILED_CUSTOM_1103,È già stata costruita una Stazione di Recupero nelle vicinanze.,1
-52262,SPELL_FAILED_CUSTOM_1104,Troppo vicino a un'altra stazione.,1
+52259,SPELL_FAILED_CUSTOM_ERROR_1101,È già stata costruita una Stazione di Carica nelle vicinanze.,1
+52260,SPELL_FAILED_CUSTOM_ERROR_1102,È già stata costruita una Stazione Cattura-Vento nelle vicinanze.,1
+52261,SPELL_FAILED_CUSTOM_ERROR_1103,È già stata costruita una Stazione di Recupero nelle vicinanze.,1
+52262,SPELL_FAILED_CUSTOM_ERROR_1104,Troppo vicino a un'altra stazione.,1
 52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Informazioni dannose per i minori,5
 52264,CHARACTER_CREATE_REALM_TOOLTIP,Il personaggio verrà creato nel reame selezionato,2
 52265,CHARACTER_CREATE_REALM,Reame: %s,2
@@ -23379,6 +23379,7 @@ Gli oggetti dell'evento sono stati rimossi.
 52937,ADDON_LIST_ENABLE_CATEGORY,Attiva tutti gli add-on,3
 52938,GENERIC_TRAIT_FRAME_DRIVE_TITLE,G.U.I.D.A.,1
 52939,EVENT_SCHEDULER_FRAME_LABEL,Eventi,1
+52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Clessidra delle Visioni Orripilanti,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Limite di %d |4accampamento:accampamenti; raggiunto.,2
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Completata,1
 52963,DRIVE_TURBO_METER_HELP_TIP,Tenere premuta la barra spaziatrice mentre svolti ti permette di derapare. La derapata ripristina l'indicatore del turbo.,1
@@ -23395,7 +23396,7 @@ Gli oggetti dell'evento sono stati rimossi.
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Crea un nuovo accampamento. È possibile assegnare un campeggio a ciascuno di essi.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,Usa questa opzione per personalizzare i campeggi utilizzati dai tuoi personaggi.,2
 53250,CHARACTER_SELECT_EDIT_GROUP_HELPTIP,Clicca col pulsante destro sul nome di un accampamento per rinominarlo o eliminarlo.,2
-53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,Esamina i tuoi nuovi sfondi nel menu Collezioni.,1
+53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,Esamina il tuo nuovo campeggio nel menu Collezioni.,1
 53255,DRIVE_NORMALIZE_REVERSE_TURNING,Normalizza svolta per retromarcia,1
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"Se selezionato, applica i normali comandi di svolta quando si fa retromarcia durante la guida.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,"""%s"" aggiunto alla collezione dei tuoi campeggi.",1
@@ -23403,6 +23404,7 @@ Gli oggetti dell'evento sono stati rimossi.
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Qui puoi trovare eventi in corso e in arrivo,1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Interagisci col bersaglio col pulsante sinistro,1
+53317,SPELL_FAILED_CUSTOM_ERROR_1069,C'è già del cibo nella ciotola,1
 53318,EVENT_SCHEDULER_CHAT_REMINDER_SOON,%1$s inizia tra %2$s!,1
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,Inizia %s!,1
 53321,EVENT_SCHEDULER_SET_REMINDER,Aggiungi promemoria,1
@@ -23414,6 +23416,25 @@ Gli oggetti dell'evento sono stati rimossi.
 53401,REPUTATION_BUTTON_TOOLTIP_VIEW_RENOWN_INSTRUCTION,<Clicca per vedere la Fama>,1
 53402,EVENT_SCHEDULER_HIDDEN_EVENTS,%d |4evento nascosto:eventi nascosti;,1
 53403,EVENT_SCHEDULER_NO_EVENTS,Nessun evento disponibile,1
+53410,HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS,Abilità essenziali,1
+53411,HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS,Abilità di Utilità,1
+53412,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS,Benefici tracciati,1
+53413,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS,Barre tracciate,1
+53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Gestore tempi di recupero,1
+53415,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TIMER,Mostra timer,1
+53416,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_HIDE_WHEN_INACTIVE,Nascondi se inattivo,1
+53417,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT,Visualizzazione,1
+53418,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_AND_NAME,Icona e nome,1
+53419,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_ONLY,Solo icona,1
+53420,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_NAME_ONLY,Solo nome,1
+53421,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING,Visibilità,1
+53422,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION,Orientamento,1
+53423,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_LEFT,Orizzontale - Sinistra,1
+53424,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_CENTER,Orizzontale - Centro,1
+53425,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_RIGHT,Orizzontale - Destra,1
+53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Verticale - Sopra,1
+53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Verticale - Centro,1
+53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Verticale - Sotto,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,Il Megamagnete va prima caricato!,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Devi selezionare un pezzo idoneo d'equipaggiamento del set di classe per testa, torso o gambe.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Devi selezionare un pezzo idoneo d'equipaggiamento del set di classe per spalle o mani.,1
@@ -23428,11 +23449,78 @@ Gli oggetti dell'evento sono stati rimossi.
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Opacità sfondo,3
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,La tua Aquila di Precisione di Tiro te lo impedisce.,5
+53649,PERKS_PROGRAM_CART_ADD,Aggiungi al carrello,1
+53650,PERKS_PROGRAM_CART_REMOVE,Rimuovi dal carrello,1
+53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Visualizza carrello,1
+53652,PERKS_PROGRAM_CART_CLEAR_POPUP_TEXT,Vuoi davvero rimuovere %d |4oggetto:oggetti; dal carrello?,1
+53653,PERKS_PROGRAM_CART_CLEAR_POPUP_CONFIRMATION,Rimuovi,1
+53654,PERKS_PROGRAM_CART_COLLECTION_HEADER,Set,1
+53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Svuota carrello,1
+53656,PERKS_PROGRAM_CART_TITLE_TEXT,Anteprima carrello (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,Una barriera protegge l'amplificatore dalla dispersione di potenza.,1
 53666,RESILIENT_KEY_LEVEL,Resilienza livello %d,1
+53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,Vuoi davvero scambiare %s per %d |4oggetto:oggetti;?,1
+53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Acquista,1
 53698,DROP_CHANCE_ITEMS_ONLY,Probabilità di ricevere:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Il bersaglio è già protetto da un Medicottero dei Micciascura.,1
+53734,COLORS_LABEL,Colori,3
+53735,ENABLE_ADVANCED_COLORS_OPTIONS,Attiva opzioni avanzate,3
+53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Mostra opzioni aggiuntive per le sovrascritture di colore.,3
+53737,COLORS_ITEM_QUALITY,Qualità oggetti,3
 53742,BINDING_NAME_DRIFT,Derapata,1
+53760,SPELL_FAILED_CUSTOM_ERROR_1090,Richiede Legame Indistruttibile.,1
+53762,ADVANCED_OPTIONS_LABEL,Opzioni avanzate,1
+53764,ENABLE_COOLDOWN_VIEWER,Attiva Gestore tempi di recupero,1
+53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Attiva per visualizzare tempi di recupero e benefici importanti in una sezione separata e personalizzabile dell'interfaccia per la specializzazione selezionata.,1
+53766,COOLDOWN_VIEWER_LABEL,Gestore tempi di recupero,1
+53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Tempi di recupero essenziali, utilità, benefici e barre tracciate per ciascuna specializzazione. Il Gestore tempi di recupero è attualmente disattivato. Attivalo da: Opzioni avanzate>Gestore tempi di recupero.",1
+53824,CHAR_NAME_CONSECUTIVE_SPACES,I nomi non possono contenere spazi consecutivi,3
+53847,GUILD_RENAME_DESCRIPTION,"Inserisci il nome della gilda che desideri e controllerò se è unico. C'è un periodo d'attesa per modificare nuovamente il nome della gilda, nel caso cambiassi idea.",1
+53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Inserisci il nuovo nome della gilda,1
+53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Ecco le opzioni per il cambio di nome della tua gilda:,1
+53850,GUILD_RENAME_OPTIONS_DESCRIPTION_DISABLED,"La funzione Rinomina gilda è al momento disattivata, controlla più tardi.",1
+53851,GUILD_RENAME_OPTIONS_REFUND,Vorrei avere un rimborso per l'acquisto del cambio di nome della mia gilda|n(Tempo rimasto per il rimborso: %s),1
+53852,GUILD_RENAME_OPTIONS_RENAME_AVAILABLE,Voglio rinominare la mia gilda,1
+53853,GUILD_RENAME_OPTIONS_RENAME_COOLDOWN,Voglio rinominare la mia gilda|n(Disponibile tra %s),1
+53854,GUILD_RENAME_COMMAND_DO_RENAME,Rinomina,1
+53855,GUILD_RENAME_DIALOG_TEXT,Vuoi davvero spendere %s per rinominare la tua gilda <%s>?|nQuesto processo ha un periodo di attesa prima di poter essere intrapreso di nuovo.,1
+53856,GUILD_RENAME_DIALOG_CONFIRM_BUTTON,Conferma,1
+53857,GUILD_RENAME_DIALOG_CANCEL_BUTTON,Annulla,1
+53858,GUILD_RENAME_REFUND_DIALOG_TEXT,Annullare il cambio di nome della gilda da |CnGREEN_FONT_COLOR:<%s>|r a |cnGREEN_FONT_COLOR:<%s>|r per un rimborso di %s?,1
+53859,GUILD_RENAME_REFUND_DIALOG_SUBTEXT,Tempo rimasto per il rimborso: %s,1
+53860,GUILD_RENAME_ERROR_UNKNOWN,Errore sconosciuto,1
+53861,GUILD_RENAME_ERROR_NAME_INVALID,Nome non valido,1
+53862,GUILD_RENAME_ERROR_NAME_ALREADY_EXISTS,Nome già in uso,1
+53863,GUILD_RENAME_ERROR_NO_PERMISSION,Solo il capogilda può rinominare la gilda,1
+53864,GUILD_RENAME_ERROR_NOT_ENOUGH_MONEY,Fondi insufficienti,1
+53865,GUILD_RENAME_ERROR_TOO_MUCH_MONEY,Il rimborso supererebbe l'importo conservabile nella banca di gilda.,1
+53866,GUILD_RENAME_ERROR_IN_COOLDOWN,Il tempo di recupero per il cambio di nome è attivo,1
+53867,GUILD_RENAME_ERROR_RESERVATION_EXPIRED,Prenotazione cambio di nome scaduta,1
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Incavo del Tuono Risonante,1
 53879,EMPTY_SOCKET_SINGINGSEA,Incavo del Mare Risonante,1
 53882,EMPTY_SOCKET_SINGINGWIND,Incavo del Vento Risonante,1
+53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Orizzontale,1
+53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Verticale,1
+53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,# righe,1
+53935,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT_ALT,# colonne,1
+53936,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION,Direzione icona,1
+53937,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_LEFT,Sinistra,1
+53938,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_RIGHT,Destra,1
+53939,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_UP,Su,1
+53940,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_DOWN,Giù,1
+53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Dimensioni icona,1
+53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Riempimento icona,1
+53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Opacità,1
+53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Sempre visibile,1
+53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In combattimento,1
+53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Nascosto,1
+54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Questo strumento non è attualmente utilizzato per questa classe o specializzazione,1
+54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Nome beneficio di esempio,1
+54052,SPELL_FAILED_CUSTOM_ERROR_1073,Utilizzabile solo da specializzazioni che non sono difensori.,1
+54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Devi avere il ruolo di capogilda per poter utilizzare la funzione di cambio nome della gilda.,1
+54066,GUILD_RENAME_COSTS_LABEL,Questo costo verrà dedotto dai fondi della tua Banca di Gilda:,1
+54074,GUILD_RENAME_COSTS_TOOLTIP,I costi verranno dedotti dai fondi della tua Banca di Gilda,1
+54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Mostra descrizioni,1
+54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Fondi della Banca di Gilda disponibili,1
+54088,GUILD_RENAME_TOAST_LABEL,Gilda rinominata,1
+54095,NAME_NOT_AVAILABLE,Questo nome non è disponibile,3

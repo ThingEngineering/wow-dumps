@@ -10244,7 +10244,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 22209,TRAVEL_PASS_INVITE,Invitar a grupo,1
 22210,GUILD_MOVE_STARTING,Tu hermandad está en proceso de ser transferida. El banco de hermandad no estará disponible hasta que se complete la transferencia.,1
 22211,GUILD_MOVE_COMPLETE,Se ha completado el proceso de transferencia de hermandad.,1
-22212,GUILD_RENAMED,El maestro de hermandad ha cambiado el nombre de tu hermandad.,1
+22212,GUILD_RENAMED,Tu hermandad ha cambiado de nombre.,1
 22213,TALENT_SPEC_AND_CLASS,%2$s %1$s,3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Mostrar/ocultar guía de aventuras,1
 22215,ENCOUNTER_JOURNAL,Guía de mazmorras,1
@@ -14596,21 +14596,21 @@ min",1
 34039,CHAR_LOGIN_NO_WORLD,El servidor del mundo está inactivo,2
 34040,CHAR_LOGIN_SUCCESS,Registro correcto,2
 34041,CHAR_LOGIN_TEMPORARY_GM_LOCK,Este personaje no está disponible temporalmente. Inténtalo más tarde,2
-34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,Tus declinaciones deben coincidir con tu nombre original,2
-34043,CHAR_NAME_FAILURE,Nombre de personaje no válido,2
-34044,CHAR_NAME_INVALID_APOSTROPHE,No puedes usar un apóstrofo como primer o último carácter del nombre,2
-34045,CHAR_NAME_INVALID_CHARACTER,Los nombres solo pueden contener letras,2
-34046,CHAR_NAME_INVALID_SPACE,No puedes usar un espacio como primer o último carácter del nombre,2
-34047,CHAR_NAME_MIXED_LANGUAGES,Los nombres deben constar de un solo idioma,2
-34048,CHAR_NAME_MULTIPLE_APOSTROPHES,Solo puedes usar un apóstrofo,2
-34049,CHAR_NAME_NO_NAME,Escribe un nombre para tu personaje,2
-34050,CHAR_NAME_PROFANE,Ese nombre contiene lenguaje adulto,2
-34051,CHAR_NAME_RESERVED,Ese nombre está restringido,2
-34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,No puede haber dos símbolos de silencio seguidos,2
-34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,No se permiten caracteres silenciosos ni al principio ni al final de un nombre,2
-34054,CHAR_NAME_THREE_CONSECUTIVE,No puedes usar la misma letra tres veces seguidas,2
-34055,CHAR_NAME_TOO_LONG,Los nombres no deben superar los 12 caracteres,2
-34056,CHAR_NAME_TOO_SHORT,Los nombres deben tener al menos dos caracteres,2
+34042,CHAR_NAME_DECLENSION_DOESNT_MATCH_BASE_NAME,Tus declinaciones deben coincidir con tu nombre original,3
+34043,CHAR_NAME_FAILURE,Nombre no válido,3
+34044,CHAR_NAME_INVALID_APOSTROPHE,No se puede usar un apóstrofo como primer o último carácter de un nombre,3
+34045,CHAR_NAME_INVALID_CHARACTER,Los nombres solo pueden contener letras,3
+34046,CHAR_NAME_INVALID_SPACE,No se puede usar un espacio como primer o último carácter del nombre,3
+34047,CHAR_NAME_MIXED_LANGUAGES,Los nombres deben constar de un solo idioma,3
+34048,CHAR_NAME_MULTIPLE_APOSTROPHES,Los nombres solo pueden usar un apóstrofo,3
+34049,CHAR_NAME_NO_NAME,Introducir nombre,3
+34050,CHAR_NAME_PROFANE,Ese nombre contiene lenguaje adulto,3
+34051,CHAR_NAME_RESERVED,Ese nombre está restringido,3
+34052,CHAR_NAME_RUSSIAN_CONSECUTIVE_SILENT_CHARACTERS,No puede haber dos símbolos de silencio seguidos en un nombre,3
+34053,CHAR_NAME_RUSSIAN_SILENT_CHARACTER_AT_BEGINNING_OR_END,No se pueden usar caracteres mudos al principio o al final de un nombre,3
+34054,CHAR_NAME_THREE_CONSECUTIVE,No se puede usar la misma letra tres veces seguidas en un nombre,3
+34055,CHAR_NAME_TOO_LONG,El nombre debe ser más corto,3
+34056,CHAR_NAME_TOO_SHORT,Los nombres deben tener al menos dos caracteres,3
 34057,CHAR_RENAME_DESCRIPTION,Tu nombre debe ser modificado,2
 34058,CHAR_RENAME_FAILED,Error al renombrar el personaje,2
 34059,CHAR_RENAME_INSTRUCTIONS,Escribe un nuevo nombre,2
@@ -18189,7 +18189,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41848,CLUB_FINDER_TUTORIAL_GUILD_LINK,Puedes promocionar tu hermandad con un enlace en el chat.|nHaz clic en el botón de invitar.,1
 41849,ERR_NAME_SPACES_DISALLOWED,Los nombres no pueden contener espacios. Escribe uno nuevo.,1
 41850,CLUB_FINDER_REAPPLY,Reenviar solicitud en %d días,1
-41851,CHAR_NAME_SPACES_DISALLOWED,Los nombres no pueden contener espacios,2
+41851,CHAR_NAME_SPACES_DISALLOWED,Los nombres no pueden contener espacios,3
 41852,ERR_QUEST_SESSION_RESULT_RESYNC,Se han resincronizado las misiones.,1
 41853,RAF_FIRST_MONTH,¡Recluta a amigos para empezar!,1
 41854,ERR_QUEST_SESSION_RESULT_QUEST_NOT_COMPLETED,No se ha podido iniciar la sincronización de grupo porque un miembro del grupo no ha completado sus misiones de inicio.,1
@@ -18719,10 +18719,10 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42511,COVENANT_MISSIONS_GO_TO_SPOILS,Ir a botín,5
 42512,COVENANT_MISSIONS_RETURN_TO_MISSIONS,Volver a las aventuras,5
 42513,PLAYER_CHOICE_STACKABLE_CHOICE,|cff20ff20Montones|r,1
-42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cffa335eeÉpico|r|n|n,1
-42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cff0070ddPoco común|r|n|n,1
-42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cff1eff00Inusual|r|n|n,1
-42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cffffffffComún|r|n|n,1
+42514,PLAYER_CHOICE_QUALITY_STRING_EPIC,|cnIQ4:Épico|r|n|n,1
+42515,PLAYER_CHOICE_QUALITY_STRING_RARE,|cnIQ3:Poco común|r|n|n,1
+42516,PLAYER_CHOICE_QUALITY_STRING_UNCOMMON,|cnIQ2:Inusual|r|n|n,1
+42517,PLAYER_CHOICE_QUALITY_STRING_COMMON,|cnIQ1:Común|r|n|n,1
 42518,NPEV2_CHAT_USER_TAG_GUIDE,|A:newplayerchat-chaticon-guide:0:0:0:0|a|cff81b558Guía|r,1
 42519,NPEV2_CHAT_USER_TAG_NEWCOMER,|A:newplayerchat-chaticon-newcomer:0:0:0:0|a,1
 42520,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER,¡Te damos la bienvenida al chat de recién llegados!,1
@@ -20109,7 +20109,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Invitar al grupo de estancia,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Sugerir invitación al grupo de estancia,1
 48706,REQUEST_INVITE_CROSS_FACTION,Solicitar invitación al grupo de estancia,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,Puedes formar un grupo con este jugador de la %s y llevar a cabo un montón de actividades de estancias juntos.\n\n|cffffffffOpciones disponibles:|r\n- Mazmorras (grupos ya creados)\n- Bandas (sin hacer cola)\n- JcJ puntuado y no puntuado\n- Torghast\n\n|cffffffffOpciones no disponibles:|r\n- Contenido de exteriores,1
+48707,CROSS_FACTION_INVITE_TOOLTIP,Puedes formar un grupo con este jugador de la %s y llevar a cabo un montón de actividades de estancias juntos. \n\n|cffffffffOpciones disponibles:|r\n- Mazmorras (grupos ya creados)\n- Bandas (sin hacer cola)\n- JcJ puntuado y sin puntuar\n- Profundidades\n\n|cffffffffOpciones no disponibles:|r\n- Contenido de exteriores,1
 48708,CROSS_FACTION_INVITE_HELPTIP,Puedes invitar a amigos de la facción contraria para llevar a cabo contenido de estancias juntos,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Desactiva la sincronización de grupo para invitar a este jugador,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requiere más memoria silábica.,1
@@ -20121,7 +20121,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,Esta cadena de misiones desbloqueará:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Récord anterior: %s |cff808080(temporada %d),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"Ahora estás en un grupo de estancia multifacción. Podéis realizar las siguientes actividades juntos: mazmorras (grupos ya creados), bandas (sin hacer cola), Torghast y JcJ puntuado y no puntuado",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"Ahora estás en un grupo de estancia multifacción. Podéis realizar las siguientes actividades juntos: mazmorras (grupos ya creados), bandas (sin hacer cola), profundidades y JcJ puntuado y no puntuado",1
 48723,ERR_TRADE_FACTION_SPECIFIC,No puedes comerciar con un objeto específico de facción con la facción contraria.,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,Te has unido a la cola para %s como %s.,1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,No puedes hacer esto en un grupo multifacción,1
@@ -20193,7 +20193,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48796,CROSS_FACTION_PVP_ERROR,No puedes hacer esto en un grupo multifacción.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,%2$s %3$s de nivel %1$d (%4$s),1
 48798,ERR_LFG_FARM_LIMIT,Tú o alguien de tu grupo habéis entrado en demasiadas estancias recientemente. Espera un rato y vuelve a intentarlo.,1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Puedes formar un grupo con este jugador de la %s y llevar a cabo un montón de actividades de estancias juntos.|n|cffffffffOpciones disponibles:|r|n- Mazmorras (grupos ya creados)|n- Bandas (sin hacer cola)|n- JcJ puntuado y sin puntuar|n- Torghast|n|cffffffffOpciones no disponibles:|r|n- Contenido de exteriores,1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,Puedes formar un grupo con este jugador de la %s y llevar a cabo un montón de actividades de estancias juntos.|n|cffffffffOpciones disponibles:|r|n- Mazmorras (grupos ya creados)|n- Bandas (sin hacer cola)|n- JcJ puntuado y sin puntuar|n- Profundidades|n|cffffffffOpciones no disponibles:|r|n- Contenido de exteriores,1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,Jugador de la %s,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"El jugador no es de la facción correcta. Activa la opción de ""Multifacción"" en la configuración de la comunidad.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Te permite invitar a miembros de la otra facción.,1
@@ -22068,7 +22068,7 @@ y propagar su llama por todo Azeroth.",1
 51619,BAG_FILTER_CURRENT_EXPANSION,Solo actual,5
 51620,BAG_FILTER_LEGACY_EXPANSION,Solo antiguos,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Sustituye tu artículo congelado arrastrando otro objeto aquí en cualquier momento,1
-51622,SPELL_FAILED_CUSTOM_1100,Ya se ha manifestado una burbuja cerca de aquí.,1
+51622,SPELL_FAILED_CUSTOM_ERROR_1100,Ya se ha manifestado una burbuja cerca de aquí.,1
 51623,SPELL_FAILED_CUSTOM_ERROR,,1
 51624,SPELL_FAILED_CUSTOM_ERROR_861,No hay bastante potenciación de las profundidades.,1
 51628,NPE_UNBOUND_KEYBIND,[Sin vincular],1
@@ -22584,10 +22584,10 @@ y propagar su llama por todo Azeroth.",1
 52255,20th_ANNIVERSARY_THEME_08_05,Tema: Superfloración,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Se hace un seguimiento del progreso para conseguir este logro para cada personaje.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requiere Windows 10 actualizado a noviembre de 2019 o posterior,3
-52259,SPELL_FAILED_CUSTOM_1101,Ya se ha construido una estación de carga cerca.,1
-52260,SPELL_FAILED_CUSTOM_1102,Ya se ha construido una estación canalizadora de viento cerca.,1
-52261,SPELL_FAILED_CUSTOM_1103,Ya se ha construido una estación de recuperación cerca.,1
-52262,SPELL_FAILED_CUSTOM_1104,Demasiado cerca de otra estación.,1
+52259,SPELL_FAILED_CUSTOM_ERROR_1101,Ya se ha construido una estación de carga cerca.,1
+52260,SPELL_FAILED_CUSTOM_ERROR_1102,Ya se ha construido una estación canalizadora de viento cerca.,1
+52261,SPELL_FAILED_CUSTOM_ERROR_1103,Ya se ha construido una estación de recuperación cerca.,1
+52262,SPELL_FAILED_CUSTOM_ERROR_1104,Demasiado cerca de otra estación.,1
 52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Información perjudicial para menores,5
 52264,CHARACTER_CREATE_REALM_TOOLTIP,El personaje será creado en el reino elegido,2
 52265,CHARACTER_CREATE_REALM,Reino: %s,2
@@ -22953,6 +22953,7 @@ Se han eliminado los objetos del evento.",1
 52937,ADDON_LIST_ENABLE_CATEGORY,Activar todos los addons,3
 52938,GENERIC_TRAIT_FRAME_DRIVE_TITLE,C.A.R.R.O.,1
 52939,EVENT_SCHEDULER_FRAME_LABEL,Eventos,1
+52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Reloj de arena de visiones horripilantes,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Se ha alcanzado el máximo de %d |4campamento:campamentos;.,2
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Completado,1
 52963,DRIVE_TURBO_METER_HELP_TIP,"Si mantienes pulsada la barra espaciadora al girar, derraparás. Los derrapes te permiten recuperar indicador de turbo.",1
@@ -22969,7 +22970,7 @@ Se han eliminado los objetos del evento.",1
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Crea un nuevo campamento. Cada uno puede tener asignado el suyo propio.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,Utiliza esta opción para personalizar los campamentos de tus personajes.,2
 53250,CHARACTER_SELECT_EDIT_GROUP_HELPTIP,Haz clic derecho en el nombre de un campamento para cambiar su nombre o eliminarlo.,2
-53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,Echa un vistazo a tus nuevos fondos en el menú de colecciones.,1
+53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,Echa un vistazo a tu nuevo campamento en el menú de colecciones.,1
 53255,DRIVE_NORMALIZE_REVERSE_TURNING,Giro normal al dar marcha atrás,1
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"Si se activa, utiliza los controles normales al dar marcha atrás durante la conducción.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,"Se ha añadido ""%s"" a tu colección de campamentos.",1
@@ -22977,6 +22978,7 @@ Se han eliminado los objetos del evento.",1
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Aquí puedes consultar los próximos eventos y los que están en curso.,1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Interactuar con objetivo con clic izquierdo,1
+53317,SPELL_FAILED_CUSTOM_ERROR_1069,Ya hay comida en el cuenco,1
 53318,EVENT_SCHEDULER_CHAT_REMINDER_SOON,¡%1$s comienza en %2$s!,1
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,¡%s ha comenzado!,1
 53321,EVENT_SCHEDULER_SET_REMINDER,Añadir recordatorio,1
@@ -22988,6 +22990,25 @@ Se han eliminado los objetos del evento.",1
 53401,REPUTATION_BUTTON_TOOLTIP_VIEW_RENOWN_INSTRUCTION,<Haz clic para ver el renombre>,1
 53402,EVENT_SCHEDULER_HIDDEN_EVENTS,%d |4evento oculto:eventos ocultos;,1
 53403,EVENT_SCHEDULER_NO_EVENTS,No hay eventos disponibles,1
+53410,HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS,Tiempos de reutilización esenciales,1
+53411,HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS,Tiempos de reutilización de utilidad,1
+53412,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS,Beneficios rastreados,1
+53413,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS,Barras rastreadas,1
+53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Gestor de tiempos de reutilización,1
+53415,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TIMER,Mostrar temporizador,1
+53416,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_HIDE_WHEN_INACTIVE,Ocultar mientras no esté activo,1
+53417,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT,Modo de visualización,1
+53418,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_AND_NAME,Icono y nombre,1
+53419,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_ONLY,Solo icono,1
+53420,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_NAME_ONLY,Solo nombre,1
+53421,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING,Visibilidad,1
+53422,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION,Orientación,1
+53423,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_LEFT,Horizontal - Izquierda,1
+53424,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_CENTER,Horizontal - Centro,1
+53425,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_RIGHT,Horizontal - Derecha,1
+53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Vertical - Arriba,1
+53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Vertical - Centro,1
+53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Vertical - Abajo,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,¡El megaimán debe cargarse primero!,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Es necesario un objeto de conjunto de clase para la cabeza, pecho o piernas elegible.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Se necesita un objeto de conjunto de clase apto para los hombros o las manos.,1
@@ -23002,11 +23023,78 @@ Se han eliminado los objetos del evento.",1
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Opacidad del fondo,3
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Tu águila de puntería lo impide.,5
+53649,PERKS_PROGRAM_CART_ADD,Añadir a la cesta,1
+53650,PERKS_PROGRAM_CART_REMOVE,Eliminar de la cesta,1
+53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Ver cesta,1
+53652,PERKS_PROGRAM_CART_CLEAR_POPUP_TEXT,¿Seguro que quieres eliminar %d |4objeto:objetos; de la cesta?,1
+53653,PERKS_PROGRAM_CART_CLEAR_POPUP_CONFIRMATION,Eliminar,1
+53654,PERKS_PROGRAM_CART_COLLECTION_HEADER,Indumentaria,1
+53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Limpiar cesta,1
+53656,PERKS_PROGRAM_CART_TITLE_TEXT,Vista previa de la cesta (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,Una barrera impide que el amplificador pierda poder.,1
 53666,RESILIENT_KEY_LEVEL,Nivel de resistencia: %d,1
+53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,¿Seguro que quieres intercambiar %s por %d |4objeto:objetos;?,1
+53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Comprar cesta,1
 53698,DROP_CHANCE_ITEMS_ONLY,Probabilidad de recibir:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Tu objetivo ya está protegido por un helicóptero sanitario de Fundisombras.,1
+53734,COLORS_LABEL,Colores,3
+53735,ENABLE_ADVANCED_COLORS_OPTIONS,Activar opciones avanzadas,3
+53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Muestra opciones adicionales para sobrescribir color.,3
+53737,COLORS_ITEM_QUALITY,Calidad de objetos,3
 53742,BINDING_NAME_DRIFT,Derrape,1
+53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requiere un vínculo irrompible.,1
+53762,ADVANCED_OPTIONS_LABEL,Opciones avanzadas,1
+53764,ENABLE_COOLDOWN_VIEWER,Activar gestor de tiempos de reutilización,1
+53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Muestra los tiempos de reutilización y beneficios importantes en elementos del HUD personalizables para la especialización seleccionada.,1
+53766,COOLDOWN_VIEWER_LABEL,Gestor de tiempos de reutilización,1
+53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Tiempo de reutilización esenciales, utilidades, beneficios y barras rastreadas para cada especialización. El gestor de tiempos de reutilización está desactivado. Actívalo en Opciones avanzadas > Gestor de tiempos de reutilización.",1
+53824,CHAR_NAME_CONSECUTIVE_SPACES,Los nombres no pueden contener espacios consecutivos,3
+53847,GUILD_RENAME_DESCRIPTION,"Dime el nombre que le quieres poner a tu hermandad y yo comprobaré si está libre. Si cambias de opinión, hay un periodo de espera para volver a cambiar el nombre de la hermandad.",1
+53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Escribe el nuevo nombre de la hermandad,1
+53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Opciones:,1
+53850,GUILD_RENAME_OPTIONS_DESCRIPTION_DISABLED,Ahora mismo no se puede cambiar el nombre de la hermandad. Vuelve a intentarlo más tarde.,1
+53851,GUILD_RENAME_OPTIONS_REFUND,Me gustaría que me devolvieran la compra del cambio de nombre de la hermandad|n(Tiempo restante: %s),1
+53852,GUILD_RENAME_OPTIONS_RENAME_AVAILABLE,Quiero cambiar el nombre de mi hermandad,1
+53853,GUILD_RENAME_OPTIONS_RENAME_COOLDOWN,Quiero cambiar el nombre de mi hermandad|n(Disponible en %s),1
+53854,GUILD_RENAME_COMMAND_DO_RENAME,Renombrar,1
+53855,GUILD_RENAME_DIALOG_TEXT,¿Seguro que quieres gastar %s para cambiar el nombre de tu hermandad a <%s>?|nHay un periodo de espera para volver a cambiarlo.,1
+53856,GUILD_RENAME_DIALOG_CONFIRM_BUTTON,Confirmar,1
+53857,GUILD_RENAME_DIALOG_CANCEL_BUTTON,Cancelar,1
+53858,GUILD_RENAME_REFUND_DIALOG_TEXT,¿Quieres revertir el cambio de nombre de la hermandad de |CnGREEN_FONT_COLOR:<%s>|r a |cnGREEN_FONT_COLOR:<%s>|r y recibir un reembolso de %s?,1
+53859,GUILD_RENAME_REFUND_DIALOG_SUBTEXT,Tiempo de reembolso restante: %s,1
+53860,GUILD_RENAME_ERROR_UNKNOWN,Error desconocido,1
+53861,GUILD_RENAME_ERROR_NAME_INVALID,Nombre no válido,1
+53862,GUILD_RENAME_ERROR_NAME_ALREADY_EXISTS,Nombre ya en uso,1
+53863,GUILD_RENAME_ERROR_NO_PERMISSION,Solo el maestro de la hermandad puede cambiarle el nombre,1
+53864,GUILD_RENAME_ERROR_NOT_ENOUGH_MONEY,Fondos insuficientes,1
+53865,GUILD_RENAME_ERROR_TOO_MUCH_MONEY,El reembolso superaría la cantidad de oro que puede almacenar el banco de la hermandad,1
+53866,GUILD_RENAME_ERROR_IN_COOLDOWN,Tiempo de reutilización del cambio de nombre activo,1
+53867,GUILD_RENAME_ERROR_RESERVATION_EXPIRED,Reserva del nombre expirada,1
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Engarce de trueno cantor,1
 53879,EMPTY_SOCKET_SINGINGSEA,Engarce de mar cantor,1
 53882,EMPTY_SOCKET_SINGINGWIND,Engarce de viento cantor,1
+53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Horizontal,1
+53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Vertical,1
+53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,N.º de filas,1
+53935,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT_ALT,N.º de columnas,1
+53936,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION,Dirección del icono,1
+53937,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_LEFT,Izquierda,1
+53938,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_RIGHT,Derecha,1
+53939,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_UP,Arriba,1
+53940,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_DOWN,Abajo,1
+53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Tamaño de los iconos,1
+53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Espaciado de los iconos,1
+53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Opacidad,1
+53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Siempre visible,1
+53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,En combate,1
+53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Oculto,1
+54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Esta herramienta no se utiliza en esta clase o especialización,1
+54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Ejemplo de nombre de beneficio,1
+54052,SPELL_FAILED_CUSTOM_ERROR_1073,Solo disponible para especializaciones que no sean de tanque.,1
+54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Debes ser el maestro de una hermandad para cambiarle el nombre.,1
+54066,GUILD_RENAME_COSTS_LABEL,Este coste se deducirá de los fondos de tu banco de hermandad:,1
+54074,GUILD_RENAME_COSTS_TOOLTIP,Este coste se deducirá de los fondos de tu banco de hermandad:,1
+54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Mostrar descripciones,1
+54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Fondos disponibles en el banco de hermandad,1
+54088,GUILD_RENAME_TOAST_LABEL,Nombre de hermandad cambiado,1
+54095,NAME_NOT_AVAILABLE,Ese nombre no está disponible,3
