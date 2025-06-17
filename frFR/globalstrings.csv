@@ -1544,7 +1544,7 @@ ID,BaseTag,TagText_lang,Flags
 11387,SPELL_FAILED_TRY_AGAIN,Échec de la tentative,1
 11388,PETTAME_TOOMANY,Vous avez déjà trop de familiers,1
 11389,PETTAME_NOPETAVAILABLE,Vous n'avez pas de familier à invoquer,1
-11399,QUEST_MONSTERS_KILLED,%1$s : %2$d/%3$d personnages tués,1
+11399,QUEST_MONSTERS_KILLED,%1$s : %2$d/%3$d |4personnage tué:personnages tués;,1
 11400,VOICEMACRO_5_Or_0,J’ai besoin de mana !,1
 11401,VOICEMACRO_1_Or_1_FEMALE,En approche !,1
 11402,VOICEMACRO_5_Or_1_FEMALE,Mon mana est faible !,1
@@ -8363,7 +8363,7 @@ Vous pouvez désactiver cet addon et relancer l’IU.",1
 20180,SPELL_FAILED_CUSTOM_ERROR_85,Votre familier a déjà atteint votre niveau.,1
 20181,LFD_REWARDS,Récompenses,1
 20182,SPECIFIC_DUNGEON_IS_READY,Un groupe s'est formé pour :,1
-20183,BOSSES_KILLED,%d boss vaincus sur %d,1
+20183,BOSSES_KILLED,Boss vaincus : %d sur %d,1
 20184,CHOOSE_YOUR_DUNGEON,Type :,1
 20185,LFD_RANDOM_EXPLANATION,Utilisez l'outil Donjons pour terminer un donjon aléatoire et obtenez des récompenses supplémentaires.,1
 20186,LFD_RANDOM_REWARD_EXPLANATION1,Les sept premiers donjons aléatoires de ce palier que vous terminez chaque semaine vous rapporteront :,1
@@ -11426,7 +11426,7 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 23528,ACHIEVEMENT_FILTER_TITLE,Filtre des hauts faits,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Une autre mascotte a rejoint le combat !,1
 23530,ACHIEVEMENT_COMPLETED_BY,Accompli par : |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s peut encore l’accomplir.|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s peut encore être en mesure d’accomplir cela.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,Vous êtes dans la file d’attente pour les combats de mascottes.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,Vous êtes déjà dans la file d’attente pour les combats de mascottes.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Impossible de rejoindre la file d’attente pour les combats de mascottes.,1
@@ -15121,11 +15121,9 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 34573,SELECT_RACE,Sélectionnez votre race,2
 34574,SELECT_SPEC_ACTIVE_LABEL,Choisir votre spécialisation,2
 34575,SELECT_SPEC_RESULTS_LABEL,Spécialisation :,2
-34576,SERVER_ALERT_BETA_URL,https://eu.battle.net/account/management/beta-profile.html,2
 34577,SERVER_ALERT_BUTTON_TEXT,Plus d’info,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,Dernières nouvelles,6
-34580,SERVER_ALERT_URL,http://status.wow-europe.com/fr/alert,6
 34581,SERVER_DOWN,Serveur arrêté,2
 34582,SERVER_SELECTION,Choix du Royaume,6
 34583,SERVER_SPLIT,"La population de ce royaume a dépassé la capacité maximale et va être scindée en deux. Les joueurs seront répartis entre les deux nouveaux royaumes. Vous allez pouvoir choisir celui des deux royaumes que vous préférez jusqu’au |cffffffff%s|r, date à laquelle la scission sera verrouillée. Si vous n’effectuez pas de sélection, un des nouveaux royaumes vous sera automatiquement assigné. Pour plus d’informations, rendez-vous sur www.wow-europe.com.\n\nVeuillez indiquer ci-dessous votre destination préférentielle. Vous pourrez modifier votre choix quand vous le voudrez jusqu’à la date de verrouillage de la scission.",2
@@ -22779,6 +22777,7 @@ Les objets de l’évènement ont été supprimés.
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Échanger,1
 52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Ramasser,1
 52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Attribuer à [%s],1
+52476,SPELL_FAILED_CUSTOM_ERROR_1055,Le conteur est déjà à proximité.,1
 52477,ERR_WARBAND_HEARTHSTONE,Vous ne pouvez pas encore utiliser cet objet.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,Vous êtes sur le point de déposer des objets remboursables dans votre banque.|n|n|cnRED_FONT_COLOR:Tous les objets liés au bataillon verront leur option de remboursement disparaître.|r|n|nVoulez-vous continuer ?,1
 52479,SPELL_FAILED_HEARTHSTONE,Vous ne pouvez pas encore utiliser cet objet.,1
@@ -22813,6 +22812,7 @@ Les objets de l’évènement ont été supprimés.
 52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,Jouez à nouveau pour gagner plus d’unités de pillage !,1
 52557,WOW_LABS_GO_AGAIN,Nouveau match !,1
 52558,WOW_LABS_ACCOUNT_STORE,Boutique du pillage,1
+52560,SPELL_FAILED_CUSTOM_ERROR_1062,Vous êtes déjà dans la bonne zone.,1
 52572,DELVES_SEASON_PROGRESS,Avancée de la saison : |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,Prochaine récompense : |cffffd200%s|r,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Perturbation,5
@@ -22909,6 +22909,7 @@ Les objets de l’évènement ont été supprimés.
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,Vous ne pouvez pas rejoindre d’autres files d’attente tout en étant dans une file d’attente de Plunderstorm.,1
 52791,SPELL_CURIO,Bibelot,1
 52794,WOW_ERROR_501,Une erreur a eu lieu lors de la récupération de votre personnage. Veuillez vous reconnecter pour réessayer.,2
+52795,11.1.7 Lorewalking - Restart (LAS),Ceci réinitialisera votre progression dans cette campagne des chroniques et vous la recommencerez depuis le début.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,Ce campement est déjà dans votre collection.,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPEMENTS,2
 52853,WARBAND_SCENES_RANDOM,Déterminer un arrière-plan aléatoire +,3
@@ -23045,7 +23046,7 @@ Les objets de l’évènement ont été supprimés.
 53737,COLORS_ITEM_QUALITY,Qualité d’objet,3
 53742,BINDING_NAME_DRIFT,Dérapage,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Nécessite Lien indéfectible.,1
-53762,ADVANCED_OPTIONS_LABEL,Options avancées,1
+53762,ADVANCED_OPTIONS_LABEL,Améliorations de gameplay,1
 53764,ENABLE_COOLDOWN_VIEWER,Activer le gestionnaire de temps de recharge,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Activer pour voir les temps de recharge importants et les bonus dans des éléments d’ATH séparés pour la spécialisation sélectionnée.,1
 53766,COOLDOWN_VIEWER_LABEL,Gestionnaire de temps de recharge,1
@@ -23093,10 +23094,39 @@ Les objets de l’évènement ont été supprimés.
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Cet outil n’est actuellement pas utilisé pour cette classe ou cette spécialisation.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Exemple de nom d’amélioration,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Utilisable seulement pour les spécialisations hors tank.,1
+54053,ASSISTED_COMBAT_ROTATION,Assistant à bouton unique,1
+54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Assistant|nà bouton unique,1
+54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,Déplacez l’assistant à bouton unique vers votre barre d’action pour concentrer votre cycle de dégâts en un seul bouton.,1
+54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,Compris dans l’assistant à bouton unique.,1
+54058,ERR_CURRENCY_TRANSFER_DISABLED,Les transferts de monnaie sont actuellement désactivés.,1
+54059,CURRENCY_TRANSFER_IN_PROGRESS,Transfert en cours,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Vous devez diriger la guilde pour utiliser le changement de nom de guilde.,1
 54066,GUILD_RENAME_COSTS_LABEL,Ce coût sera déduit des fonds de votre banque de guilde :,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Ce coût sera prélevé sur votre banque de guilde.,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Afficher les encadrés d’aide,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Fonds disponibles dans la banque de guilde,1
 54088,GUILD_RENAME_TOAST_LABEL,Nom de la guilde modifié,1
+54092,NPEV2_SELF_HEAL_P1,Une blessure vous a été infligée ! Utilisez |cFF00FFFFRécupération|r pour récupérer des points de vie hors combat.,1
+54093,NPEV2_SELF_HEAL_P2,Restez immobile pendant l’incantation.\n\nVos points de vie remonteront à vue d’œil.,1
+54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,L’assistant à bouton unique vous proposera des techniques qui infligent des dégâts. Utilisez-le comme n’importe quelle autre technique.,1
 54095,NAME_NOT_AVAILABLE,Ce nom n’est pas disponible.,3
+54112,LOGIN_STATE_WAITFORNETWORK,En attente de connexion,2
+54132,VOICE_CHAT_SETTING_ENABLED,Discussion audio activée,1
+54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Console des Titans surchargée,1
+54155,REPORTING_MINOR_CATEGORY_TVEC,Contenu portant sur le terrorisme ou à caractère violent,5
+54156,REPORTING_MINOR_CATEGORY_CSEA,Violence sur enfant,5
+54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Clic droit pour afficher la liste des techniques,1
+54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Clic droit pour cacher la liste des techniques,1
+54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Surbrillance d’aide,1
+54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Active des surbrillances qui suggèrent la technique à utiliser.|nCelles-ci ne suggèrent que les techniques visibles.,1
+54219,SPELL_FAILED_CUSTOM_ERROR_1078,Vous ne pouvez pas participer aux chroniques lors de la synchronisation de groupe.,1
+54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,La surbrillance d’aide ne proposera que les techniques visibles.,1
+54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Compris dans la surbrillance d’aide.,1
+54254,ASSISTED_COMBAT_SPELL_INCLUDED,Compris à la fois dans la surbrillance d’aide et l’assistant à bouton unique.,1
+54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s a changé le nom de la guilde pour %s.,1
+54381,GUILDBANK_GUILD_RENAME_REFUND,%s s’est fait rembourser le changement de nom de guilde et a récupéré %s.,1
+54719,REPORT_RESULT_TOO_MANY_REPORTS,Échec du signalement. Trop de tentatives de signalement. Veuillez réessayer dans quelques minutes.,1
+54720,REPORT_RESULT_REQUIRES_CHAT,Échec du signalement. Ce type de signalement ne fonctionne que sur les lignes de discussion.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Échec du signalement. Ce type de signalement ne fonctionne que sur les lignes de discussion ou en discussion vocale.,1
+54758,ASSISTED_COMBAT_LABEL,Assistant de combat,1
+54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Voir dans le grimoire,1

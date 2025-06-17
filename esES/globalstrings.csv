@@ -8365,7 +8365,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 20180,SPELL_FAILED_CUSTOM_ERROR_85,Tu mascota ya tiene tu nivel.,1
 20181,LFD_REWARDS,Recompensas,1
 20182,SPECIFIC_DUNGEON_IS_READY,Se ha formado un grupo para:,1
-20183,BOSSES_KILLED, Jefes derrotados: %d/%d,1
+20183,BOSSES_KILLED,Jefes derrotados: %d/%d,1
 20184,CHOOSE_YOUR_DUNGEON,Tipo:,1
 20185,LFD_RANDOM_EXPLANATION,"Si usas el buscador de mazmorras para realizar una mazmorra aleatoria, recibirás recompensas extra.",1
 20186,LFD_RANDOM_REWARD_EXPLANATION1,Las siete primeras mazmorras aleatorias de este nivel que completes cada semana te darán:,1
@@ -15123,11 +15123,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34573,SELECT_RACE,Selecciona una raza,2
 34574,SELECT_SPEC_ACTIVE_LABEL,Elige tu especialización.,2
 34575,SELECT_SPEC_RESULTS_LABEL,Especialización:,2
-34576,SERVER_ALERT_BETA_URL,https://eu.battle.net/account/management/beta-profile.html ,2
 34577,SERVER_ALERT_BUTTON_TEXT,Más información,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,Noticias de última hora,6
-34580,SERVER_ALERT_URL,http://status.wow-europe.com/es/alert,6
 34581,SERVER_DOWN,Servidor no disponible,2
 34582,SERVER_SELECTION,Selección de reino,6
 34583,SERVER_SPLIT,"La población de este reino ha alcanzado su capacidad máxima. Este reino se va a dividir en dos nuevos. Esto quiere decir que dividiremos el reino en dos y dividiremos a los jugadores entre los dos reinos. Los jugadores podrán elegir en qué reino prefieren estar hasta |cffffffff%s|r, cuando se completará el proceso. Si no seleccionas nada, te asignaremos automáticamente a un reino. Visita www.wow-europe.com/es para consultar más información.\n\nElige el reino que prefieras abajo. Puedes cambiar de idea hasta el día de división.",2
@@ -22777,6 +22775,7 @@ Se han eliminado los objetos del evento.",1
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Cambiar,1
 52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Recoger,1
 52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Asignado a [%s],1
+52476,SPELL_FAILED_CUSTOM_ERROR_1055,El narrador ya está cerca.,1
 52477,ERR_WARBAND_HEARTHSTONE,No puedes utilizar este objeto.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,Estas a punto de depositar objetos reembolsables en el banco.|n|n|cnRED_FONT_COLOR:Se eliminarán los temporizadores de todos los objetos ligados a la banda guerrera.|r|n|n¿Quieres continuar?,1
 52479,SPELL_FAILED_HEARTHSTONE,No puedes utilizar este objeto.,1
@@ -22811,6 +22810,7 @@ Se han eliminado los objetos del evento.",1
 52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,¡Juega de nuevo para obtener más pillaje!,1
 52557,WOW_LABS_GO_AGAIN,¡Inténtalo de nuevo!,1
 52558,WOW_LABS_ACCOUNT_STORE,Tienda de pillaje,1
+52560,SPELL_FAILED_CUSTOM_ERROR_1062,Ya estás en la zona correcta.,1
 52572,DELVES_SEASON_PROGRESS,Progreso de la temporada: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,Siguiente recompensa: |cffffd200%s|r,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Perturbación,5
@@ -22907,6 +22907,7 @@ Se han eliminado los objetos del evento.",1
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,No puedes unirte a otras colas mientras estás en una cola de Plunderstorm.,1
 52791,SPELL_CURIO,Bibelot,1
 52794,WOW_ERROR_501,Se ha producido un error al restaurar tu personaje. Inicia sesión e inténtalo de nuevo.,2
+52795,11.1.7 Lorewalking - Restart (LAS),"Esto reiniciará tu progreso en esta campaña de Paseo por la historia, y empezarás de nuevo desde el principio.",1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,El campamento ya está en tu colección,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPAMENTOS,2
 52853,WARBAND_SCENES_RANDOM,Establecer fondo aleatorio +,3
@@ -23043,7 +23044,7 @@ Se han eliminado los objetos del evento.",1
 53737,COLORS_ITEM_QUALITY,Calidad de objetos,3
 53742,BINDING_NAME_DRIFT,Derrape,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requiere un vínculo irrompible.,1
-53762,ADVANCED_OPTIONS_LABEL,Opciones avanzadas,1
+53762,ADVANCED_OPTIONS_LABEL,Mejoras en la experiencia de juego,1
 53764,ENABLE_COOLDOWN_VIEWER,Activar gestor de tiempos de reutilización,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Muestra los tiempos de reutilización y beneficios importantes en elementos del HUD personalizables para la especialización seleccionada.,1
 53766,COOLDOWN_VIEWER_LABEL,Gestor de tiempos de reutilización,1
@@ -23091,10 +23092,39 @@ Se han eliminado los objetos del evento.",1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Esta herramienta no se utiliza en esta clase o especialización,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Ejemplo de nombre de beneficio,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Solo disponible para especializaciones que no sean de tanque.,1
+54053,ASSISTED_COMBAT_ROTATION,Ayudante de botón único,1
+54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Ayudante|nde botón único,1
+54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,Arrastra el ayudante de botón único a tu barra de acción para unificar tu rotación de daño en un solo botón.,1
+54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,Incluido en el ayudante de botón único.,1
+54058,ERR_CURRENCY_TRANSFER_DISABLED,La transferencia de moneda está desactivada en este momento.,1
+54059,CURRENCY_TRANSFER_IN_PROGRESS,Transferencia en curso,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Debes ser el maestro de una hermandad para cambiarle el nombre.,1
 54066,GUILD_RENAME_COSTS_LABEL,Este coste se deducirá de los fondos de tu banco de hermandad:,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Este coste se deducirá de los fondos de tu banco de hermandad:,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Mostrar descripciones,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Fondos disponibles en el banco de hermandad,1
 54088,GUILD_RENAME_TOAST_LABEL,Nombre de hermandad cambiado,1
+54092,NPEV2_SELF_HEAL_P1,¡Te han herido! Utiliza |cFF00FFFFReponerse|r para restaurar salud fuera de combate.,1
+54093,NPEV2_SELF_HEAL_P2,No te muevas mientras lanzas la facultad.\n\nMira cómo recuperas salud.,1
+54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,El ayudante de botón único te sugerirá qué facultad dañina debes lanzar. Utilízala como cualquier otra.,1
 54095,NAME_NOT_AVAILABLE,Ese nombre no está disponible,3
+54112,LOGIN_STATE_WAITFORNETWORK,Esperando a la red,2
+54132,VOICE_CHAT_SETTING_ENABLED,Chat de voz activado,1
+54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Consola titánica sobrecargada,1
+54155,REPORTING_MINOR_CATEGORY_TVEC,Contenido violento/terrorismo,5
+54156,REPORTING_MINOR_CATEGORY_CSEA,Abuso infantil,5
+54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Haz clic derecho para ver la lista de facultades,1
+54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Haz clic derecho para ocultar la lista de facultades,1
+54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Ayuda resaltada,1
+54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Activa la ayuda resaltada que te sugiere qué facultad debes utilizar.|nLa ayuda resaltada solo sugerirá facultades visibles.,1
+54219,SPELL_FAILED_CUSTOM_ERROR_1078,No puedes participar en el Paseo por la historia durante la sincronización de grupo.,1
+54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,La ayuda resaltada solo sugerirá facultades visibles.,1
+54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Incluido en la ayuda resaltada.,1
+54254,ASSISTED_COMBAT_SPELL_INCLUDED,Incluido en la ayuda resaltada y en el ayudante de botón único.,1
+54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s ha cambiado el nombre de la hermandad por %s,1
+54381,GUILDBANK_GUILD_RENAME_REFUND,%s ha reembolsado el cambio de nombre de la hermandad por %s,1
+54719,REPORT_RESULT_TOO_MANY_REPORTS,Informe fallido. Demasiados intentos. Inténtalo de nuevo en unos minutos.,1
+54720,REPORT_RESULT_REQUIRES_CHAT,Informe fallido. El tipo de informe solo es válido en líneas de chat.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Informe fallido. El tipo de informe solo es válido en líneas de chat o en el chat de voz.,1
+54758,ASSISTED_COMBAT_LABEL,Ayudante de combate,1
+54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Ver en el libro de hechizos,1

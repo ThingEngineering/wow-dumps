@@ -11430,7 +11430,7 @@ Die Ausbilder befinden sich in manchen Siedlungen und Städten.",1
 23528,ACHIEVEMENT_FILTER_TITLE,Erfolgsfilter,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Ein weiteres Haustier ist dem Kampf beigetreten!,1
 23530,ACHIEVEMENT_COMPLETED_BY,Erzielt von: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s kann dies noch abschließen.|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s kann diesen Erfolg noch erreichen.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,Ihr habt Euch in die Warteschlange für einen Haustierkampf eingereiht.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,Ihr seid bereits in die Warteschlange für einen Haustierkampf eingereiht.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Konnte der Warteschlange für Haustierkämpfe nicht beitreten.,1
@@ -15129,11 +15129,9 @@ Abenteuerführer ausblenden",1
 34573,SELECT_RACE,Wählen Sie Ihr Volk,2
 34574,SELECT_SPEC_ACTIVE_LABEL,Spezialisierung wählen,2
 34575,SELECT_SPEC_RESULTS_LABEL,Spezialisierung:,2
-34576,SERVER_ALERT_BETA_URL,http://beta.wow-europe.com/de/alert,2
 34577,SERVER_ALERT_BUTTON_TEXT,Mehr Infos,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,Aktuelles,6
-34580,SERVER_ALERT_URL,http://status.wow-europe.com/de/alert,6
 34581,SERVER_DOWN,Server nicht aktiv,2
 34582,SERVER_SELECTION,Realmwahl,6
 34583,SERVER_SPLIT,"Die Gesamtbevölkerung des Realms hat die maximale Kapazität erreicht. Für diesen Realm ist eine Realmteilung vorgesehen. Im Laufe des Vorgangs werden die Spieler auf beide Realms verteilt werden. Sie können sich bis zum |cffffffff%s|r für einen der beiden neuen Realms entscheiden, wenn der Teilungsvorgang stattfindet. Wenn Sie keine Auswahl treffen, werden Sie automatisch einem der neuen Realms zugeordnet. Für weitere Informationen besuchen Sie http://eu.battle.net/wow/de/.\n\nBitte wählen Sie unten Ihren bevorzugten neuen Realm aus. Sie können Ihre Auswahl jederzeit bis zum Zeitpunkt der Realmteilung verändern.",2
@@ -22793,6 +22791,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Wechseln,1
 52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Aufheben,1
 52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,An [%s] zuweisen,1
+52476,SPELL_FAILED_CUSTOM_ERROR_1055,Der Geschichtenerzähler ist bereits in der Nähe.,1
 52477,ERR_WARBAND_HEARTHSTONE,"Ihr seid nicht berechtigt, diesen Gegenstand einzusetzen.",1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,"Ihr steht kurz davor, erstattbare Gegenstände in der Bank abzulegen.|n|n|cnRED_FONT_COLOR:Alle kriegsmeutengebundenen Gegenstände verlieren dadurch ihren Erstattungstimer.|r|n|nMöchtet Ihr fortfahren?",1
 52479,SPELL_FAILED_HEARTHSTONE,"Ihr seid nicht berechtigt, diesen Gegenstand einzusetzen.",1
@@ -22827,6 +22826,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,"Spielt erneut, um Euch mehr Beute zu schnappen!",1
 52557,WOW_LABS_GO_AGAIN,Noch einmal!,1
 52558,WOW_LABS_ACCOUNT_STORE,Beuteladen,1
+52560,SPELL_FAILED_CUSTOM_ERROR_1062,Ihr befindet Euch bereits im richtigen Gebiet.,1
 52572,DELVES_SEASON_PROGRESS,Saisonfortschritt: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,Bis zur nächsten Belohnung: |cffffd200%s|r,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Störung,5
@@ -22923,6 +22923,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,"Ihr könnt Euch in keine anderen Warteschlangen einreihen, während Ihr Euch in einer Plunderstorm-Warteschlange befindet.",1
 52791,SPELL_CURIO,Kuriosität,1
 52794,WOW_ERROR_501,Es ist ein Fehler beim Wiederherstellen Eures Charakters aufgetreten. Bitte loggt Euch ein und versucht es erneut.,2
+52795,11.1.7 Lorewalking - Restart (LAS),Dies wird Euren Fortschritt in dieser Lehrensucherkampagne zurücksetzen und sie von vorne beginnen.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,Dieses Lager ist bereits Teil Eurer Sammlung.,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,LAGERPLÄTZE,2
 52853,WARBAND_SCENES_RANDOM,Zufälligen Hintergrund anwenden +,3
@@ -23059,7 +23060,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 53737,COLORS_ITEM_QUALITY,Gegenstandsqualität,3
 53742,BINDING_NAME_DRIFT,Driften,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Erfordert unzerstörbares Band.,1
-53762,ADVANCED_OPTIONS_LABEL,Erweiterte Optionen,1
+53762,ADVANCED_OPTIONS_LABEL,Gameplay-Verbesserungen,1
 53764,ENABLE_COOLDOWN_VIEWER,Abklingzeitmanager aktivieren,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,"Einschalten, um wichtige Abklingzeiten und Stärkungseffekte in getrennten, anpassbaren HUD-Elementen für die ausgewählte Spezialisierung anzuzeigen.",1
 53766,COOLDOWN_VIEWER_LABEL,Abklingzeitmanager,1
@@ -23107,10 +23108,39 @@ Gegenstände von dem Ereignis wurden entfernt.
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Dieses Tool wird aktuell nicht für diese Klasse oder Spezialisierung verwendet.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Name für Beispielstärkungseffekt,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Kann nur von Nicht-Tank-Spezialisierungen verwendet werden,1
+54053,ASSISTED_COMBAT_ROTATION,Einzeltasten-Assistent,1
+54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Einzeltasten-|nAssistent,1
+54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,"Zieht den Einzeltasten-Assistenten auf Eure Aktionsleiste, um Eure Schadensrotation in einer einzelnen Taste zu vereinen.",1
+54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,Im Einzeltasten-Assistenten enthalten.,1
+54058,ERR_CURRENCY_TRANSFER_DISABLED,Der Transfer von Währungen ist derzeit nicht verfügbar.,1
+54059,CURRENCY_TRANSFER_IN_PROGRESS,Transfer wird verarbeitet,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,"Ihr müsst der Gildenmeister einer Gilde sein, um die Gildenumbenennung durchführen zu können.",1
 54066,GUILD_RENAME_COSTS_LABEL,Diese Kosten werden von den Mitteln Eurer Gildenbank abgezogen:,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Die Kosten werden von den Mitteln Eurer Gildenbank abgezogen,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Tooltips anzeigen,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Verfügbare Gildenbankmittel,1
 54088,GUILD_RENAME_TOAST_LABEL,Gildenumbenennung,1
+54092,NPEV2_SELF_HEAL_P1,"Ihr seid verletzt! Verwendet |cFF00FFFFGesundung|r, um außerhalb des Kampfes Gesundheit wiederherzustellen.",1
+54093,NPEV2_SELF_HEAL_P2,"Bewegt Euch nicht während des Zauberns.\n\nBeobachtet, wie Eure Gesundheit sich erholt.",1
+54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,Der Einzeltasten-Assistent wird Euch schadenverursachende Fähigkeiten vorschlagen. Verwendet ihn wie jede andere Fähigkeit auch.,1
 54095,NAME_NOT_AVAILABLE,Dieser Name ist nicht verfügbar,3
+54112,LOGIN_STATE_WAITFORNETWORK,Warten auf Netzwerk,2
+54132,VOICE_CHAT_SETTING_ENABLED,Voicechat aktiviert,1
+54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Überladene Titanenkonsole,1
+54155,REPORTING_MINOR_CATEGORY_TVEC,Terrorismus/Gewalttätige Inhalte,5
+54156,REPORTING_MINOR_CATEGORY_CSEA,Kindesmissbrauch,5
+54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,"Rechtsklicken, um eine Liste an Fähigkeiten anzuzeigen",1
+54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,"Rechtsklicken, um Liste an Fähigkeiten auszublenden",1
+54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Vorschlag hervorheben,1
+54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Aktiviert das Hervorheben von Fähigkeiten, die vorgeschlagen werden.|nDurch ""Vorschlag hervorheben"" werden nur sichtbare Fähigkeiten vorgeschlagen.",1
+54219,SPELL_FAILED_CUSTOM_ERROR_1078,Ihr könnt in synchronisierten Gruppen an keiner Lehrensuche teilnehmen.,1
+54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Durch ""Vorschlag hervorheben"" werden nur sichtbare Fähigkeiten vorgeschlagen.",1
+54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,"In ""Vorschlag hervorheben"" enthalten.",1
+54254,ASSISTED_COMBAT_SPELL_INCLUDED,"In ""Vorschlag hervorheben"" und im Einzeltasten-Assistenten enthalten.",1
+54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s hat die Gilde für %s umbenannt,1
+54381,GUILDBANK_GUILD_RENAME_REFUND,%s hat die Gildenumbenennung für %s rückerstattet,1
+54719,REPORT_RESULT_TOO_MANY_REPORTS,"Meldung fehlgeschlagen. Es wurde zu oft versucht, etwas zu melden. Bitte in einigen Minuten erneut versuchen.",1
+54720,REPORT_RESULT_REQUIRES_CHAT,Meldung fehlgeschlagen. Meldungstyp nur in Chatzeilen gültig.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Meldung fehlgeschlagen. Meldungstyp nur in Chatzeilen oder im Sprachchat gültig.,1
+54758,ASSISTED_COMBAT_LABEL,Kampfassistent,1
+54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Im Zauberbuch ansehen,1

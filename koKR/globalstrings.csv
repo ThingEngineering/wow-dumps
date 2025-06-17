@@ -8366,7 +8366,7 @@ ID,BaseTag,TagText_lang,Flags
 20180,SPELL_FAILED_CUSTOM_ERROR_85,야수의 레벨이 캐릭터와 같습니다.,1
 20181,LFD_REWARDS,보상,1
 20182,SPECIFIC_DUNGEON_IS_READY,파티 구성 완료:,1
-20183,BOSSES_KILLED,우두머리 %d/%d 마리 처치,1
+20183,BOSSES_KILLED,쓰러뜨린 우두머리: %d/%d,1
 20184,CHOOSE_YOUR_DUNGEON,유형:,1
 20185,LFD_RANDOM_EXPLANATION,던전 찾기를 통해 무작위 던전을 완료하면 추가 보상을 획득할 수 있습니다.,1
 20186,LFD_RANDOM_REWARD_EXPLANATION1,매주 해당 단계의 무작위 던전 7개 완료 시 받을 보상:,1
@@ -11428,7 +11428,7 @@ ID,BaseTag,TagText_lang,Flags
 23528,ACHIEVEMENT_FILTER_TITLE,업적 필터,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,다른 애완동물이 전투에 참여합니다!,1
 23530,ACHIEVEMENT_COMPLETED_BY,완료: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s|1은;는; 아직 해당 업적을 완료할 수 있습니다.|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s|1은;는; 이 업적을 완료할 수 있습니다.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,애완동물 대전 대기열에 등록했습니다.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,이미 애완동물 대전 대기열에 등록되어 있습니다.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,애완동물 대전 대기열에 등록하지 못했습니다.,1
@@ -15127,11 +15127,9 @@ ID,BaseTag,TagText_lang,Flags
 34573,SELECT_RACE,종족을 선택하십시오.,2
 34574,SELECT_SPEC_ACTIVE_LABEL,전문화를 선택하십시오.,2
 34575,SELECT_SPEC_RESULTS_LABEL,전문화:,2
-34576,SERVER_ALERT_BETA_URL,http://beta.worldofwarcraft.co.kr/alert,2
 34577,SERVER_ALERT_BUTTON_TEXT,자세한 정보,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,긴급 공지,6
-34580,SERVER_ALERT_URL,http://launcher.worldofwarcraft.co.kr/alert,6
 34581,SERVER_DOWN,서버 다운,2
 34582,SERVER_SELECTION,서버 선택,6
 34583,SERVER_SPLIT,이 서버의 인구가 최대 수용 가능 인원을 초과하여 분할될 예정입니다. 플레이어분들은 새로 생성되는 2개의 서버에서 나뉘어 플레이하시게 될 것입니다. 서버 분할이 진행되기 전인 |cffffffff%s|r까지 선호하는 서버를 선택하실 기회가 주어집니다. 만약 선택을 하지 않으시면 이주할 서버가 자동으로 선택됩니다. 더 자세한 내용은 http://kr.battle.net/wow/ko/에서 참조하시기 바랍니다.\n\n이주를 원하시는 서버를 아래에서 선택해 주십시오. 서버 이전 전에는 이주할 서버를 언제든지 변경하실 수 있습니다.,2
@@ -22786,6 +22784,7 @@ ID,BaseTag,TagText_lang,Flags
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,교체,1
 52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,획득,1
 52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,[%s]에 할당,1
+52476,SPELL_FAILED_CUSTOM_ERROR_1055,이야기꾼이 이미 주위에 있습니다.,1
 52477,ERR_WARBAND_HEARTHSTONE,이 아이템을 사용할 조건을 갖추지 못했습니다.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,환불 가능 아이템을 은행에 맡깁니다.|n|n|cnRED_FONT_COLOR:모든 전투귀속 아이템의 환불 타이머가 제거됩니다.|r|n|n계속 진행하시겠습니까?,1
 52479,SPELL_FAILED_HEARTHSTONE,이 아이템을 사용할 조건을 갖추지 못했습니다.,1
@@ -22820,6 +22819,7 @@ ID,BaseTag,TagText_lang,Flags
 52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,다시 플레이하여 노획물을 획득하십시오!,1
 52557,WOW_LABS_GO_AGAIN,한 번 더 도전해 보세요!,1
 52558,WOW_LABS_ACCOUNT_STORE,약탈상회,1
+52560,SPELL_FAILED_CUSTOM_ERROR_1062,이미 알맞은 지역 내에 있습니다.,1
 52572,DELVES_SEASON_PROGRESS,시즌 진행 상황: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,다음 보상: |cffffd200%s|r,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,방해,5
@@ -22916,6 +22916,7 @@ ID,BaseTag,TagText_lang,Flags
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,약탈폭풍 대기열에 등록된 동안에는 다른 대기열에 등록할 수 없습니다.,1
 52791,SPELL_CURIO,수집품,1
 52794,WOW_ERROR_501,캐릭터 복구 중 오류가 발생했습니다. 접속 후 다시 시도해 주십시오.,2
+52795,11.1.7 Lorewalking - Restart (LAS),이 전승 대장정의 진행 상태를 초기화하고 처음부터 다시 시작합니다.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,이미 수집한 야영 거점입니다.,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,야영 거점,2
 52853,WARBAND_SCENES_RANDOM,무작위 배경 설정 +,3
@@ -23052,7 +23053,7 @@ ID,BaseTag,TagText_lang,Flags
 53737,COLORS_ITEM_QUALITY,아이템 등급,3
 53742,BINDING_NAME_DRIFT,급선회,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,끊어지지 않는 유대가 필요합니다.,1
-53762,ADVANCED_OPTIONS_LABEL,고급 설정,1
+53762,ADVANCED_OPTIONS_LABEL,게임 플레이 개선,1
 53764,ENABLE_COOLDOWN_VIEWER,재사용 대기시간 관리자 활성화,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,사용 시 지정한 전문화의 중요 능력과 강화 효과를 별도의 사용자 지정 HUD 요소로 표시합니다.,1
 53766,COOLDOWN_VIEWER_LABEL,재사용 대기시간 관리자,1
@@ -23100,10 +23101,39 @@ ID,BaseTag,TagText_lang,Flags
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,현재 이 도구는 해당 직업 또는 전문화에 사용되지 않습니다.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,예시 강화 효과 이름,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,방어 담당이 아닌 전문화만 사용할 수 있습니다.,1
+54053,ASSISTED_COMBAT_ROTATION,단일 버튼 보조,1
+54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,단일 버튼|n보조,1
+54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,단일 버튼 보조를 행동 단축바로 끌어다 놓아 공격 로테이션을 하나의 버튼으로 통합할 수 있습니다.,1
+54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,단일 버튼 보조에 포함됨,1
+54058,ERR_CURRENCY_TRANSFER_DISABLED,현재 재화 이전이 비활성화되어 있습니다.,1
+54059,CURRENCY_TRANSFER_IN_PROGRESS,이전 진행 중,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,길드장만 길드 이름을 변경할 수 있습니다.,1
 54066,GUILD_RENAME_COSTS_LABEL,이 비용은 길드 은행 금고에서 차감됩니다:,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,길드 은행 금고에서 비용이 차감됩니다,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,툴팁 표시,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,사용 가능한 길드 은행 자금,1
 54088,GUILD_RENAME_TOAST_LABEL,길드 이름 변경 완료,1
+54092,NPEV2_SELF_HEAL_P1,부상을 입었습니다! 전투 중이 아닐 때 |cFF00FFFF만회|r로 생명력을 회복해야 합니다.,1
+54093,NPEV2_SELF_HEAL_P2,시전 중에는 가만히 있어야 합니다.\n\n회복되는 생명력을 주시하십시오.,1
+54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,단일 버튼 보조는 다음에 사용할 공격 능력을 추천합니다. 여타 능력처럼 사용하십시오.,1
 54095,NAME_NOT_AVAILABLE,사용할 수 없는 이름입니다.,3
+54112,LOGIN_STATE_WAITFORNETWORK,네트워크 기다리는 중,2
+54132,VOICE_CHAT_SETTING_ENABLED,음성 대화 활성화,1
+54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,과충전된 티탄 제어장치,1
+54155,REPORTING_MINOR_CATEGORY_TVEC,테러리스트/폭력적인 콘텐츠,5
+54156,REPORTING_MINOR_CATEGORY_CSEA,아동 학대,5
+54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,능력 목록을 보려면 오른쪽 클릭,1
+54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,능력 목록을 숨기려면 오른쪽 클릭,1
+54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,보조 강조 효과,1
+54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,추천 능력을 강조 표시합니다.|n보조 강조 효과는 눈에 보이는 능력만 추천합니다.,1
+54219,SPELL_FAILED_CUSTOM_ERROR_1078,파티 동기화 중에는 전승 진행이 불가능합니다.,1
+54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,보조 강조 효과는 눈에 보이는 능력만 추천합니다.,1
+54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,보조 강조 효과에 포함되어 있습니다.,1
+54254,ASSISTED_COMBAT_SPELL_INCLUDED,보조 강조 효과와 단일 버튼 보조에 모두 포함되어 있습니다.,1
+54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s|1이;가; %s에 길드 이름을 변경했습니다.,1
+54381,GUILDBANK_GUILD_RENAME_REFUND,%s|1이;가; 길드 이름 변경에 소모한 비용(%s)을 환불받았습니다.,1
+54719,REPORT_RESULT_TOO_MANY_REPORTS,신고하지 못했습니다. 신고를 너무 많이 시도했습니다. 몇 분 후에 다시 시도하십시오.,1
+54720,REPORT_RESULT_REQUIRES_CHAT,신고하지 못했습니다. 신고 유형은 대화 창에만 유효합니다.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,신고하지 못했습니다. 신고 유형은 대화 창 혹은 음성 대화 중일 때만 유효합니다.,1
+54758,ASSISTED_COMBAT_LABEL,전투 보조,1
+54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,마법책에서 보기,1

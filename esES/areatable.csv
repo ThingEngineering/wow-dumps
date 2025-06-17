@@ -2426,7 +2426,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 4856,BaelModan,Bael Modan,1,4709,3277,0,0,0,675,810,0,0,0,0,0.15,15,-1,0,0,0,16,1073758272,8192,0,0,0,0
 4857,FirestonePoint,Punta Piedra de Fuego,1,4709,3279,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,16,1073758272,8192,0,0,0,0
 4858,Rygna'sLair,Guarida de Rygna,654,4714,3281,0,0,608,675,913,0,819,0,0,0.15,13,-1,0,0,0,78,1073758208,8192,0,0,0,0
-4859,TheFrozenThrone,El Trono Helado,631,4812,3283,0,0,0,0,0,0,0,0,0,0.4,0,-1,0,0,0,1023,1107312641,12,0,0,0,0
+4859,TheFrozenThrone,El Trono Helado,631,0,3283,0,0,0,0,0,0,0,0,0,0.4,0,-1,0,0,0,3011,33570817,12,0,0,0,0
 4860,OvergrownCamp,Campamento Hojarasca,1,4709,3288,0,0,581,675,815,0,700,0,0,0.15,15,-1,0,0,0,16,1073758272,0,0,0,0,0
 4861,TheRegrowth,El Brote,1,616,3290,0,0,634,675,0,0,0,0,0,0.15,15,-1,0,0,0,52,1073758272,8192,0,0,0,0
 4862,TheFrozenHalls,Las Cámaras Heladas,571,210,3292,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,51,1073743941,8192,0,0,0,0
@@ -9215,17 +9215,86 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 15665,TheGallagio,El Gallagio,2769,15522,0,0,0,0,0,3095,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 15667,DelveChatChannel,Profundidades,2552,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,268435456,192,0,0,0,0
 15710,WaterworksDungeonTheWaterworks,Estación de Bombeo,2773,15452,0,78,0,2885,2689,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+15713,Wetlands1117FaerinQuestline,Humedales,2796,0,0,0,11,603,675,637,0,0,0,0,0.3,15,-1,6,7,0,15,16448,128,0,0,0,0
+15714,TheHinterlands1117FaerinQuestline,Tierras del Interior,2796,0,0,0,11,605,675,1,0,0,0,0,0.4,15,-1,11,12,0,20,16448,128,0,0,0,0
+15715,TwilightHighlands1117FaerinQuestline,Tierras Altas Crepusculares,2796,0,0,0,0,661,675,925,0,0,0,0,0.15,15,-1,23,24,0,56,16448,128,0,0,0,0
+15716,ArathiBfAMain1117FaerinQuestline,Tierras Altas de Arathi,2796,0,0,0,0,1843,0,2185,0,0,0,0,0.15,15,-1,0,0,11,3005,16384,128,0,0,0,0
+15717,HillsbradFoothills1117FaerinQuestline,Laderas de Trabalomas,2796,0,0,0,11,31,675,1,0,0,0,0,0.3,15,-1,6,7,0,11,16448,128,0,0,0,0
+15718,ArathiBfACircleOfElements1117FaerinQuestline,Círculo de los Elementos,2796,15716,0,0,0,1845,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15719,ArathiBfAHammerfall1117FaerinQuestline,Sentencia,2796,15716,0,0,11,0,675,14,0,0,0,0,0.15,15,-1,0,0,0,1206,1075855424,128,0,0,0,0
+15720,TheForbiddingSea1117FaerinQuestline,Mar Adusto,2796,15716,0,0,0,565,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15721,ArathiBfABouldergor1117FaerinQuestline,Roca'gor,2796,15716,0,0,11,31,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15722,ArathiBfACircleofEastBinding1117FaerinQuestline,Círculo de Vínculo Este,2796,15716,0,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15723,TheDrownedReef1117FaerinQuestline,Arrecife Hundido,2796,15716,0,0,11,567,675,192,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15724,ArathiBfAFaldirsCove1117FaerinQuestline,Cala de Faldir,2796,15716,0,0,11,0,675,3,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15725,ArathiBfAThoradinsWall1117FaerinQuestline,Muralla de Thoradin,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15726,ArathiBfAThandolSpan1117FaerinQuestline,Puente Thandol,2796,15716,0,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15727,ArathiBfABoulderfistHall1117FaerinQuestline,Sala Puño de Roca,2796,15716,0,0,11,31,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15728,ArathiBfAWitherbarkVillage1117FaerinQuestline,Poblado Secacorteza,2796,15716,0,0,11,0,675,3,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15729,ArathiBfAGoShekFarm1117FaerinQuestline,Granja Go'shek,2796,15716,0,0,11,0,675,0,0,301,0,0,0.15,15,-1,0,0,0,1206,1075855424,128,0,0,0,0
+15730,ArathiBfADrywhiskerGorge1117FaerinQuestline,Cañón Mostacho Seco,2796,15716,0,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15731,ArathiBfADabyriesFarmstead1117FaerinQuestline,Granja de Dabyrie,2796,15716,0,0,11,0,675,0,0,301,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15732,ArathiBfACircleofOuterBinding1117FaerinQuestline,Círculo de Vínculo Exterior,2796,15716,0,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073758272,128,0,0,0,0
+15733,ArathiBfARefugePointe1117FaerinQuestline,Refugio de la Zaga,2796,15716,0,0,11,0,675,0,0,123,0,0,0.15,15,-1,0,0,0,1206,1075855424,128,0,0,0,0
+15734,ArathiBfACircleOfBinding1117FaerinQuestline,Círculo de Vínculo Interior,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1077936128,128,0,0,0,0
+15735,ArathiBfAArgorok1117FaerinQuestline,Ar'gorok,2796,15716,0,0,0,0,0,2111,0,0,0,0,0.15,15,-1,0,0,0,1206,1077936128,128,0,0,0,0
+15736,ArathiBfAHatchetRidge1117FaerinQuestline,Cumbre Destral,2796,15716,0,0,0,1846,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15737,ArathiBfANewstead1117FaerinQuestline,Finca Nueva,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15738,ArathiBfAHighPerch1117FaerinQuestline,Nido Alto,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15739,ArathiBfANorthfoldCrossing1117FaerinQuestline,Cruce Redilnorte,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15740,ArathiBfADrywhiskerMine1117FaerinQuestline,Mina Mostacho Seco,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15741,ArathiBfAHighlandsMill1117FaerinQuestline,Aserradero de las Tierras Altas,2796,15716,0,0,0,1846,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15742,ArathiBfAStromgardeKeep1117FaerinQuestline,Castillo de Stromgarde,2796,15716,0,0,0,0,0,2104,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15743,ArathiBfAValorcallPass1117FaerinQuestline,Senda del Valor,2796,15716,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15744,ArathiBfAGalsonsLode1117FaerinQuestline,Mina de Galson,2796,15716,0,0,0,1844,0,0,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
+15745,VermillionRedoubt1117FaerinQuestline,Reducto Bermellón,2796,15715,0,0,0,616,675,0,0,0,0,0,0.15,15,-1,0,0,0,56,1073758272,8320,0,0,0,0
+15746,NethanderStead1117FaerinQuestline,Granja Nethander,2796,15717,0,0,11,0,675,1,0,0,0,0,0.15,15,-1,0,0,0,11,1073758272,8320,0,0,0,0
+15747,DurnholdeKeep1117FaerinQuestline,Castillo de Durnholde,2796,15717,0,0,11,0,675,788,0,679,0,0,0.15,15,-1,0,0,0,11,1073758272,8320,0,0,0,0
+15748,DunGarok1117FaerinQuestline,Dun Garok,2796,15717,0,0,11,0,675,1,0,0,0,0,0.15,15,-1,0,0,0,11,1073758272,8320,0,0,0,0
+15749,EasternStrand1117FaerinQuestline,Playa del Este,2796,15717,0,0,11,567,675,1,0,0,0,0,0.15,15,-1,0,0,0,11,1073758272,8320,0,0,0,0
+15750,Thoradin'sWall1117FaerinQuestline,Muralla de Thoradin,2796,15717,0,0,0,31,675,0,0,0,0,0,0.15,15,-1,0,0,0,11,1073758272,128,0,0,0,0
+15751,TheGreatSea1117FaerinQuestline,Mare Magnum,2796,15717,0,0,0,565,675,0,0,0,0,0,0.15,15,-1,0,0,0,11,1073758272,128,0,0,0,0
+15752,RavenholdtManor1117FaerinQuestline,Mansión Ravenholdt,2796,15717,0,0,0,0,675,1067,0,957,0,0,0.15,15,-1,0,0,0,11,1073758272,8320,0,0,0,0
+15753,TheAltarofZul1117FaerinQuestline,Altar de Zul,2796,15714,0,0,11,0,675,674,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,8320,0,0,0,0
+15754,JinthaAlor1117FaerinQuestline,Jintha'Alor,2796,15714,0,0,11,0,675,674,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,8320,0,0,0,0
+15755,Zun'watha1117FaerinQuestline,Zun'watha,2796,15714,0,0,11,0,675,672,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,128,0,0,0,0
+15756,TheForbiddingSea1117FaerinQuestline,Mar Adusto,2796,15714,0,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,128,0,0,0,0
+15757,Shadra'Alor1117FaerinQuestline,Shadra'Alor,2796,15714,0,0,11,0,675,672,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,8320,0,0,0,0
+15758,Bogen'sLedge1117FaerinQuestline,Arrecife de Bogen,2796,15714,0,0,89,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,20,1073758272,128,0,0,0,0
+15759,DunModr1117FaerinQuestline,Dun Modr,2796,15713,0,0,11,0,675,191,0,0,0,0,0.15,15,-1,0,0,0,15,1073758272,8320,0,0,0,0
+15760,SaltsprayGlen1117FaerinQuestline,Cañada Salobre,2796,15713,0,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,15,1073758272,8320,0,0,0,0
+15761,ThandolSpan1117FaerinQuestline,Puente Thandol,2796,15713,0,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,15,1073758272,128,0,0,0,0
 15763,TheDrain,El Sumidero,2127,10416,13017,0,0,2880,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075843136,8192,0,0,0,0
+15764,NzothRaid1117StoryQuest,"Ny'alotha, Ciudad del Despertar",2801,0,0,84,0,2178,675,2365,0,0,0,0,0,13,-1,0,0,0,785,268978176,128,0,0,0,0
+15765,NzothRaidMain1117StoryQuest,Ny'alotha,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15766,NzothRaidNZothInterior21117StoryQuest,Enclave de Verdades Infinitas,2801,15764,0,84,0,2198,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15767,NzothRaidNZothGeneral1117StoryQuest,N'Zoth,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15768,NzothRaidNZothInterior11117StoryQuest,Cubil de Transfusión,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15769,NzothRaidZigguratTwilightTop1117StoryQuest,Bancal de Desolación,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15770,NzothRaidZigguratTwilight1117StoryQuest,Desembarco Crepuscular,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15771,NzothRaidMawWorm1117StoryQuest,Túneles de Descomposición,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15772,NzothRaidMawWingBoss1117StoryQuest,Cámara de Renacimiento,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15773,NzothRaidMawHound1117StoryQuest,Foso Engendrador,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15774,NzothRaidMaw1117StoryQuest,Fauces de Gor'ma,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15775,NzothRaidZigguratHive1117StoryQuest,La Colmena,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15776,NzothRaidZigguratRitual1117StoryQuest,Cámara Ritual,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15777,NzothRaidMainProphecy1117StoryQuest,Anexo de la Profecía,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15778,NzothRaidMainObsidian1117StoryQuest,Mirador Obsidiana,2801,15764,0,84,0,2178,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
+15779,NzothRaidIntialPlatform1117StoryQuest,Visión del Destino,2801,15764,0,84,0,2196,675,0,0,0,0,0,0,13,-1,0,0,0,785,1342193664,140,0,0,0,0
 15780,ForbiddenReach1105VersionDracthyrforAll,Forbidden Reach - (11.0.5 Version) - Dracthyr for All,2785,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,526368,128,0,0,0,0
 15783,TheMoneymaker,Creapasta,2706,15347,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,2888,1073758272,128,0,0,0,0
 15784,ShudderingHollow,Cuenca Estremecedora,2127,10416,13019,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075843136,8192,0,0,0,0
 15785,TheFloodedLair,Guarida Sumergida,2127,10416,13018,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075843136,8192,0,0,0,0
 15786,DungeonAirshipZone,Santificación,2662,14971,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+15794,ArathiBfAMarrinsEnclave1117FaerinQuestline,Marrin's Enclave [UNUSED],2796,15716,0,0,0,0,0,2104,0,0,0,0,0.15,15,-1,0,0,0,1206,1073741824,128,0,0,0,0
 15827,TheTomb,Cámara Olvidada,2127,10416,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,3004,1075843136,8320,0,0,0,0
 15836,DelvesOldGod,Excavación 9,2815,0,0,75,0,2931,2894,3101,0,0,0,0,0,0,-1,0,0,0,2677,268439552,128,0,0,0,0
 15838,ResearchandDestruction,Investigación y Destrucción,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 15839,TheHouseofChrome,Casa del Cromo,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 15840,TheSacredHollow,Hondonada Sacra,2127,10416,0,0,0,2880,0,3082,0,0,0,0,0,13,-1,0,0,0,3004,1075839040,8320,0,0,0,0
+15841,ScarletHallsScarlettHalls,Cámaras Escarlata,2818,0,0,0,0,0,0,0,0,0,0,0,0.15,0,-1,0,0,0,210,0,140,0,0,0,0
+15842,HuntsmansCloisterScarlettHalls,Claustro del Cazador,2818,15841,0,86,0,601,675,1193,0,0,0,0,0.15,0,-1,0,0,0,210,1073741824,136,0,0,0,0
+15843,TrainingGroundsScarlettHalls,Campo de Entrenamiento,2818,15841,0,86,11,601,675,1193,0,1038,0,0,0.15,0,-1,0,0,0,210,1073741824,136,0,0,0,0
 15913,BlackrockDepthsRaid,Profundidades de Roca Negra,2792,0,13023,0,0,0,675,0,0,0,0,0,0,0,-1,0,0,0,2933,268435456,8,0,0,0,0
 15914,HozensPaw,Pata de Hozen,2127,10416,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075839040,8320,0,0,0,0
 15940,Cave6,Cueva del Espíritu Marcado,2127,10416,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,3004,1075839040,8320,0,0,0,0
@@ -9235,6 +9304,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 15944,TempestCrest,Cresta de la Tempestad,2127,10416,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075839040,8320,0,0,0,0
 15945,Rottinghole,Hoyo Hediondo,2127,10416,0,0,0,2880,0,0,0,0,0,0,0,13,-1,0,0,0,2892,1075839040,8320,0,0,0,0
 15946,83VisionsofNzothOrgrimmar1115,Visión de Orgrimmar,2828,0,0,84,0,2192,0,2359,0,1534,0,0,0,13,-1,0,0,0,737,268439552,136,0,0,0,0
+15989,LordaeronGarrison,Ciudadela de Lordaeron,2818,0,0,83,0,3032,0,3172,0,0,0,0,0,0,-1,0,0,0,0,0,128,0,0,0,0
 15990,DelvesGoblins01,Canal Callejero,2826,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2677,268439552,128,0,0,0,0
 15991,DelvesGoblinBoss,Cúpula de Demolición,2831,0,0,0,0,2926,0,3129,0,0,0,0,0,0,-1,0,0,0,2677,268441600,128,0,0,0,0
 16075,DelvesNerubians01SpecialInstance,Minas Reptaterra,2552,14771,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2677,1342183424,128,0,0,0,0
