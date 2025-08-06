@@ -4850,7 +4850,7 @@ ID,BaseTag,TagText_lang,Flags
 16229,ID,ID,1
 16230,RESETS_IN,Блокировка истекает через,1
 16232,RAID_INFO,Информация,1
-16234,SOCKET_GEMS,Инкрустировать,1
+16234,SOCKET_GEMS,Применить,1
 16236,ITEM_SOCKETING,Инкрустируемый предмет,1
 16237,ITEM_SOCKETABLE,"<Нажмите Shift+ПКМ, чтобы инкрустировать>",1
 16238,EMPTY_SOCKET,Ячейка (уровень: %d),1
@@ -5007,7 +5007,7 @@ ID,BaseTag,TagText_lang,Flags
 16429,ERR_NOT_IN_BATTLEGROUND,Вы не на поле боя.,1
 16430,CHAT_MSG_FILTERED,Отфильтрованное сообщение,3
 16431,EMOTE171_CMD1,/mountspecial,1
-16432,ABANDON_QUEST_CONFIRM_WITH_ITEMS,"Отменить задание \""%s\"", уничтожив предмет ""%s""?""",1
+16432,ABANDON_QUEST_CONFIRM_WITH_ITEMS,"Отменить задание \""%s\"", уничтожив предмет ""%s""?",1
 16433,LFG_TYPE_DUNGEON,Подземелье,1
 16434,LFG_TYPE_QUEST,Задание (групповое),1
 16435,LFG_TYPE_RAID,Рейд,1
@@ -13778,11 +13778,11 @@ ID,BaseTag,TagText_lang,Flags
 32089,ERR_SPEC_IS_DISABLED,Сейчас эта специализация недоступна.,1
 32091,ITEM_REQ_SPECIALIZATION,Требуется: %s.,1
 32092,LOSS_OF_CONTROL_DISPLAY_TAUNT,Провокация,1
-32094,KIOSK_THANK_YOU_FOR_PLAYING,Спасибо за игру!,1
+32094,KIOSK_THANK_YOU_FOR_PLAYING,Спасибо за игру!,3
 32095,SCENARIO_INVASION_REWARD_TOOLTIP_TEXT,"Успешно завершив это вторжение, вы получите следующие награды:",1
 32096,SCENARIO_INVASION_COMPLETE,Вторжение завершено,1
 32098,TRANSFER_ABORT_UNIQUE_MESSAGE4,Вначале исполните свой долг перед Иллиданом и станьте командиром иллидари. Только тогда вы сможете покинуть эту зону.,1
-32099,KIOSK_PLEASE_TAKE_THE_SURVEY,"Пожалуйста, пройдите опрос перед выходом.",1
+32099,KIOSK_PLEASE_TAKE_THE_SURVEY,"Пожалуйста, пройдите опрос перед выходом.",3
 32100,SPEC_INVOLUNTARILY_CHANGED,Ваша специализация больше не доступна и была изменена.,1
 32101,CONFIRM_SUMMON_SCENARIO,%s начинает прохождение сценария в зоне %s. Хотите присоединиться?\n\nПриглашение будет отозвано через %d %s.,1
 32102,PVP_TALENTS,PvP-таланты,1
@@ -16697,7 +16697,7 @@ ID,BaseTag,TagText_lang,Flags
 36312,ABILITY_INFO_VOIDELF2,- Может усилиться сущностью Бездны.,2
 36313,ABILITY_INFO_VOIDELF3,- Повышенное сопротивление темной магии.,2
 36314,ABILITY_INFO_VOIDELF4,- Применение заклинаний не задерживается при получении урона.,2
-36315,ABILITY_INFO_VOIDELF5,- Затраты на трансмогрификацию и хранилище Бездны снижены.,2
+36315,ABILITY_INFO_VOIDELF5,- Затраты на трансмогрификацию снижены.,2
 36316,ABILITY_INFO_LIGHTFORGEDDRAENEI1,- Может наносить значительный урон от светлой магии.,2
 36317,ABILITY_INFO_LIGHTFORGEDDRAENEI2,"- Навык кузнечного дела повышен, может устанавливать наковальню.",2
 36318,ABILITY_INFO_LIGHTFORGEDDRAENEI3,"- Получает больше опыта, убивая демонов.",2
@@ -18287,8 +18287,8 @@ ID,BaseTag,TagText_lang,Flags
 41960,SPELL_FAILED_CUSTOM_ERROR_436,Требуется жетон ярмарки Новолуния.,1
 41961,KIOSK_SESSION_TIMER_CHANGED,Таймер сеанса изменен.,3
 41962,NPEV2_ABILITYINITIAL,"Нажмите |cFF00FFFF%s|r, чтобы применить ""%s"".",1
-41963,KIOSK_SESSION_EXPIRED_BODY,"Будем рады вашим отзывам. Пожалуйста, пройдите опрос.",1
-41964,KIOSK_SESSION_EXPIRED_TITLE,Благодарим за игру!,1
+41963,KIOSK_SESSION_EXPIRED_BODY,"Мы хотим узнать, что вы думаете! Пожалуйста, пройдите опрос!",3
+41964,KIOSK_SESSION_EXPIRED_TITLE,Спасибо за попытку!,3
 41965,AUCTION_HOUSE_BUYOUT_MODE_TOOLTIP,"Отмените выбор, чтобы разрешить делать ставки на вашем аукционе.",1
 41966,AUCTION_HOUSE_TIME_LEFT_FORMAT_SOLD,Доставка через: |cffffffff%s|r,1
 41967,AUCTION_HOUSE_TIME_LEFT_FORMAT_ACTIVE,Осталось: |cffffffff%s|r,1
@@ -18773,7 +18773,7 @@ ID,BaseTag,TagText_lang,Flags
 42571,VRN_NEEDS_MACOS_10_13,Требуется macOS версии 10.13 или выше,3
 42572,VRN_NEEDS_MACOS_10_14,Требуется macOS версии 10.14 или выше,3
 42573,VRN_NEEDS_MACOS_10_15,Требуется macOS версии 10.15 или выше,3
-42574,VRN_NEEDS_MACOS_11_0,Требуется macOS версии 11.0 или выше,3
+42574,VRN_NEEDS_MACOS_11_0,Требуется macOS версии 11 или выше,3
 42575,VRN_CPUMEM_4GB,Требуется 4 ГБ памяти ЦП или больше,3
 42576,VRN_NEEDS_6_0,Требуется графическая карта с поддержкой шейдерной модели 6,3
 42577,VRN_NEEDS_RT,Требуется графическая карта с поддержкой трассировки лучей,3
@@ -19591,8 +19591,8 @@ ID,BaseTag,TagText_lang,Flags
 43998,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_AFFIX_RECORD,"%1$s (ур. %2$d) – пройдено за %3$s (доп. время: %4$s). Это новый рекорд с ключом ""%1$s""!",1
 43999,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_RECORD,%1$s (ур. %2$d) – пройдено за %3$s (доп. время: %4$s). Это новый рекорд!,1
 44000,CHALLENGE_MODE_TIMED_DUNGEON_OVERTIME_CHAT_LINK,%1$s (ур. %2$d) – пройдено за %3$s (доп. время: %4$s).,1
-44001,ENABLE_QUEST_TEXT_CONTRAST,Контрастность текста заданий,1
-44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Делает текст заданий более удобным для чтения,1
+44001,ENABLE_QUEST_TEXT_CONTRAST,Контрастность текста заданий,3
+44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Делает текст заданий более удобным для чтения,3
 44003,COLORBLIND_MODE_LABEL,Альтернативные цвета,1
 44004,COLORBLIND_MODE_SUBTEXT,"Изменяет цвета и добавляет информацию для тех, кто плохо различает цвета.",1
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Убивайте врагов, освобождайте души и разбивайте урны, чтобы заполнять шкалу усиления",1
@@ -21010,8 +21010,8 @@ ID,BaseTag,TagText_lang,Flags
 49760,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Отображение здоровья в числах только если оно ниже 100%,1
 49761,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Отображение текущего здоровья в процентах,1
 49762,OPTION_TOOLTIP_COLORBLIND_FILTER,Изменяет цвета в зависимости от типа дальтонизма.,1
-49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Изменяет минимальный размер имен персонажей.,1
-49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Минимальный размер имен персонажей,1
+49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Изменяет минимальный размер имен персонажей.,3
+49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Минимальный размер имен персонажей,3
 49765,OPTION_TOOLTIP_ADJUST_COLORBLIND_STRENGTH,Изменяет оттенки выбранного цветового фильтра.,1
 49766,KEY_BINDING_NAME_AND_KEY,%s (%s),1
 49767,KEY_BINDING_TOOLTIP,"<ПКМ, чтобы отвязать>",1
@@ -21022,8 +21022,8 @@ ID,BaseTag,TagText_lang,Flags
 49772,DISPLAY_PERSONAL_COOLDOWNS,Показать восстановление способностей,1
 49773,DISPLAY_PERSONAL_FRIENDLY_BUFFS,Показать положительные эффекты союзников,1
 49774,PROFESSIONS_CURRENT_LISTINGS,Текущие заказы,1
-49775,VRN_NEEDS_MACOS_12_0,Требуется macOS версии 12.0 или выше,3
-49776,VRN_NEEDS_MACOS_13_0,Требуется macOS версии 13.0 или выше,3
+49775,VRN_NEEDS_MACOS_12_0,Требуется macOS версии 12 или выше,3
+49776,VRN_NEEDS_MACOS_13_0,Требуется macOS версии 13 или выше,3
 49777,VRN_NEEDS_WINDOWS_11,Требуется ОС Windows версии 11 и выше,3
 49778,HUD_CLASS_TALENTS_IMPORT_DIALOG_NAME_LABEL,Новое название макета,1
 49779,PROFESSIONS_ORDERS_MUST_BE_NEAR_TABLE,Для просмотра заказов надо подойти к рабочему столу вашей профессии.,1
@@ -21475,7 +21475,7 @@ ID,BaseTag,TagText_lang,Flags
 50253,PROFESSIONS_ORDER_REJECTED,Заказ отклонен,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Покинув матч сейчас, вы потеряете по меньшей мере |cnORANGE_FONT_COLOR:%d|r рейтинга, а сами вы будете в течение %s испытывать эффект ""%s"".|n|nЕсли вы покинете матч сейчас, то не сможете получить очки чести или завоевания за раунды, в которых приняли участие.|n|nПокинуть матч?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Этот рецепт в данный момент недоступен. Попробуйте позже.,1
-50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fСообщение от игрока %s может носить неприемлемый характер.|h|cffffff00|Hcensoredmessage:%d|h |W[Показать сообщение]|w|h|r,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffffff00Сообщение от игрока %s может иметь неприемлемый характер.|Hcensoredmessage:%d|h |W[Показать сообщение]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Эффекты скорости высшего пилотажа,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Отключение графических эффектов во время высшего пилотажа поможет избежать укачивания.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Открыть папку,2
@@ -21486,7 +21486,7 @@ ID,BaseTag,TagText_lang,Flags
 50271,CENSOR_SOURCE_NO_ONE,Ни от кого,1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,"От всех, кроме друзей",1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,"От всех, кроме друзей и соратников по гильдии",1
-50274,CENSOR_SOURCE_EXCLUDE,Цензурировать сообщения,1
+50274,CENSOR_SOURCE_EXCLUDE,Фильтрация сообщений в реальном времени,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Чьи сообщения вы хотите подвергать цензуре.,1
 50276,MONTHLY_ACTIVITIES_POINTS,Очки путешествия,1
 50277,POWER_TYPE_SHADOWLAVA_ENERGY,Энергия лавы Тьмы,1
@@ -21525,7 +21525,7 @@ ID,BaseTag,TagText_lang,Flags
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Выбранный графический API.
 Загрузка не удалась. Следующая попытка после перезапуска.",3
 50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,Выберите нужный вариант в отмеченных категориях.,2
-50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Пожаловаться]|w|h|r,1
+50332,CENSORED_MESSAGE_REPORT,%s |cffffff00|Hreportcensoredmessage:%d|h|W[Пожаловаться]|w|h|r,1
 50333,101_CutsceneName_Ref,Наз'уро,1
 50334,TALENTS_LINK_FORMAT,"Связанные таланты (%2$s, %1$s)",1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,В очереди,3
@@ -22006,7 +22006,7 @@ ID,BaseTag,TagText_lang,Flags
 чтобы завладеть сердцем Древа
 и сжечь в огне весь Азерот.",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Хранители Сна,1
-51543,KIOSK_ENTER,Войти в игровой мир,2
+51543,KIOSK_ENTER,Украшения,3
 51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,Персональные предметы нельзя положить в банк отряда.,1
 51545,NO_ACCOUNT_INVENTORY_LOCK,Ваш персонаж не может совершить данное действие.,1
 51546,TOO_MANY_ACCOUNT_BANK_TABS,Вы уже приобрели максимальное количество сейфов.,1
@@ -22020,11 +22020,11 @@ ID,BaseTag,TagText_lang,Flags
 51555,WEEKLY_REWARDS_UNLOCK_REWARD,Разблокировать награду,1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,"Уровень предмета будет соответствовать самому низкоуровнему из %1$d |4самого сложного подземелья, пройденного:самых сложных подземелий, пройденных:самых сложных подземелий, пройденных; на неделе (текущий уровень эпохального ключа: %2$d).",1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,"Уровень предмета будет соответствовать самому низкоуровнему из %1$d |4самого сложного подземелья, пройденного:самых сложных подземелий, пройденных:самых сложных подземелий, пройденных; на неделе (текущий режим: героический).",1
-51560,QUEST_BG_DEFAULT,По умолчанию,1
-51561,QUEST_BG_LIGHT1,Коричневый,1
-51562,QUEST_BG_LIGHT2,Белый,1
-51563,QUEST_BG_DARK,Черный,1
-51565,QUEST_BG_LIGHT3,Серый,1
+51560,QUEST_BG_DEFAULT,По умолчанию,3
+51561,QUEST_BG_LIGHT1,Коричневый,3
+51562,QUEST_BG_LIGHT2,Белый,3
+51563,QUEST_BG_DARK,Черный,3
+51565,QUEST_BG_LIGHT3,Серый,3
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,"Пройдите %1$d |4эпохальное подземелье:эпохальных подземелья:эпохальных подземелий;, чтобы улучшить награду.",1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,"Вы не доказали этому духу, что достойны.",1
@@ -22047,7 +22047,7 @@ ID,BaseTag,TagText_lang,Flags
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Настроить персонажа,3
 51591,WOWLABS_JOIN_GAME,Присоединиться,3
 51592,WOWLABS_MAINLINE,Основное,3
-51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,Сейф недоступен.,1
+51595,BANK_TAB_NOT_UNLOCKED,Сейф недоступен.,1
 51596,BANK_TAB_INVALID_NAME,Некорректное название сейфа.,1
 51597,BANK_TAB_INVALID_TEXT,Некорректное описание сейфа.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,Время ожидания: %s,3
@@ -22096,8 +22096,8 @@ ID,BaseTag,TagText_lang,Flags
 51650,BN_BLOCK_FRIEND,Блокировка,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Это событие еще не началось,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Это событие уже закончилось,1
-51653,QUEST_TEXT_PREVIEW_TITLE,Пример,1
-51654,QUEST_TEXT_PREVIEW_BODY,Предварительный просмотр окна с текстом предлагаемого задания при выборе альтернативного цвета фона.,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Пример,3
+51654,QUEST_TEXT_PREVIEW_BODY,Предварительный просмотр окна с текстом предлагаемого задания при выборе альтернативного цвета фона.,3
 51655,WOWLABS_BINDING_HEADER,Пиратская буря,1
 51656,BINDING_NAME_WOWLABS_ACTIONBUTTON1,Атака,1
 51657,BINDING_NAME_WOWLABS_ACTIONBUTTON2,Зелье здоровья,1
@@ -22727,7 +22727,7 @@ ID,BaseTag,TagText_lang,Flags
 52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,Локальные истории,1
 52411,SPELL_FAILED_CUSTOM_ERROR_1044,На этой неделе вы уже применили контракт Каз Алгара.,1
 52412,DUNGEON_MAP_PIN_FALLBACK_NAME,Подземелье,1
-52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,"ПКМ, чтобы открыть путеводитель по приключениям.>",1
+52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,"<ПКМ, чтобы открыть путеводитель по приключениям.>",1
 52414,CREATE_CHARACTER_REALM_CONFIRM_DIALOG_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Вы создаете персонажа в игровом мире |r""%s""|cnHIGHLIGHT_FONT_COLOR:. Чтобы выбрать другой, нажмите кнопку ""Игровые миры"".|r",2
 52415,MOUNT_JOURNAL_STEADY_FLIGHT_ONLY,Только спокойный полет,1
 52416,PROFESSIONS_OUTPUT_INGENUITY,Прорыв!,1
@@ -22820,6 +22820,7 @@ ID,BaseTag,TagText_lang,Flags
 52560,SPELL_FAILED_CUSTOM_ERROR_1062,Вы уже в нужном месте.,1
 52572,DELVES_SEASON_PROGRESS,Сезонный прогресс: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,До следующей награды: |cffffd200%s|r,1
+52587,SPELL_FAILED_CUSTOM_ERROR_1063,Цель должна быть парализована.,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Диверсия,5
 52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,"+%u |4новый игрок:новых игрока:новых игроков; за последние %u мин.! Если у вас есть какие-нибудь вопросы, задавайте.",1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,"Достигните 10-го уровня, чтобы открыть эту расу.",2
@@ -22972,8 +22973,8 @@ ID,BaseTag,TagText_lang,Flags
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%2$s: %1$s,1
 53126,ACCOUNT_LEVEL_SCENE,Лагерь отряда,3
 53239,ACCESSIBILITY_DRIVE_LABEL,РАЗГОН,1
-53240,EVENT_SCHEDULER_ONGOING_HEADER,%s: события в процессе,1
-53241,EVENT_SCHEDULER_SCHEDULED_HEADER,%s: график событий,1
+53240,EVENT_SCHEDULER_ONGOING_HEADER,События в процессе,1
+53241,EVENT_SCHEDULER_SCHEDULED_HEADER,График событий,1
 53247,SPELL_FAILED_CUSTOM_ERROR_1068,Взломать этот замок может только разбойник.,1
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Позволяет создать новый лагерь с новыми местами у костра.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,"Позволяет изменять места у костра, которые используют ваши персонажи.",2
@@ -22991,6 +22992,7 @@ ID,BaseTag,TagText_lang,Flags
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,"Событие ""%s"" началось!",1
 53321,EVENT_SCHEDULER_SET_REMINDER,Напомнить,1
 53322,EVENT_SCHEDULER_CLEAR_REMINDER,Удалить напоминание,1
+53331,SPELL_FAILED_CUSTOM_ERROR_2426,Извлечение завершено,1
 53358,QUEST_HUB_TOOLTIP_AVAILABLE_CONTENT_HEADER,Доступен временный контент,1
 53390,EVENT_SCHEDULER_HIDE_REWARDED_EVENTS,Показывать только события с доступными еженедельными наградами,1
 53398,POI_FOCUS,Концентрация,1
@@ -23050,6 +23052,7 @@ ID,BaseTag,TagText_lang,Flags
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Показывает больше вариантов цвета.,3
 53737,COLORS_ITEM_QUALITY,Кач. предмета,3
 53742,BINDING_NAME_DRIFT,Дрифт,1
+53744,CONFIRM_REMOVE_WOW_FRIEND,"Вы уверены, что хотите удалить друга? Это действие нельзя отменить.",1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,"Требуется ""Неразрывная связь"".",1
 53762,ADVANCED_OPTIONS_LABEL,Улучшения игрового процесса,1
 53764,ENABLE_COOLDOWN_VIEWER,Включить трекер восстановления,1
@@ -23057,6 +23060,7 @@ ID,BaseTag,TagText_lang,Flags
 53766,COOLDOWN_VIEWER_LABEL,Трекер восстановления,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Важные основные и вспомогательные способности, отслеживаемые эффекты и отслеживаемые полосы эффектов для каждой специализации. Сейчас трекер восстановления отключен. Чтобы включить его, откройте дополнительные параметры > трекер восстановления.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Нельзя использовать несколько пробелов подряд,3
+53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Поиск по областям, гильдиям, классам, расам и уровням",1
 53847,GUILD_RENAME_DESCRIPTION,"Скажи, как ты хочешь назвать свою гильдию, и я проверю, не используется ли такое название кем-нибудь еще. Если вдруг передумаешь, снова переименовать гильдию можно будет через некоторое время.",1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Введите новое название гильдии,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Варианты нового названия гильдии:,1
@@ -23081,6 +23085,10 @@ ID,BaseTag,TagText_lang,Flags
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Гнездо поющего грома,1
 53879,EMPTY_SOCKET_SINGINGSEA,Гнездо поющего моря,1
 53882,EMPTY_SOCKET_SINGINGWIND,Гнездо поющего ветра,1
+53928,CHARACTER_BANK_PANEL_TITLE,Банк,1
+53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,В банке доступно дополнительное место для хранения предметов.|n|nПриобрести этот сейф?,1
+53930,CHARACTER_BANK_TAB_NAME_PROMPT,Введите название сейфа:,1
+53931,CONFIRM_BUY_CHARACTER_BANK_TAB,Приобрести сейф в банке:,1
 53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Горизонтально,1
 53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Вертикально,1
 53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,# Ряды,1
@@ -23096,6 +23104,7 @@ ID,BaseTag,TagText_lang,Flags
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Всегда показывать,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,В бою,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Скрыть,1
+53967,BANK_CONFIRM_CLEANUP_PROMPT,"Вы уверены, что хотите автоматически сортировать предметы?|nЭта функция распространяется на все сейфы.",1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Этот инструмент пока непригоден для текущего класса или специализации.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Пример названия положительного эффекта,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Недоступно для специализаций-танков.,1
@@ -23116,8 +23125,14 @@ ID,BaseTag,TagText_lang,Flags
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,"Однокнопочный помощник будет предлагать вам наносящие урон умения. Используйте его, как любую другую способность.",1
 54095,NAME_NOT_AVAILABLE,Данное название недоступно,3
 54112,LOGIN_STATE_WAITFORNETWORK,Ждем подключения к сети,2
+54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,В это гнездо можно вставить только волоконный самоцвет.,1
+54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Волоконные самоцветы можно вставлять только в соответствующие гнезда.,1
+54115,ERR_SOCKETING_GENERIC_FAILURE,Этот предмет не подходит для этого гнезда.,1
 54132,VOICE_CHAT_SETTING_ENABLED,Голосовой чат включен,1
+54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Сложить все материалы в банк,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Перегруженная панель титанов,1
+54153,EMOTE628_CMD1,/наклон,1
+54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Пропаганда терроризма/насилия,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Жестокое обращение с детьми,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,"Щелкните ПКМ, чтобы открыть список способностей",1
@@ -23125,13 +23140,101 @@ ID,BaseTag,TagText_lang,Flags
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Вспомогательная подсветка,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Подсвечивает способности, которые рекомендуется применить.|nПодсветка выделяет только видимые способности.",1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Нельзя отправиться в историческую кампанию в режиме синхронизации.,1
+54230,EMPTY_SOCKET_FIBER,Волоконное гнездо,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Вспомогательная подсветка будет предлагать вам только те способности, которые вы видите.",1
+54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Сообщение игроку %s может носить неприемлемый характер.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Переписать сообщение]|w|h или |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[отправить как есть]|w|h?|r,1
 54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Используется с вспомогательной подсветкой.,1
 54254,ASSISTED_COMBAT_SPELL_INCLUDED,Используется с вспомогательной подсветкой и однокнопочным помощником.,1
+54262,VOTE_TO_ABANDON_AFK,Вы пропустили голосование за выход из подземелья.,1
+54264,VOTE_TO_ABANDON,Проголосовать за выход,1
+54267,ERR_VOTE_TO_ABANDON_NOT_YET,Вы пока не можете этого сделать.,1
+54268,VOTE_TO_ABANDON_PASSED,Голосование прошло успешно,1
+54269,VOTE_TO_ABANDON_FAILED,"Голосование за то, чтобы покинуть подземелье, не удалось.",1
+54272,CENSORED_MESSAGE_SENT,%s |cffffff00Сообщение может носить неприемлемый характер.|r,1
+54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Банк вашего персонажа не был преобразован. Повторите попытку позже.,1
+54347,SPELL_FAILED_CUSTOM_ERROR_2430,"Чтобы совершать фазовые переходы, необходимо надеть повязки реши.",1
+54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,Другой участник отряда сейчас использует банк.,1
+54349,BANK_LOCKED_REASON_BANK_DISABLED,Этот банк сейчас недоступен.,1
+54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Не удалось преобразовать банк. Войдите в игру повторно и повторите попытку.,1
+54377,LEAVER_PENALTY_WARNING_TIMER,Вы не находитесь в текущем эпохальном подземелье вашей группы. Вы получите штраф через %d. %s.,1
+54378,REWARD_POSSIBLE_QUEST_REWARD,За это задание можно получить дополнительные награды:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s меняет название гильдии за %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s возвращает средства за смену названия гильдии (%s),1
+54664,WHO_LIST_LEVEL_TOOLTIP,%d-й уровень,1
+54665,ENABLE_GAMEPLAY_SFX,Включить вспомогательные звуковые эффекты в бою,3
+54666,GAMEPLAY_SFX_VOLUME,Звуковые эффекты в ходе игры,3
+54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Регулирует громкость игровых звуковых эффектов.,3
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Не удалось отправить жалобу. Количество жалоб превышено. Попробуйте еще раз через несколько минут.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата.",1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата или находиться в голосовом чате.",1
+54731,UNITNAME_SUMMON_TITLE59,Связанный клятвой слуга |3-1(%s),1
 54758,ASSISTED_COMBAT_LABEL,Боевой помощник,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,В меню способностей,1
+54777,VIDEO_OPTIONS_SFX_DENSITY_MIN,Самые важные,3
+54778,VIDEO_OPTIONS_SFX_DENSITY_REDUCED,Меньше,3
+54779,VIDEO_OPTIONS_SFX_DENSITY_FULL,Все,3
+54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Показывать только критически важные заклинания. Ваши заклинания отображаются всегда.,3
+54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Уменьшать количество некритичных отображаемых заклинаний.,3
+54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Всегда показывать все заклинания.,3
+54794,BCSHORTDATENOYEAR,%B %d,1
+54835,NOTIFY_ASSIST_ACTION_PLACED_VO,"Игрок %1$s услышал ваше послание в вылазке ""%2$s"".",1
+54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,"Игрок %1$s отомстил |3-3(%2$s) в вылазке ""%3$s"".",1
+54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,"Игрок %1$s получил от вас эффект ""%2$s"" в вылазке ""%3$s"".",1
+54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Могила |3-1(%s),1
+54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Послание от |3-1(%s),1
+54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
+54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Вы присоединились к прохождению эпохального подземелья с ключом. Если вы покинете подземелье до истечения отведенного срока и без голосования, то получите штраф.",1
+54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Отголосок |3-1(%s),1
+54903,VOTE_TO_ABANDON_VOTES_NEEDED,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"".",1
+54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"". Так как вы владеете ключом, ваш голос считается за %d.",1
+54906,VOTE_TO_ABANDON_VOTED_YES,"Вы проголосовали ""За""",1
+54907,VOTE_TO_ABANDON_VOTED_NO,"Вы проголосовали ""Против""",1
+54908,VOTE_TO_ABANDON_PROMPT,Покинуть подземелье?,1
+54909,TIME_REMAINING_WITH_TIME,Осталось: %s,1
+54910,VIDEO_OPTIONS_SFX_DENSITY_PERF,Быстродействие,3
+54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Уменьшает количество некритичных отображаемых заклинаний в зависимости от частоты кадров.,3
+54915,TEXT_SCALE_PREVIEW_TITLE,Пример,3
+54916,TEXT_SCALE_PREVIEW_BODY,"Пример текста для предпросмотра. Эта настройка позволяет изменить размер шрифта в меню функции ""Текст в речь"", меню общения и всплывающих сообщениях.",3
+54949,ACCESSIBILITY_INTERFACE_LABEL,Интерфейс,3
+54950,ACCESSIBILITY_FONT_SIZE_LABEL,Масштаб текста,3
+54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Настройка размера шрифта в меню ""Текст в речь"", меню социальных возможностей и всплывающих сообщениях.",3
+54952,ACCESSIBILITY_INTERFACE_SECTION_DISPLAY,Экран,3
+54953,ACCESSIBILITY_FONT_SIZE_SMALL_LABEL,Малый,3
+54954,ACCESSIBILITY_FONT_SIZE_MEDIUM_LABEL,Средний,3
+54955,ACCESSIBILITY_FONT_SIZE_LARGE_LABEL,Крупный,3
+54956,ACCESSIBILITY_FONT_SIZE_HUGE_LABEL,Огромный,3
+54957,ACCESSIBILITY_FONT_SIZE_GIGANTIC_LABEL,Гигантский,3
+54961,ACCESSIBILITY_FONT_SIZE_EXTRA_LARGE_LABEL,Очень крупный,3
+54967,VOTE_TO_ABANDON_LEAVING_INSTANCE,Вы покидаете подземелье...,1
+54979,SLASH_ABANDON1,/покинуть,1
+54980,SLASH_ABANDON2,/покинуть,1
+54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Отголосок игрока %s,1
+54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Убийца игрока %s,1
+54996,VOTE_TO_ABANDON_PLAYER_LEFT,Другой игрок покинул подземелье. Теперь вы можете выйти без штрафа.,1
+54997,CONFIRM_LEAVE_RESTRICTED_CHALLENGE_MODE,"Прервать прохождение подземелья?|n|n|cffff2020Если вы покинете подземелье в режиме ""Эпохальный+"" несколько раз подряд, вы получите метку ключевого дезертира.|r",1
+55000,WARN_LEAVE_RESTRICTED_CHALLENGE_MODE,"Таймер штрафа|n|n|cffffd200Если вы не вернетесь в подземелье за оставшееся время, вы будете исключены из группы и получите штраф.|r|n|nОсталось времени: %d сек.",1
+55003,ERR_CURRENCY_TRANSFER_INSUFFICIENT_TRANSFER_QUANTITY,Запрошенная сумма не покрывает комиссию за перевод средств.,1
+55005,HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT,"Щелкните, чтобы изменить",1
+55006,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_FULL,"эта душа приняла смерть от чудовища ""%s"" в вылазке %d-го уровня",1
+55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,эта душа встретила смерть в вылазке %d-го уровня,1
+55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,"эта душа приняла смерть от чудовища ""%s""",1
+55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,эта душа приняла достойную смерть,1
+55034,GXAPI_MTL4,Metal 4,3
+55036,VRN_NEEDS_MACOS_14_0,Требуется macOS версии 14 или выше,3
+55037,VRN_NEEDS_MACOS_15_0,Требуется macOS версии 15 или выше,3
+55038,VRN_NEEDS_MACOS_26_0,Требуется macOS версии 26 или выше,3
+55044,VRN_NEEDS_APPLE_SOC,Требуется система Apple Silicon,3
+55045,VRN_NEEDS_MTL4,Требуется Metal 4,3
+55046,VRN_GPUMEM_4GB,Требуется видеокарта с объемом памяти как минимум 4 ГБ,3
+55047,VRN_GPUMEM_8GB,Требуется видеокарта с объемом памяти как минимум 8 ГБ,3
+55048,VRN_GPUMEM_16GB,Требуется видеокарта с объемом памяти как минимум 16 ГБ,3
+55056,KIOSK_SESSION_EXPIRED_TITLE_2,Дом игрока,3
+55062,MYTHIC_PLUS_DESERTER_FLAGGED,"Вы получили метку ключевого дезертира за то, что несколько раз подряд покидали подземелья в режиме ""Эпохальный+"".",1
+55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Вы получили метку ключевого дезертира,1
+55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,"Метка повлияет только на группы для подземелий в режиме ""Эпохальный+"".",1
+55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,В этой группе есть как минимум один игрок с меткой ключевого дезертира.,1
+55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,"Метка дезертира будет отображаться во время поиска группы для подземелья ""Эпохальный+"".",1
+55070,MYTHIC_PLUS_DESERTER,Ключевой дезертир,1
+55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Повязки реши,1
+55198,SPELL_FAILED_CUSTOM_ERROR_2431,Это средство передвижения не может перейти в Безграничье.,1
+55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Ошибка при обновлении названия макета. Попробуйте еще раз.,1

@@ -4851,7 +4851,7 @@ ichtmoderator <Channel> <Spieler> - Moderatorstatus eines Spielers ändern.",3
 16229,ID,ID,1
 16230,RESETS_IN,Läuft aus in,1
 16232,RAID_INFO,Information,1
-16234,SOCKET_GEMS,Edelsteine sockeln,1
+16234,SOCKET_GEMS,Anwenden,1
 16236,ITEM_SOCKETING,Gegenstand sockeln,1
 16237,ITEM_SOCKETABLE,<Zum Sockeln Umschalt-Rechtsklick>,1
 16238,EMPTY_SOCKET,Stufe %d Sockel,1
@@ -13784,11 +13784,11 @@ Abenteuerführer ausblenden",1
 32089,ERR_SPEC_IS_DISABLED,Diese Spezialisierung ist derzeit nicht verfügbar.,1
 32091,ITEM_REQ_SPECIALIZATION,Benötigt: %s,1
 32092,LOSS_OF_CONTROL_DISPLAY_TAUNT,Verspottet,1
-32094,KIOSK_THANK_YOU_FOR_PLAYING,Vielen Dank fürs Spielen!,1
+32094,KIOSK_THANK_YOU_FOR_PLAYING,Vielen Dank fürs Spielen!,3
 32095,SCENARIO_INVASION_REWARD_TOOLTIP_TEXT,Abschluss dieser Invasion gewährt Euch:,1
 32096,SCENARIO_INVASION_COMPLETE,Invasion abgeschossen,1
 32098,TRANSFER_ABORT_UNIQUE_MESSAGE4,Erfüllt Euer Schicksal als Illidans Champion und werdet der Meister der Illidari. Nur dann werdet Ihr diesen Ort verlassen können.,1
-32099,KIOSK_PLEASE_TAKE_THE_SURVEY,"Wir freuen uns, wenn Sie an der Umfrage in der Nähe des Ausgangs teilnehmen.",1
+32099,KIOSK_PLEASE_TAKE_THE_SURVEY,"Wir freuen uns, wenn Sie an der Umfrage in der Nähe des Ausgangs teilnehmen.",3
 32100,SPEC_INVOLUNTARILY_CHANGED,"Eure Spezialisierung wurde geändert, weil die gewählte Spezialisierung nicht mehr verfügbar ist.",1
 32101,CONFIRM_SUMMON_SCENARIO,%s hat in %s ein Szenario gestartet. Möchtet Ihr Euch anschließen?\n\nDiese Einladung wird in %d %s ablaufen.,1
 32102,PVP_TALENTS,PvP-Talente,1
@@ -16702,7 +16702,7 @@ Abenteuerführer ausblenden",1
 36312,ABILITY_INFO_VOIDELF2,- Kann von der Leere verstärkt werden,2
 36313,ABILITY_INFO_VOIDELF3,- Widerstandsfähig gegen Schattenschaden,2
 36314,ABILITY_INFO_VOIDELF4,- Keine Zauberverzögerung durch erlittenen Schaden,2
-36315,ABILITY_INFO_VOIDELF5,- Bezahlt weniger für Transmogrifikationen und das Leerenlager,2
+36315,ABILITY_INFO_VOIDELF5,- Bezahlt weniger für Transmogrifikationen.,2
 36316,ABILITY_INFO_LIGHTFORGEDDRAENEI1,- Kann massiven Heiligschaden verursachen,2
 36317,ABILITY_INFO_LIGHTFORGEDDRAENEI2,- Schmiedefertigkeit erhöht und kann eine Schmiede beschwören,2
 36318,ABILITY_INFO_LIGHTFORGEDDRAENEI3,- Erhöhte Erfahrung durch das Töten von Dämonen,2
@@ -18292,8 +18292,8 @@ Abenteuerführer ausblenden",1
 41960,SPELL_FAILED_CUSTOM_ERROR_436,Erfordert Spieljeton des Dunkelmond-Jahrmarkts.,1
 41961,KIOSK_SESSION_TIMER_CHANGED,Sitzungstimer wurde geändert.,3
 41962,NPEV2_ABILITYINITIAL,"Drückt |cFF00FFFF%s|r, um '%s' einzusetzen.",1
-41963,KIOSK_SESSION_EXPIRED_BODY,"Wir würden gerne Ihre Meinung hören. Bitte nehmen Sie an einer Umfrage teil, wenn Sie gehen.",1
-41964,KIOSK_SESSION_EXPIRED_TITLE,Vielen Dank fürs Spielen,1
+41963,KIOSK_SESSION_EXPIRED_BODY,Wir würden uns über deine Meinung freuen! Nimm bitte an unserer Umfrage teil.,3
+41964,KIOSK_SESSION_EXPIRED_TITLE,Danke für den Versuch,3
 41965,AUCTION_HOUSE_BUYOUT_MODE_TOOLTIP,"Häkchen entfernen, um Gebote für Eure Auktion zu erlauben",1
 41966,AUCTION_HOUSE_TIME_LEFT_FORMAT_SOLD,Zugestellt in: |cffffffff%s|r,1
 41967,AUCTION_HOUSE_TIME_LEFT_FORMAT_ACTIVE,Verbleibende Zeit: |cffffffff%s|r,1
@@ -18778,7 +18778,7 @@ Abenteuerführer ausblenden",1
 42571,VRN_NEEDS_MACOS_10_13,Benötigt macOS 10.13 oder höher,3
 42572,VRN_NEEDS_MACOS_10_14,Benötigt macOS 10.14 oder höher,3
 42573,VRN_NEEDS_MACOS_10_15,Benötigt macOS 10.15 oder höher,3
-42574,VRN_NEEDS_MACOS_11_0,Benötigt macOS 11.0 oder höher,3
+42574,VRN_NEEDS_MACOS_11_0,Benötigt macOS 11 oder höher,3
 42575,VRN_CPUMEM_4GB,Benötigt 4 GB oder mehr Arbeitsspeicher,3
 42576,VRN_NEEDS_6_0,"Benötigt eine Grafikkarte, die Shadermodell 6 unterstützt",3
 42577,VRN_NEEDS_RT,"Benötigt eine Grafikkarte, die Raytracing unterstützt",3
@@ -19596,8 +19596,8 @@ Abenteuerführer ausblenden",1
 43998,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_AFFIX_RECORD,%s (Stufe %d) in %s abgeschlossen (%s Zeitüberschreitung). Das ist ein neuer Rekord für %s!,1
 43999,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_RECORD,%s (Stufe %d) in %s abgeschlossen (%s Zeitüberschreitung). Das ist ein neuer Rekord!,1
 44000,CHALLENGE_MODE_TIMED_DUNGEON_OVERTIME_CHAT_LINK,%s (Stufe %d) in %s abgeschlossen (%s Zeitüberschreitung).,1
-44001,ENABLE_QUEST_TEXT_CONTRAST,Kontrast für Questtexte,1
-44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Erleichtert das Lesen von Questtexten,1
+44001,ENABLE_QUEST_TEXT_CONTRAST,Kontrast für Questtexte,3
+44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Erleichtert das Lesen von Questtexten,3
 44003,COLORBLIND_MODE_LABEL,Farbenblind-Modus,1
 44004,COLORBLIND_MODE_SUBTEXT,Passt als Hilfe für Farbenblinde die Farben an und fügt Informationen hinzu.,1
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Tötet Gegner, befreit Seelen und zerbrecht Urnen, um Eure Ermächtigungsleiste aufzuladen.",1
@@ -21020,8 +21020,8 @@ Bei Konfigurationen mit dieser Einstellung werden dieselben Aktionsleisten verwe
 49760,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,"Nur Zahl anzeigen, wenn Gesundheit verloren wird",1
 49761,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Verbleibende Gesundheit als Prozentsatz anzeigen,1
 49762,OPTION_TOOLTIP_COLORBLIND_FILTER,Passt die Spielfarben für bestimmte Arten von Farbenblindheit an.,1
-49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Passt die Mindestgröße von Charakternamen an.,1
-49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Mindestgröße von Charakternamen,1
+49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Passt die Mindestgröße von Charakternamen an.,3
+49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Mindestgröße von Charakternamen,3
 49765,OPTION_TOOLTIP_ADJUST_COLORBLIND_STRENGTH,Passt die Stärke des ausgewählten Farbenblindheitsfilters an.,1
 49766,KEY_BINDING_NAME_AND_KEY,%s (%s),1
 49767,KEY_BINDING_TOOLTIP,<Zum Löschen der Belegung rechtsklicken>,1
@@ -21032,8 +21032,8 @@ Bei Konfigurationen mit dieser Einstellung werden dieselben Aktionsleisten verwe
 49772,DISPLAY_PERSONAL_COOLDOWNS,Persönliche Abklingzeiten anzeigen,1
 49773,DISPLAY_PERSONAL_FRIENDLY_BUFFS,Freundliche Stärkungszauber anzeigen,1
 49774,PROFESSIONS_CURRENT_LISTINGS,Aktuelle Angebote,1
-49775,VRN_NEEDS_MACOS_12_0,Benötigt macOS 12.0 oder höher,3
-49776,VRN_NEEDS_MACOS_13_0,Benötigt macOS 13.0 oder höher,3
+49775,VRN_NEEDS_MACOS_12_0,Benötigt macOS 12 oder höher,3
+49776,VRN_NEEDS_MACOS_13_0,Benötigt macOS 13 oder höher,3
 49777,VRN_NEEDS_WINDOWS_11,Benötigt Windows 11 oder höher,3
 49778,HUD_CLASS_TALENTS_IMPORT_DIALOG_NAME_LABEL,Name der neuen Konfiguration,1
 49779,PROFESSIONS_ORDERS_MUST_BE_NEAR_TABLE,"Ihr müsst Euch in der Nähe eines Handwerkstischs Eures Berufes befinden, um Handwerksaufträge anzunehmen.",1
@@ -21485,7 +21485,7 @@ Der Fortschritt gilt für die gesamte Kriegsmeute.",1
 50253,PROFESSIONS_ORDER_REJECTED,Auftrag abgelehnt,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,"Wenn Ihr den Kampf jetzt verlasst, verliert Ihr mindestens |cnORANGE_FONT_COLOR:%d|r Wertung und werdet %s lang mit %s belegt.|n|nAußerdem erhaltet Ihr dann keine Ehren- oder Eroberungspunkte für Eure abgeschlossenen Runden.|n|nSeid Ihr sicher, dass Ihr den Kampf verlassen möchtet?",1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,Dieses Rezept ist momentan deaktiviert. Bitte später erneut versuchen.,1
-50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fDie Nachricht von %s ist möglicherweise anstößig.|h|cffffff00|Hcensoredmessage:%d|h |W[Nachricht anzeigen]|w|h|r,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffffff00Die Nachricht von %s ist möglicherweise anstößig.|Hcensoredmessage:%d|h |W[Nachricht anzeigen]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Geschwindigkeitseffekte beim Himmelsreiten,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Das Deaktivieren visueller Geschwindigkeitseffekte kann gegen Bewegungskrankheit beim Himmelsreiten helfen.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Ordner öffnen,2
@@ -21496,7 +21496,7 @@ Der Fortschritt gilt für die gesamte Kriegsmeute.",1
 50271,CENSOR_SOURCE_NO_ONE,Keine,1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,Alle außer von Freunden,1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,Alle außer von Freunden und Gildenmitgliedern,1
-50274,CENSOR_SOURCE_EXCLUDE,Nachrichten zensieren,1
+50274,CENSOR_SOURCE_EXCLUDE,Echtzeitchatfilter,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,"Legt fest, wessen Nachrichten zensiert werden, wenn diese als anstößig erkannt wurden.",1
 50276,MONTHLY_ACTIVITIES_POINTS,Reisepunkte,1
 50277,POWER_TYPE_SHADOWLAVA_ENERGY,Schattenlavaenergie,1
@@ -21535,7 +21535,7 @@ Beste verfügbare Grafikschnittstelle automatisch erkennen.",3
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Grafikschnittstelle ausgewählt.
 Konnte nicht geladen werden, erneuter Versuch bei Neustart.",3
 50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,Ihr müsst eine Option in den markierten Kategorien auswählen.,2
-50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Melden]|w|h|r,1
+50332,CENSORED_MESSAGE_REPORT,%s |cffffff00|Hreportcensoredmessage:%d|h|W[Melden]|w|h|r,1
 50333,101_CutsceneName_Ref,Nasz'uro,1
 50334,TALENTS_LINK_FORMAT,Verbundene Talente (%s %s),1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,Wartet,3
@@ -22015,7 +22015,7 @@ Fyrakk braucht die Macht des Urquells,
 Um das Herz des Baumes zu erobern
 Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Wächter des Traums,1
-51543,KIOSK_ENTER,Welt betreten,2
+51543,KIOSK_ENTER,Dekorieren,3
 51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,Seelengebundene Gegenstände können nicht in der Kriegsmeutenbank gelagert werden.,1
 51545,NO_ACCOUNT_INVENTORY_LOCK,Charakter kann diese Aktion nicht durchführen.,1
 51546,TOO_MANY_ACCOUNT_BANK_TABS,Maximale Anzahl an Fächern bereits gekauft.,1
@@ -22029,11 +22029,11 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51555,WEEKLY_REWARDS_UNLOCK_REWARD,Belohnung freischalten,1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,Die Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %1$d Durchläufe dieser Woche (aktuell: Mythische Stufe %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,Die Gegenstandsstufe dieser Belohnung richtet sich nach der niedrigsten Stufe Eurer besten %1$d Durchläufe dieser Woche (aktuell: Heroisch).,1
-51560,QUEST_BG_DEFAULT,Standard,1
-51561,QUEST_BG_LIGHT1,Braun,1
-51562,QUEST_BG_LIGHT2,Weiß,1
-51563,QUEST_BG_DARK,Schwarz,1
-51565,QUEST_BG_LIGHT3,Grau,1
+51560,QUEST_BG_DEFAULT,Standard,3
+51561,QUEST_BG_LIGHT1,Braun,3
+51562,QUEST_BG_LIGHT2,Weiß,3
+51563,QUEST_BG_DARK,Schwarz,3
+51565,QUEST_BG_LIGHT3,Grau,3
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,"Schließt %1$d Dungeons auf dem Schwierigkeitsgrad 'Mythisch' ab, um Eure Belohnung zu verbessern.",1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,Ihr habt Euch diesem Geist nicht bewiesen.,1
@@ -22056,7 +22056,7 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Charakter anpassen,3
 51591,WOWLABS_JOIN_GAME,Spiel beitreten,3
 51592,WOWLABS_MAINLINE,Hauptlinie,3
-51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,Das Bankfach ist gesperrt.,1
+51595,BANK_TAB_NOT_UNLOCKED,Das Bankfach ist gesperrt.,1
 51596,BANK_TAB_INVALID_NAME,Der Name für das Bankfach ist ungültig.,1
 51597,BANK_TAB_INVALID_TEXT,Die Beschreibung für das Bankfach ist ungültig.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,Zeit in Warteschlange: %s,3
@@ -22105,8 +22105,8 @@ Und seine Flamme in ganz Azeroth zu verbreiten.",1
 51650,BN_BLOCK_FRIEND,Blockieren,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,Diese Aktivität hat noch nicht begonnen.,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,Diese Aktivität ist abgelaufen.,1
-51653,QUEST_TEXT_PREVIEW_TITLE,Beispiel,1
-51654,QUEST_TEXT_PREVIEW_BODY,"Diese Vorschau demonstriert, wie die Questbeschreibung bei Auswahl einer alternativen Hintergrundfarbe im Questfenster aussehen wird.",1
+51653,QUEST_TEXT_PREVIEW_TITLE,Beispiel,3
+51654,QUEST_TEXT_PREVIEW_BODY,"Diese Vorschau demonstriert, wie die Questbeschreibung bei Auswahl einer alternativen Hintergrundfarbe im Questfenster aussehen wird.",3
 51655,WOWLABS_BINDING_HEADER,Plunderstorm,1
 51656,BINDING_NAME_WOWLABS_ACTIONBUTTON1,Angriff,1
 51657,BINDING_NAME_WOWLABS_ACTIONBUTTON2,Heiltrank,1
@@ -22829,6 +22829,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 52560,SPELL_FAILED_CUSTOM_ERROR_1062,Ihr befindet Euch bereits im richtigen Gebiet.,1
 52572,DELVES_SEASON_PROGRESS,Saisonfortschritt: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,Bis zur nächsten Belohnung: |cffffd200%s|r,1
+52587,SPELL_FAILED_CUSTOM_ERROR_1063,Das Ziel muss bewegungsunfähig sein.,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Störung,5
 52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,"Es sind %u neue Spielercharaktere in den letzten %u Minuten beigetreten! Vergesst nicht, nachzufragen, wenn Ihr etwas wissen möchtet.",1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,"Erreicht Stufe 10, um dieses Volk freizuschalten",2
@@ -22981,8 +22982,8 @@ Gegenstände von dem Ereignis wurden entfernt.
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%1$s - %2$s,1
 53126,ACCOUNT_LEVEL_SCENE,Kriegsmeutenlagerplatz,3
 53239,ACCESSIBILITY_DRIVE_LABEL,F.A.H.R.E.N.,1
-53240,EVENT_SCHEDULER_ONGOING_HEADER,Laufende Ereignisse - %s,1
-53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Ereigniszeitplan - %s,1
+53240,EVENT_SCHEDULER_ONGOING_HEADER,Laufende Ereignisse,1
+53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Ereigniszeitplan,1
 53247,SPELL_FAILED_CUSTOM_ERROR_1068,Nur Schurken können dieses Schloss öffnen.,1
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Erstellt ein neues Lager. Jedem Lager kann ein eigener Lagerplatz zugewiesen werden.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,"Verwendet diese Option, um anzupassen, welche Lagenplätze Eure Charaktere verwenden.",2
@@ -23000,6 +23001,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,%s hat begonnen!,1
 53321,EVENT_SCHEDULER_SET_REMINDER,Erinnerung hinzufügen,1
 53322,EVENT_SCHEDULER_CLEAR_REMINDER,Erinnerung entfernen,1
+53331,SPELL_FAILED_CUSTOM_ERROR_2426,Extraktion abgeschlossen,1
 53358,QUEST_HUB_TOOLTIP_AVAILABLE_CONTENT_HEADER,Verfügbare vorübergehende Inhalte,1
 53390,EVENT_SCHEDULER_HIDE_REWARDED_EVENTS,Nur Ereignisse mit unbeanspruchten wöchentlichen Belohnungen anzeigen,1
 53398,POI_FOCUS,Fokus,1
@@ -23059,6 +23061,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Zusätzliche Optionen für Farbüberschreibungen anzeigen.,3
 53737,COLORS_ITEM_QUALITY,Gegenstandsqualität,3
 53742,BINDING_NAME_DRIFT,Driften,1
+53744,CONFIRM_REMOVE_WOW_FRIEND,"Seid Ihr sicher, dass Ihr diesen Freund von Eurer Liste entfernen wollt? Diese Aktion lässt sich nicht rückgängig machen.",1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Erfordert unzerstörbares Band.,1
 53762,ADVANCED_OPTIONS_LABEL,Gameplay-Verbesserungen,1
 53764,ENABLE_COOLDOWN_VIEWER,Abklingzeitmanager aktivieren,1
@@ -23066,6 +23069,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 53766,COOLDOWN_VIEWER_LABEL,Abklingzeitmanager,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Essenzielle Abklingzeiten, Strategische Abklingzeiten, Verfolgte Stärkungseffekte und Verfolge Leisten für jede Spezialisierung. Der Abklingzeitmanager ist aktuell deaktiviert. Aktiviert ihn unter: Erweiterte Einstellungen>Abklingzeitmanager.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Namen dürfen keine aufeinanderfolgenden Leerzeichen enthalten,3
+53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Sucht nach Zonen, Gilden, Klassen, Völkern, Stufen",1
 53847,GUILD_RENAME_DESCRIPTION,"Teilt mir bitte den gewünschten Namen Eurer Gilde mit, dann prüfe ich, ob er einzigartig ist. Es gibt eine Wartezeit, bevor der Gildenname wieder geändert werden kann, solltet Ihr Eure Meinung ändern.",1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Neuen Gildennamen eingeben,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Hier sind Eure Optionen zur Umbenennung der Gilde:,1
@@ -23090,6 +23094,10 @@ Gegenstände von dem Ereignis wurden entfernt.
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Platz des singenden Donners,1
 53879,EMPTY_SOCKET_SINGINGSEA,Platz der singenden See,1
 53882,EMPTY_SOCKET_SINGINGWIND,Platz des singenden Windes,1
+53928,CHARACTER_BANK_PANEL_TITLE,Bank,1
+53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,Die Bank bietet Euch zusätzlichen Lagerplatz für Eure Gegenstände.|n|nDieses Bankfach erwerben?,1
+53930,CHARACTER_BANK_TAB_NAME_PROMPT,Namen für Bankfach eingeben:,1
+53931,CONFIRM_BUY_CHARACTER_BANK_TAB,Bankfach für folgenden Betrag erwerben:,1
 53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Horizontal,1
 53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Vertikal,1
 53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,Anzahl der Reihen,1
@@ -23105,6 +23113,7 @@ Gegenstände von dem Ereignis wurden entfernt.
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Immer sichtbar,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,Im Kampf,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Versteckt,1
+53967,BANK_CONFIRM_CLEANUP_PROMPT,"Sicher, dass die Gegenstände automatisch sortiert werden sollen?|nDies betrifft alle Bankfächer.",1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Dieses Tool wird aktuell nicht für diese Klasse oder Spezialisierung verwendet.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Name für Beispielstärkungseffekt,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Kann nur von Nicht-Tank-Spezialisierungen verwendet werden,1
@@ -23125,8 +23134,14 @@ Gegenstände von dem Ereignis wurden entfernt.
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,Der Einzeltasten-Assistent wird Euch schadenverursachende Fähigkeiten vorschlagen. Verwendet ihn wie jede andere Fähigkeit auch.,1
 54095,NAME_NOT_AVAILABLE,Dieser Name ist nicht verfügbar,3
 54112,LOGIN_STATE_WAITFORNETWORK,Warten auf Netzwerk,2
+54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,Dieser Platz benötigt einen Faseredelstein.,1
+54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Faseredelsteine können nur in Fasersockel eingesetzt werden.,1
+54115,ERR_SOCKETING_GENERIC_FAILURE,Das passt nicht in diesen Edelsteinsockel.,1
 54132,VOICE_CHAT_SETTING_ENABLED,Voicechat aktiviert,1
+54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Alle Reagenzien einlagern,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Überladene Titanenkonsole,1
+54153,EMOTE628_CMD1,/lean,1
+54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Terrorismus/Gewalttätige Inhalte,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Kindesmissbrauch,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,"Rechtsklicken, um eine Liste an Fähigkeiten anzuzeigen",1
@@ -23134,13 +23149,101 @@ Gegenstände von dem Ereignis wurden entfernt.
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Vorschlag hervorheben,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Aktiviert das Hervorheben von Fähigkeiten, die vorgeschlagen werden.|nDurch ""Vorschlag hervorheben"" werden nur sichtbare Fähigkeiten vorgeschlagen.",1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Ihr könnt in synchronisierten Gruppen an keiner Lehrensuche teilnehmen.,1
+54230,EMPTY_SOCKET_FIBER,Fasersockel,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Durch ""Vorschlag hervorheben"" werden nur sichtbare Fähigkeiten vorgeschlagen.",1
+54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Nachricht an %s als potenziell unangemessen markiert.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Nachricht umschreiben]|w|h oder |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Trotzdem senden]|w|h|r,1
 54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,"In ""Vorschlag hervorheben"" enthalten.",1
 54254,ASSISTED_COMBAT_SPELL_INCLUDED,"In ""Vorschlag hervorheben"" und im Einzeltasten-Assistenten enthalten.",1
+54262,VOTE_TO_ABANDON_AFK,Ihr habt eine Abstimmung zum Verlassen der Instanz verpasst.,1
+54264,VOTE_TO_ABANDON,Für Verlassen stimmen,1
+54267,ERR_VOTE_TO_ABANDON_NOT_YET,Das könnt Ihr noch nicht.,1
+54268,VOTE_TO_ABANDON_PASSED,Abstimmung erfolgreich,1
+54269,VOTE_TO_ABANDON_FAILED,Die Abstimmung zum Abbrechen der Instanz war nicht erfolgreich.,1
+54272,CENSORED_MESSAGE_SENT,%s |cffffff00Nachricht als potenziell unangemessen markiert.|r,1
+54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Die Bank Eures Charakters wurde nicht umgewandelt. Bitte später erneut versuchen.,1
+54347,SPELL_FAILED_CUSTOM_ERROR_2430,Zum Phasentauchen müsst Ihr die Reshiiwickel anlegen.,1
+54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,Ein anderes Mitglied der Kriegsmeute greift bereits auf die Bank zu.,1
+54349,BANK_LOCKED_REASON_BANK_DISABLED,Diese Bank ist zurzeit nicht verfügbar.,1
+54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,"Bankumwandlung fehlgeschlagen. Bitte erneut einloggen, um es erneut zu versuchen.",1
+54377,LEAVER_PENALTY_WARNING_TIMER,Ihr befindet Euch nicht in der aktiven Instanz auf dem Schwierigkeitsgrad Mythisch+ Eurer Gruppe. Ihr erhaltet in %d %s eine Strafe.,1
+54378,REWARD_POSSIBLE_QUEST_REWARD,Diese Quest kann zusätzliche Belohnungen enthalten:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s hat die Gilde für %s umbenannt,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s hat die Gildenumbenennung für %s rückerstattet,1
+54664,WHO_LIST_LEVEL_TOOLTIP,Stufe %d,1
+54665,ENABLE_GAMEPLAY_SFX,Audiohinweise während Kampfbegegnungen aktivieren,3
+54666,GAMEPLAY_SFX_VOLUME,Gameplay-Soundeffekte,3
+54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Regelt die Lautstärke der Gameplay-Soundeffekte.,3
 54719,REPORT_RESULT_TOO_MANY_REPORTS,"Meldung fehlgeschlagen. Es wurde zu oft versucht, etwas zu melden. Bitte in einigen Minuten erneut versuchen.",1
 54720,REPORT_RESULT_REQUIRES_CHAT,Meldung fehlgeschlagen. Meldungstyp nur in Chatzeilen gültig.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Meldung fehlgeschlagen. Meldungstyp nur in Chatzeilen oder im Sprachchat gültig.,1
+54731,UNITNAME_SUMMON_TITLE59,Schwurgebundener Diener von %s,1
 54758,ASSISTED_COMBAT_LABEL,Kampfassistent,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Im Zauberbuch ansehen,1
+54777,VIDEO_OPTIONS_SFX_DENSITY_MIN,Essenziell,3
+54778,VIDEO_OPTIONS_SFX_DENSITY_REDUCED,Reduziert,3
+54779,VIDEO_OPTIONS_SFX_DENSITY_FULL,Alles,3
+54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Zeigt nur wichtige Zauber an. Die eigenen Zauber werden immer angezeigt.,3
+54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,"Reduziert die nicht-essenziellen Zauber, die angezeigt werden.",3
+54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Immer alle Zauber anzeigen.,3
+54794,BCSHORTDATENOYEAR,%2$d. %1$B,1
+54835,NOTIFY_ASSIST_ACTION_PLACED_VO,%1$s hat sich Eure Nachricht in %2$s angehört.,1
+54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,%1$s hat Eure Niederlage gegen %2$s in %3$s gerächt.,1
+54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,%1$s hat von Euch %2$s in %3$s erhalten.,1
+54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Grab von %s,1
+54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Nachricht von %s,1
+54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
+54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Ihr habt eine Instanz der Schwierigkeitsstufe ""Mythisch+"" betreten. Solltet Ihr die Instanz verlassen, bevor der Timer abläuft und Ihr nicht abgestimmt habt, den Dungeon abzubrechen, erhaltet Ihr eine Strafe.",1
+54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Erinnerung an %s,1
+54903,VOTE_TO_ABANDON_VOTES_NEEDED,"Es werden %d Stimmen benötigt, um die Instanz abzubrechen.",1
+54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"Es werden %d Stimmen benötigt, um die Instanz abzubrechen. Als Schlüsselträger zählt Eure Stimme als %d.",1
+54906,VOTE_TO_ABANDON_VOTED_YES,Ihr habt dafür gestimmt,1
+54907,VOTE_TO_ABANDON_VOTED_NO,Ihr habt dagegen gestimmt,1
+54908,VOTE_TO_ABANDON_PROMPT,Instanz abbrechen?,1
+54909,TIME_REMAINING_WITH_TIME,Verbleibende Zeit: %s,1
+54910,VIDEO_OPTIONS_SFX_DENSITY_PERF,Leistung,3
+54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,"Reduziert die nicht-essenziellen Zauber, die angezeigt werden, basierend auf Eurer Bildrate.",3
+54915,TEXT_SCALE_PREVIEW_TITLE,Beispiel,3
+54916,TEXT_SCALE_PREVIEW_BODY,"Dies ist eine Vorschau der Schriftgröße. Passt die Einstellung an, um die Textgröße in Bereichen wie dem Text-to-Speech-Menü, dem Kontaktemenü und aufpoppenden Benachrichtigungen zu bestimmen.",3
+54949,ACCESSIBILITY_INTERFACE_LABEL,Interface,3
+54950,ACCESSIBILITY_FONT_SIZE_LABEL,Textgröße,3
+54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Passt die Textgröße in Bereichen wie dem Text-to-Speech-Menü, dem Kontaktemenü und aufpoppenden Benachrichtigungen an.",3
+54952,ACCESSIBILITY_INTERFACE_SECTION_DISPLAY,Anzeige,3
+54953,ACCESSIBILITY_FONT_SIZE_SMALL_LABEL,Klein,3
+54954,ACCESSIBILITY_FONT_SIZE_MEDIUM_LABEL,Mittel,3
+54955,ACCESSIBILITY_FONT_SIZE_LARGE_LABEL,Groß,3
+54956,ACCESSIBILITY_FONT_SIZE_HUGE_LABEL,Riesig,3
+54957,ACCESSIBILITY_FONT_SIZE_GIGANTIC_LABEL,Gigantisch,3
+54961,ACCESSIBILITY_FONT_SIZE_EXTRA_LARGE_LABEL,Besonders groß,3
+54967,VOTE_TO_ABANDON_LEAVING_INSTANCE,Instanz wird verlassen...,1
+54979,SLASH_ABANDON1,/abbrechen,1
+54980,SLASH_ABANDON2,/abandon,1
+54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Echo von %s,1
+54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Töter von %s,1
+54996,VOTE_TO_ABANDON_PLAYER_LEFT,Ein anderer Spielercharakter hat die Instanz verlassen. Ihr könnt sie nun ohne Strafe verlassen.,1
+54997,CONFIRM_LEAVE_RESTRICTED_CHALLENGE_MODE,"Instanzgruppe verlassen?|n|n|cffff2020Wenn Ihr wiederholt Instanzen auf dem Schwierigkeitsgrad ""Mythisch+"" verlasst, werdet Ihr als Schlüsselsteindeserteur markiert.|r",1
+55000,WARN_LEAVE_RESTRICTED_CHALLENGE_MODE,"Straftimer|n|n|cffffd200Wenn Ihr nicht innerhalb der verbleibenden Zeit zur Instanz zurückkehrt, werdet Ihr aus der Instanzgruppe entfernt und erhaltet eine Strafe fürs Verlassen.|r|n|nVerbleibende Zeit: %d Sek.",1
+55003,ERR_CURRENCY_TRANSFER_INSUFFICIENT_TRANSFER_QUANTITY,Die angefragte Menge deckt nicht die Transfergebühr.,1
+55005,HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT,Zum Bearbeiten anklicken,1
+55006,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_FULL,heldenhaft von %s in einer Tiefe der Stufe %d besiegt,1
+55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,heldenhaft in einer Tiefe der Stufe %d besiegt,1
+55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,heldenhaft von %s besiegt,1
+55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,heldenhaft besiegt und verschieden,1
+55034,GXAPI_MTL4,Metal 4,3
+55036,VRN_NEEDS_MACOS_14_0,Benötigt macOS 14 oder höher,3
+55037,VRN_NEEDS_MACOS_15_0,Benötigt macOS 15 oder höher,3
+55038,VRN_NEEDS_MACOS_26_0,Benötigt macOS 26 oder höher,3
+55044,VRN_NEEDS_APPLE_SOC,Erfordert einen Mac mit Apple Silicon,3
+55045,VRN_NEEDS_MTL4,Erfordert Metal 4,3
+55046,VRN_GPUMEM_4GB,Erfordert eine Grafikkarte mit mindestens 4 GB Videospeicher,3
+55047,VRN_GPUMEM_8GB,Erfordert eine Grafikkarte mit mindestens 8 GB Videospeicher,3
+55048,VRN_GPUMEM_16GB,Erfordert eine Grafikkarte mit mindestens 16 GB Videospeicher,3
+55056,KIOSK_SESSION_EXPIRED_TITLE_2,Spielerbehausung,3
+55062,MYTHIC_PLUS_DESERTER_FLAGGED,"Ihr wurdet als Schlüsselsteindeserteur markiert, weil Ihr mehrfach Instanzen auf dem Schwierigkeitsgrad ""Mythisch+"" verlassen habt.",1
+55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Ihr wurdet als Schlüsselsteindeserteur markiert.,1
+55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,"Die betrifft nur Gruppen für Instanzen auf dem Schwierigkeitsgrad ""Mythisch+"".",1
+55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,"In dieser Gruppe befindet sich mindestens ein Spielercharakter, der als Schlüsselsteindeserteur markiert wurde.",1
+55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,"Ein Desertationsabzeichen wird im Dungeonbrowser für Instanzen des Schwierigkeitsgrads ""Mythisch+"" zu sehen sein.",1
+55070,MYTHIC_PLUS_DESERTER,Schlüsselsteindeserteur,1
+55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Reshiiwickel,1
+55198,SPELL_FAILED_CUSTOM_ERROR_2431,Dieses Reittier kann den ungebundenen Raum nicht betreten.,1
+55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Die Name der Konfiguration konnte nicht aktualisiert werden. Bitte erneut versuchen.,1

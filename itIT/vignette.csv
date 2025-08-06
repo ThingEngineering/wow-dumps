@@ -5482,7 +5482,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6114,Matriarca Pelardente,0,81921,1113,1060,0,0,0,0,0,0,0
 6115,Spezzartigli K'zithix,130010,81920,1114,1060,0,0,0,0,0,0,0
 6116,Rifornimenti della Lega degli Esploratori,0,0,105,0,0,0,0,0,0,0,0
-6117,Scappabot 7000,120803,0,166,0,0,0,0,0,0,0,0
+6117,Scappabot 7000,120803,0,166,0,200,-200,0,0,0,0,0
 6118,Prole di Beledar,0,81763,1113,1060,80,0,0,0,0,0,0
 6119,Famelico delle Profondità,0,81648,1113,4,0,0,0,0,0,0,0
 6120,Picchiacavoli Frenetico,0,82558,1113,1060,80,0,0,0,0,0,0
@@ -5965,6 +5965,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6605,Mella Ficcamani,0,84927,1114,1060,0,0,0,0,0,0,0
 6606,Miccialercia,0,84928,1114,1060,0,0,0,0,0,0,0
 6607,Spuntadenti,0,0,1114,1094,0,0,0,0,0,1,0
+6608,Attacco del Divoratore: Oasi,128700,84993,1037,1126,0,0,0,84993,1375,0,0
 6609,Swigs Vistacuta,0,85004,1114,1060,0,0,0,0,0,0,0
 6610,Stalagnarok,130194,0,89,1094,100,-100,0,0,0,2,0
 6611,Cassonetto Traboccante,129696,0,918,0,0,0,0,0,0,0,0
@@ -5985,6 +5986,20 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6626,Blocco Automatico di Muff,129113,0,1158,1032,0,0,0,0,0,0,0
 6627,Blocco Automatico di Muff,129114,0,1158,1032,0,0,0,0,0,0,0
 6628,Blocco Automatico di Muff,129115,0,1158,1032,0,0,0,0,0,0,0
+6629,Sha'ryth il Maledetto,0,90585,1114,1060,0,0,0,0,0,0,0
+6630,Fauci delle Sabbie,131100,90594,1113,1126,0,0,0,0,0,0,0
+6631,Korgorath il Devastatore,0,90586,1114,1060,0,0,0,0,0,0,0
+6632,Chowdar,0,90587,1114,1060,0,0,0,0,0,0,0
+6633,Morgil la Prole Fatua,0,90588,1114,1060,0,0,0,0,0,0,0
+6634,Il Razziatore Notturno,0,90589,1114,1060,0,0,0,0,0,0,0
+6635,Orith il Terribile,120885,90595,1113,1126,0,0,0,0,0,0,0
+6636,Ixthar l'Impassibile,131100,90596,1113,1126,0,0,0,0,0,0,0
+6637,Ululato d'Ombra,0,90583,1114,1060,0,0,0,0,0,0,0
+6638,Prototipo v5,0,90590,1114,1060,0,0,0,0,0,0,0
+6639,Redivivo delle Terre Desolate,0,90591,1114,1060,0,0,0,0,0,0,0
+6640,Inseguitore delle Distese,0,90592,1114,1060,0,0,0,0,0,0,0
+6641,Urmag,0,90593,1114,1060,0,0,0,0,0,0,0
+6642,Xarran,0,90584,1114,1060,0,0,0,0,0,0,0
 6643,Cassetta degli Attrezzi Abbandonata,0,85422,88,0,0,0,0,0,0,0,0
 6644,Putter Perduto da Tempo di Papà,0,85424,88,0,0,0,0,0,0,0,0
 6645,Asporto Non Supervisionato,0,85425,88,0,0,0,0,0,0,0,0
@@ -6015,24 +6030,43 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6670,Glifo - Diretto,0,85779,88,0,30,-30,0,0,0,0,0
 6671,Dadi Anneriti,0,85814,88,0,0,0,0,0,0,0,0
 6672,Detonatore Esploso,130940,0,88,0,0,0,0,0,0,0,0
+6673,Scrigno Abbandonato,0,0,1140,0,0,0,0,0,0,0,0
+6674,Bagaglio Leggermente Ammaccato,0,91352,1140,0,0,0,0,0,0,0,0
+6675,Campana del Vento Triste,0,85837,1140,0,0,0,0,0,0,0,0
+6676,Scrigno Consumato dalla Sabbia,0,85840,1140,0,0,0,0,0,0,0,0
 6677,Cappello d'Artificio,0,85856,88,0,0,0,0,0,0,0,0
 6678,Vasca Solitaria,0,85858,88,0,0,0,0,0,0,0,0
 6679,Libro Sospetto,0,85868,88,0,0,0,0,0,0,0,0
 6680,"Primula Manovell, Pianificatrice di Rivolte",0,0,1181,327682,0,0,0,0,0,0,0
+6681,Dono dei Fratelli,131270,85959,1140,0,0,0,0,0,0,0,0
+6682,Lanterna Guizzante,131271,85959,1140,0,0,0,0,0,0,0,0
 6683,Cassa di Rifornimenti dei Ratti di Sentina,0,84529,1158,0,0,0,0,0,0,0,0
 6684,Scrigno con Sigilli Runici,0,86171,1158,0,0,0,0,0,0,0,0
 6685,Forziere dei Terrigeni Derubato,0,84527,1158,0,0,0,0,0,0,0,0
 6686,Luogo Lucroso,133672,0,1182,9282,0,0,0,0,0,0,0
 6687,Cumulo di S.C.A.R.T.O.,132134,0,1183,263202,0,0,0,0,1453,0,0
 6689,M.A.G.N.O.,0,86298,1113,263174,0,0,0,0,0,0,0
+6690,Scorta dei Desertici,0,86301,1140,0,0,0,0,0,0,0,0
 6691,Perita degli Acqualorda,5793,0,1185,9282,0,0,0,0,0,0,0
+6692,Pacchetto Caduto,0,86304,1140,0,0,0,0,0,0,0,0
+6693,Pacchetto Caduto,0,86306,1140,0,0,0,0,0,0,0,0
 6694,Disturbo di Granstrippo,134394,86307,1113,263174,0,0,0,0,0,0,0
+6695,Cristalli Infranti,0,86308,1140,0,0,0,0,0,0,0,0
+6696,Ossa di Coda di Scheletro,0,86322,1140,0,0,0,0,0,0,0,0
+6697,Sacco Cucito Rozzamente,0,86323,1140,0,0,0,0,0,0,0,0
 6698,Profitto!,133672,0,1187,9282,0,0,0,0,0,0,0
 6699,Curiosità Smarrita,0,0,1129,16384,0,0,0,0,0,0,0
 6700,Spazzatura del Gallagio,0,87007,1113,1126,0,0,0,0,0,0,0
+6701,Libro Sepolto,0,86411,1140,0,0,0,0,0,0,0,0
+6702,Scrigno Antico,0,86416,1140,0,0,0,0,0,0,0,0
 6704,Custode del Tempo Sporco,133723,0,890,1026,0,0,0,0,0,0,0
+6705,Attacco del Divoratore: Ecosfera Primus,128700,86447,1037,1126,0,0,0,86447,1456,0,0
+6707,Attacco del Divoratore: Atrio,128700,86464,1037,1126,0,0,0,86464,1460,0,0
+6708,Attacco del Divoratore: Tazavesh,128700,86465,1037,263270,0,0,0,86465,1462,0,0
+6709,Distribuzione Postale,132395,86467,1140,0,0,0,0,0,0,0,0
 6710,Disturbo di Granstrippo,132368,86307,1113,263170,0,0,0,0,0,0,0
 6711,Magno-Riciclatore 9000,132367,86298,1113,263170,0,0,0,0,0,0,0
+6712,Distribuzione Postale,132396,86467,1140,0,0,0,0,0,0,0,0
 6713,Schemi Accartocciati,0,86487,88,0,0,0,0,0,0,0,0
 6714,Prototipo di Distruzione di Massa,121196,0,1120,1028,0,0,0,0,0,0,0
 6715,Pit il Ruffiano,121196,0,1120,1028,0,0,0,0,0,0,0
@@ -6044,6 +6078,12 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6721,Geomante Keeri,121196,0,1120,1028,0,0,0,0,0,0,0
 6722,Kaja'mentale Massiccio,121196,0,1120,1028,0,0,0,0,0,0,0
 6723,Coordinatore Zendu,121196,0,1120,1028,0,0,0,0,0,0,0
+6724,Cristallo Preferito di Ixthar,140342,86492,1140,0,0,0,0,0,0,0,0
+6725,Sthaarbs l'Imperturbabile,120885,91293,1113,533606,0,0,0,0,0,0,2
+6726,Tesoro Fuori Fase,132527,86527,1140,0,0,0,0,0,0,0,0
+6727,Ladra Fasica Tezra,120885,86550,1114,1124,0,0,0,0,0,0,0
+6728,Granspada del Calcadistese,132555,86551,1140,0,0,0,0,0,0,0,0
+6729,Tesoro Fuori Fase,132556,86552,1140,0,0,0,0,0,0,0,0
 6730,Cassa del Marinaio,131531,0,1140,1024,0,0,0,0,0,0,0
 6731,Mercante Pirata,0,0,1190,0,0,0,0,0,0,0,0
 6732,Lettera di Minacce,132622,86567,1141,1032,0,0,0,0,0,0,0
@@ -6070,7 +6110,17 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6757,Cumulo di S.C.A.R.T.O.,132134,0,1196,263202,0,0,0,0,1453,0,0
 6760,Custode del Tempo Sporco,0,0,890,1026,0,0,0,0,0,0,0
 6762,Cammino della Storia,128804,0,1199,262146,0,0,0,0,0,0,0
+6766,Stoccaggio Portatile Etereo,140640,87320,1140,0,0,0,0,0,0,0,0
+6767,Erario degli Alienatori,0,87320,1140,0,0,0,0,0,0,0,0
+6768,Stoccaggio Portatile Fuori Fase,140659,87320,1140,0,0,0,0,0,0,0,0
 6769,Midsummer Bonfire Map POI Test - JZB,0,0,0,262146,0,0,0,0,0,5,0
+6770,Xy'vox il Contorto,134495,0,1113,1094,0,0,0,0,0,1,0
+6771,Energia Devastante,134260,0,1113,1094,0,0,0,0,0,1,0
+6772,Xy'vox il Contorto,0,90580,1113,1094,0,0,0,0,0,1,0
+6773,Sciagura Vacua,134816,0,1113,1094,0,0,0,0,0,1,0
+6774,Scavaterra,134887,0,1113,1094,0,0,0,0,0,1,0
+6784,Condotto di Fase,134232,0,1209,328706,0,0,0,0,0,0,0
+6874,Fenditura di Fase,134232,0,1209,0,0,0,0,0,0,0,0
 6875,Dissidente Peldifalce,130010,0,1113,1028,0,0,0,0,0,0,0
 6876,Dissidente Giuraterra,130010,0,1113,1028,0,0,0,0,0,0,0
 6877,Sussurratrice Giuralota,130010,0,1113,1028,0,0,0,0,0,0,0
@@ -6083,11 +6133,55 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6884,Dissidente Verargent,130010,0,1113,1028,0,0,0,0,0,0,0
 6885,Sussurratore Grandassedio,130010,0,1113,1028,0,0,0,0,0,0,0
 6886,Sussurratrice Scoppiakaos,130010,0,1113,1028,0,0,0,0,0,0,0
+6889,Contenitore Forgiato dal Vuoto Etereo,140658,89378,1140,0,0,0,0,0,0,0,0
+6891,Torba Viola,137526,0,1113,1094,0,0,0,0,0,1,0
+6893,Raccoglitore Arcano So'zer,137548,0,1113,1094,0,0,0,0,0,1,0
 6909,Deposito di Armi,0,0,1217,271430,0,0,0,0,0,0,0
 6910,Mucchio di Bombe,0,0,1217,271430,0,0,0,0,0,0,0
+6913,Raccoglitore Arcano So'zer,0,90696,1113,1094,0,0,0,0,0,1,0
+6914,Scavaterra,0,90698,1113,1094,0,0,0,0,0,1,0
+6915,Sciagura Vacua,0,90582,1113,1094,0,0,0,0,0,1,0
+6916,Energia Devastante,0,90577,1113,1094,0,0,0,0,0,1,0
+6917,Torba Viola,0,90578,1113,1094,0,0,0,0,0,1,0
 6918,Quartiermastro della Fama,136064,0,1219,0,0,0,0,0,0,0,0
+6919,Mannaia della Luce Assorbita,136602,90511,1140,0,0,0,0,0,0,0,0
+6920,Lancia dei Ricordi Caduti,136602,90512,1140,0,0,0,0,0,0,0,0
+6921,Scudo Barricata Dimenticato di Efrat,136602,90514,1140,0,0,0,0,0,0,0,0
+6922,Ramo Pietrificato di Janaa,136602,90515,1140,0,0,0,0,0,0,0,0
+6923,Lanterna della Scialuppa dei Sufaadi,136602,90521,1140,0,0,0,0,0,0,0,0
+6924,Traslocatore della Manaforgia,0,0,1253,1025,50,-50,0,0,0,0,0
+6925,Talwar della Guardia Dorata,136602,90522,1140,0,0,0,0,0,0,0,0
+6926,Frantumatore della Guardia dell'Ombra,136602,90527,1140,0,0,0,0,0,0,0,0
+6927,Artiglio di Korgorath,136602,90532,1140,0,0,0,0,0,0,0,0
+6933,Console di Comando della Porta,139167,0,1226,0,50,-50,0,0,0,0,0
+6965,Lame da Guerra del Cacciatore Audace,136602,91055,1140,0,0,0,0,0,0,0,0
+6966,Prototipo di Pressa per Pacchi e Affrancature del Direttore della P.O.S.T.A.,136602,91056,1140,0,0,0,0,0,0,0,0
+6967,Lama Spettrale delle Marce del Vuoto,136602,91057,1140,0,0,0,0,0,0,0,0
+6968,Archibugio Tagliente dell'Impeto Sfrenato,136602,91058,1140,0,0,0,0,0,0,0,0
+6975,Erario degli Alienatori,140641,87320,1140,0,0,0,0,0,0,0,0
+6976,Erario Fuori Fase,140658,87320,1140,0,0,0,0,0,0,0,0
+6980,"Malek'ta, le Fauci dell'Oblio",0,91275,1114,1060,0,0,0,0,0,0,0
+6981,"Heka'tamos, la Disgiunzione Elementale",0,91276,1114,1060,0,0,0,0,0,0,0
 6983,Portale per la Città dei Vermi,0,0,1021,132418,0,0,0,0,0,0,0
 6984,Portale per le Terre Gelate,0,0,1021,132418,0,0,0,0,0,0,0
 6985,Portale per il Labirinto di Lava,0,0,1021,132418,0,0,0,0,0,0,0
 6986,Portale per la Foresta di Veleno,0,0,1021,132418,0,0,0,0,0,0,0
 6987,Portale per il Circo di Sangue,0,0,1021,132418,0,0,0,0,0,0,0
+7115,Pietra di Transito,0,0,1214,267267,250,-250,0,0,0,0,0
+7118,Un Libro Spiegazzato,142464,91640,1141,1032,0,0,0,0,0,0,0
+7119,Quaderno Misterioso,142474,91642,1141,1032,0,0,0,0,0,0,0
+7120,Dinamica delle Energie del Multiverso e il Paradosso della Mormorazione,142475,91643,1141,1032,0,0,0,0,0,0,0
+7121,Ricette di Biscotti Aromatici degli Alienatori di Ba'key,142476,91645,1141,1032,0,0,0,0,0,0,0
+7122,Dalla Vendetta al Vuoto,142479,91646,1141,1032,0,0,0,0,0,0,0
+7123,Gli Aspetti di K'aresh,142480,91647,1141,1032,0,0,0,0,0,0,0
+7124,Monete: lo Scambio di un Giuramento,142481,91648,1141,1032,0,0,0,0,0,0,0
+7125,Sono Diventato Vuoto!,142482,91649,1141,1032,0,0,0,0,0,0,0
+7127,Diario da Campo del Geologo,142545,91686,1141,1032,0,0,0,0,0,0,0
+7128,Lista di Piaceri Minori,142549,91687,1141,1032,0,0,0,0,0,0,0
+7132,Quartiermastro della Fama,0,0,1243,0,0,0,0,0,0,0,0
+7143,Portale di Traslocazione Ascendente,0,0,1250,300034,0,0,0,0,0,0,0
+7144,Portale di Traslocazione Discendente,0,0,1251,300034,0,0,0,0,0,0,0
+7145,Portale di Traslocazione Discendente,0,0,1251,300034,20,-20,0,0,0,0,0
+7146,Portale di Traslocazione Ascendente,0,0,1250,300034,20,-20,0,0,0,0,0
+7160,Oggetto d'Interesse,0,0,1262,0,0,0,0,0,0,0,0
+7307,Quartiermastro della Fama,0,0,1268,0,0,0,0,0,0,0,0
