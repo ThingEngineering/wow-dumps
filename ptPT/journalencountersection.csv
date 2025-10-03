@@ -7791,9 +7791,9 @@ $bullet;Quando Serpentrix usar |cFF2959D3|Hspell:191873|h[Submergir]|h|r ao cheg
 12014,Submergir,,1479,9,0,12015,0,2,0,0,191873,463570,1,0,-1
 12015,Hidra Lacaia Fulgurante,Evocada nas proximidades após Serpentrix emergir.,1479,10,12014,12016,12017,1,65145,0,0,0,0,0,-1
 12016,Seção 10,,1479,11,12015,0,0,2,0,0,192003,0,0,64,-1
-12017,Hidra Lacaia Arcana,Evocada nas proximidades após Serpentrix emergir.,1479,12,12014,12018,0,1,65146,0,0,0,2,0,2
-12018,Seção 12,,1479,13,12017,12019,0,2,0,0,192005,0,2,64,2
-12019,Seção 13,,1479,14,12018,0,0,2,0,0,192007,0,2,0,2
+12017,Hidra Lacaia Arcana,Evocada nas proximidades após Serpentrix emergir.,1479,12,12014,12018,0,1,65146,0,0,0,2,8,2
+12018,Seção 12,,1479,13,12017,12019,0,2,0,0,192005,0,0,64,-1
+12019,Seção 13,,1479,14,12018,0,0,2,0,0,192007,0,0,0,-1
 12020,Visão Geral,"O Senhor da Guerra Parjesh convoca reforços para ajudá-lo em combate e atira uma |cFF2959D3|Hspell:191977|h[Lança de Empalação]|h|r, atingindo o primeiro alvo enfileirado e causando dano imenso.",1480,1,0,12021,12024,3,0,0,0,0,0,0,-1
 12021,Causadores de Dano,"$bullet;Posicione-se atrás dos reforços naga quando a |cFF2959D3|Hspell:191977|h[Lança de Empalação]|h|r for atirada para não ficar preso.
 $bullet;Mate as nagas inimigas evocadas por |cFF2959D3|Hspell:192072|h[Chamar Reforços]|h|r.",1480,2,12020,0,12022,3,0,0,0,0,0,2,-1
@@ -7804,7 +7804,7 @@ $bullet;Ganhe ameaça dos Quebra-conchas Espiródio após o lançamento de |cFF2
 12024,Onda Forte,,1480,5,0,12025,12026,2,0,0,191919,135861,0,0,-1
 12025,Areia Movediça,,1480,6,12024,0,0,2,0,0,192053,796634,2,8,2
 12026,Seção 7,,1480,7,0,0,12094,2,0,0,191977,0,1,32,-1
-12027,Seção 8,,1480,14,0,12028,12259,2,0,0,196563,0,3,0,2
+12027,Seção 8,,1480,14,0,12028,12259,2,0,0,196563,0,3,8,2
 12028,Quebra-concha Espiródio,Ataca os jogadores e causa dano corpo a corpo elevado.,1480,15,12027,12029,12030,1,20772,0,0,0,0,1,-1
 12029,Seção 12,,1480,16,12028,12420,0,2,0,0,192135,0,0,64,-1
 12030,Cavalga-espuma Espiródio,Dispara raios contra alvos aleatórios.,1480,18,12027,12031,0,1,60790,0,0,0,0,0,-1
@@ -7883,22 +7883,14 @@ $bullet;Se Tirathon entrar na forma de Vingança, reposicione-o para evitar as G
 12090,Seção 8,,1492,8,0,0,12272,2,0,0,192696,0,1,1,-1
 12093,Seção 9,,1492,14,0,12167,0,2,0,0,192985,0,0,32,-1
 12094,Seção 13,,1480,8,0,0,12415,2,0,0,192131,0,0,0,-1
-12095,Visão Geral,"Gris'Golm preenche gradualmente a área com mais e mais lava até ser congelado pelas contramedidas da sala. Quando congelado, Gris'Golm se torna Quebradiço e recebe dano adicional até se reaquecer e começar a encher a sala de fogo novamente.",1468,1,0,12096,12099,3,0,0,0,0,0,0,-1
-12096,Tanques,"$bullet;Gris'Golm mira a habilidade |cFF2959D3|Hspell:192522|h[Fenda]|h|r
- na direção do alvo atual.
-$bullet;Brasas sempre atacam inimigos aleatórios e não podem ser tancadas.
-$bullet;Os jogadores podem absorver lava se movendo através ela.",1468,2,12095,0,12097,3,0,0,0,0,0,1,-1
-12097,Curadores,"$bullet;O grupo inteiro recebe dano de |cFF2959D3|Hspell:193209|h[Abrasando]|h|r, a menos que Gris'Golm esteja congelado.
-$bullet;|cFF2959D3|Hspell:192622|h[Vulcão]|h|r e |cFF2959D3|Hspell:192631|h[Guirlanda de Lava]|h|r atingem os jogadores ao alcance.
-$bullet;Os jogadores podem absorver lava se movendo através dela.",1468,3,12095,0,12098,3,0,0,0,0,0,4,-1
-12098,Causadores de Dano,"$bullet;Gris'Golm e suas Brasas recebem mais dano quando estão |cFF2959D3|Hspell:192517|h[Quebradiços]|h|r.
-$bullet;|cFF2959D3|Hspell:192622|h[Vulcão]|h|r e |cFF2959D3|Hspell:192631|h[Guirlanda de Lava]|h|r atingem os jogadores ao alcance.
-$bullet;Os jogadores podem absorver lava se movendo através dela.",1468,4,12095,0,0,3,0,0,0,0,0,2,-1
-12099,Seção 5,,1468,5,0,0,12101,2,0,0,192519,0,0,32,-1
-12100,Quebradiço,,1468,13,12727,0,0,2,0,0,192517,0,0,0,-1
-12101,Seção 7,,1468,6,0,0,12103,2,0,0,192631,0,0,0,-1
-12102,Seção 8,,1468,8,0,12665,12727,2,0,0,192622,0,0,0,-1
-12103,Seção 9,,1468,7,0,0,12102,2,0,0,192522,0,0,0,-1
+12095,Visão Geral,"Gris'Golm enche gradualmente a câmara de |cFF2959D3|Hspell:1243622|h[Erupção Vulcânica]|h|r e |cFF2959D3|Hspell:1243632|h[Brasas Ardentes]|h|r até ser congelado pela |cFF2959D3|Hspell:1244257|h[Contenção Congelafundo]|h|r do Guardião. 
+
+Depois de congelado, Gris'Golm e todas as Brasas Vivas ficam |cFF2959D3|Hspell:1244248|h[Quebradiços]|h|r até que ele se reaqueça e comece a encher a câmara de chamas de novo.",1468,1,0,12096,33224,3,0,0,0,0,0,0,-1
+12096,Tanques,$bullet;A ativação de |cFF2959D3|Hspell:1244257|h[Contenção Congelafundo]|h|r remove |cFF2959D3|Hspell:1243566|h[Montanha Calcinante]|h|r de Gris'Golm e faz |cFF2959D3|Hspell:1243622s|h[Erupção Vulcânica]|h|r diminuir.,1468,2,12095,0,12097,3,0,0,0,0,0,1,-1
+12097,Curadores,"$bullet;Quando |cFF2959D3|Hspell:1243630|h[Brasa Ardente]|h|r expira, gera uma Brasa Viva no local do alvo.
+$bullet;A ativação de |cFF2959D3|Hspell:1244257|h[Contenção Congelafundo]|h|r remove |cFF2959D3|Hspell:1243566|h[Montanha Calcinante]|h|r de Gris'Golm e faz |cFF2959D3|Hspell:1243622s|h[Erupção Vulcânica]|h|r diminuir.",1468,3,12095,0,12098,3,0,0,0,0,0,4,-1
+12098,Causadores de Dano,"$bullet;A ativação de |cFF2959D3|Hspell:1244257|h[Contenção Congelafundo]|h|r deixa Gris'Golm e as Brasas Vivas |cFF2959D3|Hspell:1244248|h[Quebradiços]|h|r.
+$bullet;Quando |cFF2959D3|Hspell:1243632|h[Brasa Ardente]|h|r expira, gera uma Brasa Viva no local do alvo.",1468,4,12095,0,0,3,0,0,0,0,0,2,-1
 12104,Visão Geral,"Hymdall usa a Trompa da Bravura para evocar Dracos da Tempestade que sopram raios na plataforma. À medida que a luta avança, o número de dracos evocados pela trompa aumenta.",1485,1,0,12105,12110,3,0,0,0,0,0,0,-1
 12105,Causadores de Dano,"$bullet;Evite ficar perto da |cFF2959D3|Hspell:193235|h[Lâmina Dançante]|h|r.
 $bullet;Não fique na frente de Hymdall, pois ele pode lançar |cFF2959D3|Hspell:193083|h[Golpe Amplo Sangrador]|h|r inesperadamente.
@@ -7954,7 +7946,7 @@ $bullet;Quando a barra de mana de Ymiron estiver cheia, ele usará|cFF2959D3|Hsp
 12171,Explosão Gasosa,,1491,7,12170,0,12686,2,0,0,193047,0,2,16,1
 12172,Batida Terrestre,,1491,9,0,0,12173,2,0,0,193093,0,0,1,-1
 12173,Tremor,,1491,10,0,12174,0,2,0,0,193152,0,0,0,-1
-12174,Tremor Secundário,,1491,11,12173,0,0,2,0,0,193171,0,3,0,0
+12174,Tremor Secundário,,1491,11,12173,0,0,2,0,0,193171,0,3,4096,0
 12187,Visão Geral,Corstilax guarda a fenda da Nascente da Noite numa tentativa de limitar a exposição dos jogadores à |cFF2959D3|Hspell:195362|h[Energia da Nascente da Noite]|h|r. Os jogadores devem libertar os aliados da |cFF2959D3|Hspell:195791|h[Quarentena]|h|r e evitar dano direto do |cFF2959D3|Hspell:196070|h[Protocolo de Supressão]|h|r.,1498,1,0,12188,12191,3,0,0,0,0,0,0,-1
 12188,Causadores de Dano,"$bullet;|cFF2959D3|Hspell:195362|hA [Energia da Nascente da Noite]|h|r aumenta significativamente a aceleração, mas faz com que a |cFF2959D3|Hspell:196115|h[Força Purificante]|h|r atordoe você.",1498,2,12187,0,12189,3,0,0,0,0,0,2,-1
 12189,Curadores,$bullet;|cFF2959D3|Hspell:196070|h[Protocolo de Supressão]|h|r causa dano moderado a todo o grupo.,1498,3,12187,0,12190,3,0,0,0,0,0,4,-1
@@ -7990,9 +7982,9 @@ Na dificuldade Heroica ou superior, este efeito acumula.$]",1518,6,12241,0,12243
 Na dificuldade Mítica, os jogadores que recebem dano dos Ecos da Alma também fogem amedrontados por $194960d.$]",1518,8,12241,0,0,2,0,0,194960,0,0,0,-1
 12245,Estágio Dois: Chamado das Almas,,1518,9,0,12247,0,0,0,0,0,0,3,8,2
 12246,Tanque,$bullet;Saia do caminho de |cFF2959D3|Hspell:194956|h[Ceifar Alma]|h|r para não receber dano elevado.,1518,4,12238,0,0,3,0,0,0,0,0,1,-1
-12247,Seção 10,,1518,10,12245,12248,12249,2,0,0,196078,0,0,0,-1
-12248,Seção 11,,1518,11,12247,0,0,2,0,0,196930,0,0,0,-1
-12249,Seção 12,,1518,12,12245,0,0,2,0,0,196587,0,0,48,-1
+12247,Seção 10,,1518,10,12245,12248,12249,2,0,0,196078,0,1,0,-1
+12248,Seção 11,,1518,11,12247,0,0,2,0,0,196930,0,0,16,-1
+12249,Seção 12,,1518,12,12245,0,0,2,0,0,196587,0,0,32,-1
 12259,Seção 14,,1480,21,0,0,0,2,0,0,197064,0,1,0,-1
 12261,Visão Geral,"Ao drenar mana do Cristal da Noite, Ivanyr se torna cada vez mais forte.",1497,1,0,12262,12265,3,0,0,0,0,0,0,-1
 12262,Causadores de Dano,$bullet;Ivanyr ganha aplicações de |cFF2959D3|Hspell:196396|h[Sobrecarga]|h|r se a |cFF2959D3|Hspell:196392|h[Sobrecarga de Mana]|h|r não for interrompida.,1497,2,12261,0,12263,3,0,0,0,0,0,2,-1
@@ -8123,28 +8115,15 @@ $bullet;Quando a barra de Brutalidade de Strondeódius estiver cheia, ele usará
 $bullet;Fique entre Strondeódius e o alvo para interceptar a |cFF2959D3|Hspell:198080|h[Investida Odiosa]|h|r se o alvo já tiver a penalidade, por interceptar uma investida anterior, e você não.",1664,3,12376,0,12379,3,0,0,0,0,0,4,-1
 12379,Causadores de Dano,"$bullet;Fique entre Strondeódius e o alvo para interceptar a |cFF2959D3|Hspell:198080|h[Investida Odiosa]|h|r se o alvo já tiver a penalidade, por interceptar uma investida anterior, e você não.",1664,4,12376,0,0,3,0,0,0,0,0,2,-1
 12380,Seção 5,,1664,6,0,12381,12382,2,0,0,198079,0,2,8,2
-12381,Seção 6,,1664,7,12380,0,0,2,0,0,198080,0,2,8,2
+12381,Seção 6,,1664,7,12380,0,0,2,0,0,198080,0,0,8,-1
 12382,Seção 7,,1664,8,0,12383,12430,2,0,0,198114,0,0,0,-1
 12383,Seção 8,,1664,9,12382,0,0,2,0,0,198245,0,0,5,-1
 12384,Seção 10,,1489,11,12375,0,0,2,0,0,198088,0,0,0,-1
 12385,Seção 11,,1489,12,0,0,12604,2,0,0,198263,0,0,16,-1
-12386,Visão Geral,"Esmalta alterna entre duas fases. Na primeira, ele segue os jogadores, criando áreas de energia com o objetivo de impedir que eles se posicionem. Na segunda, ele se teleporta para o centro da sala, canalizando um feixe de energia intensa até os jogadores usarem as lentes próximas para redirecionar o feixe para a retaguarda dele, que é vulnerável.",1469,1,0,13899,12390,3,0,0,0,0,0,0,-1
-12387,Tanques,"$bullet;Esmalta pode ser atingido pelos próprios |cFF2959D3|Hspell:194880|h[Pulsos]|h|r.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.
-$bullet;Lentes Sobrecarregadas ficarão |cFF2959D3|Hspell:225817|h[Sobrecarregadas]|h|r se forem atingidas por um |cFF2959D3|Hspell:202046|h[Feixe]|h|r.",1469,3,12386,0,13900,3,0,0,0,0,2,1,0
-12388,Curadores,"$bullet;|cFF2959D3|Hspell:194880|h[Pulsos]|h|r se propagarão das paredes da sala em direção ao jogador mais próximo.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.
-$bullet;O grupo receberá dano de |cFF2959D3|Hspell:195032|h[Radiação]|h|r enquanto Esmalta estiver concentrando o feixe dele.
-$bullet;Lentes Sobrecarregadas ficarão |cFF2959D3|Hspell:225817|h[Sobrecarregadas]|h|r se forem atingidas por um |cFF2959D3|Hspell:202046|h[Feixe]|h|r.",1469,5,12386,0,12389,3,0,0,0,0,2,4,0
-12389,Causadores de Dano,"$bullet;|cFF2959D3|Hspell:194880|h[Pulsos]|h|r se propagarão das paredes da sala em direção ao jogador mais próximo.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.",1469,6,12386,0,13901,3,0,0,0,0,2,2,3
-12390,Seção 5,"$[!2,8,23
- 
-No Modo Heroico, Pulsos se dividem em pulsos menores ao colidir com o jogador. Somente pulsos disparados pelo Esmalta se dividirão desta maneira.$]",1469,8,0,0,12391,2,0,0,214893,0,0,1,-1
-12391,Seção 6,,1469,9,0,0,12664,2,0,0,194945,0,0,0,-1
-12392,Seção 7,,1469,11,12664,12393,12394,2,0,0,194289,0,0,32,-1
-12393,,,1469,12,12392,0,0,2,0,0,202046,0,0,16,-1
-12394,Seção 9,,1469,13,12664,0,13902,2,0,0,195032,0,0,4,-1
+12386,Visão Geral,"Esmalta libera orbes caóticos do |cFF2959D3|Hspell:1243769|h[Impacto Ocular]|h|r que ricocheteiam pela arena.
+
+Ao atingir 100 de energia, Esmalta começa a lançar um |cFF2959D3|Hspell:1245312|h[Feixe Concentrado]|h|r que só pode ser interrompido ao refleti-lo de volta para ele.",1469,1,0,13899,33413,3,0,0,0,0,0,0,-1
+12389,Causadores de Dano,"$bullet;Lentes podem refletir o |cFF2959D3|Hspell:1245312|h[Feixe Concentrado]|h|r de Esmalta de volta para ele, interrompendo-o.",1469,4,12386,0,0,3,0,0,0,0,0,2,-1
 12395,Seção 7,,1654,9,12298,0,0,2,0,0,196376,0,0,4,-1
 12396,Visão Geral,Usar a Luz de Eluna para conter adequadamente as habilidades de Cordana é a chave para derrotá-la com sucesso.,1470,1,0,12397,12414,3,0,0,0,0,0,0,-1
 12397,Tanques,"$bullet;|cFF2959D3|Hspell:197513|h[Glaive Lunar Detonadora]|h|r faz com que você receba dano Físico aumentado.
@@ -8272,7 +8251,7 @@ $bullet;Ao chegar a 20% dos pontos de vida, Naraxas entra em |cFF2959D3|Hspell:1
 12526,Seção 9,,1673,16,13177,0,0,2,0,0,199246,0,1,0,-1
 12527,Devoto Falamansa,Desce com um salto e corre na direção de Naraxas para ser devorado.,1673,14,0,13177,13599,1,65780,0,0,0,1,2,-1
 12528,Seção 11,,1673,13,12522,0,0,2,0,0,199775,0,0,1,-1
-12538,Seção 7,,1657,12,12317,12853,12547,2,0,0,200185,0,2,0,2
+12538,Seção 7,,1657,12,12317,12853,12547,2,0,0,200185,0,2,8,2
 12543,Seção 12,,1657,15,12317,13776,0,2,0,0,200050,0,1,0,-1
 12547,Seção 13,,1657,14,12317,0,12543,2,0,0,200359,0,0,0,-1
 12575,Visão Geral,"O Rasgamentes Kaahrj ataca o grupo com seus feitiços Colisão de Sombras e Histeria. Ao chegar a 80% e 40% de vida, o Rasgamentes Kaahrj lança Escuridão Eterna, liberando uma onda de Tentáculos Sem-rosto para atingir membros do grupo repetidamente.",1686,1,0,12576,12579,3,0,0,0,0,0,0,-1
@@ -8369,12 +8348,6 @@ $bullet;|cFF2959D3|Hspell:201961|h[Bomba de Gelo]|h|r causa dano elevado ao grup
 12662,Tanques,"$bullet;|cFF2959D3|Hspell:201379|h[Sopro Gélido]|h|r causa dano elevado e reduz a velocidade de movimento.
 $bullet;|cFF2959D3|Hspell:201355|h[Bofetada de Asa]|h|r repele periodicamente todos os jogadores à frente de Gorjafria.",1694,4,12659,0,0,3,0,0,0,0,0,1,-1
 12663,Seção 10,,1694,10,0,0,0,2,0,0,202062,0,2,8,2
-12664,Foco,"Esmalta concentra o olhar em um fino feixe de energia que persegue um jogador aleatório. Se o feixe for redirecionado às costas do Esmalta, ele fica atordoado, o que faz com que ele receba dano extra.
-
-Enquanto estiver concentrado, a Radiação afeta a sala toda periodicamente.",1469,10,0,12392,0,0,0,0,0,0,0,0,-1
-12665,Brasa,"Brasas Calcinam alvos aleatoriamente. Se Lava passar sob uma Brasa, ela ficará Abrasada, aumentando seu dano.",1468,9,12102,12666,0,1,1204,0,0,0,0,0,-1
-12666,Seção 11,,1468,10,12665,0,12667,2,0,0,195332,0,0,4,-1
-12667,Seção 12,,1468,11,12665,0,0,2,0,0,202169,0,0,16,-1
 12668,Visão Geral,O Inquisidor Tormentorum sifona energia dos jogadores e abre prisões aleatoriamente. Essas prisões liberam inimigos adicionais com os quais os jogadores precisam lutar para não serem sobrepujados.,1695,1,0,12669,12672,3,0,0,0,0,0,0,-1
 12669,Causadores de Dano,"$bullet;Interrompa |cFF2959D3|Hspell:200904|h[Aturdir Alma]|h|r.
 $bullet;Esteja preparado para matar os inimigos adicionais que o Inquisidor Tormentorum liberta durante este encontro.
@@ -8436,7 +8409,6 @@ No modo Heroico, a Princesa de Sangue Thal'ena usa Evocação do Sangue para con
 12724,Chamas Furiosas,,1467,8,12073,0,0,2,0,0,191853,0,0,16,-1
 12725,Seção 15,,1467,17,12083,0,0,2,0,0,202826,0,0,0,-1
 12726,Seção 16,,1467,10,12071,0,0,2,0,0,202913,0,0,0,-1
-12727,Contramedidas,Contramedidas estão presentes na sala. Ativar qualquer uma delas congelará qualquer fogo presente na sala. Elementais afetados desta maneira se tornam Quebradiços por um curto período.,1468,12,0,12100,0,0,0,0,0,0,0,32,-1
 12728,Princesa de Sangue Thal'ena,,1702,5,0,12729,0,1,67638,0,0,0,1,0,-1
 12729,Seção 6,,1702,6,12728,12730,12733,2,0,0,202652,0,0,0,-1
 12730,Seção 7,,1702,7,12729,0,12731,2,0,0,202779,0,0,0,-1
@@ -8544,7 +8516,7 @@ Todas as aplicações de Infestado são removidas quando Nythendra completa Cora
 12849,Seção 17,,1706,7,12829,0,0,2,0,0,204766,0,1,0,-1
 12850,Vulto de Taerar,,1704,37,12788,12851,0,1,67745,0,0,0,0,0,-1
 12851,Seção 33,,1704,38,12850,0,0,2,0,0,204767,0,0,0,-1
-12853,Seção 10,,1657,13,12538,0,0,2,0,0,200243,0,2,0,2
+12853,Seção 10,,1657,13,12538,0,0,2,0,0,200243,0,0,0,-1
 12857,Seção 15,,1657,10,12317,0,13316,2,0,0,200238,0,0,0,-1
 12859,Seção 18,,1706,16,12822,0,12860,2,0,0,204459,0,1,32,-1
 12860,Seção 19,,1706,17,12822,0,13767,2,0,0,204292,0,2,0,0
@@ -8965,7 +8937,7 @@ $bullet;Durante a forma de Roca, colete uma |cFF2959D3|Hspell:212993|h[Pluma Cin
 13287,Seção 20,,1725,18,13286,13289,14721,2,0,0,212099,0,0,1,-1
 13288,Seção 21,,1725,14,13019,0,0,2,0,0,212297,0,2,16,0
 13289,Seção 22,,1725,19,13287,0,0,2,0,0,212109,0,0,1,-1
-13302,Abominação Pesadelo,"Rasteja na direção da presa, deixando para trás um rastro de corrupção.",1654,6,12427,0,0,1,69455,0,0,0,2,2,0
+13302,Abominação Pesadelo,"Rasteja na direção da presa, deixando para trás um rastro de corrupção.",1654,6,12427,0,0,1,69455,0,0,0,2,4098,0
 13304,Seção 43,,1737,13,13112,0,13113,2,0,0,206514,0,0,0,-1
 13307,Seção 7,,1500,7,0,0,13765,2,0,0,200227,0,0,0,-1
 13308,Seção 46,,1737,81,13500,13309,0,2,0,0,212625,0,0,0,-1
@@ -9229,7 +9201,7 @@ $bullet;Tente ficar em distância corpo a corpo o mais frequentemente possível 
 13570,Tentáculo com Olho Contraído,,1738,35,13192,13571,0,1,70725,0,0,0,2,4096,0
 13571,Seção 43,,1738,36,13570,0,0,2,0,0,208697,0,0,0,-1
 13574,Seção 15,,1687,8,12592,13575,0,2,0,0,216407,0,2,8,2
-13575,Seção 17,,1687,9,13574,0,0,2,0,0,216376,0,2,12,2
+13575,Seção 17,,1687,9,13574,0,0,2,0,0,216376,0,0,12,-1
 13576,Seção 16,,1687,19,0,0,0,2,0,0,216368,0,2,8,2
 13577,Seção 14,,1687,16,12596,0,0,2,0,0,216369,0,2,8,2
 13578,Seção 35,,1751,26,13418,0,0,2,0,0,216256,0,2,0,0
@@ -9368,7 +9340,7 @@ $bullet;Dissipe |cFF2959D3|Hspell:219045|h[Abraço da Mãe]|h|r para impedir que
 13771,Seção 11,,1656,10,13770,0,0,2,0,0,199313,0,0,0,-1
 13774,Seção 11,,1488,5,0,0,12132,2,0,0,193765,0,1,0,-1
 13775,Seção 10,,1488,12,12986,0,12142,2,0,0,221093,0,2,0,2
-13776,Seção 16,,1657,16,12543,0,0,2,0,0,221315,0,3,0,2
+13776,Seção 16,,1657,16,12543,0,0,2,0,0,221315,0,3,8,2
 13777,Seção 36,,1726,15,12971,12973,13821,2,0,0,210264,0,0,1,-1
 13778,Seção 37,,1726,29,13152,0,13170,2,0,0,209034,0,2,0,0
 13779,Seção 39,,1726,31,13152,13162,0,2,0,0,205588,0,0,32,-1
@@ -9473,15 +9445,9 @@ $bullet;Observe Helya durante a |cFF2959D3|Hspell:202098|h[Barragem Salobra]|h|r
 13898,Causadores de Dano,"$bullet;Cuidado com a repulsão de |cFF2959D3|Hspell:193977|h[Ventos da Nortúndria]|h|r.
 $bullet;Afaste-se de Ymiron para evitar os |cFF2959D3|Hspell:193364|h[Gritos dos Mortos]|h|r.
 $bullet;Derrote os Guerreiros Reanimados criados por |cFF2959D3|Hspell:193566|h[Levante, Caído]|h|r rapidamente.",1502,3,12143,0,12145,3,0,0,0,0,2,2,2
-13899,Tanques,"$bullet;Esmalta pode ser atingido pelos próprios |cFF2959D3|Hspell:194880|h[Pulsos]|h|r.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.",1469,2,12386,0,12387,3,0,0,0,0,2,1,3
-13900,Curadores,"$bullet;|cFF2959D3|Hspell:194880|h[Pulsos]|h|r se propagarão das paredes da sala em direção ao jogador mais próximo.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.
-$bullet;O grupo receberá dano de |cFF2959D3|Hspell:195032|h[Radiação]|h|r enquanto Esmalta estiver concentrando o feixe dele.",1469,4,12386,0,12388,3,0,0,0,0,2,4,3
-13901,Causadores de Dano,"$bullet;|cFF2959D3|Hspell:194880|h[Pulsos]|h|r se propagarão das paredes da sala em direção ao jogador mais próximo.
-$bullet;O feixe de Esmalta sairá de uma lente na direção que estiver virada. Ajude a direcionar o feixe para que ele o atinja nas costas usando as lentes.
-$bullet;Lentes Sobrecarregadas receberão |cFF2959D3|Hspell:225817|h[Sobrecarga]|h|r se forem atingidas por um |cFF2959D3|Hspell:202046|h[Feixe]|h|r.",1469,7,12386,0,0,3,0,0,0,0,2,2,0
-13902,Sobrecarga,,1469,14,12664,0,0,2,0,0,225817,0,2,16,0
+13899,Tanques,"$bullet;|cFF2959D3|Hspell:1243769|h[Impacto Ocular]|h|r de Esmalta libera orbes de energia que ricocheteiam pela câmara.
+$bullet;Lentes podem refletir o |cFF2959D3|Hspell:1245312|h[Raio Concentrado]|h|r de Esmalta de volta para ele, interrompendo-o.",1469,2,12386,0,13900,3,0,0,0,0,0,1,-1
+13900,Curadores,"$bullet;Lentes podem refletir o |cFF2959D3|Hspell:1245312|h[Feixe Concentrado]|h|r de Esmalta de volta para ele, interrompendo-o.",1469,3,12386,0,12389,3,0,0,0,0,0,4,-1
 13903,Curadores,"$bullet;Dissipe |cFF2959D3|Hspell:208165|h[Alma Fenecida]|h|r dos aliados antes que acumule demais.
 $bullet;Cuidado, |cFF2959D3|Hspell:207907|h[Intensidade Ardente]|h|r aumenta o dano de Fogo causado por Talixae.",1719,4,12933,0,12936,3,0,0,0,0,2,4,1
 13904,Tanques,"$bullet;Cuidado, |cFF2959D3|Hspell:207907|h[Intensidade Ardente]|h|r aumenta o dano de Fogo causado por Talixae.
@@ -11086,25 +11052,15 @@ $bullet;Corra do chefe quando ele voltar a atenção para você.",1979,3,15861,0
 15864,Tanques,"$bullet;Leve o chefe para longe da Energia do Caos deixada para trás por |cFF2959D3|Hspell:244579|h[Dizimar]|h|r e |cFF2959D3|Hspell:246133|h[Palma da Anulação]|h|r, senão ele ficará potencializado pela |cFF2959D3|Hspell:244300|h[Infusão do Caos]|h|r.
 $bullet;Enquanto estiver no Reino do Caos, mate as Aberrações Obscuras bem depressa para acumular Energia do Caos.
 $bullet;|cFF2959D3|Hspell:244621|h[Rasgo do Caos]|h|r atordoa o chefe e faz com que ele fique vulnerável, portanto use essa oportunidade para causar o máximo de dano possível.",1979,4,15861,0,0,3,0,0,0,0,0,1,-1
-15865,"Zuraal, o Elevado",,1979,5,0,15866,15873,1,77871,0,0,0,1,0,-1
-15866,Seção 6,,1979,6,15865,15869,15868,2,0,0,246134,0,0,0,-1
-15868,Seção 8,,1979,9,15865,16456,15880,2,0,0,244579,0,0,0,-1
-15869,Seção 9,,1979,7,15866,0,16455,2,0,0,244588,0,0,0,-1
-15871,Seção 11,,1979,12,15880,0,15884,2,0,0,244599,0,0,0,-1
-15872,Seção 12,"$[!
-
-Após lançar Mudança Umbrática, Zuraal, o Elevado, lançará Frenesi Enlouquecido, voltando a atenção para alvos aleatórios.",1979,14,15865,15882,0,2,0,0,244433,0,0,32,-1
-15873,O Reino do Caos,,1979,17,0,15874,0,0,0,0,0,0,1,0,-1
-15874,Aberração Obscura,"As Aberrações Obscuras vagueiam pelo Caos, atacando qualquer um que entre no reino delas.",1979,18,15873,15876,15877,1,19634,0,0,0,0,0,-1
+15865,"Zuraal, o Elevado",,1979,5,0,15866,0,1,77871,0,0,0,1,0,-1
+15866,Seção 6,,1979,6,15865,0,15868,2,0,0,246134,0,0,0,-1
+15868,Seção 8,,1979,7,15865,16456,15880,2,0,0,244579,0,0,0,-1
+15871,Seção 11,,1979,11,15880,0,15884,2,0,0,244599,0,0,0,-1
 15875,Diabrete Brasavil,,1985,13,15810,15879,16082,1,65891,0,0,0,0,0,-1
-15876,Seção 15,,1979,19,15874,0,0,2,0,0,244618,0,0,0,-1
-15877,Infusão do Caos,"Enquanto estiver no Reino do Caos, mate as Aberrações Obscuras para acumular Energia do Caos. Após coletar 100 de Energia, será possível lançar Rasgo do Caos.",1979,20,15873,15878,0,0,0,0,0,0,0,32,-1
-15878,Seção 17,,1979,21,15877,0,0,2,0,0,244621,0,0,32,-1
 15879,Seção 31,,1985,14,15875,0,16711,2,0,0,244709,0,2,64,0
-15880,Caos Coalescido,"A poça central gera Caos Coalescidos ao longo da batalha, que rumam ao encontro do Brutamontes do Caos e causam uma Expulsão Sombria se chegarem até ele.",1979,11,15865,15871,15872,1,76601,0,0,0,0,0,-1
-15882,Seção 19,,1979,15,15872,0,16276,2,0,0,244657,0,0,0,-1
+15880,Caos Coalescido,"A poça central gera Caos Coalescidos ao longo da batalha, que rumam ao encontro do Brutamontes do Caos e causam uma Expulsão Sombria se chegarem até ele. Se não chegarem, eles lançam Ejeção Umbrática ao serem derrotados.",1979,10,15865,15871,0,1,76601,0,0,0,0,0,-1
 15883,Seção 32,,1985,35,15821,0,0,2,0,0,246084,0,0,0,-1
-15884,Seção 20,,1979,13,15880,0,0,2,0,0,244731,0,2,4096,0
+15884,Seção 20,,1979,12,15880,0,0,2,0,0,244731,0,0,0,-1
 15898,Seção 82,,1898,31,15221,0,15371,2,0,0,244834,0,0,0,-1
 15899,Seção 34,,1985,42,15816,0,0,2,0,0,244853,0,0,0,-1
 15900,Seção 17,,1984,23,15795,0,16039,2,0,0,244894,0,0,0,-1
@@ -11486,7 +11442,6 @@ $bullet;|cFF2959D3|Hspell:247444|h[Alma Fendida]|h|r aumenta o dano da |cFF2959D
 16273,Seção 7,,2013,7,0,0,16274,2,0,0,247320,0,0,65,-1
 16274,Seção 5,,2013,8,0,0,16275,2,0,0,247393,0,0,16,-1
 16275,Seção 9,,2013,9,0,0,0,2,0,0,247332,0,0,4,-1
-16276,Seção 20,,1979,16,15872,0,0,2,0,0,247038,0,0,0,-1
 16277,Seção 5,,2014,5,0,0,16278,2,0,0,247698,0,0,36,-1
 16278,Seção 6,,2014,6,0,16279,16280,2,0,0,247410,0,0,1,-1
 16279,Seção 7,,2014,7,16278,0,0,2,0,0,247444,0,0,1,-1
@@ -11635,8 +11590,8 @@ No modo Heroico ou superior, as Garravis fazem com que os ataques corpo a corpo 
 16451,Seção 13,,2025,29,16555,0,16450,2,0,0,249016,0,2,0,0
 16452,Seção 14,,2025,28,16555,0,16451,2,0,0,249017,0,2,0,0
 16454,Seção 34,,2009,62,16219,0,0,2,0,0,250224,0,2,0,0
-16455,Seção 21,,1979,8,15866,0,0,2,0,0,244300,0,0,0,-1
-16456,Seção 9,,1979,10,15868,0,0,2,0,0,244588,0,0,0,-1
+16455,Seção 21,,1979,9,16456,0,0,2,0,0,244300,0,0,32,-1
+16456,Seção 9,,1979,8,15868,16455,0,2,0,0,244588,0,0,0,-1
 16457,Visão Geral,"Vol'kaal é fortalecido pelo |cFF2959D3|Hspell:250192|h[Vodu do Mal]|h|r de Yazma até todos os Totens de Reanimação serem destruídos. Quando todos os totens são destruídos, tem início a |cFF2959D3|Hspell:250241|h[Decomposição Rápida]|h|r de Vol'kaal.",2036,1,0,16458,16462,3,0,0,0,0,0,0,-1
 16458,Causadores de Dano,"$bullet;Evite o |cFF2959D3|Hspell:250258|h[Salto Tóxico]|h|r.
 $bullet;Evite ficar nas |cFF2959D3|Hspell:250585|h[Poças Tóxicas]|h|r.
@@ -25163,11 +25118,11 @@ Nos modos Heroico e Mítico, o jogador que ativa a Mina Rastejante Instável rec
 31978,Seção 66,,2644,38,30102,0,0,2,0,0,474731,0,0,0,-1
 31979,O Pancadão,,2644,64,30086,31980,30112,2,0,0,460472,0,2,1,0
 31980,Seção 33,,2644,65,31979,0,0,2,0,0,460474,0,0,0,-1
-31981,Causadores de Dano,"$bullet; |cFF2959D3|Hspell:1219450|h[Matrizes Manifestas]|h|r deixam uma |cFF2959D3|Hspell:1218625|h[Matriz de Deslocamento]|h|r.
+31981,Causadores de Dano,"$bullet; |cFF2959D3|Hspell:1219450|h[Matrizes Manifestas]|h|r deixa uma |cFF2959D3|Hspell:1218625|h[Matriz de Deslocamento]|h|r.
 
-$bullet; |cFF2959D3|Hspell:1233110|h[Raio Expurgador]|h|r causa dano crescente enquanto durar o escudo da Sentinela do Plexo.
+$bullet; |cFF2959D3|Hspell:1233110|h[Raio Expurgador]|h|r causa dano crescente enquanto o escudo do Sentinela do Plexo aguentar.
 
-$bullet; As Faixas de Reshii permitem o |cFF2959D3|Hspell:1218148|h[Lampejo Transfásico]|h|r, reduzindo o dano recebido de |cFF2959D3|Hspell:1219223|h[Atomizar]|h|r.",2684,2,31594,0,31982,3,0,0,0,0,0,2,-1
+$bullet; As Faixas de Reshii permitem|cFF2959D3|Hspell:1218148|h[Lampejo Transfásico],|h|r que reduz o dano recebido de |cFF2959D3|Hspell:1219223|h[Atomizar]|h|r",2684,2,31594,0,31982,3,0,0,0,0,0,2,-1
 31982,Curadores,"$bullet; A Sentinela do Plexo causa dano crescente com |cFF2959D3|Hspell:1233110|h[Raio Expurgador]|h|r durante o |cFF2959D3|Hspell:1220489|h[Protocolo: Expurgar]|h|r.
 
 $bullet; |cFF2959D3|Hspell:1219607|h[Saraivada Erradicante]|h|r causa dano pesado aos jogadores atingidos.
@@ -25202,8 +25157,8 @@ No modo Mítico, Escriba d'Alma lança Farpas de Destino antes de lançar Tessit
 32036,Seção 21,,2690,78,32035,0,33473,2,0,0,1226879,0,2,4112,0
 32041,Seção 23,,2690,75,32035,0,32687,2,0,0,1225645,0,0,0,-1
 32043,Seção 7,,2685,5,0,32979,32049,2,0,0,1225582,0,1,32,-1
-32044,Assassino da Guarda Sombria,,2685,7,32043,33144,32710,1,117474,0,0,0,0,0,-1
-32045,Lâmina-vorpal da Guarda Sombria,,2685,12,32043,33037,33393,1,129634,0,0,0,0,0,-1
+32044,Assassino da Guarda Sombria,,2685,7,32043,33144,32710,1,131795,0,0,0,0,0,-1
+32045,Lâmina-vorpal da Guarda Sombria,,2685,12,32043,33037,33393,1,131806,0,0,0,0,0,-1
 32048,Seção 4,,2685,21,33703,0,0,2,0,0,1242086,0,2,4096,0
 32049,Seção 5,,2685,16,0,0,33394,2,0,0,1227276,0,0,16,-1
 32057,Seção 133,,2645,119,31694,0,0,2,0,0,1219283,0,0,0,-1
@@ -25327,9 +25282,9 @@ Nos modos Míticos, os |cFF2959D3|Hspell:1226827|h[Orbes Rasgalmas]|h|r podem qu
 $bullet;Após completar |cFF2959D3|Hspell:1239988|h[Crisálida Tece-almas]|h|r, a Alma Desatada é transformada em um etéreo mais perigoso.",2685,2,32218,0,32220,3,0,0,0,0,0,1,-1
 32220,Causadores de Dano,"$bullet;|cFF2959D3|Hspell:1227276|h[Aniquilação Desfialma]|h|r destrói tudo que toca, sejam jogadores ou Máquinas de Atamento.
 $bullet;|cFF2959D3|Hspell:1225616|h[Convergência de Fogo d'Alma]|h|r faz com que |cFF2959D3 o|Hspell:1226827|h[Orbe Rasgalmas]|h|r seja expelido violentamente do corpo do jogador selecionado. Se atingir outro jogador, ele aplica efeitos negativos.",2685,3,32218,0,32221,3,0,0,0,0,0,2,-1
-32221,Curador,"$bullet;|cFF2959D3|Hspell:1227048|h[Aniquilação Desfialma]|h|r destrói tudo que toca, sejam jogadores ou Máquinas de Atamento.
-$bullet;|cFF2959D3|Hspell:1241100|h[Açoite Místico]|h|r causa dano significativo ao alvo primário e aumenta o dano que ele recebe.
-$bullet;A Câmara de Atamento provoca uma |cFF2959D3|Hspell:1227848|h[Implosão de Essência]|h|r enquanto estiver quebrada ou aberta, causando dano imenso a todos os jogadores.",2685,4,32218,0,0,3,0,0,0,0,0,4,-1
+32221,Curador,"$bullet;|cFF2959D3|Hspell:1227048|h[Aniquilação Desfialma]|h|r destrói tudo que toca, seja jogadores ou Máquinas de Atamento.
+$bullet;|cFF2959D3|Hspell:1241100|h[Açoite Místico]|h|r causa dano considerável ao alvo primário e aumenta o dano que ele recebe.
+$bullet;A Câmara Atadora causa |cFF2959D3|Hspell:1227848|h[Implosão de Essência]|h|r enquanto estiver aberta ou danificada, causando dano imenso a todos os jogadores.",2685,4,32218,0,0,3,0,0,0,0,0,4,-1
 32226,Seção 37,,2690,26,32228,0,0,2,0,0,1227330,0,0,0,-1
 32227,Rei do Nexus Salhadaar,,2690,6,31573,33463,32228,1,125691,0,0,0,1,0,-1
 32228,Asa do Caos Régio,,2690,21,31573,32229,0,1,126889,0,0,0,1,0,-1
@@ -25544,10 +25499,10 @@ $bullet;|cFF2959D3|Hspell:1226024|h[Talho do Mata-estrela]|h|r irrompe em uma |c
 32703,Seção 20,,2747,10,32701,0,0,2,0,0,1232130,0,2,0,0
 32704,Seção 21,,2747,11,33677,32706,33486,2,0,0,1236785,0,2,8,0
 32706,Seção 23,,2747,12,32704,0,33461,2,0,0,1232130,0,2,0,0
-32710,Maga da Guarda Sombria,,2685,10,32043,32712,32045,1,125917,0,0,0,0,0,-1
+32710,Maga da Guarda Sombria,,2685,10,32043,32712,32045,1,129239,0,0,0,0,0,-1
 32712,Seção 17,"$[!16
 
-Nos modos Míticos, o tempo de lançamento é reduzido pela metade a cada vez que o lançamento é interrompido.$]",2685,11,32710,0,0,2,0,0,1227052,0,0,0,-1
+Nos modos Míticos, o tempo de lançamento é reduzido pela metade a cada vez que o lançamento é interrompido.$]",2685,11,32710,0,0,2,0,0,1227052,0,0,128,-1
 32713,Seção 50,,2691,41,32735,0,32717,2,0,0,1237080,0,0,16,-1
 32714,Xal'atath,,2691,36,32735,32715,32478,1,117121,0,0,0,1,0,-1
 32715,Seção 53,,2691,37,32714,0,32716,2,0,0,1235114,0,0,0,-1
@@ -25629,6 +25584,13 @@ $bullet;|cFF2959D3|Hspell:1226260|h[Convergência Arcana]|h|r causa dano ao raid
 33150,Seção 69,,2691,27,32451,0,0,2,0,0,1243699,0,1,0,-1
 33164,Seção 23,,2686,21,32354,0,0,2,0,0,1243771,0,0,2,-1
 33181,Seção 12,,2762,6,32941,0,33548,2,0,0,1243941,0,0,0,-1
+33209,Seção 14,,1468,7,0,0,33211,2,0,0,1243622,0,0,0,-1
+33210,Seção 15,,1468,11,0,0,0,2,0,0,1243556,0,0,4,-1
+33211,Seção 16,,1468,8,0,33212,33210,2,0,0,1243632,0,0,128,-1
+33212,Brasa Viva,,1468,9,33211,33213,0,1,1204,0,0,0,1,0,-1
+33213,Seção 18,,1468,10,33212,0,0,2,0,0,1244189,0,0,64,-1
+33224,,,1468,5,0,33225,33209,2,0,0,1244257,0,1,32,-1
+33225,Seção 20,,1468,6,33224,0,0,2,0,0,1244248,0,0,2,-1
 33236,Seção 23,,2686,7,32924,0,0,2,0,0,1238502,0,2,1,0
 33260,Seção 71,,2691,108,32479,0,32532,2,0,0,1245292,0,0,2,-1
 33298,Seção 42,,2688,14,32500,0,0,2,0,0,1245743,0,2,4112,0
@@ -25660,6 +25622,9 @@ Nos modos Heroico e Mítico, |cFF2959D3|Hspell:1237695|h[Nova de Poeira Estelar]
 33408,Seção 84,,2691,44,33391,0,0,2,0,0,1230674,0,0,16,-1
 33409,Seção 85,,2691,45,32735,33410,0,2,0,0,1246930,0,0,0,-1
 33410,Seção 86,,2691,46,33409,0,0,2,0,0,1246948,0,1,0,-1
+33411,Seção 15,,1469,6,0,0,33412,2,0,0,1243769,0,0,1,-1
+33412,Seção 16,,1469,7,0,0,0,2,0,0,1246915,0,0,0,-1
+33413,Seção 17,,1469,5,0,0,33411,2,0,0,1245312,0,1,32,-1
 33414,Seção 87,"$[!15,16
 
 Nos modos Heroico e Mítico, |cFF2959D3|Hspell:1230999|h[Matéria Escura]|h|r deixa para trás uma poça de |cFF2959D3|Hspell:1231002|h[Energia Negra]|h|r no local de cada impacto.$]",2691,23,32292,33415,32451,2,0,0,1230999,0,2,12,0
@@ -25795,4 +25760,4 @@ $bullet;Os Coletores Arcanos perdem sua |cFF2959D3|Hspell:1231726|h[Barreira Arc
 33717,Manifestação do Caos,Um grânulo de energia caótica que se move na direção da Singularidade Sombria.,2687,60,33716,33718,0,1,128401,0,0,0,0,0,-1
 33718,Seção 72,,2687,61,33717,0,0,2,0,0,1243641,0,0,0,-1
 33908,Seção 66,,2687,40,33699,0,0,2,0,0,1248009,0,0,0,-1
-33986,Section 139,,2691,86,33593,0,0,2,0,0,1254384,0,1,16,-1
+33986,Seção 139,,2691,86,33593,0,0,2,0,0,1254384,0,1,16,-1

@@ -2368,7 +2368,7 @@ ID,BaseTag,TagText_lang,Flags
 12317,RAGE_COST_PER_TIME,%s ед. ярости + %s/сек.,1
 12318,TAXISAMENODE,Вы уже здесь!,1
 12321,COMBATLOGDISABLED,Ведение журнала отключено.,1
-12322,PET,Питомец,1
+12322,PET,Питомец,3
 12323,COMBATLOG_XPGAIN_FIRSTPERSON,"%s погибает, вы получаете %d |4очко:очка:очков; опыта.",1
 12325,TRADESKILL_SERVICE_STEP,Развитие навыков,1
 12326,EMOTE41_CMD2,/impatient,1
@@ -7513,7 +7513,7 @@ ID,BaseTag,TagText_lang,Flags
 19250,GLYPH_SLOT_TOOLTIP5,Требуется 70-й уровень.,1
 19251,GLYPH_SLOT_TOOLTIP6,Требуется 80-й уровень.,1
 19252,SPELL_FAILED_GLYPH_SOCKET_LOCKED,Вы еще не можете начертать этот символ.,1
-19253,MOUNT,Призвать,1
+19253,MOUNT,Призвать,3
 19254,GLYPH_SLOT_REMOVE_TOOLTIP,"<Щелкните ПКМ, чтобы убрать>",1
 19256,TRADESKILL_SERVICE_PASSIVE,Пассивная,1
 19257,CALENDAR_ERROR_GUILD_EVENTS_EXCEEDED,Ваша гильдия достигла лимита количества создаваемых событий (%d).,1
@@ -11247,7 +11247,7 @@ ID,BaseTag,TagText_lang,Flags
 23322,POWER_TYPE_FOOD,Еда,1
 23323,PRIEST_HOLY_CORE_ABILITY_1,"Быстрое исцеление, требующее больших затрат.",1
 23324,ERR_PVP_BLACKLIST_CAP,Вы внесли в черный список максимальное количество полей боя.,1
-23326,TOOLTIP_BATTLE_PET,Боевой питомец,5
+23326,TOOLTIP_BATTLE_PET,Боевой питомец,7
 23327,DUNGEON_FLOOR_PROVINGGROUNDS1,Арена Истребления,1
 23328,ITEM_UPGRADE_MISSING_ITEM,Перетащите сюда предмет.,1
 23329,QUEUED_STATUS_PROPOSAL,Можно войти,1
@@ -12457,7 +12457,7 @@ ID,BaseTag,TagText_lang,Flags
 24669,ITEM_TOY_ONUSE,Использование: добавить игрушку в коллекцию.,5
 24670,POWER_TYPE_EXPERIENCE,Опыт,1
 24671,SPELL_BUCKET_YOU_WILL_EARN,Вы приобретете способности:,1
-24672,TOY,Игрушка,5
+24672,TOY,Игрушка,7
 24673,SPELL_FAILED_CUSTOM_ERROR_218,Необходимо держать оружие ближнего боя в каждой руке,1
 24674,GARRISON_FINALIZE_BUILDING_TOOLTIP,"Вернитесь к зданию, чтобы завершить строительство.",1
 24675,TOY_BOX,Игрушки,1
@@ -13463,7 +13463,7 @@ ID,BaseTag,TagText_lang,Flags
 25751,ERR_LFG_NO_SPEC,"Перед тем как начать это событие, вы должны выбрать классовую специализацию",1
 25752,INSTANCE_UNAVAILABLE_OTHER_NO_SPEC,"Перед тем как войти в это подземелье, игрок %s должен выбрать классовую специализацию",1
 25753,INSTANCE_UNAVAILABLE_SELF_NO_SPEC,"Перед тем как войти в это подземелье, вы должны выбрать классовую специализацию",1
-25755,TOKEN_CURRENT_AUCTION_VALUE,Текущая цена на аукционе: |cffffffff%s|r|n(может измениться),1
+25755,TOKEN_CURRENT_AUCTION_VALUE,Текущая цена на аукционе: |cffffffff%s|r|n(может измениться),7
 25757,TOKEN_REDEEM_GAME_TIME_BUTTON_LABEL_MINUTES,2700 минут игрового времени,1
 25759,TOKEN_CONFIRM_GAME_TIME_DESCRIPTION_MINUTES,К вашей учетной записи World of Warcraft будет добавлено 2700 минут игрового времени. Это действие необратимо.,1
 25760,TOKEN_COMPLETE_GAME_TIME_DESCRIPTION_MINUTES,К вашей учетной записи World of Warcraft будет добавлено 2700 минут игрового времени. В течение ближайшего времени вам придет подтверждение по электронной почте.,1
@@ -13479,7 +13479,7 @@ ID,BaseTag,TagText_lang,Flags
 25770,GARRISON_SHIPYARD_DANGEROUS_MISSION_LABEL,Опасное задание,1
 25771,GARRISON_SHIPYARD_DANGEROUS_MISSION_TOOLTIP_TITLE,Безопасность корабля,1
 25772,GARRISON_SHIPYARD_DANGEROUS_MISSION_TOOLTIP_TEXT,"Если это задание провалится, каждый принимавший в нем участие корабль может быть потерян навсегда.",1
-25773,TOKEN_MARKET_PRICE_NOT_AVAILABLE,|cffff2020Недоступно|r,1
+25773,TOKEN_MARKET_PRICE_NOT_AVAILABLE,|cffff2020Недоступно|r,7
 25774,TOKEN_AUCTIONS_UNAVAILABLE,|cffff2020В настоящий момент нет выставленных на аукцион жетонов WoW.|r,1
 25775,TOKEN_NONE_FOR_SALE,"В настоящее время в продаже нет жетонов WoW. Пожалуйста, загляните попозже.",3
 25776,TOKEN_TRY_AGAIN_LATER,"Пожалуйста, подождите %s, прежде чем повторить попытку.",1
@@ -15426,7 +15426,7 @@ ID,BaseTag,TagText_lang,Flags
 34938,DAYS_UNLIMITED_PLAY,ДНИ,2
 34939,CONVERT_NOW_DESCRIPTION,"Произведя конвертацию сейчас, вы получите возможность неограниченно играть в течение |cff006600%d |4дня:дней:дней;|r",2
 34940,CONVERT_NOW,Конвертировать,2
-34941,LATER,Позже,2
+34941,LATER,Позже,3
 34942,CONVERT_TOOLTIP,За каждые 150 минут на вашем балансе вы получите 1 день игрового времени с округлением в большую сторону.,2
 34943,CONVERT_CONFIRMATION,Подтверждение,2
 34944,CONVERT_CONFIRMATION_DESCRIPTION,"Ваш баланс игрового времени, составляющий %d мин., будет сконвертирован в %d |4день:дня:дней; неограниченного игрового времени.|n|n Вы сможете играть неограниченно в течение|n|cff00ff00%s|r",2
@@ -20245,12 +20245,12 @@ ID,BaseTag,TagText_lang,Flags
 48865,HUD_EDIT_MODE_LAYOUT,Макет:,1
 48867,HUD_EDIT_MODE_MENU,Редактировать,1
 48868,PERKS_PROGRAM_PRICE,Цена,1
-48869,PERKS_VENDOR_CATEGORY_TRANSMOG,Трансмогрификация,1
+48869,PERKS_VENDOR_CATEGORY_TRANSMOG,Трансмогрификация,3
 48870,PERKS_VENDOR_CATEGORY_MOUNT,Транспорт,1
 48871,PERKS_VENDOR_CATEGORY_PET,Питомец,1
 48872,PERKS_VENDOR_CATEGORY_TOY,Игрушка,1
 48873,PERKS_VENDOR_CATEGORY_ILLUSION,Иллюзия,1
-48874,PERKS_VENDOR_CATEGORY_TRANSMOG_SET,Комплект для трансмогрификации,1
+48874,PERKS_VENDOR_CATEGORY_TRANSMOG_SET,Комплект для трансмогрификации,3
 48875,HUD_EDIT_MODE_COPY_LAYOUT,Скопировать макет,1
 48876,HUD_EDIT_MODE_DELETE_LAYOUT,Удалить макет,1
 48877,HUD_EDIT_MODE_RENAME_OR_COPY_LAYOUT,Переименовать/скопировать макет,1
@@ -21487,7 +21487,7 @@ ID,BaseTag,TagText_lang,Flags
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,"От всех, кроме друзей",1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,"От всех, кроме друзей и соратников по гильдии",1
 50274,CENSOR_SOURCE_EXCLUDE,Фильтрация сообщений в реальном времени,1
-50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Чьи сообщения вы хотите подвергать цензуре.,1
+50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,"Настройка уведомлений, связанных с потенциально неприемлемыми отправленными или полученными сообщениями, в системе модерации чата в реальном времени.",1
 50276,MONTHLY_ACTIVITIES_POINTS,Очки путешествия,1
 50277,POWER_TYPE_SHADOWLAVA_ENERGY,Энергия лавы Тьмы,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,Сложность рейда сейчас изменить нельзя. Игрок находится на средстве передвижения.,1
@@ -22301,11 +22301,11 @@ ID,BaseTag,TagText_lang,Flags
 51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,танки/лекари,1
 51908,TIMERUNNING_CHOICE_SELECT,Выбрать,2
 51909,TIMERUNNING_POPUP_QUESTS_HEADER,Задания и рейды,2
-51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"В этом режиме доступны все задания, сценарии, подземелья и рейды Пандарии.",2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Проходите задания, подземелья и рейды Legion в порядке их доступности в оригинальном цикле выхода контента Legion.",2
 51911,TIMERUNNING_POPUP_ITEMS_HEADER,Новые предметы и механики,2
-51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Новая система предметов и уникальные самоцветы заклинаний кардинально обновляют игровой процесс.,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Используйте новые особенности и способности артефактного оружия и усиливайте их самоцветами для кардинального обновления игрового процесса.,2
 51913,TIMERUNNING_POPUP_REWARDS_HEADER,Уникальные награды,2
-51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Зарабатывая достижения события, вы сможете получить для своей учетной записи новые средства передвижения, боевых питомцев, варианты внешнего вида предметов и не только.",2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Получая достижения события, откройте для себя новые средства передвижения, боевых питомцев, варианты внешнего вида предметов и не только.",2
 51915,TIMERUNNING_POPUP_CREATE,Создать путешественника во времени,2
 51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h отменяет обратный отсчет.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s к награбленному,3
@@ -22345,12 +22345,12 @@ ID,BaseTag,TagText_lang,Flags
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,Путешественники во времени не могут пользоваться услугами аукциона.,5
 51959,EMPTY_SOCKET_FRAGRANCE,Гнездо для ароматов,1
 51960,TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY,%s,1
-51961,TIMERUNNING_CHOICE_WARNING,"Путешествия во времени – дополнительный режим, предназначенный для опытных игроков. Создать персонажа для этого режима?",2
-51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Создайте путешественника во времени и взгляните на Mists of Pandaria с новой стороны.,2
+51961,TIMERUNNING_CHOICE_WARNING,"Путешествия во времени – стремительный режим с уникальными наградами и испытаниями.|n|nПерсонажи – путешественники во времени – могут существовать только в событии Legion Remix. Чтобы превратить путешественника во времени 70-го или более высокого уровня в обычного персонажа, требуется дополнение The War Within.|n|n|cnWHITE_FONT_COLOR:Создать персонажа для этого режима?|r",2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Создайте путешественника во времени и по-новому взгляните на Legion.,2
 51963,ACCOUNT_FIRST_TIME_QUEST_BONUS_TOOLTIP,Однократный бонус отряда.,1
 51964,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_BONUS_TOOLTIP,Бонус отряда за повторное прохождение задания.,1
 51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,Для участия требуется подписка,2
-51966,SPELL_FAILED_CUSTOM_ERROR_1032,Путешественники во времени не могут телепортироваться за пределы Пандарии.,1
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,Данный вид телепортации недоступен для путешественников во времени.,1
 51967,OPTION_TOOLTIP_ANTIALIASING_IB,"Технология сглаживания, использующая только существующие рендеры полного экрана",3
 51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,"Быстрое приближенное сглаживание (FXAA), низкий уровень: упрощенный алгоритм, размывающий неровные края на основе контраста.",3
 51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,"Быстрое приближенное сглаживание (FXAA), высокий уровень: более точный алгоритм, размывающий неровные края на основе контраста и дополнительно корректирующий изображение.",3
@@ -22718,10 +22718,7 @@ ID,BaseTag,TagText_lang,Flags
 52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- Персонаж в другом игровом мире.,2
 52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,"- Зайдите в другой игровой мир, чтобы воспользоваться услугой или улучшить этого персонажа.",2
 52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,Ошибка. Необходимо разрешить следующий вопрос:,2
-52407,REMIX_END_OF_EVENT_NOTICE,"Путешествие во времени завершилось. Вас перенесло обратно в вашу временную линию.
-
-Предметы из путешествия удалены.
-",1
+52407,REMIX_END_OF_EVENT_NOTICE,Событие Remix завершилось. Персонажи – путешественники во времени были перенесены в основную временную линию.|n|nПредметы из события удалены.,1
 52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,Периодически обновляется (осталось: %s),1
 52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,В списке отряда отображаются ваши персонажи из всех игровых миров.,2
 52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,Локальные истории,1
@@ -23054,8 +23051,8 @@ ID,BaseTag,TagText_lang,Flags
 53742,BINDING_NAME_DRIFT,Дрифт,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,"Вы уверены, что хотите удалить друга? Это действие нельзя отменить.",1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,"Требуется ""Неразрывная связь"".",1
-53762,ADVANCED_OPTIONS_LABEL,Улучшения игрового процесса,1
-53764,ENABLE_COOLDOWN_VIEWER,Включить трекер восстановления,1
+53762,ADVANCED_OPTIONS_LABEL,Улучшения процесса,1
+53764,ENABLE_COOLDOWN_VIEWER,Вкл. трекер восстановления,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Отображает важные способности и эффекты в виде отдельных элементов интерфейса для выбранной специализации.,1
 53766,COOLDOWN_VIEWER_LABEL,Трекер восстановления,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Важные основные и вспомогательные способности, отслеживаемые эффекты и отслеживаемые полосы эффектов для каждой специализации. Сейчас трекер восстановления отключен. Чтобы включить его, откройте дополнительные параметры > трекер восстановления.",1
@@ -23124,12 +23121,17 @@ ID,BaseTag,TagText_lang,Flags
 54093,NPEV2_SELF_HEAL_P2,"Не двигайтесь, пока ваш персонаж применяет умение.\n\nВаше здоровье будет быстро восстанавливаться.",1
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,"Однокнопочный помощник будет предлагать вам наносящие урон умения. Используйте его, как любую другую способность.",1
 54095,NAME_NOT_AVAILABLE,Данное название недоступно,3
+54106,SPELL_FAILED_CUSTOM_ERROR_1046,В вашей коллекции уже есть эта реликвия.,1
 54112,LOGIN_STATE_WAITFORNETWORK,Ждем подключения к сети,2
 54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,В это гнездо можно вставить только волоконный самоцвет.,1
 54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Волоконные самоцветы можно вставлять только в соответствующие гнезда.,1
 54115,ERR_SOCKETING_GENERIC_FAILURE,Этот предмет не подходит для этого гнезда.,1
 54132,VOICE_CHAT_SETTING_ENABLED,Голосовой чат включен,1
+54133,SPELL_FAILED_CUSTOM_ERROR_1076,Доступно только для путешественников во времени.,1
+54134,SPELL_FAILED_CUSTOM_ERROR_1077,Сейчас слишком опасно выполнять это действие.,1
 54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Сложить все материалы в банк,1
+54138,GROUP_FINDER_VOICE_CHAT_TYPE_INGAME,В игре,1
+54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Другое,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Перегруженная панель титанов,1
 54153,EMOTE628_CMD1,/наклон,1
 54154,EMOTE628_CMD2,/lean,1
@@ -23139,6 +23141,8 @@ ID,BaseTag,TagText_lang,Flags
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,"Щелкните ПКМ, чтобы скрыть список способностей",1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Вспомогательная подсветка,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Подсвечивает способности, которые рекомендуется применить.|nПодсветка выделяет только видимые способности.",1
+54209,CONTACTS_TAB_TITLE,Контакты,3
+54210,CONTACTS_LIST_TITLE,Контакты,3
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Нельзя отправиться в историческую кампанию в режиме синхронизации.,1
 54230,EMPTY_SOCKET_FIBER,Волоконное гнездо,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Вспомогательная подсветка будет предлагать вам только те способности, которые вы видите.",1
@@ -23151,6 +23155,12 @@ ID,BaseTag,TagText_lang,Flags
 54268,VOTE_TO_ABANDON_PASSED,Голосование прошло успешно,1
 54269,VOTE_TO_ABANDON_FAILED,"Голосование за то, чтобы покинуть подземелье, не удалось.",1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Сообщение может носить неприемлемый характер.|r,1
+54321,CONTACTS_MENU_BROADCAST_BUTTON_NAME,Объявление,3
+54322,CONTACTS_MENU_IGNORE_BUTTON_NAME,Черный список,3
+54323,CONTACTS_MENU_NAME,Меню,3
+54324,UNIGNORE_PLAYER_BUTTON_LABEL,Убрать из списка,1
+54325,CONTACTS_RECENT_ALLIES_TITLE,Недавние союзники,1
+54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Недавние союзники,1
 54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Банк вашего персонажа не был преобразован. Повторите попытку позже.,1
 54347,SPELL_FAILED_CUSTOM_ERROR_2430,"Чтобы совершать фазовые переходы, необходимо надеть повязки реши.",1
 54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,Другой участник отряда сейчас использует банк.,1
@@ -23160,10 +23170,16 @@ ID,BaseTag,TagText_lang,Flags
 54378,REWARD_POSSIBLE_QUEST_REWARD,За это задание можно получить дополнительные награды:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s меняет название гильдии за %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s возвращает средства за смену названия гильдии (%s),1
+54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Дополнительные цвета:,1
+54651,TALENT_FRAME_INCREASED_RANKS_TEXT,"+%d |4уровень:уровня:уровней; от предмета ""%s""",1
 54664,WHO_LIST_LEVEL_TOOLTIP,%d-й уровень,1
 54665,ENABLE_GAMEPLAY_SFX,Включить вспомогательные звуковые эффекты в бою,3
 54666,GAMEPLAY_SFX_VOLUME,Звуковые эффекты в ходе игры,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Регулирует громкость игровых звуковых эффектов.,3
+54672,RECENT_ALLY_LABEL,Недавние союзники,3
+54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,Хотите сбросить древо артефакта? (Потраченные очки вернутся),1
+54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Сбросить древо,1
+54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Отмена,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Не удалось отправить жалобу. Количество жалоб превышено. Попробуйте еще раз через несколько минут.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата.",1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата или находиться в голосовом чате.",1
@@ -23177,14 +23193,39 @@ ID,BaseTag,TagText_lang,Flags
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Уменьшать количество некритичных отображаемых заклинаний.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Всегда показывать все заклинания.,3
 54794,BCSHORTDATENOYEAR,%B %d,1
+54803,RECENT_ALLIES_PARTY_BUTTON_OFFLINE_TOOLTIP,Игрок не в сети,3
+54804,RECENT_ALLIES_MENU_BUTTON_LABEL_SET_NOTE,Добавить заметку,3
+54805,RECENT_ALLIES_MENU_BUTTON_LABEL_PIN,Закрепить,3
+54806,RECENT_ALLIES_MENU_BUTTON_LABEL_UNPIN,Открепить,3
+54808,RECENT_ALLIES_MENU_TITLE_OTHER,Другие настройки,3
+54809,RECENT_ALLIES_MENU_TITLE_INTERACT,Взаимодействие,3
+54810,RECENT_ALLY_RECENT_ACTIVITIES_LABEL,Недавние действия,3
+54811,RECENT_ALLY_INTERACTION_TIME_FORMAT,%s назад,3
+54826,RECENT_ALLIES_PARTY_BUTTON_TOOLTIP,Пригласить в группу,1
 54835,NOTIFY_ASSIST_ACTION_PLACED_VO,"Игрок %1$s услышал ваше послание в вылазке ""%2$s"".",1
 54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,"Игрок %1$s отомстил |3-3(%2$s) в вылазке ""%3$s"".",1
 54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,"Игрок %1$s получил от вас эффект ""%2$s"" в вылазке ""%3$s"".",1
+54839,REMIX_ARTIFACT_TUTORIAL_CHOOSE_TRAITS_TEXT,Выберите особенности артефакта,1
+54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,"Нажмите Shift+ПКМ, чтобы просмотреть особенности артефакта",1
+54842,SPELL_FAILED_CUSTOM_ERROR_1079,"Сначала необходимо переместить ""Акерус"" на Расколотые острова в этой временной линии.",1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Могила |3-1(%s),1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Послание от |3-1(%s),1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Вы присоединились к прохождению эпохального подземелья с ключом. Если вы покинете подземелье до истечения отведенного срока и без голосования, то получите штраф.",1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Отголосок |3-1(%s),1
+54885,HUD_EDIT_MODE_COOLDOWN_VIEWER_SETTINGS,Настройки восстановления,1
+54886,COOLDOWN_VIEWER_SETTINGS_TITLE,Настройки восстановления способностей,1
+54887,COOLDOWN_VIEWER_SETTINGS_CATEGORY_NOT_IN_BAR,Не отображается,1
+54888,COOLDOWN_VIEWER_SETTINGS_CATEGORY_ESSENTIAL,Основные способности,1
+54889,COOLDOWN_VIEWER_SETTINGS_CATEGORY_UTILITY,Вспомогательные способности,1
+54890,COOLDOWN_VIEWER_SETTINGS_CATEGORY_TRACKED_BUFF,Отслеживаемые положительные эффекты,1
+54891,COOLDOWN_VIEWER_SETTINGS_CATEGORY_TRACKED_BARS,Отслеживаемые полосы эффектов,1
+54892,COOLDOWN_VIEWER_SETTINGS_TAB_SPELLS,Заклинания,1
+54893,COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS,Положительные эффекты,1
+54894,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_CATEGORY,Назначить сюда: %s,1
+54895,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_EMPTY_CATEGORY,Убрать с панели,1
+54897,TALENT_BUTTON_TOOLTIP_RANK_NO_MAX_FORMAT,%s-й уровень,1
+54898,CATALOG_SHOP_NO_SEARCH_RESULTS,Результатов не найдено,7
 54903,VOTE_TO_ABANDON_VOTES_NEEDED,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"".",1
 54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"". Так как вы владеете ключом, ваш голос считается за %d.",1
 54906,VOTE_TO_ABANDON_VOTED_YES,"Вы проголосовали ""За""",1
@@ -23208,6 +23249,9 @@ ID,BaseTag,TagText_lang,Flags
 54967,VOTE_TO_ABANDON_LEAVING_INSTANCE,Вы покидаете подземелье...,1
 54979,SLASH_ABANDON1,/покинуть,1
 54980,SLASH_ABANDON2,/покинуть,1
+54983,TIMERUNNING_CHOICE_LEGION_DESCRIPTION,"Создать персонажа для путешествий во времени, чтобы принять участие в WoW Remix: Legion и заработать особые награды.|n|nПосле окончания события он станет обычным персонажем.",2
+54984,TIMERUNNING_BANNER_LEGION_HEADER,WoW Remix: Legion!,2
+54985,CHAR_CREATE_CLASS_DISABLED_TIMERUNNING,Невозможно создать путешественника во времени этого класса,2
 54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Отголосок игрока %s,1
 54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Убийца игрока %s,1
 54996,VOTE_TO_ABANDON_PLAYER_LEFT,Другой игрок покинул подземелье. Теперь вы можете выйти без штрафа.,1
@@ -23219,6 +23263,9 @@ ID,BaseTag,TagText_lang,Flags
 55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,эта душа встретила смерть в вылазке %d-го уровня,1
 55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,"эта душа приняла смерть от чудовища ""%s""",1
 55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,эта душа приняла достойную смерть,1
+55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Персонаж – путешественник во времени был перенесен в основную временную линию.|n|nПредметы из события удалены.,1
+55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Превратить путешественника во времени в обычного персонажа?|n|nОн получит полный доступ к основной игре, но потеряет доступ к контенту Legion Remix. При превращении путешественника во времени 70-го или более высокого уровня для дальнейшей игры потребуется дополнение The War Within.|n|n|cffff2020Это действие нельзя отменить.|r",2
+55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Превратить путешественника во времени в обычного персонажа,2
 55034,GXAPI_MTL4,Metal 4,3
 55036,VRN_NEEDS_MACOS_14_0,Требуется macOS версии 14 или выше,3
 55037,VRN_NEEDS_MACOS_15_0,Требуется macOS версии 15 или выше,3
@@ -23229,12 +23276,76 @@ ID,BaseTag,TagText_lang,Flags
 55047,VRN_GPUMEM_8GB,Требуется видеокарта с объемом памяти как минимум 8 ГБ,3
 55048,VRN_GPUMEM_16GB,Требуется видеокарта с объемом памяти как минимум 16 ГБ,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Дом игрока,3
+55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Заклинания с функцией помощи,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,"Вы получили метку ключевого дезертира за то, что несколько раз подряд покидали подземелья в режиме ""Эпохальный+"".",1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Вы получили метку ключевого дезертира,1
 55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,"Метка повлияет только на группы для подземелий в режиме ""Эпохальный+"".",1
 55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,В этой группе есть как минимум один игрок с меткой ключевого дезертира.,1
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,"Метка дезертира будет отображаться во время поиска группы для подземелья ""Эпохальный+"".",1
 55070,MYTHIC_PLUS_DESERTER,Ключевой дезертир,1
+55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Результаты поиска,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Повязки реши,1
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,Это средство передвижения не может перейти в Безграничье.,1
+55200,USER_SURVEY_STATUS_READY,Доступен опрос,1
+55201,USER_SURVEY_STATUS_READY_DESCRIPTION,"Поделитесь с нами мнением! Щелкните здесь, чтобы перейти к опросу.",1
+55202,USER_SURVEY_DIALOG_TEXT,"Ответьте на несколько вопросов о ваших впечатлениях от World of Warcraft! Если вы нажмете ""Да"", откроется окно браузера с опросом.",1
+55207,COOLDOWN_VIEWER_SETTINGS_RESET_LAYOUT_TO_DEFAULT,По умолчанию,1
+55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Показать неизученное,1
+55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Параметры,1
+55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Открыть настройки восстановления способностей,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Ошибка при обновлении названия макета. Попробуйте еще раз.,1
+55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Введите текст,1
+55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Редактировать,1
+55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Настройки трекера восстановления,1
+55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Закрепленный союзник (Срок действия: %s),1
+55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
+55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
+55420,RECENT_ALLY_TOOLTIP_LEVEL_RACE_FORMAT,%3$s %2$s %1$d-й уровень,1
+55421,RECENT_ALLY_DELVE_TIER_LABEL,%d-й уровень,1
+55422,RECENT_ALLY_TOOLTIP_INTERACTION_WITH_CONTEXT_FORMAT,%1$s: %2$s,1
+55423,RECENT_ALLY_RAID_NAME_STRING_FORMAT,%s (%s),1
+55424,RECENT_ALLY_DELVE_NAME_STRING_FORMAT,%s (%s),1
+55425,RECENT_ALLY_MYTHIC_PLUS_DUNGEON_NAME_STRING_FORMAT,%s (%s),1
+55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Показ местонахождения,1
+55467,SOCIAL_LOCATION_VISIBILITY_SETTING_TOOLTIP,"Укажите, кто может видеть в меню общения ваше текущее местонахождение в игре.",1
+55468,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD,Друзья и товарищи по гильдии,1
+55469,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD_ALLIES,"Друзья, недавние союзники и товарищи по гильдии",1
+55474,LOREWALKING_QUESTS_HIDDEN_HELP_TIP,Сейчас вы проходите экскурс в историю. Все остальные задания в этом режиме скрыты.,1
+55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-ЛКМ для быстрого назначения,1
+55510,VOTE_TO_ABANDON_ON_COOLDOWN,Следующее голосование за выход возможно через: |cnWHITE_FONT_COLOR:%s|r,1
+55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,Нельзя проголосовать за выход во время битвы с боссом,1
+55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Сбросить,1
+55543,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP,Сбрасывает все изменения интерфейса после предыдущего сохранения,1
+55544,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_REVERT_CHANGES,Отменить все изменения после предыдущего сохранения?,1
+55545,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_RESET_LAYOUT_TO_DEFAULT,Сбросить интерфейс трекера восстановления к настройкам по умолчанию? Это действие нельзя будет отменить.,1
+55550,COOLDOWN_VIEWER_SETTINGS_LAYOUT_SAVED_MESSAGE,Настройки трекера восстановления сохранены,1
+55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,"Произошла ошибка. Пожалуйста, повторите попытку.",1
+55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
+55616,CATALOG_SHOP_DETAILS,Описание,3
+55617,CATALOG_SHOP_BACK,Назад,3
+55618,CATALOG_SHOP_RACE,Раса,3
+55627,CATALOG_SHOP_PRODUCT_OWNED,Уже есть,3
+55634,CATALOG_SHOP_TYPE_SERVICE,Услуга,3
+55635,MOVE_PAD_LOCKED,Зафиксировать окно,1
+55636,CATALOG_SHOP_TYPE_VC_WARBAND,Валюта отряда,3
+55637,MOVE_PAD_PRESS_AND_HOLD_MODE,Передвижение удержанием,1
+55638,CATALOG_SHOP_TYPE_BUNDLE,Комплект предметов: %d,3
+55640,CATALOG_SHOP_TYPE_DECOR,Декор,3
+55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,Предмет доступен только в %s,3
+55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
+55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Летающий транспорт,3
+55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
+55680,GAMEMENU_EXTERNALEVENT,Занятия,1
+55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,"Вы не можете видеть этого игрока, поскольку он находится в другом игровом мире. Уровень мира можно изменить с помощью панели бесконечного хаоса на бесконечном базаре возле Даларана.",1
+55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
+55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hМогут действовать определенные ограничения. Подробности – на странице |c82c5ffffтовара|r в shop.battle.net.|h,3
+55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
+55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
+55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,"Чтобы купить жетон WoW, нужно войти в игру за одного из персонажей.",3
+55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
+55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Летающий водный транспорт,3
+55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Пустая ячейка,1
+55771,CATALOG_SHOP_NOT_AVAILABLE,Внутриигровой магазин недоступен,3
+55772,CATALOG_SHOP_TRY_AGAIN_LATER,"Пожалуйста, загляните попозже.",3
