@@ -1,4 +1,4 @@
-ID,Flags,ExpansionID,HPScalingCurveID,DMGScalingCurveID,HPPrimaryStatScalingCurveID,DMGPrimaryStatScalingCurveID,UnkPlayerDataElementCharacterID,Field_11_2_5_62554_008,MinLevelSquish,MaxLevelSquish,MinLevelScalingOffset,MaxLevelScalingOffset,AllowedMinOffset,AllowedMaxOffset,LfgMinLevel,LfgMaxLevel,ILevel,XpMultQuest
+ID,Flags,ExpansionID,HPScalingCurveID,DMGScalingCurveID,HPPrimaryStatScalingCurveID,DMGPrimaryStatScalingCurveID,PrimaryStatScalingModPlayerDataElementCharacterID,PrimaryStatScalingModPlayerDataElementCharacterMultiplier,MinLevelSquish,MaxLevelSquish,MinLevelScalingOffset,MaxLevelScalingOffset,AllowedMinOffset,AllowedMaxOffset,LfgMinLevel,LfgMaxLevel,ILevel,XpMultQuest
 1,0,-3,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1
 2,0,0,0,0,0,0,0,0,5,30,0,0,0,0,0,0,0,1
 3,0,0,0,0,0,0,0,0,5,30,0,0,0,0,0,0,0,1
@@ -288,7 +288,7 @@ ID,Flags,ExpansionID,HPScalingCurveID,DMGScalingCurveID,HPPrimaryStatScalingCurv
 295,0,-3,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1
 296,0,-3,0,0,0,0,0,0,30,0,0,2,0,0,0,0,0,1
 297,0,-3,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1
-298,0,-3,0,0,0,0,0,0,10,0,0,2,0,255,0,0,0,1
+298,0,-3,84931,84932,0,0,0,0,10,0,0,2,0,255,0,0,0,1
 300,0,-3,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1
 301,0,5,0,0,0,0,0,0,10,40,0,0,0,0,0,0,0,1
 302,0,5,0,0,0,0,0,0,10,40,0,0,0,255,0,0,0,1
@@ -1754,7 +1754,7 @@ ID,Flags,ExpansionID,HPScalingCurveID,DMGScalingCurveID,HPPrimaryStatScalingCurv
 2065,0,8,0,0,0,0,0,0,50,59,0,0,-2,0,0,0,0,1
 2066,0,-3,0,0,0,0,0,0,0,0,3,2,-2,0,0,0,0,1
 2067,0,-3,0,0,0,0,0,0,1,49,0,0,0,0,0,0,0,1
-2068,0,-3,79023,79022,0,0,0,0,1,0,0,2,0,0,0,0,0,1
+2068,0,-3,84931,84932,0,0,0,0,1,0,0,2,0,0,0,0,0,1
 2069,64,0,0,0,0,0,0,0,1,30,0,0,0,0,0,0,0,1
 2070,64,1,0,0,0,0,0,0,10,30,0,0,0,0,0,0,0,1
 2071,64,2,0,0,0,0,0,0,10,30,0,0,0,0,0,0,0,1
