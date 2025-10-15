@@ -7,7 +7,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 9,Cœur de la fournaise,Cœur de la fournaise,3,-1,0,34,0,0,409,9,0,40,0,0,0,0,0,0,0
 14,Escarmouche en arène (2c2),2c2,7,0,0,36,0,86427,0,0,0,2,2,0,0,0,0,0,0
 15,Champs de bataille,Champs de bataille,8,0,0,36,0,86429,0,0,0,5,1,0,0,0,0,0,0
-16,JcE personnalisé,Personnalisé,6,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,JcE personnalisé,Personnalisé,6,0,0,1058,0,0,0,0,0,0,0,0,0,0,0,0,0
 17,PvP personnalisé,JcJ personnalisé,6,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0
 18,Mortemines (normal),Normal,2,0,5,98,0,0,36,1,0,5,1,0,0,0,0,0,0
 19,Champs de bataille cotés,Champs de bataille cotés,9,0,0,36,0,78463,0,0,0,0,0,0,0,0,0,0,0
@@ -362,11 +362,11 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 416,Palais Sacrenuit (héroïque),Héroïque,3,2,123,35,50,38632,1530,15,0,30,0,0,0,0,0,0,0
 417,Donjon aléatoire de Legion (normal),Normal,2,0,111,98,0,21439,1220,1,0,5,1,0,0,0,0,0,0
 418,Donjon aléatoire de Legion (héroïque),Héroïque,2,2,111,98,50,21439,1220,2,0,5,1,0,0,0,0,0,0
-419,Azsuna,Azsuna,1,0,124,258,0,0,0,0,7334,0,4,0,0,0,0,0,0
-420,Val’sharah,Val’sharah,1,0,124,258,0,0,0,0,7558,0,4,0,0,0,0,0,0
-421,Haut-Roc,Haut-Roc,1,0,124,258,0,0,0,0,7503,0,4,0,0,0,0,0,0
-422,Tornheim,Tornheim,1,0,124,258,0,0,0,0,7541,0,4,0,0,0,0,0,0
-423,Suramar,Suramar,1,0,124,258,0,0,0,0,7637,0,4,0,0,0,0,0,0
+419,Azsuna,Azsuna,1,0,124,258,0,132203,0,0,7334,0,4,0,0,0,0,0,0
+420,Val’sharah,Val’sharah,1,0,124,258,0,132203,0,0,7558,0,4,0,0,0,0,0,0
+421,Haut-Roc,Haut-Roc,1,0,124,258,0,132203,0,0,7503,0,4,0,0,0,0,0,0
+422,Tornheim,Tornheim,1,0,124,258,0,132203,0,0,7541,0,4,0,0,0,0,0,0
+423,Suramar,Suramar,1,0,124,258,0,132203,0,0,7637,0,4,0,0,0,0,0,0
 425,Œil d’Azshara (normal),Normal,2,1,112,99,0,0,1456,1,0,5,1,0,0,0,0,0,0
 426,Fourré Sombrecœur (normal),Normal,2,2,113,99,0,0,1466,1,0,5,1,0,0,0,0,0,0
 427,Salles des Valeureux (normal),Normal,2,4,114,99,0,0,1477,1,0,5,1,0,0,0,0,0,0
@@ -411,7 +411,7 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 466,Cour des Étoiles (clé mythique),Mythique +,2,0,120,194,359,98019,1571,8,0,5,1,0,0,0,0,0,0
 467,Arcavia (clé mythique),Mythique +,2,10,121,194,50,98013,1516,8,0,5,1,0,0,0,0,0,0
 468,Cauchemar d’émeraude (mythique),Mythique,3,2,122,35,50,38620,1520,16,0,20,0,0,0,0,0,0,0
-469,Rivage Brisé,Rivage Brisé,1,0,124,258,0,0,0,0,7543,0,4,0,0,0,0,0,0
+469,Rivage Brisé,Rivage Brisé,1,0,124,258,0,132203,0,0,7543,0,4,0,0,0,0,0,0
 470,Karazhan : bas (héroïque),Héroïque,2,11,127,99,50,87337,1651,2,0,5,1,0,0,0,0,0,0
 471,Karazhan : bas (clé mythique),Mythique +,2,11,127,194,50,98024,1651,8,0,5,1,0,0,0,0,0,227
 472,Karazhan : sommet (héroïque),Héroïque,2,12,128,99,50,87337,1651,2,0,5,1,0,0,0,0,0,0
@@ -428,9 +428,9 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 484,Siège du triumvirat (héroïque),Héroïque,2,14,133,99,50,51664,1753,2,0,5,1,0,0,0,0,0,0
 485,Siège du triumvirat (mythique),Mythique,2,14,133,99,50,51664,1753,23,0,5,1,0,0,0,0,0,0
 486,Siège du triumvirat (clé mythique),Mythique +,2,14,133,194,50,98017,1753,8,0,5,1,0,0,0,0,0,0
-487,Krokuun,Krokuun,1,0,134,258,0,0,0,0,8574,0,4,0,0,0,0,0,0
-488,Étendues Antoréennes,Étendues Antoréennes,1,0,134,258,0,0,0,0,8899,0,4,0,0,0,0,0,0
-489,Érédath,Érédath,1,0,134,258,0,0,0,0,8701,0,4,0,0,0,0,0,0
+487,Krokuun,Krokuun,1,0,134,258,0,132203,0,0,8574,0,4,0,0,0,0,0,0
+488,Étendues Antoréennes,Étendues Antoréennes,1,0,134,258,0,132203,0,0,8899,0,4,0,0,0,0,0,0
+489,Érédath,Érédath,1,0,134,258,0,132203,0,0,8701,0,4,0,0,0,0,0,0
 490,Escarmouche en arène (3c3),3c3,7,0,0,36,0,86425,0,0,0,3,2,0,0,0,0,0,0
 491,Escarmouche en arène (2c2),2c2,7,0,0,36,0,86425,0,0,0,2,2,0,0,0,0,0,0
 492,Tombe de Sargeras (mythique),Mythique,3,9,131,35,50,48505,1676,16,0,20,0,0,0,0,0,0,0
@@ -1099,15 +1099,15 @@ ID,FullName_lang,ShortName_lang,GroupFinderCategoryID,OrderIndex,GroupFinderActi
 1672,Fourré Sombrecœur (normal),Normal,2,1,113,1123,0,0,1466,1,0,5,1,0,0,0,0,0,0
 1673,Jugement des Valeureux (normal),Normal,3,4,126,1059,0,0,1648,14,0,30,0,0,0,0,0,0,0
 1674,Boss hors instance (Legion),Boss hors instance,3,0,0,1827,0,21439,1220,0,0,40,0,0,0,0,0,0,0
-1675,Étendues Antoréennes,Étendues Antoréennes,1,0,134,1282,0,0,0,0,8899,0,4,0,0,0,0,0,0
-1676,Azsuna,Azsuna,1,0,124,1282,0,0,0,0,7334,0,4,0,0,0,0,0,0
-1677,Rivage Brisé,Rivage Brisé,1,0,124,1282,0,0,0,0,7543,0,4,0,0,0,0,0,0
-1678,Érédath,Érédath,1,0,134,1282,0,0,0,0,8701,0,4,0,0,0,0,0,0
-1679,Haut-Roc,Haut-Roc,1,0,124,1282,0,0,0,0,7503,0,4,0,0,0,0,0,0
-1680,Krokuun,Krokuun,1,0,134,1282,0,0,0,0,8574,0,4,0,0,0,0,0,0
-1681,Tornheim,Tornheim,1,0,124,1282,0,0,0,0,7541,0,4,0,0,0,0,0,0
-1682,Suramar,Suramar,1,0,124,1282,0,0,0,0,7637,0,4,0,0,0,0,0,0
-1683,Val’sharah,Val’sharah,1,0,124,1282,0,0,0,0,7558,0,4,0,0,0,0,0,0
+1675,Étendues Antoréennes,Étendues Antoréennes,1,0,134,1282,0,133966,1669,0,8899,0,4,0,0,0,0,0,0
+1676,Azsuna,Azsuna,1,0,124,1282,0,133966,1220,0,7334,0,4,0,0,0,0,0,0
+1677,Rivage Brisé,Rivage Brisé,1,0,124,1282,0,133966,1220,0,7543,0,4,0,0,0,0,0,0
+1678,Érédath,Érédath,1,0,134,1282,0,133966,1669,0,8701,0,4,0,0,0,0,0,0
+1679,Haut-Roc,Haut-Roc,1,0,124,1282,0,133966,1220,0,7503,0,4,0,0,0,0,0,0
+1680,Krokuun,Krokuun,1,0,134,1282,0,133966,1669,0,8574,0,4,0,0,0,0,0,0
+1681,Tornheim,Tornheim,1,0,124,1282,0,133966,1220,0,7541,0,4,0,0,0,0,0,0
+1682,Suramar,Suramar,1,0,124,1282,0,133966,0,0,7637,0,4,0,0,0,0,0,0
+1683,Val’sharah,Val’sharah,1,0,124,1282,0,133966,1220,0,7558,0,4,0,0,0,0,0,0
 1694,Écodôme Al’dani (clé mythique),Mythique +,2,4,381,227,664,137318,2830,8,0,5,1,0,0,0,0,0,0
 1695,Mine de la Masse-Sanglante (clé mythique),Mythique +,2,1,6,227,330,98027,1175,8,0,5,1,0,0,0,0,0,0
 1702,Le Cœur-de-Pierre (clé mythique),Mythique +,2,8,58,227,330,137578,725,8,0,5,1,0,0,0,0,0,0
