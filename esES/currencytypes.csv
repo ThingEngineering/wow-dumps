@@ -51,7 +51,7 @@ ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCa
 789,Moneda sangrienta,Obtenida de los cadáveres humeantes de enemigos derrotados en las brumas de la Isla Intemporal.,133,900318,0,0,0,0,1,0,0,0,0,0,0,0,0,0,66,0
 810,Fragmento Hierro Umbrío,Recuperado de la armadura y de las armas destrozadas de invasores de la Horda de Hierro.,133,135241,0,0,0,0,1,0,0,0,0,0,0,0,0,0,66,0
 821,Fragmento de arqueología de clanes de Draenor,,82,970886,1,45,250,0,1,0,0,0,0,0,0,0,0,0,34,0
-823,Cristal apexis,"Los cristales apexis, el eterno legado de una civilización perdida, contienen una incalculable reserva de poder mágico.",137,1061300,0,0,0,0,2,0,0,0,0,0,0,0,0,0,8194,0
+823,Cristal apexis,"Los cristales apexis, el eterno legado de una civilización perdida, contienen una incalculable reserva de poder mágico.",137,1061300,0,0,0,0,2,0,0,0,0,0,0,0,100,0,8194,0
 824,Recursos de la ciudadela,Obtén recursos para mejorar y expandir tu ciudadela.,137,1005027,0,0,10000,0,1,0,0,0,0,0,0,0,0,0,2,0
 828,Fragmento de arqueología ogra,,82,136086,1,47,250,0,1,0,0,0,0,0,0,0,0,0,34,0
 829,Fragmento de arqueología arakkoa,,82,1002596,1,46,250,0,1,0,0,0,0,0,0,0,0,0,34,0
@@ -76,7 +76,7 @@ ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCa
 1173,Fragmento de arqueología de los tauren Monte Alto,,82,441146,1,52,200,0,1,0,0,0,0,0,0,0,0,0,34,0
 1174,Fragmento de arqueología demoníaco,,82,441146,1,54,200,0,1,0,0,0,0,0,0,0,0,0,34,0
 1191,Valor,Se usa para mejorar equipo de mazmorras míticas+.,142,463447,0,0,0,0,4,0,0,0,108838,22980,0,0,0,0,2105794,1
-1220,Recursos de la sede,"Se usan para reclutar tropas, realizar misiones e investigar mejoras para la sede de tu clase.",141,1397630,0,0,0,0,1,0,0,0,0,0,0,0,0,0,134217730,0
+1220,Recursos de la sede,"Se usan para reclutar tropas, realizar misiones e investigar mejoras para la sede de tu clase.",141,1397630,0,0,0,0,1,0,0,0,0,0,0,0,100,0,134217730,0
 1226,Fragmento del vacío,Un fragmento de vacío cristalizado que la Legión ha llevado a Azeroth.,141,132775,0,0,0,0,1,0,0,0,0,0,0,0,100,0,134217730,0
 1268,Artefacto vetusto,Un misterioso artefacto naga de las profundidades del Mare Magnum. El rey Mrgl-Mrgl los busca en Ensenada Marchita.,141,1061303,0,0,100000,0,1,0,0,0,0,0,0,0,0,0,8202,0
 1273,Sello de destino alterado,Altera el destino para ofrecer una oportunidad adicional de obtener botín de jefes de bandas y mazmorras míticas de Legion.,141,1604167,0,0,6,0,1,0,0,0,0,0,0,0,0,0,2,0
@@ -102,7 +102,7 @@ La facción que obtenga mayor reconocimiento a lo largo del día podrá colgar s
 1416,Monedas de aire,Se evaporan pasado un rato.,141,988196,0,0,2000000,0,3,0,0,0,0,0,0,0,0,0,0,0
 1501,Esencia aviesa,Se usa para mejorar los objetos legendarios de Legion a nivel de objeto 970.,142,893779,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0
 1506,Piedra de puerta de Argus,Usada por los esbirros de Sargeras para forzar la apertura de portales desde Argus hasta otros mundos controlados por la Legión.,142,399041,0,0,40,0,3,0,0,0,0,0,0,0,0,0,0,0
-1508,Argunita velada,"Este cristal de color apagado es muy valioso para los comerciantes etéreos, sobre todo para el taumaturgo Vashreen, a bordo del Vindicaar.",141,1064188,0,0,2000,0,3,0,0,0,0,0,0,0,0,0,134217730,0
+1508,Argunita velada,"Este cristal de color apagado es muy valioso para los comerciantes etéreos, sobre todo para el taumaturgo Vashreen, a bordo del Vindicaar.",141,1064188,0,0,2000,0,3,0,0,0,0,0,0,0,100,0,134217730,0
 1533,Esencia del despertar,"El arcanomántico Vridiel la usa en Dalaran, sobre las Islas Abruptas, para crear o mejorar objetos legendarios de Legion.",141,236521,0,0,0,0,1,0,0,0,0,0,0,0,0,0,167772162,0
 1534,Fragmento de arqueología Zandalari,,82,2101985,1,57,200,0,1,0,0,0,0,0,0,0,0,0,34,0
 1535,Fragmento de arqueología Drust,,82,2101971,1,58,200,0,1,0,0,0,0,0,0,0,0,0,34,0
@@ -1496,5 +1496,6 @@ Anub'azal puede introducirlas de contrabando en los Hilos Cortados y, a cambio, 
 3315,Renombre - Club de Fidelización de El Gallagio,[DNT],142,0,0,0,20,0,6,0,238,0,0,0,0,0,0,0,85721088,0
 3356,Cristales de maná incólumes,Se puede conseguir tras alcanzar el rango 3 del viaje de explorador de profundidades. Se obtiene al abrir arcas pródigas con llaves de arca restauradas dentro de las profundidades pródigas de nivel 9 o superior. Se puede cambiar con Zah'ran por equipo poderoso.,265,132849,0,0,1000,125,4,0,0,0,143048,0,0,0,0,0,100671490,0
 3360,[DNT] 11.1.5 Midseason - Turbo-Boost Quest Turn-In Tracker,,142,0,0,0,9,0,0,0,0,0,0,29245,0,0,0,0,102236160,1
+3363,Cupones de la comunidad,Se obtiene al completar tareas de proyectos para ayudar al vecindario y a sus amigos. Se usa para comprar objetos a los vendedores de proyectos.,1,134495,0,0,0,0,2,0,0,0,0,0,0,0,100,0,0,0
 3364,[DNT] 11.2.5 Midseason - Turbo-Boost Quest Turn-In Tracker,,142,0,0,0,9,0,0,0,0,0,0,29600,0,0,0,0,102236160,1
 3372,Bronce,Un ápice de tiempo comprimido en una moneda de bronce. El Vuelo Infinito la intercambiará por recompensas estéticas.,142,4638724,0,0,9999999,0,1,0,237,0,0,0,0,0,0,0,72892418,256

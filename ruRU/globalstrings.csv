@@ -1689,7 +1689,7 @@ ID,BaseTag,TagText_lang,Flags
 11545,NEXT_ABILITY,Следующая способность,1
 11546,SKILLS,Навыки,1
 11547,CHAT_HELP_TEXT_LINE1,Команды общения:,1
-11548,CHAT_HELP_TEXT_LINE10,"/mute (/молчать), /squelch (/заткнуть), /unvoice (/отклголос), /unmute (/говорить), /unsquelch (/вклголос), /voice (/голос) <канал> <игрок> – отключить голос игрока в канале или включить его",3
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,"Введите /войти <канал> [пароль], чтобы создать новый канал или присоединиться к существующему.",1
 11550,GUILD_HELP_TEXT_LINE8,/гразжаловать <имя игрока> – понижает на одно звание указанного игрока из вашей гильдии,1
 11551,STARTUP_TEXT_LINE1,"Введите '/помощь', чтобы получить список основных команд.",1
@@ -1791,7 +1791,7 @@ ID,BaseTag,TagText_lang,Flags
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h %s получает разрешение на общение.,1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvite (/чпригласить), /chatinvite (/чатпригласить) <канал> <игрок> – пригласить игрока присоединиться к каналу",3
 11666,CHAT_HELP_TEXT_LINE12,/ckick (/чвыгнать) <канал> <игрок> – исключить игрока из канала,3
-11667,CHAT_HELP_TEXT_LINE15,/moderate (/фмодератора) <канал> – включить функции модератора канала,3
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/away (/отошел), /busy (/занят) – поставить статус ""Отсутствует"" или ""Не беспокоить""",3
 11669,GUILD_HELP_TEXT_LINE2,/ginfo – получение кратких сведений о вашей гильдии,1
 11670,GUILD_HELP_TEXT_LINE6,/гудалить <игрок> – исключает указанного игрока из вашей гильдии,1
@@ -1994,7 +1994,7 @@ ID,BaseTag,TagText_lang,Flags
 11890,RACIAL_SKILLS,Навыки |3-1(%s):,1
 11891,CREATE_ARENA_TEAM,Создать,1
 11892,HELP_TEXT_LINE14,- /чат- список команд общения,1
-11894,TUTORIAL22,"Нажав кнопку |cffffd200Общение|r, вы можете добавить того или иного игрока в список своих друзей.|n|nДобавлять в список друзей можно только персонажей из вашего игрового мира.",3
+11894,TUTORIAL22,"Если вам понравилось играть с кем-то вместе, то, нажав кнопку |cffffd200""Общение""|r, вы можете добавить этого игрока в список ваших друзей.",3
 11895,CHAT_NOT_MEMBER_NOTICE,"Не в канале ""%s"".",1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,"|Hchannel:%d|h[%s]|h Игрок ""%s"" не найден.",1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h %s отключает объявления в чате.,1
@@ -10093,7 +10093,7 @@ ID,BaseTag,TagText_lang,Flags
 22046,POWER_TYPE_VENOM,Яд,1
 22048,LFD_REWARD_DESCRIPTION_WEEKLY,На этой неделе вы можете получить еще %d |4такую награду:такие награды:таких наград;.,1
 22049,LFD_REWARD_DESCRIPTION_DAILY,Сегодня вы можете получить указанную ниже награду еще %d |4раз:раза:раз;.,1
-22050,GUILDCONTROL_OPTION21,Набор,1
+22050,GUILDCONTROL_OPTION21,Районный \nуправляющий,1
 22051,SLASH_GUILDFINDER1,/поискгильдии,1
 22052,SLASH_GUILDFINDER2,/guildfinder,1
 22053,SLASH_GUILDFINDER3,/пг,1
@@ -13071,7 +13071,7 @@ ID,BaseTag,TagText_lang,Flags
 25300,NPE_SHOWINTERFACEHELP,"|cFF00FFFFЩелкните левой кнопкой|r здесь, чтобы просмотреть список команд управления.",1
 25301,NPE_ACTIONBARCALLOUT,"Это ваша панель команд.\n\nЧтобы использовать способность, |cFF00FFFFнажмите|r соответствующую ей клавишу на клавиатуре.",1
 25302,NPE_HEALTHBAR,На этих панелях отображаются |cFF00FFFFздоровье|r и |cFF00FFFF%s|r персонажа.,1
-25303,NPE_KEYBOARDANDMOUSETITLE,Клавиатура и мышка,1
+25303,RPE_KEYBOARDANDMOUSETITLE,Клавиатура и мышка,1
 25304,NPE_ABILITIES,Способности,1
 25305,NPE_MOVE,Движение,1
 25306,NPE_JUMP,Прыжок,1
@@ -14947,7 +14947,7 @@ ID,BaseTag,TagText_lang,Flags
 34395,LOGIN_PARENTALCONTROL,Доступ к данной учетной записи ограничен на правах родительского контроля. Изменить параметры доступа можно посредством меню управления учетными записями.,2
 34396,LOGIN_SERVER_DOWN,Сервер входа недоступен,2
 34397,LOGIN_SRP_ERROR,Ошибка авторизации,2
-34398,LOGIN_STATE_AUTHENTICATED,Готово!,2
+34398,LOGIN_STATE_AUTHENTICATED,Готово!,3
 34399,LOGIN_STATE_AUTHENTICATING,Авторизация,2
 34400,LOGIN_STATE_CHECKINGVERSIONS,Проверка версии,2
 34401,LOGIN_STATE_CONNECTING,Установка связи,2
@@ -15051,7 +15051,7 @@ ID,BaseTag,TagText_lang,Flags
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"В списке персонажей указаны все герои\nвне зависимости от того, в каком игровом мире они созданы.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"Наиболее подходящие для комфортной игры миры\nснабжены пометкой ""Новые игроки"". Выбрав мир, помеченный как ""Нет мест"",\nвы рискуете прождать некоторое время,
 прежде чем сможете присоединиться к игре.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,"Выбор игрового мира влияет на такие функции,\nкак торговля, гильдии и рейды в эпохальном режиме.",2
+34501,REALMLIST_REALMNAME_TOOLTIP,"Выбор игрового мира влияет на такие функции,\nкак обмен предметами с другими игроками",2
 34502,REALMLIST_TYPE_TOOLTIP,Обычный – игровой мир без особых правил.\nRP – ролевой игровой мир.,2
 34503,REALM_CHARACTERS,Персонажи,6
 34504,REALM_DESCRIPTION,Выбор мира,2
@@ -16663,9 +16663,9 @@ ID,BaseTag,TagText_lang,Flags
 36273,PETTAME_ELITE_TOOHIGHLEVEL,"Уровень элитного существа слишком высок, вы не можете его приручить.",1
 36274,CHARACTER_SELECT_PADLOCK_DROP_DOWN_USE_BOOST,"Использовать ""%s""",3
 36275,ENTER_WORLD_UNLOCK_REVOKED_CHARACTER_UPGRADE,Разблокировать,2
-36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,"Приобретите игру, чтобы развивать персонажа дальше.",1
-36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,"Вы получили опыт, превышающий допустимый. Приобретите игру, чтобы воспользоваться им и заработать %d |4уровень:уровня:уровней;.",1
-36278,TRIAL_CAP_BANKED_XP_TOOLTIP,"Вы получили опыт, превышающий допустимый. Приобретите игру, чтобы воспользоваться им.",1
+36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,"Оформите подписку, чтобы продолжить развитие персонажа после 20-го уровня.",1
+36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,"Вы получили опыт, превышающий допустимый. Оформите подписку, чтобы воспользоваться им и заработать %d |4уровень:уровня:уровней;.",1
+36278,TRIAL_CAP_BANKED_XP_TOOLTIP,"Вы получили опыт, превышающий допустимый. Оформите подписку, чтобы им воспользоваться.",1
 36283,RACE_INFO_DARKIRONDWARF,"Известные огненным нравом и стальным упорством дворфы из клана Черного Железа на протяжении своей истории воевали то между собой, то с другими кланами. Королева-регент Мойра желает объединить свой народ и повести его на битву за спасение мира.",3
 36284,RACE_INFO_ZANDALARITROLL,"Зандалары — гордый народ, история которого начинается вскоре после сотворения Азерота. Свирепые воины-зандалары сражаются верхом на динозаврах, а их боевой флот — один из самых мощных в мире.",3
 36285,RACE_INFO_DARKIRONDWARF_FEMALE,"Известные огненным нравом и стальным упорством дворфы из клана Черного Железа на протяжении своей истории воевали то между собой, то с другими кланами. Королева-регент Мойра желает объединить свой народ и повести его на битву за спасение мира.",3
@@ -18296,6 +18296,7 @@ ID,BaseTag,TagText_lang,Flags
 41969,QUEST_SESSION_QUIT_WARNING,"Вы уверены, что хотите выйти из игры и отменить режим синхронизации? Все ваши повторные задания будут отменены.",1
 41970,SPELL_FAILED_CUSTOM_ERROR_437,Вы не владеете нужной профессией.,1
 41971,POWER_TYPE_MOLTEN_FURY,Раскаленное неистовство,1
+41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE, - Сейчас нельзя выполнить перенос для персонажа этой фракции.,3
 41973,AUCTION_HOUSE_NONE_AVAILABLE,Лоты не найдены.,5
 41975,ITEM_CORRUPTION_BONUS_STAT,+%d ед. порчи,1
 41976,CORRUPTION_CLEANSER_TOOLTIP_TITLE,При очищении этого предмета будут удалены следующие эффекты:,1
@@ -18440,7 +18441,7 @@ ID,BaseTag,TagText_lang,Flags
 42143,ERR_PLAYER_CHOICE_ERROR_PENDING_CHOICE,"Вы уже указали пункт, который хотите отменить. Пожалуйста, сделайте новый выбор.",1
 42144,FEATURE_UNAVAILBLE_PLAYER_IS_NEUTRAL,"Эта возможность недоступна, пока вы не выбрали фракцию.",1
 42145,NPEV2_INTRO_CAMERA_LOOK,|cFFFFD200Посмотрите по сторонам|r.,1
-42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Поговорите|r с капитаном Гэррик.,1
+42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Поговорите|r с Джайной Праудмур.,1
 42148,NPEV2_INTRO_MELEE_COMBAT,|cFFFFD200Атакуйте|r боевой манекен.,1
 42150,NPEV2_TURN_MINIMAP_ON,Найдите ближайшие цели на |cFF00FFFFмини-карте|r,1
 42151,NPEV2_USE_HEARTHSTONE_TUTORIAL,"Вы получили камень возвращения! Откройте сумку, чтобы посмотреть на него.",1
@@ -18513,6 +18514,7 @@ ID,BaseTag,TagText_lang,Flags
 42285,COVENANT_PREVIEW_ZONE_HOME,Дом: %s,1
 42286,POWER_TYPE_SLIME_ENERGY,Энергия,1
 42287,OPTIONAL_REAGENT_TOOLTIP_STAT_FORMAT,|c%1$s%2$c%3$s %4$s|r,1
+42288,BLIZZARD_STORE_VAS_ERROR_PVE_TO_PVP_TRANSFER_NOT_ALLOWED,- Нельзя перейти с PvE-сервера на PvP-сервер.,3
 42289,SPELL_FAILED_CUSTOM_ERROR_463,Требуется моток веревки.,1
 42290,COVENANT_PREVIEW_CLASS_ABILITY,Классовая способность,1
 42291,COVENANT_PREVIEW_RACIAL_ABILITY,Особая способность,1
@@ -18567,8 +18569,8 @@ ID,BaseTag,TagText_lang,Flags
 42340,NPEV2_DRUID_BUILDER,"Нажмите |cFF00FFFF%s|r, чтобы применить способность ""%s"", пока противник поражен ""Лунным огнем"".",1
 42341,POWER_TYPE_SHADOW_ENERGY,Теневая энергия,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200Пройдитесь|r.,1
-42343,NPEV2_INTRO_MOVE_HORDE,"Используйте |cFF00FFFFклавиши управления|r, чтобы подойти к |cFF00FFFFвоеводе Бреке Люторез|r.",1
-42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Поговорите|r с воеводой Брекой Люторез,1
+42343,NPEV2_INTRO_MOVE_HORDE,"Используйте |cFF00FFFFклавиши управления|r, чтобы подойти к |cFF00FFFFТраллу|r.",1
+42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Поговорите|r с Траллом,1
 42345,RUNEFORGE_LEGENDARY_POWER_LIST_LABEL,Выберите легендарную способность,1
 42346,NPEV2_INTRO_RANGED_COMBAT,|cFFFFD200Выберите|r целью боевой манекен.,1
 42347,SOULBIND_RESET_BUTTON,Сброс,1
@@ -18600,6 +18602,7 @@ ID,BaseTag,TagText_lang,Flags
 42377,NPEV2_LFD_SPECIFIC_DUNGEON,Выберите |cFF00FFFFЦитадель Темного Молота|r.,1
 42378,NPEV2_LFD_INFO_POINTER_MESSAGE,"|cFF00FFFFПодождите|r, пока мы не найдем других игроков для прохождения подземелья.",1
 42379,CHARACTER_FORM,Облик |3-1(%s),3
+42380,BLIZZARD_STORE_VAS_ERROR_INELIGIBLE_TARGET_REALM,- В этот игровой мир сейчас нельзя переносить персонажей.,3
 42381,RESET_CAMERA,Сбросить настройки камеры,3
 42382,RANDOMIZE_APPEARANCE,Случайная внешность,3
 42383,ANIMA_DIVERSION_NODE_SELECTED,Уже выбрано,1
@@ -18938,6 +18941,7 @@ ID,BaseTag,TagText_lang,Flags
 42740,SPELL_FAILED_CUSTOM_ERROR_495,Вы на мелководье.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Требуется свежая вода из Арденвельда или Бастиона.,1
 42742,JAILERS_TOWER_REWARD_HIGH_DIFFICULTY,,1
+42743,BLIZZARD_STORE_VAS_ERROR_PENDING_ITEM_AUDIT,"- В сумках этого персонажа имеются предметы, которые невозможно перенести.",3
 42744,JAILERS_TOWER_REWARD_RECIEVED,Награда получена – за повторное прохождение этого уровня вы получите небольшое количество пепла душ.,1
 42745,TOOLTIP_AZERITE_ITEM_DISABLED,Сердце Азерот не действует вдали от источника ее жизненной силы.,1
 42746,HEART_OF_AZEROTH_INACTIVE,Сердце Азерот не действует.,1
@@ -19014,10 +19018,10 @@ ID,BaseTag,TagText_lang,Flags
 42817,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_SECOND_LINE,ПРИКЛЮЧЕНИЯ,1
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,ЖДУТ,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,ОФОРМИТЬ ПОДПИСКУ,1
-42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,УЛУЧШИТE,1
+42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,ОФОРМИТЬ ПОДПИСКУ,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Оформите подписку и продолжите великое приключение,1
 42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,РАЗВИВАЙТЕ ПЕРСОНАЖА ДО 70-ГО УРОВНЯ,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ПЕРЕЖИТЬ НЕЗАБЫВАЕМЫЕ ПРИКЛЮЧЕНИЯ В АЗЕРОТЕ И ЗА ЕГО ПРЕДЕЛАМИ,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ВАС ЖДУТ НЕЗАБЫВАЕМЫЕ ПРИКЛЮЧЕНИЯ НА АЗЕРОТЕ И ЗА ЕГО ПРЕДЕЛАМИ,1
 42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ПОЛУЧИТЬ ДОСТУП К WOW CLASSIC,1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,И НЕ ТОЛЬКО!,1
 42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
@@ -19200,8 +19204,8 @@ ID,BaseTag,TagText_lang,Flags
 43006,COVENANT_SANCTUM_RENOWN_REWARD_DESC_COMPLETE,Вы достигли максимального уровня известности в своем ковенанте (%s).,1
 43007,ERR_NOT_IN_NPE,Недоступно во время обучения,1
 43008,ERR_INTERNAL_ERROR,Внутренняя ошибка,1
-43009,NPE_ABANDON_A_WARNING,"Вы отдалились слишком далеко от Штормграда.|n |nЕсли вы продолжите, то покинете режим обучения.|n |nХотите вернуться в Штормград?|n |n |n",1
-43010,NPE_ABANDON_H_WARNING,"Вы отдалились слишком далеко от Оргриммара.|n |nЕсли вы продолжите, то покинете режим обучения.|n |nХотите вернуться в Оргриммар?|n |n |n",1
+43009,NPE_ABANDON_A_WARNING,"Вы слишком отдалились от Диких берегов.|n|nЕсли вы продолжите, то покинете режим обучения.|n|nХотите вернуться на Дикие берега, что на Драконьих островах?|n|n|n",1
+43010,NPE_ABANDON_H_WARNING,"Вы слишком отдалились от Диких берегов.|n|nЕсли вы продолжите, то покинете режим обучения.|n|nХотите вернуться на Дикие берега, что на Драконьих островах?|n|n|n",1
 43011,NPE_ABANDON_LEAVE_TUTORIAL,Завершить обучение,1
 43012,NPE_ABANDON_A_RETURN,Вернуться,1
 43013,NPE_ABANDON_H_RETURN,Вернуться,1
@@ -19575,6 +19579,7 @@ ID,BaseTag,TagText_lang,Flags
 43980,RECONNECT_BUTTON,Переподключение,2
 43981,SWITCH_ACCOUNTS_BUTTON,Выйти,2
 43982,ERR_TRAVEL_PASS_DIFFERENT_REGION,Другой регион,1
+43983,BLIZZARD_STORE_VAS_ERROR_NEEDS_ERA_CHOICE,- Выберите дополнение на экране выбора персонажа.\n- Активируйте копию на экране выбора персонажа.,3
 43985,DUNGEON_SCORE_DUNGEON_RATING_OVERTIME,%s: %s |cff808080(Ур. %d)|r,1
 43986,UNITNAME_SUMMON_TITLE49,Содрогающиеся останки |3-1(%s),1
 43987,ERR_TORGHAST_TALENT_CANT_AFFORD_TALENT,Вы не можете себе этого позволить.,1
@@ -20111,6 +20116,7 @@ ID,BaseTag,TagText_lang,Flags
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Требуется более высокий силлабический потенциал.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,Требуется 5 потерянных яйцеобразных объектов.,1
 48713,ERR_QUEST_SESSION_RESULT_RESTRICTED_CROSS_FACTION,"Не удалось синхронизироваться, так как один из участников группы принадлежит к противоположной фракции.",1
+48714,BLIZZARD_STORE_VAS_ERROR_ARENA_TEAM_CAPTAIN,- Этот персонаж является капитаном команды арены.  Передайте титул другому персонажу и попробуйте еще раз.,3
 48715,ERR_QUEST_PUSH_CROSS_FACTION_RESTRICTED_S,С участниками межфракционных групп нельзя разделять задания.,1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,Слишком много временных усилений.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,"Вы можете призывать Покопока другими способами, пока находитесь в Зерет Мортисе.",1
@@ -21089,7 +21095,7 @@ ID,BaseTag,TagText_lang,Flags
 49840,TUTORIAL_REAGENT_BAG_STEP_2,Используйте новую сумку для реагентов!|n|nВсе собранные материалы для ремесла будут попадать в эту сумку.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Применить макет,1
 49842,TALENT_FRAME_RESET_BUTTON_TOOLTIP_DESCRIPTION,"Чтобы сбросить только одно древо талантов, щелкните ПКМ изученные таланты в верхнем ряду.",1
-49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Источник: %1$s,1
+49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Источник: %1$s,3
 49845,TALENT_BUTTON_TOOLTIP_CLEAR_REPURCHASE_INSTRUCTIONS,"Щелкните ПКМ, чтобы очистить все отмененные таланты",1
 49846,ACTION_SPELL_EMPOWER_START,Усиление начато,1
 49847,ACTION_SPELL_EMPOWER_START_FULL_TEXT,%1$s начинает усиливать %2$s. Цель:  %4$s.,1
@@ -22301,9 +22307,9 @@ ID,BaseTag,TagText_lang,Flags
 51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,танки/лекари,1
 51908,TIMERUNNING_CHOICE_SELECT,Выбрать,2
 51909,TIMERUNNING_POPUP_QUESTS_HEADER,Задания и рейды,2
-51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Проходите задания, подземелья и рейды Legion в порядке их доступности в оригинальном цикле выхода контента Legion.",2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"Проходите задания, подземелья и рейды по мере их появления в оригинальном цикле выхода контента Legion.",2
 51911,TIMERUNNING_POPUP_ITEMS_HEADER,Новые предметы и механики,2
-51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Используйте новые особенности и способности артефактного оружия и усиливайте их самоцветами для кардинального обновления игрового процесса.,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,"Используйте новые свойства и способности артефактного оружия, усиливая их самоцветами для заметного обновления игрового процесса.",2
 51913,TIMERUNNING_POPUP_REWARDS_HEADER,Уникальные награды,2
 51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"Получая достижения события, откройте для себя новые средства передвижения, боевых питомцев, варианты внешнего вида предметов и не только.",2
 51915,TIMERUNNING_POPUP_CREATE,Создать путешественника во времени,2
@@ -22486,7 +22492,7 @@ ID,BaseTag,TagText_lang,Flags
 52148,DELVES_CONFIGURE_BUTTON,Настройка,1
 52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Проходите вылазки и получайте еженедельные награды,1
 52150,DELVES_GREAT_VAULT_LABEL,Великое хранилище,1
-52151,DYNAMIC_FLIGHT,Высший пилотаж,1
+52151,DYNAMIC_FLIGHT,Режим полета,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,Проходите вылазки и получайте еженедельные награды.\n\nНаград доступно: %s/%s ,1
 52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,Великое хранилище доступно только во время сезона.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Умения и таланты,1
@@ -22733,6 +22739,8 @@ ID,BaseTag,TagText_lang,Flags
 52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,"Чтобы удалить предмет, его нужно извлечь из банка отряда.",1
 52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<ПКМ для перехода к карте>,1
 52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Закрыть описание задания,1
+52422,BINDING_NAME_TOGGLEDECORNUDGEMODE,Включить отсечение (перекл.),1
+52423,BINDING_NAME_HOLDDECORNUDGEMODE,Включить отсечение (удерж.),1
 52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,Свернуть меню способностей,1
 52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,"Перейдите в игровой мир этого персонажа, чтобы изменить снаряжение.",2
 52426,DELVES_TIER_SELECT_HELPTIP,Выберите уровень сложности,1
@@ -22912,7 +22920,7 @@ ID,BaseTag,TagText_lang,Flags
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,"Вы не можете встать в очередь на другой контент, пока состоите в очереди на ""Пиратскую бурю"".",1
 52791,SPELL_CURIO,Диковинка,1
 52794,WOW_ERROR_501,При восстановлении персонажа произошла ошибка. Зайдите в игру повторно и попробуйте еще раз.,2
-52795,11.1.7 Lorewalking - Restart (LAS),Сбросить прогресс экскурса в историю и начать его сначала.,1
+52795,11.1.7 Lorewalking - Restart (LAS),Сбросить прогресс экскурса в историю или пересказа и начать сначала.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,В вашей коллекции уже есть такое место для лагеря,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,ЛАГЕРЯ,2
 52853,WARBAND_SCENES_RANDOM,Выбрать случайный фон +,3
@@ -22961,14 +22969,247 @@ ID,BaseTag,TagText_lang,Flags
 52939,EVENT_SCHEDULER_FRAME_LABEL,События,1
 52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Песочные часы жутких видений,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Достигнут максимум лагерей (%d).,2
+52953,HOUSING_CHARTER_PLAYERS,Игроков в реестре,1
+52954,HOUSING_CHARTER_UNSIGNED,<еще не подписано>,1
+52955,HOUSING_CHARTER_NEIGHBORHOOD_LOCATION,Местоположение района:,1
+52956,HOUSING_CHARTER_NEIGHBORHOOD_TYPE,Тип района:,1
+52957,HOUSING_CHARTER_NEIGHBORHOOD_NAME,Название района:,1
+52958,HOUSING_CHARTER_DESCRIPTION,"Выберите игрока, которого хотите пригласить, и нажмите ""Запросить подпись"". Чтобы создать этот район, после заполнения реестра передайте его распорядителю.",1
+52959,HOUSING_CHARTER_SETTINGS_BUTTON,Параметры,1
+52960,HOUSING_CHARTER_REQUEST_BUTTON,Запросить подпись,1
+52961,HOUSING_CHARTER_CLOSE_BUTTON,Закрыть,1
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Завершено,1
 52963,DRIVE_TURBO_METER_HELP_TIP,"Вы можете зажать пробел во время поворота, чтобы войти в занос. Во время заноса вы восполняете шкалу турбоускорения.",1
 52964,DRIVE_START_JOB_HELP_TIP,Получите первое задание от тетушки Талуллы. Вы также можете отменять задания и получать новые.,1
 52967,WORLD_MAP_FILTER_COUNTER_TOOLTIP,Скрыто: %s,1
 52969,TW_FRAUD_WARNING_TEXT,System message,2
+52970,HOUSING_CHARTER_REQUEST_DESCRIPTION,"Игрок %s запрашивает вашу подпись в реестре его района. Поставив свою подпись, вы сможете приобрести в этом районе дом, когда %s сдаст заполненный реестр.",1
+52971,HOUSING_CHARTER_REQUEST_SIGN_BUTTON,Подписать реестр,1
+52972,HOUSING_CHARTER_REQUEST_DECLINE_BUTTON,Отклонить,1
+52973,HOUSING_CHARTER_REQUEST_LOCATION,Местонахождение: %s,1
+52974,HOUSING_CHARTER_REQUEST_NAME,Название: %s,1
+52975,HOUSING_CHARTER_REQUEST_TYPE,Тип района: %s,1
+52980,HOUSING_CONTROLS_EXIT_BUTTON,Покинуть дом,1
+52981,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER,Редактировать дом,1
+52982,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER_FMT,Редактировать дом |cnNORMAL_FONT_COLOR:(%s)|r,1
+52983,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT,Выйти из редактора дома,1
+52984,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT_FMT,Выйти из редактора дома |cnNORMAL_FONT_COLOR:(%s)|r,1
+52985,HOUSING_CONTROLS_EDITOR_UNAVAILABLE,Редактор дома недоступен,1
+52986,HOUSING_CONTROLS_EDITOR_UNAVAILABLE_FMT,Редактор дома недоступен: %s,1
 52987,EVENT_SCHEDULER_DAY_FORMAT,%1$s: %2$d,1
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%2$s: %1$s,1
+52989,HOUSE_EDITOR_INSTRUCTION_UNBOUND,[НЕ НАЗНАЧЕНО],1
+52990,HOUSE_EDITOR_SAVE_IN_PROGRESS,"Идет сохранение. Пожалуйста, подождите.",1
+52991,ERR_HOUSE_EDITOR_SAVE_FAILED,Ошибка сохранения жилья. Повторите попытку позже.,1
+52992,ERR_HOUSE_EDITOR_SAVE_FAILED_FMT,Ошибка сохранения жилья: %s,1
+52994,ERR_HOUSE_EDITOR_MODE_FAILED,Ошибка переключения режимов редактора. Повторите попытку позже.,1
+52995,ERR_HOUSE_EDITOR_MODE_FAILED_FMT,Ошибка переключения режимов редактора: %s,1
+52996,ERR_HOUSE_EDITOR_MUST_LEAVE,"Чтобы воспользоваться этой возможностью, необходимо выйти из редактора дома.",1
+52997,HOUSE_EDITOR_MODE_UNAVAILABLE_FMT,"Режим ""%s"" в данный момент недоступен",1
+52998,HOUSE_EDITOR_MODE_UNAVAILABLE_ERROR_FMT,"Режим ""%s"" недоступен: %s",1
+53001,HOUSE_EDITOR_MODE_BASIC_DECOR_NAME,Режим декорирования,1
+53002,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER,Режим декорирования,1
+53003,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER_FMT,Перейти в редактор дома |cnNORMAL_FONT_COLOR:(%s)|r,1
+53004,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT,Выйти из редактора дома,1
+53005,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT_FMT,Выйти из редактора дома |cnNORMAL_FONT_COLOR:(%s)|r,1
+53006,HOUSE_EDITOR_MODE_LAYOUT_NAME,Редактировать план этажа,1
+53007,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER,Редактировать план этажа,1
+53008,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER_FMT,Редактировать план этажа |cnNORMAL_FONT_COLOR:(%s)|r,1
+53009,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT,Выйти из редактора плана этажа,1
+53010,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT_FMT,Выйти из редактора плана этажа |cnNORMAL_FONT_COLOR:(%s)|r,1
+53019,HOUSE_EDITOR_MODE_EXPERT_DECOR_NAME,Расширенный режим,1
+53020,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER,Перейти в расширенный режим,1
+53021,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER_FMT,Расширенный режим |cnNORMAL_FONT_COLOR:(%s)|r,1
+53022,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT,Выйти из расширенного режима,1
+53023,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT_FMT,Выйти из расширенного режима |cnNORMAL_FONT_COLOR:(%s)|r,1
+53024,HOUSE_EDITOR_MODE_CUSTOMIZE_NAME,Режим персонализации,1
+53025,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER,Перейти в режим персонализации,1
+53026,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER_FMT,Перейти в режим персонализации |cnNORMAL_FONT_COLOR:(%s)|r,1
+53027,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT,Выйти из режима персонализации,1
+53028,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT_FMT,Выйти из режима персонализации |cnNORMAL_FONT_COLOR:(%s)|r,1
+53032,HOUSE_EDITOR_MODE_CLEANUP_NAME,Режим очистки,1
+53033,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER,Перейти в режим очистки,1
+53034,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER_FMT,Перейти в режим очистки |cnNORMAL_FONT_COLOR:(%s)|r,1
+53035,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT,Выйти из режима очистки,1
+53036,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT_FMT,Выйти из режима очистки |cnNORMAL_FONT_COLOR:(%s)|r,1
+53037,HOUSING_DECOR_SELECT_INSTRUCTION,Выбрать декор,1
+53038,HOUSING_DECOR_REMOVE_INSTRUCTION,Убрать декор,1
+53039,HOUSING_DECOR_CANCEL_INSTRUCTION,Отмена,1
+53040,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE,Показать сетку,1
+53041,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE,Скрыть сетку,1
+53042,HOUSING_DECOR_PLACED_COUNT_FMT,%d/%d,1
+53043,ERR_HOUSING_DECOR_LOCKED,Другой игрок редактирует этот декор.,1
+53044,ERR_HOUSING_DECOR_SELECT_FAILED,Ошибка выбора декора. Повторите попытку позже.,1
+53045,HOUSING_BASIC_DECOR_PLACE_INSTRUCTION,Разместить декор,1
+53046,HOUSING_BASIC_DECOR_ROTATE_INSTRUCTION,Вращать декор,1
+53049,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE,Включить пристыковку к сетке,1
+53050,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE,Отключить пристыковку к сетке,1
+53051,HOUSING_CUSTOMIZE_SELECT_INSTRUCTION,Персонализировать предмет,1
+53052,HOUSING_CUSTOMIZE_DECOR_HOVER_TOOLTIP,Щелкните ЛКМ для персонализации,1
+53053,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE,Направление,1
+53054,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL,Высота,1
+53055,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE,Вращение,1
+53056,HOUSING_EXPERT_DECOR_SUBMODE_SCALE,Масштаб,1
+53057,HOUSING_EXPERT_DECOR_ROTATE_AXIS_X,Ось X,1
+53058,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Y,Ось Y,1
+53060,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Z,Ось Z,1
+53061,HOUSING_LAYOUT_SELECT_INSTRUCTION,Выбрать комнату,1
+53062,HOUSING_LAYOUT_REMOVE_ROOM_CONFIRMATION,Вы действительно хотите убрать эту комнату? Весь декор в этой комнате будет возвращен в домашний сундук.,1
+53063,HOUSING_LAYOUT_UNOCCUPIED_DOOR_TOOLTIP,Добавить комнату,1
+53064,HOUSING_LAYOUT_OCCUPIED_DOOR_TOOLTIP,Комната уже присоединена,1
+53069,HOUSING_LAYOUT_REMOVE_ROOM_TOOLTIP,Убрать комнату,1
+53070,HOUSING_LAYOUT_MOVE_ROOM_TOOLTIP,Переместить комнату,1
+53071,HOUSING_LAYOUT_ROTATE_ROOM_LEFT_TOOLTIP,Вращать комнату влево,1
+53072,HOUSING_LAYOUT_ROTATE_ROOM_RIGHT_TOOLTIP,Вращать комнату вправо,1
+53073,HOUSING_LAYOUT_NUM_ROOMS,%d/%d,1
+53074,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_BASE_ROOM,Нельзя изменять базовую комнату дома.,1
+53075,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_BASE_ROOM,Нельзя изменять базовую комнату дома.,1
+53076,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_BASE_ROOM,Нельзя изменять базовую комнату дома.,1
+53077,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_NON_LEAF,"Нельзя вращать комнату, поскольку с ней соединено другое помещение.",1
+53078,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_NON_LEAF,Нельзя убрать комнату более чем с одной присоединенной дверью.,1
+53079,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_NON_LEAF,Нельзя перемещать комнату более чем с одной присоединенной дверью.,1
+53080,BINDING_HEADER_HOUSING_SYSTEM,Жилье,1
+53081,PREFACE_HOUSING_DECOR_BINDINGS,Эти горячие клавиши активны только при редактировании вашего жилья; могут быть задействованы и уже используемые клавиши.,1
+53082,PREFACE_HOUSING_LAYOUT_BINDINGS,Горячие клавиши только для редактора плана этажа,1
+53083,BINDING_NAME_HOUSING_TOGGLEEDITOR,Переключить редактор дома,1
+53084,BINDING_NAME_HOUSING_TOGGLEDECORSNAPMODE,Переключить пристыковку к сетке,1
+53085,BINDING_NAME_HOUSING_TOGGLEDECORGRIDVISIBILITY,Переключить отображение сетки,1
+53086,BINDING_NAME_HOUSING_ROTATEROOMLEFT,Вращать комнату влево,1
+53087,BINDING_NAME_HOUSING_ROTATEROOMRIGHT,Вращать комнату вправо,1
+53094,BINDING_NAME_HOUSING_DELETEDECOR,Убрать декор,1
+53095,HOUSING_CATALOG_CATEGORIES_ALL,Все,1
+53096,BINDING_TAG_HOUSE,Дом,1
+53097,BINDING_TAG_HOUSING,жилье,1
+53098,BINDING_TAG_DECOR,декор,1
+53099,BINDING_TAG_DECORATE,Декорировать,1
+53100,BINDING_TAG_LAYOUT,макет,1
+53101,ERR_HOUSING_RESULT_DB_ERROR,ошибка БД,1
+53102,ERR_HOUSING_RESULT_RPC_FAILURE,ошибка УВП,1
+53103,ERR_HOUSING_RESULT_GENERIC_FAILURE,Что-то пошло не так,1
+53104,ERR_HOUSING_RESULT_LOCK_OPERATION_FAILED,Ошибка блокировки объекта как редактируемого текущим игроком,1
+53105,ERR_HOUSING_RESULT_UNLOCK_OPERATION_FAILED,Ошибка освобождения объекта для редактирования другими игроками,1
+53107,ERR_HOUSING_RESULT_LOCKED_BY_OTHER_PLAYER,В данный момент другой игрок редактирует этот объект,1
+53108,ERR_HOUSING_RESULT_DECOR_NOT_FOUND,Декор не найден,1
+53109,ERR_HOUSING_RESULT_HOUSE_NOT_FOUND,Дом не найден,1
+53110,ERR_HOUSING_RESULT_PERMISSION_DENIED,Отказано в разрешении,1
+53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,Надо перейти в редактор дома,1
+53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Вне дома,1
+53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Услуга недоступна,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Комната не найдена,1
+53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Ошибка обновления комнаты,1
+53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,Надо перейти в редактор плана этажа,1
+53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Участок не найден,1
+53120,ERR_HOUSING_RESULT_MAX_DECOR_REACHED,Достигнут лимит размещенных в доме элементов декора,1
+53121,ERR_HOUSING_RESULT_PLACEMENT_TARGET_INVALID,Неверное расположение,1
+53122,ERR_HOUSING_RESULT_COLLISION_INVALID,Неверная коллизия,1
+53123,ERR_HOUSING_RESULT_INVALID_ROOM_LAYOUT,Неверный макет комнаты,1
+53124,ERR_HOUSING_RESULT_TOKEN_REQUIRED,Требуется токен,1
+53125,ERR_HOUSING_RESULT_FILTER_REJECTED,Фильтр отклонен,1
 53126,ACCOUNT_LEVEL_SCENE,Лагерь отряда,3
+53127,HOUSING_CORNERSTONE_TAB_INFO,Справка,1
+53128,HOUSING_CORNERSTONE_TAB_DROPBOX,Ящик для приема,1
+53129,HOUSING_CORNERSTONE_FORSALE,ПРОДАЕТСЯ,1
+53130,HOUSING_CORNERSTONE_BUY,Купить,1
+53131,HOUSING_CORNERSTONE_LOCATION,Местонахождение:,1
+53132,HOUSING_CORNERSTONE_NEIGHBORHOOD,Район:,1
+53133,HOUSING_CORNERSTONE_SIZE,Размер:,1
+53134,HOUSING_CORNERSTONE_PRICE,Цена:,1
+53135,HOUSING_CORNERSTONE_HOUSE_PURCHASED_TOAST,Дом куплен,1
+53136,HOUSING_CORNERSTONE_CANT_AFFORD,У вас недостаточно золота для покупки этого дома,1
+53137,HOUSING_CORNERSTONE_NOT_IN_GUILD,Для покупки этого дома необходимо состоять в гильдии,1
+53138,HOUSING_CORNERSTONE_CANCELMOVE,Отмена перемещения,1
+53139,HOUSING_PURCHASE_PLOT_CONFIRMATION,Подтверждение покупки,1
+53140,HOUSING_PURCHASE_PLOT_CONFIRMATION_TEXT,Вы действительно хотите купить этот участок?,1
+53141,HOUSING_PURCHASE_PLOT_BUY,Купить,1
+53142,HOUSING_PURCHASE_PLOT_CANCEL,Отмена,1
+53143,HOUSING_PURCHASE_PLOT_ERROR,При покупке участка возникла проблема. Повторите попытку позже.,1
+53144,HOUSING_DASHBOARD_DASHBOARD,Панель,1
+53145,HOUSING_DASHBOARD_CATALOG_FRAMETITLE,Панель жилья,1
+53146,HOUSING_DASHBOARD_HOUSEFINDERBUTTON,Открыть поиск жилья,1
+53147,HOUSING_DASHBOARD_FRAMETITLE,Панель жилья,1
+53148,HOUSING_DASHBOARD_NO_HOUSE_TEXT,Пока у вас нет жилья в собственности. |n|n Перейдите в поиск и подыщите себе что-нибудь!,1
+53149,HOUSING_DASHBOARD_OWNER_LABEL,Владелец:,1
+53150,HOUSING_DASHBOARD_LOCATION_LABEL,Местонахождение:,1
+53151,HOUSING_DASHBOARD_NEIGHBORHOOD_LABEL,Район:,1
+53152,HOUSING_DASHBOARD_TELEPORT_BUTTON_TEXT,Телепортация в дом,1
+53153,HOUSING_DASHBOARD_NEIGHBORHOOD_ACTIVITIES,Занятия в районе,1
+53154,HOUSING_DASHBOARD_SOCIAL,Общение,1
+53155,HOUSING_DASHBOARD_COMING_SOON,Скоро!,1
+53156,HOUSING_DASHBOARD_MOVE_OUT_TIMER,Выселение через: %s,1
+53157,HOUSING_MICRO_BUTTON,Панель жилья,1
+53158,NEWBIE_TOOLTIP_HOUSING,"!Панель всего, что связано с жильем!",1
+53159,HOUSING_HOUSEFINDER_TITLE,Поиск жилья,1
+53160,HOUSING_NEIGHBORHOOD_SEARCH_ERROR,Ошибка поиска районов,1
+53161,HOUSING_HOUSEFINDER_NEIGHBORHOODS,Районы,1
+53163,HOUSING_NEIGHBORHOODTYPE_PRIVATE,Частный,1
+53164,HOUSING_NEIGHBORHOODTYPE_OPEN,Открытый,1
+53165,HOUSING_NEIGHBORHOODTYPE_PUBLIC,Публичный,1
+53166,HOUSING_CREATENEIGHBORHOOD_LOCATION,Местонахождение:,1
+53167,HOUSING_CREATENEIGHBORHOOD_GUILD,Гильдия:,1
+53168,HOUSING_CREATENEIGHBORHOOD_CREATEGUILD,Создать район гильдии,1
+53169,HOUSING_CREATENEIGHBORHOOD_CHARTER,Реестр района,1
+53170,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODNAME,Название района:,1
+53171,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODTYPE,Тип района:,1
+53172,HOUSING_CREATENEIGHBORHOOD_GUILD_PRIVATEDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Приобрести участок могут только игроки, состоящие в вашей гильдии |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Игроки не из вашей гильдии будут выдворены из района |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Когда район заполнится целиком, будут созданы новые подразделения |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Можно конвертировать в открытый район при условии отсутствия подразделений",1
+53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t В первые 24 часа участок смогут приобрести только члены гильдии |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t По истечении 24 часов участок сможет приобрести любой игрок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Когда район заполнится целиком, новые подразделения создаваться не будут |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Нельзя конвертировать в частный район",1
+53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Каждый игрок в реестре сможет приобрести участок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Районные управляющие могут добавлять в район других игроков |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Можно конвертировать в открытый район,1
+53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Каждый игрок в реестре сможет приобрести участок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t В первые 24 часа участок смогут приобрести только члены гильдии |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t По истечении 24 часов участок сможет приобрести любой игрок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Нельзя конвертировать в частный район,1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,Не выполнено минимальное требование по количеству членов гильдии,1
+53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Выберите для района другое название,1
+53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,Не выполнено минимальное требование по количеству членов гильдии,1
+53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,Превышен максимальный лимит членов гильдии. Попробуйте создать частный район.,1
+53180,HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON,Создать район,1
+53181,HOUSING_CREATENEIGHBORHOOD_CHARTER_CONFIRMBUTTON,Подтвердить и купить,1
+53182,HOUSING_CREATENEIGHBORHOOD_CONFIRMBUTTON,Подтвердить,1
+53183,HOUSING_CREATENEIGHBORHOOD_CANCELBUTTON,Отмена,1
+53184,HOUSING_CREATENEIGHBORHOOD_PRIVATE,Частный,1
+53185,HOUSING_CREATENEIGHBORHOOD_OPEN,Открытый,1
+53186,HOUSING_CREATENEIGHBORHOOD_CONFIRMATION,Вы действительно хотите создать этот район?,1
+53187,HOUSING_CREATENEIGHBORHOOD_TOAST,Район создан,1
+53188,HOUSING_CREATENEIGHBORHOOD_SERVER_ERROR,При создании района что-то пошло не так!,1
+53189,HOUSING_CREATENEIGHBORHOOD_SETTINGS_WARNING,При внесении изменений будут отозваны все полученные вами подписи,1
+53190,HOUSING_FEATURE_COMING_SOON,Скоро!,1
+53191,HOUSING_BULLETINBOARD_TITLE,Доска объявлений района,1
+53192,HOUSING_BULLETINBOARD_BUILDINGS,Здания,1
+53193,HOUSING_BULLETINBOARD_EVENTS,События,1
+53194,HOUSING_BULLETINBOARD_NPCS,NPC,1
+53195,HOUSING_BULLETINBOARD_SOCIAL,Общение,1
+53196,HOUSING_NEIGHBORHOOD_SETTINGS_TITLE,Параметры района,1
+53197,HOUSING_NEIGHBORHOOD_SETTINGS_NAME,Название:,1
+53198,HOUSING_NEIGHBORHOOD_SETTINGS_NAME_BUTTON,Сменить название,1
+53199,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE,Тип:,1
+53200,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE_BUTTON,Конвертировать в открытый,1
+53201,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS,Владельцы,1
+53202,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_DESCRIPTION,При добавлении игрока в качестве владельца тот получит все разрешения в полном объеме,1
+53203,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_ADD,Добавить игрока,1
+53204,HOUSING_NEIGHBORHOOD_SETTINGS_CONFIRM,Подтвердить,1
+53205,HOUSING_NEIGHBORHOOD_SETTINGS_CANCEL,Отмена,1
+53206,HOUSING_NEIGHBORHOOD_SETTINGS_NEWNAME,Новое название:,1
+53207,HOUSING_NEIGHBORHOOD_SETTINGS_CHANGENAME,Сменить название района,1
+53208,HOUSING_NEIGHBORHOOD_SETTINGS_CURRENTNAME,Текущее название:,1
+53210,HOUSING_HOUSE_SETTINGS_TITLE,Параметры и права доступа к дому,1
+53211,HOUSING_HOUSE_SETTINGS_HOUSENAME,Название дома:,1
+53212,HOUSING_HOUSE_SETTINGS_HOUSEOWNER,Владелец дома:,1
+53213,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_FACTION,Ввиду принадлежности к своей фракции этот персонаж не может владеть домом в данном районе,1
+53214,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_GUILD,Ввиду принадлежности к своей гильдии этот персонаж не может владеть домом в данном районе,1
+53215,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_PERMISSION,Этот персонаж не может владеть домом в данном районе,1
+53216,HOUSING_HOUSE_SETTINGS_ABANDON,Съехать,1
+53217,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRMATION,Вы действительно хотите съехать?,1
+53218,HOUSING_HOUSE_SETTINGS_ABANDON_DESCRIPTION,"Выбранный вами макет сохранится, и вы сможете автоматически применить его к купленному дому. \n \n Если вы просто хотите переехать на новый участок, то можете воспользоваться краеугольным камнем на участке, чтобы переехать, сохранив дом.",1
+53219,HOUSING_HOUSE_SETTINGS_ABANDON_REFUND,Вы получите,1
+53220,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRM,Съехать,1
+53221,HOUSING_HOUSE_SETTINGS_ABANDON_CANCEL,Отмена,1
+53227,HOUSING_HOUSE_SETTINGS_PLOTACCESS,Доступ к участку:,1
+53228,HOUSING_HOUSE_SETTINGS_HOUSEACCESS,Доступ к дому:,1
+53229,HOUSING_HOUSE_SETTINGS_ACCESS_ANYONE,Кто угодно,1
+53230,HOUSING_HOUSE_SETTINGS_ACCESS_NEIGHBORS,Соседи,1
+53231,HOUSING_HOUSE_SETTINGS_ACCESS_GUILD,Гильдия,1
+53232,HOUSING_HOUSE_SETTINGS_ACCESS_FRIENDS,Друзья,1
+53234,HOUSING_HOUSE_SETTINGS_IGNORELIST_BUTTON,Черный список игроков,1
+53235,HOUSING_PLOTSIZE_SMALL,Маленький,1
+53236,HOUSING_PLOTSIZE_MEDIUM,Средний,1
+53237,HOUSING_PLOTSIZE_LARGE,Большой,1
+53238,HOUSING_PLOT_NUMBER,Участок %d,1
 53239,ACCESSIBILITY_DRIVE_LABEL,РАЗГОН,1
 53240,EVENT_SCHEDULER_ONGOING_HEADER,События в процессе,1
 53241,EVENT_SCHEDULER_SCHEDULED_HEADER,График событий,1
@@ -22981,7 +23222,16 @@ ID,BaseTag,TagText_lang,Flags
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"Если выбран этот параметр, при повороте задним ходом в режиме РАЗГОНа используется обычное управление.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,В вашу коллекцию добавлен предмет для лагеря: %s.,1
 53267,PROFESSION_RESPEC_CONFIRMATION,"Забыть все специализации для навыка ""%s""?|n|nВы потеряете все связанные с ними рецепты, но сможете по-новому распределить очки знаний.|n|n |cnRED_FONT_COLOR:Это действие можно совершить только один раз.|r",1
+53268,HOUSING_CUSTOMIZE_DECOR_UNAVAILABLE_HOVER_TOOLTIP,Для этого декора нет доступных персонализаций,1
+53269,HOUSING_DECOR_CANNOT_REMOVE,Этот декор нельзя убрать,1
+53280,HOUSING_DECOR_DESELECT_INSTRUCTION,Отменить выбор декора,1
+53295,BINDING_NAME_HOUSING_TOGGLEBASICDECORMODE,Режим декорирования,1
+53296,BINDING_NAME_HOUSING_TOGGLELAYOUTMODE,Редактор плана этажа,1
+53297,BINDING_NAME_HOUSING_TOGGLECUSTOMIZEMODE,Режим персонализации,1
+53298,BINDING_NAME_HOUSING_TOGGLEEXPERTDECORMODE,Расширенный режим,1
+53299,BINDING_NAME_HOUSING_TOGGLECLEANUPMODE,Режим очистки,1
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Здесь можно ознакомиться с текущими и будущими событиями,1
+53307,HOUSING_EXPERT_DECOR_RESET,"Сбрасывает изменения декора в соответствии с активным параметром расширенного режима|n|n|cnNORMAL_FONT_COLOR:<Щелкните, удерживая Shift, чтобы сбросить все изменения>|r",1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Взаимодействие с целью – ЛКМ,1
 53317,SPELL_FAILED_CUSTOM_ERROR_1069,В миске уже есть еда,1
@@ -23016,7 +23266,12 @@ ID,BaseTag,TagText_lang,Flags
 53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Вертикально сверху,1
 53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Вертикально по центру,1
 53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Вертикально снизу,1
+53429,BINDING_NAME_HOUSING_EXPERTDECORHORIZONTALSUBMODE,Расширенный субрежим направления,1
+53430,BINDING_NAME_HOUSING_EXPERTDECORVERTICALSUBMODE,Расширенный субрежим высоты,1
+53431,BINDING_NAME_HOUSING_EXPERTDECORROTATESUBMODE,Расширенный субрежим вращения,1
+53432,BINDING_NAME_HOUSING_EXPERTDECORSCALESUBMODE,Расширенный субрежим масштаба,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,Сначала мегамагнит нужно зарядить!,1
+53442,HOUSING_LAYOUT_FLOOR_DISPLAY,%d-й этаж,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Необходимо выбрать целью подходящий предмет классового комплекта для головы, груди или ног.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Необходимо выбрать целью подходящий предмет классового комплекта для плеч или кистей рук.,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,"Нельзя использовать транспорт, пока действует маскировка.",1
@@ -23028,8 +23283,34 @@ ID,BaseTag,TagText_lang,Flags
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Светлый,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Фон субтитров,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Прозрачность фона,3
+53511,UNIT_VIEW_HOUSES,Просмотреть дома,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Режим декорирования,1
+53515,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_FMT,Режим декорирования |cnNORMAL_FONT_COLOR:(%s)|r,1
+53516,HOUSE_EDITOR_MODE_LAYOUT_BUTTON,Редактировать план этажа,1
+53517,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_FMT,Редактировать план этажа |cnNORMAL_FONT_COLOR:(%s)|r,1
+53518,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON,Режим персонализации,1
+53519,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_FMT,Режим персонализации |cnNORMAL_FONT_COLOR:(%s)|r,1
+53520,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON,Расширенный режим,1
+53521,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_FMT,Расширенный режим |cnNORMAL_FONT_COLOR:(%s)|r,1
+53522,HOUSE_EDITOR_MODE_CLEANUP_BUTTON,Режим очистки,1
+53523,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_FMT,Режим очистки |cnNORMAL_FONT_COLOR:(%s)|r,1
+53524,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE_FMT,Направление |cnNORMAL_FONT_COLOR:(%s)|r,1
+53525,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL_FMT,Высота |cnNORMAL_FONT_COLOR:(%s)|r,1
+53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Вращение |cnNORMAL_FONT_COLOR:(%s)|r,1
+53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Масштаб |cnNORMAL_FONT_COLOR:(%s)|r,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,"Невозможно, пока с вами орел специализации ""Стрельба"".",5
+53537,ERR_PLACED_DECOR_LIMIT_REACHED,"Достигнут лимит размещенных элементов декора. Чтобы добавить больше предметов декора, удалите часть старых.",1
+53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Включить отсечение,1
+53542,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE,Отключить отсечение,1
+53544,BINDING_NAME_HOUSING_TOGGLEDECORNUDGEMODE,Переключить отсечение декора,1
+53552,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE_FMT,Показать сетку |cnNORMAL_FONT_COLOR:(%s)|r,1
+53553,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE_FMT,Скрыть сетку |cnNORMAL_FONT_COLOR:(%s)|r,1
+53555,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE_FMT,"Пристыковка к сетке |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы пристыковывать к сетке декора при его размещении. |r",1
+53557,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE_FMT,"Пристыковка к сетке |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы игнорировать сетку при размещении украшений. |r",1
+53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,"Включить отсечение |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы игнорировать коллизии при размещении декора. |r",1
+53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,"Отключить отсечение |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы не игнорировать коллизии при размещении декора. |r",1
+53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Убрать декор,1
 53649,PERKS_PROGRAM_CART_ADD,В корзину,1
 53650,PERKS_PROGRAM_CART_REMOVE,Убрать из корзины,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Просмотр корзины,1
@@ -23044,10 +23325,18 @@ ID,BaseTag,TagText_lang,Flags
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Купить товары в корзине,1
 53698,DROP_CHANCE_ITEMS_ONLY,Вероятность получить:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Ваша цель уже защищена медвертушкой Мрачных Минеров.,1
+53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Передвинуть камеру вверх,1
+53729,BINDING_NAME_HOUSING_LAYOUTCAMERA_DOWN,Передвинуть камеру вниз,1
+53730,BINDING_NAME_HOUSING_LAYOUTCAMERA_LEFT,Передвинуть камеру влево,1
+53731,BINDING_NAME_HOUSING_LAYOUTCAMERA_RIGHT,Передвинуть камеру вправо,1
+53732,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_IN,Приблизить,1
+53733,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_OUT,Отдалить,1
 53734,COLORS_LABEL,Цвета,3
 53735,ENABLE_ADVANCED_COLORS_OPTIONS,Включить дополнительные параметры,3
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Показывает больше вариантов цвета.,3
 53737,COLORS_ITEM_QUALITY,Кач. предмета,3
+53738,PREFACE_HOUSING_BASICDECOR_BINDINGS,Горячие клавиши только для режима декорирования,1
+53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Горячие клавиши только для расширенного режима,1
 53742,BINDING_NAME_DRIFT,Дрифт,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,"Вы уверены, что хотите удалить друга? Это действие нельзя отменить.",1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,"Требуется ""Неразрывная связь"".",1
@@ -23057,7 +23346,10 @@ ID,BaseTag,TagText_lang,Flags
 53766,COOLDOWN_VIEWER_LABEL,Трекер восстановления,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Важные основные и вспомогательные способности, отслеживаемые эффекты и отслеживаемые полосы эффектов для каждой специализации. Сейчас трекер восстановления отключен. Чтобы включить его, откройте дополнительные параметры > трекер восстановления.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Нельзя использовать несколько пробелов подряд,3
+53833,HOUSING_LAYOUT_ZOOM_IN_INSTRUCTION,Приблизить,1
+53834,HOUSING_LAYOUT_ZOOM_OUT_INSTRUCTION,Отдалить,1
 53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Поиск по областям, гильдиям, классам, расам и уровням",1
+53836,HOUSING_LAYOUT_CANCEL_INSTRUCTION,Отмена,1
 53847,GUILD_RENAME_DESCRIPTION,"Скажи, как ты хочешь назвать свою гильдию, и я проверю, не используется ли такое название кем-нибудь еще. Если вдруг передумаешь, снова переименовать гильдию можно будет через некоторое время.",1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Введите новое название гильдии,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Варианты нового названия гильдии:,1
@@ -23082,6 +23374,21 @@ ID,BaseTag,TagText_lang,Flags
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Гнездо поющего грома,1
 53879,EMPTY_SOCKET_SINGINGSEA,Гнездо поющего моря,1
 53882,EMPTY_SOCKET_SINGINGWIND,Гнездо поющего ветра,1
+53883,BINDING_NAME_HOUSING_TOGGLEINCLUDETARGETDECORCHILDREN,"Переключить, включая дочерний декор в выделении",1
+53884,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_LEFT,Переместить декор влево,1
+53885,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_RIGHT,Переместить декор вправо,1
+53886,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_FORWARD,Переместить декор вперед,1
+53890,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_BACK,Переместить декор назад,1
+53891,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_UP,Переместить декор вверх,1
+53892,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_DOWN,Переместить декор вниз,1
+53893,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATELEFT,Вращать декор влево,1
+53894,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATERIGHT,Вращать декор вправо,1
+53895,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEUP,Увеличить масштаб декора,1
+53896,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEDOWN,Уменьшить масштаб декора,1
+53903,HOUSING_CREATENEIGHBORHOOD_CREATECHARTER,Создать район,1
+53919,SPELL_FAILED_CUSTOM_ERROR_2428,У вас уже есть максимум зарядов.,1
+53925,HOUSING_DECOR_BUDGET_TOOLTIP,Лимит размещения декора,1
+53926,HOUSING_DECOR_TOGGLE_GRID_INSTRUCTION,Переключить сетку,1
 53928,CHARACTER_BANK_PANEL_TITLE,Банк,1
 53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,В банке доступно дополнительное место для хранения предметов.|n|nПриобрести этот сейф?,1
 53930,CHARACTER_BANK_TAB_NAME_PROMPT,Введите название сейфа:,1
@@ -23098,10 +23405,35 @@ ID,BaseTag,TagText_lang,Flags
 53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Размер значков,1
 53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Отступ между значками,1
 53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Непрозрачность,1
+53945,VIEW_HOUSES_TITLE,Дома игрока %s,1
+53946,VIEW_HOUSES_NEIGHBORHOOD_BUTTON,Просмотреть район,1
+53947,VIEW_HOUSES_VISIT_BUTTON,Посетить дом,1
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Всегда показывать,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,В бою,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Скрыть,1
 53967,BANK_CONFIRM_CLEANUP_PROMPT,"Вы уверены, что хотите автоматически сортировать предметы?|nЭта функция распространяется на все сейфы.",1
+53970,VIEW_HOUSES_NO_HOUSES,Нет доступных домов,1
+53973,HOUSING_CORNERSTONE_NEIGHBORHOOD_TYPE,Тип:,1
+53974,HOUSING_CORNERSTONE_OWNED_BY,Владелец:,1
+53975,HOUSING_CORNERSTONE_NEIGHBORHOOD_LOCATION,Местонахождение:,1
+53977,HOUSING_CORNERSTONE_GENERIC_PERMISSION,Вы не можете купить дом в этом районе,1
+53978,HOUSING_CORNERSTONE_OWNER,Владелец:,1
+53979,HOUSING_CORNERSTONE_NEIGHBORHOOD_PUBLIC,Публичный,1
+53980,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_GUILD,Частный – гильдия,1
+53981,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_CHARTER,Частный – реестр,1
+53982,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_GUILD,Открыть список гильдии,1
+53983,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_CHARTER,Открыть реестр,1
+53984,HOUSING_LAYOUT_CANT_PLACE_ROOM_TOOLTIP,Комнату этого типа нельзя разместить в текущем месте.,1
+54001,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_NAME,Название,1
+54002,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_STATUS,Статус,1
+54003,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_PLOT,Участок,1
+54004,HOUSING_BULLETINBOARD_NEIGHBORHOOD_NAME,%s (%s),1
+54006,HOUSE_EDITOR_CATALOG_BUTTON_TOOLTIP,Домашний сундук,1
+54007,HOUSE_EDITOR_CATALOG_STORAGE_TAB,Склад,1
+54009,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_SUBDIVISION,Подразделение,1
+54010,NEIGHBORHOOD_ROSTER_COLUMN_PLOT_FORMAT,№%d,1
+54011,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_ONLINE,В сети,1
+54012,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_OFFLINE,Не в сети,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Этот инструмент пока непригоден для текущего класса или специализации.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Пример названия положительного эффекта,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Недоступно для специализаций-танков.,1
@@ -23113,6 +23445,11 @@ ID,BaseTag,TagText_lang,Flags
 54059,CURRENCY_TRANSFER_IN_PROGRESS,Идет перенос валюты,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Переименовать гильдию может только ее глава.,1
 54066,GUILD_RENAME_COSTS_LABEL,Из гильдейского банка будет изъята следующая сумма:,1
+54067,HOUSING_DECOR_CUSTOMIZATION_DYES,Краски: %s,1
+54068,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_DESCRIPTION,Ячейка %s,1
+54069,HOUSING_DECOR_CUSTOMIZATION_THEME,Тема: %s,1
+54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,По умолчанию (не окрашено),1
+54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,"Краска ""%d"" будет удалена.",1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Нужная сумма будет изъята из гильдейского банка,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Отображать описания,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Доступные средства в гильдейском банке,1
@@ -23121,7 +23458,11 @@ ID,BaseTag,TagText_lang,Flags
 54093,NPEV2_SELF_HEAL_P2,"Не двигайтесь, пока ваш персонаж применяет умение.\n\nВаше здоровье будет быстро восстанавливаться.",1
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,"Однокнопочный помощник будет предлагать вам наносящие урон умения. Используйте его, как любую другую способность.",1
 54095,NAME_NOT_AVAILABLE,Данное название недоступно,3
+54099,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED,Недавние краски,1
 54106,SPELL_FAILED_CUSTOM_ERROR_1046,В вашей коллекции уже есть эта реликвия.,1
+54107,HOUSING_DECOR_CUSTOMIZATION_DYE_NUM_OWNED,Доступно: %d,1
+54108,HOUSING_DECOR_CUSTOMIZATION_SHOW_ONLY_OWNED,Скрыть недоступные,1
+54109,HOUSING_DECOR_CUSTOMIZATION_REMOVE_DYE_WARNING,"Краска ""%d"" будет удалена.",1
 54112,LOGIN_STATE_WAITFORNETWORK,Ждем подключения к сети,2
 54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,В это гнездо можно вставить только волоконный самоцвет.,1
 54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Волоконные самоцветы можно вставлять только в соответствующие гнезда.,1
@@ -23129,21 +23470,30 @@ ID,BaseTag,TagText_lang,Flags
 54132,VOICE_CHAT_SETTING_ENABLED,Голосовой чат включен,1
 54133,SPELL_FAILED_CUSTOM_ERROR_1076,Доступно только для путешественников во времени.,1
 54134,SPELL_FAILED_CUSTOM_ERROR_1077,Сейчас слишком опасно выполнять это действие.,1
+54135,HOUSING_HOUSE_NAME_FORMAT,%2$s %1$d,1
 54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Сложить все материалы в банк,1
 54138,GROUP_FINDER_VOICE_CHAT_TYPE_INGAME,В игре,1
 54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Другое,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Перегруженная панель титанов,1
+54150,ERR_NO_OWNED_HOUSE_IN_THIS_NEIGHBORHOOD_MAP,У вас нет дома в этом районе,1
 54153,EMOTE628_CMD1,/наклон,1
 54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Пропаганда терроризма/насилия,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Жестокое обращение с детьми,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,"Щелкните ПКМ, чтобы открыть список способностей",1
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,"Щелкните ПКМ, чтобы скрыть список способностей",1
+54184,ERR_INVITED_TO_NEIGHBORHOOD,Вас приглашают в район!,1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Вспомогательная подсветка,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Подсвечивает способности, которые рекомендуется применить.|nПодсветка выделяет только видимые способности.",1
 54209,CONTACTS_TAB_TITLE,Контакты,3
 54210,CONTACTS_LIST_TITLE,Контакты,3
+54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Блокировать все приглашения в район.,1
+54212,BLOCK_NEIGHBORHOOD_INVITES,Блокировать приглашения в район,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Нельзя отправиться в историческую кампанию в режиме синхронизации.,1
+54226,HOUSING_HOUSE_SETTINGS_ANYONE,Кто угодно,1
+54227,HOUSING_HOUSE_SETTINGS_NOONE,Никто,1
+54228,HOUSING_HOUSE_SETTINGS_LIMITED,С ограничениями,1
+54229,HOUSING_HOUSE_SETTINGS_ACCESS_PARTY,Группа,1
 54230,EMPTY_SOCKET_FIBER,Волоконное гнездо,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Вспомогательная подсветка будет предлагать вам только те способности, которые вы видите.",1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Сообщение игроку %s может носить неприемлемый характер.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Переписать сообщение]|w|h или |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[отправить как есть]|w|h?|r,1
@@ -23155,6 +23505,20 @@ ID,BaseTag,TagText_lang,Flags
 54268,VOTE_TO_ABANDON_PASSED,Голосование прошло успешно,1
 54269,VOTE_TO_ABANDON_FAILED,"Голосование за то, чтобы покинуть подземелье, не удалось.",1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Сообщение может носить неприемлемый характер.|r,1
+54289,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_STAIRWELL,Нельзя вращать эту комнату,1
+54291,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_LAST_ROOM,Нельзя убрать из дома эту комнату,1
+54292,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_UNREACHABLE,Нельзя убрать комнату более чем с одной присоединенной дверью,1
+54293,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_STAIRWELL,Нельзя убрать из дома эту комнату.,1
+54294,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_LAST_ROOM,Нельзя переместить эту комнату,1
+54295,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_UNREACHABLE,"Нельзя перемещать комнаты, если в результате появятся комнаты, в которые нельзя попасть.",1
+54308,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_NOT_FOUND,Не найдена подходящая целевая комната,1
+54309,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_INSIDE_HOUSE,Невозможно изменить макет – вы сейчас находитесь вне дома.,1
+54311,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_HOUSE_OWNER,Вы не владеете этим домом,1
+54314,ERR_HOUSING_LAYOUT_RESTRICTION_BASE_ROOM,Нельзя изменять эту комнату,1
+54315,ERR_HOUSING_LAYOUT_RESTRICTION_NON_LEAF,Нельзя изменять эту комнату. Попробуйте убрать присоединенные к ней помещения.,1
+54316,ERR_HOUSING_LAYOUT_RESTRICTION_STAIRWELL,Нельзя изменять эту комнату. Попробуйте убрать комнаты с лестницами уровнем выше или ниже.,1
+54317,ERR_HOUSING_LAYOUT_RESTRICTION_LAST_ROOM,Нельзя изменять эту комнату,1
+54318,ERR_HOUSING_LAYOUT_RESTRICTION_UNREACHABLE,"Нельзя изменить комнату, если в результате появятся комнаты, в которые нельзя попасть.",1
 54321,CONTACTS_MENU_BROADCAST_BUTTON_NAME,Объявление,3
 54322,CONTACTS_MENU_IGNORE_BUTTON_NAME,Черный список,3
 54323,CONTACTS_MENU_NAME,Меню,3
@@ -23162,27 +23526,101 @@ ID,BaseTag,TagText_lang,Flags
 54325,CONTACTS_RECENT_ALLIES_TITLE,Недавние союзники,1
 54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Недавние союзники,1
 54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Банк вашего персонажа не был преобразован. Повторите попытку позже.,1
+54328,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_TEXT,Вы точно хотите отменить приглашение в район игрока %s?,1
+54329,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_CONFIRM,Подтвердить,1
+54330,HOUSING_NEIGHBORHOOD_INVITE_TITLE,Пригласить жителя,1
+54331,HOUSING_NEIGHBORHOOD_INVITE_SEARCH_LABEL,Поиск игроков,1
+54332,HOUSING_NEIGHBORHOOD_INVITE_INVITATIONS_LABEL,Ожидают ответа,1
+54333,HOUSING_NEIGHBORHOOD_INVITE_SEARCH,Поиск,1
+54334,HOUSING_NEIGHBORHOOD_INVITE_BUTTON_LABEL,Отправить приглашение,1
+54335,HOUSING_NEIGHBORHOOD_INVITE_ERR_GENERIC,Произошла ошибка,1
+54336,HOUSING_NEIGHBORHOOD_INVITE_ERR_DISABLED,Этот игрок отключил приглашения в районы,1
+54337,HOUSING_NEIGHBORHOOD_INVITE_ERR_FACTION,Этот игрок из противоположной фракции,1
+54338,HOUSING_NEIGHBORHOOD_INVITE_ERR_PENDING,Этому игроку уже направлено приглашение в другой район,1
+54339,HOUSING_NEIGHBORHOOD_INVITE_ERR_LIMIT,Вы достигли лимита приглашений,1
+54340,HOUSING_NEIGHBORHOOD_INVITE_ERR_NO_PLOTS,У вас больше нет доступных участков,1
+54341,HOUSING_NEIGHBORHOOD_INVITE_ERR_NOT_FOUND,Игрок не найден,1
+54342,HUD_ITEM_CONTAINER_TITLE,Предметы,1
+54344,HOUSING_BULLETINBOARD_INVITE_RESIDENT,Пригласить жителя,1
 54347,SPELL_FAILED_CUSTOM_ERROR_2430,"Чтобы совершать фазовые переходы, необходимо надеть повязки реши.",1
 54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,Другой участник отряда сейчас использует банк.,1
 54349,BANK_LOCKED_REASON_BANK_DISABLED,Этот банк сейчас недоступен.,1
 54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Не удалось преобразовать банк. Войдите в игру повторно и повторите попытку.,1
+54361,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_CEILING,Стиль потолка,1
+54362,BINDING_NAME_HOUSING_EXPERTDECORTRANSLATESUBMODE,Субрежим расширенного режима,1
+54363,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE,Переместить,1
+54364,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_FMT,Переместить |cnNORMAL_FONT_COLOR:(%s)|r,1
+54365,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEX,Вращение вокруг оси X,1
+54366,PREFACE_HOUSING_EXPERTDECOR_INCREMENT_BINDINGS,Горячие клавиши для пошаговых манипуляций с декором через нажатия клавиш,1
+54367,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEY,Вращение вокруг оси Y,1
+54369,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEZ,Вращение вокруг оси Z,1
+54373,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_CEILING,Материал потолка,1
+54374,HOUSING_DECOR_CUSTOMIZATION_CEILING_TYPE_LABEL,Тип потолка,1
+54375,HOUSING_DECOR_CUSTOMIZATION_VAULTED_LABEL,На хранении,1
+54376,HOUSING_DECOR_CUSTOMIZATION_NOT_VAULTED_LABEL,Обычн.,1
 54377,LEAVER_PENALTY_WARNING_TIMER,Вы не находитесь в текущем эпохальном подземелье вашей группы. Вы получите штраф через %d. %s.,1
 54378,REWARD_POSSIBLE_QUEST_REWARD,За это задание можно получить дополнительные награды:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s меняет название гильдии за %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s возвращает средства за смену названия гильдии (%s),1
+54383,ROTATION_CONTROL_ANGLE_FORMAT,%d°,1
+54384,SPELL_FAILED_CUSTOM_ERROR_666,"Нет, не получится.",1
+54385,SPELL_FAILED_CUSTOM_ERROR_651,Добычи нет.,1
 54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Дополнительные цвета:,1
-54651,TALENT_FRAME_INCREASED_RANKS_TEXT,"+%d |4уровень:уровня:уровней; от предмета ""%s""",1
+54409,HOUSING_CORNERSTONE_MOVE_DIALOG,Вы точно хотите переместить этот дом? \n\n Стоимость старого дома будет учтена при рассчете стоимости нового,1
+54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,Вы точно хотите купить этот дом? \n\n При покупке будет применен макет вашего старого дома,1
+54613,HOUSING_CORNERSTONE_MOVE_BUTTON,Переехать,1
+54614,HOUSING_CORNERSTONE_MOVE_TOOLTIP,Вы недавно переехали. Попробуйте позднее.,1
+54615,HOUSING_CORNERSTONE_MOVE_TOOLTIP_TIME,Осталось времени: %s,1
+54616,HOUSING_CORNERSTONE_REFUND,Компенсация:,1
+54617,HOUSING_CORNERSTONE_HOUSE_TO_MOVE,Перемещаемый дом:,1
+54618,HOUSING_CORNERSTONE_HOUSE_TO_IMPORT,Импортируемый дом:,1
+54621,ERR_HOUSING_RESULT_NOT_ON_OWNED_PLOT,У вас нет этого участка,1
+54630,ERR_HOUSING_RESULT_CANNOT_AFFORD,У вас недостаточно средств.,1
+54632,ERR_HOUSING_RESULT_INCORRECT_FACTION,"Вы не из той фракции, чтобы осуществить это.",1
+54634,ERR_HOUSING_RESULT_INVALID_DECOR_ITEM,Неверный предмет декора дома,1
+54637,ERR_HOUSING_RESULT_INVALID_GUILD,Неподходящая гильдия или нет гильдии,1
+54638,ERR_HOUSING_RESULT_INVALID_INTERACTION,Неверное взаимодействие,1
+54639,ERR_HOUSING_RESULT_INVALID_NAME_PROVIDED,Предоставлено неверное название,1
+54640,ERR_HOUSING_RESULT_MORE_HOUSE_SLOTS_NEEDED,Для этого вам не хватает ячеек домов,1
+54641,ERR_HOUSING_RESULT_NEIGHBORHOOD_NOT_FOUND,Район не найден,1
+54642,ERR_HOUSING_RESULT_OPERATION_ABORTED,Действие на сервере было прервано,1
+54643,ERR_HOUSING_RESULT_TIMEOUT_LIMIT,Отведенное на действие время истекло,1
+54644,ERR_HOUSING_RESULT_TRANSACTION_FAILURE,Транзакция не прошла,1
+54645,HOUSING_BULLETINBOARD_CONTEXT_EVICT,Выселить,1
+54647,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_TEXT,Вы точно хотите выселить этого игрока? \n \n Игрок немедленно покинет район.,1
+54648,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CONFIRM,Подтвердить,1
+54649,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CANCEL,Отмена,1
+54650,HOUSING_BULLETINBOARD_EVICTED_CONFIRMATION_TEXT,"Вас выселили из вашего района. \n \n Макет вашего дома был сохранен; купите новый дом, чтобы импортировать его.",1
+54651,TALENT_FRAME_INCREASED_RANKS_TEXT,"(+%d |4уровень:уровня:уровней; от предмета ""%s"")",1
+54652,HOUSING_CATALOG_CATEGORIES_BACK,НАЗАД,1
 54664,WHO_LIST_LEVEL_TOOLTIP,%d-й уровень,1
 54665,ENABLE_GAMEPLAY_SFX,Включить вспомогательные звуковые эффекты в бою,3
 54666,GAMEPLAY_SFX_VOLUME,Звуковые эффекты в ходе игры,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Регулирует громкость игровых звуковых эффектов.,3
 54672,RECENT_ALLY_LABEL,Недавние союзники,3
+54676,HOUSING_ADD_NEIGHBORHOOD_MANAGER_CONFIRMATION,"Вы точно хотите добавить игрока %s в качестве районного управляющего? \n\n После добавления в качестве управляющего игрок получит разрешения на следующие действия:|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Предлагать игрокам купить дом в районе |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Выселять из района игроков, не являющихся управляющими |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Управлять районным контентом, который появится в будущем ",1
+54677,HOUSING_REMOVE_NEIGHBORHOOD_MANAGER_CONFIRMATION,Вы точно хотите убрать игрока %s из районных управляющих?,1
+54678,HOUSING_BULLETIN_CONTEXT_CONFIRM,Подтвердить,1
+54679,HOUSING_BULLETIN_CONTEXT_CANCEL,Отмена,1
+54680,HOUSING_TRANSFER_OWNERSHIP_REJECT,Отклонить,1
+54681,HOUSING_TRANSFER_OWNERSHIP_CONFIRM,Подтвердить,1
+54682,HOUSING_BULLETIN_TRANSFER_OWNERSHIP_DIALOG,Вы точно хотите передать права на владение районом игроку %s? Этот игрок сначала должен будет согласиться на передачу прав. \n\n Вы станете районным управляющим.,1
+54683,HOUSING_TRANSFER_OWNERSHIP_REQUEST_DIALOG,%s хочет передать вам права на владение районом %s.,1
+54684,HOUSING_BULLETIN_TRANSFER_OWNERSHIP,Сделать владельцем,1
+54685,HOUSING_BULLETIN_ADD_MANAGER,Повысить до управляющего,1
+54686,HOUSING_BULLETIN_REMOVE_MANAGER,Убрать управляющего,1
 54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,Хотите сбросить древо артефакта? (Потраченные очки вернутся),1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Сбросить древо,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Отмена,1
+54710,BINDING_NAME_TOGGLEHOUSINGDASHBOARD,Панель жилья,1
+54713,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE,Размещается только снаружи,1
+54714,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE,Размещается только в помещении,1
+54715,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE_ERROR,Этот декор можно разместить только снаружи,1
+54716,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE_ERROR,Этот декор можно разместить только в помещении,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Не удалось отправить жалобу. Количество жалоб превышено. Попробуйте еще раз через несколько минут.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата.",1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата или находиться в голосовом чате.",1
+54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s принимает передачу прав на владение районом,1
 54731,UNITNAME_SUMMON_TITLE59,Связанный клятвой слуга |3-1(%s),1
 54758,ASSISTED_COMBAT_LABEL,Боевой помощник,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,В меню способностей,1
@@ -23192,7 +23630,17 @@ ID,BaseTag,TagText_lang,Flags
 54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Показывать только критически важные заклинания. Ваши заклинания отображаются всегда.,3
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Уменьшать количество некритичных отображаемых заклинаний.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Всегда показывать все заклинания.,3
+54790,OUTFITTER_ARMOR_HEADER,[PH],1
+54791,OUTFITTER_GEM_HEADER,[PH],1
+54792,OUTFITTER_FRAME_TITLE,[PH],1
+54793,OUTFITTER_EQUIP_ARMOR,[PH],1
 54794,BCSHORTDATENOYEAR,%B %d,1
+54795,HOUSING_DECOR_CUSTOMIZATION_DOOR_TYPE_LABEL,Тип дверного проема,1
+54797,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_WALL,Материал стены,1
+54798,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_FLOOR,Материал пола,1
+54800,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_WALL,Стиль стены,1
+54801,HOUSING_DECOR_CUSTOMIZATION_NORMAL_DOOR_LABEL,Стандартная,1
+54802,HOUSING_DECOR_CUSTOMIZATION_WIDE_DOOR_LABEL,Широкая,1
 54803,RECENT_ALLIES_PARTY_BUTTON_OFFLINE_TOOLTIP,Игрок не в сети,3
 54804,RECENT_ALLIES_MENU_BUTTON_LABEL_SET_NOTE,Добавить заметку,3
 54805,RECENT_ALLIES_MENU_BUTTON_LABEL_PIN,Закрепить,3
@@ -23202,14 +23650,19 @@ ID,BaseTag,TagText_lang,Flags
 54810,RECENT_ALLY_RECENT_ACTIVITIES_LABEL,Недавние действия,3
 54811,RECENT_ALLY_INTERACTION_TIME_FORMAT,%s назад,3
 54826,RECENT_ALLIES_PARTY_BUTTON_TOOLTIP,Пригласить в группу,1
+54827,HOUSING_DECOR_CUSTOMIZATION_LABEL_CEILING,Потолок,1
+54828,HOUSING_DECOR_CUSTOMIZATION_LABEL_WALL,Стена,1
+54829,HOUSING_DECOR_CUSTOMIZATION_LABEL_FLOOR,Пол,1
 54835,NOTIFY_ASSIST_ACTION_PLACED_VO,"Игрок %1$s услышал ваше послание в вылазке ""%2$s"".",1
 54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,"Игрок %1$s отомстил |3-3(%2$s) в вылазке ""%3$s"".",1
 54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,"Игрок %1$s получил от вас эффект ""%2$s"" в вылазке ""%3$s"".",1
 54839,REMIX_ARTIFACT_TUTORIAL_CHOOSE_TRAITS_TEXT,Выберите особенности артефакта,1
 54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,"Нажмите Shift+ПКМ, чтобы просмотреть особенности артефакта",1
+54841,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED_SHORT,Недавно использовалось,1
 54842,SPELL_FAILED_CUSTOM_ERROR_1079,"Сначала необходимо переместить ""Акерус"" на Расколотые острова в этой временной линии.",1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Могила |3-1(%s),1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Послание от |3-1(%s),1
+54846,HOUSING_DASHBOARD_HOUSEUPGRADE,Уровень дома,1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Вы присоединились к прохождению эпохального подземелья с ключом. Если вы покинете подземелье до истечения отведенного срока и без голосования, то получите штраф.",1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Отголосок |3-1(%s),1
@@ -23236,6 +23689,8 @@ ID,BaseTag,TagText_lang,Flags
 54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Уменьшает количество некритичных отображаемых заклинаний в зависимости от частоты кадров.,3
 54915,TEXT_SCALE_PREVIEW_TITLE,Пример,3
 54916,TEXT_SCALE_PREVIEW_BODY,"Пример текста для предпросмотра. Эта настройка позволяет изменить размер шрифта в диалоговых окнах, некоторых меню общения и функции ""Текст в речь"".",3
+54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
+54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Интерфейс,3
 54950,ACCESSIBILITY_FONT_SIZE_LABEL,Масштаб текста,3
 54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Изменить размер шрифта в диалоговых окнах и меню общения, таких как ""Кто"", ""Вступить"" и ""Добавить в друзья"", а также в элементах функции ""Текст в речь"".",3
@@ -23263,6 +23718,14 @@ ID,BaseTag,TagText_lang,Flags
 55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,эта душа встретила смерть в вылазке %d-го уровня,1
 55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,"эта душа приняла смерть от чудовища ""%s""",1
 55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,эта душа приняла достойную смерть,1
+55017,HOUSING_CATALOG_FILTERS_DYEABLE,Только окрашиваемое,1
+55018,HOUSING_CATALOG_FILTERS_INDOORS,В помещении,1
+55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Снаружи,1
+55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
+55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
+55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
+55027,WOWHACK_SPELLS_FRAME_ACTIVE_ABILITIES_HEADER,[PH],1
+55028,WOW_HACK_SPELLS_FRAME_ABILITY_HINT,[PH],1
 55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Персонаж – путешественник во времени был перенесен в основную временную линию.|n|nПредметы из события удалены.,1
 55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Превратить путешественника во времени в обычного персонажа?|n|nОн получит полный доступ к основной игре, но потеряет доступ к контенту Legion Remix. При превращении путешественника во времени 70-го или более высокого уровня для дальнейшей игры потребуется дополнение The War Within.|n|n|cffff2020Это действие нельзя отменить.|r",2
 55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Превратить путешественника во времени в обычного персонажа,2
@@ -23277,6 +23740,7 @@ ID,BaseTag,TagText_lang,Flags
 55048,VRN_GPUMEM_16GB,Требуется видеокарта с объемом памяти как минимум 16 ГБ,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Дом игрока,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Заклинания с функцией помощи,1
+55061,NOT_WHILE_HOUSE_EDIT,Нельзя использовать в ходе редактирования дома,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,"Вы получили метку ключевого дезертира за то, что несколько раз подряд покидали подземелья в режиме ""Эпохальный+"".",1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Вы получили метку ключевого дезертира,1
 55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,"Метка повлияет только на группы для подземелий в режиме ""Эпохальный+"".",1
@@ -23284,7 +23748,40 @@ ID,BaseTag,TagText_lang,Flags
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,"Метка дезертира будет отображаться во время поиска группы для подземелья ""Эпохальный+"".",1
 55070,MYTHIC_PLUS_DESERTER,Ключевой дезертир,1
 55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Результаты поиска,1
+55081,KIOSK_HOUSING_START_BODY1,Добро пожаловать домой!,1
+55083,KIOSK_HOUSING_START_BUTTON,Декорировать,1
+55084,KIOSK_HOUSING_END_BODY1,Спасибо за попытку!,1
+55085,KIOSK_HOUSING_END_BODY2,Дом игрока,1
+55086,KIOSK_HOUSING_END_FOOTER,"Мы хотим узнать, что вы думаете! Пожалуйста, пройдите опрос!",1
+55089,KIOSK_HOUSING_START_DLG_BODY1,"Пора начать обживать свое новое гнездышко. Краткие инструкции вы найдете на вашей открытке. Обустраивайтесь – и посмотрим, что вы сможете построить!",1
+55090,KIOSK_HOUSING_START_DLG_HEADER,Добро пожаловать домой!,1
+55091,ERR_NEW_PARTY_NEIGHBORHOOD_RESERVATION,Участник группы зарезервировал дом!,1
+55092,KIOSK_ENABLED_DLG_TEXT,Включен режим киоска\nЭто уведомление больше не появится.,3
+55095,HOUSEFINDER_BACK_BUTTON,НАЗАД,1
+55123,HOUSING_CATALOG_FILTERS_NONE,Нет,1
+55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
+55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
+55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
+55139,WOWHACK_STAT_LINE_MANA,[PH],1
+55140,WOWHACK_STAT_LINE_ABILITY_POWER,[PH],1
+55141,WOWHACK_STAT_LINE_SPELL_POWER,[PH],1
+55142,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_SINGLE_DOOR,Нельзя вращать эту комнату,1
+55143,ERR_HOUSING_LAYOUT_RESTRICTION_SINGLE_DOOR,"Нельзя поменять дверь, которая будет использоваться, если в комнате она одна.",1
+55144,WOWHACK_WEAPON_ABILITIES_HEADER_TITLE,[PH],1
+55145,WOWHACK_SLOT_EFFECTS_HEADER_TITLE,[PH],1
+55146,KIOSK_HOUSING_RESET_IN_PROGRESS,"Идет сброс дома. Пожалуйста, подождите.",1
+55147,KIOSK_HOUSING_RESET_FAILED,Сброс дома не выполнен. Поставьте в известность служителя.,1
+55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Найти друзей по Battle.net,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Повязки реши,1
+55165,HOUSEFINDER_SEARCH_DESCRIPTION,Просмотр районов игрока %s,1
+55166,HOUSEFINDER_SEARCH_NOT_FOUND,Дома не найдены,1
+55174,ERR_HOUSE_MOVED,"Дом, в котором вы находились, был перемещен в другое место.",1
+55183,BINDING_NAME_WOWHACKITEM1,[PH],1
+55184,BINDING_NAME_WOWHACKITEM2,[PH],1
+55185,BINDING_NAME_WOWHACKITEM3,[PH],1
+55186,BINDING_NAME_WOWHACKITEM4,[PH],1
+55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
+55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,Транзакция не была завершена.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,Это средство передвижения не может перейти в Безграничье.,1
 55200,USER_SURVEY_STATUS_READY,Доступен опрос,1
 55201,USER_SURVEY_STATUS_READY_DESCRIPTION,"Поделитесь с нами мнением! Щелкните здесь, чтобы перейти к опросу.",1
@@ -23293,10 +23790,80 @@ ID,BaseTag,TagText_lang,Flags
 55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Показать неизученное,1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Параметры,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Открыть настройки восстановления способностей,1
+55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
+55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
+55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
+55218,HOUSING_DASHBOARD_ENDEAVOR,Предприятие,1
+55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Телепортация на участок,1
+55221,HOUSING_DASHBOARD_NO_HOUSE_SELECTED,Дом не выбран,1
+55222,HOUSING_DASHBOARD_RETURN,Возвращение в предыдущую зону,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Ошибка при обновлении названия макета. Попробуйте еще раз.,1
 55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Введите текст,1
+55227,BINDING_NAME_HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE,Изменение наружной отделки,1
+55228,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME,Изменение наружной отделки,1
+55229,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON,Изменение наружной отделки,1
+55230,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_FMT,Изменение наружной отделки |cnNORMAL_FONT_COLOR:(%s)|nНастройте внешний вид дома|r,1
+55232,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER,Изменение наружной отделки,1
+55233,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER_FMT,Изменение наружной отделки |cnNORMAL_FONT_COLOR:(%s)|r,1
+55234,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT,Выйти из редактора наружной отделки,1
+55236,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT_FMT,Выйти из редактора наружной отделки |cnNORMAL_FONT_COLOR:(%s)|r,1
+55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,"Нажмите, чтобы перейти в редактор дома",1
+55243,CLEAN_DECOR_TUTORIAL_TEXT,"Щелкните по предмету декора и нажмите R, чтобы вернуть его в домашний сундук|n|n%s",1
+55244,DECORATE_DECOR_TUTORIAL_TEXT,"Щелкните или перетащите предмет декора из домашнего сундука, чтобы установить его в доме|n|n%s",1
+55245,EXIT_DECOR_MODE_TUTORIAL_TEXT,"Нажмите, чтобы закрыть редактор дома и продолжить обучение",1
+55246,HOUSING_CLIPPING_GRID_TUTORIAL_TEXT,Расставляйте предметы декора в режиме декорирования с помощью этих инструментов,1
+55247,HOUSING_CUSTOMIZATION_BUTTON_TUTORIAL_TEXT,В режиме персонализации можно изменять внешний вид предметов в доме,1
+55248,HOUSING_CLICK_DECOR_TUTORIAL_TEXT,"Щелкните по стенам, полу или предметам декора, чтобы персонализировать их",1
+55249,HOUSING_LAYOUT_BUTTON_TUTORIAL_TEXT,В режиме редактирования плана этажа можно изменить проект дома,1
+55250,HOUSING_LAYOUT_CHEST_TUTORIAL_TEXT,"Доступные комнаты отображаются в домашнем сундуке.|n|nВыберите комнату и щелкните по соединительному узлу, чтобы разместить ее",1
+55251,HELP_TIP_EXIT,Выход,1
+55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Этот режим закрыт во время обучения,1
+55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Для доступа к жилищам приобретите дополнение Midnight,1
+55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Для доступа к жилищам приобретите дополнение Midnight,1
+55273,HOUSING_DASHBOARD_OWNERS_HOUSE,Дом игрока %s,1
+55274,HOUSING_DASHBOARD_ADDRESS,%s %s,1
+55275,ERR_CHARTER_SIGNATURE_REQUEST_SENT,Вы попросили игрока %s подписать реестр района.,1
+55282,ERR_CHARTER_SIGNATURE_RECEIVED,%s подписывает ваш реестр района.,1
+55298,HOUSING_DASHBOARD_HOUSE_LEVEL,%s-й уровень,1
+55301,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR,Опыт дома: %s/%s,1
+55316,HOUSING_CREATENEIGHBORHOOD_GUILD_INFODESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Покупать участки могут как персонажи Альянса, так и персонажи Орды. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Приобрести участок разрешается только игрокам, состоящим в вашей гильдии. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Игроки, не состоящие в гильдии, будут выдворены из района. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Когда район заполнится целиком, будут автоматически созданы новые секции.",1
+55317,HOUSING_CREATENEIGHBORHOOD_CHARTER_INFODESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Покупать участки могут как персонажи Альянса, так и персонажи Орды. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Районные управляющие могут приглашать игроков в район.",1
+55318,GAME_MODE_DISABLED_TOOLTIP,Режим временно недоступен.,3
+55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Информация о районе:,1
+55333,RPE_TURNSTRAFE_SELECT,Назначение клавиш для передвижения,1
+55334,RPE_TURNSTRAFE_AFFECT_ACCOUNT,Изменения затронут назначение клавиш для всех персонажей на учетной записи,1
+55335,RPE_TURNSTRAFE_AFFECT_CHARACTER,Изменения затронут только этого персонажа,1
+55336,RPE_TURNSTRAFE_LEGACY,Классические,1
+55337,RPE_TURNSTRAFE_MODERN,Современные,1
+55338,RPE_TURNSTRAFE_LEGACY_DESC,Клавиши A и D позволяют |cnHIGHLIGHT_FONT_COLOR:поворачивать|r персонажа,1
+55339,RPE_TURNSTRAFE_MODERN_DESC,Клавиши A и D позволяют персонажу |cnHIGHLIGHT_FONT_COLOR:двигаться|r,1
+55340,RPE_TURNSTRAFE_ACTIVATE,Активация,1
+55341,RPE_TURNSTRAFE_ACTIVE,Активно,1
+55342,RPE_TURNSTRAFE_CHANGED,"Используемые по умолчанию клавиши поворота и движения вбок изменились, что могло повлиять на ваши настройки.",1
+55343,RPE_TURNSTRAFE_REVIEW,Обзор назначения клавиш,1
+55357,HOUSING_CORNERSTONE_NEIGHBORHOOD_CHARTER,Реестр,1
+55358,HOUSING_CORNERSTONE_NEIGHBORHOOD_GUILD,Гильдия,1
+55359,HOUSING_NEIGHBORHOODTYPE_GUILD,Гильдия,1
+55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Реестр,1
+55372,HOUSING_DASHBOARD_REWARD_INTERIOR_BUDGET,Бюджет декора интерьера,1
+55373,HOUSING_DASHBOARD_REWARD_EXTERIOR_BUDGET,Бюджет декора экстерьера,1
+55374,HOUSING_DASHBOARD_REWARD_ROOM_BUDGET,Бюджет комнат,1
+55375,HOUSING_DASHBOARD_REWARD_FIXTURE_BUDGET,Бюджет элементов,1
+55376,HOUSING_DASHBOARD_VISIT_NPC,"Поговорите с главным подрядчиком в вашем районе, чтобы повысить уровень дома",1
+55386,HOUSING_DECOR_DYE_LIST,Краски: %s,1
+55394,HOUSE_PURCHASE,Добро пожаловать домой!,1
+55398,BUY_HOUSE,Купить дом,1
+55399,HOUSING_DASHBOARD_START_TUTORIAL_TEXT,Начнем строить ваш дом вместе!,1
+55400,HOUSING_DASHBOARD_START_TUTORIAL_DESCRIPTION_TEXT,"Щелкните по кнопке ниже, чтобы начать обучение.|n|nЕго можно прерывать и возобновлять в любой момент.",1
+55401,HOUSING_DASHBOARD_START_TUTORIAL_BUTTON_TEXT,Начать обучение,1
+55402,NEIGHBORHOOD_LIST_TUTORIAL_TEXT,Выберите район проживания,1
+55403,NEIGHBORHOOD_MAP_TUTORIAL_TEXT,"Незанятые участки будут помечены знаком ""Продается",1
+55404,NEIGHBORHOOD_VISIT_HOUSE_TUTORIAL_TEXT,"Нажмите ""Посетить"", чтобы зарезервировать дом и телепортироваться к нему",1
+55405,HOUSING_OPEN_BAGS_TUTORIAL_TEXT,Вы получили декор для дома!,1
+55406,HOUSING_USE_ITEM_TUTORIAL_TEXT,"Используйте предметы декора в сумках, чтобы добавить их в домашний сундук.|n|nНекоторые предметы добавляются автоматически.",1
 55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Редактировать,1
 55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Настройки трекера восстановления,1
+55410,REPORTING_MINOR_CATEGORY_NEIGHBORHOOD_NAME,Название района,5
 55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Закрепленный союзник (Срок действия: %s),1
 55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
 55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
@@ -23306,25 +23873,76 @@ ID,BaseTag,TagText_lang,Flags
 55423,RECENT_ALLY_RAID_NAME_STRING_FORMAT,%s (%s),1
 55424,RECENT_ALLY_DELVE_NAME_STRING_FORMAT,%s (%s),1
 55425,RECENT_ALLY_MYTHIC_PLUS_DUNGEON_NAME_STRING_FORMAT,%s (%s),1
+55429,QUEUE_STATUS_WOWHACK_TITLE,[PH],1
+55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
+55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
+55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55454,ERR_TRAVEL_PASS_GAME_MODE,Игрок играет в другую версию World of Warcraft.,3
+55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Нет краски,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Показ местонахождения,1
 55467,SOCIAL_LOCATION_VISIBILITY_SETTING_TOOLTIP,"Укажите, кто может видеть в меню общения ваше текущее местонахождение в игре.",1
 55468,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD,Друзья и товарищи по гильдии,1
 55469,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD_ALLIES,"Друзья, недавние союзники и товарищи по гильдии",1
 55474,LOREWALKING_QUESTS_HIDDEN_HELP_TIP,Сейчас вы проходите экскурс в историю. Все остальные задания в этом режиме скрыты.,1
+55476,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_EMPTY_TOOLTIP,Прикрепить элемент,1
+55477,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_OCCUPIED_TOOLTIP,Сменить элемент,1
+55487,GAME_MENU_SHOW_REWARDS,Награды,1
+55488,CHARACTER_SELECT_SHOW_REWARDS,[PH] Rewards,2
+55489,CHARACTER_SELECT_INFO_BUTTON,[PH] Info,2
+55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Неприемлемый декор,1
+55494,HOUSING_DASHBOARD_REWARD_INTERIOR_TOOLTIP,Повысьте бюджет размещенного декора,1
+55495,HOUSING_DASHBOARD_REWARD_EXTERIOR_TOOLTIP,Повысьте бюджет размещенного внешнего декора,1
+55496,HOUSING_DASHBOARD_REWARD_ROOM_TOOLTIP,Повысьте бюджет размещенных комнат,1
+55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Повысьте бюджет внешних элементов,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-ЛКМ для быстрого назначения,1
+55508,SPELL_FAILED_CUSTOM_ERROR_652,У вас уже есть такой предмет декора.,1
+55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,Доступно после прохождения острова Изгнанников.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,Следующее голосование за выход возможно через: |cnWHITE_FONT_COLOR:%s|r,1
+55512,REPORTING_REPORT_PLAYER_HOUSE,Пожаловаться на дом игрока (%s),1
+55513,HOUSING_NEIGHBORHOOD_MAP_ERROR,Ошибка поиска ID карты района,1
+55514,REPORTING_REPORT_SCREENSHOT_DESCRIPTION,Сделайте снимок экрана неприемлемого декора. Элементы интерфейса на изображение не попадут.,1
+55515,REPORTING_REPORT_SCREENSHOT_EMPTY,"Нажмите клавишу снимка экрана, чтобы прикрепить изображение",1
+55530,EQUIPPED,Используется,1
+55531,REPORTING_SCREENSHOT_INSTRUCTIONS,"Щелкните ЛКМ, чтобы сделать снимок экрана",1
 55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,Нельзя проголосовать за выход во время битвы с боссом,1
+55537,HOUSING_LAYOUT_NUM_ROOMS_TOOLTIP,"Бюджет комнат |cnNORMAL_FONT_COLOR:|nПовысьте уровень дома, чтобы увеличить количество доступных комнат.|r",1
+55540,HOUSE_UPGRADE_AVAILABLE_TOAST,Можно повысить уровень дома,1
+55541,HOUSEFINDER_SEARCH_DESCRIPTION_FAILED,Не удалось найти районы,1
 55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Сбросить,1
 55543,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP,Сбрасывает все изменения интерфейса после предыдущего сохранения,1
 55544,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_REVERT_CHANGES,Отменить все изменения после предыдущего сохранения?,1
 55545,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_RESET_LAYOUT_TO_DEFAULT,Сбросить интерфейс трекера восстановления к настройкам по умолчанию? Это действие нельзя будет отменить.,1
 55550,COOLDOWN_VIEWER_SETTINGS_LAYOUT_SAVED_MESSAGE,Настройки трекера восстановления сохранены,1
+55551,NEIGHBORHOODMAP_YOUR_HOUSE,Ваш дом,1
+55552,NEIGHBORHOODMAP_OWNED_BY,Владелец: %s,1
+55557,HOUSEFINDER_VISIT_DESCRIPTION,"Щелкнув ""Посетить"", вы зарезервируете участок на 5 минут.",1
+55558,HOUSEFINDER_PRICE_LABEL,Цена:,1
+55559,HOUSEFINDER_NEIGHBORHOOD_LABEL,Район:,1
+55560,HOUSEFINDER_LOCATION_LABEL,Местонахождение:,1
+55561,HOUSEFINDER_TYPE_LABEL,Тип:,1
+55562,HOUSEFINDER_OWNER_LABEL,Владелец:,1
+55563,HOUSEFINDER_RESERVATION_ERROR,Дом больше не доступен.,1
+55564,HOUSEFINDER_VISIT_BUTTON,Посетить,1
+55575,RPE_STARTER_BUILD_TUTORIAL,"Не знаете, что выбрать? Воспользуйтесь |cnBLUE_FONT_COLOR:стартовым вариантом развития|r!",1
+55576,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_MISSING_EXPANSION,У приглашенного игрока нет дополнения Midnight.,1
+55577,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_DUPLICATE_SIGNATURE,Приглашенный игрок зарегистрирован в другом реестре района.,1
+55578,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_GENERIC,Что-то пошло не так при запросе подписи.,1
+55606,HOUSING_BULLETINBOARD_REPORT,Пожаловаться,1
+55607,HOUSING_CORNERSTONE_REPORT,Пожаловаться,1
 55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,"Произошла ошибка. Пожалуйста, повторите попытку.",1
 55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
+55613,RPE_CATCH_UP_AVAILABLE,Для догоняющих,2
+55615,RPE_SELECT_EXPERIENCE,Выбор цепочки,2
 55616,CATALOG_SHOP_DETAILS,Описание,3
 55617,CATALOG_SHOP_BACK,Назад,3
 55618,CATALOG_SHOP_RACE,Раса,3
+55620,RPE_EXPERIENCE_SKIP_HEADER,"Продолжите с того же места, на котором остановились",2
+55621,RPE_EXPERIENCE_LOCATION,Местонахождение: %s,2
+55622,RPE_EXPERIENCE_SELECT,Выбрать,2
+55623,RPE_EXPERIENCE_SKIP_INFO,Вы можете в любой момент начать цепочку заданий для догоняющих с помощью путеводителя по приключениям,2
+55625,RPE_EXPERIENCE_PLAY_HEADER,Начните цепочку заданий для догоняющих,2
+55626,RPE_EXPERIENCE_PLAY_TOOLTIP,"Отправьтесь в путешествие по Нагорью Арати, чтобы ознакомиться с особенностями World of Warcraft и получить новое снаряжение.",2
 55627,CATALOG_SHOP_PRODUCT_OWNED,Уже есть,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Услуга,3
 55635,MOVE_PAD_LOCKED,Зафиксировать окно,1
@@ -23335,21 +23953,230 @@ ID,BaseTag,TagText_lang,Flags
 55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,Предмет доступен только в %s,3
 55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
 55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55649,HOUSING_DECOR_STORAGE_ITEM_DESTROY,Уничтожить,1
+55652,RPE_TITLE,Цепочка заданий для догоняющих,1
+55653,RPE_START_EXPERIENCE,Начало,1
+55655,RPE_TUTORIAL_TEXT,"Хотите получше освоиться на Азероте?|n|nОтправьтесь в путешествие по Нагорью Арати, чтобы ознакомиться с особенностями World of Warcraft и получить новое снаряжение для персонажа.|n|nВы можете прекратить прохождение контента для догоняющих в любой момент.",1
+55657,EJ_TUTORIALS,Обучение,1
+55658,HOUSING_DECOR_STORAGE_ITEM_CANNOT_DESTROY,Данный предмет декора нельзя уничтожить. Он также не занимает места в домашнем сундуке.,1
+55659,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY,"Вы уверены, что хотите уничтожить предмет ""%s""?|n|nЭто действие нельзя отменить.|n|nДля продолжения введите ""%s"".",1
+55665,HOUSING_DECOR_STORAGE_ITEM_DESTROY_ALL,Уничтожить все,1
+55666,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY_ALL,"Вы уверены, что хотите уничтожить предмет ""%2$s"" (%1$d)?|n|nЭто действие нельзя отменить.|n|nДля продолжения введите ""%3$s"".",1
+55668,HOUSING_DECOR_STORAGE_ITEM_DESTROY_CONFIRMATION_STRING,УНИЧТОЖЕНИЕ,1
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Летающий транспорт,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
 55680,GAMEMENU_EXTERNALEVENT,Занятия,1
+55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Откройте эту награду.,1
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,"Вы не можете видеть этого игрока, поскольку он находится в другом игровом мире. Уровень мира можно изменить с помощью панели бесконечного хаоса на бесконечном базаре возле Даларана.",1
+55691,RPE_SKYRIDING_TAKE_OFF,|cnNORMAL_FONT_COLOR:Взлетайте!|r,1
+55692,RPE_SKYRIDING_FLY_HIGHER,|cnNORMAL_FONT_COLOR:Летите выше|r,1
+55693,RPE_SKYRIDING_SURGE_FORWARD,|cnNORMAL_FONT_COLOR:Летите вперед|r,1
+55694,RPE_SKYRIDING_STEER,|cnNORMAL_FONT_COLOR:Изменяйте направление с помощью мыши|r,1
+55695,RPE_SKYRIDING_LAND,|cnNORMAL_FONT_COLOR:Приземляйтесь|r,1
+55696,RPE_SKYRIDING_COMMA,"|cnNORMAL_FONT_COLOR:,|r",1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
-55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hМогут действовать определенные ограничения. Подробности – на странице |c82c5ffffтовара|r в shop.battle.net.|h,3
+55699,HOUSING_BULLETINBOARD_NEIGHBORHOOD_ROSTER,Список района,1
+55709,RPE_SKYRIDING_COLLECTIONS_HELPTIP,"Откройте коллекцию отряда, чтобы просмотреть ваши средства передвижения",1
+55710,RPE_SKYRIDING_DRAG_MOUNT_HELPTIP,Щелкните по значку транспорта левой кнопкой мыши и перетащите его на панель команд.|n|nВ списке показаны только летающие средства передвижения.,1
+55713,RPE_SKYRIDING_MOUNT_UP,"|cnNORMAL_FONT_COLOR:Воспользуйтесь транспортом, щелкнув по значку способности|r",1
+55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hМогут действовать определенные ограничения. Подробности – на странице |cnLINK_FONT_COLOR:товара|r в shop.battle.net.|h,3
+55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Каталог,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,"Чтобы купить жетон WoW, нужно войти в игру за одного из персонажей.",3
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Летающий водный транспорт,3
 55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Пустая ячейка,1
+55768,HOUSING_ENDEAVORS_COMING_SOON,Предприятия – скоро в игре!,1
 55771,CATALOG_SHOP_NOT_AVAILABLE,Внутриигровой магазин недоступен,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,"Пожалуйста, загляните попозже.",3
+55781,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL,Тип дома,1
+55782,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL,Размер дома,1
+55783,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL,Базовый стиль,1
+55784,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_VARIANT_LABEL,Базовый цвет,1
+55785,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_TYPE_LABEL,Стиль крыши,1
+55786,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_VARIANT_LABEL,Цвет крыши,1
+55787,HOUSING_EXTERIOR_CUSTOMIZATION_FIXTURE_NONE_OPTION,Нет,1
+55788,HOUSING_DYE_TOOLTIP_DESCRIPTION,Краска для дома,1
+55790,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_LABEL,Стоимость:,1
+55791,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_LABEL,Краска %d,1
+55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Маленький,1
+55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,Не получено,1
+55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Двери можно только передвигать, но не удалять",1
+55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Дополнительные возможности – уже скоро,1
+55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,Здесь вы можете ознакомиться с информацией о доме,1
+55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,С помощью этой кнопки вы можете телепортироваться в ваш дом,1
+55826,HOUSING_MARKET_TAB_TUTORIAL_TEXT,"Закладка каталога позволяет просматривать предметы декора, размещая их непосредственно в доме",1
+55830,ERR_HOUSING_ACTION_UNAVAILABLE,Это действие сейчас недоступно,1
+55858,AUCTION_CATEGORY_HOUSING,Жилье,1
+55860,RECENT_ALLY_PIN_TOOLTIP,Отмеченный союзник,1
+55861,HOUSING_DECOR_PLACEMENT_COST_FORMAT,|A:House-Decor-budget-icon:21:21|a %d,1
+55862,HOUSING_DECOR_FIRST_ACQUISITION_FORMAT,Бонус при первом получении: |cnHIGHLIGHT_FONT_COLOR:+%d опыта дома|r,1
+55863,HOUSING_DECOR_DYED_NAME_FORMAT,%s (покрашено),1
+55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,Всего: |cnHIGHLIGHT_FONT_COLOR:%d (размещено: %d; на складе: %d)|r,1
+55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Настенный декор может меняться при смене стиля стен,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Покупки обрабатываются,3
+55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Подкладка сумки,1
+55955,HOUSING_LAYOUT_STAIRS_UP,Вверх,1
+55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,"Выберите, в какую сторону будет развернута новая лестничная клетка:",1
+55957,HOUSING_LAYOUT_STAIRS_DOWN,Вниз,1
+55960,HOUSE_UPGRADE_AVAILABLE_TOAST_SUB_TITLE_FORMAT,%2$s %1$d – уровень %3$d,1
+55963,ERR_PLACED_ROOM_LIMIT_REACHED,"Достигнут лимит комнат. Удалите комнату, если хотите добавить другую.",1
+55964,HOUSING_LAYOUT_UP_DOOR_TOOLTIP,Расширение лестничной клетки вверх,1
+55965,HOUSING_LAYOUT_DOWN_DOOR_TOOLTIP,Расширение лестничной клетки вниз,1
+55983,EXILESREACH_SKIP_CONFIRM,"Если вы решите пропустить остров Изгнанников, то не узнаете крайне важные подробности об игровом процессе.|n|nВы уверены?",1
+55996,RPE_ASSISTED_HIGHLIGHT_TURN_OFF,Отключить,1
+55997,RPE_ASSISTED_HIGHLIGHT_KEEP_ON,Оставить включенной,1
+55998,RPE_ASSISTED_HIGHLIGHT_ACTIVATED,|cnNORMAL_FONT_COLOR:Вспомогательная подсветка включена: рекомендованные|nспособности будут подсвечиваться на панелях команд|r,1
+55999,RPE_ASSISTED_HIGHLIGHT_TURN_CHOICE,"Оставить вспомогательную подсветку?|n|n|cnNORMAL_FONT_COLOR:При прохождении контента для догоняющих была включена вспомогательная подсветка. Эта функция подсказывает, какую способность на ваших панелях команд рекомендуется использовать следующей.|n|nПродолжить использовать подсветку?|r Вы можете в любой момент включить или отключить ее в настройках.",1
+56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Панель жилья,1
+56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Каталог декора,1
+56044,HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP,Информация о доме,1
+56053,ERR_CHARTER_SYSTEM_REQUEST_FAILED_GENERIC,В системе реестров обнаружена ошибка. Попробуйте позднее.,1
+56057,HOUSING_DECOR_DYE_NOT_ENOUGH_DYE,У вас нет необходимой краски,1
+56058,HOUSING_HOUSE_XP_ADDED_FORMAT,+%d к опыту дома,1
+56059,HOUSING_CATALOG_FILTERS_FIRST_ACQUISITION,Бонус коллекции,1
+56060,HOUSING_CATALOG_FILTERS_UNCOLLECTED,Еще не получено,1
+56061,HOUSING_CATALOG_FILTERS_COLLECTED,Получено,1
+56062,HOUSING_DECOR_BUNDLE_DISCLAIMER,Этот предмет также входит как минимум в один набор,1
+56063,HOUSING_DECOR_PRICE_FORMAT,Цена: %s,1
+56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s | %s,1
+56072,RPE_SPELL_INTERRUPT,"|cnNORMAL_FONT_COLOR:Заклинания с индикаторами, на которых отображается щит, нельзя прервать|r",1
+56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,Размещению мешают другие объекты,1
+56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,"Нажмите %s, чтобы отменить эффект столкновения",1
+56092,HOUSING_PLACEMENT_OUTSIDE_PLOT_ERROR_TITLE,Нельзя разместить за пределами участка,1
+56104,NPE_TAB_TARGETING,|cnNORMAL_FONT_COLOR:Выбрать целью|r ближайшего противника,1
+56106,HOUSING_NEIGHBORHOOD_SETTINGS_COST,Цена: 1,1
+56107,CHAR_DELETE_FAILED_NEIGHBORHOOD_OWNER,"Этот персонаж – владелец района. Прежде чем удалить его, необходимо передать права на владение районом другому персонажу.",2
+56109,HOUSING_BUNDLE_CONTENTS_FORMAT,Содержит: %s,1
+56110,HOUSING_BUNDLE_DECOR_ENTRY_FORMAT,%s (%d),1
+56111,HOUSING_BUNDLE_CLICK_TO_VIEW,Щелкните для просмотра содержимого,1
+56116,HOUSING_PLACEMENT_COLLISION_ERROR_HELPTIP,"Нажав %s, вы можете отменить эффект столкновения при размещении предметов",1
+56117,HOUSING_ITEM_TOAST_TYPE_DECOR,Декор,1
+56118,HOUSING_ITEM_TOAST_TYPE_ROOM,Комната,1
+56119,HOUSING_ITEM_TOAST_TYPE_CUSTOMIZATION,Персонализация,1
+56120,HOUSING_ITEM_TOAST_TYPE_FIXTURE,Элемент,1
+56121,NEIGHBORHOOD_NAME_FORMAT,"%3$s ""%1$s %2$s""",1
+56152,HOUSING_CHEST_SORT_TYPE_DATE_ADDED,По дате добавления,1
+56153,HOUSING_CHEST_SORT_TYPE_ALPHABETICAL,По алфавиту,1
+56163,HOUSING_CATALOG_MODEL_PREVIEW_UNAVAILABLE,Просмотр недоступен,1
+56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,"В этом доме уже максимальное количество посетителей. Чтобы вы смогли его посетить, как минимум один игрок сначала должен выйти.",1
+56183,RPE_NO_INTERRUPT_ACTION,Добавьте прерывающую способность из книги заклинаний на панель,1
+56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,Во внешней стене дома должна быть ровно одна дверь,1
+56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,В ячейке элемента уже пусто,1
+56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,Здесь уже стоит элемент,1
+56193,ERR_HOUSING_RESULT_FIXTURE_HOUSE_TYPE_MISMATCH,Элемент не подходит к стилю дома,1
+56194,ERR_HOUSING_RESULT_FIXTURE_NOT_FOUND,Элемент не найден,1
+56195,ERR_HOUSING_RESULT_FIXTURE_NOT_OWNED,Вы еще не открыли этот элемент,1
+56196,ERR_HOUSING_RESULT_FIXTURE_SIZE_MISMATCH,Размер элемента не подходит к размеру дома,1
+56197,ERR_HOUSING_RESULT_FIXTURE_TYPE_MISMATCH,Неверный тип элемента,1
+56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Слишком далеко,1
+56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,Надо перейти в режим наружной отделки,1
+56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,Этот декор нельзя удалить из домашнего сундука,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,Перенос персонажа недоступен для этого игрового мира,2
+56210,CHAR_DELETE_FAILED_HOUSE_OWNER,"Нельзя удалить персонажа, у которого есть дом",2
+56232,BINDING_NAME_HOUSING_BASICDECOR_ROTATELEFT,Вращать декор влево,1
+56233,BINDING_NAME_HOUSING_BASICDECOR_ROTATERIGHT,Вращать декор вправо,1
+56234,HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION,Вращение вправо,1
+56235,HOUSING_BASIC_DECOR_ROTATE_LEFT_INSTRUCTION,Вращение влево,1
+56236,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_NOT_IN_EXPERT,Надо перейти в расширенный режим,1
+56237,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_HOUSE_EXTERIOR_SCALE,Нельзя изменить размер дома,1
+56238,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_WMO_SCALE,Нельзя изменить размер этого декора,1
+56244,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_STAIRS,Стиль лестницы,1
+56247,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_STAIRS,Материал лестницы,1
+56251,HOUSING_DECOR_CUSTOMIZATION_LABEL_STAIRS,Лестница,1
+56255,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_CEILING,Изменить потолок,1
+56256,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_WALL,Изменить стену,1
+56257,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_FLOOR,Изменить пол,1
+56258,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_STAIRS,Изменить лестницу,1
+56259,HOUSING_LAYOUT_PREFAB_ROOM_TOOLTIP,Творческая комната,1
+56268,HOUSING_SUBDIVISION_FORMAT,Секция %d,1
+56269,HOUSING_HOUSEFINDER_WRONG_FACTION,Персонаж вашей фракции не может купить дом в этом районе,1
+56270,HOUSING_HOUSEFINDER_CHARTER_INVITE,Вас пригласили в реестр района,1
+56272,HOUSING_HOUSEFINDER_PARTY_LEADER,Лидер группы зарезервировал дом в этом районе,1
+56273,HOUSING_HOUSEFINDER_CANCEL_INVITATION,Отказаться от приглашения в этот район?,1
+56274,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CONFIRM,Отказаться,1
+56275,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CANCEL,Отмена,1
+56306,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE,Настройки дома недоступны,1
+56307,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE_FMT,Настройки дома недоступны: %s,1
+56311,ERR_HOUSING_RESULT_CHARTER_COMPLETE,Реестр уже заполнен,1
+56312,ERR_HOUSING_RESULT_DECOR_CANNOT_BE_REDEEMED,Нет доступных вариантов этого декора,1
+56314,ERR_HOUSING_RESULT_DECOR_NOT_FOUND_IN_STORAGE,Декора нет в домашнем сундуке,1
+56315,ERR_HOUSING_RESULT_DUPLICATE_CHARTER_SIGNATURE,Игрок уже подписал реестр другого района,1
+56316,ERR_HOUSING_RESULT_GUILD_NOT_LOADED,Гильдия не загрузилась,1
+56317,ERR_HOUSING_RESULT_HOUSE_EXTERIOR_ROOT_NOT_FOUND,Не удалось найти исходную наружную отделку,1
+56318,ERR_HOUSING_RESULT_HOOK_NOT_CHILD_OF_FIXTURE,Неверный стартовый элемент,1
+56320,ERR_HOUSING_RESULT_INVALID_HOUSE,Неподходящий дом,1
+56321,ERR_HOUSING_RESULT_INVALID_INSTANCE,Неподходящая область,1
+56322,ERR_HOUSING_RESULT_INVALID_MAP,Неподходящая карта,1
+56323,ERR_HOUSING_RESULT_MISSING_CORE_FIXTURE,Не хватает фундамента или крыши,1
+56324,ERR_HOUSING_RESULT_MISSING_DYE,Нет краски,1
+56325,ERR_HOUSING_RESULT_MISSING_EXPANSION_ACCESS,Нет нужного дополнения,1
+56326,ERR_HOUSING_RESULT_MISSING_FACTION_MAP,Не удалось найти карту для фракции,1
+56327,ERR_HOUSING_RESULT_MISSING_PRIVATE_NEIGHBORHOOD_INVITE,Нет приглашения в район,1
+56328,ERR_HOUSING_RESULT_MORE_SIGNATURES_NEEDED,Нужно больше подписей,1
+56329,ERR_HOUSING_RESULT_PLAYER_NOT_IN_INSTANCE,Игрок вне нужной области,1
+56330,ERR_HOUSING_RESULT_PLOT_NOT_VACANT,Участок уже занят,1
+56331,ERR_HOUSING_RESULT_PLOT_RESERVATION_COOLDOWN,До следующей резервации нужно подождать,1
+56332,ERR_HOUSING_RESULT_PLOT_RESERVED,Участок уже зарезервирован,1
+56333,ERR_HOUSING_RESULT_TIMERUNNING_NOT_ALLOWED,Не для путешественников во времени,1
+56334,ERR_HOUSING_RESULT_TOO_MANY_REQUESTS,Слишком много запросов,1
+56335,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TOTALOWNED,(Общее количество декора: %d),1
+56336,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE,Свободное место: %d/%d,1
+56337,HOUSING_CATALOG_STORAGE_LIMIT_FMT,%d/%d,1
+56338,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE_OVER_LIMIT,Свободное место: |cnRED_FONT_COLOR:%d|r/%d,1
+56339,HOUSING_CATALOG_STORAGE_LIMIT_FMT_OVER_LIMIT,|cnRED_FONT_COLOR:%d|r/%d,1
+56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,"Размещенный декор: %d/%d |cnNORMAL_FONT_COLOR:|nПовысьте уровень дома, чтобы увеличить лимит.|r",1
+56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Размещенный декор: %d/%d,1
+56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,"|cnGREEN_FONT_COLOR:Нажмите, чтобы выбрать или убрать краску|r",1
+56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Применяет выбранный стиль ко всей комнате.,1
+56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Применяет выбранный материал ко всем стенам в комнате.,1
+56346,HOUSING_LAYOUT_NUM_ROOMS_ERROR_TOOLTIP," |cnNORMAL_FONT_COLOR:|nЛимит размещения комнат: %d/%d|nПовысьте уровень дома, чтобы увеличить количество доступных комнат.|r",1
+56347,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_ABOVE,Сверху уже есть комната,1
+56348,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_BELOW,Снизу уже есть комната,1
+56349,HOUSING_LAYOUT_STAIRWELL_ROOM_TOOLTIP,Комнаты с лестницами можно ставить друг над другом.,1
+56350,HOUSING_ROOM_PLACEMENT_COST_FORMAT,|A:house-room-limit-icon:21:21|a %d,1
+56351,HOUSING_DECOR_CUSTOMIZATION_HOUSE_EXTERIOR_TOOLTIP,"Перейдите в редактор наружной отделки, чтобы настроить внешний вид дома",1
+56352,HOUSING_CLEANUP_HOUSE_EXTERIOR_TOOLTIP,Нельзя убрать дом,1
+56353,HOUSE_EDITOR_PLACED_DECOR_LIST_HEADER,Размещенный декор,1
+56354,HOUSE_EDITOR_PLACED_DECOR_LIST_REMOVE,Убрать декор,1
+56355,HOUSE_EDITOR_PLACED_DECOR_LIST_TOOLTIP,Список размещенного декора,1
+56356,HOUSING_CONTROLS_COMING_SOON,|cnNORMAL_FONT_COLOR:Скоро!|r,1
+56357,BINDING_NAME_HOUSING_LAYOUTFLOOR_UP,Подняться на этаж,1
+56358,BINDING_NAME_HOUSING_LAYOUTFLOOR_DOWN,Спуститься на этаж,1
+56359,HOUSING_CONTROLS_SETTINGS_TOOLTIP,Параметры и права доступа,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- В данный момент недоступно путешественникам во времени.,3
-57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,Режим предварительного просмотра в каталоге в данный момент недоступен.,1
+56589,BINDING_NAME_HOUSING_REMOVEDECOR,Убрать декор,1
+56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Багрянец,1
+56598,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_GREEN,Лесной,1
+56599,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PURPLE,Фиолетовый,1
+56600,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_ORANGE,Ржавчина,1
+56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Океан,1
+56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Горчичный,1
+56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Мускатный орех,1
+56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,"Стоимость размещения декора |cnNORMAL_FONT_COLOR:|nУказывает, какая часть бюджета декора будет затрачена на размещение выбранного предмета|r",1
+56644,ERROR_SCRIPT_EXECUTION_HALT,Отправка отчетов об ошибках прервана и возобновится после перезагрузки интерфейса.,3
+56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Алгоритм от источника ""%s"" превысил время на исполнение.",3
+56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
+56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,Размещено: %d; на складе: %d,1
+56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:Новая награда: бонус за первое получение|r,1
+56733,HOUSEFINDER_AVAILABLE,Свободно,1
+56734,HOUSEFINDER_FRIEND,Друг,1
+56736,HOUSING_ADVANCED_MODE_TUTORIAL_TEXT,"В расширенном режиме можно точнее настраивать внешний вид, перемещая, вращая и меняя размер декора",1
+56737,HOUSING_CLEANUP_MODE_TUTORIAL_TEXT,Режим очистки быстро убирает несколько предметов декора,1
+56738,HOUSING_MODES_TUTORIAL_TEXT,Несколько разных режимов редактирования помогут обставить дом как захочется!,1
+56739,HOUSING_LAYOUT_MODE_STAIRS_TUTORIAL_TEXT,"Комната с лестницей добавит больше этажей, между которыми можно перемещаться здесь!",1
+56743,CATALOG_SHOP_DYNAMIC_BUNDLE_DISCOUNT,"Со скидкой на предметы, которые у вас уже есть.",3
+56744,BINDING_NAME_HOUSING_EXPERTDECORROTATION_NEXTAXIS,Переключить на следующую ось вращения,1
+56745,ERR_GUILD_NEIGHBORHOOD_BUILT_HOUSE_S,%s заканчивает строить дом!,1
+56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s покидает район.,1
+56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,Район вашей гильдии получает новое подразделение!,1
+56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,"Название района вашей гильдии сменяется на ""%s",1
+56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Итого: %s,3
+56783,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_TOOLTIP,"|n|cff20ff20Можно получать, завершая предприятия и связанные с ними задачи, а также когда вы приобретаете или находите новые предметы декора необычного или более высокого качества|r",1
+56823,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_DETAILS,"Некоторый декор (например, предметы из магазина) не занимает место для хранения",1
+56881,REPORTING_REPORT_SCREENSHOT_BUTTON,Сделать скриншот,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1

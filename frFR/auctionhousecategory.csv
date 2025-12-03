@@ -24,7 +24,7 @@ Cannes à pêche,NivO,22,3,57,0,10,21,0,1
 Autres,NivO,23,3,17,0,20,21,0,1
 Armure,NivO,24,5,0,0,200,0,0,1
 Plaque,NivO,25,5,23,0,10,24,0,1
-Gravure runique,NivO,26,5,23,0,10,25,12,1
+Gravure runique,NivO,26,5,23,0,10,25,13,1
 Tête,NivO,27,5,23,1,20,25,0,1
 Épaule,NivO,28,5,23,3,30,25,0,1
 Torse,NivO,29,5,23,5,40,25,0,1
@@ -34,7 +34,7 @@ Pieds,NivO,32,5,23,8,70,25,0,1
 Poignets,NivO,33,5,23,9,80,25,0,1
 Mains,NivO,34,5,23,10,90,25,0,1
 Mailles,NivO,35,5,22,0,20,24,0,1
-Gravure runique,NivO,36,5,22,0,10,35,12,1
+Gravure runique,NivO,36,5,22,0,10,35,13,1
 Tête,NivO,37,5,22,1,20,35,0,1
 Épaule,NivO,38,5,22,3,30,35,0,1
 Torse,NivO,39,5,22,5,40,35,0,1
@@ -44,7 +44,7 @@ Pieds,NivO,42,5,22,8,70,35,0,1
 Poignets,NivO,43,5,22,9,80,35,0,1
 Mains,NivO,44,5,22,10,90,35,0,3
 Cuir,NivO,45,5,21,0,30,24,0,1
-Gravure runique,NivO,46,5,21,0,10,45,12,1
+Gravure runique,NivO,46,5,21,0,10,45,13,1
 Tête,NivO,47,5,21,1,20,45,0,1
 Épaule,NivO,48,5,21,3,30,45,0,1
 Torse,NivO,49,5,21,5,40,45,0,1
@@ -54,7 +54,7 @@ Pieds,NivO,52,5,21,8,70,45,0,1
 Poignets,NivO,53,5,21,9,80,45,0,1
 Mains,NivO,54,5,21,10,90,45,0,1
 Tissu,NivO,55,5,20,0,40,24,0,1
-Gravure runique,NivO,56,5,20,0,10,55,12,1
+Gravure runique,NivO,56,5,20,0,10,55,13,1
 Tête,NivO,57,5,20,1,20,55,0,1
 Épaule,NivO,58,5,20,3,30,55,0,1
 Torse,NivO,59,5,20,5,40,55,0,1
@@ -64,7 +64,7 @@ Pieds,NivO,62,5,20,8,70,55,0,1
 Poignets,NivO,63,5,20,9,80,55,0,1
 Mains,NivO,64,5,20,10,90,55,0,1
 Divers,NivO,65,5,19,0,50,24,0,1
-Gravure runique,NivO,66,5,19,0,10,65,12,1
+Gravure runique,NivO,66,5,19,0,10,65,13,1
 Cou,NivO,67,5,19,2,20,65,0,1
 Cape,NivO,68,5,20,16,30,65,0,1
 Doigt,NivO,69,5,19,11,40,65,0,1
@@ -213,3 +213,37 @@ Outils,NivO,211,145,339,29,10,205,0,1
 Cou,NivO,212,9,188,0,45,99,0,0
 Sac de composants,Emplacements,215,2,344,0,15,76,0,2
 Composants de finition,,217,8,343,0,110,136,0,0
+Éléments de décoration,,218,147,356,0,0,0,0,0
+Mobilier,,219,147,356,0,0,218,0,0
+Éléments décoratifs,,220,0,0,0,1,218,0,0
+Ornements,,221,0,0,0,0,220,0,0
+Structures,,222,0,0,0,0,218,0,0
+Éclairage,,223,0,0,0,0,218,0,0
+Fonctionnel,,224,0,0,0,0,218,0,0
+Plantes,,225,0,0,0,0,218,0,0
+Divers,,226,0,0,0,0,218,0,0
+Sièges,,227,0,0,0,0,219,0,0
+Tables et bureaux,,228,0,0,0,0,219,0,0
+Rangements,,229,0,0,0,0,219,0,0
+Lits,,230,0,0,0,0,219,0,0
+Mobilier divers,,231,0,0,0,0,219,0,0
+Nourriture et boissons,,232,0,0,0,0,220,0,0
+Décorations diverses,,233,0,0,0,0,220,0,0
+Portes,,234,0,0,0,0,222,0,0
+Fenêtres,,235,0,0,0,0,222,0,0
+Murs et colonnes,,236,0,0,0,0,222,0,0
+Grandes structures,,237,0,0,0,0,222,0,0
+Structures diverses,,238,0,0,0,0,222,0,0
+Grandes lampes,,239,0,0,0,0,223,0,0
+Appliques,,240,0,0,0,0,223,0,0
+Lustres,,241,0,0,0,0,223,0,0
+Petites lampes,,242,0,0,0,0,223,0,0
+Lampes diverses,,243,0,0,0,0,223,0,0
+Utilitaires,,244,0,0,0,0,224,0,0
+Présentoirs à objet,,245,0,0,0,0,224,0,0
+Fonctionnels divers,,246,0,0,0,0,224,0,0
+Grand feuillage,,247,0,0,0,0,225,0,0
+Petit feuillage,Compétence,248,0,0,0,0,225,0,4
+Buissons,,249,0,0,0,0,225,0,0
+Couvre-sol,,250,0,0,0,0,225,0,0
+Plantes diverses,,251,0,0,0,0,225,0,0

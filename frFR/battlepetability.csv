@@ -2861,9 +2861,9 @@ Au bout de 2 tours, la mascotte de l’adversaire subit [StandardDamage(3,1,206
 2063,Éruption d’égout,"|cffffffffChances de toucher :|r [StandardAccuracy(3,1)] 
 
 Lorsque cet effet se termine, votre mascotte actuelle subit [StandardDamage(3,1)] points de dégâts [School()] et est incapable de s’enfuir pendant [duration(3,2)] |4tour:tours;.",236271,5,0,1118,0
-2064,L’heure du thé,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)] 
+2064,L’heure du thé,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
-Attaque l’adversaire en un clin d’œil et inflige [StandardDamage(1,7)] points de dégâts [School()] à toutes les mascottes adverses.",132802,3,0,0,0
+Attaque l’équipe adverse en un clin d’œil et inflige [StandardDamage(1,1)] $lpoint:points; de dégâts [School()] à toutes les mascottes adverses lors de la première attaque et [StandardDamage(1,4)] de dégâts [School()] lors de la seconde.",132802,3,0,0,0
 2065,Heure de la sieste,"S’endort et récupère [StandardHealing(1,1,2066)] points de vie au premier tour, [StandardHealing(2,1,2066)] au deuxième, puis [StandardHealing(3,1,2066)] au troisième.
 
 Impossible d’échanger les mascottes pendant la sieste.",132156,7,5,0,2

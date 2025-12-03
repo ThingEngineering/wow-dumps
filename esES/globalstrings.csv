@@ -1691,8 +1691,7 @@ omoderador <canal> <jugador>: cambiar un jugador al estado de moderador",3
 11545,NEXT_ABILITY,Siguiente facultad,1
 11546,SKILLS,Hab.,1
 11547,CHAT_HELP_TEXT_LINE1,Comandos del chat:,1
-11548,CHAT_HELP_TEXT_LINE10,"/silencio, /advertir, 
-ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un jugador",3
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,Escribe /unirse <nombre del canal> [contraseña] para crear un canal o unirse a uno que ya existe.,1
 11550,GUILD_HELP_TEXT_LINE8,El comando /hdegradar <jugador> degrada un rango a un jugador en tu hermandad.,1
 11551,STARTUP_TEXT_LINE1,Escribe /ayuda para ver una lista de varios comandos.,1
@@ -1794,7 +1793,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h Permiso de chat otorgado a %s.,1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvitar, /chatinvitar <canal> <jugador>: invitar a un jugador a un canal",3
 11666,CHAT_HELP_TEXT_LINE12,/cexpulsar <canal> <jugador>: expulsar a un jugador de un canal,3
-11667,CHAT_HELP_TEXT_LINE15,/moderar <canal>: activar/desactivar la moderación de un canal,3
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/aus, /nm: Establecen las marcas Ausente u Ocupado",3
 11669,GUILD_HELP_TEXT_LINE2,El comando /hinfo ofrece información básica sobre tu hermandad,1
 11670,GUILD_HELP_TEXT_LINE6,El comando /hexpulsar <jugador> quita a un jugador de tu hermandad,1
@@ -1997,7 +1996,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 11890,RACIAL_SKILLS,%s habilidades:,1
 11891,CREATE_ARENA_TEAM,Crear,1
 11892,HELP_TEXT_LINE14,- Usa /chat para ver una lista de los comandos del chat,1
-11894,TUTORIAL22,"Si has disfrutado jugando con otro jugador, añádelo a tu lista de amigos. Haz clic en el |cffffd200botón Social|r y añádelo a tu lista de amigos.|n|nSolo puedes añadir amigos de tu mismo reino.",3
+11894,TUTORIAL22,"Si has disfrutado jugando con otro jugador, añádelo a tu lista de amigos. Haz clic en el |cffffd200botón Social|r y añádelo a tu lista de amigos.",3
 11895,CHAT_NOT_MEMBER_NOTICE,No está en el canal %s.,1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,|Hchannel:%d|h[%s]|h No se ha encontrado al jugador %s.,1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h %s ha desactivado los anuncios del canal.,1
@@ -10093,7 +10092,7 @@ ovoz, /sonido, /quitaradv, /darvoz <canal> <jugador> - cambiar el permiso de un 
 22046,POWER_TYPE_VENOM,Veneno,1
 22048,LFD_REWARD_DESCRIPTION_WEEKLY,Puedes recibir esta recompensa %d |4vez:veces; más esta semana:,1
 22049,LFD_REWARD_DESCRIPTION_DAILY,Puedes recibir esta recompensa %d |4vez:veces; más hoy:,1
-22050,GUILDCONTROL_OPTION21,Reclutamiento,1
+22050,GUILDCONTROL_OPTION21,Gerente del\nvecindario,1
 22051,SLASH_GUILDFINDER1,/hermandadbuscar,1
 22052,SLASH_GUILDFINDER2,/guildfinder,1
 22053,SLASH_GUILDFINDER3,/bh,1
@@ -13072,7 +13071,7 @@ min",1
 25300,NPE_SHOWINTERFACEHELP,|cFF00FFFFHaz clic izquierdo|r aquí para mostrar los controles del ratón y del teclado.,1
 25301,NPE_ACTIONBARCALLOUT,Esta es tu barra de acción.\n\n|cFF00FFFFPulsa|r la tecla correspondiente de tu teclado para usar las facultades de tu personaje.,1
 25302,NPE_HEALTHBAR,Estas barras te muestran tu |cFF00FFFFsalud|r y tu |cFF00FFFF%s|r.,1
-25303,NPE_KEYBOARDANDMOUSETITLE,Teclado y ratón,1
+25303,RPE_KEYBOARDANDMOUSETITLE,Teclado y ratón,1
 25304,NPE_ABILITIES,Facultades,1
 25305,NPE_MOVE,Mover,1
 25306,NPE_JUMP,Saltar,1
@@ -14946,7 +14945,7 @@ min",1
 34395,LOGIN_PARENTALCONTROL,Esta cuenta tiene el control parental activado. Puedes cambiar la configuración de tu cuenta en el apartado Gestión de la cuenta de nuestro sitio web.,2
 34396,LOGIN_SERVER_DOWN,El servidor de registro no está disponible,2
 34397,LOGIN_SRP_ERROR,Error de autentificación,2
-34398,LOGIN_STATE_AUTHENTICATED,¡Correcto!,2
+34398,LOGIN_STATE_AUTHENTICATED,¡Correcto!,3
 34399,LOGIN_STATE_AUTHENTICATING,Autentificando...,2
 34400,LOGIN_STATE_CHECKINGVERSIONS,Validando versión…,2
 34401,LOGIN_STATE_CONNECTING,Conectando…,2
@@ -15050,7 +15049,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,Te has desconectado del servicio de Blizzard. Debes volver a iniciar sesión para cambiar de reino.,2
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"Todos los personajes se muestran en la lista de personajes,\nindependientemente del reino al que pertenezcan.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"Los reinos ""Jugadores nuevos"" te ofrecerán la mejor experiencia\nde juego. Los reinos ""llenos"" son los más masificados y a\nmenudo tendrás que esperar para jugar.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,"El reino que elijas afecta a algunas funciones como\nel comercio, las hermandades y las bandas míticas.",2
+34501,REALMLIST_REALMNAME_TOOLTIP,El reino que elijas afecta a algunas características como\nel comercio con otros jugadores,2
 34502,REALMLIST_TYPE_TOOLTIP,Normal = En este reino no hay normas especiales.\nJR = Reino de juego de rol.,2
 34503,REALM_CHARACTERS,Personajes,6
 34504,REALM_DESCRIPTION,Cómo seleccionar un reino,2
@@ -16662,9 +16661,9 @@ Tiempo estimado de espera: menos de 1 minuto",2
 36273,PETTAME_ELITE_TOOHIGHLEVEL,La criatura de élite tiene un nivel demasiado alto para ti y no la puedes domar,1
 36274,CHARACTER_SELECT_PADLOCK_DROP_DOWN_USE_BOOST,Usar %s,3
 36275,ENTER_WORLD_UNLOCK_REVOKED_CHARACTER_UPGRADE,Desbloquear,2
-36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,Compra el juego para subir más allá de nivel 20.,1
-36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,Has obtenido puntos de experiencia que superan tu límite de nivel. Compra el juego para utilizar tus PE acumulados y subir %d niveles.,1
-36278,TRIAL_CAP_BANKED_XP_TOOLTIP,Has obtenido puntos de experiencia que superan tu límite de nivel. Compra el juego para utilizar tus PE acumulados.,1
+36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,Suscríbete ahora para ir más allá del nivel 20.,1
+36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,Has obtenido puntos de experiencia que superan tu límite de nivel. Suscríbete ahora para utilizar tus PE acumulados y subir %d niveles.,1
+36278,TRIAL_CAP_BANKED_XP_TOOLTIP,Has obtenido puntos de experiencia que superan tu límite de nivel. Suscríbete ahora para utilizar tus PE acumulados.,1
 36283,RACE_INFO_DARKIRONDWARF,"Los enanos Hierro Negro, conocidos por su fuerte temperamento y su fiera determinación, tienen todo un historial de conflictos con los otros clanes enanos... y con su propia gente. La reina regente Moira intenta unir a su pueblo y liderarlo en la batalla para salvar Azeroth.",3
 36284,RACE_INFO_ZANDALARITROLL,Los Zandalari son un pueblo orgulloso cuyas raíces llegan hasta los primeros días de la historia de Azeroth. Sus fieros guerreros montan poderosos dinosaurios en la batalla y poseen una de las flotas más formidables del mundo conocido.,3
 36285,RACE_INFO_DARKIRONDWARF_FEMALE,"Los enanos Hierro Negro, conocidos por su fuerte temperamento y su fiera determinación, tienen todo un historial de conflictos con los otros clanes enanos... y con su propia gente. La reina regente Moira intenta unir a su pueblo y liderarlo en la batalla para salvar Azeroth.",3
@@ -18298,6 +18297,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 41969,QUEST_SESSION_QUIT_WARNING,¿Seguro que quieres salir con la sincronización de grupo activa? Se cancelarán todas tus misiones repetidas.,1
 41970,SPELL_FAILED_CUSTOM_ERROR_437,No tienes la profesión adecuada.,1
 41971,POWER_TYPE_MOLTEN_FURY,Furia de arrabio,1
+41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE,- Esta transferencia no está disponible actualmente para la facción de este personaje.,3
 41973,AUCTION_HOUSE_NONE_AVAILABLE,Ninguno disponible.,5
 41975,ITEM_CORRUPTION_BONUS_STAT,+%d corrupción,1
 41976,CORRUPTION_CLEANSER_TOOLTIP_TITLE,Purificar este objeto ELIMINARÁ los siguientes efectos:,1
@@ -18442,7 +18442,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42143,ERR_PLAYER_CHOICE_ERROR_PENDING_CHOICE,Ya tienes una opción no seleccionada. Selecciona una opción para abrir una nueva.,1
 42144,FEATURE_UNAVAILBLE_PLAYER_IS_NEUTRAL,Esta característica no estará disponible hasta que elijas una facción.,1
 42145,NPEV2_INTRO_CAMERA_LOOK,|cFFFFD200Mira a tu alrededor|r.,1
-42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Habla|r con la capitana Garrick,1
+42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Habla|r con Jaina Valiente,1
 42148,NPEV2_INTRO_MELEE_COMBAT,|cFFFFD200Ataca|r a un muñeco de combate,1
 42150,NPEV2_TURN_MINIMAP_ON,Consulta el |cFF00FFFFminimapa|r para encontrar objetivos cercanos,1
 42151,NPEV2_USE_HEARTHSTONE_TUTORIAL,¡Has obtenido una piedra de hogar! Abre la bolsa para verla.,1
@@ -18515,6 +18515,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42285,COVENANT_PREVIEW_ZONE_HOME,Hogar: %s,1
 42286,POWER_TYPE_SLIME_ENERGY,Energía,1
 42287,OPTIONAL_REAGENT_TOOLTIP_STAT_FORMAT,|c%1$s%2$c%3$s %4$s|r,1
+42288,BLIZZARD_STORE_VAS_ERROR_PVE_TO_PVP_TRANSFER_NOT_ALLOWED,- No se puede transferir entre un servidor JcE y un servidor JcJ.,3
 42289,SPELL_FAILED_CUSTOM_ERROR_463,Requiere espiral de cuerda.,1
 42290,COVENANT_PREVIEW_CLASS_ABILITY,Facultad de clase,1
 42291,COVENANT_PREVIEW_RACIAL_ABILITY,Facultad distintiva,1
@@ -18569,8 +18570,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42340,NPEV2_DRUID_BUILDER,Pulsa |cFF00FFFF%s|r para usar %s mientras tu enemigo tiene Fuego lunar aplicado,1
 42341,POWER_TYPE_SHADOW_ENERGY,Energía de las Sombras,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200Camina|r,1
-42343,NPEV2_INTRO_MOVE_HORDE,Usa los |cFF00FFFFcontroles de movimiento|r para acercarte a la |cFF00FFFFseñora de la guerra Breka Hacha Macabra|r.,1
-42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Habla|r con la señora de la guerra Breka Hacha Macabra.,1
+42343,NPEV2_INTRO_MOVE_HORDE,Usa los |cFF00FFFFcontroles de movimiento|r para acercarte a |cFF00FFFFThrall|r.,1
+42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Habla|r con Thrall.,1
 42345,RUNEFORGE_LEGENDARY_POWER_LIST_LABEL,Selecciona un poder legendario,1
 42346,NPEV2_INTRO_RANGED_COMBAT,|cFFFFD200Selecciona|r un muñeco de combate,1
 42347,SOULBIND_RESET_BUTTON,"TEMPORARY: Reset the flow of anima through this Soulbind.\n\n(NYI) In an upcoming build, this will be usable once per week to reset applied Conduits for this Soulbind.",1
@@ -18602,6 +18603,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42377,NPEV2_LFD_SPECIFIC_DUNGEON,Selecciona |cFF00FFFFCiudadela Magulladura Oscura|r,1
 42378,NPEV2_LFD_INFO_POINTER_MESSAGE,|cFF00FFFFEspera|r mientras buscamos a más jugadores para unirse al grupo de mazmorra,1
 42379,CHARACTER_FORM,Forma: %s,3
+42380,BLIZZARD_STORE_VAS_ERROR_INELIGIBLE_TARGET_REALM,- El reino seleccionado no acepta transferencias de personaje en este momento.,3
 42381,RESET_CAMERA,Restablecer cámara,3
 42382,RANDOMIZE_APPEARANCE,Apariencia aleatoria,3
 42383,ANIMA_DIVERSION_NODE_SELECTED,Ya está seleccionado,1
@@ -18940,6 +18942,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42740,SPELL_FAILED_CUSTOM_ERROR_495,No estás en aguas suficientemente profundas.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Requiere agua dulce de Ardenweald o Bastión,1
 42742,JAILERS_TOWER_REWARD_HIGH_DIFFICULTY,,1
+42743,BLIZZARD_STORE_VAS_ERROR_PENDING_ITEM_AUDIT,- El inventario de este personaje contiene objetos que no se pueden transferir.,3
 42744,JAILERS_TOWER_REWARD_RECIEVED,Recompensa recibida: completar esta capa de nuevo te otorgará una pequeña cantidad extra de ceniza de alma.,1
 42745,TOOLTIP_AZERITE_ITEM_DISABLED,"El Corazón de Azeroth está inactivo, desconectado de la fuerza vital de Azeroth.",1
 42746,HEART_OF_AZEROTH_INACTIVE,Corazón de Azeroth inactivo,1
@@ -19016,10 +19019,10 @@ Tiempo estimado de espera: menos de 1 minuto",2
 42817,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_SECOND_LINE,TU,1
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,AVENTURA,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,SUSCRÍBETE,1
-42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,ACTUALIZA,1
+42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,SUSCRÍBETE,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Suscríbete para continuar tu aventura épica,1
 42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,JUEGA HASTA EL NIVEL 70,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBÁRCATE EN TREPIDANTES AVENTURAS POR AZEROTH Y MÁS ALLÁ,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBÁRCATE EN AVENTURAS POR AZEROTH Y MÁS ALLÁ,1
 42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ACCEDE A WOW CLASSIC,1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,¡Y MUCHO MÁS!,1
 42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
@@ -19202,8 +19205,8 @@ Tiempo estimado de espera: menos de 1 minuto",2
 43006,COVENANT_SANCTUM_RENOWN_REWARD_DESC_COMPLETE,Has alcanzado el máximo de renombre con: %s,1
 43007,ERR_NOT_IN_NPE,No disponible durante el tutorial,1
 43008,ERR_INTERNAL_ERROR,Error interno,1
-43009,NPE_ABANDON_A_WARNING,"Te has alejado demasiado de Ventormenta.|n|nSi continúas, saldrás del tutorial.|n|n¿Quieres volver a Ventormenta?|n|n|n",1
-43010,NPE_ABANDON_H_WARNING,"Te has alejado demasiado de Orgrimmar.|n|nSi continúas, saldrás del tutorial.|n|n¿Quieres volver a Orgrimmar?|n|n|n",1
+43009,NPE_ABANDON_A_WARNING,"Te has alejado demasiado de la Costa Indómita.|n|nSi continúas, saldrás del tutorial.|n|n¿Quieres volver a la Costa Indómita de las Islas Dragón?|n|n|n",1
+43010,NPE_ABANDON_H_WARNING,"Te has alejado demasiado de la Costa Indómita.|n|nSi continúas, saldrás del tutorial.|n|n¿Quieres volver a la Costa Indómita de las Islas Dragón?|n|n|n",1
 43011,NPE_ABANDON_LEAVE_TUTORIAL,Abandonar tutorial,1
 43012,NPE_ABANDON_A_RETURN,Volver,1
 43013,NPE_ABANDON_H_RETURN,Volver,1
@@ -19577,6 +19580,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 43980,RECONNECT_BUTTON,Reconectar,2
 43981,SWITCH_ACCOUNTS_BUTTON,Cerrar sesión,2
 43982,ERR_TRAVEL_PASS_DIFFERENT_REGION,Región diferente,1
+43983,BLIZZARD_STORE_VAS_ERROR_NEEDS_ERA_CHOICE,- Elige una expansión en la pantalla de selección de personaje.\n- Activa el clon en la pantalla de selección de personaje.,3
 43985,DUNGEON_SCORE_DUNGEON_RATING_OVERTIME,%s: %s |cff808080(Nivel %d)|r,1
 43986,UNITNAME_SUMMON_TITLE49,Restos renqueantes de %s,1
 43987,ERR_TORGHAST_TALENT_CANT_AFFORD_TALENT,No puedes permitírtelo.,1
@@ -20113,6 +20117,7 @@ Tiempo estimado de espera: menos de 1 minuto",2
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requiere más memoria silábica.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,Requiere 5 ovoides perdidos.,1
 48713,ERR_QUEST_SESSION_RESULT_RESTRICTED_CROSS_FACTION,No se ha podido iniciar la sincronización de grupo porque un miembro del grupo pertenece a la facción contraria.,1
+48714,BLIZZARD_STORE_VAS_ERROR_ARENA_TEAM_CAPTAIN,- Este personaje es un capitán de equipo de arena. Transfiere el rango a otro personaje y vuelve a intentarlo.,3
 48715,ERR_QUEST_PUSH_CROSS_FACTION_RESTRICTED_S,Las misiones no se pueden compartir en grupos multifacción.,1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,Tienes demasiadas mejoras temporales.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,Tienes otras formas de invocar a Pocopoc mientras estás en Zereth Mortis.,1
@@ -21090,7 +21095,7 @@ Todas las configuraciones que tengan esta opción habilitada podrán compartir l
 49840,TUTORIAL_REAGENT_BAG_STEP_2,¡Equípate con tu nueva bolsa de componentes!|n|nCualquier material de fabricación que recojas se guardará en ella.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Aplicar configuración,1
 49842,TALENT_FRAME_RESET_BUTTON_TOOLTIP_DESCRIPTION,"Para restablecer solo un árbol, haz clic derecho en los talentos aprendidos de las filas superiores.",1
-49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Fuente: %s,1
+49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Fuente: %s,3
 49845,TALENT_BUTTON_TOOLTIP_CLEAR_REPURCHASE_INSTRUCTIONS,Haz clic con el botón derecho del ratón para borrar todos los nodos de historia,1
 49846,ACTION_SPELL_EMPOWER_START,ha empezado a potenciar,1
 49847,ACTION_SPELL_EMPOWER_START_FULL_TEXT,%1$s ha empezado a potenciar %2$s en %4$s.,1
@@ -22480,7 +22485,7 @@ y propagar su llama por todo Azeroth.",1
 52148,DELVES_CONFIGURE_BUTTON,Configurar,1
 52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Completa profundidades para ganar recompensas semanales,1
 52150,DELVES_GREAT_VAULT_LABEL,Gran cámara,1
-52151,DYNAMIC_FLIGHT,Surcacielos,1
+52151,DYNAMIC_FLIGHT,Estilo de vuelo,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,Completa profundidades para ganar recompensas semanales:\n\n%s/%s recompensas desbloqueadas. ,1
 52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,La gran cámara solo está disponible durante una temporada activa.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Habilidades y desbloqueos,1
@@ -22727,6 +22732,8 @@ y propagar su llama por todo Azeroth.",1
 52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,"Para eliminar un objeto, hay que sacarlo del banco de la banda guerrera.",1
 52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<Haz clic derecho para mostrar el mapa>,1
 52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Cerrar detalles de la misión,1
+52422,BINDING_NAME_TOGGLEDECORNUDGEMODE,Habilitar solapamiento (activar/desactivar),1
+52423,BINDING_NAME_HOLDDECORNUDGEMODE,Habilitar solapamiento (mantener),1
 52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,Puedes minimizar el libro de hechizos aquí,1
 52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Cambia al reino de este personaje para actualizar.,2
 52426,DELVES_TIER_SELECT_HELPTIP,Elige un nivel de dificultad,1
@@ -22906,7 +22913,7 @@ y propagar su llama por todo Azeroth.",1
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,No puedes unirte a otras colas mientras estás en una cola de Plunderstorm.,1
 52791,SPELL_CURIO,Bibelot,1
 52794,WOW_ERROR_501,Se ha producido un error al restaurar tu personaje. Inicia sesión e inténtalo de nuevo.,2
-52795,11.1.7 Lorewalking - Restart (LAS),"Esto reiniciará tu progreso en esta campaña de Paseo por la historia, y empezarás de nuevo desde el principio.",1
+52795,11.1.7 Lorewalking - Restart (LAS),"Esto reiniciará tu progreso en este Paseo por la historia o historia de resumen, y empezarás de nuevo desde el principio.",1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,El campamento ya está en tu colección,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPAMENTOS,2
 52853,WARBAND_SCENES_RANDOM,Establecer fondo aleatorio +,3
@@ -22955,14 +22962,247 @@ y propagar su llama por todo Azeroth.",1
 52939,EVENT_SCHEDULER_FRAME_LABEL,Eventos,1
 52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Reloj de arena de visiones horripilantes,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Se ha alcanzado el máximo de %d |4campamento:campamentos;.,2
+52953,HOUSING_CHARTER_PLAYERS,Jugadores en el estatuto,1
+52954,HOUSING_CHARTER_UNSIGNED,<aún sin firmar>,1
+52955,HOUSING_CHARTER_NEIGHBORHOOD_LOCATION,Ubicación del vecindario:,1
+52956,HOUSING_CHARTER_NEIGHBORHOOD_TYPE,Tipo de vecindario:,1
+52957,HOUSING_CHARTER_NEIGHBORHOOD_NAME,Nombre del vecindario:,1
+52958,HOUSING_CHARTER_DESCRIPTION,"Selecciona un jugador al que quieras invitar y haz clic en Solicitar firma. Para crear este vecindario, conviértelo en administrador una vez que hayas rellenado el estatuto.",1
+52959,HOUSING_CHARTER_SETTINGS_BUTTON,Ajustes,1
+52960,HOUSING_CHARTER_REQUEST_BUTTON,Solicitar firma,1
+52961,HOUSING_CHARTER_CLOSE_BUTTON,Cerrar,1
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Completado,1
 52963,DRIVE_TURBO_METER_HELP_TIP,"Si mantienes pulsada la barra espaciadora al girar, derraparás. Los derrapes te permiten recuperar indicador de turbo.",1
 52964,DRIVE_START_JOB_HELP_TIP,Consigue tu primer encargo de Nana Talullah. Podrás cancelar encargos y aceptar otros nuevos.,1
 52967,WORLD_MAP_FILTER_COUNTER_TOOLTIP,Oculto: %s,1
 52969,TW_FRAUD_WARNING_TEXT,System message,2
+52970,HOUSING_CHARTER_REQUEST_DESCRIPTION,"%s te pide que firmes el estatuto de su vecindario. Si lo haces, podrás comprar una casa en el vecindario una vez que %s envíe el estatuto completado.",1
+52971,HOUSING_CHARTER_REQUEST_SIGN_BUTTON,Firmar estatuto,1
+52972,HOUSING_CHARTER_REQUEST_DECLINE_BUTTON,Rechazar,1
+52973,HOUSING_CHARTER_REQUEST_LOCATION,Ubicación: %s,1
+52974,HOUSING_CHARTER_REQUEST_NAME,Nombre: %s,1
+52975,HOUSING_CHARTER_REQUEST_TYPE,Tipo de vecindario: %s,1
+52980,HOUSING_CONTROLS_EXIT_BUTTON,Salir de la casa,1
+52981,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER,Editar casa,1
+52982,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER_FMT,Editar casa |cnNORMAL_FONT_COLOR:(%s)|r,1
+52983,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT,Salir del editor de casas,1
+52984,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT_FMT,Salir del editor de casas |cnNORMAL_FONT_COLOR:(%s)|r,1
+52985,HOUSING_CONTROLS_EDITOR_UNAVAILABLE,El editor de casas no está disponible,1
+52986,HOUSING_CONTROLS_EDITOR_UNAVAILABLE_FMT,El editor de casas no está disponible: %s,1
 52987,EVENT_SCHEDULER_DAY_FORMAT,%2$d de %1$s,1
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%1$s - %2$s,1
+52989,HOUSE_EDITOR_INSTRUCTION_UNBOUND,[SIN ASIGNAR],1
+52990,HOUSE_EDITOR_SAVE_IN_PROGRESS,"Guardado en curso, espera",1
+52991,ERR_HOUSE_EDITOR_SAVE_FAILED,Error al guardar el hogar. Vuelve a intentarlo luego.,1
+52992,ERR_HOUSE_EDITOR_SAVE_FAILED_FMT,Error al guardar el hogar: %s,1
+52994,ERR_HOUSE_EDITOR_MODE_FAILED,Error al cambiar los modos del editor. Vuelve a intentarlo luego.,1
+52995,ERR_HOUSE_EDITOR_MODE_FAILED_FMT,Error al cambiar los modos del editor: %s,1
+52996,ERR_HOUSE_EDITOR_MUST_LEAVE,Debes salir del editor de casas para acceder a esta característica.,1
+52997,HOUSE_EDITOR_MODE_UNAVAILABLE_FMT,%s no está disponible en este momento,1
+52998,HOUSE_EDITOR_MODE_UNAVAILABLE_ERROR_FMT,%s no está disponible: %s,1
+53001,HOUSE_EDITOR_MODE_BASIC_DECOR_NAME,Modo Decoración,1
+53002,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER,Modo Decoración,1
+53003,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER_FMT,Entrar en el editor de casas |cnNORMAL_FONT_COLOR:(%s)|r,1
+53004,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT,Salir del editor de casas,1
+53005,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT_FMT,Salir del editor de casas |cnNORMAL_FONT_COLOR:(%s)|r,1
+53006,HOUSE_EDITOR_MODE_LAYOUT_NAME,Editar distribución,1
+53007,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER,Editar distribución,1
+53008,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER_FMT,Editar distribución |cnNORMAL_FONT_COLOR:(%s)|r,1
+53009,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT,Salir del editor de distribuciones,1
+53010,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT_FMT,Salir del editor de distribuciones |cnNORMAL_FONT_COLOR:(%s)|r,1
+53019,HOUSE_EDITOR_MODE_EXPERT_DECOR_NAME,Modo avanzado,1
+53020,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER,Entrar en el modo avanzado,1
+53021,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER_FMT,Modo avanzado |cnNORMAL_FONT_COLOR:(%s)|r,1
+53022,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT,Salir del modo avanzado,1
+53023,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT_FMT,Salir del modo avanzado |cnNORMAL_FONT_COLOR:(%s)|r,1
+53024,HOUSE_EDITOR_MODE_CUSTOMIZE_NAME,Modo Personalización,1
+53025,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER,Entrar en el modo Personalización,1
+53026,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER_FMT,Entrar en el modo Personalización |cnNORMAL_FONT_COLOR:(%s)|r,1
+53027,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT,Salir del modo Personalización,1
+53028,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT_FMT,Salir del modo Personalización |cnNORMAL_FONT_COLOR:(%s)|r,1
+53032,HOUSE_EDITOR_MODE_CLEANUP_NAME,Modo Limpieza,1
+53033,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER,Entrar en el modo Limpieza,1
+53034,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER_FMT,Entrar en el modo Limpieza |cnNORMAL_FONT_COLOR:(%s)|r,1
+53035,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT,Salir del modo Limpieza,1
+53036,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT_FMT,Salir del modo Limpieza |cnNORMAL_FONT_COLOR:(%s)|r,1
+53037,HOUSING_DECOR_SELECT_INSTRUCTION,Elegir adorno,1
+53038,HOUSING_DECOR_REMOVE_INSTRUCTION,Quitar adorno,1
+53039,HOUSING_DECOR_CANCEL_INSTRUCTION,Cancelar,1
+53040,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE,Mostrar cuadrícula,1
+53041,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE,Ocultar cuadrícula,1
+53042,HOUSING_DECOR_PLACED_COUNT_FMT,%d/%d,1
+53043,ERR_HOUSING_DECOR_LOCKED,Este adorno lo está editando otro jugador.,1
+53044,ERR_HOUSING_DECOR_SELECT_FAILED,Error al elegir adorno. Vuelve a intentarlo luego.,1
+53045,HOUSING_BASIC_DECOR_PLACE_INSTRUCTION,Colocar adorno,1
+53046,HOUSING_BASIC_DECOR_ROTATE_INSTRUCTION,Rotar adorno,1
+53049,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE,Activar Acoplar a cuadrícula,1
+53050,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE,Desactivar Acoplar a cuadrícula,1
+53051,HOUSING_CUSTOMIZE_SELECT_INSTRUCTION,Personalizar objeto,1
+53052,HOUSING_CUSTOMIZE_DECOR_HOVER_TOOLTIP,Haz clic izquierdo para personalizar,1
+53053,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE,Dirección,1
+53054,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL,Altura,1
+53055,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE,Rotar,1
+53056,HOUSING_EXPERT_DECOR_SUBMODE_SCALE,Escala,1
+53057,HOUSING_EXPERT_DECOR_ROTATE_AXIS_X,Eje X,1
+53058,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Y,Eje Y,1
+53060,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Z,Eje Z,1
+53061,HOUSING_LAYOUT_SELECT_INSTRUCTION,Seleccionar habitación,1
+53062,HOUSING_LAYOUT_REMOVE_ROOM_CONFIRMATION,¿Seguro que quieres eliminar esta habitación? Se devolverán al cofre de tu casa todos los adornos que contiene.,1
+53063,HOUSING_LAYOUT_UNOCCUPIED_DOOR_TOOLTIP,Añadir habitación,1
+53064,HOUSING_LAYOUT_OCCUPIED_DOOR_TOOLTIP,Habitación ya conectada,1
+53069,HOUSING_LAYOUT_REMOVE_ROOM_TOOLTIP,Eliminar habitación,1
+53070,HOUSING_LAYOUT_MOVE_ROOM_TOOLTIP,Mover habitación,1
+53071,HOUSING_LAYOUT_ROTATE_ROOM_LEFT_TOOLTIP,Rotar la habitación hacia la izquierda,1
+53072,HOUSING_LAYOUT_ROTATE_ROOM_RIGHT_TOOLTIP,Rotar la habitación hacia la derecha,1
+53073,HOUSING_LAYOUT_NUM_ROOMS,%d/%d,1
+53074,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_BASE_ROOM,No se puede modificar la habitación base,1
+53075,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_BASE_ROOM,No se puede modificar la habitación base,1
+53076,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_BASE_ROOM,No se puede modificar la habitación base,1
+53077,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_NON_LEAF,No se puede rotar la habitación. Lo impide una habitación anexa.,1
+53078,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_NON_LEAF,No se puede eliminar una habitación que tenga más de una puerta conectada,1
+53079,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_NON_LEAF,No se puede mover una habitación que tenga más de una puerta conectada,1
+53080,BINDING_HEADER_HOUSING_SYSTEM,Hogares,1
+53081,PREFACE_HOUSING_DECOR_BINDINGS,Estos atajos solo están activos mientras editas tu casa y pueden reutilizar otras teclas que ya estén en uso.,1
+53082,PREFACE_HOUSING_LAYOUT_BINDINGS,Atajos exclusivos del editor de distribuciones,1
+53083,BINDING_NAME_HOUSING_TOGGLEEDITOR,Abrir/cerrar el editor de casas,1
+53084,BINDING_NAME_HOUSING_TOGGLEDECORSNAPMODE,Activar/desactivar Acoplar a cuadrícula,1
+53085,BINDING_NAME_HOUSING_TOGGLEDECORGRIDVISIBILITY,Activar/desactivar visibilidad de la cuadrícula,1
+53086,BINDING_NAME_HOUSING_ROTATEROOMLEFT,Rotar la habitación hacia la izquierda,1
+53087,BINDING_NAME_HOUSING_ROTATEROOMRIGHT,Rotar la habitación hacia la derecha,1
+53094,BINDING_NAME_HOUSING_DELETEDECOR,Quitar adorno,1
+53095,HOUSING_CATALOG_CATEGORIES_ALL,Todo,1
+53096,BINDING_TAG_HOUSE,Casa,1
+53097,BINDING_TAG_HOUSING,hogares,1
+53098,BINDING_TAG_DECOR,Adorno,1
+53099,BINDING_TAG_DECORATE,Decorar,1
+53100,BINDING_TAG_LAYOUT,diseño,1
+53101,ERR_HOUSING_RESULT_DB_ERROR,Error DB,1
+53102,ERR_HOUSING_RESULT_RPC_FAILURE,Fallo RPC,1
+53103,ERR_HOUSING_RESULT_GENERIC_FAILURE,Se ha producido un error,1
+53104,ERR_HOUSING_RESULT_LOCK_OPERATION_FAILED,Error al bloquear el objeto porque lo está editando el jugador actual,1
+53105,ERR_HOUSING_RESULT_UNLOCK_OPERATION_FAILED,Error al liberar el objeto para que lo editen otros jugadores,1
+53107,ERR_HOUSING_RESULT_LOCKED_BY_OTHER_PLAYER,Este objeto ya lo está editando otro jugador,1
+53108,ERR_HOUSING_RESULT_DECOR_NOT_FOUND,Adorno no encontrado,1
+53109,ERR_HOUSING_RESULT_HOUSE_NOT_FOUND,Casa no encontrada,1
+53110,ERR_HOUSING_RESULT_PERMISSION_DENIED,Permiso denegado,1
+53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,Ahora mismo no estás en el editor de casas,1
+53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,No está dentro de la casa,1
+53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Servicio no disponible,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Habitación no encontrada,1
+53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Error al actualizar la habitación,1
+53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,Ahora mismo no estás en el editor de distribuciones,1
+53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Parcela no encontrada,1
+53120,ERR_HOUSING_RESULT_MAX_DECOR_REACHED,La casa ha llegado al límite máximo de adornos colocados,1
+53121,ERR_HOUSING_RESULT_PLACEMENT_TARGET_INVALID,Colocación no válida,1
+53122,ERR_HOUSING_RESULT_COLLISION_INVALID,Colisión no válida,1
+53123,ERR_HOUSING_RESULT_INVALID_ROOM_LAYOUT,Diseño de habitaciones no válido,1
+53124,ERR_HOUSING_RESULT_TOKEN_REQUIRED,Se requiere ficha,1
+53125,ERR_HOUSING_RESULT_FILTER_REJECTED,Filtro rechazado,1
 53126,ACCOUNT_LEVEL_SCENE,Campamento de la Banda Guerrera,3
+53127,HOUSING_CORNERSTONE_TAB_INFO,Información,1
+53128,HOUSING_CORNERSTONE_TAB_DROPBOX,Buzón,1
+53129,HOUSING_CORNERSTONE_FORSALE,SE VENDE,1
+53130,HOUSING_CORNERSTONE_BUY,Comprar,1
+53131,HOUSING_CORNERSTONE_LOCATION,Ubicación:,1
+53132,HOUSING_CORNERSTONE_NEIGHBORHOOD,Vecindario:,1
+53133,HOUSING_CORNERSTONE_SIZE,Tamaño:,1
+53134,HOUSING_CORNERSTONE_PRICE,Precio:,1
+53135,HOUSING_CORNERSTONE_HOUSE_PURCHASED_TOAST,Casa comprada,1
+53136,HOUSING_CORNERSTONE_CANT_AFFORD,No tienes oro suficiente para comprar esta casa,1
+53137,HOUSING_CORNERSTONE_NOT_IN_GUILD,Debes ser miembro de la hermandad para comprar esta casa,1
+53138,HOUSING_CORNERSTONE_CANCELMOVE,Cancelar movimiento,1
+53139,HOUSING_PURCHASE_PLOT_CONFIRMATION,Confirmación de compra,1
+53140,HOUSING_PURCHASE_PLOT_CONFIRMATION_TEXT,¿Seguro que quieres comprar esta parcela?,1
+53141,HOUSING_PURCHASE_PLOT_BUY,Comprar,1
+53142,HOUSING_PURCHASE_PLOT_CANCEL,Cancelar,1
+53143,HOUSING_PURCHASE_PLOT_ERROR,"Ha habido un problema a comprar la parcela, vuelve a intentarlo luego",1
+53144,HOUSING_DASHBOARD_DASHBOARD,Panel,1
+53145,HOUSING_DASHBOARD_CATALOG_FRAMETITLE,Panel de hogares,1
+53146,HOUSING_DASHBOARD_HOUSEFINDERBUTTON,Abrir buscador de casas,1
+53147,HOUSING_DASHBOARD_FRAMETITLE,Panel de hogares,1
+53148,HOUSING_DASHBOARD_NO_HOUSE_TEXT,No tienes ninguna casa actualmente. |n|n ¡Abre el buscador de casas para encontrar una!,1
+53149,HOUSING_DASHBOARD_OWNER_LABEL,Propietario:,1
+53150,HOUSING_DASHBOARD_LOCATION_LABEL,Ubicación:,1
+53151,HOUSING_DASHBOARD_NEIGHBORHOOD_LABEL,Vecindario:,1
+53152,HOUSING_DASHBOARD_TELEPORT_BUTTON_TEXT,Teletransporte a casa,1
+53153,HOUSING_DASHBOARD_NEIGHBORHOOD_ACTIVITIES,Actividades del vecindario,1
+53154,HOUSING_DASHBOARD_SOCIAL,Social,1
+53155,HOUSING_DASHBOARD_COMING_SOON,¡Próximamente!,1
+53156,HOUSING_DASHBOARD_MOVE_OUT_TIMER,Salida dentro de: %s,1
+53157,HOUSING_MICRO_BUTTON,Panel de hogares,1
+53158,NEWBIE_TOOLTIP_HOUSING,¡El panel para todo lo relacionado con los hogares!,1
+53159,HOUSING_HOUSEFINDER_TITLE,Buscador de casas,1
+53160,HOUSING_NEIGHBORHOOD_SEARCH_ERROR,Error al buscar vecindarios,1
+53161,HOUSING_HOUSEFINDER_NEIGHBORHOODS,Vecindarios,1
+53163,HOUSING_NEIGHBORHOODTYPE_PRIVATE,Privado,1
+53164,HOUSING_NEIGHBORHOODTYPE_OPEN,Abierto,1
+53165,HOUSING_NEIGHBORHOODTYPE_PUBLIC,Público,1
+53166,HOUSING_CREATENEIGHBORHOOD_LOCATION,Ubicación:,1
+53167,HOUSING_CREATENEIGHBORHOOD_GUILD,Hermandad:,1
+53168,HOUSING_CREATENEIGHBORHOOD_CREATEGUILD,Crear vecindario de hermandad,1
+53169,HOUSING_CREATENEIGHBORHOOD_CHARTER,Estatuto del vecindario,1
+53170,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODNAME,Nombre del vecindario:,1
+53171,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODTYPE,Tipo de vecindario:,1
+53172,HOUSING_CREATENEIGHBORHOOD_GUILD_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Solo los jugadores que pertenecen a tu hermandad pueden comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Los jugadores que no pertenezcan a la hermandad serán expulsados del vecindario |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Se podrán crear nuevas subdivisiones cuando el vecindario esté lleno |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Se puede convertir en un vecindario abierto si no hay subdivisiones,1
+53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Durante las primeras 24 horas, solo los miembros de la hermandad pueden comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Al cabo de 24 horas, cualquier jugador puede comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t No se crearán nuevas subdivisiones cuando el vecindario esté lleno |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t No se puede convertir en un vecindario privado",1
+53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Todos los jugadores del estatuto podrán comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Los gerentes del vecindario pueden añadir a otros jugadores |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Se puede convertir en un vecindario abierto,1
+53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Todos los jugadores del estatuto podrán comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Durante las primeras 24 horas, solo los jugadores del estatuto podrán comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Al cabo de 24 horas, cualquier jugador podrá comprar una parcela |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t No se puede convertir en un vecindario privado",1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,No cumples los requisitos mínimos de miembros de hermandad,1
+53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Elige otro nombre para el vecindario,1
+53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,No cumples los requisitos mínimos de miembros de hermandad,1
+53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,Has superado el límite máximo de miembros de hermandad. Crea un vecindario privado.,1
+53180,HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON,Crear vecindario,1
+53181,HOUSING_CREATENEIGHBORHOOD_CHARTER_CONFIRMBUTTON,Confirmar y comprar,1
+53182,HOUSING_CREATENEIGHBORHOOD_CONFIRMBUTTON,Confirmar,1
+53183,HOUSING_CREATENEIGHBORHOOD_CANCELBUTTON,Cancelar,1
+53184,HOUSING_CREATENEIGHBORHOOD_PRIVATE,Privado,1
+53185,HOUSING_CREATENEIGHBORHOOD_OPEN,Abierto,1
+53186,HOUSING_CREATENEIGHBORHOOD_CONFIRMATION,¿Seguro que quieres crear este vecindario?,1
+53187,HOUSING_CREATENEIGHBORHOOD_TOAST,Vecindario creado,1
+53188,HOUSING_CREATENEIGHBORHOOD_SERVER_ERROR,¡Se ha producido algún problema al crear el vecindario!,1
+53189,HOUSING_CREATENEIGHBORHOOD_SETTINGS_WARNING,"Si haces cambios, se eliminarán las firmas que hayas recibido",1
+53190,HOUSING_FEATURE_COMING_SOON,¡Próximamente!,1
+53191,HOUSING_BULLETINBOARD_TITLE,Tablón de anuncios del vecindario,1
+53192,HOUSING_BULLETINBOARD_BUILDINGS,Edificios,1
+53193,HOUSING_BULLETINBOARD_EVENTS,Eventos,1
+53194,HOUSING_BULLETINBOARD_NPCS,PNJ,1
+53195,HOUSING_BULLETINBOARD_SOCIAL,Social,1
+53196,HOUSING_NEIGHBORHOOD_SETTINGS_TITLE,Ajustes del vecindario,1
+53197,HOUSING_NEIGHBORHOOD_SETTINGS_NAME,Nombre:,1
+53198,HOUSING_NEIGHBORHOOD_SETTINGS_NAME_BUTTON,Cambiar nombre,1
+53199,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE,Tipo:,1
+53200,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE_BUTTON,Convertir en abierto,1
+53201,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS,Propietarios,1
+53202,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_DESCRIPTION,"Si añades a un jugador como propietario, le otorgarás todos los permisos",1
+53203,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_ADD,Añadir jugador,1
+53204,HOUSING_NEIGHBORHOOD_SETTINGS_CONFIRM,Confirmar,1
+53205,HOUSING_NEIGHBORHOOD_SETTINGS_CANCEL,Cancelar,1
+53206,HOUSING_NEIGHBORHOOD_SETTINGS_NEWNAME,Nuevo nombre:,1
+53207,HOUSING_NEIGHBORHOOD_SETTINGS_CHANGENAME,Cambiar nombre del vecindario,1
+53208,HOUSING_NEIGHBORHOOD_SETTINGS_CURRENTNAME,Nombre actual:,1
+53210,HOUSING_HOUSE_SETTINGS_TITLE,Ajustes y permisos de la casa,1
+53211,HOUSING_HOUSE_SETTINGS_HOUSENAME,Nombre de la casa:,1
+53212,HOUSING_HOUSE_SETTINGS_HOUSEOWNER,Propietario de la casa:,1
+53213,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_FACTION,Este personaje no puede poseer una casa en este vecindario debido a su facción,1
+53214,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_GUILD,Este personaje no puede poseer una casa en este vecindario debido a su hermandad,1
+53215,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_PERMISSION,Este personaje no puede poseer una casa en este vecindario,1
+53216,HOUSING_HOUSE_SETTINGS_ABANDON,Abandonar,1
+53217,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRMATION,¿Seguro que quieres abandonar esta casa?,1
+53218,HOUSING_HOUSE_SETTINGS_ABANDON_DESCRIPTION,"Se guardará tu diseño, y podrás comprar una nueva casa para importarlo automáticamente. \n \n Si quieres mudarte a otra parcela, puedes interactuar con la piedra angular de esa parcela sin abandonar esta casa.",1
+53219,HOUSING_HOUSE_SETTINGS_ABANDON_REFUND,Recibirás,1
+53220,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRM,Abandonar,1
+53221,HOUSING_HOUSE_SETTINGS_ABANDON_CANCEL,Cancelar,1
+53227,HOUSING_HOUSE_SETTINGS_PLOTACCESS,Acceso a parcela:,1
+53228,HOUSING_HOUSE_SETTINGS_HOUSEACCESS,Acceso a casa:,1
+53229,HOUSING_HOUSE_SETTINGS_ACCESS_ANYONE,Cualquiera,1
+53230,HOUSING_HOUSE_SETTINGS_ACCESS_NEIGHBORS,Vecinos,1
+53231,HOUSING_HOUSE_SETTINGS_ACCESS_GUILD,Hermandad,1
+53232,HOUSING_HOUSE_SETTINGS_ACCESS_FRIENDS,Amigos,1
+53234,HOUSING_HOUSE_SETTINGS_IGNORELIST_BUTTON,Abrir lista de ignorados,1
+53235,HOUSING_PLOTSIZE_SMALL,Pequeña,1
+53236,HOUSING_PLOTSIZE_MEDIUM,Mediana,1
+53237,HOUSING_PLOTSIZE_LARGE,Grande,1
+53238,HOUSING_PLOT_NUMBER,Parcela n.º %d,1
 53239,ACCESSIBILITY_DRIVE_LABEL,C.A.R.R.O.,1
 53240,EVENT_SCHEDULER_ONGOING_HEADER,Eventos activos,1
 53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Calendario de eventos,1
@@ -22975,7 +23215,16 @@ y propagar su llama por todo Azeroth.",1
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"Si se activa, utiliza los controles normales al dar marcha atrás durante la conducción.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,"Se ha añadido ""%s"" a tu colección de campamentos.",1
 53267,PROFESSION_RESPEC_CONFIRMATION,¿Quieres olvidar todas las especializaciones de %s?|n|nOlvidarás todas las recetas asociadas y podrás volver a asignar tus puntos de conocimiento.|n|n|cnRED_FONT_COLOR:Esto solo se puede hacer UNA VEZ.|r,1
+53268,HOUSING_CUSTOMIZE_DECOR_UNAVAILABLE_HOVER_TOOLTIP,Este adorno no tiene personalizaciones disponibles,1
+53269,HOUSING_DECOR_CANNOT_REMOVE,Este adorno no se puede quitar,1
+53280,HOUSING_DECOR_DESELECT_INSTRUCTION,Anular selección de adorno,1
+53295,BINDING_NAME_HOUSING_TOGGLEBASICDECORMODE,Modo Decoración,1
+53296,BINDING_NAME_HOUSING_TOGGLELAYOUTMODE,Editor de distribuciones,1
+53297,BINDING_NAME_HOUSING_TOGGLECUSTOMIZEMODE,Modo Personalización,1
+53298,BINDING_NAME_HOUSING_TOGGLEEXPERTDECORMODE,Modo avanzado,1
+53299,BINDING_NAME_HOUSING_TOGGLECLEANUPMODE,Modo Limpieza,1
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Aquí puedes consultar los próximos eventos y los que están en curso.,1
+53307,HOUSING_EXPERT_DECOR_RESET,Restablece los cambios de los adornos en función de la opción activa del modo avanzado|n|n|cnNORMAL_FONT_COLOR:<Mayús+clic para restablecer todos los cambios>|r,1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Interactuar con objetivo con clic izquierdo,1
 53317,SPELL_FAILED_CUSTOM_ERROR_1069,Ya hay comida en el cuenco,1
@@ -23010,7 +23259,12 @@ y propagar su llama por todo Azeroth.",1
 53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Vertical - Arriba,1
 53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Vertical - Centro,1
 53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Vertical - Abajo,1
+53429,BINDING_NAME_HOUSING_EXPERTDECORHORIZONTALSUBMODE,Submodo avanzado Dirección,1
+53430,BINDING_NAME_HOUSING_EXPERTDECORVERTICALSUBMODE,Submodo avanzado Altura,1
+53431,BINDING_NAME_HOUSING_EXPERTDECORROTATESUBMODE,Submodo avanzado Rotar,1
+53432,BINDING_NAME_HOUSING_EXPERTDECORSCALESUBMODE,Submodo avanzado Escala,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,¡El megaimán debe cargarse primero!,1
+53442,HOUSING_LAYOUT_FLOOR_DISPLAY,Planta %d,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Es necesario un objeto de conjunto de clase para la cabeza, pecho o piernas elegible.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Se necesita un objeto de conjunto de clase apto para los hombros o las manos.,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,No puedes usar monturas con un disfraz.,1
@@ -23022,8 +23276,34 @@ y propagar su llama por todo Azeroth.",1
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Claro,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Fondo de los subtítulos,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Opacidad del fondo,3
+53511,UNIT_VIEW_HOUSES,Ver casas,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Modo Decoración,1
+53515,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_FMT,Modo Decoración |cnNORMAL_FONT_COLOR:(%s)|r,1
+53516,HOUSE_EDITOR_MODE_LAYOUT_BUTTON,Editar distribución,1
+53517,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_FMT,Editar distribución |cnNORMAL_FONT_COLOR:(%s)|r,1
+53518,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON,Modo Personalización,1
+53519,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_FMT,Modo Personalización |cnNORMAL_FONT_COLOR:(%s)|r,1
+53520,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON,Modo avanzado,1
+53521,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_FMT,Modo avanzado |cnNORMAL_FONT_COLOR:(%s)|r,1
+53522,HOUSE_EDITOR_MODE_CLEANUP_BUTTON,Modo Limpieza,1
+53523,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_FMT,Modo Limpieza |cnNORMAL_FONT_COLOR:(%s)|r,1
+53524,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE_FMT,Dirección |cnNORMAL_FONT_COLOR:(%s)|r,1
+53525,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL_FMT,Altura |cnNORMAL_FONT_COLOR:(%s)|r,1
+53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Rotar |cnNORMAL_FONT_COLOR:(%s)|r,1
+53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Escala |cnNORMAL_FONT_COLOR:(%s)|r,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Tu águila de puntería lo impide.,5
+53537,ERR_PLACED_DECOR_LIMIT_REACHED,Has alcanzado el límite de adornos. Borra algunos para añadir más.,1
+53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Habilitar solapamiento,1
+53542,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE,Deshabilitar solapamiento,1
+53544,BINDING_NAME_HOUSING_TOGGLEDECORNUDGEMODE,Activar/desactivar solapamiento de adornos,1
+53552,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE_FMT,Mostrar cuadrícula |cnNORMAL_FONT_COLOR:(%s)|r,1
+53553,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE_FMT,Ocultar cuadrícula |cnNORMAL_FONT_COLOR:(%s)|r,1
+53555,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE_FMT,Acoplar a cuadrícula |cnNORMAL_FONT_COLOR:(%s)|nActiva esta opción para que los adornos se acoplen a la cuadrícula cuando los coloques. |r,1
+53557,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE_FMT,Acoplar a cuadrícula |cnNORMAL_FONT_COLOR:(%s)|nDesactiva esta opción para que los adornos ignoren la cuadrícula cuando los coloques. |r,1
+53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,"Habilitar solapamiento |cnNORMAL_FONT_COLOR:(%s)|nSi lo activas, se ignorarán las colisiones entre adornos al colocarlos. |r",1
+53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,"Deshabilitar solapamiento |cnNORMAL_FONT_COLOR:(%s)|nSi lo desactivas, activarás la colisión completa entre adornos al colocarlos. |r",1
+53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Quitar adorno,1
 53649,PERKS_PROGRAM_CART_ADD,Añadir a la cesta,1
 53650,PERKS_PROGRAM_CART_REMOVE,Eliminar de la cesta,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Ver cesta,1
@@ -23038,10 +23318,18 @@ y propagar su llama por todo Azeroth.",1
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Comprar cesta,1
 53698,DROP_CHANCE_ITEMS_ONLY,Probabilidad de recibir:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Tu objetivo ya está protegido por un helicóptero sanitario de Fundisombras.,1
+53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Mover cámara hacia arriba,1
+53729,BINDING_NAME_HOUSING_LAYOUTCAMERA_DOWN,Mover cámara hacia abajo,1
+53730,BINDING_NAME_HOUSING_LAYOUTCAMERA_LEFT,Mover cámara hacia la izquierda,1
+53731,BINDING_NAME_HOUSING_LAYOUTCAMERA_RIGHT,Mover cámara hacia la derecha,1
+53732,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_IN,Acercar,1
+53733,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_OUT,Alejar,1
 53734,COLORS_LABEL,Colores,3
 53735,ENABLE_ADVANCED_COLORS_OPTIONS,Activar opciones avanzadas,3
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Muestra opciones adicionales para sobrescribir color.,3
 53737,COLORS_ITEM_QUALITY,Calidad de objetos,3
+53738,PREFACE_HOUSING_BASICDECOR_BINDINGS,Atajos exclusivos del modo Decoración,1
+53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Atajos exclusivos del modo avanzado,1
 53742,BINDING_NAME_DRIFT,Derrape,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,¿Seguro que quieres eliminar a este amigo de tu lista? Esta acción no se puede deshacer.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requiere un vínculo irrompible.,1
@@ -23051,7 +23339,10 @@ y propagar su llama por todo Azeroth.",1
 53766,COOLDOWN_VIEWER_LABEL,Gestor de tiempos de reutilización,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Tiempo de reutilización esenciales, utilidades, beneficios y barras rastreadas para cada especialización. El gestor de tiempos de reutilización está desactivado. Actívalo en Opciones avanzadas > Gestor de tiempos de reutilización.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Los nombres no pueden contener espacios consecutivos,3
+53833,HOUSING_LAYOUT_ZOOM_IN_INSTRUCTION,Acercar,1
+53834,HOUSING_LAYOUT_ZOOM_OUT_INSTRUCTION,Alejar,1
 53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Buscar zonas, gremios, clases, razas y niveles",1
+53836,HOUSING_LAYOUT_CANCEL_INSTRUCTION,Cancelar,1
 53847,GUILD_RENAME_DESCRIPTION,"Dime el nombre que le quieres poner a tu hermandad y yo comprobaré si está libre. Si cambias de opinión, hay un periodo de espera para volver a cambiar el nombre de la hermandad.",1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Escribe el nuevo nombre de la hermandad,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Opciones:,1
@@ -23076,6 +23367,21 @@ y propagar su llama por todo Azeroth.",1
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Engarce de trueno cantor,1
 53879,EMPTY_SOCKET_SINGINGSEA,Engarce de mar cantor,1
 53882,EMPTY_SOCKET_SINGINGWIND,Engarce de viento cantor,1
+53883,BINDING_NAME_HOUSING_TOGGLEINCLUDETARGETDECORCHILDREN,Activar/desactivar inclusión de adornos subordinados en la selección,1
+53884,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_LEFT,Mover adorno hacia la izquierda,1
+53885,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_RIGHT,Mover adorno hacia la derecha,1
+53886,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_FORWARD,Mover adorno hacia delante,1
+53890,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_BACK,Mover adorno hacia atrás,1
+53891,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_UP,Mover adorno hacia arriba,1
+53892,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_DOWN,Mover adorno hacia abajo,1
+53893,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATELEFT,Rotar adorno hacia la izquierda,1
+53894,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATERIGHT,Rotar adorno hacia la derecha,1
+53895,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEUP,Aumentar escala del adorno,1
+53896,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEDOWN,Reducir escala del adorno,1
+53903,HOUSING_CREATENEIGHBORHOOD_CREATECHARTER,Crear vecindario,1
+53919,SPELL_FAILED_CUSTOM_ERROR_2428,Ya tienes el máximo de cargas.,1
+53925,HOUSING_DECOR_BUDGET_TOOLTIP,Presupuesto de colocación de adornos,1
+53926,HOUSING_DECOR_TOGGLE_GRID_INSTRUCTION,Activar/desactivar cuadrícula,1
 53928,CHARACTER_BANK_PANEL_TITLE,Banco,1
 53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,El banco ofrece almacenamiento adicional para tus objetos.|n|n¿Quieres comprar esta pestaña?,1
 53930,CHARACTER_BANK_TAB_NAME_PROMPT,Nombre de la pestaña del banco:,1
@@ -23092,10 +23398,35 @@ y propagar su llama por todo Azeroth.",1
 53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Tamaño de los iconos,1
 53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Espaciado de los iconos,1
 53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Opacidad,1
+53945,VIEW_HOUSES_TITLE,Casas de %s,1
+53946,VIEW_HOUSES_NEIGHBORHOOD_BUTTON,Ver vecindario,1
+53947,VIEW_HOUSES_VISIT_BUTTON,Visitar casa,1
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Siempre visible,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,En combate,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Oculto,1
 53967,BANK_CONFIRM_CLEANUP_PROMPT,¿Seguro que quieres ordenar automáticamente los objetos?|nEsto afectará a todas las pestañas.,1
+53970,VIEW_HOUSES_NO_HOUSES,No hay casas disponibles,1
+53973,HOUSING_CORNERSTONE_NEIGHBORHOOD_TYPE,Tipo:,1
+53974,HOUSING_CORNERSTONE_OWNED_BY,Propiedad de:,1
+53975,HOUSING_CORNERSTONE_NEIGHBORHOOD_LOCATION,Ubicación:,1
+53977,HOUSING_CORNERSTONE_GENERIC_PERMISSION,No puedes comprar una casa en este vecindario,1
+53978,HOUSING_CORNERSTONE_OWNER,Propietario:,1
+53979,HOUSING_CORNERSTONE_NEIGHBORHOOD_PUBLIC,Público,1
+53980,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_GUILD,Hermandad privada,1
+53981,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_CHARTER,Estatuto privado,1
+53982,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_GUILD,Hermandad abierta,1
+53983,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_CHARTER,Estatuto abierto,1
+53984,HOUSING_LAYOUT_CANT_PLACE_ROOM_TOOLTIP,No se puede colocar este tipo de habitación en la ubicación actual.,1
+54001,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_NAME,Nombre,1
+54002,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_STATUS,Estado,1
+54003,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_PLOT,Parcela,1
+54004,HOUSING_BULLETINBOARD_NEIGHBORHOOD_NAME,%s (%s),1
+54006,HOUSE_EDITOR_CATALOG_BUTTON_TOOLTIP,Cofre de la casa,1
+54007,HOUSE_EDITOR_CATALOG_STORAGE_TAB,Almacenamiento,1
+54009,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_SUBDIVISION,Subdivisión,1
+54010,NEIGHBORHOOD_ROSTER_COLUMN_PLOT_FORMAT,N.º %d,1
+54011,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_ONLINE,Conectado,1
+54012,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_OFFLINE,Desconectado,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Esta herramienta no se utiliza en esta clase o especialización,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Ejemplo de nombre de beneficio,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Solo disponible para especializaciones que no sean de tanque.,1
@@ -23107,6 +23438,11 @@ y propagar su llama por todo Azeroth.",1
 54059,CURRENCY_TRANSFER_IN_PROGRESS,Transferencia en curso,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,Debes ser el maestro de una hermandad para cambiarle el nombre.,1
 54066,GUILD_RENAME_COSTS_LABEL,Este coste se deducirá de los fondos de tu banco de hermandad:,1
+54067,HOUSING_DECOR_CUSTOMIZATION_DYES,Tintes de %s,1
+54068,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_DESCRIPTION,Ranura de %s,1
+54069,HOUSING_DECOR_CUSTOMIZATION_THEME,Tema de %s,1
+54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,Por defecto (sin teñir),1
+54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,Se eliminará un tinte %d.,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Este coste se deducirá de los fondos de tu banco de hermandad:,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Mostrar descripciones,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Fondos disponibles en el banco de hermandad,1
@@ -23115,7 +23451,11 @@ y propagar su llama por todo Azeroth.",1
 54093,NPEV2_SELF_HEAL_P2,No te muevas mientras lanzas la facultad.\n\nMira cómo recuperas salud.,1
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,El ayudante de botón único te sugerirá qué facultad dañina debes lanzar. Utilízala como cualquier otra.,1
 54095,NAME_NOT_AVAILABLE,Ese nombre no está disponible,3
+54099,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED,Tintes usados recientemente,1
 54106,SPELL_FAILED_CUSTOM_ERROR_1046,Ya tienes esta reliquia en tu colección.,1
+54107,HOUSING_DECOR_CUSTOMIZATION_DYE_NUM_OWNED,Disponible(s): %d,1
+54108,HOUSING_DECOR_CUSTOMIZATION_SHOW_ONLY_OWNED,Ocultar no disponibles,1
+54109,HOUSING_DECOR_CUSTOMIZATION_REMOVE_DYE_WARNING,Se eliminará un tinte %d.,1
 54112,LOGIN_STATE_WAITFORNETWORK,Esperando a la red,2
 54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,Esa ranura requiere una gema de fibras.,1
 54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Las gemas de fibras solo se pueden colocar en ranuras de fibras.,1
@@ -23123,21 +23463,30 @@ y propagar su llama por todo Azeroth.",1
 54132,VOICE_CHAT_SETTING_ENABLED,Chat de voz activado,1
 54133,SPELL_FAILED_CUSTOM_ERROR_1076,Solo los asaltantes temporales pueden usar esto.,1
 54134,SPELL_FAILED_CUSTOM_ERROR_1077,Ahora mismo es demasiado peligroso hacer eso.,1
+54135,HOUSING_HOUSE_NAME_FORMAT,%1$d %2$s,1
 54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Deposita todos los componentes,1
 54138,GROUP_FINDER_VOICE_CHAT_TYPE_INGAME,Juego,1
 54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Otros,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Consola titánica sobrecargada,1
+54150,ERR_NO_OWNED_HOUSE_IN_THIS_NEIGHBORHOOD_MAP,No posees una casa en este vecindario,1
 54153,EMOTE628_CMD1,/inclinarse,1
 54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Contenido violento/terrorismo,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Abuso infantil,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Haz clic derecho para ver la lista de facultades,1
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Haz clic derecho para ocultar la lista de facultades,1
+54184,ERR_INVITED_TO_NEIGHBORHOOD,¡Te han invitado a un vecindario!,1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Ayuda resaltada,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Activa la ayuda resaltada que te sugiere qué facultad debes utilizar.|nLa ayuda resaltada solo sugerirá facultades visibles.,1
 54209,CONTACTS_TAB_TITLE,Contactos,3
 54210,CONTACTS_LIST_TITLE,Contactos,3
+54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Bloquea todas las invitaciones a vecindarios.,1
+54212,BLOCK_NEIGHBORHOOD_INVITES,Bloquear invitaciones a vecindarios,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,No puedes participar en el Paseo por la historia durante la sincronización de grupo.,1
+54226,HOUSING_HOUSE_SETTINGS_ANYONE,Cualquiera,1
+54227,HOUSING_HOUSE_SETTINGS_NOONE,Nadie,1
+54228,HOUSING_HOUSE_SETTINGS_LIMITED,Limitado,1
+54229,HOUSING_HOUSE_SETTINGS_ACCESS_PARTY,Grupo,1
 54230,EMPTY_SOCKET_FIBER,Ranura de fibras,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,La ayuda resaltada solo sugerirá facultades visibles.,1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00El mensaje a %s se ha marcado como potencialmente inapropiado.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Reescribir mensaje]|w|h o |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[enviar de todas formas]|w|h|r,1
@@ -23149,6 +23498,20 @@ y propagar su llama por todo Azeroth.",1
 54268,VOTE_TO_ABANDON_PASSED,Votación exitosa,1
 54269,VOTE_TO_ABANDON_FAILED,La votación para abandonar no ha tenido éxito.,1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Mensaje marcado como potencialmente inapropiado.|r,1
+54289,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_STAIRWELL,Esta habitación no se puede rotar,1
+54291,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_LAST_ROOM,Esta habitación no se puede eliminar,1
+54292,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_UNREACHABLE,No se puede eliminar una habitación que tenga más de una puerta conectada,1
+54293,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_STAIRWELL,Esta habitación no se puede eliminar,1
+54294,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_LAST_ROOM,Esta habitación no se puede mover,1
+54295,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_UNREACHABLE,No se pueden mover habitaciones si eso provoca que haya habitaciones inaccesibles.,1
+54308,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_NOT_FOUND,No se ha podido encontrar una habitación válida,1
+54309,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_INSIDE_HOUSE,No se puede modificar el diseño. Ahora mismo no estás dentro de una casa.,1
+54311,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_HOUSE_OWNER,No eres el propietario de esta casa,1
+54314,ERR_HOUSING_LAYOUT_RESTRICTION_BASE_ROOM,Esta habitación no se puede modificar,1
+54315,ERR_HOUSING_LAYOUT_RESTRICTION_NON_LEAF,Esta habitación no se puede modificar. Prueba a eliminar una o más habitaciones anexas.,1
+54316,ERR_HOUSING_LAYOUT_RESTRICTION_STAIRWELL,Esta habitación no se puede modificar. Prueba a eliminar antes las habitaciones de hueco de escalera que tenga encima o debajo.,1
+54317,ERR_HOUSING_LAYOUT_RESTRICTION_LAST_ROOM,Esta habitación no se puede modificar,1
+54318,ERR_HOUSING_LAYOUT_RESTRICTION_UNREACHABLE,"No se puede modificar una habitación si, al hacerlo, quedan habitaciones inaccesibles.",1
 54321,CONTACTS_MENU_BROADCAST_BUTTON_NAME,Mensaje,3
 54322,CONTACTS_MENU_IGNORE_BUTTON_NAME,Lista de ignorados,3
 54323,CONTACTS_MENU_NAME,Menú,3
@@ -23156,27 +23519,101 @@ y propagar su llama por todo Azeroth.",1
 54325,CONTACTS_RECENT_ALLIES_TITLE,Aliados recientes,1
 54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Aliados recientes,1
 54327,ERR_CHARACTER_BANK_NOT_CONVERTED,El banco de tu personaje no se ha convertido. Inténtalo más tarde.,1
+54328,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_TEXT,¿Seguro que quieres cancelar la invitación de %s al vecindario?,1
+54329,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_CONFIRM,Confirmar,1
+54330,HOUSING_NEIGHBORHOOD_INVITE_TITLE,Invitar a residente,1
+54331,HOUSING_NEIGHBORHOOD_INVITE_SEARCH_LABEL,Búsqueda de jugador,1
+54332,HOUSING_NEIGHBORHOOD_INVITE_INVITATIONS_LABEL,Invitaciones pendientes,1
+54333,HOUSING_NEIGHBORHOOD_INVITE_SEARCH,Buscar,1
+54334,HOUSING_NEIGHBORHOOD_INVITE_BUTTON_LABEL,Enviar invitación,1
+54335,HOUSING_NEIGHBORHOOD_INVITE_ERR_GENERIC,Se ha producido un error,1
+54336,HOUSING_NEIGHBORHOOD_INVITE_ERR_DISABLED,Este jugador ha deshabilitado las invitaciones a vecindarios,1
+54337,HOUSING_NEIGHBORHOOD_INVITE_ERR_FACTION,Este jugador pertenece a la facción contraria,1
+54338,HOUSING_NEIGHBORHOOD_INVITE_ERR_PENDING,Este jugador tiene una invitación pendiente de otro vecindario,1
+54339,HOUSING_NEIGHBORHOOD_INVITE_ERR_LIMIT,Has llegado al límite de invitaciones,1
+54340,HOUSING_NEIGHBORHOOD_INVITE_ERR_NO_PLOTS,No tienes más parcelas disponibles,1
+54341,HOUSING_NEIGHBORHOOD_INVITE_ERR_NOT_FOUND,Jugador no encontrado,1
+54342,HUD_ITEM_CONTAINER_TITLE,Inventario,1
+54344,HOUSING_BULLETINBOARD_INVITE_RESIDENT,Invitar a residente,1
 54347,SPELL_FAILED_CUSTOM_ERROR_2430,Debes equiparte con los mantones reshii para usar el buceo de fase.,1
 54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,Otro miembro de tu banda guerrera está usando el banco.,1
 54349,BANK_LOCKED_REASON_BANK_DISABLED,El banco no está disponible en estos momentos.,1
 54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Conversión de banco fallida. Vuelve a iniciar el juego para intentarlo de nuevo.,1
+54361,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_CEILING,Estilo de techo,1
+54362,BINDING_NAME_HOUSING_EXPERTDECORTRANSLATESUBMODE,Submodo avanzado Mover,1
+54363,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE,Mover,1
+54364,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_FMT,Mover |cnNORMAL_FONT_COLOR:(%s)|r,1
+54365,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEX,Rotación del eje X,1
+54366,PREFACE_HOUSING_EXPERTDECOR_INCREMENT_BINDINGS,Atajos para manipular de manera incremental los adornos mediante pulsaciones de teclas,1
+54367,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEY,Rotación del eje Y,1
+54369,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEZ,Rotación del eje Z,1
+54373,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_CEILING,Material del techo,1
+54374,HOUSING_DECOR_CUSTOMIZATION_CEILING_TYPE_LABEL,Tipo de techo,1
+54375,HOUSING_DECOR_CUSTOMIZATION_VAULTED_LABEL,Abovedado,1
+54376,HOUSING_DECOR_CUSTOMIZATION_NOT_VAULTED_LABEL,Normal,1
 54377,LEAVER_PENALTY_WARNING_TIMER,No estás en la mazmorra mítica+ activa de tu grupo. Recibirás una penalización dentro de %d %s.,1
 54378,REWARD_POSSIBLE_QUEST_REWARD,Esta misión puede tener recompensas adicionales:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s ha cambiado el nombre de la hermandad por %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s ha reembolsado el cambio de nombre de la hermandad por %s,1
+54383,ROTATION_CONTROL_ANGLE_FORMAT,%d °,1
+54384,SPELL_FAILED_CUSTOM_ERROR_666,No puedes hacer eso.,1
+54385,SPELL_FAILED_CUSTOM_ERROR_651,No hay botín.,1
 54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Colores adicionales:,1
-54651,TALENT_FRAME_INCREASED_RANKS_TEXT,+%d |4rango:rangos; por: %s,1
+54409,HOUSING_CORNERSTONE_MOVE_DIALOG,¿Seguro que quieres mover esta casa? \n\n El coste de la antigua se aplicará al de la nueva,1
+54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,¿Seguro que quieres comprar esta casa? \n\n Se aplicará el diseño de la anterior en el momento de la compra,1
+54613,HOUSING_CORNERSTONE_MOVE_BUTTON,Mover casa,1
+54614,HOUSING_CORNERSTONE_MOVE_TOOLTIP,Te has mudado recientemente. Vuelve a intentarlo más tarde.,1
+54615,HOUSING_CORNERSTONE_MOVE_TOOLTIP_TIME,Tiempo restante: %s,1
+54616,HOUSING_CORNERSTONE_REFUND,Reembolso:,1
+54617,HOUSING_CORNERSTONE_HOUSE_TO_MOVE,Casa que mover:,1
+54618,HOUSING_CORNERSTONE_HOUSE_TO_IMPORT,Casa que importar:,1
+54621,ERR_HOUSING_RESULT_NOT_ON_OWNED_PLOT,No posees esta parcela,1
+54630,ERR_HOUSING_RESULT_CANNOT_AFFORD,No puedes permitírtelo.,1
+54632,ERR_HOUSING_RESULT_INCORRECT_FACTION,Tu facción no es la correcta.,1
+54634,ERR_HOUSING_RESULT_INVALID_DECOR_ITEM,Adorno de casa no válido,1
+54637,ERR_HOUSING_RESULT_INVALID_GUILD,Falta la hermandad o no es válida,1
+54638,ERR_HOUSING_RESULT_INVALID_INTERACTION,Interacción no válida,1
+54639,ERR_HOUSING_RESULT_INVALID_NAME_PROVIDED,Nombre no válido,1
+54640,ERR_HOUSING_RESULT_MORE_HOUSE_SLOTS_NEEDED,No tienes ranuras de casas suficientes,1
+54641,ERR_HOUSING_RESULT_NEIGHBORHOOD_NOT_FOUND,Vecindario no encontrado,1
+54642,ERR_HOUSING_RESULT_OPERATION_ABORTED,Operación del servidor cancelada,1
+54643,ERR_HOUSING_RESULT_TIMEOUT_LIMIT,La operación ha expirado,1
+54644,ERR_HOUSING_RESULT_TRANSACTION_FAILURE,La transacción ha fallado,1
+54645,HOUSING_BULLETINBOARD_CONTEXT_EVICT,Desahuciar,1
+54647,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_TEXT,¿Seguro que quieres desahuciar a este jugador? \n \n Se le expulsará del vecindario de inmediato.,1
+54648,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CONFIRM,Confirmar,1
+54649,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CANCEL,Cancelar,1
+54650,HOUSING_BULLETINBOARD_EVICTED_CONFIRMATION_TEXT,Te han desahuciado de este vecindario. \n \n Se ha guardado el diseño de tu casa. Compra una nueva para importarlo.,1
+54651,TALENT_FRAME_INCREASED_RANKS_TEXT,(+%d |4rango:rangos; por: %s),1
+54652,HOUSING_CATALOG_CATEGORIES_BACK,ATRÁS,1
 54664,WHO_LIST_LEVEL_TOOLTIP,Nivel %d,1
 54665,ENABLE_GAMEPLAY_SFX,Activar señales acústicas durante los combates,3
 54666,GAMEPLAY_SFX_VOLUME,Efectos de sonido de juego,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Ajusta el volumen de los efectos de sonido del juego,3
 54672,RECENT_ALLY_LABEL,Aliados recientes,3
+54676,HOUSING_ADD_NEIGHBORHOOD_MANAGER_CONFIRMATION,"¿Seguro que quieres añadir a %s como gerente del vecindario? \n\n Al convertir a un jugador en gerente, le otorgas los siguientes permisos:|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Invitar a jugadores a comprar una casa en el vecindario |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Desahuciar del vecindario a jugadores que no sean gerentes |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Gestionar el futuro contenido del vecindario ",1
+54677,HOUSING_REMOVE_NEIGHBORHOOD_MANAGER_CONFIRMATION,¿Seguro que quieres eliminar a %s como gerente del vecindario?,1
+54678,HOUSING_BULLETIN_CONTEXT_CONFIRM,Confirmar,1
+54679,HOUSING_BULLETIN_CONTEXT_CANCEL,Cancelar,1
+54680,HOUSING_TRANSFER_OWNERSHIP_REJECT,Rechazar,1
+54681,HOUSING_TRANSFER_OWNERSHIP_CONFIRM,Confirmar,1
+54682,HOUSING_BULLETIN_TRANSFER_OWNERSHIP_DIALOG,¿Seguro que quieres transferir la propiedad del vecindario a %s? Tendrá que aceptar la transferencia antes de que se ejecute. \n\n Tú pasarás a ser gerente del vecindario.,1
+54683,HOUSING_TRANSFER_OWNERSHIP_REQUEST_DIALOG,%s quiere transferirte la propiedad del vecindario %s.,1
+54684,HOUSING_BULLETIN_TRANSFER_OWNERSHIP,Transferir propiedad,1
+54685,HOUSING_BULLETIN_ADD_MANAGER,Ascender a gerente,1
+54686,HOUSING_BULLETIN_REMOVE_MANAGER,Eliminar gerente,1
 54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,¿Quieres restablecer el árbol del artefacto? (recuperarás los puntos),1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Restablecer árbol,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Cancelar,1
+54710,BINDING_NAME_TOGGLEHOUSINGDASHBOARD,Panel de hogares,1
+54713,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE,Solo de exterior,1
+54714,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE,Solo de interior,1
+54715,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE_ERROR,Este adorno solo se puede colocar en el exterior,1
+54716,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE_ERROR,Este adorno solo se puede colocar en el interior,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Informe fallido. Demasiados intentos. Inténtalo de nuevo en unos minutos.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Informe fallido. El tipo de informe solo es válido en líneas de chat.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Informe fallido. El tipo de informe solo es válido en líneas de chat o en el chat de voz.,1
+54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s ha aceptado la transferencia de la propiedad del vecindario,1
 54731,UNITNAME_SUMMON_TITLE59,Esbirro leal al voto de %s,1
 54758,ASSISTED_COMBAT_LABEL,Ayudante de combate,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Ver en el libro de hechizos,1
@@ -23186,7 +23623,17 @@ y propagar su llama por todo Azeroth.",1
 54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Solo muestra los hechizos esenciales. Tus hechizos se muestran siempre.,3
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Reduce la cantidad de hechizos no esenciales mostrados.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Muestra siempre todos los hechizos.,3
+54790,OUTFITTER_ARMOR_HEADER,[PH],1
+54791,OUTFITTER_GEM_HEADER,[PH],1
+54792,OUTFITTER_FRAME_TITLE,[PH],1
+54793,OUTFITTER_EQUIP_ARMOR,[PH],1
 54794,BCSHORTDATENOYEAR,%2$d de %1$B,1
+54795,HOUSING_DECOR_CUSTOMIZATION_DOOR_TYPE_LABEL,Tipo de umbral,1
+54797,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_WALL,Material del muro,1
+54798,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_FLOOR,Material del suelo,1
+54800,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_WALL,Estilo de muro,1
+54801,HOUSING_DECOR_CUSTOMIZATION_NORMAL_DOOR_LABEL,Estándar,1
+54802,HOUSING_DECOR_CUSTOMIZATION_WIDE_DOOR_LABEL,Ancha,1
 54803,RECENT_ALLIES_PARTY_BUTTON_OFFLINE_TOOLTIP,Jugador desconectado,3
 54804,RECENT_ALLIES_MENU_BUTTON_LABEL_SET_NOTE,Establecer nota,3
 54805,RECENT_ALLIES_MENU_BUTTON_LABEL_PIN,Anclar,3
@@ -23196,14 +23643,19 @@ y propagar su llama por todo Azeroth.",1
 54810,RECENT_ALLY_RECENT_ACTIVITIES_LABEL,Actividades recientes,3
 54811,RECENT_ALLY_INTERACTION_TIME_FORMAT,Hace %s,3
 54826,RECENT_ALLIES_PARTY_BUTTON_TOOLTIP,Invitar a grupo,1
+54827,HOUSING_DECOR_CUSTOMIZATION_LABEL_CEILING,Techo,1
+54828,HOUSING_DECOR_CUSTOMIZATION_LABEL_WALL,Muro,1
+54829,HOUSING_DECOR_CUSTOMIZATION_LABEL_FLOOR,Suelo,1
 54835,NOTIFY_ASSIST_ACTION_PLACED_VO,%1$s ha escuchado tu mensaje en %2$s.,1
 54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,%1$s ha vengado tu derrota contra %2$s en %3$s.,1
 54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,%1$s ha recibido tu %2$s en %3$s.,1
 54839,REMIX_ARTIFACT_TUTORIAL_CHOOSE_TRAITS_TEXT,Elige los rasgos del arma artefacto.,1
 54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,Haz clic derecho con la tecla Mayús pulsada para ver el árbol de rasgos del arma artefacto.,1
+54841,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED_SHORT,Se ha usado recientemente,1
 54842,SPELL_FAILED_CUSTOM_ERROR_1079,Primero debes llevar a Acherus a las Islas Abruptas en esta línea temporal.,1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Sepultura de %s,1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Mensaje de %s,1
+54846,HOUSING_DASHBOARD_HOUSEUPGRADE,Nivel de la casa,1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Te has unido a una mazmorra mítica+. Si la abandonas antes de que concluya el temporizador sin votar para abandonar la misma, recibirás una penalización.",1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Recuerdo de %s,1
@@ -23230,6 +23682,8 @@ y propagar su llama por todo Azeroth.",1
 54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Reduce la cantidad de hechizos no esenciales que aparecen en función de la frecuencia de imágenes.,3
 54915,TEXT_SCALE_PREVIEW_TITLE,Ejemplo,3
 54916,TEXT_SCALE_PREVIEW_BODY,"Esto es una vista previa del tamaño del texto. Ajusta esta opción para cambiar el tamaño del texto de la mayoría de los diálogos, algunos menús sociales y las opciones de texto a voz.",3
+54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
+54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Interfaz,3
 54950,ACCESSIBILITY_FONT_SIZE_LABEL,Escala del texto,3
 54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Ajusta el tamaño del texto para la mayoría de los diálogos, algunos menús sociales como ""Quién"", ""Unión rápida"" y ""Añadir amigo"", así como las opciones de texto a voz.",3
@@ -23257,6 +23711,14 @@ y propagar su llama por todo Azeroth.",1
 55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,cayó con valentía en una profundidad de nivel %d,1
 55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,cayó con valentía a manos de %s,1
 55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,cayó y murió con valentía,1
+55017,HOUSING_CATALOG_FILTERS_DYEABLE,Solo teñibles,1
+55018,HOUSING_CATALOG_FILTERS_INDOORS,Interiores,1
+55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Exteriores,1
+55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
+55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
+55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
+55027,WOWHACK_SPELLS_FRAME_ACTIVE_ABILITIES_HEADER,[PH],1
+55028,WOW_HACK_SPELLS_FRAME_ABILITY_HINT,[PH],1
 55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Se ha trasladado a tu personaje asaltante temporal a la línea temporal principal.|n|nSe han eliminado los objetos del evento Remix.,1
 55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"¿Quieres convertir este personaje asaltante temporal en uno estándar?|n|nObtendrá pleno acceso al juego principal, pero dejará de tenerlo a Legion Remix. Hace falta The War Within para jugar con un personaje asaltante temporal de más de nivel 70 que se haya convertido en estándar.|n|n|cffff2020No se puede deshacer esta acción.|r",2
 55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Convertir asaltante temporal en estándar,2
@@ -23271,6 +23733,7 @@ y propagar su llama por todo Azeroth.",1
 55048,VRN_GPUMEM_16GB,Requiere una tarjeta gráfica con al menos 16 GB de memoria de vídeo,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Hogares para jugadores,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Hechizos de combate asistidos,1
+55061,NOT_WHILE_HOUSE_EDIT,No se puede usar mientras se edita una casa,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,Se te ha marcado como desertor de piedras angulares por abandonar estancias míticas+ varias veces.,1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Se te ha marcado como desertor de piedras angulares,1
 55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,Esto solo afectará a grupos de mítica+,1
@@ -23278,7 +23741,40 @@ y propagar su llama por todo Azeroth.",1
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,El distintivo de desertor se podrá ver en el buscador de grupos de mítica+.,1
 55070,MYTHIC_PLUS_DESERTER,Desertor de piedras angulares,1
 55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Resultados de la búsqueda,1
+55081,KIOSK_HOUSING_START_BODY1,Te damos la bienvenida a tu hogar,1
+55083,KIOSK_HOUSING_START_BUTTON,Decorar,1
+55084,KIOSK_HOUSING_END_BODY1,Gracias por intentarlo,1
+55085,KIOSK_HOUSING_END_BODY2,Hogares para jugadores,1
+55086,KIOSK_HOUSING_END_FOOTER,¡Nos gusta cómo piensas! Completa esta encuesta.,1
+55089,KIOSK_HOUSING_START_DLG_BODY1,"Es hora de convertir este espacio en tuyo. Hay unas breves instrucciones en la postal. ¡Instálate y, cuando estés a gusto, veamos lo que puedes construir!",1
+55090,KIOSK_HOUSING_START_DLG_HEADER,¡Te damos la bienvenida a tu hogar!,1
+55091,ERR_NEW_PARTY_NEIGHBORHOOD_RESERVATION,¡Un miembro de tu grupo ha reservado una nueva casa!,1
+55092,KIOSK_ENABLED_DLG_TEXT,Modo Quiosco activado\nEsta notificación no reaparecerá.,3
+55095,HOUSEFINDER_BACK_BUTTON,ATRÁS,1
+55123,HOUSING_CATALOG_FILTERS_NONE,Ninguno,1
+55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
+55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
+55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
+55139,WOWHACK_STAT_LINE_MANA,[PH],1
+55140,WOWHACK_STAT_LINE_ABILITY_POWER,[PH],1
+55141,WOWHACK_STAT_LINE_SPELL_POWER,[PH],1
+55142,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_SINGLE_DOOR,Esta habitación no se puede rotar,1
+55143,ERR_HOUSING_LAYOUT_RESTRICTION_SINGLE_DOOR,No se puede cambiar la puerta que se va a utilizar si la habitación solo tiene una.,1
+55144,WOWHACK_WEAPON_ABILITIES_HEADER_TITLE,[PH],1
+55145,WOWHACK_SLOT_EFFECTS_HEADER_TITLE,[PH],1
+55146,KIOSK_HOUSING_RESET_IN_PROGRESS,Se está reiniciando la casa. Espera.,1
+55147,KIOSK_HOUSING_RESET_FAILED,Error al reiniciar la casa. Notifícaselo a un auxiliar.,1
+55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Buscar amigos de Battle.net,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Mantón reshii,1
+55165,HOUSEFINDER_SEARCH_DESCRIPTION,Viendo los vecindarios de %s,1
+55166,HOUSEFINDER_SEARCH_NOT_FOUND,No se han encontrado casas,1
+55174,ERR_HOUSE_MOVED,La casa en la que estabas se ha movido a una nueva ubicación.,1
+55183,BINDING_NAME_WOWHACKITEM1,[PH],1
+55184,BINDING_NAME_WOWHACKITEM2,[PH],1
+55185,BINDING_NAME_WOWHACKITEM3,[PH],1
+55186,BINDING_NAME_WOWHACKITEM4,[PH],1
+55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
+55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,No se ha podido completar la transacción.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,Esta montura no puede entrar en el Espacio Desvinculado.,1
 55200,USER_SURVEY_STATUS_READY,Encuesta de investigación disponible,1
 55201,USER_SURVEY_STATUS_READY_DESCRIPTION,¡Queremos saber tu opinión! Haz clic aquí para acceder a la encuesta.,1
@@ -23287,10 +23783,80 @@ y propagar su llama por todo Azeroth.",1
 55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Mostrar no aprendidas,1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Opciones,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Activar/desactivar ajustes de los tiempos de reutilización,1
+55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
+55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
+55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
+55218,HOUSING_DASHBOARD_ENDEAVOR,Proyecto,1
+55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Teletransporte a parcela,1
+55221,HOUSING_DASHBOARD_NO_HOUSE_SELECTED,No hay una casa seleccionada,1
+55222,HOUSING_DASHBOARD_RETURN,Volver a la ubicación anterior,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,No se ha podido actualizar el nombre de la configuración. Vuelve a intentarlo.,1
 55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Introducir texto de búsqueda,1
+55227,BINDING_NAME_HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE,Editar exterior de la casa,1
+55228,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME,Editar exterior de la casa,1
+55229,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON,Editar exterior de la casa,1
+55230,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_FMT,Editar exterior de la casa |cnNORMAL_FONT_COLOR:(%s)|nEdita la apariencia de tu casa|r,1
+55232,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER,Editar exterior de la casa,1
+55233,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER_FMT,Editar exterior de la casa |cnNORMAL_FONT_COLOR:(%s)|r,1
+55234,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT,Salir del editor de exteriores de casas,1
+55236,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT_FMT,Salir del editor de exteriores de casas |cnNORMAL_FONT_COLOR:(%s)|r,1
+55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,Haz clic en este botón para abrir el editor de casas,1
+55243,CLEAN_DECOR_TUTORIAL_TEXT,Haz clic en un adorno y pulsa R para depositarlo en el cofre de la casa|n|n%s,1
+55244,DECORATE_DECOR_TUTORIAL_TEXT,Haz clic en un adorno del cofre de la casa o haz clic y arrástralo desde allí para colocarlo en tu casa|n|n%s,1
+55245,EXIT_DECOR_MODE_TUTORIAL_TEXT,Haz clic en este botón para cerrar el editor de casas y avanzar en el tutorial,1
+55246,HOUSING_CLIPPING_GRID_TUTORIAL_TEXT,Ajusta la forma de colocar el adorno en el modo Decoración usando estas herramientas,1
+55247,HOUSING_CUSTOMIZATION_BUTTON_TUTORIAL_TEXT,El modo Personalización te permite cambiar la apariencia de los objetos de tu casa,1
+55248,HOUSING_CLICK_DECOR_TUTORIAL_TEXT,"Personaliza los muros, los suelos o los adornos haciendo clic sobre ellos",1
+55249,HOUSING_LAYOUT_BUTTON_TUTORIAL_TEXT,El editor de distribuciones te permite cambiar la distribución de tu casa,1
+55250,HOUSING_LAYOUT_CHEST_TUTORIAL_TEXT,Las habitaciones desbloqueadas aparecerán en el cofre de la casa.|n|nSelecciona una habitación y haz clic sobre un nodo de conexión para colocarla.,1
+55251,HELP_TIP_EXIT,Salir,1
+55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Este modo no está disponible en el tutorial,1
+55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Compra Midnight para acceder a los hogares,1
+55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Compra Midnight para acceder a los hogares,1
+55273,HOUSING_DASHBOARD_OWNERS_HOUSE,Casa de %s,1
+55274,HOUSING_DASHBOARD_ADDRESS,%s %s,1
+55275,ERR_CHARTER_SIGNATURE_REQUEST_SENT,Has pedido a %s que firme el estatuto de tu vecindario.,1
+55282,ERR_CHARTER_SIGNATURE_RECEIVED,%s ha firmado el estatuto de tu vecindario.,1
+55298,HOUSING_DASHBOARD_HOUSE_LEVEL,Nivel %s,1
+55301,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR,%s/%s PE de casa,1
+55316,HOUSING_CREATENEIGHBORHOOD_GUILD_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Tanto los personajes de la Horda como los de la Alianza pueden comprar parcelas |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Solo los miembros de tu hermandad pueden comprar parcelas |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Los jugadores que no pertenezcan a la hermandad serán expulsados del vecindario |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Se crearán nuevas subdivisiones automáticamente una vez que el vecindario esté lleno,1
+55317,HOUSING_CREATENEIGHBORHOOD_CHARTER_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Tanto los personajes de la Horda como los de la Alianza pueden comprar parcelas |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Los gerentes del vecindario pueden invitar a otros jugadores a unirse,1
+55318,GAME_MODE_DISABLED_TOOLTIP,Este modo de juego no está disponible temporalmente.,3
+55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Información sobre el vecindario:,1
+55333,RPE_TURNSTRAFE_SELECT,Seleccionar atajos de movimiento,1
+55334,RPE_TURNSTRAFE_AFFECT_ACCOUNT,Esto afectará a todos los personajes tuyos que usen atajos para toda la cuenta,1
+55335,RPE_TURNSTRAFE_AFFECT_CHARACTER,Esto solo afectará a este personaje,1
+55336,RPE_TURNSTRAFE_LEGACY,Clásico,1
+55337,RPE_TURNSTRAFE_MODERN,Moderno,1
+55338,RPE_TURNSTRAFE_LEGACY_DESC,A y D |cnHIGHLIGHT_FONT_COLOR:giran|r a tu personaje,1
+55339,RPE_TURNSTRAFE_MODERN_DESC,A y D |cnHIGHLIGHT_FONT_COLOR:mueven|r a tu personaje,1
+55340,RPE_TURNSTRAFE_ACTIVATE,Activar,1
+55341,RPE_TURNSTRAFE_ACTIVE,Activo,1
+55342,RPE_TURNSTRAFE_CHANGED,"Han cambiado las teclas predeterminadas de desplazamiento lateral y giro, lo que puede haber afectado a tus atajos.",1
+55343,RPE_TURNSTRAFE_REVIEW,Revisar atajos,1
+55357,HOUSING_CORNERSTONE_NEIGHBORHOOD_CHARTER,Estatuto,1
+55358,HOUSING_CORNERSTONE_NEIGHBORHOOD_GUILD,Hermandad,1
+55359,HOUSING_NEIGHBORHOODTYPE_GUILD,Hermandad,1
+55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Estatuto,1
+55372,HOUSING_DASHBOARD_REWARD_INTERIOR_BUDGET,Presupuesto para colocación de adornos interiores,1
+55373,HOUSING_DASHBOARD_REWARD_EXTERIOR_BUDGET,Presupuesto para colocación de adornos exteriores,1
+55374,HOUSING_DASHBOARD_REWARD_ROOM_BUDGET,Presupuesto para colocación de habitaciones,1
+55375,HOUSING_DASHBOARD_REWARD_FIXTURE_BUDGET,Presupuesto para accesorios,1
+55376,HOUSING_DASHBOARD_VISIT_NPC,Visita al contratista general de tu vecindario para subir de nivel tu casa,1
+55386,HOUSING_DECOR_DYE_LIST,Tintes:%s,1
+55394,HOUSE_PURCHASE,Te damos la bienvenida a tu hogar,1
+55398,BUY_HOUSE,Comprar casa,1
+55399,HOUSING_DASHBOARD_START_TUTORIAL_TEXT,¡Te doy la bienvenida a los hogares!,1
+55400,HOUSING_DASHBOARD_START_TUTORIAL_DESCRIPTION_TEXT,Haz clic en el botón siguiente para iniciar el tutorial sobre los hogares.|n|nPuedes iniciar y detener este tutorial cuando quieras.,1
+55401,HOUSING_DASHBOARD_START_TUTORIAL_BUTTON_TEXT,Iniciar tutorial,1
+55402,NEIGHBORHOOD_LIST_TUTORIAL_TEXT,Elige entre distintas estancias de vecindarios donde vivir,1
+55403,NEIGHBORHOOD_MAP_TUTORIAL_TEXT,"Las parcelas disponibles en el vecindario tendrán un cartel de ""Se vende",1
+55404,NEIGHBORHOOD_VISIT_HOUSE_TUTORIAL_TEXT,"Haz clic en ""Visitar"" para reservar una casa y teletransportarte a ella.",1
+55405,HOUSING_OPEN_BAGS_TUTORIAL_TEXT,¡Has recibido adornos para hogares!,1
+55406,HOUSING_USE_ITEM_TUTORIAL_TEXT,Usa adornos en tu inventario para añadirlos al cofre de tu casa.|n|nAlgunos adornos se añaden automáticamente al cofre de la casa.,1
 55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Modo edición,1
 55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Opciones del gestor de tiempos de reutilización,1
+55410,REPORTING_MINOR_CATEGORY_NEIGHBORHOOD_NAME,Nombre del vecindario,5
 55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Aliado anclado (expira dentro de %s),1
 55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
 55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
@@ -23300,25 +23866,76 @@ y propagar su llama por todo Azeroth.",1
 55423,RECENT_ALLY_RAID_NAME_STRING_FORMAT,%s (%s),1
 55424,RECENT_ALLY_DELVE_NAME_STRING_FORMAT,%s (%s),1
 55425,RECENT_ALLY_MYTHIC_PLUS_DUNGEON_NAME_STRING_FORMAT,%s (%s),1
+55429,QUEUE_STATUS_WOWHACK_TITLE,[PH],1
+55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
+55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
+55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55454,ERR_TRAVEL_PASS_GAME_MODE,Este amigo está jugando a una versión distinta de World of Warcraft.,3
+55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Falta tinte,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Visibilidad de la ubicación,1
 55467,SOCIAL_LOCATION_VISIBILITY_SETTING_TOOLTIP,Elige quién puede ver tu ubicación actual en el juego desde el menú social,1
 55468,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD,Amigos y compañeros de hermandad,1
 55469,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD_ALLIES,"Amigos, aliados recientes y compañeros de hermandad",1
 55474,LOREWALKING_QUESTS_HIDDEN_HELP_TIP,Estás en Paseo por la historia. El resto de las misiones estarán ocultas mientras permanezcas en este modo.,1
+55476,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_EMPTY_TOOLTIP,Adjuntar accesorio,1
+55477,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_OCCUPIED_TOOLTIP,Cambiar accesorio,1
+55487,GAME_MENU_SHOW_REWARDS,Recompensas,1
+55488,CHARACTER_SELECT_SHOW_REWARDS,[PH] Rewards,2
+55489,CHARACTER_SELECT_INFO_BUTTON,[PH] Info,2
+55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Adorno inapropiado,1
+55494,HOUSING_DASHBOARD_REWARD_INTERIOR_TOOLTIP,Aumenta tu presupuesto para adornos,1
+55495,HOUSING_DASHBOARD_REWARD_EXTERIOR_TOOLTIP,Aumenta tu presupuesto para adornos exteriores,1
+55496,HOUSING_DASHBOARD_REWARD_ROOM_TOOLTIP,Aumenta tu presupuesto para habitaciones,1
+55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Aumenta tu presupuesto para accesorios exteriores,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl+clic para asignación rápida,1
+55508,SPELL_FAILED_CUSTOM_ERROR_652,Ya has conseguido este adorno.,1
+55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,Esta característica está disponible después de completar el Confín del Exilio.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,La votación para abandonar está en tiempo de reutilización: queda(n) |cnWHITE_FONT_COLOR:%s|r,1
+55512,REPORTING_REPORT_PLAYER_HOUSE,Informar sobre la casa de %s,1
+55513,HOUSING_NEIGHBORHOOD_MAP_ERROR,Error al buscar ID de mapa de vecindario,1
+55514,REPORTING_REPORT_SCREENSHOT_DESCRIPTION,Usa el botón para hacer una captura de pantalla del adorno inapropiado. Tu HUD se ocultará en la imagen.,1
+55515,REPORTING_REPORT_SCREENSHOT_EMPTY,Usa el botón de captura de pantalla para adjuntar una imagen,1
+55530,EQUIPPED,Equipado,1
+55531,REPORTING_SCREENSHOT_INSTRUCTIONS,Clic izquierdo para hacer una captura de pantalla,1
 55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,No puedes votar para abandonar una estancia durante un encuentro contra un jefe.,1
+55537,HOUSING_LAYOUT_NUM_ROOMS_TOOLTIP,Presupuesto para colocación de habitaciones |cnNORMAL_FONT_COLOR:|nMejora tu casa para aumentar la cantidad de habitaciones que puedes colocar.|r,1
+55540,HOUSE_UPGRADE_AVAILABLE_TOAST,Casa lista para subir de nivel,1
+55541,HOUSEFINDER_SEARCH_DESCRIPTION_FAILED,No se han encontrado vecindarios,1
 55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Revertir,1
 55543,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP,Revierte todos los cambios del diseño desde la última vez que se ha guardado.,1
 55544,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_REVERT_CHANGES,¿Quieres deshacer todos los cambios desde la última vez que has guardado?,1
 55545,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_RESET_LAYOUT_TO_DEFAULT,¿Quieres restaurar el diseño del tiempo de reutilización al diseño predeterminado? Esta acción no puede deshacerse.,1
 55550,COOLDOWN_VIEWER_SETTINGS_LAYOUT_SAVED_MESSAGE,Diseño del gestor de tiempos de reutilización guardado,1
+55551,NEIGHBORHOODMAP_YOUR_HOUSE,Tu casa,1
+55552,NEIGHBORHOODMAP_OWNED_BY,Propiedad de: %s,1
+55557,HOUSEFINDER_VISIT_DESCRIPTION,"Si haces clic en ""Visitar"", esta parcela quedará reservada durante 5 minutos.",1
+55558,HOUSEFINDER_PRICE_LABEL,Precio:,1
+55559,HOUSEFINDER_NEIGHBORHOOD_LABEL,Vecindario:,1
+55560,HOUSEFINDER_LOCATION_LABEL,Ubicación:,1
+55561,HOUSEFINDER_TYPE_LABEL,Tipo:,1
+55562,HOUSEFINDER_OWNER_LABEL,Propiedad de:,1
+55563,HOUSEFINDER_RESERVATION_ERROR,Esta casa ya no está disponible.,1
+55564,HOUSEFINDER_VISIT_BUTTON,Visitar,1
+55575,RPE_STARTER_BUILD_TUTORIAL,¿No sabes qué elegir? ¡Usa la |cnBLUE_FONT_COLOR:configuración inicial|r!,1
+55576,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_MISSING_EXPANSION,El jugador al que has invitado no tiene la expansión Midnight.,1
+55577,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_DUPLICATE_SIGNATURE,El jugador al que has invitado ha firmado el estatuto de otro vecindario.,1
+55578,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_GENERIC,Se ha producido un error al solicitar una firma.,1
+55606,HOUSING_BULLETINBOARD_REPORT,Informar,1
+55607,HOUSING_CORNERSTONE_REPORT,Informar,1
 55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,Se ha producido un error. Vuelve a intentarlo.,1
 55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
+55613,RPE_CATCH_UP_AVAILABLE,Ponerse al día disponible,2
+55615,RPE_SELECT_EXPERIENCE,Elegir experiencia,2
 55616,CATALOG_SHOP_DETAILS,Detalles,3
 55617,CATALOG_SHOP_BACK,Atrás,3
 55618,CATALOG_SHOP_RACE,Raza,3
+55620,RPE_EXPERIENCE_SKIP_HEADER,Sigue donde lo dejaste,2
+55621,RPE_EXPERIENCE_LOCATION,Ubicación: %s,2
+55622,RPE_EXPERIENCE_SELECT,Seleccionar,2
+55623,RPE_EXPERIENCE_SKIP_INFO,Puedes iniciar la experiencia de Ponerse al día en cualquier momento desde la guía del aventurero,2
+55625,RPE_EXPERIENCE_PLAY_HEADER,Iniciar la experiencia de Ponerse al día,2
+55626,RPE_EXPERIENCE_PLAY_TOOLTIP,Viaja por las Tierras Altas de Arathi para volver a familiarizarte con World of Warcraft y recibir equipo actualizado.,2
 55627,CATALOG_SHOP_PRODUCT_OWNED,Ya lo tienes,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Servicio,3
 55635,MOVE_PAD_LOCKED,Bloquear ventana,1
@@ -23329,21 +23946,230 @@ y propagar su llama por todo Azeroth.",1
 55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,Este objeto solo está disponible en %s,3
 55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
 55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55649,HOUSING_DECOR_STORAGE_ITEM_DESTROY,Destruir,1
+55652,RPE_TITLE,Experiencia de Ponerse al día,1
+55653,RPE_START_EXPERIENCE,Iniciar,1
+55655,RPE_TUTORIAL_TEXT,¿Necesitas ayuda para ponerte al día con Azeroth?|n|nViaja por las Tierras Altas de Arathi para volver a familiarizarte con World of Warcraft y recibir equipo actualizado para tu personaje.|n|nPuedes abandonar la experiencia de Ponerse al día en cualquier momento.,1
+55657,EJ_TUTORIALS,Tutoriales,1
+55658,HOUSING_DECOR_STORAGE_ITEM_CANNOT_DESTROY,Este adorno no se puede destruir y no cuenta para el límite del cofre de la casa,1
+55659,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY,"¿Seguro que quieres destruir el adorno ""%s""?|n|nNo se puede deshacer.|n|nEscribe ""%s"" para confirmar.",1
+55665,HOUSING_DECOR_STORAGE_ITEM_DESTROY_ALL,Destruir todos,1
+55666,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY_ALL,"¿Seguro que quieres destruir los %d adornos ""%s""?|n|nNo se puede deshacer.|n|nEscribe ""%s"" para confirmar.",1
+55668,HOUSING_DECOR_STORAGE_ITEM_DESTROY_CONFIRMATION_STRING,DESTRUIR,1
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Montura voladora,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Montura terrestre,3
 55680,GAMEMENU_EXTERNALEVENT,Actividades,1
+55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Desbloquea esta recompensa.,1
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,No puedes ver a este jugador porque está en otro nivel de mundo. Puedes cambiar de nivel de mundo en la consola de caos infinito del Bazar Infinito cerca de Dalaran.,1
+55691,RPE_SKYRIDING_TAKE_OFF,|cnNORMAL_FONT_COLOR:¡Despega!|r,1
+55692,RPE_SKYRIDING_FLY_HIGHER,|cnNORMAL_FONT_COLOR:Vuela más alto|r,1
+55693,RPE_SKYRIDING_SURGE_FORWARD,|cnNORMAL_FONT_COLOR:Carga hacia delante|r,1
+55694,RPE_SKYRIDING_STEER,|cnNORMAL_FONT_COLOR:Usa el ratón para controlar la dirección|r,1
+55695,RPE_SKYRIDING_LAND,|cnNORMAL_FONT_COLOR:Aterriza en el suelo|r,1
+55696,RPE_SKYRIDING_COMMA,"|cnNORMAL_FONT_COLOR:,|r",1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s/%s,3
-55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hSe aplican determinadas restricciones. Entra en la |c82c5ffffpágina del producto|r en eu.shop.battle.net/es-es para obtener más información.|h,3
+55699,HOUSING_BULLETINBOARD_NEIGHBORHOOD_ROSTER,Lista del vecindario,1
+55709,RPE_SKYRIDING_COLLECTIONS_HELPTIP,Abre la colección de bandas guerreras para ver tus monturas,1
+55710,RPE_SKYRIDING_DRAG_MOUNT_HELPTIP,Haz clic y arrastra cualquier icono de montura a tu barra.|n|nSe han filtrado tus monturas para que solo aparezcan las voladoras.,1
+55713,RPE_SKYRIDING_MOUNT_UP,|cnNORMAL_FONT_COLOR:Móntate haciendo clic en el icono de la facultad|r,1
+55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hSe aplican determinadas restricciones. Entra en la |cnLINK_FONT_COLOR:página del producto|r en eu.shop.battle.net/es-es para obtener más información.|h,3
+55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Catálogo,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,Debes haber iniciado sesión con un personaje para comprar una ficha de WoW.,3
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Montura acuática voladora,3
 55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Ranura vacía,1
+55768,HOUSING_ENDEAVORS_COMING_SOON,¡Los proyectos llegarán próximamente!,1
 55771,CATALOG_SHOP_NOT_AVAILABLE,La tienda no está disponible,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,Vuelve más tarde.,3
+55781,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL,Tipo de casa,1
+55782,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL,Tamaño de casa,1
+55783,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL,Estilo de base,1
+55784,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_VARIANT_LABEL,Color de base,1
+55785,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_TYPE_LABEL,Estilo de tejado,1
+55786,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_VARIANT_LABEL,Color de tejado,1
+55787,HOUSING_EXTERIOR_CUSTOMIZATION_FIXTURE_NONE_OPTION,Ninguno,1
+55788,HOUSING_DYE_TOOLTIP_DESCRIPTION,Tinte de hogar,1
+55790,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_LABEL,Coste:,1
+55791,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_LABEL,Ranura de tinte %d,1
+55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Pequeño,1
+55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,No conseguido,1
+55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Las puertas no se pueden eliminar, solo se pueden mover a otra ubicación",1
+55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Llegarán más opciones próximamente,1
+55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,Aquí puedes ver información sobre tu casa,1
+55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,Puedes teletransportarte a tu casa con este botón,1
+55826,HOUSING_MARKET_TAB_TUTORIAL_TEXT,En la pestaña Catálogo puedes obtener una vista previa de cualquier adorno colocándolo en tu casa,1
+55830,ERR_HOUSING_ACTION_UNAVAILABLE,Esta acción no está disponible ahora mismo,1
+55858,AUCTION_CATEGORY_HOUSING,Hogares,1
+55860,RECENT_ALLY_PIN_TOOLTIP,Aliado fijado,1
+55861,HOUSING_DECOR_PLACEMENT_COST_FORMAT,|A:House-Decor-budget-icon:21:21|a %d,1
+55862,HOUSING_DECOR_FIRST_ACQUISITION_FORMAT,Bonus de primera colección: |cnHIGHLIGHT_FONT_COLOR:+%d PE de casa|r,1
+55863,HOUSING_DECOR_DYED_NAME_FORMAT,%s (con tinte),1
+55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,"En propiedad: |cnHIGHLIGHT_FONT_COLOR:%d (colocados: %d, en almacenamiento: %d)|r",1
+55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Los adornos de las paredes pueden verse afectados si se cambia el estilo de muro.,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Compra(s) pendiente(s),3
+55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Relleno de bolsa,1
+55955,HOUSING_LAYOUT_STAIRS_UP,Arriba,1
+55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,Selecciona una dirección para tu nuevo hueco de escalera:,1
+55957,HOUSING_LAYOUT_STAIRS_DOWN,Abajo,1
+55960,HOUSE_UPGRADE_AVAILABLE_TOAST_SUB_TITLE_FORMAT,%d %s - Nivel %d,1
+55963,ERR_PLACED_ROOM_LIMIT_REACHED,Has alcanzado el límite de habitaciones. Elimina una para añadir más.,1
+55964,HOUSING_LAYOUT_UP_DOOR_TOOLTIP,Expandir hueco de escalera hacia arriba,1
+55965,HOUSING_LAYOUT_DOWN_DOOR_TOOLTIP,Expandir hueco de escalera hacia abajo,1
+55983,EXILESREACH_SKIP_CONFIRM,Te perderás información crucial sobre cómo jugar al juego si te saltas el Confín del Exilio.|n|n¿Seguro que quieres hacerlo?,1
+55996,RPE_ASSISTED_HIGHLIGHT_TURN_OFF,Desactivar,1
+55997,RPE_ASSISTED_HIGHLIGHT_KEEP_ON,Mantener activada,1
+55998,RPE_ASSISTED_HIGHLIGHT_ACTIVATED,|cnNORMAL_FONT_COLOR:Se ha activado la ayuda resaltada: las facultades|nrecomendadas se resaltarán en tus barras de acción|r,1
+55999,RPE_ASSISTED_HIGHLIGHT_TURN_CHOICE,¿Quieres que la ayuda resaltada permanezca activa?|n|n|cnNORMAL_FONT_COLOR:Se activó la ayuda resaltada durante la experiencia de Ponerse al día. Esta opción resalta la próxima facultad de tus barras de acción que se recomienda usar.|n|n¿Quieres que permanezca activa?|r Puedes cambiar esto en cualquier momento desde el menú de opciones.,1
+56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Panel de hogares,1
+56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Catálogo de adornos,1
+56044,HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP,Información de la casa,1
+56053,ERR_CHARTER_SYSTEM_REQUEST_FAILED_GENERIC,Se ha producido un error relacionado con el sistema de estatutos. Vuelve a intentarlo más tarde.,1
+56057,HOUSING_DECOR_DYE_NOT_ENOUGH_DYE,No tienes el tinte necesario,1
+56058,HOUSING_HOUSE_XP_ADDED_FORMAT,PE de casa aumentados en %d,1
+56059,HOUSING_CATALOG_FILTERS_FIRST_ACQUISITION,Bonus de colección,1
+56060,HOUSING_CATALOG_FILTERS_UNCOLLECTED,No conseguidos,1
+56061,HOUSING_CATALOG_FILTERS_COLLECTED,Conseguidos,1
+56062,HOUSING_DECOR_BUNDLE_DISCLAIMER,Este objeto también está incluido en uno o más lotes,1
+56063,HOUSING_DECOR_PRICE_FORMAT,Precio: %s,1
+56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s | %s,1
+56072,RPE_SPELL_INTERRUPT,|cnNORMAL_FONT_COLOR:Las barras de lanzamiento protegidas no se pueden interrumpir|r,1
+56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,No se puede colocar por colisión,1
+56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,Pulsa %s para ignorar la colisión,1
+56092,HOUSING_PLACEMENT_OUTSIDE_PLOT_ERROR_TITLE,No se puede colocar fuera de la parcela,1
+56104,NPE_TAB_TARGETING,|cnNORMAL_FONT_COLOR:Selecciona|r a un enemigo cercano,1
+56106,HOUSING_NEIGHBORHOOD_SETTINGS_COST,Coste: 1,1
+56107,CHAR_DELETE_FAILED_NEIGHBORHOOD_OWNER,"Este personaje es propietario de un vecindario, así que no se le puede eliminar hasta que la propiedad del vecindario se transfiera a otro personaje.",2
+56109,HOUSING_BUNDLE_CONTENTS_FORMAT,Contiene: %s,1
+56110,HOUSING_BUNDLE_DECOR_ENTRY_FORMAT,%s x%d,1
+56111,HOUSING_BUNDLE_CLICK_TO_VIEW,Haz clic para ver los contenidos,1
+56116,HOUSING_PLACEMENT_COLLISION_ERROR_HELPTIP,Pulsa %s para ignorar la colisión mientras colocas objetos.,1
+56117,HOUSING_ITEM_TOAST_TYPE_DECOR,Adornos,1
+56118,HOUSING_ITEM_TOAST_TYPE_ROOM,Sala,1
+56119,HOUSING_ITEM_TOAST_TYPE_CUSTOMIZATION,Personalización,1
+56120,HOUSING_ITEM_TOAST_TYPE_FIXTURE,Accesorio,1
+56121,NEIGHBORHOOD_NAME_FORMAT,%2$s %1$s de %3$s,1
+56152,HOUSING_CHEST_SORT_TYPE_DATE_ADDED,Fecha,1
+56153,HOUSING_CHEST_SORT_TYPE_ALPHABETICAL,Alfabético,1
+56163,HOUSING_CATALOG_MODEL_PREVIEW_UNAVAILABLE,Vista previa no disponible,1
+56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,La casa que intentas visitar ha alcanzado el número máximo de visitantes. Al menos un jugador debe salir de la casa para que pueda entrar alguien más.,1
+56183,RPE_NO_INTERRUPT_ACTION,Añade una facultad de interrupción a tu barra de acción desde tu libro de hechizos,1
+56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,El exterior de la casa debe tener siempre una puerta solamente,1
+56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,El nodo de accesorio ya está vacío,1
+56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,Ya hay un accesorio adjunto a este nodo,1
+56193,ERR_HOUSING_RESULT_FIXTURE_HOUSE_TYPE_MISMATCH,El accesorio no coincide con el estilo actual de la casa,1
+56194,ERR_HOUSING_RESULT_FIXTURE_NOT_FOUND,Accesorio no encontrado,1
+56195,ERR_HOUSING_RESULT_FIXTURE_NOT_OWNED,No tienes ese accesorio desbloqueado,1
+56196,ERR_HOUSING_RESULT_FIXTURE_SIZE_MISMATCH,El tamaño del accesorio no coincide con el tamaño actual de la casa,1
+56197,ERR_HOUSING_RESULT_FIXTURE_TYPE_MISMATCH,Tipo de accesorio incorrecto para este nodo,1
+56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Demasiado lejos,1
+56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,Ahora mismo no estás en el modo Personalización de exteriores,1
+56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,Este adorno no se puede eliminar del cofre de tu casa,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,La conversión de personajes no se puede usar en este reino,2
+56210,CHAR_DELETE_FAILED_HOUSE_OWNER,Este personaje es propietario de una casa y no se puede eliminar,2
+56232,BINDING_NAME_HOUSING_BASICDECOR_ROTATELEFT,Rotar adorno hacia la izquierda,1
+56233,BINDING_NAME_HOUSING_BASICDECOR_ROTATERIGHT,Rotar adorno hacia la derecha,1
+56234,HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION,Rotar hacia la derecha,1
+56235,HOUSING_BASIC_DECOR_ROTATE_LEFT_INSTRUCTION,Rotar hacia la izquierda,1
+56236,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_NOT_IN_EXPERT,Debes estar en el modo avanzado,1
+56237,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_HOUSE_EXTERIOR_SCALE,La casa no puede cambiarse de tamaño,1
+56238,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_WMO_SCALE,Este adorno no puede cambiarse de tamaño,1
+56244,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_STAIRS,Estilo de las escaleras,1
+56247,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_STAIRS,Material de las escaleras,1
+56251,HOUSING_DECOR_CUSTOMIZATION_LABEL_STAIRS,Escaleras,1
+56255,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_CEILING,Personalizar techo,1
+56256,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_WALL,Personalizar pared,1
+56257,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_FLOOR,Personalizar suelo,1
+56258,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_STAIRS,Personalizar escaleras,1
+56259,HOUSING_LAYOUT_PREFAB_ROOM_TOOLTIP,Habitación artesanal,1
+56268,HOUSING_SUBDIVISION_FORMAT,Subdivisión %d,1
+56269,HOUSING_HOUSEFINDER_WRONG_FACTION,Tu personaje pertenece a la facción incorrecta para poder comprar una casa en este vecindario,1
+56270,HOUSING_HOUSEFINDER_CHARTER_INVITE,Te han invitado a este vecindario con estatuto,1
+56272,HOUSING_HOUSEFINDER_PARTY_LEADER,El líder del grupo ha reservado una casa en este vecindario,1
+56273,HOUSING_HOUSEFINDER_CANCEL_INVITATION,¿Seguro que quieres rechazar tu invitación a este vecindario?,1
+56274,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CONFIRM,Rechazar,1
+56275,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CANCEL,Cancelar,1
+56306,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE,Los ajustes de la casa no están disponibles,1
+56307,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE_FMT,Los ajustes de la casa no están disponibles: %s,1
+56311,ERR_HOUSING_RESULT_CHARTER_COMPLETE,Este estatuto ya se ha completado,1
+56312,ERR_HOUSING_RESULT_DECOR_CANNOT_BE_REDEEMED,No hay estancias canjeables de ese adorno,1
+56314,ERR_HOUSING_RESULT_DECOR_NOT_FOUND_IN_STORAGE,Adorno no encontrado en el cofre de la casa,1
+56315,ERR_HOUSING_RESULT_DUPLICATE_CHARTER_SIGNATURE,El jugador ya ha firmado otro estatuto del vecindario,1
+56316,ERR_HOUSING_RESULT_GUILD_NOT_LOADED,Hermandad no cargada,1
+56317,ERR_HOUSING_RESULT_HOUSE_EXTERIOR_ROOT_NOT_FOUND,No se ha podido encontrar la raíz del exterior de la casa,1
+56318,ERR_HOUSING_RESULT_HOOK_NOT_CHILD_OF_FIXTURE,Accesorio principal incorrecto para el nodo,1
+56320,ERR_HOUSING_RESULT_INVALID_HOUSE,Casa no válida,1
+56321,ERR_HOUSING_RESULT_INVALID_INSTANCE,Estancia no válida,1
+56322,ERR_HOUSING_RESULT_INVALID_MAP,Mapa no válido,1
+56323,ERR_HOUSING_RESULT_MISSING_CORE_FIXTURE,Al exterior le falta una base o un techo,1
+56324,ERR_HOUSING_RESULT_MISSING_DYE,Falta tinte,1
+56325,ERR_HOUSING_RESULT_MISSING_EXPANSION_ACCESS,Falta la expansión necesaria,1
+56326,ERR_HOUSING_RESULT_MISSING_FACTION_MAP,No se ha podido encontrar el mapa de la facción,1
+56327,ERR_HOUSING_RESULT_MISSING_PRIVATE_NEIGHBORHOOD_INVITE,Falta invitación a vecindario,1
+56328,ERR_HOUSING_RESULT_MORE_SIGNATURES_NEEDED,Se necesitan más firmas,1
+56329,ERR_HOUSING_RESULT_PLAYER_NOT_IN_INSTANCE,El jugador no está en ninguna estancia,1
+56330,ERR_HOUSING_RESULT_PLOT_NOT_VACANT,La parcela no está vacía,1
+56331,ERR_HOUSING_RESULT_PLOT_RESERVATION_COOLDOWN,La reserva de parcelas está en tiempo de reutilización,1
+56332,ERR_HOUSING_RESULT_PLOT_RESERVED,La parcela ya está reservada,1
+56333,ERR_HOUSING_RESULT_TIMERUNNING_NOT_ALLOWED,No se permiten personajes de asalto temporal,1
+56334,ERR_HOUSING_RESULT_TOO_MANY_REQUESTS,Demasiadas solicitudes,1
+56335,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TOTALOWNED,(Total de adornos en propiedad: %d),1
+56336,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE,Almacenamiento: %d/%d,1
+56337,HOUSING_CATALOG_STORAGE_LIMIT_FMT,%d/%d,1
+56338,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE_OVER_LIMIT,Almacenamiento: |cnRED_FONT_COLOR:%d|r/%d,1
+56339,HOUSING_CATALOG_STORAGE_LIMIT_FMT_OVER_LIMIT,|cnRED_FONT_COLOR:%d|r/%d,1
+56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,Adornos colocados: %d/%d |cnNORMAL_FONT_COLOR:|nSube de nivel tu casa para aumentar tu presupuesto de colocación de adornos.|r,1
+56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Adornos colocados: %d/%d,1
+56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,|cnGREEN_FONT_COLOR:Haz clic para seleccionar o quitar un tinte|r,1
+56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Aplica el estilo seleccionado actualmente a toda la habitación.,1
+56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Aplica el material seleccionado actualmente a todas las paredes de la habitación.,1
+56346,HOUSING_LAYOUT_NUM_ROOMS_ERROR_TOOLTIP, |cnNORMAL_FONT_COLOR:|nPresupuesto para colocación de habitaciones: %d/%d|nSube de nivel tu casa para aumentar la cantidad de habitaciones que puedes colocar.|r,1
+56347,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_ABOVE,Ya hay una habitación encima de esta,1
+56348,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_BELOW,Ya hay una habitación debajo de esta,1
+56349,HOUSING_LAYOUT_STAIRWELL_ROOM_TOOLTIP,Las habitaciones de hueco de escalera pueden acumularse.,1
+56350,HOUSING_ROOM_PLACEMENT_COST_FORMAT,|A:house-room-limit-icon:21:21|a %d,1
+56351,HOUSING_DECOR_CUSTOMIZATION_HOUSE_EXTERIOR_TOOLTIP,Usa el editor de exteriores de casas para personalizar tu casa,1
+56352,HOUSING_CLEANUP_HOUSE_EXTERIOR_TOOLTIP,La casa no se puede eliminar,1
+56353,HOUSE_EDITOR_PLACED_DECOR_LIST_HEADER,Adornos colocados,1
+56354,HOUSE_EDITOR_PLACED_DECOR_LIST_REMOVE,Quitar adorno,1
+56355,HOUSE_EDITOR_PLACED_DECOR_LIST_TOOLTIP,Lista de adornos colocados,1
+56356,HOUSING_CONTROLS_COMING_SOON,|cnNORMAL_FONT_COLOR:¡Próximamente!|r,1
+56357,BINDING_NAME_HOUSING_LAYOUTFLOOR_UP,Subir un piso,1
+56358,BINDING_NAME_HOUSING_LAYOUTFLOOR_DOWN,Bajar un piso,1
+56359,HOUSING_CONTROLS_SETTINGS_TOOLTIP,Ajustes y permisos,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- No disponible en este momento para asaltantes temporales.,3
-57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,El modo de previsualización del catálogo no está disponible en este momento.,1
+56589,BINDING_NAME_HOUSING_REMOVEDECOR,Quitar adorno,1
+56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Carmesí,1
+56598,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_GREEN,Bosque,1
+56599,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PURPLE,Violeta,1
+56600,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_ORANGE,Óxido,1
+56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Océano,1
+56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Mostaza,1
+56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Nuez moscada,1
+56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Coste de colocación del adorno |cnNORMAL_FONT_COLOR:|nIndica qué coste del presupuesto de colocación de adornos supone colocar este adorno|r,1
+56644,ERROR_SCRIPT_EXECUTION_HALT,Se ha pausado la función de informe de errores. Se reanudará tras volver a cargar la IU.,3
+56645,ERROR_SCRIPT_EXECUTION_LIMIT,"El script de ""%s"" ha excedido el límite de tiempo de ejecución.",3
+56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
+56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,"Colocado(s): %d, en almacenamiento: %d.",1
+56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:Bonus de primera colección disponible|r,1
+56733,HOUSEFINDER_AVAILABLE,Disponible,1
+56734,HOUSEFINDER_FRIEND,Amigo,1
+56736,HOUSING_ADVANCED_MODE_TUTORIAL_TEXT,"El modo avanzado otorga más control sobre los adornos gracias a las opciones de mover, rotar y cambiar de escala.",1
+56737,HOUSING_CLEANUP_MODE_TUTORIAL_TEXT,El modo Limpieza te permite quitar varios adornos de tu casa rápido y a la vez.,1
+56738,HOUSING_MODES_TUTORIAL_TEXT,¡Tienes varios modos a tu disposición para decorar tu casa como más te guste!,1
+56739,HOUSING_LAYOUT_MODE_STAIRS_TUTORIAL_TEXT,"Las habitaciones de hueco de escalera te permiten crear plantas adicionales, a las que puedes acceder desde aquí.",1
+56743,CATALOG_SHOP_DYNAMIC_BUNDLE_DISCOUNT,Incluye descuentos para objetos que ya tienes.,3
+56744,BINDING_NAME_HOUSING_EXPERTDECORROTATION_NEXTAXIS,Cambiar al siguiente eje de rotación,1
+56745,ERR_GUILD_NEIGHBORHOOD_BUILT_HOUSE_S,¡%s ha construido una casa!,1
+56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s ha abandonado el vecindario.,1
+56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,¡El vecindario de tu hermandad ha obtenido una nueva subdivisión!,1
+56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,El vecindario de tu hermandad ha pasado a llamarse %s,1
+56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Total de la compra: %s,3
+56783,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_TOOLTIP,"|n|cff20ff20Obtén PE de casa al completar proyectos y tareas de proyectos, y al conseguir adornos de rareza inusual o superior por primera vez|r",1
+56823,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_DETAILS,"Algunos adornos, como los artículos de la tienda, no se tendrán en cuenta para el límite de almacenamiento.",1
+56881,REPORTING_REPORT_SCREENSHOT_BUTTON,Tomar captura de pantalla,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1
