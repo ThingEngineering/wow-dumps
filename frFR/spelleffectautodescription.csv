@@ -109,7 +109,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 129,Inflige des dégâts de Feu aux ennemis devant le lanceur de sorts.,,31,0,1,9,4,50,50
 130,Augmente les dégâts infligés par le lanceur de sorts de $s@effectindex%.,Dégâts infligés augmentés de $s@effectindex%.,6,79,1,1,127,30,30
 131,Réduit l’armure d’un ennemi de $s@effectindex% pendant $d.,Armure réduite de $s@effectindex%.,6,101,2,3,1,0,0
-132,Inflige des dégâts physiques aux ennemis à moins de $A@effectindex mètres.,,165,0,1,7,1,50,50
+132,Inflige un montant de dégâts physiques égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,1,50,50
 136,Inflige $s@effectindex points de dégâts d’Ombre aux ennemis devant le lanceur de sorts.,,2,0,1,9,32,50,50
 137,Inflige $s@effectindex points de dégâts physiques aux ennemis devant le lanceur de sorts.,,2,0,1,9,1,50,50
 138,Inflige $s@effectindex points de dégâts de Feu aux ennemis devant le lanceur de sorts.,,2,0,1,9,4,50,50
@@ -150,8 +150,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 175,Réduit de $s@effectindex% les dégâts infligés par un ennemi pendant $d.,Dégâts infligés réduits de $s@effectindex%.,6,79,2,3,127,20,20
 176,Draine des points de vie à une cible toutes les $t@effectindex s et les transfère au lanceur de sorts.,Draine des points de vie toutes les $t@effectindex s.,6,53,1,3,0,0,0
 177,Réduit les soins reçus par tous les ennemis situés dans un cône devant le lanceur de sorts de $s@effectindex% pendant $d.,Soins reçus réduits de $s@effectindex%.,6,118,2,9,127,0,0
-178,Inflige des dégâts d’Ombre à tous les ennemis situés dans un cône devant le lanceur de sorts.,,165,0,1,9,32,50,50
-179,Inflige des dégâts de Nature aux ennemis à moins de $A@effectindex mètres.,,165,0,1,7,8,50,50
+178,Inflige un montant de dégâts d’ombre égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,32,50,50
+179,Inflige un montant de dégâts de nature égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,8,50,50
 180,"Réduit au silence les ennemis à moins de $A@effectindex mètres, les empêchant de lancer des sorts pendant $d.",Incapable de lancer des sorts.,6,27,0,7,0,0,0
 181,Réduit les dégâts subis par le lanceur de sorts de $s@effectindex% pendant $d.,Dégâts subis réduits de $s@effectindex%.,6,87,2,1,127,0,0
 182,Téléporte vers un emplacement.,,252,0,0,1,0,0,0
@@ -174,7 +174,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 299,Augmente de $s@effectindex% les dégâts infligés aux ennemis à moins de $A@effectindex mètres pendant $d.,Dégâts infligés augmentés de $s@effectindex%.,6,79,1,7,127,30,30
 300,Augmente de $s@effectindex% les dégâts infligés par un ennemi pendant $d.,Dégâts infligés augmentés de $s@effectindex%.,6,79,1,3,127,30,30
 301,Inflige des dégâts de Frappe-sort à un ennemi.,,31,0,1,3,65,50,50
-302,Inflige des dégâts de Feu aux ennemis se trouvant à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,4,50,50
+302,Inflige un montant de dégâts de feu égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,4,50,50
 303,Augmente les dégâts de Feu infligés aux ennemis à moins de $A@effectindex mètres de l’impact toutes les $t@effectindex s pendant $d.,Dégâts de Feu infligés toutes les $t@effectindex s.,6,70,1,5,4,50,50
 304,Réduit la vitesse de déplacement de la cible de $s@effectindex% pendant $d.,Vitesse de déplacement réduite de $s@effectindex%.,6,33,2,3,0,0,0
 305,Rend au lanceur de sorts et aux alliés à moins de $A@effectindex m $s@effectindex % de leur maximum de points de vie toutes les $t@effectindex s pendant $d.,Rend $s@effectindex% du maximum de points de vie toutes les $t@effectindex s.,6,20,1,4,0,0,0
@@ -280,12 +280,12 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 424,Réduit la vitesse d’attaque des ennemis à moins de $A@effectindex mètres du lanceur de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,138,2,7,0,0,0
 425,Réduit la vitesse d’attaque des ennemis en face du lanceur de sorts de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,138,2,9,0,0,0
 426,Réduit la vitesse d’attaque de la cible de $s@effectindex% pendant $d.,Vitesse d’attaque réduite de $s@effectindex%.,6,138,2,3,0,0,0
-427,Inflige des dégâts des Arcanes aux ennemis dans un cône devant le lanceur.,,165,0,1,9,64,50,50
-428,Inflige des dégâts de Givre aux ennemis dans un cône devant le lanceur de sorts.,,165,0,1,9,16,50,50
-429,Inflige des dégâts de Nature aux ennemis dans un cône devant le lanceur de sorts.,,165,0,1,9,8,50,50
-430,Inflige des dégâts de Feu aux ennemis dans un cône devant le lanceur de sorts.,,165,0,1,9,4,50,50
-431,Inflige des dégâts du Sacré aux ennemis dans un cône devant le lanceur de sorts.,,165,0,1,9,2,50,50
-432,Inflige des dégâts physiques aux ennemis dans un cône devant le lanceur.,,165,0,1,9,1,50,50
+427,Inflige un montant de dégâts des arcanes égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,64,50,50
+428,Inflige un montant de dégâts de givre égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,16,50,50
+429,Inflige un montant de dégâts de nature égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,8,50,50
+430,Inflige un montant de dégâts de feu égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,4,50,50
+431,Inflige un montant de dégâts du sacré égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,2,50,50
+432,Inflige un montant de dégâts physiques égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,1,50,50
 435,Inflige $s@effectindex points de dégâts d’Ombreflamme aux ennemis à moins de $A@effectindex mètres.,,2,0,1,7,36,50,50
 436,Inflige $s@effectindex points de dégâts d’Ombreflamme aux ennemis à moins de $A@effectindex mètres de l’impact.,,2,0,1,5,36,50,50
 437,Inflige $s@effectindex points de dégâts d’Ombreflamme à un ennemi.,,2,0,1,3,36,50,50
@@ -399,8 +399,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 555,Pacifie une cible ennemie et l’empêche d’attaquer pendant $d.,Incapable d’attaquer.,6,25,0,1,0,30,0
 556,"Réduit au silence et pacifie une cible adverse, empêchant toute attaque et incantation pendant $d.",Ne peut ni attaquer ni lancer de sorts.,6,60,0,1,0,30,0
 557,Inflige $s@effectindex points de dégâts d’ombreflamme à un adversaire.,,2,0,1,1,36,50,50
-558,Inflige des dégâts d’ombreflamme aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,36,50,50
-559,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,36,50,50
+558,Inflige un montant de dégâts d’ombreflamme égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,36,50,50
+559,Inflige un montant de dégâts d’ombreflamme égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,36,50,50
 560,Inflige des dégâts d’ombreflamme aux adversaires devant le lanceur ou la lanceuse.,,31,0,1,9,36,50,50
 561,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres.,,31,0,1,7,36,50,50
 562,Inflige des dégâts d’ombreflamme aux adversaires à moins de $A@effectindex mètres de l’impact.,,31,0,1,5,36,50,50
@@ -419,14 +419,14 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 575,Inflige des dégâts d’ombreflamme à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts d’ombreflamme infligés toutes les $t@effectindex s.,6,70,1,1,36,50,50
 576,Entoure la cible d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts d’ombreflamme.,Absorbe $s@effectindex points de dégâts d’ombreflamme.,6,69,1,3,36,0,0
 577,Entoure le lanceur ou la lanceuse d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts d’ombreflamme.,Absorbe $s@effectindex points de dégâts d’ombreflamme.,6,69,1,1,36,0,0
-578,Inflige des points de dégâts de givre aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,16,50,50
+578,Inflige un montant de dégâts de givre égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,16,50,50
 579,Inflige $s@effectindex points de dégâts cosmiques aux adversaires devant le lanceur ou la lanceuse.,,2,0,1,9,106,50,50
 580,Inflige $s@effectindex points de dégâts cosmiques aux adversaires à moins de $A@effectindex mètres.,,2,0,1,7,106,50,50
 581,Inflige $s@effectindex points de dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,2,0,1,5,106,50,50
 582,Inflige $s@effectindex points de dégâts cosmiques à une cible ennemie.,,2,0,1,3,106,50,50
 583,Inflige $s@effectindex points de dégâts cosmiques à une cible ennemie.,,2,0,1,1,106,50,50
-584,Inflige des dégâts cosmiques aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,106,50,50
-585,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,106,50,50
+584,Inflige un montant de dégâts cosmiques égal à $s@effectindex % du maximum de points de vie aux adversaires dans un cône devant le lanceur ou la lanceuse.,,165,0,1,9,106,50,50
+585,Inflige un montant de dégâts cosmiques égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,106,50,50
 586,Inflige des dégâts cosmiques aux adversaires devant le lanceur.,,31,0,1,9,106,50,50
 587,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres.,,31,0,1,7,106,50,50
 588,Inflige des dégâts cosmiques aux adversaires à moins de $A@effectindex mètres de l’impact.,,31,0,1,5,106,50,50
@@ -445,7 +445,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 601,Inflige des dégâts cosmiques à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts cosmiques infligés toutes les $t@effectindex s.,6,70,1,1,106,50,50
 602,Entoure la cible d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts cosmiques.,Absorbe $s@effectindex points de dégâts cosmiques.,6,69,1,3,106,0,0
 603,Entoure le lanceur d’un bouclier qui dure $d et peut absorber un maximum de $s@effectindex points de dégâts cosmiques.,Absorbe $s@effectindex points de dégâts cosmiques.,6,69,1,1,106,0,0
-604,Inflige des dégâts d’ombre aux adversaires à moins de $A@effectindex mètres de l’impact.,,165,0,1,5,32,50,50
+604,Inflige un montant de dégâts d’ombre égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,32,50,50
 605,Inflige des dégâts d’ombre à une cible ennemie toutes les $t@effectindex s pendant $d.,Dégâts d’ombre infligés toutes les $t@effectindex s.,6,70,1,1,32,50,50
 609,Les dégâts physiques infligés par tous les personnages alliés à moins de $A@effectindex m sont augmentés de $s@effectindex %.,Dégâts physiques infligés augmentés de $s@effectindex %.,6,79,1,6,1,30,30
 610,Les dégâts du sacré infligés par tous les personnages alliés à moins de $A@effectindex m sont augmentés de $s@effectindex %.,Dégâts du sacré infligés augmentés de $s@effectindex %.,6,79,1,6,2,30,30
@@ -456,3 +456,14 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 615,Les dégâts des arcanes infligés par tous les personnages alliés à moins de $A@effectindex m sont augmentés de $s@effectindex %.,Dégâts des arcanes infligés augmentés de $s@effectindex%.,6,79,1,6,64,30,30
 616,Interrompt l’incantation des sorts d’un personnage adverse pendant $d.,,68,0,1,3,8,30,0
 618,Interrompt l’incantation des sorts d’un personnage adverse pendant $d.,,68,0,0,3,0,30,0
+619,Inflige un montant de dégâts d’ombre-sort égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,7,96,50,50
+621,Inflige un montant de dégâts du sacré égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,2,50,50
+622,Inflige un montant de dégâts de feu égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,4,50,50
+623,Inflige un montant de dégâts de givre égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,16,50,50
+624,Inflige un montant de dégâts d’ombre égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,32,50,50
+625,Inflige un montant de dégâts des arcanes égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,64,50,50
+626,Inflige un montant de dégâts cosmiques égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m.,,165,0,1,7,106,50,50
+627,Inflige un montant de dégâts du sacré égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,2,50,50
+628,Inflige un montant de dégâts de nature égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,8,50,50
+629,Inflige un montant de dégâts physiques égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,1,50,50
+630,Inflige un montant de dégâts des arcanes égal à $s@effectindex % du maximum de points de vie aux adversaires à moins de $A@effectindex m de l’impact.,,165,0,1,5,64,50,50

@@ -11566,7 +11566,7 @@ ID,BaseTag,TagText_lang,Flags
 23670,ERR_PETBATTLE_NOT_WHILE_IN_MATCHED_BATTLE,Вы не можете делать это во время битвы питомцев.,1
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,"Это заклинание заблокировано, поскольку вы участвуете в бою.",1
 23673,BATTLE_PET_NEW_PET,В ваш атлас был добавлен питомец %s!,1
-23674,BATTLE_PET_TOOLTIP_SUMMON,Призвать или отпустить |3-1(%s).,1
+23674,BATTLE_PET_TOOLTIP_SUMMON,Призвать или отпустить |3-3(%s).,1
 23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Требуется %d-й уровень,1
 23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Требуется %d-й уровень,1
 23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Требуется %d-й уровень,1
@@ -13874,7 +13874,7 @@ ID,BaseTag,TagText_lang,Flags
 32202,NAMEPLATES_MESSAGE_ALL_ON_AUTO,Все индикаторы включены (бой),1
 32203,NAMEPLATES_MESSAGE_ALL_OFF,Все индикаторы выключены,1
 32204,DISPLAY_PERSONAL_RESOURCE,Индикатор личного ресурса,1
-32205,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE,Показывать индикаторы здоровья и ресурса под персонажем.,1
+32205,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE,Добавить в интерфейс настраиваемые индикаторы здоровья и ресурса.,1
 32206,EXHAUST_HONOR_TOOLTIP1,|cffffd200%s|r\n|cffffffffПочетные победы приносят %d%% чести.|r,1
 32207,TRADE_SKILLS_LEARNED_TAB,Изученные,1
 32208,TRADE_SKILLS_UNLEARNED_TAB,Не изучено,1
@@ -13916,7 +13916,7 @@ ID,BaseTag,TagText_lang,Flags
 32252,TALENT_CLICK_TOO_FAST,"Идет обновление талантов. Пожалуйста, подождите.",1
 32254,BOOST2_ROGUE_STEALTH,"Используйте |cFFFFFFFFНезаметность|r, чтобы вас не заметили.",1
 32257,DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Показывать особые ресурсы на целях,1
-32258,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Особые ресурсы по умолчанию отображаются под персонажем. С помощью этого параметра можно включить их отображение над противниками.,1
+32258,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Особые ресурсы по умолчанию отображаются под шкалой здоровья. С помощью этого параметра можно включить их отображение над противниками.,1
 32259,POWER_TYPE_PAIN,Боль,1
 32260,TRANSMOGRIFY_INVALID_MISMATCH,Данная модель не подходит для предмета этого типа.,1
 32261,TRANSMOGRIFY_STYLE_UNCOLLECTED,У вас еще нет этой модели.,1
@@ -14669,11 +14669,11 @@ ID,BaseTag,TagText_lang,Flags
 34111,CLASS_INFO_DEATHKNIGHT2,"- Атакуйте противников оружием ближнего боя, заклинаниями и насылайте на них болезни.",2
 34112,CLASS_INFO_DEATHKNIGHT3,- Начальный уровень – %d-й.,2
 34113,CLASS_INFO_DEATHKNIGHT_ROLE_TT,Роли: |cffffffffтанк или боец ближнего боя|r,2
-34114,CLASS_INFO_DEMONHUNTER0,- Роль: танкование или нанесение урона в ближнем бою.,2
+34114,CLASS_INFO_DEMONHUNTER0,"- Роль: танк, боец дальнего или ближнего боя",2
 34115,CLASS_INFO_DEMONHUNTER1,- Овладейте силой хаоса и используйте ее против врагов.,2
 34116,CLASS_INFO_DEMONHUNTER2,"- Совершайте двойные прыжки, влетайте в гущу боя и быстро выходите из него.",2
 34117,CLASS_INFO_DEMONHUNTER3,- Начальный уровень – %d-й.,2
-34118,CLASS_INFO_DEMONHUNTER_ROLE_TT,Роли: |cffffffffтанк или боец ближнего боя|r,2
+34118,CLASS_INFO_DEMONHUNTER_ROLE_TT,"Роли: |cffffffffтанк, боец дальнего или ближнего боя|r",2
 34119,CLASS_INFO_DRUID0,"- Роль: танкование, лечение, нанесение урона в ближнем или дальнем бою.",2
 34120,CLASS_INFO_DRUID1,"- Перевоплощайтесь в свирепую кошку, совуха-заклинателя или выносливого медведя.",2
 34121,CLASS_INFO_DRUID2,"- Обращайтесь к силам природы, чтобы исцелять себя и союзников.",2
@@ -15051,7 +15051,7 @@ ID,BaseTag,TagText_lang,Flags
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"В списке персонажей указаны все герои\nвне зависимости от того, в каком игровом мире они созданы.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"Наиболее подходящие для комфортной игры миры\nснабжены пометкой ""Новые игроки"". Выбрав мир, помеченный как ""Нет мест"",\nвы рискуете прождать некоторое время,
 прежде чем сможете присоединиться к игре.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,"Выбор игрового мира влияет на такие функции,\nкак обмен предметами с другими игроками",2
+34501,REALMLIST_REALMNAME_TOOLTIP,"Выбор игрового мира влияет на ряд особенностей,\nтаких как заказы на изготовление предметов.",2
 34502,REALMLIST_TYPE_TOOLTIP,Обычный – игровой мир без особых правил.\nRP – ролевой игровой мир.,2
 34503,REALM_CHARACTERS,Персонажи,6
 34504,REALM_DESCRIPTION,Выбор мира,2
@@ -15902,7 +15902,6 @@ ID,BaseTag,TagText_lang,Flags
 35446,ITEM_CONTAINER,Контейнер,1
 35447,TALENT_TOOLTIP_ADD_COMBAT_ERROR,Таланты нельзя сменить в бою.,1
 35448,ACCEPTING_INVITE_WILL_REMOVE_QUEUE,"Присоединившись к этой группе, вы покинете все текущие очереди.",1
-35449,POWER_TYPE_FEL_INFUSION,Насыщение Скверной,1
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,Переключить режим вступления,1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,Также в группе:,1
 35452,SOCIAL_QUEUE_AND_MORE, и более,1
@@ -16134,19 +16133,19 @@ ID,BaseTag,TagText_lang,Flags
 35701,UNITNAME_SUMMON_TITLE31,Взрывное отражение |3-1(%s),1
 35702,HOLIDAY_TRANSMOG_THEME_01,Тема: летний стиль,1
 35703,HOLIDAY_TRANSMOG_THEME_02,Тема: зимняя одежда,1
-35704,HOLIDAY_TRANSMOG_THEME_03,"Тема: ""Представление начинается""",1
+35704,HOLIDAY_TRANSMOG_THEME_03,"Тема: ""Превратности подземелий""",1
 35705,HOLIDAY_TRANSMOG_THEME_04,Тема: игривое настроение,1
 35706,HOLIDAY_TRANSMOG_THEME_05,Тема: мясорубка,1
 35707,HOLIDAY_TRANSMOG_THEME_06,"Тема: ""Капитан Разноцветие""",1
-35708,HOLIDAY_TRANSMOG_THEME_07,"Тема: ""Обжигающий холод""",1
+35708,HOLIDAY_TRANSMOG_THEME_07,"Тема: ""Стихийное самовыражение""",1
 35709,HOLIDAY_TRANSMOG_THEME_08,Тема: гордость фракции,1
 35710,HOLIDAY_TRANSMOG_THEME_09,Тема: лицо профессии,1
 35711,HOLIDAY_TRANSMOG_THEME_10,"Тема: ""Сверхъестественный стиль""",1
 35712,HOLIDAY_TRANSMOG_THEME_11,Тема: рассмеши меня,1
 35713,HOLIDAY_TRANSMOG_THEME_12,"Тема: ""Костюмы из Нижнего мира""",1
 35714,HOLIDAY_TRANSMOG_THEME_13,"Тема: ""Свет и Тьма""",1
-35715,HOLIDAY_TRANSMOG_THEME_14,"Тема: ""Причудливый гардероб""",1
-35716,HOLIDAY_TRANSMOG_THEME_15,"Тема: ""Подозрительные стили""",1
+35715,HOLIDAY_TRANSMOG_THEME_14,"Тема: ""Механический монстр""",1
+35716,HOLIDAY_TRANSMOG_THEME_15,"Тема: ""Диско джунглей""",1
 35717,HOLIDAY_TRANSMOG_THEME_16,Тема: свободный стиль,1
 35718,WARDROBE_ALTERNATE_ITEMS,"Другие предметы, открывающие эту ячейку:",1
 35719,BROKENSHORE_BUILDING_COMMANDCENTER,Ставка командования,1
@@ -16747,8 +16746,8 @@ ID,BaseTag,TagText_lang,Flags
 36367,PVP_LABEL_WAR_MODE,Режим войны,1
 36368,PVP_LABEL_PVP_TALENTS,PvP-таланты,1
 36369,PVP_WAR_MODE_DESCRIPTION,"Включить режим войны, который предлагает открытое PvP, увеличенные на 10% награды и опыт за выполнение заданий, а также PvP-таланты, работающие вне подземелий и рейдов, полей боя и арен.",1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"Режим войны можно включить только в Штормграде, Вальдраккене или Дорногале.",1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,"Режим войны можно включить только в Оргриммаре, Штормграде, Вальдраккене или Дорногале.",1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"Режим войны можно включить только в Штормграде, Луносвете или на Высоте непобедимых.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"Режим войны можно включить только в Оргриммаре, Луносвете или на Высоте непобедимых.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,Ожидание ответа от сервера голосового чата. Повторите попытку через минуту.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,Сначала вам нужно назначить другого владельца,5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Покинуть и удалить сообщество?,1
@@ -17503,8 +17502,8 @@ ID,BaseTag,TagText_lang,Flags
 41081,SOCIAL_ITEM_REMOVE_BUTTON,Убрать предмет,1
 41082,MYTHIC_PLUS_OVERTIME_SEASON_BEST,Лучшее время,1
 41083,PVP_WAR_MODE_DESCRIPTION_FORMAT,"Включить режим войны, который предлагает открытое PvP, увеличенные на %1$d%% награды и опыт за выполнение заданий, а также PvP-таланты, работающие в открытом мире.",1
-41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Этот режим можно выключить в любой зоне отдыха, но включить его можно только в Штормграде, Вальдраккене или Дорногале.",1
-41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Этот режим можно выключить в любой зоне отдыха, но включить его можно только в Оргриммаре, Вальдраккене или Дорногале.",1
+41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Этот режим можно выключить в любой зоне отдыха, но включить – только в Штормграде, Луносвете или на Высоте непобедимых.",1
+41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Этот режим можно выключить в любой зоне отдыха, но включить – только в Оргриммаре, Луносвете или на Высоте непобедимых.",1
 41086,PVP_MATCH_READY_ERROR,"Вы не можете покинуть очередь, ваш матч уже начинается.",1
 41087,GARRISON_MISSION_ENVIRONMENT_COUNTERED,Нейтрализовано,1
 41089,COMBAT_TEXT_BLOCK_REDUCED,%s (удар блокирован),1
@@ -19020,7 +19019,7 @@ ID,BaseTag,TagText_lang,Flags
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,ОФОРМИТЬ ПОДПИСКУ,1
 42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,ОФОРМИТЬ ПОДПИСКУ,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Оформите подписку и продолжите великое приключение,1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,РАЗВИВАЙТЕ ПЕРСОНАЖА ДО 70-ГО УРОВНЯ,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,РАЗВИВАЙТЕ ГЕРОЯ ДО 80-ГО УРОВНЯ,1
 42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,ВАС ЖДУТ НЕЗАБЫВАЕМЫЕ ПРИКЛЮЧЕНИЯ НА АЗЕРОТЕ И ЗА ЕГО ПРЕДЕЛАМИ,1
 42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ПОЛУЧИТЬ ДОСТУП К WOW CLASSIC,1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,И НЕ ТОЛЬКО!,1
@@ -20213,8 +20212,8 @@ ID,BaseTag,TagText_lang,Flags
 48822,REPORTING_MAJOR_CATEGORY_GAMEPLAY_SABOTAGE,Вредительство,5
 48823,REPORTING_MAJOR_CATEGORY_CHEATING,Жульничество,5
 48824,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_NAME,Неприемлемое имя,5
-48825,REPORTING_MINOR_CATEGORY_TEXT_CHAT,Текстовый чат,5
-48826,REPORTING_MINOR_CATEGORY_AFK,Отсутствие/неучастие,5
+48825,REPORTING_MINOR_CATEGORY_TEXT_CHAT,Оскорбления,5
+48826,REPORTING_MINOR_CATEGORY_AFK,Неучастие,5
 48827,REPORTING_MINOR_CATEGORY_HACKING,Взлом,5
 48828,REPORTING_MINOR_CATEGORY_INAPPROPRIATE,Некорректное имя,5
 48829,REPORTING_MINOR_CATEGORY_BTAG,BattleTag,5
@@ -21317,7 +21316,7 @@ ID,BaseTag,TagText_lang,Flags
 50049,CRAFTING_ORDERS_NUM_PERSONAL_FMT,Доступно персональных заказов: %d,1
 50050,MONTHLY_ACTIVITIES_THRESHOLD_TOOLTIP_REWARDS,"Награды:
 |cnHIGHLIGHT_FONT_COLOR:%d|r %s",1
-50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Посетите торговую лавку в городе %s или в Дорногале и заберите награды!,1
+50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Посетите торговую лавку в городе %s или новой столице и заберите награды!,1
 50052,MONTHLY_ACTIVITIES_UPDATED,Журнал путешественника обновлен,1
 50054,TALENT_BUTTON_TOOLTIP_PVP_TALENT_REQUIREMENT_ERROR,"Этот PvP-талант не действует, потому что вам не хватает другого нужного таланта",1
 50055,TALENT_FRAME_CONFIRM_LEAVE_DEFAULT_LOADOUT,"Выбранный набор талантов будет удален, если вы не сохраните его как макет.|n|nПродолжить?",1
@@ -22318,7 +22317,7 @@ ID,BaseTag,TagText_lang,Flags
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,"Не удалось перейти в режим ""Пиратская буря"". Повторите попытку позже.",2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Только из текущего дополнения,1
 51921,UNITNAME_SUMMON_TITLE54,Предок |3-1(%s),1
-51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Не бойтесь сделать неправильный выбор. К 80-му уровню вы изучите все эти таланты.,1
+51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Не бойтесь сделать неправильный выбор. К 90-му уровню вы изучите все эти таланты.,1
 51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
 51927,TIMERUNNING_BANNER_TIME_LEFT,Осталось |cnNORMAL_FONT_COLOR:%s|r,2
 51928,ACCOUNT_COMPLETED_QUEST_NOTICE,Ваш отряд уже выполнял это задание.,1
@@ -22399,7 +22398,7 @@ ID,BaseTag,TagText_lang,Flags
 52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/пригласитьзрителяблицпополямбоя,1
 52039,SHOW_SILHOUETTE_OPTION,Показывать силуэт при загораживании,1
 52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,"Отображает силуэт вашего персонажа, если его загораживают объекты в игре.",1
-52049,TUTORIAL_HERO_TALENT_NONE_SPENT,Выбирайте смело. К 80-му уровню вы изучите все эти таланты.,1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,Выбирайте смело. К 90-му уровню вы изучите все эти таланты.,1
 52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,Концентрация:,1
 52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Размер текста,1
 52056,SPELL_FAILED_CUSTOM_ERROR_1037,"Чтобы использовать здесь эту способность, требуется достижение ""Первопроходец The War Within"".",1
@@ -22494,7 +22493,7 @@ ID,BaseTag,TagText_lang,Flags
 52150,DELVES_GREAT_VAULT_LABEL,Великое хранилище,1
 52151,DYNAMIC_FLIGHT,Режим полета,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,Проходите вылазки и получайте еженедельные награды.\n\nНаград доступно: %s/%s ,1
-52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,Великое хранилище доступно только во время сезона.,1
+52153,GREAT_VAULT_REQUIRES_ACTIVE_SEASON,Великое хранилище доступно только во время сезона.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Умения и таланты,1
 52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,Доступно во время сезона,1
 52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"Открывается после прохождения задания ""Вылазка под землю"" в ходе кампании ""Остров Дорн"".",1
@@ -22624,6 +22623,11 @@ ID,BaseTag,TagText_lang,Flags
 52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,"Вы не отвечаете условиям, необходимым для использования этой валюты.",1
 52289,INSPECT_GUILD_REALM,Игровой мир: %s,1
 52290,CLUB_FINDER_REALM_NAME,Игровой мир: |cffffffff%s|r,1
+52291,EXPANSION_NAME11,Midnight,7
+52292,EXPANSION_NAME12,Дополнение 12,7
+52293,EXPANSION_NAME_CAPS10,THE WAR WITHIN,7
+52294,EXPANSION_NAME_CAPS11,MIDNIGHT,7
+52295,EXPANSION_NAME_CAPS12,ДОПОЛНЕНИЕ 12,7
 52296,MAP_LEGEND_CAMPAIGN,Кампания,1
 52297,MAP_LEGEND_CAMPAIGN_TOOLTIP,"Задания, продолжающие основную сюжетную линию",1
 52298,MAP_LEGEND_IMPORTANT,Важное,1
@@ -23095,7 +23099,7 @@ ID,BaseTag,TagText_lang,Flags
 53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,Надо перейти в редактор дома,1
 53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Вне дома,1
 53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Услуга недоступна,1
-53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Комната не найдена,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,За пределами области,1
 53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Ошибка обновления комнаты,1
 53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,Надо перейти в редактор плана этажа,1
 53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Участок не найден,1
@@ -23154,7 +23158,7 @@ ID,BaseTag,TagText_lang,Flags
 53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t В первые 24 часа участок смогут приобрести только члены гильдии |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t По истечении 24 часов участок сможет приобрести любой игрок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Когда район заполнится целиком, новые подразделения создаваться не будут |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Нельзя конвертировать в частный район",1
 53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Каждый игрок в реестре сможет приобрести участок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Районные управляющие могут добавлять в район других игроков |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Можно конвертировать в открытый район,1
 53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Каждый игрок в реестре сможет приобрести участок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t В первые 24 часа участок смогут приобрести только члены гильдии |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t По истечении 24 часов участок сможет приобрести любой игрок |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Нельзя конвертировать в частный район,1
-53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,Не выполнено минимальное требование по количеству членов гильдии,1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,Не выполнено минимальное требование по количеству активных членов гильдии,1
 53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Выберите для района другое название,1
 53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,Не выполнено минимальное требование по количеству членов гильдии,1
 53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,Превышен максимальный лимит членов гильдии. Попробуйте создать частный район.,1
@@ -23274,6 +23278,7 @@ ID,BaseTag,TagText_lang,Flags
 53442,HOUSING_LAYOUT_FLOOR_DISPLAY,%d-й этаж,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Необходимо выбрать целью подходящий предмет классового комплекта для головы, груди или ног.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Необходимо выбрать целью подходящий предмет классового комплекта для плеч или кистей рук.,1
+53448,SPELL_FAILED_CUSTOM_ERROR_1073,Вы не умеете приручать флорафавнов.,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,"Нельзя использовать транспорт, пока действует маскировка.",1
 53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Субтитры,3
 53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Пример субтитров,3
@@ -23283,6 +23288,7 @@ ID,BaseTag,TagText_lang,Flags
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Светлый,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Фон субтитров,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Прозрачность фона,3
+53476,POWER_TYPE_FEL_INFUSION,Вливание Скверны,1
 53511,UNIT_VIEW_HOUSES,Просмотреть дома,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Режим декорирования,1
@@ -23311,6 +23317,7 @@ ID,BaseTag,TagText_lang,Flags
 53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,"Включить отсечение |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы игнорировать коллизии при размещении декора. |r",1
 53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,"Отключить отсечение |cnNORMAL_FONT_COLOR:(%s)|nВключите, чтобы не игнорировать коллизии при размещении декора. |r",1
 53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Убрать декор,1
+53567,SPELL_FAILED_CUSTOM_ERROR_1105,Участники вашей группы должны сначала собраться вместе.,1
 53649,PERKS_PROGRAM_CART_ADD,В корзину,1
 53650,PERKS_PROGRAM_CART_REMOVE,Убрать из корзины,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Просмотр корзины,1
@@ -23320,9 +23327,11 @@ ID,BaseTag,TagText_lang,Flags
 53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Удалить все,1
 53656,PERKS_PROGRAM_CART_TITLE_TEXT,Товары в корзине (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,Барьер не дает усилителю терять мощность.,1
+53661,SPELL_FAILED_CUSTOM_ERROR_880,У вас уже есть мульча.,1
 53666,RESILIENT_KEY_LEVEL,Несгораемый уровень: %d,1
 53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,Обменять %s на %d |4товар:товара:товаров;?,1
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Купить товары в корзине,1
+53689,UNITNAME_SUMMON_TITLE58,Тело |3-1(%s),1
 53698,DROP_CHANCE_ITEMS_ONLY,Вероятность получить:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Ваша цель уже защищена медвертушкой Мрачных Минеров.,1
 53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Передвинуть камеру вверх,1
@@ -23339,6 +23348,7 @@ ID,BaseTag,TagText_lang,Flags
 53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Горячие клавиши только для расширенного режима,1
 53742,BINDING_NAME_DRIFT,Дрифт,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,"Вы уверены, что хотите удалить друга? Это действие нельзя отменить.",1
+53746,CONFIRM_RELIC_CHOICE,Пробудить эту реликвию? Следующую реликвию можно будет пробудить только через некоторое время.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,"Требуется ""Неразрывная связь"".",1
 53762,ADVANCED_OPTIONS_LABEL,Улучшения процесса,1
 53764,ENABLE_COOLDOWN_VIEWER,Вкл. трекер восстановления,1
@@ -23408,6 +23418,7 @@ ID,BaseTag,TagText_lang,Flags
 53945,VIEW_HOUSES_TITLE,Дома игрока %s,1
 53946,VIEW_HOUSES_NEIGHBORHOOD_BUTTON,Просмотреть район,1
 53947,VIEW_HOUSES_VISIT_BUTTON,Посетить дом,1
+53948,SPELL_FAILED_CUSTOM_ERROR_1106,У вас уже есть ограненный кристалл Скверны,1
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Всегда показывать,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,В бою,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Скрыть,1
@@ -23436,7 +23447,7 @@ ID,BaseTag,TagText_lang,Flags
 54012,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_OFFLINE,Не в сети,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Этот инструмент пока непригоден для текущего класса или специализации.,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Пример названия положительного эффекта,1
-54052,SPELL_FAILED_CUSTOM_ERROR_1073,Недоступно для специализаций-танков.,1
+54016,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_LABEL,Индикатор личного ресурса,1
 54053,ASSISTED_COMBAT_ROTATION,Однокнопочный помощник,1
 54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Однокнопочный|nпомощник,1
 54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,"Перетащите однокнопочного помощника на панель команд, чтобы привязать вашу ротацию умений и атак к одной кнопке.",1
@@ -23448,6 +23459,7 @@ ID,BaseTag,TagText_lang,Flags
 54067,HOUSING_DECOR_CUSTOMIZATION_DYES,Краски: %s,1
 54068,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_DESCRIPTION,Ячейка %s,1
 54069,HOUSING_DECOR_CUSTOMIZATION_THEME,Тема: %s,1
+54070,PERSONAL_RESOURCE_DISPLAY_ONLY_SHOW_IN_COMBAT,Показывать только в бою,1
 54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,По умолчанию (не окрашено),1
 54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,"Краска ""%d"" будет удалена.",1
 54074,GUILD_RENAME_COSTS_TOOLTIP,Нужная сумма будет изъята из гильдейского банка,1
@@ -23476,25 +23488,42 @@ ID,BaseTag,TagText_lang,Flags
 54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Другое,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Перегруженная панель титанов,1
 54150,ERR_NO_OWNED_HOUSE_IN_THIS_NEIGHBORHOOD_MAP,У вас нет дома в этом районе,1
+54152,SPELL_FAILED_CUSTOM_ERROR_2429,Требуется инкрустированный ключ.,1
 54153,EMOTE628_CMD1,/наклон,1
 54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Пропаганда терроризма/насилия,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Жестокое обращение с детьми,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,"Щелкните ПКМ, чтобы открыть список способностей",1
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,"Щелкните ПКМ, чтобы скрыть список способностей",1
+54182,HOUSING_DASHBOARD_INITIATIVES,Предприятия,1
+54183,PLAYER_CHOICE_STORMARION_CITADEL,Потратить один штормарионский сердечник?,1
 54184,ERR_INVITED_TO_NEIGHBORHOOD,Вас приглашают в район!,1
+54188,HOUSING_DASHBOARD_INITIATIVE_TASKS_LABEL,Задачи предприятий,1
+54189,HOUSING_DASHBOARD_INITIATIVE_ACTIVITY_LABEL,Режим,1
+54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,"|cFFFFFFFF%s|r выполняет задачу ""%s""",1
+54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,"Сейчас в вашем районе нет активного предприятия.|n|nРайонные управляющие могут поговорить с распорядителем, чтобы начать предприятие.",1
+54192,HOUSING_DASHBOARD_ADDITIONAL_REWARDS_LABEL,Дополнительные награды:,1
+54193,HOUSING_DASHBOARD_REWARD_ESTATE_XP,Опыт дома,1
+54194,HOUSING_DASHBOARD_REWARD_CURRENCY,Валюта,1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Вспомогательная подсветка,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,"Подсвечивает способности, которые рекомендуется применить.|nПодсветка выделяет только видимые способности.",1
+54202,SLASH_TRANSMOG_CUSTOM_SET1,/свойкомплект,1
+54208,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_FORMAT,%s (завершено x%d),1
 54209,CONTACTS_TAB_TITLE,Контакты,3
 54210,CONTACTS_LIST_TITLE,Контакты,3
 54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Блокировать все приглашения в район.,1
 54212,BLOCK_NEIGHBORHOOD_INVITES,Блокировать приглашения в район,1
+54214,12_0_LEGENDS_PAINTING_MINIGAME_02_CONNECT_DOTS,"Щелкайте по соседним клеткам, чтобы перемещать кисть и соединять точки!",1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Нельзя отправиться в историческую кампанию в режиме синхронизации.,1
 54226,HOUSING_HOUSE_SETTINGS_ANYONE,Кто угодно,1
 54227,HOUSING_HOUSE_SETTINGS_NOONE,Никто,1
 54228,HOUSING_HOUSE_SETTINGS_LIMITED,С ограничениями,1
 54229,HOUSING_HOUSE_SETTINGS_ACCESS_PARTY,Группа,1
 54230,EMPTY_SOCKET_FIBER,Волоконное гнездо,5
+54232,UNIT_NAMEPLATES_ENABLE_STACKING,Показывать индикаторы друг над другом,1
+54233,UNIT_NAMEPLATES_ENABLE_STACKING_TOOLTIP,Индикаторы здоровья не накладываются друг на друга.,1
+54237,UNIT_NAMEPLATES_GLOBAL_SCALE,Размер,1
+54238,UNIT_NAMEPLATES_GLOBAL_SCALE_TOOLTIP,Устанавливает размер индикаторов здоровья на экране.,1
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,"Вспомогательная подсветка будет предлагать вам только те способности, которые вы видите.",1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Сообщение игроку %s может носить неприемлемый характер.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Переписать сообщение]|w|h или |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[отправить как есть]|w|h?|r,1
 54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Используется с вспомогательной подсветкой.,1
@@ -23525,7 +23554,7 @@ ID,BaseTag,TagText_lang,Flags
 54324,UNIGNORE_PLAYER_BUTTON_LABEL,Убрать из списка,1
 54325,CONTACTS_RECENT_ALLIES_TITLE,Недавние союзники,1
 54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Недавние союзники,1
-54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Банк вашего персонажа не был преобразован. Повторите попытку позже.,1
+54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Ошибка преобразования банка. Повторите попытку позже.,1
 54328,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_TEXT,Вы точно хотите отменить приглашение в район игрока %s?,1
 54329,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_CONFIRM,Подтвердить,1
 54330,HOUSING_NEIGHBORHOOD_INVITE_TITLE,Пригласить жителя,1
@@ -23593,11 +23622,14 @@ ID,BaseTag,TagText_lang,Flags
 54650,HOUSING_BULLETINBOARD_EVICTED_CONFIRMATION_TEXT,"Вас выселили из вашего района. \n \n Макет вашего дома был сохранен; купите новый дом, чтобы импортировать его.",1
 54651,TALENT_FRAME_INCREASED_RANKS_TEXT,"(+%d |4уровень:уровня:уровней; от предмета ""%s"")",1
 54652,HOUSING_CATALOG_CATEGORIES_BACK,НАЗАД,1
+54654,PROFESSIONS_ALLOCATIONS_TOOLTIP_2,Распределение: %d%s %d%s,1
 54664,WHO_LIST_LEVEL_TOOLTIP,%d-й уровень,1
 54665,ENABLE_GAMEPLAY_SFX,Включить вспомогательные звуковые эффекты в бою,3
 54666,GAMEPLAY_SFX_VOLUME,Звуковые эффекты в ходе игры,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Регулирует громкость игровых звуковых эффектов.,3
 54672,RECENT_ALLY_LABEL,Недавние союзники,3
+54673,12_0_PRELAUNCH_TIC_TAC_TOE_INSTRUCTION,Выберите фракцию для метки.,1
+54674,12_0_PRELAUNCH_TIC_TAC_TOE_INSTRUCTION_2,"Щелкните по клетке, чтобы разместить метку.",1
 54676,HOUSING_ADD_NEIGHBORHOOD_MANAGER_CONFIRMATION,"Вы точно хотите добавить игрока %s в качестве районного управляющего? \n\n После добавления в качестве управляющего игрок получит разрешения на следующие действия:|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Предлагать игрокам купить дом в районе |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Выселять из района игроков, не являющихся управляющими |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Управлять районным контентом, который появится в будущем ",1
 54677,HOUSING_REMOVE_NEIGHBORHOOD_MANAGER_CONFIRMATION,Вы точно хотите убрать игрока %s из районных управляющих?,1
 54678,HOUSING_BULLETIN_CONTEXT_CONFIRM,Подтвердить,1
@@ -23612,6 +23644,11 @@ ID,BaseTag,TagText_lang,Flags
 54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,Хотите сбросить древо артефакта? (Потраченные очки вернутся),1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Сбросить древо,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Отмена,1
+54702,UNIT_NAMEPLATES_THREAT_DISPLAY,Отображение угрозы,1
+54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,Нет,1
+54704,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE,Постепенное изменение,1
+54705,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH,Вспышка,1
+54707,UNIT_NAMEPLATES_THREAT_DISPLAY_TOOLTIP,"Позволяет выбрать, как отображается уровень угрозы от врага. ",1
 54710,BINDING_NAME_TOGGLEHOUSINGDASHBOARD,Панель жилья,1
 54713,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE,Размещается только снаружи,1
 54714,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE,Размещается только в помещении,1
@@ -23621,7 +23658,10 @@ ID,BaseTag,TagText_lang,Flags
 54720,REPORT_RESULT_REQUIRES_CHAT,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата.",1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,"Не удалось отправить жалобу. Чтобы данный вид жалобы был принят, необходимо выбрать соответствующую строку чата или находиться в голосовом чате.",1
 54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s принимает передачу прав на владение районом,1
+54729,TRANSMOGRIFY_TOOLTIP_HIDDEN,Скрыто,1
 54731,UNITNAME_SUMMON_TITLE59,Связанный клятвой слуга |3-1(%s),1
+54732,TRANSMOG_SAVE_OUTFIT,Сохранить наряд,1
+54755,SPELL_FAILED_CUSTOM_ERROR_1107,У вас не хватает штормарионских сердечников.,1
 54758,ASSISTED_COMBAT_LABEL,Боевой помощник,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,В меню способностей,1
 54777,VIDEO_OPTIONS_SFX_DENSITY_MIN,Самые важные,3
@@ -23630,6 +23670,7 @@ ID,BaseTag,TagText_lang,Flags
 54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Показывать только критически важные заклинания. Ваши заклинания отображаются всегда.,3
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Уменьшать количество некритичных отображаемых заклинаний.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Всегда показывать все заклинания.,3
+54789,TRANSMOG_PURCHASE_OUTFIT_SLOT,Купить ячейку для наряда,1
 54790,OUTFITTER_ARMOR_HEADER,[PH],1
 54791,OUTFITTER_GEM_HEADER,[PH],1
 54792,OUTFITTER_FRAME_TITLE,[PH],1
@@ -23660,11 +23701,15 @@ ID,BaseTag,TagText_lang,Flags
 54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,"Нажмите Shift+ПКМ, чтобы просмотреть особенности артефакта",1
 54841,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED_SHORT,Недавно использовалось,1
 54842,SPELL_FAILED_CUSTOM_ERROR_1079,"Сначала необходимо переместить ""Акерус"" на Расколотые острова в этой временной линии.",1
+54843,TRANSMOG_EDIT_OUTFIT_SLOT,Изменить название/значок,1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Могила |3-1(%s),1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Послание от |3-1(%s),1
 54846,HOUSING_DASHBOARD_HOUSEUPGRADE,Уровень дома,1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
+54863,TRANSMOG_OUTFIT_SLOT_POPUP_TEXT,Введите название наряда (до 16 символов):,1
+54864,JOURNEYS_LABEL,Путешествия,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Вы присоединились к прохождению эпохального подземелья с ключом. Если вы покинете подземелье до истечения отведенного срока и без голосования, то получите штраф.",1
+54876,CONFIRM_BUY_OUTFIT_SLOT,В каждой ячейке наряда можно сохранить полный декоративный комплект снаряжения. Переключаться между нарядами можно в любой момент.\n\nХотите купить ячейку наряда:,1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Отголосок |3-1(%s),1
 54885,HUD_EDIT_MODE_COOLDOWN_VIEWER_SETTINGS,Настройки восстановления,1
 54886,COOLDOWN_VIEWER_SETTINGS_TITLE,Настройки восстановления способностей,1
@@ -23677,8 +23722,10 @@ ID,BaseTag,TagText_lang,Flags
 54893,COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS,Положительные эффекты,1
 54894,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_CATEGORY,Назначить сюда: %s,1
 54895,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_EMPTY_CATEGORY,Убрать с панели,1
+54896,TRANSMOG_SAVE_OUTFIT_TOOLTIP,Сохранить и применить изменения,1
 54897,TALENT_BUTTON_TOOLTIP_RANK_NO_MAX_FORMAT,%s-й уровень,1
 54898,CATALOG_SHOP_NO_SEARCH_RESULTS,Результатов не найдено,7
+54901,TRANSMOG_PURCHASE_OUTFIT_SLOT_TOOLTIP_DISABLED,Нельзя открыть больше %d |4ячейки:ячеек:ячеек; для нарядов.,1
 54903,VOTE_TO_ABANDON_VOTES_NEEDED,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"".",1
 54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"Чтобы покинуть подземелье, нужно %d |4голос:голоса:голосов; ""за"". Так как вы владеете ключом, ваш голос считается за %d.",1
 54906,VOTE_TO_ABANDON_VOTED_YES,"Вы проголосовали ""За""",1
@@ -23689,6 +23736,7 @@ ID,BaseTag,TagText_lang,Flags
 54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Уменьшает количество некритичных отображаемых заклинаний в зависимости от частоты кадров.,3
 54915,TEXT_SCALE_PREVIEW_TITLE,Пример,3
 54916,TEXT_SCALE_PREVIEW_BODY,"Пример текста для предпросмотра. Эта настройка позволяет изменить размер шрифта в диалоговых окнах, некоторых меню общения и функции ""Текст в речь"".",3
+54925,TRANSMOG_SITUATION_CATEGORY_LIST_SEPARATOR,", ",1
 54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
 54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Интерфейс,3
@@ -23708,10 +23756,13 @@ ID,BaseTag,TagText_lang,Flags
 54984,TIMERUNNING_BANNER_LEGION_HEADER,WoW Remix: Legion!,2
 54985,CHAR_CREATE_CLASS_DISABLED_TIMERUNNING,Невозможно создать путешественника во времени этого класса,2
 54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Отголосок игрока %s,1
+54994,HOUSING_DASHBOARD_TIME_REMAINING,Осталось %s,1
 54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Убийца игрока %s,1
 54996,VOTE_TO_ABANDON_PLAYER_LEFT,Другой игрок покинул подземелье. Теперь вы можете выйти без штрафа.,1
 54997,CONFIRM_LEAVE_RESTRICTED_CHALLENGE_MODE,"Прервать прохождение подземелья?|n|n|cffff2020Если вы покинете подземелье в режиме ""Эпохальный+"" несколько раз подряд, вы получите метку ключевого дезертира.|r",1
 55000,WARN_LEAVE_RESTRICTED_CHALLENGE_MODE,"Таймер штрафа|n|n|cffffd200Если вы не вернетесь в подземелье за оставшееся время, вы будете исключены из группы и получите штраф.|r|n|nОсталось времени: %d сек.",1
+55001,12_0_Z3_LEGENDS_RELIC_06_A,Корень мира,1
+55002,12_0_Z3_LEGENDS_RELIC_06_B,Посох первой корнестражницы,1
 55003,ERR_CURRENCY_TRANSFER_INSUFFICIENT_TRANSFER_QUANTITY,Запрошенная сумма не покрывает комиссию за перевод средств.,1
 55005,HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT,"Щелкните, чтобы изменить",1
 55006,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_FULL,"эта душа приняла смерть от чудовища ""%s"" в вылазке %d-го уровня",1
@@ -23721,6 +23772,7 @@ ID,BaseTag,TagText_lang,Flags
 55017,HOUSING_CATALOG_FILTERS_DYEABLE,Только окрашиваемое,1
 55018,HOUSING_CATALOG_FILTERS_INDOORS,В помещении,1
 55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Снаружи,1
+55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Удалить выбранные трансмогрификации,1
 55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
 55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
 55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
@@ -23740,6 +23792,7 @@ ID,BaseTag,TagText_lang,Flags
 55048,VRN_GPUMEM_16GB,Требуется видеокарта с объемом памяти как минимум 16 ГБ,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Дом игрока,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Заклинания с функцией помощи,1
+55058,12_0_MINIGAME_CHOOSE_ELEMENT,"Найдите шестеренку, которая движется в другом направлении",1
 55061,NOT_WHILE_HOUSE_EDIT,Нельзя использовать в ходе редактирования дома,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,"Вы получили метку ключевого дезертира за то, что несколько раз подряд покидали подземелья в режиме ""Эпохальный+"".",1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Вы получили метку ключевого дезертира,1
@@ -23747,6 +23800,10 @@ ID,BaseTag,TagText_lang,Flags
 55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,В этой группе есть как минимум один игрок с меткой ключевого дезертира.,1
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,"Метка дезертира будет отображаться во время поиска группы для подземелья ""Эпохальный+"".",1
 55070,MYTHIC_PLUS_DESERTER,Ключевой дезертир,1
+55071,TRANSMOG_TAB_ITEMS,Предметы,1
+55072,TRANSMOG_TAB_SETS,Наборы,1
+55073,TRANSMOG_TAB_CUSTOM_SETS,Свои комплекты,1
+55074,TRANSMOG_TAB_SITUATIONS,Ситуации,1
 55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Результаты поиска,1
 55081,KIOSK_HOUSING_START_BODY1,Добро пожаловать домой!,1
 55083,KIOSK_HOUSING_START_BUTTON,Декорировать,1
@@ -23758,8 +23815,29 @@ ID,BaseTag,TagText_lang,Flags
 55091,ERR_NEW_PARTY_NEIGHBORHOOD_RESERVATION,Участник группы зарезервировал дом!,1
 55092,KIOSK_ENABLED_DLG_TEXT,Включен режим киоска\nЭто уведомление больше не появится.,3
 55095,HOUSEFINDER_BACK_BUTTON,НАЗАД,1
+55098,HOUSING_DASHBOARD_SET_AS_ACTIVE_INITIATIVE_LABEL,Назначить активное предприятие,1
+55099,HOUSING_DASHBOARD_CURRENTLY_ACTIVE_LABEL,Активное предприятие:,1
+55100,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED,Игнорировать ячейку,1
+55101,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED,Показать надетое снаряжение,1
+55102,UNIT_NAMEPLATES_STYLE,Стиль,1
+55103,UNIT_NAMEPLATES_STYLE_TOOLTIP,"Позволяет выбрать, как отображаются индикаторы, из списка стилей.",1
+55104,UNIT_NAMEPLATES_STYLE_DEFAULT,По умолчанию,1
+55105,UNIT_NAMEPLATES_STYLE_LEGACY,Классический красный,1
+55106,UNIT_NAMEPLATES_STYLE_THIN,Тонкие панели,1
+55107,UNIT_NAMEPLATES_STYLE_BLOCK,Крупные индикаторы здоровья,1
+55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Крупные индикаторы способностей,1
+55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,После выбора этого наряда предметы в ячейке будут отображаться в изначальном виде.,1
+55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,После выбора этого наряда внешний вид предметов в ячейке не будет меняться.,1
 55123,HOUSING_CATALOG_FILTERS_NONE,Нет,1
+55124,TRANSMOG_SITUATIONS_DESCRIPTION,"Выберите из списка ситуации, в которых вы будете автоматически надевать этот наряд. Должны быть выполнены все указанные условия!\n\nЕсли подходят несколько нарядов, один из них выбирается случайным образом.",1
+55125,TRANSMOG_SITUATIONS_ENABLED,Ситуации включены,1
+55127,TRANSMOG_SITUATIONS_DEFAULTS,По умолчанию,1
+55128,UNIT_NAMEPLATES_SHOW_OFFSCREEN,Показывать индикаторы здоровья за границами экрана,1
+55129,UNIT_NAMEPLATES_SHOW_OFFSCREEN_TOOLTIP,"Включает или отключает отображение индикаторов здоровья существ, которых не видно на экране.",1
+55130,TRANSMOG_SITUATIONS_NO_VALID_OPTIONS,Не выбрано ни одного варианта,1
+55132,SPELL_FAILED_CUSTOM_ERROR_2002,Нельзя использовать больше одной силы свитка эфириалов за раз.,1
 55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
+55135,JOURNEYS_GREAT_VAULT_TOOLTIP,"Выполняйте задачи путешествий, чтобы собирать награды.",1
 55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
 55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
 55139,WOWHACK_STAT_LINE_MANA,[PH],1
@@ -23773,9 +23851,21 @@ ID,BaseTag,TagText_lang,Flags
 55147,KIOSK_HOUSING_RESET_FAILED,Сброс дома не выполнен. Поставьте в известность служителя.,1
 55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Найти друзей по Battle.net,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Повязки реши,1
+55156,UNIT_NAMEPLATES_SIMPLIFIED,Упростить индикаторы здоровья,1
+55157,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS,Прислужники,1
+55158,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS,Незначительные NPC,1
+55159,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS,Союзники,1
+55160,UNIT_NAMEPLATES_SIMPLIFIED_TOOLTIP,Показывает индикаторы определенных существ в упрощенном виде.,1
+55161,UNIT_NAMEPLATES_SIMPLIFIED_NONE,Нет,1
+55162,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS_TOOLTIP,"Существа-спутники других игроков (питомцы, тотемы, защитники и так далее).",1
+55163,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS_TOOLTIP,Существа слабее обычных.,1
+55164,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS_TOOLTIP,Игроки из вашей фракции.,1
 55165,HOUSEFINDER_SEARCH_DESCRIPTION,Просмотр районов игрока %s,1
 55166,HOUSEFINDER_SEARCH_NOT_FOUND,Дома не найдены,1
+55173,TRANSMOG_SET_OPEN_COLLECTION,Открыть модели (выход из трансмогрификации),1
 55174,ERR_HOUSE_MOVED,"Дом, в котором вы находились, был перемещен в другое место.",1
+55176,JOURNEYS_RENOWN_LABEL,Известность,1
+55177,JOURNEYS_LEVEL_LABEL,%d-й уровень,1
 55183,BINDING_NAME_WOWHACKITEM1,[PH],1
 55184,BINDING_NAME_WOWHACKITEM2,[PH],1
 55185,BINDING_NAME_WOWHACKITEM3,[PH],1
@@ -23783,22 +23873,30 @@ ID,BaseTag,TagText_lang,Flags
 55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
 55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,Транзакция не была завершена.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,Это средство передвижения не может перейти в Безграничье.,1
+55199,TRANSMOG_SITUATIONS_APPLY,Применить изменения,1
 55200,USER_SURVEY_STATUS_READY,Доступен опрос,1
 55201,USER_SURVEY_STATUS_READY_DESCRIPTION,"Поделитесь с нами мнением! Щелкните здесь, чтобы перейти к опросу.",1
 55202,USER_SURVEY_DIALOG_TEXT,"Ответьте на несколько вопросов о ваших впечатлениях от World of Warcraft! Если вы нажмете ""Да"", откроется окно браузера с опросом.",1
+55203,JOURNEYS_ENCOUNTERS_LABEL,Сражения,1
+55204,TRANSMOG_SITUATIONS_UNDO,Отменить незаконченные изменения,1
+55206,SPELL_FAILED_CUSTOM_ERROR_2499,Требуется не менее 250 ед. изобилия.,1
 55207,COOLDOWN_VIEWER_SETTINGS_RESET_LAYOUT_TO_DEFAULT,По умолчанию,1
 55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Показать неизученное,1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Параметры,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Открыть настройки восстановления способностей,1
+55211,TRANSMOG_SITUATIONS_APPLY_DISABLED_TOOLTIP,Сначала нужно выбрать подходящий вариант,1
 55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
 55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
 55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
-55218,HOUSING_DASHBOARD_ENDEAVOR,Предприятие,1
+55218,HOUSING_DASHBOARD_ENDEAVOR,Предприятия,1
+55219,JOURNEYS_TOOLTIP_VIEW_JOURNEY,<Щелкните для просмотра путешествия>,1
 55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Телепортация на участок,1
 55221,HOUSING_DASHBOARD_NO_HOUSE_SELECTED,Дом не выбран,1
 55222,HOUSING_DASHBOARD_RETURN,Возвращение в предыдущую зону,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Ошибка при обновлении названия макета. Попробуйте еще раз.,1
 55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Введите текст,1
+55225,TRACKER_HEADER_INITIATIVE_TASKS,Предприятия,1
+55226,JOURNEYS_OVERVIEW_LABEL,Обзор,1
 55227,BINDING_NAME_HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE,Изменение наружной отделки,1
 55228,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME,Изменение наружной отделки,1
 55229,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON,Изменение наружной отделки,1
@@ -23807,6 +23905,8 @@ ID,BaseTag,TagText_lang,Flags
 55233,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER_FMT,Изменение наружной отделки |cnNORMAL_FONT_COLOR:(%s)|r,1
 55234,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT,Выйти из редактора наружной отделки,1
 55236,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT_FMT,Выйти из редактора наружной отделки |cnNORMAL_FONT_COLOR:(%s)|r,1
+55237,JOURNEYS_JOURNEY_LOCKED_LABEL,Путешествие заблокировано,1
+55238,JOURNEYS_HIGHLIGHT_LABEL,Ключевые моменты:,1
 55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,"Нажмите, чтобы перейти в редактор дома",1
 55243,CLEAN_DECOR_TUTORIAL_TEXT,"Щелкните по предмету декора и нажмите R, чтобы вернуть его в домашний сундук|n|n%s",1
 55244,DECORATE_DECOR_TUTORIAL_TEXT,"Щелкните или перетащите предмет декора из домашнего сундука, чтобы установить его в доме|n|n%s",1
@@ -23820,16 +23920,61 @@ ID,BaseTag,TagText_lang,Flags
 55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Этот режим закрыт во время обучения,1
 55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Для доступа к жилищам приобретите дополнение Midnight,1
 55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Для доступа к жилищам приобретите дополнение Midnight,1
+55264,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY,Положительные/отрицательные эффекты противников,1
+55265,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_TOOLTIP,Настраивает отображение положительных и отрицательных эффектов на индикаторах здоровья враждебных существ.,1
+55266,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_NONE,Нет,1
+55267,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS,Положительные эффекты врагов,1
+55268,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS_TOOLTIP,"Показывать временные положительные эффекты, действующие на существо.",1
+55269,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS,Личные отрицательные эффекты,1
+55270,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS_TOOLTIP,"Показывать временные отрицательные эффекты, которые вы применили к существу.",1
+55271,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL,Общие эффекты контроля,1
+55272,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL_TOOLTIP,"Показывать временные эффекты контроля, которые вы или ваши союзники применили к существу.",1
 55273,HOUSING_DASHBOARD_OWNERS_HOUSE,Дом игрока %s,1
-55274,HOUSING_DASHBOARD_ADDRESS,%s %s,1
+55274,HOUSING_DASHBOARD_ADDRESS,%2$s %1$s,1
 55275,ERR_CHARTER_SIGNATURE_REQUEST_SENT,Вы попросили игрока %s подписать реестр района.,1
+55276,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY,Положительные/отрицательные эффекты враждебных игроков,1
+55277,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_TOOLTIP,Настраивает отображение положительных и отрицательных эффектов на индикаторах здоровья враждебных игроков.,1
+55278,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_NONE,Нет,1
+55279,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS,Положительные эффекты противников,1
+55280,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,"Показывать временные положительные эффекты, действующие на игрока.",1
+55281,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS,Личные отрицательные эффекты,1
 55282,ERR_CHARTER_SIGNATURE_RECEIVED,%s подписывает ваш реестр района.,1
+55283,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,"Показывать временные отрицательные эффекты, которые вы применили к игроку.",1
+55284,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Мощные отрицательные эффекты,1
+55286,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,"Показывать временные эффекты контроля, которые вы или ваши союзники применили к игроку.",1
+55288,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY,Положительные/отрицательные эффекты игроков-союзников,1
+55289,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_TOOLTIP,Настраивает отображение положительных и отрицательных эффектов на индикаторах здоровья игроков-союзников.,1
+55290,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_NONE,Нет,1
+55291,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS,Личные положительные эффекты,1
+55292,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,"Показывать временные положительные эффекты, которые вы применили к игроку.",1
+55294,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS,Отрицательные эффекты противников,1
+55295,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,"Показывать временные отрицательные эффекты, которые противники применили к игроку.",1
+55296,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Мощные отрицательные эффекты,1
+55297,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,"Показывать временные эффекты контроля, которые противники применили к игроку.",1
 55298,HOUSING_DASHBOARD_HOUSE_LEVEL,%s-й уровень,1
+55299,JOURNEYS_CURRENT_PROGRESS,Текущий прогресс: |cnHIGHLIGHT_FONT_COLOR:%d / %d|r,1
 55301,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR,Опыт дома: %s/%s,1
+55307,CHAT_ENCOUNTER_EVENT_GET,,1
+55310,CHAT_MSG_ENCOUNTER_EVENT,Боевое событие,3
+55311,TRANSMOG_SLOT_WARNING_NOTHING_EQUIPPED,"В этой ячейке нет предмета экипировки, который можно трансмогрифицировать.",1
+55312,TRANSMOG_SLOT_WARNING_WRONG_WEAPON_CATEGORY_EQUIPPED,У вас в руках другой тип оружия.,1
+55313,TRANSMOG_SLOT_WARNING_INVALID_EQUIPPED_DESTINATION_ITEM,Надетый предмет в этой ячейке нельзя трансмогрифицировать.,1
+55314,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE_TOOLTIP,"Добавляет эффект индикатора здоровья, изменяющийся, если уровень угрозы приближается к нулю в роли танка или слишком повышается в роли бойца или лекаря.",1
+55315,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH_TOOLTIP,"Индикатор здоровья замигает, если уровень угрозы приближается к нулю в роли танка или слишком повышается в роли бойца или лекаря.",1
 55316,HOUSING_CREATENEIGHBORHOOD_GUILD_INFODESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Покупать участки могут как персонажи Альянса, так и персонажи Орды. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Приобрести участок разрешается только игрокам, состоящим в вашей гильдии. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Игроки, не состоящие в гильдии, будут выдворены из района. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Когда район заполнится целиком, будут автоматически созданы новые секции.",1
 55317,HOUSING_CREATENEIGHBORHOOD_CHARTER_INFODESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Покупать участки могут как персонажи Альянса, так и персонажи Орды. |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Районные управляющие могут приглашать игроков в район.",1
 55318,GAME_MODE_DISABLED_TOOLTIP,Режим временно недоступен.,3
 55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Информация о районе:,1
+55320,UNIT_NAMEPLATES_INFO_DISPLAY,Информация индикатора здоровья,1
+55321,UNIT_NAMEPLATES_INFO_DISPLAY_TOOLTIP,"Настраивает информацию, которая отображается на индикаторах здоровья.",1
+55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,Нет,1
+55323,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT,Здоровье в процентах,1
+55324,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT_TOOLTIP,Отображает текущий уровень здоровья в процентах от общего запаса.,1
+55325,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE,Значение здоровья,1
+55326,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE_TOOLTIP,Отображает текущий уровень здоровья.,1
+55327,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON,Значок особых монстров,1
+55328,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON_TOOLTIP,Отображает значок у особо опасных существ.,1
+55331,TRANSMOG_RANDOMIZE_APPEARANCE,Случайный выбор,1
 55333,RPE_TURNSTRAFE_SELECT,Назначение клавиш для передвижения,1
 55334,RPE_TURNSTRAFE_AFFECT_ACCOUNT,Изменения затронут назначение клавиш для всех персонажей на учетной записи,1
 55335,RPE_TURNSTRAFE_AFFECT_CHARACTER,Изменения затронут только этого персонажа,1
@@ -23845,25 +23990,42 @@ ID,BaseTag,TagText_lang,Flags
 55358,HOUSING_CORNERSTONE_NEIGHBORHOOD_GUILD,Гильдия,1
 55359,HOUSING_NEIGHBORHOODTYPE_GUILD,Гильдия,1
 55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Реестр,1
+55361,UNIT_NAMEPLATES_CAST_BAR_DISPLAY,Информация индикатора заклинаний,1
+55362,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_TOOLTIP,"Настраивает информацию, которая отображается на индикаторах заклинаний.",1
+55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,Нет,1
+55365,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME,Название заклинания,1
+55366,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME_TOOLTIP,Отображает название заклинания на индикаторе.,1
+55367,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON,Значок заклинания,1
+55368,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON_TOOLTIP,Отображает значок заклинания на индикаторе.,1
+55369,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET,Цель заклинания,1
+55370,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET_TOOLTIP,Отображает на индикаторе заклинаний имя их цели.,1
 55372,HOUSING_DASHBOARD_REWARD_INTERIOR_BUDGET,Бюджет декора интерьера,1
 55373,HOUSING_DASHBOARD_REWARD_EXTERIOR_BUDGET,Бюджет декора экстерьера,1
 55374,HOUSING_DASHBOARD_REWARD_ROOM_BUDGET,Бюджет комнат,1
 55375,HOUSING_DASHBOARD_REWARD_FIXTURE_BUDGET,Бюджет элементов,1
 55376,HOUSING_DASHBOARD_VISIT_NPC,"Поговорите с главным подрядчиком в вашем районе, чтобы повысить уровень дома",1
 55386,HOUSING_DECOR_DYE_LIST,Краски: %s,1
+55388,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS,Выделять важные заклинания,1
+55389,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS_TOOLTIP,Выделяет важные заклинания на индикаторах более заметным образом.,1
+55390,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET,Подсветка при становлении целью противника,1
+55391,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET_TOOLTIP,"Выделяет индикаторы заклинаний более заметным образом, когда заклинание нацелено в вас.",1
 55394,HOUSE_PURCHASE,Добро пожаловать домой!,1
 55398,BUY_HOUSE,Купить дом,1
 55399,HOUSING_DASHBOARD_START_TUTORIAL_TEXT,Начнем строить ваш дом вместе!,1
 55400,HOUSING_DASHBOARD_START_TUTORIAL_DESCRIPTION_TEXT,"Щелкните по кнопке ниже, чтобы начать обучение.|n|nЕго можно прерывать и возобновлять в любой момент.",1
 55401,HOUSING_DASHBOARD_START_TUTORIAL_BUTTON_TEXT,Начать обучение,1
 55402,NEIGHBORHOOD_LIST_TUTORIAL_TEXT,Выберите район проживания,1
-55403,NEIGHBORHOOD_MAP_TUTORIAL_TEXT,"Незанятые участки будут помечены знаком ""Продается",1
+55403,NEIGHBORHOOD_MAP_TUTORIAL_TEXT,"Незанятые участки будут помечены знаком ""Продается""",1
 55404,NEIGHBORHOOD_VISIT_HOUSE_TUTORIAL_TEXT,"Нажмите ""Посетить"", чтобы зарезервировать дом и телепортироваться к нему",1
 55405,HOUSING_OPEN_BAGS_TUTORIAL_TEXT,Вы получили декор для дома!,1
 55406,HOUSING_USE_ITEM_TUTORIAL_TEXT,"Используйте предметы декора в сумках, чтобы добавить их в домашний сундук.|n|nНекоторые предметы добавляются автоматически.",1
 55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Редактировать,1
 55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Настройки трекера восстановления,1
 55410,REPORTING_MINOR_CATEGORY_NEIGHBORHOOD_NAME,Название района,5
+55411,TRANSMOG_SLOT_WARNING_PENDING_WEAPON_CHANGES,У других видов снаряжения для этой ячейки есть несохраненные изменения.,1
+55414,TRANSMOG_OUTFIT_NAME_DEFAULT,Снаряжение,3
+55415,TRANSMOG_CUSTOM_SET_NAME_DEFAULT,Свой комплект,1
+55416,SPELL_FAILED_CUSTOM_ERROR_2500,Нечего выбрасывать.,1
 55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Закрепленный союзник (Срок действия: %s),1
 55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
 55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
@@ -23877,7 +24039,13 @@ ID,BaseTag,TagText_lang,Flags
 55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
 55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
 55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
+55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Имя цели,1
+55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Название заклинания,1
+55435,JOURNEYS_MAX_LEVEL_LABEL,Максимальная известность: ур. %d,1
+55436,PVP_TAB_TRAINING_GROUNDS,Тренировочная площадка,1
+55437,SPELL_FAILED_CUSTOM_ERROR_2501,Требуется знание инженерного дела.,1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55450,JOURNEYS_MAX_RENOWN_LABEL,Максимальная известность,1
 55454,ERR_TRAVEL_PASS_GAME_MODE,Игрок играет в другую версию World of Warcraft.,3
 55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Нет краски,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Показ местонахождения,1
@@ -23890,12 +24058,15 @@ ID,BaseTag,TagText_lang,Flags
 55487,GAME_MENU_SHOW_REWARDS,Награды,1
 55488,CHARACTER_SELECT_SHOW_REWARDS,[PH] Rewards,2
 55489,CHARACTER_SELECT_INFO_BUTTON,[PH] Info,2
-55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Неприемлемый декор,1
+55490,JOURNEYS_COMPANION_CONFIG_LABEL,Настройка,1
+55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Неподходящее место для декора,1
 55494,HOUSING_DASHBOARD_REWARD_INTERIOR_TOOLTIP,Повысьте бюджет размещенного декора,1
 55495,HOUSING_DASHBOARD_REWARD_EXTERIOR_TOOLTIP,Повысьте бюджет размещенного внешнего декора,1
 55496,HOUSING_DASHBOARD_REWARD_ROOM_TOOLTIP,Повысьте бюджет размещенных комнат,1
 55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Повысьте бюджет внешних элементов,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-ЛКМ для быстрого назначения,1
+55501,SPELL_FAILED_CUSTOM_ERROR_2502,Требуется как минимум 3 эффекта страдания.,1
+55504,SPELL_FAILED_CUSTOM_ERROR_2503,Требуется улучшение малой сети.,1
 55508,SPELL_FAILED_CUSTOM_ERROR_652,У вас уже есть такой предмет декора.,1
 55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,Доступно после прохождения острова Изгнанников.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,Следующее голосование за выход возможно через: |cnWHITE_FONT_COLOR:%s|r,1
@@ -23907,6 +24078,7 @@ ID,BaseTag,TagText_lang,Flags
 55531,REPORTING_SCREENSHOT_INSTRUCTIONS,"Щелкните ЛКМ, чтобы сделать снимок экрана",1
 55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,Нельзя проголосовать за выход во время битвы с боссом,1
 55537,HOUSING_LAYOUT_NUM_ROOMS_TOOLTIP,"Бюджет комнат |cnNORMAL_FONT_COLOR:|nПовысьте уровень дома, чтобы увеличить количество доступных комнат.|r",1
+55539,GENERIC_CART_PREVIEW_TITLE,Товары в корзине (%d),1
 55540,HOUSE_UPGRADE_AVAILABLE_TOAST,Можно повысить уровень дома,1
 55541,HOUSEFINDER_SEARCH_DESCRIPTION_FAILED,Не удалось найти районы,1
 55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Сбросить,1
@@ -23928,19 +24100,44 @@ ID,BaseTag,TagText_lang,Flags
 55576,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_MISSING_EXPANSION,У приглашенного игрока нет дополнения Midnight.,1
 55577,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_DUPLICATE_SIGNATURE,Приглашенный игрок зарегистрирован в другом реестре района.,1
 55578,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_GENERIC,Что-то пошло не так при запросе подписи.,1
+55581,COOLDOWN_VIEWER_SETTINGS_ADD_NEW_ALERT,Новый сигнал,1
+55582,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT,Добавить сигнал (%d/%d),1
+55583,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_TOO_MANY,"Вы достигли максимального количества сигналов. Удалите один из них, чтобы создать новый.",1
+55584,COOLDOWN_VIEWER_SETTINGS_CLEAR_ALL_ALERTS,Удалить все сигналы,1
+55585,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_TITLE,Новый сигнал,1
+55586,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_TYPE,Тип,1
+55587,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_EVENT,Время,1
+55588,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_SOUND_TYPE,Звуковой сигнал,1
+55591,COOLDOWN_VIEWER_SETTINGS_ALERT_TYPE_SOUND,Звук,1
+55592,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AVAILABLE,Доступность,1
+55593,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_PANDEMIC,Завершение эффекта,1
+55594,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_ON_COOLDOWN,Начало восстановления,1
+55595,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_CHARGE_GAINED,Новый заряд,1
+55596,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING1,Звонок 1,1
+55597,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING2,Звонок 2,1
+55598,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING3,Звонок 3,1
+55599,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING4,Звонок 4,1
+55600,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_TEXT_TO_SPEECH,Текст в речь,1
+55601,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_PREVIEW,Проиграть звук,1
+55602,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_EDIT,Редактировать сигнал,1
+55603,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_DELETE,Удалить сигнал,1
+55604,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_ADD_ALERT,Добавить сигнал,1
+55605,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_EDIT_EXISTING_ALERT,Применить изменения,1
 55606,HOUSING_BULLETINBOARD_REPORT,Пожаловаться,1
 55607,HOUSING_CORNERSTONE_REPORT,Пожаловаться,1
 55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,"Произошла ошибка. Пожалуйста, повторите попытку.",1
 55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
 55613,RPE_CATCH_UP_AVAILABLE,Для догоняющих,2
+55614,HOUSING_MARKET_BUNDLE_TITLE_TEXT,Комплект,1
 55615,RPE_SELECT_EXPERIENCE,Выбор цепочки,2
 55616,CATALOG_SHOP_DETAILS,Описание,3
 55617,CATALOG_SHOP_BACK,Назад,3
 55618,CATALOG_SHOP_RACE,Раса,3
+55619,NAMEPLATE_OPTIONS_LABEL,Индикаторы здоровья,1
 55620,RPE_EXPERIENCE_SKIP_HEADER,"Продолжите с того же места, на котором остановились",2
 55621,RPE_EXPERIENCE_LOCATION,Местонахождение: %s,2
 55622,RPE_EXPERIENCE_SELECT,Выбрать,2
-55623,RPE_EXPERIENCE_SKIP_INFO,Вы можете в любой момент начать цепочку заданий для догоняющих с помощью путеводителя по приключениям,2
+55623,RPE_EXPERIENCE_SKIP_INFO,Цепочка заданий для начинающих доступна в путеводителе по приключениям,2
 55625,RPE_EXPERIENCE_PLAY_HEADER,Начните цепочку заданий для догоняющих,2
 55626,RPE_EXPERIENCE_PLAY_TOOLTIP,"Отправьтесь в путешествие по Нагорью Арати, чтобы ознакомиться с особенностями World of Warcraft и получить новое снаряжение.",2
 55627,CATALOG_SHOP_PRODUCT_OWNED,Уже есть,3
@@ -23966,7 +24163,8 @@ ID,BaseTag,TagText_lang,Flags
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Летающий транспорт,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
 55680,GAMEMENU_EXTERNALEVENT,Занятия,1
-55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Откройте эту награду.,1
+55687,SPELL_FAILED_CUSTOM_ERROR_2504,Требуются манацитовый и вантацитовый проводники.,1
+55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Открывает эту награду,1
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,"Вы не можете видеть этого игрока, поскольку он находится в другом игровом мире. Уровень мира можно изменить с помощью панели бесконечного хаоса на бесконечном базаре возле Даларана.",1
 55691,RPE_SKYRIDING_TAKE_OFF,|cnNORMAL_FONT_COLOR:Взлетайте!|r,1
 55692,RPE_SKYRIDING_FLY_HIGHER,|cnNORMAL_FONT_COLOR:Летите выше|r,1
@@ -23976,6 +24174,13 @@ ID,BaseTag,TagText_lang,Flags
 55696,RPE_SKYRIDING_COMMA,"|cnNORMAL_FONT_COLOR:,|r",1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
 55699,HOUSING_BULLETINBOARD_NEIGHBORHOOD_ROSTER,Список района,1
+55701,HUD_EDIT_MODE_DAMAGE_METER_LABEL,Счетчик урона,1
+55702,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY,Отображение,1
+55703,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_ALWAYS,Всегда показывать,1
+55704,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_IN_COMBAT,В бою,1
+55705,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_HIDDEN,Скрыть,1
+55707,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS,Союзные NPC,1
+55708,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS_TOOLTIP,NPC из вашей фракции.,1
 55709,RPE_SKYRIDING_COLLECTIONS_HELPTIP,"Откройте коллекцию отряда, чтобы просмотреть ваши средства передвижения",1
 55710,RPE_SKYRIDING_DRAG_MOUNT_HELPTIP,Щелкните по значку транспорта левой кнопкой мыши и перетащите его на панель команд.|n|nВ списке показаны только летающие средства передвижения.,1
 55713,RPE_SKYRIDING_MOUNT_UP,"|cnNORMAL_FONT_COLOR:Воспользуйтесь транспортом, щелкнув по значку способности|r",1
@@ -23983,13 +24188,26 @@ ID,BaseTag,TagText_lang,Flags
 55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Каталог,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
+55726,TRANSMOG_CUSTOM_SET_COMPLETE,Полный,1
+55727,TRANSMOG_CUSTOM_SET_INCOMPLETE,Не завершен,1
+55729,TRANSMOG_CUSTOM_SET_DRESSING_ROOM,"Просмотреть в меню ""Модели"" (выход из трансмогрификации)",1
+55730,TRANSMOG_CUSTOM_SET_RENAME,Переименовать,1
+55732,TRANSMOG_CUSTOM_SET_REPLACE,Заменить на текущую модель,1
+55733,TRANSMOG_CUSTOM_SET_DELETE,Удалить,1
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,"Чтобы купить жетон WoW, нужно войти в игру за одного из персонажей.",3
+55739,UNIT_NAMEPLATES_DEBUFF_SCALE,Размер положительных/отрицательных эффектов,1
+55740,UNIT_NAMEPLATES_DEBUFF_SCALE_TOOLTIP,Устанавливает размер эффектов на индикаторе здоровья на экране.,1
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Летающий водный транспорт,3
 55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Пустая ячейка,1
+55764,POWER_TYPE_LIGHT_ENERGY,Энергия,1
+55767,COOLDOWN_VIEWER_SETTINGS_USE_STARTER_LAYOUT,Стартовый макет,1
 55768,HOUSING_ENDEAVORS_COMING_SOON,Предприятия – скоро в игре!,1
 55771,CATALOG_SHOP_NOT_AVAILABLE,Внутриигровой магазин недоступен,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,"Пожалуйста, загляните попозже.",3
+55773,HOUSING_PREVIEW_DECOR_WARNING,"Корзина будет очищена, а размещенный декор, который вы не приобрели, будет удален. Продолжить?",1
+55779,SPELL_FAILED_CUSTOM_ERROR_2505,Сначала нужно выйти из рейдовой группы.,1
+55780,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_MAXED_LAYOUTS,"Вы достигли максимального количества макетов. Удалите один из них, чтобы создать новый.",1
 55781,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL,Тип дома,1
 55782,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL,Размер дома,1
 55783,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL,Базовый стиль,1
@@ -24000,23 +24218,94 @@ ID,BaseTag,TagText_lang,Flags
 55788,HOUSING_DYE_TOOLTIP_DESCRIPTION,Краска для дома,1
 55790,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_LABEL,Стоимость:,1
 55791,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_LABEL,Краска %d,1
+55792,COOLDOWN_VIEWER_SETTINGS_ERROR_TOO_MANY_LAYOUTS_TO_AUTO_MAKE_NEW_LAYOUT,"Вы достигли максимального количества макетов. Удалите один из них, чтобы автоматически сохранять изменения в новый макет.",1
+55793,COOLDOWN_VIEWER_SETTINGS_ERROR_INVALID_LAYOUT_NAME,Вы не можете создать макет с названием [%s]. Выберите другое.,1
 55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Маленький,1
 55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,Не получено,1
 55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Двери можно только передвигать, но не удалять",1
 55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Дополнительные возможности – уже скоро,1
 55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,Здесь вы можете ознакомиться с информацией о доме,1
 55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,С помощью этой кнопки вы можете телепортироваться в ваш дом,1
+55803,BUFF_TOOLTIP_TRANSMOG,Трансмогрифицированное оружие и доспехи.,1
+55804,COOLDOWN_VIEWER_SETTINGS_ACTION_CHANGE_CATEGORY,Нельзя изменить категорию: %s,1
+55805,COOLDOWN_VIEWER_SETTINGS_ACTION_CHANGE_ORDER_INDEX,Нельзя изменить порядок восстановления: %s,1
+55806,COOLDOWN_VIEWER_SETTINGS_ACTION_ADD_LAYOUT,Нельзя изменить порядок восстановления: %s,1
+55807,COOLDOWN_VIEWER_SETTINGS_ACTION_ADD_ALERT,Нельзя добавить сигнал восстановления: %s,1
+55808,TRANSMOG_CUSTOM_SET_CONFIRM_DELETE,"Удалить свой комплект ""%s""?",1
+55809,TRANSMOG_CUSTOM_SET_NONE,Нет своих комплектов,1
+55810,TRANSMOG_CUSTOM_SET_EDIT,Переименовать/удалить,1
+55811,TRANSMOG_CUSTOM_SET_NEW,Новый свой комплект,1
+55812,TRANSMOG_CUSTOM_SET_NAME,Введите название комплекта:,1
+55813,TRANSMOG_CUSTOM_SET_EDIT_DELETE,Удалить свой комплект,1
+55814,TRANSMOG_CUSTOM_SET_ALREADY_EXISTS,Это название уже используется для другого комплекта.,1
+55815,TRANSMOG_CUSTOM_SET_CONFIRM_OVERWRITE,"У вас уже есть комплект с названием ""%s"". Хотите его заменить?",1
+55816,LINK_TRANSMOG_CUSTOM_SET,Отправить ссылку на свой комплект,1
+55817,TRANSMOG_CUSTOM_SET_POST_IN_CHAT,Отправить в чат,1
+55818,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD,Скопировать |cffffd100(для загрузки в интернет)|r,1
+55819,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD_NOTICE,Ссылка на комплект скопирована в буфер обмена,1
+55820,LINK_TRANSMOG_CUSTOM_SET_HELPTIP,"Вы можете поделиться этим комплектом, разместив ссылку в чате или в сети",1
+55821,TRANSMOG_CUSTOM_SET_LINK_INVALID,Некорректная ссылка на комплект.,1
+55822,TRANSMOG_CUSTOM_SET_CHECKING_APPEARANCES,Поиск моделей...,1
+55823,TRANSMOG_CUSTOM_SET_ALL_INVALID_APPEARANCES,"Вы не можете сохранить этот комплект, так как ни одна из моделей предметов недоступна для трансмогрифиции вашему персонажу.",1
+55824,TRANSMOG_CUSTOM_SET_SOME_INVALID_APPEARANCES,"Для этого комплекта не будет сохранена ни одна модель, так как они недоступны для трансмогрифиции вашему персонажу.",1
+55825,TRANSMOG_CUSTOM_SET_HYPERLINK_TEXT,|T1598183:13:13:-1:0|tСвой комплект,1
 55826,HOUSING_MARKET_TAB_TUTORIAL_TEXT,"Закладка каталога позволяет просматривать предметы декора, размещая их непосредственно в доме",1
 55830,ERR_HOUSING_ACTION_UNAVAILABLE,Это действие сейчас недоступно,1
+55835,UNIT_NAMEPLATES_DEBUFF_PADDING,Отступ отрицательных эффектов,1
+55836,UNIT_NAMEPLATES_DEBUFF_PADDING_TOOLTIP,Настраивает вертикальный интервал между отрицательными эффектами и шкалой здоровья.,1
+55855,WEEKLY_REWARDS_DELVE_TIER_INFO,- Уровень %1$d (%2$d),1
+55856,WEEKLY_REWARDS_DELVE_TIER_AND_WORLD_INFO,- Уровень %1$d и задачи в открытом мире (%2$d),1
+55857,SPELL_FAILED_CUSTOM_ERROR_2506,Не хватает ключей.,1
 55858,AUCTION_CATEGORY_HOUSING,Жилье,1
 55860,RECENT_ALLY_PIN_TOOLTIP,Отмеченный союзник,1
 55861,HOUSING_DECOR_PLACEMENT_COST_FORMAT,|A:House-Decor-budget-icon:21:21|a %d,1
 55862,HOUSING_DECOR_FIRST_ACQUISITION_FORMAT,Бонус при первом получении: |cnHIGHLIGHT_FONT_COLOR:+%d опыта дома|r,1
 55863,HOUSING_DECOR_DYED_NAME_FORMAT,%s (покрашено),1
+55865,HOUSING_PREVIEW_DECOR_UNSUPPORTED_MODE,Недоступно во время предпросмотра декора.,1
+55872,RACE_INFO_HARRONIR,"Богиню Альн'ару похитили из колыбели задолго до того, как хараниры пришли и стали защищать ее земли. Веками они скрывали от всего мира само существование богини. Но когда молодую пророчицу Орвейну призвали помочь народам Азерота, скрывать нетронутый подземный мир Харандара стало невозможно. Часть молодых хараниров отправилась на великую охоту, чтобы найти Альн'ару, увидеть своими глазами ее творения и обрушить неудержимый гнев на ее врагов. ",3
+55874,RACE_INFO_HARRONIR_FEMALE,"Богиню Альн'ару похитили из колыбели задолго до того, как хараниры пришли и стали защищать ее земли. Веками они скрывали от всего мира само существование богини. Но когда молодую пророчицу Орвейну призвали помочь народам Азерота, скрывать нетронутый подземный мир Харандара стало невозможно. Часть молодых хараниров отправилась на великую охоту, чтобы найти Альн'ару, увидеть своими глазами ее творения и обрушить неудержимый гнев на ее врагов. ",3
 55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,Всего: |cnHIGHLIGHT_FONT_COLOR:%d (размещено: %d; на складе: %d)|r,1
 55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Настенный декор может меняться при смене стиля стен,1
+55886,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE,Открыть этот талант?,1
+55892,MONSTER_BOSS_WARNING,Предупреждение босса,1
+55893,ENCOUNTER_EVENT,Боевое событие,1
+55911,UNITNAME_SUMMON_TITLE60,Оболочка |3-1(%s),1
+55916,PET_FILTER_BATTLE_PETS,Боевые питомцы,1
+55917,PET_FILTER_NON_COMBAT_PETS,Миролюбивые питомцы,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Покупки обрабатываются,3
 55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Подкладка сумки,1
+55922,PET_FILTER_TYPES,Тип,1
+55923,HUD_EDIT_MODE_ENCOUNTER_EVENTS_LABEL,Предупреждения боссов,1
+55924,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION,Расположение,1
+55925,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION_HORIZONTAL,Горизонтально,1
+55926,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION_VERTICAL,Вертикально,1
+55927,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION,Выравнивание значков,1
+55928,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_LEFT,Слева,1
+55929,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_RIGHT,Справа,1
+55930,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_TOP,Сверху,1
+55931,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_BOTTOM,Снизу,1
+55932,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY,Отображение,1
+55933,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_ALWAYS,Всегда показывать,1
+55934,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_IN_ENCOUNTER,Активное предприятие,1
+55935,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_HIDDEN,Скрыть,1
+55936,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_SIZE,Размер значков,1
+55937,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_OVERALL_SIZE,Размер,1
+55938,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_BACKGROUND,Фон,1
+55939,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TRANSPARENCY,Непрозрачность,1
+55940,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_SPELL_NAME,Отображать название заклинания,1
+55941,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TOOLTIPS,Отображать описания,1
+55942,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TIMER,Отображать счетчик времени,1
+55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Этапы битвы с боссом,1
+55944,COMBAT_WARNINGS_LABEL,Предупреждения боссов,1
+55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Включить этапы битвы с боссом,1
+55946,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_TOOLTIP,"Включите, чтобы видеть важные способности босса в отдельном элементе интерфейса.",1
+55947,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS,Предупреждение босса: критическое,1
+55948,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS,Предупреждение босса: стандартное,1
+55949,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_NORMAL_WARNINGS,Предупреждение босса: незначительное,1
+55951,SPELL_DIMINISH_PVP_ENABLE_SETTING_LABEL,Отслеживание снижения эффективности,1
+55952,SPELL_DIMINISH_PVP_ENABLE_SETTING_TOOLTIP,Показывает снижение эффективности эффектов контроля на рамках портретов противников.,1
+55953,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_LABEL,Только мои способности,1
+55954,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_TOOLTIP,"Показывает снижение эффективности только для эффектов контроля, связанных с вашими заклинаниями.",1
 55955,HOUSING_LAYOUT_STAIRS_UP,Вверх,1
 55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,"Выберите, в какую сторону будет развернута новая лестничная клетка:",1
 55957,HOUSING_LAYOUT_STAIRS_DOWN,Вниз,1
@@ -24024,15 +24313,30 @@ ID,BaseTag,TagText_lang,Flags
 55963,ERR_PLACED_ROOM_LIMIT_REACHED,"Достигнут лимит комнат. Удалите комнату, если хотите добавить другую.",1
 55964,HOUSING_LAYOUT_UP_DOOR_TOOLTIP,Расширение лестничной клетки вверх,1
 55965,HOUSING_LAYOUT_DOWN_DOOR_TOOLTIP,Расширение лестничной клетки вниз,1
+55966,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS,Индикаторы здоровья союзных NPC,1
+55967,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS_TOOLTIP,Показать индикаторы здоровья союзных NPC.,1
+55977,UNIT_NAMEPLATES_STACK_ENEMY_UNITS,Противники,1
+55978,UNIT_NAMEPLATES_STACK_ENEMY_UNITS_TOOLTIP,Показывать индикаторы врагов друг над другом.,1
+55979,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS,Союзники,1
+55980,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS_TOOLTIP,Показывать индикаторы союзников друг над другом.,1
+55981,UNIT_NAMEPLATES_STACK_NONE,Нет,1
 55983,EXILESREACH_SKIP_CONFIRM,"Если вы решите пропустить остров Изгнанников, то не узнаете крайне важные подробности об игровом процессе.|n|nВы уверены?",1
+55984,HOUSING_ENDEAVORS_DISABLED,Предприятия сейчас отключены.,1
+55994,SPELL_FAILED_CUSTOM_ERROR_2508,Вы пока плохо овладели магией Скверны.,1
+55995,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_LABEL,Опыт дома,1
 55996,RPE_ASSISTED_HIGHLIGHT_TURN_OFF,Отключить,1
 55997,RPE_ASSISTED_HIGHLIGHT_KEEP_ON,Оставить включенной,1
 55998,RPE_ASSISTED_HIGHLIGHT_ACTIVATED,|cnNORMAL_FONT_COLOR:Вспомогательная подсветка включена: рекомендованные|nспособности будут подсвечиваться на панелях команд|r,1
 55999,RPE_ASSISTED_HIGHLIGHT_TURN_CHOICE,"Оставить вспомогательную подсветку?|n|n|cnNORMAL_FONT_COLOR:При прохождении контента для догоняющих была включена вспомогательная подсветка. Эта функция подсказывает, какую способность на ваших панелях команд рекомендуется использовать следующей.|n|nПродолжить использовать подсветку?|r Вы можете в любой момент включить или отключить ее в настройках.",1
+56001,ERR_TRANSMOG_OUTFIT_SLOT_CANNOT_AFFORD,У вас недостаточно средств.,1
+56028,HOUSING_DASHBOARD_TRACK_ENDEAVOR_LABEL,Отслеживать,1
+56029,HOUSING_DASHBOARD_UNTRACK_ENDEAVOR_LABEL,Не отслеживать,1
+56036,SPELL_FAILED_CUSTOM_ERROR_1108,Требуется грибная колотушка,1
 56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Панель жилья,1
 56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Каталог декора,1
 56044,HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP,Информация о доме,1
 56053,ERR_CHARTER_SYSTEM_REQUEST_FAILED_GENERIC,В системе реестров обнаружена ошибка. Попробуйте позднее.,1
+56056,HOUSING_MARKET_ADD_TO_CART,В корзину,1
 56057,HOUSING_DECOR_DYE_NOT_ENOUGH_DYE,У вас нет необходимой краски,1
 56058,HOUSING_HOUSE_XP_ADDED_FORMAT,+%d к опыту дома,1
 56059,HOUSING_CATALOG_FILTERS_FIRST_ACQUISITION,Бонус коллекции,1
@@ -24040,11 +24344,27 @@ ID,BaseTag,TagText_lang,Flags
 56061,HOUSING_CATALOG_FILTERS_COLLECTED,Получено,1
 56062,HOUSING_DECOR_BUNDLE_DISCLAIMER,Этот предмет также входит как минимум в один набор,1
 56063,HOUSING_DECOR_PRICE_FORMAT,Цена: %s,1
+56064,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BUFFBAR_WIDTH_SCALE,Ширина панели,1
 56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s | %s,1
+56068,TRANSMOG_SET_COMPLETE,Полный,1
+56069,TRANSMOG_SET_INCOMPLETE,Не завершен,1
 56072,RPE_SPELL_INTERRUPT,"|cnNORMAL_FONT_COLOR:Заклинания с индикаторами, на которых отображается щит, нельзя прервать|r",1
+56076,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_NOT_AVAILABLE,|cnRED_FONT_COLOR:Эта функция пока недоступна.|r,1
+56077,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_LABEL,Включить текстовые предупреждения,1
+56078,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:Эта функция пока недоступна.|r,1
+56079,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_TOOLTIP,Включает отображение оповещений о способностях боссов в центре экрана.,1
+56080,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_LABEL,"Скрывать, если цель не вы",1
+56081,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_TOOLTIP,"Скрывает предупреждения о способностях боссов, если они нацелены не в вас.",1
+56087,PROFESSIONS_PATRON_ORDERS_TAB_TOOLTIP_NAME,Заказы личных клиентов: %s,1
 56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,Размещению мешают другие объекты,1
 56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,"Нажмите %s, чтобы отменить эффект столкновения",1
 56092,HOUSING_PLACEMENT_OUTSIDE_PLOT_ERROR_TITLE,Нельзя разместить за пределами участка,1
+56094,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_ANIMALS,Животные,1
+56095,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_DEVICES,Устройства,1
+56096,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_INSTRUMENTS,Инструменты,1
+56097,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_IMPACTS,Удары,1
+56098,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_WAR2,Warcraft 2,1
+56099,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_WAR3,Warcraft 3,1
 56104,NPE_TAB_TARGETING,|cnNORMAL_FONT_COLOR:Выбрать целью|r ближайшего противника,1
 56106,HOUSING_NEIGHBORHOOD_SETTINGS_COST,Цена: 1,1
 56107,CHAR_DELETE_FAILED_NEIGHBORHOOD_OWNER,"Этот персонаж – владелец района. Прежде чем удалить его, необходимо передать права на владение районом другому персонажу.",2
@@ -24059,9 +24379,16 @@ ID,BaseTag,TagText_lang,Flags
 56121,NEIGHBORHOOD_NAME_FORMAT,"%3$s ""%1$s %2$s""",1
 56152,HOUSING_CHEST_SORT_TYPE_DATE_ADDED,По дате добавления,1
 56153,HOUSING_CHEST_SORT_TYPE_ALPHABETICAL,По алфавиту,1
+56159,REAGENT_TOOLTIP_ALLOCATION_REQUIREMENT,Требуется: %2$s (%1$d),1
+56160,TRANSMOG_SET_GRANTS_PRECEDING_VARIANTS,"Собрав полный комплект, вы откроете все его предыдущие варианты.",1
 56163,HOUSING_CATALOG_MODEL_PREVIEW_UNAVAILABLE,Просмотр недоступен,1
+56177,ENABLE_DAMAGE_METER,Вкл. счетчик урона,1
+56178,ENABLE_DAMAGE_METER_TOOLTIP,"Включите, чтобы видеть боевые показатели вашего персонажа и участников группы.",1
+56179,DAMAGE_METER_LABEL,Счетчик урона,1
+56180,REAGENT_COST_CONSUME_ITEMS_RANGE,%s (%d-%d),1
 56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,"В этом доме уже максимальное количество посетителей. Чтобы вы смогли его посетить, как минимум один игрок сначала должен выйти.",1
 56183,RPE_NO_INTERRUPT_ACTION,Добавьте прерывающую способность из книги заклинаний на панель,1
+56187,PROFESSIONS_TRACKER_REAGENT_RANGE_FORMAT,(%d-%d),1
 56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,Во внешней стене дома должна быть ровно одна дверь,1
 56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,В ячейке элемента уже пусто,1
 56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,Здесь уже стоит элемент,1
@@ -24073,8 +24400,25 @@ ID,BaseTag,TagText_lang,Flags
 56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Слишком далеко,1
 56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,Надо перейти в режим наружной отделки,1
 56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,Этот декор нельзя удалить из домашнего сундука,1
+56207,TIERED_ENTRANCE_ILVL_SUGGESTION,Рекомендуется для искателей приключений с уровнем снаряжения %d.,1
+56208,TIERED_ENTRANCE_LOCKED_DEFAULT_TOOLTIP_DELVE,Требуется пройти вылазку %d-го уровня хотя бы с одной оставшейся жизнью.,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,Перенос персонажа недоступен для этого игрового мира,2
 56210,CHAR_DELETE_FAILED_HOUSE_OWNER,"Нельзя удалить персонажа, у которого есть дом",2
+56216,SPELL_DIMINISH_SECTION_HEADER_LABEL,Снижение эффективности,1
+56218,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE,Стиль,1
+56219,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_DEFAULT,По умолчанию,1
+56220,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_THIN,Тонкий,1
+56221,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS,Числа,1
+56222,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_MINIMAL,Минимальные,1
+56223,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_COMPACT,Компактные,1
+56224,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_COMPLETE,Полные,1
+56225,HUD_EDIT_MODE_SETTING_DAMAGE_METER_FRAME_WIDTH,Ширина рамки,1
+56226,HUD_EDIT_MODE_SETTING_DAMAGE_METER_FRAME_HEIGHT,Высота рамки,1
+56227,HUD_EDIT_MODE_SETTING_DAMAGE_METER_PADDING,Отступ,1
+56228,HUD_EDIT_MODE_SETTING_DAMAGE_METER_TRANSPARENCY,Непрозрачность,1
+56229,HUD_EDIT_MODE_SETTING_DAMAGE_METER_LOCK_SCROLL,Блок прокрутки,1
+56230,HUD_EDIT_MODE_SETTING_DAMAGE_METER_SHOW_SPEC_ICON,Отображать значок характеристик,1
+56231,HUD_EDIT_MODE_SETTING_DAMAGE_METER_SHOW_CLASS_COLOR,Отображать цвета классов,1
 56232,BINDING_NAME_HOUSING_BASICDECOR_ROTATELEFT,Вращать декор влево,1
 56233,BINDING_NAME_HOUSING_BASICDECOR_ROTATERIGHT,Вращать декор вправо,1
 56234,HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION,Вращение вправо,1
@@ -24090,6 +24434,9 @@ ID,BaseTag,TagText_lang,Flags
 56257,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_FLOOR,Изменить пол,1
 56258,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_STAIRS,Изменить лестницу,1
 56259,HOUSING_LAYOUT_PREFAB_ROOM_TOOLTIP,Творческая комната,1
+56260,SPELL_FAILED_CUSTOM_ERROR_2510,На вас должен быть запасной костюм мурлока.,1
+56266,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_FRAME_LABEL,Рамка внешних защитных эффектов,1
+56267,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_LABEL,Внешние защитные эффекты,1
 56268,HOUSING_SUBDIVISION_FORMAT,Секция %d,1
 56269,HOUSING_HOUSEFINDER_WRONG_FACTION,Персонаж вашей фракции не может купить дом в этом районе,1
 56270,HOUSING_HOUSEFINDER_CHARTER_INVITE,Вас пригласили в реестр района,1
@@ -24097,6 +24444,23 @@ ID,BaseTag,TagText_lang,Flags
 56273,HOUSING_HOUSEFINDER_CANCEL_INVITATION,Отказаться от приглашения в этот район?,1
 56274,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CONFIRM,Отказаться,1
 56275,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CANCEL,Отмена,1
+56279,COMBAT_WARNINGS_ENABLE_LABEL,Включить предупреждения боссов,1
+56280,COMBAT_WARNINGS_ENABLE_TOOLTIP,"Позволяет отображать элементы интерфейса, связанные с предупреждениями боссов.",1
+56281,COMBAT_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:Эта функция пока недоступна.|r,1
+56283,HUD_EDIT_MODE_SETTING_AURA_FRAME_OPACITY,Непрозрачность,1
+56284,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING,Отображение,1
+56285,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_ALWAYS,Всегда показывать,1
+56286,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_IN_COMBAT,В бою,1
+56287,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_HIDDEN,Скрыть,1
+56288,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_LABEL,Только критическая важность,1
+56289,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_SELECTION,Критические,1
+56290,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_TOOLTIP,Отображать только критические текстовые предупреждения.,1
+56291,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_LABEL,Средняя важность,1
+56292,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_SELECTION,Критические или средние,1
+56293,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_TOOLTIP,Отображать только критические или средние текстовые предупреждения.,1
+56294,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_LABEL,Все предупреждения,1
+56295,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_SELECTION,Все предупреждения,1
+56296,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_TOOLTIP,Отображать все текстовые предупреждения.,1
 56306,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE,Настройки дома недоступны,1
 56307,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE_FMT,Настройки дома недоступны: %s,1
 56311,ERR_HOUSING_RESULT_CHARTER_COMPLETE,Реестр уже заполнен,1
@@ -24129,8 +24493,8 @@ ID,BaseTag,TagText_lang,Flags
 56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,"Размещенный декор: %d/%d |cnNORMAL_FONT_COLOR:|nПовысьте уровень дома, чтобы увеличить лимит.|r",1
 56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Размещенный декор: %d/%d,1
 56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,"|cnGREEN_FONT_COLOR:Нажмите, чтобы выбрать или убрать краску|r",1
-56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Применяет выбранный стиль ко всей комнате.,1
-56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Применяет выбранный материал ко всем стенам в комнате.,1
+56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Применяет стиль ко всем стенам в текущей комнате.,1
+56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Применяет материал ко всем стенам в текущей комнате.,1
 56346,HOUSING_LAYOUT_NUM_ROOMS_ERROR_TOOLTIP," |cnNORMAL_FONT_COLOR:|nЛимит размещения комнат: %d/%d|nПовысьте уровень дома, чтобы увеличить количество доступных комнат.|r",1
 56347,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_ABOVE,Сверху уже есть комната,1
 56348,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_BELOW,Снизу уже есть комната,1
@@ -24145,9 +24509,21 @@ ID,BaseTag,TagText_lang,Flags
 56357,BINDING_NAME_HOUSING_LAYOUTFLOOR_UP,Подняться на этаж,1
 56358,BINDING_NAME_HOUSING_LAYOUTFLOOR_DOWN,Спуститься на этаж,1
 56359,HOUSING_CONTROLS_SETTINGS_TOOLTIP,Параметры и права доступа,1
+56360,RACE_CLASS_UNLOCK_TEXT,Чтобы открыть этот класс для выбранной расы:,3
+56365,TRANSMOG_ARTIFACT_OPTIONS_HEADER,Замена артефакта Легиона,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- В данный момент недоступно путешественникам во времени.,3
+56578,ACCESSIBILITY_AUDIO_LABEL,Дополнительная аудиоинформация,1
+56580,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_LABEL,Скрывать способности с большим временем восстановления,1
+56581,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_TOOLTIP,"Отображать обратный отсчет, только если в нем остается несколько секунд.",1
 56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,Режим предварительного просмотра в каталоге в данный момент недоступен.,1
+56583,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_PLAY_SAMPLE,Тест,1
+56584,ENABLE_COMBAT_WARNINGS_SOUNDS,Звуковые предупреждения босса,1
+56585,ENABLE_COMBAT_WARNINGS_SOUNDS_TOOLTIP,"Включить/отключить звуки, связанные с предупреждениями боссов.",1
+56586,COMBAT_WARNINGS_SOUND_VOLUME,Громкость предупреждений босса,1
+56587,COMBAT_WARNINGS_SOUND_VOLUME_TOOLTIP,Настройка громкости предупреждений босса.,1
+56588,COMBAT_WARNINGS_SETTINGS,Параметры предупреждений босса,1
 56589,BINDING_NAME_HOUSING_REMOVEDECOR,Убрать декор,1
+56590,SPELL_FAILED_CUSTOM_ERROR_2511,"Чтобы использовать здесь эту способность, требуется достижение ""Первопроходец Midnight"".",1
 56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Багрянец,1
 56598,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_GREEN,Лесной,1
 56599,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PURPLE,Фиолетовый,1
@@ -24155,28 +24531,597 @@ ID,BaseTag,TagText_lang,Flags
 56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Океан,1
 56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Горчичный,1
 56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Мускатный орех,1
+56626,UNIT_NAMEPLATES_SHOW_CAST_BARS,Индикаторы заклинаний при индикаторе здоровья,1
+56627,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_CAST_BARS,Включить отображение индикаторов применения заклинаний рядом с индикаторами здоровья.,1
 56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,"Стоимость размещения декора |cnNORMAL_FONT_COLOR:|nУказывает, какая часть бюджета декора будет затрачена на размещение выбранного предмета|r",1
+56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,Ваш выбор повлияет на всех персонажей в отряде.|n|n|cffffd200Продолжить?|r,1
+56643,HOUSING_PLACEMENT_PREVIEW_LIMIT_REACHED,"Достигнут лимит предпросмотра. Чтобы добавить больше декора, удалите один или несколько размещенных предметов.",1
 56644,ERROR_SCRIPT_EXECUTION_HALT,Отправка отчетов об ошибках прервана и возобновится после перезагрузки интерфейса.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Алгоритм от источника ""%s"" превысил время на исполнение.",3
 56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
 56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,Размещено: %d; на складе: %d,1
+56660,TRANSMOG_OUTFITS_HELPTIP,"Создавайте комплекты снаряжения, заменяющие внешний вид используемого оружия и доспехов.\n\nДобавляйте эти комплекты на панель управления, чтобы выбирать их вручную или настроить автоматическую смену наряда в определенных ситуациях.",1
+56662,TRANSMOG_SETS_HELPTIP,Создавайте наряды из собранных эффектов внешнего вида.,1
+56663,TRANSMOG_CUSTOM_SETS_HELPTIP,"Создавайте наряды с нуля благодаря функции ""Свой комплект"".",1
+56665,TRANSMOG_SITUATIONS_HELPTIP,Настройте автоматический выбор нужного комплекта в определенных ситуациях.,1
+56666,TRANSMOG_WEAPON_OPTIONS_HELPTIP,Вы можете назначить разные эффекты внешнего вида для разных типов используемого оружия.,1
+56669,CHAT_TTS_LABEL,Текст в речь в чате,1
+56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Звуковые сигналы в бою,1
+56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Включить звуковые сигналы в бою,1
+56673,CAA_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Combat Audio Alerts Tooltip,1
+56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,Включает звуковые оповещения в бою. Эту функцию можно включить или отключить командой чата /ttscombat.,1
+56675,CAA_SAY_PLAYER_HEALTH_LABEL,Озвучивать уровень своего здоровья,1
+56676,EVERY_X_PERCENT,Каждые %d%%,1
+56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,"Озвучивать ваш уровень здоровья, когда он достигает определенного процента",1
+56678,CAA_SAY_TARGET_HEALTH_LABEL,Озвучивать уровень здоровья цели,1
+56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,"Озвучивать уровень здоровья цели, когда он достигает определенного процента",1
 56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:Новая награда: бонус за первое получение|r,1
+56689,UNIT_NAMEPLATES_STYLE_MODERN,Современный,1
+56690,SPELL_FAILED_CUSTOM_ERROR_2512,Эта бульбожаба вас не признает.,1
+56691,HOUSING_MARKET_BUNDLE_PREVIEW_DETAILS,При размещении предметов декора в режиме предпросмотра этот комплект будет добавлен в корзину.,1
+56695,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_NO_VALID,Данный элемент не поддерживает предупреждения,1
+56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Высота панели,1
+56702,TRANSMOG_HELP_1,"Сначала выберите |cnBRIGHTBLUE_FONT_COLOR:комплект снаряжения|r, который хотите составить.\n\nДополнительные комплекты можно приобрести за золото.",1
+56703,TRANSMOG_HELP_2,"Назначьте эффект внешнего вида для каждой ячейки снаряжения, чтобы заменить вид предметов в этих ячейках.\n\nНазначение и изменение эффектов внешнего вида расходует золото, но переключаться на сохраненный комплект можно бесплатно и в любое время.",1
+56704,TRANSMOG_HELP_3,"Выберите эффекты внешнего вида или комплекты доспехов, чтобы собрать свой комплект.\n\nС помощью вкладки |cnBRIGHTBLUE_FONT_COLOR:""Ситуации""|r вы можете установить определенные условия для смены комплектов снаряжения.",1
+56707,SPELL_FAILED_CUSTOM_ERROR_2513,"Чтобы открыть этот сундук, требуется трофей охотника за сокровищами.",1
+56708,DAMAGE_METER_TYPE_DAMAGE_DONE,Урона нанесено,1
+56709,DAMAGE_METER_TYPE_DPS,Бойцы,1
+56710,DAMAGE_METER_TYPE_HEALING_DONE,Объем исцеления,1
+56711,DAMAGE_METER_TYPE_HPS,Ед. здоровья в сек.,1
+56712,DAMAGE_METER_CATEGORY_DAMAGE,Урон,1
+56713,DAMAGE_METER_CATEGORY_HEALING,Исцеление,1
+56714,DAMAGE_METER_OPEN_SETTINGS,Параметры,1
+56715,DAMAGE_METER_OPEN_EDIT_MODE,Редактировать,1
+56716,DAMAGE_METER_HIDE_WINDOW,Удалить окно,1
+56717,DAMAGE_METER_SHOW_NEW_WINDOW,Создать новое окно,1
+56719,DAMAGE_METER_CURRENT_SESSION,Текущий сегмент,1
+56720,DAMAGE_METER_OVERALL_SESSION,Общий,1
+56721,TEXT_TO_SPEECH_SHORT,ТВР,1
+56722,CAA_SAY_HEALTH_FORMAT_FULL,Процент здоровья: %d,1
+56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Здоровье: %d,1
+56724,CAA_SAY_HEALTH_FORMAT_NO_HEALTH,Процент: %d,1
+56725,CAA_SAY_PLAYER_HEALTH_FORMAT_LABEL,Формат,1
+56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,Выбор формулировки для озвучивания вашего уровня здоровья (на примере 20%),1
+56730,CAA_SAY_HEALTH_FORMAT_NUM_ONLY,%d,1
+56731,CAA_SAY_TARGET_HEALTH_FORMAT_FULL,Процент здоровья цели: %d,1
+56732,CAA_SAY_TARGET_HEALTH_FORMAT_NO_PERCENT,Цель: %d,1
 56733,HOUSEFINDER_AVAILABLE,Свободно,1
 56734,HOUSEFINDER_FRIEND,Друг,1
+56735,HUD_EDIT_MODE_SETTING_DAMAGE_METER_TEXT_SIZE,Размер текста,1
 56736,HOUSING_ADVANCED_MODE_TUTORIAL_TEXT,"В расширенном режиме можно точнее настраивать внешний вид, перемещая, вращая и меняя размер декора",1
 56737,HOUSING_CLEANUP_MODE_TUTORIAL_TEXT,Режим очистки быстро убирает несколько предметов декора,1
 56738,HOUSING_MODES_TUTORIAL_TEXT,Несколько разных режимов редактирования помогут обставить дом как захочется!,1
 56739,HOUSING_LAYOUT_MODE_STAIRS_TUTORIAL_TEXT,"Комната с лестницей добавит больше этажей, между которыми можно перемещаться здесь!",1
+56740,DAMAGE_METER_CURRENT_SESSION_SHORT,Т,1
+56741,DAMAGE_METER_OVERALL_SESSION_SHORT,О,1
+56742,COOLDOWN_VIEWER_SETTINGS_COPY_TO_CLIPBOARD_NOTICE,"Макет трекера восстановления ""%s"" скопирован в буфер обмена.",1
 56743,CATALOG_SHOP_DYNAMIC_BUNDLE_DISCOUNT,"Со скидкой на предметы, которые у вас уже есть.",3
 56744,BINDING_NAME_HOUSING_EXPERTDECORROTATION_NEXTAXIS,Переключить на следующую ось вращения,1
 56745,ERR_GUILD_NEIGHBORHOOD_BUILT_HOUSE_S,%s заканчивает строить дом!,1
 56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s покидает район.,1
 56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,Район вашей гильдии получает новое подразделение!,1
 56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,"Название района вашей гильдии сменяется на ""%s",1
+56749,SPELL_FAILED_CUSTOM_ERROR_2514,Ваша цель уже ослаблена сущностью падали.,1
 56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Итого: %s,3
+56755,CAA_SPEAKER_VOICE_LABEL,Голос для сигналов в бою,1
+56756,CAA_SPEAKER_VOICE_TOOLTIP,Выбор основного голоса для звуковых оповещений в бою,1
+56757,CAA_SPEAKER_SPEED_LABEL,Скорость сигналов в бою,1
+56758,CAA_SPEAKER_SPEED_TOOLTIP,Определяет скорость озвучивания оповещений в бою,1
+56759,CAA_SPEAKER_VOLUME_LABEL,Громкость сигналов в бою,1
+56760,CAA_SPEAKER_VOLUME_TOOLTIP,Выбор основной громкости звуковых оповещений в бою,1
+56761,CAA_SAMPLE_TEXT,Образец текста,1
+56762,CAA_SAY_PLAYER_HEALTH_THROTTLE_LABEL,Интервал,1
+56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,"Ограничивает частоту озвучивания уровня здоровья, чтобы уменьшить количество шума",1
+56764,CAA_SAY_TARGET_HEALTH_THROTTLE_LABEL,Интервал,1
+56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,"Ограничивает частоту озвучивания уровня здоровья цели, чтобы уменьшить количество шума",1
+56766,SECONDS_FLOAT_ABBR,%.1f сек.,1
+56767,DAMAGE_METER_RESET_ALL_SESSIONS,Сбросить данные,1
+56768,GROUP_FINDER_PLAYSTYLE_REQUIRED,Выбрать стиль игры (необходимо),1
+56769,GROUP_FINDER_GENERAL_PLAYSTYLE1,Обучение,1
+56770,GROUP_FINDER_GENERAL_PLAYSTYLE2,Непринужденный,1
+56771,GROUP_FINDER_GENERAL_PLAYSTYLE3,Серьезный,1
+56772,GROUP_FINDER_GENERAL_PLAYSTYLE4,Проведем слабых игроков,1
+56781,CAA_SEARCH_TAG_SHORT,ЗСБ,1
+56782,ERR_HOUSING_RESULT_EXTERIOR_TYPE_NEIGHBORHOOD_MISMATCH,Данный вид наружной отделки не разрешен в текущем районе,1
 56783,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_TOOLTIP,"|n|cff20ff20Можно получать, завершая предприятия и связанные с ними задачи, а также когда вы приобретаете или находите новые предметы декора необычного или более высокого качества|r",1
+56784,COOLDOWN_VIEWER_SETTINGS_RENAME_OR_COPY_LAYOUT,Переименовать/скопировать макет,1
+56785,COOLDOWN_VIEWER_SETTINGS_DELETE_LAYOUT_DIALOG_TITLE,"Вы точно хотите удалить макет|n""%s""?",1
+56787,COOLDOWN_VIEWER_SETTINGS_RENAME_LAYOUT_DIALOG_TITLE,"Введите новое название для макета ""%s""",1
+56788,COOLDOWN_VIEWER_SETTINGS_ERROR_ENTER_NAME,Введите название макета.,1
+56789,COOLDOWN_VIEWER_SETTINGS_NAME_LAYOUT_DIALOG_TITLE,Название нового макета,1
+56790,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_LAYOUTS,У вас может быть не более %d макетов персонажа и %d макетов учетной записи,1
+56791,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_CHAR_LAYOUTS,У вас может быть не более %d макетов персонажа. Удалите один из таких макетов или уберите галочку и сохраните макет для всей учетной записи.,1
+56792,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_ACCOUNT_LAYOUTS,"У вас может быть не более %d макетов, общих для всей учетной записи. Удалите один из таких макетов или поставьте галочку, чтобы сохранить макет для текущего персонажа.",1
+56793,COOLDOWN_VIEWER_SETTINGS_ERROR_ENTER_IMPORT_STRING_AND_NAME,Введите допустимый код импорта и название макета,1
+56794,COOLDOWN_VIEWER_SETTINGS_CHARACTER_LAYOUTS_HEADER,"Шаблон персонажа ""%s""",1
+56795,COOLDOWN_VIEWER_SETTINGS_COPY_LAYOUT,Скопировать макет,1
+56796,COOLDOWN_VIEWER_SETTINGS_RENAME_LAYOUT,Сменить название,1
+56797,COOLDOWN_VIEWER_SETTINGS_DELETE_LAYOUT,Удалить макет,1
+56798,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT,Импорт,1
+56799,COOLDOWN_VIEWER_SETTINGS_COPY_TO_CLIPBOARD,Скопировать |cffffd100(для загрузки в интернет)|r,1
+56800,HOUSING_DECOR_CUSTOMIZATION_CEILING_WARNING,Потолочный декор может меняться при смене стиля и типа потолка.,1
+56801,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_DIALOG_TITLE,Импорт макета,1
+56802,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_DIALOG_EDIT_BOX_LABEL,Импорт текста:,1
+56803,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_LINK_DIALOG_EDIT_BOX_LABEL,Новое название макета:,1
+56804,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_INSTRUCTIONS,Вставьте код макета сюда,1
+56807,ENABLE_EXTERNAL_DEFENSIVES_VIEWER,Отслеживать внешние защитные эффекты,1
+56808,ENABLE_EXTERNAL_DEFENSIVES_TOOLTIP,Отображает важные защитные эффекты в виде отдельных элементов интерфейса.,1
+56809,DAMAGE_METER_CATEGORY_ACTIONS,Действия,1
+56810,DAMAGE_METER_TYPE_INTERRUPTS,Прерывание,1
+56811,DAMAGE_METER_TYPE_DISPELS,Рассеивание,1
+56812,EXTERNAL_DEFENSIVES_LABEL,Внешние защитные эффекты,1
+56813,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_DISABLED_TOOLTIP,"Чтобы настроить внешние защитные эффекты, выберите соответствующий параметр в меню ""Игровой процесс"" > ""Улучшения процесса""",1
+56815,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_SWITCH_TO_LAYOUT,Невозможно активировать макет,1
+56816,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_SWITCH_TO_LAYOUT_TOOLTIP_LINE,"Макет ""%s"" предназначен для: %s",1
+56820,TRANSMOG_OUTFIT_INVALID_NAME,Данное название недоступно. Выберите другое и попробуйте снова.,1
 56823,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_DETAILS,"Некоторый декор (например, предметы из магазина) не занимает место для хранения",1
+56824,CUSTOM_SET_INVALID_NAME,Данное название недоступно. Выберите другое и попробуйте снова.,1
+56828,GROUP_FINDER_FILTER_PLAYSTYLE,Стиль игры,1
+56838,HOUSING_CATALOG_CART_WARNING,Удалить все предметы из корзины?,1
+56839,ERR_PVP_TRAINING_GROUNDS_DISABLED,Тренировочная площадка сейчас отключена.,1
+56840,ERR_LFG_JOINED_TRAINING_GROUNDS_QUEUE,Вы встали в очередь на тренировочную площадку.,1
+56841,ERR_SOLO_JOIN_TRAINING_GROUND,Вы встали в очередь (%s).,1
+56851,CAA_SAY_TARGET_NAME_LABEL,Озвучивать имя цели,1
+56853,CAA_SAY_TARGET_NAME_TOOLTIP,"Озвучивать имя цели, когда вы ее выбираете",1
+56854,CAA_SAY_COMBAT_START_LABEL,Озвучивать начало боя,1
+56855,CAA_SAY_COMBAT_START_TOOLTIP,"Выбор фразы или звука, обозначающего начало боя",1
+56856,CAA_SAY_COMBAT_END_LABEL,Озвучивать конец боя,1
+56857,CAA_SAY_COMBAT_END_TOOLTIP,"Выбор фразы или звука, обозначающего завершение боя",1
+56858,CAA_SAY_COMBAT_START_TEXT,"Реплика: ""Начало боя""",1
+56859,CAA_SAY_COMBAT_END_TEXT,"Реплика: ""Конец боя""",1
+56860,CAA_WHEN_TARGET_DIES_LABEL,Когда цель умирает,1
+56861,CAA_WHEN_TARGET_DIES_TOOLTIP,"Выбор фразы или звука, отмечающего смерть цели",1
+56862,CAA_WHEN_TARGET_DIES_USE_FORMAT,Использовать формат здоровья цели,1
+56864,CAA_WHEN_TARGET_DIES_VOICE_TARGET_DEAD,"Реплика: ""Цель мертва""",1
+56866,CAA_TARGET_DEAD,Цель мертва,1
+56867,CAA_COMBAT_START_TEXT,Начало боя,1
+56873,CAA_COMBAT_END_TEXT,Конец боя,1
+56875,ERR_CHARTER_NEIGHBORHOOD_RENAME,Успех!,1
+56876,DAMAGE_METER_SOURCE_NAME,%d. %s,1
+56878,TRANSMOG_HIDE_UNASSIGNED_SLOTS,Скрыть пропущенные ячейки,1
 56881,REPORTING_REPORT_SCREENSHOT_BUTTON,Сделать скриншот,1
-56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
-56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
-56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1
+56882,DAMAGE_METER_TYPE_DAMAGE_TAKEN,Полученный урон,1
+56883,DAMAGE_METER_TYPE_AVOIDABLE_DAMAGE_TAKEN,Полученный предотвратимый урон,1
+56884,DAMAGE_METER_EDIT_MODE_SOURCE_1,Артас,1
+56885,DAMAGE_METER_EDIT_MODE_SOURCE_2,Джайна,1
+56886,DAMAGE_METER_EDIT_MODE_SOURCE_3,Гул'дан,1
+56887,DAMAGE_METER_EDIT_MODE_SOURCE_4,Тралл,1
+56888,DAMAGE_METER_EDIT_MODE_SOURCE_5,Утер,1
+56889,DAMAGE_METER_EDIT_MODE_SOURCE_6,Иллидан,1
+56890,DAMAGE_METER_EDIT_MODE_SOURCE_7,Сильвана,1
+56891,HOUSING_BUNDLE_CLICK_TO_PLACE_DECOR,"Щелкните или перетащите, чтобы посмотреть в доме",1
+56892,DAMAGE_METER_SPELL_ENTRY_CREATURE,%s (%s),1
+56893,SPELL_FAILED_CUSTOM_ERROR_2515,Игроки вашего класса не могут использовать этот предмет!,1
+56894,HOUSING_BUNDLE_BUNDLE_ITEM_PLACED,Вы разместили весь декор этого типа из выбранного комплекта.,1
+56898,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION,Шаблон,1
+56899,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_LEGACY,Классика,1
+56900,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_TOP,Для положительных эффектов,1
+56901,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_RIGHT,Для отрицательных эффектов,1
+56902,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CONTAINER_OPACITY,Непрозрачность,1
+56903,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ICON_SIZE,Размер значков,1
+56905,DAMAGE_METER_TYPE_ABSORBS,Щиты,1
+56906,12_0_Z4_FEED_THE_VOID_MINIGAME_SCORE,Счет,1
+56907,12_0_Z4_FEED_THE_VOID_MINIGAME_LIVES,Жизни,1
+56908,12_0_Z4_FEED_THE_VOID_GAME_OVER,Игра окончена,1
+56909,ERR_HOUSING_RESULT_EXTERIOR_ALREADY_TYPE,Данный вид наружной отделки уже выбран,1
+56910,ERR_HOUSING_RESULT_EXTERIOR_ALREADY_SIZE,Данный размер наружной отделки уже выбран,1
+56911,HOUSING_VC_QUANTITY,Количество домостали: %d,3
+56921,COMBAT_WARNINGS_EVENT_STATUS_PAUSED,|cnENCOUNTER_TIMELINE_PAUSED_TEXT_COLOR:[Пауза]|r,1
+56922,COMBAT_WARNINGS_EVENT_STATUS_QUEUED,|cnENCOUNTER_TIMELINE_QUEUED_TEXT_COLOR:[В очереди]|r,1
+56923,COMBAT_WARNINGS_EVENT_STATUS_BLOCKED,|cnENCOUNTER_TIMELINE_BLOCKED_TEXT_COLOR:[Недоступно]|r,1
+56924,DAMAGE_METER_SPELL_ENTRY_UNIT,%1$s: %2$s,1
+56929,CAA_SAY_PLAYER_CASTS_LABEL,Озвучивать ваши способности,1
+56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,"Озвучивать, когда вы применяете способность",1
+56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Формат,1
+56932,CAA_SAY_PLAYER_CASTS_FORMAT_TOOLTIP,Выбор формулировки для озвучивания ваших способностей,1
+56933,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_LABEL,Минимальное время применения,1
+56934,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_TOOLTIP,"Минимальное время применения способностей, которые отмечаются голосовым сообщением. Выберите 0, чтобы озвучивать даже мгновенные способности.",1
+56935,CAA_SAY_PLAYER_CASTS_THROTTLE_LABEL,Интервал,1
+56936,CAA_SAY_PLAYER_CASTS_THROTTLE_TOOLTIP,"Ограничивает частоту озвучивания способностей, чтобы уменьшить количество шума",1
+56937,CAA_SAY_TARGET_CASTS_LABEL,Озвучивать способности цели,1
+56938,CAA_SAY_TARGET_CASTS_TOOLTIP,"Озвучивать, когда цель применяет способность",1
+56939,CAA_SAY_TARGET_CASTS_FORMAT_LABEL,Формат,1
+56940,CAA_SAY_TARGET_CASTS_FORMAT_TOOLTIP,Выбор формулировки для озвучивания способностей цели,1
+56941,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_LABEL,Минимальное время применения,1
+56942,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_TOOLTIP,"Минимальное время применения способностей, которые отмечаются голосовым сообщением. Выберите 0, чтобы озвучивать даже мгновенные способности.",1
+56943,CAA_SAY_TARGET_CASTS_THROTTLE_LABEL,Интервал,1
+56944,CAA_SAY_TARGET_CASTS_THROTTLE_TOOLTIP,"Ограничивает частоту озвучивания способностей цели, чтобы уменьшить количество шума",1
+56945,CAA_SAY_TARGET_CASTS_INTERRUPT_LABEL,Предупреждение о прерываемой способности,1
+56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,"Объявляет о том, что цель начинает применять способность, которую вы можете прервать",1
+56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Предупреждение об успешном прерывании,1
+56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,"Объявляет о том, что способность цели успешно прервана вами или кем-то еще",1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Голос: ""Прерываемая способность",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Голос: ""Способность цели прервана",1
+56960,CAA_SAY_CASTS_FORMAT_FULL,Применение: %s,1
+56961,CAA_SAY_CASTS_FORMAT_SHORT,Применено: %s,1
+56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Применение способности,1
+56963,CAA_SAY_CASTS_FORMAT_SHORT_NO_SPELLNAME,Способность,1
+56965,CAA_SAY_CASTS_FORMAT_SPELLNAME_ONLY,%s,1
+56966,CAA_SAY_TARGET_CASTS_FORMAT_FULL,Цель применяет: %s,1
+56967,CAA_SAY_TARGET_CASTS_FORMAT_SHORT,Цель применила: %s,1
+56968,CAA_SAY_TARGET_CASTS_FORMAT_NO_SPELLNAME,Цель применяет,1
+56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Цель применила,1
+56970,CAA_SAY_CASTS_START_OF_CAST,Начало применения,1
+56971,CAA_SAY_CASTS_END_OF_CAST,Конец применения,1
+56973,PARTY_MEMBER_OUT_OF_RANGE,Вне зоны действия.,1
+56974,TOOLTIP_TALENT_RANK_CAPSTONE,%d-й уровень,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Фиксированный угол поворота,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Фиксированное масштабирование,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Следующая ось,1
+56978,HUD_EDIT_MODE_ENCOUNTER_EVENTS_DISABLED_TOOLTIP,"Порядок применения способностей босса и предупреждения. Боевые предупреждения сейчас отключены. Вы можете включить их в меню ""Улучшения игрового процесса"" > ""Боевые предупреждения"".",1
+56981,DEBUFF_SYMBOL_BLEED,Кр,1
+56982,HUD_EDIT_MODE_DAMAGE_METER_DISABLED_TOOLTIP,"Счетчик урона сейчас отключен. Чтобы включить его, откройте главное меню и выберите ""Параметры"" > ""Улучшения игрового процесса"" > ""Счетчик урона"".",1
+56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Отображать облака чата для чата группы.,1
+56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Отображать облака чата для чата рейда.,1
+56987,DAMAGE_METER_LOCK_WINDOW,Зафиксировать окно,1
+56988,DAMAGE_METER_UNLOCK_WINDOW,Разблокировать окно,1
+56989,HOUSING_DECOR_DYE_REFUND_CONFIRMATION_TEXT,После окраски вы не сможете вернуть средства за предмет декора. Продолжить?,1
+56990,HOUSING_DECOR_REFUND_TIME_REMAINING,Время на возврат: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+56991,HOUSING_DECOR_STORAGE_ITEM_REFUND,Вернуть,1
+56994,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_LABEL,Скрывать завершенный обратный отсчет,1
+56995,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_TOOLTIP,Скрывать завершенный обратный отсчет до применения способностей. Способности с завершенным обратным отсчетом будут применены при первой возможности.,1
+56996,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_LABEL,Скрывать обратный отсчет для других ролей,1
+56997,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_TOOLTIP,"Отображать обратный отсчет, только если он важен для вашей текущей роли.",1
+56998,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_LABEL,Вспомогательные значки заклинаний,1
+56999,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_TOOLTIP,"Настройка отображения вспомогательных значков в обратном отсчете, таких как индикаторы роли и эффекты, которые вы можете снять.",1
+57000,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_TANK_ALERT_LABEL,Предупреждения для танков,1
+57001,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_HEALER_ALERT_LABEL,Предупреждения для лекарей,1
+57002,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DAMAGE_ALERT_LABEL,Предупреждения для бойцов,1
+57003,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DISPEL_LABEL,Можно снять,1
+57004,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ENRAGE_LABEL,Исступление,1
+57005,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DEADLY_LABEL,Смертельные,1
+57006,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ALL,Все значки,1
+57007,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_NONE,Отключено,1
+57008,BONUS_OBJECTIVE_HOUSING_FAVOR_FORMAT,|A:housing-dashboard-estatexp-icon:18:18:0:0|a %1$d %2$s,1
+57009,UNIT_NAMEPLATES_STYLE_HEALTH_FOCUS,Четкий индикатор здоровья,1
+57010,CAA_SAMPLE_SPELLNAME,Огненный шар,1
+57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Формат,1
+57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,Выбор формулировки для озвучивания уровня здоровья вашей цели (на примере 20%),1
+57044,SLASH_TRANSMOG_CUSTOM_SET2,/свойкомплект,1
+57045,SLASH_TRANSMOG_CUSTOM_SET3,/свойкомплект,1
+57046,HOUSING_DECOR_UNIQUE_TROPHY_TOOLTIP,Уникальный трофей,1
+57047,ERR_HOUSING_EXTERIOR_FAILSAFE_RESET,Не хватает фундамента или крыши. Возвращаем стандартную конструкцию дома,1
+57048,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,Крупные отрицательные эффекты роли,1
+57049,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,"Отображать отрицательные эффекты, связанные с вашей ролью, чуть крупнее остальных",1
+57051,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_DESC,После покупки декор вместо размещения отправляется в домашний сундук,1
+57052,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_INSTRUCTIONS,"Щелкните или перетащите, чтобы разместить",1
+57054,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BACKGROUND,Фон,1
+57055,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_BORDERED,С кромкой,1
+57056,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_FULL_BACKGROUND,Только фон,1
+57057,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,Индикатор рассеиваемых отрицательных эффектов,1
+57058,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,"Настраивает то, как отображаются значки рассеивания. Это отдельный параметр, не влияющий на отображение отрицательных эффектов в целом.",1
+57059,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,Отключено,1
+57060,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,Нет индикаторов рассеивания,1
+57061,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Я могу рассеять,1
+57062,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,"Показывать индикаторы только для эффектов, которые можете рассеять вы",1
+57063,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Показать все,1
+57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,"Показывать индикаторы для всех рассеиваемых эффектов, даже если вы не можете этого сделать",1
+57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Цвет рассеиваемых отрицательных эффектов,1
+57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,"Подсвечивать рамку, если участник группы получил рассеиваемый отрицательный эффект.",1
+57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Приобрести все предметы за %s,1
+57069,UNIT_NAMEPLATES_SEARCH_TAG,Индикаторы здоровья,1
+57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Преображенный титанами мир,3
+57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Цвет индикатора здоровья,1
+57078,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR_TOOLTIP,Индикатор здоровья будет менять цвет в зависимости от уровня угрозы.,1
+57084,RAID_CHAT_BUBBLES_TEXT,Сообщения рейда,1
+57088,CAA_INTERRUPTIBLE_CAST_TEXT,Прерываемая способность,1
+57089,CAA_INTERRUPTED_CAST_TEXT,Способность цели прервана,1
+57091,HOUSING_MARKET_PURCHASE_FAILURE,Ошибка при покупке. Повторите попытку позже.,1
+57092,HOUSING_MARKET_PURCHASE_SLOW_DESC,Покупка занимает слишком много времени. Повторите попытку позже.,1
+57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Добавить модель для создания своего комплекта,1
+57094,HOUSING_ENDEAVORS_MIN_LEVEL,Предприятия открываются на %d-м уровне,5
+57098,SPELL_FAILED_CUSTOM_ERROR_2516,Максимальное количество куриц.,1
+57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,"Урон, которого можно было избежать, отслеживается только для подземелий текущего сезона",1
+57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Для создания гильдейского района требуется как минимум 10 уникальных учетных записей Battle.net в составе гильдии.,1
+57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Для создания гильдейского района требуется как минимум 10 активных учетных записей Battle.net в составе гильдии.,1
+57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%d / %d,1
+57122,ENDEAVOR_FAVOR,Прогресс предприятия,1
+57124,TRANSMOG_PENDING_CHANGES,Вы не сохранили изменения наряда. После выхода все несохраненные изменения будут удалены.,1
+57125,BONUS_FAVOR_NOT_IN_NEIGHBORHOOD_PARTY,"Завершайте предприятия быстрее, выполняя задачи в группе района.",1
+57126,BONUS_FAVOR_IN_NEIGHBORHOOD_PARTY,"Вы в группе района. Выполняя задачи, вы добиваетесь большего прогресса для завершения предприятий.",1
+57127,SPELL_INTERRUPTED_BY,Прервано: %s,1
+57128,DAMAGE_METER_COMBAT_NUMBER,Бой %d,1
+57129,COMPACT_UNIT_FRAME_PROFILE_SHOW_BIG_DEFENSIVES,Важные защитные эффекты по центру,1
+57130,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_SHOW_BIG_DEFENSIVES,Отображать важные защитные эффекты крупным значком в центре рамки,1
+57131,HOUSING_MARKET_HEARTHSTEEL_TOOLTIP,Домосталь,1
+57132,HOUSING_MARKET_CART_EMPTY_TOOLTIP,Корзина пуста. Добавьте предметы из каталога для предпросмотра.,1
+57141,CAA_SAY_PLAYER_RESOURCE_LABEL,Озвучивать ресурс: %s,1
+57142,CAA_SAY_PLAYER_RESOURCE_TOOLTIP,"Озвучивать ресурс ""%s"", когда он достигает определенного процента. Сохраняется отдельно для каждой специализации талантов.",1
+57144,CAA_SAY_PLAYER_RESOURCE_FORMAT_LABEL,Формат,1
+57148,CAA_SAY_PLAYER_RESOURCE_FORMAT_TOOLTIP,"Выбор формулировки для озвучивания вашего уровня ресурса ""%s"" (на примере 20%%). Сохраняется отдельно для каждой специализации талантов.",1
+57149,CAA_SAY_PLAYER_RESOURCE_THROTTLE_LABEL,Интервал,1
+57150,CAA_SAY_PLAYER_RESOURCE_THROTTLE_TOOLTIP,"Ограничивает частоту озвучивания уровня ресурса ""%s"", чтобы уменьшить количество шума",1
+57151,CAA_SAY_RESOURCE_FORMAT_FULL,Процент (%s): %d,1
+57152,CAA_SAY_RESOURCE_FORMAT_NO_PERCENT,%s: %d,1
+57153,CAA_SAY_RESOURCE_FORMAT_NO_RESOURCE,Процент: %d,1
+57154,CAA_SAY_RESOURCE_FORMAT_NUM_ONLY,%d,1
+57156,HOUSING_MARKET_HEARTHSTEEL_TOOLTIP_DESC,Домосталь можно обменивать на предметы декора в режиме декорирования или в магазине.,1
+57202,HUD_EDIT_MODE_SETTING_AURA_FRAME_SHOW_DISPEL_TYPE,Отображать снимаемые эффекты,1
+57212,HOUSING_BUNDLE_IN_CART,Этот набор уже находится в вашей корзине,1
+57219,ERR_TRANSMOG_PURCHASE_FAILURE,Ошибка при покупке. Повторите попытку позже.,1
+57237,ERR_CHARTER_SIGNATURE_REMOVED,%s убирает свою подпись из вашего реестра района.,1
+57238,ERR_HOUSING_DECOR_REPORT_PLOT_OUT_OF_RANGE,Участок слишком далеко!,1
+57239,ERR_HOUSING_DECOR_REPORT_BAD_FACING,Указанный участок не в поле зрения!,1
+57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION_S,"Название реестрового района сменяется на ""%s""",1
+57242,HOUSING_ENDEAVOR_REPEATABLE_TASK,|A:UI-RefreshButton:18:18:0:0|a Повторяемая задача,1
+57243,HOUSING_MAX_PLAYERS_IN_HOUSE_TO_OWNER,"В вашем доме уже максимальное количество посетителей. Чтобы его смогли посетить новые гости, как минимум один игрок сначала должен выйти.",1
+57246,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PLUM,Сливовый,1
+57247,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_EMERALD,Изумрудный,1
+57248,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLACK,Угольный,1
+57249,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_OCHRE,Охряный,1
+57250,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_SAPPHIRE,Сапфировый,1
+57252,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_COPY_DEFAULT_LAYOUT,Невозможно скопировать макет,1
+57253,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_COPY_DEFAULT_LAYOUT_LINE,Макеты по умолчанию нельзя скопировать.,1
+57263,ERR_HOUSING_ACTION_NOENTRY,Этот дом закрыт для посетителей.,1
+57283,ERR_HOUSING_RESULT_UNCOLLECTED_HOUSE_TYPE,Вы еще не открыли этот стиль дома,1
+57285,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM,Вы еще не открыли эту комнату,1
+57286,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM_MATERIAL,Вы еще не открыли этот материал,1
+57287,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM_THEME,Вы еще не открыли этот стиль,1
+57289,HOUSING_MARKET_VIEW_IN_SHOP,В магазин,1
+57290,HOUSING_DECOR_REFUND_RIGHT_CLICK_INSTRUCTION,"Щелкните ПКМ, чтобы вернуть",1
+57291,HOUSING_BUNDLE_CLICK_TO_VIEW_IN_SHOP,Щелкните для просмотра в магазине,1
+57294,ERR_HOUSING_RESULT_EXTERIOR_TYPE_NOT_FOUND,Тип дома не найден,1
+57295,SPELL_FAILED_CUSTOM_ERROR_2517,Вы не лидер группы.,1
+57296,SPELL_FAILED_TRANSMOG_OUTFIT_ALREADY_KNOWN,В вашей коллекции уже есть такой комплект для трансмогрификации,1
+57297,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_LOCKED_TOOLTIP,"Повысьте уровень дома, чтобы открыть новые размеры",1
+57298,ERR_HOUSING_RESULT_LOCKED_BY_COMBAT,"Вы не можете этого делать, пока участвуете в бою",1
+57301,ERR_HOUSING_RESULT_EXTERIOR_SIZE_UNAVAILABLE,Уровень дома недостаточно высок для этого размера,1
+57302,ERR_HOUSING_RESULT_EXTERIOR_TYPE_SIZE_MISMATCH,Данный тип дома не поддерживает этот размер,1
+57303,ERR_HOUSING_RESULT_NO_NEIGHBORHOOD_OWNERSHIP_REQUESTS,Активных заявок на передачу владения районом не обнаружено,1
+57304,ERR_HOUSING_RESULT_PLAYER_NOT_FOUND,Игрок не найден,1
+57305,ERR_HOUSING_RESULT_STATIC_DATA_NOT_FOUND,Не удалось найти данные,1
+57307,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_MEDIUM,Средний,1
+57308,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_LARGE,Большой,1
+57309,HOUSING_DASHBOARD_INITIATIVE_NO_ACTIVITY,Пока пусто,1
+57310,CAA_SAY_PARTY_HEALTH_LABEL,Озвучивать уровень здоровья группы,1
+57311,CAA_SAY_PARTY_HEALTH_TOOLTIP,"Называет номера участников группы, которых надо исцелить. Вы под номером 1, остальные участники – под номерами 2-5 по порядку. Чем ниже уровень здоровья игрока, тем чаще звучат сообщения.",1
+57312,CAA_SAY_PARTY_HEALTH_FREQUENCY_LABEL,Частота,1
+57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Устанавливает частоту сообщений об уровне здоровья группы,1
+57314,UNDER_X_PERCENT,Ниже %d%%,1
+57315,HOUSING_EXTERIOR_CUSTOMIZATION_TYPE_SIZES_LOCKED_TOOLTIP,Слишком низкий уровень дома для размера этого типа,1
+57318,CDMSND_ANIMALS_CAT,Кошка,1
+57319,CDMSND_ANIMALS_CHICKEN,Курица,1
+57320,CDMSND_ANIMALS_COW,Корова,1
+57321,CDMSND_ANIMALS_GNOLL,Гнолл,1
+57322,CDMSND_ANIMALS_GOAT,Коза,1
+57323,CDMSND_ANIMALS_LION,Лев,1
+57324,CDMSND_ANIMALS_PANTHER,Пантера,1
+57325,CDMSND_ANIMALS_RATTLESNAKE,Гремучая змея,1
+57326,CDMSND_ANIMALS_SHEEP,Овца,1
+57327,CDMSND_ANIMALS_WOLF,Волк,1
+57328,CDMSND_DEVICES_BOAT_HORN,Гудок парохода,1
+57329,CDMSND_DEVICES_AIR_HORN,Сирена,1
+57330,CDMSND_DEVICES_BIKE_HORN,Велосипедный клаксон,1
+57331,CDMSND_DEVICES_CASH_REGISTER,Касса,1
+57332,CDMSND_DEVICES_JACKPOT_BELL,Джекпот,1
+57333,CDMSND_DEVICES_JACKPOT_COINS,Звон монет,1
+57334,CDMSND_DEVICES_JACKPOT_FAIL,Проигрыш в казино,1
+57335,CDMSND_DEVICES_ROTARY_PHONE_DIAL,Набор номера,1
+57336,CDMSND_DEVICES_ROTARY_PHONE_RING,Звонок телефона,1
+57337,CDMSND_DEVICES_STOVE_PIPE,Печная труба,1
+57338,CDMSND_DEVICES_TRASHCAN_LID,Крышка мусорного ведра,1
+57339,CDMSND_IMPACTS_ANVIL_STRIKE,Удар по наковальне,1
+57340,CDMSND_IMPACTS_BUBBLE_SMASH,Пузырьки,1
+57341,CDMSND_IMPACTS_LOW_THUD,Глухой удар,1
+57342,CDMSND_IMPACTS_METAL_CLANKS,Звон металла,1
+57343,CDMSND_IMPACTS_METAL_RATTLE,Звяканье металла,1
+57344,CDMSND_IMPACTS_METAL_SCRAPE,Скрежет металла,1
+57345,CDMSND_IMPACTS_METAL_WARBLE,Лист металла,1
+57346,CDMSND_IMPACTS_POP_CLICK,Щелк,1
+57347,CDMSND_IMPACTS_STRANGE_CLANG,Странный звон,1
+57348,CDMSND_IMPACTS_SWORD_SCRAPE,Лязг меча,1
+57349,CDMSND_INSTRUMENTS_BELL_RING,Колокольчик,1
+57350,CDMSND_INSTRUMENTS_BELL_TRILL,Перезвон,1
+57351,CDMSND_INSTRUMENTS_BRASS,Труба,1
+57352,CDMSND_INSTRUMENTS_CHIME_ASCENDING,Восходящая мелодия,1
+57353,CDMSND_INSTRUMENTS_GUITAR_CHUG,Гитарный перебор,1
+57354,CDMSND_INSTRUMENTS_GUITAR_PINCH,Гитарная струна,1
+57355,CDMSND_INSTRUMENTS_PITCH_PIPE_DISTRESSED,Диссонансный гудок,1
+57356,CDMSND_INSTRUMENTS_PITCH_PIPE_NOTE,Монотонный гудок,1
+57357,CDMSND_INSTRUMENTS_SYNTH_BIG,Электронный гул,1
+57358,CDMSND_INSTRUMENTS_SYNTH_BUZZ,Электронный гудок,1
+57359,CDMSND_INSTRUMENTS_SYNTH_HIGH,Электронный свист,1
+57360,CDMSND_INSTRUMENTS_WARHORN,Боевой рог,1
+57361,CDMSND_WAR2_ABSTRACT_WHOOSH,Абстрактный шорох,1
+57362,CDMSND_WAR2_CHOIR,Хор,1
+57363,CDMSND_WAR2_CONSTRUCTION,Постройка,1
+57364,CDMSND_WAR2_MAGIC_CHIMES,Магические колокольчики,1
+57365,CDMSND_WAR2_PIG_SQUEAL,Визг свиньи,1
+57366,CDMSND_WAR2_SAWS,Пилы,1
+57367,CDMSND_WAR2_SEAL,Тюлень,1
+57368,CDMSND_WAR2_SLOW,Замедление,1
+57369,CDMSND_WAR2_SMITH,Кузнец,1
+57370,CDMSND_WAR2_SYNTH_STINGER,Электронное жало,1
+57371,CDMSND_WAR2_TRUMPET_RALLY,Сигнал к бою,1
+57372,CDMSND_WAR2_ZIPPY_MAGIC,Магическая молния,1
+57373,CDMSND_WAR3_BELL,Колокол,1
+57374,CDMSND_WAR3_CRUNCHY_BELL,Скрипучий колокол,1
+57375,CDMSND_WAR3_DRUM_SPLASH,Барабанные тарелки,1
+57376,CDMSND_WAR3_ERROR,Ошибка,1
+57377,CDMSND_WAR3_FANFARE,Фанфары,1
+57378,CDMSND_WAR3_GATE_OPEN,Врата,1
+57379,CDMSND_WAR3_GOLD,Золото,1
+57380,CDMSND_WAR3_MAGIC_SHIMMER,Магические переливы,1
+57381,CDMSND_WAR3_RINGOUT,Волна,1
+57382,CDMSND_WAR3_ROOSTER,Петух,1
+57383,CDMSND_WAR3_SHIMMER_BELL,Трель,1
+57384,CDMSND_WAR3_WOLF_HOWL,Волчий вой,1
+57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,Об индикаторах здоровья,1
+57447,CAA_SAY_IF_TARGETED_LABEL,"Озвучивать, когда вас выбирают целью",1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,Для индикаторов здоровья есть |cnTUTORIAL_BLUE_FONT_COLOR:шесть вариантов внешнего вида|r. У них можно |cnTUTORIAL_BLUE_FONT_COLOR:менять размер|r.,1
+57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,"|cnTUTORIAL_BLUE_FONT_COLOR:Нападение врага|r отмечается отдельным графическим эффектом, который |cnTUTORIAL_BLUE_FONT_COLOR:постепенно прогрессирует|r.",1
+57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,Отрицательные и положительные эффекты отображаются |cnTUTORIAL_BLUE_FONT_COLOR:по желанию|r. Их размер тоже можно менять.,1
+57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,"Индикаторы врагов можно настроить так, чтобы они |cnTUTORIAL_BLUE_FONT_COLOR:отличались|r от индикаторов союзников.",1
+57452,CAA_SAY_IF_TARGETED_TOOLTIP,"Выбор фразы или звука, обозначающего, что в вас целится враг. Сохраняется отдельно для каждой специализации талантов.",1
+57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Голос: ""Нападение",1
+57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Голос: ""Вы стали целью",1
+57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Голос: ""Нападение: кобольд",1
+57462,CAA_AGGRO_TEXT,Нападение,1
+57463,CAA_YOURE_TARGETED_TEXT,Вы стали целью,1
+57464,CAA_TARGETED_BY_TEXT,Нападение: %s,1
+57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
+57466,ONLINE_SAFETY_NOTICE,"Ведите себя разумно, не разглашайте личную информацию и отправляйте жалобы на оскорбления. Подробнее о правилах поведения в игре можно прочитать по ссылке: |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h.",1
+57470,HOUSING_MARKET_PURCHASE_PARTIAL_SUCCESS,Ошибка при покупке некоторых предметов из корзины. Попробуйте позже.,1
+57478,CATALOG_SHOP_REFUND,Вернуть,3
+57479,CATALOG_SHOP_REFUND_TIME_LEFT,Время на возврат недавних предметов: %s,3
+57483,CATALOG_SHOP_TOPUPFLOW_CURRENT_BALANCE,Текущие средства: %s,3
+57486,TALENT_BUTTON_TOOLTIP_CAPSTONE_TRACK_TITLE_FORMAT,%s (%d/%d),1
+57489,ERR_HOUSING_RESULT_COSMETIC_OWNER_NOT_IN_GUILD,Хозяин этого дома не состоит в вашей гильдии,1
+57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Пример – Игрок-союзник,1
+57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Пример – NPC-союзник,1
+57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Пример – Враждебный игрок,1
+57494,UNIT_NAMEPLATES_PREVIEW_ENEMY_NPC,Пример – Враждебный NPC,1
+57496,SLASH_CAA1,/тврбой,1
+57498,COMBAT_AUDIO_ALERTS,Звуковые сигналы в бою,1
+57500,CAA_COMMAND_SYNTAX_ERROR,"Неправильная команда звуковых сигналов в бою. Введите ""/тврбой помощь"", чтобы вывести список команд.",1
+57503,SLASH_CAA_HELP,помощь,1
+57504,SLASH_CAA_HELP_HELP,Отобразить меню с полным списком команд,1
+57505,SLASH_CAA_VOICE,голос,1
+57506,SLASH_CAA_HELP_VOICE,[%d: %d] – Выбор основного голоса для звуковых оповещений в бою,1
+57507,SLASH_CAA_VOICE_CHANGED_CONFIRMATION,Выбран голос для звуковых сигналов в бою: %s,1
+57508,CAA_HELP_OVERVIEW,"Команда звуковых сигналов в бою: |nВведите /тврбой, чтобы включить звуковые сигналы в бою, или введите /тврбой + одну из команд ниже, чтобы выбрать вариант:",1
+57511,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP,"%s – включено. Введите ""/тврбой помощь"" для просмотра вариантов.",1
+57512,SLASH_CAA_CONFIRMATION_ENABLED,%s – включено,1
+57513,SLASH_CAA_CONFIRMATION_DISABLED,%s – выключено,1
+57514,CAA_HELP_OVERVIEW_NARRATED,"Команда звуковых сигналов в бою: |nВведите /<spell>твр</spell>бой, чтобы включить звуковые сигналы в бою, или введите ""/<spell>твр</spell>бой + одну из команд ниже, чтобы выбрать вариант:",1
+57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"%s – включено. Введите ""/<spell>твр</spell>бой помощь"" для просмотра вариантов.",1
+57537,SLASH_CAA_SPEED,скорость,1
+57538,SLASH_CAA_HELP_SPEED,[%s: %d] – определяет скорость озвучивания подсказок в бою,1
+57541,SLASH_CAA_CONFIRMATION,%s: %s,1
+57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Неправильная команда звуковых сигналов в бою. Введите ""/<spell>твр</spell>бой помощь"", чтобы вывести список команд.",1
+57543,SLASH_CAA_VOLUME,громкость,1
+57544,SLASH_CAA_HELP_VOLUME,[%d: %d] – выбор основной громкости звуковых подсказок в бою,1
+57545,SLASH_CAA_SAY_TARGET_NAME,оглашатьимяцели,1
+57547,SLASH_CAA_HELP_SAY_TARGET_NAME,"Озвучивать имя цели, когда вы ее выбираете",1
+57548,SLASH_CAA_SAY_COMBAT_START,оглашатьначалобоя,1
+57549,SLASH_CAA_HELP_SAY_COMBAT_START,"Выбор фразы или звука, обозначающего начало боя",1
+57550,SLASH_CAA_SAY_COMBAT_END,оглашатьконецбоя,1
+57551,SLASH_CAA_HELP_SAY_COMBAT_END,"Выбор фразы или звука, обозначающего завершение боя",1
+57552,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT,предупреждатьопрерывании,1
+57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,"Объявляет о том, что цель начинает применять способность, которую вы можете прервать",1
+57554,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,успешноепрерывание,1
+57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,"Объявляет о том, что применение целью способности было прервано",1
+57556,SLASH_CAA_SAY_YOUR_HEALTH,оглашатьвашездоровье,1
+57557,SLASH_CAA_HELP_SAY_YOUR_HEALTH,"[%d: %d] – Озвучивать ваш уровень здоровья, когда он достигает определенного процента",1
+57558,SLASH_CAA_HELP_SUBOPTION_INVALID,"Введите предыдущую команду, а также номер варианта:",1
+57560,SLASH_CAA_HELP_SUBOPTION_FORMAT,%d: %s,1
+57561,CDMVIS_MARCHING_ANTS,Марш муравьев,1
+57562,CDMVIS_MARCHING_ANTS_CYAN,Марш муравьев (бирюзовый),1
+57563,CDMVIS_MARCHING_ANTS_RED,Марш муравьев (красный),1
+57564,CDMVIS_MARCHING_ANTS_GREEN,Марш муравьев (зеленый),1
+57565,CDMVIS_MARCHING_ANTS_BLUE,Марш муравьев (синий),1
+57566,CDMVIS_FLASH,Вспышка,1
+57567,CDMVIS_FLASH_CYAN,Вспышка (бирюзовая),1
+57568,CDMVIS_FLASH_RED,Вспышка (красная),1
+57569,CDMVIS_FLASH_GREEN,Вспышка (зеленая),1
+57570,CDMVIS_FLASH_BLUE,Вспышка (синяя),1
+57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<секрет>|r %s,1
+57577,EVENTTRACE_SHOW_SECRET_VALUES,Отображать секретные значения,1
+57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,озвучивать начало боя,1
+57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,озвучивать конец боя,1
+57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,озвучивать имя цели,1
+57588,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_NARRATED,предупреждать о прерывании,1
+57589,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_NARRATED,успешное прерывание,1
+57590,SLASH_CAA_SAY_YOUR_HEALTH_NARRATED,озвучивать уровень своего здоровья,1
+57597,CAA_SAY_PLAYER_HEALTH_FORMAT,Формат озвучивания своего здоровья,1
+57599,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT,форматозвучкивашегоздоровья,1
+57600,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT_NARRATED,формат озвучивания своего здоровья,1
+57604,SLASH_CAA_HELP_SAY_YOUR_HEALTH_FORMAT,[%d: %d] – Выбор формата для озвучивания уровня здоровья,1
+57605,HOUSING_MARKET_CART_FULL_ERROR,"Максимальное количество товаров в корзине. Чтобы добавить больше декора, сначала купите выбранный.",1
+57606,HOUSING_MARKET_PREVIEW_LIMIT_ERROR,Достигнут лимит предпросмотра. Удалите один или несколько предметов.,1
+57614,JOURNEYS_FRAME_TUTORIAL,"Загляните в путеводитель по приключениям, чтобы узнать об известности, вылазках и пути охотника.",1
+57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,интервалозвучиваниясвоегоздоровья,1
+57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,интервал озвучивания своего здоровья,1
+57617,SLASH_CAA_HELP_SAY_YOUR_HEALTH_THROTTLE,[%d: %d] – Выбор интервала в секундах при озвучивании уровня здоровья,1
+57618,CAA_SAY_PLAYER_HEALTH_THROTTLE,Интервал озвучивания своего здоровья,1
+57621,SECONDS_FLOAT,%.1f сек.,1
+57622,SLASH_CAA_SAY_TARGET_HEALTH,оглашатьздоровьецели,1
+57623,SLASH_CAA_HELP_SAY_TARGET_HEALTH,"[%d: %d] – Озвучивать уровень здоровья цели, когда он достигает определенного процента",1
+57624,SLASH_CAA_SAY_TARGET_HEALTH_NARRATED,озвучивать уровень здоровья цели,1
+57625,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT,форматозвучиванияздоровьяцели,1
+57626,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT_NARRATED,формат озвучивания здоровья цели,1
+57627,SLASH_CAA_HELP_SAY_TARGET_HEALTH_FORMAT,[%d: %d] – Выбор формата для озвучивания уровня здоровья цели,1
+57628,CAA_SAY_TARGET_HEALTH_FORMAT,Формат озвучивания здоровья цели,1
+57629,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE,интервалозвучиванияздоровьяцели,1
+57630,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE_NARRATED,интервал озвучивания здоровья цели,1
+57631,SLASH_CAA_HELP_SAY_TARGET_HEALTH_THROTTLE,[%d: %d] – Выбор интервала в секундах при озвучивании уровня здоровья цели,1
+57632,CAA_SAY_TARGET_HEALTH_THROTTLE,Интервал озвучивания здоровья цели,1
+57633,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ROOM,Декор за пределами,1
+57634,ERR_HOUSING_RESULT_BOUNDS_FAILURE_PLOT,За пределами участка,1
+57635,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ATTACHMENT,Присоединенный объект за пределами участка,1
+57638,SLASH_CAA_SAY_IF_TARGETED,озвучиватьпривыборецелью,1
+57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,"озвучивать, когда вас выбирают целью",1
+57640,SLASH_CAA_HELP_SAY_IF_TARGETED,"[%d: %d] – Выбор фразы или звука, обозначающего, что в вас целится враг",1
+57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,"Приобрести %d ед. домостали? Чтобы купить все товары в корзине, необходимо больше валюты.",1
+57647,SLASH_CAA_SAY_PARTY_HEALTH,озвучиватьздоровьегруппы,1
+57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,озвучивать здоровье группы,1
+57649,SLASH_CAA_HELP_SAY_PARTY_HEALTH,"[%d: %d] – называет номера участников группы, которых надо исцелить",1
+57650,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY,частотаозвучиванияздоровьягруппы,1
+57651,SLASH_CAA_HELP_SAY_PARTY_HEALTH_FREQUENCY,[%s: %d] – устанавливает частоту сообщений об уровне здоровья группы,1
+57652,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY_NARRATED,частота озвучивания здоровья группы,1
+57653,CAA_SAY_PARTY_HEALTH_FREQUENCY,Частота озвучивания здоровья группы,1
+57654,SLASH_CAA_SAY_YOUR_CASTS,озвучиватьвашиспособности,1
+57655,SLASH_CAA_SAY_YOUR_CASTS_NARRATED,озвучивать ваши способности,1
+57656,SLASH_CAA_HELP_SAY_YOUR_CASTS,"[%d: %d] – выбор фразы, озвучиваемой, когда вы применяете способность",1
+57657,SLASH_CAA_SAY_YOUR_CASTS_FORMAT,форматозвучиваниявашихспособностей,1
+57658,SLASH_CAA_SAY_YOUR_CASTS_FORMAT_NARRATED,формат озвучивания ваших способностей,1
+57659,SLASH_CAA_HELP_SAY_YOUR_CASTS_FORMAT,[%d: %d] – выбор формулировки для озвучивания ваших способностей,1
+57660,CAA_SAY_YOUR_CASTS_FORMAT,Формат озвучивания ваших способностей,1
+57662,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,минимумозвучиваниявашихспособностей,1
+57663,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME_NARRATED,минимум озвучивания ваших способностей,1
+57664,SLASH_CAA_HELP_SAY_YOUR_CASTS_MIN_CAST_TIME,"[%d: %d] – минимальное время применения ваших способностей, которые отмечаются голосовым сообщением",1
+57665,CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,Озвучивать минимальное время применения ваших способностей,1
+57666,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE,интервалозвучиваниявашихспособностей,1
+57667,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE_NARRATED,интервал озвучивания ваших способностей,1
+57668,SLASH_CAA_HELP_SAY_YOUR_CASTS_THROTTLE,[%d: %d] – выбор интервала в секундах при озвучивании ваших способностей,1
+57669,CAA_SAY_YOUR_CASTS_THROTTLE,Интервал озвучивания ваших способностей,1
+57670,SLASH_CAA_SAY_TARGET_CASTS,озвучиватьспособностицели,1
+57671,SLASH_CAA_SAY_TARGET_CASTS_NARRATED,озвучивать способности цели,1
+57673,SLASH_CAA_HELP_SAY_TARGET_CASTS,"[%d: %d] – выбор фразы, озвучиваемой, когда цель применяет способность",1
+57674,CAA_SAY_TARGET_CASTS_FORMAT,Формат озвучивания способностей цели,1
+57675,SLASH_CAA_SAY_TARGET_CASTS_FORMAT,форматозвучиванияспособностейцели,1
+57676,SLASH_CAA_SAY_TARGET_CASTS_FORMAT_NARRATED,формат озвучивания способностей цели,1
+57677,SLASH_CAA_HELP_SAY_TARGET_CASTS_FORMAT,[%d: %d] – выбор формулировки для озвучивания способностей цели,1
+57678,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,минимумозвучиванияспособностейцели,1
+57679,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_NARRATED,минимум озвучивания способностей цели,1
+57680,SLASH_CAA_HELP_SAY_TARGET_CASTS_MIN_CAST_TIME,"[%d: %d] – минимальное время применения способностей цели, которые отмечаются голосовым сообщением",1
+57681,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,Озвучивать минимальное время применения способностей целей,1
+57682,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE,интервалозвучиванияспособностейцели,1
+57683,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE_NARRATED,интервал озвучивания способностей цели,1
+57684,SLASH_CAA_HELP_SAY_TARGET_CASTS_THROTTLE,[%d: %d] – выбор интервала в секундах при озвучивании способностей целей,1
+57685,CAA_SAY_TARGET_CASTS_THROTTLE,Интервал озвучивания способностей цели,1
+57686,SLASH_CAA_SAY_RESOURCE_1,озвучиватьресурс1,1
+57687,SLASH_CAA_SAY_RESOURCE_1_NARRATED,озвучивать ресурс 1,1
+57688,SLASH_CAA_HELP_SAY_RESOURCE_1,"[%d: %d] – озвучивать количество первого боевого ресурса, когда оно достигает определенных значений",1
+57691,CAA_SAY_RESOURCE_1,Озвучивать ресурс 1,1
+57692,SLASH_CAA_SAY_RESOURCE_1_FORMAT,форматозвучиванияресурса1,1
+57693,SLASH_CAA_SAY_RESOURCE_1_FORMAT_NARRATED,формат озвучивания ресурса 1,1
+57694,SLASH_CAA_HELP_SAY_RESOURCE_1_FORMAT,[%d: %d] – выбор формата для озвучивания первого боевого ресурса,1
+57695,CAA_SAY_RESOURCE_1_FORMAT,Формат озвучивания ресурса 1,1
+57696,SLASH_CAA_SAY_RESOURCE_1_THROTTLE,интервалозвучиванияресурса1,1
+57697,SLASH_CAA_SAY_RESOURCE_1_THROTTLE_NARRATED,интервал озвучивания ресурса 1,1
+57698,SLASH_CAA_HELP_SAY_RESOURCE_1_THROTTLE,[%d: %d] – выбор интервала в секундах при озвучивании первого боевого ресурса,1
+57699,CAA_SAY_RESOURCE_1_THROTTLE,Интервал озвучивания ресурса 1,1
+57700,SLASH_CAA_SAY_RESOURCE_2,озвучиватьресурс2,1
+57701,CAA_SAMPLE_RESOURCENAME,Сила атаки,1
+57702,SLASH_CAA_SAY_RESOURCE_2_NARRATED,озвучивать ресурс 2,1
+57703,SLASH_CAA_HELP_SAY_RESOURCE_2,"[%d: %d] – озвучивать количество второго боевого ресурса, когда оно достигает определенных значений",1
+57704,CAA_SAY_RESOURCE_2,Озвучивать ресурс 2,1
+57705,SLASH_CAA_SAY_RESOURCE_2_FORMAT,форматозвучиванияресурса2,1
+57706,SLASH_CAA_SAY_RESOURCE_2_FORMAT_NARRATED,формат озвучивания ресурса 2,1
+57707,SLASH_CAA_HELP_SAY_RESOURCE_2_FORMAT,[%d: %d] – выбор формата для озвучивания второго боевого ресурса,1
+57708,CAA_SAY_RESOURCE_2_FORMAT,Формат озвучивания ресурса 2,1
+57709,SLASH_CAA_SAY_RESOURCE_2_THROTTLE,интервалозвучиванияресурса2,1
+57710,SLASH_CAA_SAY_RESOURCE_2_THROTTLE_NARRATED,интервал озвучивания ресурса 2,1
+57711,SLASH_CAA_HELP_SAY_RESOURCE_2_THROTTLE,[%d: %d] – выбор интервала в секундах при озвучивании второго боевого ресурса,1
+57712,CAA_SAY_RESOURCE_2_THROTTLE,Интервал озвучивания ресурса 2,1
+57713,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_TOOLTIP_FORMAT,%s (x%d),1
+57724,ERR_ENDEAVOR_REWARD_AVAILABLE,Вас ждут награды в сундуке предприятий.,1
+57729,HOUSING_PREVIEW_DECOR_WARNING_AR_ONLY,Декор в предпросмотре будет убран. Продолжить?,1
+57731,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_CHEST,В домашний сундук добавлен предмет: %s.,1
+57732,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_WORLD,В доме размещен предмет: %s.,1
+57736,ERR_CHARTER_NEIGHBORHOOD_OWNERSHIP_TRANSFER_SUCCESS,Права на владение районом теперь принадлежат вам,1
+57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,"Эту услугу нельзя применить к персонажу, который владеет домом или районом",3
+57738,ENDEAVOR_TASK_COMPLETED,Задача предприятия выполнена,1
+57743,ENDEAVOR_COMPLETED,Предприятие завершено,1

@@ -11042,7 +11042,7 @@ Prova a controllare in un altro momento.",1
 22877,YOU_WON_LABEL,Hai vinto!,1
 22878,ERR_LFG_JOINED_SCENARIO_QUEUE,Sei ora in coda nella ricerca degli scenari.,1
 22879,STAT_SPELLPOWER_MELEE_ATTACK_POWER_TOOLTIP,Aumenta i danni inflitti e le cure fornite dagli incantesimi. Aumenta i danni inflitti con le armi da mischia di %s danni per secondo.,1
-22880,SPELL_FAILED_CUSTOM_ERROR_159,Febbre del Gelo e Morbo del Sangue devono essere entrambi presenti sul bersaglio.,1
+22880,SPELL_FAILED_CUSTOM_ERROR_159,Febbre del Gelo e Piaga del Sangue devono essere entrambi presenti sul bersaglio.,1
 22881,ERR_PETBATTLE_INVALID_LOADOUT,Devi avere una mascotte in uno scomparto.,1
 22882,ERR_AUCTION_ALREADY_BID,Hai già fatto un'offerta per questo oggetto.,1
 22883,PET_ABILITY_REQUIRES_LEVEL,|cffff2020Richiede mascotte di livello: %d|r,1
@@ -14189,9 +14189,9 @@ Vuoi continuare?",1
 32192,PVP_HONOR_XP_BAR_CANNOT_PRESTIGE_HERE,Apri la scheda dei Talenti Onore per il prestigio!,1
 32193,UNIT_NAMEPLATES_AUTOMODE,Mostra sempre nomi,1
 32194,OPTION_TOOLTIP_UNIT_NAMEPLATES_AUTOMODE,Le barre generalmente vengono mostrate solo in combattimento. Attiva questa opzione per mostrarle sempre.,1
-32195,NAMEPLATES_MESSAGE_FRIENDLY_ON,Barre degli amici attivate,1
-32196,NAMEPLATES_MESSAGE_FRIENDLY_ON_AUTO,Barre degli amici attivate (Combattimento),1
-32197,NAMEPLATES_MESSAGE_FRIENDLY_OFF,Barre degli amici disattivate,1
+32195,NAMEPLATES_MESSAGE_FRIENDLY_ON,Barre dei giocatori alleati attivate,1
+32196,NAMEPLATES_MESSAGE_FRIENDLY_ON_AUTO,Barre dei giocatori alleati attivate (combattimento),1
+32197,NAMEPLATES_MESSAGE_FRIENDLY_OFF,Barre dei giocatori alleati disattivate,1
 32198,NAMEPLATES_MESSAGE_ENEMY_ON,Barre dei nemici attivate,1
 32199,NAMEPLATES_MESSAGE_ENEMY_ON_AUTO,Barre dei nemici attivate (Combattimento),1
 32200,NAMEPLATES_MESSAGE_ENEMY_OFF,Barre dei nemici disattivate,1
@@ -14199,7 +14199,7 @@ Vuoi continuare?",1
 32202,NAMEPLATES_MESSAGE_ALL_ON_AUTO,Tutte le barre attivate (Combattimento),1
 32203,NAMEPLATES_MESSAGE_ALL_OFF,Tutte le barre disattivate,1
 32204,DISPLAY_PERSONAL_RESOURCE,Mostra risorse del personaggio,1
-32205,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE,Mostra la salute e le risorse sotto al personaggio.,1
+32205,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE,Aggiungi barre della salute e delle risorse personalizzabili all'interfaccia.,1
 32206,EXHAUST_HONOR_TOOLTIP1,"|cffffd200%s|r
 |cffffffffOnore guadagnato dalle uccisioni
 onorevoli aumentato del %d%%.|r",1
@@ -14243,7 +14243,7 @@ onorevoli aumentato del %d%%.|r",1
 32252,TALENT_CLICK_TOO_FAST,Potenziamento dei talenti. Attendi un attimo.,1
 32254,BOOST2_ROGUE_STEALTH,Usa |cFFFFFFFFFurtività|r per diventare invisibile.,1
 32257,DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Mostra le risorse speciali sui bersagli,1
-32258,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Generalmente le risorse sono mostrate sotto al tuo personaggio. Attiva questa opzione per mostrarle anche sopra i nemici.,1
+32258,OPTION_TOOLTIP_DISPLAY_PERSONAL_RESOURCE_ON_ENEMY,Generalmente le risorse speciali sono mostrate sotto la barra della salute. Attiva questa opzione per mostrarle sopra i nemici.,1
 32259,POWER_TYPE_PAIN,Dolore,1
 32260,TRANSMOGRIFY_INVALID_MISMATCH,Questo oggetto non è compatibile con questo aspetto.,1
 32261,TRANSMOGRIFY_STYLE_UNCOLLECTED,Non hai ancora sbloccato questo aspetto.,1
@@ -15047,11 +15047,11 @@ Per ulteriori informazioni, visita il sito <a href=\""https://www.battle.net/sup
 34111,CLASS_INFO_DEATHKNIGHT2,"- Infligge danni con le armi da mischia, gli incantesimi e le malattie",2
 34112,CLASS_INFO_DEATHKNIGHT3,- Inizia al livello %d,2
 34113,CLASS_INFO_DEATHKNIGHT_ROLE_TT,Ruoli: |cffffffffDifensore o assaltatore in mischia|r,2
-34114,CLASS_INFO_DEMONHUNTER0,- Ruolo: difensore o assaltatore in mischia,2
+34114,CLASS_INFO_DEMONHUNTER0,"- Ruoli: Difensore, assaltatore a distanza o assaltatore in mischia",2
 34115,CLASS_INFO_DEMONHUNTER1,- Abbraccia i poteri caotici e li sfrutta per annientare i nemici,2
 34116,CLASS_INFO_DEMONHUNTER2,"- Volteggia, plana o esegue un salto doppio per entrare o uscire dal combattimento",2
 34117,CLASS_INFO_DEMONHUNTER3,- Inizia al livello %d,2
-34118,CLASS_INFO_DEMONHUNTER_ROLE_TT,Ruoli: |cffffffffDifensore o assaltatore in mischia|r,2
+34118,CLASS_INFO_DEMONHUNTER_ROLE_TT,"Ruoli: |cffffffffDifensore, assaltatore a distanza o assaltatore in mischia|r",2
 34119,CLASS_INFO_DRUID0,"- Ruolo: difensore, guaritore, assaltatore a distanza o assaltatore in mischia",2
 34120,CLASS_INFO_DRUID1,"- Muta nella forma di un feroce felino, di un rapace gufoide o di un resistente orso",2
 34121,CLASS_INFO_DRUID2,- Attinge ai poteri della natura per curare se stesso e i propri alleati,2
@@ -15455,7 +15455,7 @@ Tempo previsto: analisi in corso...",2
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,Tutti i personaggi vengono mostrati\nnell'elenco personaggi a prescindere dal reame.,2
 34500,REALMLIST_POPULATION_TOOLTIP,"I reami segnalati con ""Nuovi giocatori"" offrono la miglior esperienza di gioco.
 Quelli ""Pieni"" sono i più affollati e potresti dover aspettare per giocare.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,Il reame che scegli influenza alcune funzioni tra\ncui il commercio con gli altri giocatori,2
+34501,REALMLIST_REALMNAME_TOOLTIP,Il reame che scegli influenza alcune funzioni\ntra cui gli Incarichi di lavoro delle Professioni.,2
 34502,REALMLIST_TYPE_TOOLTIP,Normale = nessuna regola speciale.\nGdR = reame Gioco di Ruolo.,2
 34503,REALM_CHARACTERS,Personaggi,6
 34504,REALM_DESCRIPTION,Scegli un reame,2
@@ -15881,7 +15881,7 @@ per giocare questa classe.",2
 34977,BOOST2_SHAMANENHANCE_ROCKBITER,Usa |cFFFFFFFFRoccia Dura|r per colpire il bersaglio e generare |cFFFFFFFFmaelstrom|r.,1
 34978,BOOST2_SHAMANENHANCE_LAVALASH,Usa |cFFFFFFFFSferzata Lavica|r sul manichino.,1
 34979,BOOST2_SHAMANENHANCE_STORMSTRIKE,Usa |cFFFFFFFFAssalto della Tempesta|r sul manichino.,1
-34980,BOOST2_SHAMANENHANCE_FERALSPIRIT,Usa |cFFFFFFFFLupi Spirituali|r per evocare due feroci lupi spirituali.,1
+34980,BOOST2_SHAMANENHANCE_FERALSPIRIT,Usa |cFFFFFFFFSpirito Ferino|r per evocare due feroci lupi spirituali.,1
 34981,BOUNTY_TUTORIAL_INTRO,Completa le missioni mondiali per questa fazione per ricevere una ricompensa bonus.,1
 34982,BOUNTY_TUTORIAL_BOUNTY_FINISHED,Incontra l'emissario per ottenere la tua ricompensa.,1
 34983,CHAR_SPEC_AVAILABLE,Disponibile,2
@@ -16323,7 +16323,6 @@ Consentire script personalizzati?",1
 35446,ITEM_CONTAINER,Contenitore,1
 35447,TALENT_TOOLTIP_ADD_COMBAT_ERROR,Non puoi cambiare i talenti quando sei in combattimento.,1
 35448,ACCEPTING_INVITE_WILL_REMOVE_QUEUE,Unendoti a questo gruppo verrai rimosso dalle code attive.,1
-35449,POWER_TYPE_FEL_INFUSION,Vilinfusione,1
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,Coda Amici,1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,Presenti nel gruppo:,1
 35452,SOCIAL_QUEUE_AND_MORE,e altri,1
@@ -16555,19 +16554,19 @@ Consentire script personalizzati?",1
 35701,UNITNAME_SUMMON_TITLE31,Riflesso Esplosivo di %s,1
 35702,HOLIDAY_TRANSMOG_THEME_01,Tema: Stile Estivo,1
 35703,HOLIDAY_TRANSMOG_THEME_02,Tema: Abbigliamento Invernale,1
-35704,HOLIDAY_TRANSMOG_THEME_03,Tema: Spettacolo,1
+35704,HOLIDAY_TRANSMOG_THEME_03,Tema: Spedizioni Pericolose,1
 35705,HOLIDAY_TRANSMOG_THEME_04,Tema: Fascino e Divertimento,1
 35706,HOLIDAY_TRANSMOG_THEME_05,Tema: Accostamenti Azzardati,1
 35707,HOLIDAY_TRANSMOG_THEME_06,Tema: Capitan Colore,1
-35708,HOLIDAY_TRANSMOG_THEME_07,Tema: Caldo alla Moda,1
+35708,HOLIDAY_TRANSMOG_THEME_07,Tema: Estremi Elementali,1
 35709,HOLIDAY_TRANSMOG_THEME_08,Tema: Orgoglio di Fazione,1
 35710,HOLIDAY_TRANSMOG_THEME_09,Tema: Espressione della Professione,1
 35711,HOLIDAY_TRANSMOG_THEME_10,Tema: Stile Sovrannaturale,1
 35712,HOLIDAY_TRANSMOG_THEME_11,Tema: Risate Garantite,1
 35713,HOLIDAY_TRANSMOG_THEME_12,Tema: Completi del Mondo Sotterraneo,1
 35714,HOLIDAY_TRANSMOG_THEME_13,Tema: Luce e Ombra,1
-35715,HOLIDAY_TRANSMOG_THEME_14,Tema: Guardaroba Stravagante,1
-35716,HOLIDAY_TRANSMOG_THEME_15,Tema: Stili Sospetti,1
+35715,HOLIDAY_TRANSMOG_THEME_14,Tema: Minaccia Meccanica,1
+35716,HOLIDAY_TRANSMOG_THEME_15,Tema: Giochi nella Giungla,1
 35717,HOLIDAY_TRANSMOG_THEME_16,Tema: Stile Libero!,1
 35718,WARDROBE_ALTERNATE_ITEMS,Altri oggetti che sbloccano questo scomparto:,1
 35719,BROKENSHORE_BUILDING_COMMANDCENTER,Centro di Comando,1
@@ -17168,8 +17167,8 @@ Consentire script personalizzati?",1
 36367,PVP_LABEL_WAR_MODE,Modalità Guerra,1
 36368,PVP_LABEL_PVP_TALENTS,Talenti PvP,1
 36369,PVP_WAR_MODE_DESCRIPTION,"Passa alla modalità Guerra e abilita il PvP nel mondo di gioco, aumentando le ricompense delle missioni e l'esperienza fino al 10% e attivando i Talenti PvP.",1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"Devi essere a Roccavento, Valdrakken o Dornogal per poter attivare la modalità Guerra.",1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,"Devi essere a Orgrimmar, Valdrakken o Dornogal per poter attivare la modalità Guerra.",1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"Devi essere a Roccavento, Lunargenta o al Trespolo dei Maestri per poter attivare la Modalità Guerra.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"Devi essere a Orgrimmar, Lunargenta o al Trespolo dei Maestri per poter attivare la Modalità Guerra.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,In attesa di risposta dal server di chat vocale. Riprova fra qualche minuto.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,"Per poter abbandonare la comunità, devi prima trasferirne la proprietà.",5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Vuoi abbandonare ed eliminare questo gruppo?,1
@@ -17924,8 +17923,8 @@ Consentire script personalizzati?",1
 41081,SOCIAL_ITEM_REMOVE_BUTTON,Rimuovi oggetto,1
 41082,MYTHIC_PLUS_OVERTIME_SEASON_BEST,Miglior tempo oltre il limite,1
 41083,PVP_WAR_MODE_DESCRIPTION_FORMAT,"Passa alla modalità Guerra e abilita il PvP nel mondo di gioco, aumentando le ricompense delle missioni e l'esperienza del %1$d%% e attivando i Talenti PvP.",1
-41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Roccavento, Valdrakken o Dornogal.",1
-41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Orgrimmar, Valdrakken o Dornogal.",1
+41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Roccavento, Lunargenta o Trespolo dei Maestri.",1
+41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"Può essere disattivata in qualsiasi zona di riposo, ma può essere attivata solo a Orgrimmar, Lunargenta o Trespolo dei Maestri.",1
 41086,PVP_MATCH_READY_ERROR,Non puoi abbandonare la coda perché la partita è pronta.,1
 41087,GARRISON_MISSION_ENVIRONMENT_COUNTERED,Contrastato,1
 41089,COMBAT_TEXT_BLOCK_REDUCED,Blocco di %s,1
@@ -19441,7 +19440,7 @@ Consentire script personalizzati?",1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,ABBONATI ORA,1
 42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,ABBONATI ORA,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Abbonati per continuare il tuo epico viaggio,1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,GIOCA FINO AL LIVELLO 70,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,GIOCA FINO AL LIVELLO 80,1
 42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,PARTI ALL'AVVENTURA PER TUTTA AZEROTH E OLTRE,1
 42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,ACCEDI A WOW CLASSIC,1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,E ALTRO ANCORA!,1
@@ -20634,8 +20633,8 @@ Consentire script personalizzati?",1
 48822,REPORTING_MAJOR_CATEGORY_GAMEPLAY_SABOTAGE,Sabotaggio del gioco,5
 48823,REPORTING_MAJOR_CATEGORY_CHEATING,Trucchi,5
 48824,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_NAME,Nome inappropriato,5
-48825,REPORTING_MINOR_CATEGORY_TEXT_CHAT,Chat di testo,5
-48826,REPORTING_MINOR_CATEGORY_AFK,Assente/Non partecipa,5
+48825,REPORTING_MINOR_CATEGORY_TEXT_CHAT,Linguaggio offensivo,5
+48826,REPORTING_MINOR_CATEGORY_AFK,Non partecipa,5
 48827,REPORTING_MINOR_CATEGORY_HACKING,Violazione,5
 48828,REPORTING_MINOR_CATEGORY_INAPPROPRIATE,Nome inappropriato,5
 48829,REPORTING_MINOR_CATEGORY_BTAG,Battle Tag,5
@@ -21737,7 +21736,7 @@ Vuoi davvero piazzare quest'ordine?",1
 50049,CRAFTING_ORDERS_NUM_PERSONAL_FMT,Hai %d $lOrdine Personale:Ordini Personali; disponibili.,1
 50050,MONTHLY_ACTIVITIES_THRESHOLD_TOOLTIP_REWARDS,"Ricompense: 
 |cnHIGHLIGHT_FONT_COLOR:%d|r %s",1
-50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visita l'Emporio a %s o Dornogal per ottenere le ricompense!,1
+50051,MONTHLY_ACTIVITIES_PENDING_REWARDS,Visita l'Emporio a %s o una nuova capitale per ottenere le ricompense!,1
 50052,MONTHLY_ACTIVITIES_UPDATED,Diario del Viaggiatore aggiornato,1
 50054,TALENT_BUTTON_TOOLTIP_PVP_TALENT_REQUIREMENT_ERROR,Questo Talento PvP è inattivo perché ti manca un talento richiesto,1
 50055,TALENT_FRAME_CONFIRM_LEAVE_DEFAULT_LOADOUT,Perderai definitivamente la tua configurazione talenti attuale se non la salverai.|n|nVuoi davvero continuare?,1
@@ -22737,7 +22736,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Impossibile connettersi a Plunderstorm. Riprova più tardi.,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Solo espansione attuale,1
 51921,UNITNAME_SUMMON_TITLE54,Antenato di %s,1
-51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Non avere paura di scegliere male. Al livello 80 avrai imparato tutti i talenti.,1
+51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Non avere paura di scegliere male. Al livello 90 avrai imparato tutti questi talenti.,1
 51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
 51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r |4restante:restanti;,2
 51928,ACCOUNT_COMPLETED_QUEST_NOTICE,La tua Brigata ha completato questa missione in precedenza.,1
@@ -22818,7 +22817,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/invitespectatorbattlegroundblitzmatch,1
 52039,SHOW_SILHOUETTE_OPTION,Mostra sagoma se oscurato,1
 52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,Evidenzia la sagoma del tuo personaggio quando viene bloccato dagli oggetti in gioco,1
-52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Non preoccuparti, apprenderai tutti questi talenti entro il livello 80.",1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,Al livello 90 avrai imparato tutti questi talenti.,1
 52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,Concentrazione:,1
 52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Dimensioni testo,1
 52056,SPELL_FAILED_CUSTOM_ERROR_1037,Richiede l'aver sbloccato Ricognizione di The War Within per l'utilizzo in quest'area.,1
@@ -22913,7 +22912,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52150,DELVES_GREAT_VAULT_LABEL,Gran Banca,1
 52151,DYNAMIC_FLIGHT,Stile di Volo,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,Completa le Scorribande per ottenere ricompense settimanali.\n\n%s/%s ricompense sbloccate. ,1
-52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,La Gran Banca è disponibile solo quando è in corso una stagione.,1
+52153,GREAT_VAULT_REQUIRES_ACTIVE_SEASON,La Gran Banca è disponibile solo quando è in corso una stagione.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Abilità,1
 52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,Disponibile durante la stagione,1
 52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"Si sblocca con la missione ""Nelle profondità della terra"" durante la campagna dell'Isola di Dorn.",1
@@ -23018,7 +23017,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52261,SPELL_FAILED_CUSTOM_ERROR_1103,È già stata costruita una Stazione di Recupero nelle vicinanze.,1
 52262,SPELL_FAILED_CUSTOM_ERROR_1104,Troppo vicino a un'altra stazione.,1
 52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Informazioni dannose per i minori,5
-52264,CHARACTER_CREATE_REALM_TOOLTIP,Il personaggio verrà creato nel reame selezionato,2
+52264,CHARACTER_CREATE_REALM_TOOLTIP,Il personaggio verrà creato \nnel regno selezionato,2
 52265,CHARACTER_CREATE_REALM,Reame: %s,2
 52266,CHARACTER_SELECT_REALM_TOOLTIP,Reame: %s,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Dannoso per i minori,1
@@ -23043,6 +23042,11 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,Non soddisfi i requisiti per usare questa valuta.,1
 52289,INSPECT_GUILD_REALM,Reame: %s,1
 52290,CLUB_FINDER_REALM_NAME,Reame: |cffffffff%s|r,1
+52291,EXPANSION_NAME11,Midnight,7
+52292,EXPANSION_NAME12,Espansione 12,7
+52293,EXPANSION_NAME_CAPS10,THE WAR WITHIN,7
+52294,EXPANSION_NAME_CAPS11,MIDNIGHT,7
+52295,EXPANSION_NAME_CAPS12,ESPANSIONE 12,7
 52296,MAP_LEGEND_CAMPAIGN,Campagna,1
 52297,MAP_LEGEND_CAMPAIGN_TOOLTIP,Missioni che continuano la storia principale,1
 52298,MAP_LEGEND_IMPORTANT,Importante,1
@@ -23467,8 +23471,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53052,HOUSING_CUSTOMIZE_DECOR_HOVER_TOOLTIP,Clicca col pulsante sinistro per personalizzare,1
 53053,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE,Direzione,1
 53054,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL,Altezza,1
-53055,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE,Rotazione,1
-53056,HOUSING_EXPERT_DECOR_SUBMODE_SCALE,Proporzione,1
+53055,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE,Ruota,1
+53056,HOUSING_EXPERT_DECOR_SUBMODE_SCALE,Ridimensiona,1
 53057,HOUSING_EXPERT_DECOR_ROTATE_AXIS_X,Asse X,1
 53058,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Y,Asse Y,1
 53060,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Z,Asse Z,1
@@ -23514,7 +23518,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,Attualmente non sei nell'Editor della Casa,1
 53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Non all'interno della casa,1
 53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Servizio non disponibile,1
-53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Stanza non trovata,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Fuori dai confini,1
 53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Aggiornamento della stanza non riuscito,1
 53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,Attualmente non sei nell'Editor della Planimetria,1
 53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Appezzamento non trovato,1
@@ -23573,9 +23577,9 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Per le prime 24 ore, solo i membri della gilda possono acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Dopo 24 ore, qualsiasi giocatore potrà acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Non verranno create nuove sottosezioni quando il Vicinato sarà pieno|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Non può essere convertito in un Vicinato Privato",1
 53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Ogni giocatore presente nello Statuto potrà acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t I Responsabili del Vicinato possono aggiungere altri giocatori al Vicinato|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Può essere convertito in un Vicinato Aperto,1
 53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Ogni giocatore presente nello Statuto potrà acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Per le prime 24 ore, solo i giocatori nello Statuto possono acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Dopo 24 ore, ogni giocatore può acquistare un appezzamento|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Non può essere convertito in un Vicinato Privato",1
-53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,Non soddisfi il requisito minimo di membri della gilda,1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,Non soddisfi il requisito minimo di membri della gilda attivi,1
 53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Scegli un nome diverso per il Vicinato,1
-53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,Non soddisfi il requisito minimo di membri della gilda,1
+53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,Non soddisfi il requisito minimo di membri della gilda attivi,1
 53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,Hai superato il limite massimo di membri della gilda. Crea un Vicinato Privato.,1
 53180,HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON,Crea Vicinato,1
 53181,HOUSING_CREATENEIGHBORHOOD_CHARTER_CONFIRMBUTTON,Conferma e acquista,1
@@ -23685,14 +23689,15 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Verticale - Sopra,1
 53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Verticale - Centro,1
 53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Verticale - Sotto,1
-53429,BINDING_NAME_HOUSING_EXPERTDECORHORIZONTALSUBMODE,Modulo secondario direzione avanzato,1
-53430,BINDING_NAME_HOUSING_EXPERTDECORVERTICALSUBMODE,Modulo secondario altezza avanzato,1
-53431,BINDING_NAME_HOUSING_EXPERTDECORROTATESUBMODE,Modulo secondario rotazione avanzato,1
-53432,BINDING_NAME_HOUSING_EXPERTDECORSCALESUBMODE,Modulo secondario proporzione avanzato,1
+53429,BINDING_NAME_HOUSING_EXPERTDECORHORIZONTALSUBMODE,Modulo secondario Direzione avanzato,1
+53430,BINDING_NAME_HOUSING_EXPERTDECORVERTICALSUBMODE,Modulo secondario Altezza avanzato,1
+53431,BINDING_NAME_HOUSING_EXPERTDECORROTATESUBMODE,Modulo secondario Ruota avanzato,1
+53432,BINDING_NAME_HOUSING_EXPERTDECORSCALESUBMODE,Modulo secondario Ridimensiona avanzato,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,Il Megamagnete va prima caricato!,1
 53442,HOUSING_LAYOUT_FLOOR_DISPLAY,Piano %d,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Devi selezionare un pezzo idoneo d'equipaggiamento del set di classe per testa, torso o gambe.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Devi selezionare un pezzo idoneo d'equipaggiamento del set di classe per spalle o mani.,1
+53448,SPELL_FAILED_CUSTOM_ERROR_1073,Non sai come addomesticare Florafauno.,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,Impossibile usare una cavalcatura durante il camuffamento.,1
 53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Sottotitoli,3
 53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Anteprima sottotitoli,3
@@ -23702,6 +23707,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Chiaro,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Sfondo sottotitoli,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Opacità sfondo,3
+53476,POWER_TYPE_FEL_INFUSION,Vilinfusione,1
 53511,UNIT_VIEW_HOUSES,Visualizza case,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Modalità Decorazione,1
@@ -23716,8 +23722,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53523,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_FMT,Modalità Pulizia |cnNORMAL_FONT_COLOR:(%s)|r,1
 53524,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE_FMT,Direzione |cnNORMAL_FONT_COLOR:(%s)|r,1
 53525,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL_FMT,Altezza |cnNORMAL_FONT_COLOR:(%s)|r,1
-53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Rotazione |cnNORMAL_FONT_COLOR:(%s)|r,1
-53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Proporzione |cnNORMAL_FONT_COLOR:(%s)|r,1
+53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Ruota |cnNORMAL_FONT_COLOR:(%s)|r,1
+53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Ridimensiona |cnNORMAL_FONT_COLOR:(%s)|r,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,La tua Aquila di Precisione di Tiro te lo impedisce.,5
 53537,ERR_PLACED_DECOR_LIMIT_REACHED,Hai raggiunto il massimo di decorazioni posizionate. Elimina delle decorazioni per aggiungerne altre.,1
 53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Attiva intersezione,1
@@ -23730,6 +23736,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,Abilita intersezione |cnNORMAL_FONT_COLOR:(%s)|nAttiva per ignorare le collisioni tra decorazioni durante il posizionamento.|r,1
 53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,Abilita intersezione |cnNORMAL_FONT_COLOR:(%s)|nDisattiva per consentire collisioni complete tra le decorazioni durante il posizionamento.|r,1
 53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Rimuovi decorazione,1
+53567,SPELL_FAILED_CUSTOM_ERROR_1105,Devi radunare il tuo gruppo prima di iniziare.,1
 53649,PERKS_PROGRAM_CART_ADD,Aggiungi al carrello,1
 53650,PERKS_PROGRAM_CART_REMOVE,Rimuovi dal carrello,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,Visualizza carrello,1
@@ -23739,9 +23746,11 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Svuota carrello,1
 53656,PERKS_PROGRAM_CART_TITLE_TEXT,Anteprima carrello (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,Una barriera protegge l'amplificatore dalla dispersione di potenza.,1
+53661,SPELL_FAILED_CUSTOM_ERROR_880,Hai già preparato il concime.,1
 53666,RESILIENT_KEY_LEVEL,Resilienza livello %d,1
 53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,Vuoi davvero scambiare %s per %d |4oggetto:oggetti;?,1
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Acquista,1
+53689,UNITNAME_SUMMON_TITLE58,Corpo di %s,1
 53698,DROP_CHANCE_ITEMS_ONLY,Probabilità di ricevere:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Il bersaglio è già protetto da un Medicottero dei Micciascura.,1
 53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Sposta visuale in alto,1
@@ -23758,6 +23767,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Assegnazioni solo in Modalità Avanzata,1
 53742,BINDING_NAME_DRIFT,Derapata,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,Vuoi davvero rimuovere questo amico dalla tua lista? L'azione non è reversibile.,1
+53746,CONFIRM_RELIC_CHOICE,Vuoi davvero risvegliare questa reliquia? Ci vorrà del tempo prima di poterne risvegliare un'altra.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Richiede Legame Indistruttibile.,1
 53762,ADVANCED_OPTIONS_LABEL,Potenziamenti di gioco,1
 53764,ENABLE_COOLDOWN_VIEWER,Attiva Gestore tempi di recupero,1
@@ -23827,6 +23837,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 53945,VIEW_HOUSES_TITLE,Case di %s,1
 53946,VIEW_HOUSES_NEIGHBORHOOD_BUTTON,Visualizza Vicinato,1
 53947,VIEW_HOUSES_VISIT_BUTTON,Visita casa,1
+53948,SPELL_FAILED_CUSTOM_ERROR_1106,Stai già trasportando un Vilcristallino Sfaccettato,1
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Sempre visibile,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In combattimento,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Nascosto,1
@@ -23855,7 +23866,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54012,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_OFFLINE,Offline,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,Questo strumento non è attualmente utilizzato per questa classe o specializzazione,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Nome beneficio di esempio,1
-54052,SPELL_FAILED_CUSTOM_ERROR_1073,Utilizzabile solo da specializzazioni che non sono difensori.,1
+54016,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_LABEL,Barra delle risorse del personaggio,1
 54053,ASSISTED_COMBAT_ROTATION,Assistente Monotasto,1
 54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Assistente|nMonotasto,1
 54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,Trascina l'Assistente Monotasto sulla tua barra delle azioni per consolidare la rotazione delle abilità d'attacco in un unico pulsante.,1
@@ -23867,6 +23878,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54067,HOUSING_DECOR_CUSTOMIZATION_DYES,Tinture %s,1
 54068,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_DESCRIPTION,Scomparto %s,1
 54069,HOUSING_DECOR_CUSTOMIZATION_THEME,Tema %s,1
+54070,PERSONAL_RESOURCE_DISPLAY_ONLY_SHOW_IN_COMBAT,Mostra solo in combattimento,1
 54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,Predefinito (non tinto),1
 54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,La tintura %d verrà rimossa.,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,I costi verranno dedotti dai fondi della tua Banca di Gilda,1
@@ -23895,25 +23907,42 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Altro,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Console dei Titani Sovraccaricata,1
 54150,ERR_NO_OWNED_HOUSE_IN_THIS_NEIGHBORHOOD_MAP,Non possiedi una casa in questo Vicinato,1
+54152,SPELL_FAILED_CUSTOM_ERROR_2429,Richiede la Chiave Ingioiellata.,1
 54153,EMOTE628_CMD1,/lean,1
 54154,EMOTE628_CMD2,/appoggiati,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Contenuto terroristico/violento,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Abuso su minori,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Pulsante destro per visualizzare l'elenco delle abilità,1
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Pulsante destro per nascondere l'elenco delle abilità,1
+54182,HOUSING_DASHBOARD_INITIATIVES,Iniziative,1
+54183,PLAYER_CHOICE_STORMARION_CITADEL,Vuoi davvero spendere un Nucleo di Buferion?,1
 54184,ERR_INVITED_TO_NEIGHBORHOOD,Hai ricevuto un invito per un Vicinato!,1
+54188,HOUSING_DASHBOARD_INITIATIVE_TASKS_LABEL,Incarichi dell'Iniziativa,1
+54189,HOUSING_DASHBOARD_INITIATIVE_ACTIVITY_LABEL,Attività,1
+54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,"|cFFFFFFFF%s|r ha completato ""%s""",1
+54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,Attualmente il tuo Vicinato non ha Iniziative attive. |n|n I Responsabili del Vicinato possono avviare un'Iniziativa parlando col custode.,1
+54192,HOUSING_DASHBOARD_ADDITIONAL_REWARDS_LABEL,Ricompense aggiuntive:,1
+54193,HOUSING_DASHBOARD_REWARD_ESTATE_XP,PE Casa,1
+54194,HOUSING_DASHBOARD_REWARD_CURRENCY,Valuta,1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Illuminazione Assistita,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Abilita l'illuminazione dell'abilità suggerita da usare.|nL'Illuminazione Assistita suggerisce solo le abilità visibili.,1
+54202,SLASH_TRANSMOG_CUSTOM_SET1,/setpersonale,1
+54208,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_FORMAT,%s (completata %d volta/e),1
 54209,CONTACTS_TAB_TITLE,Contatti,3
 54210,CONTACTS_LIST_TITLE,Contatti,3
 54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Blocca tutti gli inviti per i Vicinati in arrivo.,1
 54212,BLOCK_NEIGHBORHOOD_INVITES,Blocca inviti ai Vicinati,1
+54214,12_0_LEGENDS_PAINTING_MINIGAME_02_CONNECT_DOTS,Clicca sulle celle adiacenti per spostare il pennello e collegare i punti!,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,Non puoi seguire il Cammino della Storia con la Sincronia di Gruppo.,1
 54226,HOUSING_HOUSE_SETTINGS_ANYONE,Chiunque,1
 54227,HOUSING_HOUSE_SETTINGS_NOONE,Nessuno,1
 54228,HOUSING_HOUSE_SETTINGS_LIMITED,Limitato,1
 54229,HOUSING_HOUSE_SETTINGS_ACCESS_PARTY,Gruppo,1
 54230,EMPTY_SOCKET_FIBER,Incavo Fibra,5
+54232,UNIT_NAMEPLATES_ENABLE_STACKING,Impila le barre delle unità,1
+54233,UNIT_NAMEPLATES_ENABLE_STACKING_TOOLTIP,Impedisce che le barre delle unità si sovrappongano.,1
+54237,UNIT_NAMEPLATES_GLOBAL_SCALE,Dimensioni,1
+54238,UNIT_NAMEPLATES_GLOBAL_SCALE_TOOLTIP,Controlla la dimensione delle barre delle unità mostrate su schermo.,1
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,L'Illuminazione Assistita suggerisce solo le abilità visibili.,1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Messaggio a %s segnalato come potenzialmente inappropriato.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Riscrivi messaggio]|w|h o |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Invia comunque]|w|h|r,1
 54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Incluso nell'Illuminazione Assistita.,1
@@ -23944,7 +23973,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54324,UNIGNORE_PLAYER_BUTTON_LABEL,Rimuovi dall'elenco,1
 54325,CONTACTS_RECENT_ALLIES_TITLE,Alleati recenti,1
 54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Alleati recenti,1
-54327,ERR_CHARACTER_BANK_NOT_CONVERTED,La banca del tuo personaggio non è stata convertita. Riprova più tardi.,1
+54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Conversione della Banca non riuscita. Riprova più tardi.,1
 54328,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_TEXT,Vuoi davvero annullare l'invito al Vicinato di %s?,1
 54329,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_CONFIRM,Conferma,1
 54330,HOUSING_NEIGHBORHOOD_INVITE_TITLE,Invita residente,1
@@ -24012,11 +24041,14 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54650,HOUSING_BULLETINBOARD_EVICTED_CONFIRMATION_TEXT,Hai subito lo sfratto da questo Vicinato.\n\nLa disposizione della tua casa è stata salvata. Acquista una nuova casa per importarla.,1
 54651,TALENT_FRAME_INCREASED_RANKS_TEXT,(+%d |4grado:gradi; da %s),1
 54652,HOUSING_CATALOG_CATEGORIES_BACK,INDIETRO,1
+54654,PROFESSIONS_ALLOCATIONS_TOOLTIP_2,Assegnazioni: %d%s %d%s,1
 54664,WHO_LIST_LEVEL_TOOLTIP,Livello %d,1
 54665,ENABLE_GAMEPLAY_SFX,Attiva i segnali sonori durante gli scontri,3
 54666,GAMEPLAY_SFX_VOLUME,Effetti sonori di gioco,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Modifica il volume degli effetti sonori di gioco,3
 54672,RECENT_ALLY_LABEL,Alleati recenti,3
+54673,12_0_PRELAUNCH_TIC_TAC_TOE_INSTRUCTION,Scegli una fazione per il tuo marchio.,1
+54674,12_0_PRELAUNCH_TIC_TAC_TOE_INSTRUCTION_2,Clicca su una cella per apporre il tuo marchio.,1
 54676,HOUSING_ADD_NEIGHBORHOOD_MANAGER_CONFIRMATION,Vuoi davvero aggiungere %s come Responsabile del Vicinato?\n\nAggiungere un responsabile gli fornirà i seguenti permessi:|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Invitare giocatori ad acquistare una casa nel Vicinato|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Sfrattare giocatori non responsabili dal Vicinato|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Gestire contenuti futuri del Vicinato ,1
 54677,HOUSING_REMOVE_NEIGHBORHOOD_MANAGER_CONFIRMATION,Vuoi davvero revocare a %s il ruolo di Responsabile del Vicinato?,1
 54678,HOUSING_BULLETIN_CONTEXT_CONFIRM,Conferma,1
@@ -24031,6 +24063,11 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,Vuoi reimpostare il tuo Albero degli Artefatti? (I punti ti saranno restituiti),1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Reimposta Albero,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Annulla,1
+54702,UNIT_NAMEPLATES_THREAT_DISPLAY,Visualizzazione della minaccia,1
+54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,No,1
+54704,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE,Progressiva,1
+54705,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH,Lampeggiante,1
+54707,UNIT_NAMEPLATES_THREAT_DISPLAY_TOOLTIP,Opzioni di visibilità per come viene visualizzato il tuo livello di minaccia con un nemico. ,1
 54710,BINDING_NAME_TOGGLEHOUSINGDASHBOARD,Pannello dell'Alloggio,1
 54713,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE,Posizionabile solo all'esterno,1
 54714,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE,Posizionabile solo all'interno,1
@@ -24040,7 +24077,10 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54720,REPORT_RESULT_REQUIRES_CHAT,Segnalazione fallita. Tipo di segnalazione valido solo per i messaggi di chat.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Segnalazione fallita. Tipo di segnalazione valido solo per i messaggi di chat o all'interno della chat vocale.,1
 54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s ha accettato il trasferimento della proprietà del Vicinato,1
+54729,TRANSMOGRIFY_TOOLTIP_HIDDEN,Nascosto,1
 54731,UNITNAME_SUMMON_TITLE59,Servitore Giurato di %s,1
+54732,TRANSMOG_SAVE_OUTFIT,Salva completo,1
+54755,SPELL_FAILED_CUSTOM_ERROR_1107,Non hai abbastanza Nuclei di Buferion.,1
 54758,ASSISTED_COMBAT_LABEL,Assistente di Combattimento,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,Vedi nel Grimorio,1
 54777,VIDEO_OPTIONS_SFX_DENSITY_MIN,Essenziali,3
@@ -24049,6 +24089,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Mostra solo gli incantesimi essenziali. I tuoi incantesimi vengono sempre mostrati.,3
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Riduce l'ammontare di incantesimi non essenziali mostrati.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Mostra sempre tutti gli incantesimi.,3
+54789,TRANSMOG_PURCHASE_OUTFIT_SLOT,Acquista scomparto per completo,1
 54790,OUTFITTER_ARMOR_HEADER,[PH],1
 54791,OUTFITTER_GEM_HEADER,[PH],1
 54792,OUTFITTER_FRAME_TITLE,[PH],1
@@ -24079,11 +24120,15 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,MAIUSC+pulsante destro per visualizzare l'albero delle abilità degli Artefatti,1
 54841,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED_SHORT,Usata di recente,1
 54842,SPELL_FAILED_CUSTOM_ERROR_1079,Devi prima portare Acherus sulle Isole Disperse in questa linea temporale.,1
+54843,TRANSMOG_EDIT_OUTFIT_SLOT,Cambia nome/icona,1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Tomba di %s,1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Messaggio da %s,1
 54846,HOUSING_DASHBOARD_HOUSEUPGRADE,Livello casa,1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
+54863,TRANSMOG_OUTFIT_SLOT_POPUP_TEXT,Digita il nome del completo (massimo 16 caratteri):,1
+54864,JOURNEYS_LABEL,Viaggi,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"Stai partecipando a un'istanza Mitica+. Abbandonare l'istanza prima della fine del tempo, senza aver prima votato per l'abbandono della spedizione, ti farà incorrere in una penalità.",1
+54876,CONFIRM_BUY_OUTFIT_SLOT,Ogni scomparto per completo ti permette di registrare l'aspetto di tutto il tuo equipaggiamento. Puoi passare liberamente da un completo all'altro.\n\nVuoi acquistare uno scomparto per completo per:,1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Ricordo di %s,1
 54885,HUD_EDIT_MODE_COOLDOWN_VIEWER_SETTINGS,Impostazioni avanzate,1
 54886,COOLDOWN_VIEWER_SETTINGS_TITLE,Impostazioni del tempo di recupero,1
@@ -24096,8 +24141,10 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54893,COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS,Benefici,1
 54894,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_CATEGORY,Assegna a %s,1
 54895,COOLDOWN_VIEWER_SETTINGS_ASSIGN_TO_EMPTY_CATEGORY,Rimuovi dalla barra,1
+54896,TRANSMOG_SAVE_OUTFIT_TOOLTIP,Salva e applica le modifiche al completo,1
 54897,TALENT_BUTTON_TOOLTIP_RANK_NO_MAX_FORMAT,Grado %s,1
 54898,CATALOG_SHOP_NO_SEARCH_RESULTS,Nessun risultato trovato,7
+54901,TRANSMOG_PURCHASE_OUTFIT_SLOT_TOOLTIP_DISABLED,Massimo di %d |4scomparto:scomparti; raggiunto.,1
 54903,VOTE_TO_ABANDON_VOTES_NEEDED,%d voti necessari per abbandonare l'istanza.,1
 54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"%d voti necessari per abbandonare l'istanza. Avendo utilizzato la chiave, il tuo voto vale %d.",1
 54906,VOTE_TO_ABANDON_VOTED_YES,Hai votato Sì,1
@@ -24108,6 +24155,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Riduci il numero di incantesimi non essenziali visualizzati in base al framerate.,3
 54915,TEXT_SCALE_PREVIEW_TITLE,Esempio,3
 54916,TEXT_SCALE_PREVIEW_BODY,"Ecco un'anteprima della dimensione del testo. Modifica quest'opzione per cambiare la dimensione del testo nella maggior parte delle finestre di dialogo, nei menu sociali e nelle opzioni di sintesi vocale.",3
+54925,TRANSMOG_SITUATION_CATEGORY_LIST_SEPARATOR,", ",1
 54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
 54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Interfaccia,3
@@ -24127,10 +24175,13 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 54984,TIMERUNNING_BANNER_LEGION_HEADER,WoW Remix: Legion!,2
 54985,CHAR_CREATE_CLASS_DISABLED_TIMERUNNING,Questa classe non è disponibile per la Corsa nel Tempo,2
 54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Eco di %s,1
+54994,HOUSING_DASHBOARD_TIME_REMAINING,ancora %s,1
 54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Carnefice di %s,1
 54996,VOTE_TO_ABANDON_PLAYER_LEFT,Un altro personaggio ha abbandonato l'istanza. Puoi abbandonare senza incorrere in una penalità.,1
 54997,CONFIRM_LEAVE_RESTRICTED_CHALLENGE_MODE,Vuoi davvero abbandonare il gruppo d'istanza?|n|n|cffff2020Abbandonare ripetutamente le istanze Mitiche+ ti marchierà come Disertore delle Mitiche+.|r,1
 55000,WARN_LEAVE_RESTRICTED_CHALLENGE_MODE,"Timer della penalità|n|n|cffffd200Se non farai ritorno all'istanza entro il tempo restante, il tuo personaggio sarà cacciato dal gruppo e riceverai una penalità per l'abbandono.|r|n|nTempo restante: %d s",1
+55001,12_0_Z3_LEGENDS_RELIC_06_A,Radice del Mondo,1
+55002,12_0_Z3_LEGENDS_RELIC_06_B,Bastone del Primo Guardaradici,1
 55003,ERR_CURRENCY_TRANSFER_INSUFFICIENT_TRANSFER_QUANTITY,L'importo richiesto non è sufficiente a coprire le spese di trasferimento.,1
 55005,HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT,Clicca per modificare,1
 55006,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_FULL,"che ha trovato la morte per mano di ""%s"" in una Scorribanda di Grado %d",1
@@ -24140,6 +24191,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55017,HOUSING_CATALOG_FILTERS_DYEABLE,Solo tingibile,1
 55018,HOUSING_CATALOG_FILTERS_INDOORS,Interni,1
 55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Esterni,1
+55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Rimuovi le trasmogrificazioni attuali,1
 55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
 55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
 55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
@@ -24159,6 +24211,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55048,VRN_GPUMEM_16GB,Richiede una scheda grafica con almeno 16 GB di memoria video,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Alloggi dei personaggi,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Incantesimi di combattimento assistiti,1
+55058,12_0_MINIGAME_CHOOSE_ELEMENT,Trova l'ingranaggio che si muove in una direzione diversa dagli altri.,1
 55061,NOT_WHILE_HOUSE_EDIT,Non utilizzabile durante la modifica della casa,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,Hai ricevuto la penalità Disertore delle Mitiche+ perché hai abbandonato ripetutamente delle istanze Mitiche+.,1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,Hai ricevuto la penalità Disertore delle Mitiche+,1
@@ -24166,6 +24219,10 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,Il gruppo include uno o più personaggi marchiati come Disertori delle Mitiche+.,1
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,Un Simbolo da Disertore sarà visibile nella Ricerca gruppi delle Mitiche+.,1
 55070,MYTHIC_PLUS_DESERTER,Disertore delle Mitiche+,1
+55071,TRANSMOG_TAB_ITEMS,Oggetti,1
+55072,TRANSMOG_TAB_SETS,Set,1
+55073,TRANSMOG_TAB_CUSTOM_SETS,Set personalizzati,1
+55074,TRANSMOG_TAB_SITUATIONS,Situazioni,1
 55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Risultati della ricerca,1
 55081,KIOSK_HOUSING_START_BODY1,Un caloroso benvenuto,1
 55083,KIOSK_HOUSING_START_BUTTON,Decorazione,1
@@ -24177,8 +24234,29 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55091,ERR_NEW_PARTY_NEIGHBORHOOD_RESERVATION,Un membro del gruppo ha prenotato una nuova casa!,1
 55092,KIOSK_ENABLED_DLG_TEXT,Modalità Chiosco attivata\nQuesta notifica non verrà più mostrata.,3
 55095,HOUSEFINDER_BACK_BUTTON,INDIETRO,1
+55098,HOUSING_DASHBOARD_SET_AS_ACTIVE_INITIATIVE_LABEL,Imposta come Iniziativa attiva,1
+55099,HOUSING_DASHBOARD_CURRENTLY_ACTIVE_LABEL,Attiva al momento:,1
+55100,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED,Ignora scomparto,1
+55101,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED,Mostra l'equipaggiamento indossato,1
+55102,UNIT_NAMEPLATES_STYLE,Stile,1
+55103,UNIT_NAMEPLATES_STYLE_TOOLTIP,Seleziona da un elenco di stili che modificano il modo in cui le barre delle unità vengono mostrate su schermo.,1
+55104,UNIT_NAMEPLATES_STYLE_DEFAULT,Predefinito,1
+55105,UNIT_NAMEPLATES_STYLE_LEGACY,Rosso Classico,1
+55106,UNIT_NAMEPLATES_STYLE_THIN,Barre Sottili,1
+55107,UNIT_NAMEPLATES_STYLE_BLOCK,Barre squadrate,1
+55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Lancio squadrato,1
+55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,"Quando questo completo viene applicato, gli oggetti in questo scomparto useranno il loro aspetto originale.",1
+55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,"Quando questo completo viene applicato, gli oggetti in questo scomparto non subiranno modifiche.",1
 55123,HOUSING_CATALOG_FILTERS_NONE,Nessuno,1
+55124,TRANSMOG_SITUATIONS_DESCRIPTION,"Scegli delle opzioni per le Situazioni specifiche qui in basso per passare a questo completo. Devi soddisfare tutte le condizioni elencate per il cambio d'abito.\n\nSe più completi soddisfano le condizioni, ne verrà scelto uno a caso.",1
+55125,TRANSMOG_SITUATIONS_ENABLED,Situazioni attivate,1
+55127,TRANSMOG_SITUATIONS_DEFAULTS,Predefiniti,1
+55128,UNIT_NAMEPLATES_SHOW_OFFSCREEN,Mostra le barre delle unità fuori schermo,1
+55129,UNIT_NAMEPLATES_SHOW_OFFSCREEN_TOOLTIP,Controlla se visualizzare o meno le barre delle unità fuori dallo schermo.,1
+55130,TRANSMOG_SITUATIONS_NO_VALID_OPTIONS,Nessuna opzione valida selezionata,1
+55132,SPELL_FAILED_CUSTOM_ERROR_2002,Puoi usare solo il potere di una Pergamena Eterea alla volta.,1
 55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
+55135,JOURNEYS_GREAT_VAULT_TOOLTIP,Completa le sfide dei Viaggi per ottenere ricompense.,1
 55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
 55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
 55139,WOWHACK_STAT_LINE_MANA,[PH],1
@@ -24192,9 +24270,21 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55147,KIOSK_HOUSING_RESET_FAILED,Il ripristino della casa non è riuscito. Avvisa un attendente.,1
 55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Cerca amici su Battle.net,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Fasciature Reshii,1
+55156,UNIT_NAMEPLATES_SIMPLIFIED,Semplifica barre delle unità,1
+55157,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS,Servitori,1
+55158,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS,Minore,1
+55159,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS,Giocatori alleati,1
+55160,UNIT_NAMEPLATES_SIMPLIFIED_TOOLTIP,Controlla se visualizzare le barre di alcuni tipi di unità in modo più semplice e fluido.,1
+55161,UNIT_NAMEPLATES_SIMPLIFIED_NONE,No,1
+55162,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS_TOOLTIP,"Unità che appartengono ad altri personaggi come famigli, totem o guardiani.",1
+55163,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS_TOOLTIP,Unità più deboli del normale.,1
+55164,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS_TOOLTIP,Personaggi che appartengono alla tua stessa fazione.,1
 55165,HOUSEFINDER_SEARCH_DESCRIPTION,Visualizzazione dei Vicinati di %s,1
 55166,HOUSEFINDER_SEARCH_NOT_FOUND,Nessuna casa trovata,1
+55173,TRANSMOG_SET_OPEN_COLLECTION,Apri Aspetti (Esci dalla Trasmogrificazione),1
 55174,ERR_HOUSE_MOVED,La casa in cui ti trovavi è stata spostata in una nuova posizione.,1
+55176,JOURNEYS_RENOWN_LABEL,Fama,1
+55177,JOURNEYS_LEVEL_LABEL,Livello %d,1
 55183,BINDING_NAME_WOWHACKITEM1,[PH],1
 55184,BINDING_NAME_WOWHACKITEM2,[PH],1
 55185,BINDING_NAME_WOWHACKITEM3,[PH],1
@@ -24202,22 +24292,30 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
 55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,La transazione non può essere completata.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,Questa cavalcatura non può accedere allo Spazio Slegato.,1
+55199,TRANSMOG_SITUATIONS_APPLY,Applica modifiche,1
 55200,USER_SURVEY_STATUS_READY,Sondaggio di ricerca disponibile,1
 55201,USER_SURVEY_STATUS_READY_DESCRIPTION,Vogliamo sapere che ne pensi! Clicca per accedere al sondaggio.,1
 55202,USER_SURVEY_DIALOG_TEXT,"Vorremmo invitarti a rispondere ad alcune domande sulla tua esperienza in World of Warcraft! Cliccando su ""Sì"" si aprirà una finestra del tuo browser in cui compilare il sondaggio.",1
+55203,JOURNEYS_ENCOUNTERS_LABEL,Scontri,1
+55204,TRANSMOG_SITUATIONS_UNDO,Annulla tutte le modifiche in sospeso,1
+55206,SPELL_FAILED_CUSTOM_ERROR_2499,Devi aver raccolto almeno 250 Abbondanza.,1
 55207,COOLDOWN_VIEWER_SETTINGS_RESET_LAYOUT_TO_DEFAULT,Ripristina predefiniti,1
 55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Mostra non appresi,1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Opzioni,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Attiva/Disattiva impostazioni tempo di recupero,1
+55211,TRANSMOG_SITUATIONS_APPLY_DISABLED_TOOLTIP,Devi selezionare un'opzione valida per applicare le modifiche,1
 55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
 55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
 55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
-55218,HOUSING_DASHBOARD_ENDEAVOR,Iniziativa,1
+55218,HOUSING_DASHBOARD_ENDEAVOR,Iniziative,1
+55219,JOURNEYS_TOOLTIP_VIEW_JOURNEY,<Clicca per vedere il Viaggio>,1
 55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Teletrasporto all'Appezzamento,1
 55221,HOUSING_DASHBOARD_NO_HOUSE_SELECTED,Nessuna casa selezionata,1
 55222,HOUSING_DASHBOARD_RETURN,Torna alla posizione precedente,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Impossibile aggiornare il nome della configurazione. Riprova.,1
 55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Inserisci il testo da cercare,1
+55225,TRACKER_HEADER_INITIATIVE_TASKS,Iniziative,1
+55226,JOURNEYS_OVERVIEW_LABEL,Panoramica,1
 55227,BINDING_NAME_HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE,Modifica l'esterno della casa,1
 55228,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME,Modifica l'esterno della casa,1
 55229,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON,Modifica l'esterno della casa,1
@@ -24226,6 +24324,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55233,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER_FMT,Modifica l'esterno della casa |cnNORMAL_FONT_COLOR:(%s)|r,1
 55234,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT,Esci dall'Editor dell'esterno della casa,1
 55236,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT_FMT,Esci dall'Editor dell'esterno della casa |cnNORMAL_FONT_COLOR:(%s)|r,1
+55237,JOURNEYS_JOURNEY_LOCKED_LABEL,Viaggio bloccato,1
+55238,JOURNEYS_HIGHLIGHT_LABEL,In evidenza nel Viaggio:,1
 55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,Clicca su questo pulsante per entrare nell'Editor della Casa,1
 55243,CLEAN_DECOR_TUTORIAL_TEXT,Clicca una decorazione e premi R per posizionarla nel tuo Forziere della Casa|n|n%s,1
 55244,DECORATE_DECOR_TUTORIAL_TEXT,Clicca o trascina una decorazione dal Forziere della Casa per posizionarla nella tua casa|n|n%s,1
@@ -24239,16 +24339,61 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Modalità non disponibile del tutorial,1
 55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Acquista Midnight per ottenere l'accesso agli Alloggi,1
 55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Acquista Midnight per ottenere l'accesso agli Alloggi,1
+55264,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY,Benefici/Penalità dei PNG nemici,1
+55265,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_TOOLTIP,Controlla come vengono visualizzati i tuoi benefici e penalità sulle barre dei PNG nemici.,1
+55266,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_NONE,No,1
+55267,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS,Benefici dei mostri,1
+55268,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS_TOOLTIP,Mostra gli effetti benefici temporanei applicati sull'unità.,1
+55269,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS,Penalità personali,1
+55270,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS_TOOLTIP,Mostra gli effetti negativi temporanei che tu hai applicato sull'unità.,1
+55271,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL,Effetti di controllo condivisi,1
+55272,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL_TOOLTIP,Mostra gli effetti di controllo delle creature temporanei che tu o i tuoi alleati avete applicato sull'unità.,1
 55273,HOUSING_DASHBOARD_OWNERS_HOUSE,Casa di %s,1
-55274,HOUSING_DASHBOARD_ADDRESS,%s %s,1
+55274,HOUSING_DASHBOARD_ADDRESS,%2$s %1$s,1
 55275,ERR_CHARTER_SIGNATURE_REQUEST_SENT,Hai richiesto a %s di firmare lo Statuto del Vicinato.,1
+55276,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY,Benefici/Penalità dei personaggi nemici,1
+55277,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_TOOLTIP,Controlla come vengono visualizzati i tuoi benefici e penalità sulle barre dei giocatori nemici.,1
+55278,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_NONE,No,1
+55279,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS,Benefici dei nemici,1
+55280,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Mostra gli effetti benefici temporanei applicati al giocatore.,1
+55281,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS,Penalità personali,1
 55282,ERR_CHARTER_SIGNATURE_RECEIVED,%s ha firmato lo Statuto del Vicinato.,1
+55283,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Mostra gli effetti negativi temporanei che tu hai applicato al giocatore.,1
+55284,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Penalità grandi,1
+55286,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Mostra gli effetti di controllo delle creature temporanei che tu o i tuoi alleati avete applicato sul giocatore.,1
+55288,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY,Benefici/Penalità dei giocatori alleati,1
+55289,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_TOOLTIP,"Controlla come vengono visualizzati i tuoi benefici, penalità e abilità di controllo sulle barre dei giocatori alleati.",1
+55290,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_NONE,No,1
+55291,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS,Benefici personali,1
+55292,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Mostra gli effetti positivi temporanei che tu hai applicato al giocatore.,1
+55294,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS,Penalità dei nemici,1
+55295,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Mostra gli effetti negativi temporanei che i nemici hanno applicato al giocatore.,1
+55296,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Penalità grandi,1
+55297,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Mostra gli effetti di controllo delle creature temporanei che i nemici hanno applicato al giocatore.,1
 55298,HOUSING_DASHBOARD_HOUSE_LEVEL,Livello %s,1
+55299,JOURNEYS_CURRENT_PROGRESS,Progressi attuali: |cnHIGHLIGHT_FONT_COLOR:%d / %d|r,1
 55301,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR,PE Casa %s/%s,1
+55307,CHAT_ENCOUNTER_EVENT_GET,,1
+55310,CHAT_MSG_ENCOUNTER_EVENT,Evento Scontro,3
+55311,TRANSMOG_SLOT_WARNING_NOTHING_EQUIPPED,Nessun oggetto equipaggiato idoneo alla trasmogrificazione in questo scomparto.,1
+55312,TRANSMOG_SLOT_WARNING_WRONG_WEAPON_CATEGORY_EQUIPPED,Questo tipo di arma non è attualmente equipaggiato.,1
+55313,TRANSMOG_SLOT_WARNING_INVALID_EQUIPPED_DESTINATION_ITEM,L'oggetto equipaggiato è in uno scomparto non idoneo alla trasmogrificazione.,1
+55314,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE_TOOLTIP,"Aggiungi un effetto alla barra delle unità che aumenta se stai per perdere la minaccia di un nemico come difensore, o se stai per attirare la minaccia di un nemico come assaltatore o guaritore.",1
+55315,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH_TOOLTIP,"La barra lampeggerà se perdi la minaccia di un nemico come difensore, o se attiri la minaccia di un nemico come assaltatore o guaritore.",1
 55316,HOUSING_CREATENEIGHBORHOOD_GUILD_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Sia i personaggi dell'Alleanza che quelli dell'Orda possono acquistare un appezzamento |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Solo i giocatori che appartengono alla tua Gilda possono acquistare un appezzamento |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t I giocatori che non appartengono alla Gilda verranno espulsi dal Vicinato |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Verranno create automaticamente nuove sottosezioni quando il Vicinato sarà pieno,1
 55317,HOUSING_CREATENEIGHBORHOOD_CHARTER_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Sia i personaggi dell'Alleanza che quelli dell'Orda possono acquistare un appezzamento |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t I responsabili del Vicinato possono invitare giocatori nel Vicinato,1
 55318,GAME_MODE_DISABLED_TOOLTIP,Questa modalità di gioco è temporaneamente non disponibile.,3
 55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Informazioni sul Vicinato:,1
+55320,UNIT_NAMEPLATES_INFO_DISPLAY,Informazioni sulla barra,1
+55321,UNIT_NAMEPLATES_INFO_DISPLAY_TOOLTIP,Controlla quali informazioni vengono mostrate sulla barra delle unità.,1
+55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,No,1
+55323,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT,Percentuale salute,1
+55324,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT_TOOLTIP,Mostra la salute attuale dell'unità e la percentuale di salute totale.,1
+55325,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE,Valore di salute,1
+55326,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE_TOOLTIP,Mostra la salute attuale dell'unità.,1
+55327,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON,Icona della rarità,1
+55328,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON_TOOLTIP,Mostra un'icona per le unità élite.,1
+55331,TRANSMOG_RANDOMIZE_APPEARANCE,Aspetto casuale,1
 55333,RPE_TURNSTRAFE_SELECT,Assegna i tasti per il movimento,1
 55334,RPE_TURNSTRAFE_AFFECT_ACCOUNT,Questa scelta avrà effetto su tutti i personaggi che usano l'assegnazione tasti a livello di account,1
 55335,RPE_TURNSTRAFE_AFFECT_CHARACTER,Questa scelta avrà effetto solo su questo personaggio,1
@@ -24264,12 +24409,25 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55358,HOUSING_CORNERSTONE_NEIGHBORHOOD_GUILD,Gilda,1
 55359,HOUSING_NEIGHBORHOODTYPE_GUILD,Gilda,1
 55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Statuto,1
+55361,UNIT_NAMEPLATES_CAST_BAR_DISPLAY,Informazioni sulla barra di lancio,1
+55362,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_TOOLTIP,Controlla quali informazioni vengono mostrate sulle barre di lancio.,1
+55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,No,1
+55365,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME,Nome Incantesimo,1
+55366,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME_TOOLTIP,Mostra il nome dell'incantesimo sulla barra di lancio.,1
+55367,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON,Icona incantesimo,1
+55368,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON_TOOLTIP,Mostra l'icona dell'incantesimo sulla barra di lancio.,1
+55369,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET,Bersaglio Incantesimo,1
+55370,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET_TOOLTIP,Mostra il nome dell'unità presa di mira dall'incantesimo sulla barra di lancio.,1
 55372,HOUSING_DASHBOARD_REWARD_INTERIOR_BUDGET,Budget di posizionamento delle decorazioni interne,1
 55373,HOUSING_DASHBOARD_REWARD_EXTERIOR_BUDGET,Budget di posizionamento delle decorazioni esterne,1
 55374,HOUSING_DASHBOARD_REWARD_ROOM_BUDGET,Budget di posizionamento delle stanze,1
 55375,HOUSING_DASHBOARD_REWARD_FIXTURE_BUDGET,Budget per elementi esterni,1
 55376,HOUSING_DASHBOARD_VISIT_NPC,Fai visita all'Appaltatore Generale nel tuo Vicinato per far progredire di livello la tua casa,1
 55386,HOUSING_DECOR_DYE_LIST,Tinture: %s,1
+55388,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS,Evidenzia i lanci importanti,1
+55389,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS_TOOLTIP,Controlla se le barre di lancio sulle barre dell'unità debbano essere visualizzate in modo più evidente per i lanci importanti.,1
+55390,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET,Evidenzia quando si è bersaglio di un nemico,1
+55391,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET_TOOLTIP,Controlla se le barre di lancio sulle barre dell'unità debbano essere visualizzate in modo più evidente se il tuo personaggio è il bersaglio dell'incantesimo.,1
 55394,HOUSE_PURCHASE,Ti diamo il benvenuto a casa,1
 55398,BUY_HOUSE,Acquista casa,1
 55399,HOUSING_DASHBOARD_START_TUTORIAL_TEXT,Ti do il benvenuto agli Alloggi!,1
@@ -24283,6 +24441,10 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Modalità modifica,1
 55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Opzioni Gestore tempi di recupero,1
 55410,REPORTING_MINOR_CATEGORY_NEIGHBORHOOD_NAME,Nome del Vicinato,5
+55411,TRANSMOG_SLOT_WARNING_PENDING_WEAPON_CHANGES,Questo scomparto degli oggetti ha delle modifiche non confermate in altri tipi di equipaggiamento.,1
+55414,TRANSMOG_OUTFIT_NAME_DEFAULT,Completo,3
+55415,TRANSMOG_CUSTOM_SET_NAME_DEFAULT,Set personalizzato,1
+55416,SPELL_FAILED_CUSTOM_ERROR_2500,Non hai nulla da gettare via.,1
 55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Alleato fissato in cima (scade tra %s),1
 55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
 55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
@@ -24296,7 +24458,13 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
 55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
 55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
+55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Nome del bersaglio,1
+55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Nome Incantesimo,1
+55435,JOURNEYS_MAX_LEVEL_LABEL,Fama massima: livello %d,1
+55436,PVP_TAB_TRAINING_GROUNDS,Campi d'Addestramento,1
+55437,SPELL_FAILED_CUSTOM_ERROR_2501,Richiede Ingegneria.,1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55450,JOURNEYS_MAX_RENOWN_LABEL,Fama massima,1
 55454,ERR_TRAVEL_PASS_GAME_MODE,Questo amico sta giocando con una versione differente di World of Warcraft.,3
 55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Tintura mancante,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Mostra posizione,1
@@ -24309,12 +24477,15 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55487,GAME_MENU_SHOW_REWARDS,Ricompense,1
 55488,CHARACTER_SELECT_SHOW_REWARDS,[PH] Rewards,2
 55489,CHARACTER_SELECT_INFO_BUTTON,[PH] Info,2
-55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Decorazione inappropriata,1
+55490,JOURNEYS_COMPANION_CONFIG_LABEL,Configura,1
+55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Posizionamento decorazione inappropriato,1
 55494,HOUSING_DASHBOARD_REWARD_INTERIOR_TOOLTIP,Aumenta il tuo budget per decorazioni posizionate,1
 55495,HOUSING_DASHBOARD_REWARD_EXTERIOR_TOOLTIP,Aumenta il tuo budget per decorazioni posizionate esterne,1
 55496,HOUSING_DASHBOARD_REWARD_ROOM_TOOLTIP,Aumenta il tuo budget per le stanze posizionate,1
 55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Aumenta il tuo budget per elementi esterni,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,CTRL e pulsante sinistro per l'Assegnazione Rapida,1
+55501,SPELL_FAILED_CUSTOM_ERROR_2502,Richiede almeno 3 accumuli di Tormento.,1
+55504,SPELL_FAILED_CUSTOM_ERROR_2503,Richiede il potenziamento Rete Piccola.,1
 55508,SPELL_FAILED_CUSTOM_ERROR_652,Possiedi già questa decorazione.,1
 55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,Questa funzionalità diventa disponibile dopo aver completato l'Isola dell'Esilio.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,La votazione per abbandonare è in fase di recupero: |cnWHITE_FONT_COLOR:%s restanti|r,1
@@ -24326,6 +24497,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55531,REPORTING_SCREENSHOT_INSTRUCTIONS,Clic sinistro per fare uno screenshot,1
 55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,Non puoi votare per abbandonare un'istanza durante lo scontro con un boss,1
 55537,HOUSING_LAYOUT_NUM_ROOMS_TOOLTIP,Budget di posizionamento delle stanze: |cnNORMAL_FONT_COLOR:|nAumenta la quantità di stanze che puoi posizionare man mano che la tua casa progredisce di livello.|r,1
+55539,GENERIC_CART_PREVIEW_TITLE,Anteprima carrello (%d),1
 55540,HOUSE_UPGRADE_AVAILABLE_TOAST,Casa pronta per progredire di livello,1
 55541,HOUSEFINDER_SEARCH_DESCRIPTION_FAILED,Nessun Vicinato trovato,1
 55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Ripristina,1
@@ -24347,15 +24519,40 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55576,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_MISSING_EXPANSION,Il giocatore che hai invitato non possiede l'espansione Midnight.,1
 55577,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_DUPLICATE_SIGNATURE,Il giocatore che hai invitato ha già firmato un altro Statuto del Vicinato.,1
 55578,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_GENERIC,Qualcosa è andato storto con la richiesta della firma.,1
+55581,COOLDOWN_VIEWER_SETTINGS_ADD_NEW_ALERT,Nuovo avviso,1
+55582,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT,Aggiungi avviso (%d/%d),1
+55583,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_TOO_MANY,Hai raggiunto il numero massimo di avvisi. Devi rimuoverne uno prima di crearne uno nuovo.,1
+55584,COOLDOWN_VIEWER_SETTINGS_CLEAR_ALL_ALERTS,Rimuovi tutti gli avvisi,1
+55585,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_TITLE,Nuovo avviso,1
+55586,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_TYPE,Tipo,1
+55587,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_EVENT,Quando,1
+55588,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_SOUND_TYPE,Avviso sonoro,1
+55591,COOLDOWN_VIEWER_SETTINGS_ALERT_TYPE_SOUND,Suono,1
+55592,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AVAILABLE,Disponibile,1
+55593,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_PANDEMIC,Pandemia,1
+55594,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_ON_COOLDOWN,In recupero,1
+55595,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_CHARGE_GAINED,Carica ottenuta,1
+55596,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING1,Ding 1,1
+55597,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING2,Ding 2,1
+55598,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING3,Ding 3,1
+55599,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_DING4,Ding 4,1
+55600,COOLDOWN_VIEWER_SETTINGS_ALERT_LABEL_SOUND_TYPE_TEXT_TO_SPEECH,Sintesi vocale,1
+55601,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_PREVIEW,Riproduzione suono,1
+55602,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_EDIT,Modifica avviso,1
+55603,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_TOOLTIP_DELETE,Elimina avviso,1
+55604,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_ADD_ALERT,Aggiungi avviso,1
+55605,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_BUTTON_EDIT_EXISTING_ALERT,Applica modifiche,1
 55606,HOUSING_BULLETINBOARD_REPORT,Segnala,1
 55607,HOUSING_CORNERSTONE_REPORT,Segnala,1
 55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,Si è verificato un errore. Riprova.,1
 55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
 55613,RPE_CATCH_UP_AVAILABLE,Recupero disponibile,2
+55614,HOUSING_MARKET_BUNDLE_TITLE_TEXT,Pacchetto,1
 55615,RPE_SELECT_EXPERIENCE,Seleziona esperienza,2
 55616,CATALOG_SHOP_DETAILS,Dettagli,3
 55617,CATALOG_SHOP_BACK,Indietro,3
 55618,CATALOG_SHOP_RACE,Razza,3
+55619,NAMEPLATE_OPTIONS_LABEL,Barre,1
 55620,RPE_EXPERIENCE_SKIP_HEADER,Continua da dove hai lasciato,2
 55621,RPE_EXPERIENCE_LOCATION,Posizione: %s,2
 55622,RPE_EXPERIENCE_SELECT,Seleziona,2
@@ -24366,7 +24563,7 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55634,CATALOG_SHOP_TYPE_SERVICE,Servizio,3
 55635,MOVE_PAD_LOCKED,Blocca finestra,1
 55636,CATALOG_SHOP_TYPE_VC_WARBAND,Valuta Brigata,3
-55637,MOVE_PAD_PRESS_AND_HOLD_MODE,Teni premuto per muoverti,1
+55637,MOVE_PAD_PRESS_AND_HOLD_MODE,Tieni premuto per muoverti,1
 55638,CATALOG_SHOP_TYPE_BUNDLE,Pacchetto da %d oggetti,3
 55640,CATALOG_SHOP_TYPE_DECOR,Decorazione,3
 55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,Quest'oggetto è disponibile solo in %s,3
@@ -24385,7 +24582,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Cavalcatura volante,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Cavalcatura terrestre,3
 55680,GAMEMENU_EXTERNALEVENT,Attività,1
-55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Sblocca questa ricompensa.,1
+55687,SPELL_FAILED_CUSTOM_ERROR_2504,Richiede Condotto di Manacite e Vantacite per sbloccare.,1
+55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Sblocca questa ricompensa,1
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,Non puoi vedere questo personaggio perché si trova in un Livello del Mondo diverso. Puoi cambiare Livello del Mondo alla Console del Caos Infinito presso il Bazar dell'Infinito vicino a Dalaran.,1
 55691,RPE_SKYRIDING_TAKE_OFF,|cnNORMAL_FONT_COLOR:Decolla!|r,1
 55692,RPE_SKYRIDING_FLY_HIGHER,|cnNORMAL_FONT_COLOR:Vola più in alto|r,1
@@ -24395,6 +24593,13 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55696,RPE_SKYRIDING_COMMA,"|cnNORMAL_FONT_COLOR:,|r",1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
 55699,HOUSING_BULLETINBOARD_NEIGHBORHOOD_ROSTER,Elenco membri del Vicinato,1
+55701,HUD_EDIT_MODE_DAMAGE_METER_LABEL,Misuratore dei danni,1
+55702,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY,Visibilità,1
+55703,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_ALWAYS,Sempre visibile,1
+55704,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_IN_COMBAT,In Combattimento,1
+55705,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_HIDDEN,Nascosto,1
+55707,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS,PNG amichevoli,1
+55708,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS_TOOLTIP,PNG che appartengono alla tua stessa fazione.,1
 55709,RPE_SKYRIDING_COLLECTIONS_HELPTIP,Apri la Collezione della Brigata per vedere le tue cavalcature,1
 55710,RPE_SKYRIDING_DRAG_MOUNT_HELPTIP,Clicca e trascina l'icona di qualsiasi cavalcatura sulla tua barra delle azioni.|n|nLe cavalcature sono state filtrate per mostrare solo quelle volanti.,1
 55713,RPE_SKYRIDING_MOUNT_UP,|cnNORMAL_FONT_COLOR:Sali sulla cavalcatura cliccando sull'icona dell'abilità|r,1
@@ -24402,13 +24607,26 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Catalogo,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
+55726,TRANSMOG_CUSTOM_SET_COMPLETE,Completo,1
+55727,TRANSMOG_CUSTOM_SET_INCOMPLETE,Non completo,1
+55729,TRANSMOG_CUSTOM_SET_DRESSING_ROOM,Visualizza nel Guardaroba (esci dalla trasmogrificazione),1
+55730,TRANSMOG_CUSTOM_SET_RENAME,Rinomina,1
+55732,TRANSMOG_CUSTOM_SET_REPLACE,Sostituisci con l'aspetto attuale,1
+55733,TRANSMOG_CUSTOM_SET_DELETE,Elimina,1
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,Devi aver effettuato l'accesso con un personaggio per acquistare un Gettone WoW.,3
+55739,UNIT_NAMEPLATES_DEBUFF_SCALE,Dimensioni benefici/penalità,1
+55740,UNIT_NAMEPLATES_DEBUFF_SCALE_TOOLTIP,Regola le dimensioni della barra di benefici e penalità sullo schermo.,1
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Cavalcatura Acquatica e Volante,3
 55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Scomparto vuoto,1
+55764,POWER_TYPE_LIGHT_ENERGY,Energia,1
+55767,COOLDOWN_VIEWER_SETTINGS_USE_STARTER_LAYOUT,Interfaccia iniziale,1
 55768,HOUSING_ENDEAVORS_COMING_SOON,Le Iniziative arriveranno prossimamente!,1
 55771,CATALOG_SHOP_NOT_AVAILABLE,Negozio non disponibile,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,Controlla più tardi.,3
+55773,HOUSING_PREVIEW_DECOR_WARNING,Il tuo carrello verrà svuotato e tutte le Decorazioni presenti non ancora acquistate saranno rimosse? Vuoi procedere comunque?,1
+55779,SPELL_FAILED_CUSTOM_ERROR_2505,Non puoi farlo mentre sei in un gruppo d'incursione.,1
+55780,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_MAXED_LAYOUTS,Hai raggiunto il numero massimo di interfacce. Devi rimuoverne una prima di crearne una nuova.,1
 55781,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL,Tipo di casa,1
 55782,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL,Dimensioni della casa,1
 55783,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL,Stile di base,1
@@ -24419,39 +24637,125 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 55788,HOUSING_DYE_TOOLTIP_DESCRIPTION,Tintura degli Alloggi,1
 55790,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_LABEL,Costo:,1
 55791,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_LABEL,Scomparto tintura %d,1
+55792,COOLDOWN_VIEWER_SETTINGS_ERROR_TOO_MANY_LAYOUTS_TO_AUTO_MAKE_NEW_LAYOUT,Hai raggiunto il numero massimo di interfacce. Devi rimuoverne una prima di poter salvare automaticamente le modifiche a una nuova interfaccia.,1
+55793,COOLDOWN_VIEWER_SETTINGS_ERROR_INVALID_LAYOUT_NAME,"Non puoi creare un'interfaccia chiamata [%s], seleziona un nome diverso",1
 55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Piccoa,1
 55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,Non in possesso,1
 55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Non puoi rimuovere le porte, puoi solo spostarle in un posto diverso",1
 55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Opzioni aggiuntive presto in arrivo,1
 55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,Visualizza le informazioni sulla tua casa qui,1
 55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,Puoi teletrasportarti a casa tua usando questo pulsante,1
+55803,BUFF_TOOLTIP_TRANSMOG,L'aspetto delle tue armi e della tua armatura è stato trasmogrificato.,1
+55804,COOLDOWN_VIEWER_SETTINGS_ACTION_CHANGE_CATEGORY,Non puoi cambiare la categoria: %s,1
+55805,COOLDOWN_VIEWER_SETTINGS_ACTION_CHANGE_ORDER_INDEX,Non puoi cambiare l'ordine dei tempi di recupero: %s,1
+55806,COOLDOWN_VIEWER_SETTINGS_ACTION_ADD_LAYOUT,Non puoi cambiare l'ordine dei tempi di recupero: %s,1
+55807,COOLDOWN_VIEWER_SETTINGS_ACTION_ADD_ALERT,Non puoi aggiungere un avviso per il tempo di recupero: %s,1
+55808,TRANSMOG_CUSTOM_SET_CONFIRM_DELETE,Vuoi davvero eliminare il set personalizzato %s?,1
+55809,TRANSMOG_CUSTOM_SET_NONE,Nessun set personalizzato,1
+55810,TRANSMOG_CUSTOM_SET_EDIT,Rinomina/Elimina,1
+55811,TRANSMOG_CUSTOM_SET_NEW,Nuovo set personalizzato,1
+55812,TRANSMOG_CUSTOM_SET_NAME,Inserisci il nome del set personalizzato:,1
+55813,TRANSMOG_CUSTOM_SET_EDIT_DELETE,Elimina set personalizzato,1
+55814,TRANSMOG_CUSTOM_SET_ALREADY_EXISTS,Esiste già un set personalizzato con questo nome.,1
+55815,TRANSMOG_CUSTOM_SET_CONFIRM_OVERWRITE,Hai già un set personalizzato chiamato %s. Vuoi sovrascriverlo?,1
+55816,LINK_TRANSMOG_CUSTOM_SET,Collega set personalizzato,1
+55817,TRANSMOG_CUSTOM_SET_POST_IN_CHAT,Pubblica nella chat,1
+55818,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD,Copia negli appunti |cffffd100(per condividere online)|r,1
+55819,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD_NOTICE,Collegamento al set personalizzato copiato negli appunti,1
+55820,LINK_TRANSMOG_CUSTOM_SET_HELPTIP,Condividi questo set personalizzato nella chat oppure online,1
+55821,TRANSMOG_CUSTOM_SET_LINK_INVALID,Collegamento al set personalizzato non valido.,1
+55822,TRANSMOG_CUSTOM_SET_CHECKING_APPEARANCES,Controllo dell'aspetto...,1
+55823,TRANSMOG_CUSTOM_SET_ALL_INVALID_APPEARANCES,Non puoi salvare questo set personalizzato perché nessuno degli aspetti selezionati può essere trasmogrificato dal tuo personaggio.,1
+55824,TRANSMOG_CUSTOM_SET_SOME_INVALID_APPEARANCES,Uno o più aspetti selezionati non verranno salvati in questo set personalizzato perché non possono essere trasmogrificati dal tuo personaggio.,1
+55825,TRANSMOG_CUSTOM_SET_HYPERLINK_TEXT,|T1598183:13:13:-1:0|tSet personalizzato,1
 55826,HOUSING_MARKET_TAB_TUTORIAL_TEXT,La sezione Catalogo ti permette di visualizzare una decorazione prima di posizionarla in casa tua,1
 55830,ERR_HOUSING_ACTION_UNAVAILABLE,Quest'azione non è disponibile ora,1
+55835,UNIT_NAMEPLATES_DEBUFF_PADDING,Distanza penalità,1
+55836,UNIT_NAMEPLATES_DEBUFF_PADDING_TOOLTIP,Controlla lo spazio verticale tra le penalità e la barra della salute.,1
+55855,WEEKLY_REWARDS_DELVE_TIER_INFO,- Grado %1$d (%2$d),1
+55856,WEEKLY_REWARDS_DELVE_TIER_AND_WORLD_INFO,- Grado %1$d e attività nel mondo esterno (%2$d),1
+55857,SPELL_FAILED_CUSTOM_ERROR_2506,Non hai abbastanza chiavi.,1
 55858,AUCTION_CATEGORY_HOUSING,Alloggi,1
 55860,RECENT_ALLY_PIN_TOOLTIP,Alleato fissato,1
 55861,HOUSING_DECOR_PLACEMENT_COST_FORMAT,|A:House-Decor-budget-icon:21:21|a %d,1
 55862,HOUSING_DECOR_FIRST_ACQUISITION_FORMAT,Bonus prima raccolta: |cnHIGHLIGHT_FONT_COLOR:+%d PE Casa|r,1
 55863,HOUSING_DECOR_DYED_NAME_FORMAT,%s (Tinta applicata),1
+55865,HOUSING_PREVIEW_DECOR_UNSUPPORTED_MODE,Non disponibile durante l'anteprima della decorazione.,1
+55872,RACE_INFO_HARRONIR,"La Dea Aln'hara è stata sottratta dalla sua culla molto prima che gli Haranir arrivassero a proteggere la sua terra. Hanno tenuto la sua presenza all'oscuro dal mondo finché la giovane profetessa, Orweyna, non è stata chiamata in aiuto dei popoli di Azeroth e ha rivelato la sotterranea e selvaggia terra di Harandar. Ora, alcuni giovani Haranir hanno iniziato la caccia per trovare la loro Dea, ammirare tutte le sue creazioni e scatenare la loro furia incontrastata contro chiunque voglia minacciarla. ",3
+55874,RACE_INFO_HARRONIR_FEMALE,"La Dea Aln'hara è stata sottratta dalla sua culla molto prima che gli Haranir arrivassero a proteggere la sua terra. Hanno tenuto la sua presenza all'oscuro dal mondo finché la giovane profetessa, Orweyna, non è stata chiamata in aiuto dei popoli di Azeroth e ha rivelato la sotterranea e selvaggia terra di Harandar. Ora, alcuni giovani Haranir hanno iniziato la caccia per trovare la loro Dea, ammirare tutte le sue creazioni e scatenare la loro furia incontrastata contro chiunque voglia minacciarla. ",3
 55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,"In possesso: |cnHIGHLIGHT_FONT_COLOR:%d (Posizionate: %d, Magazzino: %d)|r",1
 55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Cambiare lo stile dei muri può influenzare le decorazioni appese al muro.,1
+55886,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE,Vuoi davvero sbloccare questo talento?,1
+55892,MONSTER_BOSS_WARNING,Avviso boss,1
+55893,ENCOUNTER_EVENT,Avviso boss,1
+55911,UNITNAME_SUMMON_TITLE60,Guscio di %s,1
+55916,PET_FILTER_BATTLE_PETS,Mascotte da Combattimento,1
+55917,PET_FILTER_NON_COMBAT_PETS,Mascotte pacifiche,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Acquisto/i in sospeso,3
 55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Imbottitura borsa,1
+55922,PET_FILTER_TYPES,Tipo,1
+55923,HUD_EDIT_MODE_ENCOUNTER_EVENTS_LABEL,Avvisi boss,1
+55924,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION,Orientamento,1
+55925,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION_HORIZONTAL,Orizzontale,1
+55926,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ORIENTATION_VERTICAL,Verticale,1
+55927,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION,Direzione icona,1
+55928,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_LEFT,Sinistra,1
+55929,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_RIGHT,Destra,1
+55930,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_TOP,Cima,1
+55931,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_BOTTOM,Fondo,1
+55932,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY,Visibilità,1
+55933,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_ALWAYS,Sempre visibile,1
+55934,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_IN_ENCOUNTER,Incontro attivo,1
+55935,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_HIDDEN,Nascosto,1
+55936,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_SIZE,Dimensioni icona,1
+55937,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_OVERALL_SIZE,Dimensioni,1
+55938,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_BACKGROUND,Sfondo,1
+55939,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TRANSPARENCY,Opacità,1
+55940,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_SPELL_NAME,Mostra nome incantesimo,1
+55941,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TOOLTIPS,Mostra descrizioni,1
+55942,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TIMER,Mostra timer,1
+55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Linea temporale boss,1
+55944,COMBAT_WARNINGS_LABEL,Avvisi boss,1
+55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Attiva linea temporale boss,1
+55946,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_TOOLTIP,Attiva per vedere importanti abilità dei boss in un elemento dell'interfaccia separato.,1
+55947,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS,Avviso boss - Critico,1
+55948,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS,Avviso boss - Medio,1
+55949,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_NORMAL_WARNINGS,Avviso boss - Minore,1
+55951,SPELL_DIMINISH_PVP_ENABLE_SETTING_LABEL,Tracciamento diminuzione degli effetti,1
+55952,SPELL_DIMINISH_PVP_ENABLE_SETTING_TOOLTIP,Attiva il tracciamento della diminuzione degli effetti per il controllo delle creature nei riquadri delle unità nemiche.,1
+55953,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_LABEL,Solo lanciabili da me,1
+55954,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_TOOLTIP,Limita le icone della diminuzione degli effetti a quelle associate alle abilità che puoi lanciare.,1
 55955,HOUSING_LAYOUT_STAIRS_UP,Su,1
 55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,Seleziona una direzione per le tue nuova scale:,1
 55957,HOUSING_LAYOUT_STAIRS_DOWN,Giù,1
-55960,HOUSE_UPGRADE_AVAILABLE_TOAST_SUB_TITLE_FORMAT,%d %s - Livello %d,1
+55960,HOUSE_UPGRADE_AVAILABLE_TOAST_SUB_TITLE_FORMAT,%2$s %1$d - Livello %3$d,1
 55963,ERR_PLACED_ROOM_LIMIT_REACHED,Hai raggiunto il limite di stanze. Rimuovi una stanza per aggiungerne altre.,1
 55964,HOUSING_LAYOUT_UP_DOOR_TOOLTIP,Espandi le scale verso l'alto,1
 55965,HOUSING_LAYOUT_DOWN_DOOR_TOOLTIP,Espandi le scale verso il basso,1
+55966,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS,Barre dei PNG amichevoli,1
+55967,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS_TOOLTIP,Mostra le barre delle unità dei PNG amichevoli,1
+55977,UNIT_NAMEPLATES_STACK_ENEMY_UNITS,Unità nemiche,1
+55978,UNIT_NAMEPLATES_STACK_ENEMY_UNITS_TOOLTIP,Impila le barre delle unità nemiche.,1
+55979,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS,Unità amichevoli,1
+55980,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS_TOOLTIP,Impila le barre delle unità amichevoli.,1
+55981,UNIT_NAMEPLATES_STACK_NONE,No,1
 55983,EXILESREACH_SKIP_CONFIRM,"Saltando l'Isola dell'Esilio, ti perderai informazioni importanti su come giocare.|n|nVuoi davvero farlo?",1
+55984,HOUSING_ENDEAVORS_DISABLED,Le Iniziative sono attualmente disattivate.,1
+55994,SPELL_FAILED_CUSTOM_ERROR_2508,Non hai abbastanza padronanza della vilmagia.,1
+55995,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_LABEL,PE Casa,1
 55996,RPE_ASSISTED_HIGHLIGHT_TURN_OFF,Disattiva,1
 55997,RPE_ASSISTED_HIGHLIGHT_KEEP_ON,Tieni attiva,1
 55998,RPE_ASSISTED_HIGHLIGHT_ACTIVATED,|cnNORMAL_FONT_COLOR:L'Illuminazione Assistita è stata attivata: le abilità|nconsigliate verranno messe in evidenza sulle barre delle azioni|r,1
 55999,RPE_ASSISTED_HIGHLIGHT_TURN_CHOICE,"Tenere attiva l'Illuminazione Assistita?|n|n|cnNORMAL_FONT_COLOR:Durante l'esperienza di Recupero, l'Illuminazione Assistita era attiva ed evidenziava la prossima abilità da usare sulle barre delle azioni.|n|nVuoi continuare a tenerla attiva?|rPuoi modificare questa scelta nelle opzioni in qualsiasi momento.",1
+56001,ERR_TRANSMOG_OUTFIT_SLOT_CANNOT_AFFORD,Non puoi permettertelo.,1
+56028,HOUSING_DASHBOARD_TRACK_ENDEAVOR_LABEL,Traccia,1
+56029,HOUSING_DASHBOARD_UNTRACK_ENDEAVOR_LABEL,Non tracciare,1
+56036,SPELL_FAILED_CUSTOM_ERROR_1108,Richiede il Mazzuolo Fungino,1
 56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Pannello dell'Alloggio,1
 56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Catalogo delle Decorazioni,1
 56044,HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP,Informazioni sulla casa,1
 56053,ERR_CHARTER_SYSTEM_REQUEST_FAILED_GENERIC,Si è verificato un errore col sistema dello Statuto. Riprova più tardi.,1
+56056,HOUSING_MARKET_ADD_TO_CART,Aggiungi al carrello,1
 56057,HOUSING_DECOR_DYE_NOT_ENOUGH_DYE,Non possiedi la tintura richiesta,1
 56058,HOUSING_HOUSE_XP_ADDED_FORMAT,PE Casa aumentati del %d,1
 56059,HOUSING_CATALOG_FILTERS_FIRST_ACQUISITION,Bonus raccolta,1
@@ -24459,11 +24763,27 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56061,HOUSING_CATALOG_FILTERS_COLLECTED,Ottenute,1
 56062,HOUSING_DECOR_BUNDLE_DISCLAIMER,Questo oggetto è contenuto in uno o più pacchetti,1
 56063,HOUSING_DECOR_PRICE_FORMAT,Prezzo: %s,1
+56064,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BUFFBAR_WIDTH_SCALE,Larghezza barra,1
 56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s ||TInterface\Icons\Ability_FelArakkoa_EyeofTerrok.blp:24|t,1
+56068,TRANSMOG_SET_COMPLETE,Completo,1
+56069,TRANSMOG_SET_INCOMPLETE,Non completo,1
 56072,RPE_SPELL_INTERRUPT,|cnNORMAL_FONT_COLOR:Non è possibile interrompere le barre degli incantesimi protette|r,1
+56076,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_NOT_AVAILABLE,|cnRED_FONT_COLOR:Questa funzionalità non è attualmente disponibile.|r,1
+56077,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_LABEL,Attiva avvisi testuali,1
+56078,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:Questa funzionalità non è attualmente disponibile.|r,1
+56079,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_TOOLTIP,Attiva la visualizzazione dei messaggi d'avviso delle abilità dei boss al centro dello schermo.,1
+56080,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_LABEL,Nascondi quando non sei bersaglio,1
+56081,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_TOOLTIP,Nascondi gli avvisi dei Boss che non hanno te come bersaglio.,1
+56087,PROFESSIONS_PATRON_ORDERS_TAB_TOOLTIP_NAME,Ordini dei Clienti di %s,1
 56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,Impossibile posizionare a causa di una collisione,1
 56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,Premi %s per ignorare gli effetti di collisione,1
 56092,HOUSING_PLACEMENT_OUTSIDE_PLOT_ERROR_TITLE,Impossibile posizionare fuori dall'appezzamento,1
+56094,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_ANIMALS,Animali,1
+56095,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_DEVICES,Dispositivi,1
+56096,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_INSTRUMENTS,Strumenti,1
+56097,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_IMPACTS,Impatto,1
+56098,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_WAR2,Warcraft 2,1
+56099,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_WAR3,Warcraft 3,1
 56104,NPE_TAB_TARGETING,|cnNORMAL_FONT_COLOR:Prende di mira|r un nemico vicino,1
 56106,HOUSING_NEIGHBORHOOD_SETTINGS_COST,Costo: 1,1
 56107,CHAR_DELETE_FAILED_NEIGHBORHOOD_OWNER,Questo personaggio è il proprietario di un Vicinato e non può essere eliminato finché la proprietà del Vicinato non viene trasferita a un altro personaggio.,2
@@ -24478,9 +24798,16 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56121,NEIGHBORHOOD_NAME_FORMAT,%3$s %2$s %1$s,1
 56152,HOUSING_CHEST_SORT_TYPE_DATE_ADDED,Data di aggiunta,1
 56153,HOUSING_CHEST_SORT_TYPE_ALPHABETICAL,Alfabetico,1
+56159,REAGENT_TOOLTIP_ALLOCATION_REQUIREMENT,Richiede %d %s,1
+56160,TRANSMOG_SET_GRANTS_PRECEDING_VARIANTS,Completare questo aspetto sblocca anche tutte le varianti precedenti.,1
 56163,HOUSING_CATALOG_MODEL_PREVIEW_UNAVAILABLE,Anteprima non disponibile,1
+56177,ENABLE_DAMAGE_METER,Attiva Misuratore dei danni,1
+56178,ENABLE_DAMAGE_METER_TOOLTIP,Attiva per visualizzare le tue prestazioni e quelle del tuo gruppo in combattimento,1
+56179,DAMAGE_METER_LABEL,Misuratore dei danni,1
+56180,REAGENT_COST_CONSUME_ITEMS_RANGE,%s (%d-%d),1
 56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,"La casa che stai cercando di visitare ha raggiungo il numero massimo di visitatori. Prima che tu possa entrare, uno o più personaggi devono uscire.",1
 56183,RPE_NO_INTERRUPT_ACTION,Aggiunge un'abilità d'interruzione dal tuo Grimorio alla barra delle azioni,1
+56187,PROFESSIONS_TRACKER_REAGENT_RANGE_FORMAT,(%d-%d),1
 56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,Gli esterni della casa devono sempre avere esattamente una porta,1
 56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,Il nodo dell'elemento fisso è già vuoto,1
 56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,Un elemento fisso è già applicato a questo nodo,1
@@ -24492,8 +24819,25 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Troppo distante,1
 56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,Attualmente non sei in Modalità Personalizzazione Esterni,1
 56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,Questa decorazione non può essere cancellata dal tuo Forziere della Casa,1
+56207,TIERED_ENTRANCE_ILVL_SUGGESTION,Livello oggetti consigliato: %d.,1
+56208,TIERED_ENTRANCE_LOCKED_DEFAULT_TOOLTIP_DELVE,Richiede il completamento di una Scorribanda di Grado %d con vite rimaste.,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,Conversione del personaggio non disponibile in questo reame,2
 56210,CHAR_DELETE_FAILED_HOUSE_OWNER,Questo personaggio possiede una casa e non può essere cancellato,2
+56216,SPELL_DIMINISH_SECTION_HEADER_LABEL,Diminuzione degli effetti,1
+56218,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE,Stile,1
+56219,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_DEFAULT,Predefinito,1
+56220,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_THIN,Sottile,1
+56221,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS,Numeri,1
+56222,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_MINIMAL,Minimalista,1
+56223,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_COMPACT,Compatto,1
+56224,HUD_EDIT_MODE_SETTING_DAMAGE_METER_NUMBERS_COMPLETE,Completo,1
+56225,HUD_EDIT_MODE_SETTING_DAMAGE_METER_FRAME_WIDTH,Larghezza riquadro,1
+56226,HUD_EDIT_MODE_SETTING_DAMAGE_METER_FRAME_HEIGHT,Altezza riquadro,1
+56227,HUD_EDIT_MODE_SETTING_DAMAGE_METER_PADDING,Riempimento,1
+56228,HUD_EDIT_MODE_SETTING_DAMAGE_METER_TRANSPARENCY,Opacità,1
+56229,HUD_EDIT_MODE_SETTING_DAMAGE_METER_LOCK_SCROLL,Blocca scorrimento,1
+56230,HUD_EDIT_MODE_SETTING_DAMAGE_METER_SHOW_SPEC_ICON,Mostra icona specializzazione,1
+56231,HUD_EDIT_MODE_SETTING_DAMAGE_METER_SHOW_CLASS_COLOR,Mostra colore classe,1
 56232,BINDING_NAME_HOUSING_BASICDECOR_ROTATELEFT,Ruota decorazione a sinistra,1
 56233,BINDING_NAME_HOUSING_BASICDECOR_ROTATERIGHT,Ruota decorazione a destra,1
 56234,HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION,Ruota a destra,1
@@ -24509,6 +24853,9 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56257,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_FLOOR,Personalizza pavimento,1
 56258,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_STAIRS,Personalizza scale,1
 56259,HOUSING_LAYOUT_PREFAB_ROOM_TOOLTIP,Stanza artigianale,1
+56260,SPELL_FAILED_CUSTOM_ERROR_2510,Devi indossare il Vestito da Murloc di Scorta.,1
+56266,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_FRAME_LABEL,Riquadro difese esterne,1
+56267,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_LABEL,Difese esterne,1
 56268,HOUSING_SUBDIVISION_FORMAT,Rione %d,1
 56269,HOUSING_HOUSEFINDER_WRONG_FACTION,Il personaggio è della fazione sbagliata per poter acquistare una casa in questo Vicinato,1
 56270,HOUSING_HOUSEFINDER_CHARTER_INVITE,Hai ricevuto un invito in questo Statuto del Vicinato,1
@@ -24516,6 +24863,23 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56273,HOUSING_HOUSEFINDER_CANCEL_INVITATION,Vuoi davvero rifiutare l'invito in questo Vicinato?,1
 56274,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CONFIRM,Declina,1
 56275,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CANCEL,Annulla,1
+56279,COMBAT_WARNINGS_ENABLE_LABEL,Attiva avvisi boss,1
+56280,COMBAT_WARNINGS_ENABLE_TOOLTIP,Attiva avvisi boss mostrati come elementi di interfaccia.,1
+56281,COMBAT_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:Questa funzionalità non è attualmente disponibile.|r,1
+56283,HUD_EDIT_MODE_SETTING_AURA_FRAME_OPACITY,Opacità,1
+56284,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING,Visibilità,1
+56285,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_ALWAYS,Sempre visibile,1
+56286,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_IN_COMBAT,In combattimento,1
+56287,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_HIDDEN,Nascosto,1
+56288,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_LABEL,Priorità critica,1
+56289,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_SELECTION,Critica,1
+56290,COMBAT_WARNINGS_TEXT_LEVEL_CRITICAL_TOOLTIP,Mostra solo gli avvisi testuali con priorità critica.,1
+56291,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_LABEL,Priorità media,1
+56292,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_SELECTION,Critica o media,1
+56293,COMBAT_WARNINGS_TEXT_LEVEL_MEDIUM_TOOLTIP,Mostra solo gli avvisi testuali con priorità critica o media.,1
+56294,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_LABEL,Tutti gli avvisi,1
+56295,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_SELECTION,Tutti gli avvisi,1
+56296,COMBAT_WARNINGS_TEXT_LEVEL_MINOR_TOOLTIP,Mostra tutti gli avvisi testuali.,1
 56306,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE,Impostazioni della casa non disponibili,1
 56307,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE_FMT,Impostazioni della casa non disponibili: %s,1
 56311,ERR_HOUSING_RESULT_CHARTER_COMPLETE,Questo Statuto è già stato completato,1
@@ -24548,8 +24912,8 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,Decorazioni posizionate: %d/%d |cnNORMAL_FONT_COLOR:|nFai progredire di livello la tua casa per aumentare il budget di posizionamento.|r,1
 56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Decorazioni posizionate: %d/%d,1
 56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,|cnGREEN_FONT_COLOR:Clicca per selezionare o rimuovere una tintura|r,1
-56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Applica lo stile attualmente selezionato all'intera stanza.,1
-56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Applica il materiale attualmente selezionato a tutti i muri della stanza.,1
+56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Applica lo stile a tutti i muri della stanza attuale.,1
+56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Applica il materiale a tutti i muri della stanza attuale.,1
 56346,HOUSING_LAYOUT_NUM_ROOMS_ERROR_TOOLTIP, |cnNORMAL_FONT_COLOR:|nBudget di posizionamento delle stanze: %d/%d|nAumenta la quantità di stanze che puoi posizionare man mano che la tua casa progredisce di livello.|r,1
 56347,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_ABOVE,C'è già una stanza sopra,1
 56348,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_BELOW,C'è già una stanza sotto,1
@@ -24564,38 +24928,619 @@ e diffondere le sue fiamme su tutta Azeroth.",1
 56357,BINDING_NAME_HOUSING_LAYOUTFLOOR_UP,Passa al piano superiore,1
 56358,BINDING_NAME_HOUSING_LAYOUTFLOOR_DOWN,Passa al piano inferiore,1
 56359,HOUSING_CONTROLS_SETTINGS_TOOLTIP,Impostazioni e Permessi,1
+56360,RACE_CLASS_UNLOCK_TEXT,Come sbloccare questa classe per la razza selezionata:,3
+56365,TRANSMOG_ARTIFACT_OPTIONS_HEADER,Rimozione Artefatto di Legion,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- Attualmente non disponibile per i Corridori nel Tempo.,3
+56578,ACCESSIBILITY_AUDIO_LABEL,Audio assistito,1
+56580,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_LABEL,Nascondi conti alla rovescia lunghi,1
+56581,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_TOOLTIP,Mostra solo i conti alla rovescia sulla linea temporale che terminano in pochi secondi.,1
 56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,La modalità Anteprima catalogo non è attualmente disponibile.,1
+56583,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_PLAY_SAMPLE,Riproduci esempio,1
+56584,ENABLE_COMBAT_WARNINGS_SOUNDS,Suoni avviso boss,1
+56585,ENABLE_COMBAT_WARNINGS_SOUNDS_TOOLTIP,Attiva o disattiva i suoni di avviso dei boss.,1
+56586,COMBAT_WARNINGS_SOUND_VOLUME,Volume avviso boss,1
+56587,COMBAT_WARNINGS_SOUND_VOLUME_TOOLTIP,Regola il volume dei suoni di avviso dei boss.,1
+56588,COMBAT_WARNINGS_SETTINGS,Impostazioni avvisi boss,1
 56589,BINDING_NAME_HOUSING_REMOVEDECOR,Rimuovi decorazione,1
+56590,SPELL_FAILED_CUSTOM_ERROR_2511,Richiede l'impresa Ricognizione di Midnight per l'utilizzo in quest'area.,1
 56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Cremisi,1
 56598,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_GREEN,Foresta,1
 56599,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PURPLE,Viola,1
 56600,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_ORANGE,Ruggine,1
 56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Oceano,1
-56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Ocra,1
+56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Senape,1
 56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Noce moscata,1
+56626,UNIT_NAMEPLATES_SHOW_CAST_BARS,Barre degli incantesimi sulle barre dei nomi,1
+56627,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_CAST_BARS,Attiva per visualizzare la barra degli incantesimi sulle barre dei nomi delle unità.,1
 56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Costo di posizionamento delle decorazioni |cnNORMAL_FONT_COLOR:|nQuanto posizionare questo elemento incide sul budget di posizionamento delle decorazioni|r,1
+56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,Questa scelta influenzerà tutti i personaggi nella tua Brigata. |n|n|cffffd200Continuare?|r,1
+56643,HOUSING_PLACEMENT_PREVIEW_LIMIT_REACHED,"Hai raggiunto il limite di anteprima. Per aggiungere altre decorazioni, rimuovi uno o più oggetti esistenti.",1
 56644,ERROR_SCRIPT_EXECUTION_HALT,La segnalazione degli errori è ora in pausa e riprenderà dopo aver riavviato l'interfaccia.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Lo script di ""%s"" ha superato il suo limite di tempo di esecuzione.",3
 56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
 56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,"Posizionate: %d, Magazzino: %d",1
+56660,TRANSMOG_OUTFITS_HELPTIP,"Crea completi per modificare l'aspetto delle armi e dell'armatura equipaggiata.\n\nAggiungi completi alle barre delle azioni per controllarli manualmente, oppure imposta delle situazioni in cui il completo cambia automaticamente.",1
+56662,TRANSMOG_SETS_HELPTIP,Crea completi dagli aspetti di Set che hai ottenuto.,1
+56663,TRANSMOG_CUSTOM_SETS_HELPTIP,Crea completi da zero con i tuoi Set personalizzati.,1
+56665,TRANSMOG_SITUATIONS_HELPTIP,Configura le opzioni per quando passi automaticamente al completo selezionato.,1
+56666,TRANSMOG_WEAPON_OPTIONS_HELPTIP,Puoi assegnare aspetti diversi ai vari tipi di armi che equipaggi.,1
+56669,CHAT_TTS_LABEL,Sintesi vocale in chat,1
+56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Avvisi audio in combattimento,1
+56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Attiva gli avvisi audio in combattimento,1
+56673,CAA_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Combat Audio Alerts Tooltip,1
+56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,Abilita l'uso degli avvisi audio in combattimento. Quest'opzione può essere attivata e disattivata usando il comando di chat /ttscombat.,1
+56675,CAA_SAY_PLAYER_HEALTH_LABEL,Avvisi audio salute,1
+56676,EVERY_X_PERCENT,Ogni %d%%,1
+56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Annuncia la tua salute quando supera determinate percentuali,1
+56678,CAA_SAY_TARGET_HEALTH_LABEL,Avvisi audio salute bersaglio,1
+56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Annuncia la salute del tuo bersaglio quando supera determinate percentuali,1
 56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:Bonus prima raccolta disponibile|r,1
+56689,UNIT_NAMEPLATES_STYLE_MODERN,Moderno,1
+56690,SPELL_FAILED_CUSTOM_ERROR_2512,Il patarospo non ti riconosce come suo simile.,1
+56691,HOUSING_MARKET_BUNDLE_PREVIEW_DETAILS,Visualizzando l'anteprima di una decorazione aggiungerai questo pacchetto al carrello.,1
+56695,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_NO_VALID,Questo elemento non supporta nessun tipo di avviso,1
+56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Altezza barra,1
+56702,TRANSMOG_HELP_1,Inizia selezionando un |cnBRIGHTBLUE_FONT_COLOR:completo|r da personalizzare.\n\nPuoi usare l'oro per acquistare completi aggiuntivi.,1
+56703,TRANSMOG_HELP_2,"Assegna gli aspetti in qualsiasi slot equipaggiamento in un completo per modificare l'aspetto dell'equipaggiamento in quello slot.\n\nAssegnare o aggiornare l'aspetto richiede oro; una volta salvato, puoi passare al completo senza alcun costo.",1
+56704,TRANSMOG_HELP_3,Seleziona gli aspetti o i set per personalizzare il completo.\n\nPuoi configurare i completi a cui passare in automatico assegnando regole specifiche nella sezione |cnBRIGHTBLUE_FONT_COLOR:Situazioni|r.,1
+56707,SPELL_FAILED_CUSTOM_ERROR_2513,Hai bisogno del Bottino del Cacciatore di Tesori per aprire questo forziere.,1
+56708,DAMAGE_METER_TYPE_DAMAGE_DONE,Danni inflitti,1
+56709,DAMAGE_METER_TYPE_DPS,DPS,1
+56710,DAMAGE_METER_TYPE_HEALING_DONE,Cure fornite,1
+56711,DAMAGE_METER_TYPE_HPS,CPS,1
+56712,DAMAGE_METER_CATEGORY_DAMAGE,Danni,1
+56713,DAMAGE_METER_CATEGORY_HEALING,Cure,1
+56714,DAMAGE_METER_OPEN_SETTINGS,Impostazioni,1
+56715,DAMAGE_METER_OPEN_EDIT_MODE,Modalità modifica,1
+56716,DAMAGE_METER_HIDE_WINDOW,Elimina finestra,1
+56717,DAMAGE_METER_SHOW_NEW_WINDOW,Crea nuova finestra,1
+56719,DAMAGE_METER_CURRENT_SESSION,Segmento attuale,1
+56720,DAMAGE_METER_OVERALL_SESSION,Generale,1
+56721,TEXT_TO_SPEECH_SHORT,TTS,1
+56722,CAA_SAY_HEALTH_FORMAT_FULL,Salute: %d percento,1
+56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Salute: %d,1
+56724,CAA_SAY_HEALTH_FORMAT_NO_HEALTH,%d percento,1
+56725,CAA_SAY_PLAYER_HEALTH_FORMAT_LABEL,Formato,1
+56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,"Scegli la formulazione che verrà usata per indicare la tua salute, usando il 20% come esempio",1
+56730,CAA_SAY_HEALTH_FORMAT_NUM_ONLY,%d,1
+56731,CAA_SAY_TARGET_HEALTH_FORMAT_FULL,Bersaglio: %d percento,1
+56732,CAA_SAY_TARGET_HEALTH_FORMAT_NO_PERCENT,Bersaglio: %d,1
 56733,HOUSEFINDER_AVAILABLE,Disponibile,1
 56734,HOUSEFINDER_FRIEND,Amico,1
+56735,HUD_EDIT_MODE_SETTING_DAMAGE_METER_TEXT_SIZE,Dimensioni testo,1
 56736,HOUSING_ADVANCED_MODE_TUTORIAL_TEXT,"La Modalità Avanzata ti offre un controllo aggiuntivo sulle decorazioni usando Sposta, Ruota e Ridimensiona.",1
 56737,HOUSING_CLEANUP_MODE_TUTORIAL_TEXT,La Modalità Pulizia ti permette di rimuovere rapidamente più decorazioni dal tuo Alloggio.,1
 56738,HOUSING_MODES_TUTORIAL_TEXT,Hai a disposizione diverse modalità per decorare il tuo Alloggio come preferisci!,1
 56739,HOUSING_LAYOUT_MODE_STAIRS_TUTORIAL_TEXT,"Aggiungendo una Stanza con Scale potrai creare piani aggiuntivi, ai quali potrai accedere da qui!",1
+56740,DAMAGE_METER_CURRENT_SESSION_SHORT,C,1
+56741,DAMAGE_METER_OVERALL_SESSION_SHORT,G,1
+56742,COOLDOWN_VIEWER_SETTINGS_COPY_TO_CLIPBOARD_NOTICE,"Copiata negli appunti l'interfaccia ""%s"" del tempo di recupero.",1
 56743,CATALOG_SHOP_DYNAMIC_BUNDLE_DISCOUNT,Include sconti per gli articoli già in tuo possesso.,3
 56744,BINDING_NAME_HOUSING_EXPERTDECORROTATION_NEXTAXIS,Passa all'asse di rotazione successivo,1
 56745,ERR_GUILD_NEIGHBORHOOD_BUILT_HOUSE_S,%s ha costruito un Alloggio!,1
 56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s ha abbandonato il Vicinato.,1
 56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,Il tuo Vicinato di Gilda ha ottenuto un nuovo Rione!,1
 56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,Il tuo Vicinato di Gilda è stato rinominato in %s,1
+56749,SPELL_FAILED_CUSTOM_ERROR_2514,Il tuo bersaglio è già stato indebolito da Essenza di Carogna.,1
 56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Acquisti totali: %s,3
+56755,CAA_SPEAKER_VOICE_LABEL,Voce avvisi combattimento,1
+56756,CAA_SPEAKER_VOICE_TOOLTIP,Scegli la voce principale per gli avvisi audio in combattimento,1
+56757,CAA_SPEAKER_SPEED_LABEL,Velocità avvisi combattimento,1
+56758,CAA_SPEAKER_SPEED_TOOLTIP,Modifica la velocità dei discorsi per gli avvisi audio in combattimento,1
+56759,CAA_SPEAKER_VOLUME_LABEL,Volume avvisi combattimento,1
+56760,CAA_SPEAKER_VOLUME_TOOLTIP,Scegli il volume principale per gli avvisi audio in combattimento,1
+56761,CAA_SAMPLE_TEXT,Testo di esempio,1
+56762,CAA_SAY_PLAYER_HEALTH_THROTTLE_LABEL,Limite,1
+56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,Limita l'intervallo tra gli avvisi sulla salute per ridurre le notifiche,1
+56764,CAA_SAY_TARGET_HEALTH_THROTTLE_LABEL,Limite,1
+56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,Limita l'intervallo tra gli avvisi sulla salute del bersaglio per ridurre le notifiche,1
+56766,SECONDS_FLOAT_ABBR,%.1f s,1
+56767,DAMAGE_METER_RESET_ALL_SESSIONS,Ripristina dati,1
+56768,GROUP_FINDER_PLAYSTYLE_REQUIRED,Seleziona stile di gioco (richiesto),1
+56769,GROUP_FINDER_GENERAL_PLAYSTYLE1,Per imparare,1
+56770,GROUP_FINDER_GENERAL_PLAYSTYLE2,Rilassato,1
+56771,GROUP_FINDER_GENERAL_PLAYSTYLE3,Competitivo,1
+56772,GROUP_FINDER_GENERAL_PLAYSTYLE4,Trasporto offerto,1
+56781,CAA_SEARCH_TAG_SHORT,AAC,1
+56782,ERR_HOUSING_RESULT_EXTERIOR_TYPE_NEIGHBORHOOD_MISMATCH,Questo tipo di esterno della casa non è consentito nel Vicinato attuale,1
 56783,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_TOOLTIP,"|n|cff20ff20I PE Casa si ottengono completando Iniziative, Incarichi delle Iniziative e raccogliendo decorazioni di rarità pregiata o superiore per la prima volta|r",1
+56784,COOLDOWN_VIEWER_SETTINGS_RENAME_OR_COPY_LAYOUT,Rinomina/copia interfaccia,1
+56785,COOLDOWN_VIEWER_SETTINGS_DELETE_LAYOUT_DIALOG_TITLE,Vuoi davvero eliminare l'interfaccia|n%s?,1
+56787,COOLDOWN_VIEWER_SETTINGS_RENAME_LAYOUT_DIALOG_TITLE,Inserisci il nuovo nome per l'interfaccia %s,1
+56788,COOLDOWN_VIEWER_SETTINGS_ERROR_ENTER_NAME,Inserisci un nome per l'interfaccia,1
+56789,COOLDOWN_VIEWER_SETTINGS_NAME_LAYOUT_DIALOG_TITLE,Nome nuova interfaccia,1
+56790,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_LAYOUTS,È consentito un massimo di %d interfacce dei personaggi e %d interfacce di account.,1
+56791,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_CHAR_LAYOUTS,"Sono consentite solo %d interfacce specifiche del personaggio. Devi eliminarne una per crearne una nuova, o togliere la spunta alla casella per salvare un'interfaccia di account.",1
+56792,COOLDOWN_VIEWER_SETTINGS_ERROR_MAX_ACCOUNT_LAYOUTS,"Sono consentite solo %d interfacce di account. Devi eliminarne una per crearne una nuova, o spuntare la casella per salvare un'interfaccia specifica del personaggio.",1
+56793,COOLDOWN_VIEWER_SETTINGS_ERROR_ENTER_IMPORT_STRING_AND_NAME,Inserisci il testo d'importazione valido e il nome dell'interfaccia,1
+56794,COOLDOWN_VIEWER_SETTINGS_CHARACTER_LAYOUTS_HEADER,Specifica di %s,1
+56795,COOLDOWN_VIEWER_SETTINGS_COPY_LAYOUT,Copia interfaccia,1
+56796,COOLDOWN_VIEWER_SETTINGS_RENAME_LAYOUT,Cambia nome,1
+56797,COOLDOWN_VIEWER_SETTINGS_DELETE_LAYOUT,Elimina interfaccia,1
+56798,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT,Importa,1
+56799,COOLDOWN_VIEWER_SETTINGS_COPY_TO_CLIPBOARD,Copia negli appunti |cffffd100(per condividere online)|r,1
+56800,HOUSING_DECOR_CUSTOMIZATION_CEILING_WARNING,Cambiare lo stile o tipo del soffitto può influenzare le decorazioni posizionate sul soffitto.,1
+56801,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_DIALOG_TITLE,Importa interfaccia,1
+56802,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_DIALOG_EDIT_BOX_LABEL,Testo da importare:,1
+56803,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_LINK_DIALOG_EDIT_BOX_LABEL,Nuovo nome interfaccia:,1
+56804,COOLDOWN_VIEWER_SETTINGS_IMPORT_LAYOUT_INSTRUCTIONS,Incolla il codice dell'interfaccia qui,1
+56807,ENABLE_EXTERNAL_DEFENSIVES_VIEWER,Attiva difese esterne,1
+56808,ENABLE_EXTERNAL_DEFENSIVES_TOOLTIP,Attiva per visualizzare i benefici difensivi importanti in una sezione separata e personalizzabile dell'interfaccia,1
+56809,DAMAGE_METER_CATEGORY_ACTIONS,Azioni,1
+56810,DAMAGE_METER_TYPE_INTERRUPTS,Interruzioni,1
+56811,DAMAGE_METER_TYPE_DISPELS,Dissoluzioni,1
+56812,EXTERNAL_DEFENSIVES_LABEL,Difese esterne,1
+56813,HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_DISABLED_TOOLTIP,"Per personalizzare le difese esterne, attiva l'opzione corrispondente in Gioco > Potenziamenti di gioco",1
+56815,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_SWITCH_TO_LAYOUT,Impossibile attivare l'interfaccia,1
+56816,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_SWITCH_TO_LAYOUT_TOOLTIP_LINE,%s è per %s,1
+56820,TRANSMOG_OUTFIT_INVALID_NAME,Questo nome non è disponibile. Scegli un nome diverso e riprova.,1
 56823,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_DETAILS,"Alcune decorazioni, come gli oggetti acquistati nel negozio, non vengono conteggiati nel limite massimo del Magazzino.",1
+56824,CUSTOM_SET_INVALID_NAME,Questo nome non è disponibile. Scegli un nome diverso e riprova.,1
+56828,GROUP_FINDER_FILTER_PLAYSTYLE,Stile di gioco,1
+56838,HOUSING_CATALOG_CART_WARNING,Vuoi davvero rimuovere tutti gli oggetti dal tuo carrello?,1
+56839,ERR_PVP_TRAINING_GROUNDS_DISABLED,I Campi d'Addestramento sono attualmente disattivati.,1
+56840,ERR_LFG_JOINED_TRAINING_GROUNDS_QUEUE,Sei ora in coda per i Campi d'Addestramento.,1
+56841,ERR_SOLO_JOIN_TRAINING_GROUND,Sei ora in coda per %s.,1
+56851,CAA_SAY_TARGET_NAME_LABEL,Avvisi nome bersaglio,1
+56853,CAA_SAY_TARGET_NAME_TOOLTIP,Annuncia il nome del bersaglio quando lo selezioni,1
+56854,CAA_SAY_COMBAT_START_LABEL,Avvisi inizio battaglia,1
+56855,CAA_SAY_COMBAT_START_TOOLTIP,Scegli una frase o un suono per indicare che il combattimento è iniziato,1
+56856,CAA_SAY_COMBAT_END_LABEL,Avvisi fine battaglia,1
+56857,CAA_SAY_COMBAT_END_TOOLTIP,Scegli una frase o un suono per indicare che il combattimento è terminato,1
+56858,CAA_SAY_COMBAT_START_TEXT,"Avviso: ""Inizio battaglia""",1
+56859,CAA_SAY_COMBAT_END_TEXT,"Avviso: ""Fine battaglia""",1
+56860,CAA_WHEN_TARGET_DIES_LABEL,Quando il bersaglio viene sconfitto,1
+56861,CAA_WHEN_TARGET_DIES_TOOLTIP,Scegli una frase o un suono per indicare che il bersaglio è morto,1
+56862,CAA_WHEN_TARGET_DIES_USE_FORMAT,Usa formato salute bersaglio,1
+56864,CAA_WHEN_TARGET_DIES_VOICE_TARGET_DEAD,"Avviso: ""Bersaglio sconfitto""",1
+56866,CAA_TARGET_DEAD,Bersaglio sconfitto,1
+56867,CAA_COMBAT_START_TEXT,Inizio battaglia,1
+56873,CAA_COMBAT_END_TEXT,Fine battaglia,1
+56875,ERR_CHARTER_NEIGHBORHOOD_RENAME,Successo!,1
+56876,DAMAGE_METER_SOURCE_NAME,%d. %s,1
+56878,TRANSMOG_HIDE_UNASSIGNED_SLOTS,Nascondi scomparti ignorati,1
 56881,REPORTING_REPORT_SCREENSHOT_BUTTON,Cattura schermata,1
-56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
-56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
-56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1
+56882,DAMAGE_METER_TYPE_DAMAGE_TAKEN,Danni subiti,1
+56883,DAMAGE_METER_TYPE_AVOIDABLE_DAMAGE_TAKEN,Danni evitabili subiti,1
+56884,DAMAGE_METER_EDIT_MODE_SOURCE_1,Arthas,1
+56885,DAMAGE_METER_EDIT_MODE_SOURCE_2,Jaina,1
+56886,DAMAGE_METER_EDIT_MODE_SOURCE_3,Gul'dan,1
+56887,DAMAGE_METER_EDIT_MODE_SOURCE_4,Thrall,1
+56888,DAMAGE_METER_EDIT_MODE_SOURCE_5,Uther,1
+56889,DAMAGE_METER_EDIT_MODE_SOURCE_6,Illidan,1
+56890,DAMAGE_METER_EDIT_MODE_SOURCE_7,Sylvanas,1
+56891,HOUSING_BUNDLE_CLICK_TO_PLACE_DECOR,Clicca o trascina per vedere nella tua casa,1
+56892,DAMAGE_METER_SPELL_ENTRY_CREATURE,%s (%s),1
+56893,SPELL_FAILED_CUSTOM_ERROR_2515,Questo oggetto non può essere utilizzato da personaggi della tua classe!,1
+56894,HOUSING_BUNDLE_BUNDLE_ITEM_PLACED,Tutte le decorazioni di questo tipo del pacchetto sono state posizionate.,1
+56898,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION,Modello,1
+56899,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_LEGACY,Classico,1
+56900,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_TOP,Incentrato sui benefici,1
+56901,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_RIGHT,Incentrato sulle penalità,1
+56902,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CONTAINER_OPACITY,Opacità,1
+56903,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ICON_SIZE,Dimensioni icona,1
+56905,DAMAGE_METER_TYPE_ABSORBS,Assorbimenti,1
+56906,12_0_Z4_FEED_THE_VOID_MINIGAME_SCORE,Punteggio,1
+56907,12_0_Z4_FEED_THE_VOID_MINIGAME_LIVES,Vite,1
+56908,12_0_Z4_FEED_THE_VOID_GAME_OVER,Fine,1
+56909,ERR_HOUSING_RESULT_EXTERIOR_ALREADY_TYPE,L'esterno della casa è già di quel tipo,1
+56910,ERR_HOUSING_RESULT_EXTERIOR_ALREADY_SIZE,L'esterno della casa è già di quelle dimensioni,1
+56911,HOUSING_VC_QUANTITY,%d Domolira,3
+56921,COMBAT_WARNINGS_EVENT_STATUS_PAUSED,|cnENCOUNTER_TIMELINE_PAUSED_TEXT_COLOR:[In pausa]|r,1
+56922,COMBAT_WARNINGS_EVENT_STATUS_QUEUED,|cnENCOUNTER_TIMELINE_QUEUED_TEXT_COLOR:[In coda]|r,1
+56923,COMBAT_WARNINGS_EVENT_STATUS_BLOCKED,|cnENCOUNTER_TIMELINE_BLOCKED_TEXT_COLOR:[Bloccato]|r,1
+56924,DAMAGE_METER_SPELL_ENTRY_UNIT,%s - %s,1
+56929,CAA_SAY_PLAYER_CASTS_LABEL,Avvisi audio lancio magie,1
+56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,Annuncia il lancio di una tua abilità,1
+56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Formato,1
+56932,CAA_SAY_PLAYER_CASTS_FORMAT_TOOLTIP,Scegli la formulazione che verrà usata per annunciare il lancio delle tue abilità,1
+56933,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_LABEL,Tempo di lancio minimo,1
+56934,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_TOOLTIP,Imposta un tempo di lancio minimo per le abilità da annunciare. Imposta questo valore a zero per includere le abilità istantanee.,1
+56935,CAA_SAY_PLAYER_CASTS_THROTTLE_LABEL,Limite,1
+56936,CAA_SAY_PLAYER_CASTS_THROTTLE_TOOLTIP,Limita l'intervallo tra gli avvisi sul lancio delle tue abilità per ridurre le notifiche,1
+56937,CAA_SAY_TARGET_CASTS_LABEL,Avvisi audio bersaglio lancio,1
+56938,CAA_SAY_TARGET_CASTS_TOOLTIP,Annuncia il lancio di un'abilità del tuo bersaglio,1
+56939,CAA_SAY_TARGET_CASTS_FORMAT_LABEL,Formato,1
+56940,CAA_SAY_TARGET_CASTS_FORMAT_TOOLTIP,Scegli la formulazione che verrà usata per annunciare il lancio delle abilità del tuo bersaglio,1
+56941,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_LABEL,Tempo di lancio minimo,1
+56942,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_TOOLTIP,Imposta un tempo di lancio minimo per le abilità da annunciare. Imposta questo valore a zero per includere le abilità istantanee.,1
+56943,CAA_SAY_TARGET_CASTS_THROTTLE_LABEL,Limite,1
+56944,CAA_SAY_TARGET_CASTS_THROTTLE_TOOLTIP,Limita l'intervallo tra gli avvisi sul lancio delle abilità del bersaglio per ridurre le notifiche,1
+56945,CAA_SAY_TARGET_CASTS_INTERRUPT_LABEL,Avviso lancio interrompibile,1
+56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,Annuncia quando il bersaglio inizia a lanciare qualcosa che puoi interrompere con un'abilità,1
+56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Avviso interruzione riuscita,1
+56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,Annuncia quando il lancio del tuo bersaglio viene interrotto da te o da qualcun altro,1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Avviso: ""Lancio interrompibile",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Avviso: ""Bersaglio interrotto",1
+56960,CAA_SAY_CASTS_FORMAT_FULL,Lancio di %s,1
+56961,CAA_SAY_CASTS_FORMAT_SHORT,Lancia %s,1
+56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Lancio in corso,1
+56963,CAA_SAY_CASTS_FORMAT_SHORT_NO_SPELLNAME,Lancio,1
+56965,CAA_SAY_CASTS_FORMAT_SPELLNAME_ONLY,%s,1
+56966,CAA_SAY_TARGET_CASTS_FORMAT_FULL,Il bersaglio sta lanciando %s,1
+56967,CAA_SAY_TARGET_CASTS_FORMAT_SHORT,Il bersaglio lancia %s,1
+56968,CAA_SAY_TARGET_CASTS_FORMAT_NO_SPELLNAME,Il bersaglio sta lanciando,1
+56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Il bersaglio lancia,1
+56970,CAA_SAY_CASTS_START_OF_CAST,Inizio lancio,1
+56971,CAA_SAY_CASTS_END_OF_CAST,Fine lancio,1
+56973,PARTY_MEMBER_OUT_OF_RANGE,Fuori portata,1
+56974,TOOLTIP_TALENT_RANK_CAPSTONE,Grado %d,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Angolo rotazione scatto,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Valore dimensione scatto,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Asse successivo,1
+56978,HUD_EDIT_MODE_ENCOUNTER_EVENTS_DISABLED_TOOLTIP,Messaggi di avviso e sulla linea temporale delle abilità per gli scontri con i boss. Gli avvisi di combattimento sono attualmente disattivati. Attivali in: Potenziamenti di gioco > Avvisi di combattimento.,1
+56981,DEBUFF_SYMBOL_BLEED,Sg,1
+56982,HUD_EDIT_MODE_DAMAGE_METER_DISABLED_TOOLTIP,Il Misuratore dei danni è attualmente disattivato. attivalo dal menu di gioco in Opzioni > Potenziamenti di gioco > Misuratore dei danni.,1
+56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Mostra i fumetti di chat per le chat di gruppo.,1
+56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Mostra i fumetti di chat per le chat d'incursione.,1
+56987,DAMAGE_METER_LOCK_WINDOW,Blocca finestra,1
+56988,DAMAGE_METER_UNLOCK_WINDOW,Sblocca finestra,1
+56989,HOUSING_DECOR_DYE_REFUND_CONFIRMATION_TEXT,Tingere questa decorazione la renderà non rimborsabile. Vuoi procedere?,1
+56990,HOUSING_DECOR_REFUND_TIME_REMAINING,Tempo rimasto per il rimborso: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+56991,HOUSING_DECOR_STORAGE_ITEM_REFUND,Rimborsa,1
+56994,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_LABEL,Nascondi conti alla rovescia in coda,1
+56995,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_TOOLTIP,Nascondi i conti alla rovescia che hanno raggiunto la fine della linea temporale e sono in attesa del lancio.,1
+56996,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_LABEL,Nascondi conti alla rovescia per altri ruoli,1
+56997,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_TOOLTIP,Mostra solo i conti alla rovescia sulla linea temporale che sono rilevanti per il tuo ruolo attuale nel gruppo.,1
+56998,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_LABEL,Icone supporto magie,1
+56999,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_TOOLTIP,Configura la visualizzazione di icone di supporto come indicatori di tipo di ruolo e dissoluzione nei conti alla rovescia.,1
+57000,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_TANK_ALERT_LABEL,Avvisi ai difensori,1
+57001,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_HEALER_ALERT_LABEL,Avvisi ai guaritori,1
+57002,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DAMAGE_ALERT_LABEL,Avvisi agli assaltatori,1
+57003,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DISPEL_LABEL,Dissolvibili,1
+57004,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ENRAGE_LABEL,Furia,1
+57005,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DEADLY_LABEL,Letale,1
+57006,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ALL,Tutte le icone,1
+57007,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_NONE,Disattivato,1
+57008,BONUS_OBJECTIVE_HOUSING_FAVOR_FORMAT,|A:housing-dashboard-estatexp-icon:18:18:0:0|a %1$d %2$s,1
+57009,UNIT_NAMEPLATES_STYLE_HEALTH_FOCUS,Salute Pulita,1
+57010,CAA_SAMPLE_SPELLNAME,Palla di Fuoco,1
+57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Formato,1
+57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Scegli la formulazione che verrà usata per indicare la salute del tuo bersaglio, usando il 20% come esempio",1
+57044,SLASH_TRANSMOG_CUSTOM_SET2,/setpersonale,1
+57045,SLASH_TRANSMOG_CUSTOM_SET3,/setpersonale,1
+57046,HOUSING_DECOR_UNIQUE_TROPHY_TOOLTIP,Trofeo unico,1
+57047,ERR_HOUSING_EXTERIOR_FAILSAFE_RESET,Base o soffitto degli esterni mancante. L'alloggio verrà ripristinato al Tipo di casa predefinito,1
+57048,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,Penalità di ruolo grandi,1
+57049,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,Rende le penalità specifiche del ruolo leggermente più grandi delle altre,1
+57051,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_DESC,La decorazione non è posizionata e verrà inviata al Forziere della Casa all'acquisto,1
+57052,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_INSTRUCTIONS,Clicca o trascina per posizionare,1
+57054,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BACKGROUND,Sfondo,1
+57055,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_BORDERED,Bordato,1
+57056,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_FULL_BACKGROUND,Sfondo saturo,1
+57057,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,Indicatore penalità dissolvibili,1
+57058,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,Controlla come vengono mostrate le icone dell'indicatore delle penalità dissolvibili. Questa opzione è separata dalla visualizzazione delle penalità.,1
+57059,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,Disattivato,1
+57060,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,Non verrà mostrato alcun indicatore delle penalità dissolvibili,1
+57061,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Dissolvibili da me,1
+57062,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Mostra solo gli indicatori delle penalità dissolvibili da me,1
+57063,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Mostra tutto,1
+57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,"Mostra tutti i tipi di indicatori delle penalità dissolvibili, anche se io non posso dissolverle",1
+57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Colore delle penalità dissolvibili,1
+57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Evidenzia il riquadro di gruppo con una sovrimpressione colorata se il membro del gruppo ha una penalità dissolvibile su di sé.,1
+57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Acquista tutti gli articoli per %s,1
+57069,UNIT_NAMEPLATES_SEARCH_TAG,Barre,1
+57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Reame Titan Reforged,3
+57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Colore della barra della salute,1
+57078,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR_TOOLTIP,La barra della salute cambia colore per riflettere lo stato attuale di Minaccia di un'unità.,1
+57084,RAID_CHAT_BUBBLES_TEXT,Fumetti di chat d'incursione,1
+57088,CAA_INTERRUPTIBLE_CAST_TEXT,Lancio interrompibile,1
+57089,CAA_INTERRUPTED_CAST_TEXT,Bersaglio interrotto,1
+57091,HOUSING_MARKET_PURCHASE_FAILURE,Acquisto non riuscito. Riprova più tardi,1
+57092,HOUSING_MARKET_PURCHASE_SLOW_DESC,L'acquisto sta richiedendo più tempo del previsto. Riprova più tardi,1
+57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Aggiungi un aspetto per creare un Set personalizzato,1
+57094,HOUSING_ENDEAVORS_MIN_LEVEL,Le Iniziative si sbloccano al livello %d,5
+57098,SPELL_FAILED_CUSTOM_ERROR_2516,Non puoi portare altre galline.,1
+57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,Il tracciamento dei danni evitabili è attivo solo nelle istanze della stagione in corso,1
+57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,La tua gilda deve avere almeno 10 account Battle.net diversi per poter creare un Vicinato di Gilda.,1
+57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,La tua gilda deve avere almeno 10 account Battle.net attivi per poter creare un Vicinato di Gilda.,1
+57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%d / %d,1
+57122,ENDEAVOR_FAVOR,Progressi Iniziativa,1
+57124,TRANSMOG_PENDING_CHANGES,Questo completo ha delle modifiche in sospeso. Continuando perderai le modifiche in sospeso.,1
+57125,BONUS_FAVOR_NOT_IN_NEIGHBORHOOD_PARTY,Ottieni progressi per le iniziative bonus completando incarichi in un gruppo di Vicinato.,1
+57126,BONUS_FAVOR_IN_NEIGHBORHOOD_PARTY,Sei in un gruppo di Vicinato. Otterrai progressi per le iniziative bonus completando incarichi.,1
+57127,SPELL_INTERRUPTED_BY,Interrotto: %s,1
+57128,DAMAGE_METER_COMBAT_NUMBER,Combattimento %d,1
+57129,COMPACT_UNIT_FRAME_PROFILE_SHOW_BIG_DEFENSIVES,Centra Difese importanti,1
+57130,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_SHOW_BIG_DEFENSIVES,Mostra i benefici difensivi più importanti come grosse icone al centro del riquadro unità,1
+57131,HOUSING_MARKET_HEARTHSTEEL_TOOLTIP,Domolira,1
+57132,HOUSING_MARKET_CART_EMPTY_TOOLTIP,"Il tuo carrello è vuoto, aggiungi qualcosa dal Catalogo per visualizzare l'anteprima.",1
+57141,CAA_SAY_PLAYER_RESOURCE_LABEL,Annuncia quantità di %s,1
+57142,CAA_SAY_PLAYER_RESOURCE_TOOLTIP,Annuncia la tua quantità di %s quando supera determinate percentuali. Questa impostazione viene salvata per ogni specializzazione.,1
+57144,CAA_SAY_PLAYER_RESOURCE_FORMAT_LABEL,Formato,1
+57148,CAA_SAY_PLAYER_RESOURCE_FORMAT_TOOLTIP,"Scegli la formulazione che verrà usata per annunciare la tua quantità di %s, usando il 20%% come esempio. Questa impostazione viene salvata per ogni specializzazione.",1
+57149,CAA_SAY_PLAYER_RESOURCE_THROTTLE_LABEL,Limite,1
+57150,CAA_SAY_PLAYER_RESOURCE_THROTTLE_TOOLTIP,Limita l'intervallo tra gli avvisi su %s per ridurre le notifiche,1
+57151,CAA_SAY_RESOURCE_FORMAT_FULL,%s %d percento,1
+57152,CAA_SAY_RESOURCE_FORMAT_NO_PERCENT,%s %d,1
+57153,CAA_SAY_RESOURCE_FORMAT_NO_RESOURCE,%d percento,1
+57154,CAA_SAY_RESOURCE_FORMAT_NUM_ONLY,%d,1
+57156,HOUSING_MARKET_HEARTHSTEEL_TOOLTIP_DESC,Puoi ottenere oggetti per gli Alloggi in cambio di Domolira in Modalità Decorazione o nel Negozio.,1
+57202,HUD_EDIT_MODE_SETTING_AURA_FRAME_SHOW_DISPEL_TYPE,Mostra tipo di dissoluzione,1
+57212,HOUSING_BUNDLE_IN_CART,Questo Pacchetto è presente nel tuo carrello,1
+57219,ERR_TRANSMOG_PURCHASE_FAILURE,Acquisto non riuscito. Riprova più tardi,1
+57237,ERR_CHARTER_SIGNATURE_REMOVED,%s ha rimosso la propria firma dal tuo Statuto del Vicinato.,1
+57238,ERR_HOUSING_DECOR_REPORT_PLOT_OUT_OF_RANGE,L'appezzamento è troppo lontano!,1
+57239,ERR_HOUSING_DECOR_REPORT_BAD_FACING,Non stai guardando verso l'appezzamento!,1
+57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION_S,Il tuo Vicinato con Statuto è stato rinominato %s,1
+57242,HOUSING_ENDEAVOR_REPEATABLE_TASK,|A:UI-RefreshButton:18:18:0:0|a Incarico Ripetibile,1
+57243,HOUSING_MAX_PLAYERS_IN_HOUSE_TO_OWNER,"La tua casa ha raggiunto il limite massimo di visitatori. Prima di ricevere altri visitatori, uno o più personaggi devono uscire.",1
+57246,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PLUM,Prugna,1
+57247,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_EMERALD,Smeraldo,1
+57248,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLACK,Carbone,1
+57249,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_OCHRE,Ocra,1
+57250,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_SAPPHIRE,Zaffiro,1
+57252,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_COPY_DEFAULT_LAYOUT,Impossibile copiare interfaccia,1
+57253,COOLDOWN_VIEWER_SETTINGS_ERROR_CANNOT_COPY_DEFAULT_LAYOUT_LINE,Le interfacce predefinite non possono essere copiate.,1
+57263,ERR_HOUSING_ACTION_NOENTRY,Questa casa è privata.,1
+57283,ERR_HOUSING_RESULT_UNCOLLECTED_HOUSE_TYPE,Non hai sbloccato quello stile casa,1
+57285,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM,Non hai sbloccato quella stanza,1
+57286,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM_MATERIAL,Non hai sbloccato quel materiale,1
+57287,ERR_HOUSING_RESULT_UNCOLLECTED_ROOM_THEME,Non hai sbloccato quello stile,1
+57289,HOUSING_MARKET_VIEW_IN_SHOP,Visualizza nel Negozio,1
+57290,HOUSING_DECOR_REFUND_RIGHT_CLICK_INSTRUCTION,Clicca col destro per rimborsare,1
+57291,HOUSING_BUNDLE_CLICK_TO_VIEW_IN_SHOP,Clicca per visualizzare nel Negozio,1
+57294,ERR_HOUSING_RESULT_EXTERIOR_TYPE_NOT_FOUND,Tipo di casa non trovato,1
+57295,SPELL_FAILED_CUSTOM_ERROR_2517,Non sei il capogruppo.,1
+57296,SPELL_FAILED_TRANSMOG_OUTFIT_ALREADY_KNOWN,Questo Completo di Trasmogrificazione è già nella tua collezione,1
+57297,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_LOCKED_TOOLTIP,Aumenta di livello la tua casa per sbloccare nuove opzioni dimensione,1
+57298,ERR_HOUSING_RESULT_LOCKED_BY_COMBAT,Non puoi farlo mentre sei in combattimento.,1
+57301,ERR_HOUSING_RESULT_EXTERIOR_SIZE_UNAVAILABLE,La casa non ha un livello abbastanza alto per quelle dimensioni,1
+57302,ERR_HOUSING_RESULT_EXTERIOR_TYPE_SIZE_MISMATCH,Questo tipo di casa non supporta quelle dimensioni,1
+57303,ERR_HOUSING_RESULT_NO_NEIGHBORHOOD_OWNERSHIP_REQUESTS,Nessuna richiesta di trasferimento proprietà Vicinato attiva,1
+57304,ERR_HOUSING_RESULT_PLAYER_NOT_FOUND,Personaggio non trovato,1
+57305,ERR_HOUSING_RESULT_STATIC_DATA_NOT_FOUND,Impossibile trovare dati registro,1
+57307,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_MEDIUM,Media,1
+57308,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_LARGE,Grande,1
+57309,HOUSING_DASHBOARD_INITIATIVE_NO_ACTIVITY,Ancora nessuna attività,1
+57310,CAA_SAY_PARTY_HEALTH_LABEL,Comunica salute gruppo,1
+57311,CAA_SAY_PARTY_HEALTH_TOOLTIP,"Quando sei in un gruppo, ti avvisa dei membri del gruppo che hanno bisogno di cure, ordinati per numero nel gruppo. Tu sei ""1"" mentre gli altri membri sono 2-5 a seconda dell'ordine. La frequenza degli avvisi dipende dal loro livello di salute.",1
+57312,CAA_SAY_PARTY_HEALTH_FREQUENCY_LABEL,Frequenza,1
+57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Modifica la frequenza relativa degli avvisi della salute del gruppo,1
+57314,UNDER_X_PERCENT,Inferiore al %d%%,1
+57315,HOUSING_EXTERIOR_CUSTOMIZATION_TYPE_SIZES_LOCKED_TOOLTIP,Il livello della casa è troppo basso per le dimensioni di questo tipo.,1
+57318,CDMSND_ANIMALS_CAT,Gatto,1
+57319,CDMSND_ANIMALS_CHICKEN,Gallina,1
+57320,CDMSND_ANIMALS_COW,Mucca,1
+57321,CDMSND_ANIMALS_GNOLL,Gnoll,1
+57322,CDMSND_ANIMALS_GOAT,Caprone,1
+57323,CDMSND_ANIMALS_LION,Leone,1
+57324,CDMSND_ANIMALS_PANTHER,Pantera,1
+57325,CDMSND_ANIMALS_RATTLESNAKE,Serpente a Sonagli,1
+57326,CDMSND_ANIMALS_SHEEP,Pecora,1
+57327,CDMSND_ANIMALS_WOLF,Lupo,1
+57328,CDMSND_DEVICES_BOAT_HORN,Sirena,1
+57329,CDMSND_DEVICES_AIR_HORN,Clacson,1
+57330,CDMSND_DEVICES_BIKE_HORN,Trombetta bici,1
+57331,CDMSND_DEVICES_CASH_REGISTER,Registratore di cassa,1
+57332,CDMSND_DEVICES_JACKPOT_BELL,Campanella jackpot,1
+57333,CDMSND_DEVICES_JACKPOT_COINS,Monete jackpot,1
+57334,CDMSND_DEVICES_JACKPOT_FAIL,Fallimento jackpot,1
+57335,CDMSND_DEVICES_ROTARY_PHONE_DIAL,Telefono a disco,1
+57336,CDMSND_DEVICES_ROTARY_PHONE_RING,Suono telefono a disco,1
+57337,CDMSND_DEVICES_STOVE_PIPE,Stufa,1
+57338,CDMSND_DEVICES_TRASHCAN_LID,Coperchio immondizia,1
+57339,CDMSND_IMPACTS_ANVIL_STRIKE,Colpo d'incudine,1
+57340,CDMSND_IMPACTS_BUBBLE_SMASH,Scoppio di bolle,1
+57341,CDMSND_IMPACTS_LOW_THUD,Tonfo basso,1
+57342,CDMSND_IMPACTS_METAL_CLANKS,Fragore metallico,1
+57343,CDMSND_IMPACTS_METAL_RATTLE,Sferragliata,1
+57344,CDMSND_IMPACTS_METAL_SCRAPE,Graffio metallico,1
+57345,CDMSND_IMPACTS_METAL_WARBLE,Tonfo metallico,1
+57346,CDMSND_IMPACTS_POP_CLICK,Clic pop,1
+57347,CDMSND_IMPACTS_STRANGE_CLANG,Strano fragore,1
+57348,CDMSND_IMPACTS_SWORD_SCRAPE,Spada contro spada,1
+57349,CDMSND_INSTRUMENTS_BELL_RING,Suono di campanella,1
+57350,CDMSND_INSTRUMENTS_BELL_TRILL,Trillo di campanella,1
+57351,CDMSND_INSTRUMENTS_BRASS,Ottone,1
+57352,CDMSND_INSTRUMENTS_CHIME_ASCENDING,Scampanellio in ascesa,1
+57353,CDMSND_INSTRUMENTS_GUITAR_CHUG,Suono di chitarra,1
+57354,CDMSND_INSTRUMENTS_GUITAR_PINCH,Corda di chitarra,1
+57355,CDMSND_INSTRUMENTS_PITCH_PIPE_DISTRESSED,Diapason a fiato,1
+57356,CDMSND_INSTRUMENTS_PITCH_PIPE_NOTE,Nota di diapason a fiato,1
+57357,CDMSND_INSTRUMENTS_SYNTH_BIG,Synth grande,1
+57358,CDMSND_INSTRUMENTS_SYNTH_BUZZ,Synth ronzio,1
+57359,CDMSND_INSTRUMENTS_SYNTH_HIGH,Synth alto,1
+57360,CDMSND_INSTRUMENTS_WARHORN,Corno di guerra,1
+57361,CDMSND_WAR2_ABSTRACT_WHOOSH,Fruscio astratto,1
+57362,CDMSND_WAR2_CHOIR,Coro,1
+57363,CDMSND_WAR2_CONSTRUCTION,Costruzione,1
+57364,CDMSND_WAR2_MAGIC_CHIMES,Campanelle magiche,1
+57365,CDMSND_WAR2_PIG_SQUEAL,Maiale,1
+57366,CDMSND_WAR2_SAWS,Seghe,1
+57367,CDMSND_WAR2_SEAL,Foca,1
+57368,CDMSND_WAR2_SLOW,Lento,1
+57369,CDMSND_WAR2_SMITH,Fabbro,1
+57370,CDMSND_WAR2_SYNTH_STINGER,Synth stinger,1
+57371,CDMSND_WAR2_TRUMPET_RALLY,Trombette,1
+57372,CDMSND_WAR2_ZIPPY_MAGIC,Magia veloce,1
+57373,CDMSND_WAR3_BELL,Campana,1
+57374,CDMSND_WAR3_CRUNCHY_BELL,Campana scricchiolante,1
+57375,CDMSND_WAR3_DRUM_SPLASH,Batteria,1
+57376,CDMSND_WAR3_ERROR,Errore,1
+57377,CDMSND_WAR3_FANFARE,Fanfara,1
+57378,CDMSND_WAR3_GATE_OPEN,Cancello aperto,1
+57379,CDMSND_WAR3_GOLD,Oro,1
+57380,CDMSND_WAR3_MAGIC_SHIMMER,Bagliore magico,1
+57381,CDMSND_WAR3_RINGOUT,Riverbero,1
+57382,CDMSND_WAR3_ROOSTER,Gallo,1
+57383,CDMSND_WAR3_SHIMMER_BELL,Campana brillante,1
+57384,CDMSND_WAR3_WOLF_HOWL,Lupo ululante,1
+57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,Barre delle unità,1
+57447,CAA_SAY_IF_TARGETED_LABEL,Comunica se bersaglio,1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,Ci sono |cnTUTORIAL_BLUE_FONT_COLOR:sei opzioni di stile|r per le barre delle unità e possono essere |cnTUTORIAL_BLUE_FONT_COLOR:ridimensionate.|r,1
+57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,|cnTUTORIAL_BLUE_FONT_COLOR:La minaccia|r ha un proprio effetto visivo e un |cnTUTORIAL_BLUE_FONT_COLOR:senso di progressione.|r,1
+57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Puoi visualizzare potenziamenti e penalità se lo |cnTUTORIAL_BLUE_FONT_COLOR:desideri|r, anch'essi ridimensionabili.",1
+57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Le barre dei personaggi nemici possono essere impostate |cnTUTORIAL_BLUE_FONT_COLOR:in modo diverso|r da quelle dei personaggi alleati.,1
+57452,CAA_SAY_IF_TARGETED_TOOLTIP,Scegli una frase o un suono per indicare che sei il bersaglio di un nemico. Questa impostazione viene salvata per ogni specializzazione dei talenti.,1
+57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voce: ""Minaccia",1
+57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voce: ""Sei il bersaglio",1
+57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Voce: ""Bersaglio di Coboldo",1
+57462,CAA_AGGRO_TEXT,Minaccia,1
+57463,CAA_YOURE_TARGETED_TEXT,Sei il bersaglio,1
+57464,CAA_TARGETED_BY_TEXT,Bersaglio di %s,1
+57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
+57466,ONLINE_SAFETY_NOTICE,"Ricorda di agire responsabilmente, proteggere le tue informazioni personali e segnalare atteggiamenti offensivi. Leggi il nostro Codice di Condotta del gioco su |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h per ulteriori informazioni.",1
+57470,HOUSING_MARKET_PURCHASE_PARTIAL_SUCCESS,Impossibile acquistare alcuni oggetti nel carrello. Riprova più tardi.,1
+57478,CATALOG_SHOP_REFUND,Rimborsa,3
+57479,CATALOG_SHOP_REFUND_TIME_LEFT,Tempo rimasto per il rimborso degli oggetti recenti: %s,3
+57483,CATALOG_SHOP_TOPUPFLOW_CURRENT_BALANCE,Saldo attuale: %s,3
+57486,TALENT_BUTTON_TOOLTIP_CAPSTONE_TRACK_TITLE_FORMAT,%s (%d/%d),1
+57489,ERR_HOUSING_RESULT_COSMETIC_OWNER_NOT_IN_GUILD,Il personaggio che possiede questo Alloggio non è nella gilda,1
+57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Anteprima - Giocatore amichevole,1
+57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Anteprima - PNG amichevole,1
+57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Anteprima - Giocatore nemico,1
+57494,UNIT_NAMEPLATES_PREVIEW_ENEMY_NPC,Anteprima - PNG nemico,1
+57496,SLASH_CAA1,/ttscombat,1
+57498,COMBAT_AUDIO_ALERTS,Avvisi audio in combattimento,1
+57500,CAA_COMMAND_SYNTAX_ERROR,"Comando dell'avviso audio in combattimento non valido. Digita ""/ttscombat aiuto"" per vedere un elenco dei comandi.",1
+57503,SLASH_CAA_HELP,aiuto,1
+57504,SLASH_CAA_HELP_HELP,Mostra il menu d'aiuto che elenca tutti i comandi,1
+57505,SLASH_CAA_VOICE,voce,1
+57506,SLASH_CAA_HELP_VOICE,[%d - %d] - Scegli la voce principale per gli avvisi audio in combattimento,1
+57507,SLASH_CAA_VOICE_CHANGED_CONFIRMATION,Voce avvisi audio in combattimento impostata su: %s,1
+57508,CAA_HELP_OVERVIEW,Comandi degli avvisi audio in combattimento: |nDigita /ttscombat per abilitare gli avvisi audio in combattimento o imposta un'opzione digitando /ttscombat seguito da uno dei comandi seguenti:,1
+57511,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP,"%s impostato su Attivato. Per le opzioni, digita /ttscombat aiuto.",1
+57512,SLASH_CAA_CONFIRMATION_ENABLED,%s impostato su Attivato,1
+57513,SLASH_CAA_CONFIRMATION_DISABLED,%s impostato su Disattivato,1
+57514,CAA_HELP_OVERVIEW_NARRATED,Comandi degli avvisi audio in combattimento: |nDigita /<spell>tts</spell>combat per abilitare gli avvisi audio in combattimento o imposta un'opzione digitando /<spell>tts</spell>combat seguito da uno dei comandi seguenti:,1
+57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"%s impostato su Attivato. per le opzioni, digita /<spell>tts</spell>combat aiuto.",1
+57537,SLASH_CAA_SPEED,velocità,1
+57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Modifica la velocità del parlato degli avvisi audio in combattimento,1
+57541,SLASH_CAA_CONFIRMATION,%s impostato a %s,1
+57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Comando dell'avviso audio in combattimento non valido. Digita ""/<spell>tts</spell>combat aiuta"" per vedere un elenco dei comandi.",1
+57543,SLASH_CAA_VOLUME,volume,1
+57544,SLASH_CAA_HELP_VOLUME,[%d - %d] - Scegli il volume principale per gli avvisi audio in combattimento,1
+57545,SLASH_CAA_SAY_TARGET_NAME,comunicanomebersaglio,1
+57547,SLASH_CAA_HELP_SAY_TARGET_NAME,Annuncia il nome del bersaglio quando lo selezioni,1
+57548,SLASH_CAA_SAY_COMBAT_START,comunicaavviocombattimento,1
+57549,SLASH_CAA_HELP_SAY_COMBAT_START,Scegli una frase o un suono per indicare che il combattimento è iniziato,1
+57550,SLASH_CAA_SAY_COMBAT_END,comunicafinecombattimento,1
+57551,SLASH_CAA_HELP_SAY_COMBAT_END,Scegli una frase o un suono per indicare che il combattimento è terminato,1
+57552,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT,avvisointerruzione,1
+57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,Annuncia quando il bersaglio inizia a lanciare qualcosa che puoi interrompere con un'abilità,1
+57554,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,avvenutainterruzione,1
+57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,Annuncia quando il lancio del bersaglio è stato interrotto,1
+57556,SLASH_CAA_SAY_YOUR_HEALTH,comunicasalute,1
+57557,SLASH_CAA_HELP_SAY_YOUR_HEALTH,[%d - %d] - Annuncia la tua salute quando supera determinate percentuali,1
+57558,SLASH_CAA_HELP_SUBOPTION_INVALID,Digita il comando precedente e il numero dell'opzione:,1
+57560,SLASH_CAA_HELP_SUBOPTION_FORMAT,%d : %s,1
+57561,CDMVIS_MARCHING_ANTS,Bordo tratteggiato animato,1
+57562,CDMVIS_MARCHING_ANTS_CYAN,Bordo tratteggiato animato (ciano),1
+57563,CDMVIS_MARCHING_ANTS_RED,Bordo tratteggiato animato (rosso),1
+57564,CDMVIS_MARCHING_ANTS_GREEN,Bordo tratteggiato animato (verde),1
+57565,CDMVIS_MARCHING_ANTS_BLUE,Bordo tratteggiato animato (blu),1
+57566,CDMVIS_FLASH,Lampeggiante,1
+57567,CDMVIS_FLASH_CYAN,Lampeggiante (ciano),1
+57568,CDMVIS_FLASH_RED,Lampeggiante (rosso),1
+57569,CDMVIS_FLASH_GREEN,Lampeggiante (verde),1
+57570,CDMVIS_FLASH_BLUE,Lampeggiante (blu),1
+57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<segreto>|r %s,1
+57577,EVENTTRACE_SHOW_SECRET_VALUES,Mostra valori segreto,1
+57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,comunica avvio combattimento,1
+57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,comunica fine combattimento,1
+57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,comunica nome bersaglio,1
+57588,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_NARRATED,avviso interruzione,1
+57589,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_NARRATED,avvenuta interruzione,1
+57590,SLASH_CAA_SAY_YOUR_HEALTH_NARRATED,comunica salute,1
+57597,CAA_SAY_PLAYER_HEALTH_FORMAT,Formato comunica salute,1
+57599,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT,formatocomunicasalute,1
+57600,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT_NARRATED,formato comunica salute,1
+57604,SLASH_CAA_HELP_SAY_YOUR_HEALTH_FORMAT,[%d - %d] - Scegli il formato da usare quando si comunica la salute,1
+57605,HOUSING_MARKET_CART_FULL_ERROR,Il tuo carrello è pieno. Procedi al pagamento prima di aggiungere altre decorazioni.,1
+57606,HOUSING_MARKET_PREVIEW_LIMIT_ERROR,Hai raggiunto il limite di anteprima. Rimuovi uno o più oggetti.,1
+57614,JOURNEYS_FRAME_TUTORIAL,"Esplora la Fama, le Scorribande e il Viaggio in Preda nella Guida alle Avventure.",1
+57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,limitecomunicasalute,1
+57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,limite comunica salute,1
+57617,SLASH_CAA_HELP_SAY_YOUR_HEALTH_THROTTLE,[%d - %d] - Scegli il limite di secondi quando si comunica la salute,1
+57618,CAA_SAY_PLAYER_HEALTH_THROTTLE,Limite comunica salute,1
+57621,SECONDS_FLOAT,%.1f s,1
+57622,SLASH_CAA_SAY_TARGET_HEALTH,comunicasalutebersagio,1
+57623,SLASH_CAA_HELP_SAY_TARGET_HEALTH,[%d - %d] - Annuncia la salute del tuo bersaglio quando supera determinate percentuali,1
+57624,SLASH_CAA_SAY_TARGET_HEALTH_NARRATED,comunica salute bersaglio,1
+57625,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT,formatocomunicasalutebersaglio,1
+57626,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT_NARRATED,formato comunica salute bersaglio,1
+57627,SLASH_CAA_HELP_SAY_TARGET_HEALTH_FORMAT,[%d - %d] - Scegli il formato da usare quando si comunica la salute del bersaglio,1
+57628,CAA_SAY_TARGET_HEALTH_FORMAT,Formato comunica salute bersaglio,1
+57629,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE,limitecomunicasalutebersaglio,1
+57630,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE_NARRATED,limite comunica salute bersaglio,1
+57631,SLASH_CAA_HELP_SAY_TARGET_HEALTH_THROTTLE,[%d - %d] - Scegli il limite di secondi quando si comunica la salute del bersaglio,1
+57632,CAA_SAY_TARGET_HEALTH_THROTTLE,Limite comunica salute bersaglio,1
+57633,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ROOM,Decorazione fuori dai confini,1
+57634,ERR_HOUSING_RESULT_BOUNDS_FAILURE_PLOT,Fuori dal confine dell'appezzamento,1
+57635,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ATTACHMENT,C'è un oggetto fuori dai confini,1
+57638,SLASH_CAA_SAY_IF_TARGETED,comunicasebersaglio,1
+57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,comunica se bersaglio,1
+57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Scegli una frase o un suono per indicare che sei il bersaglio di un nemico,1
+57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,Vuoi davvero acquistare %d Domolira? Il carrello attuale richiede un valore maggiore per completare l'acquisto.,1
+57647,SLASH_CAA_SAY_PARTY_HEALTH,comunicasalutegruppo,1
+57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,comunica salute gruppo,1
+57649,SLASH_CAA_HELP_SAY_PARTY_HEALTH,"[%d - %d] - Quando sei in un gruppo, ti avvisa dei membri del gruppo che hanno bisogno di cure, ordinati per numero nel gruppo",1
+57650,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY,comunicafrequenzasalutegruppo,1
+57651,SLASH_CAA_HELP_SAY_PARTY_HEALTH_FREQUENCY,[%s - %d] - Modifica la frequenza relativa degli avvisi della salute del gruppo,1
+57652,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY_NARRATED,comunica frequenza salute gruppo,1
+57653,CAA_SAY_PARTY_HEALTH_FREQUENCY,Comunica frequenza salute gruppo,1
+57654,SLASH_CAA_SAY_YOUR_CASTS,comunicalancio,1
+57655,SLASH_CAA_SAY_YOUR_CASTS_NARRATED,comunica lancio,1
+57656,SLASH_CAA_HELP_SAY_YOUR_CASTS,[%d - %d] - Scegli cosa dire quando lanci un'abilità,1
+57657,SLASH_CAA_SAY_YOUR_CASTS_FORMAT,comunicaformatolancio,1
+57658,SLASH_CAA_SAY_YOUR_CASTS_FORMAT_NARRATED,comunica formato lancio,1
+57659,SLASH_CAA_HELP_SAY_YOUR_CASTS_FORMAT,[%d - %d] - Scegli la formulazione da usare quando dici che lanci un'abilità,1
+57660,CAA_SAY_YOUR_CASTS_FORMAT,Comunica formato lancio,1
+57662,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,comunicatempominimolancio,1
+57663,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME_NARRATED,comunica tempo minimo lancio,1
+57664,SLASH_CAA_HELP_SAY_YOUR_CASTS_MIN_CAST_TIME,[%d - %d] - Imposta il tempo di lancio minimo delle abilità che vengono annunciate,1
+57665,CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,Comunica tempo minimo lancio,1
+57666,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE,comunicaritardolancio,1
+57667,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE_NARRATED,comunica ritardo lancio,1
+57668,SLASH_CAA_HELP_SAY_YOUR_CASTS_THROTTLE,[%d - %d] - Scegli quanti secondi di ritardo applicare quando comunichi il lancio di un'abilità,1
+57669,CAA_SAY_YOUR_CASTS_THROTTLE,Comunica ritardo lancio,1
+57670,SLASH_CAA_SAY_TARGET_CASTS,comunicalanciobersaglio,1
+57671,SLASH_CAA_SAY_TARGET_CASTS_NARRATED,comunica lancio bersaglio,1
+57673,SLASH_CAA_HELP_SAY_TARGET_CASTS,[%d - %d] - Scegli cosa dire quando il tuo bersaglio lancia un'abilità,1
+57674,CAA_SAY_TARGET_CASTS_FORMAT,Comunica formato lancio bersaglio,1
+57675,SLASH_CAA_SAY_TARGET_CASTS_FORMAT,comunicaformatolanciobersaglio,1
+57676,SLASH_CAA_SAY_TARGET_CASTS_FORMAT_NARRATED,comunica formato lancio bersaglio,1
+57677,SLASH_CAA_HELP_SAY_TARGET_CASTS_FORMAT,[%d - %d] - Scegli la formulazione da usare quando dici che il tuo bersaglio lancia un'abilità,1
+57678,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,comunicatempominimolanciobersaglio,1
+57679,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_NARRATED,comunica tempo minimo lancio bersaglio,1
+57680,SLASH_CAA_HELP_SAY_TARGET_CASTS_MIN_CAST_TIME,[%d - %d] - Imposta il tempo di lancio minimo delle abilità del bersaglio che vengono annunciate,1
+57681,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,Comunica tempo minimo lancio bersaglio,1
+57682,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE,comunicaritardolanciobersaglio,1
+57683,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE_NARRATED,comunica ritardo lancio bersaglio,1
+57684,SLASH_CAA_HELP_SAY_TARGET_CASTS_THROTTLE,[%d - %d] - Scegli quanti secondi di ritardo applicare quando comunichi il lancio di un'abilità del bersaglio,1
+57685,CAA_SAY_TARGET_CASTS_THROTTLE,Comunica ritardo lancio bersaglio,1
+57686,SLASH_CAA_SAY_RESOURCE_1,comunicarisorsa1,1
+57687,SLASH_CAA_SAY_RESOURCE_1_NARRATED,comunica risorsa 1,1
+57688,SLASH_CAA_HELP_SAY_RESOURCE_1,[%d - %d] - Annuncia quando la tua risorsa di combattimento primaria supera determinate percentuali,1
+57691,CAA_SAY_RESOURCE_1,Comunica risorsa 1,1
+57692,SLASH_CAA_SAY_RESOURCE_1_FORMAT,comunicaformatorisorsa1,1
+57693,SLASH_CAA_SAY_RESOURCE_1_FORMAT_NARRATED,comunica formato risorsa 1,1
+57694,SLASH_CAA_HELP_SAY_RESOURCE_1_FORMAT,[%d - %d] - Scegli il formato da usare quando annunci qualcosa sulla tua risorsa di combattimento primaria,1
+57695,CAA_SAY_RESOURCE_1_FORMAT,Comunica formato risorsa 1,1
+57696,SLASH_CAA_SAY_RESOURCE_1_THROTTLE,comunicaritardorisorsa1,1
+57697,SLASH_CAA_SAY_RESOURCE_1_THROTTLE_NARRATED,comunica ritardo risorsa 1,1
+57698,SLASH_CAA_HELP_SAY_RESOURCE_1_THROTTLE,[%d - %d] - Scegli quanti secondi di ritardo applicare quando annunci qualcosa sulla tua risorsa di combattimento primaria,1
+57699,CAA_SAY_RESOURCE_1_THROTTLE,Comunica ritardo risorsa 1,1
+57700,SLASH_CAA_SAY_RESOURCE_2,comunicarisorsa2,1
+57701,CAA_SAMPLE_RESOURCENAME,Potenza,1
+57702,SLASH_CAA_SAY_RESOURCE_2_NARRATED,comunica risorsa 2,1
+57703,SLASH_CAA_HELP_SAY_RESOURCE_2,[%d - %d] - Annuncia quando la tua risorsa di combattimento secondaria supera determinate percentuali,1
+57704,CAA_SAY_RESOURCE_2,Comunica risorsa 2,1
+57705,SLASH_CAA_SAY_RESOURCE_2_FORMAT,comunicaformatorisorsa2,1
+57706,SLASH_CAA_SAY_RESOURCE_2_FORMAT_NARRATED,comunica formato risorsa 2,1
+57707,SLASH_CAA_HELP_SAY_RESOURCE_2_FORMAT,[%d - %d] - Scegli il formato da usare quando annunci qualcosa sulla tua risorsa di combattimento secondaria,1
+57708,CAA_SAY_RESOURCE_2_FORMAT,Comunica formato risorsa 2,1
+57709,SLASH_CAA_SAY_RESOURCE_2_THROTTLE,comunicaritardorisorsa2,1
+57710,SLASH_CAA_SAY_RESOURCE_2_THROTTLE_NARRATED,comunica ritardo risorsa 2,1
+57711,SLASH_CAA_HELP_SAY_RESOURCE_2_THROTTLE,[%d - %d] - Scegli quanti secondi di ritardo applicare quando annunci qualcosa sulla tua risorsa di combattimento secondaria,1
+57712,CAA_SAY_RESOURCE_2_THROTTLE,Comunica ritardo risorsa 2,1
+57713,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_TOOLTIP_FORMAT,%s (%d volta/e),1
+57724,ERR_ENDEAVOR_REWARD_AVAILABLE,Ci sono delle ricompense che ti aspettano nel Forziere delle Iniziative.,1
+57729,HOUSING_PREVIEW_DECOR_WARNING_AR_ONLY,Tutte le anteprime delle decorazioni presenti saranno rimosse. Vuoi procedere comunque?,1
+57731,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_CHEST,La decorazione %s è stata aggiunta al tuo Forziere della Casa.,1
+57732,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_WORLD,La decorazione %s è stata posizionata nella tua casa.,1
+57736,ERR_CHARTER_NEIGHBORHOOD_OWNERSHIP_TRANSFER_SUCCESS,Ora la proprietà del Vicinato è tua,1
+57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,Questo servizio non può essere usato su un personaggio che possiede una casa o un Vicinato,3
+57738,ENDEAVOR_TASK_COMPLETED,Incarico dell'Iniziativa completato,1
+57743,ENDEAVOR_COMPLETED,Iniziativa completata,1

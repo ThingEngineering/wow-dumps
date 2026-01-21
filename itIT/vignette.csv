@@ -5459,8 +5459,8 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6091,Cassa di Tessitino,120423,0,918,0,0,0,0,0,0,0,0
 6092,Scorta Contadina,0,80590,1140,0,15,-30,0,0,0,0,0
 6093,Nome Creatura,0,66076,1114,1060,0,0,0,0,0,0,0
-6094,Nome Creatura,0,80674,1114,1060,0,0,0,0,0,0,0
-6095,Nome Creatura,0,80675,1113,1126,0,0,0,0,0,2,0
+6094,[TEMPLATE] Creature Name,0,80674,1114,1060,0,0,0,0,0,0,0
+6095,[TEMPLATE] Creature Name,0,80675,1113,1126,0,0,0,0,0,2,0
 6096,Rilascio del Soccorso Impavido,0,80686,1140,0,15,-30,0,0,0,0,0
 6097,Memoriale Dimenticato,125478,81467,1143,1056,0,0,3,0,0,0,0
 6098,Scrigno Illuminato,0,81468,1140,0,0,0,0,0,0,0,0
@@ -5505,7 +5505,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6137,Sferzaroth Mostruoso,130010,81705,1114,4,0,0,0,0,0,0,0
 6138,Bombardiere d'Assedio Impazzito,130010,81706,1114,4,0,0,0,0,0,0,0
 6139,Facciabudella Persistente,130010,81707,1114,4,0,0,0,0,0,0,0
-6140,Nome Creatura,120885,81711,1113,1126,0,0,0,81711,1111,2,0
+6140,[TEMPLATE] Creature Name,141943,81711,1113,1126,0,0,0,0,0,0,0
 6141,Pesci Mutanti,0,0,1156,66626,0,0,0,0,0,0,0
 6142,Costrutto dei Predatori del Sole Fuori Controllo,0,0,977,65636,0,0,0,0,0,0,0
 6143,Che il fuoco vi purifichi!,0,0,1156,66626,0,0,0,0,0,0,0
@@ -5934,7 +5934,7 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6573,Luogo di Ricomparsa,127217,0,1162,9282,0,0,0,0,0,0,0
 6574,Luogo di Ricomparsa,127218,0,1162,8258,0,0,0,0,0,0,0
 6575,Guardafiamma del Campo Fungino,120203,0,1160,9248,0,0,0,0,0,0,0
-6576,Nome Creatura,120885,84589,1113,1126,0,0,0,0,0,2,0
+6576,[TEMPLATE] Creature Name,0,84589,1113,1124,0,0,0,0,0,0,0
 6577,Maestra delle Assi Ventreblu,0,0,1114,1094,0,0,0,0,0,1,0
 6579,Ringraziamenti della Tartaruga,122293,0,1158,1034,0,0,0,0,0,0,0
 6580,Chef Pastura,0,0,1114,1094,0,0,0,0,0,1,0
@@ -6059,8 +6059,10 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6700,Spazzatura del Gallagio,0,87007,1113,1126,0,0,0,0,0,0,0
 6701,Libro Sepolto,0,86411,1140,0,0,0,0,0,0,0,0
 6702,Scrigno Antico,132001,86416,1140,0,0,0,0,0,0,0,0
+6703,Scopa Incantata,134003,0,1188,0,0,0,0,0,0,0,0
 6704,Custode del Tempo Sporco,133723,0,890,1026,0,0,0,0,0,0,0
 6705,Attacco del Divoratore: Ecosfera Primus,128700,86447,1037,1126,0,0,0,86447,1456,0,0
+6706,Vetro,134121,0,1189,0,0,0,0,0,0,0,0
 6707,Attacco del Divoratore: Atrio,128700,86464,1037,1126,0,0,0,86464,1460,0,0
 6708,Attacco del Divoratore: Tazavesh,128700,86465,1037,263270,0,0,0,86465,1462,0,0
 6709,Distribuzione Postale,132395,86467,1140,0,0,0,0,0,0,0,0
@@ -6103,13 +6105,22 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6746,Arma Insanguinata dei Vegliasangue,0,0,0,0,0,0,0,0,0,0,0
 6747,Cassa Incrostata di Conchiglie,0,0,0,0,0,0,0,0,0,0,0
 6748,Esplosivi dei Micciascura,0,0,876,0,0,0,0,0,0,0,0
+6750,"""Guardia"" di Lunargenta",133014,0,1194,0,0,0,0,0,0,0,0
+6751,Fenditura della Tempesta del Vuoto,0,0,262,851970,0,0,0,0,0,0,0
 6752,Mordiscarti,0,85778,1113,263170,0,0,0,0,0,0,0
 6753,Volton il Caricato,0,85777,1113,263170,0,0,0,0,0,0,0
 6754,Nerathor,132126,0,89,1030,100,-100,0,0,0,2,0
+6755,Berg il Pugnomagico,0,0,1113,852994,0,0,0,0,0,0,0
 6756,Globo Misterioso,0,0,90,787462,0,0,0,0,0,0,0
 6757,Cumulo di S.C.A.R.T.O.,132134,0,1196,263202,0,0,0,0,1453,0,0
+6758,Belath Lamachiara,0,0,1197,0,0,0,0,0,0,0,0
+6759,Mercante,133789,0,1198,0,0,0,0,0,0,0,0
 6760,Custode del Tempo Sporco,0,0,890,1026,0,0,0,0,0,0,0
+6761,"Corla, l'Alfiera del Crepuscolo",0,0,1113,852994,0,0,0,0,0,0,0
 6762,Cammino della Storia,128804,0,1199,262146,0,0,0,0,0,0,0
+6763,[TEMPLATE] [Object Name],0,0,1140,1024,0,0,0,0,0,0,0
+6764,Idra Rimpinzata di Vuoto,0,0,89,4,0,0,0,0,0,0,0
+6765,Scheggia d'Odio Malevola,0,0,1158,0,0,0,0,0,0,0,0
 6766,Stoccaggio Portatile Etereo,140640,87320,1140,0,0,0,0,0,0,0,0
 6767,Erario degli Alienatori,0,87320,1140,0,0,0,0,0,0,0,0
 6768,Stoccaggio Portatile Fuori Fase,140659,87320,1140,0,0,0,0,0,0,0,0
@@ -6122,7 +6133,99 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6777,Prova,0,0,1201,0,0,0,0,0,0,0,0
 6778,Occhio dell'Avarizia,49081,0,89,1346,0,0,0,0,0,0,0
 6779,Signore del Terrore della Legione Perduta,135012,0,1202,1346,0,0,0,0,0,0,0
+6780,Cliente di Lunargenta,134121,0,1206,0,0,0,0,0,0,0,0
+6781,Cliente di Lunargenta,134164,0,1207,0,0,0,0,0,0,0,0
+6783,Abbondanza,135658,0,1298,0,0,0,0,0,0,0,0
 6784,Condotto di Fase,145718,0,1209,328706,0,0,0,0,0,0,0
+6785,Coltello da Scuoiatore Thalassiano,136649,89173,88,0,30,-30,0,0,0,0,0
+6786,Coltello da Scuoiatore Amani,136649,89172,88,0,30,-30,0,0,0,0,0
+6787,Olio per Tannatura dei Sin'dorei,136649,89171,88,0,30,-30,0,0,0,0,0
+6788,Olio per Tannatura degli Amani,136649,89170,88,0,30,-30,0,0,0,0,0
+6789,Campione di Cuoio della Tempesta del Vuoto,136649,89169,88,0,30,-30,0,0,0,0,0
+6790,Pelle Primordiale,136649,89168,88,0,30,-30,0,0,0,0,0
+6791,Coltello da Scuoiatore Scelto,136649,89167,88,0,30,-30,0,0,0,0,0
+6792,Pelle Contaminata dalla Fioritura di Luce,136649,89166,88,0,30,-30,0,0,0,0,0
+6793,Copripettine dell'Artigiano,136651,89085,88,0,30,-30,0,0,0,0,0
+6794,Tovaglia Particolarmente Incantevole,136651,89084,88,0,30,-30,0,0,0,0,0
+6795,Cuscino Decorativo di Raso,136651,89083,88,0,30,-30,0,0,0,0,0
+6796,Libro dei Punti dei Sin'dorei,136651,89082,88,0,30,-30,0,0,0,0,0
+6797,Spada da Tessitura di Legno,136651,89081,88,0,30,-30,0,0,0,0,0
+6798,Righello dello Stilista Sin'dorei,136651,89080,88,0,30,-30,0,0,0,0,0
+6799,Tenda Molto Piacevole,136651,89079,88,0,30,-30,0,0,0,0,0
+6800,Pupazzo per Bambino,136651,89078,88,0,30,-30,0,0,0,0,0
+6801,Torcia da Spedizione di Scorta,136650,89151,88,0,30,-30,0,0,0,0,0
+6802,Deposito di Metallo Stellare,136650,89150,88,0,30,-30,0,0,0,0,0
+6803,Scalpello dell'Esperto Amani,136650,89149,88,0,30,-30,0,0,0,0,0
+6804,Perla del Vuoto Luccicante,136650,89148,88,0,30,-30,0,0,0,0,0
+6805,Mucchio di Monili del Tannatore,136652,89092,88,0,30,-30,0,0,0,0,0
+6806,Pelle Tesa con Prestigio,136652,89091,88,0,30,-30,0,0,0,0,0
+6807,Coltello da Conciatura Etereo,136652,89090,88,0,30,-30,0,0,0,0,0
+6808,Attrezzo da Conciatore Amani,136652,89089,88,0,30,-30,0,0,0,0,0
+6809,Sfaccettatori di Gemme dei Sin'dorei,136653,89129,88,0,30,-30,0,0,0,0,0
+6810,Pinze per Gemme Eteree,136653,89128,88,0,30,-30,0,0,0,0,0
+6811,Gemma dell'Anima Antica,136653,89127,88,0,30,-30,0,0,0,0,0
+6812,Vetro Infranto,136653,89126,88,0,30,-30,0,0,0,0,0
+6813,Indicatore dell'Esploratore Intrepido,136654,89070,88,0,30,-30,0,0,0,0,0
+6814,Inchiostro di Scorta,136654,89069,88,0,30,-30,0,0,0,0,0
+6815,Tecniche Vincolate al Cuoio,136654,89068,88,0,30,-30,0,0,0,0,0
+6816,Penna Toccata dal Vuoto,136654,89067,88,0,30,-30,0,0,0,0,0
+6817,Chiave Meccanica Maneggevole,136655,89140,88,0,30,-30,0,0,0,0,0
+6818,Cosa Fare Quando Niente Funziona,136655,89139,88,0,30,-30,0,0,0,0,0
+6819,Aiutante Robotico Disattivato,136655,89138,88,0,30,-30,0,0,0,0,0
+6820,Chiave Meccanica della Tempesta Eterea,136655,89137,88,0,30,-30,0,0,0,0,0
+6821,Pilone Solerte,136655,89136,88,0,30,-30,0,0,0,0,0
+6822,Manuale degli Errori e delle Disavventure,136655,89135,88,0,30,-30,0,0,0,0,0
+6823,Scialuppa da Trasporto Miniaturizzata,136655,89134,88,0,30,-30,0,0,0,0,0
+6824,Cianfrusaglie di un Ingegnere,136655,89133,88,0,30,-30,0,0,0,0,0
+6825,Verga d'Incantamento dei Sin'dorei,136656,89107,88,0,30,-30,0,0,0,0,0
+6826,Polvere Benedetta dai Loa,136656,89106,88,0,30,-30,0,0,0,0,0
+6827,Globo dell'Essenza Primordiale,136656,89105,88,0,30,-30,0,0,0,0,0
+6828,Scheggia Entropica,136656,89104,88,0,30,-30,0,0,0,0,0
+6829,Granulo del Sole Ardente,136656,89103,88,0,30,-30,0,0,0,0,0
+6830,Cristallo del Vuoto Puro,136656,89102,88,0,30,-30,0,0,0,0,0
+6831,Seta del Fuoco Solare Incantata,136656,89101,88,0,30,-30,0,0,0,0,0
+6832,Maschera degli Amani Incantata,136656,89100,88,0,30,-30,0,0,0,0,0
+6833,Martello da Fabbro di Lunargenta,136658,89184,88,0,30,-30,0,0,0,0,0
+6834,Forgiamazza del Mastro Sin'dorei,136658,89183,88,0,30,-30,0,0,0,0,0
+6835,Spada del Curaflora Radiceo,136658,89182,88,0,30,-30,0,0,0,0,0
+6836,Lancia da Difesa della Tempesta del Vuoto,136658,89181,88,0,30,-30,0,0,0,0,0
+6837,Promemoria sulla Lavorazione dei Metalli,136658,89180,88,0,30,-30,0,0,0,0,0
+6838,Lancia Riposta con Attenzione,136658,89179,88,0,30,-30,0,0,0,0,0
+6839,Kit da Forgiatura di Lunargenta,136658,89178,88,0,30,-30,0,0,0,0,0
+6840,Tecniche di Forgiatura Decostruite,136658,89177,88,0,30,-30,0,0,0,0,0
+6841,Esperimento Fallito,136657,89118,88,0,30,-30,0,0,0,0,0
+6842,Pozione Immacolata,136657,89117,88,0,30,-30,0,0,0,0,0
+6843,Mestolo Graduato,136657,89116,88,0,30,-30,0,0,0,0,0
+6844,Sbocciapace Appena Raccolto,136657,89115,88,0,30,-30,0,0,0,0,0
+6845,Fiala di Stranezze di Zul'aman,136657,89114,88,0,30,-30,0,0,0,0,0
+6846,Fiala di Stranezze di Radicalia,136657,89113,88,0,30,-30,0,0,0,0,0
+6847,Fiala di Stranezze della Tempesta del Vuoto,136657,89112,88,0,30,-30,0,0,0,0,0
+6848,Fiala di Stranezze di Cantoeterno,136657,89111,88,0,30,-30,0,0,0,0,0
+6849,Bocciolo Sbocciato,136648,89162,88,0,30,-30,0,0,0,0,0
+6850,Falce del Mietitore Spazzante,136648,89161,88,0,30,-30,0,0,0,0,0
+6851,Cesoie Semplici per Fogliame,136648,89160,88,0,30,-30,0,0,0,0,0
+6852,Radice della Fioritura di Luce,136648,89159,88,0,30,-30,0,0,0,0,0
+6853,Vanga,136648,89158,88,0,30,-30,0,0,0,0,0
+6854,Falcetto del Mietitore,136648,89157,88,0,30,-30,0,0,0,0,0
+6855,Loto Peculiare,136648,89156,88,0,30,-30,0,0,0,0,0
+6856,Badile da Giardinaggio,136648,89155,88,0,30,-30,0,0,0,0,0
+6857,Punzonatrici per Minerale Solido,136650,89147,88,0,30,-30,0,0,0,0,0
+6858,Borsa della Tempesta del Vuoto Perduta,136650,89146,88,0,30,-30,0,0,0,0,0
+6859,Amuleto Fortunato dello Speleologo,136650,89145,88,0,30,-30,0,0,0,0,0
+6860,Guida del Minatore alla Tempesta del Vuoto,136650,89144,88,0,30,-30,0,0,0,0,0
+6861,Ordine Ragionato dell'Artigiano,136652,89096,88,0,30,-30,0,0,0,0,0
+6862,Coltello da Conciatura degli Haranir,136652,89095,88,0,30,-30,0,0,0,0,0
+6863,Mazzuolo da Conciatura degli Haranir,136652,89094,88,0,30,-30,0,0,0,0,0
+6864,Modelli: Oltre il Vuoto,136652,89093,88,0,30,-30,0,0,0,0,0
+6865,Fiala Mal Rifinita,136653,89125,88,0,30,-30,0,0,0,0,0
+6866,Lenti a Doppia Funzione,136653,89124,88,0,30,-30,0,0,0,0,0
+6867,Cristallo della Tempesta del Vuoto Congetturale,136653,89123,88,0,30,-30,0,0,0,0,0
+6868,Scalpello Capolavoro dei Sin'dorei,136653,89122,88,0,30,-30,0,0,0,0,0
+6869,Penna del Compositore,136654,89074,88,0,30,-30,0,0,0,0,0
+6870,Calamo del Compositore,136654,89073,88,0,30,-30,0,0,0,0,0
+6871,Tecniche Approssimative,136654,89072,88,0,30,-30,0,0,0,0,0
+6872,Pigmento di Rovosangue Avanzato,136654,89071,88,0,30,-30,0,0,0,0,0
+6873,Teletrasportatore,0,0,105,0,0,0,0,0,0,0,0
 6874,Fenditura di Fase,134232,0,1209,0,0,0,0,0,0,0,0
 6875,Dissidente Peldifalce,130010,0,1113,1028,0,0,0,0,0,0,0
 6876,Dissidente Giuraterra,130010,0,1113,1028,0,0,0,0,0,0,0
@@ -6136,11 +6239,28 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6884,Dissidente Verargent,130010,0,1113,1028,0,0,0,0,0,0,0
 6885,Sussurratore Grandassedio,130010,0,1113,1028,0,0,0,0,0,0,0
 6886,Sussurratrice Scoppiakaos,130010,0,1113,1028,0,0,0,0,0,0,0
+6887,[TEMPLATE] [Object Name],0,89272,1140,1024,0,0,0,0,0,0,0
+6888,[TEMPLATE] [Object Name],0,89275,1158,1024,0,0,0,0,0,0,0
 6889,Contenitore Forgiato dal Vuoto Etereo,140658,89378,1140,0,0,0,0,0,0,0,0
+6890,Velocità di Akil'zon,137314,0,104,1032,0,0,0,0,0,0,0
 6891,Torba Viola,137526,0,1113,1094,0,0,0,0,0,1,0
+6892,Cassa da Battaglia Spettrale,71941,0,1108,328770,0,0,0,0,0,0,0
 6893,Raccoglitore Arcano So'zer,137548,0,1113,1094,0,0,0,0,0,1,0
+6895,Malefico Necromantico Raz'ka,0,89569,1114,1060,0,0,0,0,0,0,0
+6896,Il Flagello Azzannatore,0,89570,1114,1060,0,0,0,0,0,0,0
+6897,Harak Sfondateschi,0,89571,1114,1060,0,0,0,0,0,0,0
+6898,Anziano Grinfiaquercia,0,89572,1114,1060,0,0,0,0,0,0,0
+6899,Anguillementale delle Profondità,0,89573,1114,1060,0,0,0,0,0,0,0
+6900,Trivellatore di Chiarolegno,0,89575,1114,1060,0,0,0,0,0,0,0
+6902,Tempesta Scatenata,141943,89577,1113,1126,0,0,0,0,0,0,0
+6903,Crestaspina,0,89578,1114,1060,0,0,0,0,0,0,0
+6904,Oofago,0,89579,1114,1060,0,0,0,0,0,0,0
+6905,Parassita Piccolo,0,89580,1114,1060,0,0,0,0,0,0,0
+6906,Crostaceo Toccato dal Vuoto,0,89581,1114,1060,0,0,0,0,0,0,0
+6907,L'Invasore Divorante,0,89583,1114,1060,0,0,0,0,0,0,0
 6909,Deposito di Armi,0,0,1217,271430,0,0,0,0,0,0,0
 6910,Mucchio di Bombe,0,0,1217,271430,0,0,0,0,0,0,0
+6911,Spia di Lunargenta,137811,0,1218,1026,0,0,0,0,0,0,0
 6912,Evento,0,0,90,0,0,0,0,0,0,0,0
 6913,Raccoglitore Arcano So'zer,0,90696,1113,1094,0,0,0,0,0,1,0
 6914,Scavaterra,0,90698,1113,1094,0,0,0,0,0,1,0
@@ -6157,21 +6277,192 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 6925,Talwar della Guardia Dorata,136602,90522,1140,0,0,0,0,0,0,0,0
 6926,Frantumatore della Guardia dell'Ombra,136602,90527,1140,0,0,0,0,0,0,0,0
 6927,Artiglio di Korgorath,136602,90532,1140,0,0,0,0,0,0,0,0
+6928,Salmo della Fiamma,0,0,1113,1060,0,0,0,0,0,0,0
+6929,Celato,0,0,1114,1060,0,0,0,0,0,0,0
+6930,L'Inverno Nebbioso,0,0,1114,1060,0,0,0,0,0,0,0
+6931,Tomo Smarrito,138371,0,918,0,0,0,0,0,0,0,0
+6932,Fenditura del Vuoto,139062,0,1223,0,0,0,0,0,0,0,0
 6933,Console di Comando della Porta,139167,0,1226,0,50,-50,0,0,0,0,0
+6934,Equipaggiamento da Pesca Pregevole di Ruz'avalt,0,90790,1158,1024,0,0,0,0,0,0,0
+6935,[DEPRECATED],0,90791,1158,1024,0,0,0,0,0,0,0
+6936,[Object Name],0,90792,1158,1024,0,0,0,0,0,0,0
+6937,Cassa del Guerriero Onorato,0,90793,1158,1056,0,0,0,0,0,0,0
+6938,Teschio Rituale Abbandonato,0,90794,1158,1024,0,0,0,0,0,0,0
+6939,Esca e Attrezzatura,0,90795,1140,1024,0,0,0,0,0,0,0
+6940,Bottino Nascosto,0,90796,1140,1024,0,0,0,0,0,0,0
+6941,Tesoro Rognoso di Mrruk,0,90797,1140,1024,0,0,0,0,0,0,0
+6942,Formula Segreta,0,90798,1140,1024,0,0,0,0,0,0,0
+6943,Nido Abbandonato,0,90799,1140,1024,0,0,0,0,0,0,0
+6944,Rifornimenti degli Zannaculea,0,90800,1140,1024,0,0,0,0,0,0,0
+6945,Vasetto di Dolcetti Dimenticato,0,90801,1140,1024,0,0,0,0,0,0,0
+6946,Scorte Depredate da un Orso,0,90802,1140,1024,0,0,0,0,0,0,0
+6947,[DEPRECATED],0,90803,1140,1024,0,0,0,0,0,0,0
+6948,Teschio Rituale Abbandonato,0,90804,1140,1024,0,0,0,0,0,0,0
+6949,Scindereth l'Invocatore,0,90805,1114,1060,0,0,0,0,0,0,0
+6950,Magistro Umbric,0,0,1227,0,0,0,0,0,0,0,0
+6951,Pietra Runica,151673,0,1297,336898,0,0,0,0,1556,0,0
+6952,Domanaar,0,0,1228,66630,0,0,0,0,0,0,0
+6953,Domanaar,0,0,1229,66630,0,0,0,0,0,0,0
+6954,Pietra Runica,151673,0,1297,336898,0,0,0,0,1725,0,0
+6955,Pietra Runica,151673,0,1297,336898,0,0,0,0,1724,0,0
+6957,Barile del Vuoto,0,0,1271,1088,0,0,0,0,1853,0,0
+6958,Consegna dell'Alleanza,0,0,1236,1090,0,0,0,0,1853,0,0
+6959,Pietra Runica,151673,0,1297,336898,0,0,0,0,1726,0,0
+6960,Consegna dell'Orda,0,0,1237,1090,0,0,0,0,1853,0,0
+6961,Falce del Vuoto Territoriale,0,91050,1114,1060,0,0,0,0,0,0,0
+6962,Tremora,0,91048,1114,1060,0,0,0,0,0,0,0
+6963,Eruundi,0,91047,1114,1060,0,0,0,0,0,0,0
+6964,Progenie della Notte,0,91051,1114,1060,0,0,0,0,0,0,0
 6965,Lame da Guerra del Cacciatore Audace,136602,91055,1140,0,0,0,0,0,0,0,0
 6966,Prototipo di Pressa per Pacchi e Affrancature del Direttore della P.O.S.T.A.,136602,91056,1140,0,0,0,0,0,0,0,0
 6967,Lama Spettrale delle Marce del Vuoto,136602,91057,1140,0,0,0,0,0,0,0,0
 6968,Archibugio Tagliente dell'Impeto Sfrenato,136602,91058,1140,0,0,0,0,0,0,0,0
+6971,Il Decadimento Adamantino,0,91072,1113,1124,0,0,0,0,0,0,0
+6972,Ash'an il Potenziato,0,91073,1113,1124,0,0,0,0,0,0,0
+6973,[DEPRECATED],0,91074,1158,1024,0,0,0,0,0,0,0
+6974,Pozza di Salmoni,148439,0,106,5186,0,0,0,0,0,0,0
 6975,Erario degli Alienatori,140641,87320,1140,0,0,0,0,0,0,0,0
 6976,Erario Fuori Fase,140658,87320,1140,0,0,0,0,0,0,0,0
+6977,Mrrlokk,0,91174,1114,1060,0,0,0,0,0,0,0
+6978,Totem Cavo,0,91191,1140,1024,0,0,0,0,0,0,0
+6979,[DEPRECATED],0,91192,1140,1024,0,0,0,0,0,0,0
 6980,"Malek'ta, le Fauci dell'Oblio",0,91275,1114,1060,0,0,0,0,0,0,0
 6981,"Heka'tamos, la Disgiunzione Elementale",0,91276,1114,1060,0,0,0,0,0,0,0
+6982,[TEMPLATE] [Object Name],0,91273,1141,1032,0,0,0,0,0,0,0
 6983,Portale per la Città dei Vermi,0,0,1021,132418,0,0,0,0,0,0,0
 6984,Portale per le Terre Gelate,0,0,1021,132418,0,0,0,0,0,0,0
 6985,Portale per il Labirinto di Lava,0,0,1021,132418,0,0,0,0,0,0,0
 6986,Portale per la Foresta di Veleno,0,0,1021,132418,0,0,0,0,0,0,0
 6987,Portale per il Circo di Sangue,0,0,1021,132418,0,0,0,0,0,0,0
+6988,Zelota del Vuoto Devinda,0,0,1113,852994,0,0,0,0,0,0,0
+6989,Mordiviti Viola,0,0,1114,1060,0,0,0,0,0,0,0
+6990,Calcacorteccia d'Iris,0,0,1114,1060,0,0,0,0,0,0,0
+6991,Codaspina d'Edera,0,0,1114,1060,0,0,0,0,0,0,0
+6992,Custode delle Erbacce,0,91280,1114,1060,0,0,0,0,0,0,0
+6994,Asira Vesprorosso,0,0,1113,852994,0,0,0,0,0,0,0
+6995,Razza della Putrescenza,0,0,1113,852994,0,0,0,0,0,0,0
+6996,Arcivescovo Benedictus,0,0,1113,852994,0,0,0,0,0,0,0
+6997,Ix il Sangue Dannato,0,0,1113,852994,0,0,0,0,0,0,0
+6998,Comandante Ix'vaarha,0,0,1113,852994,0,0,0,0,0,0,0
+6999,Resti Corrotti dal Vuoto,144810,91197,1269,1024,0,0,0,0,0,0,0
+7000,Rifornimenti Perduti del Passo nell'Ombra,0,91308,1140,1024,0,0,0,0,0,0,0
+7001,Ez'haadosh la Soglia,0,0,1113,852994,0,0,0,0,0,0,0
+7002,Zampalesta Affannato,0,91315,1114,1060,0,0,0,0,0,0,0
+7003,Saligrum l'Osservatore,0,0,1113,852994,0,0,0,0,0,0,0
+7004,"Sharfadi, Baluardo della Notte",0,0,1113,852994,0,0,0,0,0,0,0
+7005,"Gustavan, Alfiere della Fine",0,0,1113,852994,0,0,0,0,0,0,0
+7006,Specchiomorsa,0,0,1113,852994,0,0,0,0,0,0,0
+7007,Occhiorosso il Masticacrani,0,0,1113,852994,0,0,0,0,0,0,0
+7008,Nedrand il Mangiaocchi,0,0,1113,852994,0,0,0,0,0,0,0
+7009,Hexathor l'Artiglio del Vuoto,0,0,1113,852994,0,0,0,0,0,0,0
+7010,Cassa dell'Artigiano,0,92620,1140,2,0,0,0,0,0,0,0
+7011,Magistro Spezzasole,141546,0,1107,1126,0,0,0,0,0,0,0
+7012,Bersaglio 2,141648,0,1107,1126,0,0,0,0,0,0,0
+7013,Bersaglio 3,141649,0,1107,1126,0,0,0,0,0,0,0
+7014,Bersaglio 4,141650,0,1107,1126,0,0,0,0,0,0,0
+7015,Bersaglio 5,141652,0,1107,1126,0,0,0,0,0,0,0
+7016,Bersaglio 6,141653,0,1107,1126,0,0,0,0,0,0,0
+7017,Bersaglio 7,141654,0,1107,1126,0,0,0,0,0,0,0
+7018,Bersaglio 8,141655,0,1107,1126,0,0,0,0,0,0,0
+7019,Jo'zolo il Distruttore,141656,0,1107,1126,0,0,0,0,0,0,0
+7020,Bersaglio 10,141657,0,1107,1126,0,0,0,0,0,0,0
+7021,Bersaglio 11,141658,0,1107,1126,0,0,0,0,0,0,0
+7022,Bersaglio 12,141659,0,1107,1126,0,0,0,0,0,0,0
+7023,Bersaglio 13,141660,0,1107,1126,0,0,0,0,0,0,0
+7024,Bersaglio 14,141661,0,1107,1126,0,0,0,0,0,0,0
+7025,Bersaglio 15,141662,0,1107,1126,0,0,0,0,0,0,0
+7026,Bersaglio 16,141663,0,1107,1126,0,0,0,0,0,0,0
+7027,Bersaglio 17,141664,0,1107,1126,0,0,0,0,0,0,0
+7028,Bersaglio 18,141665,0,1107,1126,0,0,0,0,0,0,0
+7029,Bersaglio 19,141666,0,1107,1126,0,0,0,0,0,0,0
+7030,Bersaglio 20,141667,0,1107,1126,0,0,0,0,0,0,0
+7031,Esecutore Kaenius,141668,0,1107,1126,0,0,0,0,0,0,0
+7032,Bersaglio 22,141669,0,1107,1126,0,0,0,0,0,0,0
+7033,Bersaglio 23,141670,0,1107,1126,0,0,0,0,0,0,0
+7034,Bersaglio 24,141671,0,1107,1126,0,0,0,0,0,0,0
+7035,Bersaglio 25,141672,0,1107,1126,0,0,0,0,0,0,0
+7036,Bersaglio 26,141673,0,1107,1126,0,0,0,0,0,0,0
+7037,Bersaglio 27,141674,0,1107,1126,0,0,0,0,0,0,0
+7038,Bersaglio 28,141675,0,1107,1126,0,0,0,0,0,0,0
+7039,Bersaglio 29,141676,0,1107,1126,0,0,0,0,0,0,0
+7040,Bersaglio 30,141677,0,1107,1126,0,0,0,0,0,0,0
+7041,Vaso di Vernice Gorgogliante,0,91358,1140,1024,0,0,0,0,0,0,0
+7042,Lynthelma la Carnefice,0,0,1113,852994,0,0,0,0,0,0,0
+7043,T'aavihan l'Indomabile,0,0,1113,852994,0,0,0,0,0,0,0
+7044,Cassa Dimenticata degli Amani,0,0,1140,1024,0,0,0,0,0,0,0
+7045,Remo Inciso,0,91395,1141,1032,0,0,0,0,0,0,0
+7046,Signora della Guerra Hlaka,0,0,1113,1060,0,0,0,0,0,0,0
+7047,Signore del Maleficio O'tom,0,0,1113,1060,0,0,0,0,0,0,0
+7048,Cacciatore dell'Ombra Jun'tilo,0,0,1113,1060,0,0,0,0,0,0,0
+7049,Abbondanza,0,0,1005,0,0,0,0,0,0,0,0
+7050,Bersaglio 2,142021,0,1107,1126,0,0,0,0,0,0,0
+7051,Bersaglio 3,142022,0,1107,1126,0,0,0,0,0,0,0
+7052,Bersaglio 4,142023,0,1107,1126,0,0,0,0,0,0,0
+7053,Bersaglio 5,142024,0,1107,1126,0,0,0,0,0,0,0
+7054,Bersaglio 6,142025,0,1107,1126,0,0,0,0,0,0,0
+7055,Bersaglio 7,142026,0,1107,1126,0,0,0,0,0,0,0
+7056,Bersaglio 8,142027,0,1107,1126,0,0,0,0,0,0,0
+7057,Jo'zolo il Distruttore,142028,0,1107,1126,0,0,0,0,0,0,0
+7058,Bersaglio 10,142029,0,1107,1126,0,0,0,0,0,0,0
+7059,Bersaglio 11,142030,0,1107,1126,0,0,0,0,0,0,0
+7060,Bersaglio 12,142031,0,1107,1126,0,0,0,0,0,0,0
+7061,Bersaglio 13,142032,0,1107,1126,0,0,0,0,0,0,0
+7062,Bersaglio 14,142033,0,1107,1126,0,0,0,0,0,0,0
+7063,Bersaglio 15,142034,0,1107,1126,0,0,0,0,0,0,0
+7064,Bersaglio 16,142035,0,1107,1126,0,0,0,0,0,0,0
+7065,Bersaglio 17,142036,0,1107,1126,0,0,0,0,0,0,0
+7066,Bersaglio 18,142037,0,1107,1126,0,0,0,0,0,0,0
+7067,Bersaglio 19,142038,0,1107,1126,0,0,0,0,0,0,0
+7068,Bersaglio 20,142039,0,1107,1126,0,0,0,0,0,0,0
+7069,Esecutore Kaenius,142040,0,1107,1126,0,0,0,0,0,0,0
+7070,Bersaglio 22,142041,0,1107,1126,0,0,0,0,0,0,0
+7071,Bersaglio 23,142042,0,1107,1126,0,0,0,0,0,0,0
+7072,Bersaglio 24,142043,0,1107,1126,0,0,0,0,0,0,0
+7073,Bersaglio 25,142044,0,1107,1126,0,0,0,0,0,0,0
+7074,Bersaglio 26,142045,0,1107,1126,0,0,0,0,0,0,0
+7075,Bersaglio 27,142046,0,1107,1126,0,0,0,0,0,0,0
+7076,Bersaglio 28,142047,0,1107,1126,0,0,0,0,0,0,0
+7077,Bersaglio 29,142048,0,1107,1126,0,0,0,0,0,0,0
+7078,Bersaglio 30,142050,0,1107,1126,0,0,0,0,0,0,0
+7079,Magistro Rinnegato,142020,0,1107,1126,0,0,0,0,0,0,0
+7080,Magistro Rinnegato,142052,0,1107,1126,0,0,0,0,0,0,0
+7081,Bersaglio 2,142053,0,1107,1126,0,0,0,0,0,0,0
+7082,Bersaglio 3,142054,0,1107,1126,0,0,0,0,0,0,0
+7083,Bersaglio 4,142055,0,1107,1126,0,0,0,0,0,0,0
+7084,Bersaglio 5,142056,0,1107,1126,0,0,0,0,0,0,0
+7085,Bersaglio 6,142057,0,1107,1126,0,0,0,0,0,0,0
+7086,Bersaglio 7,142058,0,1107,1126,0,0,0,0,0,0,0
+7087,Bersaglio 8,142059,0,1107,1126,0,0,0,0,0,0,0
+7088,Jo'zolo il Distruttore,142060,0,1107,1126,0,0,0,0,0,0,0
+7089,Bersaglio 10,142061,0,1107,1126,0,0,0,0,0,0,0
+7090,Bersaglio 11,142062,0,1107,1126,0,0,0,0,0,0,0
+7091,Bersaglio 12,142063,0,1107,1126,0,0,0,0,0,0,0
+7092,Bersaglio 13,142064,0,1107,1126,0,0,0,0,0,0,0
+7093,Bersaglio 14,142065,0,1107,1126,0,0,0,0,0,0,0
+7094,Bersaglio 15,142066,0,1107,1126,0,0,0,0,0,0,0
+7095,Bersaglio 16,142067,0,1107,1126,0,0,0,0,0,0,0
+7096,Bersaglio 17,142068,0,1107,1126,0,0,0,0,0,0,0
+7097,Bersaglio 18,142069,0,1107,1126,0,0,0,0,0,0,0
+7098,Bersaglio 19,142070,0,1107,1126,0,0,0,0,0,0,0
+7099,Bersaglio 20,142071,0,1107,1126,0,0,0,0,0,0,0
+7100,Esecutore Kaenius,142072,0,1107,1126,0,0,0,0,0,0,0
+7101,Bersaglio 22,142073,0,1107,1126,0,0,0,0,0,0,0
+7102,Bersaglio 23,142074,0,1107,1126,0,0,0,0,0,0,0
+7103,Bersaglio 24,142075,0,1107,1126,0,0,0,0,0,0,0
+7104,Bersaglio 25,142076,0,1107,1126,0,0,0,0,0,0,0
+7105,Bersaglio 26,142077,0,1107,1126,0,0,0,0,0,0,0
+7106,Bersaglio 27,142078,0,1107,1126,0,0,0,0,0,0,0
+7107,Bersaglio 28,142079,0,1107,1126,0,0,0,0,0,0,0
+7108,Bersaglio 29,142080,0,1107,1126,0,0,0,0,0,0,0
+7109,Bersaglio 30,142081,0,1107,1126,0,0,0,0,0,0,0
+7110,Abbondanza,0,0,1005,0,0,0,0,0,0,0,0
+7111,Murominiera Impazzita,0,0,1114,1060,0,0,0,0,0,0,0
+7112,Spezzaminiera Infusa,0,0,1114,1060,0,0,0,0,0,0,0
+7113,Grezzaminiera Scatenata,0,0,1113,1060,0,0,0,0,0,0,0
+7114,Abbondanza,0,0,1005,0,0,0,0,0,0,0,0
 7115,Pietra di Transito,0,0,1214,267267,250,-250,0,0,0,0,0
+7116,Cassa del Saggio,0,91570,1158,1024,0,0,0,0,0,0,0
+7117,Bracconiere Rav'ik,0,91634,1114,1060,0,0,0,0,0,0,0
 7118,Un Libro Spiegazzato,142464,91640,1141,1032,0,0,0,0,0,0,0
 7119,Quaderno Misterioso,142474,91642,1141,1032,0,0,0,0,0,0,0
 7120,Dinamica delle Energie del Multiverso e il Paradosso della Mormorazione,142475,91643,1141,1032,0,0,0,0,0,0,0
@@ -6180,16 +6471,376 @@ ID,Name_lang,PlayerConditionID,VisibleTrackingQuestID,QuestFeedbackEffectID,Flag
 7123,Gli Aspetti di K'aresh,142480,91647,1141,1032,0,0,0,0,0,0,0
 7124,Monete: lo Scambio di un Giuramento,142481,91648,1141,1032,0,0,0,0,0,0,0
 7125,Sono Diventato Vuoto!,142482,91649,1141,1032,0,0,0,0,0,0,0
+7126,Selenar Soleschivo,0,0,105,0,0,0,0,0,0,0,0
 7127,Diario da Campo del Geologo,142545,91686,1141,1032,0,0,0,0,0,0,0
 7128,Lista di Piaceri Minori,142549,91687,1141,1032,0,0,0,0,0,0,0
+7129,Spiralnulla,0,94460,1113,68,100,-100,0,0,0,0,0
+7130,Pietra Runica,151673,0,1297,336898,0,0,0,0,1727,0,0
+7131,Area Antigravità,145762,91419,108,4,0,0,0,0,0,0,0
 7132,Quartiermastro della Fama,0,0,1243,0,0,0,0,0,0,0,0
+7133,Il Multi-Spezzato,0,94458,1113,68,100,-100,0,0,0,0,0
+7135,Valeera Sanguinar,0,0,1249,66,0,0,0,0,0,0,0
 7136,Infernale della Legione Perduta,49081,0,176,263234,0,0,0,0,0,0,0
 7137,Infernale della Fine dei Tempi,49081,0,176,263234,0,0,0,0,0,0,0
+7138,Leccabisso,0,94462,1113,68,100,-100,0,0,0,0,0
+7139,Rhazul,0,91832,1114,4,0,0,0,0,0,0,0
+7140,Veggente del Vuoto Orivane,0,94459,1113,68,100,0,0,0,0,0,0
+7141,Placca Commemorativa,0,91841,1141,1032,0,0,0,0,0,0,0
+7142,Nucleo Nero,0,94463,1113,68,100,-100,0,0,0,0,0
 7143,Portale di Traslocazione Ascendente,0,0,1250,300034,0,0,0,0,0,0,0
 7144,Portale di Traslocazione Discendente,0,0,1251,300034,0,0,0,0,0,0,0
 7145,Portale di Traslocazione Discendente,0,0,1251,300034,20,-20,0,0,0,0,0
 7146,Portale di Traslocazione Ascendente,0,0,1250,300034,20,-20,0,0,0,0,0
+7147,Rifornimenti di Buferion,0,0,0,0,0,0,0,0,0,0,0
+7148,Rifornimenti di Buferion,0,0,0,0,0,0,0,0,0,0,0
+7149,Rastrelliera di Attrezzi Eterea,0,0,1259,1088,0,0,0,0,0,0,0
+7152,Barile di Mele,148439,0,1303,5186,0,0,0,0,0,0,0
+7153,Scorte di Cibo,0,0,106,5184,0,0,0,0,0,0,0
+7154,Cespuglio di Bacche,148439,0,1304,5186,0,0,0,0,0,0,0
+7155,Ombra Gocciolante,0,95010,1114,1060,0,0,0,0,0,0,0
+7156,Chironex,0,92137,1114,4,0,0,0,0,0,0,0
+7157,Ha'kalawe,0,92142,1114,4,0,0,0,0,0,0,0
+7158,Cappellalto Spargivero,0,92148,1114,4,0,0,0,0,0,0,0
+7159,Regina Sferzalingua,0,92154,1114,4,0,0,0,0,0,0,0
 7160,Oggetto d'Interesse,0,0,1262,0,0,0,0,0,0,0,0
+7161,Cloromorte,0,92161,1114,4,0,0,0,0,0,0,0
+7162,Troncolo,0,92168,1113,4,0,0,0,0,0,0,0
+7163,Serrasa,0,92170,1114,4,0,0,0,0,0,0,0
+7164,Mentemarcia,0,92172,1114,4,0,0,0,0,0,0,0
+7165,Dracaena,0,92176,1114,4,0,0,0,0,0,0,0
+7166,Cimalbero,0,92183,1114,4,0,0,0,0,0,0,0
+7167,Oro'ohna,0,92190,1113,4,0,0,0,0,0,0,0
+7168,Pterroccia,0,92191,1114,4,0,0,0,0,0,0,0
+7169,Vidious,144383,0,300,263170,0,0,0,0,0,3,2
+7170,Ziadan,144386,0,328,263170,0,0,0,0,0,3,2
+7171,Ahl'ua'huhi,0,92193,1114,4,0,0,0,0,0,0,0
+7172,Annulus lo Scuotimondo,0,92194,1113,4,0,0,0,0,0,0,0
+7173,Falena Luminosa,144412,92196,88,0,0,0,0,0,0,0,0
+7175,Falena Luminosa,144412,92197,88,0,0,0,0,0,0,0,0
+7176,Falena Luminosa,144412,92198,88,0,0,0,0,0,0,0,0
+7177,Falena Luminosa,144412,92199,88,0,0,0,0,0,0,0,0
+7178,Falena Luminosa,144412,92200,88,0,0,0,0,0,0,0,0
+7179,Falena Luminosa,144412,92201,88,0,0,0,0,0,0,0,0
+7180,Falena Luminosa,144412,92202,88,0,0,0,0,0,0,0,0
+7181,Falena Luminosa,144412,92203,88,0,0,0,0,0,0,0,0
+7182,Falena Luminosa,144412,92204,88,0,0,0,0,0,0,0,0
+7183,Falena Luminosa,144412,92205,88,0,0,0,0,0,0,0,0
+7184,Falena Luminosa,144412,92307,88,0,0,0,0,0,0,0,0
+7185,Falena Luminosa,144412,92299,88,0,0,0,0,0,0,0,0
+7186,Falena Luminosa,144412,92300,88,0,0,0,0,0,0,0,0
+7187,Falena Luminosa,144412,92301,88,0,0,0,0,0,0,0,0
+7188,Falena Luminosa,144412,92302,88,0,0,0,0,0,0,0,0
+7189,Falena Luminosa,144412,92303,88,0,0,0,0,0,0,0,0
+7190,Falena Luminosa,144412,92304,88,0,0,0,0,0,0,0,0
+7191,Falena Luminosa,144412,92305,88,0,0,0,0,0,0,0,0
+7192,Falena Luminosa,144412,92306,88,0,0,0,0,0,0,0,0
+7193,Falena Luminosa,144412,92206,88,0,0,0,0,0,0,0,0
+7194,Falena Luminosa,144412,92215,88,0,0,0,0,0,0,0,0
+7195,Falena Luminosa,144412,92214,88,0,0,0,0,0,0,0,0
+7196,Falena Luminosa,144412,92213,88,0,0,0,0,0,0,0,0
+7197,Falena Luminosa,144412,92212,88,0,0,0,0,0,0,0,0
+7198,Falena Luminosa,144412,92211,88,0,0,0,0,0,0,0,0
+7199,Falena Luminosa,144412,92210,88,0,0,0,0,0,0,0,0
+7200,Falena Luminosa,144412,92209,88,0,0,0,0,0,0,0,0
+7201,Falena Luminosa,144412,92208,88,0,0,0,0,0,0,0,0
+7202,Falena Luminosa,144412,92207,88,0,0,0,0,0,0,0,0
+7203,Falena Luminosa,144412,92226,88,0,0,0,0,0,0,0,0
+7204,Falena Luminosa,144412,92235,88,0,0,0,0,0,0,0,0
+7205,Falena Luminosa,144412,92234,88,0,0,0,0,0,0,0,0
+7206,Falena Luminosa,144412,92233,88,0,0,0,0,0,0,0,0
+7207,Falena Luminosa,144412,92232,88,0,0,0,0,0,0,0,0
+7208,Falena Luminosa,144412,92231,88,0,0,0,0,0,0,0,0
+7209,Falena Luminosa,144412,92230,88,0,0,0,0,0,0,0,0
+7210,Falena Luminosa,144412,92229,88,0,0,0,0,0,0,0,0
+7211,Falena Luminosa,144412,92228,88,0,0,0,0,0,0,0,0
+7212,Falena Luminosa,144412,92227,88,0,0,0,0,0,0,0,0
+7213,Falena Luminosa,144412,92225,88,0,0,0,0,0,0,0,0
+7214,Falena Luminosa,144440,92224,88,0,0,0,0,0,0,0,0
+7215,Falena Luminosa,144440,92223,88,0,0,0,0,0,0,0,0
+7216,Falena Luminosa,144440,92222,88,0,0,0,0,0,0,0,0
+7217,Falena Luminosa,144440,92221,88,0,0,0,0,0,0,0,0
+7218,Falena Luminosa,144440,92220,88,0,0,0,0,0,0,0,0
+7219,Falena Luminosa,144440,92219,88,0,0,0,0,0,0,0,0
+7220,Falena Luminosa,144440,92218,88,0,0,0,0,0,0,0,0
+7221,Falena Luminosa,144440,92217,88,0,0,0,0,0,0,0,0
+7222,Falena Luminosa,144440,92216,88,0,0,0,0,0,0,0,0
+7223,Falena Luminosa,144440,92245,88,0,0,0,0,0,0,0,0
+7224,Falena Luminosa,144440,92244,88,0,0,0,0,0,0,0,0
+7225,Falena Luminosa,144440,92243,88,0,0,0,0,0,0,0,0
+7226,Falena Luminosa,144440,92242,88,0,0,0,0,0,0,0,0
+7227,Falena Luminosa,144440,92241,88,0,0,0,0,0,0,0,0
+7228,Falena Luminosa,144440,92240,88,0,0,0,0,0,0,0,0
+7229,Falena Luminosa,144440,92239,88,0,0,0,0,0,0,0,0
+7230,Falena Luminosa,144440,92238,88,0,0,0,0,0,0,0,0
+7231,Falena Luminosa,144440,92237,88,0,0,0,0,0,0,0,0
+7232,Falena Luminosa,144440,92236,88,0,0,0,0,0,0,0,0
+7233,Falena Luminosa,144440,92255,88,0,0,0,0,0,0,0,0
+7234,Falena Luminosa,144440,92254,88,0,0,0,0,0,0,0,0
+7235,Falena Luminosa,144440,92253,88,0,0,0,0,0,0,0,0
+7236,Falena Luminosa,144440,92252,88,0,0,0,0,0,0,0,0
+7237,Falena Luminosa,144440,92251,88,0,0,0,0,0,0,0,0
+7238,Falena Luminosa,144440,92250,88,0,0,0,0,0,0,0,0
+7239,Falena Luminosa,144440,92249,88,0,0,0,0,0,0,0,0
+7240,Falena Luminosa,144440,92248,88,0,0,0,0,0,0,0,0
+7241,Falena Luminosa,144440,92247,88,0,0,0,0,0,0,0,0
+7242,Falena Luminosa,144440,92246,88,0,0,0,0,0,0,0,0
+7243,Falena Luminosa,144440,92265,88,0,0,0,0,0,0,0,0
+7244,Falena Luminosa,144440,92264,88,0,0,0,0,0,0,0,0
+7245,Falena Luminosa,144440,92263,88,0,0,0,0,0,0,0,0
+7246,Falena Luminosa,144440,92262,88,0,0,0,0,0,0,0,0
+7247,Falena Luminosa,144440,92261,88,0,0,0,0,0,0,0,0
+7248,Falena Luminosa,144440,92260,88,0,0,0,0,0,0,0,0
+7249,Falena Luminosa,144440,92259,88,0,0,0,0,0,0,0,0
+7250,Falena Luminosa,144440,92258,88,0,0,0,0,0,0,0,0
+7251,Falena Luminosa,144440,92257,88,0,0,0,0,0,0,0,0
+7252,Falena Luminosa,144440,92256,88,0,0,0,0,0,0,0,0
+7253,Falena Luminosa,144440,92266,88,0,0,0,0,0,0,0,0
+7254,Falena Luminosa,144441,92308,88,0,0,0,0,0,0,0,0
+7255,Falena Luminosa,144441,92316,88,0,0,0,0,0,0,0,0
+7256,Falena Luminosa,144441,92315,88,0,0,0,0,0,0,0,0
+7257,Falena Luminosa,144441,92314,88,0,0,0,0,0,0,0,0
+7258,Falena Luminosa,144441,92313,88,0,0,0,0,0,0,0,0
+7259,Falena Luminosa,144441,92312,88,0,0,0,0,0,0,0,0
+7260,Falena Luminosa,144441,92311,88,0,0,0,0,0,0,0,0
+7261,Falena Luminosa,144441,92310,88,0,0,0,0,0,0,0,0
+7262,Falena Luminosa,144441,92309,88,0,0,0,0,0,0,0,0
+7263,Falena Luminosa,144441,92277,88,0,0,0,0,0,0,0,0
+7264,Falena Luminosa,144441,92286,88,0,0,0,0,0,0,0,0
+7265,Falena Luminosa,144441,92285,88,0,0,0,0,0,0,0,0
+7266,Falena Luminosa,144441,92284,88,0,0,0,0,0,0,0,0
+7267,Falena Luminosa,144441,92283,88,0,0,0,0,0,0,0,0
+7268,Falena Luminosa,144441,92282,88,0,0,0,0,0,0,0,0
+7269,Falena Luminosa,144441,92281,88,0,0,0,0,0,0,0,0
+7270,Falena Luminosa,144441,92280,88,0,0,0,0,0,0,0,0
+7271,Falena Luminosa,144441,92279,88,0,0,0,0,0,0,0,0
+7272,Falena Luminosa,144441,92278,88,0,0,0,0,0,0,0,0
+7273,Falena Luminosa,144441,92267,88,0,0,0,0,0,0,0,0
+7274,Falena Luminosa,144441,92276,88,0,0,0,0,0,0,0,0
+7275,Falena Luminosa,144441,92275,88,0,0,0,0,0,0,0,0
+7276,Falena Luminosa,144441,92274,88,0,0,0,0,0,0,0,0
+7277,Falena Luminosa,144441,92273,88,0,0,0,0,0,0,0,0
+7278,Falena Luminosa,144441,92272,88,0,0,0,0,0,0,0,0
+7279,Falena Luminosa,144441,92271,88,0,0,0,0,0,0,0,0
+7280,Falena Luminosa,144441,92270,88,0,0,0,0,0,0,0,0
+7281,Falena Luminosa,144441,92269,88,0,0,0,0,0,0,0,0
+7282,Falena Luminosa,144441,92268,88,0,0,0,0,0,0,0,0
+7283,Falena Luminosa,144441,92296,88,0,0,0,0,0,0,0,0
+7284,Falena Luminosa,144441,92295,88,0,0,0,0,0,0,0,0
+7285,Falena Luminosa,144441,92294,88,0,0,0,0,0,0,0,0
+7286,Falena Luminosa,144441,92293,88,0,0,0,0,0,0,0,0
+7287,Falena Luminosa,144441,92292,88,0,0,0,0,0,0,0,0
+7288,Falena Luminosa,144441,92291,88,0,0,0,0,0,0,0,0
+7289,Falena Luminosa,144441,92290,88,0,0,0,0,0,0,0,0
+7290,Falena Luminosa,144441,92289,88,0,0,0,0,0,0,0,0
+7291,Falena Luminosa,144441,92288,88,0,0,0,0,0,0,0,0
+7292,Falena Luminosa,144441,92287,88,0,0,0,0,0,0,0,0
+7293,Falena Luminosa,144441,92297,88,0,0,0,0,0,0,0,0
+7294,Drago Carnivoro Rigonfio,0,92366,1114,1060,0,0,0,0,0,0,0
+7295,Dundun del Tesoro,136693,0,1266,6,0,0,0,0,0,0,0
+7296,Altare dell'Abbondanza,136693,0,1298,0,0,0,0,0,0,0,0
+7297,Pioggia dell'Abbondanza,136693,0,1266,6,0,0,0,0,0,0,0
+7298,Zannacorallo,0,92389,1114,1060,0,0,0,0,0,0,0
+7299,"Cre'van, Coordinatore Crudele",0,92391,1114,1060,0,0,0,0,0,0,0
+7300,Idra della Fioritura di Luce Dormiente,0,92392,1114,1060,0,0,0,0,0,0,0
+7301,Dama Liminus,0,92393,1114,1060,0,0,0,0,0,0,0
+7302,Ondario,0,92395,1114,1060,0,0,0,0,0,0,0
+7303,Guardiano Perduto,0,92399,1114,1060,0,0,0,0,0,0,0
+7304,Banuran,0,92403,1114,1060,0,0,0,0,0,0,0
+7305,Zed lo Zoticone,0,92404,1114,1060,0,0,0,0,0,0,0
+7306,Terrinor,0,92409,1114,1060,0,0,0,0,0,0,0
 7307,Quartiermastro della Fama,0,0,1268,0,0,0,0,0,0,0,0
+7308,Borsa del Saltafunghi Fallito,0,92424,1140,1024,0,0,0,0,0,0,0
+7309,Ramo Infuocato dell'Albero del Mondo,0,92426,1140,1024,0,0,0,0,0,0,0
+7310,Pira Eterea,0,0,1302,37952,0,0,0,0,0,0,0
+7311,Premio dello Scontro del Signore delle Spore,0,92427,1140,1024,0,0,0,0,0,0,0
+7312,Erba Perduta del Reliquiario,0,92431,1140,1024,0,0,0,0,0,0,0
+7313,Calderone Bollente di Kemet,0,92436,1140,1024,0,0,0,0,0,0,0
+7315,Zucca Penzolante,0,0,1140,0,0,0,0,0,0,0,0
+7316,Bottiglia Dipinta,0,0,1140,0,0,0,0,0,0,0,0
+7317,Brocca Funghetta,149061,0,1140,0,0,0,0,0,0,0,0
+7318,Barile Germogliante,149061,0,1140,0,0,0,0,0,0,0,0
+7319,Cassa Legaspina,149061,0,1140,0,0,0,0,0,0,0,0
+7320,Pacchetto Avvolto nelle Foglie,149061,0,1140,0,0,0,0,0,0,0,0
+7321,Forziere Funghetto,0,0,1140,0,0,0,0,0,0,0,0
+7322,Forziere Pungispina,0,0,1140,0,0,0,0,0,0,0,0
+7323,Forziere Fiordispino,0,0,1140,0,0,0,0,0,0,0,0
+7324,Carica Arcana,0,0,1272,1026,0,0,0,0,0,0,0
+7325,Tarhu la Saccheggiatrice,0,95011,1114,1060,0,0,0,0,0,0,0
 7327,Ve'nari,137878,0,1273,459842,0,0,0,0,1842,0,0
+7328,Accampamento della Cava,0,0,1274,263170,0,0,0,0,0,0,0
+7329,Campo d'Addestramento,145864,0,1276,262150,400,-400,0,0,0,0,0
+7330,Accampamento della Cava,0,0,1275,0,0,0,0,0,0,0,0
+7331,Tesoro Sommerso,0,0,126,0,0,0,0,0,0,0,0
+7332,,0,0,126,0,0,0,0,0,0,0,0
+7333,Forze Alleate,0,0,1278,263170,0,0,0,0,0,0,0
+7334,,0,0,1279,0,0,0,0,0,0,0,0
+7336,Borsa degli Zampaspirito,0,0,1140,1024,0,0,0,0,0,0,0
+7337,Ordinanza del Crepuscolo,0,0,1140,1024,0,0,0,0,0,0,0
+7338,Vilricettacolo di Maisara,0,0,1140,1024,0,0,0,0,0,0,0
+7339,Rifornimenti di Acquapetra,0,0,1140,1024,0,0,0,0,0,0,0
+7340,Voce dell'Eclissi,0,0,1113,852994,0,0,0,0,0,0,0
+7341,Prigioniero Scorzasecca,0,0,1283,263170,0,0,0,0,0,0,0
+7342,Rifornimenti della Singolarità Nascosti,0,0,1140,1024,0,0,0,0,0,0,0
+7343,Ricettacolo del Domanaar Misterioso,0,0,1140,1024,0,0,0,0,0,0,0
+7344,Tinozza di Pietra,0,93061,1158,1024,0,0,0,0,0,0,0
+7345,Console di Accesso al Nucleo,148320,0,1285,0,50,-50,0,0,0,0,0
+7346,Condotto di Manacite,146732,0,1285,0,50,-50,0,0,0,0,0
+7347,Condotto di Vantacite,146735,0,1285,0,50,-50,0,0,0,0,0
+7348,Borsa Omaggio Gigante,0,0,1140,1024,0,0,0,0,0,0,0
+7349,Scorte Malandate,0,0,1140,1024,0,0,0,0,0,0,0
+7350,Rifornimenti dello Scorribandiere,0,0,105,0,0,0,0,0,0,0,0
+7351,Dono del Ciclo,146900,93144,1140,1038,0,0,0,0,0,0,0
+7354,Tenente Domanaar,0,0,1290,1284,0,-10,0,0,0,0,0
+7355,Covata Finale di Predaxas,0,93237,1158,1024,0,0,0,0,0,0,0
+7356,Varco Demoniaco,0,0,1291,0,0,0,0,0,0,0,0
+7357,Immagine di Astalor Giurasangue,147144,0,1292,328706,0,0,0,0,0,0,0
+7359,Segreta Dimenticata,147434,93431,1158,1024,0,0,0,0,0,0,0
+7360,Sacca Insanguinata,0,93431,1158,1024,0,0,0,0,0,0,0
 7361,Madre della Stirpe Shu'malis,0,93441,89,32,30,-30,0,0,0,0,0
+7362,Tomba Sommaria,0,0,1295,263168,0,0,0,0,0,0,0
+7363,Custode delle Erbacce,0,91280,1114,1060,0,0,0,0,0,0,0
+7364,Anello con Sigillo del Nobiluomo Antico,0,93455,1140,1024,0,0,0,0,0,0,0
+7365,Cassetta di Sicurezza con Serratura Tripla,0,93456,1158,1024,0,0,0,0,0,0,0
+7366,Faretra Perduta dei Lungopasso,0,93457,1140,1024,0,0,0,0,0,0,0
+7367,Viscere Semidigerite,0,93467,1140,1024,0,0,0,0,0,0,0
+7368,Faretra dell'Esploratore Ucciso,0,93493,1140,1024,0,0,0,0,0,0,0
+7369,Lamenti di Wey'nan: Trovare la Speranza,147573,93470,1141,1032,0,0,0,0,0,0,0
+7370,Lamenti di Wey'nan: A Caccia di uno Scopo,147574,93471,1141,1032,0,0,0,0,0,0,0
+7371,Lamenti di Wey'nan: Deve Esserci Altro,147575,93472,1141,1032,0,0,0,0,0,0,0
+7372,Echi del Nostro Passato: La Storia Sbiadisce,147577,93475,1141,1032,0,0,0,0,0,0,0
+7373,Echi del Nostro Passato: Polvere di Aln,147578,93474,1141,1032,0,0,0,0,0,0,0
+7374,Echi del Nostro Passato: Ricordi Pericolosi,147579,93473,1141,1032,0,0,0,0,0,0,0
+7375,Cammino del Cercatore: Richiamo di Aln'hara,147580,93479,1141,1032,0,0,0,0,0,0,0
+7376,Cammino del Cercatore: Ricerca della Pace,147581,93478,1141,1032,0,0,0,0,0,0,0
+7377,Cammino del Cercatore: Missione Interminabile,147582,93476,1141,1032,0,0,0,0,0,0,0
+7378,Parole di Obayo: La Fiamma,147583,93482,1141,1032,0,0,0,0,0,0,0
+7379,Parole di Obayo: La Fenditura,147584,93481,1141,1032,0,0,0,0,0,0,0
+7380,Parole di Obayo: Il Silenzio,147585,93480,1141,1032,0,0,0,0,0,0,0
+7381,Vegliare sulle Terre: Il Conflitto,147586,93485,1141,1032,0,0,0,0,0,0,0
+7382,Vegliare sulle Terre: Il Piano,147587,93484,1141,1032,0,0,0,0,0,0,0
+7383,Vegliare sulle Terre: Il Ciclo,147588,93483,1141,1032,0,0,0,0,0,0,0
+7384,Le Vie delle Radici: Servire,147589,93488,1141,1032,0,0,0,0,0,0,0
+7385,Le Vie delle Radici: Crescere,147590,93487,1141,1032,0,0,0,0,0,0,0
+7386,Le Vie delle Radici: Sfoltire,147591,93486,1141,1032,0,0,0,0,0,0,0
+7387,Cammino di Awe'ohna: Domande,147592,93491,1141,1032,0,0,0,0,0,0,0
+7388,,93490,0,0,0,0,0,0,0,0,0,0
+7389,Cammino di Awe'ohna: Risposte,147593,93490,1141,1032,0,0,0,0,0,0,0
+7390,Cammino di Awe'ohna: La Culla,147594,93489,1141,1032,0,0,0,0,0,0,0
+7391,Picca dell'Energia Scartata,0,93496,1140,1024,0,0,0,0,0,0,0
+7392,Exalibruc,0,93498,1140,1024,0,0,0,0,0,0,0
+7393,Uovo Tremolante,0,93500,1140,1024,0,0,0,0,0,0,0
+7394,Zucca Sigillata,0,93508,1158,1024,0,0,0,0,0,0,0
+7395,Dono della Fenice,0,93544,1158,1024,0,0,0,0,0,0,0
+7396,Bruciavespro,0,93550,1114,1060,0,0,0,0,0,0,0
+7397,Lancia Conficcata,0,93553,1140,1024,0,0,0,0,0,0,0
+7398,Murale Deturpato,147823,93554,1141,1032,0,0,0,0,0,0,0
+7399,Costrutto Malfunzionante,0,93555,1114,1060,0,0,0,0,0,0,0
+7400,Pietra Runica Lunare Antica,147828,93556,1141,1032,0,0,0,0,0,0,0
+7401,Murale Fatiscente,147829,93557,1141,1032,0,0,0,0,0,0,0
+7402,Murale Dimenticato,147830,93558,1141,1032,0,0,0,0,0,0,0
+7403,Pergamena Consumata,147831,93559,1141,1032,0,0,0,0,0,0,0
+7404,Dama Carneficina,0,93561,1114,1060,0,0,0,0,0,0,0
+7405,Allevamento degli Zampalesta: Edizione Integrale,0,93562,1141,1032,0,0,0,0,0,0,0
+7406,Santuario di Dath'Remar,0,93563,1141,1032,0,0,0,0,0,0,0
+7407,Appunti di Mirveda,0,93564,1141,1032,0,0,0,0,0,0,0
+7408,Ricerca Profana,0,93565,1141,1032,0,0,0,0,0,0,0
+7409,Spartito Incompiuto,0,93570,1141,1032,0,0,0,0,0,0,0
+7410,Calderone Peculiare,0,93587,1158,1024,0,0,0,0,0,0,0
+7411,Cassa Generata dalle Spore,148206,93650,1140,1024,0,0,0,0,0,0,0
+7416,Condotto delle Anime,149104,0,1305,263168,20,0,0,0,0,0,0
+7418,Forziere Maligno,0,93840,1158,1024,0,0,0,0,0,0,0
+7419,Bottino Sigillato della Lama del Crepuscolo,0,93871,1158,1024,0,0,0,0,0,0,0
+7422,Faucigrame l'Ingordo,0,93884,1114,1060,0,0,0,0,0,0,0
+7423,Oggetto d'Interesse,0,0,1308,0,0,0,0,0,0,0,0
+7424,Penna e Inchiostro Dimenticati,0,93893,1140,1024,0,0,0,0,0,0,0
+7426,Ravengerus,0,93895,1113,1124,0,0,0,0,0,0,0
+7428,Far'thana la Folle,0,93896,1113,1124,0,0,0,0,0,0,0
+7429,Sfera Armillare Dorata,0,93908,1140,1024,0,0,0,0,0,0,0
+7430,Regina della Guerra,0,93934,1114,1060,0,0,0,0,0,0,0
+7431,Lirath,0,0,1310,263168,20,0,0,0,0,0,0
+7432,Aeonelle Stellanera,0,93944,1114,1060,0,0,0,0,0,0,0
+7433,Flagello dei Vilsangue,0,93946,1114,1060,0,0,0,0,0,0,0
+7434,Fiorescuro di Loto,0,93947,1114,1060,0,0,0,0,0,0,0
+7435,Rakshur il Frantumaossa,0,93953,1114,1060,0,0,0,0,0,0,0
+7436,Ultraurlo la Matriarca,0,93966,1114,1060,0,0,0,0,0,0,0
+7437,Cassa della Corveria,0,93967,1140,1024,0,0,0,0,0,0,0
+7438,Messaggio Segreto,140452,0,918,0,0,0,0,0,0,0,0
+7439,Luce Condensata,140450,0,918,0,0,0,0,0,0,0,0
+7440,Cassa del Guardaboschi,140451,0,918,0,0,0,0,0,0,0,0
+7441,Scorte Stellari,0,93996,1158,1024,0,0,0,0,0,0,0
+7442,Hardin Serracciaio,0,94461,1113,1124,0,0,0,0,0,0,0
+7443,Angoscia Condensante Minore,149335,0,1292,0,0,0,0,0,0,0,0
+7444,Angoscia Condensante Maggiore,149336,0,1292,0,0,0,0,0,0,0,0
+7445,Gar'chack Spaccacrani,0,94461,1113,1124,0,0,0,0,0,0,0
+7446,Incenso Protettivo,0,0,105,5184,0,0,0,0,0,0,0
+7447,Zaino dell'Esploratore,0,94387,1140,1024,0,0,0,0,0,0,0
+7448,Armatura del Vuoto,0,94389,1141,1032,0,0,0,0,0,0,0
+7449,Antica Tavoletta,0,94394,1141,1032,0,0,0,0,0,0,0
+7450,Telescopio Abbandonato,0,94395,1141,1032,0,0,0,0,0,0,0
+7451,Pagina Lacera,0,94397,1141,1032,0,0,0,0,0,0,0
+7452,Armatura del Vuoto,0,94398,1141,1032,0,0,0,0,0,0,0
+7455,Cassa Dimenticata del Ricercatore,0,94454,1140,1024,0,0,0,0,0,0,0
+7456,Oggetto d'Interesse,0,0,1314,0,0,0,0,0,0,0,0
+7457,Minerale di Saronite,0,0,1316,0,0,0,0,0,0,0,0
+7458,Minerale di Saronite,0,0,1317,0,0,0,0,0,0,0,0
+7459,Fuoco da Campo dei Ren'dorei,150240,0,1320,0,0,0,0,0,0,0,0
+7460,Picco Alto,150320,94536,929,1036,0,0,0,0,0,0,0
+7461,Picco Alto,150322,94537,929,1036,0,0,0,0,0,0,0
+7462,Picco Alto,150323,94538,929,1036,0,0,0,0,0,0,0
+7463,Picco Alto,150324,94539,929,1036,0,0,0,0,0,0,0
+7464,Picco Alto,150325,94540,929,1036,0,0,0,0,0,0,0
+7465,Picco Alto,150326,94541,929,1036,0,0,0,0,0,0,0
+7466,Picco Alto,150327,94542,929,1036,0,0,0,0,0,0,0
+7467,Picco Alto,150328,94543,929,1036,0,0,0,0,0,0,0
+7468,Picco Alto,150329,94544,929,1036,0,0,0,0,0,0,0
+7469,Picco Alto,150330,94545,929,1036,0,0,0,0,0,0,0
+7470,Picco Alto,150331,94546,929,1036,0,0,0,0,0,0,0
+7471,Picco Alto,150332,94547,929,1036,0,0,0,0,0,0,0
+7472,Picco Alto,150333,94548,929,1036,0,0,0,0,0,0,0
+7473,Picco Alto,150334,94549,929,1036,0,0,0,0,0,0,0
+7474,Picco Alto,150335,94550,929,1036,0,0,0,0,0,0,0
+7475,Picco Alto,150336,94551,929,1036,0,0,0,0,0,0,0
+7476,Picco Alto,150337,94552,929,1036,0,0,0,0,0,0,0
+7477,Picco Alto,150338,94553,929,1036,0,0,0,0,0,0,0
+7478,Picco Alto,150339,94554,929,1036,0,0,0,0,0,0,0
+7479,Picco Alto,150340,94555,929,1036,0,0,0,0,0,0,0
+7481,Cassa di Rifornimenti di Buferion,0,91719,88,0,0,0,0,0,0,0,0
+7483,Altare delle Benedizioni,0,0,1298,0,0,0,0,0,0,0,0
+7486,Cumulo d'Ossa Infuso,0,0,1317,0,0,0,0,0,0,0,0
+7487,Tavoletta di Akil'zon,0,94627,1141,1032,0,0,0,0,0,0,0
+7488,Tavoletta di Halazzi,0,94628,1141,1032,0,0,0,0,0,0,0
+7489,Tavoletta di Jan'alai,0,94631,1141,1032,0,0,0,0,0,0,0
+7490,Tavoletta di Nalorakk,0,94632,1141,1032,0,0,0,0,0,0,0
+7491,Tavoletta degli Scorzasecca,0,94633,1141,1032,0,0,0,0,0,0,0
+7492,Tavoletta di Kulzi,0,94673,1141,1032,0,0,0,0,0,0,0
+7493,Tavoletta di Filo,0,94674,1141,1032,0,0,0,0,0,0,0
+7497,Scrigno di Buferion,0,94742,1140,1024,0,0,0,0,0,0,0
+7498,Tomba Protetta dal Vuoto,0,92414,1158,1024,0,0,0,0,0,0,0
+7499,Libro di Sonetti Incompleto,0,94781,1140,1024,0,0,0,0,0,0,0
+7504,Cumulo d'Ossa Infuso,0,0,1314,0,0,0,0,0,0,0,0
+7505,Cassa dell'Artigiano,0,92621,1140,2,0,0,0,0,0,0,0
+7506,Cassa dell'Artigiano,0,92622,1140,2,0,0,0,0,0,0,0
+7507,Cassa dell'Artigiano,0,92623,1140,2,0,0,0,0,0,0,0
+7508,Cassa dell'Artigiano,0,92624,1140,2,0,0,0,0,0,0,0
+7509,Cassa dell'Artigiano,0,92625,1140,2,0,0,0,0,0,0,0
+7510,Cassa dell'Artigiano,0,94830,1140,2,0,0,0,0,0,0,0
+7511,Quartiermastro della Fama della Singolarità,150776,0,1334,0,0,0,0,0,0,0,0
+7513,Quartiermastro,0,0,1335,0,0,0,0,0,0,0,0
+7514,Specialista di Decorazioni,0,0,1336,0,0,0,0,0,0,0,0
+7515,Specialista di Decorazioni degli Hara'ti,0,0,1337,0,0,0,0,0,0,0,0
+7516,Quartiermastra della Fama,0,0,1338,0,0,0,0,0,0,0,0
+7517,Quartiermastra della Fama della Tribù Amani,0,0,1339,0,0,0,0,0,0,0,0
+7518,Quartiermastra della Fama degli Hara'ti,0,0,1340,0,0,0,0,0,0,0,0
+7519,Quartiermastro della Fama della Corte di Lunargenta,0,0,1341,0,0,0,0,0,0,0,0
+7520,Specialista di Decorazioni della Tribù Amani,0,0,1342,0,0,0,0,0,0,0,0
+7521,Quartiermastro del Consorzio degli Artigiani,0,0,1343,0,0,0,0,0,0,0,0
+7522,Quartiermastro della Conquista,0,0,1335,0,0,0,0,0,0,0,0
+7523,Quartiermastro della Modalità Guerra,0,0,1335,0,0,0,0,0,0,0,0
+7524,,0,0,1345,262178,0,0,0,0,0,0,0
+7525,Campionessa del Sole Nadura,151946,0,215,2,0,0,0,0,0,0,0
+7526,Specialista di Decorazioni della Corte di Lunargenta,0,0,1346,0,0,0,0,0,0,0,0
+7527,Specialista di Decorazioni della Singolarità,150776,0,1347,0,0,0,0,0,0,0,0
+7528,Ultradonte Frantumaodio,0,0,1349,66,0,0,0,0,0,0,0
+7529,Ultradonte Spinapena,0,0,1349,66,0,0,0,0,0,0,0
+7530,Tesoro Antico,0,0,126,0,0,0,0,0,0,0,0
+7531,Servitori di Nullaeus,0,0,1350,262146,0,0,0,0,0,0,0

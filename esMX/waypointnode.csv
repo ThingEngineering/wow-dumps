@@ -1,8 +1,8 @@
 ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0_30080_006,WaypointMapVolumeID
 6,Usa el portal de Sagrario del Mago a Bosque de Jade,7262,67395,68,1,10,0
 7,"Sagrario del Mago, Portal al Bosque de Jade",7263,123820,0,2,0,0
-8,Sal de Sagrario del Mago,7264,20068,100,0,30,0
-9,Entra a Sagrario del Mago,7266,924,0,0,0,0
+8,Sal de Sagrario del Mago,7264,20068,84,0,30,0
+9,Entra a Sagrario del Mago,7266,924,16,0,0,0
 10,Usa el portal de Santuario de la Tierra Oriental a Uldum,7267,37426,0,1,0,0
 11,Usa el portal de Santuario de la Tierra Oriental a Monte Hyjal,7268,37427,0,1,0,0
 12,Usa el portal de Santuario de la Tierra Oriental a Tierras Altas Crepusculares,7269,37428,0,1,0,0
@@ -106,7 +106,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 112,Usa el portal de Santuario de la Tierra Occidental a Tol Barad,7399,123821,0,1,0,0
 113,Tol Barad,7400,123821,0,2,0,0
 114,Usa el portal de Dominios Grito Infernal a Orgrimmar,7401,123821,0,1,0,0
-115,Usa el portal de Guarida del Abrecaminos a Lunargenta,7402,123821,0,1,0,0
+115,Usar el portal de Guarida del Abrecaminos a Lunargenta (Burning Crusade),7402,123821,0,1,0,0
 116,Ciudad de Lunargenta,7403,123821,0,2,0,0
 117,Usa el portal de Aguja Furia del Sol a Orgrimmar,7404,123821,0,1,0,0
 118,Usa el Orbe de traslado en el Sagrario Interior para viajar a Entrañas,7405,123821,0,1,0,0
@@ -125,7 +125,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 131,Azsuna,7417,20069,0,2,0,0
 132,Usa el portal de Guarida del Abrecaminos a Zuldazar,7418,67389,0,1,0,0
 133,"Zuldazar, Salón de los Pasos Ancestrales",7419,123821,0,2,0,0
-134,Usa el portal de Salón de los Pasos Ancestrales a Ciudad de Lunargenta,7420,123821,0,1,0,0
+134,Usar el portal de Salón de los Pasos Ancestrales a Lunargenta (Burning Crusade),7420,123821,0,1,0,0
 135,Usa el portal de Salón de los Pasos Ancestrales a Orgrimmar,7421,74271,0,1,0,0
 136,Usa el portal de Salón de los Pasos Ancestrales a Cima del Trueno,7422,123821,0,1,0,0
 137,"Cima del Trueno, Pozas de las Visiones",7423,123821,0,2,0,0
@@ -218,7 +218,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 227,Crea un portal a Orgrimmar,0,81259,8,1,0,0
 228,Crea un portal a Entrañas,0,81260,8,1,0,0
 229,Crea un portal a Cima del Trueno,0,81261,8,1,0,0
-230,Crea un portal a Lunargenta,0,81262,8,1,0,0
+230,Crea un portal a Lunargenta (Burning Crusade),0,81262,8,1,0,0
 231,Crea un portal a Rocal,0,81263,8,1,0,0
 232,Crea un portal a Shattrath,0,81264,8,1,0,0
 233,Crea un portal a Shattrath,0,81265,8,1,0,0
@@ -472,6 +472,10 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 491,Salida a Maldraxxus,10539,0,0,2,0,0
 492,Usa el portal a K'aresh,10573,0,0,1,0,0
 493,Salida a Valle Canto Tormenta,10507,0,0,2,0,0
+494,Usa el portal de Lunargenta a Tormenta del Vacío,10608,138662,0,1,0,0
+495,Salir a Tormenta del Vacío,10609,138662,0,2,0,0
+496,Usar el portal de Lunargenta a Orgrimmar.,10661,147610,0,1,0,0
+497,Usar el portal de Lunargenta a Ventormenta.,10662,147614,0,1,0,0
 498,Monta a Mishi hasta Vol'dun,10680,140637,0,1,0,0
 499,Monta a Mishi hasta Vol'dun,10423,140637,0,1,0,0
 500,Monta a Mishi hasta Drustvar,10681,140637,0,1,0,0
@@ -497,6 +501,12 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 522,Infralar,10972,40074,16,2,0,0
 523,Usa el portal de Dalaran al Corazón de Azeroth,10973,40923,16,1,0,0
 524,Usa el portal del Corazón de Azeroth a Dalaran,10974,40074,16,1,0,0
+525,Usa el portal de Orgrimmar a Lunargenta,10976,147610,0,1,0,0
+526,Portal a Ciudad de Lunargenta,10977,147610,0,2,0,0
+527,Portal a Orgrimmar,10978,147610,0,2,0,0
+528,Usa el portal de Sagrario del Mago a Lunargenta,10979,147614,86,1,0,8
+529,Portal a Ciudad de Lunargenta,10980,147614,20,2,0,9
+530,Portal a Ventormenta,10981,147614,0,2,0,0
 531,Usa el portal a Dalaran,10984,40847,0,1,0,0
 532,Dalaran,10985,40847,0,2,0,0
 533,Usa el portal de Ventormenta a Punto del Fundador,8018,49081,68,1,10,0
@@ -512,3 +522,13 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 544,Bastión del Cielo,11008,40922,16,2,0,0
 545,Habla con Aerylia para saltar a Dalaran desde el Bastión del Cielo,11009,37177,16,1,0,0
 546,Dalaran,11010,37177,16,2,0,0
+547,Usa el portal de Lunargenta a Harandar,11011,148339,0,1,0,0
+548,Salida a Harandar,11012,148339,0,2,0,0
+549,Toma el portal de Harandar a Lunargenta,11038,148339,0,1,0,0
+550,Portal a Lunargenta,11039,148339,0,2,0,0
+551,Toma el portal de Tormenta del Vacío a Lunargenta,11040,138662,0,1,0,0
+552,Portal a Lunargenta,11041,138662,0,2,0,0
+554,Cruza el portal del Desfiladero Thalassiano a las Tierras Fantasma,11097,0,0,1,0,0
+555,Salida a las Tierras Fantasma,11098,0,0,2,0,0
+556,Cruza el portal del Desfiladero Thalassiano a las Tierras de la Peste del Este,11099,0,0,1,0,0
+557,Salida a las Tierras de la Peste del Este,11100,0,0,2,0,0

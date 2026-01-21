@@ -1,8 +1,8 @@
 ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0_30080_006,WaypointMapVolumeID
 6,Prendi il portale dal Santuario della Magia per la Foresta di Giada,7262,67395,68,1,10,0
 7,"Santuario della Magia, Portale per la Foresta di Giada",7263,123820,0,2,0,0
-8,Esci dal Santuario della Magia,7264,20068,100,0,30,0
-9,Entra nel Santuario della Magia,7266,924,0,0,0,0
+8,Esci dal Santuario della Magia,7264,20068,84,0,30,0
+9,Entra nel Santuario della Magia,7266,924,16,0,0,0
 10,Prendi il portale dal Santuario Orientale della Terra per Uldum,7267,37426,0,1,0,0
 11,Prendi il portale dal Santuario Orientale della Terra per il Monte Hyjal,7268,37427,0,1,0,0
 12,Prendi il portale dal Santuario Orientale della Terra per le Alture del Crepuscolo,7269,37428,0,1,0,0
@@ -106,7 +106,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 112,Prendi il portale dal Santuario Occidentale della Terra per Tol Barad,7399,123821,0,1,0,0
 113,Tol Barad,7400,123821,0,2,0,0
 114,Prendi il portale dall'Avamposto di Malogrido per Orgrimmar,7401,123821,0,1,0,0
-115,Prendi il portale dall'Antro dei Ricognitori per Lunargenta,7402,123821,0,1,0,0
+115,Prendi il portale dall'Antro dei Ricognitori per Lunargenta (Burning Crusade),7402,123821,0,1,0,0
 116,Lunargenta,7403,123821,0,2,0,0
 117,Prendi il portale dalla Guglia dei Furia del Sole per Orgrimmar,7404,123821,0,1,0,0
 118,Usa la Sfera di Traslocazione nel Santuario Interno per raggiungere Sepulcra,7405,123821,0,1,0,0
@@ -125,7 +125,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 131,Azsuna,7417,20069,0,2,0,0
 132,Prendi il portale dall'Antro dei Ricognitori per Zuldazar,7418,67389,0,1,0,0
 133,"Zuldazar, Sala dei Percorsi Antichi",7419,123821,0,2,0,0
-134,Prendi il portale dalla Sala dei Percorsi Antichi per Lunargenta,7420,123821,0,1,0,0
+134,Prendi il portale dalla Sala dei Percorsi Antichi per Lunargenta (Burning Crusade),7420,123821,0,1,0,0
 135,Prendi il portale dalla Sala dei Percorsi Antichi per Orgrimmar,7421,74271,0,1,0,0
 136,Prendi il portale dalla Sala dei Percorsi Antichi per Picco del Tuono,7422,123821,0,1,0,0
 137,"Picco del Tuono, Pozze delle Visioni",7423,123821,0,2,0,0
@@ -218,7 +218,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 227,Crea un portale per Orgrimmar.,0,81259,8,1,0,0
 228,Crea un portale per Sepulcra.,0,81260,8,1,0,0
 229,Crea un portale per Picco del Tuono.,0,81261,8,1,0,0
-230,Crea un portale per Lunargenta.,0,81262,8,1,0,0
+230,Crea un portale per Lunargenta (Burning Crusade),0,81262,8,1,0,0
 231,Crea un portale per Pietrachiusa.,0,81263,8,1,0,0
 232,Crea un portale per Shattrath.,0,81264,8,1,0,0
 233,Crea un portale per Shattrath.,0,81265,8,1,0,0
@@ -472,6 +472,10 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 491,Uscita per Maldraxxus,10539,0,0,2,0,0
 492,Prendi il portale per K'aresh,10573,0,0,1,0,0
 493,Uscita per la Valle dei Sacraonda,10507,0,0,2,0,0
+494,Prendi il portale da Lunargenta per la Tempesta del Vuoto,10608,138662,0,1,0,0
+495,Esci nella Tempesta del Vuoto,10609,138662,0,2,0,0
+496,Prendi il portale da Lunargenta per Orgrimmar,10661,147610,0,1,0,0
+497,Prendi il portale da Lunargenta per Roccavento,10662,147614,0,1,0,0
 498,Cavalca Mishi fino a Vol'dun,10680,140637,0,1,0,0
 499,Cavalca Mishi fino a Vol'dun,10423,140637,0,1,0,0
 500,Cavalca Mishi fino a Drustvar,10681,140637,0,1,0,0
@@ -497,6 +501,12 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 522,Rocciafonda,10972,40074,16,2,0,0
 523,Prendi il portale da Dalaran al Cuore di Azeroth,10973,40923,16,1,0,0
 524,Prendi il portale dal Cuore di Azeroth a Dalaran,10974,40074,16,1,0,0
+525,Prendi il portale da Orgrimmar per Lunargenta,10976,147610,0,1,0,0
+526,Portale per Lunargenta,10977,147610,0,2,0,0
+527,Portale per Orgrimmar,10978,147610,0,2,0,0
+528,Prendi il portale dal Santuario della Magia per Lunargenta,10979,147614,86,1,0,8
+529,Portale per Lunargenta,10980,147614,20,2,0,9
+530,Portale per Roccavento,10981,147614,0,2,0,0
 531,Prendi il portale per Dalaran,10984,40847,0,1,0,0
 532,Dalaran,10985,40847,0,2,0,0
 533,Prendi il portale da Roccavento a Punta della Fondazione,8018,49081,68,1,10,0
@@ -512,3 +522,13 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 544,Rocca Celeste,11008,40922,16,2,0,0
 545,Parla con Aerylia per saltare su Dalaran dalla Rocca Celeste,11009,37177,16,1,0,0
 546,Dalaran,11010,37177,16,2,0,0
+547,Prendi il portale da Lunargenta per Harandar,11011,148339,0,1,0,0
+548,Uscita per Harandar,11012,148339,0,2,0,0
+549,Prendi il portale da Harandar per Lunargenta,11038,148339,0,1,0,0
+550,Portale per Lunargenta,11039,148339,0,2,0,0
+551,Prendi il portale dalla Tempesta del Vuoto per Lunargenta,11040,138662,0,1,0,0
+552,Portale per Lunargenta,11041,138662,0,2,0,0
+554,Prendi il portale per le Terre Spettrali dal Passo Thalassiano,11097,0,0,1,0,0
+555,Uscita per le Terre Spettrali,11098,0,0,2,0,0
+556,Prendi il portale per le Terre Infette Orientali dal Passo Thalassiano,11099,0,0,1,0,0
+557,Uscita per le Terre Infette Orientali,11100,0,0,2,0,0
