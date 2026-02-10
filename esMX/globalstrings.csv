@@ -6190,8 +6190,8 @@ ormas-de-los-reinos-jcj|r",1
 17792,OPTION_TOOLTIP_UNIT_NAME_NONCOMBAT_CREATURE,Muestra los nombres de las alimañas y mascotas de vanidad en el mundo del juego.,1
 17793,OPTION_TOOLTIP_UNIT_NAME_ENEMY,Muestra los nombres de los jugadores enemigos en el mundo del juego.,1
 17794,OPTION_TOOLTIP_UNIT_NAME_ENEMY_TOTEMS,Muestra los nombres de los tótems enemigos en el mundo del juego.,1
-17795,OPTION_TOOLTIP_UNIT_NAME_ENEMY_MINIONS,"Muestra los nombres de las mascotas enemigas, guardianes y tótems en el mundo del juego.",1
-17796,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY_MINIONS,"Muestra los nombres de las mascotas amistosas, guardianes y tótems en el mundo del juego.",1
+17795,OPTION_TOOLTIP_UNIT_NAME_ENEMY_MINIONS,"Muestra los nombres de mascotas, guardianes y tótems de enemigos en el mundo del juego.",1
+17796,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY_MINIONS,"Muestra los nombres de mascotas, guardianes y tótems de aliados en el mundo del juego.",1
 17797,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY_TOTEMS,Muestra los nombres de los tótems amistosos en el mundo del juego.,1
 17798,OPTION_TOOLTIP_UNIT_NAME_FRIENDLY,Muestra los nombres de los jugadores aliados en el mundo del juego.,1
 17799,OPTION_TOOLTIP_UNIT_NAME_PLAYER_TITLE,Muestra los títulos de los jugadores en el mundo del juego.,1
@@ -8443,9 +8443,9 @@ ormas-de-los-reinos-jcj|r",1
 20261,UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,Esbirros,1
 20262,UNIT_NAMEPLATES_ALLOW_OVERLAP,Permitir solapamiento de placas de nombres,1
 20263,OPTION_TOOLTIP_UNIT_NAMEPLATES_ALLOW_OVERLAP,Las placas de nombre pueden solaparse si las unidades están en la misma línea de visión. Desactívalo para mantener separadas las placas de nombres de diferentes personajes.,1
-20264,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas enemigas, guardianes y tótems.",1
+20264,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas, guardianes y tótems de enemigos.",1
 20265,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMY_TOTEMS,Activa esta opción para mostrar las placas de nombre de tótems enemigos.,1
-20266,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas amistosas, guardianes y tótems.",1
+20266,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_MINIONS,"Activa esta opción para mostrar las placas de nombre de mascotas, guardianes y tótems de aliados.",1
 20267,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_ENEMIES,Mostrar placas de nombre de unidades enemigas,1
 20268,UNIT_NAMEPLATES_SHOW_FRIENDS,Placas de nombre de jugadores aliados,1
 20269,UNIT_NAMEPLATES_SHOW_ENEMIES,Placa de nombre de unidad enemiga,1
@@ -16085,7 +16085,7 @@ Encontrarás instructores en los asentamientos y ciudades.",1
 35652,FOURTH_NUMBER,|7billón:billones;,1
 35653,SPELL_FAILED_CUSTOM_ERROR_333,No puedes obtener más reputación con este objeto.,1
 35654,SPELL_FAILED_CUSTOM_ERROR_334,No puedes hacer eso si estás en la forma de Lobo fantasmal.,1
-35655,PLAYER_V_PLAYER_SEASON,Jugador contra Jugador (temporada %d de The War Within),1
+35655,PLAYER_V_PLAYER_SEASON,"Jugador contra jugador (Midnight, temporada %d)",1
 35656,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON1,Salón de la Luna,1
 35657,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON2,Arboleda del Crepúsculo,1
 35658,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON3,Los Archivos Esmeralda,1
@@ -23346,7 +23346,7 @@ de misiones:",1
 53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Atajos únicos del modo Decoración avanzado,1
 53742,BINDING_NAME_DRIFT,Derrapar,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,¿Deseas eliminar a este amigo de tu lista? Esta acción no se puede deshacer.,1
-53746,CONFIRM_RELIC_CHOICE,¿Quieres volver a despertar esta reliquia? No podrás despertar otra durante un tiempo.,1
+53746,CONFIRM_RELIC_CHOICE,¿Quieres elegir esta reliquia? No podrás cambiar las reliquias hasta después del siguiente reinicio semanal.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requiere Vínculo inquebrantable.,1
 53762,ADVANCED_OPTIONS_LABEL,Mejoras de jugabilidad,1
 53764,ENABLE_COOLDOWN_VIEWER,Activar administrador de habilidades,1
@@ -23498,7 +23498,7 @@ de misiones:",1
 54184,ERR_INVITED_TO_NEIGHBORHOOD,¡Te invitaron a un vecindario!,1
 54188,HOUSING_DASHBOARD_INITIATIVE_TASKS_LABEL,Tareas de retos,1
 54189,HOUSING_DASHBOARD_INITIATIVE_ACTIVITY_LABEL,Actividad,1
-54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,"La tropa de |cFFFFFFFF%s|r ha completado ""%s""",1
+54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,"|cFFFFFFFF%s|r ha completado ""%s""",1
 54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,Tu vecindario no tiene ningún reto activo en este momento. |n|n Los coordinadores del vecindario pueden hablar con el administrador para iniciar un reto.,1
 54192,HOUSING_DASHBOARD_ADDITIONAL_REWARDS_LABEL,Recompensas adicionales:,1
 54193,HOUSING_DASHBOARD_REWARD_ESTATE_XP,PE de la casa,1
@@ -23511,7 +23511,7 @@ de misiones:",1
 54210,CONTACTS_LIST_TITLE,Contactos,3
 54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Bloquea todas las invitaciones a vecindarios.,1
 54212,BLOCK_NEIGHBORHOOD_INVITES,Bloquear invitaciones a vecindarios,1
-54214,12_0_LEGENDS_PAINTING_MINIGAME_02_CONNECT_DOTS,¡Haz clic en las células adyacentes para mover la brocha y conectar los puntos!,1
+54214,12_0_LEGENDS_PAINTING_MINIGAME_02_CONNECT_DOTS,¡Haz clic en las celdas adyacentes para mover la brocha y conectar los puntos!,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,No puedes abandonar una cronoleyenda mientras estás en sincronía grupal.,1
 54226,HOUSING_HOUSE_SETTINGS_ANYONE,Cualquier persona,1
 54227,HOUSING_HOUSE_SETTINGS_NOONE,Nadie,1
@@ -23643,7 +23643,7 @@ de misiones:",1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Restablecer árbol,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Cancelar,1
 54702,UNIT_NAMEPLATES_THREAT_DISPLAY,Visualización del agro,1
-54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,Ninguno,1
+54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,Nada,1
 54704,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE,Progresiva,1
 54705,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH,Destello,1
 54707,UNIT_NAMEPLATES_THREAT_DISPLAY_TOOLTIP,Opciones de visualización del nivel de amenaza de un enemigo. ,1
@@ -23906,7 +23906,7 @@ de misiones:",1
 55237,JOURNEYS_JOURNEY_LOCKED_LABEL,Travesía bloqueada,1
 55238,JOURNEYS_HIGHLIGHT_LABEL,Se destaca de la travesía:,1
 55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,Haz clic en este botón para ingresar al Editor de casas,1
-55243,CLEAN_DECOR_TUTORIAL_TEXT,Haz clic en una decoración y presiona R para colocarla en el cofre de la casa|n|n%s,1
+55243,CLEAN_DECOR_TUTORIAL_TEXT,Haz clic en una decoración y presiona %s para colocarla en el cofre de la casa|n|n%s,1
 55244,DECORATE_DECOR_TUTORIAL_TEXT,Haz clic o haz clic y arrastra una decoración desde el cofre de la casa para colocarla en tu casa|n|n%s,1
 55245,EXIT_DECOR_MODE_TUTORIAL_TEXT,Haz clic en este botón para salir del Editor de casas y continuar con el tutorial,1
 55246,HOUSING_CLIPPING_GRID_TUTORIAL_TEXT,Cambia la ubicación de la decoración en el modo Decorar con estas herramientas,1
@@ -23965,7 +23965,7 @@ de misiones:",1
 55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Información del vecindario:,1
 55320,UNIT_NAMEPLATES_INFO_DISPLAY,Información de las placas de nombre,1
 55321,UNIT_NAMEPLATES_INFO_DISPLAY_TOOLTIP,Controla la información que se muestra en las placas de nombre.,1
-55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,Ninguno,1
+55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,Nada,1
 55323,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT,Porcentaje de salud,1
 55324,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT_TOOLTIP,Muestra la salud actual de la unidad en forma de porcentaje de la salud total.,1
 55325,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE,Valor de salud,1
@@ -23990,7 +23990,7 @@ de misiones:",1
 55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Estatuto,1
 55361,UNIT_NAMEPLATES_CAST_BAR_DISPLAY,Información de la barra de lanzamiento,1
 55362,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_TOOLTIP,Controla la información que se muestra en las barras de lanzamiento.,1
-55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,Ninguno,1
+55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,Nada,1
 55365,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME,Nombre de hechizo,1
 55366,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME_TOOLTIP,Muestra el nombre del hechizo en la barra de lanzamiento.,1
 55367,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON,Ícono de hechizo,1
@@ -24039,7 +24039,7 @@ de misiones:",1
 55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
 55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Nombre de objetivo,1
 55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Nombre de hechizo,1
-55435,JOURNEYS_MAX_LEVEL_LABEL,Reconocimiento máximo: Nivel %d,1
+55435,JOURNEYS_MAX_LEVEL_LABEL,Reconocimiento máximo,1
 55436,PVP_TAB_TRAINING_GROUNDS,Campo de Entrenamiento,1
 55437,SPELL_FAILED_CUSTOM_ERROR_2501,Requiere ingeniería.,1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
@@ -24064,7 +24064,7 @@ de misiones:",1
 55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Aumenta tu presupuesto de elementos fijos de exterior,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-Clic para asignar rápido,1
 55501,SPELL_FAILED_CUSTOM_ERROR_2502,Requiere al menos 3 acumulaciones de Tormento.,1
-55504,SPELL_FAILED_CUSTOM_ERROR_2503,Requiere la mejora de red pequeña.,1
+55504,SPELL_FAILED_CUSTOM_ERROR_2503,Requiere la mejora Red de los bajíos.,1
 55508,SPELL_FAILED_CUSTOM_ERROR_652,Ya has obtenido esta decoración.,1
 55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,Esta función estará disponible después de completar Isla del Exilio.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,La opción de Votar para abandonar volverá a estar disponible en |cnWHITE_FONT_COLOR:%s.|r,1
@@ -24186,7 +24186,7 @@ de misiones:",1
 55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Catálogo,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
-55726,TRANSMOG_CUSTOM_SET_COMPLETE,Completado,1
+55726,TRANSMOG_CUSTOM_SET_COMPLETE,Completo,1
 55727,TRANSMOG_CUSTOM_SET_INCOMPLETE,Incompleto,1
 55729,TRANSMOG_CUSTOM_SET_DRESSING_ROOM,Ver en el probador (abandonar Transfigurar),1
 55730,TRANSMOG_CUSTOM_SET_RENAME,Renombrar,1
@@ -24293,9 +24293,9 @@ de misiones:",1
 55940,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_SPELL_NAME,Mostrar nombre de hechizo,1
 55941,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TOOLTIPS,Mostrar descripciones emergentes,1
 55942,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TIMER,Mostrar temporizador,1
-55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Línea temporal de jefe,1
+55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Habilidades de jefe,1
 55944,COMBAT_WARNINGS_LABEL,Advertencias de jefe,1
-55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Habilitar línea temporal de jefe,1
+55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Habilitar habilidades de jefe,1
 55946,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_TOOLTIP,Activa esta opción para ver las habilidades importantes de los jefes en un elemento separado de la interfaz.,1
 55947,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS,Advertencia de jefe - Crítica,1
 55948,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS,Advertencia de jefe - Media,1
@@ -24317,7 +24317,7 @@ de misiones:",1
 55978,UNIT_NAMEPLATES_STACK_ENEMY_UNITS_TOOLTIP,Apila placas de nombre de unidades enemigas.,1
 55979,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS,Unidades aliadas,1
 55980,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS_TOOLTIP,Apila placas de nombre de unidades aliadas.,1
-55981,UNIT_NAMEPLATES_STACK_NONE,Ninguno,1
+55981,UNIT_NAMEPLATES_STACK_NONE,Nada,1
 55983,EXILESREACH_SKIP_CONFIRM,"Si omites Isla del Exilio, te perderás de información crucial sobre cómo jugar.|n|n¿Quieres continuar?",1
 55984,HOUSING_ENDEAVORS_DISABLED,Los retos no están actualmente disponibles.,1
 55994,SPELL_FAILED_CUSTOM_ERROR_2508,No tienes maestría suficiente de magia vil.,1
@@ -24344,7 +24344,7 @@ de misiones:",1
 56063,HOUSING_DECOR_PRICE_FORMAT,Precio: %s,1
 56064,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BUFFBAR_WIDTH_SCALE,Ancho de barra,1
 56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s | %s,1
-56068,TRANSMOG_SET_COMPLETE,Completado,1
+56068,TRANSMOG_SET_COMPLETE,Completo,1
 56069,TRANSMOG_SET_INCOMPLETE,Incompleto,1
 56072,RPE_SPELL_INTERRUPT,|cnNORMAL_FONT_COLOR:Las barras de lanzamiento protegidas no pueden interrumpirse|r,1
 56076,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_NOT_AVAILABLE,|cnRED_FONT_COLOR:Esta función no se encuentra disponible actualmente.|r,1
@@ -24398,7 +24398,7 @@ de misiones:",1
 56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Está muy lejos,1
 56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,No estás en el Modo Personalización exterior,1
 56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,Esta decoración no se puede eliminar de cofre de la casa,1
-56207,TIERED_ENTRANCE_ILVL_SUGGESTION,Se recomienda para los aventureros de nivel de objeto %d.,1
+56207,TIERED_ENTRANCE_ILVL_SUGGESTION,Se recomienda para los aventureros con nivel de objeto %d.,1
 56208,TIERED_ENTRANCE_LOCKED_DEFAULT_TOOLTIP_DELVE,Requiere completar un abismo de nivel %d con vidas restantes.,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,La conversión de personajes no está disponible en este reino,2
 56210,CHAR_DELETE_FAILED_HOUSE_OWNER,Este personaje es propietario de una casa y no se puede eliminar,2
@@ -24532,7 +24532,7 @@ de misiones:",1
 56626,UNIT_NAMEPLATES_SHOW_CAST_BARS,Barras de lanzamiento en placas de nombre,1
 56627,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_CAST_BARS,Activa esta opción para mostrar las barras de lanzamiento de hechizos en las placas de nombre de las unidades.,1
 56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Costo de colocación de decoración |cnNORMAL_FONT_COLOR:|n¿Cuánto del presupuesto de colocación de decoración cuesta colocar esto?|r,1
-56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,Esta elección afectará a todos los personajes de tu tropa. |n|n|cffffd200¿Quieres continuar?|r,1
+56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,Podrás completar una tarea especial en nombre de la facción invitada. Tu tropa puede seleccionar solo una invitación por semana. |n|n|cffffd200¿Quieres continuar?|r,1
 56643,HOUSING_PLACEMENT_PREVIEW_LIMIT_REACHED,"Has alcanzado el límite de tu vista previa. Para agregar más decoraciones, elimina uno o más de los objetos existentes.",1
 56644,ERROR_SCRIPT_EXECUTION_HALT,El informe de errores está en pausa y se reanudará después de volver a cargar la interfaz de usuario.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"El script de ""%s"" ha excedido su límite de tiempo de ejecución.",3
@@ -24560,7 +24560,7 @@ de misiones:",1
 56695,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_NO_VALID,Este elemento no es compatible con ningún tipo de alerta,1
 56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Alto de barra,1
 56702,TRANSMOG_HELP_1,"Para comenzar, elige un |cnBRIGHTBLUE_FONT_COLOR:atuendo|r que quieras personalizar.\n\nSe pueden adquirir más atuendos con oro.",1
-56703,TRANSMOG_HELP_2,"Asigna apariencias a cualquier ranura de equipo de una indumentaria para sobrescribir el aspecto del equipo de esa ranura.\n\nAsignar o actualizar apariencias cuesta oro, pero una vez guardadas, podrás cambiarte a ese atuendo en cualquier momento de forma gratuita.",1
+56703,TRANSMOG_HELP_2,"Asigna apariencias a cualquier ranura de equipo de un atuendo para sobrescribir el aspecto del equipo de esa ranura.\n\nAsignar o actualizar apariencias cuesta oro, pero una vez guardadas, podrás cambiarte a ese atuendo en cualquier momento de forma gratuita.",1
 56704,TRANSMOG_HELP_3,"Elige apariencias o conjuntos para personalizar tu atuendo.\n\nSi quieres configurar tus atuendos para que se cambien automáticamente, puedes establecer reglas específicas en la pestaña |cnBRIGHTBLUE_FONT_COLOR:Situaciones|r.",1
 56707,SPELL_FAILED_CUSTOM_ERROR_2513,Necesitas el botín de buscador de tesoros para abrir este cofre.,1
 56708,DAMAGE_METER_TYPE_DAMAGE_DONE,Daño infligido,1
@@ -24600,7 +24600,7 @@ de misiones:",1
 56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s ha abandonado el vecindario.,1
 56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,¡Tu vecindario de hermandad ha obtenido una nueva subdivisión!,1
 56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,El nombre de tu vecindario de hermandad ha cambiado a %s,1
-56749,SPELL_FAILED_CUSTOM_ERROR_2514,Tu objetivo ya ha sido debilitado por la esencia de carroña.,1
+56749,SPELL_FAILED_CUSTOM_ERROR_2514,Tu objetivo ya ha sido debilitado por la esencia carroñera.,1
 56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Total de compra: %s,3
 56755,CAA_SPEAKER_VOICE_LABEL,Voz de hablante de combate,1
 56756,CAA_SPEAKER_VOICE_TOOLTIP,Elige la voz principal para las alertas de sonido en combate,1
@@ -24729,8 +24729,8 @@ de misiones:",1
 56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,Anuncia cuando el objetivo comienza un lanzamiento que puedes interrumpir con una habilidad,1
 56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Alerta de interrupción exitosa,1
 56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,Anuncia cuando tú u otra persona interrumpen correctamente el lanzamiento de tu objetivo,1
-56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Voz: ""Lanzamiento interrumpible",1
-56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Voz: ""Objetivo interrumpido",1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Voz: ""Lanzamiento interrumpible""",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Voz: ""Objetivo interrumpido""",1
 56960,CAA_SAY_CASTS_FORMAT_FULL,Lanzando %s,1
 56961,CAA_SAY_CASTS_FORMAT_SHORT,Lanza %s,1
 56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Lanzamiento,1
@@ -24813,7 +24813,7 @@ de misiones:",1
 57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,El seguimiento de daño que se puede evitar solo está activo en instancias de temporada actuales,1
 57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Tu hermandad debe tener al menos 10 cuentas únicas de Battle.net para crear un vecindario de hermandad.,1
 57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Tu hermandad debe tener al menos 10 cuentas activas de Battle.net para crear un vecindario de hermandad.,1
-57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%d / %d,1
+57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%0.2f%%,1
 57122,ENDEAVOR_FAVOR,Progreso de reto,1
 57124,TRANSMOG_PENDING_CHANGES,"Este atuendo tiene cambios pendientes. Si continúas, los cambios pendientes se perderán.",1
 57125,BONUS_FAVOR_NOT_IN_NEIGHBORHOOD_PARTY,Completa tareas en un grupo de vecindario para obtener progreso de reto adicional.,1
@@ -24878,6 +24878,7 @@ de misiones:",1
 57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Ajusta la frecuencia relativa de los anuncios de salud del grupo.,1
 57314,UNDER_X_PERCENT,Menos del %d%%,1
 57315,HOUSING_EXTERIOR_CUSTOMIZATION_TYPE_SIZES_LOCKED_TOOLTIP,El nivel de casa es muy bajo para este tamaño,1
+57317,PUNCH_LIST_ITEM_CACHE_TOOLTIP,Contiene uno de los siguientes objetos:,1
 57318,CDMSND_ANIMALS_CAT,Miau,1
 57319,CDMSND_ANIMALS_CHICKEN,Clocló,1
 57320,CDMSND_ANIMALS_COW,Muuu,1
@@ -24952,9 +24953,9 @@ de misiones:",1
 57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Si |cnTUTORIAL_BLUE_FONT_COLOR:quieres|r, es posible mostrar los beneficios y perjuicios, así como ajustar su tamaño.",1
 57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Las placas de nombre de los jugadores enemigos se pueden configurar para que sean |cnTUTORIAL_BLUE_FONT_COLOR:diferentes|r de las de tus aliados.,1
 57452,CAA_SAY_IF_TARGETED_TOOLTIP,Elige una frase o sonido para indicar que un enemigo te marcó como objetivo. Esta configuración se guarda por especialización de talentos.,1
-57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voz: ""Amenaza",1
-57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voz: ""Te marcaron como objetivo",1
-57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Voz: ""Marcado como objetivo de Kóbold",1
+57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voz: ""Amenaza""",1
+57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voz: ""Te marcaron como objetivo""",1
+57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Voz: ""Marcado como objetivo de Kóbold""",1
 57462,CAA_AGGRO_TEXT,Amenaza,1
 57463,CAA_YOURE_TARGETED_TEXT,Te marcaron como objetivo,1
 57464,CAA_TARGETED_BY_TEXT,Marcado como objetivo de %s,1
@@ -24985,7 +24986,7 @@ de misiones:",1
 57514,CAA_HELP_OVERVIEW_NARRATED,"Comandos de alertas de sonido en combate: |nUsa ""/<spell>tts</spell>combat"" para activar las alertas de sonido en combate. También puedes usar la opción ""/<spell>tts</spell>combat"" seguida de uno de los siguientes comandos:",1
 57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"Comando %s activado. Para más opciones, usa ""/<spell>tts</spell>combat ayuda"".",1
 57537,SLASH_CAA_SPEED,velocidad,1
-57538,SLASH_CAA_HELP_SPEED,[%s - %d] -Ajusta la velocidad de habla para las indicaciones sonoras en combate,1
+57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Ajusta la velocidad de habla para las indicaciones sonoras en combate,1
 57541,SLASH_CAA_CONFIRMATION,%s se ha configurado en %s,1
 57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Este comando para las alertas de sonido en combate no es válido. Usa ""/<spell>tts</spell> ayuda de combate"" para ver la lista de comandos.",1
 57543,SLASH_CAA_VOLUME,volumen,1
@@ -25014,8 +25015,10 @@ de misiones:",1
 57568,CDMVIS_FLASH_RED,Destello (rojo),1
 57569,CDMVIS_FLASH_GREEN,Destello (verde),1
 57570,CDMVIS_FLASH_BLUE,Destello (azul),1
+57573,SPELL_FAILED_CUSTOM_ERROR_2518,Requiere la mejora Red de hilo triple.,1
 57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<secreto>|r %s,1
 57577,EVENTTRACE_SHOW_SECRET_VALUES,Mostrar valores secretos,1
+57578,DAMAGE_METER_TYPE_DEATHS,Muertes,1
 57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,decir inicio de combate,1
 57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,decir fin de combate,1
 57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,decir nombre del objetivo,1
@@ -25028,6 +25031,7 @@ de misiones:",1
 57604,SLASH_CAA_HELP_SAY_YOUR_HEALTH_FORMAT,[%d - %d] - Elige el formato a usar al decir tu salud,1
 57605,HOUSING_MARKET_CART_FULL_ERROR,Tu carrito está lleno. Completa tu compra antes de añadir más decoraciones.,1
 57606,HOUSING_MARKET_PREVIEW_LIMIT_ERROR,Has alcanzado el límite de tu vista previa. Quita uno o más objetos.,1
+57607,SPELL_FAILED_CUSTOM_ERROR_2521,No tienes suficientes restos de angustia.,1
 57614,JOURNEYS_FRAME_TUTORIAL,"Explora Reconocimiento, Abismos y Viajes de Presa en la Guía de aventura.",1
 57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,intervalodecirsalud,1
 57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,intervalo para decir tu salud,1
@@ -25048,10 +25052,12 @@ de misiones:",1
 57633,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ROOM,La decoración está fuera de los límites,1
 57634,ERR_HOUSING_RESULT_BOUNDS_FAILURE_PLOT,Fuera del límite de lote,1
 57635,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ATTACHMENT,Un objeto fijado está fuera de los límites,1
+57636,POWER_TYPE_IMMORTAL_FLAME,Llama inmortal,1
 57638,SLASH_CAA_SAY_IF_TARGETED,decirmarcadocomoobjetivo,1
 57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,decir que te marcaron como objetivo,1
 57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Elige una frase o sonido para indicar que un enemigo te marcó como objetivo,1
 57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,¿Quieres comprar %d de hogarita? Tu carrito actual requiere más que esto para completar la compra.,1
+57642,SPELL_FAILED_CUSTOM_ERROR_2600,Debes tener un arma cuerpo a cuerpo en tu mano libre,1
 57647,SLASH_CAA_SAY_PARTY_HEALTH,decirsaluddelgrupo,1
 57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,decir salud del grupo,1
 57649,SLASH_CAA_HELP_SAY_PARTY_HEALTH,"[%d - %d] Cuando estás en un grupo, anuncia qué miembros necesitan sanación mencionando su número",1
@@ -25123,5 +25129,182 @@ de misiones:",1
 57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,Este servicio no se puede usar en un personaje que sea propietario de una casa o un vecindario,3
 57738,ENDEAVOR_TASK_COMPLETED,Tarea de reto completada,1
 57743,ENDEAVOR_COMPLETED,Reto completado,1
+57747,DAMAGE_METER_ENTRY_FORMAT_MINIMAL,%s,1
+57748,DAMAGE_METER_ENTRY_FORMAT_COMPACT,%s (%s),1
+57749,DAMAGE_METER_ENTRY_FORMAT_COMPLETE,%s (%s) %d%%,1
+57751,DAMAGE_METER_MAKE_UNINTERACTABLE,Hacer no interactivo,1
+57752,DAMAGE_METER_MAKE_INTERACTABLE,Hacer interactivo,1
+57753,SLASH_CAA_DISABLED_WARNING,"Las alertas de sonido en combate están desactivadas. Para activarlas, escribe /ttscombat.",1
+57754,SLASH_CAA_DISABLED_WARNING_NARRATED,"Las alertas de sonido en combate están desactivadas. Para activarlas, escribe /<spell>tts</spell>combat",1
+57755,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_APPLIED,Cuando se aplica un aura,1
+57756,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_REMOVED,Cuando se elimina un aura,1
+57757,VOICE_GENERIC_FORMAT_MASCULINE,Voz en inglés %d (masculina),1
+57758,VOICE_GENERIC_FORMAT_FEMININE,Voz en inglés %d (femenina),1
+57763,CAA_VOICE_LABEL,Voz,1
+57764,CAA_VOLUME_LABEL,Volumen,1
+57765,CAA_SAY_PLAYER_HEALTH_VOICE_TOOLTIP,Elige la voz que dice tu salud,1
+57766,CAA_SAY_PLAYER_HEALTH_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de salud,1
+57767,CAA_SAY_TARGET_HEALTH_VOICE_TOOLTIP,Elige la voz que dice la salud de tu objetivo,1
+57768,CAA_SAY_TARGET_HEALTH_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de salud del objetivo,1
+57769,CAA_SAY_PARTY_HEALTH_VOICE_TOOLTIP,Elige la voz de que dice la salud del grupo,1
+57770,CAA_SAY_PARTY_HEALTH_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de salud del grupo,1
+57771,CAA_SAY_PLAYER_RESOURCE_VOICE_TOOLTIP,Elige la voz que dice tu %s. Esta configuración se guarda por especialización de talentos.,1
+57772,CAA_SAY_PLAYER_RESOURCE_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de %s. Esta configuración se guarda por especialización de talentos.,1
+57773,CAA_SAY_PLAYER_CASTS_VOICE_TOOLTIP,Elige la voz que dice tus lanzamientos,1
+57774,CAA_SAY_PLAYER_CASTS_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de lanzamientos,1
+57775,CAA_SAY_TARGET_CASTS_VOICE_TOOLTIP,Elige la voz que dice los lanzamientos de tu objetivo,1
+57776,CAA_SAY_TARGET_CASTS_VOLUME_TOOLTIP,Ajusta el volumen para los anuncios de lanzamientos de tu objetivo,1
+57777,SLASH_CAA_SAY_YOUR_HEALTH_VOICE,vozdedecirsalud,1
+57778,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_NARRATED,voz de decir salud,1
+57779,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOICE,[%d - %d] - Elige la voz que se usará para decir tu salud,1
+57780,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir tu salud definida en %s,1
+57781,SLASH_CAA_SAY_TARGET_HEALTH_VOICE,vozdedecirsaluddeobjetivo,1
+57782,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_NARRATED,voz de decir salud de objetivo,1
+57783,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOICE,[%d - %d] - Elige la voz que se usará para decir la salud de tu objetivo,1
+57784,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir la salud de tu objetivo definida en %s,1
+57785,SLASH_CAA_SAY_PARTY_HEALTH_VOICE,vozdedecirsaluddegrupo,1
+57786,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_NARRATED,voz de decir salud de grupo,1
+57787,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOICE,[%d - %d] - Elige la voz que se usará para decir la salud del grupo,1
+57788,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir la salud del grupo definida en %s,1
+57789,SLASH_CAA_SAY_RESOURCE_1_VOICE,vozdedecirrecurso1,1
+57790,SLASH_CAA_SAY_RESOURCE_1_VOICE_NARRATED,voz de decir recurso 1,1
+57791,SLASH_CAA_HELP_SAY_RESOURCE_1_VOICE,[%d - %d] - Elige la voz que se usará para decir tu primer recurso de combate,1
+57792,SLASH_CAA_SAY_RESOURCE_1_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir el recurso 1 definida en %s,1
+57793,SLASH_CAA_SAY_RESOURCE_2_VOICE,vozdedecirrecurso2,1
+57794,SLASH_CAA_SAY_RESOURCE_2_VOICE_NARRATED,voz de decir recurso 2,1
+57795,SLASH_CAA_HELP_SAY_RESOURCE_2_VOICE,[%d - %d] - Elige la voz que se usará para decir tu segundo recurso de combate,1
+57796,SLASH_CAA_SAY_RESOURCE_2_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir el recurso 2 definida en %s,1
+57797,SLASH_CAA_SAY_YOUR_CASTS_VOICE,vozdeanunciartuslanzamientos,1
+57798,SLASH_CAA_SAY_YOUR_CASTS_VOICE_NARRATED,voz de anunciar tus lanzamientos,1
+57799,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOICE,[%d - %d] - Elige la voz que se usará para anunciar tus lanzamientos,1
+57800,SLASH_CAA_SAY_YOUR_CASTS_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir tus lanzamientos definida en %s,1
+57801,SLASH_CAA_SAY_TARGET_CASTS_VOICE,vozdeanunciarlanzamientosdeobjetivo,1
+57802,SLASH_CAA_SAY_TARGET_CASTS_VOICE_NARRATED,voz de anunciar lanzamientos de objetivo,1
+57803,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOICE,[%d - %d] - Elige la voz que se usará para anunciar los lanzamientos de tu objetivo,1
+57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Voz de indicación sonora en combate para decir los lanzamientos del objetivo definida en %s,1
+57812,ERR_TRANSMOG_INVALID_ACTION_TRIAL_OF_STYLE,No puedes hacer eso mientras la gesta Desafío de estilos está en curso,1
+57813,TRANSMOG_TRIAL_OF_STYLE_HELPTIP,Deja a todos boquiabiertos con este atuendo especial del Desafío de estilos.\n\nActualizar este atuendo es gratis durante el evento Desafío de estilos.,1
+57814,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS,Descripciones emergentes,1
+57815,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS_HUD,Descripción en interfaz,1
+57816,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS_CURSOR,Descripción en el cursor,1
+57817,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_PADDING,Márgenes,1
+57818,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_BAR_WIDTH,Ancho de barra,1
+57819,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE,Tipo,1
+57820,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE_TIMELINE,Línea temporal,1
+57821,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE_BARS,Barras,1
+57822,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_FLIP_HORIZONTAL,Inversión horizontal,1
+57830,TRANSMOG_SAVE_OUTFIT_CANNOT_AFFORD_TOOLTIP,No te alcanza para guardar cambios de atuendo.,1
+57831,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT,(%d): %s,1
+57835,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME,volumendedecirsalud,1
+57836,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME_NARRATED,Volumen de decir tu salud,1
+57837,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOLUME,[%d - %d] - Elige el volumen que se usará para decir tu salud,1
+57843,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME,volumendedecirsaluddeobjetivo,1
+57844,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME_NARRATED,Volumen de decir salud de objetivo,1
+57845,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOLUME,[%d - %d] - Elige el volumen que se usará para decir la salud de tu objetivo,1
+57846,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME,volumendedecirsaluddegrupo,1
+57847,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME_NARRATED,Volumen de decir salud de grupo,1
+57848,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOLUME,[%d - %d] - Elige el volumen que se usará para decir la salud del grupo,1
+57849,SLASH_CAA_SAY_RESOURCE_1_VOLUME,volumendedecirrecurso1,1
+57850,SLASH_CAA_SAY_RESOURCE_1_VOLUME_NARRATED,Volumen de decir recurso 1,1
+57851,SLASH_CAA_HELP_SAY_RESOURCE_1_VOLUME,[%d - %d] - Elige el volumen que se usará para decir tu primer recurso de combate,1
+57852,SLASH_CAA_SAY_RESOURCE_2_VOLUME,volumendedecirrecurso2,1
+57853,SLASH_CAA_SAY_RESOURCE_2_VOLUME_NARRATED,Volumen de decir recurso 2,1
+57854,SLASH_CAA_HELP_SAY_RESOURCE_2_VOLUME,[%d - %d] - Elige el volumen que se usará para decir tu segundo recurso de combate,1
+57855,SLASH_CAA_SAY_YOUR_CASTS_VOLUME,volumendeanunciartuslanzamientos,1
+57856,SLASH_CAA_SAY_YOUR_CASTS_VOLUME_NARRATED,Volumen de anunciar tus lanzamientos,1
+57857,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOLUME,[%d - %d] - Elige el volumen que se usará para anunciar tus lanzamientos,1
+57858,SLASH_CAA_SAY_TARGET_CASTS_VOLUME,volumendeanunciarlanzamientosdeobjetivo,1
+57859,SLASH_CAA_SAY_TARGET_CASTS_VOLUME_NARRATED,Volumen de anunciar lanzamientos de objetivo,1
+57860,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOLUME,[%d - %d] - Elige el volumen que se usará para anunciar los lanzamientos de tu objetivo,1
+57871,CAMPAIGN_PROGRESS_CHAPTERS_PERCENT_TOOLTIP,|cffffd200Progreso en la campaña (%d%%)|r|n|n,1
+57872,CAMPAIGN_PROGRESS_CHAPTERS_PERCENT,Campaña: |cffffd200%d%%|r,1
+57874,VISITABLE_URL65,https://account.battle.net/privacy,3
+57875,DEATH_RECAP_DEADLY_SPELL,Letal,1
+57876,DEATH_RECAP_AVOIDABLE_SPELL,Evitable,1
+57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"Si quieres desactivar las recomendaciones personalizadas, ve a Configuración de cuenta de BattleNet > Privacidad > Recomendaciones personalizadas.",3
+57879,COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Color de barra de salud,1
+57880,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Define el color predeterminado de la barra de salud que se aplica a todos los marcos de banda cuando los colores de clase están desactivados.,1
+57881,COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR_BG,Color de fondo,1
+57882,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_BG_COLOR,Define el color predeterminado de la barra de salud de fondo que se aplica a todos los marcos de banda.,1
+57883,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_NORMAL,|cnHIGHLIGHT_FONT_COLOR:(%d/%d):|r %s,1
+57884,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_PREVIEW,|cnDISABLED_FONT_COLOR:(%d/%d):|r %s,1
+57885,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_NEXT_STAGE_PREVIEW_TITLE,Siguiente:,1
+57887,PHOTO_SHARING_SETTINGS_LABEL,Conectar con el sitio,3
+57888,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP,Marca esta opción para permitir la integración de WoW con el sitio. Usa la |cnGREEN_FONT_COLOR:cámara|r para crear y compartir publicaciones.,3
+57889,PHOTO_SHARING_BROWSER_TITLE,Conectar con el sitio,3
+57890,PHOTO_SHARING_PREVIEW_PUBLISH,Publicar,3
+57891,PHOTO_SHARING_PREVIEW_TITLE,Crear publicación,3
+57892,PHOTO_SHARING_PREVIEW_EDITBOX_TITLE_LABEL,Título,3
+57893,PHOTO_SHARING_PREVIEW_EDITBOX_TITLE_PLACEHOLDER,Agregar un título (opcional),3
+57894,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_LABEL,Descripción,3
+57895,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_PLACEHOLDER,Agregar una descripción detallada (opcional),3
+57896,PHOTO_SHARING_PREVIEW_CONNECT_NOTIFICATION,Tienes que estar conectado con el sitio para hacer publicaciones,3
+57897,PHOTO_SHARING_PUBLISHED,Publicación subida al sitio,3
+57899,AUTO_RESET_DAMAGE_METER,Restablecer medidor de daño automáticamente,1
+57900,AUTO_RESET_DAMAGE_METER_TOOLTIP,Activa esta opción para que los valores del medidor de daño se restablezcan cada vez que entres en una estancia nueva.,1
+57909,CATALOG_SHOP_REFUND_FLOW_TITLE,Reembolsar objeto,3
+57911,CATALOG_SHOP_REFUND_FLOW_DESCRIPTION,Selecciona los objetos para reembolsar,3
+57912,CATALOG_SHOP_REFUND_FLOW_TOTAL_REFUND,Reembolso total,3
+57915,CATALOG_SHOP_REFUND_FLOW_SELECT_ALL,Seleccionar todo,3
+57916,CATALOG_SHOP_REFUND_FLOW_SELECT_NONE,Elegir ninguno,3
+57924,CAA_SAY_YOUR_DEBUFFS_LABEL,Anunciar tus perjuicios,1
+57925,CAA_SAY_YOUR_DEBUFFS_TOOLTIP,Anuncia los perjuicios que adquieras,1
+57926,CAA_SAY_YOUR_DEBUFFS_FORMAT_FULL,Perjuicio %s,1
+57927,CAA_SAY_YOUR_DEBUFFS_FORMAT_NO_SPELLNAME,Perjuicio,1
+57929,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_LABEL,Duración mínima,1
+57930,CAA_SAY_YOUR_DEBUFFS_FORMAT_LABEL,Formato,1
+57931,CAA_SAY_YOUR_DEBUFFS_FORMAT_TOOLTIP,Elige las palabras que se usarán para anunciar el perjuicio que sufras,1
+57932,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_TOOLTIP,Establece la duración mínima de los perjuicios que se anunciarán,1
+57933,CAA_DEBUFF_SELF_ALERT_LABEL,Alerta de autoperjuicio,1
+57934,CAA_DEBUFF_SELF_ALERT_TOOLTIP,Anuncia cuándo puedes disipar un perjuicio que sufras,1
+57935,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED_MAX_COUNT,Haz alcanzado la cantidad máxima de conjuntos personalizados,1
+57936,CAA_DEBUFF_SELF_ALERT_FORMAT_DEBUFF_TYPE,"Voz: ""Perjuicio de %s""",1
+57940,SLASH_CAA_SAY_YOUR_DEBUFFS,anunciartusperjuicios,1
+57941,SLASH_CAA_SAY_YOUR_DEBUFFS_NARRATED,anunciar tus perjuicios,1
+57942,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS,Anuncia los perjuicios que adquieras,1
+57943,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT,formatoparaanunciartusperjuicios,1
+57944,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT_NARRATED,Formato para anunciar tus perjuicios,1
+57945,SPELL_DIMINISH_SECTION_HEADER_TOOLTIP,Muestra la reducción actual de la duración del control de masas en los marcos de la arena.,1
+57946,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_FORMAT,[%d - %d] - Elige el formato a usar al decir tu perjuicio,1
+57947,SLASH_CAA_SAY_YOUR_DEBUFFS_MIN_DURATION,tiempominparaanunciartusperjuicios,1
+57948,SLASH_CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_NARRATED,Tiempo mín. para anunciar tus perjuicios,1
+57949,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_MIN_DURATION,[%d - %d] - Elige la duración mínima de un perjuicio para que se anuncie,1
+57950,SLASH_CAA_DEBUFF_SELF_ALERT,alertadeautoperjuicio,1
+57951,SLASH_CAA_DEBUFF_SELF_ALERT_NARRATED,Alerta de autoperjuicio,1
+57952,SLASH_CAA_HELP_DEBUFF_SELF_ALERT,Anuncia cuándo puedes disipar un perjuicio que sufras,1
+57953,CAA_SAMPLE_DEBUFFNAME,Picadura mortal,1
+57954,CAA_SAMPLE_DISPELTTYPE,Magia,1
+57955,CAA_SAY_YOUR_DEBUFFS_FORMAT,Formato para anunciar tus perjuicios,1
+57956,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION,Duración mín. para anunciar tus perjuicios,1
+57957,CAA_DEBUFF_SELF_ALERT_FORMAT,Perjuicio de %s,1
+57958,CAA_SAY_YOUR_DEBUFFS_VOLUME_TOOLTIP,Ajusta el volumen para tus perjuicios,1
+57959,CAA_SAY_YOUR_DEBUFFS_VOICE_TOOLTIP,Elige la voz que dice tus perjuicios,1
+57960,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE,vozdeanunciartusperjuicios,1
+57961,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_NARRATED,Voz de anunciar tus perjuicios,1
+57962,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOICE,[%d - %d] - Elige la voz que se usará para decir tus perjuicios,1
+57963,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME,volumendeanunciartusperjuicios,1
+57964,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME_NARRATED,Volumen de anunciar tus perjuicios,1
+57965,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOLUME,[%d - %d] - Elige el volumen que se usará para decir tus perjuicios,1
+57966,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_CHANGED_CONFIRMATION,Voz de alerta de sonido en combate para anunciar tus perjuicios definida en %s,1
+57967,PHOTO_SHARING_PUBLISHED_ERROR_MAX_POSTS,Has excedido tu límite diario de publicaciones.,3
+57968,PHOTO_SHARING_PUBLISHED_ERROR,Se produjo un error. Tu publicación no fue subida al sitio.,3
+57970,PHOTO_SHARING_GOOGLE_NOTICE,El inicio de sesión con Google no se encuentra disponible,3
 57971,COOLDOWN_VIEWER_SETTINGS_ALERT_TYPE_VISUAL,Visual,1
 57972,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_VISUAL_TYPE,Alerta visual,1
+57973,PHOTO_SHARING_PREPOP_DESCRIPTION,#Diseñatumundo,3
+57976,PHOTO_SHARING_PREVIEW_HEADER,Tus publicaciones se guardarán en tu página de |cnWHITE_FONT_COLOR:%s|r,3
+57977,PHOTO_SHARING_PAGE_NAME,World of Warcraft: Diseña tu mundo,3
+57982,JOURNEY_UNLOCKED_TOAST,Travesía desbloqueada,1
+57985,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT,Ignorar modificación de apariencia,1
+57986,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT_TOOLTIP,"Cuando se aplica este atuendo, la apariencia de los objetos que estén en esta ranura no se modificará.",1
+57989,PHOTO_SHARING_SIGN_IN,Iniciar sesión,3
+57990,PHOTO_SHARING_DISCONNECT,Desconectarse,3
+57996,PHOTO_SHARING_PAGE_NAME_SHORT,Diseña tu mundo,3
+57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Conectado exitosamente al sitio,3
+57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,Desconectado del sitio,3
+58003,DAMAGE_METER_TYPE_ENEMY_DAMAGE_TAKEN,Daño enemigo recibido,1
+58004,TRANSMOG_USABLE_DISCOUNT,Transfiguración de atuendo gratuita disponible,1
+58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,Tienes una actualización de transfiguración de atuendo gratuita. Esta oferta está limitada a solo un uso por personaje.,1
+58006,TRANSMOG_USABLE_DISCOUNT_CLAIM,Reclamar gratis,1
+58007,TRANSMOG_USABLE_DISCOUNT_USE_GOLD,Usar oro,1
+58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Your previously applied Transmog and legacy outfits are available in Custom Sets.,1
