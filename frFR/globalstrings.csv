@@ -257,7 +257,7 @@ ID,BaseTag,TagText_lang,Flags
 9894,SPELL_SCHOOL5_CAP,Ombre,1
 9896,SPELL_TARGET_TEMPLATE,Cible %s,1
 9897,SPELL_TARGET_MULTIPLE_TEMPLATE,Cible %s à %d m |2 %s,1
-9898,SPELL_TARGET_CONE_TEMPLATE,Cible %s dans un cône de %d m. |2 %s,1
+9898,SPELL_TARGET_CONE_TEMPLATE,Cible %s dans un cône de %d m |2 %s,1
 9899,SPELL_TARGET_TYPE1_DESC,tous,1
 9900,SPELL_TARGET_TYPE_DEAD1_DESC,mort,1
 9901,SPELL_TARGET_TYPE2_DESC,ami,1
@@ -19844,8 +19844,8 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 44280,BEHAVIORAL_DETAILS_TY_MESSAGE,"Merci pour votre signalement. Les joueurs qui enfreignent notre règlement nuisent à l’expérience de l’ensemble de la communauté de World of Warcraft, et vos témoignages nous aident à les identifier.\n\nPour des raisons de confidentialité, nous ne pouvons pas entrer dans les détails, mais sachez que vos récents signalements ont abouti à des sanctions à l’encontre d’un joueur.\n\nMerci de contribuer à maintenir un environnement sain et amical au sein de notre communauté.",1
 44281,LFG_LIST_PVP_RATING_ABOVE_YOURS,Vous ne pouvez pas exiger une cote JcJ supérieure à la vôtre.,1
 44282,LFG_LIST_DUNGEON_SCORE_ABOVE_YOURS,Vous ne pouvez pas exiger une cote mythique + supérieure à la vôtre.,1
-44283,GROUP_FINDER_AUTHENTICATOR_POPUP_DESC,"Débloquez l’accès complet à l’outil de recherche de groupe en liant un Authenticator et SMS Protect à votre compte.|n|nL’Authenticator Battle.net est un service gratuit et simple d’utilisation, qui protège votre compte des accès non autorisés, et SMS Protect vous signale tout changement important apporté à votre compte.|n|nCliquez sur Activer pour accéder au site Internet d’installation de l’Authenticator.",1
-44284,LFG_AUTHENTICATOR_BUTTON_TOOLTIP,|cffff0000Vous ne pouvez pas modifier ce champ avant d’avoir sécurisé votre compte à l’aide de l’Authenticator Battle.net et SMS Protect .|r|n|cff1eff00<Cliquez pour plus d’informations.>|r,1
+44283,GROUP_FINDER_AUTHENTICATOR_POPUP_DESC,"Débloquez l’accès complet à l’outil de recherche de groupe en associant un Authenticator à votre compte et en activant les notifications téléphoniques.|n|nL’Authenticator Battle.net est un service gratuit et simple d’utilisation, qui protège votre compte des accès non autorisés. Les notifications téléphoniques vous avertissent lorsque des changements importants sont apportés à votre compte.|n|nCliquez sur « Activer » pour accéder au site Internet d’installation de l’Authenticator.",1
+44284,LFG_AUTHENTICATOR_BUTTON_TOOLTIP,|cffff0000Vous ne pouvez pas modifier ce champ avant d’avoir sécurisé votre compte à l’aide de l’Authenticator Battle.net et des notifications téléphoniques.|r|n|cff1eff00<Cliquez pour plus d’informations.>|r,1
 44289,GROUP_FINDER_TITLE_WITH_PLAYSTYLE,%s - %s - %s,1
 44290,GROUP_FINDER_TITLE_WITHOUT_PLAYSTYLE,%s %s,1
 44291,GROUP_FINDER_MYTHIC_PLUS_TITLE_WITHOUT_PLAYSTYLE,+%d,1
@@ -19856,8 +19856,8 @@ Vous trouverez leurs maîtres et maîtresses dans certains campements et villes.
 44296,BROWSE_GROUPS,Parcourir les groupes,1
 44297,YOU_COLLECTED_LABEL,Vous avez obtenu,1
 44298,CLICK_CAST_BINDINGS,Raccourcis de sorts à la souris,1
-44299,LFG_AUTHENTICATOR_BUTTON_MYTHIC_PLUS_TOOLTIP,|cffff0000Vous ne pouvez pas proposer de groupe mythique + sans clé mythique avant d’avoir sécurisé votre compte à l’aide de l’Authenticator Battle.net et SMS Protect.|r|n|cff1eff00<Cliquez pour plus d’informations.>|r,1
-44300,LFG_AUTHENTICATOR_DESCRIPTION_BOX,Liez un Authenticator et SMS Protect à votre compte pour débloquer ce champ.,1
+44299,LFG_AUTHENTICATOR_BUTTON_MYTHIC_PLUS_TOOLTIP,|cffff0000Vous ne pouvez pas proposer de groupe mythique + sans clé mythique avant d’avoir sécurisé votre compte à l’aide de l’Authenticator Battle.net et des notifications téléphoniques.|r|n|cff1eff00<Cliquez pour plus d’informations.>|r,1
+44300,LFG_AUTHENTICATOR_DESCRIPTION_BOX,Liez un Authenticator à votre compte et activez les notifications téléphoniques pour débloquer ce champ.,1
 44301,SPELL_FAILED_CUSTOM_ERROR_618,Vous n’avez pas de marque draconique.,1
 44303,SPELL_FAILED_CUSTOM_ERROR_619,Vous devez être membre de la congrégation des Kyrians ou avoir atteint le niveau de renom 80 auprès de cette faction.,1
 44304,SPELL_FAILED_CUSTOM_ERROR_620,Vous devez être membre de la congrégation des Nécro-seigneurs ou avoir atteint le niveau de renom 80 auprès de cette faction.,1
@@ -23495,7 +23495,7 @@ et répandre sa flamme partout sur Azeroth.",1
 54184,ERR_INVITED_TO_NEIGHBORHOOD,Vous avez reçu une invitation à rejoindre un quartier !,1
 54188,HOUSING_DASHBOARD_INITIATIVE_TASKS_LABEL,Tâches d’initiatives,1
 54189,HOUSING_DASHBOARD_INITIATIVE_ACTIVITY_LABEL,Activité,1
-54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,|cFFFFFFFF%s|r a accompli : %s.,1
+54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,Le bataillon |2|cFFFFFFFF%s|r a accompli « %s »,1
 54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,Aucune initiative active actuellement dans votre quartier. |n|n Les responsables du quartier peuvent lancer une initiative en s’adressant au régisseur ou à la régisseuse.,1
 54192,HOUSING_DASHBOARD_ADDITIONAL_REWARDS_LABEL,Récompenses supplémentaires :,1
 54193,HOUSING_DASHBOARD_REWARD_ESTATE_XP,Expérience de logis,1
@@ -24794,7 +24794,7 @@ et répandre sa flamme partout sur Azeroth.",1
 57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,"Affiche tous les types d’indicateurs de dissipation, même ceux que vous ne pouvez pas dissiper.",1
 57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Couleur des affaiblissements dissipables,1
 57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Fait apparaître la fenêtre du groupe en surbrillance colorée si un membre du groupe a un affaiblissement dissipable.,1
-57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Acheter tous les articles pour %s,1
+57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Acheter tous les articles pour %s,3
 57069,UNIT_NAMEPLATES_SEARCH_TAG,Barres d’info,1
 57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Royaume Titan Reforged,3
 57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Couleur de la barre de points de vie,1
@@ -24802,8 +24802,8 @@ et répandre sa flamme partout sur Azeroth.",1
 57084,RAID_CHAT_BUBBLES_TEXT,Bulles de dialogue du raid,1
 57088,CAA_INTERRUPTIBLE_CAST_TEXT,Sort interruptible,1
 57089,CAA_INTERRUPTED_CAST_TEXT,Cible interrompue,1
-57091,HOUSING_MARKET_PURCHASE_FAILURE,Échec de l’achat. Veuillez réessayer plus tard.,1
-57092,HOUSING_MARKET_PURCHASE_SLOW_DESC,L’achat prend plus de temps que prévu. Veuillez réessayer plus tard.,1
+57091,HOUSING_MARKET_PURCHASE_FAILURE,Échec de l’achat. Veuillez réessayer plus tard.,3
+57092,HOUSING_MARKET_PURCHASE_SLOW_DESC,L’achat prend plus de temps que prévu. Veuillez réessayer plus tard.,3
 57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Ajoute une apparence pour créer un ensemble personnalisé.,1
 57094,HOUSING_ENDEAVORS_MIN_LEVEL,Les initiatives se débloquent au niveau %d.,5
 57098,SPELL_FAILED_CUSTOM_ERROR_2516,Vous ne pouvez pas porter davantage de poules.,1
@@ -24958,7 +24958,7 @@ et répandre sa flamme partout sur Azeroth.",1
 57464,CAA_TARGETED_BY_TEXT,Vous êtes la cible de %s.,1
 57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
 57466,ONLINE_SAFETY_NOTICE,"Pensez à agir de manière responsable, à protéger vos informations personnelles et à signaler tout contenu inapproprié. Consultez notre code de bonne conduite en jeu sur |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h pour en savoir plus.",1
-57470,HOUSING_MARKET_PURCHASE_PARTIAL_SUCCESS,Certains articles de votre panier n’ont pas pu être achetés. Veuillez réessayer plus tard.,1
+57470,HOUSING_MARKET_PURCHASE_PARTIAL_SUCCESS,Certains articles de votre panier n’ont pas pu être achetés. Veuillez réessayer plus tard.,3
 57478,CATALOG_SHOP_REFUND,Rembourser,3
 57479,CATALOG_SHOP_REFUND_TIME_LEFT,Temps restant pour le remboursement des objets récents : %s,3
 57483,CATALOG_SHOP_TOPUPFLOW_CURRENT_BALANCE,Solde actuel : %s,3
@@ -25053,7 +25053,7 @@ et répandre sa flamme partout sur Azeroth.",1
 57638,SLASH_CAA_SAY_IF_TARGETED,annonceencasdeciblage,1
 57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,annonce en cas de ciblage,1
 57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d – %d] – Choisir une expression ou un son pour indiquer qu’un personnage adverse vous prend pour cible.,1
-57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,Voulez-vous vraiment acheter %d |4focarin:focarins; ? Votre panier actuel requiert davantage pour finaliser l’achat.,1
+57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,Voulez-vous vraiment acheter %d |4focarin:focarins; ? Votre panier actuel requiert davantage pour finaliser l’achat.,3
 57642,SPELL_FAILED_CUSTOM_ERROR_2600,Nécessite une arme de mêlée équipée dans la main gauche,1
 57647,SLASH_CAA_SAY_PARTY_HEALTH,annoncerpointsviegroupe,1
 57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,annoncer les points de vie du groupe,1
@@ -25226,17 +25226,17 @@ et répandre sa flamme partout sur Azeroth.",1
 57883,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_NORMAL,|cnHIGHLIGHT_FONT_COLOR:(%d/%d) :|r %s,1
 57884,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_PREVIEW,|cnDISABLED_FONT_COLOR:(%d/%d) :|r %s,1
 57885,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_NEXT_STAGE_PREVIEW_TITLE,Suivant :,1
-57887,PHOTO_SHARING_SETTINGS_LABEL,Connexion au site,3
-57888,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP,Cochez cette option pour activer l’association de WoW au site. Utilisez l’|cnGREEN_FONT_COLOR:appareil photo|r pour créer et partager des publications.,3
-57889,PHOTO_SHARING_BROWSER_TITLE,Connexion au site,3
+57887,PHOTO_SHARING_SETTINGS_LABEL,Connexion à Pinterest,3
+57888,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP,Cochez cette option pour activer l’association de World of Warcraft et Pinterest. Utilisez |cnGREEN_FONT_COLOR:l’appareil photo Épingl-o-matic|r pour créer et partager des Épingles.,3
+57889,PHOTO_SHARING_BROWSER_TITLE,Connexion à Pinterest,3
 57890,PHOTO_SHARING_PREVIEW_PUBLISH,Publier,3
-57891,PHOTO_SHARING_PREVIEW_TITLE,Créer une publication,3
+57891,PHOTO_SHARING_PREVIEW_TITLE,Créer une Épingle,3
 57892,PHOTO_SHARING_PREVIEW_EDITBOX_TITLE_LABEL,Titre,3
 57893,PHOTO_SHARING_PREVIEW_EDITBOX_TITLE_PLACEHOLDER,Ajouter un titre (facultatif),3
 57894,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_LABEL,Description,3
 57895,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_PLACEHOLDER,Ajouter une description (facultatif),3
-57896,PHOTO_SHARING_PREVIEW_CONNECT_NOTIFICATION,Vous devez vous connecter au site pour publier.,3
-57897,PHOTO_SHARING_PUBLISHED,Publication postée sur le site,3
+57896,PHOTO_SHARING_PREVIEW_CONNECT_NOTIFICATION,Vous devez vous connecter à Pinterest pour publier.,3
+57897,PHOTO_SHARING_PUBLISHED,Épingle publiée sur le tableau,3
 57899,AUTO_RESET_DAMAGE_METER,Réinitialisation automatique du compteur de dégâts,1
 57900,AUTO_RESET_DAMAGE_METER_TOOLTIP,Activez pour que toutes les valeurs du compteur de dégâts se réinitialisent chaque fois que vous entrez dans une nouvelle instance.,1
 57909,CATALOG_SHOP_REFUND_FLOW_TITLE,Remboursement d’objet,3
@@ -25283,13 +25283,13 @@ et répandre sa flamme partout sur Azeroth.",1
 57964,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME_NARRATED,Volume de l’annonce de mes affaiblissements,1
 57965,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOLUME,[%d – %d] – Régler le volume de l’annonce de mes affaiblissements.,1
 57966,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_CHANGED_CONFIRMATION,Voix sélectionnée pour les alertes audio annonçant mes affaiblissements : %s,1
-57967,PHOTO_SHARING_PUBLISHED_ERROR_MAX_POSTS,Vous avez dépassé la limite quotidienne de publication.,3
-57968,PHOTO_SHARING_PUBLISHED_ERROR,Une erreur s’est produite. Votre publication n’a pas pu être postée sur le site.,3
+57967,PHOTO_SHARING_PUBLISHED_ERROR_MAX_POSTS,Vous avez dépassé la limite quotidienne d’Épingles.,3
+57968,PHOTO_SHARING_PUBLISHED_ERROR,Une erreur s’est produite. Votre Épingle n’a pas pu être publiée sur Pinterest.,3
 57970,PHOTO_SHARING_GOOGLE_NOTICE,La connexion à partir d’un compte Google n’est pas disponible pour le moment.,3
 57971,COOLDOWN_VIEWER_SETTINGS_ALERT_TYPE_VISUAL,Visuel,1
 57972,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_VISUAL_TYPE,Alerte visuelle,1
 57973,PHOTO_SHARING_PREPOP_DESCRIPTION,#CréezVotreMonde,3
-57976,PHOTO_SHARING_PREVIEW_HEADER,Les publications postées seront enregistrées sur votre page |cnWHITE_FONT_COLOR:%s|r.,3
+57976,PHOTO_SHARING_PREVIEW_HEADER,L’Épingle publiée sera enregistrée sur votre tableau |cnWHITE_FONT_COLOR:%s|r.,3
 57977,PHOTO_SHARING_PAGE_NAME,World of Warcraft : créez votre monde,3
 57982,JOURNEY_UNLOCKED_TOAST,Excursion débloquée,1
 57985,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT,Ignorer la supplantation,1
@@ -25297,11 +25297,22 @@ et répandre sa flamme partout sur Azeroth.",1
 57989,PHOTO_SHARING_SIGN_IN,Connexion,3
 57990,PHOTO_SHARING_DISCONNECT,Déconnexion,3
 57996,PHOTO_SHARING_PAGE_NAME_SHORT,Créez votre monde,3
-57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Connexion au site établie,3
-57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,Déconnexion du site confirmée,3
+57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Connexion à Pinterest établie,3
+57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,,3
 58003,DAMAGE_METER_TYPE_ENEMY_DAMAGE_TAKEN,Dégâts subis adverses,1
 58004,TRANSMOG_USABLE_DISCOUNT,Changement de tenue gratuit disponible,1
 58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,Vous pouvez bénéficier d’un changement de tenue gratuit. Cette offre est valable une seule fois par personnage.,1
 58006,TRANSMOG_USABLE_DISCOUNT_CLAIM,Récupérer gratuitement,1
 58007,TRANSMOG_USABLE_DISCOUNT_USE_GOLD,Payer en pièces d’or,1
-58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Your previously applied Transmog and legacy outfits are available in Custom Sets.,1
+58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Vos transmogrifications et tenues d’héritage précédemment utilisées sont disponibles dans la catégorie Ensembles personnalisés.,1
+58040,LFG_MAXLEVEL_DESCRIPTION_BOX,Vous ne pouvez pas modifier ce champ avant d’avoir atteint le niveau maximum.,1
+58041,LFG_AUTHENTICATOR_AND_MAXLEVEL_DESCRIPTION_BOX,"Atteignez le niveau maximum, liez un Authenticator à votre compte et activez les notifications téléphoniques pour débloquer ce champ.",1
+58043,LFG_MAXLEVEL_BUTTON_TOOLTIP,|cffff0000Vous ne pouvez pas modifier ce champ avant d’avoir atteint le niveau maximum.,1
+58044,LFG_AUTHENTICATOR_AND_MAXLEVEL_BUTTON_TOOLTIP,|cffff0000Vous ne pouvez pas modifier ce champ avant d’avoir atteint le niveau maximum et sécurisé votre compte à l’aide de l’Authenticator Battle.net et des notifications téléphoniques.|r|n|cff1eff00<Cliquez pour plus d’informations.>|r,1
+58052,INTEGER_LARGER_THAN,%d+,1
+58054,CATALOG_SHOP_DECOR_INDIVIDUAL_OWNED,En votre possession : %d,3
+58055,CATALOG_SHOP_DECOR_INDIVIDUAL_OWNED_TOOLTIP,Éléments placés : %d ; en réserve : %d,3
+58056,CATALOG_SHOP_DECOR_BUNDLE_OWNED,Certains objets possédés,3
+58057,CATALOG_SHOP_DECOR_BUNDLE_OWNED_TOOLTIP,Vous possédez déjà certains objets contenus dans ce pack. Consultez les informations pour en savoir plus.,3
+58094,CATALOG_SHOP_HOUSING_WARNING,Vous devez posséder l’extension Midnight pour utiliser des éléments de décoration de logis.,3
+58113,UNITNAME_SUMMON_TITLE61,Édit |2%s,1
