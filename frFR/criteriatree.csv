@@ -94111,7 +94111,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161464,Tour de garde : les abîmes Retentissants,161460,0,0,67003,3,0
 161465,Tour de garde : Sainte-Chute,161460,0,0,67004,4,0
 161466,Tour de garde : Azj-Kahet,161460,0,0,67005,5,0
-161467,Le déclenchement d’une bataille,161460,0,0,67007,6,0
 161468,Stratholme – Le Condamné (Marcheurs du temps),0,0,4,0,0,0
 161469,Le Condamné vaincu,161468,1,0,24909,0,0
 161470,Stratholme – Chanteloge Forrestin (Marcheurs du temps),0,0,4,0,0,0
@@ -104317,9 +104316,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210095,,210094,0,0,105053,0,0
 210096,,210094,0,0,105054,1,0
 210103,Déployer des défenses,0,1,8,0,0,0
-210104,Chronomètre de préparation expiré,210103,1,0,105059,2,0
+210104,Chronomètre de préparation expiré,210103,1,0,105059,1,0
 210105,Positions défensives activées,210106,1,0,105060,0,1
-210106,Positions défensives activées,216141,11,9,0,0,0
+210106,Positions défensives activées,216141,11,9,0,1,0
 210107,Empêcher la jauge de l’ancre de singularité de tomber à zéro,0,0,4,0,0,0
 210108,Empêcher la jauge de l’ancre de singularité de tomber à zéro,210107,1,0,105764,0,0
 210112,11.2 - K'aresh - Cloak - Tutorial - Aura 2 - TEST (YGR),0,0,4,0,0,4096
@@ -109769,7 +109768,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216139,,216137,1,0,106012,1,32
 216140,,216137,1,0,106013,2,32
 216141,Branche sans nom,210103,0,4,0,0,0
-216142,Chronomètre de préparation expiré,210103,1,0,105059,1,2
+216142,Chronomètre de préparation expiré,216141,1,0,105059,0,2
 216143,[DNT] Enemies - Nature,0,100,5,0,0,4097
 216144,,216143,1,0,108775,0,1
 216145,[DNT] Enemies - Nature,0,100,5,0,0,4097
@@ -109997,7 +109996,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216380,Séranel Cinglesoleil vaincu,216378,1,0,70057,1,0
 216381,Gémellus vaincu,216378,1,0,70058,2,0
 216382,Dégentrius vaincu,216378,1,0,70059,3,0
-216383,Troupes ennemies,216378,597,9,0,4,0
+216383,Troupes ennemies,216378,585,9,0,4,0
 216384,,216383,12,0,108855,7,0
 216385,12.0 Dungeon - Nexus Point (Challenge),0,0,4,0,0,0
 216386,Chef forge-cœur Kasreth vaincu,216385,1,0,106479,0,0
@@ -110049,11 +110048,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216432,,216395,7,0,50192,1,0
 216433,,216395,9999,0,48468,2,0
 216434,Obtenir 50 victoires honorables sur la colline Meurtrière,0,0,4,0,0,0
-216435,Obtenir 50 victoires honorables sur la colline Meurtrière,216434,50,0,108868,0,1
+216435,Obtenir 50 victoires honorables sur la colline Meurtrière,216434,50,0,113575,0,1
 216436,Obtenir 100 victoires honorables sur la colline Meurtrière,0,0,4,0,0,1
-216437,Obtenir 100 victoires honorables sur la colline Meurtrière,216436,100,0,108868,0,1
+216437,Obtenir 100 victoires honorables sur la colline Meurtrière,216436,100,0,113575,0,1
 216438,Obtenir 500 victoires honorables sur la colline Meurtrière,0,0,4,0,0,1
-216439,Obtenir 500 victoires honorables sur la colline Meurtrière,216438,500,0,108868,0,1
+216439,Obtenir 500 victoires honorables sur la colline Meurtrière,216438,500,0,113575,0,1
 216440,Achever la quête Récupérer les restes 5 fois dans Midnight,0,0,4,0,0,0
 216441,Récupérer les restes,216440,5,0,108869,0,1
 216442,Ouvrir 5 caisses de fournitures de guerre en mode Guerre dans Midnight,0,0,4,0,0,0
@@ -113708,18 +113707,17 @@ de singularité (facultatif)",219220,1,0,109159,0,0
 222009,Pierre runique ancienne,221922,0,0,111824,13,0
 222010,Fresque abandonnée,221922,0,0,111825,14,0
 222011,Fresque oubliée,221922,0,0,111826,15,0
-222012,Parchemin entaillé,221922,0,0,111827,16,0
 222013,Plaque du souvenir,221922,0,0,111828,0,0
 222014,Sanctuaire de Dath’Remar,221922,0,0,111829,1,0
 222015,Notes de Mirveda,221922,0,0,111830,2,0
 222016,Notes de recherches sacrilèges,221922,0,0,111831,3,0
 222017,L’Élevage des faucons-pérégrins : l’Intégrale,221922,0,0,111832,4,0
 222018,Partition inachevée,221922,0,0,111833,5,0
-222019,Armure du Vide,221922,0,0,111834,17,0
-222020,Tablette antique,221922,0,0,111835,18,0
-222021,Télescope abandonné,221922,0,0,111836,19,0
-222022,Page déchirée,221922,0,0,111837,20,0
-222023,Harnais de greffombre,221922,0,0,111838,21,0
+222019,Armure du Vide,221922,0,0,111834,16,0
+222020,Tablette antique,221922,0,0,111835,17,0
+222021,Télescope abandonné,221922,0,0,111836,18,0
+222022,Page déchirée,221922,0,0,111837,19,0
+222023,Harnais de greffombre,221922,0,0,111838,20,0
 222024,Vaincre toutes les créatures rares de Zul’Aman,0,0,4,0,0,0
 222025,Nécromaléficieur Raz’ka,222024,1,0,111839,0,0
 222026,Le fléau carnassier,222024,1,0,111840,1,0
@@ -113832,7 +113830,7 @@ de singularité (facultatif)",219220,1,0,109159,0,0
 222134,,222132,1,0,111943,1,0
 222135,Haut fait de déblocage de donjon – cavernes de Maisara,0,1,8,0,0,0
 222136,,222135,1,0,111906,0,2
-222137,,222135,1,0,111943,1,0
+222137,,222135,1,0,113653,1,0
 222138,Haut fait de déblocage de donjon – val Aveuglant,0,1,8,0,0,0
 222139,,222138,1,0,111907,0,2
 222140,,222138,1,0,111943,1,0
@@ -114615,25 +114613,25 @@ de singularité (facultatif)",219220,1,0,109159,0,0
 223152,,223151,0,0,112485,0,0
 223153,Échos de Midnight – terminé,0,0,4,0,0,0
 223154,,223153,0,0,112485,0,0
-223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223172,Télescope placé,223171,1,0,111573,4,0
 223173,Télescope placé,223171,1,0,111574,0,0
 223174,Télescope placé,223171,1,0,111575,1,0
 223175,Télescope placé,223171,1,0,111576,2,0
 223176,Télescope placé,223171,1,0,111577,3,0
-223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223178,Télescope placé,223177,1,0,111578,0,0
 223179,Télescope placé,223177,1,0,111579,1,0
 223180,Télescope placé,223177,1,0,111580,2,0
 223181,Télescope placé,223177,1,0,111581,3,0
 223182,Télescope placé,223177,1,0,111582,4,0
-223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223184,Télescope placé,223183,1,0,111583,0,0
 223185,Télescope placé,223183,1,0,111584,1,0
 223186,Télescope placé,223183,1,0,111585,2,0
 223187,Télescope placé,223183,1,0,111586,3,0
 223188,Télescope placé,223183,1,0,111587,4,0
-223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223190,Télescope placé,223189,1,0,111588,0,0
 223191,Télescope placé,223189,1,0,111589,1,0
 223192,Télescope placé,223189,1,0,111590,2,0
@@ -115107,8 +115105,45 @@ de singularité (facultatif)",219220,1,0,109159,0,0
 224709,,224708,0,0,113403,0,0
 224710,Se connecter entre la sortie de la mise à jour 12.0.1 et la sortie de Midnight.,0,0,4,0,0,0
 224711,,224710,0,0,113404,0,0
+224759,Remporter la victoire sur la colline Meurtrière,0,0,4,0,0,8192
+224760,,224759,1,0,109946,0,2
+224761,Obtenir 100 victoires sur la colline Meurtrière,0,100,5,0,0,8193
+224762,,224761,1,0,109946,0,3
 224789,12.0 Research Console - Mount Tracking - Hidden [DNT],0,0,4,0,0,0
 224790,,224789,0,0,113431,0,0
 224791,,224789,0,0,113435,1,0
 224792,,224789,0,0,113436,2,0
 224793,,224789,0,0,113437,3,0
+224953,"Remporter la victoire sur la colline Meurtrière en contrôlant la raffinerie de Shenzar, le bastion de la Puissance, les portes de la Puissance, le bastion de la Vaillance et les portes de la Vaillance",0,1,8,0,0,0
+224954,,224953,0,0,113514,0,0
+224963,"Sur la colline Meurtrière, tuer une cible adverse sur la voie de la Prédation avant qu’elle ne soit descendue de sa monture",0,0,4,0,0,0
+224964,"Sur la colline Meurtrière, tuer une cible adverse sur la voie de la Prédation avant qu’elle ne soit descendue de sa monture",224963,1,0,113522,0,2
+224965,Tuer l’ultradon de la faction adverse invoqué à la Bogue ou au terrain d’affrontement,0,1,8,0,0,0
+224966,,224965,1,0,113523,0,2
+224967,,224965,1,0,113524,1,2
+225206,12.0 Midnight - World Tour - Z4 - Stormarion Assault (NJS),0,1,8,0,0,4096
+225207,,225206,0,0,113615,0,0
+225208,,225206,0,0,113616,1,0
+225209,,225206,1,0,113617,2,0
+225210,,225206,1,0,113618,3,0
+225211,,225206,1,0,113619,4,0
+225221,,225206,0,0,113629,5,0
+225238,Sélectionner un rôle de combat pour Valeera Sanguinar,0,1,8,0,0,12290
+225239,,225238,0,0,113640,0,0
+225240,,225238,0,0,113641,1,0
+225241,,225238,0,0,113642,2,0
+225353,12.0 Gouffres – Salle du trésor ouverte,0,0,4,0,0,0
+225354,Trésor trouvé,225353,0,0,64984,0,0
+225355,"12.0 Gouffres – Gouffre terminé, beau travail !",0,0,4,0,0,0
+225356,(Facultatif) Quitter le Gouffre avec Méca-départ et les récompenses,225355,0,0,67376,0,0
+225357,"12.0 Delves - Delve Complete, No LeaveOBot",0,0,4,0,0,0
+225358,(Optionnel) Quitter le Gouffre après avoir récupéré les récompenses,225357,0,0,69831,0,0
+225359,12.0 Z1 - Achievement - Saltheril's Haven - Max Rank on All (NEW),0,0,4,0,0,0
+225360,Chevaliers de sang,225359,0,4,0,0,8192
+225361,,225360,2500,0,111969,0,0
+225362,Pérégrins,225359,0,4,0,1,8192
+225363,,225362,2500,0,111971,0,0
+225364,Magistères,225359,0,4,0,2,8192
+225365,,225364,2500,0,111970,0,0
+225366,Ombres de l’Allée,225359,0,4,0,3,8192
+225367,,225366,2500,0,111972,0,0
