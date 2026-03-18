@@ -12518,7 +12518,7 @@ ID,BaseTag,TagText_lang,Flags
 24737,GARRISON_SWITCH_SPECIALIZATIONS,전문화 교체,1
 24738,ARTIFACT_XP_GAIN,%s|1이;가; %s의 유물력을 획득했습니다.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,연료가 부족합니다.,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,착용 효과: 투기장과 전장에서 아이템 레벨이 최소 %d|1으로;로; 상승합니다.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,"착용 효과: 투기장과 전장, 전쟁 모드에서 아이템 레벨이 최소 %d|1으로;로; 상승합니다.",1
 24742,STAT_ARMOR,방어도,1
 24743,STAT_BONUS_ARMOR,추가 방어도,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,물의 원기,1
@@ -16750,7 +16750,7 @@ ID,BaseTag,TagText_lang,Flags
 36368,PVP_LABEL_PVP_TALENTS,플레이어 간 전투 특성,1
 36369,PVP_WAR_MODE_DESCRIPTION,전쟁 모드에 등록하여 야외 플레이어 간 전투를 활성화합니다. 퀘스트 보상과 경험치가 최대 10% 증가하고 야외 세계에서 플레이어 간 전투 특성을 사용할 수 있습니다.,1
 36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"전쟁 모드로 돌입하려면 스톰윈드, 실버문 또는 지배자의 망루에 있어야 합니다.",1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,"전쟁 모드로 돌입하려면 스톰윈드, 실버문 또는 지배자의 망루에 있어야 합니다.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"전쟁 모드로 돌입하려면 오그리마, 실버문 또는 지배자의 망루에 있어야 합니다.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,음성 대화 서비스의 응답을 기다리는 중입니다. 잠시만 기다려 주십시오.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,탈퇴하기 전에 소유권을 이전해야 합니다.,5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,그룹에서 나가고 그룹을 삭제하시겠습니까?,1
@@ -19754,7 +19754,7 @@ ID,BaseTag,TagText_lang,Flags
 44171,PVP_RANK_5_NAME,정예병,1
 44172,PVP_RANK_8_NEXT_RANK_DESC,"평점 1,950점 이상 달성:|n- 정예 플레이어 간 전투 무기 마법부여",1
 44173,PVP_RANK_4_NEXT_RANK_DESC,평점 2100점 이상 달성:|n- 결투사 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 영예 망토,1
-44174,PVP_RANK_5_NEXT_RANK_DESC,평점 2400점 이상 달성:|n- 정예병 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 휘장,1
+44174,PVP_RANK_5_NEXT_RANK_DESC,"평점 2,300점 이상 달성:|n- 정예병 칭호|n- 정예 플레이어 간 전투 아이템 세트 외형: 휘장",1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,음성 대화 받아쓰기,1
 44179,ITEM_UPGRADE_BONUS_STAT_FORMAT,%3$s |cff20ff20%1$d (+%2$d)|r,1
@@ -22837,7 +22837,7 @@ ID,BaseTag,TagText_lang,Flags
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,이 종족을 사용하려면 10 레벨이 되어야 합니다.,2
 52605,PLAYER_DIFFICULTY_STORY_RAID,공격대 이야기,1
 52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,강화,1
-52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,이번 주에 %2$s 우두머리를 %1$d회 처치하면 이 보상이 해제됩니다.|n|n이 보상의 아이템 레벨은 공격대 난이도에 따라 결정됩니다.,1
+52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,이번 주에 한밤 1 시즌 우두머리를 %d회 처치하면 이 보상이 해제됩니다.|n|n이 보상의 아이템 레벨은 공격대 난이도에 따라 결정됩니다.,1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,이번 주에 우두머리를 추가로 %d회 처치하면 이 보상이 해제됩니다.|n|n이 보상의 아이템 레벨은 공격대 난이도에 따라 결정됩니다.,1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,%s 전용,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,전체 전투부대 이전 가능,1
@@ -22989,7 +22989,7 @@ ID,BaseTag,TagText_lang,Flags
 52964,DRIVE_START_JOB_HELP_TIP,대모 탈룰라에게 첫 번째 일거리를 받으십시오. 기존의 일거리를 취소하고 새로 받을 수도 있습니다.,1
 52967,WORLD_MAP_FILTER_COUNTER_TOOLTIP,숨김: %s,1
 52969,TW_FRAUD_WARNING_TEXT,System message,2
-52970,HOUSING_CHARTER_REQUEST_DESCRIPTION,"%s|1이;가; 창설신청서 서명을 요청했습니다. 서명할 경우, %s|1이;가; 서명을 제출한 후 해당 거주구에 집을 구매할 수 있습니다.",1
+52970,HOUSING_CHARTER_REQUEST_DESCRIPTION,"%s|1이;가; 거주구 창설신청서 서명을 요청했습니다. 서명할 경우, %s|1이;가; 서명을 제출한 후 해당 거주구에 집을 구매할 수 있습니다.",1
 52971,HOUSING_CHARTER_REQUEST_SIGN_BUTTON,창설신청서에 서명,1
 52972,HOUSING_CHARTER_REQUEST_DECLINE_BUTTON,거절,1
 52973,HOUSING_CHARTER_REQUEST_LOCATION,위치: %s,1
@@ -24390,7 +24390,7 @@ ID,BaseTag,TagText_lang,Flags
 56180,REAGENT_COST_CONSUME_ITEMS_RANGE,%s (%d-%d),1
 56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,방문하려는 집이 방문객 상한에 도달했습니다. 방문 중인 플레이어 1명 이상이 집을 나가야 새로운 방문객이 찾아갈 수 있습니다.,1
 56183,RPE_NO_INTERRUPT_ACTION,마법책에서 주문 방해 능력을 행동 단축바에 추가해야 합니다.,1
-56187,PROFESSIONS_TRACKER_REAGENT_RANGE_FORMAT,%d,1
+56187,PROFESSIONS_TRACKER_REAGENT_RANGE_FORMAT,(%d-%d),1
 56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,집 실외에는 문이 정확히 하나만 있어야 합니다.,1
 56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,고정물 지점은 이미 비어 있습니다.,1
 56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,이 지점에는 이미 고정물이 부착되어 있습니다.,1
