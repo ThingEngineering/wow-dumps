@@ -254,9 +254,9 @@ Corborus émerge également violemment du sol et s'immerge à nouveau quatre foi
 
 En mode héroïque, la terre entre en éruption au bout de 3 secondes et les flaques de lave durent 30 secondes.$]",111,1,0,0,2402,2,0,0,0,135830,0,0,-1
 2402,Explosion de sable,"Peau-de-pierre souffle une explosion de sable, qui inflige $80807s1 points de dégâts de Nature à tous les ennemis à moins de $80807a1 mètres dans un cône de 60 degrés devant lui.",111,2,0,0,2403,2,0,0,0,136018,0,0,-1
-2403,Stalactite,"Pendant cette rencontre, Peau-de-pierre se rend périodiquement en courant vers le centre de la grotte et s’élève dans les airs. Pendant qu’il est en vol, un grand nombre de stalactites tombe du plafond vers des emplacements aléatoires dans la grotte. Si un personnage-joueur se trouve sous une stalactite quand elle tombe, il subit $80647s2 points de dégâts physiques et tombe à la renverse.
+2403,Stalactite,"Pendant cette rencontre, Peau-de-pierre se rend périodiquement en courant vers le centre de la grotte et s’élève dans les airs. Pendant qu’il est en vol, un grand nombre de stalactites tombe du plafond vers des emplacements aléatoires dans la grotte. Si un personnage-joueur se trouve sous une stalactite quand elle tombe, il subit $80647s2 points de dégâts physiques et tombe à la renverse.
 
-Les stalactites durent $80647d, et gênent aussi les déplacements et le champ de vision pour les sorts.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
+Les stalactites durent $80647d et gênent aussi les déplacements et le champ de vision pour les sorts.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
 2404,Tempête de cristal,"Après que Peau-de-Pierre a décollé et fini de créer des stalactites, il atterrit. Avant que les stalactites disparaissent, il commence à canaliser Tempête de cristal pendant $92265d. Toutes les $92301t1 s, Peau-de-Pierre inflige $92300s1 points de dégâts de Nature à tous les ennemis.
 
 Il doit avoir l'ennemi dans son champ de vision pour lui infliger des dégâts avec Tempête de cristal.",111,4,0,0,0,2,0,0,0,132774,2,40,14
@@ -19922,11 +19922,11 @@ En mode mythique, cette technique inflige des dégâts à l’ensemble des perso
 25327,Section 13,,2473,14,25302,0,0,2,0,0,381770,0,0,64,-1
 25328,Section 8,,2471,8,24732,0,25329,2,0,0,381419,0,0,17,-1
 25329,Section 9,,2471,9,24732,0,25330,2,0,0,377827,0,0,0,-1
-25330,Section 10,,2471,10,24732,0,0,2,0,0,377807,0,2,0,2
+25330,Section 10,,2471,10,24732,0,0,2,0,0,377807,0,2,8,2
 25331,Section 11,,2471,12,24733,0,29865,2,0,0,381379,0,2,160,2
 25332,Section 12,,2471,14,24733,0,29866,2,0,0,378020,0,2,8196,2
 25333,Section 13,,2471,16,24733,0,0,2,0,0,378229,0,2,4100,0
-25334,Section 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,0,2
+25334,Section 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,8,2
 25335,Section 15,,2471,19,25334,0,0,2,0,0,381466,0,0,0,-1
 25336,Section 16,,2471,20,24734,0,25337,2,0,0,377950,0,0,64,-1
 25337,Section 17,,2471,21,24734,0,25338,2,0,0,377965,0,0,32,-1
@@ -25216,10 +25216,36 @@ $bullet;Adarus utilise |cFF2959D3|Hspell:1227355|h[Traverser le Vide]|h|r pour s
 
 En mode mythique, |cFF2959D3|Hspell:1221490|h[Roussissement gangrené]|h|r augmente également les dégâts subis de |cFF2959D3|Hspell:1225127|h[Gangrelame]|h|r.$]",2688,24,31792,31794,33418,2,0,0,1218103,0,2,4097,0
 31794,Section 9,,2688,25,31793,0,32361,2,0,0,1221490,0,2,4096,0
+31795,Vue d’ensemble,"Embourbe-pourri alimente la croissance de nouveaux sbires fongiques avec |cFF2959D3|Hspell:1221622|h[Éveil fongique]|h|r. 
+
+À 100 points d’énergie, Embourbe-pourri fait apparaître une |cFF2959D3|Hspell:1221637|h[Floraison fongique]|h|r qui fait germer des |cFF2959D3|Hspell:1221965|h[Champignons détonants]|h|r à partir des cadavres des sbires.",2711,1,0,31796,31838,3,0,0,0,0,0,0,-1
+31796,Tanks,"$bullet; Embourbe-pourri frappe sa cible actuelle d’un |cFF2959D3|Hspell:1221781|h[Poing putride]|h|r et lui inflige de lourds dégâts.
+$bullet; |cFF2959D3|Hspell:1221637|h[Floraison fongique]|h|r fait germer des |cFF2959D3|Hspell:1221965|h[Champignons détonants]|h|r mortels à partir des cadavres des sbires.",2711,2,31795,0,31797,3,0,0,0,0,0,1,-1
+31797,DPS,"$bullet; |cFF2959D3|Hspell:1221622|h[Éveil fongique]|h|r fait germer des sbires fongiques du sol.
+$bullet; |cFF2959D3|Hspell:1221637|h[Floraison fongique]|h|r fait germer des |cFF2959D3|Hspell:1221965|h[Champignons détonants]|h|r mortels à partir des cadavres des sbires.",2711,3,31795,0,31798,3,0,0,0,0,0,2,-1
+31798,Soins,"$bullet; Embourbe-pourri inflige des dégâts considérables à l’ensemble des personnages-joueurs avec |cFF2959D3|Hspell:1221637|h[Floraison fongique]|h|r.
+$bullet; |cFF2959D3|Hspell:1222088|h[Lianes purulentes]|h|r inflige des dégâts considérables à plusieurs personnages-joueurs.
+$bullet; Les |cFF2959D3|Hspell:1222176|h[Pustules purulentes]|h|r résiduelles de |cFF2959D3|Hspell:1221787|h[Pustule explosive]|h|r infligent des dégâts de plus en plus importants au fil du temps.",2711,4,31795,0,0,3,0,0,0,0,0,4,-1
+31799,Section 5,,2711,20,0,0,0,2,0,0,1221781,0,0,1,-1
+31812,Section 5,,2711,6,31838,0,0,2,0,0,1222495,0,1,16,-1
+31814,Section 5,,2711,19,31848,0,0,2,0,0,1222176,0,1,4,-1
 31822,Section 27,,2640,14,31188,31823,0,2,0,0,1214039,0,2,0,0
 31823,Section 22,,2640,15,31822,0,0,2,0,0,465446,0,2,0,0
+31838,Section 5,,2711,5,0,31812,31913,2,0,0,1222684,0,2,4096,0
+31848,Section 5,,2711,18,0,31814,31799,2,0,0,1221787,0,0,4,-1
+31913,Section 5,,2711,7,0,31914,31923,2,0,0,1221622,0,1,32,-1
+31914,Champignonnet,Le fongicien poursuit sa cible sans relâche.,2711,8,31913,0,31919,1,115227,0,0,0,0,0,-1
+31916,Chapespore,,2711,10,31913,31917,0,1,131466,0,0,0,3,8,0
+31917,Section 9,,2711,11,31916,0,31918,2,0,0,1221714,0,0,64,-1
+31918,Section 9,,2711,12,31916,0,0,2,0,0,1221717,0,0,0,-1
+31919,Fonginnet,Le fongicien poursuit sa cible sans relâche.,2711,9,31913,0,31916,1,139448,0,0,0,2,4096,0
+31923,Section 5,,2711,13,0,31924,31939,2,0,0,1221637,0,0,0,-1
+31924,Section 5,,2711,14,31923,0,31925,2,0,0,1221965,0,0,2,-1
+31925,Section 5,,2711,15,31923,0,0,2,0,0,1221644,0,0,16,-1
 31927,Section 10,,2688,29,31791,32205,31928,2,0,0,1241833,0,0,33,-1
 31928,Section 11,,2688,32,31791,33095,32959,2,0,0,1242259,0,0,0,-1
+31939,Section 5,,2711,16,0,31940,31848,2,0,0,1222088,0,0,0,-1
+31940,Section 5,,2711,17,31939,0,0,2,0,0,1222129,0,1,0,-1
 31955,Tanks,"$bullet;|cFF2959D3|Hspell:466190|h[Coup de poing tonnerre]|h|r inflige des dégâts colossaux et repousse la cible.
 $bullet;|cFF2959D3|Hspell:465279|hL’[Eau de barrage]|h|r s’électrise au contact avec les techniques foudroyantes de Geezle.
 $bullet;|cFF2959D3|Hspell:468846|hLes [Étincelles bondissantes]|h|r poursuivent les personnages-joueurs et les étourdissent au contact.",2651,2,30480,0,31956,3,0,0,0,0,0,1,-1
@@ -26680,7 +26706,7 @@ En mode héroïque ou mythique, Expulsion du Vide cible également des personnag
 34085,Section 83,,2738,79,34077,0,34086,2,0,0,1233865,0,0,132,-1
 34086,Sentinelles immortelles,Chaque sentinelle immortelle est inextricablement liée à son portail du Vide et se téléporte jusqu’à lui dès qu’elle s’en éloigne de plus de $1243863s1 m.,2738,80,34077,34089,34087,0,0,0,0,0,0,0,-1
 34087,Gouttelette du Vide,,2738,93,34077,34088,0,1,94300,0,0,0,0,0,-1
-34088,Section 86,,2738,94,34087,0,0,2,0,0,1233526,0,0,0,-1
+34088,Section 86,,2738,94,34087,0,0,2,0,0,1261531,0,0,128,-1
 34089,Morium,,2738,81,34086,34090,34093,1,92689,0,0,0,0,0,-1
 34090,Section 90,,2738,82,34089,0,34091,2,0,0,1233778,0,0,0,-1
 34091,Section 93,,2738,83,34089,0,34092,2,0,0,1233787,0,0,1,-1
@@ -27263,7 +27289,7 @@ En mode héroïque, Averzian et ses soldats reçoivent l’effet |cFF2959D3|Hspe
 35311,Section 69,,2740,96,35274,0,0,2,0,0,1282373,0,0,16,-1
 35312,Section 31,,2740,154,34422,0,34424,2,0,0,1282458,0,0,16,-1
 35314,Section 67,"$[!15,16
-En mode héroïque ou supérieur, Galvaniser provoque un Courant d’excès.$]",2740,92,35273,35315,35106,2,0,0,1284525,0,2,4096,0
+En mode héroïque ou supérieur, Galvaniser provoque un Courant meurtrier.$]",2740,92,35273,35315,35106,2,0,0,1284525,0,2,4096,0
 35315,Section 76,,2740,93,35314,0,35274,2,0,0,1285827,0,0,8,-1
 35316,Section 70,,2740,86,35272,35317,0,2,0,0,1282249,0,0,0,-1
 35317,Section 69,,2740,87,35316,0,0,2,0,0,1282373,0,0,0,-1
@@ -27292,7 +27318,7 @@ En mode héroïque, le nombre de notes augmente à chaque mélodie.$]",2740,14,3
 35343,Section 22,,2740,30,35342,35344,0,2,0,0,1252974,0,0,0,-1
 35344,Section 23,,2740,31,35343,0,0,2,0,0,1251807,0,0,16,-1
 35353,Section 17,"|n
-By speaking with Lindormi near The Timeways portal or at the end of a Keystone Dungeon, characters with a tank specialization can enable |cFF2959D3|Hspell:1295986|h[Lindormi's Glow]|h|r when |cFF2959D3|Hspell:1278156|h[Lindormi's Guidance]|h|r is inactive.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
+En parlant à Lindormi près du portail des Voies temporelles ou à la fin d’un donjon de clé mythique, les personnages-joueurs avec une spécialisation de tank peuvent obtenir |cFF2959D3|Hspell:1295986|h[Lueur de Lindormi]|h|r, quand |cFF2959D3|Hspell:1278156|h[Soutien de Lindormi]|h|r est inactif.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
 35354,DPS,"$[23$bullet; Gémellus maintient un bouclier absorbant les dégâts jusqu’à ce que son |cFF2959D3|Hspell:1253707|h[Lien neural]|h|r soit brisé.$]
 $bullet;|cFF2959D3|Hspell:1224299|h[Emprise astrale]|h|r attire les personnages-joueurs vers leur Gémellus respectif.
 $bullet;|cFF2959D3|Hspell:1283904|h[Piqûre cosmique]|h|r inflige de gros dégâts et crée des |cFF2959D3|Hspell:1224100|h[Sécrétions du Vide]|h|r.",2660,2,30540,0,35243,3,0,0,0,0,2,2,0
@@ -27384,12 +27410,12 @@ En mode héroïque, les cristaux de l’aube peuvent verser des larmes de L’ur
 35486,Section 44,,2740,137,35367,0,35478,2,0,0,1266113,0,0,32,-1
 35487,Section 44,,2740,142,35479,0,35480,2,0,0,1266113,0,0,32,-1
 35488,Section 67,"$[!15,16
-En mode héroïque ou supérieur, Galvaniser provoque un Courant d’excès.$]",2740,88,35273,35489,35314,2,0,0,1284525,0,2,8,0
+En mode héroïque ou supérieur, Galvaniser provoque un Courant meurtrier.$]",2740,88,35273,35489,35314,2,0,0,1284525,0,2,8,0
 35489,Section 76,,2740,89,35488,0,35490,2,0,0,1285827,0,0,8,-1
 35490,Section 70,,2740,90,35488,35491,0,2,0,0,1282249,0,0,0,-1
 35491,Section 69,,2740,91,35490,0,0,2,0,0,1282373,0,0,16,-1
 35526,Section 28,,2769,18,35035,0,0,2,0,0,1235814,0,1,16,-1
 35531,Section 16,,2682,16,0,0,0,2,0,0,1216945,0,1,0,-1
 35537,Section 157,,2740,127,34900,0,34901,2,0,0,1287702,0,2,16,0
-35809,Section 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
-35862,Section 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1
+35809,Section 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
+35862,Section 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1

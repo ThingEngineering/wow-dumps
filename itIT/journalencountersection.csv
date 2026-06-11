@@ -19909,11 +19909,11 @@ In modalità Mitica, quest'abilità infligge danni a tutti i personaggi.$]",2500
 25327,Sezione 13,,2473,14,25302,0,0,2,0,0,381770,0,0,64,-1
 25328,Sezione 8,,2471,8,24732,0,25329,2,0,0,381419,0,0,17,-1
 25329,Sezione 9,,2471,9,24732,0,25330,2,0,0,377827,0,0,0,-1
-25330,Sezione 10,,2471,10,24732,0,0,2,0,0,377807,0,2,0,2
+25330,Sezione 10,,2471,10,24732,0,0,2,0,0,377807,0,2,8,2
 25331,Sezione 11,,2471,12,24733,0,29865,2,0,0,381379,0,2,160,2
 25332,Sezione 12,,2471,14,24733,0,29866,2,0,0,378020,0,2,8196,2
 25333,Sezione 13,,2471,16,24733,0,0,2,0,0,378229,0,2,4100,0
-25334,Sezione 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,0,2
+25334,Sezione 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,8,2
 25335,Sezione 15,,2471,19,25334,0,0,2,0,0,381466,0,0,0,-1
 25336,Sezione 16,,2471,20,24734,0,25337,2,0,0,377950,0,0,64,-1
 25337,Sezione 17,,2471,21,24734,0,25338,2,0,0,377965,0,0,32,-1
@@ -25203,10 +25203,36 @@ $bullet;Adarus si sposta con |cFF2959D3|Hspell:1227355|h[Passo del Vuoto]|h|r su
 
 In modalità Mitica, |cFF2959D3|Hspell:1221490|h[Vilbruciato]|h|r aumenta anche i danni inflitti da |cFF2959D3|Hspell:1225127|h[Vilspada]|h|r.$]",2688,24,31792,31794,33418,2,0,0,1218103,0,2,4097,0
 31794,Sezione 9,,2688,25,31793,0,32361,2,0,0,1221490,0,2,4096,0
+31795,Sommario,"Fangorrido catalizza la crescita di nuovi servitori fungini con |cFF2959D3|Hspell:1221622|h[Risveglio Fungino]|h|r. 
+
+Quando raggiunge 100 energia, Fangorrido crea una |cFF2959D3|Hspell:1221637|h[Fioritura Fungina]|h|r che fa crescere |cFF2959D3|Hspell:1221965|h[Funghi dell'Esplosione]|h|r dai cadaveri dei servitori.",2711,1,0,31796,31838,3,0,0,0,0,0,0,-1
+31796,Difensori,"$bullet;Fangorrido infligge ingenti danni al bersaglio attuale con |cFF2959D3|Hspell:1221781|h[Pugno Putrido]|h|r.
+$bullet; |cFF2959D3|Hspell:1221637|h[Fioritura Fungina]|h|r fa crescere dei |cFF2959D3|Hspell:1221965|h[Funghi dell'Esplosione]|h|r mortali dai cadaveri dei servitori.",2711,2,31795,0,31797,3,0,0,0,0,0,1,-1
+31797,Assaltatori,"$bullet;|cFF2959D3|Hspell:1221622|h[Risveglio Fungino]|h|r fa crescere dei servitori fungini dalla terra.
+$bullet; |cFF2959D3|Hspell:1221637|h[Fioritura Fungina]|h|r fa crescere dei |cFF2959D3|Hspell:1221965|h[Funghi dell'Esplosione]|h|r dai cadaveri dei servitori.",2711,3,31795,0,31798,3,0,0,0,0,0,2,-1
+31798,Guaritori,"$bullet;Fangorrido infligge ingenti danni a tutti i personaggi con |cFF2959D3|Hspell:1221637|h[Fioritura Fungina]|h|r.
+$bullet;I |cFF2959D3|Hspell:1222088|h[Viticci Putrescenti]|h|r infliggono ingenti danni a diversi personaggi.
+$bullet;Le |cFF2959D3|Hspell:1222176|h[Pustole Marcescenti]|h|r lasciate dalle |cFF2959D3|Hspell:1221787|h[Pustole Dirompenti]|h|r infliggono costantemente danni periodici crescenti.",2711,4,31795,0,0,3,0,0,0,0,0,4,-1
+31799,Sezione 5,,2711,20,0,0,0,2,0,0,1221781,0,0,1,-1
+31812,Sezione 5,,2711,6,31838,0,0,2,0,0,1222495,0,1,16,-1
+31814,Sezione 5,,2711,19,31848,0,0,2,0,0,1222176,0,1,4,-1
 31822,Sezione 27,,2640,14,31188,31823,0,2,0,0,1214039,0,2,0,0
 31823,Sezione 22,,2640,15,31822,0,0,2,0,0,465446,0,2,0,0
+31838,Sezione 5,,2711,5,0,31812,31913,2,0,0,1222684,0,2,4096,0
+31848,Sezione 5,,2711,18,0,31814,31799,2,0,0,1221787,0,0,4,-1
+31913,Sezione 5,,2711,7,0,31914,31923,2,0,0,1221622,0,1,32,-1
+31914,Fungoluccio,Il Fungariano insegue il suo bersaglio senza sosta.,2711,8,31913,0,31919,1,115227,0,0,0,0,0,-1
+31916,Fungospora,,2711,10,31913,31917,0,1,131466,0,0,0,3,8,0
+31917,Sezione 9,,2711,11,31916,0,31918,2,0,0,1221714,0,0,64,-1
+31918,Sezione 9,,2711,12,31916,0,0,2,0,0,1221717,0,0,0,-1
+31919,Fungalino,Il Fungariano insegue il suo bersaglio senza sosta.,2711,9,31913,0,31916,1,139448,0,0,0,2,4096,0
+31923,Sezione 5,,2711,13,0,31924,31939,2,0,0,1221637,0,0,0,-1
+31924,Sezione 5,,2711,14,31923,0,31925,2,0,0,1221965,0,0,2,-1
+31925,Sezione 5,,2711,15,31923,0,0,2,0,0,1221644,0,0,16,-1
 31927,Sezione 10,,2688,29,31791,32205,31928,2,0,0,1241833,0,0,33,-1
 31928,Sezione 11,,2688,32,31791,33095,32959,2,0,0,1242259,0,0,0,-1
+31939,Sezione 5,,2711,16,0,31940,31848,2,0,0,1222088,0,0,0,-1
+31940,Sezione 5,,2711,17,31939,0,0,2,0,0,1222129,0,1,0,-1
 31955,Difensori,"$bullet;|cFF2959D3|Hspell:466190|h[Pugno del Tuono]|h|r infligge ingenti danni e respinge indietro il bersaglio.
 $bullet;L'|cFF2959D3|Hspell:465279|h[Acqua della Diga]|h|r si elettrifica al contatto con le abilità fulminanti di Geezle.
 $bullet;Le |cFF2959D3|Hspell:468846|h[Scintille Balzanti]|h|r inseguono i personaggi e li stordiscono al contatto.",2651,2,30480,0,31956,3,0,0,0,0,0,1,-1
@@ -25946,7 +25972,7 @@ $bullet;L'effetto di |cFF2959D3|Hspell:1222199|h[Fenditura Oscura]|h|r attira tu
 $bullet;L'effetto di |cFF2959D3|Hspell:1222199|h[Fenditura Oscura]|h|r attira tutti i personaggi vicini verso di essa e infligge ingenti danni a chiunque cada al suo interno.",2791,4,32963,0,0,3,0,0,0,0,0,1,-1
 32967,Fenditura Oscura,,2791,5,0,0,32970,2,0,0,1222199,0,1,32,-1
 32968,Slancio Fatuo,,2791,9,34339,0,0,2,0,0,1222098,0,0,0,-1
-32969,Assalto del Vuoto,,2791,10,0,0,0,2,0,0,1222085,0,0,1,-1
+32969,Attacco del Vuoto,,2791,10,0,0,0,2,0,0,1222085,0,0,1,-1
 32970,Schegge Eteree,,2791,6,0,0,34337,2,0,0,1225107,0,2,4096,0
 32971,Sommario,Atroxus usa |cFF2959D3|Hspell:1222371|h[Provocazione dello Strisciante]|h|r per chiamare in aiuto gli alleati e attacca i personaggi con potenti veleni usando |cFF2959D3|Hspell:1222721|h[Soffio Nocivo]|h|r e |cFF2959D3|Hspell:1226120|h[Spruzzo di Veleno]|h|r.,2792,1,0,32972,34379,3,0,0,0,0,0,0,-1
 32972,Assaltatori,"$bullet;|cFF2959D3|Hspell:1222721|h[Soffio Nocivo]|h|r infligge ingenti danni di fronte ad Atroxus.
@@ -26667,7 +26693,7 @@ In modalità Eroica e Mitica, Espulsione del Vuoto prende di mira anche dei pers
 34085,Sezione 83,,2738,79,34077,0,34086,2,0,0,1233865,0,0,132,-1
 34086,Sentinelle Imperiture,Le Sentinelle Imperiture sono legate inesorabilmente ai loro portali del Vuoto e si teletrasportano indietro se si trovano a più di $1243863s1 m di distanza da essi.,2738,80,34077,34089,34087,0,0,0,0,0,0,0,-1
 34087,Goccia di Vuoto,,2738,93,34077,34088,0,1,94300,0,0,0,0,0,-1
-34088,Sezione 86,,2738,94,34087,0,0,2,0,0,1233526,0,0,0,-1
+34088,Sezione 86,,2738,94,34087,0,0,2,0,0,1261531,0,0,128,-1
 34089,Morium,,2738,81,34086,34090,34093,1,92689,0,0,0,0,0,-1
 34090,Sezione 90,,2738,82,34089,0,34091,2,0,0,1233778,0,0,0,-1
 34091,Sezione 93,,2738,83,34089,0,34092,2,0,0,1233787,0,0,1,-1
@@ -27279,7 +27305,7 @@ In modalità Eroica, il numero di note aumenta a ogni melodia.$]",2740,14,32197,
 35343,Sezione 22,,2740,30,35342,35344,0,2,0,0,1252974,0,0,0,-1
 35344,Sezione 23,,2740,31,35343,0,0,2,0,0,1251807,0,0,16,-1
 35353,Sezione 17,"|n
-By speaking with Lindormi near The Timeways portal or at the end of a Keystone Dungeon, characters with a tank specialization can enable |cFF2959D3|Hspell:1295986|h[Lindormi's Glow]|h|r when |cFF2959D3|Hspell:1278156|h[Lindormi's Guidance]|h|r is inactive.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
+Parlando con Lindormi vicino al portale dei Flussi Temporali o alla fine di una spedizione Mitica+, i personaggi che sono specializzati come difensori possono abilitare |cFF2959D3|Hspell:1295986|h[Bagliore di Lindormi]|h|r quando |cFF2959D3|Hspell:1278156|h[Guida di Lindormi]|h|r non è attiva.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
 35354,Assaltatori,"$[23$bullet;Gemellus mantiene uno scudo che assorbe danni finché il |cFF2959D3|Hspell:1253707|h[Collegamento Neurale]|h|r non viene spezzato.$]
 $bullet;|cFF2959D3|Hspell:1224299|h[Stretta Astrale]|h|r attira i personaggi verso il rispettivo Gemellus.
 $bullet;|cFF2959D3|Hspell:1283904|h[Puntura Cosmica]|h|r infligge ingenti danni e crea |cFF2959D3|Hspell:1224100|h[Secrezioni di Vuoto]|h|r.",2660,2,30540,0,35243,3,0,0,0,0,2,2,0
@@ -27378,5 +27404,5 @@ In modalità Eroica e superiore, Galvanizzazione scarica una Corrente Eccessiva.
 35526,Sezione 28,,2769,18,35035,0,0,2,0,0,1235814,0,1,16,-1
 35531,Sezione 16,,2682,16,0,0,0,2,0,0,1216945,0,1,0,-1
 35537,Sezione 157,,2740,127,34900,0,34901,2,0,0,1287702,0,2,16,0
-35809,Section 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
-35862,Section 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1
+35809,Sezione 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
+35862,Sezione 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1

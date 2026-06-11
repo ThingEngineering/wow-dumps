@@ -254,9 +254,9 @@ Corborus também sairá da terra violentamente e se enterrará novamente logo de
 
 No modo Heroico, a fissura entra em erupção após 3 segundos e a poça dura 30 segundos.$]",111,1,0,0,2402,2,0,0,0,135830,0,0,-1
 2402,Impacto de Areia,"O Couro-pétreo exala um jato de areia, causando $80807s1 de dano de Natureza a todos os inimigos em uma área cônica de $80807a1 metros de raio e 60 graus de amplitude em frente a ele.",111,2,0,0,2403,2,0,0,0,136018,0,0,-1
-2403,Estalactite,"Periodicamente durante o encontro, Couro-pétreo correrá para o centro da caverna e decolará. Enquanto plana sobre o chão, um grande número de estalactites cai do teto em locais aleatórios na caverna. Se um jogador estiver sob a estalactite quando ela cair, ele recebe $80647s2 de dano Físico e é repelido.
+2403,Estalactite,"Periodicamente durante o confronto, Couro-pétreo correrá para o centro da caverna e decolará. Enquanto plana sobre o chão, um grande número de estalactites cai do teto em locais aleatórios da caverna. Se um jogador estiver sob a estalactite quando ela cair, ele recebe $80647s2 de dano Físico e é repelido.
 
-A estalactite dura $80647d e bloqueia o movimenta e a linha de visão para o lançamento de feitiços.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
+A estalactite dura $80647d e bloqueia o movimento e o campo de visão para o lançamento de feitiços.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
 2404,Tempestade de Cristal,"Depois que Couro-pétreo decola e começa a criar estalactites, ele pousa. Antes das estalactites desaparecerem, ele começa a canalizar uma Tempestade de Cristal por $92265d. A cada $92301t1 s, Couro-pétreo causa $92300s1 de dano de Natureza a todos os inimigos.
 
 Couro-pétreo ter os inimigos no campo de visão para causar dano com a Tempestade de Cristal.",111,4,0,0,0,2,0,0,0,132774,2,40,14
@@ -5619,7 +5619,7 @@ Os jogadores podem destruir uma Prisão de Âmbar e interagir com seus aliados a
 8849,Perfurar Armadura,,967,17,0,0,9226,2,0,0,1253519,132354,0,1,-1
 8850,Clarão Solar,,967,11,0,33940,8851,2,0,0,1253510,574795,3,4096,0
 8851,Cálamos,,967,16,0,0,8849,2,0,0,159381,132927,0,32,-1
-8852,Jogar do Alto,,968,7,0,0,33950,2,0,0,153954,132146,1,34,-1
+8852,Largar do Alto,,968,7,0,0,33950,2,0,0,153954,132146,1,34,-1
 8853,Clarão da Lente,,968,9,0,33951,33949,2,0,0,154044,135783,2,4096,0
 8854,Estouro Solar,,968,12,0,0,0,2,0,0,154396,537026,0,64,-1
 8856,Mão Pesada,"Todos os ataques automáticos padrão do Açougueiro ativam um segundo ataque ao alvo mais próximo em um raio de 5 m. Se não houver alvo disponível, o alvo primário será atingido novamente.",971,5,0,0,8857,2,0,0,0,999951,0,1,-1
@@ -19924,11 +19924,11 @@ No modo Mítico, esta habilidade causa dano a todos os jogadores.$]",2500,8,0,25
 25327,Seção 13,,2473,14,25302,0,0,2,0,0,381770,0,0,64,-1
 25328,Seção 8,,2471,8,24732,0,25329,2,0,0,381419,0,0,17,-1
 25329,Seção 9,,2471,9,24732,0,25330,2,0,0,377827,0,0,0,-1
-25330,Seção 10,,2471,10,24732,0,0,2,0,0,377807,0,2,0,2
+25330,Seção 10,,2471,10,24732,0,0,2,0,0,377807,0,2,8,2
 25331,Seção 11,,2471,12,24733,0,29865,2,0,0,381379,0,2,160,2
 25332,Seção 12,,2471,14,24733,0,29866,2,0,0,378020,0,2,8196,2
 25333,Seção 13,,2471,16,24733,0,0,2,0,0,378229,0,2,4100,0
-25334,Seção 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,0,2
+25334,Seção 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,8,2
 25335,Seção 15,,2471,19,25334,0,0,2,0,0,381466,0,0,0,-1
 25336,Seção 16,,2471,20,24734,0,25337,2,0,0,377950,0,0,64,-1
 25337,Seção 17,,2471,21,24734,0,25338,2,0,0,377965,0,0,32,-1
@@ -25220,10 +25220,36 @@ $bullet;Adarus dá um |cFF2959D3|Hspell:1227355|h[Passo do Caos]|h|r para outros
 
 No modo Mítico, |cFF2959D3|Hspell:1221490|h[Chamuscado pela Vileza]|h|r também aumenta o dano recebido da |cFF2959D3|Hspell:1225127|h[Lâmina Vil]|h|r.$]",2688,24,31792,31794,33418,2,0,0,1218103,0,2,4097,0
 31794,Seção 9,,2688,25,31793,0,32361,2,0,0,1221490,0,2,4096,0
+31795,Visão Geral,"Necrocharco catalisa o crescimento de novos lacaios fúngicos com |cFF2959D3|Hspell:1221622|h[Despertar Fungos]|h|r. 
+
+Ao atingir 100 de energia, Necrocharco cria um |cFF2959D3|Hspell:1221637|h[Florescer Fúngico]|h|r que faz |cFF2959D3|Hspell:1221965|h[Cogumelos Estilhaçantes]|h|r brotarem dos cadáveres dos lacaios.",2711,1,0,31796,31838,3,0,0,0,0,0,0,-1
+31796,Tanques,"$bullet; Necrocharco causa dano pesado a seu alvo atual com |cFF2959D3|Hspell:1221781|h[Punho Pútrido]|h|r.
+$bullet; |cFF2959D3|Hspell:1221637|h[Florescer Fúngico]|h|r faz |cFF2959D3|Hspell:1221965|h[Cogumelos Estilhaçantes]|h|r letais brotarem dos cadáveres dos lacaios.",2711,2,31795,0,31797,3,0,0,0,0,0,1,-1
+31797,Causadores de Dano,"$bullet; |cFF2959D3|Hspell:1221622|h[Despertar Fungos]|h|r faz lacaios fúngicos brotarem da terra.
+$bullet; |cFF2959D3|Hspell:1221637|h[Florescer Fúngico]|h|r faz |cFF2959D3|Hspell:1221965|h[Cogumelos Estilhaçantes]|h|r letais brotarem dos cadáveres dos lacaios.",2711,3,31795,0,31798,3,0,0,0,0,0,2,-1
+31798,Curadores,"$bullet; Necrocharco causa dano imenso a todos os jogadores com |cFF2959D3|Hspell:1221637|h[Florescer Fúngico]|h|r.
+$bullet; |cFF2959D3|Hspell:1222088|h[Vinhas Purulentas]|h|r causam dano pesado a vários jogadores.
+$bullet; As |cFF2959D3|Hspell:1222176|h[Pústulas Putrefatas]|h|r que sobram das |cFF2959D3|Hspell:1221787|h[Pústulas Estilhaçantes]|h|r causam dano periódico que aumenta em ritmo constante.",2711,4,31795,0,0,3,0,0,0,0,0,4,-1
+31799,Seção 5,,2711,20,0,0,0,2,0,0,1221781,0,0,1,-1
+31812,Seção 5,,2711,6,31838,0,0,2,0,0,1222495,0,1,16,-1
+31814,Seção 5,,2711,19,31848,0,0,2,0,0,1222176,0,1,4,-1
 31822,Seção 27,,2640,14,31188,31823,0,2,0,0,1214039,0,2,0,0
 31823,Seção 22,,2640,15,31822,0,0,2,0,0,465446,0,2,0,0
+31838,Seção 5,,2711,5,0,31812,31913,2,0,0,1222684,0,2,4096,0
+31848,Seção 5,,2711,18,0,31814,31799,2,0,0,1221787,0,0,4,-1
+31913,Seção 5,,2711,7,0,31914,31923,2,0,0,1221622,0,1,32,-1
+31914,Cogumelinho,O fungoriano persegue o alvo de forma implacável.,2711,8,31913,0,31919,1,115227,0,0,0,0,0,-1
+31916,Capelospóreo,,2711,10,31913,31917,0,1,131466,0,0,0,3,8,0
+31917,Seção 9,,2711,11,31916,0,31918,2,0,0,1221714,0,0,64,-1
+31918,Seção 9,,2711,12,31916,0,0,2,0,0,1221717,0,0,0,-1
+31919,Funguinho,O fungoriano persegue o alvo de forma implacável.,2711,9,31913,0,31916,1,139448,0,0,0,2,4096,0
+31923,Seção 5,,2711,13,0,31924,31939,2,0,0,1221637,0,0,0,-1
+31924,Seção 5,,2711,14,31923,0,31925,2,0,0,1221965,0,0,2,-1
+31925,Seção 5,,2711,15,31923,0,0,2,0,0,1221644,0,0,16,-1
 31927,Seção 10,,2688,29,31791,32205,31928,2,0,0,1241833,0,0,33,-1
 31928,Seção 11,,2688,32,31791,33095,32959,2,0,0,1242259,0,0,0,-1
+31939,Seção 5,,2711,16,0,31940,31848,2,0,0,1222088,0,0,0,-1
+31940,Seção 5,,2711,17,31939,0,0,2,0,0,1222129,0,1,0,-1
 31955,Tanques,"$bullet;|cFF2959D3|Hspell:466190|h[Soco do Trovão]|h|r causa um dano imenso e repele o alvo.
 $bullet;|cFF2959D3|Hspell:465279|h[Água da Barragem]|h|r se eletrifica em contato com as habilidades de raios do Guizol.
 $bullet;|cFF2959D3|Hspell:468846|h[Centelhas Saltitantes]|h|r perseguem os jogadores e os atordoam ao contato.",2651,2,30480,0,31956,3,0,0,0,0,0,1,-1
@@ -26008,7 +26034,7 @@ $bullet; Manifestações Coalescidas assolam o raide com |cFF2959D3|Hspell:12509
 $bullet; Manifestações na Realidade vão em direção à divindade |cFF2959D3|Hspell:1252863|h[Insaciável]|h|r Quimerus.",2795,3,32994,0,32997,3,0,0,0,0,0,2,-1
 32997,Curadores,"$bullet; Manifestações Coalescidas assolam o raide com |cFF2959D3|Hspell:1250953|h[Enjoo da Fenda]|h|r.
 $bullet; |cFF2959D3|Hspell:1262305|h[Revolta de Pó-de-Aln]|h|r permite que os jogadores enxerguem o Aln e ataquem as Manifestações.
-$bullet; Jogadores na Fenda que são afetados por |cFF2959D3|Hspell:1245698|h[Visão-aln]|h|r não podem interagir com aliados.",2795,4,32994,0,0,3,0,0,0,0,0,4,-1
+$bullet; Jogadores na Fenda que são afetados por |cFF2959D3|Hspell:1245698|h[Visão do Aln]|h|r não podem interagir com aliados.",2795,4,32994,0,0,3,0,0,0,0,0,4,-1
 32998,Estágio Um: Fome Insaciável,,2795,6,0,35071,33000,2,0,0,0,0,1,0,-1
 32999,Seção 7,,2795,9,32998,33297,34066,2,0,0,1262289,0,3,32,0
 33000,Estágio Dois: Para os Céus,,2795,33,0,34516,0,0,0,0,0,0,0,0,-1
@@ -26684,7 +26710,7 @@ Nos modos Heroico e Mítico, Expulsão do Caos também alveja jogadores adiciona
 34085,Seção 83,,2738,79,34077,0,34086,2,0,0,1233865,0,0,132,-1
 34086,Sentinelas Imorredouras,As Sentinelas Imorredouras estão inexoravelmente ligadas a seus portais do Caos e se teletransportam de volta se estiverem a mais de $1243863s1 m deles.,2738,80,34077,34089,34087,0,0,0,0,0,0,0,-1
 34087,Gotícula de Caos,,2738,93,34077,34088,0,1,94300,0,0,0,0,0,-1
-34088,Seção 86,,2738,94,34087,0,0,2,0,0,1233526,0,0,0,-1
+34088,Seção 86,,2738,94,34087,0,0,2,0,0,1261531,0,0,128,-1
 34089,Morium,,2738,81,34086,34090,34093,1,92689,0,0,0,0,0,-1
 34090,Seção 90,,2738,82,34089,0,34091,2,0,0,1233778,0,0,0,-1
 34091,Seção 93,,2738,83,34089,0,34092,2,0,0,1233787,0,0,1,-1
@@ -27296,7 +27322,7 @@ No modo Heroico, o número de notas aumenta com cada melodia.$]",2740,14,32197,3
 35343,Seção 22,,2740,30,35342,35344,0,2,0,0,1252974,0,0,0,-1
 35344,Seção 23,,2740,31,35343,0,0,2,0,0,1251807,0,0,16,-1
 35353,Seção 17,"|n
-By speaking with Lindormi near The Timeways portal or at the end of a Keystone Dungeon, characters with a tank specialization can enable |cFF2959D3|Hspell:1295986|h[Lindormi's Glow]|h|r when |cFF2959D3|Hspell:1278156|h[Lindormi's Guidance]|h|r is inactive.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
+Ao falar com Lindormi perto do portal dos Percursos Temporais ou ao fim de uma Masmorra de Pedra-chave, personagens com especialização de Tanque podem habilitar o |cFF2959D3|Hspell:1295986|h[Brilho de Lindormi]|h|r quando |cFF2959D3|Hspell:1278156|h[Orientação de Lindormi]|h|r está inativa.",2870,8,0,35862,34729,2,0,0,1284818,0,1,0,-1
 35354,Causadores de Dano,"$[23$bullet; Gemellus mantém um escudo de absorção de dano até seu |cFF2959D3|Hspell:1253707|h[Elo Neural]|h|r ser partido.$]
 $bullet;|cFF2959D3|Hspell:1224299|h[Aperto Astral]|h|r puxa os jogadores em direção aos respectivos Gemellus.
 $bullet;|cFF2959D3|Hspell:1283904|h[Ferroada Cósmica]|h|r causa dano pesado e cria |cFF2959D3|Hspell:1224100|h[Secreções do Caos]|h|r.",2660,2,30540,0,35243,3,0,0,0,0,2,2,0
@@ -27395,5 +27421,5 @@ No modo Heroico ou acima, Galvanizar libera uma Corrente do Morticínio.$]",2740
 35526,Seção 28,,2769,18,35035,0,0,2,0,0,1235814,0,1,16,-1
 35531,Seção 16,,2682,16,0,0,0,2,0,0,1216945,0,1,0,-1
 35537,Seção 157,,2740,127,34900,0,34901,2,0,0,1287702,0,2,16,0
-35809,Section 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
-35862,Section 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1
+35809,Seção 158,,2740,13,35322,0,0,2,0,0,1295191,0,2,0,0
+35862,Seção 18,,2870,9,35353,0,0,2,0,0,1295986,0,1,0,-1
