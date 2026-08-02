@@ -138,7 +138,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 576,Rifugio dei Mordilegno,"I Mordilegno, l'ultima tribù di Mezzorsi non corrotta, sta cercando di preservare le sue tradizioni spirituali e di porre fine alla sofferenza della loro stirpe.",35,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,5,5,-1,-1,0,0,0,0,0,0
 577,Lungavista,Questo insediamento commerciale è gestito dai Goblin del Cartello degli Spargifumo e si trova sul crocevia tra le principali vie commerciali di Fontefredda.,28,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5,-1,-1,0,0,0,0,0,0
 589,Addestratori delle Fiere Glaciali,Questo piccolo gruppo solitario di Elfi della Notte alleva e addestra le Fiere Glaciali nell'area di Fontefredda.,27,1118,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,5,5,1309324210,-1440044374,-1321907123,1427461461,0,0,0,0
-609,Circolo Cenariano,I Druidi del Circolo Cenariano sono i guardiani della natura e dominano le tranquille terre di Radaluna.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-878706520,0,0,0,0,0
+609,Circolo Cenariano,I Druidi del Circolo Cenariano sono i guardiani della natura e dominano le tranquille terre di Radaluna.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-877133656,0,0,0,0,0
 629,Troll Lanciarotta,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 630,Istruttori di Devasauri,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 649,Maggiordomo Executus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
@@ -568,7 +568,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 1914,Avvizziti,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1919,Sete Arcana (Valtrois),Arcanista Valtrois,178,1859,0,185,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 1920,Guardie della Luna,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-1947,Illidari,"Elfi che hanno promesso di combattere contro la Legione Infuocata, non importa a quale costo.",195,1834,0,0,0,0,0,0,2048,2047,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+1947,Illidari,"Elfi che hanno promesso di combattere contro la Legione Infuocata, non importa a quale costo.",195,1834,0,0,0,0,0,0,2048,6143,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 1948,Valarjar,"Guerrieri scelti di Odyn, hanno giurato di servirlo nella vita e nella morte.",196,1834,0,0,0,2086,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5,-1321907123,1427461461,1309324210,-1440044374,0,0,0,0
 1953,Incubo,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1962,Civile Nobile Oscuro,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -848,14 +848,22 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 2729,"PERSONAGGIO, Haranir Alleanza",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 2736,Vandali della Manaforgia,"Mentre il Concordato di K'aresh lavora per unire i popoli della loro stella morente, alcuni membri preferiscono un approccio più diretto. Usando metodi segreti e talvolta scorretti, i Vandali della Manaforgia vogliono distruggere le forze di Salhadaar con ogni mezzo necessario.",530,2569,10,0,6,0,0,3305,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7,-1,-1,0,0,0,0,0,0
 2739,Scorribande: Conversione Schegge di Chiave dello Scrigno,,531,2569,0,0,234,0,0,3028,-1,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2742,Scorribande: Stagione 1,,532,2698,11,0,70,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2742,Scorribande: Stagione 1,,532,2698,11,0,102,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2744,Valeera Sanguinar,Compagno Fidato delle Scorribande,533,2698,0,501,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,8989497,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2764,Preda: Stagione 1,"Astalor Giurasangue ha creato una soluzione unica per la difesa di Lunargenta, anche se Azeroth è afflitta da ogni genere di minaccia.",536,2698,11,0,70,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2764,Preda: Stagione 1,"Astalor Giurasangue ha creato una soluzione unica per la difesa di Lunargenta, anche se Azeroth è afflitta da ogni genere di minaccia.",536,2698,11,0,102,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2766,Arena dei Combattenti,Creature di ogni dove sono state radunate per combattere in scontri all'ultimo sangue contro gli eroi dell'Orda.,537,892,0,28,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,1309324210,-1440044374,0,0,0,0,0,0
 2767,Club dei Combattenti di Bizmo,Un gruppo di combattenti assetati di sangue ha radunato creature da ogni dove per farle combattere in scontri all'ultimo sangue contro gli eroi dell'Alleanza.,538,891,0,43,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,-1321907123,1427461461,0,0,0,0,0,0
 2770,Duello del Carnefice,"Nelle profondità della Tempesta del Vuoto, la guerra tra Vidious e Ziadan infuria senza tregua.",539,2698,0,0,4,2774,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2771,Forze di Zul'jarra (Eccellenza),"I soldati Pinombroso, Scorzasecca, Zannatorta e Amani fanno fronte comune sotto la guida di Zul'jarra. L'esercito combatte contro Malacrass e Ula'tek sull'Isola Serpeggiante ad Atal'utek.",540,2698,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2772,Forze di Zul'jarra,"I soldati Pinombroso, Scorzasecca, Zannatorta e Amani fanno fronte comune sotto la guida di Zul'jarra. L'esercito combatte contro Malacrass e Ula'tek sull'Isola Serpeggiante ad Atal'utek.",541,2698,11,0,6,2771,0,3471,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2773,Capitano Tokka,"La nave del Capitano Tokka è stata divorata dal Grande Serpente Bianco e la sua ciurma è stata corrotta dalla Maledizione di Ula'tek. Ti svelerà i segreti dei pesci maledetti dal veleno, a patto che tu lo aiuti a vendicarsi.",542,2698,9,502,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2774,Duello del Carnefice (Eccellenza),"Nelle profondità della Tempesta del Vuoto, la guerra tra Vidious e Ziadan infuria senza tregua.",543,2698,0,0,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2775,[DEPRECATED] Ofi the Sly,DEPRECATED,544,2698,9,503,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2776,[DEPRECATED] Untrustworthy Ghost,DEPRECATED,545,2698,9,504,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2780,Tribù Pinombroso,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2781,Tribù Zannatorta,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2792,Siti Rituali,Il caos all'indomani degli attacchi del Vuoto ha convinto i nemici a cercare ulteriore potere nei rituali oscuri. Bisogna occuparsi di questi siti dall'intensa magia.,514,2698,11,0,6,2793,0,3428,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
 2793,Sito Rituale (Eccellenza),"12.0.5 Ritual Sites - Feature, Paragon",546,2698,0,0,6,0,0,0,-1,0,0,0,144,0,0,0,0,0,0,0,42000,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
+2796,Scorribande: Stagione 2,,547,2698,11,0,70,0,0,3464,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2808,Viaggio del Cacciatore di Prede,"Astalor Giurasangue ha creato una soluzione unica per la difesa di Lunargenta, anche se Azeroth è afflitta da ogni genere di minaccia.",548,2698,11,0,70,0,0,3514,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2839,Scorribande: Stagione 3,,572,2698,11,0,70,0,0,3545,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0

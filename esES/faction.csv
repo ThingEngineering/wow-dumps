@@ -138,7 +138,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 576,Bastión Fauces de Madera,"Como la última tribu fúrbolg sin corromper, los Fauces de Madera persiguen preservar sus tradiciones espirituales y acabar con el sufrimiento de sus congéneres.",35,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,5,5,-1,-1,0,0,0,0,0,0
 577,Vista Eterna,"Este enclave comercial, regentado por los goblins del Cártel Bonvapor, se sitúa en el cruce de las principales rutas comerciales de Cuna del Invierno.",28,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5,-1,-1,0,0,0,0,0,0
 589,Instructores de sableinvernales,Este pequeño grupo de recluidos elfos de la noche cría y amaestra sableinvernales en el área de Cuna del invierno.,27,1118,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,5,5,1309324210,-1440044374,-1321907123,1427461461,0,0,0,0
-609,Círculo Cenarion,Los druidas del Círculo Cenarion son guardianes de la Naturaleza y conviven en el calmo Claro de la Luna.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-878706520,0,0,0,0,0
+609,Círculo Cenarion,Los druidas del Círculo Cenarion son guardianes de la Naturaleza y conviven en el calmo Claro de la Luna.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-877133656,0,0,0,0,0
 629,Trols Rompelanzas,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 630,Instructores de Ravasaurios,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 649,Mayordomo Executus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
@@ -568,7 +568,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 1914,Marchitos,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1919,Ansia Arcana (Valtrois),Arcanista Valtrois,178,1859,0,185,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 1920,Guardia Lunar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-1947,Illidari,"Elfos que han se jurado a sí mismos luchar contra la Legión Ardiente, cueste lo que cueste.",195,1834,0,0,0,0,0,0,2048,2047,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+1947,Illidari,"Elfos que han se jurado a sí mismos luchar contra la Legión Ardiente, cueste lo que cueste.",195,1834,0,0,0,0,0,0,2048,6143,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 1948,Valarjar,"Los guerreros elegidos de Odyn, que han jurado servirle en la vida y la muerte.",196,1834,0,0,0,2086,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5,-1321907123,1427461461,1309324210,-1440044374,0,0,0,0
 1953,Pesadilla,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1962,Civil Nocheterna,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -848,14 +848,22 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 2729,"JUGADOR, haranir Alianza",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 2736,Vándalos de la Forja de Maná,"Mientras el Fideicomiso de K'aresh trabaja para unir al pueblo de su moribunda estrella, algunos miembros prefieren un enfoque más directo. Utilizando todo tipo de tácticas encubiertas, los Vándalos de la Forja de Maná intentan acabar con las fuerzas de Salhadaar por todos los medios.",530,2569,10,0,6,0,0,3305,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7,-1,-1,0,0,0,0,0,0
 2739,Profundidades: conversión de fragmentos de llave de arca,,531,2569,0,0,234,0,0,3028,-1,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2742,Profundidades: temporada 1,,532,2698,11,0,70,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2742,Profundidades: temporada 1,,532,2698,11,0,102,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2744,Valeera Sanguinar,Compañero de las profundidades fiable,533,2698,0,501,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,8989497,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2764,Presa: temporada 1,"Astalor Jurasangre ha encontrado una particular solución para la defensa de Lunargenta, aun cuando todo tipo de amenazas acosan Azeroth.",536,2698,11,0,70,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2764,Presa: temporada 1,"Astalor Jurasangre ha encontrado una particular solución para la defensa de Lunargenta, aun cuando todo tipo de amenazas acosan Azeroth.",536,2698,11,0,102,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2766,Arena Liza'gar,Se ha reunido a criaturas de todas partes para que participen en sangrientos combates a muerte en la arena contra héroes de la Horda.,537,892,0,28,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,1309324210,-1440044374,0,0,0,0,0,0
 2767,Club de Lucha de Bizmo,Un grupo de luchadores ávidos de peleas ha reunido criaturas de todas partes para que participen en sangrientos combates a muerte en la arena contra héroes de la Alianza.,538,891,0,43,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,-1321907123,1427461461,0,0,0,0,0,0
 2770,Duellum del Asesino,"En las profundidades de la Tormenta del Vacío, la guerra entre Vidious y Ziadan continúa.",539,2698,0,0,4,2774,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2771,Fuerzas de Zul'jarra (dechado),"Los soldados Sombrapino, Secacorteza, Sañadiente y Amani actúan como un frente unido bajo el liderazgo de Zul'jarra. El ejército lucha contra Malacrass y Ula'tek en la Isla Serpenteante, Atal'Utek.",540,2698,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2772,Fuerzas de Zul'jarra,"Los soldados Sombrapino, Secacorteza, Sañadiente y Amani actúan como un frente unido bajo el liderazgo de Zul'jarra. El ejército lucha contra Malacrass y Ula'tek en la Isla Serpenteante, Atal'Utek.",541,2698,11,0,6,2771,0,3471,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2773,Capitán Tokka,El barco del capitán Tokka fue devorado por la Gran Serpiente Blanca y su tripulación fue corrompida por la maldición de Ula'tek. Compartirá contigo los secretos de la pesca en aguas venenosas si le ayudas a vengarse.,542,2698,9,502,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2774,Duellum del Asesino (dechado),"En las profundidades de la Tormenta del Vacío, la guerra entre Vidious y Ziadan continúa.",543,2698,0,0,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2775,[DEPRECATED] Ofi the Sly,DEPRECATED,544,2698,9,503,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2776,[DEPRECATED] Untrustworthy Ghost,DEPRECATED,545,2698,9,504,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2780,Tribu Sombrapino,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2781,Tribu Sañadiente,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2792,Lugares de ritual,El caos que acompaña los ataques del Vacío ha empujado a los enemigos a recurrir a rituales oscuros para amasar poder. Alguien debe encargarse de estos lugares en los que la magia se concentra.,514,2698,11,0,6,2793,0,3428,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
 2793,Lugares de ritual (dechado),"12.0.5 Ritual Sites - Feature, Paragon",546,2698,0,0,6,0,0,0,-1,0,0,0,144,0,0,0,0,0,0,0,42000,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
+2796,Profundidades: temporada 2,,547,2698,11,0,70,0,0,3464,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2808,Aventura de Cazapresas,"Astalor Jurasangre ha encontrado una particular solución para la defensa de Lunargenta, aun cuando todo tipo de amenazas acosan Azeroth.",548,2698,11,0,70,0,0,3514,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2839,Profundidades: temporada 3,,572,2698,11,0,70,0,0,3545,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0

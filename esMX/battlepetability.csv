@@ -1726,7 +1726,7 @@ Inatacable.",133151,-1,0,461,0
 835,Ponche de huevo,Elimina todos los beneficios y perjuicios al usuario.,132803,0,2,0,18
 836,Explosión de pesteling,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe|r
 
-Mata al taumaturgo al instante e inflige daño igual a un [FormatDamage(points(1,1))]% de la salud total del usuario al enemigo actual. Este daño no puede ser esquivado, bloqueado o evitado.",656595,5,0,0,0
+Mata al taumaturgo al instante e inflige daño igual a un [FormatDamage(points(1,1))]% de la salud total del usuario al enemigo actual. Este daño no puede ser esquivado, bloqueado o evitado.",656595,5,0,0,2
 837,Ganchos centrífugos,"Velocidad aumentada un [abs(abilityStateMod( 25, 837 ))]%.",648208,-1,0,26,2
 838,Ganchos centrífugos,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,1)]
 
@@ -3840,3 +3840,20 @@ Durante la recarga, no puedes realizar ninguna otra acción.",6238556,5,0,0,0
 2539,Nova vil,"[StandardAccuracy(1,1)] |cffffffffProbabilidad de golpe|r
 
 Invoca una oleada de poder vil que inflige [StandardDamage(1,1)] p. de daño de [School()] a todas las mascotas enemigas.",135795,6,3,0,0
+2541,¡Demasiado grande!,"Al cabo de varias rondas, tus mascotas corren el riesgo de sufrir lesiones graves, así que debes retirarlas.",133036,3,0,240,3
+2542,¡Demasiado grande!,"Al cabo de varias rondas, tus mascotas corren el riesgo de sufrir lesiones graves, así que debes retirarlas.",535592,4,20,0,2
+2543,¡Demasiado grande!,"Al cabo de varias rondas, tus mascotas corren el riesgo de sufrir lesiones graves, así que debes retirarlas.",133036,3,0,0,10
+2544,Controlador de fase,"Controlador de fase para la batalla contra el jefe. Se establece como INIT: Aura de equipo aliado sobre el jefe.
+
+Cada fase requiere su propia aura de controlador que cancela las auras de controladores de fases anteriores. Esto es para evitar condiciones de carrera en las que se aplica el aura de la fase equivocada. Si se intenta hacerlo todo con una sola aura, se producen dichas condiciones de carrera.",535592,4,0,0,10
+2545,Fase 1,"Fase 1, la habilidad cambia.",535592,4,0,0,10
+2546,Fase 2,Fase 2,535592,4,0,0,10
+2547,Garras trituradoras,"|cffffffffProbabilidad de golpe:|r [StandardAccuracy(1,2)]
+
+Inflige [StandardDamage(1,2)*4] p. de daño [School()] a la mascota enemiga.
+
+Garras trituradoras destruye todos los efectos de reducción de daño fijo del objetivo enemigo.",1278390,9,0,0,0
+2548,Fase 3,Fase 3,535592,4,0,0,10
+2549,Controlador de fase 1,Controla el cambio de habilidad de la fase 1,535592,4,0,0,10
+2550,Controlador de fase 2,Controla el cambio de habilidad de la fase 2,535592,4,0,0,10
+2551,Controlador de fase 3,Controla el cambio de habilidad de la fase 3,535592,4,0,0,10

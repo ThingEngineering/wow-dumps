@@ -138,7 +138,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 576,Holzschlundfeste,Als der letzte unverderbte Stamm der Furbolgs wollen die Furbolgs der Holzschlundfeste ihren spirituellen Lebensweg bewahren und das Leiden ihrer Artgenossen beenden.,35,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,5,5,-1,-1,0,0,0,0,0,0
 577,Ewige Warte,"Dies ist ein von den Goblins des Dampfdruckkartells geführter Handelsposten, der sich im Zentrum der Haupthandelswege von Winterquell befindet.",28,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5,-1,-1,0,0,0,0,0,0
 589,Wintersäblerausbilder,Eine kleine Gruppe zurückgezogener Nachtelfen zieht in der Gegend von Winterquell Wintersäbler auf und bildet sie aus.,27,1118,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,5,5,1309324210,-1440044374,-1321907123,1427461461,0,0,0,0
-609,Zirkel des Cenarius,Die Druiden des Zirkels des Cenarius sind Beschützer der Natur und leben auf der friedlichen Mondlichtung.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-878706520,0,0,0,0,0
+609,Zirkel des Cenarius,Die Druiden des Zirkels des Cenarius sind Beschützer der Natur und leben auf der friedlichen Mondlichtung.,36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-877133656,0,0,0,0,0
 629,Splitterspeertrolle,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 630,Ravasaurusausbilder,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 649,Majordomus Exekutus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
@@ -568,7 +568,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 1914,Die Verdorrten,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1919,Arkaner Durst (Valtrois),Arkanistin Valtrois,178,1859,0,185,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 1920,Mondwache,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-1947,Illidari,"Elfen, die sich dem Kampf gegen die Brennende Legion verschrieben haben – koste es, was es wolle.",195,1834,0,0,0,0,0,0,2048,2047,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+1947,Illidari,"Elfen, die sich dem Kampf gegen die Brennende Legion verschrieben haben – koste es, was es wolle.",195,1834,0,0,0,0,0,0,2048,6143,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 1948,Valarjar,"Auserwählte Krieger Odyns, die geschworen haben, ihrem Herrn im Leben wie im Tode zu dienen.",196,1834,0,0,0,2086,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5,-1321907123,1427461461,1309324210,-1440044374,0,0,0,0
 1953,Alptraum,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1962,Zivilist der Nachtgeborenen,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -848,14 +848,22 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 2729,"SPIELERCHARAKTER, Haranir Allianz",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 2736,Vandalen der Manaschmiede,"Während der Bund von K'aresh daran arbeitet, die Bewohner ihres sterbenden Sterns zu vereinen, bevorzugen einige der Mitglieder einen direkteren Ansatz. Mit allerlei verdeckten und hinterhältigen Taktiken versuchen die Vandalen der Manaschmiede, Salhadaars Streitkräfte mit allen nötigen Mitteln zu zerschlagen.",530,2569,10,0,6,0,0,3305,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7,-1,-1,0,0,0,0,0,0
 2739,Tiefen: Umwandlung von Kastenschlüsselsplittern,,531,2569,0,0,234,0,0,3028,-1,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2742,Tiefen: Saison 1,,532,2698,11,0,70,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2742,Tiefen: Saison 1,,532,2698,11,0,102,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2744,Valeera Sanguinar,Treue Tiefengefährtin,533,2698,0,501,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,8989497,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2764,Beutejagd: Saison 1,"Während Azeroth allen möglichen Bedrohungen ausgesetzt ist, hat Astalor Blutschwur eine einzigartige Lösung für die Verteidigung von Silbermond gefunden.",536,2698,11,0,70,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2764,Beutejagd: Saison 1,"Während Azeroth allen möglichen Bedrohungen ausgesetzt ist, hat Astalor Blutschwur eine einzigartige Lösung für die Verteidigung von Silbermond gefunden.",536,2698,11,0,102,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2766,Shlae'gararena,"Kreaturen von weit und breit wurden eingefangen, um sie in blutigen Arenakämpfen gegen die Helden der Horde antreten zu lassen.",537,892,0,28,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,1309324210,-1440044374,0,0,0,0,0,0
 2767,Bizmos Boxbar,"Eine Gruppe kampfeshungriger Draufgänger hat Kreaturen von weit und breit eingefangen, um sie in blutigen Arenakämpfen gegen die Helden der Allianz antreten zu lassen.",538,891,0,43,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,-1321907123,1427461461,0,0,0,0,0,0
 2770,Schlächterduellum,Tief im Leerensturm wütet der Krieg zwischen Vidious und Ziadan weiter.,539,2698,0,0,4,2774,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2771,Zul'jarras Streitkräfte (huldigend),"Waldschattentrolle, Bleichborken, Bruchhauer und Amanisoldaten bilden unter Zul'jarras Führung eine vereinte Front. Die Armee bringt den Kampf zu Malacrass und Ula'tek auf der Gewundenen Insel, Atal'Utek.",540,2698,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2772,Zul'jarras Streitkräfte,"Waldschattentrolle, Bleichborken, Bruchhauer und Amanisoldaten bilden unter Zul'jarras Führung eine vereinte Front. Die Armee bringt den Kampf zu Malacrass und Ula'tek auf der Gewundenen Insel, Atal'Utek.",541,2698,11,0,6,2771,0,3471,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2773,Käpt'n Tokka,"Käpt'n Tokkas Schiff wurde von der großen weißen Schlange verschlungen und seine Mannschaft von Ula'tek Fluch ergriffen. Er teilt die Geheimnisse des Giftfischens mit Euch, wenn Ihr ihm helft, Rache zu üben.",542,2698,9,502,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2774,Schlächterduellum (huldigend),Tief im Leerensturm wütet der Krieg zwischen Vidious und Ziadan weiter.,543,2698,0,0,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2775,[DEPRECATED] Ofi the Sly,DEPRECATED,544,2698,9,503,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2776,[DEPRECATED] Untrustworthy Ghost,DEPRECATED,545,2698,9,504,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2780,Stamm der Waldschattentrolle,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2781,Stamm der Bruchhauer,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2792,Ritualstätten,"Im Chaos, das auf die Angriffe der Leere folgte, suchten viele Gegner Macht in dunklen Ritualen. Jemand muss sich um diese Stätten intensiver Magie kümmern.",514,2698,11,0,6,2793,0,3428,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
 2793,Ritualstätten (huldigend),"12.0.5 Ritual Sites - Feature, Paragon",546,2698,0,0,6,0,0,0,-1,0,0,0,144,0,0,0,0,0,0,0,42000,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
+2796,Tiefen: Saison 2,,547,2698,11,0,70,0,0,3464,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2808,Reise des Beutejägers,"Während Azeroth allen möglichen Bedrohungen ausgesetzt ist, hat Astalor Blutschwur eine einzigartige Lösung für die Verteidigung von Silbermond gefunden.",548,2698,11,0,70,0,0,3514,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2839,Tiefen: Saison 3,,572,2698,11,0,70,0,0,3545,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0

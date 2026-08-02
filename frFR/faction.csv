@@ -138,7 +138,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 576,Grumegueules,Les Grumegueules sont la dernière tribu furbolg à échapper à la corruption. Ils cherchent à préserver leur spiritualité et à mettre un terme aux souffrances de leur peuple.,35,1118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-2900,0,0,0,42000,0,0,0,0,0,5,5,-1,-1,0,0,0,0,0,0
 577,Long-Guet,"Administré par les Gobelins du cartel Gentepression, ce comptoir se trouve au croisement des routes commerciales du Berceau-de-l’Hiver.",28,169,0,0,0,0,0,0,0,0,0,0,64,0,0,0,500,0,0,0,42000,0,0,0,1,0.5,7,5,-1,-1,0,0,0,0,0,0
 589,Éleveurs de sabres-d'hiver,Ce petit groupe d’Elfes de la nuit vit en reclus. Ses membres élèvent et dressent des sabres-d’hiver au Berceau-de-l’Hiver.,27,1118,0,0,0,0,0,0,0,0,0,0,6,0,0,0,-42000,0,0,0,-42000,42000,0,0,0,0,5,5,1309324210,-1440044374,-1321907123,1427461461,0,0,0,0
-609,Cercle cénarien,"Gardiens de la nature, les druides du Cercle cénarien ont établi leur demeure dans la paisible vallée de Reflet-de-Lune.",36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-878706520,0,0,0,0,0
+609,Cercle cénarien,"Gardiens de la nature, les druides du Cercle cénarien ont établi leur demeure dans la paisible vallée de Reflet-de-Lune.",36,1118,0,0,0,0,0,0,7167,1024,0,0,16,16,0,0,0,2000,0,0,42000,42000,0,0,0,0,5,5,-1,-1,-877133656,0,0,0,0,0
 629,Trolls Briselance,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 630,Éleveurs de ravasaures,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 649,Chambellan Executus,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
@@ -568,7 +568,7 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 1914,Flétri,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1919,Soif des Arcanes (Valtrois),Arcaniste Valtrois,178,1859,0,185,0,0,0,0,0,0,0,0,20,0,0,0,1,0,0,0,200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 1920,Garde de la Lune,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-1947,Illidari,"Quel que soit le prix à payer, ces Elfes se sont juré de combattre la Légion ardente.",195,1834,0,0,0,0,0,0,2048,2047,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+1947,Illidari,"Quel que soit le prix à payer, ces Elfes se sont juré de combattre la Légion ardente.",195,1834,0,0,0,0,0,0,2048,6143,0,0,20,20,0,0,3000,0,0,0,42000,42000,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 1948,Valarjar,"Ces guerriers sont les élus d’Odyn, qu’ils ont juré de servir dans la vie comme dans la mort.",196,1834,0,0,0,2086,0,0,0,0,0,0,16,16,0,0,0,0,0,0,42000,42000,0,0,0,0,5,5,-1321907123,1427461461,1309324210,-1440044374,0,0,0,0
 1953,Cauchemar,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1962,Civil sacrenuit,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -848,14 +848,22 @@ ID,Name_lang,Description_lang,ReputationIndex,ParentFactionID,Expansion,Friendsh
 2729,"PERSONNAGE-JOUEUR, Haranir de l’Alliance",,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,5,5,0,0,0,0,0,0,0,0
 2736,Vandales de la manaforge,"L’Entente de K’aresh travaille à unir les peuples de son étoile mourante, mais d’autres préfèrent une approche plus directe. Faisant usage de tous les types de subterfuge et de tromperie à leur disposition, les Vandales de la manaforge cherchent à démanteler les forces de Salhadaar, coûte que coûte.",530,2569,10,0,6,0,0,3305,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,7,7,-1,-1,0,0,0,0,0,0
 2739,Gouffres : conversion de fragments de clé de coffre,,531,2569,0,0,234,0,0,3028,-1,0,0,0,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2742,Gouffres saison 1,,532,2698,11,0,70,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2742,Gouffres saison 1,,532,2698,11,0,102,0,0,3317,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2744,Valeera Sanguinar,Compagnie de Gouffre digne de confiance,533,2698,0,501,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,8989497,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
-2764,Traque saison 1,"Alors que d’innombrables dangers pèsent sur Azeroth, Astalor Ligessang a découvert une solution unique pour protéger Lune-d’Argent.",536,2698,11,0,70,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2764,Traque saison 1,"Alors que d’innombrables dangers pèsent sur Azeroth, Astalor Ligessang a découvert une solution unique pour protéger Lune-d’Argent.",536,2698,11,0,102,0,0,3386,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2766,Arène de Castagn’ar,Des créatures sont venues de partout pour participer à des combats à mort dans une arène sanglante avec des héros et héroïnes de la Horde.,537,892,0,28,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,1309324210,-1440044374,0,0,0,0,0,0
 2767,Bar-Tabasse de Bizmo,Un groupe de combat en mal de bataille a rassemblé des créatures venues de partout pour participer à des combats à mort dans une arène sanglante avec des héros et héroïnes de l’Alliance.,538,891,0,43,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,7000,0,0,0,1,1,0,0,-1321907123,1427461461,0,0,0,0,0,0
 2770,Duellum meurtrier,"Au cœur de la tempête du Vide, la guerre entre Vidious et Ziadan fait rage.",539,2698,0,0,4,2774,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2771,Forces de Zul’jarra (parangon),"Les troupes ombrepins, fanécorces, vengebroches et amani ont uni leurs forces pour faire front sous le commandement de Zul’jarra. L’armée affronte Malacrass et Ula’tek sur l’île Annelée, Atal’Utek.",540,2698,0,0,6,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2772,Forces de Zul’jarra,"Les troupes ombrepins, fanécorces, vengebroches et amani ont uni leurs forces pour faire front sous le commandement de Zul’jarra. L’armée affronte Malacrass et Ula’tek sur l’île Annelée, Atal’Utek.",541,2698,11,0,6,2771,0,3471,-1,0,0,0,16,0,0,0,0,0,0,0,2500,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2773,Capitaine Tokka,Le navire du capitaine Tokka a été englouti par le grand serpent blanc et son équipage a succombé à la malédiction d’Ula’tek. Il vous confiera les secrets de la pêche venimeuse si vous l’aidez à assouvir sa vengeance.,542,2698,9,502,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2774,Duellum meurtrier (parangon),"Au cœur de la tempête du Vide, la guerre entre Vidious et Ziadan fait rage.",543,2698,0,0,4,0,0,0,-1,0,0,0,16,0,0,0,0,0,0,0,42000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2775,[DEPRECATED] Ofi the Sly,DEPRECATED,544,2698,9,503,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2776,[DEPRECATED] Untrustworthy Ghost,DEPRECATED,545,2698,9,504,100,0,0,0,-1,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
 2780,Tribu ombrepin,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2781,Tribu vengebroche,12.0 Z2 Zul'Aman - Amani Sub Faction,-1,2696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,4,4,0,0,0,0,0,0,0,0
 2792,Sites rituels,"Le chaos qui a suivi les attaques du Vide a enhardi les adversaires, qui se tournent désormais vers de sombres rituels pour gagner en puissance. Nous devons nous occuper de ces sites de magie intense.",514,2698,11,0,6,2793,0,3428,-1,0,0,0,4248,0,0,0,0,0,0,0,2500,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
 2793,Sites rituels (parangon),"12.0.5 Ritual Sites - Feature, Paragon",546,2698,0,0,6,0,0,0,-1,0,0,0,144,0,0,0,0,0,0,0,42000,0,0,0,0,0,4,4,-1,-1,0,0,0,0,0,0
+2796,Gouffres saison 2,,547,2698,11,0,70,0,0,3464,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2808,Périple de traque-proie,"Alors que d’innombrables dangers pèsent sur Azeroth, Astalor Ligessang a découvert une solution unique pour protéger Lune-d’Argent.",548,2698,11,0,70,0,0,3514,-1,0,0,0,16,0,0,0,0,0,0,0,4000,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+2839,Gouffres saison 3,,572,2698,11,0,70,0,0,3545,-1,0,0,0,0,0,0,0,0,0,0,0,4200,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0

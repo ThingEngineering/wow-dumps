@@ -1726,7 +1726,7 @@ Ne peut pas être attaqué.",133151,-1,0,461,0
 835,Lait de poule,Annule tous les affaiblissements et améliorations du lanceur.,132803,0,2,0,18
 836,Explosion du chancre,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)] 
 
-Tue instantanément le lanceur et inflige à l’adversaire des dégâts d’un montant égal à [FormatDamage(points(1,1))]% des points de vie maximum du lanceur. Ces dégâts ne peuvent être ni esquivés, ni bloqués, ni évités.",656595,5,0,0,0
+Tue instantanément le lanceur et inflige à l’adversaire des dégâts d’un montant égal à [FormatDamage(points(1,1))]% des points de vie maximum du lanceur. Ces dégâts ne peuvent être ni esquivés, ni bloqués, ni évités.",656595,5,0,0,2
 837,Crochets centrifuges,"Vitesse augmentée de [abs(abilityStateMod( 25, 837 ))]%.",648208,-1,0,26,2
 838,Crochets centrifuges,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)] 
 
@@ -3844,3 +3844,20 @@ Pendant qu’on recharge, on ne peut effectuer aucune autre action.",6238556,5,0
 2539,Gangrenova,"|cffffffffChances de toucher :|r [StandardAccuracy(1,1)]
 
 Invoque une vague d’énergie gangrenée qui inflige [StandardDamage(1,1)] $lpoint:points; de dégâts [School()] à toutes les mascottes adverses.",135795,6,3,0,0
+2541,"Trop, c’est trop !","Après de trop nombreux tours, vos mascottes risquent de graves blessures. Vous devez les retirer.",133036,3,0,240,3
+2542,"Trop, c’est trop !","Après de trop nombreux tours, vos mascottes risquent de graves blessures. Vous devez les retirer.",535592,4,20,0,2
+2543,"Trop, c’est trop !","Après de trop nombreux tours, vos mascottes risquent de graves blessures. Vous devez les retirer.",133036,3,0,0,10
+2544,Contrôleur de phase,"Contrôleur de phase de combat de boss. Applique INIT : aura de l’équipe alliée sur le boss.
+
+Chaque phase nécessite sa propre aura de contrôle qui annule les auras de contrôle des phases précédentes. Cela permet d’interrompre les conditions de course appliquant les mauvaises auras de phase. Essayer de tout faire avec une seule aura provoque lesdites conditions de course.",535592,4,0,0,10
+2545,Phase 1,"Phase 1, changement de technique.",535592,4,0,0,10
+2546,Phase 2,Phase 2,535592,4,0,0,10
+2547,Croquegriffe,"|cffffffffChances de toucher :|r [StandardAccuracy(1,2)]
+
+Inflige [StandardDamage(1,2)*4] $lpoint:points; de dégâts [School()] à la mascotte adverse.
+
+Croquegriffe brise tous les effets de réduction de dégâts fixes sur la cible adverse.",1278390,9,0,0,0
+2548,Phase 3,Phase 3,535592,4,0,0,10
+2549,Contrôleur de la phase 1,Contrôle le changement de technique de la phase 1,535592,4,0,0,10
+2550,Contrôleur de la phase 2,Contrôle le changement de technique de la phase 2,535592,4,0,0,10
+2551,Contrôleur de la phase 3,Contrôle le changement de technique de la phase 3,535592,4,0,0,10

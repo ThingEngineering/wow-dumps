@@ -1714,7 +1714,7 @@ Unangreifbar.",133151,-1,0,461,0
 835,Eierflip,Entfernt alle Stärkungs- und Schwächungseffekte vom Benutzer.,132803,0,2,0,18
 836,Explosives Aufplatzen,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
-Tötet den Benutzer sofort und fügt dem aktuellen Gegner Schaden in Höhe von [FormatDamage(points(1,1))]% der Gesamtgesundheit des Benutzers zu. Dem Schaden kann nicht ausgewichen werden, und er kann weder geblockt noch vermieden werden.",656595,5,0,0,0
+Tötet den Benutzer sofort und fügt dem aktuellen Gegner Schaden in Höhe von [FormatDamage(points(1,1))]% der Gesamtgesundheit des Benutzers zu. Dem Schaden kann nicht ausgewichen werden, und er kann weder geblockt noch vermieden werden.",656595,5,0,0,2
 837,Zentrifugalhaken,"Geschwindigkeit um [abs(abilityStateMod( 25, 837 ))]% erhöht.",648208,-1,0,26,2
 838,Zentrifugalhaken,"|cffffffffTrefferchance:|r [StandardAccuracy(1,1)]
 
@@ -3831,3 +3831,20 @@ Während der Erholungsphase können keine anderen Aktionen durchgeführt werden.
 2539,Teufelsnova,"[StandardAccuracy(1,1)] |cffffffffTrefferchance:|r
 
 Erzeugt eine Welle aus Teufelsmacht, die allen gegnerischen Haustieren [StandardDamage(1,1)] [School()]schaden zufügt.",135795,6,3,0,0
+2541,Zu groß!,Nach zu vielen Runden drohen Euren Haustieren ernsthafte Verletzungen und Ihr müsst sie zurückziehen.,133036,3,0,240,3
+2542,Zu groß!,Nach zu vielen Runden drohen Euren Haustieren ernsthafte Verletzungen und Ihr müsst sie zurückziehen.,535592,4,20,0,2
+2543,Zu groß!,Nach zu vielen Runden drohen Euren Haustieren ernsthafte Verletzungen und Ihr müsst sie zurückziehen.,133036,3,0,0,10
+2544,Phasensteuerung,"Phasensteuerung für Bosskämpfe. Initialisiert eine verbündete Aura auf dem Boss.
+
+Jede Phase braucht ihre eigene Steuerungsaura, welche die Steuerungsauren der vorherigen Phasen beendet. Dies dient dazu, Wettlaufsituationen zu vermeiden, in denen die falsche Phasenaura verwendet wird. Die Verwendung von nur einer Aura führt zu besagten Wettlaufsituationen.",535592,4,0,0,10
+2545,Phase 1,"Phase 1, Fähigkeit wechselt.",535592,4,0,0,10
+2546,Phase 2,Phase 2,535592,4,0,0,10
+2547,Klauenknacken,"[StandardAccuracy(1,2)] |cffffffffTrefferchance:|r
+
+Fügt dem gegnerischen Haustier [StandardDamage(1,2)*4] [School()]schaden zu.
+
+'Klauenknacken' entfernt alle statischen Mitigationseffekte vom gegnerischen Ziel.",1278390,9,0,0,0
+2548,Phase 3,Phase 3,535592,4,0,0,10
+2549,Steuerung für Phase 1,Steuert den Fähigkeitswechsel in Phase 1,535592,4,0,0,10
+2550,Steuerung für Phase 2,Steuert den Fähigkeitswechsel in Phase 2,535592,4,0,0,10
+2551,Steuerung für Phase 3,Steuert den Fähigkeitswechsel in Phase 3,535592,4,0,0,10
